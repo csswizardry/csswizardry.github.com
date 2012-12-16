@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Keeping code clean with content &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>The CSS <code>content</code> property is one that has been around for a while. It's not new, nor is it particularly ground-breaking. It is however, at least in my opinion, extremely useful and extremely underused. For those not in the know, <code>content</code> sets, well, the content of an element via CSS. That is to say it gets rendered in the page but doesn't appear in the markup. Coupled with the <code>:before</code> or <code>:after</code> pseudo-elements you can prepend or append content to an element respectively:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/* Add a pilcrow before paragraphs */&lt;/span&gt;
+p:before{
+  content:"¶ ";
+}
+&lt;span class="code-comment"&gt;/* Add a bullet after the last paragraph */&lt;/span&gt;
+p:last-of-type:after{
+  content:" •";
+}&lt;/code&gt;
+</code></pre>
+
+<p>The benefit of this is that things that are technically stylistic that could only really be placed in the markup in order to make an appearance can actually be 'injected' into the page through CSS. This keeps your code free from any stylistic markup that adds non-semantic value, and means that any markup-like elements are added through the stylesheet.</p>
+
+<p>A particular example I have been using lately is simply:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;&lt;!-- Markup --&gt;&lt;/span&gt;
+&lt;dl&gt;
+  &lt;dt&gt;Name&lt;/dt&gt;
+  &lt;dd&gt;Harry&lt;/dd&gt;
+  &lt;dt&gt;Age&lt;/dt&gt;
+  &lt;dd&gt;20&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;span class="code-comment"&gt;/* CSS */&lt;/span&gt;
+dt:after{
+  content:":";
+}&lt;/code&gt;
+</code></pre>
+
+<p>The great thing here, and this is <em>extremely</em> die-hard web standards and semantics, is that an item's title is not <em>technically</em> 'Name:' or 'Age:', rather it is just 'Name' and 'Age'. The colon is, if you are being very anal, just stylistic.</p>
+
+<p>Also, another benefit is data-purity in a database. Imagine, for whatever reason, you're populating that <code>&lt;dl&gt;</code> from a database, you might end up storing 'Name:' and 'Age:' in there as opposed to the more clean and accurate 'Name' and 'Age'. Either that or your markup might look something like:</p>
+
+<pre><code>&lt;code&gt;&lt;dl&gt;
+  &lt;dt&gt;&lt;?=$userNameTitle; ?&gt;:&lt;/dt&gt;
+  &lt;dd&gt;&lt;?=$userName; ?&gt;&lt;/dd&gt;
+  &lt;dt&gt;&lt;?=$userAgeTitle; ?&gt;:&lt;/dt&gt;
+  &lt;dd&gt;&lt;?=$userAge; ?&gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Notice the trailing colons on the <code>&lt;dt&gt;</code>s? This can be avoided simply by utilising the <code>content</code> property.</p>
+
+<h2>Encoding</h2>
+
+<p>One point I will make is that, for certain symbols, you might need to encode them in the CSS file. If you know the symbol's numeric value (e.g. an em dash is <code>&amp;#151;</code>) simply fire it into <a href="http://www.evotech.net/articles/testjsentities.html">this converter</a> and paste the result into your CSS:</p>
+
+<pre><code>&lt;code&gt;h2:after{
+  content:"\0097"; &lt;span class="code-comment"&gt;/* Add an em dash after headings */&lt;/span&gt;
+}&lt;/code&gt;
+</code></pre>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Create a centred horizontal navigation &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>Centring block level elements is easy, just define a width and set <code>margin:0 auto;</code>, but what if you don't know that fixed width? You could use <code>text-align:center;</code>, but that won't work on 100%-width block-level elements either... that'll only work on text-level elements.</p>
+
+<p>Defining explicit widths and heights should always be avoided wherever possible, as doing so will make the document a lot less future-proof, flexible and extensible... Suppose you have four items in your navigation menu--you can work out the width of these and use <code>margin:0 auto;</code> to centre them. Adding a fifth will increase the width, meaning you'd need to alter the CSS, too. This is far from ideal, and more so with a CMS to power the site (a client can add pages, but perhaps can't edit CSS).</p>
+
+<p>However, there is a way to have a centred horizontal navigation without knowing an explicit width, and without adding CSS. It's also remarkably easy.</p>
+
+<p>The markup:</p>
+
+<pre><code>&lt;code&gt;&lt;ul id="nav"&gt;
+  &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/about/"&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/work/"&gt;Work&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/clients/"&gt;Clients&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/contact/"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Pretty standard, an unordered list of menu items. The CSS is where it's at. I have highlighted the bits that do the majority of the work:</p>
+
+<pre><code>&lt;code&gt;#nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  &lt;mark&gt;text-align:center;&lt;/mark&gt;
+}
+#nav li{
+  &lt;mark&gt;display:inline;&lt;/mark&gt;
+}
+#nav a{
+  &lt;mark&gt;display:inline-block;&lt;/mark&gt;
+  padding:10px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>What I've done here is simply create a navigation list and given it a border top and bottom (purely to highlight its centred text). Instead of floating the <em>block-level</em> <code>&lt;li&gt;</code>s left I've given them <code>display:inline;</code>, that is to say they no longer occupy 100% the available width and they now stack up nicely against each other.</p>
+
+<p>Next we use (the much underused) <code>display:inline-block;</code> to make sure the links themselves don't break onto new lines but still obey any padding values accordingly. Here I have given them a larger hit area by adding <code>padding:10px;</code></p>
+
+<p>You could have, if you wanted, applied inline-block to the <code>&lt;li&gt;</code>s. however IE6-7 will only allow <code>inline-block</code> to work on elements that are inherently inline elements. <code>display:inline-block;</code> will not work on block-level elements.</p>
+
+<h2><a href="/demos/centred-nav/">Demo</a></h2>
+
+<p><a href="/demos/centred-nav/">Here's a quick demo</a>. Try using Firebug or similar to add other list items on the fly, and watch as they seamlessly centre in the list. I have tested this in IE7-8 to find it works perfectly. I haven't checked IE6 but I imagine it'll be fine.</p>
+
+<h2>Update</h2>
+
+<p>You asked and I heard; I have made <a href="/demos/centred-nav/dropdown.html">a CSS powered dropdown version of this</a> for you. The line <code>top:100%;</code> will make the dropdown work in IE7, but kinda ruins the experience a little in all other browsers. Whether you leave it in or not is up to you. Again, view source for the how-to...</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

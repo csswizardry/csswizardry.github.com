@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Simplified page borders in pure CSS &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>You may well be familiar with <a href="http://hicksdesign.co.uk/">John Hicks</a>' page borders that he uses on his site. These are a series of fixed position <code>&lt;b&gt;</code> elements that are placed top, right, bottom and left of the viewport over the content, giving the illusion of a fixed border. I wanted to achieve a similar effect recently but, given <a href="http://csswizardry.com/2010/12/the-implementation-appreciation-rule/">my militant approach to progressive enhancement</a>, I decided to drop the insemantic markup and fashion a pure CSS alternative. For a live demo please visit <a href="http://suzannahaworth.com/">suzannahaworth.com</a>.</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*------------------------------------*\
+    BORDERS
+\*------------------------------------*/&lt;/span&gt;
+
+&lt;span class="code-comment"&gt;/* Create a series of empty pseudo-elements... */&lt;/span&gt;
+html:before,html:after,body:before,body:after{
+    content:"";
+    background:#dad8bb;
+    position:fixed;
+    display:block;
+    z-index:5;
+}
+
+&lt;span class="code-comment"&gt;/* ...and position them! */&lt;/span&gt;
+html:before{
+    height:10px;
+    left:0;
+    right:0;
+    top:0;
+}
+html:after{
+    width:10px;
+    top:0;
+    right:0;
+    bottom:0;
+}
+body:before{
+    height:10px;
+    right:0;
+    bottom:0;
+    left:0;
+}
+body:after{
+    width:10px;
+    top:0;
+    bottom:0;
+    left:0;
+}&lt;/code&gt;
+</code></pre>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

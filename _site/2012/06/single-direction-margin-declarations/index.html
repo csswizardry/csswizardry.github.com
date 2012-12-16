@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Single-direction margin declarations &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>This morning I awoke to find Smashing Magazine had retweeted <a href="https://twitter.com/csswizardry/status/190090844181774336">a tweet I made two months ago</a> about how you should always try and apply margins in one direction only. This, like most rules in web development, is a very general (and breakable) rule. It’s even a rule you can opt not to follow at all, but after receiving a slew of Tweets asking why, I thought I’d write up why it’s a rule I live by, and one I’d recommend to anyone…</p>
+
+<p>I’m not sure how I arrived at this rule, but I’m really glad I did and I would likely never ever change it. The basic premise is that you should try and define all your margins in one direction. This means always use <code>margin-bottom</code> to push items down the page, and <code>margin-left</code> to push them across the page. I’m going to focus mainly on <code>margin-bottom</code> throughout this article as it’s the most obvious to explain, but this can be applied to both directions (top/bottom, right/left).</p>
+
+<p>The benefits are, as I see them:</p>
+
+<ul>
+<li><p>Easier to define vertical rhythm in one fell swoop.</p></li>
+<li><p>More confidence in (re)moving components if you know their margins all push in the same direction.</p></li>
+<li><p>Components and elements don’t have to necessarily live in a certain order if their margins aren’t dependent on adjoining sides.</p></li>
+<li><p>Not being concerned with collapsing margins means one less thing to worry about.</p></li>
+</ul>
+
+
+<h2>Defining vertical rhythm</h2>
+
+<p>This next bit on its own is enough to convince me, this one tip is one of the most valuable ones I have, personally.</p>
+
+<p>Whenever I start a new project I typically want to know two things; my base <code>font-size</code> and my base <code>line-height</code>. Let’s say that I choose a base <code>font-size</code> of 16px and a base <code>line-height</code> of 24px. This gives me (<a href="http://csswizardry.com/2011/12/measuring-and-sizing-uis-2011-style/">in proper units</a>) this:</p>
+
+<pre><code>&lt;code&gt;html{
+    font:&lt;mark&gt;1em&lt;/mark&gt;/&lt;mark&gt;1.5&lt;/mark&gt; "Comic Sans MS", cursive;
+}&lt;/code&gt;
+</code></pre>
+
+<p>That 1.5 is my <a href="http://coding.smashingmagazine.com/2011/03/14/technical-web-typography-guidelines-and-techniques/#tt-magic-number">Magic Number</a>. This is massively important; knowing this number allows me to set up my entire project’s vertical rhythm in <em>one go</em>:</p>
+
+<pre><code>&lt;code&gt;h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr{
+    margin-bottom:&lt;mark&gt;1.5&lt;/mark&gt;rem;
+}&lt;/code&gt;
+</code></pre>
+
+<p>Bosh. Done. Now any block level element (I may have missed some) I add anywhere in that page will have a <code>line-height</code> of 24px (if my base <code>font-size</code> is 16px) and will be spaced apart by 24px (again, if my base <code>font-size</code> is 16px).</p>
+
+<p>I can extend that list of selectors as and when I need to and all will remain in order:</p>
+
+<pre><code>&lt;code&gt;h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+&lt;mark&gt;.header,.media,.island&lt;/mark&gt;{
+    margin-bottom:1.5rem;
+}&lt;/code&gt;
+</code></pre>
+
+<p>For me that is reason enough to stick to just defining my margins in one direction, I can just drop any element anywhere and it will obey the same vertical rhythm as any others.</p>
+
+<h2>Confidence in portability</h2>
+
+<p>So if I know that all my margins are consistently in the same direction then I can be a lot more confident that if I add, move or <em>remove</em> an element my spacing won’t mess up. This isn’t just about something as pretentious as vertical rhythm, this is about spacing in general. If everything is the same then it doesn’t really matter what is where, it all behaves similarly.</p>
+
+<p>If I had some odd situation where I have a <code>margin-top</code> on element <em>A</em>, a <code>margin-top</code> and <code>margin-bottom</code> on element <em>B</em> and a <code>margin-bottom</code> on element <em>C</em> how can I be sure that removing <em>B</em> won’t break anything? I can’t, because I mixed up my margins!</p>
+
+<h2>Less to think about</h2>
+
+<p>So if you can be sure things are a lot less likely to break there’s one less thing to worry (as much) about.</p>
+
+<p>One counter argument I got on Twitter today was that I didn’t ‘get’ collapsing margins. This kind of response really annoys (and offends) me. A similar one I get is ‘You just don’t understand specificity!’ whenever I advise against the use of IDs. It’s a developer’s understanding of a subject that allows them to know when to avoid or circumvent something.</p>
+
+<p><a href="http://www.w3.org/TR/CSS2/box.html#collapsing-margins">Collapsing margins</a> aren’t rocket science but they <em>are</em> one more caveat, one more thing to remember. Look at all that in the spec, all of that to have to consider just as a result of adjoining margins on elements. Don’t mix <code>margin-top</code> and <code>margin-bottom</code> and you won’t even need to think about that.</p>
+
+<p>As a developer gets better they try to be less clever. I know where using IDs can be a pain so I save myself the hassle by not using them, same with collapsing margins; no one gets points for taking the more complex route. I honestly believe that if anything with caveats or potential ‘gotchas’ can be avoided they should be*.</p>
+
+<p>I find I have never had any collapsed margin oddities in any of my projects because I avoid introducing the possibility.</p>
+
+<h2>Exceptions</h2>
+
+<p>By applying the <code>margin-bottom</code> to all block-level elements that means that most things you put into a page will carry that spacing. Let’s say for example you have a heading in a promotional box that you don’t wish to have a <code>margin-bottom</code>, simply override the rule as you would with any sensibly architected CSS:</p>
+
+<pre><code>&lt;code&gt;h1,h2,h3,h4,h5,h6,hgroup,
+...{
+    margin-bottom:1.5rem;
+}
+...
+.promo-title{
+    padding-bottom:1.5rem;
+    border-bottom:1px solid #ccc;
+    &lt;mark&gt;margin-bottom:0;&lt;/mark&gt;
+}&lt;/code&gt;
+</code></pre>
+
+<p>Using more specific selectors you can undo or alter your spacings with ease.</p>
+
+<p>In working at <a href="http://www.bskyb.com">Sky</a>, there were times when we wanted a larger break between one section and another, let’s say double (<code>3rem</code>) between a carousel and the content below it. Simple:</p>
+
+<pre><code>&lt;code&gt;.carousel{
+    ...
+    margin-bottom:3rem;
+    ...
+}&lt;/code&gt;
+</code></pre>
+
+<p>Interestingly, what I actually did was create an abstract class of <code>.landmark</code> which carried that <code>margin-bottom:3rem;</code> to denote any content that was deemed a large, thematic break in the page (signified by larger spacing).</p>
+
+<p>Other times we had a boxed-off bit of content for which I used the <a href="http://csswizardry.com/2011/10/the-island-object/">Island Object</a>. Some CSS like this…</p>
+
+<pre><code>&lt;code&gt;.island{
+    padding:1.5rem;
+    -webkit-border-radius:4px;
+       -moz-border-radius:4px;
+            border-radius:4px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>…would often lead to compounding margin-plus-padding issues, <a href="http://jsfiddle.net/csswizardry/5p8ts/">thus</a>. The solution here was simply to remove the <code>margin-bottom</code> from the last element, <a href="http://jsfiddle.net/csswizardry/5p8ts/1/">like so</a>.</p>
+
+<h3>Breaking the rule</h3>
+
+<p>Obviously there will come a time when this rule needs breaking; we can’t even try and kid ourselves--<em>all</em> web development rules get broken. However, before you do go against it, double and triple check that there isn’t a nicer solution. I really cannot remember the last time I broke this rule, but I’m sure I have and will need to in future. I just really, <em>really</em> try not to.</p>
+
+<h2>Final word</h2>
+
+<p>Everything I’ve written here is nigh on impossible to prove and isn’t quantifiable, but speaking anecdotally and from experience on some huge websites, the method I use works perfectly. More than perfectly. I genuinely cannot remember a time I have had problems with collapsing margins or spacing issues or anything arising from arbitrary margin declarations.</p>
+
+<p>If you think this might be of use then I urge you to try it, it really has worked wonders on every site I’ve ever employed this on. Conversely, if I’ve missed a trick please do tell me!</p>
+
+<p>If you don’t like the idea of it then that’s totally cool; I can’t prove anything and if you’re comfortable as you are then that’s great!</p>
+
+<p>*From the guy who likes unquoted attributes in HTML… I know!</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>In response to 'Invisible captcha to prevent form spam' &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>I seem to be doing a lot of these types of posts lately--responses to other articles. Today's is about an article pointed out to me by a friend and ex-colleague. The article deals with an interesting new way to <a href="http://www.ngenworks.com/blog/invisible_captcha_to_prevent_form_spam/">combat form spam by hiding a form field from human sight</a>, and working on the premise that a spam-bot (devoid of 'human sight') will continue to fill this field in, thus identifying it as being spam.</p>
+
+<p>The more astute among you will have already spotted the flaw. Is it just spam-bots that can't see? Nope, exactly.</p>
+
+<p>Screen-reader users can't see this form field in much the same way a spam-bot can't. Their screen-reader will read out the field's label and prompt them to fill it in.</p>
+
+<p>The issue here is that humans aren't meant to know about this field, and anyone filling it in will flag their submission up (incorrectly) as being spam.</p>
+
+<p>A way round this might be to label the field as 'Hey humans, do not put your email address in here!' and hope that they'll not be too confused by it, but that's unlikely because it's nothing <em>but</em> confusing. We also have to assume here that not all screen-readers will ignore content with <code>display:none;</code> applied to it.</p>
+
+<p>An interesting idea, but pretty inaccessible to a small minority of users. And users are more important than a lack-of-spam.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

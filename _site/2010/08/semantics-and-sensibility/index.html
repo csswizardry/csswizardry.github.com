@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Semantics and sensibility &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>For a while now, sensible naming conventions and semantics have been confused. Things such as <code>class="left"</code> or <code>class="clear"</code> have been deemed insemantic, whereas in reality, semantics really doesn't stretch that far… Let me illustrate with some code examples:</p>
+
+<h2>Insemantic code</h2>
+
+<p>The following code is just plain wrong, it's insemantic, using the wrong elements for the wrong job:</p>
+
+<pre><code>&lt;code&gt;&lt;div class="nav-link"&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/div&gt;
+&lt;div class="nav-link"&gt;&lt;a href="/about/"&gt;About&lt;/a&gt;&lt;/div&gt;
+&lt;div class="page-title"&gt;About&lt;/div&gt;
+&lt;div&gt;This is some page text about some stuff...&lt;/div&gt;&lt;/code&gt;
+</code></pre>
+
+<h2>Insensible code</h2>
+
+<p>This code is perfectly semantic, it just uses some silly classes:</p>
+
+<pre><code>&lt;code&gt;&lt;div class="border"&gt;
+  &lt;h2 class="red"&gt;This is a heading&lt;/h2&gt;
+&lt;/div&gt;&lt;/code&gt;
+</code></pre>
+
+<h2>Semantics concerns itself with elements...</h2>
+
+<p>...and not the names assigned to them. Using the correct element for the correct job is as far as semantics goes. Standards concerning naming of those elements is all about <em>sensibility</em>.</p>
+
+<p>Semantics sets a standard from which it is very difficult to stray. Headings are marked up with a <code>&lt;h1-6&gt;</code>, a list with <code>&lt;ul/ol/dl&gt;</code> and so on. You cannot, however, define a convention for naming the IDs and classes of these. <code>&lt;div id="contact"&gt;</code>, <code>&lt;div id="kontact"&gt;</code> and <code>&lt;div id="contact-info"&gt;</code> all bear different names, but are all equally as semantic. All three are examples of semantic <em>and</em> sensible code.</p>
+
+<p>However, take the following examples: <code>&lt;div id="bottom"&gt;</code>, <code>&lt;div id="lower-area"&gt;</code> and <code>&lt;div id="b"&gt;</code>. These examples exhibit semantic code, but with insensible namings.</p>
+
+<h3>Be sensible, for our sake</h3>
+
+<p>Semantics should be adhered no matter what--web standards are good. Naming however is totally down to you, you can call your elements whatever you wish. <code>&lt;div id="a"&gt;</code>, <code>&lt;div id="b"&gt;</code> and <code>&lt;div id="c"&gt;</code> are all possible, but not sensible.</p>
+
+<blockquote><p>"Always code like you're working in a team, even when you're not."</p></blockquote>
+
+<p>I have actually seen markup like this, and the developer's reasoning was 'I like to keep my markup as lean as possible, and I know what <code>a</code>, <code>b</code> and <code>c</code> do'.</p>
+
+<p>While this is all correct, and passable, it's not really very sensible. He might know what <code>a</code>, <code>b</code> and <code>c</code> do, but what about the person who inherits the project? For all his justification of code bloat was somewhat advanced (<em>really</em> decreasing markup size), the impression the next guy to see his code will have will be 'WTF was this guy thinking?!' Always code like you're working in a team, even when you're not.</p>
+
+<h2>Final word</h2>
+
+<blockquote><p>"An ID/class should be as short as possible but as long as necessary.--<a href="http://meiert.com/en/blog/20090617/maintainability-guide/">Jens Meiert</a></p></blockquote>
+
+<p>Semantics and sensibility are not the same. Anyone who tells you that <code>class="left"</code> is insemantic is wrong. Be semantic and be sensible. Pick names which are descriptive. An ID/class should be as short as possible but as long as necessary.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

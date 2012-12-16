@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>On HTML and CSS best practices &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>Best practices are exactly that; <em>best</em>. Not 'better', not 'good when…' or 'best if…', just best. They're always the best, no matter what.</p>
+
+<p>This is something I learned whilst undertaking the single biggest project of my career so far; the complete (and not-yet-live) rebuild of one of BSkyB's most trafficked websites. For years I'd been working on medium-sized projects where I strove to use as few classes as possible, my CSS was so elegant and hand-crafted and everything used the cascade. I thought it was beautiful.</p>
+
+<p>I found my old approach isn't best practice when working on a big site, therefore it's not best practice at all… You can scale down the big site mentality to smaller builds, you can't scale up small site mentality to bigger ones. With this in mind, how you'd build bigger sites is best practice, how you tend to build smaller sites is <em>typically</em> (though, as ever, not always) based on fallacy and myth.</p>
+
+<p>I recently rebuilt my friend <a href="http://sampenrose.co.uk/">Sam's design portfolio site</a>. Typically I'd have used IDs everywhere, not used any OO and not really paid much attention to the length or efficiency of my CSS selectors. This would have worked but only because the site is small. Any attempts by Sam to scale the site up, add pages, move components or alter the layout would have been hampered by these methods. Instead I decided to apply big-site mentality and dropped any IDs, used an OO approach and made sure every component is reusable. <a href="https://github.com/csswizardry/sampenrose.co.uk">The resulting code</a> is incredibly flexible, very efficient and still looks nice.</p>
+
+<ul>
+<li><p>OOCSS is <em>always</em> best practice.</p></li>
+<li><p>DRY is <em>always</em> best practice.</p></li>
+<li><p>Efficiency is <em>always</em> best practice.</p></li>
+<li><p>Maintainability is <em>always</em> best practice.</p></li>
+<li><p>Flexibility is <em>always</em> best practice.</p></li>
+</ul>
+
+
+<p>It doesn't matter if you're building the next Facebook or if it's just a site for the builder down the road; best practice is always best. You might not notice an inefficient selector on a small site, but it doesn't mean that it's not still inefficient. Just because you don't notice something it doesn't mean it's not still happening.</p>
+
+<p>Build every site like it's a 1000 page behemoth because then it can scale; it may never need to, but it <em>can</em>. Building every site like it's a piece of art, using convoluted selectors and rigid, ID ridden code, it can never scale, even if you want it to.</p>
+
+<p>Your code might look like the <a href="http://en.wikipedia.org/wiki/Sistine_Chapel">Sistine Chapel</a>, but if it's a chore to maintain, or you find you can't pick up a component and drop it anywhere with zero worry, then it's not powerful. Code is about power before prettiness. You might feel dirty at first, but when you realise how nicely things fall into place using proper best practices you'll see the benefits.</p>
+
+<p>The only person who cares how pretty your code is is you. Your users want fast UIs, your clients want reliable builds and you and your team want code that is easy to maintain 6 months and a dozen client mind-changes down the line.</p>
+
+<p><strong>Best always means best, it has no caveats or conditions.</strong></p>
+
+<h2>Further reading</h2>
+
+<ul>
+<li><p><a href="http://www.lukew.com/ff/entry.asp?1379">Our Best Practices are Killing Us</a> by Nicole Sullivan</p></li>
+<li><p><a href="http://oocss.org/">OOCSS.org</a></p></li>
+</ul>
+
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

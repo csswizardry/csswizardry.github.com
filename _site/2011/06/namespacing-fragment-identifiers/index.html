@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Namespacing fragment identifiers &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>I just stumbled upon something amazing. <a href="http://www.w3.org/TR/html401/types.html#type-name">HTML allows colons (:) and periods (.) in ID tokens.</a></p>
+
+<p>At first I thought this was awesome because, well, how cool is that?! But then I realised that neither of these are any use in CSS:</p>
+
+<pre><code>&lt;code&gt;#foo:bar{ &lt;span class="code-comment"&gt;/* Looks for an element with an ID of foo and a pseudo-selector(class/element) of bar */&lt;/span&gt; }
+#foo.bar{ &lt;span class="code-comment"&gt;/* Looks for an element with an ID of foo and a class of bar */&lt;/span&gt; }
+&lt;/code&gt;
+</code></pre>
+
+<p>So, whilst these are perfectly valid in HTML, <del>they're useless in CSS</del> they <em>can</em> be <a href="http://csswizardry.com/2011/06/namespacing-fragment-identifiers/#addendum:escaping">styled with CSS</a>. Kinda sucks, huh? But! If we know they're okay in HTML and totally pointless in CSS, can we use that to our advantage?</p>
+
+<p>Answer: yes!</p>
+
+<h2>Fragment identifiers</h2>
+
+<p>This is just the fancy name for when you link to an element with an ID on it, e.g. <code>&lt;a href="#content"&gt;Skip to content&lt;/a&gt;</code>.</p>
+
+<p>I regularly use fragment identifiers when writing long articles with certain sections in them. The best and most relevant example I have is <a href="http://coding.smashingmagazine.com/2011/03/14/technical-web-typography-guidelines-and-techniques/">my epic on web type on Smashing Magazine</a>.</p>
+
+<p>Here I have a list of links to sections in the article, but you should notice I prefix each ID (and therefore its corresponding link's <code>href</code>) with <code>#tt-</code>. This is so that I know that my sections will (almost definitely) not be picked up by Smashing's CSS. If I had a section called <code>#face</code> and, for whatever crazy reason, Vitaly had a huge photo of himself with an ID of <code>#face</code> there would have been conflicts.</p>
+
+<p>This was a situation where I needed IDs for <em>no</em> styling whatsoever, but rather to be used as fragment identifiers. And, to circumvent any of these potential hiccups, I namespaced all my fragment identifiers with <code>#tt-</code>, standing for <em>technical type</em>.</p>
+
+<p>Here enters my little discovery...</p>
+
+<p>If we want an ID that won't be styled with CSS because we only want to link to it then we can use a colon or a period in there to:</p>
+
+<ol>
+<li><p>Ensure that CSS <em>cannot</em> touch the element even if it wanted to.</p></li>
+<li><p>Namespace the fragment identifier to show that it is meant as a link hook and give it some more human-friendly semantics.</p></li>
+</ol>
+
+
+<h2><a href="http://dl.dropbox.com/u/2629908/sandbox/namespacing/index.html">Demo</a></h2>
+
+<p>I've made <a href="http://dl.dropbox.com/u/2629908/sandbox/namespacing/index.html">a demo page of this</a> to a) prove that it works and b) show you how it works in situ.</p>
+
+<p><a href="http://validator.w3.org/check?verbose=1&amp;uri=http%3A%2F%2Fdl.dropbox.com%2Fu%2F2629908%2Fsandbox%2Fnamespacing%2Findex.html">Run it through the validator</a>, see, it works!</p>
+
+<p>I've also tested it in IE7+, Chrome and Firefox Mac and Win.</p>
+
+<h2>Problems?</h2>
+
+<p>Not that I can think of right away, but bear in mind that these elements cannot be styled via that ID.</p>
+
+<p>For the most part the elements will be styled on an element-level basis (e.g. <code>table{}</code>, <code>pre{}</code> and so on) so styling them explicitly should not be too important.</p>
+
+<p>If you do find you need to style them individually you could:</p>
+
+<ul>
+<li><p>Use a class.</p></li>
+<li><p>Revert to the tried and tested non-colon-or-period syntax.</p></li>
+</ul>
+
+
+<h2>A standard</h2>
+
+<p>I've never ever seen this anywhere before but I am already thinking it will be incredibly useful to me and any others who write documentation, articles or anything else with sections.</p>
+
+<p>I propose a (loose) standard whereby you namespace your fragment identifiers with relevant information, so if you're linking to a table in a document give the table an ID of <code>#table:sales-figures</code>, a figure showing a technical drawing an ID of <code>#figure:engine-section</code>, a section of an article an ID of <code>#section:intro</code> and so on.</p>
+
+<p>I have created <a href="https://github.com/csswizardry/namespacing-fragment-identifiers/blob/master/spec.html">a GitHub repo with an initial list of potential namespacing values</a> there could be. I encourage and appreciate your contributions!</p>
+
+<p>Any thoughts and feedback on this would be great!</p>
+
+<h2>Addendum</h2>
+
+<p>Ben '<a href="https://twitter.com/#!/cowboy">Cowboy</a>' Alman <a href="http://csswizardry.com/2011/06/namespacing-fragment-identifiers/#comment-61782">points out</a> that <a href="http://jsfiddle.net/csswizardry/ZYhhS/">escaping the colon will allow you to style the ID via CSS, as will escaping the period</a>:</p>
+
+<pre><code>&lt;code&gt;#foo\:bar{ &lt;span class="code-comment"&gt;/* Works! */&lt;/span&gt; }
+#foo\.bar{ &lt;span class="code-comment"&gt;/* Works! */&lt;/span&gt; }
+&lt;/code&gt;
+</code></pre>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Moving forward is holding us back &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>For years, web developers have been looking forward to that next feature, that new and monumental shift which has allowed them to break away from the shackles of obsolescence and adopt new and forward thinking technologies. But it is beginning to come full circle--that thirst for new technology has slowly brought us back to square one, reimposing the constraints that we have, for years, tried to rid ourselves of. <em>Moving forward is holding us back</em>.</p>
+
+<p>Okay, okay. That was a very alarmist intro. There is no web developers' apocalypse around the corner (not that I know of anyway, please don't take anything I say about the apocalypse as read. I don't want that responsibility.), nor are we going to have to regress to using tables and spacer GIFs again. The real issue here is that with all this new technology that keeps emerging and exciting web developers is unwittingly reimposing the restrictions of yesteryear...</p>
+
+<h2>Screen resolutions</h2>
+
+<p>Remember trying to break away from 800x600px?</p>
+
+<p>With the movement toward a more mobile web, screen resolutions are in fact getting smaller. The iPhone's maximum resolution is 480px, increasingly popular netbooks are set at about 1024px wide. Such a shift toward mobile and portable devices mean that screen sizes are actually getting <em>smaller</em>.</p>
+
+<p>In my opinion, <a href="http://csswizardry.com/2010/01/iphone-css-tips-for-building-iphone-websites/">iPhones and other mobile devices should be handled separately</a>, serving them device specific CSS. Netbooks on the other hand are still 'desktop' machines like any other. Their smallness is their key feature, and at 1024px horizontal resolution, they aren't that small anyway...</p>
+
+<p>With <a href="http://960.gs/">the 960 Grid System</a>, and <a href="http://csswizardry.com/type-tips/#tip-09">an optimum line length of 52-78 characters</a>, sticking to 1024px shouldn't be that difficult anyway. I believe that although desktop monitor sizes are generally getting larger, other equally important technologies are creeping up, and as responsible developers you should cater for them. Sure you may want to start adopting <a href="http://sam.brown.tc/entry/379/the-new-massive-blue">the 1080 grid</a>, which is all well and good if you know your audience, but to cater for the majority, we're <em>not ready to burst 1024 yet</em>.</p>
+
+<h2>Connection speeds</h2>
+
+<p>Remember building for 56k dial up connections? (I don't)</p>
+
+<p>Where permanent and fixed connections are getting much faster, connections to mobile devices through means such as 3G are <em>much</em> slower. The ability to optimise sites to be fast loading over such connections is getting more important. As edge-case resolutions are getting smaller, edge-case connections are getting slower. Much slower.</p>
+
+<h3>A word on Flash</h3>
+
+<p>Remember <a href="http://www.2advanced.com/">2Advanced</a>? A site of yesteryear...</p>
+
+<p>Flash seems to be dying a death anyway these days, slowly being superseded by Javascript and Canvas et al. However, what was once a fantastically powerful technology has been ousted completely from Apple's <em>i</em> products, making in an inviable option for content which needs to be universally accessible.</p>
+
+<h3>A real life example?</h3>
+
+<p>Anyone with an iPhone will know what I mean--spending any amount of time on an iPhone loading poorly optimised sites is a real grind, and via some sensible optimisation these problems can be easily alleviated.</p>
+
+<p>However, a more interesting example might be the one that happened to myself... When <a href="http://csswizardry.com/2010/01/pastures-newfrom-sense-to-venturelab/">we first started at Venturelab</a> we really were building the company from the ground up. For the first few weeks we were without desktop machines <em>and</em> internet. I was working on a 10.1″ netbook with a screen resolution of 1024x600px, and over a poor 3G connection via a dongle.</p>
+
+<blockquote><p>"Accessibility isn't just about disabilities, it's about varying degrees of ability to access content."</p></blockquote>
+
+<p>Working in this manner really made me wonder whether enough people are delivering content in a manner which is accessible on numerous levels. Accessibility isn't just about disabilities, it's about varying degrees of ability to access content. As responsible developers your content should be accessible through a full spectrum of means and in an acceptable manner.</p>
+
+<p>All it takes is some decent optimisation (which is also set to reap SEO benefits) and a reasonable page layout and you're already halfway there.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

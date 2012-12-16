@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Responsive images right now &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>Responsive design is everywhere; everyone's at it because, well, it's a great idea. It isn't without its problems, however...</p>
+
+<p>One of the more persistent issues is dealing with images. Resizing an image down to fit a smaller screen does work, but it's a massive performance hit if your user is having to download a 1000px image to display on her 480px screen. Even if they're on a super-fast WiFi connection, it makes no sense downloading 1000s of pixels if you can only display a fraction of that.</p>
+
+<p>There have  been several solutions posted and proposed around the internet but I've come up with a pretty humble one that you could use right away.</p>
+
+<p>It's a little fiddly, you have to hard-code some stuff and also process two images, but it does work and it is simple.</p>
+
+<p>The premise is this; your <code>&lt;img /&gt;</code> element is the smaller of the two images, the image you want 'mobile' users to download. You also have a containing <code>&lt;div&gt;</code> to which you apply the large version of the image as a background through CSS.</p>
+
+<p>You then hide the <code>&lt;img /&gt;</code> from 'desktop' users and show them the large, CSS background, and you hide the background image from 'mobile' users and just serve them the small inline image.</p>
+
+<p>The benefits here are that you're still using semantically sound markup; your HTML makes sense because there is an image element in there. The size of this image is irrelevant where semantics are concerned--a machine/browser etc doesn't need to 'see' the image, it just needs to access its data. Further, screen readers can still access this image and its <code>alt</code> text, making this method nice and accessible.</p>
+
+<p>So basically you are always serving an <code>&lt;img /&gt;</code> which is semantically sound, but you alter the cosmetics of that image depending on the size of device the user is using.</p>
+
+<p>Here is some example code:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;&lt;!-- HTML --&gt;&lt;/span&gt;
+&lt;div class="r-img" style="background:url(link/to/large/version); width:[width-of-image]px; height:[height-of-image]px;"&gt;
+    &lt;img src="link/to/small/version" alt="" /&gt;
+&lt;/div&gt;
+
+&lt;span class="code-comment"&gt;/* CSS */&lt;/span&gt;
+.r-img img{
+    &lt;span class="code-comment"&gt;/* Hide image off-screen on larger devices, but leave it accessible to screen-readers */&lt;/span&gt;
+    position:absolute;
+    left:-9999px;
+}
+
+&lt;span class="code-comment"&gt;/*--- RESPONSIVE ---*/&lt;/span&gt;
+@media(max-width:480px){
+.r-img{
+    &lt;span class="code-comment"&gt;/* Remove styling from the div */&lt;/span&gt;
+    background:none!important;
+    width:auto!important;
+    height:auto!important;
+}
+.r-img img{
+    &lt;span class="code-comment"&gt;/* Bring smaller image back into view */&lt;/span&gt;
+    position:static;
+    max-width:100%;
+}
+}&lt;/code&gt;
+</code></pre>
+
+<h2><a href="http://dl.dropbox.com/u/2629908/sandbox/responsive-images/index.html">Demo</a></h2>
+
+<p>I've made a little demo, try sizing your window down to see the functionality or, even better, visit it on your phone.</p>
+
+<p>Also, open up Firebug's <em>Net</em> tab and compare HTTP requests between the two versions. The background images, as you'd expect, just don't get downloaded on the responsive version. Unfortunately, users on larger screens will still download both images...</p>
+
+<p>Now, I did just think of this in the shower and wrote it straight down so please let me know of any potential stumbling blocks etc in the comments. Cheers!</p>
+
+<h2>Bonus</h2>
+
+<p>Instead of hiding the image off-screen we can actually set it to <code>width:100%</code> and <code>height:100%;</code> so it completely covers the background image and then set it to <code>opacity:0;</code>. This means that if a user right clicks the background image (to save it etc) they still can because they're focussed on an invisible image in the page. See <a href="http://dl.dropbox.com/u/2629908/sandbox/responsive-images/index2.html">the second demo</a>.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

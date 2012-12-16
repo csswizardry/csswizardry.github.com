@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>CSS powered ribbons the clean way &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>I've started buying <a href="http://www.netmag.co.uk/">.net magazine</a> again recently. I don't normally but I was hoping it might help in <a href="http://csswizardry.com/2011/02/hire-me/">my search for a super-awesome new agency</a>. I was flicking through this month's edition when I happened upon a Create a wraparound ribbon tutorial. I thought I'd give it a read as I really love little design conundrums and how other people solve them. I was a little surprised to see it had been done in five elements. I challenged myself to do it in one...</p>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2011/02/ribbon-example.gif" alt="Ribbon example" /></p>
+
+<p>Okay, so I can't re-publish or copy sections of the article but you can either buy .net and read it, or look at the tiny images on <a href="http://www.netmag.co.uk/zine/latest-issue/issue-212">the latest issue page</a>. It simply creates what is in the screenshot--a ribbon-like effect that sits outside and then 'behind' its content.</p>
+
+<p>I'm not bashing the author's work at all. It works and is--as far as I can see--pretty robust. However, it certainly doesn't need five elements and <em>definitely</em> no empty ones. His code was roughly:</p>
+
+<pre><code>&lt;code&gt;&lt;body&gt;
+
+  &lt;wrapper&gt;
+    &lt;wrapper&gt;
+      &lt;wrapper&gt;
+        &lt;h2&gt;&lt;/h2&gt;
+      &lt;/wrapper&gt;
+      &lt;empty&gt;&lt;/empty&gt;
+    &lt;/wrapper&gt;
+  &lt;/wrapper&gt;
+
+&lt;/body&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Mine is:</p>
+
+<pre><code>&lt;code&gt;&lt;body&gt;
+
+  &lt;h2&gt;&lt;/h2&gt;
+
+&lt;/body&gt;&lt;/code&gt;
+</code></pre>
+
+<p>And it does <em>exactly the same thing</em>. The CSS that powers the original makes use of <a href="http://jonrohan.me/guide/css/creating-triangles-in-css/">manipulating the CSS borders-arrow behaviour</a>. I opted for a good old fashioned image. There's nothing wrong with the border-arrow method but I'm orthodox, and manipulating borders to create what is essentially an image just feels really wrong to me. Use whichever you prefer, but remember that <em>images still count</em>!</p>
+
+<p>The full code for my CSS powered ribbon is simply:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;&lt;!-- MARKUP --&gt;&lt;/span&gt;
+&lt;body&gt;
+  &lt;h2&gt;&lt;/h2&gt;
+&lt;/body&gt;
+
+&lt;span class="code-comment"&gt;/* CSS */&lt;/span&gt;
+
+&lt;span class="code-comment"&gt;/*------------------------------------*\
+    MAIN
+\*------------------------------------*/&lt;/span&gt;
+html{
+    font-family:Cambria, Georgia, "Times New Roman", Times, serif;
+    background:#e4e3d5;
+    color:#666;
+    height:101%;
+}
+body{
+    width:940px;
+    padding:75px 10px;
+    margin:0 auto;
+    background:#fff;
+}
+
+&lt;span class="code-comment"&gt;/*------------------------------------*\
+    TYPE
+\*------------------------------------*/&lt;/span&gt;
+h2{
+    position:relative;
+    color:#fff;
+    background:#f43059;
+    font-size:1.5em;
+    float:left;
+    clear:both;
+    padding:10px 10px 10px 20px;
+    margin-left:-20px;
+    margin-bottom:20px;
+    text-shadow:0 -1px #d0284b, 0 1px #f96080;
+
+    -moz-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -o-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+}
+h2:before{
+    content:" ";
+    background:url(../img/css/ribbon.png);
+    display:block;
+    width:10px;
+    height:10px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin-bottom:-10px;
+    z-index:-1;
+}&lt;/code&gt;
+</code></pre>
+
+<p>There we have it in four less elements. His five (discounting the <code>&lt;body&gt;</code>) to my one <code>&lt;h2&gt;</code>. 80% less code.</p>
+
+<p>What this does is creates a white <code>&lt;h2&gt;</code> with a pink background, pulls the <code>&lt;h2&gt;</code> out of the content area with a negative margin and then places the image absolutely left-bottom of the <code>&lt;h2&gt;</code> in a <code>:before</code> pseudo-element. Job done.</p>
+
+<h2><a href="/demos/css-powered-ribbons/">Demo</a></h2>
+
+<p>I made <a href="/demos/css-powered-ribbons/">a demo</a>, also, which shows how this can be extended using some alternating <code>nth-of-type</code> styles. Feel free to pick it apart and see what does what. If any of the examples above seems out of context then view <a href="http://csswizardry.com/demos/css-powered-ribbons/css/style.css">the demo's stylesheet</a> and source for the comprehensive code.</p>
+
+<h2>Final word</h2>
+
+<p>This works in IE 7 (without the <code>:before</code> and <code>:after</code> pseudo-elements), IE8, Firefox and Chrome, all with varying degrees of progressively enhanced niceties. Your code should never suffer for the sake of such tiny design elements. Keep it lean and use an aggressive approach to progressive enhancement in order to keep your markup at its best.</p>
+
+<h3>Final final word</h3>
+
+<p>This isn't a dig at the author of the article <em>or</em> .net mag. This is simply an illustration of how progressive enhancement and some sensibility can solve the same problem in a far nicer, cleaner and more sensible fashion.</p>
+
+<p>Furthermore, do feel free to use either the border 'hack' or the image method. There's more than one way to skin a cat...</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

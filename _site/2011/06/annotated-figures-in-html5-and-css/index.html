@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Annotated <figure>s in HTML5 and CSS &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>I've never really been one for CSS experiments. They're cool and all, but I prefer solving real problems with good ol' CSS and markup. This is what this next thing was born from and I'm really pleased with the outcome! It's <a href="http://dl.dropbox.com/u/2629908/sandbox/annotations/index.html">image maps, meet annotations, meet HTML5's <code>&lt;figure&gt;</code> element</a>.</p>
+
+<p>Basically, we all know HTML5 has given us some pretty awesome new elements to toy with and some of the more humble ones are <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code>:</p>
+
+<pre><code>&lt;code&gt;&lt;figure&gt;
+  &lt;img src="/img.jpg" alt="" /&gt;
+  &lt;figcaption&gt;Caption for above image&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/code&gt;
+</code></pre>
+
+<p>In this post I'll show you how to turn that into <a href="http://dl.dropbox.com/u/2629908/sandbox/annotations/index.html">an image-map style annotated image</a> using really really semantic markup.</p>
+
+<hr />
+
+<h2><a href="http://dl.dropbox.com/u/2629908/sandbox/annotations/index.html">Demo</a></h2>
+
+<p>You're probably familiar with Flickr's notes which are shown upon hovering an image. Well functionally this is exactly like that (I've never actually looked at their markup but I imagine it's nigh on identical). Where this differs is that it uses some super-rich and semantic markup and it can be used as a CSS plugin! Simply paste the CSS into your site's stylesheet and start using HTML5 <code>&lt;figure&gt;</code> annotations.</p>
+
+<h2>The code</h2>
+
+<p>This technique is a really good example of layers of code. Perfect HTML that works absolutely great on its own, totally semantic and well structured. It doesn't need the CSS at all to function, the CSS just enhances it.</p>
+
+<h3>The HTML</h3>
+
+<p>The HTML is lovely and simple. Before we go any further <a href="http://dl.dropbox.com/u/2629908/sandbox/annotations/index.html">go back to the demo page</a> and disable styles. Seeing this without styles <em>should</em> show you just how semantic and sensible the markup really is. It's a perfect HTML layer that doesn't even <em>need</em> CSS to make sense or work.</p>
+
+<p>I've not included the whole page as all we really want to look at is this:</p>
+
+<pre><code>&lt;code&gt;&lt;figure class="annotated"&gt;
+
+  &lt;img src="img/photo.jpg" alt="Photograph of me on my bike" /&gt;
+
+  &lt;figcaption&gt;
+
+    &lt;b&gt;Things to note:&lt;/b&gt;
+
+    &lt;ul&gt;
+      &lt;!-- Positions of the list-items. These need defining inline. --&gt;
+      &lt;li style="top:255px; left:150px;"&gt;Helmet.&lt;/li&gt;
+      &lt;li style="top:420px; left:140px;"&gt;Ruptured ligaments in my ankle.&lt;/li&gt;
+      &lt;li style="top:480px; left:130px;"&gt;Low pressures.&lt;/li&gt;
+      &lt;li style="top:390px; left:325px;"&gt;The trailer I just jumped from.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;i&gt;&lt;a href="http://www.flickr.com/photos/suzannahaworth/4707464578/"&gt;Photo&lt;/a&gt; by &lt;a href="http://twitter.com/suzehaworth"&gt;@suzehaworth&lt;/a&gt;.&lt;/i&gt;
+
+  &lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/code&gt;
+</code></pre>
+
+<p>All we have here is a <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> with an image, a title and a list. The image is the subject of our figure and the list makes points about it. To associate these points with the image we simply have a <code>&lt;b&gt;</code> which we use to textually make the connection.</p>
+
+<h3>The CSS</h3>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*------------------------------------*\
+  ANNOTATIONS
+\*------------------------------------*/&lt;/span&gt;
+&lt;span class="code-comment"&gt;/*
+Apply a class of annotated to any figure you would like, well, annotated!
+*/&lt;/span&gt;
+.annotated{
+  position:relative;
+  &lt;span class="code-comment"&gt;/*display:inline-block; If you do not need to support IE7 and below uncomment this line and remove the inline width and height styles on the &lt;figure&gt; in your markup. */&lt;/span&gt;
+}
+.annotated img{ &lt;span class="code-comment"&gt;/* Set this to stop white-space appearing under the image. */&lt;/span&gt;
+  display:block;
+}
+.annotated b{ &lt;span class="code-comment"&gt;/* Hide the figcaption's title. */&lt;/span&gt;
+  position:absolute;
+  left:-99999px;
+}
+.annotated ul{ &lt;span class="code-comment"&gt;/* Set up the canvas for the annotations to sit on. */&lt;/span&gt;
+  list-style:none;
+  position:absolute; 
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+.annotated li{
+  display:block;
+  padding:0 5px;
+  &lt;span class="code-comment"&gt;/* Give them a width and a line-height suitable for your kind of images. I chose 50px. */&lt;/span&gt;
+  width:40px; &lt;span class="code-comment"&gt;/* 40px + 5px padding-right  + 5px padding-left = 50px */&lt;/span&gt;
+  line-height:50px;
+  position:absolute;
+  text-indent:-99999px; &lt;span class="code-comment"&gt;/* Hide the text off-screen. */&lt;/span&gt;
+  white-space:nowrap; &lt;span class="code-comment"&gt;/* Stop the annotations breaking onto several lines. */&lt;/span&gt;
+  cursor:default;
+}
+.annotated:hover li{ &lt;span class="code-comment"&gt;/* When we hover the figure show us where the annotations are. */&lt;/span&gt;
+  border:1px solid #fff;
+}
+.annotated li:hover { &lt;span class="code-comment"&gt;/* Show the text on hover. */&lt;/span&gt;
+  background:#fff;
+  background:rgba(255,255,255,0.75);
+  z-index:2; &lt;span class="code-comment"&gt;/* Bring current annotation above others. */&lt;/span&gt;
+  &lt;span class="code-comment"&gt;/* Remove the width and text-indent to show us our text! */&lt;/span&gt;
+  width:auto;
+  text-indent:0;
+
+  &lt;span class="code-comment"&gt;/* A bit o' progressive enhancement */&lt;/span&gt;
+  -moz-box-shadow:0 0 5px rgba(0,0,0,0.25);
+  -webkit-box-shadow:0 0 5px rgba(0,0,0,0.25);
+  box-shadow:0 0 5px rgba(0,0,0,0.25);
+}&lt;/code&gt;
+</code></pre>
+
+<p>The CSS is fairly well commented but basically what we do is:</p>
+
+<ul>
+<li><p>Hide the <code>&lt;b&gt;</code> title.</p></li>
+<li><p>Absolutely position and stretch the <code>&lt;ul&gt;</code> over the image.</p></li>
+<li><p>Give the <code>&lt;li&gt;</code>s a width and (line-)height and hide the text off-screen.</p></li>
+<li><p>Add borders to the list items when we hover the <code>&lt;figure&gt;</code>.</p></li>
+<li><p>Remove the width from and give a border to the <code>&lt;li&gt;</code>s on hover, and reveal the text.</p></li>
+</ul>
+
+
+<h3>A couple of things to note</h3>
+
+<p>Firstly, the list items need positioning with inline styles in the markup. This is far more pragmatic than giving each <code>&lt;li&gt;</code> an ID and doing each one through an external CSS file.</p>
+
+<p>Secondly, and more in depth, <em>how do we get the the <code>&lt;figure&gt;</code> to wrap around and hug the image?</em> We have four options.</p>
+
+<ul>
+<li><p>Leave it as-is, like I have here. This means that if you hover to the right of the image you are technically still inside the (block-level) <code>&lt;figure&gt;</code> and this will display the list item borders when your cursor isn't actually over the image. This isn't too bad, but a little unexpected...</p></li>
+<li><p>Float the <code>&lt;figure&gt;</code> left, which will force it to hug up to its largest child. The problem here is that you would have to <code>clear:both;</code> the subsequent element.</p></li>
+<li><p>Give the <code>&lt;figure&gt;</code> <code>display:inline-block;</code>, but this won't work in IE7 and below.</p></li>
+<li><p>The final and, in my opinion, most pragmatic solution would be to simply add an inline width and height to the <code>&lt;figure&gt;</code> which is identical to the dimensions of your image, thus: <code>&lt;figure style="width:427px;height:640px;"&gt;</code>.</p></li>
+</ul>
+
+
+<p>Decide which of those will suit your project best and put it to work. Simply pasting the CSS into your stylesheet and obeying the markup structure will allow you to annotate your figures in a much nicer fashion.</p>
+
+<p>I have just put <a href="https://github.com/csswizardry/annotate">this on GitHub</a> in a CSS plugin type fashion. Please feel free to download and poke through the code.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

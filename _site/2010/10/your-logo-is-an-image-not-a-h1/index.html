@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Your logo is an image, not a <h1> &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>Should you mark your logo up as an image or a <code>&lt;h1&gt;</code>? There has been much debate for a long time now as to how to mark up logos. Should your logo be an inline image (<code>&lt;img /&gt;</code>) or a <code>&lt;h1&gt;</code> with a background style--using one of <a href="http://www.mezzoblue.com/tests/revised-image-replacement/">many means of image replacement</a>--to apply the logo to that? This debate has been raging for goodness knows how long, but I'm going to try and explain in this article why you should mark up logos as inline images, and why that's the most sensible option.</p>
+
+<h2>A brief example of each</h2>
+
+<p>Using an image:</p>
+
+<pre><code>&lt;code&gt;&lt;a href="/" title="Return to the homepage" id="logo"&gt;
+  &lt;img src="/images/logo.gif" alt="Nike logo" /&gt;
+&lt;/a&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Using a <code>&lt;h1&gt;</code>:</p>
+
+<pre><code>&lt;code&gt;&lt;h1&gt;&lt;a href="/" title="Return to the homepage"&gt;Nike&lt;/a&gt;&lt;/h1&gt;
+
+h1 a{
+  width:;
+  height:;
+  display:block;
+  text-indent:-9999px;
+  background:url(/images/logo.gif);
+}&lt;/code&gt;
+</code></pre>
+
+<h2>Your logo is content</h2>
+
+<p>Your logo is content, not style. Style vs. content, in the web standards sense of the term, pertains to information and content that is required to be present/accessible irrespective of the presence of styles (in other words, CSS).</p>
+
+<p>A logo is content. Let's use Nike as an example throughout. Regardless of whether Nike's site is blue, red or green, their logo will always be 'that' swoosh. The logo is totally independent of the site's surrounding styles as the logo is content.</p>
+
+<p>Imagine you were to visit Nike's site in a browser that doesn't support styles. It only makes sense that that logo is still there. It's Nike's brand, and it'll be their brand whether their site is styled or not.</p>
+
+<p>So your logo is content; it's a visual representation of a brand that is defined long before that company's site can be brought into consideration. Nike is admittedly a very big brand, but a brand nonetheless. Transport that way of thinking to any build and it's becomes pretty obvious that a logo is indeed content.</p>
+
+<h3>Content = markup</h3>
+
+<p>So if a logo is content, a logo is markup, right? Right. You'd probably want to mark up your logo as follows:</p>
+
+<pre><code>&lt;code&gt;&lt;a href="/" title="Return to the homepage" id="logo"&gt;
+  &lt;img src="/images/logo.gif" alt="Nike logo" /&gt;
+&lt;/a&gt;&lt;/code&gt;
+</code></pre>
+
+<p>As simple as that. Regardless of styles your content--and therefore logo--persist. Use the <code>id="logo"</code> to style anything such as positioning, and that's it.</p>
+
+<h2>Your logo isn't a <code>&lt;h1&gt;</code></h2>
+
+<p>So we've proved that a logo is content, but let's now prove that it <em>isn't</em> a <code>&lt;h1&gt;</code>, a commonly held practice for marking up logos.</p>
+
+<blockquote><p>"To have the <h1> being the logo would be like having your name being a photo. They both represent the same thing, but are separate entities..."</p></blockquote>
+
+<p>The <code>&lt;h1&gt;</code> element is defined as being the uppermost, all-encompassing title of a page. Now, for a homepage this is something of a grey area. The chances are that your site is the site which the logo represents, i.e. Nike's logo appearing on Nike's site. On the homepage the <code>&lt;h1&gt;</code> may well be whatever the logo says; it may well be <code>&lt;h1&gt;Nike&lt;/h1&gt;</code>. This is a case where the logo and the <code>&lt;h1&gt;</code> share the same meaning. <em>But</em>, as discussed, the content of the two is different. The logo is still branding, and the <code>&lt;h1&gt;</code> is still a textual element. To have the <code>&lt;h1&gt;</code> being the logo would be like having your name being a photo. They both represent the same thing, but are separate entities in themselves. A coded example might be:</p>
+
+<pre><code>&lt;code&gt;&lt;a href="/" title="Return to the homepage" id="logo"&gt;
+  &lt;img src="/images/logo.gif" alt="Nike logo" /&gt;
+&lt;/a&gt;
+...
+&lt;h1&gt;Welcome to Nike's international website&lt;/h1&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Sometimes a homepage doesn't even require a <code>&lt;h1&gt;</code> to be visible. The logo alone is enough, but your page still needs that <code>&lt;h1&gt;</code> in the markup somewhere. It needs the logo to be an image but also needs a level one heading. Here you might want to have an 'invisible' <code>&lt;h1&gt;</code> like I have here on CSS Wizardry. This means that semantically you're marking up your logo as an image, as it should be, and providing a <code>&lt;h1&gt;</code> to screen-readers.</p>
+
+<h2>What if you don't have a logo?</h2>
+
+<p>Some sites, CSS Wizardry included, don't have a logo as such. I use a bit of browser text as a logo, but even though this is textual content I do not mark this up as a <code>&lt;h1&gt;</code>. I mark it up using an <code>&lt;em&gt;</code>. This is still a text-module element, and to my mind is semantically sound.</p>
+
+<h2>Problems with using a <code>&lt;h1&gt;</code> to mark up a logo</h2>
+
+<p>Although I did admit that the logo's text might also be the title (<code>&lt;h1&gt;</code>) of the homepage, there's a very good reason why you should not mark the logo up as one. What about your 'about page'? The title of that page is undoubtedly 'About me', and the <code>&lt;h1&gt;</code> is a page's title. It only stands to reason, then, that the page's <code>&lt;h1&gt;</code> reads <code>&lt;h1&gt;About me&lt;/h1&gt;</code>.</p>
+
+<p>If however I had marked up my logo as a <code>&lt;h1&gt;</code>, the about page's title would also be the same as the homepage, and a <code>&lt;h2&gt;</code> would have to take place as the page's actual title. This is wrong; obviously and unarguably wrong. And, by this token, your contact and portfolio and services pages' titles would all also be the same. This is the problem with marking logos up as <code>&lt;h1&gt;</code>s.</p>
+
+<h2>More practical reasons</h2>
+
+<p>And if you weren't convinced enough already, using an inline image will actually make your life easier.</p>
+
+<p>As previously mentioned, using an inline image allows  the logo to persist regardless of styles. This means that print stylesheets will have a logo embedded in the page as an image which they can print. Most printers, to conserve ink, will not print backgrounds, which means that any logos applied by means of a background image will be lost at print. Not great that your branding will be lost as soon as your site is printed, really.</p>
+
+<p>Furthermore, an inline image can have its dimensions altered. A background image on a <code>&lt;h1&gt;</code> can't. You can alter the size of the <code>&lt;h1&gt;</code>, but not its background (unless you're using some CSS3 background magic). This means that you cannot easily adapt the logo to different sizes through CSS alone; think about optimising for mobile. A useful CSS snippet for any mobile site is:</p>
+
+<pre><code>&lt;code&gt;img{
+  width:100%
+  max-width:100%;
+}&lt;/code&gt;
+</code></pre>
+
+<p>This means that all images will fill, but not break out of, the mobile screen. If your logo is applied as a background image it'll get ignored here. What might happen is that your <code>&lt;h1&gt;</code> will render narrower that its background image's dimensions (i.e. the background image is wider in pixels than the device's screen is) on a mobile device, giving the impression of clipping the logo off. Conversely, the <code>&lt;h1&gt;</code> might not fill the width of the page leaving it, and therefore its logo background, spanning only a percentage of the page.</p>
+
+<p>You can manipulate a logo as an <code>&lt;img /&gt;</code> far easier than you can as a background.</p>
+
+<h2>Stop applying logos as backgrounds</h2>
+
+<p>This really is semantics and web standards basics. A logo is content, not style. Just because your site is named the same as your logo reads does not make them the same thing. A logo should not be applied as backgrounds, and especially not to <code>&lt;h1&gt;</code>s. Some of the industry's 'best' flaunt this lack of standards openly, and it's just plain incorrect.</p>
+
+<p>A logo is an image, a <code>&lt;h1&gt;</code> is a title. Your logo is never a background image, it's never secondary content to anything. It is content in its own right and should be treated as such. Your logo is an image.</p>
+
+<p>If you take only one thing from this article, let it be that <strong>your logo is content, therefore an image</strong>.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Building sites without using IDs or classes &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>This morning, for one reason or another, I decided to have a go at coding up a page without using any IDs or classes in my markup, and therefore none in my CSS. I'm not sure why I tried it, I guess I just did... In order to make it a fairly painless job I dove straight into the browser and coded up a simple header, footer, two column layout. <a href="/demos/sites-without-ids-classes/">View the demo</a> and be sure to view the source.</p>
+
+<p>Using a combination of more advanced selectors such as sibling and <code>nth-of-type</code> you can target elements based on their position in the markup rather than a given name. The practical upshot of this is that your markup is much leaner and cleaner, removing class and ID names has a notable impact.</p>
+
+<h2>Using advanced selectors</h2>
+
+<p>For a complete list please see <a href="http://www.w3.org/TR/css3-selectors/">http://www.w3.org/TR/css3-selectors/</a></p>
+
+<p>The more advanced selectors take information about an element to determine whether it matches a certain criteria, for example <code>body&gt;div</code> will target a <code>div</code> that is a direct and immediate descendant of the <code>body</code>; <code>p+p</code> will target a paragraph immediately preceded by a paragraph.</p>
+
+<p>On this basis, you could select (for example) your main content <code>div</code> by knowing that it's the second <code>div</code> in your content wrapper: <code>body&gt;div div:nth-of-type(2)</code>. Broken down we have:</p>
+
+<ul>
+<li><p><code>body</code>--sets the root</p></li>
+<li><p><code>&gt;div</code>--the first <code>div</code> inside the body (the wrapper <code>div</code>)</p></li>
+<li><p><code>div:nth-of-type(2)</code>--the second <code>div</code> in the wrapper (just after the header <code>div</code>).</p></li>
+</ul>
+
+
+<h2>Why I think this won't catch on</h2>
+
+<p>For the time being, let's completely disregard that Internet Explorer completely disregards these selectors...</p>
+
+<p>As you can see from the above example, targeting the single, lone, unique content <code>div</code> has taken two advanced selectors and 27 bytes. The selectors are fixed, the content <code>div</code> will always have to be the second <code>div</code> in the <code>div</code> that is an immediate child of the <code>body</code>. This is incredibly restrictive. Surely <code>#content{…}</code> is far better than <code>body&gt;div div:nth-of-type(2){…}</code>…?</p>
+
+<p>For the sake of ease, instead of rambling about pros and cons, I've simply drawn up a list of advantages and disadvantages:</p>
+
+<h3>Advantages:</h3>
+
+<ul>
+<li><p>Leaner markup.</p></li>
+<li><p>Promotes more sensible structuring of code.</p></li>
+<li><p>Promotes semantics.</p></li>
+</ul>
+
+
+<h3>Disadvantages:</h3>
+
+<ul>
+<li><p>Difficult syntaxes to remember.</p></li>
+<li><p>Extremely restrictive--elements are styled based on their location meaning that any moving/restructuring means all styles tied to an element are lost. This leads me on to...</p></li>
+<li><p>The CSS is no longer just describing style, it also describes structure. CSS is a styling language, not a markup one.</p></li>
+<li><p>Arbitrary elements such as images and <code>div</code>s that change depending on page content (blog posts for example) aren't fixed enough to be styled based on their structure. This means that any variable content will require IDs and classes anyway, so you might as well us them across the board as opposed to a mix of with and without.</p></li>
+<li><p>Difficult to understand. I wrote <a href="/demos/sites-without-ids-classes/css/style.css">the CSS for the demo page</a> and I'm having a hard enough time doing the calculations to work out what does what. Imagine inheriting that!</p></li>
+<li><p>Jenga. As soon as you alter your markup, the structure dependent CSS will come falling down too, what might be the first child might become the second, making the second child the third and so on, creating a domino effect.</p></li>
+</ul>
+
+
+<h3>Final word</h3>
+
+<p>While the more advanced CSS(3) selectors are impressive, and incredibly powerful, they aren't flexible enough to allow any large dependency upon them. That, and they're more awkward to understand than the tried and tested ID/class 'hooks' we know and use. There are far too many downsides to make cleaner markup a big enough plus-side in my opinion... Oh, and Internet Explorer doesn't seem to honour any of them, but that can't have come as much of a surprise.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

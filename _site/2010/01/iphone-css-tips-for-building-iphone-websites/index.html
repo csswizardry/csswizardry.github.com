@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>iPhone CSS—tips for building iPhone websites &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>With the rapid rise in mobile browsers, it has probably never been more important to ensure your sites can be handled on these platforms. By far one of the most popular such browsers is Mobile Safari on the iPhone--this is one of the easiest browsers to develop for: it runs on Webkit (meaning a lot of rich CSS3 support) and it's only ever on one resolution and on one OS.</p>
+
+<p><strong>N.B.</strong> This article addresses iPhone development and iPhone development only. There is no reason why you cannot or should not develop for other mobile devices and platforms, Apple or otherwise. <em>This just happens to be an iPhone only post</em>.</p>
+
+<p>The practical upshot of this is that you need to do no cross-browser testing, and can use all the <a href="/css3/">CSS3</a> you like. This post will show you some of the basics of developing and designing websites for the iPhone and Mobile Safari.</p>
+
+<h2>To start</h2>
+
+<p>The first thing to remember when developing a site to be displayed on an iPhone is that it is <em>very</em> similar to designing a print stylesheet. <em>You need to linearise everything.</em> Make sure you have one column and everything is read in one line--straight from top to bottom. This will also put your markup writing skills to the test.</p>
+
+<p>Some people don't agree with browser sniffing, but you need to detect the iPhone somehow.</p>
+
+<p>This first bit of code is a PHP browser sniffing snippet, the actual CSS we'll use is not brought through via any server side code, we'll use some CSS media queries for that. What we'll use this code for is serving the markup with an iPhone specific meta tag and to shorten the current page's title.</p>
+
+<pre><code>&lt;code&gt;&lt;?php
+  $browser = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+    if ($browser == true){
+    $browser = 'iphone';
+  }
+?&gt;&lt;/code&gt;
+</code></pre>
+
+<p>What the above code does is sees if the user agent contains any instance of 'iPhone' using <a href="http://uk2.php.net/strpos">the <code>strpos</code> PHP function</a>. Place this piece of code at the very top of your header include, before any other markup. In order to action something if the browser <em>is</em> an iPhone, simply use the following bit of PHP logic in the place you want it to be initiated:</p>
+
+<pre><code>&lt;code&gt;&lt;?php if($browser == 'iphone'){ ?&gt;DO THIS&lt;?php } ?&gt;&lt;/code&gt;
+</code></pre>
+
+<p>We want people to save your site to their home screen...</p>
+
+<p>Now, to put that snippet to use. We want to do two things with this little piece of PHP.</p>
+
+<h3>Saving to the homescreen--shortening the page title</h3>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2010/01/iphone-01.jpg" alt="An iPhone screenshot of the CSS Wizardry home screen icon" /></p>
+
+<p>First off, we'd like users to be able to save a link to your site on their home screen, this is simple enough, they simply need to select to do so from within the browser. However, if you look at the title of my home page alone, it's quite long: CSS Wizardry--CSS, Web Standards, Typography, and Grids by Harry Roberts. This would never fit underneath an icon without being shortened, so we need to serve a different title to the iPhone only. To achieve this we us the PHP snippet like so:</p>
+
+<pre><code>&lt;code&gt;&lt;?php if($browser == 'iphone'){ ?&gt;
+  &lt;title&gt;Short iPhone only title&lt;/title&gt;
+&lt;?php }else{ ?&gt;
+  &lt;title&gt;Regular title&lt;/title&gt;
+&lt;?php } ?&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Now, both when browsing and saving your site to their home screen, a user will only ever see the shortened version.</p>
+
+<h4>The home screen icon</h4>
+
+<p>Actually making the icon is very simple. All you need to do is upload a 57x57px icon (usually a larger version of your favicon) to your server root. The icon must be named <code>apple-touch-icon.png</code>, and the iPhone will sort the rest out. See <a href="http://csswizardry.com/apple-touch-icon.png">my icon</a>.</p>
+
+<h3>Stopping user pinch-zooming</h3>
+
+<p>The second use for the PHP snippet is to serve the iPhone a meta tag which disables the user pinch-zoom that Mobile Safari offers:</p>
+
+<pre><code>&lt;code&gt;&lt;?php if($browser == 'iphone'){ ?&gt;
+  &lt;meta name="viewport"
+  content="width=device-width,
+  minimum-scale=1.0, maximum-scale=1.0" /&gt;
+&lt;?php } ?&gt;&lt;/code&gt;
+</code></pre>
+
+<p>This means that, once we've linearised the content and sorted the font sizing, the user will only ever have to traverse down your page, much like a native app.</p>
+
+<h2>Beginning styling</h2>
+
+<p>Some developers prefer to redirect iPhone users to a totally different version of the site--we won't be doing that.</p>
+
+<p>We could use the PHP snippet to serve the iPhone a whole new stylesheet, or even send the user to a whole new site, rather like Twitter does (<a href="http://m.twitter.com/">m.twitter.com</a>). However, there's a simpler way to do it using some CSS media queries. The advantage of this is that you're simply reusing old content and pre-written markup, and only ever using one CSS file.</p>
+
+<p>The first thing you need to do is make sure the HTML link element that points to your main stylesheet does <strong>not</strong> have a <code>media</code> attribute:</p>
+
+<pre><code>&lt;code&gt;&lt;link rel="stylesheet" type="text/css" href="/path/to/style.css" /&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Next, we're going to use <a href="http://csswizardry.com/quick-tips/#tip-15">Quick Tip #15</a> that I wrote on my Quick Tips page. This means that we can just add our iPhone styles directly onto the end of the main stylesheet, and inherit all the styles set for desktop viewing:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*--- Main CSS here ---*/&lt;/span&gt;
+
+&lt;span class="code-comment"&gt;/*------------------------------------*\
+    IPHONE
+\*------------------------------------*/&lt;/span&gt;
+@media screen and (max-device-width: 480px){
+&lt;span class="code-comment"&gt;/*--- iPhone only CSS here ---*/&lt;/span&gt;
+}
+&lt;/code&gt;
+</code></pre>
+
+<p>Now any CSS before the media query will be used across all platforms, but anything between the query will be used by any screen media with a maximum screen size of 480px (i.e. an iPhone).</p>
+
+<h3>Things to remember</h3>
+
+<p>There are a few key things to remember when developing CSS for the iPhone:</p>
+
+<ul>
+<li><p>Avoid explicit absolute widths--where possible you should use percentage widths.</p></li>
+<li><p>Linearise everything--where possible, remove all floats. We want no content side-by-side unnecessarily.</p></li>
+</ul>
+
+
+<p>The first thing to do is to set the <code>-webkit</code> proprietary CSS <code>-webkit-text-size-adjust</code> on the body which will resize the text for you, meaning you shouldn't have to touch any font sizes yourself. Also, if your body copy is set in a sans font such as Arial, now is your chance to use some Helvetica--for normal sites, Helvetica should not be used as body copy as it renders hideously on a PC. Take advantage of the fact that you can guarantee its presence and quality on an iPhone. Change your <code>font-family</code>:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*--- Main CSS here ---*/&lt;/span&gt;
+
+&lt;span class="code-comment"&gt;/*------------------------------------*\
+    IPHONE
+\*------------------------------------*/&lt;/span&gt;
+@media screen and (max-device-width: 480px){
+body{
+  -webkit-text-size-adjust:none;
+  font-family:Helvetica, Arial, Verdana, sans-serif;
+  padding:5px;
+}
+}
+&lt;/code&gt;
+</code></pre>
+
+<p>Above, I also added a small padding to make sure nothing touches the edge of the browser. All wrapper and content <code>div</code>s from here on in should be set to <code>width:100%;</code> making them the whole width of the screen, minus 10px.</p>
+
+<h3>Structure</h3>
+
+<p>Now, as all layouts differ I am going to assume a similar one to mine, a simple two column set up with a logo and menu in the header. If your layout is different I am sure you can quite easily retrofit it. As I mentioned before, remove all stylistic <code>float</code>s and set all widths to <code>100%</code>. If you are using <code>div</code>s sensibly (i.e. for large bodies of content and not for nav items) this code should see you right for linearising the content:</p>
+
+<pre><code>&lt;code&gt;@media screen and (max-device-width: 480px){
+body{...}
+div{
+  clear:both!important;
+  display:block!important;
+  width:100%!important;
+  float:none!important;
+  margin:0!important;
+  padding:0!important;
+}
+}
+&lt;/code&gt;
+</code></pre>
+
+<p>That will force all <code>div</code>s to rest one on top of the other, full width and in order. You have begun linearising all your content.</p>
+
+<h3>The navigation</h3>
+
+<p>If you have a navigation menu in which all the items are floated and made horizontal, insert the following:</p>
+
+<pre><code>&lt;code&gt;@media screen and (max-device-width: 480px){
+body{...}
+div{...}
+#nav,#nav li{
+  float:none!important;
+  clear:both!important;
+  margin:0 0 20px 0!important;
+  display:block;
+  padding:0;
+  text-align:left!important;
+  width:100%;
+}
+#nav{
+  border:1px solid #ccc;
+  padding:5px;
+  -webkit-border-radius:5px;
+}
+#nav li{
+  margin:0!important;
+}
+#nav li a{
+  display:block;
+}
+}
+&lt;/code&gt;
+</code></pre>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2010/01/iphone-02.jpg" alt="A screenshot of the CSS Wizardry navigation menu on an iPhone" /></p>
+
+<p>This then will give you a vertical navigation menu which has a 100% width and the actual links themselves have a larger hit area (applied via <code>display:block;</code>), meaning that it's prominent at the top of each page and easier for users to select single items.</p>
+
+<h3>Images</h3>
+
+<p>As images inherently have a set pixel width (i.e. their own width) there is a high chance that they will break out of the wrapper area (as a lot of images will be above 480px wide). To combat this simply add the following:</p>
+
+<pre><code>&lt;code&gt;@media screen and (max-device-width: 480px){
+body{...}
+div{...}
+#nav,#nav li{...}
+img{
+  max-width:100%;
+  height:auto;
+}
+}
+&lt;/code&gt;
+</code></pre>
+
+<p>Other than elements very specific to my site, that is pretty much <a href="/wp-content/themes/default/style.css">all the CSS I use to quickly size and linearise my content</a>. Any elements specific to your own site will obviously need considering on a case-by-case basis, but if you remember to not set absolute widths and to always linearise your content then it should be a doddle. Oh and it's a great time to use some guaranteed <a href="/css3/">CSS3</a>.</p>
+
+<p>View <a href="http://csswizardry.com/wp-content/uploads/2010/01/iphone-03.jpg">a screenshot of an entire page of CSS Wizardry</a> on an iPhone.</p>
+
+<p>Do you have an iPhone version of your site? Have you any more tips you'd like to add? Please do so in the comments below.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

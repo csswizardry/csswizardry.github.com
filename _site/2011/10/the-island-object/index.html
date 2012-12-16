@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>The ‘island’ object &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>One thing I've been doing a lot of lately, since starting at <a href="http://bskyb.com">Sky</a>, is writing abstractions. <a href="http://www.oocss.org">OOCSS</a> is nothing new, but its basic premise is that you can build really simple objects using a base class and then extend that object with more classes to add more styling to make a simple construct progressively more complex and specific.</p>
+
+<p>One abstraction I love is by <a href="https://twitter.com/stubbornella">Nicole Sullivan</a> (one of the best front-end devs in the world ever); the <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/">media object</a>. Another I wrote is the more simple <a href="http://csswizardry.com/2011/09/the-nav-abstraction/">nav abstraction</a>.</p>
+
+<p>Today I'm going to share one that's simpler still; the <em>island object</em>...</p>
+
+<p>This super simple object is basically a single class used to box off content, leaving it closed on all sides like, well, an island.</p>
+
+<p>Often you'd find yourself with markup and CSS a little like this:</p>
+
+<pre><code>&lt;code&gt;&lt;div class=content&gt;
+
+  &lt;div class=promo&gt;
+      ...
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=sub-content&gt;
+
+  &lt;div class=twitter&gt;
+    ...
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+.content{
+  width:460px;
+  float:left;
+  padding:20px;
+  margin-bottom:20px;
+  background-color:#fff;
+}
+.sub-content{
+  width:160px;
+  float:left;
+  padding:20px;
+  margin-bottom:20px;
+  background-color:#333;
+  color:#fff;
+}
+.promo{
+  padding:20px;
+  margin-bottom:20px;
+  border:1px solid #ff8;
+  background-color:#ffc;
+  color:#333;
+}
+.twitter{
+  padding:20px;
+  margin-bottom:20px;
+  color:#fff;
+  background-color:#00a0d1;
+}&lt;/code&gt;
+</code></pre>
+
+<p>Here we see that these are all standalone blocks of boxed off content, but they all share certain things in common. These are essentially all islands of content that are individually adapted to look different.</p>
+
+<p>Instead of repeating these declarations over and over we can make an abstraction to create padded, boxed off areas.</p>
+
+<p>Now, we could use <code>.box</code> as a class but this implies square; we could have a redesign where we use rounded corners or even wacky, wavy background images which, although <em>are</em> boxed off, aren't presentationally boxes. We don't like presentational classes if we can help it.</p>
+
+<p>Enter the <code>.island</code> class. Now our markup and CSS would be:</p>
+
+<pre><code>&lt;code&gt;&lt;div class="island content"&gt;
+
+  &lt;div class="island promo"&gt;
+      ...
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class="island sub-content"&gt;
+
+  &lt;div class="island twitter"&gt;
+    ...
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+.island{
+  padding:20px;
+  margin-bottom:20px;
+}
+  .island &gt; :last-child{
+    margin-bottom:0; &lt;span class="code-comment"&gt;/* Remove the margin from the last child of a boxed off area so that we don't end up with compounded margin/padding spacings. */&lt;/span&gt;
+  }
+
+.content{
+  width:460px;
+  float:left;
+  background-color:#fff;
+}
+.sub-content{
+  width:160px;
+  float:left;
+  background-color:#333;
+  color:#fff;
+}
+.promo{
+  border:1px solid #ff8;
+  background-color:#ffc;
+  color:#333;
+}
+.twitter{
+  color:#fff;
+  background-color:#00a0d1;
+}&lt;/code&gt;
+</code></pre>
+
+<p>This does make the HTML a tad larger, but the <code>.island</code> class is a powerful one that can quickly and rapidly create new areas of content without having to redeclare styles over and over.</p>
+
+<p>Extending the island object with more specific styles means that you can have components that look vastly different but that are built upon the same basic construct. This also means that if you decide you design needs a little more white-space you can up the <code>.island</code> padding to, say, 24px in one go and all content blocks will inherit this new style.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

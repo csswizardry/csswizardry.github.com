@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>The single responsibility principle applied to CSS &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>Having just spoken at <a href="http://2012.front-trends.com/">the Front-Trends conference in Warsaw</a>, I’ve decided to expand on something which my talk mentioned a lot: classes.</p>
+
+<p>My talk covered how to build big, scalable front-ends and one of the key factors involved in doing so is sensible and generous use of abstracted classes. One thing that really helps you achieve this is the application of the <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">single responsibility principle</a>, a method used mainly in OO programming.</p>
+
+<p>Loosely, the single responsibility principle states that every module or chunk of code (a function etc) should do one job well and one job only. The benefits of this are mainly in the way of maintainability and extensibility.</p>
+
+<p>If we don’t adhere to the SRP then we are likely to end up with code which does more than it should, this means that altering one part of that code could negatively impact a seemingly unrelated part of the same snippet. It also makes our code a lot less flexible in that we find our code is trying to do too much; it is too specific in its job to be portable and reusable. Abstracting chunks of functionality into several responsibilities means we can reuse a lot more of our code and recombine it over and over with other similarly abstracted chunks.</p>
+
+<p>The <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">Wikipedia article</a> makes a much better job of explaining than I can so I would recommend giving that a quick read (it’s only short).</p>
+
+<p>Also, you will find that a lot of us do this already, and perhaps without even realising. A class of <code>.wrapper</code> is a good example of the SRP at play; by having a single, reusable class whose sole job it is to group content we make our code a lot easier to work with. We don’t need to apply lots of widths to lots of elements; we use one extra <code>div</code> and delegate the width-constraining responsibility to that.</p>
+
+<p>We do this because it makes sense, but we don’t do it often enough; if we start actually thinking like this all the time we find we can vastly improve our code...</p>
+
+<p>The SRP is normally applied in programming circles but I have definitely found it is <em>incredibly</em> useful when making lean, scalable front-ends. Here’s a quick example of un-abstracted code that <strong>doesn’t</strong> follow the SRP:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;&lt;!-- HTML --&gt;&lt;/span&gt;
+&lt;a href=/product class=&lt;mark&gt;promo&lt;/mark&gt;&gt;Buy now!&lt;/a&gt;
+
+&lt;span class="code-comment"&gt;/* CSS */&lt;/span&gt;
+.promo{
+    display:block;
+    padding:20px;
+    margin-bottom:20px;
+    background-color:#09f;
+    color:#fff;
+    tex-shadow:0 0 1px rgba(0,0,0,0.25);
+    border-radius:4px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>Here we have a class for a promotional box of content. Here we are doing <strong>two</strong> things—we are defining box model and structure <em>and</em> we are defining cosmetics (colouring etc).</p>
+
+<p>We can refactor this code to adhere to the SRP by splitting those two chunks of functionality into two classes:</p>
+
+<pre><code>&lt;code&gt; &lt;span class="code-comment"&gt;&lt;!-- HTML --&gt;&lt;/span&gt;
+&lt;a href=product class="&lt;mark&gt;island&lt;/mark&gt; promo"&gt;Buy now!&lt;/a&gt;
+
+&lt;span class="code-comment"&gt;/* CSS */&lt;/span&gt;
+.island{
+    display:block;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.promo{
+    background-color:#09f;
+    color:#fff;
+    tex-shadow:0 0 1px rgba(0,0,0,0.25);
+    border-radius:4px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>We now have two classes which each carry a single responsibility; <code>.island</code> boxes off content and <code>.promo</code> applies our promotional styling. This now means that we can do things like this, which previously we couldn’t:</p>
+
+<pre><code>&lt;code&gt; &lt;span class="code-comment"&gt;&lt;!-- HTML --&gt;&lt;/span&gt;
+&lt;h2&gt;Buy now with promo code: &lt;span class=&lt;mark&gt;promo&lt;/mark&gt;&gt;0MG4WE50ME&lt;/span&gt;&lt;/h2&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Previously we couldn’t have managed this as the <code>.promo</code> class also carried a lot of box model; by abstracting our code into single responsibilities we can pick and choose what we want to use and where a lot more easily.</p>
+
+<p>We can take this much, much further; now we also have a generic class for boxing off content! Where we once might have had:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;&lt;!-- HTML --&gt;&lt;/span&gt;
+&lt;div id=header&gt;
+&lt;/div&gt;
+
+&lt;div id=content&gt;
+&lt;/div&gt;
+
+&lt;div id=sub-content&gt;
+&lt;/div&gt;
+
+&lt;div id=footer&gt;
+&lt;/div&gt;
+
+&lt;span class="code-comment"&gt;/* CSS */&lt;/span&gt;
+#header{
+    padding:20px;
+    margin-bottom:20px;
+    background-color:#121416;
+    color:#fff;
+}
+
+#content{
+    width:640px;
+    float:left;
+    margin-right:20px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+#sub-content{
+    width:280px;
+    float:left;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+#footer{
+    padding:20px;
+    margin-bottom:20px;
+    background-color:#e4e4e4;
+    color:#333;
+}&lt;/code&gt;
+</code></pre>
+
+<p>We would now have:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;&lt;!-- HTML --&gt;&lt;/span&gt;
+&lt;div class="&lt;mark&gt;island&lt;/mark&gt; header"&gt;
+&lt;/div&gt;
+
+&lt;div class="&lt;mark&gt;island&lt;/mark&gt; content"&gt;
+
+    &lt;h2&gt;Buy now with promo code &lt;span class=&lt;mark&gt;promo&lt;/mark&gt;&gt;0MG4WE50ME&lt;/span&gt;&lt;/h2&gt;
+
+&lt;/div&gt;
+
+&lt;div class="&lt;mark&gt;island&lt;/mark&gt; sub-content"&gt;
+
+    &lt;a href=product class="&lt;mark&gt;island&lt;/mark&gt; &lt;mark&gt;promo&lt;/mark&gt;"&gt;Buy now!&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;div class="&lt;mark&gt;island&lt;/mark&gt; footer"&gt;
+&lt;/div&gt;
+
+&lt;span class="code-comment"&gt;/* CSS */&lt;/span&gt;
+.island{
+    display:block;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.promo{
+    background-color:#09f;
+    color:#fff;
+    tex-shadow:0 0 1px rgba(0,0,0,0.25);
+    border-radius:4px;
+}
+
+.header{
+    background-color:#121416;
+    color:#fff;
+}
+
+.content{
+    width:640px;
+    float:left;
+    margin-right:20px;
+}
+
+.sub-content{
+    width:280px;
+    float:left;
+}
+
+.footer{
+    background-color:#e4e4e4;
+    color:#333;
+}&lt;/code&gt;
+</code></pre>
+
+<p>Because we abstracted our code out we now have a really portable class for simply boxing off content!</p>
+
+<p><strong>N.B.</strong> You should also abstract your layout to a grid system, taking the floats and widths off the page components and leaving that responsibility to the grids.</p>
+
+<p>Just some of the benefits of working like this are:</p>
+
+<ol>
+<li><p>Your CSS is a lot DRYer.</p></li>
+<li><p>You can make far-reaching changes to your designs by simply modifying a base abstraction only once.</p></li>
+<li><p>You can make safer changes because you know that when editing a class you are only ever altering <em>one</em> responsibility.</p></li>
+<li><p>You can combine responsibilities to make a variety of components from a lot of abstracted classes.</p></li>
+</ol>
+
+
+<p>Now we can take it further <em>still</em>.</p>
+
+<p>Because we have a nice <code>.island</code> class whose sole responsibility is to box off content then we can now do things like this:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;&lt;!-- HTML --&gt;&lt;/span&gt;
+&lt;div class="island content"&gt;
+    ...
+    &lt;form&gt;
+        &lt;p class="island &lt;mark&gt;error&lt;/mark&gt;"&gt;Please provide your name.&lt;/p&gt;
+        ...
+        &lt;label class=&lt;mark&gt;error&lt;/mark&gt;&gt;Name:&lt;/label&gt;
+        ...
+    &lt;/form&gt;
+    ...
+&lt;/div&gt;
+
+&lt;span class="code-comment"&gt;/* CSS */&lt;/span&gt;
+.island{
+    display:block;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.error{
+    background-color:#fce0e2;
+    color:#c00;
+}
+.error.island{
+    border:5px solid #c00;
+    border-radius:4px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>Because we have our chunks of CSS only working on one thing at a time then we can reuse and combine useful things time and time again. I’ve written about this before: <a href="https://plus.google.com/u/0/110483125936065828120/posts/DGPQzUdPi84">Class based builds are like eating at Subway</a>.</p>
+
+<h2>When to use it?</h2>
+
+<p>There’s no definite answer to questions like this but as a general rule try and stick to the SRP any time you think that subsets of a style rule could be split out into more manageable and <strong>reusable</strong> abstractions. Any time you are coding a potentially repeatable design pattern then try and split it out as per the single responsibility principle.</p>
+
+<h3>But!</h3>
+
+<p>It’s important not to take this too far; classes should be abstracted but ideally not presentational. Classes like <code>.round-corners</code> for the sake of SRP are really not all that advisable.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Font sizing with rem could be avoided &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>Jonathan Snook <a href="http://snook.ca/archives/html_and_css/font-size-with-rem">wrote recently</a> about the new font-sizing unit <code>rem</code>. Whilst I do find it interesting and potentially useful I do think it possibly solves a problem that doesn't actually exist...</p>
+
+<p><strong>N.B.</strong> This article isn't a response to Jonathan's, nor am I calling him out, he just happened to have laid some nice foundations with his article that allow me to use it as a base. It is worth noting further that Jonathan a) uses px to declare font-sizes anyway and b) does start with the base he intends to use. This article <em>isn't</em> a response to his.</p>
+
+<p>Jonathan uses the example:</p>
+
+<pre><code>&lt;code&gt;body { font-size:62.5%; }
+h1 { font-size: 2.4em; } /* =24px */
+p  { font-size: 1.4em; } /* =14px */
+li { font-size: 1.4em; } /* =14px? */
+li li, li p /* etc */ { font-size: 1em; }&lt;/code&gt;
+</code></pre>
+
+<p>Here he sets his base font-size to 10px then creates a <code>h1</code> size of 24px, <code>&lt;p&gt;</code>s and <code>&lt;li&gt;</code>s of 14px and then children of <code>&lt;p&gt;</code>s and <code>&lt;li&gt;</code>s at 1em, also 14px.</p>
+
+<p>Here is a problem that developers continuously cause themselves. It's clear here that, although he sets a body font-size of 10px, the actual base font-size is 14px. Therein lies the problem.</p>
+
+<p>Creating a base font-size that you don't actually need means you have to redefine nigh on every element to take on the size you <em>do</em> want--you're creating a rule that you don't even want and it's causing you work...</p>
+
+<p>If you want your base font-size to be 14px then set your <code>&lt;html&gt;</code> at <code>0.875em</code> and you're done. If you want a 24px <code>&lt;h1&gt;</code> then your CSS is simply <code>h1{ font-size:1.714em; }</code>.</p>
+
+<h2>The problem with 62.5%</h2>
+
+<p>The 62.5% trick is a common one, and does have its uses in two circumstances:</p>
+
+<ol>
+<li><p>You want simpler maths, for example if you are building an elastic layout (<code>width:30em;</code> == <code>width:300px;</code>)</p></li>
+<li><p>You <em>actually</em> want a base font-size of 10px</p></li>
+</ol>
+
+
+<p>If you are doing neither of these then be kind to yourself and set the base you <em>actually</em> want.</p>
+
+<p>The main reason people reset the font-size to 10px is point one; to make maths easier. If your quasi-base is 10px and you want an actual base of 12px it's simply 1.2em. The maths <em>is</em> easier, we can work with units of ten more easily, but that comes at the cost of maintainability.</p>
+
+<p>If you set your quasi-base at 10px and you want your body copy to be 12px, you have to style every single element that falls under 'body copy' individually. Hence Jonathan's giving font-sizes to list items and paragraphs. This means you're writing more code than you need and also leads to nasty inheritance problems; problems that rems are supposed to fix. A <code>&lt;p&gt;</code> in an <code>&lt;li&gt;</code> will be 1.2x12px, whereas it still only needs to be 12px.</p>
+
+<p>If you were to just set your base <em>at</em> 12px in the first place (<code>body{ font-size:0.75em; }</code>) then:</p>
+
+<ol>
+<li><p>You don't need to define every element individually; you style the exceptions rather than rewriting the rule.</p></li>
+<li><p>You don't get crazy-annoying inheritance issues.</p></li>
+</ol>
+
+
+<h2>Being lazy is causing you more work</h2>
+
+<p>The main reason, I feel, behind using the 62.5% method is laziness, and that's a good thing. Good developers are lazy. However that laziness is misguided; it's actually causing you more work. You have to define font-sizes on all elements rather than just once and letting them inherit <em>and</em> you have to tackle those horrible inheritance issues when an explicitly sized element is placed inside another one.</p>
+
+<p>When setting the base font-size correctly and only once the maths isn't as nice, I'll admit. With the 62.5% trick a font is an even ten times its em unit (2.4em = 24px, 5em = 50px and so on). With setting your base to what you actually want the chances are you <em>will</em> end up with a not-as-nice number. If you want your base to be 16px then 2.4em = 38.4px, 5em = 80px. It's a little more work in your calculator app, but it's a lot less work when it actually comes down to build.</p>
+
+<p>CSS Wizardry has a base of 16px, so I just leave it at <code>font-size:100%;</code>. 16px is the rule, headings are the exception. As such I only need to redefine font-sizes on headings.</p>
+
+<p>My maths is a little harder, my coding is a breeze...</p>
+
+<p>So by all means start using <code>rem</code>s, they seem pretty interesting, but it may just be solving a problem you don't even have...</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

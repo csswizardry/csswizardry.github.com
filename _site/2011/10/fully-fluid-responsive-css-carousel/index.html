@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Fully fluid, responsive CSS carousel &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>If you <a href="http://twitter.com/csswizardry">follow me on Twitter</a> you'll know I've been pretty enthused about this <a href="http://dl.dropbox.com/u/2629908/sandbox/fluid-css-carousel/index.html">fluid CSS carousel</a> of mine. There are two aspects to it; the fluidity and the CSS functionality.</p>
+
+<h2><a href="http://dl.dropbox.com/u/2629908/sandbox/fluid-css-carousel/index.html">Demo</a></h2>
+
+<p>The demo features photos of me, taken on various mountains by <a href="http://twitter.com/suzehaworth">Suze</a>. Cheers to her for the content.</p>
+
+<h2>The fluidity</h2>
+
+<p>Making a carousel fluid is actually ridiculously simple. Let us assume you have five panels. Remember that number!</p>
+
+<p>A carousel is made up of three basic components:</p>
+
+<ol>
+<li><p>A viewport</p></li>
+<li><p>A wrapper for the panes</p></li>
+<li><p>A pane</p></li>
+</ol>
+
+
+<p>Thus, our markup is:</p>
+
+<pre><code>&lt;code&gt;&lt;div class=carousel&gt;
+
+  &lt;ul class=panes&gt;
+
+    &lt;li&gt;
+      &lt;h2&gt;Pane 01 title&lt;/h2&gt;
+      &lt;img src=pane-01.jpg alt=""&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;h2&gt;Pane 02 title&lt;/h2&gt;
+      &lt;img src=pane-02.jpg alt=""&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;h2&gt;Pane 03 title&lt;/h2&gt;
+      &lt;img src=pane-03.jpg alt=""&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;h2&gt;Pane 04 title&lt;/h2&gt;
+      &lt;img src=pane-04.jpg alt=""&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;h2&gt;Pane 05 title&lt;/h2&gt;
+      &lt;img src=pane-05.jpg alt=""&gt;
+    &lt;/li&gt;
+
+  &lt;/ul&gt;
+
+&lt;/div&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Now, the viewport defines what we see, we slide our panes behind it and they poke through, like this:</p>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2011/10/carousel-anatomy.jpg" alt="Anatomy of a carousel" /></p>
+
+<p>The red denotes the viewport (and incidentally a single pane), the blue denotes the whole five panes <em>behind</em> the viewport.</p>
+
+<p>We just slide these behind the viewport to show a certain amount at a time, et voilà; carousel. But, you all know how carousels work, right...?</p>
+
+<p>To make this fluid is so simple. The viewport needs to fill its container, so this gets <code>width:100%;</code>. Easy.</p>
+
+<p>One pane needs to fit nicely in the viewport, so this needs to occupy 100% of the viewport. With this in mind...</p>
+
+<p>We have five panes, remember, so the <code>ul</code> needs a width of 500%. Five panes that are each the same width as the viewport gives us a width of <strong>500%</strong>.</p>
+
+<p>Now we know:</p>
+
+<pre><code>&lt;code&gt;.carousel{
+  width:100%;
+}
+.panes{
+  width:500%;
+}&lt;/code&gt;
+</code></pre>
+
+<p>So if <code>.panes</code> holds five panes, each pane should be 20% its width. This is where it might get a little confusing...</p>
+
+<p>The viewport is 100% width, the wrapper is five times as big as that and each pane is one fifth the width of the wrapper.</p>
+
+<p>Our code is left at:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*------------------------------------*\
+    $CAROUSEL
+\*------------------------------------*/&lt;/span&gt;
+.carousel{
+    overflow:hidden;
+    &lt;mark&gt;width:100%;&lt;/mark&gt;
+}
+.panes{
+    list-style:none;
+    position:relative;
+    &lt;mark&gt;width:500%;&lt;/mark&gt; &lt;span class="code-comment"&gt;/* Number of panes * 100% */&lt;/span&gt;
+    overflow:hidden; &lt;span class="code-comment"&gt;/* This is used solely to clear floats, it does not add functionality. */&lt;/span&gt;
+
+    -moz-animation:carousel 30s infinite;
+    -webkit-animation:carousel 30s infinite;
+    animation:carousel 30s infinite;
+}
+.panes &gt; li{
+    position:relative;
+    float:left;
+    &lt;mark&gt;width:20%;&lt;/mark&gt; &lt;span class="code-comment"&gt;/* 100 / number of panes */&lt;/span&gt;
+}
+.carousel img{
+    display:block;
+    width:100%;
+    max-width:100%;
+}
+.carousel h2{
+    font-size:1em;
+    padding:0.5em;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    left:10px;
+    text-align:right;
+    color:#fff;
+    background-color:rgba(0,0,0,0.75);
+}&lt;/code&gt;
+</code></pre>
+
+<p>The basic equation for making a carousel with any number of panes is:</p>
+
+<pre><code>&lt;code&gt;.carousel{
+  width:100%;
+}
+.panes{
+  width:&lt;mark&gt;100 * number of panes&lt;/mark&gt;%;
+}
+.panes &gt; li{
+  width:&lt;mark&gt;100 / number of panes&lt;/mark&gt;%;
+}&lt;/code&gt;
+</code></pre>
+
+<p>So, a four-pane carousel would be:</p>
+
+<pre><code>&lt;code&gt;.carousel{
+  width:100%;
+}
+.panes{
+  width:&lt;mark&gt;400&lt;/mark&gt;%;
+}
+.panes &gt; li{
+  width:&lt;mark&gt;25&lt;/mark&gt;%;
+}&lt;/code&gt;
+</code></pre>
+
+<p>It really is that simple. That's all there is to making a fluid carousel.</p>
+
+<h2>CSS powered</h2>
+
+<p>Okay, in this carousel I decided I was going to power it with CSS. This is super unorthodox so if you're yelling WTF at your screen please read on!</p>
+
+<p>It was going to be (and actually is) used on my good friend <a href="http://sampenrose.co.uk/">Sam Penrose's new design portfolio</a>, so knowing we had free reign and a little chance to experiment I decided to opt for a pure CSS solution.</p>
+
+<p>This is simple in theory but the maths gets <em>so</em> tricky.</p>
+
+<p>All we do is animate <code>.panels</code> from right to left then back again. We animate for a bit, we pause, we animate again, pause again and so on until it's done. Then we loop it infinitely.</p>
+
+<p>The CSS is:</p>
+
+<pre><code>&lt;code&gt;@keyframes carousel{
+    0%    { left:0; }
+    11%   { left:0; }
+    12.5% { left:-100%; }
+    23.5% { left:-100%; }
+    25%   { left:-200%; }
+    36%   { left:-200%; }
+    37.5% { left:-300%; }
+    48.5% { left:-300%; }
+    50%   { left:-400%; }
+    61%   { left:-400%; }
+    62.5% { left:-300%; }
+    73.5% { left:-300%; }
+    75%   { left:-200%; }
+    86%   { left:-200%; }
+    87.5% { left:-100%; }
+    98.5% { left:-100%; }
+    100%  { left:0; }
+}&lt;/code&gt;
+</code></pre>
+
+<p>The numbers are so tricky to work with and if anyone can come up with a decent equation to describe it I would be so happy. I've got <a href="http://twitter.com/makeusabrew">Nick</a> on the job, but I've not worked it out yet; I can't quite grasp the relation between five panes and the numbers above in a way that I could do some quick maths to work out the animations for a four-pane carousel.</p>
+
+<p>The problem is that you have to know how many full moves and pauses are needed for a full iteration of the carousel (before it starts on its infinite loop), and then how to evenly space these numbers between 0 and 100%. My animations last for 1.5% and pause for 11%, these numbers are perfect for adding up to 100%.</p>
+
+<h2>Update</h2>
+
+<p>Massive thanks to Clay who's worked out that the number of steps is 4n-3 and that the total time between start of one animation and the next is 100 / 2(n-1) (where n is the number of panes). See <a href="http://csswizardry.com/2011/10/fully-fluid-responsive-css-carousel/#comment-95396">his full comment</a>.</p>
+
+<p>But, the code above will sort you out a perfect animation for a five panes so feel free to nab it! I'll update if and when I crack some maths!</p>
+
+<h3>Wait, CSS?!</h3>
+
+<p>Using CSS for this is really, really unorthodox so comes with some massive caveats.</p>
+
+<p>Do not use CSS to animate this carousel if:</p>
+
+<ol>
+<li><p>You require the contents of every pane to be visually accessible to the user.</p></li>
+<li><p>You require full browser support.</p></li>
+<li><p>You do not require interactions (like stopping the animation or clicking between panes).</p></li>
+</ol>
+
+
+<p>If you are going to use this CSS-only method then ensure that:</p>
+
+<ol>
+<li><p>The user can still use the site fully without the contents of the panes.</p></li>
+<li><p>You are okay with older browsers not animating and just displaying the first pane.</p></li>
+<li><p>You do not want or require users to be able to interact with the carousel.</p></li>
+</ol>
+
+
+<p>If you can't use CSS then combine the fluidity above with plain ol' trusty JS.</p>
+
+<p>I will happily say that the fluidity is the most important, useful and impressive thing about this technique. Until I, or anyone, can get you a decent equation to substitute your numbers into, the CSS animations are too cumbersome and restrictive to be of large-scale use to most people.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

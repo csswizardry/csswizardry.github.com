@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Keep your CSS selectors short &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>One thing I believe, as a very, <em>very</em> general rule of thumb, is that as sites get bigger, selectors should get shorter.</p>
+
+<p>By this I mean that if you want to create extensible and maintainable, flexible and predictable websites, you should really take care to make your CSS selectors as dev-friendly as possible; i.e. short.</p>
+
+<p>Keeping CSS selectors short helps with a lot of things:</p>
+
+<ul>
+<li><p>Increases selector efficiency</p></li>
+<li><p>Reduces location dependency</p></li>
+<li><p>Increases portability</p></li>
+<li><p>Reduces chances of selector breakage</p></li>
+<li><p>Decreases specificity</p></li>
+<li><p>Can make code more forgiving</p></li>
+</ul>
+
+
+<p>This is a very vague list, so I’m going to address each in order. You will find that there is a lot of crossover between each point (e.g. reducing location dependency inherently means your selectors are more portable) but I feel they are all points in their own right.</p>
+
+<h2>Increases selector efficiency</h2>
+
+<p>I have written before about CSS selector efficiency. I'm going to gloss over a lot of the intricacies in this post so for a full background understanding I recommend you read <a href="http://csswizardry.com/2011/09/writing-efficient-css-selectors/">Writing efficient CSS selectors</a> first.</p>
+
+<p>If we ignore actual types of selector (<code>*{}</code> is typically the slowest, depending on how it's being used, IDs are the fastest followed by classes, descendants are comparably quite slow followed by pseudo-selectors) then <em>in general</em> it is safe to say that shorter selectors are faster.</p>
+
+<p>This stands to reason, if we compare these two selectors:</p>
+
+<pre><code>&lt;code&gt;html body .header .nav{}
+.nav{}&lt;/code&gt;
+</code></pre>
+
+<p>There we can see pretty clearly that in the first example, the browser has to look out for four things, the <code>.nav</code> class, then the <code>.header</code> class, then the <code>body</code> element and then, finally, the <code>html</code> element (browsers read selectors right-to-left).</p>
+
+<p>With the second example the browser only needs to look for one thing; the <code>.nav</code> class. The browser has <em>four times</em> less work to do to match that selector. Every time you write a selector try and trim as much losable stuff from it as possible. Instead of <code>ul.nav{}</code> (two checks) write <code>.nav{}</code> (one check). Instead of <code>.nav li a{}</code> (three) write <code>.nav a{}</code> (two).</p>
+
+<p>Now, <a href="http://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/">CSS selector performance is—by-and-large—not something we <em>really</em> need to worry about any more</a>, but that doesn't mean we should be wasteful. I'm sure none of us would miss a lost £5 but that doesn't mean we go slipping banknotes into paper shredders… Selector efficiency <em>does</em> exist and you might as well improve it where you <strong>very easily</strong> can.</p>
+
+<h2>Reduces location dependency</h2>
+
+<p>By keeping selectors short you are likely to be reducing the amount of descendant (e.g. <code>.sidebar .promo{}</code>) and child (e.g. <code>.sidebar &gt; .promo{}</code>) selectors. By removing these descending types of selectors you are reducing the necessity for an element to live inside another one. Let's reuse the <code>.sidebar .promo{}</code> example…</p>
+
+<p>By having a selector like <code>.sidebar .promo{}</code> we are saying we want to target any promotional item that lives in an element with the class of <code>.sidebar</code>. This means that we are tied to always using that styling inside a certain element; we have a dependency on location.</p>
+
+<p>By replacing <code>.sidebar .promo{}</code> with something like <code>.secondary-promo{}</code> we can now place the element in question <em>anywhere</em> we wish. In the sidebar—as before—but now also in the footer, or in the header, or after an article.</p>
+
+<p>By reducing descendants we can really reduce dependency and make things a lot more portable…</p>
+
+<h2>Increases portability</h2>
+
+<p>So now that we're not tied to locationally dependant selectors, we find that our components are a lot more portable. We can move things a lot more easily because our CSS doesn't care where a thing lives, it just cares that it exists. Awesome!</p>
+
+<p>Another way to increase portability is to not qualify selectors. A qualified selector is one like <code>ul.nav{}</code> or <code>a.button{}</code> or <code>div.content{}</code>.</p>
+
+<p>Qualified selectors are bad because they reduce efficiency (more checks than we really need) but—more importantly—because they tie us to specific elements. We can't now use that <code>.button</code> class on an <code>&lt;input&gt;</code> or a <code>&lt;button&gt;</code>, for example. We can't <a href="http://csswizardry.com/2011/09/the-nav-abstraction/">apply <code>.nav</code> to an <code>&lt;ol&gt;</code> to make a breadcrumb</a>.</p>
+
+<p><strong>Selectors should be element-agnostic</strong>. Your CSS shouldn't care what element you're wanting to apply styling to.</p>
+
+<p>Another way to make selectors more portable is to drop elements <em>altogether</em>. Take this, for example:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/* Base widget styling */&lt;/span&gt;
+.widget{}
+
+&lt;span class="code-comment"&gt;/* Style up widget titles */&lt;/span&gt;
+.widget &gt; h2{}&lt;/code&gt;
+</code></pre>
+
+<p>Here we have a troublesome selector; what if that <code>&lt;h2&gt;</code> needs to become a <code>&lt;h3&gt;</code>? What if we need to add another, non-titling <code>&lt;h2&gt;</code> as a child of <code>.widget</code>? We've made ourselves a very rigid and unportable selector here. Instead we should have:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/* Base widget styling */&lt;/span&gt;
+.widget{}
+
+&lt;span class="code-comment"&gt;/* Style up widget titles */&lt;/span&gt;
+.widget-title{}&lt;/code&gt;
+</code></pre>
+
+<p>Now we can apply <code>.widget-title</code> to <em>any</em> element—let's say a <code>&lt;h4&gt;</code>—and can now also have any number of unclassed <code>&lt;h4&gt;</code>s in the widget without them adopting any title styling. Ossom!</p>
+
+<h2>Reduces chances of selector breakage</h2>
+
+<p>The longer a selector is, the more things the browser has to satisfy before it can match it. The more checks there are then—naturally—the more chance there is for something to go wrong.</p>
+
+<p>A (very exaggerated) selector like <code>body &gt; div:nth-of-type(2) &gt; article:first-child &gt; p:first-child{}</code>—borrowed from my talk <a href="https://speakerdeck.com/u/csswizardry/p/breaking-good-habits?slide=15">Breaking Good Habits</a>—has <em>ten</em> checks; ten things that must be satisfied in order for the browser to make that match.</p>
+
+<p>All that needs to happen is the location of the <code>div:nth-of-type(2)</code> to change or the <code>p:first-child</code> to become a <code>blockquote</code> or the <code>article:first-child</code> to no longer be a child of the <code>div:nth-of-type(2)</code> or <em>any manner</em> of things before that selector will break. Simply replacing that with a class of <code>.intro{}</code> means that there is only one thing that could possibly break, and the chances of that happening are pretty much zero (you'd have to explicitly delete the class from your HTML to prevent a match).</p>
+
+<p>Shorter selectors mean there is statistically less chance for things to go wrong.</p>
+
+<h2>Decreases specificity</h2>
+
+<p>This is the big one! This is where it really matters!</p>
+
+<p>Longer selectors have a higher specificity. Specificity is a nightmare and <strong>you should keep specificity as low as possible all of the time</strong>. We already know that we <a href="http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/"><strong>do not use IDs in CSS</strong></a> but a chain of selectors are often just as bad (though not quite).</p>
+
+<p>A selector like <code>.widget &gt; h2{}</code> has a higher specificity (as well as the other problems we discussed) than a selector like <code>.widget-title{}</code>.</p>
+
+<p><code>.nav li a{}</code> has a higher specificity than <code>.nav a</code> (and is also less efficient). Reducing selector length reduces selector specificity and that is <strong>very important</strong>. High specificity leads to self-induced specificity battles that can only be won by making subsequent selectors <em>more</em> specific (or using <code>!important</code>, shame on you). This is a terrible thing. The easiest way to reduce specificity (after <em>dropping IDs from your CSS <strong>completely</strong></em>) is to keep your selectors short.</p>
+
+<h2>Can make code more forgiving</h2>
+
+<p>This is a very specific but very decent example of how short selectors can make code more forgiving. However, I will warn you, you can argue two sides of what I'm about to tell you; you can argue that it makes your code a lot more flexible and can gracefully handle breakages <strong>or</strong> you could argue that it allows breakages in the first place by being too lenient. Anyway, here's a true story…</p>
+
+<p>In working on a pretty huge project at Sky I stuck to my own rules and coded a (vertical) nav bar CSS like so:</p>
+
+<pre><code>&lt;code&gt;.nav{ &lt;span class="code-comment"&gt;/* Nav styles */&lt;/span&gt; }
+
+&lt;span class="code-comment"&gt;/* Note NO .nav li styles as this was a vertically stacking nav. */&lt;/span&gt;
+
+.nav a{ display:block; &lt;span class="code-comment"&gt;/* More styles */&lt;/span&gt; }&lt;/code&gt;
+</code></pre>
+
+<p>Now, there was a CMS error which went undetected where the markup getting spat out was:</p>
+
+<pre><code>&lt;code&gt;&lt;ul class=nav&gt;
+    &lt;a href=#&gt;&lt;/a&gt;
+    &lt;a href=#&gt;&lt;/a&gt;
+    &lt;a href=#&gt;&lt;/a&gt;
+    &lt;a href=#&gt;&lt;/a&gt;
+&lt;/ul&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Spot the problem? No <code>&lt;li&gt;</code>s! This is <em>really</em> not cool <strong>but</strong>, as I had used <code>.nav a{}</code> instead of <code>.nav li a{}</code> nothing broke. My code was a lot more forgiving than if I'd had that third check in there.</p>
+
+<p>Now, this doesn't make the markup right, and it does actually <em>allow</em> poorer markup than a more verbose selector, but you can see how the CSS was very forgiving of a markup error.</p>
+
+<p>Now I said you could argue both sides here, a more verbose selector means that we'd have spotted the CMS error immediately as no styles would have hit the <code>&lt;a&gt;</code>s. But! In the same breath, our CSS was flexible enough to be okay with that. Make of it what you will, because I too am sat on the fence and a little disappointed that the error wasn't spotted, but here is a very specific example of how shorter selectors can lead to more forgiving CSS.</p>
+
+<h2>Final word</h2>
+
+<p>I did mention that this is a rule I've applied to larger sites but, honestly, you should apply this everywhere. The things we've discussed tend to really come into their own (and their absence painfully aware) on larger builds, but they will definitely, <em>definitely</em> help you on builds of all sizes; small or large.</p>
+
+<p>So, by using more classes and less descendants, keeping selectors short and portable, keeping selectors element-agnostic and generally considering maintenance and chance-of-change when writing our CSS, we can really easily improve the quality of our code infinitely. We can make things more efficient, more forgiving, more flexible and more reusable just by revisiting one of the most simple and fundamental aspects of CSS; our selectors.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+---
+comments: true
+date: 2012-09-10 09:06:57
+layout: post
+slug: canvas-conf-2012
+title: Canvas Conf, 2012
+wordpress_id: 3827
+categories:
+- Speaking
+tag:
+- Canvas Conf
+---
+
+**N.B.** If you are attending The Digital Barn later this month then please don’t look at the slides!
+
+
+
+
+
+I’ve just returned from my third conference appearance at [Canvas Conf](http://2012.canvasconf.co.uk), a small, independent conference in Birmingham, the heart of the UK. The event was incredible; a variety of very talented speakers with very interesting talks.
+
+
+
+
+
+My talk, Big CSS, dealt with managing CSS on long running, large projects with lots of developers and lots of style[sheet]s.
+
+
+
+
+
+
+
+## Slides
+
+
+
+
+
+My slides can be found [over on Speaker Deck](https://speakerdeck.com/u/csswizardry/p/big-css). There was no recording at the event but the slides _should_ be fairly self-explanatory.
+
+
+
+
+
+I’d like to thank the guys for inviting me to speak, the conference was a great success, a very feel-good day and a lot of fun. I’d also like to thank [the audience](http://instagram.com/p/PRgGQ5ojG-/), who were great, and everyone who offered kind words after my talk; I still get _incredibly_ nervous. Cheers!

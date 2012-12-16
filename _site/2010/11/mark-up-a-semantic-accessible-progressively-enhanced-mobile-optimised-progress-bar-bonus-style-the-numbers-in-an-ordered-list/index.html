@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Mark up a semantic, accessible, progressively enhanced, mobile optimised progress bar (bonus: style the numbers in an ordered list!) &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>How about that for an over-the-top title? But it's true, that's what we're going to be doing. It's been a while since my last post, unfortunately, so I thought I'd make up for it with this sizeable offering in which we will learn a lot of really great techniques in order to make something as simple as a progress bar. By which I mean a breadcrumb-esque meter of steps, such as you might find on a checkout process; we are making <a href="/demos/progress-bar/">this</a>:</p>
+
+<p><a href="/demos/progress-bar/"><img src="http://csswizardry.com/wp-content/uploads/2010/11/progress.jpg" alt="Screenshot of the final product." /></a></p>
+
+<p>And in doing so we will cover:</p>
+
+<ul>
+<li><p>Design and build a semantic, accessible and sensible progress bar.</p></li>
+<li><p>Utilise the much underused method of styling page-specific elements based on their IDs.</p></li>
+<li><p>Style the numbers in an ordered list!</p></li>
+<li><p>Progressively enhance it with some CSS3.</p></li>
+<li><p>Optimise it for mobile.</p></li>
+</ul>
+
+
+<p><strong>N.B.</strong> This article isn't so much about a progress bar, but more an illustration that best practices and more advanced techniques can be applied to even the most insignificant aspects of a build to create something awesome!</p>
+
+<h2>Design and build</h2>
+
+<p>Let us assume the brief is this:</p>
+
+<p>We require a numbered progress bar to indicate user location (past, current and future) during a checkout path on the OurService™ website. It must:</p>
+
+<ul>
+<li><p>Be fully accessible.</p></li>
+<li><p>Provide a section title with supporting information.</p></li>
+<li><p>Highlight the user's current location in the process.</p></li>
+<li><p>Be navigable.</p></li>
+<li><p>Work on mobile devices.</p></li>
+</ul>
+
+
+<p>The design, let's assume, is predefined. It looks as above, purely because it has to. The design is not the major focus of this article, the code and techniques are.</p>
+
+<blockquote><p>"Code what you consume, not what you see."</p></blockquote>
+
+<h3>Design</h3>
+
+<p>The progress bar shall be a linear, left to right series of linked labels. Current location shall be indicated by a change in colour, progression onto the next step shall be indicated by an arrow.</p>
+
+<h3>Build</h3>
+
+<p>For the purposes of this tutorial we shall assume the current page is the payment page.</p>
+
+<p>One school of though I find invaluable when it comes to sensible and semantic builds is code what you consume, not what you see. This is a very broad generalisation but works for the most part. Code content independently of (and before you consider) coding any styles. Web development basics, but fundamental to web standards and progressive enhancement.</p>
+
+<p>So, what are we consuming? It's an ordered list of steps which indicate location in a process.</p>
+
+<p>Okay so first off we know we need an <code>&lt;ol&gt;</code> as this list has fixed and definite order. We also require titles and supporting copy for each item. As the titles and supporting copy require separation from one another we are going to wrap the titles in a <code>&lt;span&gt;</code>; a generic inline container. This leaves us with:</p>
+
+<pre><code>&lt;code&gt;&lt;body id="payment-page"&gt;
+
+  &lt;ol id="progress"&gt;
+
+    &lt;li class="details-step"&gt;
+      &lt;a href="#"&gt;
+        &lt;span&gt;Your details&lt;/span&gt; 
+        Name, email, address.
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li class="account-step"&gt;
+      &lt;a href="#"&gt;
+        &lt;span&gt;Create account&lt;/span&gt; 
+        Username and custom URL.
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li class="products-step"&gt;
+      &lt;a href="#"&gt;
+        &lt;span&gt;Product options&lt;/span&gt; 
+        Choose your package.
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li class="payment-step"&gt;
+      &lt;a href="#"&gt;
+        &lt;strong&gt;
+          &lt;span&gt;Payment&lt;/span&gt; 
+          PayPal, or credit card.
+        &lt;/strong&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li class="go-step"&gt;
+      &lt;a href="#"&gt;
+        &lt;span&gt;Go!&lt;/span&gt; 
+        Start using OurService™
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+  &lt;/ol&gt;
+
+&lt;/body&gt;&lt;/code&gt;
+</code></pre>
+
+<p>There are a few things in this code which I've not yet mentioned, one is the ID on the <code>&lt;body&gt;</code>, another being the class on each <code>&lt;li&gt;</code> and the last being the <code>&lt;strong&gt;</code> wrapped around the payment page's text. I shall explain these next.</p>
+
+<h4><code>&lt;body&gt;</code> ID and list item classes</h4>
+
+<p>A combination of an ID on the <code>&lt;body&gt;</code> and a class on a list item can allow you to know what the current page is. The CSS <code>#payment-page .payment-step{}</code> will target the payment section of the progress bar when it is on the payment page in the process. Similarly, <code>#go-page .go-step{}</code> will target the go item on the go page. I wrote <a href="http://www.venturelab.co.uk/devblog/2010/06/body-idsmaking-life-easier-for-yourself/">a much more in-depth article</a> on this over at <a href="http://www.venturelab.co.uk/">Venturelab</a>.</p>
+
+<h4>The <code>&lt;strong&gt;</code> around the payment step's text</h4>
+
+<p>If you're determining current page programatically, one could argue inserting a <code>class="current"</code> on the relevant item. This is doable, but avoiding such a class name is far nicer.</p>
+
+<p>As stated earlier we are assuming the current page to be the payment page. Now, we can style the current step on any page using CSS, as outlined above, however how would a user with styles disabled be able to tell what the current page is? How can we highlight this for those users?</p>
+
+<p>Well the solution would be to programatically wrap a <code>&lt;strong&gt;</code> around the text on that page, undo the bolding effects with CSS for browsers with styles enabled, and allow people viewing unstyled content to see that the bolded item is the current page. This gives us:</p>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2010/11/progress-unstyled.jpg" alt="Unstyled progress bar" /></p>
+
+<p>As you can see, users with styles disabled can clearly see the current link is the bolded one, this makes the progress bar that little bit more  accessible to those who might need it.</p>
+
+<p>So there we have it, the markup that powers the whole thing.</p>
+
+<hr />
+
+<h2>Styling</h2>
+
+<p>Now to style this thing up. First off we'll look at the very basic CSS, and that alone:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*------------------------------------*\
+  MAIN
+\*------------------------------------*/&lt;/span&gt;
+html{
+  height:101%;
+}
+body{
+  font-family:Calibri, Arial, Verdana, sans-serif;
+  background:#fff;
+  color:#88979e;
+  width:940px;
+  padding:10px;
+  margin:0 auto;
+}
+
+
+&lt;span class="code-comment"&gt;/*------------------------------------*\
+  PROGRESS
+\*------------------------------------*/&lt;/span&gt;
+#progress{
+  list-style:none; &lt;span class="code-comment"&gt;/* Remove the bullets */&lt;/span&gt;
+  float:left; &lt;span class="code-comment"&gt;/* Make its width equal to the combined width of the items inside it */&lt;/span&gt;
+  margin-bottom:20px;
+}
+#progress li{
+  float:left; &lt;span class="code-comment"&gt;/* Stack them all up left */&lt;/span&gt;
+  font-size:0.75em; &lt;span class="code-comment"&gt;/* Make the entire item smaller */&lt;/span&gt;
+  font-style:italic; &lt;span class="code-comment"&gt;/* Make the entire item italic */&lt;/span&gt;
+}
+#progress a{
+  display:block;
+  text-decoration:none;
+  padding:10px 25px 10px 10px; &lt;span class="code-comment"&gt;/* Padding to accomodate background image */&lt;/span&gt;
+  background:#7b8d77;
+  color:#fff;
+}
+#progress span{
+  font-size:1.333em; &lt;span class="code-comment"&gt;/* Bring the size of the title only back up */&lt;/span&gt;
+  font-weight:bold;
+  display:block;
+  font-style:normal; &lt;span class="code-comment"&gt;/* Undo the italics */&lt;/span&gt;
+}
+#progress strong{
+  font-weight:normal; &lt;span class="code-comment"&gt;/* Remove the bolding for CSS enabled browsers */&lt;/span&gt;
+}
+#progress a:hover{
+  text-decoration:none;
+}
+#progress a:hover span{
+  text-decoration:underline; &lt;span class="code-comment"&gt;/* Underline the title on hover */&lt;/span&gt;
+}
+#details-page .details-step a,
+#account-page .account-step a,
+#products-page .products-step a,
+#payment-page .payment-step a{
+  background:url(../img/css/splitter.gif) right center no-repeat #a49d4d; &lt;span class="code-comment"&gt;/* Arrow image on the current step */&lt;/span&gt;
+}
+#go-page .go-step a{
+  background:#a49d4d; &lt;span class="code-comment"&gt;/* Arrow image not needed on final step, colour only */&lt;/span&gt;
+}&lt;/code&gt;
+</code></pre>
+
+<p>All of the above is very obvious, it is essentially just like creating a normal navigational menu, and gives us this:</p>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2010/11/progress-basic.jpg" alt="Basic progress bar" /></p>
+
+<h2>Styling numbers in ordered lists</h2>
+
+<p>Next up we style the numbers in the ordered list by using the very very useful and much unknown CSS counter module. Because you have such limited control over the appearance of your bullets in (ordered) lists they can be a pain to style. This pain is alleviated somewhat when using an unordered list as you can simply use a background image. It is an altogether different story when you're using an ordered list as the bullet needs to change with each list item.</p>
+
+<p>What we do here is use CSS to do a very prog-like job; we get it to loop through each item in a parent container and then increment a user-defined value each time it encounters a specified child. Sounds Greek? <a href="http://www.impressivewebs.com/css-counter-increment/">Read this</a>.</p>
+
+<p>Once we have this number available to us we use the CSS <code>:before</code> pseudo-element and the <code>content:;</code> property to insert the number before each item. How cool is that?!</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*------------------------------------*\
+  PROGRESS
+\*------------------------------------*/&lt;/span&gt;
+#progress{
+  list-style:none;
+  float:left;
+  margin-bottom:20px;
+  counter-reset:step; &lt;span class="code-comment"&gt;/* Set up name of increment on parent */&lt;/span&gt;
+}
+#progress li{
+  float:left;
+  font-size:0.75em;
+  font-style:italic;
+}
+#progress a{
+  display:block;
+  text-decoration:none;
+  padding:10px 25px 10px 30px; &lt;span class="code-comment"&gt;/* Padding changed to 30px to accomodate number */&lt;/span&gt;
+  background:#7b8d77;
+  color:#fff;
+  position:relative; &lt;span class="code-comment"&gt;/* Relative position to allow absolute positioning later on */&lt;/span&gt;
+}
+#progress span{
+  font-size:1.333em;
+  font-weight:bold;
+  display:block;
+  font-style:normal;
+}
+#progress strong{
+  font-weight:normal
+}
+#progress a:hover{
+  text-decoration:none;
+}
+#progress a:hover span{
+  text-decoration:underline;
+}
+#progress li a:before{
+  counter-increment:step; &lt;span class="code-comment"&gt;/* Increment the step on each occurance of this (pesudo) element */&lt;/span&gt;
+  content:counter(step); &lt;span class="code-comment"&gt;/* Write out value of the increment */&lt;/span&gt;
+  text-align:center;
+  font-weight:bold;
+  position:absolute; &lt;span class="code-comment"&gt;/* Position number */&lt;/span&gt;
+  top:50%;
+  left:5px;
+  margin-top:-8px;
+}
+#details-page .details-step a,
+#account-page .account-step a,
+#products-page .products-step a,
+#payment-page .payment-step a{
+  background:url(../img/css/splitter.gif) right center no-repeat #a49d4d;
+}
+#go-page .go-step a{
+  background:#a49d4d;
+}&lt;/code&gt;
+</code></pre>
+
+<p>This then gives us this:</p>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2010/11/no-css3-progress.jpg" alt="Non-CSS3 progress bar" /></p>
+
+<hr />
+
+<h2>Progressively enhancing</h2>
+
+<p>Now for the CSS3 progressive bits:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*------------------------------------*\
+  PROGRESS
+\*------------------------------------*/&lt;/span&gt;
+#progress{
+  background:#7b8d77; &lt;span class="code-comment"&gt;/* Give the ol a background to prevent white showing through behind the items' round corners (change value to #f00 to see what I mean) */&lt;/span&gt;
+}
+#progress{
+  -moz-border-radius:5px;&lt;span class="code-comment"&gt;/* Round all corners of the progress bar */&lt;/span&gt;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}
+#progress a{
+  text-shadow:1px 1px 1px rgba(0,0,0,0.25); &lt;span class="code-comment"&gt;/* A small text-shadow */&lt;/span&gt;
+  -moz-border-radius:5px 0 0 5px; &lt;span class="code-comment"&gt;/* Round the top- and bottom-left corners */&lt;/span&gt;
+  -webkit-border-radius:5px 0 0 5px;
+  border-radius:5px 0 0 5px;
+}
+#details-page .details-step a,
+#account-page .account-step a,
+#products-page .products-step a,
+#payment-page .payment-step a{
+  background:url(../img/css/splitter.gif) right center no-repeat #a49d4d;
+}
+#progress .go-step a{
+  -moz-border-radius:5px; &lt;span class="code-comment"&gt;/* Round all corners of the final step */&lt;/span&gt;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>The full, combined CSS for the progress bar so far is:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*------------------------------------*\
+  MAIN
+\*------------------------------------*/&lt;/span&gt;
+html{
+  height:101%;
+}
+body{
+  font-family:Calibri, Arial, Verdana, sans-serif;
+  background:#fff;
+  color:#88979e;
+  width:940px;
+  padding:10px;
+  margin:0 auto;
+}
+
+
+&lt;span class="code-comment"&gt;/*------------------------------------*\
+  PROGRESS
+\*------------------------------------*/&lt;/span&gt;
+#progress{
+  list-style:none;
+  background:#7b8d77;
+  float:left;
+  margin-bottom:20px;
+  counter-reset:step;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}
+#progress li{
+  float:left;
+  font-size:0.75em;
+  font-style:italic;
+}
+#progress a{
+  display:block;
+  text-decoration:none;
+  padding:10px 25px 10px 30px;
+  background:#7b8d77;
+  color:#fff;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.25);
+  position:relative;
+  -moz-border-radius:5px 0 0 5px;
+  -webkit-border-radius:5px 0 0 5px;
+  border-radius:5px 0 0 5px;
+}
+#progress span{
+  font-size:1.333em;
+  font-weight:bold;
+  display:block;
+  font-style:normal;
+}
+#progress strong{
+  font-weight:normal
+}
+#progress a:hover{
+  text-decoration:none;
+}
+#progress a:hover span{
+  text-decoration:underline;
+}
+
+#progress li a:before{
+  counter-increment:step;
+  content:counter(step);
+  text-align:center;
+  font-weight:bold;
+  position:absolute;
+  top:50%;
+  left:5px;
+  margin-top:-8px;
+  padding:2px 6px;
+  background:rgba(0,0,0,0.25);
+
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius:20px;
+}
+#details-page .details-step a,
+#account-page .account-step a,
+#products-page .products-step a,
+#payment-page .payment-step a{
+  background:url(../img/css/splitter.gif) right center no-repeat #a49d4d;
+}
+#go-page .go-step a{
+  background:#a49d4d;
+}
+#progress .go-step a{
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>Which, when coupled with the markup, gives this:</p>
+
+<p><a href="/demos/progress-bar/"><img src="http://csswizardry.com/wp-content/uploads/2010/11/progress.jpg" alt="Screenshot of the final product." /></a></p>
+
+<hr />
+
+<h3>Recap</h3>
+
+<p>So, let's cover what we've done so far. We've:</p>
+
+<ul>
+<li><p>Coded up a semantic progress bar (using an ordered list and correct generic elements).</p></li>
+<li><p>Made it accessible (addition of the strong around the content for non-CSS browsers).</p></li>
+<li><p>Styled it all up.</p></li>
+<li><p>Made use of <a href="http://www.venturelab.co.uk/devblog/2010/06/body-idsmaking-life-easier-for-yourself/">the body ID trick</a> to mark the current page.</p></li>
+<li><p>Used CSS counters to style the numbers of an ordered list</p></li>
+<li><p>Progressively enhanced it all to make it a little easier on the eyes.</p></li>
+</ul>
+
+
+<h2>Mobile optimisation</h2>
+
+<p>For more information on mobile/iPhone optimised sites please see <a href="http://csswizardry.com/2010/01/iphone-css-tips-for-building-iphone-websites/">my associated article</a>.</p>
+
+<p>Next up we need to optimise this thing for mobile. This couldn't be simpler. The key to optimising sites for mobile is linearise. Linearise everything.</p>
+
+<p>In your markup, add this line to the <code>&lt;head&gt;</code> section, thus:</p>
+
+<pre><code>&lt;code&gt;&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+  &lt;title&gt;Progress&lt;/title&gt;
+  &lt;strong&gt;&lt;meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /&gt;&lt;/strong&gt;
+  &lt;link rel="stylesheet" type="text/css" href="css/new-style.css" /&gt;
+&lt;/head&gt;&lt;/code&gt;
+</code></pre>
+
+<p>This tells the user agent that the viewport should be the same as the device's own screen-size, that it should be initially set to a scale of 1 (i.e. no scale), its maximum scale is set to 1, and that users can't scale themselves.</p>
+
+<p>Now, add the following to the very end of your CSS file:</p>
+
+<pre><code>&lt;code&gt;&lt;span class="code-comment"&gt;/*------------------------------------*\
+    MOBILE
+\*------------------------------------*/&lt;/span&gt;
+@media (max-width: 480px){ &lt;span class="code-comment"&gt;/* In any browser narrower that 480px... */&lt;/span&gt;
+body{
+    width:auto; &lt;span class="code-comment"&gt;/* Give the body a fluid width... */&lt;/span&gt;
+    padding:5px; &lt;span class="code-comment"&gt;/* And a slight padding */&lt;/span&gt;
+}
+#progress{
+    width:auto; &lt;span class="code-comment"&gt;/* Give the list a fluid width */&lt;/span&gt;
+    background:none; &lt;span class="code-comment"&gt;/* Remove the list's background... */&lt;/span&gt;
+    float:none; &lt;span class="code-comment"&gt;/* ...and float */&lt;/span&gt;
+}
+#progress li{
+    float:none; &lt;span class="code-comment"&gt;/* Remove list item float, causing them to stack */&lt;/span&gt;
+    margin-bottom:1px; &lt;span class="code-comment"&gt;/* Space them slightly */&lt;/span&gt;
+}
+#progress a{
+    margin:0 10px; &lt;span class="code-comment"&gt;/* Indent the left and right of each item by 10px */&lt;/span&gt;
+    -moz-border-radius:5px; &lt;span class="code-comment"&gt;/* Round all corners */&lt;/span&gt;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+#details-page .details-step a,
+#account-page .account-step a,
+#products-page .products-step a,
+#payment-page .payment-step a,
+#go-page .go-step a{
+    background:#a49d4d; &lt;span class="code-comment"&gt;/* Set the background of the current item */&lt;/span&gt;
+    margin:0 auto; &lt;span class="code-comment"&gt;/* Remove the 10px indent to show that the step is current */&lt;/span&gt;
+}
+}&lt;/code&gt;
+</code></pre>
+
+<p>Now, if you want to test this and don't have a smartphone, or haven't got this hosted in a live environment, simply resize your browser window right down until you see the change. I tend to use the Firefox Web Developer Toolbar addon to <a href="http://csswizardry.com/wp-content/uploads/2010/11/mobile-optimised-progress.jpg">resize the window to 480x800px</a>.</p>
+
+<p>On the iPhone this now looks like:</p>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2010/11/iphone-progress.jpg" alt="iPhone optimised progress bar" /></p>
+
+<hr />
+
+<h2><a href="http://csswizardry.com/demos/progress-bar/">Demo</a></h2>
+
+<p>For the full working demo head to <a href="http://csswizardry.com/demos/progress-bar/">http://csswizardry.com/demos/progress-bar/</a>. For the complete CSS (with reset) please see <a href="http://csswizardry.com/demos/progress-bar/css/style.css">http://csswizardry.com/demos/progress-bar/css/style.css</a>. Also, try using Firebug to change the <code>&lt;body&gt;</code>'s ID to <code>go-page</code>.</p>
+
+<hr />
+
+<h2>Final words</h2>
+
+<p>As I stated previously, this article isn't so much about the progress bar itself. What I hope this article has shown is how something as small and trivial as a progress bar has a wealth of little nooks and crannies in which to immerse yourself. Semantics, accessibility, using <code>&lt;body&gt;</code> IDs to style current states without a <code>class="current"</code>, how to use CSS counters to style the numbers in an ordered list, how to progressively enhance lean markup, and how to optimise things for mobile in a flash.</p>
+
+<p>All of the above skills are easily and quickly transferable. It might be a progress bar today, but what could it be tomorrow? Skills like the ones covered here give you the potential to make something great, out of something very very simple.</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

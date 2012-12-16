@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>Shoot to kill; CSS selector intent &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>One type of CSS in particular makes me cringe every time I see it; poor selector intent. Poor selector intent means carpet bombed selectors whose key selector has way too broad a reach; a selector like <code>.header ul{}</code> as opposed to one like <code>.main-nav{}</code>, <code>.widget h2{}</code> instead of <code>.widget-title</code>, <code>article &gt; p:first-child{}</code> as opposed to <code>.intro{}</code>. Selectors whose intent isn't specific enough.</p>
+
+<p>It’s worth noting that <em>selector intent</em> is something I completely made up at some point today; if you think there’s a better name then please let me know!</p>
+
+<p>Let’s take a closer look at the <code>.header ul{}</code> example. Let’s imagine that <code>ul</code> is indeed the main navigation for our website. It lives in the header, as you might expect, and is currently the only <code>ul</code> in there; <code>.header ul{}</code> is fine, right? Not <em>really</em>. I mean sure, it might work, but it’s not very good. It’s not very future proof and certainly not explicit enough. As soon as we add another <code>ul</code> to that header it will adopt the styling of our main nav and the the chances are we won’t want it to. This means we either have to refactor a lot of code <em>or</em> undo a lot of styling on subsequent <code>ul</code>s in that <code>.header</code> to remove the effects of the far reaching selector.</p>
+
+<p>Your selector’s intent must match that of your reason for styling something; ask yourself <strong>‘am I selecting this because it’s a <code>ul</code> inside of <code>.header</code> or because it is my site’s main nav?’</strong>. The answer to this question will determine your selector.</p>
+
+<h2>It’s all about the key selector…</h2>
+
+<p>What determines the impact of a selector is its <em>key selector</em>. The key selector is a very important thing in the world of CSS as <em>browsers read selectors <strong>right to left</strong></em>. This means the key selector is the last one before the opening <code>{</code>, for example:</p>
+
+<pre><code>&lt;code&gt;.header ul      { &lt;span class="code-comment"&gt;/* ‘ul’ is the key selector */&lt;/span&gt; }
+.ul li a        { &lt;span class="code-comment"&gt;/* ‘a’ is the key selector */&lt;/span&gt; }
+p:last-child    { &lt;span class="code-comment"&gt;/* ‘:last-child’ is the key selector */&lt;/span&gt; }&lt;/code&gt;
+</code></pre>
+
+<p>As I discuss in <a href="http://csswizardry.com/2011/09/writing-efficient-css-selectors/">Writing efficient CSS selectors</a>, the key selector plays a big part in CSS efficiency, so it’s worth bearing that in mind, but where <em>selector intent</em> is concerned this is basically the place you need to be looking to see how far reaching your selector is. <code>html &gt; body &gt; section.content &gt; article span{}</code> is a ridiculously convoluted and terrible selector that no one anywhere would ever write (right?) but despite how specific and disastrously over the top it is, its key selector (<code>span</code>) is still very, <em>very</em> broad. It doesn’t matter so much what comes before your key selector, it’s only the key that really matters.</p>
+
+<p>As a <em>general</em> rule you should try and avoid any key selector that is a type selector (basically an element, like <code>ul</code> or <code>span</code> or whatever) or a base object (e.g. <code>.nav</code> or <code>.media</code>). Just because something is the only <code>.media</code> object in your content area it doesn’t mean it always will be.</p>
+
+<p>Let’s keep looking at the <code>.header ul{}</code> example. Let’s assume our markup is thus, as we’re using <a href="http://csswizardry.com/2011/09/the-nav-abstraction/">the nav abstraction</a>:</p>
+
+<pre><code>&lt;code&gt;&lt;div class=header&gt;
+
+    &lt;ul class=nav&gt;
+        [links]
+    &lt;/ul&gt;
+
+&lt;/div&gt;&lt;/code&gt;
+</code></pre>
+
+<p>We could select this in one of several ways:</p>
+
+<pre><code>&lt;code&gt;.header ul{
+    [main nav styles]
+}&lt;/code&gt;
+</code></pre>
+
+<p>This is bad because as soon as we add <em>any</em> other <code>ul</code> to our header it will look like our main nav. This is dangerous but thankfully easily avoidable.</p>
+
+<p>Secondly we could use:</p>
+
+<pre><code>&lt;code&gt;.header .nav{
+    [main nav styles]
+}&lt;/code&gt;
+</code></pre>
+
+<p>This is <em>marginally</em> better than the <code>.header ul</code> example, but barely so. We can now safely add another <code>ul</code> without risk, but we can’t add anything else with a <code>.nav</code> class; that means adding sub-navs or breadcrumbs will be a nightmare!</p>
+
+<p>Finally, our best solution would be to add a second class to the <code>ul</code>; a class of <code>.main-nav</code>:</p>
+
+<pre><code>&lt;code&gt;&lt;div class=header&gt;
+
+    &lt;ul class="nav main-nav"&gt;
+        [links]
+    &lt;/ul&gt;
+
+&lt;/div&gt;
+
+.main-nav{
+    [main nav styles]
+}&lt;/code&gt;
+</code></pre>
+
+<p>This is good selector intent; we are selecting this element now for <em>exactly</em> the right reasons, not coincidental/circumstantial ones. Now we can add as many more <code>ul</code>s and <code>.nav</code>s to that <code>.header</code> and the scope of our main nav styles will never reach anything else. We’re no longer carpet bombing!</p>
+
+<p>Keep your key selector as explicit and specific as you possibly can, preferring for it to be a class over anything else. Applying specific styling through a vague selector is dangerous. A generic selector should always carry generic styling and if you want to target something in particular you should perhaps add a class to it. <strong>Specific intent requires a specific selector.</strong></p>
+
+<h2>Real-life example</h2>
+
+<p>A really good example of where I messed up on this myself is on a project I did at Sky; I had a selector which was simply <code>#content table{}</code>. (Eww, I even used an ID!!!) This is a troublesome selector for three reasons; firstly <a href="http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/">it uses an ID which is a big no</a>, secondly it has a lot higher specificity than it needs to and lastly—and most importantly—it has a poor selector intent. I wasn’t wanting to style these tables <em>because</em> they were in <code>#content</code>, that was just how the DOM landed so that’s how I chose to target them. <em>Entirely</em> my bad.</p>
+
+<p>For the first few weeks this was fine but then all of a sudden we needed to add some tables inside <code>#content</code> that didn’t want to look anything like the previous ones. Uh oh. My previous selector was far too far reaching, I was now having to undo a blanket style I’d set on <em>every</em> table in the <code>#content</code> <code>div</code>. If I’d had a better selector intent then instead of:</p>
+
+<pre><code>&lt;code&gt;#content table{
+    [foo styles]
+}
+#content .bar{
+    [undoing foo styles]
+    [bar styles]
+}&lt;/code&gt;
+</code></pre>
+
+<p>I should/would have had:</p>
+
+<pre><code>&lt;code&gt;.foo{
+    [foo styles]
+}
+.bar{
+    [bar styles]
+}&lt;/code&gt;
+</code></pre>
+
+<p>And a <em>lot</em> less headaches. By thinking ahead and having a lot more considered selector intent then I would have had a much easier time...</p>
+
+<h2>Exceptions</h2>
+
+<p>Of course there are <em>always</em> exceptions. It’s perfectly reasonable to have selectors like <code>.main-nav &gt; li</code> where your key selector <em>is</em> a type selector. It also makes perfect sense to target every <code>a</code> inside something like this:</p>
+
+<pre><code>&lt;code&gt;html{
+    color:#333;
+    background-color:#fff;
+}
+
+&lt;span class="code-comment"&gt;/* Inverted colour scheme for promotional items. */&lt;/span&gt;
+.promo{
+    color:#fff;
+    background-color:#333;
+}
+    .promo a{
+        color:#fff;
+        text-decoration:underline;
+    }&lt;/code&gt;
+</code></pre>
+
+<p>That is a reasonably sensible far-reaching selector where it does make sense to style every <code>a</code> in a pretty carpet bombed manner.</p>
+
+<h2>Final word</h2>
+
+<p>In general, instead of carpet bombing your elements, shoot to kill; target them specifically and explicitly. Make sure your selector intent is accurate and targeted.</p>
+
+<p>Think more carefully about why you want to target something and pick a more explicit and sensible selector; refine your selector intent. Do you mean:</p>
+
+<pre><code>&lt;code&gt;.header em{}&lt;/code&gt;
+</code></pre>
+
+<p>or do you really mean:</p>
+
+<pre><code>&lt;code&gt;.tagline{}&lt;/code&gt;
+</code></pre>
+
+<p>Do you want:</p>
+
+<pre><code>&lt;code&gt;.footer p{}&lt;/code&gt;
+</code></pre>
+
+<p>or do you really want:</p>
+
+<pre><code>&lt;code&gt;.copyright{}&lt;/code&gt;
+</code></pre>
+
+<p>Is it wise to select:</p>
+
+<pre><code>&lt;code&gt;.sidebar form{}&lt;/code&gt;
+</code></pre>
+
+<p>or would a safer bet be:</p>
+
+<pre><code>&lt;code&gt;.search-form{}&lt;/code&gt;
+</code></pre>
+
+<p>Consider your CSS selectors’ intent; are you being specific enough? Are your selectors matching things for the right reasons, or is it just happy circumstance? Shoot to kill. Be a CSS sniper, not a CSS carpet bomber.</p>
+
+<p>Incidentally, opting to switch out a longer selector like <code>.header ul</code> for something like <code>.main-nav</code> will also help reduce specificity and increase selector efficiency; win-win-win!</p>
+
+<p>It is also worth noting that <a href="https://twitter.com/snookca">Jonathan Snook</a> wrote something similar called the <a href="http://smacss.com/book/applicability"><em>depth of applicability</em></a>...</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

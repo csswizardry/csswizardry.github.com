@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>More logo markup tips &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>In my previous article we determined that <a href="http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/">your logo is not a <code>&lt;h1&gt;</code></a> and is in fact an image (<code>&lt;img /&gt;</code>) in its own right. Now let's cover some nice little tips and snippets for making the most of your markup and creating a nicer UX around it.</p>
+
+<p>The techniques I'm going to cover can be found on my recently launched hub site <a href="http://hry.rbrts.me">hry.rbrts.me</a>, but for the sake of clarity I have <a href="http://jsfiddle.net/csswizardry/h7zrY/">isolated them in a jsFiddle here</a>.</p>
+
+<p>So, if we know a logo needs to be an <code>&lt;img /&gt;</code> that's easy enough, but what if we want hover styles on this image? Simple.</p>
+
+<p>We'll be wrapping the logo in an <code>&lt;a&gt;</code> so as to link back to the homepage, a common and good practice:</p>
+
+<pre><code>&lt;code&gt;&lt;a href="/" id="logo"&gt;
+  &lt;img src="/img/logo.png" alt="Company logo"&gt;
+&lt;/a&gt;&lt;/code&gt;
+</code></pre>
+
+<p>What we can do here is utilise this <code>&lt;a&gt;</code> and apply a sprited background image to it to provide our on/off hover states, thus:</p>
+
+<pre><code>&lt;code&gt;#logo{
+  display:block;
+  width:100px; /* Width of logo */
+  height:100px; /* Height of logo */
+  background:url(/img/css/sprite.png);
+}&lt;/code&gt;
+</code></pre>
+
+<p>So now we have a background on the <code>&lt;a&gt;</code> surrounding our <code>&lt;img /&gt;</code> that we now need to git rid of.</p>
+
+<p>We could do this by using a simple <code>display:none;</code> or more accessibly using:</p>
+
+<pre><code>&lt;code&gt;#logo img{
+  position:absolute;
+  left:-9999px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>Now we can no longer see the <code>&lt;img /&gt;</code> but we <em>can</em> see the background on the <code>&lt;a&gt;</code> behind it.</p>
+
+<p>Now all we need is to move the sprite on <code>:hover</code>, thus:</p>
+
+<pre><code>&lt;code&gt;#logo:hover{
+  background-position:0 -100px;
+}&lt;/code&gt;
+</code></pre>
+
+<p>So here we have a semantically sound logo, using (as we should be) an <code>&lt;img /&gt;</code> with the added benefit of being able to use sprites to give the logo hover effects.</p>
+
+<h2>There's more...</h2>
+
+<p>There's another little thing I've started doing which I really like. We have an image in the page semantically, but not functionally. Right clicking the logo won't yield a <em>view image</em> context menu, instead it'll just focus on the <code>&lt;a&gt;</code>.</p>
+
+<p>What I like to do, which is a nice little touch, is to unhide the <code>&lt;img /&gt;</code> (i.e. get rid of the absolute positioning above) and instead just hide it with <code>opacity:0;</code> (or <code>filter:alpha(opacity = 0);</code> for IE). This means that the user can still right click the logo and be interacting with an image, but they still get your nice sprites on hover.</p>
+
+<p>So we have an <code>&lt;a&gt;</code> with a background sprite which contains an invisible image that a user can still interact with; <a href="http://hry.rbrts.me">see it in situ</a> or look at <a href="http://jsfiddle.net/csswizardry/h7zrY/">an isolated case</a>. Try hovering and right clicking...</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>

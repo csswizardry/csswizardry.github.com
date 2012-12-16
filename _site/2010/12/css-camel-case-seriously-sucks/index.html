@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+    <title>CSS: CamelCase Seriously Sucks! &ndash; CSS Wizardry</title>
+    
+    <link rel=stylesheet href=/css/csswizardry.min.css>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    
+    <link rel="shortcut icon" href=/icon.png>
+    <link rel=apple-touch-icon-precomposed href=/icon.png>
+    <meta name=apple-mobile-web-app-title content="inuit.css">
+</head>
+<body>
+
+    <header class="page-head">
+        <a href="/" class="logo">
+            CSS Wizardry
+        </a>
+    </header>
+
+    <section class="posts">
+            <p>Now, I know this is going to instantly ruffle some feathers, but I'm not <em>normally</em> one to tell you how to write your code. Sure, <a href="http://www.venturelab.co.uk/devblog/2010/10/i-wont-tell-you-how-to-write-your-css/">I dislike single-line CSS</a>, but as long as your code is clean, sensible, understandable and consistent then there's not too much to complain about. The most important of these--in my eyes--is consistency. There is however one method that, straight off the bat, is instantly and inherently inconsistent... camel case.</p>
+
+<h2>CSS is a hyphen-delimited syntax</h2>
+
+<p>CSS is a hyphen-delimited syntax. By this I mean we write things like <code>font-size</code>, <code>line-height</code>, <code>border-bottom</code> etc. So why then would you introduce another format?</p>
+
+<pre><code>&lt;code&gt;#introPassage{ &lt;span class="code-comment"&gt;/* Using one format here */&lt;/span&gt;
+  font-style:italic; &lt;span class="code-comment"&gt;/* And another here */&lt;/span&gt;
+}&lt;/code&gt;
+</code></pre>
+
+<p>You just shouldn't mix syntaxes; <em>it's inconsistent</em>.</p>
+
+<h3>XHTML is a lower-case language</h3>
+
+<p>Furthermore is the inconsistency of placing a mix of upper- and lower-case classes/IDs in a lower-case syntax. Example:</p>
+
+<pre><code>&lt;code&gt;&lt;img src="/img/people/harry-roberts.jpg" alt="A picture of Harry Roberts" class="userImageAvatar" /&gt;&lt;/code&gt;
+</code></pre>
+
+<p>Here we mix lower-case syntax and plain English content with something that is neither.</p>
+
+<h3>Inconsistency within your own rules</h3>
+
+<p>Camel case also adds the scope for inconsistency within your own defined rules. This might be very anal, but take the following:</p>
+
+<pre><code>&lt;code&gt;#content{ ... }
+#subContent{ ... }&lt;/code&gt;
+</code></pre>
+
+<p>There we have two elements used as generic content containers, but one is referred to as <code>content</code>, and the other as <code>Content</code>. Huh?!</p>
+
+<h2>It's harder to read</h2>
+
+<p>But what about underscores?</p>
+
+<p>Camel case is harder to read. Whitespace between words makes them far more legible. We can't have spaces in CSS, so we use hyphens instead. Compare the following:</p>
+
+<pre><code>&lt;code&gt;#someIdIMadeEarlier{
+  font-size:2em;
+}
+
+#some-id-i-made-earlier{
+  font-size:2em;
+}&lt;/code&gt;
+</code></pre>
+
+<p>I think it's hard to argue that the second is not more readable...</p>
+
+<h3>Scannability</h3>
+
+<p>Also there's the issue of scannability, an important factor when writing code. Let's look at the following code:</p>
+
+<pre><code>&lt;code&gt;.navHome a { ... }
+.navAbout a{ ... }
+.navPortfolio a{ ... }
+.navContact a{ ... }
+
+.nav-home a { ... }
+.nav-about a{ ... }
+.nav-portfolio a{ ... }
+.nav-contact a{ ... }&lt;/code&gt;
+</code></pre>
+
+<p>I personally find the second far easier to scan if I'm looking for a particular <code>nav-</code> prefixed class.</p>
+
+<h2>Hyphens work better in text editors</h2>
+
+<p>This has been true of every text editor I have used.</p>
+
+<p>This is an odd one, but one that definitely, <em>definitely</em> irks me. I can't <code>Ctrl+Shift+[Arrow key]</code> single words in a camel case string. Take the following screenshot:</p>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2010/12/camel-case-select.gif" alt="Selecting camel case strings" /></p>
+
+<p>Here I use the Ctrl+Shift+Left arrow keys to select chunks of text--rather than one character--at at time. The problem here is that the camel case string is treated as one word. What if I just wanted to select <code>tweet</code> and change it to <code>facebook</code>? I  can't do that with <code>Ctrl+Shift+[Arrow key]</code></p>
+
+<p>With the hyphen delimited version, we get:</p>
+
+<p><img src="http://csswizardry.com/wp-content/uploads/2010/12/hyphen-select.gif" alt="Selecting hyphenated strings" /></p>
+
+<p>This is far nicer as we can select individual parts of a string with ease. Changing <code>tweet</code> to <code>facebook</code> here could not be simpler.</p>
+
+<h3>Underscores?</h3>
+
+<p>I mentioned underscores above; this also poses the same problems with inconsistency and with the inability to select individual segments of a string.</p>
+
+<h2>Final word</h2>
+
+<p>The thing to remember is <em>consistency is key</em>. The syntax of a language has already been decided for you; you might as well stick with it!</p>
+
+
+    </section>
+
+    <footer class="page-foot">
+        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        Built with <a href="http://inuitcss.com">inuit.css</a>
+        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+    </footer>
+    
+</body>
+</html>
