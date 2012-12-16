@@ -1,0 +1,71 @@
+/*------------------------------------*\
+    $PAGE
+\*------------------------------------*/
+html{
+    font-weight:300;
+    background-color:#f9f9f9;
+    color:#555;
+}
+
+/**
+ * 1. Base unit plus the 11px taken up by `.strip`.
+ */
+body{
+    padding-top:$base-spacing-unit + 10;    /* [1] */
+    padding-left:0;
+    @include media-query(desk){
+        padding-top:$base-spacing-unit;
+        padding-left:10px;                  /* [1] */
+    }
+}
+
+
+/**
+ * Page-level wrapper.
+ */
+.wrapper{
+    margin:0 auto;
+    max-width:1280px;
+    padding-right:$base-spacing-unit;
+    padding-left:$base-spacing-unit;
+    
+    @include media-query(portable){
+        padding-right:$half-spacing-unit;
+        padding-left: $half-spacing-unit;
+        max-width:720px;
+    }
+}
+
+/**
+ * Colored strip along the top/side of the page. Use an empty element so we can
+ * sprite it up. This code does look to be undoing itself a lot, but that’s RWD
+ * for you... 
+ */
+.strip{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:10px;
+    background-image:url(/img/css/sprites/main.png);
+    background-position:-100% 0;
+    border:0 solid #fff;
+    border-bottom-width:1px;
+    @include media-query(desk){
+        position:fixed;
+        right:auto;
+        bottom:0;
+        width:10px;
+        height:auto;
+        background-position:left top;
+        background-position:0 -100%;
+        border-bottom-width:0;
+    }
+}
+
+/**
+ * Preloader element so we can fetch our images before CSS requests them.
+ */
+.ಠ_ಠ{
+    display:none!important;
+}

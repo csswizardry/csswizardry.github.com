@@ -19,12 +19,7 @@ Chris Coyier [recently answered](http://coding.smashingmagazine.com/2012/07/13/c
 
 
 
-> 
-  
-> 
-> “How can you tell if your CSS code smells? What are the signs that the code is sub-optional, or that the developer hasn’t done a good job? What do you look for in the code to determine how good or bad it is?”
-> 
-> 
+> How can you tell if your CSS code smells? What are the signs that the code is sub-optional, or that the developer hasn’t done a good job? What do you look for in the code to determine how good or bad it is?
 
 
 

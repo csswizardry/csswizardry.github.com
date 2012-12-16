@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    $PAGE-FOOT
+\*------------------------------------*/
+.page-foot{
+    @include font-size(12px);
+    @extend .cf;
+    background-color:#333;
+    text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+    padding-top:$base-spacing-unit;
+
+    &,
+    a{
+        color:#fff;
+    }
+    a{
+        font-weight:300;
+        text-decoration:underline;
+    }
+}

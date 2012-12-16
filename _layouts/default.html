@@ -6,30 +6,64 @@
     
     <title>{{ page.title }} &ndash; CSS Wizardry</title>
     
-    <link rel=stylesheet href=/css/csswizardry.min.css>
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic" rel=stylesheet>
+    <link rel=stylesheet href=/css/csswizardry.min.css>
     
     <link rel="shortcut icon" href=/icon.png>
     <link rel=apple-touch-icon-precomposed href=/icon.png>
-    <meta name=apple-mobile-web-app-title content="inuit.css">
+    <meta name=apple-mobile-web-app-title content="csswizardry">
 </head>
 <body>
 
-    <header class="page-head">
-        <a href="/" class="logo">
-            CSS Wizardry
-        </a>
-    </header>
+    <!--
+        Get the browser to start fetching font files as soon as possible.
+    -->
+    <style>
+        html { font-family:Ubuntu, sans-serif; }
+    </style>
+     
+    <!--
+        Empty preload `div` to fetch images before CSS needs them.
+    -->
+    <div class="ಠ_ಠ">
+        <img src="/img/css/sprites/main.png" alt="">
+    </div>
+    
+    <div class="strip"></div>
 
-    <section class="posts">
-            {{ content }}
-    </section>
+    <div class="wrapper">
+        
+        <header class="page-head">
+            <a href="/" class="home-link">
+                <img src="/img/dot.gif" alt="CSS Wizardry" class="s  s--csswizardry-logo  logo--csswizardry">
+            </a>
+        </header><!-- /page-head -->
+        
+        {{ content }}
+        
+    </div><!-- /wrapper -->
 
     <footer class="page-foot">
-        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
-        Built with <a href="http://inuitcss.com">inuit.css</a>
-        and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
-    </footer>
+        <div class="wrapper">
+            <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+            Built with <a href="http://inuitcss.com">inuit.css</a>
+            and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
+        </div>
+    </footer><!-- /page-foot -->
+
+<script>
     
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1856861-4']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    
+</script>
+
 </body>
 </html>

@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    $LOGO
+\*------------------------------------*/
+.logo{
+    display:block;
+}
+
+.logo--csswizardry{
+    @extend .logo;
+    border-radius:$brand-round;
+
+    > img{
+        @extend .accessibility;
+    }
+}

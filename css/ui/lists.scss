@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    $LISTS
+\*------------------------------------*/
+.block-list{
+    
+    &,
+    > li{
+        border-color:rgba(0, 0, 0, 0.075);
+    }
+
+    &{
+        border-bottom-width:1px;
+        border-bottom-color:rgba(255, 255, 255, 0.75);
+    }
+
+    > li{
+        border-top-width:1px;
+        border-top-color:rgba(255, 255, 255, 0.75);
+    }
+}
+
+/**
+ * Contains lists of posts on archive pages.
+ */
+.post-list{
+    @extend .block-list;
+}

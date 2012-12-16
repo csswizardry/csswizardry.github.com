@@ -3,14 +3,38 @@ layout: default
 title: Home
 ---
     
-<ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-        <span class="post__time">{{ post.date | date: "%d %B, %Y" }}</span>
-        <h2 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {% if post.meta %}
-            <p class="post__meta">{{ post.meta }}</p>
+<section class="posts">
+    <ul class="post-list">
+        {% for post in paginator.posts %}
+        <li>
+            <span class="post__time">{{ post.date | date: "%d %B, %Y" }}</span>
+            <h2 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {% if post.meta %}
+                <p class="post__meta">{{ post.meta }}</p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+
+<ol class="nav  pagination">
+    <li class="pagination__prev">
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+            <a href="/">Previous</a>
+        {% else %}
+            <a href="/page{{paginator.previous_page}}">Previous</a>
+        {% endif %}
+        {% else %}
+            Previous
+        {% endif %}
+    </li><!--
+    
+ --><li class="pagination__next">
+        {% if paginator.next_page %}
+            <a href="/page{{paginator.next_page}}">Next</a>
+        {% else %}
+            Next
         {% endif %}
     </li>
-    {% endfor %}
-</ul>
+</ol>

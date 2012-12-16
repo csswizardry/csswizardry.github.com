@@ -1,0 +1,10 @@
+/*------------------------------------*\
+    $PAGE-HEAD
+\*------------------------------------*/
+.page-head{
+    @extend .cf;
+    @extend %sass-margin-bottom;
+}
+.home-link{
+    float:left;
+}

@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    $POSTS
+\*------------------------------------*/
+.post-list{
+    @extend .block-list;
+}
+
+.post__time{
+    display:block;
+}
+.post__title{
+    margin-bottom:0;
+
+    > a{
+        font-weight:300;
+
+        &:hover,
+        &:active,
+        &:focus{
+            background-color:$brand-color;
+            color:#fff;
+            text-decoration:none;
+        }
+    }
+}
+.post__meta{
+    margin-bottom:0;
+    color:#999;
+}

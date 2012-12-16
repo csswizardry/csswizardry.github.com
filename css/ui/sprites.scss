@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    $SPRITES
+\*------------------------------------*/
+.s{
+    background-image:url(/img/css/sprites/main.png);
+}
+.s--csswizardry-logo{
+    width:64px;
+    height:64px;
+    background-position:-10px -10px;
+
+    @include media-query(desk){
+        width:128px;
+        height:128px;
+        background-position:-74px -10px;
+    }
+}

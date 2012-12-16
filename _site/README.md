@@ -1,4 +1,0 @@
-csswizardry.com
-===============
-
-My site.
