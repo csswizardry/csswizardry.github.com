@@ -32,14 +32,14 @@ body{
     @include media-query(portable){
         padding-right:$half-spacing-unit;
         padding-left: $half-spacing-unit;
-        max-width:720px;
+        max-width:640px;
     }
 }
 
 /**
- * Colored strip along the top/side of the page. Use an empty element so we can
- * sprite it up. This code does look to be undoing itself a lot, but that’s RWD
- * for you... 
+ * Colored strip along the top/side of the page. Use an empty element because
+ * pseudo-elements don’t seem to work. This code does look to be undoing itself
+ * a lot, but that’s RWD for you...
  */
 .strip{
     position:absolute;
@@ -69,3 +69,10 @@ body{
 .ಠ_ಠ{
     display:none!important;
 }
+
+
+/**
+ * Coloured highlighting!
+ */
+::selection         { background-color:$brand-color; color:#fff; }
+::-moz-selection    { background-color:$brand-color; color:#fff; }

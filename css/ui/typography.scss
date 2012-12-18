@@ -5,20 +5,54 @@ h1,h2,h3,h4,h5,h6{
     font-weight:300;
     color:$brand-color;
 }
+.site-title{
+    @include media-query(palm){
+        @include font-size(30px);
+    }
+}
+
+
+/**
+ * Inline elements
+ */
 b,strong,a{
     font-weight:500;
 }
+mark{
+    background-color:#ff8;
+    color:inherit;
+}
+
+
+/**
+ * Links
+ */
 a{
     color:$brand-color;
 }
 
+
+/**
+ * Quote
+ */
+blockquote{
+    padding-left:$half-spacing-unit;
+    border-left:8px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/**
+ * Code
+ */
 pre{
     white-space:pre;
     word-wrap:normal;
     background-color:#333;
+    overflow:auto;
     color:#fff;
     padding:$half-spacing-unit;
     border-radius:$brand-round;
+    @include vendor(box-shadow, 0 0 15px rgba(0, 0, 0, 0.25) inset);
 }
 pre,code,kbd,samp{
     font-family:Inconsolata, Monaco, Consolas, "Andale Mono",
