@@ -4,25 +4,3 @@
 /*img*/.logo{
     display:block;
 }
-
-/**
- *
- * Logo link back to the home page.
- * 1. Make it look unclickable if you are currently on the home page.
- */
-/*a*/.logo--site{
-    float:left;
-
-    .page--home &{
-        cursor:default; /* [1] */
-    }
-}
-
-
-/**
- * The CSS Wizardry logo (found in `.logo--site`).
- */
-/*img*/.logo--csswizardry{
-    @extend .logo;
-    border-radius:$brand-round;
-}

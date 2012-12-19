@@ -7,9 +7,9 @@
  */
 .site-nav{
     margin-bottom:0;
-    line-height:64px;       /* [1] */
+    line-height:64px; /* [1] */
     @include media-query(desk){
-        line-height:128px;  /* [1] */
+        line-height:128px; /* [1] */
     }
     > li{
         margin-left:$half-spacing-unit;
@@ -35,7 +35,7 @@
  */
 @each $page in home, about, speaking{
     .page--#{$page} .site-nav__#{$page} a{
-        cursor:text;    /* [1] */
+        cursor:text; /* [1] */
         color:$brand-color;
     }
 }

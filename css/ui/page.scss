@@ -8,14 +8,14 @@ html{
 }
 
 /**
- * 1. Base unit plus the 11px taken up by `.strip`.
+ * 1. Base unit plus the 10px taken up by `.strip`.
  */
 body{
-    padding-top:$base-spacing-unit + 10;    /* [1] */
+    padding-top:$base-spacing-unit + 10; /* [1] */
     padding-left:0;
     @include media-query(desk){
         padding-top:$base-spacing-unit;
-        padding-left:10px;                  /* [1] */
+        padding-left:10px; /* [1] */
     }
 }
 
@@ -24,12 +24,12 @@ body{
  * Page-level wrapper.
  */
 .wrapper{
-    margin:0 auto;
-    max-width:1280px;
+    max-width:1100px;
     padding-right:$base-spacing-unit;
     padding-left:$base-spacing-unit;
     
     @include media-query(portable){
+        margin:0 auto;
         padding-right:$half-spacing-unit;
         padding-left: $half-spacing-unit;
         max-width:640px;
@@ -69,10 +69,3 @@ body{
 .ಠ_ಠ{
     display:none!important;
 }
-
-
-/**
- * Coloured highlighting!
- */
-::selection         { background-color:$brand-color; color:#fff; }
-::-moz-selection    { background-color:$brand-color; color:#fff; }
