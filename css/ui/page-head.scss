@@ -5,16 +5,3 @@
     @extend .cf;
     @extend %sass-margin-bottom;
 }
-
-
-/**
- * Logo link back to the home page.
- * 1. Make it look unclickable if you are currently on the home page.
- */
-.home-link{
-    float:left;
-
-    .page--home &{
-        cursor:default; /* [1] */
-    }
-}
