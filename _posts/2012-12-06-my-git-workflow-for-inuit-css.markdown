@@ -11,6 +11,7 @@ tag:
 - Git
 - GitHub
 - inuit.css
+meta: A brief overview of how I use Git, specifically on inuit.css.
 ---
 
 This is a bit of an unusual article from me, it doesn’t mention OOCSS _once_! It’s about Git…

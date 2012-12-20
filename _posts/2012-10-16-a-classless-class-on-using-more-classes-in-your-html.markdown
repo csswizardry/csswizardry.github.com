@@ -7,6 +7,7 @@ title: A classless class—on using more classes in your HTML
 wordpress_id: 3849
 categories:
 - Web Development
+meta: An analogy to explain why it <em>is</em> a good idea to use more classes.
 ---
 
 This article is a pretty basic one, but it’s aimed at developers struggling to shake the idea that classes in your HTML are somehow a bad thing. Quite often, developers new to OOCSS find it hard to transition from adding no classes to anything to adding as many as you need (i.e. a lot more than you were).

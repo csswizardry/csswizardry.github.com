@@ -11,6 +11,7 @@ tag:
 - CSS
 - Front-end architecture
 - OOCSS
+meta: The things I look out for when writing or reviewing CSS.
 ---
 
 Chris Coyier [recently answered](http://coding.smashingmagazine.com/2012/07/13/coding-qa-with-chris-coyier-code-smell-type-grid/) someone’s question:
