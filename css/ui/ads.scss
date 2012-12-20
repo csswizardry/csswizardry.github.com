@@ -4,3 +4,21 @@
 /**
  * Ad Packs styling.
  */
+.bsap{
+    @include font-size(12px);
+    @extend .media;
+    margin-bottom:0;
+
+    a{
+        color:inherit;
+        font-weight:normal;
+
+        &:hover{
+            color:$brand-color;
+        }
+    }
+
+    img{
+        @extend .media__img;
+    }
+}
