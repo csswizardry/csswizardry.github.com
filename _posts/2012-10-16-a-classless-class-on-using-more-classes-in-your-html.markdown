@@ -27,7 +27,7 @@ This little analogy was born the other day when someone Tweeted:
 
 And I replied with:
 
-> Imagine a teacher trying to control a class of kids who have no names. That’s how we used to write HTML >.<
+> Imagine a teacher trying to control a class of kids who have no names. That’s how we used to write our HTML >.<
 
 When things aren’t explicitly named, and we try and rely on coincidental and circumstantial situations to try and refer to and target them, we find ourselves in a real mess where things quickly become invalid or break/fail. Things are hard to manipulate and work with. We have to try and remember the dependencies our references have on our structure. Things are basically unstable and chaotic.
 
