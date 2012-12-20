@@ -11,7 +11,7 @@ Hi there, I’m Harry Roberts. I am a 22 year old web developer from Leeds, UK.
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
-  <figcaption>Me on stage at <a href="http://2012.front-trends.com/">Front-Trends, 2012</a>.
+  <figcaption>At <a href="http://2012.front-trends.com/">Front-Trends, 2012</a>.
   <a href="http://www.flickr.com/photos/rachelandrew/6978809052/">Photo</a> by
   <a href="https://twitter.com/rachelandrew">Rachel Andrew</a>.</figcaption>
 </figure>
