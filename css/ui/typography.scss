@@ -1,14 +1,12 @@
 /*------------------------------------*\
     $TYPOGRAPHY
 \*------------------------------------*/
+/**
+ * Headings
+ */
 h1,h2,h3,h4,h5,h6{
     font-weight:300;
     color:$brand-color;
-}
-.site-title{
-    @include media-query(palm){
-        @include font-size(30px);
-    }
 }
 
 
@@ -43,6 +41,7 @@ blockquote{
 
 /**
  * Code
+ * 1. Color taken from Solarized: ethanschoonover.com/solarized
  */
 pre{
     white-space:pre;
@@ -54,14 +53,12 @@ pre{
     border-radius:$brand-round;
     @include vendor(box-shadow, 0 0 15px rgba(0, 0, 0, 0.25) inset);
 }
+
 pre,code,kbd,samp{
     font-family:Inconsolata, Monaco, Consolas, "Andale Mono",
                 "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
 }
 
-/**
- * 1. Color taken from Solarized: ethanschoonover.com/solarized
- */
 code,kbd,samp{
     color:#859900; /* [1] */
 
