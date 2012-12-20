@@ -74,3 +74,15 @@ code,kbd,samp{
         color:#fff;
     }
 }
+
+
+/**
+ * Rules
+ */
+hr{
+    margin-bottom:$base-spacing-unit -2;
+    border-style:solid;
+    border-width:1px 0;
+    border-top-color:rgba(0, 0, 0, 0.075);
+    border-bottom-color:rgba(255, 255, 255, 0.75);
+}

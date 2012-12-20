@@ -13,6 +13,23 @@
 
 
 /**
+ * Hide stuff...
+ */
+.hide{
+    position:absolute;
+    left:-9999px;
+}
+@each $state in palm, lap, portable, desk{
+    @include media-query(#{$state}){
+        .hide--#{$state}{
+            position:absolute;
+            left:-9999px;
+        }
+    }
+}
+
+
+/**
  * Coloured highlighting!
  */
 ::selection         { background-color:$brand-color; color:#fff; }
