@@ -11,6 +11,14 @@ h1,h2,h3,h4,h5,h6{
 
 
 /**
+ * Figures
+ */
+figcaption{
+    @include font-size(12px);
+}
+
+
+/**
  * Inline elements
  */
 b,strong,a{
