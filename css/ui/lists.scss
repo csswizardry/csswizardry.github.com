@@ -18,10 +18,3 @@
         border-top-color:rgba(255, 255, 255, 0.75);
     }
 }
-
-/**
- * Contains lists of posts on archive pages.
- */
-.post-list{
-    @extend .block-list;
-}
