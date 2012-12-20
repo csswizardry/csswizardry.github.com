@@ -3,7 +3,7 @@ comments: true
 date: 2010-02-11 23:44:02
 layout: post
 slug: mutiple-column-lists-using-one-ul
-title: Multiple column lists using one <ul>
+title: Multiple column lists using one &lt;ul&gt;
 wordpress_id: 701
 categories:
 - Web Development

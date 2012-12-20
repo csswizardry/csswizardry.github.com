@@ -3,7 +3,7 @@ comments: true
 date: 2010-10-13 22:12:14
 layout: post
 slug: your-logo-is-an-image-not-a-h1
-title: Your logo is an image, not a <h1>
+title: Your logo is an image, not a &lt;h1&gt;
 wordpress_id: 1545
 categories:
 - Web Development

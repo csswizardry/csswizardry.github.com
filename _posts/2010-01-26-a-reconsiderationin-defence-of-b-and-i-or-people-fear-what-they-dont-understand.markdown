@@ -3,7 +3,7 @@ comments: true
 date: 2010-01-26 23:06:10
 layout: post
 slug: a-reconsiderationin-defence-of-b-and-i-or-people-fear-what-they-dont-understand
-title: 'A reconsideration—in defence of <b> and <i> (or: people fear what they don''t
+title: 'A reconsideration—in defence of &lt;b&gt; and &lt;i&gt; (or: people fear what they don’t
   understand)'
 wordpress_id: 306
 categories:

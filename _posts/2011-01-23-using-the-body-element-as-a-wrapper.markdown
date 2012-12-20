@@ -3,7 +3,7 @@ comments: true
 date: 2011-01-23 14:19:23
 layout: post
 slug: using-the-body-element-as-a-wrapper
-title: Using the <body> element as a wrapper
+title: Using the &lt;body&gt; element as a wrapper
 wordpress_id: 2247
 categories:
 - Web Development
