@@ -3,11 +3,15 @@
 \*------------------------------------*/
 /**
  * Ad Packs styling.
+ * 1. Use `!important` to override Ad Packs’ CSS.
  */
-.bsap{
+.ad{
     @include font-size(12px);
-    @extend .media;
-    margin-bottom:0;
+    font-family:sans-serif;
+    text-align:center;
+    background-color:#eee;
+    @include vendor(box-shadow, 0 0 5px rgba(0, 0, 0, 0.1) inset);
+    border-radius:$brand-round;
 
     a{
         color:inherit;
@@ -19,6 +23,13 @@
     }
 
     img{
-        @extend .media__img;
+        margin-right:auto;
+        margin-bottom:$half-spacing-unit;
+        margin-left:auto;
+        display:block;
     }
+}
+
+.bsa_it_p{
+    display:none!important; /* [1] */
 }
