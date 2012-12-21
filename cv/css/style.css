@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+	margin:0;
+	padding:0;
+}
+article,aside,details,figcaption,figure,footer,
+header,hgroup,menu,nav,section{
+	display: block;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{
+	border:0;
+}
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	font:1em/1.5 "Inconsolata", "Monaco", "Consolas", "Courier New", Courier, monospace; /* 16px with 24px line-height. */
+	color:#666;
+	background:#fff;
+	padding:5%;
+}
+
+
+
+
+
+/*------------------------------------*\
+	TYPE
+\*------------------------------------*/
+h1,h2{
+	text-transform:uppercase;
+}
+/* h2 acts as a sectioning comment. */
+h2{
+	padding-left:4em; /* Indent the heading by 4em. 4em is a recurring number that we use as a tab amount. Indent/outdent by (multiples of) this amount. */
+}
+/* h3 acts as a CSS selector. */
+h3{
+	color:#008;
+}
+
+/*--- RULESETS ---*/
+/* Each ruleset is constructed from one <dl> */
+dl{
+	padding-left:8em; /* Indent everything by two tabs. */
+	overflow:hidden;
+}
+
+/* Stack the lines up against each other. */
+dt,dd{
+	float:left;
+}
+dt{
+	clear:both;
+	margin-left:-4em; /* Outdent the property to start at one tab in. */
+	text-transform:lowercase;
+}
+dd:after{
+	color:#333;
+	content:";";
+}
+
+/*--- LINKS ---*/
+a{
+	color:inherit;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+
+.c > a:hover,
+.c-block a:hover	{ background-color:#a80; }
+.p > a:hover		{ background-color:#333; }
+.q > a:hover		{ background-color:#b33; }
+.n > a:hover		{ background-color:#080; }
+.v > a:hover		{ background-color:#808; }
+
+/*--- CITE ---*/
+cite{
+	font-style:italic;
+}
+
+
+
+
+
+/*------------------------------------*\
+	SYNTAX
+\*------------------------------------*/
+/*--- COLOURS ---*/
+
+/*
+Colours are based on those used by jsFiddle, cos them colours is lovely.
+*/
+
+/* .c == css comment */
+.c	{ color:#a80; }
+
+/* .p == property (font, padding etc) */
+.p	{ color:#333; }
+
+/* .q == quoted (items enclosed in quote marks) */
+.q	{ color:#b33; }
+
+/* .n == number (e.g. 24px, 1.5em, 1.5 etc) */
+.n	{ color:#080; }
+
+/* .v == value (e.g. red, bold etc) */
+.v	{ color:#808; }
+
+/* .u == url (e.g. url(/img/logo.png)) */
+
+/*--- SYMBOLS ---*/
+/* Braces */
+h3:after{
+	content:"{"; /* Insert opening brace after each selector. */
+}
+h3:after,
+dl > :last-child:after{
+	color:#ccc;
+}
+dl dd:last-child:after{
+	display:block; /* Insert closing brace after each set of 'rules'. */
+	content:"}";
+	margin-left:-8em; /* Outdent the closing brace by two tabs. */
+}
+
+/* Quotes */
+.q:before,
+.q:after{
+	content:"\"";
+}
+
+/* URLS */
+.u:before{
+	content:"url(";
+}
+.u:after{
+	content:")";
+}
+
+/* IDs and classes */
+.id:before{
+	content:"#";
+}
+.class:before{
+	content:".";
+}
+.p:after{
+	content:":";
+}
+
+/*--- COMMENTS ---*/
+/* Tend to sectioning comments by inserting dashed lines. */
+.c:before{
+	content:"/* ";
+}
+.c:after{
+	content:" */";
+}
+h2  .c:before,
+h2 .c:after{
+	content:normal;
+}
+h2:before,
+h2:after,
+.c-block:before,
+.c-block:after{
+	display:block;
+	color:#a80;
+}
+h2:before,
+h2:after{
+	margin-left:-4em;
+}
+h2:before{
+	content:"/*------------------------------------*\005C";
+}
+h2:after{
+	content:"\005C*------------------------------------*/";
+}
+.c-block{
+	margin-bottom:1.5em;
+}
+.c-block p,
+.c-block ul{
+	margin-bottom:1.5em;
+}
+.c-block > :last-child{
+	margin:0;
+}
+.c-block:before{
+	content:"/*";
+}
+.c-block:after{
+	content:"*/";
+}
+.c-block ul{
+	list-style:none;
+}
+.c-block li:before{
+	content:"* ";
+}
+
+
+
+
+
+/*------------------------------------*\
+	MISC
+\*------------------------------------*/
+.accessibility{
+	position:absolute;
+	left:-9999px;
+}
+.last{
+	margin-bottom:7.5em!important; /* Make this always take precedence. */
+}
+
+
+
+
+
+/*------------------------------------*\
+	RESPONSIVE
+\*------------------------------------*/
+@media (max-width:480px){
+html,
+html *{
+	font-weight:bold;
+}
+h2{
+	padding-left:2em;
+}
+dl{
+	padding-left:4em;
+}
+dt{
+	margin-left:-2em;
+}
+dl dd:last-child:after{
+	margin-left:-4em;
+}
+h2:before,
+h2:after{
+	margin-left:-2em;
+}
+h2:before{
+	content:"/*--------------------*\005C";
+}
+h2:after{
+	content:"\005C*--------------------*/";
+}
+}
