@@ -35,7 +35,8 @@ just no fun any more…
 ## Hello, Jekyll!
 
 I recently discovered [Jekyll](https://github.com/mojombo/jekyll), a static site
-generator build on Ruby. After seeing what it does and how it works, it felt
+generator written on Ruby by [Tom Preston-Werner](http://tom.preston-werner.com/),
+GitHub co-founder. After seeing what it does and how it works, it felt
 like the answer; I was already writing posts in markdown using [iA Writer](http://www.iawriter.com/)
 and converting it to HTML before dropping it into WordPress’ admin panel, so
 why not write in markdown full time?
@@ -69,7 +70,8 @@ ever leaving Terminal!
 
 ### Public code
 
-Hosting the site on GitHub Pages means it live in [a public repository](https://github.com/csswizardry/csswizardry.github.com).
+Hosting the site on GitHub Pages means it lives in
+[a public repository](https://github.com/csswizardry/csswizardry.github.com).
 This serves a couple of great purposes:
 
 <ul class="numbered-list">
