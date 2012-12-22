@@ -87,7 +87,7 @@ A magic number is a value that is used ‘because it just works’. Take the fol
     }
         .site-nav > li:hover .dropdown{
             position:absolute;
-            <mark>top:37px;</mark>
+            top:37px;
             left:0;
         }
 
@@ -163,7 +163,7 @@ Not unlike magic numbers, hard-coded values are also bad news. A hard-coded valu
     
     h1{
         font-size:24px;
-        <mark>line-height:32px;</mark>
+        line-height:32px;
     }
 
 `line-height:32px;` here is not cool, it should be `line-height:1.333`…
