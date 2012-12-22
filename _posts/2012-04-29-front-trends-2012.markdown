@@ -13,39 +13,15 @@ tag:
 
 Last night I landed back in [a cold, miserable Leeds](http://instagr.am/p/KAOHsOojIg) after spending what was by far the most exciting, amazing and fun few days I’ve ever had—as a speaker at [Front-Trends](http://2012.front-trends.com/).
 
-
-
-
-
 Some time last year I was invited to speak at the conference, the first of its type I have _ever_ spoken at; ‘nervous’ doesn’t even come close.
-
-
-
-
 
 I delivered my talk—[Breaking Good Habits](http://speakerdeck.com/u/csswizardry/p/breaking-good-habits-1)—to 470 people! My only previous speaking experience was in the tiny English town of Barnsley to a small room of no more than 50. [This](http://www.flickr.com/photos/csswizardry/7123682471/in/set-72157629558792354) was the most terrifying thing _ever_ (and there are over a hundred people out of shot).
 
-
-
-
-
-
-
 I also snapped some pretty poor iPhone pictures of my time in Warsaw which, if you’re interested in, you can grab [on Flickr](http://www.flickr.com/photos/csswizardry/sets/72157629558792354/). If you’re a speaker and somehow find that you like my poorly focussed phone-camera snap of yourself then please, by all means, grab yourself a copy.
-
-
-
-
 
 ## The talks
 
-
-
-
-
 All of the talks were fantastic, very, very diverse, a mixture of technical and theoretical. They were all remarkable but my _personal_ favourites were [Rachel](http://twitter.com/rachelandrew)’s, [Chris](http://twitter.com/chriscoyier)’, [Mathias](http://twitter.com/mathias)’ and [Bartek](http://twitter.com/bartaz)’s.
-
-
 
 Rachel spoke about something that I’ve thought and agreed with for a long time; solving problems as and when they happen, not bloating your code from the outset with 101 different frameworks and, the thing that resounded with me the most, _we learn by making our own mistakes_.
 
@@ -55,167 +31,59 @@ Mathias’ talk was just one of weird HTML quirkiness, something that I find sup
 
 Bartek covered the fact that everyone who writes code is, whether they know it or not, teaching someone else who is reading that code. It was a really feel-good talk that has got me really excited to rewrite CSS Wizardry (which is long overdue anyway).
 
-
-
 To see the videos and slides as they come available I recommend you follow [the Front-Trends Twitter account](http://twitter.com/fronttrends); you will definitely want to catch them when they get online!
 
-
-
-
-
 ### My talk
-
-
 
 I was so, so nervous when I woke up on the morning of my talk. All I ate all day was an apple. I got on stage at 13:00, and saw the crowd of 450+ staring back at me. I was terrified.
 
 I got straight into the swing of things but was very aware of just how nervous I was. I can’t remember the half-hour of my talk at all, it’s now a total blur, and I was worried I’d really messed it up _but_ I got some absolutely amazing feedback from Twitter and people who found me after the talk personally. It seems everything went well!
 
-
-
 ## The people
-
-
-
-
 
 Front-Trends allowed me to finally meet some people who I’ve known online for ages. Me and [Lea](http://twitter.com/LeaVerou), [Chris](http://twitter.com/chriscoyier), [Vitaly](http://twitter.com/smashingmag) and others have followed each other for years and Front-Trends was my chance to finally meet them in person.
 
-
-
-
-
 I took [Jamie Mason](http://twitter.com/GotNoSugarBaby) along [with me](http://www.flickr.com/photos/csswizardry/7123696997/in/set-72157629558792354); Jamie is someone I met when I moved to BSkyB and he’s one of my best friends. Absolutely hilarious and incredibly likeable, as well as a very, very talented JS developer, he was a great person to have along (especially considering my nerves).
-
-
-
-
 
 I got to meet [Rachel Andrew](http://twitter.com/rachelandrew) who me and Jamie hung out with for a couple of days. Her talk was one of my favourites (she’s a great developer who speaks a _lot_ of sense) and she’s also just super cool; she’s my new favourite person in the world! So clever yet humble, really laid back and fun, very easy to get on with and just all-round awesome. It was great to be able to hang out with her so much.
 
-
-
-
-
 [Vitaly Friedman](http://twitter.com/smashingmag), owner of Smashing Magazine, was someone I’d wanted to meet for _years_ and owe a heck of a lot to. It’s likely that the only reason you know CSS Wizardry exists is because of a Smashing Magazine tweet (and there have been lots). Vitaly was one hell of a guy, absolutely lovely! It was ace having a few beers with him, and I really hope to meet him again soon.
-
-
-
-
 
 Another person who was an absolute blast to hang out with was [Alex Giron](http://twitter.com/alexgiron); a fun, funny guy who was real great company!
 
-
-
-
-
 Me and Jamie also met a lot of non-speakers which was really great. Far too many to name, but we spent a great chunk of time with [Rowan](http://twitter.com/RowanManning), [Sam](http://twitter.com/samhicks1985), [Perry](http://twitter.com/monkeyhutch) (who can be seen with his hands in the air at the very back, [here](http://www.flickr.com/photos/csswizardry/7123682471/in/set-72157629558792354)), [Tom](http://twitter.com/tomalterman) and [Pavel](http://twitter.com/turbalan) (I hope I got that right!).
-
-
-
-
 
 ## Beer
 
-
-
-
-
 This was a hot topic on Twitter... Free beer being served _throughout_ the conference; not just after but _during_. You could sit with a beer and watch your favourite developer give a talk. That’s actually pretty awesome.
-
-
-
-
 
 A lot of people on Twitter said to drink beer during a conference is unprofessional and that you shouldn’t serve any intoxicating beverages at such an event. To me that’s not right; drinking at a conference isn’t unprofessional, being drunk _is_.
 
-
-
-
-
 The weather was amazing during the conference, hovering around 30°C. There was a lot of grass outside the venue, it was _ideal_ beer weather. The beer acted as a social lubricant; we’re a young dynamic industry, we deal day-in-day-out with cool and interesting stuff, we’re not a bunch of boring squares who dress in suits, we’re a community of interesting and excitable individuals, the exact kind of people I’d love to have a beer with—and got to!
-
-
-
-
 
 The fact that beer was being served throughout the two days of baking sun where 470 like-minded people were gathered to watch some of the web’s best front-end developers (and me) give talks gave the whole thing a real festival feel. Front-Trends 2012 felt like a festival, a festival of designers, developers, sun, music and some absolutely stellar talks. Seriously, it was unreal. People commenting from afar on the beer situation unfortunately didn’t have the full context, they couldn’t see that no one was drunk, no one started any drinking games or competitions, no one embarrassed themselves; nothing went wrong.
 
-
-
-
-
 ## In short
-
-
-
-
 
 So, to sum up, in going to Front-Trends 2012 I:
 
-
-
-
-
-
-
-  * Delivered a talk to [470 people](http://www.flickr.com/photos/csswizardry/7123682471/in/set-72157629558792354) from all over the globe.
-
-
-  * Spent the whole time with Jamie Mason, one of my best and funniest friends.
-
-
-  * Saw some absolutely fantastic talks by some truly genius people.
-
-
-  * Hung out with Rachel Andrew for a couple of days.
-
-
-  * Watched football in a bar with Jamie, Vitaly and Alex Giron.
-
-
-  * Chilled out on a hammock with Lea Verou.
-
-
-  * Almost died laughing at Chris Coyier.
-
-
-  * Finally met Vitaly Friedman.
-
-
-  * Saw a lot of beautiful sights in Warsaw.
-
-
-  * Lots, lots more.
-
-
-
-
+* Delivered a talk to [470 people](http://www.flickr.com/photos/csswizardry/7123682471/in/set-72157629558792354) from all over the globe.
+* Spent the whole time with Jamie Mason, one of my best and funniest friends.
+* Saw some absolutely fantastic talks by some truly genius people.
+* Hung out with Rachel Andrew for a couple of days.
+* Watched football in a bar with Jamie, Vitaly and Alex Giron.
+* Chilled out on a hammock with Lea Verou.
+* Almost died laughing at Chris Coyier.
+* Finally met Vitaly Friedman.
+* Saw a lot of beautiful sights in Warsaw.
+* Lots, lots more.
 
 Front-Trends was Wednesday to Saturday non-stop fun, interesting talks, great weather, lovely people and a beautiful city. It was my first and hopefully not my last talk at a proper conference, it was organised incredibly well and I would recommend that:
 
-
-
-
-
-
-
-  1. Anyone thinking of heading to conferences over the next few years should get to Front-Trends.
-
-
-  2. People thinking of getting into speaking should try get a slot at Front-Trends (they got in touch with me even though I had zero speaking experience).
-
-
-  3. People organising conferences take a leaf out of [Paweł](http://twitter.com/czerskip) and [Damian](http://twitter.com/varjs)’s book.
-
-
-
-
+1. Anyone thinking of heading to conferences over the next few years should get to Front-Trends.
+2. People thinking of getting into speaking should try get a slot at Front-Trends (they got in touch with me even though I had zero speaking experience).
+3. People organising conferences take a leaf out of [Paweł](http://twitter.com/czerskip) and [Damian](http://twitter.com/varjs)’s book.
 
 To the organisers, the lovely people of Warsaw and the speakers and attendees of Front-Trends, a massive, massive thank you!
-
-
-
-
 
 _Harry_
