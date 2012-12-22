@@ -25,11 +25,12 @@ body{
  */
 .wrapper{
     max-width:1100px;
+    margin-right:auto;
+    margin-left: auto;
     padding-right:$base-spacing-unit;
     padding-left:$base-spacing-unit;
     
     @include media-query(portable){
-        margin:0 auto;
         padding-right:$half-spacing-unit;
         padding-left: $half-spacing-unit;
         max-width:640px;
