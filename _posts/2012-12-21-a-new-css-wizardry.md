@@ -131,7 +131,7 @@ often excellent and full of information and opinion – were:
 * Impossible to reply to individually
 * Fetching a _lot_ of spam. I mean a hell of a lot…
 
-I have decided, for now at least, do do away with comments. I still have the
+I have decided, for now at least, to do away with comments. I still have the
 data from comments on the old site, so I can reinstate them if/when I decide
 it is the right thing to do, but for now I have gotten rid.
 
