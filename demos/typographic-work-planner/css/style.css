@@ -1,0 +1,119 @@
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ 
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,code,em,strong,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul{
+	list-style:none;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	font-size:100%;
+	height:101%;
+}
+body{
+	font-size:62.5%;
+	font-family:Arial, Verdana, sans-serif;
+	color:#333;
+	background:/*url(http://csswizardry.com/quick-tips/img/css/grid.gif) top center repeat-y */#fff;
+}
+#wrapper{
+	width:940px;
+	padding:10px;
+	margin:0 auto;
+}
+
+
+
+
+
+/*------------------------------------*\
+	TABLES
+\*------------------------------------*/
+table{
+	margin-bottom:20px;
+}
+td,th{
+	border-bottom:1px solid #ccc;
+}
+tbody tr{
+	background:#fff;
+}
+tbody tr:nth-of-type(even){
+	background:#ffc;
+}
+th,tfoot,caption{
+	font-family:Helvetica, Arial, Verdana, sans-serif;
+	font-size:1.6em;
+	font-weight:bold;
+}
+th,td{
+	padding:10px 0;
+}
+caption{
+	font-size:2.4em;
+	position:absolute;
+	left:-9999px;
+}
+.date{
+	width:160px;
+	padding:10px 15px 10px 5px;
+	font-family:Georgia, "Times New Roman", Times;
+	font-size:1.6em;
+	font-style:italic;
+}
+.user{
+	width:460px;
+	padding-right:20px;
+	font-family:Helvetica, Arial, Verdana, sans-serif;
+	font-size:4.8em;
+	font-weight:bold;
+}
+.desc{
+	width:280px;
+	font-size:1.2em;
+}
+tbody tr.today{
+	background:#ff8;
+	
+	text-shadow:1px 1px 1px rgba(0,0,0,0.3);
+}
+tfoot{
+	color:#666;
+}
+tfoot td{
+	padding:10px 5px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Paragraphs test-case</title>
+	
+	<style>
+		body{
+			width:480px;
+			margin:0 auto;
+			font-family:Cambria, Georgia, "Times New Roman", Times, serif;
+		}
+		a{
+			color:#c00;
+		}
+		div,h1{
+			border-bottom:1px solid #ccc;
+		}
+		div{
+			margin-bottom:10px;
+		}
+		h1{
+			padding-bottom:10px;
+		}
+		p{
+			margin:0 0 20px 0;
+			line-height:1.5em;
+		}
+		img{
+			margin-bottom:20px;
+		}
+		#spaced-indented p{
+			text-indent:2em;
+		}
+		#indented p{
+			margin:0;
+		}
+		#indented p+p{
+			text-indent:2em;
+		}
+		#indented-fixed p{
+			margin-bottom:20px;
+		}
+		#indented-fixed p+p{
+			text-indent:2em;
+			margin-top:-20px;
+		}
+		:target h2{
+			background:#ffc;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+	<h1>Paragraphs test-case</h1>
+	
+	<div>
+		
+		<p><a href="/2010/12/mo-robust-paragraph-indenting/">Return to main article</a></p>
+		
+	</div>
+
+	<div id="spaced-indented">
+	
+		<h2>Spaced &amp; indented</h2>
+	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor.</p>
+		
+		<p>Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+		
+		<img src="demo.jpg" alt="Hai! It&rsquo;s me on my bike!!!" title="Hai! It&rsquo;s me on my bike!!!" />
+		
+		<p>Sed euismod dapibus mi a adipiscing. Quisque feugiat diam ut felis iaculis vehicula. Ut sodales, velit in fermentum laoreet, arcu quam blandit tortor, nec porttitor erat turpis ut urna. Suspendisse libero massa, lacinia fermentum fermentum eget, luctus a diam. Etiam ullamcorper, purus sit amet laoreet mattis, eros ipsum suscipit libero, et condimentum metus dolor et nisi.</p>
+	
+	</div>
+
+	<div id="spaced">
+	
+		<h2>Spaced</h2>
+	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor.</p>
+		
+		<p>Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+		
+		<img src="demo.jpg" alt="Hai! It&rsquo;s me on my bike!!!" title="Hai! It&rsquo;s me on my bike!!!" />
+		
+		<p>Sed euismod dapibus mi a adipiscing. Quisque feugiat diam ut felis iaculis vehicula. Ut sodales, velit in fermentum laoreet, arcu quam blandit tortor, nec porttitor erat turpis ut urna. Suspendisse libero massa, lacinia fermentum fermentum eget, luctus a diam. Etiam ullamcorper, purus sit amet laoreet mattis, eros ipsum suscipit libero, et condimentum metus dolor et nisi.</p>
+	
+	</div>
+
+	<div id="indented">
+	
+		<h2>Indented</h2>
+	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor.</p>
+		
+		<p>Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+		
+		<img src="demo.jpg" alt="Hai! It&rsquo;s me on my bike!!!" title="Hai! It&rsquo;s me on my bike!!!" />
+		
+		<p>Sed euismod dapibus mi a adipiscing. Quisque feugiat diam ut felis iaculis vehicula. Ut sodales, velit in fermentum laoreet, arcu quam blandit tortor, nec porttitor erat turpis ut urna. Suspendisse libero massa, lacinia fermentum fermentum eget, luctus a diam. Etiam ullamcorper, purus sit amet laoreet mattis, eros ipsum suscipit libero, et condimentum metus dolor et nisi.</p>
+	
+	</div>
+
+	<div id="indented-fixed">
+	
+		<h2>Indented Fixed</h2>
+	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor.</p>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor.</p>
+		
+		<h3>This is great!</h3>
+		
+		<p>Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+		
+		<p>Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+		
+		<img src="demo.jpg" alt="Hai! It&rsquo;s me on my bike!!!" title="Hai! It&rsquo;s me on my bike!!!" />
+		
+		<p>Sed euismod dapibus mi a adipiscing. Quisque feugiat diam ut felis iaculis vehicula. Ut sodales, velit in fermentum laoreet, arcu quam blandit tortor, nec porttitor erat turpis ut urna. Suspendisse libero massa, lacinia fermentum fermentum eget, luctus a diam. Etiam ullamcorper, purus sit amet laoreet mattis, eros ipsum suscipit libero, et condimentum metus dolor et nisi.</p>
+	
+	</div>
+	
+	<div>
+		
+		<p><a href="/2010/12/mo-robust-paragraph-indenting/">Return to main article</a></p>
+		
+	</div>
+
+</body>
+</html>

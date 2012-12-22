@@ -1,0 +1,181 @@
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	font-family:Calibri, Arial, sans-serif;
+	background:url(http://dl.dropbox.com/u/2629908/adaptive/img/css/grid.png) top center repeat-y #fff;
+	background:#fff;
+	color:#666;
+	height:101%;
+	font-size-adjust:0.45;
+}
+body{
+	width:940px;
+	padding:100px 10px;
+	margin:0 auto;
+}
+h1{
+	font-weight:bold;
+	font-size:2em;
+}
+h2{
+	font-weight:bold;
+	font-size:1.5em;
+}
+small{
+	color:#ccc;
+}
+a{
+	color:#6b0c36;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration:underline;
+}
+p{
+	margin-bottom:20px;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+	ACCORDION
+\*------------------------------------*/
+.accordion{
+	width:940px;
+	overflow:hidden;
+	list-style:none;
+	margin-bottom:10px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.25);
+	background:blue;
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+}
+.accordion li{
+	float:left;
+	width:20%;
+	overflow:hidden;
+	height:250px;
+	-moz-transition:all 0.2s ease-out;
+	-webkit-transition:all 0.2s ease-out;
+	-o-transition:all 0.2s ease-out;
+	transition:all 0.2s ease-out;
+	-moz-transition-delay:0.15s;
+	-webkit-transition-delay:0.15s;
+	-o-transition-delay:0.15s;
+	transition-delay:0.15s;
+}
+.accordion li:first-of-type{
+	-moz-border-radius:10px 0 0 10px;
+	-webkit-border-radius:10px 0 0 10px;
+	-o-border-radius:10px 0 0 10px;
+	border-radius:10px 0 0 10px;
+}
+.accordion li:last-of-type{
+	-moz-border-radius:0 10px 10px 0;
+	-webkit-border-radius:0 10px 10px 0;
+	-o-border-radius:0 10px 10px 0;
+	border-radius:0 10px 10px 0;
+}
+.accordion div{
+	padding:10px;
+}
+.accordion:hover li{
+	width:10%;
+}
+.accordion li:hover{
+	width:60%;
+}
+.slide-01	{ background:red; color:white; }
+.slide-02	{ background:orange; color:white; }
+.slide-03	{ background:yellow; color:#333; text-shadow:none; }
+.slide-04	{ background:green; color:white; }
+.slide-05	{ background:blue; color:white; }
+
+
+
+
+
+
+/*------------------------------------*\
+	VERTICAL
+\*------------------------------------*/
+#vertical{
+	width:940px;
+	height:300px;
+}
+#vertical li{
+	height:20%;
+	width:100%;
+	-moz-transition:all 0.2s ease-out;
+	-webkit-transition:all 0.2s ease-out;
+	-o-transition:all 0.2s ease-out;
+	transition:all 0.2s ease-out;
+	-moz-transition-delay:0.15s;
+	-webkit-transition-delay:0.15s;
+	-o-transition-delay:0.15s;
+	transition-delay:0.15s;
+}
+#vertical li:first-of-type{
+	-moz-border-radius:10px 10px 0 0;
+	-webkit-border-radius:10px 10px 0 0;
+	-o-border-radius:10px 10px 0 0;
+	border-radius:10px 10px 0 0;
+}
+#vertical li:last-of-type{
+	-moz-border-radius:0 0 10px 10px;
+	-webkit-border-radius:0 0 10px 10px;
+	-o-border-radius:0 0 10px 10px;
+	border-radius:0 0 10px 10px;
+}
+#vertical:hover li{
+	height:10%;
+	width:100%;
+}
+#vertical li:hover{
+	height:60%;
+	width:100%;
+}

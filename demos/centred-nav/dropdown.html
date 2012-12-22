@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	
+	<title>Vertically centred horizontal nav.</title>
+	
+	<style>
+	
+		body	{ width:960px; padding:100px 0; margin:0 auto; font-family:Calibri, sans-serif; }
+		#nav{
+			border:1px solid #ccc;
+			border-width:1px 0;
+			list-style:none;
+			margin:0;
+			padding:0;
+			text-align:center;
+		}
+		#nav li{
+			position:relative;
+			display:inline;
+		}
+		#nav a{
+			display:inline-block;
+			padding:10px;
+		}
+		#nav ul{
+			position:absolute;
+			/*top:100%; Uncommenting this makes the dropdowns work in IE7 but looks a little worse in all other browsers. Your call. */
+			left:-9999px;
+			margin:0;
+			padding:0;
+			text-align:left;
+		}
+		#nav ul li{
+			display:block;
+		}
+		#nav li:hover ul{
+			left:0;
+		}
+		#nav li:hover a{
+			text-decoration:underline;
+			background:#f1f1f1;
+		}
+		#nav li:hover ul a{
+			text-decoration:none;
+			background:none;
+		}
+		#nav li:hover ul a:hover{
+			text-decoration:underline;
+			background:#f1f1f1;
+		}
+		#nav ul a{
+			white-space:nowrap;
+			display:block;
+			border-bottom:1px solid #ccc;
+		}
+		a{
+			color:#c00;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		a:hover{
+			text-decoration:underline;
+			background:#f1f1f1;
+		}
+		
+	</style>
+	
+</head>
+
+<body>
+
+	<h1>Create a vertically centred horizontal navigation</h1>
+
+	
+	<ul id="nav">
+	
+		<li><a href="/">Home</a></li>
+		<li>
+			<a href="/about/">About</a>
+			<ul>
+				<li><a href="#">About me</a></li>
+				<li><a href="#">About my work</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="/portfolio/">Portfolio</a>
+			<ul>
+				<li><a href="#">Web</a></li>
+				<li><a href="#">Print</a></li>
+				<li><a href="#">Identity</a></li>
+			</ul>
+		</li>
+		<li><a href="/archives/">Archives</a></li>
+		<li><a href="/resources/">Resources</a></li>
+		<li><a href="/contact/">Contact</a></li>
+
+	</ul>
+	
+	<p><a href="http://csswizardry.com/2011/01/create-a-vertically-centred-horizontal-navigation/">Back to article</a> | <a href="./">View regular version</a></p>
+
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-1856861-4");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+</body>
+</html>

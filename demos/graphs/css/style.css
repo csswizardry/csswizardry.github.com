@@ -1,0 +1,100 @@
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ 
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,code,em,strong,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul{
+	list-style:none;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	font-size:100%;
+	height:101%;
+}
+body{
+	font-size:75%;
+	font-family:Arial, Verdana, sans-serif;
+	background:/*url(//csswizardry.com/whitleyjournalism.co.uk/img/css/grid.png) top center repeat-y */#fff;
+	color:#333;
+}
+#wrapper{
+	width:940px;
+	padding:10px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+	CHART
+\*------------------------------------*/
+#chart{
+	width:520px;
+}
+#chart dt{
+	width:160px;
+	float:left;
+	margin:0 20px 5px 0;
+	padding:2px 0;
+	display:inline;
+	font-weight:bold;
+	text-align:right;
+	clear:left;
+}
+#chart dd{
+	width:339px;
+	border-right:1px solid #ddd;
+	float:left;
+	margin-bottom:5px;
+	display:inline;
+}
+#chart dd span{
+	color:#fff;
+	background:#09f;
+	text-align:center;
+	padding:2px 0;
+	display:block;
+	
+	text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:-webkit-gradient(linear, left top, left bottom, from(#09f), to(#077fd0));
+	-webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.25)));
+}

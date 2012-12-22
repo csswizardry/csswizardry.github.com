@@ -1,0 +1,128 @@
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	font-family:Cambria, Georgia, "Times New Roman", Times, serif;
+	background:#e4e3d5;
+	color:#666;
+	height:101%;
+}
+body{
+	width:940px;
+	padding:75px 10px;
+	margin:0 auto;
+	background:#fff;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+	TYPE
+\*------------------------------------*/
+h1,h2{
+	clear:both;
+	position:relative;
+	color:#fff;
+	background:#f43059;
+	text-shadow:0 -1px #d0284b, 0 1px #f96080;
+}
+h1{
+	font-size:2em;
+	text-align:center;
+	margin:0 -20px 50px -20px;
+	padding:20px 0;
+	
+	-moz-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+	-o-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+	box-shadow:0 2px 0 rgba(0,0,0,0.1);
+}
+h1:before,
+h1:after,
+h2:before{
+	content:" ";
+	background:url(../img/css/ribbon.png);
+	display:block;
+	width:10px;
+	height:10px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	margin-bottom:-10px;
+	z-index:-1;
+}
+h1:after{
+	background:url(../img/css/ribbon-2.png);
+	right:0;
+	left:auto;
+}
+h2{
+	font-size:1.5em;
+	float:left;
+	padding:10px 10px 10px 20px;
+	margin-left:-20px;
+	margin-bottom:20px;
+	
+	-moz-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+	-o-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+	box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+}
+h2:nth-of-type(even){
+	float:right;
+	padding:10px 20px 10px 10px;
+	margin-right:-20px;
+	
+	-moz-box-shadow:-2px 2px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow:-2px 2px 0 rgba(0,0,0,0.1);
+	-o-box-shadow:-2px 2px 0 rgba(0,0,0,0.1);
+	box-shadow:-2px 2px 0 rgba(0,0,0,0.1);
+}
+h2:nth-of-type(even):before{
+	background:url(../img/css/ribbon-2.png);
+	right:0;
+	left:auto;
+}
+p{
+	clear:both;
+	margin-bottom:20px;
+}

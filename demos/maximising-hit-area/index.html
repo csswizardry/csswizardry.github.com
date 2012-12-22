@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;
+			charset=UTF-8" />
+	<title>Maximising hit-area for usability&mdash;CSS Wizardry&mdash;CSS, Web Standards, Typography, and Grids by Harry Roberts</title>
+
+	<style>
+		
+		body{
+			width:460px;
+			margin:0 auto;
+			font-family:Calibri, sans-serif;
+			color:#333;
+		}
+		
+		a,
+		#large-hit span{
+			color:#c00;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		a:hover,
+		#large-hit:hover span{
+			text-decoration:underline;
+		}
+		p,
+		#large-hit{
+			font-size:3em;
+			line-height:1em;
+			padding:10px;
+			background:#e4e4e4;
+		}
+		#large-hit{
+			text-decoration:none;
+			color:#333;
+			font-weight:normal;
+			display:block;
+		}
+		a:after,
+		#large-hit span:after{
+			content:" \00bb";
+		}
+		#large-hit:after{
+			content:"";
+			content:none;
+		}
+		
+	</style>
+
+</head>
+<body>
+
+	<h1>Maximising hit-area for usability <small><a href="/2011/01/maximising-hit-area-for-usability/">Return to article</a></small></h1>
+	
+	<h2>Regular hit-area:</h2>
+	
+	<p>For a detailed quote for your project, please <a href="#">contact us</a></p>
+
+	<h2>Maximised hit-area:</h2>
+	
+	<a href="#" id="large-hit">For a detailed quote for your project, please <span>contact us</span></a>
+		
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-1856861-4");
+		pageTracker._trackPageview();
+	} catch(err) {}
+	</script>
+</body>
+</html>

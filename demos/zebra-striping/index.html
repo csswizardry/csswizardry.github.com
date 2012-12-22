@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<title>Zebra-striping</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<h1>Zebra-striping</h1>
+	
+	<h2>Rows</h2>
+	<table id="one">
+		<caption>This is a nonsense table</caption>
+		<thead>
+			<tr>
+				<td></td>
+				<th>ID</th>
+				<th>Age</th>
+				<th>Height</th>
+				<th>Occupation</th>
+				<th>Hobbies</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="6">Data accurate as of August 2010</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<th>Harry Roberts</th>
+				<td>001</td>
+				<td>20</td>
+				<td>6&prime;4&Prime;</td>
+				<td>Web Developer</td>
+				<td><a href="http://harryroberts.co.uk/category/trials/" title="Trials category on harryroberts.co.uk">Trials</a></td>
+			</tr>
+			<tr>
+				<th>Joe Whitley</th>
+				<td>002</td>
+				<td>20</td>
+				<td>6&prime;1&Prime;</td>
+				<td>Sports Journalist</td>
+				<td>Golf</td>
+			</tr>
+			<tr>
+				<th>Laura Jones</th>
+				<td>003</td>
+				<td>22</td>
+				<td>5&prime;5&Prime;</td>
+				<td>Florist</td>
+				<td>Pub darts</td>
+			</tr>
+			<tr>
+				<th>Jos&eacute; Edwards</th>
+				<td>004</td>
+				<td>19</td>
+				<td>6&prime;</td>
+				<td>Candlestick Maker</td>
+				<td>Singing</td>
+			</tr>
+			<tr>
+				<th>Sally Rodgers</th>
+				<td>005</td>
+				<td>35</td>
+				<td>5&prime;7&Prime;</td>
+				<td>Copywriter</td>
+				<td>Bodybuilding</td>
+			</tr>
+			<tr>
+				<th>Herbert Smythe</th>
+				<td>006</td>
+				<td>12</td>
+				<td>4&prime;11&Prime;</td>
+				<td>Student</td>
+				<td>Cage fighting</td>
+			</tr>
+			<tr>
+				<th>John Smith</th>
+				<td>007</td>
+				<td>28</td>
+				<td>5&prime;11&Prime;</td>
+				<td>Fishmonger</td>
+				<td>Cross-stitch</td>
+			</tr>
+		</tbody>
+	</table>
+<pre><code>tbody tr:nth-of-type(odd){
+	background:rgba(255,255,136,0.5);
+}</code></pre>
+	
+	
+	
+	
+	
+	<h2>Columns</h2>
+	<table id="two">
+		<caption>This is a nonsense table</caption>
+		<thead>
+			<tr>
+				<td></td>
+				<th>ID</th>
+				<th>Age</th>
+				<th>Height</th>
+				<th>Occupation</th>
+				<th>Hobbies</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="6">Data accurate as of August 2010</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<th>Harry Roberts</th>
+				<td>001</td>
+				<td>20</td>
+				<td>6&prime;4&Prime;</td>
+				<td>Web Developer</td>
+				<td><a href="http://harryroberts.co.uk/category/trials/" title="Trials category on harryroberts.co.uk">Trials</a></td>
+			</tr>
+			<tr>
+				<th>Joe Whitley</th>
+				<td>002</td>
+				<td>20</td>
+				<td>6&prime;1&Prime;</td>
+				<td>Sports Journalist</td>
+				<td>Golf</td>
+			</tr>
+			<tr>
+				<th>Laura Jones</th>
+				<td>003</td>
+				<td>22</td>
+				<td>5&prime;5&Prime;</td>
+				<td>Florist</td>
+				<td>Pub darts</td>
+			</tr>
+			<tr>
+				<th>Jos&eacute; Edwards</th>
+				<td>004</td>
+				<td>19</td>
+				<td>6&prime;</td>
+				<td>Candlestick Maker</td>
+				<td>Singing</td>
+			</tr>
+			<tr>
+				<th>Sally Rodgers</th>
+				<td>005</td>
+				<td>35</td>
+				<td>5&prime;7&Prime;</td>
+				<td>Copywriter</td>
+				<td>Bodybuilding</td>
+			</tr>
+			<tr>
+				<th>Herbert Smythe</th>
+				<td>006</td>
+				<td>12</td>
+				<td>4&prime;11&Prime;</td>
+				<td>Student</td>
+				<td>Cage fighting</td>
+			</tr>
+			<tr>
+				<th>John Smith</th>
+				<td>007</td>
+				<td>28</td>
+				<td>5&prime;11&Prime;</td>
+				<td>Fishmonger</td>
+				<td>Cross-stitch</td>
+			</tr>
+		</tbody>
+	</table>
+<pre><code>tbody td:nth-of-type(odd),
+thead th:nth-of-type(odd){
+	background:rgba(255,255,136,0.5);
+}</code></pre>
+	
+	
+	
+	
+	
+	<h2>Both</h2>
+	<table id="three">
+		<caption>This is a nonsense table</caption>
+		<thead>
+			<tr>
+				<td></td>
+				<th>ID</th>
+				<th>Age</th>
+				<th>Height</th>
+				<th>Occupation</th>
+				<th>Hobbies</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="6">Data accurate as of August 2010</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<th>Harry Roberts</th>
+				<td>001</td>
+				<td>20</td>
+				<td>6&prime;4&Prime;</td>
+				<td>Web Developer</td>
+				<td><a href="http://harryroberts.co.uk/category/trials/" title="Trials category on harryroberts.co.uk">Trials</a></td>
+			</tr>
+			<tr>
+				<th>Joe Whitley</th>
+				<td>002</td>
+				<td>20</td>
+				<td>6&prime;1&Prime;</td>
+				<td>Sports Journalist</td>
+				<td>Golf</td>
+			</tr>
+			<tr>
+				<th>Laura Jones</th>
+				<td>003</td>
+				<td>22</td>
+				<td>5&prime;5&Prime;</td>
+				<td>Florist</td>
+				<td>Pub darts</td>
+			</tr>
+			<tr>
+				<th>Jos&eacute; Edwards</th>
+				<td>004</td>
+				<td>19</td>
+				<td>6&prime;</td>
+				<td>Candlestick Maker</td>
+				<td>Singing</td>
+			</tr>
+			<tr>
+				<th>Sally Rodgers</th>
+				<td>005</td>
+				<td>35</td>
+				<td>5&prime;7&Prime;</td>
+				<td>Copywriter</td>
+				<td>Bodybuilding</td>
+			</tr>
+			<tr>
+				<th>Herbert Smythe</th>
+				<td>006</td>
+				<td>12</td>
+				<td>4&prime;11&Prime;</td>
+				<td>Student</td>
+				<td>Cage fighting</td>
+			</tr>
+			<tr>
+				<th>John Smith</th>
+				<td>007</td>
+				<td>28</td>
+				<td>5&prime;11&Prime;</td>
+				<td>Fishmonger</td>
+				<td>Cross-stitch</td>
+			</tr>
+		</tbody>
+	</table>
+<pre><code>tbody td:nth-of-type(odd),
+tbody tr:nth-of-type(odd),
+thead th:nth-of-type(odd){
+	background:rgba(255,255,136,0.5);
+}</code></pre>
+
+<p><a href="/2010/08/zebra-striping-rows-and-columns/">Return to the article</a>.</p>
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-1856861-4");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+/*YAHOO! RESET*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {  
+	margin:0; 
+	padding:0; 
+} 
+table { 
+	border-collapse:collapse; 
+	border-spacing:0; 
+} 
+fieldset,img {  
+	border:0; 
+} 
+address,caption,cite,code,dfn,th,var { 
+	font-style:normal; 
+	font-weight:normal; 
+} 
+ul { 
+	list-style:square outside; 
+} 
+ol { 
+	list-style:lower-roman outside; 
+}
+caption,th { 
+	text-align:left; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+	font-size:100%; 
+	font-weight:normal; 
+} 
+q:before,q:after { 
+	content:''; 
+} 
+abbr,acronym {
+	border:0; 
+}
+/*---------- END RESET ----------*/
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	font-size:100%;
+	height:101%;
+}
+body{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background:url(http://csswizardry.com/whitleyjournalism.co.uk/img/css/grid.png) top center repeat-y #fff;
+	background:#fff;
+	color:#333;
+}
+
+
+
+
+
+/*------------------------------------*\
+	WRAPPER
+\*------------------------------------*/
+body>div{
+	width:820px;
+	padding:0 10px 0 130px;
+	margin:0 auto;
+}
+
+
+
+
+
+/*------------------------------------*\
+	HEADER
+\*------------------------------------*/
+body>div>div:first-of-type{
+	padding:20px 0;
+	width:100%;
+	overflow:hidden;
+}
+body>div>div:first-of-type em{
+	float:left;
+	padding:5px 0;
+	line-height:1.5em;
+}
+body>div>div:first-of-type ul{
+	float:right;
+	list-style:none;
+}
+body>div>div:first-of-type li{
+	float:left;
+	margin-left:20px;
+}
+body>div>div:first-of-type li a{
+	width:100px;
+	display:block;
+	text-align:right;
+	border-top:1px solid #ccc;
+	padding:5px 0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	CONTENT
+\*------------------------------------*/
+body>div div:nth-of-type(2){
+	float:left;
+	width:520px;
+	margin-right:80px;
+	display:inline;
+}
+body>div div:nth-of-type(2) div{
+	width:280px;
+	margin:0 20px 0 -120px;
+	float:left;
+}
+body>div div:nth-of-type(2) div p{
+	color:#999;
+	font-size:0.75em;
+	line-height:2em;
+	font-family:Arial, Verdana, sans-serif;
+	margin:0;
+	text-align:right;
+}
+body>div div:nth-of-type(2) div p+p{
+	text-indent:2em;
+}
+
+
+
+
+
+/*------------------------------------*\
+	SUB-CONTENT
+\*------------------------------------*/
+body>div div:nth-of-type(3){
+	width:220px;
+	float:left;
+	display:inline;
+	text-align:justify;
+	color:#999;
+}
+
+
+
+
+
+/*------------------------------------*\
+	FOOTER
+\*------------------------------------*/
+body>div>div:last-of-type{
+	clear:both;
+}
+
+
+
+
+
+/*------------------------------------*\
+	TYPE
+\*------------------------------------*/
+h1,h2,h3,h4,h5,h6{
+	font-family:Cambria, Georgia, "Times New Roman", Times, serif;
+	font-variant:small-caps;
+	letter-spacing:0.1em;
+	margin-bottom:24px;
+}
+h1{
+	font-size:1.5em;
+	line-height:1em;
+}
+h2{
+	font-size:1.25em;
+	line-height:1.2em;
+}
+h3{
+	font-size:1.125em;
+	line-height:1.333em;
+	margin:0;
+}
+p{
+	line-height:1.5em;
+	margin-bottom:24px;
+}
+a{
+	color:#f60;
+}
+a:hover{
+	text-decoration:none;
+}

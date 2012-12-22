@@ -1,0 +1,170 @@
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ 
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	height:101%;
+}
+body{
+	font-family:Calibri, Arial, Verdana, sans-serif;
+	background:#fff;
+	color:#88979e;
+	width:940px;
+	padding:10px;
+	margin:0 auto;
+}
+
+
+
+
+
+/*------------------------------------*\
+	PROGRESS
+\*------------------------------------*/
+#progress{
+	list-style:none;
+	background:#7b8d77;
+	float:left;
+	margin-bottom:20px;
+	counter-reset:step;
+}
+#progress li{
+	float:left;
+	font-size:0.75em;
+	font-style:italic;
+}
+#progress{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+#progress a{
+	display:block;
+	text-decoration:none;
+	padding:10px 25px 10px 30px;
+	background:#7b8d77;
+	color:#fff;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.25);
+	position:relative;
+	-moz-border-radius:5px 0 0 5px;
+	-webkit-border-radius:5px 0 0 5px;
+	border-radius:5px 0 0 5px;
+}
+#progress span{
+	font-size:1.333em;
+	font-weight:bold;
+	display:block;
+	font-style:normal;
+}
+#progress strong{
+	font-weight:normal
+}
+#progress a:hover{
+	text-decoration:none;
+}
+#progress a:hover span{
+	text-decoration:underline;
+}
+
+#progress li a:before{
+	counter-increment:step;
+	content:counter(step);
+	text-align:center;
+	font-weight:bold;
+	position:absolute;
+	top:50%;
+	left:5px;
+	margin-top:-8px;
+	padding:2px 6px;
+	background:rgba(0,0,0,0.25);
+	
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+}
+#details-page .details-step a,
+#account-page .account-step a,
+#products-page .products-step a,
+#payment-page .payment-step a{
+	background:url(../img/css/splitter.gif) right center no-repeat #a49d4d;
+}
+#go-page .go-step a{
+	background:#a49d4d;
+}
+#progress .go-step a{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MOBILE
+\*------------------------------------*/
+@media (max-width: 480px){
+body{
+	width:auto;
+	padding:5px;
+}
+#progress{
+	width:auto;
+	background:none;
+	float:none;
+}
+#progress li{
+	float:none;
+	margin-bottom:1px;
+}
+#progress a{
+	margin:0 10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+#details-page .details-step a,
+#account-page .account-step a,
+#products-page .products-step a,
+#payment-page .payment-step a,
+#go-page .go-step a{
+	background:#a49d4d;
+	margin:0 auto;
+}
+}

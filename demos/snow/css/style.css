@@ -1,0 +1,103 @@
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ 
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th{
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	font-family:Calibri, Arial, Verdana, sans-serif;
+	background:url(../img/css/grid.png) top center repeat-y #222;
+	background:url(../img/css/snow.png) bottom left repeat-x fixed #222;
+	color:#fff;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+body{
+	width:940px;
+	padding:10px;
+	margin:0 auto;
+}
+#wrapper{
+	position:relative;
+	z-index:5;
+}
+h1{
+	font-weight:bold;
+	font-size:1.5em;
+	margin-bottom:20px;
+}
+a{
+	color:#fff;
+}
+
+
+
+
+
+/*------------------------------------*\
+	SNOWFLAKES
+\*------------------------------------*/
+#snow{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  overflow:hidden;
+}
+.snowflake{
+	text-shadow:none;
+	position:absolute;
+	top:0;
+	-webkit-animation-name:snowflake-animation;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+}
+.snowflake:before{
+	content:"*";
+}
+@-webkit-keyframes snowflake-animation{
+	from{
+		top:0%;
+		-webkit-transform:rotate(0deg);
+	}
+	50%{
+		-webkit-transform:rotate(360deg);
+	}
+	to{
+		top:100%;
+		-webkit-transform:rotate(0deg);
+	}
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Remote controlled hyperlinks</title>
+	<style>
+		body{
+			font-family:Calibri, sans-serif;
+		}
+		a,.multi-links span{
+			font-weight:bold;
+			color:#c00;
+			text-decoration:none;
+			cursor:pointer;
+		}
+		.multi-links,.multi-links:hover,.multi-links:active,.multi-links:focus{
+			position:static;
+			text-decoration:none;
+			font-weight:normal;
+			color:#333;
+			outline:none;
+			cursor:default;
+		}
+		a:hover,a:active,a:focus,.multi-links:hover span{
+			text-decoration:underline;
+		}
+		a:active,a:focus,.multi-links:active span,.multi-links:focus span{
+			position:relative;
+			top:1px;
+			text-decoration:underline;
+		}
+		.multi-links:active span,.multi-links:focus span{
+			outline:1px dotted #c00;
+		}
+	</style>
+</head>
+
+<body>
+
+	<p>Read more <a href="#" class="multi-links"><span>about me</span> and <span>contact me</span></a>.</p>
+
+	<p>Why not <a href="#" class="multi-links"><span>search</span> and <span>read</span> my archives</a>?</p>
+	
+	<p><a href="/2010/12/remote-controlled-hyperlinks-or-multiple-links-in-one-hyperlink/">Back to main article.</a></p>
+
+</body>
+</html>
