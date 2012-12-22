@@ -3,7 +3,6 @@
 \*------------------------------------*/
 /**
  * Ad Packs styling.
- * 1. Use `!important` to override Ad Packs’ CSS.
  */
 .ad{
     @include font-size(12px);
@@ -30,6 +29,9 @@
     }
 }
 
+.bsa_it_t{
+    display:block;
+}
 .bsa_it_p{
-    display:none!important; /* [1] */
+    display:none;
 }
