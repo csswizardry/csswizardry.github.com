@@ -16,19 +16,12 @@ tag:
 - Semantics
 ---
 
-No one likes being told what to do, especially if it's work related, but nevertheless jobs need done. Why present boring stuff in a boring way? If you're going to be told what to do, at least soften the blow by being told nicely. Enter this, a little HTML/CSS typographic work planner. By using some super-semantic HTML and a dash of CSS you can craft a beautiful looking yet incredibly simple work planner for you and your staff.
-
-[![Screenshot of the typographic work planner](http://csswizardry.com/wp-content/uploads/2009/12/table.jpg)](http://csswizardry.com/demos/typographic-work-planner/)
-
-
-
+No one likes being told what to do, especially if it’s work related, but nevertheless jobs need done. Why present boring stuff in a boring way? If you’re going to be told what to do, at least soften the blow by being told nicely. Enter this, a little HTML/CSS typographic work planner. By using some super-semantic HTML and a dash of CSS you can craft a beautiful looking yet incredibly simple work planner for you and your staff.
 
 ## Typographic work planner markup:
 
-
 The rich, semantic markup is as follows. Notice the use of the more semantic elements and attributes such as `summary=""`, `colgroup`, `scope=""`, `caption` and more...
 
-    
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -132,41 +125,21 @@ The rich, semantic markup is as follows. Notice the use of the more semantic ele
       </body>
     </html>
 
-
-
-
 ### In detail...
-
 
 There are a few things in the table you may not have seen before, briefly, they are:
 
-
-
-	
-  * **`summary=""`:** This is an attribute which provides a brief overview of the table and its contents/purpose.
-
-	
-  * **`caption`:** This is a table specific caption, essentially a heading/title explicitly for the table.
-
-	
-  * **`colgroup` and `col`:** This is an essentially invisible element that just adds semantic meaning to the table. It defines the columns and can—in some browsers—be used to style them.
-
-	
-  * **`scope="col"`:** This is an attribute which tells the browser whether the `th` is a title for a column or a row. This then obviously makes the other possible attribute value `row`.
-
-	
-  * **`tfoot`:** This is a table footer and contain pretty much anything you like. It must however appear _before_ the `tbody`.
-
-
-
+* **`summary=""`:** This is an attribute which provides a brief overview of the table and its contents/purpose.
+* **`caption`:** This is a table specific caption, essentially a heading/title explicitly for the table.
+* **`colgroup` and `col`:** This is an essentially invisible element that just adds semantic meaning to the table. It defines the columns and can—in some browsers—be used to style them.
+* **`scope="col"`:** This is an attribute which tells the browser whether the `th` is a title for a column or a row. This then obviously makes the other possible attribute value `row`.
+* **`tfoot`:** This is a table footer and contain pretty much anything you like. It must however appear _before_ the `tbody`.
 
 ## Typographic work planner CSS:
 
-
 The CSS used to create the work planner is pretty basic, with a dash or progressive enhancement added via some CSS3. [View the full CSS file with reset etc.](http://csswizardry.com/demos/typographic-work-planner/css/style.css)
 
-    
-    <code>table{
+    table{
       margin-bottom:20px;
     }
     td,th{
@@ -219,9 +192,6 @@ The CSS used to create the work planner is pretty basic, with a dash or progress
     }
     tfoot td{
       padding:10px 5px;
-    }</code>
+    }
 
-
-
-
-## [Typographic work planner demo](http://csswizardry.com/demos/typographic-work-planner/)
+**[Typographic work planner demo](http://csswizardry.com/demos/typographic-work-planner/)**
