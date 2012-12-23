@@ -12,16 +12,13 @@ tag:
 - Writing
 ---
 
-This is a short (and cheeky) post on the necessity of using proper punctuation--particularly the hyphen--and how it can completely alter the meaning of your sentence, often with ill effect. This morning, for one reason or another, I was reminded of a conversation I had with [@nofunnyname](http://twitter.com/nofunnyname) last week on the subject of him buying a car. He said:
+This is a short (and cheeky) post on the necessity of using proper punctuation
+&ndash; particularly the hyphen &ndash; and how it can completely alter the
+meaning of your sentence, often with ill effect. This morning, for one reason or
+another, I was reminded of a conversation I had with
+[@nofunnyname](http://twitter.com/nofunnyname) last week on the subject of him
+buying a car. He said:
 
+> I need to get an old ass banger.
 
-
-
-
-> "I need to get an old ass banger."
-
-
-
-
-
-So, is that 'old-ass banger', or 'old ass-banger'? You decide ;)
+So, is that ‘old-ass banger’, or ‘old ass-banger’? You decide ;)
