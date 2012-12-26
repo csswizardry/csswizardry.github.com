@@ -13,6 +13,7 @@ html{
 body{
     padding-top:$base-spacing-unit + 10; /* [1] */
     padding-left:0;
+    -webkit-font-smoothing:antialiased;
     @include media-query(desk){
         padding-top:$base-spacing-unit;
         padding-left:10px; /* [1] */
