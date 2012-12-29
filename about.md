@@ -40,7 +40,7 @@ speaking requests on a case-by-case basis.
 
 ## inuit.css
 
-[inuit.css](http://inuit.css) is a mature, open source, totally free project of
+[inuit.css](http://inuitcss.com) is a mature, open source, totally free project of
 mine; it is a powerful, scalable, Sass-based, BEM, OOCSS framework. It is
 designed to be small enough to be suited to small sites, but powerful enough to
 scale to sites with several thousand pages. It is the culmination of years of
