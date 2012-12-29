@@ -28,4 +28,13 @@ Anyway, apologies for a seemingly aimless post, but I just wanted to offer some 
 
 ## Addendum
 
-I’ve just been reminded of something else, too. [Adam Whitcroft](https://twitter.com/adamwhitcroft) recently created [Batch](http://adamwhitcroft.com/batch/), a beautiful icon set that he put together over a number of weeks. Batch was initially a paid download, and why not? It’s gorgeous and clearly had a _lot_ of effort put into it. However [he reversed that decision](http://adamwhitcroft.com/2012/11/on-batch/) and decided to make Batch available for free, but not only that, he **refunded** those who’d already paid. I don’t know if it’s just me, but that felt like such a huge gesture; making something, dropping the price tag, _and_ returning any money that had previously been handed over. Awesome.
+I’ve just been reminded of something else, too.
+[Adam Whitcroft](https://twitter.com/adamwhitcroft) recently created
+[Batch](http://adamwhitcroft.com/batch/), a beautiful icon set that he put
+together over a number of weeks. Batch was initially a paid download, and why
+not? It’s gorgeous and clearly had a _lot_ of effort put into it. However
+[he reversed that decision](http://adamwhitcroft.com/post/on-batch/) and
+decided to make Batch available for free, but not only that, he **refunded**
+those who’d already paid. I don’t know if it’s just me, but that felt like such
+a huge gesture; making something, dropping the price tag, _and_ returning any
+money that had previously been handed over. Awesome.
