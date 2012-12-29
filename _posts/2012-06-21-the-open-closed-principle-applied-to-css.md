@@ -40,12 +40,12 @@ After sensible and considered abstraction you should find that base objects neve
 
 For example, let’s imagine you have the media object used as a base across ten different components. One of the components is a user’s avatar with their username to the right of it, another is an album listing with the album art to the left and track list to the right. The others... we won’t concern ourselves with those. You might have markup like this:
     
-    <a href=http://twitter.com/csswizardry class="media profile-link">
+    <a href=http://twitter.com/csswizardry class="media  profile-link">
         <img src=avatar.jpg alt="" class=img>
         <span class=body>@csswizardry</span>
     </a>
     
-    <div class="media album">
+    <div class="media  album">
         <img src=/img/products/themirrorconspiracy.jpg alt="" class=img>
         <div class=body>
             <h2>Thievery Corporation &ndash; The Mirror Conspiracy</h2>
@@ -104,12 +104,12 @@ Let’s take another example using [the media object](http://www.stubbornella.or
         }
             .body > :last-child{
                 margin-bottom:0;
-            }</code>
+            }
 
 In this we see that there will be a `10px` margin between the image and the text-content to the right. By and large this is fine, but let’s go back to our album listing example again and imagine we are still using the media object. `10px` here just seems a little too cramped so what we do is _extend_ the media object for cases where we use it for album listings, thus:
     
-    <div class="media album">
-        <img src=/img/products/themirrorconspiracy.jpg alt="" class="img album-art">
+    <div class="media  album">
+        <img src=/img/products/themirrorconspiracy.jpg alt="" class="img  album-art">
         <div class=body>
             ...
         </div>
