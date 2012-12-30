@@ -69,19 +69,19 @@ Qualified selectors are bad because they reduce efficiency (more checks than we 
 
 Another way to make selectors more portable is to drop elements _altogether_. Take this, for example:
 
-    /* Base widget styling */
-    .widget{}
-    
-    /* Style up widget titles */
-    .widget > h2{}
+<pre><code><span class="code-comment">/* Base widget styling */</span>
+.widget{}
+
+<span class="code-comment">/* Style up widget titles */</span>
+.widget > h2{}</code></pre>
 
 Here we have a troublesome selector; what if that `<h2>` needs to become a `<h3>`? What if we need to add another, non-titling `<h2>` as a child of `.widget`? We’ve made ourselves a very rigid and unportable selector here. Instead we should have:
 
-    /* Base widget styling */
-    .widget{}
-    
-    /* Style up widget titles */
-    .widget-title{}
+<pre><code><span class="code-comment">/* Base widget styling */</span>
+.widget{}
+
+<span class="code-comment">/* Style up widget titles */</span>
+.widget-title{}</code></pre>
 
 Now we can apply `.widget-title` to _any_ element—let’s say a `<h4>`—and can now also have any number of unclassed `<h4>`s in the widget without them adopting any title styling. Ossom!
 
@@ -111,11 +111,11 @@ This is a very specific but very decent example of how short selectors can make 
 
 In working on a pretty huge project at Sky I stuck to my own rules and coded a (vertical) nav bar CSS like so:
 
-    .nav{ /* Nav styles */ }
-    
-    /* Note NO .nav li styles as this was a vertically stacking nav. */
-    
-    .nav a{ display:block; /* More styles */ }
+<pre><code>.nav{ <span class="code-comment">/* Nav styles */</span> }
+
+<span class="code-comment">/* Note NO .nav li styles as this was a vertically stacking nav. */</span>
+
+.nav a{ display:block; <span class="code-comment">/* More styles */</span> }</code></pre>
 
 Now, there was a CMS error which went undetected where the markup getting spat out was:
 
