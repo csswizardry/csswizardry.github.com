@@ -14,7 +14,7 @@ tag:
 - OOCSS
 ---
 
-One type of CSS in particular makes me cringe every time I see it; poor selector intent. Poor selector intent means carpet bombed selectors whose key selector has way too broad a reach; a selector like `.header ul{}` as opposed to one like `.main-nav{}`, `.widget h2{}` instead of `.widget-title`, `article > p:first-child{}` as opposed to `.intro{}`. Selectors whose intent isn't specific enough.
+One type of CSS in particular makes me cringe every time I see it; poor selector intent. Poor selector intent means carpet bombed selectors whose key selector has way too broad a reach; a selector like `.header ul{}` as opposed to one like `.main-nav{}`, `.widget h2{}` instead of `.widget-title`, `article > p:first-child{}` as opposed to `.intro{}`. Selectors whose intent isn’t specific enough.
 
 It’s worth noting that _selector intent_ is something I completely made up at some point today; if you think there’s a better name then please let me know!
 
@@ -26,9 +26,9 @@ Your selector’s intent must match that of your reason for styling something; a
 
 What determines the impact of a selector is its _key selector_. The key selector is a very important thing in the world of CSS as _browsers read selectors **right to left**_. This means the key selector is the last one before the opening `{`, for example:
 
-    .header ul      { /* ‘ul’ is the key selector */ }
-    .ul li a        { /* ‘a’ is the key selector */ }
-    p:last-child    { /* ‘:last-child’ is the key selector */ }
+<pre><code>.header ul      { <span class="code-comment">/* ‘ul’ is the key selector */</span> }
+.ul li a        { <span class="code-comment">/* ‘a’ is the key selector */</span> }
+p:last-child    { <span class="code-comment">/* ‘:last-child’ is the key selector */</span> }</code></pre>
 
 As I discuss in [Writing efficient CSS selectors](http://csswizardry.com/2011/09/writing-efficient-css-selectors/), the key selector plays a big part in CSS efficiency, so it’s worth bearing that in mind, but where _selector intent_ is concerned this is basically the place you need to be looking to see how far reaching your selector is. `html > body > section.content > article span{}` is a ridiculously convoluted and terrible selector that no one anywhere would ever write (right?) but despite how specific and disastrously over the top it is, its key selector (`span`) is still very, _very_ broad. It doesn’t matter so much what comes before your key selector, it’s only the key that really matters.
 
@@ -107,20 +107,20 @@ And a _lot_ less headaches. By thinking ahead and having a lot more considered s
 
 Of course there are _always_ exceptions. It’s perfectly reasonable to have selectors like `.main-nav > li` where your key selector _is_ a type selector. It also makes perfect sense to target every `a` inside something like this:
 
-    html{
-        color:#333;
-        background-color:#fff;
-    }
-    
-    /* Inverted colour scheme for promotional items. */
-    .promo{
+<pre><code>html{
+    color:#333;
+    background-color:#fff;
+}
+
+<span class="code-comment">/* Inverted colour scheme for promotional items. */</span>
+.promo{
+    color:#fff;
+    background-color:#333;
+}
+    .promo a{
         color:#fff;
-        background-color:#333;
-    }
-        .promo a{
-            color:#fff;
-            text-decoration:underline;
-        }
+        text-decoration:underline;
+    }</code></pre>
 
 That is a reasonably sensible far-reaching selector where it does make sense to style every `a` in a pretty carpet bombed manner.
 
