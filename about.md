@@ -16,7 +16,7 @@ Hi there, I’m Harry Roberts. I am a 22 year old web developer from Leeds, UK.
   <a href="https://twitter.com/rachelandrew">Rachel Andrew</a>.</figcaption>
 </figure>
 
-I [write](/) and [speak](/speaking/) on the topics of CSS and its scalability,
+I [write](/archive/) and [speak](/speaking/) on the topics of CSS and its scalability,
 architecture, maintenance and more. I work as a <b>Senior UI Developer</b> for
 one of the UK’s biggest media and entertainment companies, [BSkyB](http://en.wikipedia.org/wiki/BSkyB).
 I am a [.net awards finalist](http://www.netmagazine.com/features/net-awards-2011-10-brilliant-newcomers)
