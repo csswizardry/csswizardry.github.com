@@ -77,45 +77,52 @@ Now, I’m not sure whether _nav_ is actually the best word to use; these three 
 What we need to do now is take out the shared patterns and create a fourth class of `.nav`:
 
     .nav{
-      list-style:none;
-      margin-left:0;
+        list-style:none;
+        margin-left:0;
     }
-    .nav li{
-      display:inline;
-    }
-    .nav a{
-      display:inline-block;
-    }
+        .nav > li,
+            .nav > li > a{
+                display:inline-block;
+               *display:inline;
+                zoom:1;
+        }
 
-Here we define our abstraction. We take the repeated bits and make the most granular construct we can. This will throw any list into a very basic/crude horizontal series of links which we can then extend to adopt more specific styles, like so:
+Here we define our abstraction. We take the repeated bits and make the most
+granular construct we can. Notice that we give both list items and links
+`display:inline-block;`, and include the IE7 hack to force elements to act like
+`inline-block` if they do not naturally support it.
+
+This will throw any list into a very basic/crude horizontal series of links
+which we can then extend to adopt more specific styles, like so:
 
     .nav{
-      list-style:none;
-      margin-left:0;
+        list-style:none;
+        margin-left:0;
     }
-    .nav li{
-      display:inline;
-    }
-    .nav a{
-      display:inline-block;
-    }
+        .nav > li,
+            .nav > li > a{
+                display:inline-block;
+               *display:inline;
+                zoom:1;
+        }
     
     
     .site-nav{
-      width:100%;
-      background:#eee;
+        width:100%;
+        background:#eee;
     }
-    .site-nav a{
-      padding:5px 10px;
-    }
+            .site-nav a{
+                padding:5px 10px;
+            }
     
     
-    .breadcrumb li:before{
-        content:"» "
-    }
-    .breadcrumb li:first-child:before{
-        content:normal;
-    }
+    .breadcrumb{}
+        .breadcrumb li:before{
+            content:"» "
+        }
+        .breadcrumb li:first-child:before{
+            content:normal;
+        }
     
     
     .sponsors{
@@ -124,7 +131,7 @@ Here we define our abstraction. We take the repeated bits and make the most gran
 
 Using a base abstraction and then extending it we can create our breadcrumb with this HTML:
 
-    <ol class="nav breadcrumb">
+    <ol class="nav  breadcrumb">
         <li><a href="/">Home</a></li>
         <li><a href="/about/">About</a></li>
         <li><a href="/about/us/">About us</a></li>
