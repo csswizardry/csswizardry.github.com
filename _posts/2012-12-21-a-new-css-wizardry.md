@@ -51,7 +51,7 @@ content into Jekyll-friendly markdown format.
 
 I have always hosted CSS Wizardry with [NuBlue](http://www.nublue.co.uk/), an
 absolutely fantastic host in the UK. However, I was only on a humble shared
-hosting package with no Git/SSH access. I decided to move hosing over to
+hosting package with no Git/SSH access. I decided to move hosting over to
 [GitHub Pages](http://pages.github.com/) which:
 
 * Is free
