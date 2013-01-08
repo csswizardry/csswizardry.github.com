@@ -42,6 +42,9 @@ body{
  * Colored strip along the top/side of the page. Use an empty element because
  * pseudo-elements don’t seem to work. This code does look to be undoing itself
  * a lot, but that’s RWD for you...
+ *
+ * 1. Have to link to the live version as Jekyll doesn’t serve correct SVG mime
+ *    types when run from the command line.
  */
 .strip{
     position:absolute;
