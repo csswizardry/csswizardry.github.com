@@ -1,12 +1,8 @@
 /*------------------------------------*\
     $SPRITES
 \*------------------------------------*/
-/**
- * 1. Have to link to the live version as Jekyll doesn’t serve correct SVG mime
- *    types when run from the command line.
- */
 .s{
-    background-image:url(//csswizardry.com/img/css/sprites/main.svg); /* [1] */
+    background-image:url(/img/css/sprites/main.svg);
 }
 .s--csswizardry-logo{
     width:64px;
