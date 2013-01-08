@@ -49,8 +49,9 @@ body{
     left:0;
     right:0;
     height:10px;
-    background-image:url(/img/css/sprites/main.png);
+    background-image:url(//csswizardry.com/img/css/sprites/main.svg);
     background-position:-100% 0;
+    @include vendor(background-size, 500px 500px);
     border:0 solid #fff;
     border-bottom-width:1px;
     @include media-query(desk){
