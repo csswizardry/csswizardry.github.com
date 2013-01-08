@@ -79,7 +79,7 @@ This serves a couple of great purposes:
   <li>It will keep me on my toes</li>
 </ul>
 
-The second is very important to me; the old CSS Wizardry was nasty, becase it
+The second is very important to me; the old CSS Wizardry was nasty, because it
 was behind closed doors, and wasn’t easily accessible for me to work with. By
 hosting the code so openly it will make me take more pride in it _and_ allow
 me to work on it much more easily; no excuses now!
