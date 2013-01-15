@@ -12,9 +12,7 @@ page-class: page--post
         <p>
              <a href="{{ page.branch-url }}" class="branch-link" title="Opens in a new window" target="_blank">Discuss this article on Branch…</a>
         </p>
-    {% endif %}
 
-    {% if page.branch-url %}
         <script src="http://embed-script.branch.com/assets/embed/embed.m.js?body=0" data-branch-embedid="{{ page.branch-id }}" ></script>
         <noscript><a href="{{ page.branch-url }}">Discussion via Branch</a></noscript>
     {% endif %}
