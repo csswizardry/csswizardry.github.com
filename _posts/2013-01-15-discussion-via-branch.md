@@ -1,6 +1,6 @@
 ---
 comments: true
-date: 2013-01-12 20:40:00
+date: 2013-01-15 20:40:00
 layout: post
 slug: discussion-via-branch
 title: Discussion via Branch
