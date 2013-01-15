@@ -12,6 +12,7 @@ tag:
 - GitHub
 - Jekyll
 meta: Big changes for CSS Wizardry
+branch-url: http://branch.com/b/a-new-css-wizardry
 ---
 
 Hey there! Welcome to a brand new CSS Wizardry!
