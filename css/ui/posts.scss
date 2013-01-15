@@ -30,7 +30,7 @@
 
 
 /**
- * Link to discuss article on Branch.
+ * Branch stuff.
  */
 .branch-link{
     @include font-size(12px);
@@ -54,4 +54,9 @@
         color:$brand-color;
         box-shadow:0 0 3px rgba(0, 0, 0, 0.25);
     }
+}
+[id="branch_embed_branch-embed_provider"]{
+    margin-bottom:$base-spacing-unit !important;
+    display:block!important;
+    max-width:none!important;
 }
