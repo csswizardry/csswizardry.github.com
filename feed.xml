@@ -20,6 +20,9 @@ layout: nil
    <link href="http://csswizardry.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://csswizardry.com{{ post.id }}</id>
+   {% if post.meta %}
+    <content type="html">{{ post.meta }}</content>
+    {% endif %}
  </entry>
  {% endfor %}
  
