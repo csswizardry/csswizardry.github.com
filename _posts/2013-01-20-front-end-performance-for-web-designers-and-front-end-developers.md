@@ -9,6 +9,7 @@ categories:
 tag:
 - Performance
 meta: A comprehensive primer on front-end performance for designers and front-end developers
+branch-url: http://branch.com/b/front-end-performance-for-web-designers-and-front-end-devs
 ---
 
 It’s hard, if not impossible, to deny that performance is _by far_ one of
@@ -580,9 +581,9 @@ about how browsers work can really allow us to manipulate it further and make
 our front-ends _even_ faster.
 
 If you have any additions – or indeed disagreements or corrections – then please
-do join [the discussion over on Branch](#); this whole world of perf is still
-relatively new to me so I’m keen to keep learning from others, and push things
-even further.
+do join [the discussion over on Branch](http://branch.com/b/front-end-performance-for-web-designers-and-front-end-devs);
+this whole world of perf is still relatively new to me so I’m keen to keep
+learning from others, and push things even further.
 
 I really hope that wall of text managed to elighten you in at least some way,
 and that you came away with some new knowledge of things you’d perhaps never
