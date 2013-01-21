@@ -187,13 +187,13 @@ help decrease latency by serving assets from a more suitable _physical_ location
 This is all well and good, but later we’ll discuss how serving from subdomains
 can actually, in certain circumstances, be detrimental to performance.
 
-So, there are out performace basics out of the way:
+So, there are our performance basics out of the way:
 
 * Put stylesheets at the top of a document
 * Put JavaScript at the bottom (where possible)
 * Make as few HTTP requests as possible
 * Serving assets from multiple domains can increase the number of assets a
-  browser can download in paralell.
+  browser can download in parallel.
 
 <h2 id="section:http-requests-and-dns-lookups">HTTP requests and DNS lookups</h2>
 
@@ -202,8 +202,8 @@ the relevant headers, the resource is reached, and a response is sent back. This
 is a vast over-simplification of the process, but it’s about as much as you
 really need to know. This is an HTTP request, and all assets you reference are
 subject to this round trip. These requests are the main bottleneck when it comes
-to front-end performace because, as we covered, browsers are limited by how many
-of these requests can happen in parallel. This is why we often want to use
+to front-end performance because, as we covered, browsers are limited by how
+many of these requests can happen in parallel. This is why we often want to use
 subdomains; to allow these request to happen on several domains, allowing a
 greater number of requests to happen at the same time.
 
