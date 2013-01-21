@@ -1,0 +1,19 @@
+---
+layout: default
+title: CSS Wizardry archive
+page-class: page--archive
+permalink: /archive/
+---
+    
+<h1 class="accessibility">CSS Wizardry posts archive</h1>
+
+<section class="posts">
+    <ul class="block-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="post__time">{{ post.date | date: "%d %B, %Y" }}</span>
+            <h2 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

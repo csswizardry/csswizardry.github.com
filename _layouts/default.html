@@ -2,21 +2,27 @@
 <html lang="en" class="page  {{ page.page-class }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+
+    <!-- Prefetch DNS for external assets (Twitter widgets etc). -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s3.buysellads.com">
+    <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//themes.googleusercontent.com">
+    <link rel="dns-prefetch" href="//stats.buysellads.com">
+    <link rel="dns-prefetch" href="//p.twitter.com">
+    <link rel="dns-prefetch" href="//cdn.api.twitter.com">
     
     <title>{{ page.title }} &ndash; CSS Wizardry &ndash; CSS, OOCSS, front-end architecture, performance and more, by Harry Roberts</title>
     
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic">
     <link rel="stylesheet" href="/css/csswizardry.min.css">
     
     <link rel="shortcut icon" href="/icon.png">
     <link rel="apple-touch-icon-precomposed" href="/icon.png">
     <meta name="apple-mobile-web-app-title" content="csswizardry">
     <meta name="description" content="Articles on CSS, OOCSS, front-end architecture, scalability and performance.">
-
-    <!-- Get the browser to start fetching font files as soon as possible. -->
-    <style>
-        html { font-family:Ubuntu, sans-serif; }
-    </style>
 
 </head>
 <body>
@@ -34,7 +40,7 @@
      
     <!-- Hidden preload `div` to fetch images before CSS needs them. -->
     <div class="ಠ_ಠ">
-        <img src="/img/css/sprites/main.png" alt="">
+        <img src="/img/css/sprites/main.svg" alt="">
     </div>
 
     <div class="wrapper">
@@ -63,9 +69,8 @@
 
                 <hr class="hide--desk">
 
-                <p>Hi there, I’m Harry. I am a <b>designer</b>, <b>developer</b>, <b>writer</b> and <b>speaker</b> from the UK; I work as a <b>Senior UI Developer</b> for <b>BSkyB</b>. I write, <a href="http://twitter.com/csswizardry">tweet</a>, <a href="https://speakerdeck.com/csswizardry">speak</a> and <a href="http://github.com/csswizardry">share code</a> about authoring and scaling CSS for big websites.</p>
+                <p>Hi there, I’m Harry. I am a <b>designer</b>, <b>developer</b>, <b>writer</b> and <b>speaker</b> from the UK; I work as a <b>Senior UI Developer</b> for <b>BSkyB</b>. I <a href="/archive/">write</a>, <a href="http://twitter.com/csswizardry">tweet</a>, <a href="https://speakerdeck.com/csswizardry">speak</a> and <a href="http://github.com/csswizardry">share code</a> about authoring and scaling CSS for big websites.</p>
                 <p><a href="https://twitter.com/csswizardry" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @csswizardry</a></p>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
                 <ul class="block-list">
                     <li>
@@ -89,16 +94,17 @@
 
     <footer class="page-foot"><div class="wrapper">
 
-        <p>&copy; 2012 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
+        <p>&copy; 2013 <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
            Built with <a href="http://inuitcss.com">inuit.css</a>
            and <a href="https://github.com/mojombo/jekyll/">Jekyll</a>.
            The source code of this blog is <a href="https://github.com/csswizardry/csswizardry.github.com">hosted on GitHub</a>.<br>
-           You should <a href="/feed.xml">grab the RSS feed</a> and <a href="http://twitter.com/csswizardry">follow me on Twitter</a>.</p>
+           You should <a href="http://feeds.feedburner.com/csswizardrycom">grab the RSS feed</a> and <a href="http://twitter.com/csswizardry">follow me on Twitter</a>.</p>
 
     </div></footer><!-- /wrapper /page-foot -->
     
     <div class="strip"></div>
 
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script>
     
     var _gaq = _gaq || [];

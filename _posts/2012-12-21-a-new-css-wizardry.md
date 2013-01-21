@@ -12,6 +12,7 @@ tag:
 - GitHub
 - Jekyll
 meta: Big changes for CSS Wizardry
+branch-url: http://branch.com/b/a-new-css-wizardry
 ---
 
 Hey there! Welcome to a brand new CSS Wizardry!
@@ -51,7 +52,7 @@ content into Jekyll-friendly markdown format.
 
 I have always hosted CSS Wizardry with [NuBlue](http://www.nublue.co.uk/), an
 absolutely fantastic host in the UK. However, I was only on a humble shared
-hosting package with no Git/SSH access. I decided to move hosing over to
+hosting package with no Git/SSH access. I decided to move hosting over to
 [GitHub Pages](http://pages.github.com/) which:
 
 * Is free
@@ -79,7 +80,7 @@ This serves a couple of great purposes:
   <li>It will keep me on my toes</li>
 </ul>
 
-The second is very important to me; the old CSS Wizardry was nasty, becase it
+The second is very important to me; the old CSS Wizardry was nasty, because it
 was behind closed doors, and wasn’t easily accessible for me to work with. By
 hosting the code so openly it will make me take more pride in it _and_ allow
 me to work on it much more easily; no excuses now!
