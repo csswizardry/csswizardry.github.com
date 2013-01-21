@@ -419,7 +419,7 @@ minification alone.  However, you should really do both, if you can.
 
 Turning gzip on _usually_ requires a little `.htaccess` trickery, but as my good
 friend [Nick Payne](http://twitter.com/makeusabrew) points out, `.htaccess` is
-actually very _unperformant_ from a server-side perspective; `.htaccess` is
+actually not particularly performant from a server-side perspective; `.htaccess` is
 evaluated on _every_ incoming request, so it’s actually a lot of overhead.
 
 This, taken from [the Apache docs](http://httpd.apache.org/docs/2.2/howto/htaccess.html):
@@ -430,10 +430,11 @@ This, taken from [the Apache docs](http://httpd.apache.org/docs/2.2/howto/htacce
 > in a [`Directory`](http://httpd.apache.org/docs/2.2/mod/core.html#directory)
 > block, as it will have the same effect with better performance.
 
-If you do only have access to `.htaccess`, gzip is actually really simple to
-implement. Minification isn’t necessarily so easy unless you have a build
-process, or use something like CodeKit or a preprocessor which compiles straight
-to minified output.
+If you do only have access to `.htaccess` then I wouldn’t worry; the cost of
+this overhead _usually_ won’t be a concern. Enabling gzip with `.htaccess` is
+actually really simple to implement. Minification isn’t necessarily so easy
+unless you have a build process, or use something like CodeKit or a preprocessor
+which compiles straight to minified output.
 
 Interestingly, the main reason I moved [inuit.css](http://inuitcss.com) over to
 Sass was – initially – so I could conveniently compile a minified version.
