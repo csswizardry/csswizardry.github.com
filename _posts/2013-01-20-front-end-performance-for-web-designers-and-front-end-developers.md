@@ -104,7 +104,7 @@ from a single domain _in parallel_. The more domains it is pulling from, the
 more assets can be downloaded, in parallel, at once.
 
 JavaScript interrupts this process, blocking parallel downloads from _any_ and
-all domains, beacuse:
+all domains, because:
 
 * The script being called might alter the page, meaning the browser will have to
   deal with that before it can move on to anything else. In order for it to deal
@@ -197,10 +197,10 @@ So, there are out performace basics out of the way:
 
 <h2 id="section:http-requests-and-dns-lookups">HTTP requests and DNS lookups</h2>
 
-Every time you request an asset from any domain, out goes a HTTP request with
+Every time you request an asset from any domain, out goes an HTTP request with
 the relevant headers, the resource is reached, and a response is sent back. This
 is a vast over-simplification of the process, but it’s about as much as you
-really need to know. This is a HTTP request, and all assets you reference are
+really need to know. This is an HTTP request, and all assets you reference are
 subject to this round trip. These requests are the main bottleneck when it comes
 to front-end performace because, as we covered, browsers are limited by how many
 of these requests can happen in parallel. This is why we often want to use
@@ -357,7 +357,7 @@ asset/subdomain…
 Remember earlier, when we discussed how CSS blocks rendering? A browser wants to
 get hold of your CSS as soon as it can, if not sooner; CSS is on your
 <i>critical path</i>. Your critical path is the necessary journey between a user
-requesting your page and them actually seeing something. Because it blocks
+requesting your page and then actually seeing something. Because it blocks
 rendering, CSS is on the critical path, JS and images aren’t. You want to keep
 this journey along the critical path as quick as possible, this means **no DNS
 lookups**.
@@ -585,7 +585,7 @@ do join [the discussion over on Branch](http://branch.com/b/front-end-performanc
 this whole world of perf is still relatively new to me so I’m keen to keep
 learning from others, and push things even further.
 
-I really hope that wall of text managed to elighten you in at least some way,
+I really hope that wall of text managed to enlighten you in at least some way,
 and that you came away with some new knowledge of things you’d perhaps never
 thought about. I also hope that, if you weren’t already, this article has helped
 to get you at least _half_ as interested in performance as I have found myself.
