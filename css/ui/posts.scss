@@ -27,3 +27,31 @@
     margin-bottom:0;
     color:#999;
 }
+
+
+/**
+ * Link to discuss article on Branch.
+ */
+.branch-link{
+    @include font-size(12px);
+    line-height:3;
+    text-align:center;
+    color:inherit;
+    display:block;
+    border:1px solid #ccc;
+    border-radius:$brand-round;
+    box-shadow:0 0 2px rgba(0, 0, 0, 0.1);
+    background-color:#fdfdfd; /* Old browsers */
+    background-image:-moz-linear-gradient(top, #fdfdfd 0%, #dedede 100%); /* FF3.6+ */
+    background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#dedede)); /* Chrome,Safari4+ */
+    background-image:-webkit-linear-gradient(top, #fdfdfd 0%,#dedede 100%); /* Chrome10+,Safari5.1+ */
+    background-image:-o-linear-gradient(top, #fdfdfd 0%,#dedede 100%); /* Opera 11.10+ */
+    background-image:-ms-linear-gradient(top, #fdfdfd 0%,#dedede 100%); /* IE10+ */
+    background-image:linear-gradient(to bottom, #fdfdfd 0%,#dedede 100%); /* W3C */
+
+    &:hover{
+        text-decoration:none;
+        color:$brand-color;
+        box-shadow:0 0 3px rgba(0, 0, 0, 0.25);
+    }
+}

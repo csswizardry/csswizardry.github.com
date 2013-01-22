@@ -7,5 +7,11 @@ page-class: page--post
     <h1>{{ page.title }}</h1>
     
     {{ content }}
+
+    {% if page.branch-url %}
+        <p>
+            <a href="{{ page.branch-url }}" class="branch-link" title="Opens in a new window" target="_blank">Discuss this article on Branch…</a>
+        </p>
+    {% endif %}
     
 </article>
