@@ -194,3 +194,7 @@ So there we have it; spriting an `img` allows us to use the correct semantics
 and also take even more advantage of sprites! A machine sees an `img` labelled
 ‘CSS Wizardry’ (perfect) and a user sees my logo (awesome)! Everyone is happy,
 everything is correct.
+
+**Edit:** As many people have suggested, you could – if your stats allow it –
+use a Base64 data-URI instead of a gif and save the HTTP request. This obviously
+isn’t cachable in the same way as an image is, but it is gzippable!
