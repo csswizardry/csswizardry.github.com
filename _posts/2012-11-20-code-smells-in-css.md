@@ -326,7 +326,3 @@ As soon as I see loose class names I start having to work out what it actually r
 So there we have it, just a few of the _many_ things I perceive to be code smells in CSS. These are things that I look out for on a daily basis and strive to avoid at all costs. When working on larger projects that last for months and months (and, ultimately, years) it is _vital_ to keep a tight ship, and keeping an eye out for the above—among other things—is paramount. (I can’t stress enough how small a sub-set of things this is; there is a _lot_ more that I look out for.)
 
 Now, of course, there _are_ exceptions to every rule, but they will need assessing on a case by case basis. For the most part, however, these are all things I work hard to avoid, and can spot a mile off in CSS.
-
-## On practicing what I preach…
-
-I am more than aware that this site goes against nearly all of these rules, so I left [a brief comment on the matter](http://csswizardry.com/2012/11/code-smells-in-css/#comment-253931).
