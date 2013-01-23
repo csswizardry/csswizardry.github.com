@@ -16,7 +16,7 @@ branch-url: http://branch.com/b/your-logo-is-still-an-image-and-so-is-mine-css-w
 ---
 
 Almost two years ago I wrote
-[a somewhat opinionated article about image semantics](http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/)
+[an article about image semantics](http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/)
 which covered the appropriate markup for your site’s logo. It stated, in short,
 that logos are content and should therefore be marked up as `img` elements,
 **not** `h1`s as is a very common practice.
