@@ -367,7 +367,7 @@ from the same host (e.g. `foo.com`), but when it came round to making the
 staging environment more live-like, we began serving all our assets from
 `s1.foo.com` and `s2.foo.com`. This meant all images, JS, CSS, fonts etc were
 all coming from different domains, thus incurring DNS lookups. The problem here
-is that, fom a cold cache, the DNS lookup required to start grabbing the CSS
+is that, from a cold cache, the DNS lookup required to start grabbing the CSS
 file was actually slowing the critical path _right down_. Our graphs spiked
 massively, indicating a delay that in theory shouldn’t have happened; best
 practice dictates that you should shard lots of assets over subdomains, right?
