@@ -12,7 +12,7 @@ tag:
 - Web Standards
 - Performance
 meta: Balancing image semantics with performance ideals
-
+branch-url: http://branch.com/b/your-logo-is-still-an-image-and-so-is-mine-css-wizard
 ---
 
 Almost two years ago I wrote
