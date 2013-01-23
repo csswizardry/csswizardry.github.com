@@ -80,8 +80,8 @@ to apply the image that people actually see. Here is the (S)CSS:
 All I am doing here is defining a spriting object (`.s`) and then extending that
 class with `.s--csswizardry-logo` (with some responsive bits added in).
 
-It is to remember here that – even though it is only a 1×1px transparent gif –
-my logo _is still an image_.
+It is important to remember here that – even though it is only a 1×1px
+transparent gif – my logo _is still an image_.
 
 Before I can get to _why_ I am doing this, we need establish some groundwork…
 
