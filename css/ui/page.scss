@@ -5,7 +5,7 @@ html{
     font-family:Ubuntu, sans-serif;
     font-weight:300;
     background-color:#f9f9f9;
-    color:#555;
+    color:#444;
 }
 
 /**
@@ -40,11 +40,11 @@ body{
 }
 
 /**
- * Colored strip along the top/side of the page. Use an empty element because
- * pseudo-elements don’t seem to work. This code does look to be undoing itself
- * a lot, but that’s RWD for you...
+ * Colored strip along the top/side of the page. This code does look to be
+ * undoing itself a lot, but that’s RWD for you...
  */
-.strip{
+body:before{
+    content:"";
     position:absolute;
     top:0;
     left:0;
