@@ -54,7 +54,7 @@ should use an `img`. Here’s the markup that I use on CSS Wizardry right now
 You should notice that my `src` attribute doesn’t point to `logo.png` or similar,
 but to `dot.gif`. This is, as you might expect, a 1×1px transparent gif.
 
-**Update: I know actually point at a Base64 encoded 1×1px transparent gif.**
+**Update: I now actually point at a Base64 encoded 1×1px transparent gif.**
 
 ## Eww, what?!
 
