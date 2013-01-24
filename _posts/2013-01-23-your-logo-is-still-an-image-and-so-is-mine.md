@@ -20,7 +20,7 @@ Almost two years ago I wrote
 [an article about image semantics](http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/)
 which covered the appropriate markup for your site’s logo. In short, it stated
 that logos are content and should therefore be marked up as `img` elements,
-**not** `h1`s as is a very common practice.
+**not** `h1`s, as is a very common practice.
 
 The `h1` method is used for two _main_ reasons:
 
