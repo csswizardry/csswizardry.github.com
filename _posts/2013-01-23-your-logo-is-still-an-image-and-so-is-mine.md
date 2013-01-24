@@ -42,7 +42,7 @@ asking me to go into more detail about how I handle things here:
 
 ---
 
-So, I previously wrote that you shoud not use a `h1` for your logo, but you
+So, I previously wrote that you should not use a `h1` for your logo, but you
 should use an `img`. Here’s the markup that I use on CSS Wizardry right now
 <small>(January, 2013)</small>:
 
