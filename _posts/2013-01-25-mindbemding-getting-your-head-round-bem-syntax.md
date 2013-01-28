@@ -221,7 +221,7 @@ when (or not) to use it. It’s a case of ‘you’ll just know when you know’
 ## Final word
 
 So that’s BEM (or a slight variation thereof); a highly useful, powerful and
-simple naming convention to make your font-end code easier to read and
+simple naming convention to make your front-end code easier to read and
 understand, easier to work with, easier to scale, more robust and explicit and a
 lot more strict.
 
