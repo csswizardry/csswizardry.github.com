@@ -80,9 +80,10 @@ elements. This again, but written in ‘normal’ CSS:
     .left-hand{}
 
 These all make sense, but are somewhat disconnected. Take `.female` for example;
-female what? `.hand`; a hand of a clock? A hand in a game of cards? By using BEM
-we can be more descriptive but also a lot more explicit; we tie concrete links
-to other elements of our code through naming alone. Powerful stuff.
+female what? What about `.hand`; a hand of a clock? A hand in a game of cards?
+By using BEM we can be more descriptive but also a lot more explicit; we tie
+concrete links to other elements of our code through naming alone. Powerful
+stuff.
 
 Taking the previous `.site-search` example again, with ‘regular’ naming:
 
@@ -159,7 +160,7 @@ but if it ‘just looks odd’ but has a valid purpose, then it should definitel
 fully considered before writing it off.
 
 I agree that BEM does look weird, but the power it brings _far_ outweighs any
-negatives to do with its appearance by and order of magnitude…
+negatives to do with its appearance by an order of magnitude…
 
 BEM may look a little funny – and it might require more typing (most text
 editors have autocomplete, and gzip will negate any differences in filesize) –
