@@ -7,10 +7,11 @@ title: MindBEMding – getting your head ’round BEM syntax
 categories:
 - Web Development
 tag:
-- Logo
-- Semantics
-- Web Standards
-- Performance
+- OOCSS
+- BEM
+- Front-end architecture
+- CSS
+- CSS selectors
 meta: A primer on the oft-confusing BEM notation for CSS
 branch-id: gAPbivPskEs
 branch-url: http://branch.com/b/mindbemding-getting-your-head-round-bem-syntax
