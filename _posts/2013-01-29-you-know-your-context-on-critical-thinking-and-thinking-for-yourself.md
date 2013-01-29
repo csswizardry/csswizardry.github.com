@@ -8,7 +8,8 @@ categories:
 - Web Development
 tag:
 meta: About learning to look at things objectively and apply your own context
-
+branch-id: keSiEPhAw4Y
+branch-url: http://branch.com/b/you-know-your-context-on-critical-thinking
 ---
 
 I’ve long shied away from subjective, opinion style articles for two main
