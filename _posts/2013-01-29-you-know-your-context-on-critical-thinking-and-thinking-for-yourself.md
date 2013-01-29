@@ -74,8 +74,8 @@ the curveballs then the onus is on _you_ to think about them for yourselves, and
 share any thoughts of findings you arrive at. We need to think for ourselves.
 
 I would like to reiterate that this is _not_ a criticism of anyone; we _all_ do
-it, myself included! Often I’ll see something and my first though might be
-<q>this would never work on a big site…</q>, then I realise what I’m doing and
+it, myself included! Often I’ll see something and my first thought might be
+<q>this would never work on a big site…</q>, then I realise what I’m doing, and
 my second, more conscious thought is <q>perhaps it _won’t_ work on a big site,
 but perhaps that’s not the intended context…</q>.
 
