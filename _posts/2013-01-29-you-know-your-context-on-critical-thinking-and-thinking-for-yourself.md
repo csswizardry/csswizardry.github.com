@@ -90,7 +90,7 @@ It is impossible – as an author – to consider and cover _every_ possible sce
 that a bit of advice might find itself in. If you were to try then articles
 would lose any conviction; instead of <q>try abc if you want xyz</q> you’d soon
 end up with <q>try abc if you want xyz, but not in this situation, or this
-situation, or this one, or this one…</q>. Articles would some become very
+situation, or this one, or this one…</q>. Articles would soon become very
 verbose and the whole point would often get lost.
 
 This isn’t a criticism of people, by any means, but I am hoping to draw
