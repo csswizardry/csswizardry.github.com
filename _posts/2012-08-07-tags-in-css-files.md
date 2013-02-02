@@ -45,6 +45,6 @@ find for `^images` and I can see exactly what objects I already have at my
 disposal. If nothing appropriate exists I create a new component or object and
 give that a tag of `^images` for the next dev to find!
 
-As with [my recent quasi-qualified selectors tip](csswizardry.com/2012/07/quasi-qualified-selectors/),
+As with [my recent quasi-qualified selectors tip](csswizardry.com/2012/07/quasi-qualified-css-selectors/),
 this is only really of any use of the whole team buys into it, but I think it
 could be super useful and is something I’m hoping to implement soon.
