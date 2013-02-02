@@ -155,7 +155,7 @@ unmodified element of `.media`. All through the names of their classes. That is
 
 A common argument against BEM is that it’s ugly; I dare say that if you shy away
 from code based _purely_ on its looks then you’re often missing the point.
-Unless the code becomes unecessarily  difficult to maintain, or genuinely more
+Unless the code becomes unnecessarily  difficult to maintain, or genuinely more
 difficult to read, then perhaps you _do_ need to think twice before using it,
 but if it ‘just looks odd’ but has a valid purpose, then it should definitely be
 fully considered before writing it off.
