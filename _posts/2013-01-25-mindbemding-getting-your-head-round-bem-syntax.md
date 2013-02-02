@@ -93,7 +93,7 @@ Taking the previous `.site-search` example again, with ‘regular’ naming:
         <input type="Submit" value ="Search" class="button">
     </form>
 
-These classes are farily loose, and don’t tell us much. Even though we can work
+These classes are fairly loose, and don’t tell us much. Even though we can work
 it out, they’re very inexplicit. With BEM notation we would now have:
 
     <form class="site-search  site-search--full">
