@@ -271,6 +271,8 @@ breakpoint, but they won’t get created until you call them.
 ## Final word
 
 So there we have it, a fully responsive grid system. All the power of an
-abstracted grid system. I have bundled all this up and called it
-[csswizardry-grids](https://github.com/csswizardry/csswizardry-grids). Please
+abstracted grid system with responsiveness baked in.
+
+I have bundled all this up into a micro library called
+[csswizardry-grids](https://github.com/csswizardry/csswizardry-grids).  Please
 feel free to try it and use it.
