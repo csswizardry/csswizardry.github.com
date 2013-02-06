@@ -22,7 +22,7 @@ going to cover how it works, and the principles behind it.
 Before we dive into it, let’s outline some of the problems and requirements we
 face with responsive grid systems:
 
-* **Must have different traits at different sizes** Because you need to be able
+* **Must have different traits at different sizes** because you need to be able
   to tell a column to be – for example – full-width on narrow devices and
   half-width on wider ones.
 * **Must be fluid between breakpoints** because we need to cover all bases.
