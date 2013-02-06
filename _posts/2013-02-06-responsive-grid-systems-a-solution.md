@@ -214,7 +214,7 @@ we’re compressing our CSS.
 
 ## Implementation
 
-Now we’re at a point where we can start building things! We can contract
+Now we’re at a point where we can start building things! We can construct
 responsive layouts like:
 
     <div class="content  one-whole  desk-three-quarters">
