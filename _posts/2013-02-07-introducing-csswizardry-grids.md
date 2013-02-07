@@ -23,7 +23,8 @@ and theory behind how such a grid system works. _This_ post is
 > abstracting all the layout information away from your components, as all good
 > grid systems should.
 
-**[csswizardry-grids on GitHub](http://git.io/csswizardry-grids)**
+* [csswizardry-grids source on GitHub](http://git.io/csswizardry-grids)
+* [Basic demo](http://csswizardry.github.com/csswizardry-grids)
 
 <small>**N.B.** I am a huge proponent of the extra `div`s style grid systems which keep
 your page’s layout and content totally separated. To find out more as to why, I
@@ -54,7 +55,7 @@ Implementing silent classes means that your markup would now be something like:
 And your CSS:
 
     .content{
-        @extend .grid__item;
+        @extend %grid__item;
         @extend %one-whole;
         @extend %desk-one-half;
     }
