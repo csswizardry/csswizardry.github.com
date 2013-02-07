@@ -205,8 +205,8 @@ maintenance, less efficient etc) it’s actually better in terms of compression.
 Experimenting with the width classes covered in this blog post, I managed to
 achieve a compression ratio of **81%**. This basically means that the compressed
 size of the classes is actually less than one fifth its original size over the
-wire. **Five breakpoints worth of classes actually compress to less than one on
-its own.**
+wire. **Five breakpoints worth of classes actually compress to less than one
+uncompressed one on its own.**
 
 That all seemed pretty long winded but it’s an important point that needs
 making; the flexibility a grid system gives us is worth the extra classes if
