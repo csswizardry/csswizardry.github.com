@@ -8,8 +8,8 @@ categories:
 - Web Development
 tag:
 meta: A look at building a practical, robust,  flexible, usable responsive grid system.
-branch-id: 
-branch-url: 
+branch-id: h0JFB-nqvjk
+branch-url: http://branch.com/b/responsive-grid-systems-a-solution
 ---
 
 Grid systems in responsive design are something of a hot topic; a lot of people
@@ -22,7 +22,7 @@ going to cover how it works, and the principles behind it.
 Before we dive into it, let’s outline some of the problems and requirements we
 face with responsive grid systems:
 
-* **Must have different traits at different sizes** Because you need to be able
+* **Must have different traits at different sizes** because you need to be able
   to tell a column to be – for example – full-width on narrow devices and
   half-width on wider ones.
 * **Must be fluid between breakpoints** because we need to cover all bases.
@@ -214,7 +214,7 @@ we’re compressing our CSS.
 
 ## Implementation
 
-Now we’re at a point where we can start building things! We can contract
+Now we’re at a point where we can start building things! We can construct
 responsive layouts like:
 
     <div class="content  one-whole  desk-three-quarters">
@@ -271,6 +271,8 @@ breakpoint, but they won’t get created until you call them.
 ## Final word
 
 So there we have it, a fully responsive grid system. All the power of an
-abstracted grid system. I have bundled all this up and called it
-[csswizardry-grids](https://github.com/csswizardry/csswizardry-grids). Please
+abstracted grid system with responsiveness baked in.
+
+I have bundled all this up into a micro library called
+[csswizardry-grids](https://github.com/csswizardry/csswizardry-grids).  Please
 feel free to try it and use it.
