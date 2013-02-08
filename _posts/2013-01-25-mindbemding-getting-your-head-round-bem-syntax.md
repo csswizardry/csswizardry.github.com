@@ -203,7 +203,7 @@ to make sure you only apply BEM as far as you need to. Another example:
     </div>
 
 Here we migh be able to just call the second class `.headline`; it depends on if
-it is styled that way **because** it’s in `.content`, of whether ot just
+it is styled that way **because** it’s in `.content`, or whether it just
 _happens_ to live in `.content`. If it is the latter then we do not need BEM.
 
 Everything is potentially open to moving into BEM territory, though. Taking our
