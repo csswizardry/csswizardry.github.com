@@ -14,7 +14,7 @@ tag:
 - OOCSS
 ---
 
-One type of CSS in particular makes me cringe every time I see it; poor selector intent. Poor selector intent means carpet bombed selectors whose key selector has way too broad a reach; a selector like `.header ul{}` as opposed to one like `.main-nav{}`, `.widget h2{}` instead of `.widget-title`, `article > p:first-child{}` as opposed to `.intro{}`. Selectors whose intent isn’t specific enough.
+One type of CSS in particular makes me cringe every time I see it; poor selector intent. Poor selector intent means carpet bombed selectors whose key selector has way too broad a reach; a selector like `.header ul{}` as opposed to one like `.main-nav{}`; `.widget h2{}` instead of `.widget-title`; `article > p:first-child{}` as opposed to `.intro{}`. Selectors whose intent isn’t specific enough.
 
 It’s worth noting that _selector intent_ is something I completely made up at some point today; if you think there’s a better name then please let me know!
 
