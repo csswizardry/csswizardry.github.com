@@ -15,7 +15,7 @@ tag:
 - OOCSS
 ---
 
-One thing I’ve been doing a lot of lately, since starting at [Sky](http://bskyb.com), is writing abstractions. [OOCSS](http://www.oocss.org) is nothing new, but its basic premise is that you can build really simple objects using a base class and then extend that object with more classes to add more styling to make a simple construct progressively more complex and specific.
+One thing I’ve been doing a lot of lately, since starting at [Sky](http://sky.com/), is writing abstractions. [OOCSS](http://www.oocss.org) is nothing new, but its basic premise is that you can build really simple objects using a base class and then extend that object with more classes to add more styling to make a simple construct progressively more complex and specific.
 
 One abstraction I love is by [Nicole Sullivan](https://twitter.com/stubbornella) (one of the best front-end devs in the world ever); the [media object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/). Another I wrote is the more simple [nav abstraction](http://csswizardry.com/2011/09/the-nav-abstraction/).
 
