@@ -12,9 +12,9 @@ developer from Leeds, UK.
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
-  <figcaption>At <a href="http://2012.front-trends.com/">Front-Trends, 2012</a>.
-  <a href="http://www.flickr.com/photos/rachelandrew/6978809052/">Photo</a> by
-  <a href="https://twitter.com/rachelandrew">Rachel Andrew</a>.</figcaption>
+  <figcaption>On top of <a href="http://en.wikipedia.org/wiki/Scafell_Pike">Scafell Pike</a>.
+  <a href="http://www.flickr.com/photos/csswizardry/8630176157/">Photo</a> by
+  <a href="https://twitter.com/suzehaworth">Suzanna Haworth</a>.</figcaption>
 </figure>
 
 I [write](/archive/) and [speak](/speaking/) on the topics of CSS and its scalability,
