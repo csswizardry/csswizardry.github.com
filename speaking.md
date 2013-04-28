@@ -14,7 +14,6 @@ at a conference you are organising, please feel free to [drop me a line](mailto:
 I am set to speak at:
 
 <ul class="block-list">
-  <li><a href="http://industryconf.com/">Industry Conf</a>, UK, Apr 2013</li>
   <li><a href="http://2013.beyondtellerrand.com/">Beyond Tellerrand</a>, Germany, May 2013</li>
 </ul>
 
@@ -25,4 +24,5 @@ I have previously been fortunate enough to speak at:
   <li><a href="http://2012.front-trends.com/">Front-Trends</a>, Poland, Apr 2012</li>
   <li><a href="http://2012.canvasconf.co.uk/">Canvas</a>, UK, Sep 2012</li>
   <li><a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, UK, Sep 2012</li>
+  <li><a href="http://industryconf.com/">Industry Conf</a>, UK, Apr 2013</li>
 </ul>
