@@ -24,6 +24,13 @@ I am a [.net awards finalist](http://www.netmagazine.com/features/net-awards-201
 and a member of Smashing Magazine’s Experts Panel. For a more exhaustive profile,
 please see [my CV](http://csswizardry.com/cv/).
 
+<div class="island">
+    <blockquote class="delta">
+        <p>I’ve got a crush on Harry Roberts…</p>
+        <b class="source"><a href="http://unfinished.bz/11">Andy Clarke</a></b>
+    </blockquote>
+</div>
+
 I specialise in writing and scaling CSS for large apps and websites, with a
 strong focus on OOCSS, pragmatism and powerful and rapid development. I also love
 tinkering with front-end performance, Git, Vim and other cool (nerdy) stuff.
