@@ -3,7 +3,7 @@ comments: true
 date: 2013-04-25 18:56:00
 layout: post
 slug: shame-css-full-net-interview
-title: shame.css &ndash; full .net interview
+title: shame.css – full .net interview
 categories:
 - Web development
 tag:
