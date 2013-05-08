@@ -33,7 +33,7 @@ also has the option have the image on either the left- or right-hand side of the
 text. This is [the SRP](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
 to a tee.
 
-    +---------+
+    +---------+ ~~~~~~~~~~ ~~~~~
     |         | ~~~~~ ~~~~~ ~~~~
     |         | ~~~~~~~~~ ~~~~~~
     |         |
@@ -45,9 +45,9 @@ desirable to have the image content and text content aligned to their vertical
 middles, like so:
 
     +---------+
-    |         |
+    |         | ~~~~ ~~~~~~~~~~~
     |         | ~~~~~~~ ~~~~~ ~~
-    |         |
+    |         | ~~~~~~~~~~~~
     +---------+
 
 It’s been something that’s been asked about a lot at work because, on the face
