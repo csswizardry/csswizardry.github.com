@@ -161,3 +161,6 @@ but:
    can’t just replace all existing instances of one with the other.
 3. Until the flag object has any quirks/bugs ironed out, I think it safer to
    only use it where really necessary.
+
+So, there we have it; I finally got round to writing a solid abstraction to
+this super-simple design pattern. Let’s see how it serves me!
