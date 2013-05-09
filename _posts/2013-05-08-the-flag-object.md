@@ -108,7 +108,7 @@ to the tops, middles or bottoms of each other.
             width:100%;
         }
 
-The Sass is pretty self explanatory; we’re making use of `display:table[-cell];`
+The CSS/Sass is pretty self explanatory; we’re making use of `display:table[-cell];`
 which gives us the ability to use `vertical-align`ment. We have a series of
 modifiers to quickly swap between aligning the content to the top or bottom of
 the object, and we also have a reversal modifier, for having the image-like
@@ -121,7 +121,7 @@ text content to take up all of the space that the `.flag__image{}` does not.
 
 Aside from the visual difference of vertical alignment, there isn’t too much
 difference between the two objects’ code. One thing to note is that the flag
-object is slightly more verbose in its implementation; the media objects can
+object is slightly more verbose in its implementation; the media object can
 have its classes applied directly to its content whereas the flag object needs
 its classes applied to wrappers _around_ its content. For example, compare the
 following snippets for the media and flag objects respectively:
@@ -133,7 +133,7 @@ following snippets for the media and flag objects respectively:
 
     <div class="flag">
         <div class="flag__image">
-            <img src="" alt="" class="media__image">
+            <img src="" alt="">
         </div>
         <div class="flag__body">
             <p></p>
@@ -144,7 +144,7 @@ The flag object _needs_ its structural stuff on a higher element, abstracted
 away from the actual content. This, however, is a small price to pay for the
 ability to vertically align content.
 
-Also, the media object is a lot more tried and tested, it works back as far as,
+Also, the media object is a lot more tried and tested; it works back as far as,
 I believe, IE6. The flag object plain will-not-work in IE7 and below. It’s been
 tested in IE8+ and it works a treat.
 
