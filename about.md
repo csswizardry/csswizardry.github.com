@@ -46,6 +46,9 @@ For more casual contact please [fire me a tweet](http://twitter.com/?status=Hey,
 I am **not** currently accepting any freelance work and will consider any
 speaking requests on a case-by-case basis.
 
+Please note, I **do not** offer sponsored, affiliated or review-like content on
+CSS Wizardry.
+
 ## inuit.css
 
 [inuit.css](http://inuitcss.com) is a mature, open source, totally free project of
