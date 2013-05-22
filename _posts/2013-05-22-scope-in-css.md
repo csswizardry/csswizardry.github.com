@@ -72,7 +72,7 @@ about our previous definition, we redefine `$name` again?
 
     $name = <holds the name of the logged in user’s friend);
 
-Now `$name`—which used to hold the logged in user’s name—now holds completely
+`$name`—which used to hold the logged in user’s name—now holds completely
 different data. We have lost the old variable and reassigned it because we were
 dealing with the two in the same scope.
 
