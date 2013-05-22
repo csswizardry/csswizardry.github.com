@@ -226,9 +226,9 @@ better name for something with global scope.
 ## In summary
 
 Make sure any classes you write aren’t loose; make sure they’re always well
-named and scoped if they need to be. Nesting selectors is a **bad** way of
+named, and scoped if they need to be. Nesting selectors is a **bad** way of
 scoping, so use a naming convention like BEM to provide a quasi scoping.
 
 Global scope and poorly named variables are absolute programming basics; there
-is no reason for our CSS to have the same unpredictable and loose make up that
+is no reason for our CSS to have the same unpredictable and loose traits that
 developers spend so much time avoiding.
