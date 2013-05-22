@@ -70,7 +70,7 @@ This is all very simple, and it works a treat, however, what happens later in
 our program when we want to list the name of the user’s friends and, forgetting
 about our previous definition, we redefine `$name` again?
 
-    $name = <holds the name of the logged in user’s friend);
+    $name = <holds the name of the logged in user’s friend>;
 
 `$name`—which used to hold the logged in user’s name—now holds completely
 different data. We have lost the old variable and reassigned it because we were
@@ -127,8 +127,8 @@ class which exists in a quasi global scope. `.title{}` is meant to be part of
 `.some-widget{}` but it completely lacks any scope at all and is very loose,
 much like our `.name{}` example. We could quite accidentally reassign or
 accidentally reuse this class now because it exists in a quasi global scope;
-what’s to stop another developer using this `.title{}` class on a ‘Mr/Mrs/Ms’
-style form input six months down the line?
+what’s to stop another developer using this `.title{}` class on a
+‘Mr/Mrs/Ms’-style form input six months down the line?
 
 This is CSS’ equivalent of global scope.
 
