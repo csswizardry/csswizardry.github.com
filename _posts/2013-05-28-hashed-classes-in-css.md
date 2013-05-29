@@ -69,6 +69,10 @@ Which would be [styled with](http://jsfiddle.net/wM5Sh/):
 
     ._site-nav{}
 
+Of course, this is all just an alias for:
+
+    .is-unique-site-nav{}
+
 So my advice was basically:
 
 **If you really need/want to mark something as being unique in CSS, prepend a
