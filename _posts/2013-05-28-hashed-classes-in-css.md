@@ -92,9 +92,16 @@ In this situation I would recommend something like this:
 * `.#foo` is our faux-ID to be used in CSS.
 * `#js-foo` is our JS-specific ID that we attach behaviour to.
 
+---
+
 It’s probably worth noting that **I don’t actually like this idea of faux-IDs**,
 but if you _do_ need to flag something as being unique in CSS, I _do_ find it
 better than using actual IDs themselves.
+
+* Does it make something appear to be unique? **Yes.**
+* Does it have a nice, low specificity? **Yes.**
+* Is this a good idea? **No.** But that’s because I don’t think that marking
+  something as unique is necessary, which renders this idea totally pointless.
 
 **tl;dr** If you need a selector to appear to be unique (though I can’t imagine
 why you _would_ want this) then present that uniqueness through a naming
