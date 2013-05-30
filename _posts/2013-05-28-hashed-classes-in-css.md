@@ -49,7 +49,7 @@ advice that I gave on stage was simply that _if_ you do find value in marking
 something as unique, then do this with a naming convention rather than using an
 ID. The example I used was this:
 
-    <ul class="nav  #site-nav">
+<pre><code>&lt;ul class="nav  <mark>#site-nav</mark>"&gt;</code></pre>
 
 Which, of course, would replace:
 
