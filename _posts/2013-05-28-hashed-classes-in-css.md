@@ -71,7 +71,7 @@ Which would be [styled with](http://jsfiddle.net/wM5Sh/):
 
 Of course, this is all just an alias for:
 
-    .is-unique-site-nav{}
+    .this-is-unique-site-nav{}
 
 So my advice was basically:
 
