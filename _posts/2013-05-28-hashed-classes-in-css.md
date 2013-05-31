@@ -60,7 +60,7 @@ This is valid HTML and [can be styled via CSS](http://jsfiddle.net/HUekN/), like
     .\#site-nav{}
 
 The reason for using the `#` should be pretty obvious; it _looks_ like an ID.
-The _problem_ with using the hash symbol is that is does need escaping in CSS.
+The _problem_ with using the hash symbol is that it does need escaping in CSS.
 You could use a naming convention like this, instead:
 
     <ul class="nav  _site-nav">
