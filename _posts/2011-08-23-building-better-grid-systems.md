@@ -13,7 +13,7 @@ tag:
 - HTML
 ---
 
-With every grid system that gets released--and there are a lot now--I notice the same issue with nigh on _every_ one of them; handling the extra margin/gutter on the last `<div>`.
+With every grid system that gets released—and there are a lot now—I notice the same issue with nigh on _every_ one of them; handling the extra margin/gutter on the last `<div>`.
 
 **N.B.** This post is about the HTML and CSS that powers grid systems, rather than the columns, construct, system and layout itself.
 
@@ -36,7 +36,7 @@ If you have a grid system where each grid module is defined with a class of, say
 }
 ...</code></pre>
 
-The most important thing to note is that every `.grid` has a `margin-right` of 20px, so--in a 16 column 940px grid system--4 × `.col-4` actually equals 960px (4 × (220px + 20px)). This is 20px (or one margin) _bigger_ than your wrapper. 
+The most important thing to note is that every `.grid` has a `margin-right` of 20px, so—in a 16 column 940px grid system—4 × `.col-4` actually equals 960px (4 × (220px + 20px)). This is 20px (or one margin) _bigger_ than your wrapper. 
 
 The formula for a complete system is:
 
@@ -89,7 +89,7 @@ Another problem is that if a programmer needs to dynamically display, say, a ser
 
 Another solution I've seen recently is used on [Twitter's Bootstrap framework](http://twitter.github.com/bootstrap/) and a few other places. This solution is a little more elegant, but still not very robust.
 
-It works by removing the `margin-right:20px;` from `.grid` and applying it as a `margin-left` instead. Then--using the dynamic `:first-child` pseudo-selector (`:first-child` is used as it has better browser support than `:last-child`)--you can target the first `div` in a row and remove its margin, thus:
+It works by removing the `margin-right:20px;` from `.grid` and applying it as a `margin-left` instead. Then—using the dynamic `:first-child` pseudo-selector (`:first-child` is used as it has better browser support than `:last-child`)—you can target the first `div` in a row and remove its margin, thus:
 
     .grid:first-child{
       margin:0;
