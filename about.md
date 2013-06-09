@@ -33,7 +33,7 @@ please see [my CV](http://csswizardry.com/cv/).
 
 I specialise in writing and scaling CSS for large apps and websites, with a
 strong focus on OOCSS, pragmatism and powerful and rapid development. I also love
-tinkering with front-end performance, Git, Vim and other cool (nerdy) stuff.
+tinkering with front-end performance, Git, Vim and other stuff.
 
 ## Contact
 
