@@ -103,7 +103,7 @@ columns, we are now telling a column to take up <var>x</var> percentage of the
 available width.
 
 What I do with [inuit.css](http://inuitcss.com) is abstract
-[these widths](https://github.com/csswizardry/inuit.css/blob/master/inuit.css/generic/_widths.scss)
+[these widths](https://github.com/csswizardry/inuit.css/blob/master/generic/_widths.scss)
 right out and away from the grid system entirely. This means that, although they
 can be used on the grid system, they are not exclusive to it. The benefit of
 this is that I could have, say, a photo that I wish to take up half the width of
@@ -111,7 +111,7 @@ my page: `<img src="foo.jpg" alt="" class="one-half">`. This would not
 previously, _necessarily_, have been possible if they were tied into the grid
 system too much.
 
-This now means that [the grid architecture](https://github.com/csswizardry/inuit.css/blob/master/inuit.css/objects/_grids.scss)
+This now means that [the grid architecture](https://github.com/csswizardry/inuit.css/blob/master/objects/_grids.scss)
 itself is very slim, just some floats and some clearfixing, as well as some
 gutter settings.
 
