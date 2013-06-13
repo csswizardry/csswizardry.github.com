@@ -20,7 +20,8 @@ developer from Leeds, UK.
 I [write](/archive/) and [speak](/speaking/) on the topics of CSS and its scalability,
 architecture, maintenance and more. I work as a <b>Senior UI Developer</b> for
 one of the UK’s biggest media and entertainment companies, [BSkyB](http://en.wikipedia.org/wiki/BSkyB).
-I am a [.net awards finalist](http://www.netmagazine.com/features/net-awards-2011-10-brilliant-newcomers)
+I am a [two time](http://www.netmagazine.com/features/net-awards-2011-10-brilliant-newcomers)
+[.net awards finalist](http://www.netmagazine.com/features/net-awards-2013-top-10-young-developers)
 and a member of Smashing Magazine’s Experts Panel. For a more exhaustive profile,
 please see [my CV](http://csswizardry.com/cv/).
 
