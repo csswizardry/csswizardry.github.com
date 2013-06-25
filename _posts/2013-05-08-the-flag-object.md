@@ -72,41 +72,43 @@ to the tops, middles or bottoms of each other.
 
 ## The code
 
-    .flag{
-        display:table;
-        width:100%;
+    .flag {
+        display: table;
+        width: 100%;
     }
 
         .flag__image,
-        .flag__body{
-            display:table-cell;
-            vertical-align:middle;
+        .flag__body {
+            display: table-cell;
+            vertical-align: middle;
 
-            .flag--top &{
-                vertical-align:top;
+            .flag--top & {
+                vertical-align: top;
             }
 
-            .flag--bottom &{
-                vertical-align:bottom;
+            .flag--bottom & {
+                vertical-align: bottom;
             }
+
         }
 
-        .flag__image{
-            padding-right:10px;
+        .flag__image {
+            padding-right: 10px;
 
-            > img{
-                display:block;
-                max-width:none;
+            > img {
+                display: block;
+                max-width: none;
             }
 
-            .flag--rev &{
-                padding-right:0;
-                padding-left:10px;
+            .flag--rev & {
+                padding-right: 0;
+                padding-left: 10px;
             }
+
         }
 
-        .flag__body{
-            width:100%;
+        .flag__body {
+            width: 100%;
         }
 
 The CSS/Sass is pretty self explanatory; we’re making use of `display:table[-cell];`
