@@ -96,6 +96,7 @@ to the tops, middles or bottoms of each other.
 
             > img{
                 display:block;
+                max-width:none;
             }
 
             .flag--rev &{
