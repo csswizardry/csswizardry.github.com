@@ -7,7 +7,7 @@ permalink: /about/
 
 # About me
 
-Hi there, I’m Harry Roberts. I am a 22 year old front-end architect and web
+Hi there, I’m Harry Roberts. I am a 23 year old front-end architect and web
 developer from Leeds, UK.
 
 <figure>
