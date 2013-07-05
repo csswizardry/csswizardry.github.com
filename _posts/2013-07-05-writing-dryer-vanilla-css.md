@@ -82,18 +82,18 @@ Here we are simply simply applying a `border` to the top of a list and the
 bottom of all its `li`s, to create a bookended border effect. Again, though, not
 too DRY. Let’s rewrite it:
 
-.bar,
-    .bar > li{
-        border:0 solid #ccc;
+    .bar,
+        .bar > li{
+            border:0 solid #ccc;
+        }
+
+    .bar{
+        border-top-width:1px;
     }
 
-.bar{
-    border-top-width:1px;
-}
-
-    .bar > li{
-        border-bottom-width:1px;
-    }
+        .bar > li{
+            border-bottom-width:1px;
+        }
 
 Once again, more code, but _far_ DRYer. We can change the width, colour and
 style of both the list’s and its `li`’s borders in one go.
@@ -119,15 +119,15 @@ Another example (and these really are only examples):
 Again, a lot of repetition. Not in absolute terms, but certainly more than is
 necessary. We can DRY that out by rewriting it as:
 
-.page{
-    background-position:center center;
-    background-repeat:no-repeat;
-}
+    .page{
+        background-position:center center;
+        background-repeat:no-repeat;
+    }
 
-.page--home     { background-image:url(home.jpg); }
-.page--about    { background-image:url(about.jpg); }
-.page--work     { background-image:url(work.jpg); }
-.page--contact  { background-image:url(contact.jpg) }
+    .page--home     { background-image:url(home.jpg); }
+    .page--about    { background-image:url(about.jpg); }
+    .page--work     { background-image:url(work.jpg); }
+    .page--contact  { background-image:url(contact.jpg) }
 
 Abstracting out the repeated parts and avoiding using shorthand means writing a
 few more lines of code, but massively trims down the amount of repetition.
