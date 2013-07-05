@@ -1,6 +1,6 @@
 ---
 comments: true
-date: 2013-07-05 17:44:11
+date: 2013-07-05 13:41:25
 layout: post
 slug: writing-dryer-vanilla-css
 title: Writing DRYer vanilla CSS
