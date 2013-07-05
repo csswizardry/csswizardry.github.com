@@ -53,7 +53,7 @@ code that is likely to change):
         border-bottom-color:blue;
     }
 
-Or:
+Or even:
 
     .foo{
         border:0 solid red;
