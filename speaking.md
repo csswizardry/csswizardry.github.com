@@ -27,5 +27,5 @@ I have previously been fortunate enough to speak at:
     <li><a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, UK, Sep 2012</li>
     <li><a href="http://industryconf.com/">Industry Conf</a>, UK, Apr 2013</li>
     <li><a href="http://2013.beyondtellerrand.com/">Beyond Tellerrand</a>, Germany, May 2013</li>
-    <li><a href="http://wearestac.com/blog/introducing-hey-stac">Hey!Stac</a>, Leeds, Jun 2013</li>
+    <li><a href="http://hey.wearestac.com/">Hey!Stac</a>, Leeds, Jun 2013</li>
 </ul>
