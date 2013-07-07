@@ -78,9 +78,9 @@ Another decent example, using borders again:
             border-bottom:1px solid #ccc;
         }
 
-Here we are simply simply applying a `border` to the top of a list and the
-bottom of all its `li`s, to create a bookended border effect. Again, though, not
-too DRY. Let’s rewrite it:
+Here we are simply applying a `border` to the top of a list and the bottom of
+all its `li`s, to create a bookended border effect. Again, though, not too DRY.
+Let’s rewrite it:
 
     .bar,
         .bar > li{
@@ -95,8 +95,8 @@ too DRY. Let’s rewrite it:
             border-bottom-width:1px;
         }
 
-Once again, more code, but _far_ DRYer. We can change the width, colour and
-style of both the list’s and its `li`’s borders in one go.
+Once again, more code, but _far_ DRYer. We can change the colour and style of
+both the list’s and its `li`’s borders in one go.
 
 Another example (and these really are only examples):
 
