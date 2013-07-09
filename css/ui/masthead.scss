@@ -12,14 +12,36 @@
 .masthead{
     @extend %sass-margin-bottom;
     display:none; /* [1] */
+    position:relative;
     padding-top:25%; /* [3] */
     background-image:url(/img/css/masthead/small/01.jpg);
     background-position:center center;
+    background-color:#1163b8;
     box-shadow:0 0 10px rgba(0,0,0,0.5) inset;
     @include vendor(background-size, cover);
 
     .page--home &{
         display:block; /* [2] */
+
+        &:after{
+            @media only screen and (min-width: 620px){
+                content:"CSS architecture and front-end performance…";
+                position:absolute;
+                bottom:$base-spacing-unit;
+                left:$base-spacing-unit;
+                color:#fff;
+                text-shadow:0 0 5px rgba(0, 0, 0, 0.25);
+            }
+
+            @media only screen and (min-width: 720px){
+                @include font-size(24px);
+            }
+
+            @media only screen and (min-width: 800px){
+                @include font-size(36px);
+            }
+        }
+
     }
 
     @media only screen and (min-width: 640px){
