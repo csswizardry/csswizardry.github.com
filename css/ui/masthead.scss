@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    $MASTHEAD
+\*------------------------------------*/
+/**
+ * Home page masthead.
+ *
+ * 1. Hide on all pages...
+ * 2. ...except the home page.
+ * 3. 1:4 aspect-ratio.
+ * 4. 1:3 aspect-ratio.
+ */
+.masthead{
+    @extend %sass-margin-bottom;
+    display:none; /* [1] */
+    padding-top:25%; /* [3] */
+    background-image:url(/img/css/masthead/small/01.jpg);
+    background-position:center center;
+    box-shadow:0 0 10px rgba(0,0,0,0.5) inset;
+    @include vendor(background-size, cover);
+
+    .page--home &{
+        display:block; /* [2] */
+    }
+
+    @media only screen and (min-width: 640px){
+        background-image:url(/img/css/masthead/medium/01.jpg);
+    }
+
+    @media only screen and (min-width: 720px){
+        padding-top:33.3333333%; /* [4] */
+        background-image:url(/img/css/masthead/large/01.jpg);
+    }
+
+    @media only screen and (min-width: 1200px){
+        background-image:url(/img/css/masthead/huge/01.jpg);
+    }
+
+}
