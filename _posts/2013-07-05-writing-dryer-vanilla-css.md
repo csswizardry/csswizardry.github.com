@@ -10,7 +10,7 @@ tag:
 meta: DRYing out our CSS at its most basic level
 ---
 
-When dealing with code, we often strive to make our code _DRY_. DRY code usually
+When dealing with code, we often strive to make things _DRY_. DRY code usually
 means two things:
 
 1. Less actual code, meaning smaller file sizes, less for the user to have to
