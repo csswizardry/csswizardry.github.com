@@ -30,9 +30,9 @@ When DRYing out code for maintainability, **it is preferable to DRY out the
 things most likely to change**, even if that does result in more code at the
 end. Take the following example:
 
-    .foo{
-        border-top:1px solid red;
-        border-bottom:1px solid blue;
+    .foo {
+        border-top: 1px solid red;
+        border-bottom: 1px solid blue;
     }
 
 This is a fairly innocuous looking snippet of CSS; we simply want to pop
@@ -46,19 +46,19 @@ all of a sudden you have 200% as much code as you need in these cases.
 Let’s rewrite this CSS a little more verbosely, but a lot DRYer (in terms of
 code that is likely to change):
 
-    .foo{
-        border-width:1px 0;
-        border-style:solid;
-        border-top-color:red;
-        border-bottom-color:blue;
+    .foo {
+        border-width: 1px 0;
+        border-style: solid;
+        border-top-color: red;
+        border-bottom-color: blue;
     }
 
 Or even:
 
-    .foo{
-        border:0 solid red;
-        border-width:1px 0;
-        border-bottom-color:blue;
+    .foo {
+        border: 0 solid red;
+        border-width: 1px 0;
+        border-bottom-color: blue;
     }
 
 Far more CSS, but far less repetition! If we want to change the width of the
@@ -70,12 +70,12 @@ only delete it.
 
 Another decent example, using borders again:
 
-    .bar{
-        border-top:1px solid #ccc;
+    .bar {
+        border-top: 1px solid #ccc;
     }
 
-        .bar > li{
-            border-bottom:1px solid #ccc;
+        .bar > li {
+            border-bottom: 1px solid #ccc;
         }
 
 Here we are simply applying a `border` to the top of a list and the bottom of
@@ -83,16 +83,16 @@ all its `li`s, to create a bookended border effect. Again, though, not too DRY.
 Let’s rewrite it:
 
     .bar,
-        .bar > li{
-            border:0 solid #ccc;
+        .bar > li {
+            border: 0 solid #ccc;
         }
 
-    .bar{
-        border-top-width:1px;
+    .bar {
+        border-top-width: 1px;
     }
 
-        .bar > li{
-            border-bottom-width:1px;
+        .bar > li {
+            border-bottom-width: 1px;
         }
 
 Once again, more code, but _far_ DRYer. We can change the colour and style of
@@ -100,34 +100,34 @@ both the list’s and its `li`’s borders in one go.
 
 Another example (and these really are only examples):
 
-    .page--home{
-        background:url(home.jpg) center center no-repeat;
+    .page--home {
+        background: url(home.jpg) center center no-repeat;
     }
 
-    .page--about{
-        background:url(about.jpg) center center no-repeat;
+    .page--about {
+        background: url(about.jpg) center center no-repeat;
     }
 
-    .page--work{
-        background:url(work.jpg) center center no-repeat;
+    .page--work {
+        background: url(work.jpg) center center no-repeat;
     }
 
-    .page--contact{
-        background:url(contact.jpg) center center no-repeat;
+    .page--contact {
+        background: url(contact.jpg) center center no-repeat;
     }
 
 Again, a lot of repetition. Not in absolute terms, but certainly more than is
 necessary. We can DRY that out by rewriting it as:
 
-    .page{
-        background-position:center center;
-        background-repeat:no-repeat;
+    .page {
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
-    .page--home     { background-image:url(home.jpg); }
-    .page--about    { background-image:url(about.jpg); }
-    .page--work     { background-image:url(work.jpg); }
-    .page--contact  { background-image:url(contact.jpg) }
+    .page--home     { background-image: url(home.jpg); }
+    .page--about    { background-image: url(about.jpg); }
+    .page--work     { background-image: url(work.jpg); }
+    .page--contact  { background-image: url(contact.jpg) }
 
 Abstracting out the repeated parts and avoiding using shorthand means writing a
 few more lines of code, but massively trims down the amount of repetition.
