@@ -14,6 +14,7 @@ at a conference you are organising, please feel free to [drop me a line](mailto:
 I am set to speak at:
 
 <ul class="block-list">
+    <li><a href="https://tito.io/speaktheweb/liverpool">Speak the Web</a>, Liverpool, July 2013</li>
     <li><a href="http://2013.cssconf.eu/">CSSconf.eu</a>, Berlin, September 2013</li>
     <li><a href="http://fronteers.nl/congres/2013">Fronteers</a>, Amsterdam, October 2013</li>
     <li><a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough, October 2013</li>
