@@ -14,7 +14,7 @@ tag:
 
 I fear I may be poking the hornet’s nest with this one, but here goes. My _personal_ opinion on _that_ question…
 
-Do designers need to code? This has been the question of the moment of late. Though, speaking of late, I may have missed the main period of discussions around the subject. Regardless, here’s my take… Disclaimer.
+Do designers need to code? This has been the question of the moment of late. Though, speaking of late, I may have missed the main period of discussions around the subject. Regardless, here’s my take…
 
 ## Is a web designer really a web designer if they can’t code?
 
