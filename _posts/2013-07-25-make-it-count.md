@@ -120,7 +120,7 @@ bills, but CSS Wizardry is my sideline that will unlock many doors on my career
 path. Every event I speak at makes me a loss, every article I write does not
 make a difference to how much money I get paid each month. Guess what:
 
-**‘Career moves’ don’t mean shit if you’re just going to stagnate.**
+**Career moves don’t mean shit if you’re just going to stagnate.**
 
 My ‘heavy day’ that I mentioned…? **I handed in my notice at Sky.** For months
 now I have felt aimless, directionless and misguided. I’ve been accepting more
