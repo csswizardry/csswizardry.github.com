@@ -130,15 +130,15 @@ and has been the most formative work of my career, but I was just so bogged
 down by it all. I was taking on too much and it was starting to weigh heavy. I
 had lost sight and I wasn’t making things count.
 
-I want to go on record as saying that me leaving Sky is not Sky’s fault, it’s
-mine. You only get as much out of something as you put in, and somewhere along
-the way I lost sight. I stopped caring as much, I stopped being as proactive, I
-had no endgame and I felt like I wasn’t working toward anything. I had a great
-chat with my lead yesterday (I’ll not mention him by name, but he’s first and
-foremost a friend who I met five years ago who later ended up becoming my boss)
-when I handed my notice in; everything is amicable and we can both see where our
-paths started to part ways. I’m really gonna miss the place, but this is
-something I have to do for me.
+I want to go on record as saying that **me leaving Sky is not Sky’s fault,**
+it’s mine. You only get as much out of something as you put in, and somewhere
+along the way I lost sight. I stopped caring as much, I stopped being as
+proactive, I had no endgame and I felt like I wasn’t working toward anything. I
+had a great chat with my lead yesterday (I’ll not mention him by name, but he’s
+first and foremost a friend who I met five years ago who later ended up becoming
+my boss) when I handed my notice in; everything is amicable and we can both see
+where our paths started to part ways. I’m really gonna miss the place, but this
+is something I have to do for me.
 
 It’s also worth noting that this last week is really only the tip of the
 iceberg. The straw that broke the camel’s back. I’ve been generally unhappy for
