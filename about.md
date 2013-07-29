@@ -43,8 +43,6 @@ workshops and any exciting projects working with nice people **starting October
 2013**. If you think you have something we can work together on then please do
 [get in touch](mailto:harry@csswizardry.com).
 
-For more casual contact please [fire me a tweet](http://twitter.com/?status=Hey,%20@csswizardry%20).
-
 Please note, I **do not** offer sponsored, affiliated or review-like content on
 CSS Wizardry.
 
