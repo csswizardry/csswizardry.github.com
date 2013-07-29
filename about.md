@@ -48,15 +48,6 @@ For more casual contact please [fire me a tweet](http://twitter.com/?status=Hey,
 Please note, I **do not** offer sponsored, affiliated or review-like content on
 CSS Wizardry.
 
-## inuit.css
-
-[inuit.css](http://inuitcss.com) is a mature, open source, totally free project of
-mine; it is a powerful, scalable, Sass-based, BEM, OOCSS framework. It is
-designed to be small enough to be suited to small sites, but powerful enough to
-scale to sites with several thousand pages. It is the culmination of years of
-my work and experience on projects of all sizes. You should check it out,
-it totally rocks!
-
 ## Colophon
 
 This site is built on [Jekyll](https://github.com/mojombo/jekyll), an open-source
