@@ -38,14 +38,12 @@ tinkering with front-end performance, Git, Vim and other stuff.
 
 ## Contact
 
-If you want to get in touch with me feel free to [drop me an email](mailto:harry@csswizardry.com).
-I aim to respond to every email I get but I am usually kept pretty busy – if I
-don’t get to replying right away please do chase me up.
-
+I am open to interesting and fun consulting gigs, short-term contracts,
+workshops and any exciting projects working with nice people **starting October
+2013**. If you think you have something we can work together on then please do
+[get in touch](mailto:harry@csswizardry.com).
 
 For more casual contact please [fire me a tweet](http://twitter.com/?status=Hey,%20@csswizardry%20).
-I am **not** currently accepting any freelance work and will consider any
-speaking requests on a case-by-case basis.
 
 Please note, I **do not** offer sponsored, affiliated or review-like content on
 CSS Wizardry.
