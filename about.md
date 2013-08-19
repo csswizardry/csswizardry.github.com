@@ -41,6 +41,3 @@ I am open to interesting and fun consulting gigs, short-term contracts,
 workshops and any exciting projects working with nice people **starting October,
 2013**. If you think you have something we can work together on then please do
 [get in touch](mailto:harry@csswizardry.com).
-
-Please note, I **do not** offer sponsored, affiliated or review-like content on
-CSS Wizardry.
