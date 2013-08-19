@@ -7,9 +7,9 @@ permalink: /about/
 
 # About me
 
-Hi there, I’m Harry Roberts. I am a consultant front-end architect and web
-developer from Leeds, UK. I am **available for work** on interesting projects
-starting **October, 2013**.
+Hi there, I’m Harry. I am a consultant front-end architect and web developer
+from Leeds, UK. I am **available for work** on interesting projects starting
+**October, 2013**.
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
