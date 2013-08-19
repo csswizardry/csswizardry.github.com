@@ -7,8 +7,9 @@ permalink: /about/
 
 # About me
 
-Hi there, I’m Harry Roberts. I am a 23 year old front-end architect and web
-developer from Leeds, UK.
+Hi there, I’m Harry Roberts. I am a consultant front-end architect and web
+developer from Leeds, UK. I am **available for work** on interesting projects
+starting **October, 2013**.
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
@@ -18,9 +19,9 @@ developer from Leeds, UK.
 </figure>
 
 I [write](/archive/) and [speak](/speaking/) on the topics of CSS and its scalability,
-architecture, maintenance and more. I work as a <b>Senior UI Developer</b> for
-one of the UK’s biggest media and entertainment companies, [BSkyB](http://en.wikipedia.org/wiki/BSkyB).
-I am a [two time](http://www.netmagazine.com/features/net-awards-2011-10-brilliant-newcomers)
+architecture, maintenance and more. Previously a <b>Senior Developer</b> at
+[BSkyB](http://en.wikipedia.org/wiki/BSkyB), I am also a
+[two time](http://www.netmagazine.com/features/net-awards-2011-10-brilliant-newcomers)
 [.net awards finalist](http://www.netmagazine.com/features/net-awards-2013-top-10-young-developers)
 and a member of [Smashing Magazine](http://www.smashingmagazine.com/)’s Experts
 Panel. For a more exhaustive profile, please see [my CV](http://csswizardry.com/cv/).
@@ -33,8 +34,8 @@ Panel. For a more exhaustive profile, please see [my CV](http://csswizardry.com/
 </div>
 
 I specialise in writing and scaling CSS for large apps and websites, with a
-strong focus on OOCSS, pragmatism and powerful and rapid development. I also love
-tinkering with front-end performance, Git, Vim and other stuff.
+strong focus on OOCSS, pragmatism, front-end performance and powerful and rapid
+development.
 
 ## Contact
 
