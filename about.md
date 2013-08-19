@@ -46,21 +46,3 @@ workshops and any exciting projects working with nice people **starting October
 
 Please note, I **do not** offer sponsored, affiliated or review-like content on
 CSS Wizardry.
-
-## Colophon
-
-This site is built on [Jekyll](https://github.com/mojombo/jekyll), an open-source
-static site generator. It is hosted on [GitHub Pages](http://pages.github.com/).
-This site also utilises [inuit.css](http://inuitcss.com), a free and open-source
-CSS framework developed and maintained by me.
-
-This site is developed quite openly; the source is available to poke through in
-its own [GitHub repo](https://github.com/csswizardry/csswizardry.github.com).
-This code is made available for people to look through and hopefully learn from,
-however this code is _not_ available for your use and, remains under my copyright.
-If you notice anything wrong with the site, or would like to suggest a feature,
-please [open an issue](https://github.com/csswizardry/csswizardry.github.com/issues).
-
-**N.B.** This site was ported from WordPress to Jekyll in December, 2012; there
-is every chance that certain things before then will not look quite right now.
-If you spot anything, I’d be super grateful if you could let me know.
