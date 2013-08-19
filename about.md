@@ -18,13 +18,11 @@ from Leeds, UK. I am **available for work** on interesting projects starting
   <a href="https://twitter.com/stn1978">Stefan Nitzsche</a>.</figcaption>
 </figure>
 
-I [write](/archive/) and [speak](/speaking/) on the topics of CSS and its scalability,
+I write and [speak](/speaking/) on the topics of CSS and its scalability,
 architecture, maintenance and more. Previously a <b>Senior Developer</b> at
-[BSkyB](http://en.wikipedia.org/wiki/BSkyB), I am also a
-[two time](http://www.netmagazine.com/features/net-awards-2011-10-brilliant-newcomers)
-[.net awards finalist](http://www.netmagazine.com/features/net-awards-2013-top-10-young-developers)
-and a member of [Smashing Magazine](http://www.smashingmagazine.com/)’s Experts
-Panel. For a more exhaustive profile, please see [my CV](http://csswizardry.com/cv/).
+[BSkyB](http://en.wikipedia.org/wiki/BSkyB), I am also a two time .net awards
+finalist and a member of [Smashing Magazine](http://www.smashingmagazine.com/)’s
+Experts Panel.
 
 <div class="island">
     <blockquote class="delta">
