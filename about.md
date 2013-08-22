@@ -27,7 +27,7 @@ Experts Panel.
 <div class="island">
     <blockquote class="delta">
         <p>I’ve got a crush on Harry Roberts…</p>
-        <b class="source"><a href="http://unfinished.bz/11">Andy Clarke</a></b>
+        <b class="source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
     </blockquote>
 </div>
 
