@@ -21,14 +21,14 @@
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
-@import "ui/page";
-@import "ui/typography";
-@import "ui/page-head";
-@import "ui/site-nav";
-@import "ui/page-foot";
-@import "ui/logo";
-@import "ui/lists";
-@import "ui/posts";
-@import "ui/sprites";
-@import "ui/ads";
-@import "ui/misc";
+@import "ui/page",
+        "ui/typography",
+        "ui/page-head",
+        "ui/site-nav",
+        "ui/page-foot",
+        "ui/logo",
+        "ui/lists",
+        "ui/posts",
+        "ui/sprites",
+        "ui/ads",
+        "ui/misc";
