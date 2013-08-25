@@ -1,0 +1,25 @@
+/*------------------------------------*\
+    $AVAILABILITY
+\*------------------------------------*/
+/**
+ * Can I work for you?
+ */
+.availability {
+    text-align: center;
+    font-weight: 300;
+    display: block;
+    padding: 12px;
+}
+
+.availability,
+    .availability:hover {
+        color: #fff;
+    }
+
+.availability--available {
+    background-color: #3f990f;
+}
+
+.availability--unavailable {
+    background-color: #9f102e;
+}
