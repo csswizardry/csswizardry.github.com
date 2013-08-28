@@ -13,7 +13,7 @@ for work** on interesting projects starting **October, 2013**.
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
-  <figcaption>Impassioned, on stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
+  <figcaption>On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
   <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
   <a href="https://twitter.com/stn1978">Stefan Nitzsche</a>.</figcaption>
 </figure>
