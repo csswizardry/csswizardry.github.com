@@ -32,9 +32,9 @@ more. Now I want to make all this stuff work for me. I want to take all the
 things I do – and have done – and do them for you, whoever and wherever you may be.
 
 I want to work with talented teams – working on amazing products – all across
-the globe. I want to work with nice people who care as much as I do about
-building great things, and having fun in the process. I want people who take
-their work, but not themselves, seriously. I want to work with you.
+the globe. I want to work with nice people who care as much about building great
+things as I do, and having fun in the process. I want people who take their
+work, but not themselves, seriously. I want to work with you.
 
 I am going to become available from the end of October/mid-November so –
 regardless of your location, budget, requirements or whatever – if you think we
