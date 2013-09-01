@@ -56,3 +56,9 @@ important things that I want to gain from this (ad)venture is _variety_. From
 consulting to dev work, workshops to speaking, I want to work on an array of
 things for nice people. I don’t mind what your product or project is, or what
 your budget may be, let’s chat it over and see what we can do together.
+
+<p>
+    <a href="/work/" class="availability  availability--available">
+        <strong>Let’s do it!</strong>
+    </a>
+</p>
