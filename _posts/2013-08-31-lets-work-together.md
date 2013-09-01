@@ -24,9 +24,9 @@ from back in July. Now, for the next chapter…
 
 **I’m going it alone.**
 
-I’ve spent over five years working away on CSS Wizardry; [writing
-articles](/archive/), sharing [techniques and code](http://github.com/csswizardry)
-and research and findings, creating and contributing to [open source projects](http://inuitcss.com),
+I’ve spent over five years working on CSS Wizardry; [writing articles](/archive/),
+sharing [techniques and code](http://github.com/csswizardry) and research and
+findings, creating and contributing to [open source projects](http://inuitcss.com),
 [speaking at conferences](https://speakerdeck.com/csswizardry) and a whole lot
 more. Now I want to make all this stuff work for me. I want to take all the
 things I do – and have done – and do them for you, whoever and wherever you may be.
