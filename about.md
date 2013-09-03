@@ -9,7 +9,7 @@ permalink: /about/
 
 Hi there, I’m Harry. I am a consultant front-end architect and web developer
 from Leeds, UK. I am **[available](mailto:harry@csswizardry.com?subject=Let’s%20work%20together)
-for work** on interesting projects starting **October, 2013**.
+for work** on interesting projects starting **November, 2013**.
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
@@ -38,6 +38,6 @@ development.
 ## Contact
 
 I am open to interesting and fun consulting gigs, short-term contracts,
-workshops and any exciting projects working with nice people **starting October,
+workshops and any exciting projects working with nice people **starting November,
 2013**. If you think you have something we can work together on then
 [get in touch](mailto:harry@csswizardry.com).
