@@ -188,7 +188,7 @@ help decrease latency by serving assets from a more suitable _physical_ location
 This is all well and good, but later we’ll discuss how serving from subdomains
 can actually, in certain circumstances, be detrimental to performance.
 
-So, there are our performance basics out of the way:
+So, these are our performance basics out of the way:
 
 * Put stylesheets at the top of a document
 * Put JavaScript at the bottom (where possible)
