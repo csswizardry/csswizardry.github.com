@@ -21,7 +21,7 @@ I have previously been fortunate enough to speak at:
 
 <ul class="block-list">
     <li><a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, UK, February 2012</li>
-    <li><a href="http://2012.front-trends.com/">Front-Trends</a>, Poland, April 2012</li>
+    <li><a href="http://2012.front-trends.com/">Front-Trends</a>, Warsaw, April 2012</li>
     <li><a href="http://2012.canvasconf.co.uk/">Canvas</a>, UK, September 2012</li>
     <li><a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, UK, September 2012</li>
     <li><a href="http://industryconf.com/">Industry Conf</a>, UK, April 2013</li>
