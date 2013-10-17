@@ -1,6 +1,6 @@
 ---
 comments: true
-date: 2013-08-31 22:37:15
+date: 2013-10-17 17:35:15
 layout: post
 slug: lets-work-together
 title: Let’s work together
@@ -11,7 +11,7 @@ tag:
 meta: I’m looking for amazing people to work with on great products.
 ---
 
-Just over a month ago I handed in my notice at
+Almost three months ago I handed in my notice at
 [Sky](http://en.wikipedia.org/wiki/BSkyB), where I’d spent the last
 two-and-a-bit years as a Senior Developer. My time at Sky has been amazing; I
 learned so much about big sites, architecture, scalability, performance, big
