@@ -38,7 +38,8 @@ work, but not themselves, seriously. I want to work with you.
 
 I am going to become available from the end of October/mid-November so –
 regardless of your location, budget, requirements or whatever – if you think we
-could work together then [let me know](/work/). We’ll see what we can work out.
+could work together then
+[let me know](mailto:harry@csswizardry.com). We’ll see what we can work out.
 
 My _ideal_ clients – the ones who would benefit from me the most –
 are startups and products who have tech teams I can collaborate with. I
@@ -46,16 +47,18 @@ specialise in scaling front-ends on products with skilled engineers. If you’re
 startup expecting to grow, I can help that happen. If you’re a developer working
 on a product that needs someone to build a robust and scalable front-end, I’m
 your guy. If you’re an agency who needs help training your team to be able to
-build bigger websites for bigger clients, [get in touch](/work/).
+build bigger websites for bigger clients,
+[get in touch](mailto:harry@csswizardry.com).
 
 That said, I have no lists of what I can and cannot do, nor do I have lists of
 what I will and will not do, I’m open to pretty much anything. If you think
 your team or product or app or service or agency or startup could benefit from
-anything I could offer then just [drop me a line](/work/). One of the most
-important things that I want to gain from this (ad)venture is _variety_. From
-consulting to dev work, workshops to speaking, I want to work on an array of
-things for nice people. I don’t mind what your product or project is, or what
-your budget may be, let’s chat it over and see what we can do together.
+anything I could offer then just [drop me a line](mailto:harry@csswizardry.com).
+One of the most important things that I want to gain from this (ad)venture is
+_variety_. From consulting to dev work, workshops to speaking, I want to work on
+an array of things for nice people. I don’t mind what your product or project
+is, or what your budget may be, let’s chat it over and see what we can do
+together.
 
 <p>
     <a href="/work/" class="availability  availability--available">
