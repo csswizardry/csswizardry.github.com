@@ -22,7 +22,7 @@ I write and [speak](/speaking/) on the topics of CSS and its scalability,
 architecture, maintenance and more. Previously a <b>Senior Developer</b> at
 [BSkyB](http://en.wikipedia.org/wiki/BSkyB), I am also a two-time .net awards
 finalist and a member of [Smashing Magazine](http://www.smashingmagazine.com/)’s
-Experts Panel.
+Experts Panel. For a more comprehensive overview, please see [my CV](/csscv/).
 
 <div class="island">
     <blockquote class="delta">
