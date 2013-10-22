@@ -101,7 +101,7 @@ it out, they’re very inexplicit. With BEM notation we would now have:
         <input type="Submit" value ="Search" class="site-search__button">
     </form>
 
-We can see that we have a block called `.site-search` which has en element which
+We can see that we have a block called `.site-search` which has an element which
 lives inside it called `.site-search__field`. We can also see that there is a
 variation of the `.site-search` called `.site-search--full`.
 
