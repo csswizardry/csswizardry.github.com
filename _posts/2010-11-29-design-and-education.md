@@ -12,7 +12,7 @@ tag:
 - Education
 ---
 
-Last week [Pascal Raabe](http://twitter.com/jazzpazz) got in touch with me asking me to answer a few questions on the relevance and importance of formal education (i.e. a university degree) in the design world. My answer leaned more toward the web design/development side of things, but it's all much the same. He was happy with the feedback to his questions and also allowed me to post the Q&A; here, because I thought it was quite interesting:
+Last week [Pascal Raabe](http://twitter.com/jazzpazz) got in touch with me asking me to answer a few questions on the relevance and importance of formal education (i.e. a university degree) in the design world. My answer leaned more toward the web design/development side of things, but it's all much the same. He was happy with the feedback to his questions and also allowed me to post the Q&A here because I thought it was quite interesting:
 
 
 
