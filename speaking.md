@@ -16,6 +16,7 @@ I am set to speak at:
 <ul class="block-list">
     <li><a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough, October 2013</li>
     <li><a href="http://shropgeek-rebellion.co.uk/">Shropgeek Rebellion</a>, Shrewsbury, November 2013</li>
+    <li><a href="http://industryconf.com/">Industry Conf</a>, UK, April 2014</li>
 </ul>
 
 I have previously been fortunate enough to speak at:
