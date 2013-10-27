@@ -14,7 +14,6 @@ at a conference you are organising, please feel free to [drop me a line](mailto:
 I am set to speak at:
 
 <ul class="block-list">
-    <li><a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough, October 2013</li>
     <li><a href="http://shropgeek-rebellion.co.uk/">Shropgeek Rebellion</a>, Shrewsbury, November 2013</li>
     <li><a href="http://industryconf.com/">Industry Conf</a>, UK, April 2014</li>
 </ul>
@@ -31,4 +30,5 @@ I have previously been fortunate enough to speak at:
     <li><a href="http://hey.wearestac.com/">Hey!Stac</a>, Leeds, June 2013</li>
     <li><a href="http://2013.cssconf.eu/">CSSconf.eu</a>, Berlin, September 2013</li>
     <li><a href="http://fronteers.nl/congres/2013">Fronteers</a>, Amsterdam, October 2013</li>
+    <li><a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough, October 2013</li>
 </ul>
