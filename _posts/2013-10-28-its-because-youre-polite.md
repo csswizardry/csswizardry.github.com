@@ -153,7 +153,7 @@ profit.
 
 We thanked him very much for his advice, and were about to set off to buy new
 tickets with our tails between our legs, when he suddenly grabbed his phone and
-said ‘Wait a second.’ We had no idea what was about to happen.
+said <q>Wait a second.</q> We had no idea what was about to happen.
 
 He made a call to someone, and asked them to meet him, with us, on the station
 concourse.
@@ -165,8 +165,8 @@ out’. He asked Naomi and me to follow him to meet this other guy, and said tha
 he couldn’t make any promises. I couldn’t stop thanking him for any help he was
 giving us, whether it paid off or not. I was so grateful that, despite
 everything being entirely our fault, this guy was helping us out so much. He
-turned to us both as he walked and he said ‘You know why I’m helping you? It’s
-because you’re polite.’
+turned to us both as he walked and he said <q>You know why I’m helping you? It’s
+because you’re polite.</q>
 
 > It’s because you’re polite.
 
@@ -212,15 +212,15 @@ minutes having a chat and a laugh. They asked what we did as jobs, and then they
 shared some of the horror stories from them own; verbal and physical assault
 included. For these guys, two polite people seemed like such a breath of fresh
 air, and that sucks. We thanked them profusely, took their names, and said out
-grateful farewells. The second guy left us with: ‘It’s not a big deal.’ His ‘not
-a big deal’ was a _huge_ deal to me and Naomi.
+grateful farewells. The second guy left us with: <q>It’s not a big deal.</q> His
+‘not a big deal’ was a _huge_ deal to me and Naomi.
 
 Anyway, with a two hour wait, Naomi and I grabbed some food and sat just stunned
 by how helpful people had been to us. The whole encounter reaffirmed two main
-things (after not being careless):
+things for me (after ‘don’t be so freaking careless’):
 
-1. **Be polite. Always.** Being polite is just the right thing to do, and I find
-   I have very little time for anyone who isn’t, but this is a prime example of
+1. **Be polite. Always.** Being polite is just the right thing to do—and I find
+   I have very little time for anyone who isn’t—but this is a prime example of
    how manners get you everywhere. We could have ranted and demanded help from
    these guys and we’d have just been shut down; they’d have read us the rules
    and called security, and we’d still be £91 down. Because we remained polite,
@@ -242,12 +242,12 @@ things (after not being careless):
 
 We finally got moving, on the later train to Newcastle. We presented the
 conductor with our story, our tickets, and the note that had been scribbled on
-the back of one of them by [redacted]. The conductor smiled and said ‘Yeah, I
-know [redacted], great guy.’ and let us on our way without question. He _was_ a
-great guy, and I love that other people know this about him. Being polite makes
-people have fond memories of you, being a jerk does not.
+the back of one of them by [redacted]. The conductor smiled and said <q>Yeah, I
+know [redacted], great guy.</q> and let us on our way without question. He _was_
+a great guy, and I love that other people know this about him. Being polite
+makes people have fond memories of you, being a jerk does not.
 
-Then, when we get to York, we couldn’t believe it but [redacted]—who was there
+Then, when we got to York, we couldn’t believe it but [redacted]—who was there
 as he said he would be—actually got on the train, came to find us, and asked us
 if everything had gone smoothly! He left the platform he was stationed on and
 made a point of coming to check we’d made it on the train safely and were on our
