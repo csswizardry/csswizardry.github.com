@@ -8,8 +8,8 @@ permalink: /speaking/
 # Speaking and workshops
 
 I speak about—and run workshops covering—big CSS, its architecture, and writing
-it in large teams on on large products in a performant manner that scales. If
-you would like me to speak or run a workshop at one of your events, please
+it in large teams on large products in a performant manner that scales. If you
+would like me to speak or run a workshop at one of your events, please
 <a href="mailto:harry@csswizardry.com">drop me a line</a>.
 
 I also run private workshops, where I come into your offices and get hacking
