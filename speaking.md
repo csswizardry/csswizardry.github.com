@@ -37,6 +37,11 @@ with your team. If you would like to organise one of these then
     
 	<li>
         <h3 class="speaking-list__title">Talk &amp; Workshop</h3>
+		<a href="http://futureofwebdesign.com/london-2014/">Future of Web Design</a>, London, April 2014
+	</li>
+    
+	<li>
+        <h3 class="speaking-list__title">Talk &amp; Workshop</h3>
 		<a href="http://industryconf.com/">Industry Conf</a>, Newcastle, April 2014
 	</li>
 
