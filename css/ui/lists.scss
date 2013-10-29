@@ -24,3 +24,31 @@ ol{
         list-style-type:lower-alpha;
     }
 }
+
+
+/**
+ * Lists of information in a `dl`.
+ */
+.info-list {
+    @include font-size(12px);
+    font-family: sans-serif;
+    @include vendor(column-count, 2);
+    @include vendor(column-gap, 12px);
+}
+
+    .info-list__title {
+        float: left;
+        clear: left;
+        font-weight: bold;
+
+        &:after {
+            content: ":";
+        }
+
+    }
+
+    .info-list__info {
+        overflow: hidden;
+        padding-left: 6px;
+        font-weight: normal;
+    }

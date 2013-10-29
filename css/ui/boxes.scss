@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    $BOXES
+\*------------------------------------*/
+/**
+ * Extends `.isl[and|et]`.
+ */
+.boxout {
+    background-color: #eee;
+    border-radius: $brand-round;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) inset;
+}

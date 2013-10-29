@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: $base-spacing-unit / 2;
+    text-align: center;
+    background-color: $brand-color;
+    color: #fff;
+    font-weight: 300;
+
+    &,
+    &:hover {
+        text-decoration: none;
+    }
+
+}
+
+.btn--full {
+    width: 100%;
+}
+
+.btn--large {
+    padding: $base-spacing-unit;
+}

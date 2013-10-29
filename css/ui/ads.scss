@@ -8,9 +8,6 @@
     @include font-size(12px);
     font-family:sans-serif;
     text-align:center;
-    background-color:#eee;
-    @include vendor(box-shadow, 0 0 5px rgba(0, 0, 0, 0.1) inset);
-    border-radius:$brand-round;
 
     a{
         color:inherit;
