@@ -32,8 +32,11 @@ ol{
 .info-list {
     @include font-size(12px);
     font-family: sans-serif;
-    @include vendor(column-count, 2);
-    @include vendor(column-gap, 12px);
+
+        @media only screen and (min-width: 480px) {
+            @include vendor(column-count, 2);
+            @include vendor(column-gap, 12px);
+        }
 }
 
     .info-list__title {
