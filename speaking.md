@@ -12,6 +12,12 @@ it in large teams on large products in a performant manner that scales. If you
 would like me to speak or run a workshop at one of your events, please
 <a href="mailto:harry@csswizardry.com">drop me a line</a>.
 
+<blockquote class="pull-quote">
+    <p>[Harry] changed the way I’ll be writing CSS from now on. Excellent
+    workshop and talk at #fronteers13</p>
+    <b class="source  pull-quote__source"><a href="https://twitter.com/pixelambacht/status/388665752234262528">Roel N</a></b>
+</blockquote>
+
 I also run private workshops, where I come into your offices and get hacking
 with your team. If you would like to organise one of these then
 <a href="mailto:harry@csswizardry.com">fire me an email</a>.
@@ -46,6 +52,12 @@ with your team. If you would like to organise one of these then
 	</li>
 
 </ul>
+
+<blockquote class="pull-quote  landmark">
+    <p>So glad I did [Harry’s] workshop Wednesday. An entire day of this, be
+    jealous! And highly recommended. #fronteers13</p>
+    <b class="source  pull-quote__source"><a href="https://twitter.com/petervangrieken/status/388615139102294016">Peter van Grieken</a></b>
+</blockquote>
 
 <h3>Previous events</h3>
 
@@ -102,3 +114,8 @@ with your team. If you would like to organise one of these then
 	</li>
 
 </ul>
+
+<blockquote class="pull-quote  landmark">
+    <p>Definitely the best talk [at] @FronteersConf by [Harry] #fronteers13</p>
+    <b class="source  pull-quote__source"><a href="https://twitter.com/EwoutWinkelman/status/388614581079519232">Ewout Winkelman</a></b>
+</blockquote>

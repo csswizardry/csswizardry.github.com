@@ -45,12 +45,22 @@ a{
 
 
 /**
- * Quote
+ * Quotes
  */
 blockquote{
     padding-left:$half-spacing-unit;
     border-left:8px solid rgba(0, 0, 0, 0.1);
 }
+
+.pull-quote {
+    @include font-size(20px);
+    color: #999;
+    font-style: italic;
+}
+
+    .pull-quote__source {
+        font-style: normal;
+    }
 
 
 /**
