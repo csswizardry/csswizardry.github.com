@@ -61,7 +61,7 @@ is, or what your budget may be, let’s chat it over and see what we can do
 together.
 
 <p>
-    <a href="/work/" class="availability  availability--available">
-        <strong>Let’s do it!</strong>
+    <a href="/work/" class="btn  btn--full  btn--large  btn--secondary">
+        Let’s do it!
     </a>
 </p>
