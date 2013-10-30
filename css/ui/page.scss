@@ -6,6 +6,7 @@ html{
     font-weight:300;
     background-color:#f9f9f9;
     color:#444;
+    @include vendor(text-size-adjust, none);
 }
 
 /**
