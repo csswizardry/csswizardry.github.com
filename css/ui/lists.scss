@@ -19,6 +19,14 @@
     }
 }
 
+    .block-list__title {
+        @include font-size(12px);
+        font-weight: bold;
+        font-family: sans-serif;
+        color: #999;
+        margin-bottom: 0;
+    }
+
 ol{
     ol{
         list-style-type:lower-alpha;
