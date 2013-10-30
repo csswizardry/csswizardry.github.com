@@ -25,7 +25,7 @@ finalist and a member of [Smashing Magazine](http://www.smashingmagazine.com/)�
 Experts Panel. For a more comprehensive overview, please see [my CV](/csscv/).
 
 <div class="island">
-    <blockquote class="delta">
+    <blockquote>
         <p>I’ve got a crush on Harry Roberts…</p>
         <b class="source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
     </blockquote>
