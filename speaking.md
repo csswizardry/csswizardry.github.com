@@ -7,16 +7,16 @@ permalink: /speaking/
 
 # Speaking and workshops
 
-I speak about—and run workshops covering—big CSS, its architecture, and writing
-it in large teams on large products in a performant manner that scales. If you
-would like me to speak or run a workshop at one of your events, please
-<a href="mailto:harry@csswizardry.com">drop me a line</a>.
-
 <blockquote>
     <p>[Harry] changed the way I’ll be writing CSS from now on. Excellent
     workshop and talk at #fronteers13</p>
     <b class="source"><a href="https://twitter.com/pixelambacht/status/388665752234262528">Roel N</a></b>
 </blockquote>
+
+I speak about—and run workshops covering—big CSS, its architecture, and writing
+it in large teams on large products in a performant manner that scales. If you
+would like me to speak or run a workshop at one of your events, please
+<a href="mailto:harry@csswizardry.com">drop me a line</a>.
 
 I also run private workshops, where I come into your offices and get hacking
 with your team. If you would like to organise one of these then
