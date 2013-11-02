@@ -7,12 +7,6 @@ permalink: /speaking/
 
 # Speaking and workshops
 
-<blockquote>
-    <p>[Harry] changed the way I’ll be writing CSS from now on. Excellent
-    workshop and talk at #fronteers13</p>
-    <b class="source"><a href="https://twitter.com/pixelambacht/status/388665752234262528">Roel N</a></b>
-</blockquote>
-
 I speak about—and run workshops covering—big CSS, its architecture, and writing
 it in large teams on large products in a performant manner that scales. If you
 would like me to speak or run a workshop at one of your events, please
@@ -53,69 +47,58 @@ with your team. If you would like to organise one of these then
 
 </ul>
 
-<blockquote class="landmark">
-    <p>So glad I did [Harry’s] workshop [on] Wednesday. An entire day of this,
-    be jealous! And highly recommended. #fronteers13</p>
-    <b class="source"><a href="https://twitter.com/petervangrieken/status/388615139102294016">Peter van Grieken</a></b>
-</blockquote>
-
 <h3>Previous events</h3>
 
 <ul class="block-list  block-list">
-    
-	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley, February 2012
-	</li>
-    
-	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://2012.front-trends.com/">Front-Trends</a>, Warsaw, April 2012
-	</li>
-    
-	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://2012.canvasconf.co.uk/">Canvas</a>, Birmingham, September 2012
-	</li>
-    
-	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley, September 2012
-	</li>
-    
-	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://industryconf.com/">Industry Conf</a>, Newcastle, April 2013
-	</li>
-    
-	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://2013.beyondtellerrand.com/">Beyond Tellerrand</a>, Düsseldorf, May 2013
-	</li>
-    
-	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://hey.wearestac.com/">Hey!Stac</a>, Leeds, June 2013
-	</li>
-    
-	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://2013.cssconf.eu/">CSSconf.eu</a>, Berlin, September 2013
-	</li>
-    
-	<li>
-        <h3 class="block-list__title">Talk &amp; Workshop</h3>
-		<a href="http://fronteers.nl/congres/2013">Fronteers</a>, Amsterdam, October 2013
-	</li>
-    
+
 	<li>
         <h3 class="block-list__title">Talk</h3>
 		<a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough, October 2013
 	</li>
 
-</ul>
+	<li>
+        <h3 class="block-list__title">Talk &amp; Workshop</h3>
+		<a href="http://fronteers.nl/congres/2013">Fronteers</a>, Amsterdam, October 2013
+	</li>
 
-<blockquote>
-    <p>Definitely the best talk [at] @FronteersConf by [Harry] #fronteers13</p>
-    <b class="source"><a href="https://twitter.com/EwoutWinkelman/status/388614581079519232">Ewout Winkelman</a></b>
-</blockquote>
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://2013.cssconf.eu/">CSSconf.eu</a>, Berlin, September 2013
+	</li>
+
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://hey.wearestac.com/">Hey!Stac</a>, Leeds, June 2013
+	</li>
+
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://2013.beyondtellerrand.com/">Beyond Tellerrand</a>, Düsseldorf, May 2013
+	</li>
+
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://industryconf.com/">Industry Conf</a>, Newcastle, April 2013
+	</li>
+
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley, September 2012
+	</li>
+
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://2012.canvasconf.co.uk/">Canvas</a>, Birmingham, September 2012
+	</li>
+
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://2012.front-trends.com/">Front-Trends</a>, Warsaw, April 2012
+	</li>
+
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley, February 2012
+	</li>
+
+</ul>
