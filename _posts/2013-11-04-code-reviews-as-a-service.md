@@ -36,7 +36,7 @@ teaching people how to circumvent them.
 I had an idea of a way to fuse my desires to work in an ‘educator’ role (I use
 scare quotes as I feel that without them I would just sound really pretentious)
 with a variety of clients in far-flung locations: [remote code
-reviews](http://csswizardry.com/work/#section:code-reviews).
+reviews](http://csswizardry.com/work/#section-code-reviews).
 
 As of, well, now, I’m offering the same level of consultancy—on _your_ products
 to solve _your_ problems—but with fixed deliverables in a fixed timeframe and at
