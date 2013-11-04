@@ -17,7 +17,7 @@ my knowledge. This is taking the shape of more [talks and workshops](http://cssw
 ([two](http://makedo.in/leeds/css-workshop/)
 [upcoming](https://shop.smashingmagazine.com/smashing-workshop-planning-building-front-end-zurich.html))
 but also consultancy work; going into peoples’ offices and spending time with
-_their_ devs on their _own_ products looking at how best to tackle _their_ UI
+_their_ devs on _their_ products looking at how best to tackle _their_ UI
 problems. This work is very specific to the clients’ needs, not something that
 can necessarily be picked up from examples used in talks or workshops.
 
