@@ -22,8 +22,8 @@ problems. This work is very specific to the clients’ needs, not something that
 can necessarily be picked up from examples used in talks or workshops.
 
 However—as is often the case—budgets, locations, timeframes and a lot more can
-mean that getting someone on site for a number of days is often unfeasible. This
-is a shame, but inevitable. These constraints, however, gave me an idea…
+mean that getting someone on site for a number of days is sometimes unfeasible.
+This is a shame, but inevitable. These constraints, however, gave me an idea…
 
 ## Remote code reviews
 
