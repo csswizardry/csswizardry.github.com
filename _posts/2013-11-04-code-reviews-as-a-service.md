@@ -54,12 +54,12 @@ improve scalability, sanity, architecture and a lot, lot more.
 The outcome of all of this is twofold.
 
 Firstly, and most obviously, the quality of your code on the reviewed site or
-app will be drastically improved. The product itself will see benefits from a
-maintenance and scalability point of view. There is a direct benefit to the
-product, site, or app, in question. Talks and workshops are all well and good,
-but they only ever deal with deliberately chosen examples that may have no
-application or relevance to _your_ product. A review of your own code can deal
-with nothing _but_ realistic examples.
+app will be improved. The product itself will see benefits from a maintenance
+and scalability point of view. There is a direct benefit to the product, site,
+or app, in question. Talks and workshops are all well and good, but they only
+ever deal with deliberately chosen examples that may have no application or
+relevance to _your_ product. A review of your own code can deal with nothing
+_but_ realistic examples.
 
 Secondly, and _far_ more importantly, the review will give you and/or your team
 a detailed review of the way you work in general. The review will act as a
