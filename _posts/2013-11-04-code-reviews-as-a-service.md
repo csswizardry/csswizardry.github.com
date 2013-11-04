@@ -51,7 +51,7 @@ improve scalability, sanity, architecture and a lot, lot more.
 
 ## The result
 
-The outcome of all of this is two fold.
+The outcome of all of this is twofold.
 
 Firstly, and most obviously, the quality of your code on the reviewed site or
 app will be drastically improved. The product itself will see benefits from a
