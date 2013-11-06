@@ -8,6 +8,7 @@ categories:
 - Personal
 tag:
 meta: A personal post about helpfulness and politeness.
+hide-hire-me-link: true
 ---
 
 **Fair warning:** This is a completely off-topic and personal post; no CSS

@@ -8,6 +8,7 @@ categories:
 - Workshops
 tag:
 meta: Announcing my first workshop in association with Make Do
+hide-hire-me-link: true
 ---
 
 <div class="islet  boxout">

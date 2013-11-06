@@ -8,6 +8,7 @@ categories:
 - Workshops
 tag:
 meta: Announcing my first workshop in association with Smashing Workshops
+hide-hire-me-link: true
 ---
 
 <div class="islet  boxout">
