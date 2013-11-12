@@ -27,8 +27,8 @@ The `h1` method is used for two _main_ reasons:
 1. It allows you to sprite up your logo.
 2. The misconception that a logo is somehow a heading.
 
-My article – which I still stand by – debunked the second, but former is a point
-of interest…
+My article – which I still stand by – debunked the second, but the former is a
+point of interest…
 
 I received [an issue](https://github.com/csswizardry/csswizardry.github.com/issues/18)
 on [the CSS Wizardry repo](https://github.com/csswizardry/csswizardry.github.com/)
