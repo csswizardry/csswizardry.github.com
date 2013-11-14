@@ -8,6 +8,7 @@ categories:
 - Workshops
 tag:
 meta: "A new service I’m offering: remote code reviews"
+hide-hire-me-link: true
 ---
 
 With [my recent move to self employment](http://csswizardry.com/2013/10/lets-work-together/),
@@ -82,3 +83,7 @@ all of the work you do.
 
 For more information, or to arrange a review, head to [my work
 page](http://csswizardry.com/work/).
+
+<a href="http://csswizardry.com/work/#section-code-reviews" class="btn  btn--full  btn--large">
+    Arrange a code review!
+</a>
