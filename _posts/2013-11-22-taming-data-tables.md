@@ -25,10 +25,10 @@ demo](http://jsfiddle.net/csswizardry/Df2tt/embedded/result%2Chtml%2Ccss/).
 There are a _lot_ of headaches we encounter when building `table`s, and I
 imagine most of you reading this article will nod along to every point I make;
 it will be something that will have annoyed us all at some point or another.
-What this particular, and very specific, problem boils down to is trying to
+What this particular (and very specific) problem boils down to is trying to
 consistently format, size and align complex data layouts across multiple
 `table`s. Imagine a financial report; loads of `table`s of data with differing
-numbers of cells and columns that, from a purely aesthetic perspective, need to
+numbers of cells and columns that—from a purely aesthetic perspective—need to
 line up in some neat, coherent fashion. Achieving this is made very difficult by
 a number of different factors…
 
