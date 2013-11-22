@@ -21,11 +21,6 @@ with your team. If you would like to organise one of these then
 <ul class="block-list  landmark">
 
 	<li>
-        <h3 class="block-list__title">Talk</h3>
-		<a href="http://shropgeek-rebellion.co.uk/">Shropgeek Rebellion</a>, Shrewsbury, November 2013
-	</li>
-
-	<li>
         <h3 class="block-list__title">Workshop</h3>
 		<a href="http://makedo.in/leeds/css-workshop/">Make Do</a>, Leeds, November 2013
 	</li>
