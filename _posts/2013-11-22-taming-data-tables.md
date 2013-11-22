@@ -14,11 +14,11 @@ meta: "Laying out data tables in a consistent way, finally!"
 horrible. Tonnes of similar-looking, heavily-nested markup that is completely
 inflexible. One of the biggest problems I even encountered was working on
 [Sky Bet](http://www.skybet.com/), whose content is almost exclusively data
-tables, and making `table`s’ cells line up nicely not only with each other, but
-also with those cells in other `table`s on the page.
+tables, and making `table`s’ cells line up nicely _not only_ with each other,
+but also with those cells in other `table`s on the page.
 
 This is a very complex problem to explain, so I have been sure to create [a
-demo.](http://jsfiddle.net/csswizardry/Df2tt/embedded/result%2Chtml%2Ccss/)
+demo](http://jsfiddle.net/csswizardry/Df2tt/embedded/result%2Chtml%2Ccss/).
 
 ## The problems
 
