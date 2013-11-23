@@ -12,7 +12,7 @@ meta: "Laying out data tables in a consistent way, finally!"
 
 `table`s are a pain to work with, there are no two ways about it; they’re
 horrible. Tonnes of similar-looking, heavily-nested markup that is completely
-inflexible. One of the biggest problems I even encountered was working on
+inflexible. One of the biggest problems I ever encountered was working on
 [Sky Bet](http://www.skybet.com/), whose content is almost exclusively data
 tables, and making `table`s’ cells line up nicely _not only_ with each other,
 but also with those cells in other `table`s on the page.
