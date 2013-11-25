@@ -94,7 +94,7 @@ We’re employed because we can design something that will engage more users who
 will spend more money, or because we can build websites that are _fast_, and
 work on any device you care to throw at it, and we base that on the _objective_.
 We measure it, we know it will work, and if it doesn’t work, we start again. We
-don’t design and built to serve ourselves, we design and build to serve our
+don’t design and build to serve ourselves, we design and build to serve our
 clients (whoever they may be, even ourselves).
 
 Lastly, this is not an exercise in <q>I’m right, you’re wrong</q>, this is
