@@ -24,12 +24,17 @@ with your team. If you would like to organise one of these then
         <h3 class="block-list__title">Workshop</h3>
 		<a href="https://shop.smashingmagazine.com/smashing-workshop-planning-building-front-end-zurich.html">Smashing Workshop</a>, Zürich, December 2013
 	</li>
-    
+
+	<li>
+        <h3 class="block-list__title">Workshop</h3>
+		<a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture">Event Handler</a>, London, February 2014
+	</li>
+
 	<li>
         <h3 class="block-list__title">Talk &amp; Workshop</h3>
 		<a href="http://futureofwebdesign.com/london-2014/">Future of Web Design</a>, London, April 2014
 	</li>
-    
+
 	<li>
         <h3 class="block-list__title">Talk &amp; Workshop</h3>
 		<a href="http://industryconf.com/">Industry Conf</a>, Newcastle, April 2014
