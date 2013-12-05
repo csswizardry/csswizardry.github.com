@@ -21,7 +21,9 @@
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
-@import "ui/page",
+@import
+
+        "ui/page",
         "ui/typography",
         "ui/page-head",
         "ui/site-nav",
@@ -33,4 +35,7 @@
         "ui/posts",
         "ui/sprites",
         "ui/ads",
-        "ui/misc";
+        "ui/annotate",
+        "ui/misc"
+
+;
