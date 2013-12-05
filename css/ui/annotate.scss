@@ -7,7 +7,7 @@
 
     .annotate__image {
         display: block;
-        border-radius: 2px;
+        border-radius: $brand-round;
     }
 
     .annotate__list {
@@ -31,7 +31,7 @@
             border-width: 2px;
             border-style: solid;
             border-color: transparent;
-            border-radius: 2px;
+            border-radius: $brand-round;
             @include vendor(transition, 0.2s);
 
             .annotate:hover & {
