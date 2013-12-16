@@ -1,6 +1,6 @@
 ---
 comments: true
-date: 2013-12-16 20:35:11
+date: 2013-12-16 20:42:11
 layout: post
 slug: i-wrote-part-of-a-book
 title: I wrote (part of) a book!

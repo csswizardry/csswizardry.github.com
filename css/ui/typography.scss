@@ -16,8 +16,22 @@ dt{
 /**
  * Figures
  */
-figcaption{
+figure {
+    @media screen and (min-width: 1380px) {
+        margin-left: -128px;
+    }
+
+    > img {
+        border-radius: $brand-round;
+    }
+
+}
+
+figcaption {
     @include font-size(12px);
+    @media screen and (min-width: 1380px) {
+        margin-left: 128px;
+    }
 }
 
 
