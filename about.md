@@ -24,12 +24,10 @@ architecture, maintenance and more. Previously a <b>Senior Developer</b> at
 finalist and a member of [Smashing Magazine](http://www.smashingmagazine.com/)’s
 Experts Panel. For a more comprehensive overview, please see [my CV](/csscv/).
 
-<div class="island">
-    <blockquote>
-        <p>I’ve got a crush on Harry Roberts…</p>
-        <b class="source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
-    </blockquote>
-</div>
+<blockquote>
+    <p>I’ve got a crush on Harry Roberts…</p>
+    <b class="source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
+</blockquote>
 
 I specialise in writing and scaling CSS for large apps and websites, with a
 strong focus on OOCSS, pragmatism, front-end performance and powerful and rapid
