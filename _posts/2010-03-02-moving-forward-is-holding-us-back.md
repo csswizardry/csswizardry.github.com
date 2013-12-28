@@ -4,7 +4,6 @@ date: 2010-03-02 22:03:28
 layout: post
 slug: moving-forward-is-holding-us-back
 title: Moving forward is holding us back
-wordpress_id: 840_
 categories:
 - Web Development
 tag:
