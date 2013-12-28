@@ -7,31 +7,54 @@ permalink: /about/
 
 # About me
 
-Hi there, I’m Harry. I am a consultant front-end architect and web developer
-from Leeds, UK. I am **[available](mailto:harry@csswizardry.com?subject=Let’s%20work%20together)
-for work** on interesting projects  **starting in 2014**.
+Hi there, I’m Harry; I am a Consultant Front-end Architect, writer, and speaker
+from the UK. I am [available for
+work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together) on
+exciting projects **from the beginning of 2014**.
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
-  <figcaption>On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
-  <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
-  <a href="https://twitter.com/stn1978">Stefan Nitzsche</a>.</figcaption>
+  <figcaption>
+      On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
+      <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
+      <a href="https://twitter.com/stn1978">Stefan Nitzsche</a>.
+  </figcaption>
 </figure>
 
-I write and [speak](/speaking/) on the topics of CSS and its scalability,
-architecture, maintenance and more. Previously a <b>Senior Developer</b> at
-[BSkyB](http://en.wikipedia.org/wiki/BSkyB), I am also a two-time .net awards
-finalist and a member of [Smashing Magazine](http://www.smashingmagazine.com/)’s
-Experts Panel. For a more comprehensive overview, please see [my CV](/csscv/).
+Previously a Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB)—and
+having worked with clients including <b>Rizla</b>, <b>Travelodge</b>,
+<b>Booking.com</b>, and <b>The Financial Times</b>—I specialise in architecting,
+writing, and scaling CSS for large sites, apps, and products in large teams and
+companies.
+
+I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
+[work](http://csswizardry.com/work/),
+[speak](https://speakerdeck.com/csswizardry), and [run
+workshops](http://csswizardry.com/speaking/) across the globe covering
+pragmatic, product-led approaches to building and scaling large front-ends for
+long-running projects and products. I specialise in OOCSS, architecture,
+scalability, front-end performance, and mobile and responsive web
+de(sign|velopment).
 
 <blockquote>
     <p>I’ve got a crush on Harry Roberts…</p>
     <b class="source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
 </blockquote>
 
-I specialise in writing and scaling CSS for large apps and websites, with a
-strong focus on OOCSS, pragmatism, front-end performance and powerful and rapid
-development.
+I am a two-time [net Awards
+finalist](http://www.creativebloq.com/netmag/net-awards-2013-top-10-young-developers-4135725),
+a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts
+Panel, and sole developer of the increasingly popular, open-source, OOCSS
+framework [<cite>inuitcss</cite>](http://twitter.com/inuitcss).
+
+Most importantly, I am <strong>available for hire</strong> to help great people
+build amazing products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
+<b>development</b>, and more are all available to clients worldwide:
+
+<a href="/work/" class="btn  btn--full  btn--large  btn--secondary"><strong>Hire
+me.</strong></a>
+
+---
 
 ## Contact
 
