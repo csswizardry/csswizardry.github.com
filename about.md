@@ -8,9 +8,9 @@ permalink: /about/
 # About me
 
 Hi there, I’m Harry; I am a Consultant Front-end Architect, writer, and speaker
-from the UK. I am [available for
-work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together) on
-exciting projects **from the beginning of 2014**.
+from the UK. I am **[available for
+work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together)
+from the beginning of 2014**.
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
@@ -24,8 +24,8 @@ exciting projects **from the beginning of 2014**.
 Previously a Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB)—and
 having worked with clients including <b>Rizla</b>, <b>Travelodge</b>,
 <b>Booking.com</b>, and <b>The Financial Times</b>—I specialise in architecting,
-writing, and scaling CSS for large sites, apps, and products in large teams and
-companies.
+writing, and scaling CSS for large sites, apps, and products in large-team
+environments.
 
 I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
 [work](http://csswizardry.com/work/),
@@ -34,7 +34,7 @@ workshops](http://csswizardry.com/speaking/) across the globe covering
 pragmatic, product-led approaches to building and scaling large front-ends for
 long-running projects and products. I specialise in OOCSS, architecture,
 scalability, front-end performance, and mobile and responsive web
-de(sign|velopment).
+design and development.
 
 <blockquote>
     <p>I’ve got a crush on Harry Roberts…</p>
@@ -44,12 +44,16 @@ de(sign|velopment).
 I am a two-time [net Awards
 finalist](http://www.creativebloq.com/netmag/net-awards-2013-top-10-young-developers-4135725),
 a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts
-Panel, and sole developer of the increasingly popular, open-source, OOCSS
-framework [<cite>inuitcss</cite>](http://twitter.com/inuitcss).
+Panel, co-author of [a book on new approaches to web
+development](http://www.smashingmagazine.com/smashing-book-4-new-perspectives/),
+and lead and sole developer of the increasingly popular, open-source, OOCSS
+framework [<cite>inuitcss</cite>](http://twitter.com/inuitcss). For a more
+comprehensive overview, please see [my CV](http://csswizardry.com/csscv/).
 
-Most importantly, I am <strong>available for hire</strong> to help great people
-build amazing products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
-<b>development</b>, and more are all available to clients worldwide:
+Most importantly, I am <strong>available for hire</strong> to help people build
+great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
+<b>advice</b>, <b>development</b>, and more are all available to clients of all
+shapes and sizes, all over the world:
 
 <a href="/work/" class="btn  btn--full  btn--large  btn--secondary"><strong>Hire
 me.</strong></a>
