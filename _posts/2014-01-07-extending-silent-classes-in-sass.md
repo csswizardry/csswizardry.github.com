@@ -146,9 +146,9 @@ times as possible.**
 
 Of course, this solution isn’t bulletproof, failsafe, or ideal; it’s only as
 good as your ability to stick to it, and your ability to stick to it isn’t
-always entirely in your hands. It’s simply a little hack I came up with in order
-to make use of `@extend` (which, incidentally, I don’t really use much anyway)
-whilst attempting to mitigate the effects of its ‘greedy’ nature.
+always entirely in your own hands. It’s simply a little hack I came up with in
+order to make use of `@extend` (which, incidentally, I don’t really use much
+anyway) whilst attempting to mitigate the effects of its ‘greedy’ nature.
 
 
 There may well be better ways—and I’d love to hear them—but this, for now, is
