@@ -141,8 +141,8 @@ The rules to follow:
 2. Only ever `@extend` silent classes.
 3. Use solid classes in markup, and as many times as you need in your Sass.
 
-All we’re really doing is making sure the selectors we `@extend` exist as few
-times as possible.
+**All we’re really doing is making sure the selectors we `@extend` exist as few
+times as possible.**
 
 Of course, this solution isn’t bulletproof, failsafe, or ideal; it’s only as
 good as your ability to stick to it, and your ability to stick to it isn’t
