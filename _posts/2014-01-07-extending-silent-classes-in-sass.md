@@ -24,7 +24,7 @@ When writing Sass, specifically any objects or abstractions, I write it like thi
 The reason for the solid and the silent class is simple: I only use the silent
 class as the subject of an `@extend`.
 
-Oliver J Ash wrote [a great
+[Oliver J Ash](https://twitter.com/OliverJAsh) wrote [a great
 post](http://oliverjash.me/2012/09/07/methods-for-modifying-objects-in-oocss.html)
 that I would really recommend you read; it will give this post a lot more
 context.
