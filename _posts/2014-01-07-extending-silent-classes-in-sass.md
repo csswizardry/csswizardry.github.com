@@ -29,8 +29,8 @@ post](http://oliverjash.me/2012/09/07/methods-for-modifying-objects-in-oocss.htm
 that I would really recommend you read; it will give this post a lot more
 context.
 
-In short, a common problem with `@extend` is that it will indiscriminately
-extend _every_ instance of a matching selector that it finds. For example, if
+In short, **a common problem with `@extend` is that it will indiscriminately
+extend _every_ instance of a matching selector that it finds**. For example, if
 you author this:
 
     .foo {
