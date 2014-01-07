@@ -91,7 +91,8 @@ appear in my CSS. Not such a big deal, but considering the whole point of this
 exercise is to _reduce_ the amount of classes in our CSS, it seems a little
 counter-productive.
 
-The obvious solution to this problem is <i>silent classes</i>. Instead of:
+The obvious solution to this particular problem is <i>silent classes</i>.
+Instead of:
 
     .foo,
     .x-foo {
