@@ -106,7 +106,7 @@ We’d write:
 
 Now the `%foo` silent class—which should only ever exist once in any project—is
 the subject of our `@extend`. This means that we can limit the reach of our
-`@extend`s, and not have that placeholder classes appear in our compiled
+`@extend`s, and not have that placeholder class appear in our compiled
 stylesheet(s).
 
 Our Sass now looks like this:
