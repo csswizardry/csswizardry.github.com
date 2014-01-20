@@ -26,6 +26,16 @@ with your team. If you would like to organise one of these then
 	</li>
 
 	<li>
+        <h3 class="block-list__title">Workshop</h3>
+		<a href="http://makedo.in/manchester/css-workshop/">Make Do</a>, Manchester, March 2014
+	</li>
+
+	<li>
+        <h3 class="block-list__title">Workshop</h3>
+		<a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture2">Event Handler</a>, London, March 2014
+	</li>
+
+	<li>
         <h3 class="block-list__title">Talk &amp; Workshop</h3>
 		<a href="http://futureofwebdesign.com/london-2014/">Future of Web Design</a>, London, April 2014
 	</li>
