@@ -41,9 +41,9 @@ they are all based on the same BEM principles.
 
 The naming convention follows this pattern:
 
-    .block{}
-    .block__element{}
-    .block--modifier{}
+    .block {}
+    .block__element {}
+    .block--modifier {}
 
 * `.block` represents the higher level of an abstraction or component.
 * `.block__element` represents a descendent of `.block` that helps form `.block`
@@ -53,9 +53,9 @@ The naming convention follows this pattern:
 The reason for double rather than single hyphens and underscores is so that your
 block itself can be hyphen delimited, for example:
 
-<pre><code>.site-search{} <span class="code-comment">/* Block */</span>
-.site-search__field{} <span class="code-comment">/* Element */</span>
-.site-search--full{} <span class="code-comment">/* Modifier */</span></code></pre>
+<pre><code>.site-search {} <span class="code-comment">/* Block */</span>
+.site-search__field {} <span class="code-comment">/* Element */</span>
+.site-search--full {} <span class="code-comment">/* Modifier */</span></code></pre>
 
 The point of BEM is to tell other developers more about what a piece of markup
 is doing from its name alone. By reading some HTML with some classes in, you can
@@ -64,21 +64,21 @@ component, something might be a child, or <i>element</i>, of that component, and
 something might be a variation or <i>modifier</i> of that component. To use an
 analogy/model, think how the following things and elements are related:
 
-    .person{}
-    .person__hand{}
-    .person--female{}
-    .person--female__hand{}
-    .person__hand--left{}
+    .person {}
+    .person__hand {}
+    .person--female {}
+    .person--female__hand {}
+    .person__hand--left {}
 
 The top-level block is a ‘person’ which has elements, for example, ‘hand’. A
 person also has variations, such as female, and that variation in turn has
 elements. This again, but written in ‘normal’ CSS:
 
-    .person{}
-    .hand{}
-    .female{}
-    .female-hand{}
-    .left-hand{}
+    .person {}
+    .hand {}
+    .female {}
+    .female-hand {}
+    .left-hand {}
 
 These all make sense, but are somewhat disconnected. Take `.female` for example;
 female what? What about `.hand`; a hand of a clock? A hand in a game of cards?
@@ -111,10 +111,10 @@ If you are familiar with OOCSS then you will no doubt be familiar with
 [the media object](http://stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code).
 In BEM form, the media object would now read:
 
-    .media{}
-    .media__img{}
-    .media__img--rev{}
-    .media__body{}
+    .media {}
+    .media__img {}
+    .media__img--rev {}
+    .media__body {}
 
 From the way this CSS is written we can already glean that `.media__img` and
 `.media__body` must live inside `.media` and that `.media__img--rev` is a slight
@@ -178,18 +178,18 @@ line.
 When you are using BEM, though, it is important to remember that you don’t need
 to use it for everything. Take for example:
 
-    .caps{ text-transform:uppercase; }
+    .caps { text-transform: uppercase; }
 
 This CSS would never fall into any BEM category, it’s merely a standalone rule.
 
 Another example of code which isn’t BEM:
 
-    .site-logo{}
+    .site-logo {}
 
 Here we have our logo; it could be BEMmed up like so:
 
-    .header{}
-    .header__logo{}
+    .header {}
+    .header__logo {}
 
 But that is unecessary. The trick with BEM is knowing when something falls into
 a relevant category. Just because something happens to live inside a block it
@@ -210,8 +210,8 @@ Everything is potentially open to moving into BEM territory, though. Taking our
 `.site-logo` example again, imagine that we want to have a festive version of
 the logo for our Christmassy site design. We could have:
 
-    .site-logo{}
-    .site-logo--xmas{}
+    .site-logo {}
+    .site-logo--xmas {}
 
 We can quickly build variations of things by using the `--` modifier notation.
 
