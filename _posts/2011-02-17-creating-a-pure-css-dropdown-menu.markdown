@@ -111,10 +111,10 @@ A lot of dropdown menus rely on bulky, extraneous markup  and Javascript to work
     			<li><a href="#">Big product (seven)</a></li>
     
     			<li><a href="#">Big product (eight)</a></li>
-    			<li><a href="#">Enourmous product (nine)</a></li>
-    			<li><a href="#">Enourmous product (ten)</a></li>
+    			<li><a href="#">Enormous product (nine)</a></li>
+    			<li><a href="#">Enormous product (ten)</a></li>
     
-    			<li><a href="#">Enourmous product (eleven)</a></li>
+    			<li><a href="#">Enormous product (eleven)</a></li>
     		</ul>
     	</li>
     	<li>
