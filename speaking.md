@@ -22,11 +22,6 @@ with your team. If you would like to organise one of these then
 
 	<li>
         <h3 class="block-list__title">Workshop</h3>
-		<a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture">Event Handler</a>, London, February 2014
-	</li>
-
-	<li>
-        <h3 class="block-list__title">Workshop</h3>
 		<a href="http://makedo.in/manchester/css-workshop/">Make Do</a>, Manchester, March 2014
 	</li>
 
@@ -50,6 +45,11 @@ with your team. If you would like to organise one of these then
 <h3>Previous events</h3>
 
 <ul class="block-list  block-list">
+
+	<li>
+        <h3 class="block-list__title">Workshop</h3>
+		<a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture">Event Handler</a>, London, February 2014
+	</li>
 
 	<li>
         <h3 class="block-list__title">Workshop</h3>
