@@ -45,6 +45,11 @@ with your team. If you would like to organise one of these then
 		<a href="http://2014.thegeekgathering.org/">The Geek Gathering</a>, Osijek (Croatia), May 2014
 	</li>
 
+	<li>
+        <h3 class="block-list__title">Talk &amp; Workshop</h3>
+		<a href="http://www.smartwebconf.com/">SmartWeb Conference</a>, Bucharest (Romania), September 2014
+	</li>
+
 </ul>
 
 <h3>Previous events</h3>
