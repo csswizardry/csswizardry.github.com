@@ -88,7 +88,8 @@ body:before{
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
     padding-left: 12px; /* [1] */
     margin-left: -12px; /* [1] */
-    border-radius: $brand-round;
+    border-top-right-radius:    $brand-round;
+    border-bottom-right-radius: $brand-round;
 
     @media screen and (min-width: 640px) {
         padding-left: 165px; /* [2] */
