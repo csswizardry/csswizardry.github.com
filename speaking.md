@@ -21,11 +21,6 @@ with your team. If you would like to organise one of these then
 <ul class="block-list  landmark">
 
 	<li>
-        <h3 class="block-list__title">Workshop</h3>
-		<a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture2">Event Handler</a>, London (UK), March 2014
-	</li>
-
-	<li>
         <h3 class="block-list__title">Talk &amp; Workshop</h3>
 		<a href="http://futureofwebdesign.com/london-2014/">Future of Web Design</a>, London (UK), April 2014
 	</li>
@@ -55,6 +50,11 @@ with your team. If you would like to organise one of these then
 <h3>Previous events</h3>
 
 <ul class="block-list  block-list">
+
+	<li>
+        <h3 class="block-list__title">Workshop</h3>
+		<a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture2">Event Handler</a>, London (UK), March 2014
+	</li>
 
 	<li>
         <h3 class="block-list__title">Workshop</h3>
