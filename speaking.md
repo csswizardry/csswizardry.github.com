@@ -26,7 +26,7 @@ with your team. If you would like to organise one of these then
 	</li>
 
 	<li>
-        <h3 class="block-list__title">Talk &amp; Workshop</h3>
+        <h3 class="block-list__title">Talk</h3>
 		<a href="http://industryconf.com/">Industry Conf</a>, Newcastle (UK), April 2014
 	</li>
 
