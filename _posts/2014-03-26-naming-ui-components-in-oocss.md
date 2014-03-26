@@ -48,7 +48,7 @@ to refer to that component by a unique name.
 
 I firmly believe that classes **should not** describe content, because it
 inhibits their reusability, and that there is no such thing as an insemantic
-class, but **I don’t see any harm in having the best of both worlds**. This this
+class, but **I don’t see any harm in having the best of both worlds**. To this
 end, I came up with something of a solution: highly abstracted, reusable
 classes, along with a method of giving distinct names to particular UI
 components. Let’s take an example…
