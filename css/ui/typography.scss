@@ -83,6 +83,9 @@ blockquote{
  * 1. Color taken from Solarized: ethanschoonover.com/solarized
  */
 pre{
+    @media screen and (min-width: 1380px) {
+        margin-left: -128px;
+    }
     white-space:pre;
     word-wrap:normal;
     background-color:#333;
