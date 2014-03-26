@@ -94,7 +94,7 @@ different.  But, when a client wants to duplicate a piece of content, they won�
 ask you to <q>copy the UI-list and media object and bare-list component</q>,
 they’ll probably ask you to <q>duplicate the user-list</q>. When you ask a
 software engineer to write a loop to populate that list, you’ll probably also
-want to refer to is as a <i>user-list</i> to them. What we need is a way of
+want to refer to it as a <i>user-list</i> to them. What we need is a way of
 assigning useful names to these composites for when we have discussions about
 them; **there is no harm in having meaningful names as long as they don’t impact
 our ability to reuse things.**
