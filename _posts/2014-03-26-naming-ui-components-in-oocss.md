@@ -28,6 +28,10 @@ Traditionally we would refer to these as insemantic classes, but Nicolas does a
 great job of debunking that. Having a solid grasp of (and, ideally, being in
 agreement with) his article will really make this one make more sense.
 
+**tl;dr** Keep using agnostic, abstract, OOCSS classes in your markup, but add
+any desired meaning to your HTML via a `data-ui-component` attribute, e.g.:
+`<ul class="ui-list" data-ui-component="users-list">`.
+
 ---
 
 One of the best things about OOCSS, and ‘insemantic’ classes, is that we have
