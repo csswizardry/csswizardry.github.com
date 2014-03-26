@@ -190,5 +190,9 @@ Standard](http://www.whatwg.org/specs/web-apps/current-work/multipage/elements.h
 
 I’ve been using this on a client project recently, and it’s proved very useful
 in encapsulating and discussing UI components, whilst also allowing me to keep
-my CSS as abstracted and OO as usual. **I would strongly recommend trying it
-out.**
+my CSS as abstracted and OO as usual. My client doesn’t need to know—or even
+care—that the <i>share with friends</i> component is actually a combination of a
+`.box`, `.media`, and `.btn` object, they just need to refer to is at the same
+thing everyone else does—the <i>share with friends</i> component!
+
+**I would strongly recommend trying it out.**
