@@ -4,6 +4,7 @@ page-class: page--post
 ---
 <article class="post">
 
+    <span class="post__time">{{ page.date | date: "%-d %B, %Y" }}</span>
     <h1>{{ page.title }}</h1>
 
     {{ content }}
