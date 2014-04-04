@@ -10,7 +10,7 @@ tag:
 meta: "A way of giving complex, OOCSS-built components more meaningful names"
 ---
 
-One of the biggest—if not the most common—complaints about OOCSS is its use of
+One of the biggest—if not most common—complaints about OOCSS is its use of
 ‘insemantic classes’. Unfortunately, the idea that classes are semantic (in the
 HTML sense of the term) is something of a fallacy; classes aren’t understood by
 machines, they’re simply read and/or matched—machines cannot glean any meaning
