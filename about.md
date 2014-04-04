@@ -22,8 +22,8 @@ from the beginning of 2014**.
 </figure>
 
 Previously a Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB)—and
-having worked with clients including <b>Rizla</b>, <b>Travelodge</b>,
-<b>Booking.com</b>, and <b>The Financial Times</b>—I specialise in architecting,
+having worked with clients including the <b>BBC</b>, the <b>NHS</b>,
+<b>Booking.com</b>, and the <b>Financial Times</b>—I specialise in architecting,
 writing, and scaling CSS for large sites, apps, and products in large-team
 environments.
 
