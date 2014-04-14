@@ -6,13 +6,12 @@
 
     <!-- Prefetch DNS for external assets (Twitter widgets etc). -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="dns-prefetch" href="//s3.buysellads.com">
     <link rel="dns-prefetch" href="//platform.twitter.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
     <link rel="dns-prefetch" href="//themes.googleusercontent.com">
-    <link rel="dns-prefetch" href="//stats.buysellads.com">
     <link rel="dns-prefetch" href="//p.twitter.com">
     <link rel="dns-prefetch" href="//cdn.api.twitter.com">
+    <link rel="dns-prefetch" href="//cdn.adpacks.com">
 
     <!-- Prerender work page -->
     <link rel="prerender" href="http://csswizardry.com/work/">
@@ -32,17 +31,6 @@
 </head>
 <body>
 
-    <!-- Ad Packs -->
-    <script>
-        (function(){
-            var bsa = document.createElement('script');
-            bsa.type = 'text/javascript';
-            bsa.async = true;
-            bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
-            (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
-        })();
-    </script>
-     
     <!-- Hidden preload `div` to fetch images before CSS needs them. -->
     <div class="ಠ_ಠ">
         <img src="/img/css/sprites/main.svg" alt="" width="0" height="0">
@@ -104,8 +92,7 @@
                 </ul>
 
                 <div class="islet  boxout  ad">
-                    <div id="bsap_1255689" class="bsarocks bsap_2ef959fa3a5535d37060575e733650a1"></div>
-                    <p><a href="http://adpacks.com" id="bsap_aplink">via Ad Packs</a></p>
+                    <script src="http://cdn.adpacks.com/adpacks.js?legacyid=1255689&zoneid=1386&key=2ef959fa3a5535d37060575e733650a1&serve=C6SD52Y&placement=csswizardrycom&circle=dev" id="_adpacks_js"></script>
                 </div>
 
             </div>
