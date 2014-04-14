@@ -25,16 +25,3 @@ I’m so happy to be contributing—in my own small way—to a field that’s al
 In recent months I’ve consciously steered away from weighing in on Twitter-based ‘disagreements’ etcetera because I just don’t want that stuff. I don’t have the desire to be involved in any negativity when I’m surrounded by people—[personal](http://bootboxjs.com/) [friends](http://jaoss.org/) [included](http://www.resrc.it/)—who are too busy getting on with awesome stuff that they love doing _so much_ that they literally give it away for free. That’s too cool to go by unnoticed.
 
 Anyway, apologies for a seemingly aimless post, but I just wanted to offer some sort of broad thanks to all the chaps and chappettes who pour their all into giving stuff away. It makes everything better.
-
-## Addendum
-
-I’ve just been reminded of something else, too.
-[Adam Whitcroft](https://twitter.com/adamwhitcroft) recently created
-[Batch](http://adamwhitcroft.com/batch/), a beautiful icon set that he put
-together over a number of weeks. Batch was initially a paid download, and why
-not? It’s gorgeous and clearly had a _lot_ of effort put into it. However
-[he reversed that decision](http://adamwhitcroft.com/post/on-batch/) and
-decided to make Batch available for free, but not only that, he **refunded**
-those who’d already paid. I don’t know if it’s just me, but that felt like such
-a huge gesture; making something, dropping the price tag, _and_ returning any
-money that had previously been handed over. Awesome.
