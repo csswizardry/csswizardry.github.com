@@ -42,19 +42,17 @@ asking me to go into more detail about how I handle things here:
 
 ---
 
-So, I previously wrote that you should not use a `h1` for your logo, but you
+So, I previously wrote that you should not use an `h1` for your logo, but you
 should use an `img`. Here’s the markup that I use on CSS Wizardry right now
 <small>(January, 2013)</small>:
 
 <pre><code>&lt;a href="/" class="site-logo"&gt;
-    &lt;img <mark>src="/img/dot.gif"</mark> alt="CSS Wizardry" class="s  s--csswizardry-logo"&gt;
+    &lt;img <mark>src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="</mark> alt="CSS Wizardry" class="s  s--csswizardry-logo"&gt;
 &lt;/a&gt;
 </code></pre>
 
 You should notice that my `src` attribute doesn’t point to `logo.png` or similar,
-but to `dot.gif`. This is, as you might expect, a 1×1px transparent gif.
-
-**Update: I now actually point at a Base64 encoded 1×1px transparent gif.**
+but to a Base64 encoded 1×1px transparent gif.
 
 ## Eww, what?!
 
