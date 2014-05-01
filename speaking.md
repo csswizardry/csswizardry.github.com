@@ -22,11 +22,6 @@ with your team. If you would like to organise one of these then
 
 	<li>
         <h3 class="block-list__title">Talk</h3>
-		<a href="http://dotyork.com/">DotYork</a>, York (UK), May 2014
-	</li>
-
-	<li>
-        <h3 class="block-list__title">Talk</h3>
 		<a href="http://2014.thegeekgathering.org/">The Geek Gathering</a>, Osijek (Croatia), May 2014
 	</li>
 
@@ -40,6 +35,11 @@ with your team. If you would like to organise one of these then
 <h3>Previous events</h3>
 
 <ul class="block-list  block-list">
+
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://dotyork.com/">DotYork</a>, York (UK), May 2014
+	</li>
 
 	<li>
         <h3 class="block-list__title">Talk</h3>
