@@ -307,7 +307,8 @@ or all dev bugs across the entire project, or all outstanding content issues.
 This really is a great feature for Project Managers/Product Owners/Scrum
 Masters, but also for individuals to find out what their current workload is
 like. For example, if I have a spare half-an-hour, I might filter to find all
-tech debt tasks assigned to me, to see if I can quickly refactor anything.
+tech debt tasks assigned to me in order to see if I can find anything that I
+could quickly refactor.
 
 ---
 
