@@ -95,7 +95,7 @@ board elsewhere.
 ### Sprint backlog
 
 The <i>Sprint backlog</i> is the stuff that the team has committed to building
-in this current sprint. It is source from the cards in the <i>Product
+in this current sprint. It is sourced from the cards in the <i>Product
 backlog</i> and should amount to one sprint’s worth of one scrum’s work. The
 cards in this column should be decided on and prioritised by the entire scrum:
 clients/Product Owners should steer product and feature decisions, and the
@@ -123,7 +123,8 @@ wire? Could we run ImageOptim-CLI as a Git-hook? This was the elaboration phase
 that this card went through before we decided to implement any work, if at all.
 
 Anything in the elaboration column is typically an investigative or discussion
-piece, and a lot—if not most—cards will never need to pass through this column.
+piece, and a lot of—if not most—cards will never need to pass through this
+column.
 
 ### Implementation
 
@@ -138,7 +139,7 @@ feature.
 
 ### Implementation done
 
-This is probably the one column that _everyone’s_ board could use right now. No
+This is probably the one column that _everyone’s_ board could use right away. No
 matter what process you have already, this column is _so_ useful.
 <i>Implementation done</i> is basically a column for work that has been
 completed by a designer or developer, but isn’t yet being reviewed, tested, or
@@ -151,11 +152,11 @@ approval, or a test engineer to scrutinise it, or having to roll a release and
 put it live. It keeps productivity up by limiting the scope of ‘done’. They can
 queue up tasks for a future release, or a whole round of acceptance testing.
 
-The next thing it does, is it allows the rest of the team to see what tasks are
-dev-done, and are available to be reviewed or tested—something might have been
+The next thing it does is it allows the rest of the team to see what tasks are
+dev-done and are available to be reviewed or tested—something might have been
 built and is functionally complete, but no one has started reviewing that work
 yet. Anything in <i>Implementation done</i> says ‘Hey, my developer thinks I’m
-complete, so someone can feel free to come along and test me.’ This column
+complete, so someone please feel free to come along and test me.’ This column
 becomes the <i>to do</i> list for the next people on the process.
 
 ### (User) acceptance testing
