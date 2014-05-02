@@ -248,7 +248,7 @@ I’ve written about [hacks—and how they’re
 inevitable—before](http://csswizardry.com/2013/04/shame-css/), and these are
 exactly the kinds of thing we mean when we talk about tech debt.
 
-<i>Blocked</i> cards are ones which are held up—or <i>blocked</i> by other cards
+<i>Blocked</i> cards are ones which are held up—or <i>blocked</i>—by other cards
 on the board. Perhaps we have have a feature/improvement card entitled <i>Case
 studies</i> which is a task to design and display some testimonials and case
 studies on your client’s marketing site. You might also have a content/copy card
