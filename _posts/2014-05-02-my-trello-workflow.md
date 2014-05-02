@@ -319,7 +319,7 @@ share. There are some more specific things I do, but they’re too detailed to b
 of any use in this post.
 
 As with anything, your mileage may vary: you might have a completely different
-setup that works perfectly for you already, of you might find little value in
+setup that works perfectly for you already, or you might find little value in
 a <i>Product</i> label, for example, but the beauty of Trello—and agile as a
 broader concept—is that you can shape it to fit your needs.
 
