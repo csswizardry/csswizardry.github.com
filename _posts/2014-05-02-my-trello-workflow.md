@@ -214,7 +214,8 @@ perhaps a carousel for the homepage.
 
 Anything labelled <i>Feature/improvement</i> is something that isn’t in the
 product now, but should be. It’s additional functionality or behaviour that
-somehow improves or enhances the product. Most things fall under this category.
+somehow improves or enhances the product. Most things tend to fall under this
+category.
 
 ### Copy/content
 
