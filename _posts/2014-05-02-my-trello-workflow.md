@@ -68,9 +68,10 @@ way you look at it, it’s fairly safe to say that the standard <i>To Do</i>,
 The traditional—and Trello’s default—column structure is a simple <i>To Do</i>,
 <i>Doing</i>, and <i>Done</i>. This sums up the general sentiment of a
 development project, but it’s a vast oversimplification of the process. There
-different definitions and states of <i>done</i>, for a start, and various people
-have different jobs <i>to do</i> at different stages of a sprint. My current
-setup has the following columns, which I will explain in more detail later:
+are different definitions and states of <i>done</i>, for a start, and various
+people have different jobs <i>to do</i> at different stages of a sprint. My
+current setup has the following columns, which I will explain in more detail
+later:
 
 * Product backlog
 * Sprint backlog
