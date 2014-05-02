@@ -38,7 +38,7 @@ yourselves: [trello.com/demo-project](https://trello.com/b/KaRKUPfD/demo-project
 ## Trello
 
 Personally, I really like a physical Kanban board—using different coloured
-index cards and magnets—but given than I work with distributed teams and from
+index cards and magnets—but given that I work with distributed teams and from
 various locations, a physical board just doesn’t work. We had physical boards at
 Sky, and they were great—10′ long, and perfect for standing around and
 discussing during stand-ups.
