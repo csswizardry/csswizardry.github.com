@@ -226,7 +226,7 @@ the client.
 ### Product
 
 I find this is the most rarely used label, but it deals with any non-dev, ‘soft’
-requirements. A decent example might be <i>decide on pricing tiers</i>. This
+requirements. A decent example might be <i>Decide on pricing tiers</i>. This
 isn’t a design, dev, or content issue, it’s a product related task that might be
 part of the sprint, but is purely product focused. You may well have another
 card entitled <i>Price comparison matrix</i> which deals with the design and
