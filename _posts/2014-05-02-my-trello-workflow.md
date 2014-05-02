@@ -191,7 +191,7 @@ additions, pink represented bugs, and blue represented (Dev)Ops work.
 
 Trello’s cards are all the same colour, but they do have six different coloured
 labels you can apply to them. You can also assign each colour its own meaning.
-This is what meanings I’ve assigned to the six available colours:
+These are the meanings I’ve assigned to the six available colours:
 
 * **Green:** Feature/improvement
 * **Yellow:** Copy/content
