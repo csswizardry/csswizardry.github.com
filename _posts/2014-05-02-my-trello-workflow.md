@@ -274,7 +274,7 @@ this seems to work just fine on the projects I’ve been working on.
 ## Members
 
 Assigning members to cards shows you who is—or should be—working on a particular
-task. It is not uncommon for a card to have a number of labels and member
+task. It is not uncommon for a card to have a number of labels and members
 attached to it: perhaps Jenna and Steve are a developer and designer working
 together on the landing page.
 
@@ -288,11 +288,11 @@ lets the rest of the team know what everyone else is up to at a glance.
 The beauty of a Kanban board—aside from their excellent way of organising
 things—is that they are easily read at a glance. A Kanban board gives a great
 visual overview of the state and health of a project without having to read or
-research a single thing. A mass of cards in <i>Implementation done</i>? Perhaps
-your Product Owner needs a hand UATing stuff, or you need more test engineers.
-A load of red labels on the board? Perhaps you need to write more test to avoid
-bugs. One person’s avatar appearing more than anyone else’s? Perhaps you need to
-try and lighten their workload.
+research a single thing. Is there a mass of cards piling up in <i>Implementation
+done</i>? Perhaps your Product Owner needs a hand UATing stuff, or you need more
+test engineers. A load of red labels on the board? Perhaps you need to write
+more tests to avoid bugs. One person’s avatar appearing more than anyone else’s?
+Perhaps you need to try and lighten their workload.
 
 A well-managed board allows you to spot bottlenecks in your process, and gauge
 the state of a project very, _very_ quickly.
