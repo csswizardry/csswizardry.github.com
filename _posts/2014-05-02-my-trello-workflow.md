@@ -162,7 +162,10 @@ becomes the <i>to do</i> list for the next people on the process.
 ### (User) acceptance testing
 
 User acceptance testing (<i>UAT</i>) is when a client or Product Owner takes a
-look at the task and either approves or disapproves it.
+look at the task and either approves or disapproves it based on whatever
+criteria you’re working toward. Anything that fails UAT would typically be moved
+back into the <i>Sprint backlog</i> column unti someone is available to amend
+whatever was wrong with the work.
 
 ### Ready for release
 
