@@ -273,7 +273,7 @@ this seems to work just fine on the projects I’ve been working on.
 
 ## Members
 
-Assigning members to cards shows you who is or should be working on a particular
+Assigning members to cards shows you who is—or should be—working on a particular
 task. It is not uncommon for a card to have a number of labels and member
 attached to it: perhaps Jenna and Steve are a developer and designer working
 together on the landing page.
