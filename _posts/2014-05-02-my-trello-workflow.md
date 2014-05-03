@@ -37,8 +37,8 @@ yourselves: [trello.com/demo-project](https://trello.com/b/KaRKUPfD/demo-project
 
 ## Trello
 
-Personally, I really like a physical Kanban board—using different coloured
-index cards and magnets—but given that I work with distributed teams, and I
+Personally, I really like a physical Kanban board—using magnets and different
+coloured index cards—but given that I work with distributed teams, and I
 work from various locations, a physical board just doesn’t work. We had physical
 boards at [Sky](http://en.wikipedia.org/wiki/BSkyB), and they were great—10′
 long, and perfect for standing around and discussing during stand-ups.
@@ -187,7 +187,7 @@ me publicly releasing a new feature of [inuitcss](https://twitter.com/inuitcss).
 ## The labels
 
 When I used to use a physical board, we had different coloured index cards to
-represent different types of card. Yellow index cards represented features or
+represent different types of task. Yellow index cards represented features or
 additions, pink represented bugs, and blue represented (Dev)Ops work.
 
 Trello’s cards are all the same colour, but they do have six different coloured
@@ -236,9 +236,12 @@ task, not a technical one.
 
 ### Bug/tech debt/blocked
 
-Red is the obvious choice for this type of card. A bug is obvious: something
-broken in the code (or design) that needs fixing. It’s not a new feature, but a
-fix for something that is currently live and broken.
+Red was the clear choice for this type of card: anything that is labelled red
+typically needs fairly immediate attention.
+
+A bug is obvious: something broken in the code (or design) that needs fixing.
+It’s not a new feature, but a fix for something that is currently live and
+broken.
 
 Technical debt is like a bug, but not quite. It’s something in a codebase that
 isn’t broken <em>per se</em>, but is less-than-ideal. Perhaps, in a rush to get
