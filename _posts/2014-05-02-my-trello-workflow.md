@@ -24,7 +24,7 @@ you already know how to work agile.
 
 You will probably want to have this Trello board open as you read this article,
 because things will make a lot more sense if you can have a look around for
-yourselves: [trello.com/demo-project](https://trello.com/b/KaRKUPfD/demo-project)
+yourselves: [trello.com/b/demo-project](https://trello.com/b/KaRKUPfD/demo-project)
 
 <figure>
   <img src="/wp-content/uploads/2014/05/trello-demo-small.png" alt="A screenshot of my Trello board">
