@@ -17,7 +17,7 @@ releasing little, early, and often; you name it.
 
 [I recently shared](https://twitter.com/csswizardry/status/455670114328014849)
 [a public demo](https://trello.com/b/KaRKUPfD) of the Trello board that I use
-for development projects—just one small aspect of running an agile project. This
+for development work—just one small aspect of running an agile project. This
 post won’t teach you anything about running an agile project or team—you can
 [hire me for that](/work)—but it might help you set up a decent Kanban board if
 you already know how to work agile.
