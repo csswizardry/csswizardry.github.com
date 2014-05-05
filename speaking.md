@@ -30,6 +30,11 @@ with your team. If you would like to organise one of these then
 		<a href="http://www.smartwebconf.com/">SmartWeb Conference</a>, Bucharest (Romania), September 2014
 	</li>
 
+	<li>
+        <h3 class="block-list__title">Talk</h3>
+		<a href="http://trondheimdc.no/">Trondheim Developer Conference</a>, Trondheim (Norway), October 2014
+	</li>
+
 </ul>
 
 <h3>Previous events</h3>
