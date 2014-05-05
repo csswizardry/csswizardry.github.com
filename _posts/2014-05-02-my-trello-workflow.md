@@ -70,8 +70,7 @@ The traditional—and Trello’s default—column structure is a simple <i>To Do
 development project, but it’s a vast oversimplification of the process. There
 are different definitions and states of <i>done</i>, for a start, and various
 people have different jobs <i>to do</i> at different stages of a sprint. My
-current setup has the following columns, which I will explain in more detail
-later:
+current setup has the following columns, which I will explain in more detail:
 
 * Product backlog
 * Sprint backlog
