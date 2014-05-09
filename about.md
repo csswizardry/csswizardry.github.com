@@ -7,9 +7,10 @@ permalink: /about/
 
 # About me
 
-Hi there, I’m Harry; I am a Consultant Front-end Architect, writer, and speaker
-from the UK. I am **[available for
-work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together)
+Hi there, I’m Harry; I am an
+[award-winning](https://twitter.com/netmag/status/464790653801885696)
+Consultant Front-end Architect, writer, and speaker from the UK. I am
+**[available for work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together)
 from the beginning of 2014**.
 
 <figure>
@@ -21,11 +22,11 @@ from the beginning of 2014**.
   </figcaption>
 </figure>
 
-Previously a Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB)—and
-having worked with clients including the <b>BBC</b>, the <b>NHS</b>,
-<b>Booking.com</b>, and the <b>Financial Times</b>—I specialise in architecting,
-writing, and scaling CSS for large sites, apps, and products in large-team
-environments.
+Named <b>Young Developer of the Year</b> by net magazine, I was previously a
+Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB), and have worked
+with clients including the <b>BBC</b>, the <b>NHS</b>, <b>Booking.com</b>, and
+the <b>Financial Times</b>. I specialise in architecting, writing, and scaling
+CSS for large sites, apps, and products in large-team environments.
 
 I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
 [work](http://csswizardry.com/work/),
