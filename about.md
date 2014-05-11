@@ -21,11 +21,12 @@ from the beginning of 2014**.
   </figcaption>
 </figure>
 
-Named <b>Young Developer of the Year</b> by net magazine, I was previously a
-Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB), and have worked
-with clients including the <b>BBC</b>, the <b>NHS</b>, <b>Booking.com</b>, and
-the <b>Financial Times</b>. I specialise in architecting, writing, and scaling
-CSS for large sites, apps, and products in large-team environments.
+Named <b>Young Developer of the Year</b> (2014) by <cite>net</cite> magazine,
+I was previously a Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB),
+and have consulted with clients including the <b>BBC</b>, the <b>NHS</b>,
+<b>Booking.com</b>, and the <b>Financial Times</b>. I specialise in
+architecting, writing, and scaling CSS for large sites, apps, and products in
+large-team environments.
 
 I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
 [work](http://csswizardry.com/work/),
@@ -41,9 +42,7 @@ design and development.
     <b class="source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
 </blockquote>
 
-I am a two-time [net Awards
-finalist](http://www.creativebloq.com/netmag/net-awards-2013-top-10-young-developers-4135725),
-a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts
+I am a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts
 Panel, co-author of [a book on new approaches to web
 development](http://www.smashingmagazine.com/smashing-book-4-new-perspectives/),
 and lead and sole developer of the increasingly popular, open-source, OOCSS
