@@ -16,9 +16,18 @@ I also run private workshops, where I come into your offices and get hacking
 with your team. If you would like to organise one of these then
 <a href="mailto:harry@csswizardry.com">fire me an email</a>.
 
+<figure>
+  <img src="/img/content/speaking.jpg" alt="">
+  <figcaption>
+      On stage at <a href="http://2014.thegeekgathering.org/">The Geek Gathering</a>.
+      <a href="https://www.flickr.com/photos/naomiatkinson/14165689102/">Photo</a> by
+      <a href="https://twitter.com/naomisusi">Naomi Atkinson</a>.
+  </figcaption>
+</figure>
+
 <h2>Upcoming events</h2>
 
-<ul class="block-list">
+<ul class="block-list  landmark">
 
 	<li>
         <h3 class="block-list__title">Talk &amp; Workshop</h3>
@@ -31,15 +40,6 @@ with your team. If you would like to organise one of these then
 	</li>
 
 </ul>
-
-<figure>
-  <img src="/img/content/speaking.jpg" alt="">
-  <figcaption>
-      On stage at <a href="http://2014.thegeekgathering.org/">The Geek Gathering</a>.
-      <a href="https://www.flickr.com/photos/naomiatkinson/14165689102/">Photo</a> by
-      <a href="https://twitter.com/naomisusi">Naomi Atkinson</a>.
-  </figcaption>
-</figure>
 
 <h3>Previous events</h3>
 
