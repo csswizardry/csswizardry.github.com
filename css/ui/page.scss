@@ -2,7 +2,7 @@
     $PAGE
 \*------------------------------------*/
 html{
-    font-family:Ubuntu, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight:300;
     background-color:#f9f9f9;
     color:#444;
@@ -130,7 +130,7 @@ body:before{
 
         @media screen and (max-width: 640px) {
             @include font-size(16px);
-            font-weight: 500;
+            font-weight: 600;
         }
 
     }
