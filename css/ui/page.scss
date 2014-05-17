@@ -130,7 +130,6 @@ body:before{
 
         @media screen and (max-width: 640px) {
             @include font-size(16px);
-            font-weight: 600;
         }
 
     }
