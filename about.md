@@ -2,6 +2,7 @@
 layout: default
 title: About me
 page-class: page--about
+meta: "About Harry Roberts’ work, abilities, and services"
 permalink: /about/
 ---
 
