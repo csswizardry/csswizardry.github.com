@@ -15,6 +15,14 @@
 
     <!-- Prerender work page -->
     <link rel="prerender" href="http://csswizardry.com/work/">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@csswizardry">
+    <meta name="twitter:creator" content="@csswizardry">
+    <meta name="twitter:title" content="{{ page.title }} – CSS Wizardry">
+    {% if page.meta %}
+        <meta name="twitter:description" content="{{ page.meta }}">
+    {% endif %}
     
     <title>{{ page.title }} &ndash; CSS Wizardry &ndash; CSS, OOCSS, front-end architecture, performance and more, by Harry Roberts</title>
     
