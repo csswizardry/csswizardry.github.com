@@ -8,11 +8,12 @@ permalink: /about/
 
 # About me
 
-Hi there, I’m Harry; I am an [award-winning](https://thenetawards.com/)
-Consultant Front-end Architect, writer, and speaker from the UK. I help
-companies all over the world write better quality, more manageable, more
-scalable user interfaces. I am [available for
-work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together).
+<p class="lede">Hi there, I’m Harry; I am an
+<a href="https://thenetawards.com/">award-winning</a> Consultant Front-end
+Architect, writer, and speaker from the UK. I help companies all over the world
+write better quality, more manageable, more scalable user interfaces. I am
+<a href="mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together">available
+for work</a>.</p>
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
