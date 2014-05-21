@@ -126,8 +126,9 @@ spot composed patterns without having to get too involved in the code itself.
 ## Vim
 
 Another absolutely _huge_ benefit of grouping classes inside something (rather
-than just delimiting them) is that you can begin to manipulate them with certain
-text editors (my editor of choice being Vim).
+than just delimiting them with something like slashes or pipes) is that you can
+begin to manipulate them with certain text editors (my editor of choice being
+Vim).
 
 Using commands like `ya[` (yank around square-brackets), `ci[` (change inside
 square brackets), `da[` (delete around square brackets), we can, respectively:
