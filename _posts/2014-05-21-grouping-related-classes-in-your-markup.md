@@ -110,7 +110,7 @@ having namespaces in your classes paints a really clear picture of which classes
 are related to one another, if at all. It leaves you with highly descriptive
 markup that is simple to work with and debug.
 
-One of BEMs key strengths is its _scannability_, and, to my mind, there are two
+One of BEM’s key strengths is its _scannability_, and, to my mind, there are two
 levels of reading code: the first is actually reading it, taking it in, learning
 what it is doing; the second is _scanning_ it, which is a really high-level look
 over some code, perhaps to find something else, perhaps to just give it a
