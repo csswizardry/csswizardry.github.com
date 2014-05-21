@@ -217,8 +217,9 @@ teaching. It’s another hurdle; a small one, but definitely _another_.
 
 ## JavaScript
 
-As [Todd Motto](https://twitter.com/toddmotto) pointed out over Twitter, this
-method may have some impact on JavaScript interacting with your classes. I only
+As [Todd Motto](https://twitter.com/toddmotto) pointed out [over
+Twitter](https://twitter.com/toddmotto/status/469145603747106816), this method
+_may_ have some impact on JavaScript interacting with your classes. I only
 ever bind onto `.js-*` classes, so these would typically never get grouped, but
 you may hit problems elsewhere. Again, your mileage may vary.
 
