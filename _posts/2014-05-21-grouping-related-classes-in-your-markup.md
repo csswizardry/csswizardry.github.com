@@ -215,6 +215,13 @@ an overhead that cannot be ignored. The existing team will need to learn, and be
 on board with this grouping methodology, and any new hires will also need
 teaching. It’s another hurdle; a small one, but definitely _another_.
 
+## JavaScript
+
+As [Todd Motto](https://twitter.com/toddmotto) pointed out over Twitter, this
+method may have some impact on JavaScript interacting with your classes. I only
+ever bind onto `.js-*` classes, so these would typically never get grouped, but
+you may hit problems elsewhere. Again, your mileage may vary.
+
 ## To use, or not to use?
 
 This is entirely up to you. I’ve been using it on all builds recently, and I’m
