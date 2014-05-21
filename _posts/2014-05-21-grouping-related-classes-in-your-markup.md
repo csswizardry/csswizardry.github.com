@@ -35,10 +35,11 @@ Where this method differs, however, is the concept of _grouping_ them, as
 opposed to just separating them. More on that later.
 
 Secondly, and more importantly, **this article is not a direct endorsement of,
-or recommendation for, this method.** It has benefits and drawbacks—as do most
-things—so your mileage _may_ vary. I will discuss relative merits and pitfalls
-later in the article so that you can decide whether this is a good thing _for
-you_, rather than it being a good or bad thing _in and of itself_.
+or recommendation for, this method**, this is just a writeup of an idea. It has
+benefits and drawbacks—as do most things—so your mileage _may_ vary. I will
+discuss relative merits and pitfalls later in the article so that you can decide
+whether this is a good thing _for you_, rather than it being a good or bad thing
+_in and of itself_.
 
 ## How it works
 
