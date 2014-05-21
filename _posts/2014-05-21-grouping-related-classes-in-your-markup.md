@@ -223,6 +223,11 @@ _may_ have some impact on JavaScript interacting with your classes. I only
 ever bind onto `.js-*` classes, so these would typically never get grouped, but
 you may hit problems elsewhere. Again, your mileage may vary.
 
+Todd did follow up with:
+
+> Adding classes is okay, even with ‘nested’ grouping […] if you’re using
+> `.js-*` then you’ll be fine.
+
 ## To use, or not to use?
 
 This is entirely up to you. I’ve been using it on all builds recently, and I’m
