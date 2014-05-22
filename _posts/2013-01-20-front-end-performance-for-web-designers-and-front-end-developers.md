@@ -27,7 +27,7 @@ I’m going to share – in this massive article – a load of quick, simple and
 downright intriguing bits of perf knowledge to act as a primer for web designers
 and front-end developers alike; hopefully this article will serve as a decent
 introduction for anyone wanting to start learning about perf, and making their
-front-ends blazingly fast. These tips are all things your can implement by
+front-ends blazingly fast. These tips are all things you can implement by
 yourself _very_ easily. It just takes a bit of cunning and some basic knowledge
 of how browsers work and you’re ready to game the system!
 
