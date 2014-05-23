@@ -68,7 +68,7 @@ This basically just ringfences any groups that _need_ it, for example:
 
 If these rules seem a little convoluted—and they might—feel free to experiment
 with your own. You could simplify it right down to ‘any groups always need
-enclosing’:
+enclosing’, like so:
 
     <div class="[ foo  foo--bar ]">
 
@@ -115,10 +115,10 @@ markup that is simple to work with and debug.
 One of BEM’s key strengths is its _scannability_, and, to my mind, there are two
 levels of reading code: the first is actually reading it, taking it in, learning
 what it is doing; the second is _scanning_ it, which is a really high-level look
-over some code, perhaps to find something else, perhaps to just give it a
-once-over to check its general sanity, or just poking around. I often feel we
-put a lot of weight on the former—_reading_ code—and nowhere near enough on
-the latter—_scanning_ it.
+over some code, perhaps to find something, perhaps to just give it a once-over
+to check its general sanity, or just poking around. I often feel we put a lot of
+weight on the former—_reading_ code—and nowhere near enough on the
+latter—_scanning_ it.
 
 What I find the square brackets offer me is a very visual way of absorbing (i.e.
 scanning) an HTML page. The square brackets become _very_ apparent—very
@@ -154,7 +154,7 @@ the `Shift` key.
   <figcaption>Working with grouped classes inside of Vim.</figcaption>
 </figure>
 
-This feature, however, is a combination of Vim’s power and us leaving handy
+However, this feature is a combination of Vim’s power _and_ us leaving handy
 markers for Vim to work with. If you aren’t using Vim, or a similarly powerful
 text editor, then these benefits will not be quite so apparent. If you fancy
 learning Vim—and I really would recommend it—simply open your terminal and run:
@@ -199,25 +199,28 @@ where:
 ## Extra bytes
 
 One response I’ve had more than once is the concern with more bytes over the
-wire. This is something of a non-discussion, but I’ll address it nonetheless: if
-you really care about class attribute bytes over the wire, you should be using a
+wire. This is something of a non-discussion, but I’ll address it anyway: if
+you really care about class-attribute bytes over the wire, you should be using a
 CSS obfuscater like [Google’s Closure
 Stylesheets](https://code.google.com/p/closure-stylesheets/#Renaming).
+
 **Crunching raw HTML bytes is a job for a tool, not a developer.**
 
 ## Teams
 
-One of the main drawbacks of this method is its use in team environments (which
-is ironic, considering my work centres a _lot_ around managing codebases in
-teams).
+One of the main drawbacks of this method is its use in team environments, which
+is quite ironic considering my work centres a _lot_ around managing codebases in
+teams.
 
 The first and foremost—and most obvious—issue is the fact that it needs
 explaining at all. The fact I’ve managed to get a few-hundred-word article out
-of this _may_ be testament to its unusual and potentially confusing nature. This
-is usually the case with most methodologies, like BEM, for instance, but it _is_
-an overhead that cannot be ignored. The existing team will need to learn, and be
-on board with this grouping methodology, and any new hires will also need
-teaching. It’s another hurdle; a small one, but definitely _another_.
+of this _may_ be testament to its unusual and potentially confusing nature.
+
+This will always the case when adopting new methodologies—like BEM, for
+instance—but it _is_ an overhead that cannot be ignored. The existing team will
+need to learn and be on board with this grouping methodology, and any new hires
+will also need teaching. It’s another hurdle; a small one, but definitely
+_another_.
 
 ## JavaScript
 
