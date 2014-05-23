@@ -14,8 +14,8 @@ tag:
 - OOCSS
 ---
 
-A question that often gets asked of OOCSS is ‘What happens when an object
-changes?’. That is to say, if you have a basic object that underpins a dozen
+A question that often gets asked of OOCSS is <q>What happens when an object
+changes?</q>. That is to say, if you have a basic object that underpins a dozen
 different components, what happens when changing that object will favourably
 impact one component, but negatively impact the other 11? With so much abstracted
 and shared CSS, simple changes to a base object can have massive ramifications
@@ -26,7 +26,7 @@ Well, the short answer is _never change your base abstractions_.
 **N.B.** This article will require an understanding of the principles of OOCSS.
 
 One way of dealing with objects in an OO language is the
-[open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle)
+[open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle),
 which states that  software entities (classes, modules, functions, etc.) should
 be open for extension, but closed for modification.
 
@@ -44,8 +44,8 @@ literally just throws a list into horizontal mode; the
 _only_ places image-like and text-like content side-by-side. This ties in very
 nicely to the [single responsibility principle applied to CSS](/2012/04/the-single-responsibility-principle-applied-to-css/).
 
-By making your base objects this simple your choices become boolean; you use the
-object or you don’t. The object is either entirely suitable as a basis, or
+By making your base objects this simple, your choices become boolean; you use
+the object or you don’t. The object is either entirely suitable as a basis, or
 entirely _un_suitable.
 
 As soon as you make the mistake of making your base objects too specific (for
@@ -54,15 +54,15 @@ object is not entirely suited to another job for which it is _almost_ perfect.
 You might find that in order to use the object you have to undo stuff in it.
 
 A prime example of this is a mistake I made on [faavorite](http://faavorite.com/csswizardry).
-I made the island object carry cosmetics; instead of merely boxing off content I
+I made the island object carry cosmetics: instead of merely boxing off content I
 (foolishly) gave it a background, border and shadow style. This means that if I
-ever want to use the island for any different purposes I have to undo that; here
-I messed up and made an object too specific, so I have to now decide whether
+ever want to use the island for any different purposes, I have to undo that. Here
+I messed up, and made an object too specific, so I now have to decide whether
 it’s worth unsetting these properties in order to reuse `.island`, or is it
-better to just make something new? I removed the boolean choice by not keeping
-my base simple enough.
+better to just make something new? I removed my own boolean choice by not
+keeping my base simple enough.
 
-So if you abstract sensibly you should find that you rarely need to _change_ a
+So, if you abstract sensibly you should find that you rarely need to _change_ a
 base object, you should only ever need to extend it. Extending will add styles
 only in specific cases, making modifications to a base object is a _bad idea_.
 
@@ -75,14 +75,16 @@ username to the right of it, another is an album listing with the album art to
 the left and track list to the right. The others... we won’t concern ourselves
 with those. You might have markup like this:
     
-    <a href=http://twitter.com/csswizardry class="media  profile-link">
-        <img src=avatar.jpg alt="" class=img>
-        <span class=body>@csswizardry</span>
+    <a href="http://twitter.com/csswizardry" class="media  profile-link">
+        <img src="avatar.jpg" alt="" class="media__img">
+        <span class="media__body">@csswizardry</span>
     </a>
     
     <div class="media  album">
-        <img src=/img/products/themirrorconspiracy.jpg alt="" class=img>
-        <div class=body>
+
+        <img src="/img/products/themirrorconspiracy.jpg" alt="" class="media__img">
+
+        <div class="media__body">
             <h2>Thievery Corporation &ndash; The Mirror Conspiracy</h2>
             <ol>
                 <li>Treasures</li>
@@ -132,27 +134,31 @@ Let’s take another example using [the media object](http://www.stubbornella.or
 again. Here we have an amazingly simple abstraction that places image-like
 content alongside textual content:
     
-    <a href=http://twitter.com/csswizardry class=media>
-        <img src=avatar.jpg alt="" class=img>
-        <span class=body>@csswizardry</span>
+    <a href="http://twitter.com/csswizardry" class="media">
+        <img src="avatar.jpg" alt="" class="media__img">
+        <span class="media__body">@csswizardry</span>
     </a>
-    
-    
-    .media{
-        display:block;
+
+
+    .media {
+        display: block;
     }
-        .img{
-            float:left;
-            margin-right:10px;
+
+        .media__img {
+            float: left;
+            margin-right: 10px;
         }
-            .img img{
-                display:block;
+
+            .media__img > img {
+                display: block;
             }
-        .body{
-            overflow:hidden;
+
+        .media__body {
+            overflow: hidden;
         }
-            .body > :last-child{
-                margin-bottom:0;
+
+            .media__body > :last-child {
+                margin-bottom: 0;
             }
 
 In this we see that there will be a `10px` margin between the image and the
@@ -162,24 +168,27 @@ album listing example again and imagine we are still using the media object.
 object for cases where we use it for album listings, thus:
     
     <div class="media  album">
-        <img src=/img/products/themirrorconspiracy.jpg alt="" class="img  album-art">
-        <div class=body>
+        <img src="/img/products/themirrorconspiracy.jpg" alt="" class="media__img  album-art">
+        <div class="media__body">
             ...
         </div>
     </div>
-    
-    
-    .media{
-        display:block;
+
+
+    .media {
+        display: block;
     }
-        .img{
-            float:left;
-            margin-right:10px;
+
+        .media__img {
+            float: left;
+            margin-right: 10px;
         }
+
         /* Increase spacing if image is an album cover. */
-        .album-art{
-            margin-right:20px;
+        .album-art {
+            margin-right: 20px;
         }
+
         ...
 
 Here we can see how the base object remains intact but we extend it with a more
