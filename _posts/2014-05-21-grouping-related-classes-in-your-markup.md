@@ -23,9 +23,10 @@ something like this:
     <div class="[ foo  foo--bar ]  baz">
 
 Since sharing the demo, I’ve used this method on a few builds, and people on
-Twitter have asked me about the presence of the brackets, so I thought I’d write
-it up into a full article. Before we get into things too far though, there are a
-couple of things I’d like to say up front.
+[Twitter](https://twitter.com/csswizardry) have asked me about the presence of
+the brackets, so I thought I’d write it up into a full article. Before we get
+into things too far though, there are a couple of things I’d like to say up
+front.
 
 Firstly, after I shared the link to the jsFiddle, I got a few replies about a
 much earlier method [along similar
