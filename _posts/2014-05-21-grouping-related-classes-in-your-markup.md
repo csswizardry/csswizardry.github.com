@@ -188,6 +188,9 @@ However, this will:
 Using square brackets in your class attributes is valid, and won’t trip browsers
 up (I’ve tested this personally in browsers as far back as IE7–8).
 
+As we shall see next, though, this being valid does not free us from the chance
+of errors occurring.
+
 ## Errors
 
 As I mentioned previously, however, this method is not without its drawbacks, so
