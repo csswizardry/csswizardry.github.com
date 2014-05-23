@@ -163,6 +163,31 @@ learning Vim—and I really would recommend it—simply open your terminal and r
 
 This will give you a really easy-to-follow, well-paced introduction to Vim.
 
+## Validity
+
+Using square brackets in HTML’s `class` attribute is completely valid. In fact,
+where HTML is concerned, `class` attributes can legally contain _any_ character
+at all. From the HTML5 spec:
+
+> There are no […] restrictions on the tokens authors can use in the class
+> attribute…
+
+In CSS, however, the `[` and `]` characters are _invalid_ in a class, unless it
+is escaped. That is to say, this will _not_ work:
+
+    .[ {
+        color: red;
+    }
+
+However, this will:
+
+    .\[ {
+        color: red;
+    }
+
+Using square brackets in your class attributes is valid, and won’t trip browsers
+up (I’ve tested this personally in browsers as far back as IE7–8).
+
 ## Errors
 
 As I mentioned previously, however, this method is not without its drawbacks, so
