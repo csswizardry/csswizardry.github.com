@@ -31,9 +31,10 @@ front.
 Firstly, after I shared the link to the jsFiddle, I got a few replies about a
 much earlier method [along similar
 lines](http://beneverard.co.uk/blog/using-slashes-within-the-html-class-attribute/)
-from Ben Everard, so the idea of visually separating classes isn’t all that new.
-Where this method differs, however, is the concept of _grouping_ them, as
-opposed to just separating them. More on that later.
+from [Ben Everard](https://twitter.com/_beneverard), so the idea of visually
+_separating_ classes isn’t all that new. Where this method differs, however, is
+the concept of _grouping_ them, as opposed to just separating them. More on that
+later.
 
 Secondly, and more importantly, **this article is not a direct endorsement of,
 or recommendation for, this method**, this is just a writeup of an idea. It has
