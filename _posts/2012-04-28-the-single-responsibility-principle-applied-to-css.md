@@ -31,87 +31,87 @@ We do this because it makes sense, but we don’t do it often enough; if we star
 
 The SRP is normally applied in programming circles but I have definitely found it is _incredibly_ useful when making lean, scalable front-ends. Here’s a quick example of un-abstracted code that **doesn’t** follow the SRP:
 
-    <a href=/product class=promo>Buy now!</a>
+    <a href="/product" class="promo">Buy now!</a>
     
     
-    .promo{
-        display:block;
-        padding:20px;
-        margin-bottom:20px;
-        background-color:#09f;
-        color:#fff;
-        text-shadow:0 0 1px rgba(0,0,0,0.25);
-        border-radius:4px;
+    .promo {
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #09f;
+        color: #fff;
+        text-shadow: 0 0 1px rgba(0,0,0,0.25);
+        border-radius: 4px;
     }
 
 Here we have a class for a promotional box of content. Here we are doing **two** things—we are defining box model and structure _and_ we are defining cosmetics (colouring etc).
 
 We can refactor this code to adhere to the SRP by splitting those two chunks of functionality into two classes:
 
-    <a href=product class="island  promo">Buy now!</a>
+    <a href="product" class="island  promo">Buy now!</a>
     
     
-    .island{
-        display:block;
-        padding:20px;
-        margin-bottom:20px;
+    .island {
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
     }
     
-    .promo{
-        background-color:#09f;
-        color:#fff;
-        text-shadow:0 0 1px rgba(0,0,0,0.25);
-        border-radius:4px;
+    .promo {
+        background-color: #09f;
+        color: #fff;
+        text-shadow: 0 0 1px rgba(0,0,0,0.25);
+        border-radius: 4px;
     }
 
 We now have two classes which each carry a single responsibility; `.island` boxes off content and `.promo` applies our promotional styling. This now means that we can do things like this, which previously we couldn’t:
 
-    <h2>Buy now with promo code: <span class=promo>0MG4WE50ME</span></h2>
+    <h2>Buy now with promo code: <span class="promo">0MG4WE50ME</span></h2>
 
 Previously we couldn’t have managed this as the `.promo` class also carried a lot of box model; by abstracting our code into single responsibilities we can pick and choose what we want to use and where a lot more easily.
 
 We can take this much, much further; now we also have a generic class for boxing off content! Where we once might have had:
 
-    <div id=header>
+    <div id="header">
     </div>
     
-    <div id=content>
+    <div id="content">
     </div>
     
-    <div id=sub-content>
+    <div id="sub-content">
     </div>
     
-    <div id=footer>
+    <div id="footer">
     </div>
     
     
-    #header{
-        padding:20px;
-        margin-bottom:20px;
-        background-color:#121416;
-        color:#fff;
+    #header {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #121416;
+        color: #fff;
     }
     
-    #content{
-        width:640px;
-        float:left;
-        margin-right:20px;
-        padding:20px;
-        margin-bottom:20px;
+    #content {
+        width: 640px;
+        float: left;
+        margin-right: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
     }
     
-    #sub-content{
-        width:280px;
-        float:left;
-        padding:20px;
-        margin-bottom:20px;
+    #sub-content {
+        width: 280px;
+        float: left;
+        padding: 20px;
+        margin-bottom: 20px;
     }
     
-    #footer{
-        padding:20px;
-        margin-bottom:20px;
-        background-color:#e4e4e4;
-        color:#333;
+    #footer {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #e4e4e4;
+        color: #333;
     }
 
 We would now have:
@@ -127,7 +127,7 @@ We would now have:
     
     <div class="island  sub-content">
     
-        <a href=product class="island  promo">Buy now!</a>
+        <a href="product" class="island  promo">Buy now!</a>
     
     </div>
     
@@ -135,38 +135,38 @@ We would now have:
     </div>
     
     
-    .island{
-        display:block;
-        padding:20px;
-        margin-bottom:20px;
+    .island {
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
     }
     
-    .promo{
-        background-color:#09f;
-        color:#fff;
-        text-shadow:0 0 1px rgba(0,0,0,0.25);
-        border-radius:4px;
+    .promo {
+        background-color: #09f;
+        color: #fff;
+        text-shadow: 0 0 1px rgba(0,0,0,0.25);
+        border-radius: 4px;
     }
     
-    .header{
-        background-color:#121416;
-        color:#fff;
+    .header {
+        background-color: #121416;
+        color: #fff;
     }
     
-    .content{
-        width:640px;
-        float:left;
-        margin-right:20px;
+    .content {
+        width: 640px;
+        float: left;
+        margin-right: 20px;
     }
     
-    .sub-content{
-        width:280px;
-        float:left;
+    .sub-content {
+        width: 280px;
+        float: left;
     }
     
-    .footer{
-        background-color:#e4e4e4;
-        color:#333;
+    .footer {
+        background-color: #e4e4e4;
+        color: #333;
     }
 
 Because we abstracted our code out we now have a really portable class for simply boxing off content!
@@ -189,26 +189,26 @@ Because we have a nice `.island` class whose sole responsibility is to box off c
         <form>
             <p class="island  error">Please provide your name.</p>
             ...
-            <label class=error>Name:</label>
+            <label class="error">Name:</label>
             ...
         </form>
         ...
     </div>
     
     
-    .island{
-        display:block;
-        padding:20px;
-        margin-bottom:20px;
+    .island {
+        display: block;
+        padding: 20px;
+        margin-bottom: 20px;
     }
     
-    .error{
-        background-color:#fce0e2;
-        color:#c00;
+    .error {
+        background-color: #fce0e2;
+        color: #c00;
     }
-    .error.island{
-        border:5px solid #c00;
-        border-radius:4px;
+    .error.island {
+        border: 5px solid #c00;
+        border-radius: 4px;
     }
 
 Because we have our chunks of CSS only working on one thing at a time then we can reuse and combine useful things time and time again. I’ve written about this before: [Class based builds are like eating at Subway](https://plus.google.com/u/0/110483125936065828120/posts/DGPQzUdPi84).
