@@ -17,3 +17,44 @@
         background-position:-10px -10px;
     }
 }
+
+.flag {
+    background-image:url(/img/css/sprites/flags.png);
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    //text-indent: 100%;
+    //white-space: nowrap;
+    //overflow: hidden;
+}
+
+.flag--uk {
+}
+
+.flag--nl {
+    background-position: -16px 0;
+}
+
+.flag--de {
+    background-position: -32px 0;
+}
+
+.flag--hr {
+    background-position: -48px 0;
+}
+
+.flag--no {
+    background-position: 0 -11px;
+}
+
+.flag--pl {
+    background-position: -16px -11px;
+}
+
+.flag--ro {
+    background-position: -32px -11px;
+}
+
+.flag--ch {
+    background-position: -48px -11px;
+}
