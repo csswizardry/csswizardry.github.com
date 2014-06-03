@@ -72,12 +72,6 @@ me.</strong></a>
     <dt>Email: <a href="mailto:harry@csswizardry.com">harry@csswizardry.com</a></dt>
     <dd>For longer enquiries and questions, send me an email.</dd>
 
-    <dt>Skype: <a href="skype:csswizardry?call">csswizardry</a></dt>
-    <dd>If you would like to add me on Skype, please be sure to include a
-    detailed introduction and message with your request; this will help me
-    quickly identify who is getting in touch and means I am more likely to
-    accept.</dd>
-
 </dl>
 
 I am open to interesting and fun consulting gigs, short-term contracts,
