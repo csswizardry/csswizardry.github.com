@@ -70,7 +70,7 @@ me.</strong></a>
     Tweet!</dd>
 
     <dt>Email: <a href="mailto:harry@csswizardry.com">harry@csswizardry.com</a></dt>
-    <dd>For longer enquiries and questions, send me an email.</dd>
+    <dd>For longer enquiries and questions, please send me an email.</dd>
 
 </dl>
 
