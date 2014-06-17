@@ -17,7 +17,7 @@ tag:
 
 One thing I’ve been thinking a lot about lately is how to build sites properly. Not what we have been _told_ is proper, but what actually makes sense for us as developers. I recently spoke at [The Digital Barn](http://thedigitalbarn.co.uk/) on exactly this; my talk—Breaking Good Habits—dealt with how we as developers need to solve problems not only for our users and clients, but for ourselves as well.
 
-[Nicole Sullivan](http://twitter.com/stubbornella)—who totally rocks—has laid a lot of new foundations for us in her work on [OOCSS](http://oocss.org) and her ‘unconventional’ but absolutely spot-on approach to building websites. Gems like [_the media object_](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/) have seriously changed how I build websites and, if you take the time to study it for yourself, I think it might just do the same for you as well.
+[Nicole Sullivan](http://twitter.com/stubbornella) has laid a lot of new foundations for us in her work on [OOCSS](http://oocss.org) and her ‘unconventional’ but absolutely spot-on approach to building websites. Gems like [_the media object_](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/) have seriously changed how I build websites and, if you take the time to study it for yourself, I think it might just do the same for you as well.
 
 ## Double-stranded heading hierarchy
 
