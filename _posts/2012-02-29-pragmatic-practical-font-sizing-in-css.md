@@ -23,7 +23,7 @@ One thing I’ve been thinking a lot about lately is how to build sites properly
 
 Another absolutely stellar nugget of wisdom she’s given us is what I call _double-stranded heading hierarchy_. This is the practice of defining a class every time you define a heading in CSS.
 
-For example, if--for whatever reason--we want our `h2`s in our sidebar to be the same size as a `h1`, and the `h4`s in our footer to be the same size as a `h3`, we might have had some code like this:
+For example, if—for whatever reason—we want our `h2`s in our sidebar to be the same size as a `h1`, and the `h4`s in our footer to be the same size as a `h3`, we might have had some code like this:
     
     <div class=content>
       <h1>Lorem</h1>
@@ -39,13 +39,13 @@ For example, if--for whatever reason--we want our `h2`s in our sidebar to be the
     
     
     h1,
-    .sub-content h2{ [font styles] }
-    h2{ [font styles] }
+    .sub-content h2 { [font styles] }
+    h2 { [font styles] }
     h3,
-    .footer h4{ [font styles] }
-    h4{ [font styles] }
-    h5{ [font styles] }
-    h6{ [font styles] }
+    .footer h4 { [font styles] }
+    h4 { [font styles] }
+    h5 { [font styles] }
+    h6 { [font styles] }
 
 But now we’d have:
     
@@ -62,12 +62,12 @@ But now we’d have:
     </div>
     
     
-    h1,.h1{ [font styles] }
-    h2,.h2{ [font styles] }
-    h3,.h3{ [font styles] }
-    h4,.h4{ [font styles] }
-    h5,.h5{ [font styles] }
-    h6,.h6{ [font styles] }
+    h1,.h1 { [font styles] }
+    h2,.h2 { [font styles] }
+    h3,.h3 { [font styles] }
+    h4,.h4 { [font styles] }
+    h5,.h5 { [font styles] }
+    h6,.h6 { [font styles] }
 
 As you can see, the former is far more arbitrary and those lists of selectors can soon become unwieldy, especially over a larger project. By assigning a class along with each heading style we now have those styles attached to a very flexible selector that can be moved anywhere, rather than to a very specific and non-movable one.
 
@@ -107,7 +107,7 @@ The other night whilst working on [faavorite](http://faavorite.com) with [Nick](
 The problems I found I had with font-sizing on _any_ site include (but are not limited to):
 
 * Repetition of `font-size`, `line-height` etc declarations.
-* Overly-specific and/or location-dependent selectors (e.g. `.sidebar h2{}`).
+* Overly-specific and/or location-dependent selectors (e.g. `.sidebar h2 {}`).
 * Arbitrary font sizes could and _did_ creep into my CSS.
 * When using `rem` with `px` fallbacks, there is a lot to type!
 
@@ -134,7 +134,7 @@ Presetting your font sizes is pretty easy; typically you might have requirements
 
 Setting the base font size is simple, just pop it on the `html` and everything will inherit it, paragraphs, lists, tables, you name it.
 
-For your headings you define a series of `hN` and its corresponding Greek letter class, e.g. `h1,.alpha{}`.
+For your headings you define a series of `hN` and its corresponding Greek letter class, e.g. `h1, .alpha {}`.
 
 ### Non-standard font-sizing
 
@@ -142,15 +142,15 @@ You ever had that need to turn a design [up to 11](http://www.youtube.com/watch?
 
 It’s tempting to create a new, unique selector to cater for this new requirement, perhaps something like:
 
-    .masthead h1{ font-size:5em; }
+    .masthead h1 { font-size:5em; }
 
 And whilst this will work, you’ll only ever get that 5em goodness if you use _specifically_ a `h1` that is _specifically_ in a `.masthead`. This isn’t very reusable at all. Sadface.
 
-To combat this, I decided to create some new abstract classes, this time borrowing [SI prefixes](http://en.wikipedia.org/wiki/SI_prefix). Now we have the `h1,.alpha{}` through to `h6,.zeta{}` that we did before, but as well as those we have:
+To combat this, I decided to create some new abstract classes, this time borrowing [SI prefixes](http://en.wikipedia.org/wiki/SI_prefix). Now we have the `h1, .alpha {}` through to `h6, .zeta {}` that we did before, but as well as those we have:
 
-    .giga{ [font styles] }
-    .mega{ [font styles] }
-    .kilo{ [font styles] }
+    .giga { [font styles] }
+    .mega { [font styles] }
+    .kilo { [font styles] }
 
 These classes are the ones _above_ `h1` and are the seldom used ones that make stuff massive!
 
@@ -164,11 +164,11 @@ Okay, so far we’ve worked with body copy to headings to beyond; what about sma
 
 #### Addendum
 
-That there genius and awesome chap [Tom Hudson](http://twitter.com/TomNomNom) suggested I use `.milli` for this as it goes _below_ the regular scale. So, anything _on_ the normal scale is Greek letters, anything _off_ the scale (above or below) is SI prefixes.
+[Tom Hudson](http://twitter.com/TomNomNom) suggested I use `.milli` for this as it goes _below_ the regular scale. So, anything _on_ the normal scale is Greek letters, anything _off_ the scale (above or below) is SI prefixes.
 
 ### Vertical rhythm
 
-To maintain vertical rhythm we need two key ingredients; consistent line heights and consistent bottom margins. We need a [magic number](http://coding.smashingmagazine.com/2011/03/14/technical-web-typography-guidelines-and-techniques/#tt-magic-number). This number is typically defined by the line height of your body copy, so if you have `html{ font-size:16px; line-height:1.5; }` then your magic number is 16 x 1.5 = **24**.
+To maintain vertical rhythm we need two key ingredients; consistent line heights and consistent bottom margins. We need a [magic number](http://coding.smashingmagazine.com/2011/03/14/technical-web-typography-guidelines-and-techniques/#tt-magic-number). This number is typically defined by the line height of your body copy, so if you have `html { font-size:16px; line-height:1.5; }` then your magic number is 16 x 1.5 = **24**.
 
 Now you know that all your line heights and margin bottoms _have_ to be a multiple of 24px.
 
