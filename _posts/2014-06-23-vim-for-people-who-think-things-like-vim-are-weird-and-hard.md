@@ -172,7 +172,7 @@ customise and extend it to better suit your own preferences.
 
 The simplest way of doing this is through <i>dotfiles</i>; small text files that
 (usually) sit invisibly in your home directory. By creating and populating a
-`.vimrc` file, you can set your own custom key binding, preferences, settings,
+`.vimrc` file, you can set your own custom key bindings, preferences, settings,
 functionality, UI tweaks, and more. A quick look at [my
 `.vimrc`](https://github.com/csswizardry/dotfiles/blob/master/.vimrc) shows you
 that I’m not doing anything particularly crazy, but I have set up a few
@@ -359,6 +359,15 @@ Nothing superfluous, nothing ugly, nothing to distract me or get in my way; I
 just get on and work. This is very superficial, and nigh-on impossible to
 quantify, but I find this really helps me focus on whatever it is I’m working
 on.
+
+## Further reading
+
+* [Jack Franklin](https://twitter.com/Jack_Franklin) runs a blog called [TIL
+  Vim](http://tilvim.com/) through which he shared handy tips.
+* [Vim Adventures](http://vim-adventures.com/) is a fun little game-style
+  learning tool for Vim.
+* [Pascal Precht](https://twitter.com/PascalPrecht) has a recent post entitled
+  [<cite>Why I use Vim</cite>](http://pascalprecht.github.io/2014/03/18/why-i-use-vim/).
 
 ## Vimpressive!
 
