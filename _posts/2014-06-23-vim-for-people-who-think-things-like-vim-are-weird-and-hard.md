@@ -185,7 +185,7 @@ get a new machine, I know it will already have Vim installed on it, and that I
 can simply save my `.vimrc` onto this new machine and that’s it; my text editor
 is exactly the way I like it, immediately.
 
-Extending Vim is also one of its core principles—plugins can be written in any
+Extending Vim is also one of its core principles—plugins can be written in a
 number of languages, meaning all manner of developers can have a go at writing
 extensions. Currently, I don’t write or even _use_ any plugins. I find that
 relatively-vanilla Vim is more than enough for me right now, but plugins are
