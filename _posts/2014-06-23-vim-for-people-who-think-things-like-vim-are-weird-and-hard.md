@@ -148,11 +148,11 @@ especially handy for Ops Engineers, who spend a lot of time working on and
 configuring boxes all over the place; being confident in knowing your text
 editor is already on that machine means you can work in confidence and comfort.
 
-Another huge benefit of Vim’s ubiquitous nature is, simply put, money. That’s
-not to suggest that it’s not worth spending money on a text editor—I firmly
-believe that you should invest in things that will make you more productive,
-ergo, more money—but I really do not miss the pain involved in getting a new
-machine, and having to go through any (or all) of the following:
+Another huge benefit of Vim’s ubiquitous nature is, to put it bluntly, money.
+That’s not to suggest that it’s not worth spending money on a text editor—I
+firmly believe that you should invest in things that will make you more
+productive—but I really do not miss the pain involved in getting a new machine,
+and having to go through any (or all) of the following:
 
 * Getting line managers to approve a payment for a text editor (it’s not about
   the amounts involved, more the hassle and paperwork).
