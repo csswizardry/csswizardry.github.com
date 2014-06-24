@@ -13,8 +13,7 @@ meta: "An introduction to the whats and the whys of using Vim as your text edito
 I’ve been quite an avid and exclusive user of [Vim](http://www.vim.org/) for a
 couple of years now, and in that time I’ve seen quite a lot of misinformation
 and misguided vitriol (for want of a better word) for what is by _far_ the best
-text editor I have ever used. This post isn’t here to teach you how to use Vim;
-it exists to teach you _why_ to use Vim.
+text editor I have ever used.
 
 This post aims to cover how Vim is:
 
@@ -26,8 +25,9 @@ This post aims to cover how Vim is:
 * Highly composable
 * Very minimal
 
-If you want to learn Vim, which you should (and you’ll hopefully _want_ to after
-reading this post), the simplest way to get started is:
+This post isn’t here to teach you how to use Vim; it exists to teach you _why_
+to use Vim. If you want to learn Vim, which you should (and you’ll hopefully
+_want_ to after reading this post), the simplest way to get started is:
 
 1. **Open up your Terminal and simply run `$ vimtutor`.** This is a really
    simple step-by-step tutorial covering the basics of moving around and
