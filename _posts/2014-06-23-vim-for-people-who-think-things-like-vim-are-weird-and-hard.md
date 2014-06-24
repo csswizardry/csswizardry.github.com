@@ -235,7 +235,7 @@ to enter Insert mode: the most common way is to hit `i`, but you could also hit
 
 Visual mode is one I don’t spend that much time in, because (usually) you can
 delete, copy, change, etc. your code without needing to actually highlight it.
-`V10jd` (`V`isalise full lines, `10j`umps down, and `d`elete) will highlight the
+`V10jd` (`V`isualise full lines, `10j`umps down, and `d`elete) will highlight the
 next 10 full lines, and then delete them. I can achieve the same thing by hitting
 `10dd` (`10` `dd`eletions of whole lines), which deletes the next 10 whole lines
 without needing them highlighted. That said, visual mode can be useful if you
