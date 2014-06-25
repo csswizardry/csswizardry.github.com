@@ -230,7 +230,7 @@ default mode, because—when you think about it—you typically spend less time
 actually typing characters than you do moving and manipulating them. You have to
 explicitly enter Insert mode before you can begin typing. There are several ways
 to enter Insert mode: the most common way is to hit `i`, but you could also hit
-`a`ppend, `s`ubstitue, or `c`hange-with-options (e.g. `cit` for `c`hange
+`a`ppend, `s`ubstitute, or `c`hange-with-options (e.g. `cit` for `c`hange
 `i`nside `t`ags).
 
 Visual mode is one I don’t spend that much time in, because (usually) you can
