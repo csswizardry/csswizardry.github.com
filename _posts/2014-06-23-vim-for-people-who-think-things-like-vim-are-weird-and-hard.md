@@ -363,7 +363,7 @@ on.
 ## Further reading
 
 * [Jack Franklin](https://twitter.com/Jack_Franklin) runs a blog called [TIL
-  Vim](http://tilvim.com/) through which he shared handy tips.
+  Vim](http://tilvim.com/) through which he shares handy tips.
 * [Vim Adventures](http://vim-adventures.com/) is a fun little game-style
   learning tool for Vim.
 * [Pascal Precht](https://twitter.com/PascalPrecht) has a recent post entitled
