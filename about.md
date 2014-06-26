@@ -63,6 +63,20 @@ me.</strong></a>
 
 ## Contact
 
+I am open to interesting and fun consulting gigs, short-term contracts,
+workshops and any exciting projects working with nice people **starting in
+2014**. If you think you have something we can work together on then [get in
+touch](mailto:harry@csswizardry.com).
+
+Please note that I get a _lot_ of email, so it may take me a while to get back
+to you. I do try and reply to everyone, no matter how long it might take, but I
+do also try and prioritise the order in which I respond: client and work-related
+emails first, then speaking requests, and then general requests for help and
+advice.
+
+If I do seem to be taking a while to respond, I would not be at all offended if
+you tweeted at me, or sent me a follow-up email, to remind me to reply.
+
 <dl>
 
     <dt>Twitter: <a href="https://twitter.com/csswizardry">@csswizardry</a></dt>
@@ -73,8 +87,3 @@ me.</strong></a>
     <dd>For longer enquiries and questions, please send me an email.</dd>
 
 </dl>
-
-I am open to interesting and fun consulting gigs, short-term contracts,
-workshops and any exciting projects working with nice people **starting in
-2014**. If you think you have something we can work together on then [get in
-touch](mailto:harry@csswizardry.com).
