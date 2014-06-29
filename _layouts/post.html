@@ -1,30 +1,13 @@
 ---
 layout: default
-page-class: page--post
 ---
-<article class="post">
 
-    <span class="post__time">{{ page.date | date: "%-d %B, %Y" }}</span>
-    <h1>{{ page.title }}</h1>
+{% include header.html %}
 
-    {{ content }}
+<h1>{{ page.title }}</h1>
 
-    {% if page.hide-hire-me-link != true %}
+<p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
-        <hr class="hide--portable" />
+{{ content }}
 
-        <p>
-            <a href="/work/" class="btn  btn--full  btn--large  btn--secondary">Did you enjoy this? <strong>Hire me!</strong></a>
-        </p>
-    {% endif %}
-
-    {% if page.branch-url %}
-        <script async src="http://embed-script.branch.com/assets/embed/embed.m.js?body=0" data-branch-embedid="{{ page.branch-id }}" ></script>
-        <noscript>
-            <p>
-                <a href="{{ page.branch-url }}" class="branch-link" title="Opens in a new window" target="_blank">Discuss this article on Branch…</a>
-            </p>
-        </noscript>
-    {% endif %}
-
-</article>
+</div>

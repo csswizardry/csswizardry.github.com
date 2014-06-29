@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
 title: About me
 page-class: page--about
 meta: "About Harry Roberts’ work, abilities, and services"
 permalink: /about/
 ---
-
-# About me
 
 Hi there, I’m Harry; I am an [award-winning](https://thenetawards.com/)
 Consultant Front-end Architect, writer, and speaker from the UK. I help

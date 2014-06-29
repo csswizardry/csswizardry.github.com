@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
 title: Speaking and workshops
 page-class: page--speaking
 meta: "Harry Roberts’ past and upcoming speaking engagements"
 permalink: /speaking/
 ---
-
-# Speaking and workshops
 
 I speak about—and run workshops covering—big CSS, its architecture, and writing
 it in large teams on large products in a performant manner that scales. If you

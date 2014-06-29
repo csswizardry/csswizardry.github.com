@@ -1,29 +1,21 @@
 ---
-layout: nil
+layout: none
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>CSS Wizardry</title>
- <link href="http://csswizardry.com/feed.xml" rel="self"/>
- <link href="http://csswizardry.com/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://csswizardry.com/</id>
- <author>
-   <name>Harry Roberts</name>
-   <email>harry@csswizardry.com</email>
- </author>
-
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="http://csswizardry.com{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://csswizardry.com{{ post.id }}</id>
-   {% if post.meta %}
-    <content type="html">{{ post.meta }}</content>
-    {% endif %}
- </entry>
- {% endfor %}
- 
-</feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    {% for post in site.posts limit:10 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

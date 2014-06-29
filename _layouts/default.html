@@ -1,140 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" class="page  {{ page.page-class }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<html>
 
-    <!-- Prefetch DNS for external assets (Twitter widgets etc). -->
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="dns-prefetch" href="//platform.twitter.com">
-    <link rel="dns-prefetch" href="//www.google-analytics.com">
-    <link rel="dns-prefetch" href="//themes.googleusercontent.com">
-    <link rel="dns-prefetch" href="//p.twitter.com">
-    <link rel="dns-prefetch" href="//cdn.api.twitter.com">
-    <link rel="dns-prefetch" href="//cdn.adpacks.com">
+  {% include head.html %}
 
-    <!-- Prerender work page -->
-    <link rel="prerender" href="http://csswizardry.com/work/">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@csswizardry">
-    <meta name="twitter:domain" content="csswizardry.com">
-    <meta name="twitter:creator" content="@csswizardry">
-    <meta name="twitter:title" content="{{ page.title }} – CSS Wizardry">
-    <meta name="twitter:image:src" content="http://csswizardry.com/logo.png">
-    {% if page.meta %}
-        <meta name="twitter:description" content="{{ page.meta }}">
-    {% endif %}
-    
-    <title>{{ page.title }} &ndash; CSS Wizardry &ndash; CSS, OOCSS, front-end architecture, performance and more, by Harry Roberts</title>
-    
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,600,300">
-    <link rel="stylesheet" href="/css/csswizardry.min.css">
-
-    <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/csswizardrycom">
-    
-    <link rel="shortcut icon" href="/icon.png">
-    <link rel="apple-touch-icon-precomposed" href="/icon.png">
-    <meta name="apple-mobile-web-app-title" content="csswizardry">
-    <meta name="description" content="Articles on CSS, OOCSS, front-end architecture, scalability and performance.">
-
-</head>
 <body>
 
-    <!-- Hidden preload `div` to fetch images before CSS needs them. -->
-    <div class="ಠ_ಠ">
-        <img src="/img/css/sprites/main.svg" alt="" width="0" height="0">
-    </div>
+    {{ content }}
 
-    <div class="wrapper">
-        
-        <header class="page-head">
+    {% include sub-content.html %}
 
-            <a href="/" title="Return to homepage" class="site-logo">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="CSS Wizardry" class="s  s--csswizardry-logo" width="128" height="128" />
-            </a>
-
-            <ul class="nav  site-nav">
-                <li class="site-nav__about"><a href="/about/">About</a></li><!--
-             --><li class="site-nav__speaking"><a href="/speaking/">Speaking</a></li><!--
-             --><li class="site-nav__hire"><a href="/work/">Hire me</a></li>
-            </ul>
-
-        </header><!-- /page-head -->
-
-    </div><!-- /wrapper -->
-
-    <div class="wrapper">
-
-        <div class="gw">
-            
-            <div class="g  one-whole  desk-six-tenths">
-                {{ content }}
-            </div>
-            
-            <div class="g  one-whole  desk-three-tenths  desk-push--one-tenth">
-
-                <hr class="hide--desk">
-
-                <p>Hi there, I’m Harry. I am an <a href="https://thenetawards.com/">award-winning</a> <b>Consultant Front-end Architect</b>, <b>designer</b>, <b>developer</b>, <b>writer</b> and <b>speaker</b> from the UK. I <a href="/archive/">write</a>, <a href="http://twitter.com/csswizardry">tweet</a>, <a href="/speaking/">speak</a> and <a href="http://github.com/csswizardry">share code</a> about authoring and scaling CSS for big websites. You can <a href="mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together">hire me</a>.</p>
-                <p><a href="https://twitter.com/csswizardry" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @csswizardry</a></p>
-
-                <ul class="block-list">
-
-                    <li>
-                        <a href="/work/" class="btn  btn--full  btn--secondary">
-                            I am currently <strong>considering new projects</strong> for Q3, 2014.
-                        </a>
-                    </li>
-
-                    <li>
-                        <h3 class="block-list__title">Talk &amp; Workshop</h3>
-                        <a href="http://www.smartwebconf.com/">SmartWeb Conference</a>, Bucharest (Romania), September 2014
-                    </li>
-
-                    <li>
-                        <a href="http://inuitcss.com">
-                            <img src="/img/content/inuitcss-logo.png" alt="inuitcss" class="logo">
-                        </a>
-                        <a href="http://inuitcss.com">inuitcss</a> is a powerful, scalable, Sass-based, BEM, OOCSS framework. 
-                    </li>
-
-                </ul>
-
-                <div class="islet  boxout  ad">
-                    <script src="http://cdn.adpacks.com/adpacks.js?legacyid=1255689&zoneid=1386&key=2ef959fa3a5535d37060575e733650a1&serve=C6SI42Y&placement=csswizardrycom&circle=dev" async id="_adpacks_js"></script>
-                </div>
-
-            </div>
-            
-        </div>
-        
-    </div><!-- /wrapper -->
-
-    <footer class="page-foot"><div class="wrapper">
-
-        <p>&copy; {{ site.time | date: '%Y' }} <a href="http://twitter.com/csswizardry">Harry Roberts</a>.
-           Built with <a href="http://inuitcss.com">inuitcss</a>
-           and <a href="http://jekyllrb.com/">Jekyll</a>.
-           The source code of this blog is <a href="https://github.com/csswizardry/csswizardry.github.com">hosted on GitHub</a>.<br>
-           You should <a href="http://feeds.feedburner.com/csswizardrycom">grab the RSS feed</a> and <a href="http://twitter.com/csswizardry">follow me on Twitter</a>.</p>
-
-    </div></footer><!-- /wrapper /page-foot -->
-    
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<script>
-    
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-1856861-4']);
-    _gaq.push(['_trackPageview']);
-    
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-    
-</script>
+    {% include footer.html %}
 
 </body>
 </html>
