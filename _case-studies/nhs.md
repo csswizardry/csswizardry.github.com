@@ -78,7 +78,7 @@ put some pressure on us all.
 
 The team of four (Jason, Product Owner and Designer; Me, UI Developer; and Josh 
 and Dave, Software Engineers) had to work in a very agile manner. We all 
-started our respective work streams at the same time, so I wan’t waiting for 
+started our respective work streams at the same time, so I wasn’t waiting for
 designs to build, and Josh and Dave weren’t waiting for a UI Toolkit to 
 implement: whilst Jason spent the first few days roughing together some UI 
 comps in Sketch, I was setting up the UI’s architecture, whilst Josh and Dave 
