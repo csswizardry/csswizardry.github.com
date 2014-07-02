@@ -1,0 +1,15 @@
+{
+  "name": "inuit-normalize",
+  "homepage": "https://github.com/inuitcss/generic.normalize",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "61582c6622f256ca0ffd2ff07f924d8adabd8fa1"
+  },
+  "_source": "git://github.com/inuitcss/generic.normalize.git",
+  "_target": "~0.1.0",
+  "_originalSource": "inuit-normalize",
+  "_direct": true
+}

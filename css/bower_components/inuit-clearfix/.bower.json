@@ -1,0 +1,15 @@
+{
+  "name": "inuit-clearfix",
+  "homepage": "https://github.com/inuitcss/generic.clearfix",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "48ff112182c3093b7e8dfc7700d12ae63268958f"
+  },
+  "_source": "git://github.com/inuitcss/generic.clearfix.git",
+  "_target": "~0.1.0",
+  "_originalSource": "inuit-clearfix",
+  "_direct": true
+}

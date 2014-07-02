@@ -1,0 +1,16 @@
+{
+  "name": "inuit-functions",
+  "version": "0.2.0",
+  "homepage": "https://github.com/inuitcss/tools.functions",
+  "authors": [
+    "Harry Roberts <harry@csswizardry.com>"
+  ],
+  "description": "inuitcss’ default functions",
+  "main": "_tools.functions.scss",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "license": "Apache"
+}

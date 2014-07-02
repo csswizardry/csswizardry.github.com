@@ -1,0 +1,30 @@
+{
+  "name": "inuit-headings",
+  "version": "0.1.1",
+  "homepage": "https://github.com/inuitcss/base.headings",
+  "authors": [
+    "Harry Roberts <harry@csswizardry.com>"
+  ],
+  "description": "Base heading rules for the inuitcss framework",
+  "main": "_base.headings.scss",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "license": "Apache",
+  "dependencies": {
+    "inuit-defaults": "~0.1.0",
+    "inuit-mixins": "~0.1.0"
+  },
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "092ea72f42154a6f318be4e1d61f9d5d431ab5fb"
+  },
+  "_source": "git://github.com/inuitcss/base.headings.git",
+  "_target": "~0.1.1",
+  "_originalSource": "inuit-headings",
+  "_direct": true
+}

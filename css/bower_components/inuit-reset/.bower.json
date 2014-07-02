@@ -1,0 +1,15 @@
+{
+  "name": "inuit-reset",
+  "homepage": "https://github.com/inuitcss/generic.reset",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "a21afeb7cc7bf1fd7e50b3a3fc60b0ecb458a140"
+  },
+  "_source": "git://github.com/inuitcss/generic.reset.git",
+  "_target": "~0.1.0",
+  "_originalSource": "inuit-reset",
+  "_direct": true
+}

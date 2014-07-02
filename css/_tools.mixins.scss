@@ -1,0 +1,63 @@
+///*------------------------------------*\
+//    #MIXINS
+//\*------------------------------------*/
+
+// Apply ‘attention’ styles in one go.
+@mixin attention($self: false) {
+
+    @if($self != false) {
+
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+
+    }
+
+    @else {
+
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+
+    }
+
+}
+
+// Generate Helvetica Neue’s numbered font-weights from their aliases.
+@mixin font-weight($font-weight) {
+
+    @if ($font-weight == "regular") {
+        font-weight: 300;
+    }
+
+    @if ($font-weight == "bold") {
+        font-weight: 600;
+    }
+
+}
+
+// Create all specified heading styles in one go.
+@mixin headings($from: 1, $to: 6) {
+
+    %base-heading {
+        @content;
+    }
+
+    @if $from >= 1 and $to <= 6{
+
+        @for $i from $from through $to{
+
+            h#{$i} {
+                @extend %base-heading;
+            }
+
+        }
+
+    }
+
+}
