@@ -1,0 +1,58 @@
+/*------------------------------------*\
+    #PAGE-HEAD
+\*------------------------------------*/
+
+.page-head {
+    padding: $spacing-unit--small;
+    @extend %clearfix;
+
+    @include media-query(lap-and-up) {
+        padding: $spacing-unit;
+    }
+
+}
+
+
+
+
+
+.page-head--large {
+    @extend %margin-bottom;
+    position: relative;
+    background: url(/img/css/masthead.jpg) center center #000;
+    background-size: cover;
+    height: 0;
+    padding-top: 56.25%;
+
+    @media screen and (min-width: 811px) {
+        padding-top: 0;
+        height: 480px;
+    }
+
+    &,
+    a {
+        color: white;
+    }
+
+}
+
+.page-head__text {
+    margin: 0;
+    position: absolute;
+    right:  $spacing-unit--small;
+    bottom: $spacing-unit--small;
+    left:   $spacing-unit--small;
+    @include font-size(24px);
+
+    @include media-query(lap-and-up) {
+        right:  $spacing-unit;
+        bottom: $spacing-unit;
+        left:   $spacing-unit;
+        @include font-size(48px);
+    }
+
+    @include media-query(desk) {
+        @include font-size(72px);
+    }
+
+}

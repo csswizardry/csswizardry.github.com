@@ -22,7 +22,16 @@
  * BASE
  * Page.................Page-level styles (HTML element).
  * Page.................Our extension of the inuitcss page module.
+ *
+ * OBJECTS
+ *
+ * COMPONENTS
+ * Page-head............Page header styles.
  */
+
+
+
+
 
 /**
  * #SETTINGS
@@ -30,6 +39,7 @@
 
 @import "bower_components/inuit-defaults/settings.defaults";
 @import "settings.colors";
+@import "settings.responsive";
 
 
 
@@ -68,3 +78,21 @@
 @import "bower_components/inuit-headings/base.headings";
 @import "base.type";
 @import "base.links";
+
+
+
+
+
+/**
+ * #OBJECTS
+ */
+
+
+
+
+
+/**
+ * #COMPONENTS
+ */
+@import "components.page-head";
+@import "components.site-nav";

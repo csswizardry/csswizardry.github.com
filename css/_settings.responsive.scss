@@ -1,0 +1,10 @@
+///*------------------------------------*\
+//    #RESPONSIVE
+//\*------------------------------------*/
+
+$breakpoint--palm:              unquote("screen and (max-width: 719px)") !default;
+$breakpoint--lap:               unquote("screen and (min-width: 720px) and (max-width: 1023px)") !default;
+$breakpoint--lap-and-up:        unquote("screen and (min-width: 720px)") !default;
+$breakpoint--portable:          unquote("screen and (max-width: 1023px)") !default;
+$breakpoint--desk:              unquote("screen and (min-width: 1024px)") !default;
+$breakpoint--retina:            unquote("(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)") !default;
