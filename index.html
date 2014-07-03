@@ -5,56 +5,95 @@ masthead-title: Front-end architecture and performance engineering
 page-class: page--home
 ---
 
-<section class="serivces">
+</div><!-- /wrapper -->
 
-    <ul class="layout">
+<section class="[ box  box--tint ]  mb">
 
-        <li class="layout__item  one-third">
+    <div class="wrapper">
 
-            <h2 class="heading  mb0">Consultancy</h2>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <ul class="layout">
 
-        <li class="layout__item  one-third">
+            <li class="layout__item  one-third">
 
-            <h2 class="heading  mb0">Engineering</h2>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <div class="media" data-ui-component="promo-block">
+                    <img src="http://dummyimage.com/64x64/ddd/ddd" class="media__img" style="border-radius: 100%;" />
+                    <div class="media__body">
+                        <h2 class="heading  mb0">Consultancy</h2>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
 
-        <li class="layout__item  one-third">
+            <li class="layout__item  one-third">
 
-            <h2 class="heading  mb0">Workshops</h2>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <div class="media" data-ui-component="promo-block">
+                    <img src="http://dummyimage.com/64x64/ddd/ddd" class="media__img" style="border-radius: 100%;" />
+                    <div class="media__body">
+                        <h2 class="heading  mb0">Engineering</h2>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
 
-    </ul>
+            <li class="layout__item  one-third">
+
+                <div class="media" data-ui-component="promo-block">
+                    <img src="http://dummyimage.com/64x64/ddd/ddd" class="media__img" style="border-radius: 100%;" />
+                    <div class="media__body">
+                        <h2 class="heading  mb0">Workshops</h2>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
+
+        </ul>
+
+    </div>
 
 </section>
 
-<section class="posts">
-    <ul class="block-list">
-        {% for post in paginator.posts %}
-        <li>
-            <span class="post__time">{{ post.date | date: "%d %B, %Y" }}</span>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
+<div class="wrapper">
 
-<ol class="layout  layout--middle">
-    <li class="layout__item  one-half">
-        {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" class="btn  btn--full  btn--secondary">Older articles</a>
-        {% else %}
-            Older articles
-        {% endif %}
-    
-    <li class="layout__item  one-half">
-        {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
-                <a href="/" class="btn  btn--full">Newer articles</a>
-            {% else %}
-                <a href="/page{{paginator.previous_page}}" class="btn  btn--full">Newer articles</a>
-            {% endif %}
-        {% else %}
-        {% endif %}
-    </li>
-</ol>
+<div class="layout">
+    <div class="layout__item  two-thirds">
+
+        <section class="posts">
+            <h3 class="heading">Articles</h3>
+            <ul class="block-list">
+                {% for post in paginator.posts %}
+                <li>
+                    <span class="post__time">{{ post.date | date: "%d %B, %Y" }}</span>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <ol class="layout  layout--middle">
+            <li class="layout__item  one-half">
+                {% if paginator.next_page %}
+                    <a href="/page{{paginator.next_page}}" class="btn  btn--full  btn--secondary">Older articles</a>
+                {% else %}
+                    Older articles
+                {% endif %}
+            
+            <li class="layout__item  one-half">
+                {% if paginator.previous_page %}
+                    {% if paginator.previous_page == 1 %}
+                        <a href="/" class="btn  btn--full">Newer articles</a>
+                    {% else %}
+                        <a href="/page{{paginator.previous_page}}" class="btn  btn--full">Newer articles</a>
+                    {% endif %}
+                {% else %}
+                {% endif %}
+            </li>
+        </ol>
+
+    </div
+
+   ><div class="layout__item  one-third">
+
+        <div class="box  box--highlight">
+            {% include sub-content.html %}
+        </div>
+
+    </div>
+
+</div>

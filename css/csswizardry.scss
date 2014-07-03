@@ -30,6 +30,8 @@
  * Wrappers.............Wrappers and page constraints.
  * Buttons..............inuitcss’ buttons module.
  * Layout...............inuitcss’ layout tool.
+ * Box..................inuitcss’ box object.
+ * Media................The media object.
  *
  * COMPONENTS
  * Page-head............Page header styles.
@@ -105,7 +107,11 @@ $inuit-btn-radius:          3px;
 $inuit-btn-border-width:    2px;
 $inuit-enable-btn--full:    true;
 @import "bower_components/inuit-buttons/objects.buttons";
+
+$inuit-enable-layout--center:   true;
 @import "bower_components/inuit-layout/objects.layout";
+@import "bower_components/inuit-box/objects.box";
+@import "bower_components/inuit-media/objects.media";
 
 
 
@@ -117,6 +123,7 @@ $inuit-enable-btn--full:    true;
 @import "components.page-head";
 @import "components.site-nav";
 @import "components.buttons";
+@import "components.boxes";
 
 
 
@@ -128,5 +135,6 @@ $inuit-enable-btn--full:    true;
 $inuit-use-fractions:   false;
 @import "bower_components/inuit-widths/trumps.widths";
 
+$inuit-enable-margins:          true;
 $inuit-enable-margins--none:    true;
 @import "bower_components/inuit-spacing/trumps.spacing";

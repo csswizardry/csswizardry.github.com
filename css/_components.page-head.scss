@@ -51,7 +51,6 @@
  * 7. …fix the height at the 480px.
  */
 .page-head--masthead {
-    @extend %margin-bottom;
     background: url(/img/css/masthead.jpg) center center #000;
     @include vendor(background-size, cover);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
