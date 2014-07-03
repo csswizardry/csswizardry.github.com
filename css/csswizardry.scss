@@ -35,6 +35,9 @@
  *
  * COMPONENTS
  * Page-head............Page header styles.
+ * Bands................Full-width page bands.
+ * Page-foot............Page footer styles.
+ * Page-micro...........Page copyright styles.
  * Site-nav.............Site’s main nav area.
  * Buttons..............Extension of inuitcss’ buttons.
  *
@@ -121,6 +124,9 @@ $inuit-enable-layout--center:   true;
  * #COMPONENTS
  */
 @import "components.page-head";
+@import "components.bands";
+@import "components.page-foot";
+@import "components.page-micro";
 @import "components.site-nav";
 @import "components.buttons";
 @import "components.boxes";

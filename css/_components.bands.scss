@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #BANDS
+\*------------------------------------*/
+
+.band {
+    padding-top:    $spacing-unit--small;
+    padding-bottom: $spacing-unit--small;
+
+    @include media-query(lap-and-up) {
+        padding-top:    $spacing-unit;
+        padding-bottom: $spacing-unit;
+    }
+
+}
+
+.band--highlight {
+    background-color: $color-band-highlight-background;
+}
+
+.band--tint {
+    background-color: rgba(0, 0, 0, 0.025);
+}

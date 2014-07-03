@@ -1,6 +1,6 @@
-/*------------------------------------*\
-    #COLORS
-\*------------------------------------*/
+///*------------------------------------*\
+//    #COLORS
+//\*------------------------------------*/
 
 $color-brand:   $brand-color;
 $color-pink:    $color-brand;
@@ -38,6 +38,22 @@ $color-page-head:   #fff;
 
 
 
+// Page foot
+$color-page-foot:               #fff;
+$color-page-foot-background:    #ccc;
+
+
+
+
+
+// Page micro
+$color-page-micro:              #fff;
+$color-page-micro-background:   #333;
+
+
+
+
+
 // Headings
 $color-headings:    $color-pink;
 
@@ -48,3 +64,10 @@ $color-headings:    $color-pink;
 // Boxes
 $color-box-highlight-background:    #fff;
 $color-box-highlight-border:        #ddd;
+
+
+
+
+
+// Bands
+$color-band-highlight-background:   #fff;

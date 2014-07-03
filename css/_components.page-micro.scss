@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #PAGE-MICRO
+\*------------------------------------*/
+
+.page-micro {
+    background-color: $color-page-micro-background;
+    padding: $spacing-unit--small;
+
+    &,
+    a {
+        color: $color-page-micro;
+    }
+
+}
+
+    .page-micro__copy {
+        @include font-size(12px);
+        display: block;
+    }

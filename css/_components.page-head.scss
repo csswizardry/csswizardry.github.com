@@ -80,11 +80,16 @@
     margin: 0;
     position: absolute;
     bottom: 0;
+    left: auto;
     color: $color-page-head;
     @include font-size(24px);
+    padding: $spacing-unit--small;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: $base-round;
 
     @include media-query(lap-and-up) {
         @include font-size(48px);
+        padding: $spacing-unit;
     }
 
     @include media-query(desk) {

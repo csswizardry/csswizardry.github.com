@@ -10,3 +10,8 @@
 .heading {
     @include font-size(22px);
 }
+
+strong, b,
+dt {
+    @include font-weight(bold);
+}
