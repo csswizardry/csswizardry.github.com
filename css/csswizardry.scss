@@ -32,6 +32,7 @@
  * Layout...............inuitcss’ layout tool.
  * Box..................inuitcss’ box object.
  * Media................The media object.
+ * UI list..............inuitcss’ UI list.
  *
  * COMPONENTS
  * Page-head............Page header styles.
@@ -115,6 +116,7 @@ $inuit-enable-layout--center:   true;
 @import "bower_components/inuit-layout/objects.layout";
 @import "bower_components/inuit-box/objects.box";
 @import "bower_components/inuit-media/objects.media";
+@import "bower_components/inuit-ui-list/objects.ui-list";
 
 
 

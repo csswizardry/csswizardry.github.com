@@ -56,9 +56,9 @@ page-class: page--home
 
         <section class="posts">
             <h3 class="heading">Articles</h3>
-            <ul class="block-list">
+            <ul class="ui-list  mb">
                 {% for post in paginator.posts %}
-                <li>
+                <li class="ul-list__item">
                     <span class="post__time">{{ post.date | date: "%d %B, %Y" }}</span>
                     <a href="{{ post.url }}">{{ post.title }}</a>
                 </li>

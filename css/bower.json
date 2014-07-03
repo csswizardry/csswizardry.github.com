@@ -25,7 +25,8 @@
     "inuit-widths": "~0.2.0",
     "inuit-spacing": "~0.5.1",
     "inuit-box": "~0.1.3",
-    "inuit-media": "~0.2.3"
+    "inuit-media": "~0.2.3",
+    "inuit-ui-list": "~0.2.0"
   },
   "resolutions": {
     "inuit-functions": "~0.2.0"
