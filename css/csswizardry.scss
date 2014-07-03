@@ -25,11 +25,15 @@
  *
  * OBJECTS
  * Buttons..............inuitcss’ buttons module.
+ * Layout...............inuitcss’ layout tool.
  *
  * COMPONENTS
  * Page-head............Page header styles.
  * Site-nav.............Site’s main nav area.
  * Buttons..............Extension of inuitcss’ buttons.
+ *
+ * TRUMPS
+ * Widths...............Simple width helper classes.
  */
 
 
@@ -92,7 +96,9 @@
 $inuit-btn-background:      $color-links;
 $inuit-btn-radius:          3px;
 $inuit-btn-border-width:    2px;
+$inuit-enable-btn--full:    true;
 @import "bower_components/inuit-buttons/objects.buttons";
+@import "bower_components/inuit-layout/objects.layout";
 
 
 
@@ -104,3 +110,13 @@ $inuit-btn-border-width:    2px;
 @import "components.page-head";
 @import "components.site-nav";
 @import "components.buttons";
+
+
+
+
+
+/**
+ * #TRUMPS
+ */
+$inuit-use-fractions:   false;
+@import "bower_components/inuit-widths/trumps.widths";

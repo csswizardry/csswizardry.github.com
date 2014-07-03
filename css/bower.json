@@ -20,6 +20,11 @@
     "inuit-box-sizing": "~0.1.1",
     "inuit-page": "~0.1.1",
     "inuit-headings": "~0.1.1",
-    "inuit-buttons": "~0.3.2"
+    "inuit-buttons": "~0.3.2",
+    "inuit-layout": "~0.1.2",
+    "inuit-widths": "~0.2.0"
+  },
+  "resolutions": {
+    "inuit-functions": "~0.2.0"
   }
 }

@@ -29,24 +29,22 @@ page-class: page--home
     </ul>
 </section>
 
-<ol class="nav  pagination">
-    <li class="pagination__prev">
-        {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-            <a href="/" class="btn">Newer articles</a>
-        {% else %}
-            <a href="/page{{paginator.previous_page}}" class="btn">Newer articles</a>
-        {% endif %}
-        {% else %}
-            Newer articles
-        {% endif %}
-    </li><!--
-    
- --><li class="pagination__next">
+<ol class="layout  layout--middle">
+    <li class="layout__item  one-half">
         {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" class="btn  btn--secondary">Older articles</a>
+            <a href="/page{{paginator.next_page}}" class="btn  btn--full  btn--secondary">Older articles</a>
         {% else %}
             Older articles
+        {% endif %}
+    
+    <li class="layout__item  one-half">
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+                <a href="/" class="btn  btn--full">Newer articles</a>
+            {% else %}
+                <a href="/page{{paginator.previous_page}}" class="btn  btn--full">Newer articles</a>
+            {% endif %}
+        {% else %}
         {% endif %}
     </li>
 </ol>
