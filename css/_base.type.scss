@@ -41,6 +41,10 @@ figure {
     margin-right: 0;
     margin-left:  0;
 
+    @media screen and (min-width: 1380px) {
+        margin-left: -128px;
+    }
+
     > img {
         border-radius: $base-round;
     }
@@ -49,4 +53,9 @@ figure {
 
     figcaption {
         @include font-size(12px);
+
+        @media screen and (min-width: 1380px) {
+            margin-left: 128px;
+        }
+
     }
