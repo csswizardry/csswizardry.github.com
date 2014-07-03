@@ -18,4 +18,35 @@ dt {
 
 code, kbd, samp {
     color: $color-code;
+    font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
 }
+
+pre {
+    white-space: pre;
+    word-wrap: normal;
+    overflow: auto;
+    padding: $spacing-unit--small;
+    background-color: $color-pre;
+    border-radius: $base-round;
+
+    &,
+    code, kbd, samp {
+        color: #fff;
+    }
+
+}
+
+figure {
+    margin-top:   0;
+    margin-right: 0;
+    margin-left:  0;
+
+    > img {
+        border-radius: $base-round;
+    }
+
+}
+
+    figcaption {
+        @include font-size(12px);
+    }
