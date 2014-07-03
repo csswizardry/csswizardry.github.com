@@ -59,7 +59,7 @@
 
     &,
     a {
-        color: #fff; /* [1] */
+        color: $color-page-head; /* [1] */
     }
 
     > .wrapper { /* [2] */
@@ -82,7 +82,7 @@
     margin: 0;
     position: absolute;
     bottom: 0;
-    color: #fff;
+    color: $color-page-head;
     @include font-size(24px);
 
     @include media-query(lap-and-up) {

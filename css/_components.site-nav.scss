@@ -37,19 +37,19 @@ $logo-height:   64px;
 
     .site-nav__home {
         display: block;
-        width:       $logo-height;
-        line-height: $logo-height;
         float: left;
-        background: $color-links;
-        overflow: hidden;
-        text-indent: 100%;
-        border-radius: $base-round;
-
-        .page-head--masthead & {
-            background: white;
-        }
-
     }
+
+        .site-nav__logo {
+            display: block;
+            border-radius: $base-round;
+            overflow: hidden;
+
+            .page-head--masthead & {
+                fill: $color-page-head;
+            }
+
+        }
 
     /**
      * On smaller viewports, the nav is a 2x2 grid of links that lies perfectly
