@@ -25,6 +25,11 @@
  * BASE
  * Page.................Page-level styles (HTML element).
  * Page.................Our extension of the inuitcss page module.
+ * Headings.............Heading styles
+ * Type.................Misc type styles
+ * Links................Hyperlink styles
+ * Images...............inuitcss images
+ * Lists................inuitcss list styles
  *
  * OBJECTS
  * Wrappers.............Wrappers and page constraints.
@@ -99,6 +104,8 @@
 @import "bower_components/inuit-headings/base.headings";
 @import "base.type";
 @import "base.links";
+@import "bower_components/inuit-lists/base.lists";
+@import "bower_components/inuit-images/base.images";
 
 
 
