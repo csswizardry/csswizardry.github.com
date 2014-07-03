@@ -4,7 +4,7 @@
 
 $color-brand:   $brand-color;
 $color-pink:    $color-brand;
-$color-gray:    #333;
+$color-gray:    #444;
 $color-green:   #859900;
 
 
@@ -13,7 +13,7 @@ $color-green:   #859900;
 
 // Page
 $inuit-base-background-color:   #f9f9f9;
-$inuit-base-text-color:         #333;
+$inuit-base-text-color:         $color-gray;
 
 
 
@@ -59,7 +59,7 @@ $color-page-foot-background:    #ccc;
 
 // Page micro
 $color-page-micro:              #fff;
-$color-page-micro-background:   #333;
+$color-page-micro-background:   $color-gray;
 
 
 

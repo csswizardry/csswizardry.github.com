@@ -69,7 +69,9 @@ $logo-height:   64px;
             float: right;
         }
 
-        > li {
+    }
+
+        .site-nav__item {
             float: left;
             width: 50%;
 
@@ -82,11 +84,19 @@ $logo-height:   64px;
 
             }
 
-            > a {
+        }
+
+            .site-nav__link {
                 display: block;
                 padding-right: 12px;
                 padding-left:  12px;
                 line-height: halve($logo-height);
+                color: #555;
+
+                @include attention() {
+                    text-decoration: none;
+                    color: $color-links;
+                }
 
                 @include media-query(lap-and-up) {
                     line-height: $logo-height;
@@ -94,14 +104,10 @@ $logo-height:   64px;
 
             }
 
-        }
-
-    }
-
             @each $page in home, about, speaking, case-studies, hire-me {
 
                 .page--#{$page} .site-nav__#{$page} {
-                    text-decoration: underline;
+                    color: $color-links;
                     cursor: default;
                 }
 

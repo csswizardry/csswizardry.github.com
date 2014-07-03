@@ -20,9 +20,14 @@
  * 2. Grow to full-sized padding on large enough viewports.
  */
 .page-head {
-    border-top: 6px solid $color-page-head-border;
+    @extend %margin-bottom;
+    border-style: solid;
+    border-width: 6px 0 1px;
+    border-top-color: $color-page-head-border;
+    border-bottom-color: rgba(0, 0, 0, 0.05);
     padding-top:    $spacing-unit--small; /* [1] */
     padding-bottom: $spacing-unit--small; /* [1] */
+    background-color: #fff;
 
     @include media-query(lap-and-up) {
         padding-top:    $spacing-unit; /* [2] */
@@ -52,14 +57,20 @@
  * 7. …fix the height at the 480px.
  */
 .page-head--masthead {
+    margin-bottom: 0;
     background: url(/img/css/masthead.jpg) center center #000;
     border-top-color: $color-page-head;
+    border-bottom-width: 0;
     @include vendor(background-size, cover);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    color: $color-page-head; /* [1] */
 
-    &,
     a {
-        color: $color-page-head; /* [1] */
+
+        @include attention(self) {
+            color: $color-page-head; /* [1] */
+        }
+
     }
 
     > .wrapper { /* [2] */
