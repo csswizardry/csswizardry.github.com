@@ -20,6 +20,7 @@
  * 2. Grow to full-sized padding on large enough viewports.
  */
 .page-head {
+    border-top: 6px solid $color-page-head-border;
     padding-top:    $spacing-unit--small; /* [1] */
     padding-bottom: $spacing-unit--small; /* [1] */
 
@@ -52,6 +53,7 @@
  */
 .page-head--masthead {
     background: url(/img/css/masthead.jpg) center center #000;
+    border-top-color: $color-page-head;
     @include vendor(background-size, cover);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
 
