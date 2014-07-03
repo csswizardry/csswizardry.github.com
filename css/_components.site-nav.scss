@@ -97,3 +97,12 @@ $logo-height:   64px;
         }
 
     }
+
+            @each $page in home, about, speaking, case-studies, hire-me {
+
+                .page--#{$page} .site-nav__#{$page} {
+                    text-decoration: underline;
+                    cursor: default;
+                }
+
+            }
