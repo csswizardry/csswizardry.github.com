@@ -7,6 +7,9 @@
  *
  * SETTINGS
  * Default..............inuitcss’ default settings.
+ * Global...............Globally-available variables and settings/config.
+ * Colors...............Manage our color palette in isolation.
+ * Responsive...........Set up and name our breakpoints.
  *
  * TOOLS
  * Functions............inuitcss’ default functions.
@@ -24,6 +27,7 @@
  * Page.................Our extension of the inuitcss page module.
  *
  * OBJECTS
+ * Wrappers.............Wrappers and page constraints.
  * Buttons..............inuitcss’ buttons module.
  * Layout...............inuitcss’ layout tool.
  *
@@ -45,6 +49,7 @@
  */
 
 @import "bower_components/inuit-defaults/settings.defaults";
+@import "settings.global";
 @import "settings.colors";
 @import "settings.responsive";
 
@@ -93,6 +98,7 @@
 /**
  * #OBJECTS
  */
+@import "objects.wrappers";
 $inuit-btn-background:      $color-btn;
 $inuit-btn-radius:          3px;
 $inuit-btn-border-width:    2px;

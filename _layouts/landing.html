@@ -2,6 +2,12 @@
 layout: default
 ---
 
-{% include header--large.html %}
+{% include header--masthead.html %}
 
-{{ content }}
+<div class="wrapper">
+
+    {{ content }}
+
+    {% include sub-content.html %}
+
+</div>

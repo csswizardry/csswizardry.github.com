@@ -2,12 +2,31 @@
     #PAGE-HEAD
 \*------------------------------------*/
 
+/**
+ * The site’s main page-head can have two different states:
+ *
+ * 1) Regular page-head with no backgrounds or extra treatments; it just
+ *    contains the logo and nav.
+ * 2) A masthead that has a fluid-height (becoming fixed after a certain point)
+ *    which has a large background image, and some supporting text.
+ *
+ * The regular page-head is incredibly simple, but the masthead version has some
+ * slightly intermingled dependency with the wrapper that lives inside it.
+ */
+
+
+/**
+ * 1. A slightly smaller padding on smaller viewports.
+ * 2. Grow to full-sized padding on large enough viewports.
+ */
 .page-head {
-    padding: $spacing-unit--small;
+    padding-top:    $spacing-unit--small; /* [1] */
+    padding-bottom: $spacing-unit--small; /* [1] */
     @extend %clearfix;
 
     @include media-query(lap-and-up) {
-        padding: $spacing-unit;
+        padding-top:    $spacing-unit; /* [2] */
+        padding-bottom: $spacing-unit; /* [2] */
     }
 
 }
@@ -16,39 +35,57 @@
 
 
 
-.page-head--large {
+/**
+ * Large site headers act more like mastheads. They have a faux-fluid-height
+ * which is controlled by the wrapping element inside it.
+ *
+ * 1. Mastheads will typically have dark backgrounds, so we need to make sure
+ *    the contrast is okay. This value is subject to change as the background
+ *    image changes.
+ * 2. We need to delegate a lot of the masthead’s layout to its wrapper element.
+ * 3. The wrapper needs positioning context for us to lay our nav and masthead
+ *    text in.
+ * 4. Faux-fluid-height technique. This ratio gives us 16:9.
+ * 5. When the viewport is at 811px wide, our 16:9 ratio means that the masthead
+ *    is currently rendered at about 480px high. Let’s…
+ * 6. …snip off the fluid feature at this height, and…
+ * 7. …fix the height at the 480px.
+ */
+.page-head--masthead {
     @extend %margin-bottom;
-    position: relative;
     background: url(/img/css/masthead.jpg) center center #000;
-    background-size: cover;
-    height: 0;
-    padding-top: 56.25%;
-
-    @media screen and (min-width: 811px) {
-        padding-top: 0;
-        height: 480px;
-    }
+    @include vendor(background-size, cover);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
 
     &,
     a {
-        color: white;
+        color: #fff; /* [1] */
+    }
+
+    > .wrapper { /* [2] */
+        position: relative; /* [3] */
+        padding-top: 56.25%; /* [4] */
+
+        @media screen and (min-width: 811px) { /* [5] */
+            padding-top: 0; /* [6] */
+            height: 480px; /* [7] */
+        }
+
     }
 
 }
 
+/**
+ * Mastheads will have some large text in them. Let’s position that bottom-left.
+ */
 .page-head__text {
     margin: 0;
     position: absolute;
-    right:  $spacing-unit--small;
-    bottom: $spacing-unit--small;
-    left:   $spacing-unit--small;
+    bottom: 0;
     color: #fff;
     @include font-size(24px);
 
     @include media-query(lap-and-up) {
-        right:  $spacing-unit;
-        bottom: $spacing-unit;
-        left:   $spacing-unit;
         @include font-size(48px);
     }
 

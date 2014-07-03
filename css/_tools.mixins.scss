@@ -2,6 +2,13 @@
 //    #MIXINS
 //\*------------------------------------*/
 
+// Spit out vendor prefixes in one go. Very pragmatic, far from perfect.
+@mixin vendor($property, $value...) {
+    -webkit-#{$property}: $value;
+       -moz-#{$property}: $value;
+            #{$property}: $value;
+}
+
 // Apply ‘attention’ styles in one go.
 @mixin attention($self: false) {
 

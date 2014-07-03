@@ -4,10 +4,12 @@ layout: default
 
 {% include header.html %}
 
-<h1>{{ page.title }}</h1>
+<div class="wrapper">
 
-<p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
 
-{{ content }}
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+    {{ content }}
 
 </div>

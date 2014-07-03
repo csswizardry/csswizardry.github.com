@@ -2,9 +2,10 @@
     #SITE-NAV
 \*------------------------------------*/
 
+// Internal variables.
+$logo-height:   64px;
+
 .site-nav {
-    width: 100%;
-    float: left;
     @include font-size(12px);
     @include font-weight(bold);
 
@@ -12,16 +13,20 @@
         @include font-size(16px);
     }
 
-    .page-head--large & {
-        width: auto;
-        float: none;
+    /**
+     * If the site nav exists in a masthead, we absolutely position it. We have
+     * to do this because the masthead has a fixed height, partially governed by
+     * a faux-fluid-height technique which utilises a zeroed `height` and a
+     * large `padding-top` value, ergo, we *have* to take the nav out of flow.
+     */
+    .page-head--masthead & {
         position: absolute;
-        top:   $spacing-unit--small;
+        top:   0;
         right: $spacing-unit--small;
         left:  $spacing-unit--small;
 
         @include media-query(lap-and-up) {
-            top:   $spacing-unit;
+            top:   0;
             right: $spacing-unit;
             left:  $spacing-unit;
         }
@@ -32,23 +37,26 @@
 
     .site-nav__home {
         display: block;
-        width:       64px;
-        line-height: 64px;
+        width:       $logo-height;
+        line-height: $logo-height;
         float: left;
         background: $color-links;
         overflow: hidden;
         text-indent: 100%;
+        border-radius: $base-round;
 
-        @include media-query(lap-and-up) {
-            margin-right: 12px;
-        }
-
-        .page-head--large & {
+        .page-head--masthead & {
             background: white;
         }
 
     }
 
+    /**
+     * On smaller viewports, the nav is a 2x2 grid of links that lies perfectly
+     * fluch with the top and bottom of the home link. On larger viewports, the
+     * nav becomes a single row of links vertically centred to the logo, but
+     * way over to the right.
+     */
     .site-nav__list {
         margin:  0;
         padding: 0;
@@ -76,10 +84,10 @@
                 display: block;
                 padding-right: 12px;
                 padding-left:  12px;
-                line-height: 32px;
+                line-height: halve($logo-height);
 
                 @include media-query(lap-and-up) {
-                    line-height: 64px;
+                    line-height: $logo-height;
                 }
 
             }
