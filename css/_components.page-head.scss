@@ -22,7 +22,6 @@
 .page-head {
     padding-top:    $spacing-unit--small; /* [1] */
     padding-bottom: $spacing-unit--small; /* [1] */
-    @extend %clearfix;
 
     @include media-query(lap-and-up) {
         padding-top:    $spacing-unit; /* [2] */

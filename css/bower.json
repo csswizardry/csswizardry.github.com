@@ -22,7 +22,8 @@
     "inuit-headings": "~0.1.1",
     "inuit-buttons": "~0.3.2",
     "inuit-layout": "~0.1.2",
-    "inuit-widths": "~0.2.0"
+    "inuit-widths": "~0.2.0",
+    "inuit-spacing": "~0.5.1"
   },
   "resolutions": {
     "inuit-functions": "~0.2.0"

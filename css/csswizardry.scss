@@ -38,6 +38,7 @@
  *
  * TRUMPS
  * Widths...............Simple width helper classes.
+ * Spacing..............Micro-level spacing.
  */
 
 
@@ -47,7 +48,6 @@
 /**
  * #SETTINGS
  */
-
 @import "bower_components/inuit-defaults/settings.defaults";
 @import "settings.global";
 @import "settings.colors";
@@ -99,6 +99,7 @@
  * #OBJECTS
  */
 @import "objects.wrappers";
+
 $inuit-btn-background:      $color-btn;
 $inuit-btn-radius:          3px;
 $inuit-btn-border-width:    2px;
@@ -126,3 +127,6 @@ $inuit-enable-btn--full:    true;
  */
 $inuit-use-fractions:   false;
 @import "bower_components/inuit-widths/trumps.widths";
+
+$inuit-enable-margins--none:    true;
+@import "bower_components/inuit-spacing/trumps.spacing";

@@ -6,6 +6,7 @@
 $logo-height:   64px;
 
 .site-nav {
+    @extend %clearfix;
     @include font-size(12px);
     @include font-weight(bold);
 
@@ -42,14 +43,15 @@ $logo-height:   64px;
 
         .site-nav__logo {
             display: block;
-            border-radius: $base-round;
-            overflow: hidden;
-
-            .page-head--masthead & {
-                fill: $color-page-head;
-            }
-
         }
+
+            .site-nav__logo-fill {
+
+                .page-head--masthead & {
+                    fill: $color-page-head;
+                }
+
+            }
 
     /**
      * On smaller viewports, the nav is a 2x2 grid of links that lies perfectly
