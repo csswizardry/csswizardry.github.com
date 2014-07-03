@@ -4,4 +4,9 @@
 
 @include headings() {
     @include font-weight(regular);
+    color: $color-headings;
+}
+
+.heading {
+    @include font-size(18px);
 }

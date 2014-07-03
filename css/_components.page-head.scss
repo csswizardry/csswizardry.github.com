@@ -42,6 +42,7 @@
     right:  $spacing-unit--small;
     bottom: $spacing-unit--small;
     left:   $spacing-unit--small;
+    color: #fff;
     @include font-size(24px);
 
     @include media-query(lap-and-up) {

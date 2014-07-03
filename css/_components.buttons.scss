@@ -7,7 +7,7 @@
     @include font-weight(bold);
 
     @include attention(self) {
-        color: $color-links;
+        color: $color-btn;
     }
 
 }
