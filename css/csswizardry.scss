@@ -37,6 +37,7 @@
  * COMPONENTS
  * Page-head............Page header styles.
  * Bands................Full-width page bands.
+ * Promo................Lead promo blocks on the home page.
  * Page-foot............Page footer styles.
  * Page-micro...........Page copyright styles.
  * Site-nav.............Site’s main nav area.
@@ -44,6 +45,7 @@
  *
  * TRUMPS
  * Widths...............Simple width helper classes.
+ * Widths-responsive....Polyfill for responsive width classes.
  * Spacing..............Micro-level spacing.
  */
 
@@ -127,6 +129,7 @@ $inuit-enable-layout--center:   true;
  */
 @import "components.page-head";
 @import "components.bands";
+@import "components.promo";
 @import "components.page-foot";
 @import "components.page-micro";
 @import "components.site-nav";
@@ -142,6 +145,7 @@ $inuit-enable-layout--center:   true;
  */
 $inuit-use-fractions:   false;
 @import "bower_components/inuit-widths/trumps.widths";
+@import "trumps.widths-responsive";
 
 $inuit-enable-margins:          true;
 $inuit-enable-margins--none:    true;

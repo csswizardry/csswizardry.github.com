@@ -1,0 +1,143 @@
+/*------------------------------------*\
+    #WIDTHS-RESPONSIVE
+\*------------------------------------*/
+
+/**
+ * Some simple, crude, starting-point widths to use alongside the layout system.
+ */
+@include media-query(palm) {
+
+    .palm-one-whole         { width: 100%; }
+
+    .palm-one-half          { width: 50%; }
+
+    .palm-one-third         { width: 33.333333333%; }
+    .palm-two-thirds        { width: 66.666666666%; }
+
+    .palm-one-quarter       { width: 25%; }
+    .palm-three-quarters    { width: 75%; }
+
+    .palm-one-fifth         { width: 20%; }
+    .palm-two-fifths        { width: 40%; }
+    .palm-three-fifths      { width: 60%; }
+    .palm-four-fifths       { width: 80%; }
+
+    .palm-one-tenth         { width: 10%; }
+    .palm-three-tenths      { width: 30%; }
+    .palm-seven-tenths      { width: 70%; }
+    .palm-nine-tenths       { width: 90%; }
+
+}
+
+
+
+
+
+@include media-query(lap) {
+
+    .lap-one-whole          { width: 100%; }
+
+    .lap-one-half           { width: 50%; }
+
+    .lap-one-third          { width: 33.333333333%; }
+    .lap-two-thirds         { width: 66.666666666%; }
+
+    .lap-one-quarter        { width: 25%; }
+    .lap-three-quarters     { width: 75%; }
+
+    .lap-one-fifth          { width: 20%; }
+    .lap-two-fifths         { width: 40%; }
+    .lap-three-fifths       { width: 60%; }
+    .lap-four-fifths        { width: 80%; }
+
+    .lap-one-tenth          { width: 10%; }
+    .lap-three-tenths       { width: 30%; }
+    .lap-seven-tenths       { width: 70%; }
+    .lap-nine-tenths        { width: 90%; }
+
+}
+
+
+
+
+
+@include media-query(lap-and-up) {
+
+    .lap-and-up-one-whole       { width: 100%; }
+
+    .lap-and-up-one-half        { width: 50%; }
+
+    .lap-and-up-one-third       { width: 33.333333333%; }
+    .lap-and-up-two-thirds      { width: 66.666666666%; }
+
+    .lap-and-up-one-quarter     { width: 25%; }
+    .lap-and-up-three-quarters  { width: 75%; }
+
+    .lap-and-up-one-fifth       { width: 20%; }
+    .lap-and-up-two-fifths      { width: 40%; }
+    .lap-and-up-three-fifths    { width: 60%; }
+    .lap-and-up-four-fifths     { width: 80%; }
+
+    .lap-and-up-one-tenth       { width: 10%; }
+    .lap-and-up-three-tenths    { width: 30%; }
+    .lap-and-up-seven-tenths    { width: 70%; }
+    .lap-and-up-nine-tenths     { width: 90%; }
+
+}
+
+
+
+
+
+@include media-query(portable) {
+
+    .portable-one-whole         { width: 100%; }
+
+    .portable-one-half          { width: 50%; }
+
+    .portable-one-third         { width: 33.333333333%; }
+    .portable-two-thirds        { width: 66.666666666%; }
+
+    .portable-one-quarter       { width: 25%; }
+    .portable-three-quarters    { width: 75%; }
+
+    .portable-one-fifth         { width: 20%; }
+    .portable-two-fifths        { width: 40%; }
+    .portable-three-fifths      { width: 60%; }
+    .portable-four-fifths       { width: 80%; }
+
+    .portable-one-tenth         { width: 10%; }
+    .portable-three-tenths      { width: 30%; }
+    .portable-seven-tenths      { width: 70%; }
+    .portable-nine-tenths       { width: 90%; }
+
+}
+
+
+
+
+
+@include media-query(desk) {
+
+    .desk-one-whole         { width: 100%; }
+
+    .desk-one-half          { width: 50%; }
+
+    .desk-one-third         { width: 33.333333333%; }
+    .desk-two-thirds        { width: 66.666666666%; }
+
+    .desk-one-quarter       { width: 25%; }
+    .desk-three-quarters    { width: 75%; }
+
+    .desk-one-fifth         { width: 20%; }
+    .desk-two-fifths        { width: 40%; }
+    .desk-three-fifths      { width: 60%; }
+    .desk-four-fifths       { width: 80%; }
+
+    .desk-one-tenth         { width: 10%; }
+    .desk-three-tenths      { width: 30%; }
+    .desk-seven-tenths      { width: 70%; }
+    .desk-nine-tenths       { width: 90%; }
+
+}
+

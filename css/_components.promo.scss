@@ -1,0 +1,12 @@
+/*------------------------------------*\
+    #PROMO
+\*------------------------------------*/
+
+.promo {
+    @extend %margin-bottom;
+    padding-bottom: 0;
+}
+
+    .promo__block {
+        @extend %margin-bottom;
+    }

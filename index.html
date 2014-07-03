@@ -7,15 +7,15 @@ page-class: page--home
 
 </div><!-- /wrapper -->
 
-<section class="[ band  band--highlight ]  mb">
+<section class="[ band  band--highlight ]  promo">
 
     <div class="wrapper">
 
         <ul class="layout">
 
-            <li class="layout__item  one-third">
+            <li class="layout__item  desk-one-third">
 
-                <div class="media" data-ui-component="promo-block">
+                <div class="media  promo__block">
                     <img src="http://dummyimage.com/64x64/ddd/ddd" class="media__img" style="border-radius: 100%;" />
                     <div class="media__body">
                         <h2 class="heading  mb0">Consultancy</h2>
@@ -23,9 +23,9 @@ page-class: page--home
                     </div>
                 </div>
 
-            <li class="layout__item  one-third">
+            <li class="layout__item  lap-and-up-one-half  desk-one-third">
 
-                <div class="media" data-ui-component="promo-block">
+                <div class="media  promo__block">
                     <img src="http://dummyimage.com/64x64/ddd/ddd" class="media__img" style="border-radius: 100%;" />
                     <div class="media__body">
                         <h2 class="heading  mb0">Engineering</h2>
@@ -33,9 +33,9 @@ page-class: page--home
                     </div>
                 </div>
 
-            <li class="layout__item  one-third">
+            <li class="layout__item  lap-and-up-one-half  desk-one-third">
 
-                <div class="media" data-ui-component="promo-block">
+                <div class="media  promo__block">
                     <img src="http://dummyimage.com/64x64/ddd/ddd" class="media__img" style="border-radius: 100%;" />
                     <div class="media__body">
                         <h2 class="heading  mb0">Workshops</h2>
@@ -52,7 +52,7 @@ page-class: page--home
 <div class="wrapper">
 
 <div class="layout">
-    <div class="layout__item  two-thirds">
+    <div class="layout__item  lap-and-up-two-thirds">
 
         <section class="posts">
             <h3 class="heading">Articles</h3>
@@ -67,14 +67,14 @@ page-class: page--home
         </section>
 
         <ol class="layout  mb" data-ui-component="pagination">
-            <li class="layout__item  one-half">
+            <li class="layout__item  lap-and-up-one-half">
                 {% if paginator.next_page %}
                     <a href="/page{{paginator.next_page}}" class="btn  btn--full  btn--secondary">Older articles</a>
                 {% else %}
                     Older articles
                 {% endif %}
             
-            <li class="layout__item  one-half">
+            <li class="layout__item  lap-and-up-one-half">
                 {% if paginator.previous_page %}
                     {% if paginator.previous_page == 1 %}
                         <a href="/" class="btn  btn--full">Newer articles</a>
@@ -88,7 +88,7 @@ page-class: page--home
 
     </div
 
-   ><div class="layout__item  one-third">
+   ><div class="layout__item  lap-and-up-one-third">
 
         <div class="box  box--highlight">
             {% include sub-content.html %}
