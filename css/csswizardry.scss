@@ -47,6 +47,7 @@
  * Widths...............Simple width helper classes.
  * Widths-responsive....Polyfill for responsive width classes.
  * Spacing..............Micro-level spacing.
+ * Show/hide............Helpers to show and side stuff.
  */
 
 
@@ -150,3 +151,4 @@ $inuit-use-fractions:   false;
 $inuit-enable-margins:          true;
 $inuit-enable-margins--none:    true;
 @import "bower_components/inuit-spacing/trumps.spacing";
+@import "trumps.show-hide";
