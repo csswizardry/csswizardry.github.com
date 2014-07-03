@@ -1,0 +1,13 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn--secondary {
+    background: none;
+    @include font-weight(bold);
+
+    @include attention(self) {
+        color: $color-links;
+    }
+
+}

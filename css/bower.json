@@ -19,6 +19,7 @@
     "inuit-shared": "~0.1.1",
     "inuit-box-sizing": "~0.1.1",
     "inuit-page": "~0.1.1",
-    "inuit-headings": "~0.1.1"
+    "inuit-headings": "~0.1.1",
+    "inuit-buttons": "~0.3.2"
   }
 }

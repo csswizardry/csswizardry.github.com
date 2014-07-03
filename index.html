@@ -33,9 +33,9 @@ page-class: page--home
     <li class="pagination__prev">
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-            <a href="/">Previous</a>
+            <a href="/" class="btn">Newer articles</a>
         {% else %}
-            <a href="/page{{paginator.previous_page}}">Newer articles</a>
+            <a href="/page{{paginator.previous_page}}" class="btn">Newer articles</a>
         {% endif %}
         {% else %}
             Newer articles
@@ -44,7 +44,7 @@ page-class: page--home
     
  --><li class="pagination__next">
         {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}">Older articles</a>
+            <a href="/page{{paginator.next_page}}" class="btn  btn--secondary">Older articles</a>
         {% else %}
             Older articles
         {% endif %}

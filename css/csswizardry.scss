@@ -24,9 +24,12 @@
  * Page.................Our extension of the inuitcss page module.
  *
  * OBJECTS
+ * Buttons..............inuitcss’ buttons module.
  *
  * COMPONENTS
  * Page-head............Page header styles.
+ * Site-nav.............Site’s main nav area.
+ * Buttons..............Extension of inuitcss’ buttons.
  */
 
 
@@ -86,6 +89,10 @@
 /**
  * #OBJECTS
  */
+$inuit-btn-background:      $color-links;
+$inuit-btn-radius:          3px;
+$inuit-btn-border-width:    2px;
+@import "bower_components/inuit-buttons/objects.buttons";
 
 
 
@@ -96,3 +103,4 @@
  */
 @import "components.page-head";
 @import "components.site-nav";
+@import "components.buttons";
