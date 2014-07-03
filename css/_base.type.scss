@@ -15,3 +15,7 @@ strong, b,
 dt {
     @include font-weight(bold);
 }
+
+code, kbd, samp {
+    color: $color-code;
+}
