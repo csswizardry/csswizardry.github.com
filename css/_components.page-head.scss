@@ -27,7 +27,7 @@
     border-bottom-color: rgba(0, 0, 0, 0.05);
     padding-top:    $spacing-unit--small; /* [1] */
     padding-bottom: $spacing-unit--small; /* [1] */
-    background-color: #fff;
+    background-color: $color-page-head-background;
 
     @include media-query(lap-and-up) {
         padding-top:    $spacing-unit; /* [2] */
@@ -59,16 +59,16 @@
 .page-head--masthead {
     margin-bottom: 0;
     background: url(/img/css/masthead.jpg) center center #000;
-    border-top-color: $color-page-head;
+    border-top-color: $color-masthead;
     border-bottom-width: 0;
     @include vendor(background-size, cover);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
-    color: $color-page-head; /* [1] */
+    color: $color-masthead; /* [1] */
 
     a {
 
         @include attention(self) {
-            color: $color-page-head; /* [1] */
+            color: $color-masthead; /* [1] */
         }
 
     }
@@ -94,7 +94,7 @@
     position: absolute;
     bottom: 0;
     left: auto;
-    color: $color-page-head;
+    color: $color-masthead;
     @include font-size(24px);
     padding: $spacing-unit--small;
     background-color: rgba(0, 0, 0, 0.1);

@@ -2,10 +2,14 @@
 //    #COLORS
 //\*------------------------------------*/
 
-$color-brand:   $brand-color;
-$color-pink:    $color-brand;
-$color-gray:    #444;
-$color-green:   #859900;
+$color-brand:       $brand-color;
+$color-pink:        $color-brand;
+$color-gray:        #444;
+$color-gray-light:  #999;
+$color-gray-ui:     #ddd;
+$color-green:       #859900;
+$color-highlight:   #fff;
+$color-tint:        rgba(0,0,0,0.025);
 
 
 
@@ -27,8 +31,9 @@ $color-links:   $color-pink;
 
 
 // Text
-$color-code:    $color-green;
-$color-pre:     $color-gray;
+$color-code:            $color-green;
+$color-pre-background:  $color-gray;
+$color-pre:             #fff;
 
 
 
@@ -42,8 +47,17 @@ $color-btn:     $color-links;
 
 
 // Page head
-$color-page-head:           #fff;
-$color-page-head-border:    $color-pink;
+$color-masthead:                #fff;
+$color-page-head-border:        $color-pink;
+$color-page-head:               #fff;
+$color-page-head-background:    #fff;
+
+
+
+
+
+// Site nav
+$color-site-nav:    $inuit-base-text-color;
 
 
 
@@ -51,7 +65,6 @@ $color-page-head-border:    $color-pink;
 
 // Page foot
 $color-page-foot:               #fff;
-$color-page-foot-background:    #ccc;
 
 
 
@@ -73,12 +86,14 @@ $color-headings:    $color-pink;
 
 
 // Boxes
-$color-box-highlight-background:    #fff;
-$color-box-highlight-border:        #ddd;
+$color-box-highlight-background:    $color-highlight;
+$color-box-highlight-border:        $color-gray-ui;
+$color-box-tint-background:         $color-tint;
 
 
 
 
 
 // Bands
-$color-band-highlight-background:   #fff;
+$color-band-highlight-background:   $color-highlight;
+$color-band-tint-background:        $color-tint;

@@ -26,12 +26,12 @@ pre {
     word-wrap: normal;
     overflow: auto;
     padding: $spacing-unit--small;
-    background-color: $color-pre;
+    background-color: $color-pre-background;
     border-radius: $base-round;
 
     &,
     code, kbd, samp {
-        color: #fff;
+        color: $color-pre;
     }
 
 }

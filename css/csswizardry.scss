@@ -128,13 +128,15 @@ $inuit-enable-layout--center:   true;
 @import "bower_components/inuit-layout/objects.layout";
 @import "bower_components/inuit-box/objects.box";
 @import "bower_components/inuit-media/objects.media";
+
+$inuit-ui-list-border-color: $color-gray-ui;
 @import "bower_components/inuit-ui-list/objects.ui-list";
 
 .ui-list__title {
     display: block;
     @include font-size(12px);
     font-weight: bold;
-    color: #999;
+    color: $color-gray-light;
     margin-bottom: 0;
 }
 

@@ -91,7 +91,7 @@ $logo-height:   64px;
                 padding-right: 12px;
                 padding-left:  12px;
                 line-height: halve($logo-height);
-                color: #555;
+                color: $color-site-nav;
 
                 @include attention() {
                     text-decoration: none;
