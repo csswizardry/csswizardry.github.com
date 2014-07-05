@@ -2,9 +2,12 @@
     #BUTTONS
 \*------------------------------------*/
 
+.btn {
+    @include font-weight(bold);
+}
+
 .btn--secondary {
     background: none;
-    @include font-weight(bold);
 
     @include attention(self) {
         color: $color-btn;
