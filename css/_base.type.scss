@@ -59,3 +59,9 @@ figure {
         }
 
     }
+
+hr {
+    border: none;
+    border-bottom: 1px solid $color-gray-ui;
+    margin-bottom: $spacing-unit - 1px;
+}
