@@ -47,6 +47,8 @@
  * Page-micro...........Page copyright styles.
  * Site-nav.............Site’s main nav area.
  * Buttons..............Extension of inuitcss’ buttons.
+ * Boxes................Extension of inuitcss’ box object
+ * Post.................Post-specific styles.
  *
  * TRUMPS
  * Widths...............Simple width helper classes.
@@ -128,6 +130,14 @@ $inuit-enable-layout--center:   true;
 @import "bower_components/inuit-media/objects.media";
 @import "bower_components/inuit-ui-list/objects.ui-list";
 
+.ui-list__title {
+    display: block;
+    @include font-size(12px);
+    font-weight: bold;
+    color: #999;
+    margin-bottom: 0;
+}
+
 
 
 
@@ -143,6 +153,7 @@ $inuit-enable-layout--center:   true;
 @import "components.site-nav";
 @import "components.buttons";
 @import "components.boxes";
+@import "components.post";
 
 
 

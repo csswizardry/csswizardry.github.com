@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #POST
+\*------------------------------------*/
+
+.post {
+}
+
+    .post__date {
+        display: block;
+        color: #aaa;
+        margin-bottom: 0;
+    }
+
+    .post__title {
+        margin-bottom: 0;
+
+        > a {
+
+            @include attention() {
+                text-decoration: none;
+                background-color: $color-links;
+                color: $inuit-base-background-color;
+            }
+
+        }
+
+    }

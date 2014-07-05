@@ -54,16 +54,19 @@ page-class: page--home
 <div class="layout">
     <div class="layout__item  lap-and-up-two-thirds">
 
-        <section class="posts">
+        <section class="post">
+
             <h3 class="heading">Articles</h3>
-            <ul class="ui-list  mb">
+
+            <ul class="ui-list  post__list  mb">
                 {% for post in paginator.posts %}
                 <li class="ul-list__item">
-                    <span class="post__time">{{ post.date | date: "%d %B, %Y" }}</span>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <span class="post__date">{{ post.date | date: "%d %B, %Y" }}</span>
+                    <h3 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 </li>
                 {% endfor %}
             </ul>
+
         </section>
 
         <ol class="layout" data-ui-component="pagination">
