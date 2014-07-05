@@ -46,6 +46,7 @@ $logo-height:   64px;
         }
 
             .site-nav__logo-fill {
+                fill: $color-brand;
 
                 .page-head--masthead & {
                     fill: $color-page-head;
