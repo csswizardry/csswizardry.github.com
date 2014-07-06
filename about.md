@@ -8,7 +8,7 @@ permalink: /about/
 
 <ul class="tabs" id="section:about">
     <li class="tabs__item">
-        <a href="#section:about" class="tabs__link  tabs__current">About</a>
+        <a href="#section:page-title" class="tabs__link  tabs__current">About</a>
     </li>
     <li class="tabs__item">
         <a href="#section:colophon" class="tabs__link">Colophon</a>
@@ -75,7 +75,7 @@ me.</strong></a>
 
 <ul class="tabs">
     <li class="tabs__item">
-        <a href="#section:about" class="tabs__link">About</a>
+        <a href="#section:page-title" class="tabs__link">About</a>
     </li>
     <li class="tabs__item">
         <a href="#section:colophon" class="tabs__link  tabs__current">Colophon</a>
@@ -100,7 +100,7 @@ me.</strong></a>
 
 <ul class="tabs">
     <li class="tabs__item">
-        <a href="#section:about" class="tabs__link">About</a>
+        <a href="#section:page-title" class="tabs__link">About</a>
     </li>
     <li class="tabs__item">
         <a href="#section:colophon" class="tabs__link">Colophon</a>
