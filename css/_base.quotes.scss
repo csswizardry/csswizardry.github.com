@@ -1,0 +1,76 @@
+/*------------------------------------*\
+    #QUOTES
+\*------------------------------------*/
+
+/**
+ * Inline quotes.
+ *
+ * 1. If the quote is the first element in a parent, hang its opening
+ *    punctuation.
+ */
+q {
+    quotes: "‘" "’" "“" "”";
+
+    &:before {
+        content: open-quote;
+    }
+
+    &:after {
+        content: close-quote;
+    }
+
+    &:first-child {
+        display: inline-block;
+        text-indent: -0.26em; /* [1] */
+    }
+
+}
+
+
+
+
+
+/**
+ * Block quotes.
+ *
+ * 1. Hang opening punctuation.
+ */
+blockquote {
+    text-indent: -0.41em; /* [1] */
+    quotes: "“" "”";
+
+    p {
+
+        &:before {
+            content: open-quote;
+        }
+
+        &:after {
+            content: no-close-quote;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
+
+            &:after {
+                content: close-quote;
+            }
+
+        }
+
+    }
+
+    q {
+        quotes: "‘" "’";
+
+        &:before {
+            content: open-quote;
+        }
+
+        &:after {
+            content: close-quote;
+        }
+
+    }
+
+}

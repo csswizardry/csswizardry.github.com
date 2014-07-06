@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    #CAROUSEL
+\*------------------------------------*/
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+    .carousel__panes {
+        margin:  0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        display: table;
+        width: 500%;
+        overflow: hidden;
+
+        -webkit-animation: carousel 45s alternate infinite;
+           -moz-animation: carousel 45s alternate infinite;
+                animation: carousel 45s alternate infinite;
+    }
+
+    .carousel__panes:hover {
+        -webkit-animation-play-state: paused;
+           -moz-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+        
+        .carousel__pane {
+            position: relative;
+            display: table-cell;
+            vertical-align: middle;
+            width: 20%; /* 100 / number of panes */
+        }
+
+
+@-webkit-keyframes carousel{
+    0%    { left:0; }
+    15%   { left:0; }
+    20%   { left:-100%; }
+    35%   { left:-100%; }
+    40%   { left:-200%; }
+    55%   { left:-200%; }
+    60%   { left:-300%; }
+    75%   { left:-300%; }
+    80%   { left:-400%; }
+    100%  { left:-400%; }
+}

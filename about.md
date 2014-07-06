@@ -37,9 +37,9 @@ long-running projects and products. I specialise in OOCSS, architecture,
 scalability, front-end performance, and mobile and responsive web
 design and development.
 
-<blockquote>
+<blockquote class="pull-quote">
     <p>I’ve got a crush on Harry Roberts…</p>
-    <b class="source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
+    <b class="pull-quote__source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
 </blockquote>
 
 I am a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts

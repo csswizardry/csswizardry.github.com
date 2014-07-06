@@ -30,6 +30,7 @@
  * Links................Hyperlink styles
  * Images...............inuitcss images
  * Lists................inuitcss list styles
+ * Quotes...............Styling for blockquotes, etc.
  *
  * OBJECTS
  * Wrappers.............Wrappers and page constraints.
@@ -49,6 +50,8 @@
  * Buttons..............Extension of inuitcss’ buttons.
  * Boxes................Extension of inuitcss’ box object
  * Post.................Post-specific styles.
+ * Pull-quote...........Large, featured quotes.
+ * Carousel.............Pure CSS carousel component.
  *
  * TRUMPS
  * Widths...............Simple width helper classes.
@@ -108,6 +111,7 @@
 @import "base.links";
 @import "bower_components/inuit-lists/base.lists";
 @import "bower_components/inuit-images/base.images";
+@import "base.quotes";
 
 
 
@@ -126,6 +130,8 @@ $inuit-enable-btn--full:    true;
 
 $inuit-enable-layout--center:   true;
 @import "bower_components/inuit-layout/objects.layout";
+
+$inuit-enable-box--large:   true;
 @import "bower_components/inuit-box/objects.box";
 @import "bower_components/inuit-media/objects.media";
 
@@ -156,6 +162,8 @@ $inuit-ui-list-border-color: $color-gray-ui;
 @import "components.buttons";
 @import "components.boxes";
 @import "components.post";
+@import "components.pull-quote";
+@import "components.carousel";
 
 
 
