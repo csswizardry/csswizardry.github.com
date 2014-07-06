@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    #TABS
+\*------------------------------------*/
+
+.tabs {
+    margin-bottom: $spacing-unit;
+    @include font-weight(bold);
+}
+
+    .tabs__item {
+
+        + .tabs__item > .tabs__link {
+            border-left: none;
+        }
+
+        &:first-child > .tabs__link {
+               border-top-left-radius: $base-round;
+            border-bottom-left-radius: $base-round;
+        }
+
+        &:last-child > .tabs__link {
+               border-top-right-radius: $base-round;
+            border-bottom-right-radius: $base-round;
+        }
+
+    }
+
+        .tabs__link {
+            border: 3px solid $color-brand;
+            padding: $spacing-unit--small;
+
+            @include attention() {
+                @extend .tabs__current;
+            }
+
+        }
+
+        .tabs__current {
+            color: #fff;
+            background-color: $color-brand;
+            text-decoration: none;
+        }

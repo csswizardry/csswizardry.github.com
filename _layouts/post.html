@@ -15,6 +15,15 @@ layout: default
 
             {{ content }}
 
+            {% if page.hide-hire-me-link != true %}
+
+                <hr />
+
+                <p>
+                    <a href="/work/" class="btn  btn--full">Did you enjoy this? <strong>Hire me!</strong></a>
+                </p>
+            {% endif %}
+
         </div
        ><div class="layout__item  desk-two-fifths">
         </div>
