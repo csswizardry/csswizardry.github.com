@@ -26,7 +26,7 @@
     }
 
         .tabs__link {
-            border: 3px solid $color-brand;
+            border: 2px solid $color-brand;
             padding: $spacing-unit--small;
 
             @include attention() {

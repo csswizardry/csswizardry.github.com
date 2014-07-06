@@ -55,6 +55,7 @@
  * Carousel.............Pure CSS carousel component.
  * Iconic...............Iconic icon styles.
  * Tabs.................Extension of the inuitcss tabs object.
+ * Feature list.........Big blocky lists of feature items.
  *
  * TRUMPS
  * Widths...............Simple width helper classes.
@@ -171,6 +172,7 @@ $inuit-ui-list-border-color: $color-gray-ui;
 @import "components.carousel";
 @import "components.iconic";
 @import "components.tabs";
+@import "components.feature-list";
 
 
 

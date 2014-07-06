@@ -1,0 +1,55 @@
+/*------------------------------------*\
+    #FEATURE-LIST
+\*------------------------------------*/
+
+.feature-list {
+    @extend %clearfix;
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .feature-list__item {
+
+        @include media-query(lap-and-up) {
+            float: left;
+            width: 33.333333333%;
+        }
+
+    }
+
+        .feature-list__link {
+            position: relative;
+            display: block;
+            background-color: $color-brand;
+            padding-top: 56.25%;
+            border: 0 solid $inuit-base-background-color;
+            border-top-width: 2px;
+            border-radius: $base-round;
+
+            @include media-query(lap-and-up) {
+                border-left-width: 2px;
+
+                .feature-list__item:nth-of-type(-n+3) > & {
+                    border-top: none;
+                }
+
+                .feature-list__item:nth-of-type(3n+1) > & {
+                    border-left: none;
+                }
+
+            }
+
+        }
+
+            .feature-list__title {
+                @include font-size(24px);
+                @include font-weight(bold);
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                left:  0;
+                margin-top: -12px;
+                color: #fff;
+            }
