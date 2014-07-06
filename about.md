@@ -6,6 +6,18 @@ meta: "About Harry Roberts’ work, abilities, and services"
 permalink: /about/
 ---
 
+<ul class="tabs" id="section:about">
+    <li class="tabs__item">
+        <a href="#section:about" class="tabs__link  tabs__current">About</a>
+    </li>
+    <li class="tabs__item">
+        <a href="#section:colophon" class="tabs__link">Colophon</a>
+    </li>
+    <li class="tabs__item">
+        <a href="#section:contact" class="tabs__link">Contact</a>
+    </li>
+</ul>
+
 Hi there, I’m Harry; I am an [award-winning](https://thenetawards.com/)
 Consultant Front-end Architect, writer, and speaker from the UK. I help
 companies all over the world write better quality, more manageable, more
@@ -59,7 +71,44 @@ me.</strong></a>
 
 ---
 
-## Contact
+## Colophon {#section:colophon}
+
+<ul class="tabs">
+    <li class="tabs__item">
+        <a href="#section:about" class="tabs__link">About</a>
+    </li>
+    <li class="tabs__item">
+        <a href="#section:colophon" class="tabs__link  tabs__current">Colophon</a>
+    </li>
+    <li class="tabs__item">
+        <a href="#section:contact" class="tabs__link">Contact</a>
+    </li>
+</ul>
+
+* inuitcss
+* ITCSS
+* Finch
+* GitHub
+* Jekyll
+* Sass
+* GitHub Pages
+* Iconic
+
+---
+
+## Contact {#section:contact}
+
+<ul class="tabs">
+    <li class="tabs__item">
+        <a href="#section:about" class="tabs__link">About</a>
+    </li>
+    <li class="tabs__item">
+        <a href="#section:colophon" class="tabs__link">Colophon</a>
+    </li>
+    <li class="tabs__item">
+        <a href="#section:contact" class="tabs__link  tabs__current">Contact</a>
+    </li>
+</ul>
 
 I am open to interesting and fun consulting gigs, short-term contracts,
 workshops and any exciting projects working with nice people **starting in
