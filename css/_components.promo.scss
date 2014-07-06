@@ -4,6 +4,11 @@
 
 .promo {
     padding-bottom: 0;
+
+    @include media-query(desk) {
+        padding-bottom: $spacing-unit;
+    }
+
 }
 
     .promo__block {

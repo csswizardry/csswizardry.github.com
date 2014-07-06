@@ -5,4 +5,9 @@
 .page-foot {
     @include font-size(12px);
     padding-bottom: 0;
+
+    @include media-query(desk) {
+        padding-bottom: $spacing-unit;
+    }
+
 }

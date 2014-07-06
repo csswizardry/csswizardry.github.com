@@ -3,14 +3,18 @@
 \*------------------------------------*/
 
 .band {
-    padding-top:    $spacing-unit--small;
-    padding-bottom: $spacing-unit--small;
+    padding-top:    $spacing-unit;
+    padding-bottom: $spacing-unit;
 
-    @include media-query(lap-and-up) {
-        padding-top:    $spacing-unit;
-        padding-bottom: $spacing-unit;
+    @include media-query(desk) {
+        padding-top:    $spacing-unit--large;
+        padding-bottom: $spacing-unit--large;
     }
 
+}
+
+.band--large {
+    padding: $spacing-unit--large;
 }
 
 .band--highlight {
