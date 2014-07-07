@@ -6,18 +6,6 @@ meta: "About Harry Roberts’ work, abilities, and services"
 permalink: /about/
 ---
 
-<ul class="tabs" id="section:about">
-    <li class="tabs__item">
-        <a href="#section:page-title" class="tabs__link  tabs__current">About</a>
-    </li>
-    <li class="tabs__item">
-        <a href="#section:colophon" class="tabs__link">Colophon</a>
-    </li>
-    <li class="tabs__item">
-        <a href="#section:contact" class="tabs__link">Contact</a>
-    </li>
-</ul>
-
 Hi there, I’m Harry; I am an [award-winning](https://thenetawards.com/)
 Consultant Front-end Architect, writer, and speaker from the UK. I help
 companies all over the world write better quality, more manageable, more
@@ -71,19 +59,7 @@ me.</strong></a>
 
 ---
 
-## Colophon {#section:colophon}
-
-<ul class="tabs">
-    <li class="tabs__item">
-        <a href="#section:page-title" class="tabs__link">About</a>
-    </li>
-    <li class="tabs__item">
-        <a href="#section:colophon" class="tabs__link  tabs__current">Colophon</a>
-    </li>
-    <li class="tabs__item">
-        <a href="#section:contact" class="tabs__link">Contact</a>
-    </li>
-</ul>
+## Colophon
 
 CSS Wizardry makes use of many great tools and services; tools and services that
 make my life as a developer much, much simpler.
@@ -111,19 +87,7 @@ take a look round, but please don’t steal anything.
 
 ---
 
-## Contact {#section:contact}
-
-<ul class="tabs">
-    <li class="tabs__item">
-        <a href="#section:page-title" class="tabs__link">About</a>
-    </li>
-    <li class="tabs__item">
-        <a href="#section:colophon" class="tabs__link">Colophon</a>
-    </li>
-    <li class="tabs__item">
-        <a href="#section:contact" class="tabs__link  tabs__current">Contact</a>
-    </li>
-</ul>
+## Contact
 
 I am open to interesting and fun consulting gigs, short-term contracts,
 workshops and any exciting projects working with nice people **starting in

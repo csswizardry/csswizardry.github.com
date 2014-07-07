@@ -28,8 +28,7 @@
     "inuit-media": "~0.2.3",
     "inuit-ui-list": "~0.2.0",
     "inuit-images": "~0.1.0",
-    "inuit-lists": "~0.1.0",
-    "inuit-tabs": "~0.1.1"
+    "inuit-lists": "~0.1.0"
   },
   "resolutions": {
     "inuit-functions": "~0.2.0"

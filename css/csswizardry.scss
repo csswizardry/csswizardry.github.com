@@ -39,7 +39,6 @@
  * Box..................inuitcss’ box object.
  * Media................The media object.
  * UI list..............inuitcss’ UI list.
- * Tabs.................inuitcss’ tabs object.
  *
  * COMPONENTS
  * Page-head............Page header styles.
@@ -54,7 +53,6 @@
  * Pull-quote...........Large, featured quotes.
  * Carousel.............Pure CSS carousel component.
  * Iconic...............Iconic icon styles.
- * Tabs.................Extension of the inuitcss tabs object.
  * Feature list.........Big blocky lists of feature items.
  *
  * TRUMPS
@@ -153,7 +151,6 @@ $inuit-enable-ui-list--small:   true;
     margin-bottom: 0;
 }
 
-@import "bower_components/inuit-tabs/objects.tabs";
 
 
 
@@ -174,7 +171,6 @@ $inuit-enable-ui-list--small:   true;
 @import "components.pull-quote";
 @import "components.carousel";
 @import "components.iconic";
-@import "components.tabs";
 @import "components.feature-list";
 @import "components.adpacks";
 
