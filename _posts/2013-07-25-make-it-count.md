@@ -55,7 +55,7 @@ my slides one last time during the break, and tried to get into the zone.
 
 I got called up on stage, and instantly everything felt all wrong. I couldn’t
 think, I couldn’t focus, I couldn’t really see properly, my hearing was off. I
-started panicking and _really_ started to fuck up my talk. I’ve delivered some
+started panicking and _really_ started to mess up my talk. I’ve delivered some
 pretty big talks overseas to rooms of around 500 people before; I’ve _always_
 been nervous but this was something way more serious than that. I was crashing
 _real_ bad. My hearing went all funny as I ploughed my way through the first
@@ -72,7 +72,7 @@ couldn’t see; I was sat, blind and sweating profusely (my t-shirt looked
 see-through and apparently even my stubble was dripping wet). As I regained
 vision I could just see a sea of eyes on me as I mumbled to
 [Dan](https://twitter.com/hereinthehive) that I couldn’t continue. I was so
-fucking embarrassed.
+embarrassed.
 
 I really want to apologise to Dan and the audience for letting them down. People
 keep telling me that I shouldn’t worry about it, and that people are more
@@ -156,7 +156,7 @@ The culmination of all of these things; the stress of a new talk, the stress of
 quitting a job with nowhere to go afterwards, the toll of a week of
 far-too-much, the weight of months of stress and, dare I say it, almost
 depression about work, it all caught up with me and literally shut me down on a
-stage in front of an audience. Man, I am fucked.
+stage in front of an audience. Man, I am beat.
 
 ## The lesson to learn
 
@@ -166,11 +166,11 @@ _always_ said that I don’t work hard enough to get burnout; I’m a web develo
 I don’t do ‘hard work’, but I do work hard.
 
 If you’re going to take on side projects and speaking and writing and open
-source and suchlike then please, **make them fucking count**. Do not run
-yourself into the ground working on ‘career moves’ if you’re not going to cash
-in on them. It’s taken me a long time to realise this; I started CSS Wizardry
-almost **six years ago** and I’m now only just coming to realise that I now need
-to make _it_ work for me.
+source and suchlike then please, **make them count**. Do not run yourself into
+the ground working on ‘career moves’ if you’re not going to cash in on them.
+It’s taken me a long time to realise this; I started CSS Wizardry almost **six
+years ago** and I’m now only just coming to realise that I now need to make _it_
+work for me.
 
 Everything I’ve been taking on has mounted to the point that I literally blacked
 out on a stage trying to deliver a talk. I’m 23 years old. That is bad news.
