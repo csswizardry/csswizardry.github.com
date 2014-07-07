@@ -11,6 +11,11 @@ permalink: /case-studies/
             <h2 class="feature-list__title">NHS</h2>
         </a>
     </li>
+    <li class="feature-list__item">
+        <a href="css-wizardry/" class="feature-list__link" style="background-color: #f43059;">
+            <h2 class="feature-list__title">CSS Wizardry</h2>
+        </a>
+    </li>
     <!--<li class="feature-list__item">
         <a href="fasetto/" class="feature-list__link" style="background-color: #f2774a;">
             <h2 class="feature-list__title">Fasetto</h2>
