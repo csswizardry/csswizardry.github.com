@@ -60,4 +60,4 @@ this site as a product over the coming months and years.
 
 I have [a public Trello board.](https://trello.com/b/5vYEHwrP/csswizardry-com)
 detailing my outstanding tasks, and I would really appreciate any feedback and
-bug requests.
+bug reports.
