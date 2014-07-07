@@ -98,7 +98,7 @@ The site is responsive—mobile-first flavour—and testing it (as well as demoi
 it to friends and peers) was made incredibly easy by using
 [Finch](https://meetfinch.com/), a new product which allows developers to
 securely expose their local dev sites to any internet-connected device. This
-meant I could check CSS Wizardry on mobiles, tablets, and lager screens without
+meant I could check CSS Wizardry on mobiles, tablets, and larger screens without
 having to host it on a staging server. Being able to save time like this
 definitely helped me hit my self-imposed deadline.
 
