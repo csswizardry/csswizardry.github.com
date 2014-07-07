@@ -24,6 +24,11 @@ my business face to the world for almost a year, and in that time it grew into a
 product in its own right. At the time of writing, that single page micro-site
 has [over 180 commits against it](https://github.com/csswizardry/work)!
 
+<figure>
+  <img src="/img/content/case-studies/css-wizardry/old.png" alt="">
+  <figcaption>Screenshot of the previous CSS Wizardry home page. <a href="/img/content/case-studies/css-wizardry/old-full.png">View full size/quality (179KB).</a></figcaption>
+</figure>
+
 Redesigning a site is never a quick task, particularly when it’s your own, which
 is largely the reason I opted for a separate micro-site instead of overhauling
 CSS Wizardry wholesale. This move meant I could get something live very quickly,
@@ -42,6 +47,11 @@ requirements for that MVP were simple:
 * Introduce a [Case Studies](/case-studies/) section to feature client work
   (given that the majority of my work is consultancy based, case studies make
   more sense than a portfolio does).
+
+<figure>
+  <img src="/img/content/case-studies/css-wizardry/new.jpg" alt="">
+  <figcaption>Screenshot of the current CSS Wizardry home page. <a href="/img/content/case-studies/css-wizardry/new-full.png">View full size/quality (550KB).</a></figcaption>
+</figure>
 
 ## The process
 
