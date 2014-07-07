@@ -81,7 +81,9 @@ via [Google Fonts](https://www.google.com/fonts). The icons are from the
 Responsive testing was made possible by [Finch](https://meetfinch.com/), an
 incredible tool for exposing local dev sites to the open internet.
 
-All of the code that powers CSS Wizardry can be found [on
+CSS Wizardry’s roadmap and task list are viewable on [a public Trello
+board](https://trello.com/b/5vYEHwrP/csswizardry-com), and all of the code that
+powers it can be found [on
 GitHub](https://github.com/csswizardry/csswizardry.github.com). Feel free to
 take a look round, but please don’t steal anything.
 
