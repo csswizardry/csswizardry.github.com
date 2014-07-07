@@ -54,6 +54,8 @@
  * Carousel.............Pure CSS carousel component.
  * Iconic...............Iconic icon styles.
  * Feature list.........Big blocky lists of feature items.
+ * AdPacks..............Ad styling.
+ * Annotate.............Pure CSS figure annotations.
  *
  * TRUMPS
  * Widths...............Simple width helper classes.
@@ -173,6 +175,7 @@ $inuit-enable-ui-list--small:   true;
 @import "components.iconic";
 @import "components.feature-list";
 @import "components.adpacks";
+@import "components.annotate";
 
 
 

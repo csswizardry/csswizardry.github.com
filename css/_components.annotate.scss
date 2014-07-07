@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    #ANNOTATE
+\*------------------------------------*/
+.annotate {
+    position: relative;
+}
+
+    .annotate__image {
+        display: block;
+        border-radius: $brand-round;
+    }
+
+    .annotate__list {
+        list-style: none;
+        margin: 0;
+        position: absolute;
+        top:    0;
+        right:  0;
+        bottom: 0;
+        left:   0;
+    }
+
+        .annotate__item {
+            position: absolute;
+            width:  5%;
+            height: 5%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-indent: 100%;
+            cursor: help;
+            border-width: 2px;
+            border-style: solid;
+            border-color: transparent;
+            border-radius: $brand-round;
+            @include vendor(transition, 0.2s);
+
+            .annotate:hover & {
+                border-color: #ccc;
+                border-color: rgba(255, 255, 255, 0.5);
+
+                &:hover {
+                    z-index: 1;
+                    border-color: #fff;
+                }
+
+            }
+
+        }
+
+    .annotate__caption {
+        position: relative;
+        z-index: 1;
+    }
