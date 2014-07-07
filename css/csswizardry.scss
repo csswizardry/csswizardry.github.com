@@ -140,12 +140,13 @@ $inuit-enable-box--large:   true;
 @import "bower_components/inuit-media/objects.media";
 
 $inuit-ui-list-border-color: $color-gray-ui;
+$inuit-enable-ui-list--small:   true;
 @import "bower_components/inuit-ui-list/objects.ui-list";
 
 .ui-list__title {
     display: block;
     @include font-size(12px);
-    font-weight: bold;
+    @include font-weight(bold);
     color: $color-gray-light;
     margin-bottom: 0;
 }
