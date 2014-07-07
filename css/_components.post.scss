@@ -13,16 +13,4 @@
 
     .post__title {
         margin-bottom: 0;
-
-        > a {
-            border-radius: $base-round;
-
-            @include attention() {
-                text-decoration: none;
-                background-color: $color-links;
-                color: $inuit-base-background-color;
-            }
-
-        }
-
     }
