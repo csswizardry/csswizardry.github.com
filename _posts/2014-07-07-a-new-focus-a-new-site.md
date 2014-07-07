@@ -23,7 +23,7 @@ a product in its own right. There are currently [184
 commits](https://github.com/csswizardry/work) against that one, single-page
 website alone!
 
-A problem still exited, though: the majority of people hitting this site won’t
+A problem still existed, though: the majority of people hitting this site won’t
 land on the <i>work</i> micro-site at all, and the rest of CSS Wizardry was
 still just a blog. It wasn’t really the site of someone who owns a business.
 
