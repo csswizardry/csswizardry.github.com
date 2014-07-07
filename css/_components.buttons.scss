@@ -4,13 +4,22 @@
 
 .btn {
     @include font-weight(bold);
+    @include vendor(transition, 0.2s);
+
+    @include attention() {
+        background-color: darken($color-btn, 10%);
+            border-color: darken($color-btn, 10%);
+    }
+
 }
 
 .btn--secondary {
     background: none;
+    color: $color-btn;
 
-    @include attention(self) {
-        color: $color-btn;
+    @include attention() {
+        background: none;
+        color: darken($color-btn, 10%);
     }
 
 }
