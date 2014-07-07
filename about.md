@@ -78,7 +78,7 @@ The font used is [Open Sans](http://en.wikipedia.org/wiki/Open_Sans), and served
 via [Google Fonts](https://www.google.com/fonts). The icons are from the
 [Iconic](https://useiconic.com/) icon system.
 
-Responsive testing was made possible by [Finch](https://useiconic.com/), an
+Responsive testing was made possible by [Finch](https://meetfinch.com/), an
 incredible tool for exposing local dev sites to the open internet.
 
 All of the code that powers CSS Wizardry can be found [on
