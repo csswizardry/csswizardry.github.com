@@ -48,11 +48,6 @@ requirements for that MVP were simple:
   (given that the majority of my work is consultancy based, case studies make
   more sense than a portfolio does).
 
-<figure>
-  <img src="/img/content/case-studies/css-wizardry/new.jpg" alt="">
-  <figcaption>Screenshot of the current CSS Wizardry home page. <a href="/img/content/case-studies/css-wizardry/new-full.png">View full size/quality (550KB).</a></figcaption>
-</figure>
-
 ## The process
 
 As I’m not too great a designer, I didn’t want to spend ages frustrating myself
@@ -70,6 +65,11 @@ Having the content already there was a real boon, and meant that I didn’t have
 that much work to do restructuring any of the IA. I’d spent weeks on end
 constantly tweaking and refining the copy used throughout the site, so it was
 something I didn’t really need to worry about during the redesign.
+
+<figure>
+  <img src="/img/content/case-studies/css-wizardry/new.jpg" alt="">
+  <figcaption>Screenshot of the current CSS Wizardry home page. <a href="/img/content/case-studies/css-wizardry/new-full.png">View full size/quality (550KB).</a></figcaption>
+</figure>
 
 ## The tech
 
