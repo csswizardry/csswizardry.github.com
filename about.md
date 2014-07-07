@@ -74,9 +74,11 @@ a small footprint. This is then built into [ITCSS](http://itcss.io), a
 proprietary CSS architecture of mine which is designed to aid the growth and
 maintainability of CSS projects.
 
-The font used is [Open Sans](http://en.wikipedia.org/wiki/Open_Sans), and served
-via [Google Fonts](https://www.google.com/fonts). The icons are from the
-[Iconic](https://useiconic.com/) icon system.
+The font used is [Open Sans](http://en.wikipedia.org/wiki/Open_Sans), and is
+served via [Google Fonts](https://www.google.com/fonts). The icons are from the
+[Iconic](https://useiconic.com/) icon system. The photograph used on the
+homepage’s masthead is of me speaking at [DotYork](http://dotyork.com/), and was
+taken by [Jim Poyner](http://jimpoyner.co.uk/).
 
 Responsive testing was made possible by [Finch](https://meetfinch.com/), an
 incredible tool for exposing local dev sites to the open internet.
