@@ -7,15 +7,22 @@ layout: default
 <div class="wrapper">
 
     <div class="layout">
-        <div class="layout__item  desk-three-fifths">
+        <section class="layout__item  desk-three-fifths" data-ui-component="content">
 
             <h1 id="section:page-title">{{ page.title }}</h1>
 
             {{ content }}
 
-        </div
-       ><div class="layout__item  desk-two-fifths">
-        </div>
+        </section
+       ><section class="layout__item  desk-three-tenths  desk-push-one-tenth" data-ui-component="sub-content">
+
+            {% include sub-content.html %}
+
+            <acticle class="[ box  box--highlight ]  mt" data-ui-component="ad">
+                {% include adpacks.html %}
+            </article>
+
+        </section>
 
     </div>
 

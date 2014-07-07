@@ -23,19 +23,18 @@
             display: block;
             background-color: $color-brand;
             padding-top: 56.25%;
-            border: 0 solid $inuit-base-background-color;
-            border-top-width: 2px;
+            margin-top: 2px;
             border-radius: $base-round;
 
             @include media-query(lap-and-up) {
-                border-left-width: 2px;
+                margin-left: 2px;
 
                 .feature-list__item:nth-of-type(-n+3) > & {
-                    border-top: none;
+                    margin-top: 0;
                 }
 
                 .feature-list__item:nth-of-type(3n+1) > & {
-                    border-left: none;
+                    margin-left: 0;
                 }
 
             }

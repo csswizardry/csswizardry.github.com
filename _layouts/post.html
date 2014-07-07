@@ -7,7 +7,7 @@ layout: default
 <div class="wrapper">
 
     <div class="layout">
-        <section class="layout__item  desk-three-fifths  post">
+        <section class="layout__item  desk-three-fifths  post" data-ui-component="content">
 
             <p class="post__date">{{ page.date | date: "%-d %b, %Y" }}</p>
 
@@ -24,9 +24,16 @@ layout: default
                 </p>
             {% endif %}
 
-        </div
-       ><div class="layout__item  desk-two-fifths">
-        </div>
+        </section
+       ><section class="layout__item  desk-three-tenths  desk-push-one-tenth" data-ui-component="sub-content">
+
+            {% include sub-content.html %}
+
+            <acticle class="[ box  box--highlight ]  mt" data-ui-component="ad">
+                {% include adpacks.html %}
+            </article>
+
+        </section>
 
     </div>
 

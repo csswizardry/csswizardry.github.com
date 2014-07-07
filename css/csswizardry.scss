@@ -133,6 +133,8 @@ $inuit-enable-btn--full:    true;
 @import "bower_components/inuit-buttons/objects.buttons";
 
 $inuit-enable-layout--center:   true;
+$inuit-enable-layout--bottom:   true;
+$inuit-enable-layout--large:    true;
 @import "bower_components/inuit-layout/objects.layout";
 
 $inuit-enable-box--large:   true;
@@ -174,6 +176,7 @@ $inuit-enable-ui-list--small:   true;
 @import "components.iconic";
 @import "components.tabs";
 @import "components.feature-list";
+@import "components.adpacks";
 
 
 

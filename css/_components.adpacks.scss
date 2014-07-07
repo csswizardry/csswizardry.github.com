@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #ADPACKS
+\*------------------------------------*/
+
+.adpacks {
+    @include font-size(12px);
+    font-family: sans-serif;
+    text-align: center;
+
+    a {
+        color: inherit;
+    }
+
+}
+
+.bsa_it_t {
+    display: block;
+    font-weight: bold;
+}
+
+.bsa_it_p {
+    display: none;
+}
