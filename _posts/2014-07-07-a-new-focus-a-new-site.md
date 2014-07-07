@@ -20,7 +20,8 @@ business-oriented face onto the web: it would be far, _far_ quicker to build
 something small and focused from scratch than it would have been—at the time—to
 redesign the whole site. That micro site has served me very well, and grew into
 a product in its own right. There are currently [184
-commits](https://github.com/csswizardry/work) against that single page website.
+commits](https://github.com/csswizardry/work) against that one, single-page
+website alone!
 
 A problem still exited, though: the majority of people hitting this site won’t
 land on the <i>work</i> micro-site at all, and the rest of CSS Wizardry was
