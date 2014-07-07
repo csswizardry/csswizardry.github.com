@@ -1,12 +1,44 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}" />
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,600,300" />
-    <link rel="stylesheet" href="/css/csswizardry.min.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+
+<title>{{ page.title }} &ndash; CSS Wizardry &ndash; CSS, OOCSS, front-end architecture, performance and more, by Harry Roberts</title>
+
+<!-- Prefetch DNS for external assets (Twitter widgets etc). -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//themes.googleusercontent.com">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,600,300">
+<link rel="stylesheet" href="/css/csswizardry.min.css">
+
+<link rel="dns-prefetch" href="//cdn.adpacks.com">
+<link rel="dns-prefetch" href="//s3.buysellads.com">
+<link rel="dns-prefetch" href="//platform.twitter.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//platform.twitter.com">
+<link rel="dns-prefetch" href="//s3.buysellads.com">
+<link rel="dns-prefetch" href="//stats.buysellads.com">
+<link rel="dns-prefetch" href="https://twitter.com">
+<link rel="dns-prefetch" href="https://cdn.syndication.twimg.com">
+
+<!-- Prerender work page -->
+<link rel="prerender" href="http://csswizardry.com/work/">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@csswizardry">
+<meta name="twitter:domain" content="csswizardry.com">
+<meta name="twitter:creator" content="@csswizardry">
+<meta name="twitter:title" content="{{ page.title }} – CSS Wizardry">
+<meta name="twitter:image:src" content="http://csswizardry.com/logo.png">
+{% if page.meta %}
+    <meta name="twitter:description" content="{{ page.meta }}">
+{% endif %}
+
+<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/csswizardrycom">
+
+<link rel="shortcut icon" href="/icon.png">
+<link rel="apple-touch-icon-precomposed" href="/icon.png">
+<meta name="apple-mobile-web-app-title" content="csswizardry">
+<meta name="description" content="Articles on CSS, OOCSS, front-end architecture, scalability and performance.">
 
 </head>
