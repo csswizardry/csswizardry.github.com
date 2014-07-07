@@ -32,13 +32,13 @@ A few of my key responsibilities on this project included:
 
 * Design and product rationalisation
 * UI development
-* * Architecture
-* * UI Toolkit
-* * Responsive development
-* * Product integration
+  * Architecture
+  * UI Toolkit
+  * Responsive development
+  * Product integration
 * Performance engineering
-* * ‘Traditional’ optimisations (HTTP optimisation, optimised code, etc.)
-* * Rendering performance
+  * ‘Traditional’ optimisations (HTTP optimisation, optimised code, etc.)
+  * Rendering performance
 
 I left the NHS with:
 
