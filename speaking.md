@@ -26,7 +26,7 @@ with your team. If you would like to organise one of these then
 
 <h2>Upcoming events</h2>
 
-<ul class="ui-list  landmark">
+<ul class="ui-list  mb">
 
 	<li>
         <h3 class="ui-list__title">Talk &amp; Workshop</h3>
@@ -42,7 +42,7 @@ with your team. If you would like to organise one of these then
 
 <h3>Previous events</h3>
 
-<ul class="ui-list">
+<ul class="ui-list  mb">
 
 	<li>
         <h3 class="ui-list__title">Talk</h3>
