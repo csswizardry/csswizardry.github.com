@@ -5,7 +5,7 @@ permalink: /case-studies/nhs-nhsx-elearning-platform/
 ---
 
 I must admit, when I saw an email from the NHS asking me if I’d like to help
-them on a project, my first thought was one of much uncertainly. Usually, in
+them on a project, my first thought was one of much uncertainty. Usually, in
 British media, most reports about IT in the public sector are horror stories,
 with multi-million pound contracts awarded to huge ‘Enterprise’ contractors who
 do a terrible job, take their cheque, and leave somebody else to clean up the
