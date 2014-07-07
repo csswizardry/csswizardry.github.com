@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NHS – NHSx eLearning platform
-permalink: /case-studies/nhs/
+permalink: /case-studies/nhs-nhsx-elearning-platform/
 ---
 
 I must admit, when I saw an email from the NHS asking me if I’d like to help
