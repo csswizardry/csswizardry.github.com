@@ -85,14 +85,29 @@ me.</strong></a>
     </li>
 </ul>
 
-* inuitcss
-* ITCSS
-* Finch
-* GitHub
-* Jekyll
-* Sass
-* GitHub Pages
-* Iconic
+CSS Wizardry makes use of many great tools and services; tools and services that
+make my life as a developer much, much simpler.
+
+CSS Wizardry is built on [Jekyll](http://jekyllrb.com/), an open source static
+site generator. This is hosted using [GitHub Pages](https://pages.github.com/).
+
+The CSS is written in [Sass](http://sass-lang.com/), and built on top of
+[inuitcss](https://github.com/inuitcss). inuitcss is a free, open-source,
+Sass-based, OOCSS framework with a strong focus on performance, scalability, and
+a small footprint. This is then built into [ITCSS](http://itcss.io), a
+proprietary CSS architecture of mine which is designed to aid the growth and
+maintainability of CSS projects.
+
+The font used is [Open Sans](http://en.wikipedia.org/wiki/Open_Sans), and served
+via [Google Fonts](https://www.google.com/fonts). The icons are from the
+[Iconic](https://useiconic.com/) icon system.
+
+Responsive testing was made possible by [Finch](https://useiconic.com/), an
+incredible tool for exposing local dev sites to the open internet.
+
+All of the code that powers CSS Wizardry can be found [on
+GitHub](https://github.com/csswizardry/csswizardry.github.com). Feel free to
+take a look round, but please don’t steal anything.
 
 ---
 
