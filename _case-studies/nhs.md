@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NHS – NHSx
+title: NHS – NHSx eLearning platform
 permalink: /case-studies/nhs/
 ---
 
@@ -20,6 +20,11 @@ that the site would have to look exactly the same in every browser.
 **This project couldn’t have been more different**: responsive, mobile first,
 built on Rails, HTML5, and Sass, and all run very agile by a lean team of just
 four people.
+
+<figure>
+  <img src="/img/content/case-studies/nhs/01.png" alt="">
+  <figcaption><a href="/img/content/case-studies/nhs/01-full.png">View full size/quality (113KB).</a></figcaption>
+</figure>
 
 ## Responsibilities and deliverables
 
@@ -69,6 +74,11 @@ a large client in the next city over. I put the two in touch, and Josh was in.
 
 Next, the three of us set up an informal meeting at the NHS offices to meet
 each other, and decide how we would go about tackling the project.
+
+<figure>
+  <img src="/img/content/case-studies/nhs/02.png" alt="">
+  <figcaption><a href="/img/content/case-studies/nhs/02-full.png">View full size/quality (95KB).</a></figcaption>
+</figure>
 
 ## The process
 
