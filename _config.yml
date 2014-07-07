@@ -9,8 +9,3 @@ url: "http://csswizardry.com"
 markdown: kramdown
 permalink: /:year/:month/:title
 paginate: 10
-
-collections:
-  case-studies:
-    output: true
-    permalink: /case-studies/:path
