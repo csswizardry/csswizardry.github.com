@@ -16,12 +16,24 @@
 
     /**
      * 1. Three columns on wide enough devices.
+     * 2. This crazy stuff ensures that the list has no orhpans. Thanks to
+     *    Heydon Pickering for this:
+     *    http://www.heydonworks.com/article/tetris-the-power-of-css
      */
     .feature-list__item {
 
         @include media-query(lap-and-up) {
             float: left;
             width: 33.333333333%; /* [1] */
+        }
+
+        &:nth-child(3n+1):last-child { /* [2] */
+            width: 100%;
+        }
+
+        &:nth-child(3n+1):nth-last-child(2),
+        &:nth-child(3n+1):nth-last-child(2) + & { /* [2] */
+            width: 50%;
         }
 
     }
