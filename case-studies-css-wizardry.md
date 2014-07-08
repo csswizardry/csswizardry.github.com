@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS Wizardry
+title: CSS Wizardry – MVP design and development
 permalink: /case-studies/css-wizardry/
 ---
 

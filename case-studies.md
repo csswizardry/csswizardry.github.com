@@ -12,6 +12,11 @@ permalink: /case-studies/
         </a>
     </li>
     <li class="feature-list__item">
+        <a href="madgex-consultancy-workshop/" class="feature-list__link" style="background-color: #009ddc;">
+            <h2 class="feature-list__title">Madgex</h2>
+        </a>
+    </li>
+    <li class="feature-list__item">
         <a href="css-wizardry/" class="feature-list__link" style="background-color: #f43059;">
             <h2 class="feature-list__title">CSS Wizardry</h2>
         </a>
