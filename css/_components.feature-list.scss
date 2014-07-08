@@ -2,6 +2,11 @@
     #FEATURE-LIST
 \*------------------------------------*/
 
+/**
+ * The feature list component houses large, showcase-style blocks of content. It
+ * is currently used on the Case Studies page.
+ */
+
 .feature-list {
     @extend %clearfix;
     margin-left: 0;
@@ -9,46 +14,60 @@
     list-style: none;
 }
 
+    /**
+     * 1. Three columns on wide enough devices.
+     */
     .feature-list__item {
 
         @include media-query(lap-and-up) {
             float: left;
-            width: 33.333333333%;
+            width: 33.333333333%; /* [1] */
         }
 
     }
 
+        /**
+         * 1. Faux fluid height in 16:9 ratio.
+         * 2. Space items apart by two pixels…
+         * 3. …except the first row and first column.
+         */
         .feature-list__link {
             position: relative;
             display: block;
-            background-color: $color-brand;
-            padding-top: 56.25%;
-            margin-top: 2px;
+            background-color: $color-links;
+            padding-top: 56.25%; /* [1] */
+            margin-top: 2px; /* [2] */
             border-radius: $base-round;
 
             @include media-query(lap-and-up) {
-                margin-left: 2px;
+                margin-left: 2px; /* [2] */
 
                 .feature-list__item:nth-of-type(-n+3) > & {
-                    margin-top: 0;
+                    margin-top: 0; /* [3] */
                 }
 
                 .feature-list__item:nth-of-type(3n+1) > & {
-                    margin-left: 0;
+                    margin-left: 0; /* [3] */
                 }
 
             }
 
         }
 
+            /**
+             * Sit link text over the top of the list item.
+             *
+             * 1. Center the text-box vertically in the list item.
+             * 2. Optically sit the text itself centrally in the list item.
+             */
             .feature-list__title {
-                @include font-size(24px);
+                @include font-size($spacing-unit);
                 @include font-weight(bold);
                 text-align: center;
                 position: absolute;
-                top: 50%;
+                top: 50%; /* [1] */
                 right: 0;
                 left:  0;
-                margin-top: -12px;
+                margin-top: halve(-$spacing-unit); /* [2] */
                 color: #fff;
             }
