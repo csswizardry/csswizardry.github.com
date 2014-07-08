@@ -13,7 +13,7 @@ re-designed and -developed to be responsive.
 The scale at which Madgex were working became apparent as I learned more about
 their business: they provide white-labelled, themeable, internationalised,
 responsive job board software for close to two-hundred clients, including the
-likes of the Guardian, the Telegraph. This presented a number of interesting
+likes of the Guardian and the Telegraph. This presented a number of interesting
 issues, including, but not limited to:
 
 * Sharing components across that number of white-labelled products.
