@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Madgex – Consultancy/workshop
+title: Madgex – Consultancy and workshop
 permalink: /case-studies/madgex-consultancy-workshop/
 ---
 
