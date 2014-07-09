@@ -56,7 +56,7 @@ this time we also employed a dedicated Performance Engineer, who I worked very
 closely with to ensure our UIs were just as speedy as his software and platform
 code.
 
-<blockquote class="pull-quote">
+<blockquote class="pull-quote  pull-quote--context">
     <p>Harry was always acutely aware of the performance implications of what we
        did and was always sure to improve the speed of the things we were
        working on. He’s great at rationalising and pushing back on design

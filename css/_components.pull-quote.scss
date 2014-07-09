@@ -37,3 +37,16 @@
     }
 
 }
+
+/**
+ * Pull quotes that sit within the context of their surrounding copy.
+ */
+.pull-quote--context {
+
+    @include media-query(lap-and-up) {
+        width: 50%;
+        float: left;
+        margin-right: $spacing-unit;
+    }
+
+}
