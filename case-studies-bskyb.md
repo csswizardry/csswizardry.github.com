@@ -36,7 +36,7 @@ building our UIs. This took the guise of:
 ## Aluminium
 
 After Sky Bet was launched, and my time was getting increasingly stretched
-between products, I—along with members of the design team—began work on
+between products, I—with input from members of the design team—began work on
 <cite>Aluminium</cite>, a UI Toolkit built on top of
 [inuitcss](http://inuitcss.com). <cite>Aluminium</cite>’s aim was to allow other
 developers (particularly non-front-end savvy Software Engineers) to build UIs
