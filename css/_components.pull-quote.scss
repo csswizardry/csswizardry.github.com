@@ -3,8 +3,15 @@
 \*------------------------------------*/
 
 .pull-quote {
-    @include font-size(22px);
+    @include font-size(20px);
     color: $color-quote;
+    padding-left: 0.5 * $spacing-unit;
+    border-left: 0.5 * $spacing-unit solid $color-tint;
+    font-style: italic;
+
+    @include media-query(lap-and-up) {
+        margin-left: -$spacing-unit;
+    }
 
     .carousel & {
         text-indent: 0;
@@ -12,11 +19,17 @@
 
 }
 
+    .pull-quote__source {
+        font-style: normal;
+    }
+
 .pull-quote--banner {
     max-width: 26em;
     padding: 0 $spacing-unit--small;
+    border-left: none;
     margin: 0 auto;
     color: $color-quote--banner;
+    font-style: normal;
 
     @include media-query(lap-and-up) {
         @include font-size(32px, false);
