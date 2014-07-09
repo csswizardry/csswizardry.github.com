@@ -13,7 +13,7 @@ scalable user interfaces. I am [available for
 work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together).
 
 <figure>
-  <img src="/img/content/me.jpg" alt="">
+  <img src="https://csswizardry.a.cdnify.io/img/content/me.jpg" alt="">
   <figcaption>
       On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
       <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by

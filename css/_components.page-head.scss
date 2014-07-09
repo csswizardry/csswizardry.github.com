@@ -58,7 +58,7 @@
  */
 .page-head--masthead {
     margin-bottom: 0;
-    background: url(/img/css/masthead.jpg) center center #2e2620;
+    background: url(https://csswizardry.a.cdnify.io/img/css/masthead.jpg) center center #2e2620;
     border-top-color: $color-masthead;
     border-bottom-width: 0;
     @include vendor(background-size, cover);
@@ -66,11 +66,11 @@
     color: $color-masthead; /* [1] */
 
     @include media-query(lap-and-up) {
-        background-image: url(/img/css/masthead-medium.jpg);
+        background-image: url(https://csswizardry.a.cdnify.io/img/css/masthead-medium.jpg);
     }
 
     @include media-query(desk) {
-        background-image: url(/img/css/masthead-large.jpg);
+        background-image: url(https://csswizardry.a.cdnify.io/img/css/masthead-large.jpg);
     }
 
     > .wrapper { /* [2] */

@@ -16,7 +16,7 @@ with your team. If you would like to organise one of these then
 <a href="mailto:harry@csswizardry.com">fire me an email</a>.
 
 <figure>
-  <img src="/img/content/speaking.jpg" alt="">
+  <img src="https://csswizardry.a.cdnify.io/img/content/speaking.jpg" alt="">
   <figcaption>
       On stage at <a href="http://2014.thegeekgathering.org/">The Geek Gathering</a>.
       <a href="https://www.flickr.com/photos/naomiatkinson/14165689102/">Photo</a> by
