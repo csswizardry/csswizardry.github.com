@@ -65,7 +65,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
     color: $color-masthead; /* [1] */
 
-    @include media-query(lap-and-up) {
+    @include media-query(desk) {
         background-image: url(/img/css/masthead-medium.jpg);
     }
 
