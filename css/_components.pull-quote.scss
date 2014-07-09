@@ -51,3 +51,13 @@
     }
 
 }
+
+.pull-quote--context-alt {
+
+    @include media-query(lap-and-up) {
+        width: 50%;
+        float: right;
+        margin-left: $spacing-unit;
+    }
+
+}

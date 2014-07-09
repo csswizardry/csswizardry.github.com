@@ -24,7 +24,7 @@ issues, including, but not limited to:
 All this as well as general architectural, responsive, and performance best
 practices that they were keen to cover during our time together.
 
-<blockquote class="pull-quote  pull-quote--context">
+<blockquote class="pull-quote  pull-quote--context-alt">
     <p>I asked Harry to come in and run a workshop with my front-end developers
        after a recent redesign. He provided lots of valuable insights,
        suggestions, and support, all tailored specifically to our products. It
