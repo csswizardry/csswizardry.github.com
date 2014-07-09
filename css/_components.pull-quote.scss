@@ -4,6 +4,7 @@
 
 .pull-quote {
     @include font-size(22px);
+    color: $color-quote;
 
     .carousel & {
         text-indent: 0;
@@ -15,6 +16,7 @@
     max-width: 26em;
     padding: 0 $spacing-unit--small;
     margin: 0 auto;
+    color: $color-quote--banner;
 
     @include media-query(lap-and-up) {
         @include font-size(32px, false);
