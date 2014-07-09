@@ -48,13 +48,13 @@ Bet](https://m.skybet.com/).
 
 ## Mobile
 
-Sky Bet was hit by an unusually early uptake in mobile users; far more than
-other industries and sectors were reporting. Having only just finished work on
-the classic, non-responsive ‘desktop’ build, it was decided that we respond very 
-quickly and build a specific m-dot site as our mobile offering. It was around
-this time we also employed a dedicated Performance Engineer, who I worked very
-closely with to ensure our UIs were just as speedy as his software and platform
-code.
+Sky Bet was hit by an unusually early uptake in mobile users; far earlier and
+more dramatically than a lot of other industries and sectors were reporting at
+the time. Having only just finished work on the classic, non-responsive
+‘desktop’ build, it was decided that we respond very quickly and build a
+specific m-dot site as our mobile offering. It was around this time we also
+employed a dedicated Performance Engineer, who I worked very closely with to
+ensure our UIs were just as speedy as his software and platform code.
 
 <blockquote class="pull-quote  pull-quote--context">
     <p>Harry was always acutely aware of the performance implications of what we
