@@ -36,9 +36,9 @@ covering things like:
   more consideration when it comes to better laying things out).
 
 This session kicked off with the attendees building a simple UI component,
-before we shared and critiqued volunteers’ results with the group; dissecting
+before we shared and critiqued volunteers’ results with the group. Dissecting
 and rationalising the rationale behind various techniques people had used to
-build the component in question. This helped show the team that, even though
+build the component in question really helped show the team that, even though
 they all work together day-in, day-out, everyone has a subtly different way of
 building the same, innocuous little pieces of UI. Using this exercise as a base,
 the rest of the workshop talked about how we could all work in a more
