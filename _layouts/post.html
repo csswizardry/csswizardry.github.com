@@ -9,7 +9,7 @@ layout: default
     <div class="layout">
         <section class="layout__item  desk-three-fifths  post" data-ui-component="content">
 
-            <p class="post__date">{{ page.date | date: "%-d %B, %Y" }}</p>
+            <time class="post__date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %B, %Y" }}</time>
 
             <h1>{{ page.title }}</h1>
 

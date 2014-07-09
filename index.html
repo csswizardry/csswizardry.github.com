@@ -113,7 +113,7 @@ page-class: page--home
             <ul class="ui-list  post__list  mb">
                 {% for post in paginator.posts %}
                 <li class="ul-list__item">
-                    <span class="post__date">{{ post.date | date: "%d %B, %Y" }}</span>
+                    <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d %B, %Y" }}</time>
                     <h3 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 </li>
                 {% endfor %}
