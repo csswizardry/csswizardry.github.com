@@ -103,13 +103,24 @@ $logo-height:   64px;
                     line-height: $logo-height;
                 }
 
+                .page-head--masthead & {
+
+                    @include attention(self) {
+                        color: $color-masthead;
+                    }
+
+                    @include attention() {
+                        text-decoration: underline;
+                    }
+
+                }
+
             }
 
-            @each $page in home, about, speaking, case-studies, hire-me {
+            @each $page in about, speaking, case-studies, hire-me {
 
                 .page--#{$page} .site-nav__#{$page} {
                     color: $color-links;
-                    cursor: default;
                 }
 
             }

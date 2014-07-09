@@ -69,14 +69,6 @@
         background-image: url(/img/css/masthead-medium.jpg);
     }
 
-    a {
-
-        @include attention(self) {
-            color: $color-masthead; /* [1] */
-        }
-
-    }
-
     > .wrapper { /* [2] */
         position: relative; /* [3] */
         padding-top: 56.25%; /* [4] */
