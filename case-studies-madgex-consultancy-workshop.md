@@ -34,6 +34,15 @@ white-labelling; versioning and safely consuming and propagating (changes to)
 these components cross-product; creating a useful UI Toolkit; and nitty-gritty
 specifics such as naming conventions and workflows.
 
+<blockquote class="pull-quote">
+    <p>I asked Harry to come in and run a workshop with my front-end developers
+       after a recent redesign. He provided lots of valuable insights,
+       suggestions, and support, all tailored specifically to our products. It
+       was a pleasure to have him join us for the day.</p>
+    <b class="pull-quote__source">Nik White, Design Director,
+       <a href="http://www.madgex.com/">Madgex</a></b>
+</blockquote>
+
 We also had a section of the day dedicated to hacking together proof-of-concept
 Bower packages, and how to author and consume these. Unfortunately, with such a
 full itinerary, we soon ran out of time, so I had a follow-up two-hour Skype
@@ -45,14 +54,3 @@ performance and ease of growth and maintainability in product companies, as well
 as evangelising the incredible work the UI team had done already to the rest of
 the business. Their efforts so far had been great, and I joined them to help
 fill in some of the missing pieces around some of the more architectural issues.
-
-Nik said:
-
-<blockquote class="pull-quote">
-    <p>I asked Harry to come in and run a workshop with my front-end developers
-       after a recent redesign. He provided lots of valuable insights,
-       suggestions, and support, all tailored specifically to our products. It
-       was a pleasure to have him join us for the day.</p>
-    <b class="pull-quote__source">Nik White, Design Director,
-       <a href="http://www.madgex.com/">Madgex</a></b>
-</blockquote>
