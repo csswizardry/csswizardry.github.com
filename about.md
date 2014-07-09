@@ -81,7 +81,9 @@ homepage’s masthead is of me speaking at [DotYork](http://dotyork.com/), and w
 taken by [Jim Poyner](http://jimpoyner.co.uk/).
 
 Responsive testing was made possible by [Finch](https://meetfinch.com/), an
-incredible tool for exposing local dev sites to the open internet.
+incredible tool for exposing local dev sites to the open internet, and static
+assets are delivered by [CDNify](https://cdnify.com/), an astoundingly
+simple-to-set up CDN.
 
 CSS Wizardry’s roadmap and task list are viewable on [a public Trello
 board](https://trello.com/b/5vYEHwrP/csswizardry-com), and all of the code that
