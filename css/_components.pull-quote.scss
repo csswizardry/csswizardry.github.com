@@ -13,19 +13,20 @@
         margin-left: -$spacing-unit;
     }
 
-    .carousel & {
-        text-indent: 0;
-    }
-
 }
 
     .pull-quote__source {
         font-style: normal;
     }
 
+/**
+ * Banner-style quotes, used primarily in the homepage carousel. Unfortunately
+ * we need to undo a few things that we’d already set previously.
+ */
 .pull-quote--banner {
     max-width: 26em;
     padding: 0 $spacing-unit--small;
+    text-indent: 0;
     border-left: none;
     margin: 0 auto;
     color: $color-quote--banner;
