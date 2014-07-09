@@ -21,7 +21,17 @@ issues, including, but not limited to:
 * Ensuring those components were robust enough to be ‘written once, used
   everywhere’ (including in different languages).
 
-As well as general architectural, responsive, and performance best practices.
+All this as well as general architectural, responsive, and performance best
+practices that they were keen to cover during our time together.
+
+<blockquote class="pull-quote  pull-quote--context">
+    <p>I asked Harry to come in and run a workshop with my front-end developers
+       after a recent redesign. He provided lots of valuable insights,
+       suggestions, and support, all tailored specifically to our products. It
+       was a pleasure to have him join us for the day.</p>
+    <b class="pull-quote__source">Nik White, Design Director,
+       <a href="http://www.madgex.com/">Madgex</a></b>
+</blockquote>
 
 Madgex needed a way to effectively and efficiently retain control of a codebase
 that was already large and complex, and was only going to get more so.
@@ -33,15 +43,6 @@ cross-product UI components; theming and skinning components based on their
 white-labelling; versioning and safely consuming and propagating (changes to)
 these components cross-product; creating a useful UI Toolkit; and nitty-gritty
 specifics such as naming conventions and workflows.
-
-<blockquote class="pull-quote">
-    <p>I asked Harry to come in and run a workshop with my front-end developers
-       after a recent redesign. He provided lots of valuable insights,
-       suggestions, and support, all tailored specifically to our products. It
-       was a pleasure to have him join us for the day.</p>
-    <b class="pull-quote__source">Nik White, Design Director,
-       <a href="http://www.madgex.com/">Madgex</a></b>
-</blockquote>
 
 We also had a section of the day dedicated to hacking together proof-of-concept
 Bower packages, and how to author and consume these. Unfortunately, with such a
