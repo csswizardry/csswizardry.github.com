@@ -4,7 +4,8 @@ title: BSkyB – Senior UI Developer
 permalink: /case-studies/bskyb/
 ---
 
-For almost three years, I was employed by BSkyB (Sky) as Senior UI Developer. I
+For almost three years, I was employed by
+[BSkyB](http://en.wikipedia.org/wiki/BSkyB) (Sky) as Senior UI Developer. I
 worked primarily in their Betting & Gaming arm; a suite of highly trafficked and
 very highly profitable online products.
 
