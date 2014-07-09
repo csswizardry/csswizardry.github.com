@@ -25,15 +25,16 @@
         @include media-query(lap-and-up) {
             float: left;
             width: 33.333333333%; /* [1] */
-        }
 
-        &:nth-child(3n+1):last-child { /* [2] */
-            width: 100%;
-        }
+            &:nth-child(3n+1):last-child { /* [2] */
+                width: 100%;
+            }
 
-        &:nth-child(3n+1):nth-last-child(2),
-        &:nth-child(3n+1):nth-last-child(2) + & { /* [2] */
-            width: 50%;
+            &:nth-child(3n+1):nth-last-child(2),
+            &:nth-child(3n+1):nth-last-child(2) + & { /* [2] */
+                width: 50%;
+            }
+
         }
 
     }
