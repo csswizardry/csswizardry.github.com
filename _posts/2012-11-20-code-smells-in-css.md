@@ -295,10 +295,10 @@ The reasons are simple:
 * IDs can _never_ be used more than once in a page.
 * Classes can exist only once, or a million times in a page.
 * IDs can often have their traits abstracted out into many reusable classes.
-* <del>[An ID is **255 times** more specific than one class…](http://codepen.io/chriscoyier/pen/lzjqh)</del>
-  <ins>And ID is infinitely more specific than a class.</ins>
-* This means <del>you’d need **256 chained classes to override one ID**.</del>
-  <ins>no amount of chained classes can override an ID.</ins>
+* An ID is <del>[**255 times** more specific than one class…](http://codepen.io/chriscoyier/pen/lzjqh)</del>
+  infinitely more specific than a class.</ins>
+* This means <del>you’d need **256 chained classes to override one ID**</del>
+  <ins>no amount of chained classes can override an ID</ins>.
 
 If that last bullet point hasn’t convinced you not to use them then I don’t know what will…
 
