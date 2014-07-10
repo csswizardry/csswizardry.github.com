@@ -295,10 +295,12 @@ The reasons are simple:
 * IDs can _never_ be used more than once in a page.
 * Classes can exist only once, or a million times in a page.
 * IDs can often have their traits abstracted out into many reusable classes.
-* [An ID is **255 times** more specific than one class…](http://codepen.io/chriscoyier/pen/lzjqh)
-* This means you’d need **256 chained classes to override one ID**.
+* <del>[An ID is **255 times** more specific than one class…](http://codepen.io/chriscoyier/pen/lzjqh)</del>
+* <del>This means you’d need **256 chained classes to override one ID**.</del>
 
-If that last bullet point hasn’t convinced you not to use them then I don’t know what will…
+<del>If that last bullet point hasn’t convinced you not to use them then I don’t know what will…</del>
+
+**UPDATE (1/18/2014):** 256 css classes overriding an ID was actually a bug, which has since been fixed. **_ID's are supposed to be infinitely more specific than any number of classes. e.g. 0,1,0,0 > 0,0,∞,0_**. The Codepen has been updated since this blog post was created.
 
 As soon as I see an ID in a stylesheet, I want it replaced with a class. Specificity is how projects start to spiral so it is vital to keep it low.
 
