@@ -296,7 +296,7 @@ The reasons are simple:
 * Classes can exist only once, or a million times in a page.
 * IDs can often have their traits abstracted out into many reusable classes.
 * An ID is <del>[**255 times** more specific than one class…](http://codepen.io/chriscoyier/pen/lzjqh)</del>
-  infinitely more specific than a class.</ins>
+  <ins>infinitely more specific than a class.</ins>
 * This means <del>you’d need **256 chained classes to override one ID**</del>
   <ins>no amount of chained classes can override an ID</ins>.
 
