@@ -65,12 +65,10 @@ how, right from the beginning, we were clearly walking a two-way street
 here—Jason had clear vision for the product, but wasn’t afraid to hand a lot of
 responsibility over to others.
 
-Incidentally, I was also asked if I knew any talented Ruby developers who might
-like to take on the software engineering role. As luck would have it, a very
-good friend of mine, and organiser of the [Hey!Stac
-micro-conference](http://hey.wearestac.com/), [Josh
-Nesbitt](https://twitter.com/joshnesbitt), had just wrapped up a contract with
-a large client in the next city over. I put the two in touch, and Josh was in.
+We were also joined by Ruby developer and [Hey!Stac
+micro-conference](http://hey.wearestac.com/) organiser [Josh
+Nesbitt](https://twitter.com/joshnesbitt), who had just wrapped up a contract
+with a large client in the next city over.
 
 <small>**Aside:** Josh has also written up a case study covering [his side of
 the NHSx project](http://wearestac.com/blog/case-study-nhsx).</small>
