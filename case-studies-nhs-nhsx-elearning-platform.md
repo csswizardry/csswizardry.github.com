@@ -18,8 +18,8 @@ new or emerging tech; I imagined that responsive wouldn’t be a requirement, an
 that the site would have to look exactly the same in every browser.
 
 **This project couldn’t have been more different**: responsive, mobile first,
-built on Rails, HTML5, and Sass, and all run very agile by a lean team of just
-four people.
+built on Rails, HTML5, and Sass, and all run very agile (using GitHub and
+[Trello](/2014/05/my-trello-workflow/)) by a lean team of just four people.
 
 <figure>
   <img src="//csswizardry.a.cdnify.io/img/content/case-studies/nhs/01.png" alt="">
