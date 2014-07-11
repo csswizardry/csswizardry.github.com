@@ -72,6 +72,9 @@ micro-conference](http://hey.wearestac.com/), [Josh
 Nesbitt](https://twitter.com/joshnesbitt), had just wrapped up a contract with
 a large client in the next city over. I put the two in touch, and Josh was in.
 
+<small>**Aside:** Josh has also written up a case study covering [his side of
+the NHSx project](http://wearestac.com/blog/case-study-nhsx).</small>
+
 Next, the three of us set up an informal meeting at the NHS offices to meet
 each other, and decide how we would go about tackling the project.
 
