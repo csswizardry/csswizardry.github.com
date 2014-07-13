@@ -17,10 +17,11 @@ Book](http://www.smashingmagazine.com/smashing-book-4-new-perspectives/), but
 I’m really pleased about it, so I want to add my own to the list.
 
 <figure>
-![Photo of the Smashing Book #4](/wp-content/uploads/2013/12/smbook4.jpg)
+<img src="/wp-content/uploads/2013/12/smbook4.jpg" alt="Photo of the Smashing Book #4">
 <figcaption>
-    [Photo](https://twitter.com/jurihandl/status/412678274046001152)
-    by [Julian Handl](https://twitter.com/jurihandl).
+<p><a href="https://twitter.com/jurihandl/status/412678274046001152">Photo</a>
+by <a href="https://twitter.com/jurihandl">Julian Handl</a>.</p>
+</figcaption>
 </figure>
 
 Earlier this year I was contacted by Vitaly and asked if I’d like to contribute
