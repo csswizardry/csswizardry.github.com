@@ -2,11 +2,25 @@
     #TYPE
 \*------------------------------------*/
 
+/**
+ * Typographical base selectors.
+ */
+
+/**
+ * Headings 1–6.
+ */
 @include headings() {
     @include font-weight(regular);
     color: $color-headings;
 }
 
+
+
+
+
+/**
+ * A generic heading style which can be applied to any headings.
+ */
 .heading {
     @include font-size(22px);
 }
@@ -24,6 +38,13 @@ dt {
     @include font-weight(bold);
 }
 
+
+
+
+
+/**
+ * Code-like elements.
+ */
 code, kbd, samp {
     color: $color-code;
     font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
@@ -44,13 +65,23 @@ pre {
 
 }
 
+
+
+
+
+/**
+ * Figures.
+ *
+ * 1. Outdent figures by an arbitrary amount at the relevant viewport size.
+ * 2. Reindent figcaptions.
+ */
 figure {
     margin-top:   0;
     margin-right: 0;
     margin-left:  0;
 
     @media screen and (min-width: 1380px) {
-        margin-left: -128px;
+        margin-left: -128px; /* [1] */
     }
 
     > img {
@@ -63,11 +94,18 @@ figure {
         @include font-size(12px);
 
         @media screen and (min-width: 1380px) {
-            margin-left: 128px;
+            margin-left: 128px; /* [2] */
         }
 
     }
 
+
+
+
+
+/**
+ * Horizontal rules.
+ */
 hr {
     border: none;
     border-bottom: 2px solid $color-gray-ui;
