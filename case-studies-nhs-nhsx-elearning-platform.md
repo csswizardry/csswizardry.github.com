@@ -170,6 +170,20 @@ overhead in starting again, and a good 75% of the code I’d written so far was
 completely recyclable, despite the designs now being totally, entirely
 different.
 
+Our time together was drawn to a close with a day-long workshop which I ran for
+staff at the Leadership Academy involved in the NHSx project. This workshop
+served as something of a handover, but also included:
+
+* Principles behind a solid and scalable CSS architecture.
+* An in-depth look at [ITCSS](http://itcss.io).
+* Managing layout in component-based and responsive builds.
+* Naming conventions and Sass usage.
+* Performance optimisation techniques, as well as covering the work I’d done so
+  far to keep NHSx snappy.
+* A hands-on Q&A and hack session.
+
+A great way to end a fantastic project.
+
 ## Summary
 
 In total, I spent 21 dev days working in a remote, very agile manner, to build
