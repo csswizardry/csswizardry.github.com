@@ -8,7 +8,6 @@ $logo-height:   64px;
 .site-nav {
     @extend %clearfix;
     @include font-size(12px);
-    @include font-weight(bold);
 
     @include media-query(lap-and-up) {
         @include font-size(16px);

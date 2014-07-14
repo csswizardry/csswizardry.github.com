@@ -13,4 +13,9 @@
 
     .post__title {
         margin-bottom: 0;
+
+        > a {
+            @include font-weight(regular);
+        }
+
     }

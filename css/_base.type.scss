@@ -11,6 +11,14 @@
     @include font-size(22px);
 }
 
+
+
+
+
+/**
+ * Emboldened elements.
+ */
+a,
 strong, b,
 dt {
     @include font-weight(bold);
