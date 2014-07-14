@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Financial Times – Workshop and consultancy
+meta: "An intense day of workshop-style Q&A with the Financial Times"
 permalink: /case-studies/financial-times/
 ---
 

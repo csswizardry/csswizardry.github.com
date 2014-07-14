@@ -1,6 +1,7 @@
 ---
 layout: post
 title: BSkyB – Senior UI Developer
+meta: "Almost three years of full-time employment as Senior UI Developer at Sky"
 permalink: /case-studies/bskyb/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Madgex – Consultancy and workshop
+meta: "A full-day workshop with a team of ambitious designers and developers"
 permalink: /case-studies/madgex-consultancy-workshop/
 ---
 
