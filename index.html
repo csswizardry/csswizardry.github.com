@@ -132,11 +132,10 @@ page-class: page--home
         </section>
 
         <ol class="layout" data-ui-component="pagination">
+
             <li class="layout__item  lap-and-up-one-half  mb">
                 {% if paginator.next_page %}
                     <a href="/page{{paginator.next_page}}" class="btn  btn--full  btn--secondary">Older articles</a>
-                {% else %}
-                    Older articles
                 {% endif %}
             
                 {% if paginator.previous_page %}
@@ -146,7 +145,6 @@ page-class: page--home
                         {% else %}
                             <a href="/page{{paginator.previous_page}}" class="btn  btn--full">Newer articles</a>
                         {% endif %}
-                {% else %}
                 {% endif %}
 
         </ol>
