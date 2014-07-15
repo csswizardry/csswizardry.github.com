@@ -17,9 +17,9 @@
         overflow: hidden;
         @include vendor(filter, blur(0));
 
-        -webkit-animation: carousel 30s alternate infinite;
-           -moz-animation: carousel 30s alternate infinite;
-                animation: carousel 30s alternate infinite;
+        -webkit-animation: carousel 45s alternate infinite;
+           -moz-animation: carousel 45s alternate infinite;
+                animation: carousel 45s alternate infinite;
     }
 
     .carousel__panes:hover {
@@ -40,59 +40,84 @@
 
 
 /**
- * Scroll the carousel (all hard-coded; yuk!) and apply a subtle blur to impy
- * motion/speed.
+ * Scroll the carousel (all hard-coded; yuk!) and apply a subtle blur to imply
+ * motion/speed. Equation for the carousel’s transitioning and delayed points in
+ * order to complete an entire animation (i.e. 100%):
+ *
+ * nx + (n-1)y = 100
+ *
+ * where n is the number of slides, x is the percentage of the animation spent
+ * static, and y is the percentage of the animation spent animating.
+ *
+ * This carousel has five panes, so:
+ *
+ * 5x + (5-1)y = 100
+ *
+ * To work out y if we know n and decide on a value for x:
+ *
+ * (100 - (n * x)) / n-1 = y
+ *
+ * If we choose that x equals 17.5 (i.e. a frame spends 17.5% of the animation’s
+ * total time *not* animating), and we know that n equals 5, then y = 3.125:
+ *
+ * (100 - (5 * 17.5)) / 4 = 3.125
+ *
+ * Static for 17.5%, transition for 3.125%, and so on, until we hit 100%.
+ *
+ * If we were to choose that x equals 15, then we would find that y equals 6.25:
+ *
+ * (100 - (5 * 15)) / 4 = 6.25
  *
  * I’m pretty sure this is all a mess. To any kind person reading this who would
  * be able to improve it, I would be very grateful if you would advise :)
  */
 @-webkit-keyframes carousel{
-    0%    { left:    0 ; -webkit-filter: blur(0  ); }
-    15%   { left:    0 ; -webkit-filter: blur(0  ); }
-    17.5% {              -webkit-filter: blur(2px); }
-    20%   { left: -100%; -webkit-filter: blur(0  ); }
-    35%   { left: -100%; -webkit-filter: blur(0  ); }
-    37.5% {              -webkit-filter: blur(2px); }
-    40%   { left: -200%; -webkit-filter: blur(0  ); }
-    55%   { left: -200%; -webkit-filter: blur(0  ); }
-    57.5% {              -webkit-filter: blur(2px); }
-    60%   { left: -300%; -webkit-filter: blur(0  ); }
-    75%   { left: -300%; -webkit-filter: blur(0  ); }
-    77.5% {              -webkit-filter: blur(2px); }
-    80%   { left: -400%; -webkit-filter: blur(0  ); }
-    100%  { left: -400%; -webkit-filter: blur(0  ); }
+    0%          { left:    0 ; -webkit-filter: blur(0  ); }
+    17.5%       { left:    0 ; -webkit-filter: blur(0  ); }
+    19.0625%    {              -webkit-filter: blur(2px); }
+    20.625%     { left: -100%; -webkit-filter: blur(0  ); }
+    38.125%     { left: -100%; -webkit-filter: blur(0  ); }
+    39.6875%    {              -webkit-filter: blur(2px); }
+    41.25%      { left: -200%; -webkit-filter: blur(0  ); }
+    58.75%      { left: -200%; -webkit-filter: blur(0  ); }
+    60.3125%    {              -webkit-filter: blur(2px); }
+    61.875%     { left: -300%; -webkit-filter: blur(0  ); }
+    79.375%     { left: -300%; -webkit-filter: blur(0  ); }
+    80.9375%    {              -webkit-filter: blur(2px); }
+    82.5%       { left: -400%; -webkit-filter: blur(0  ); }
+    100%        { left: -400%; -webkit-filter: blur(0  ); }
 }
 
 @-moz-keyframes carousel{
-    0%    { left:    0 ; -moz-filter: blur(0  ); }
-    15%   { left:    0 ; -moz-filter: blur(0  ); }
-    17.5% {              -moz-filter: blur(2px); }
-    20%   { left: -100%; -moz-filter: blur(0  ); }
-    35%   { left: -100%; -moz-filter: blur(0  ); }
-    37.5% {              -moz-filter: blur(2px); }
-    40%   { left: -200%; -moz-filter: blur(0  ); }
-    55%   { left: -200%; -moz-filter: blur(0  ); }
-    57.5% {              -moz-filter: blur(2px); }
-    60%   { left: -300%; -moz-filter: blur(0  ); }
-    75%   { left: -300%; -moz-filter: blur(0  ); }
-    77.5% {              -moz-filter: blur(2px); }
-    80%   { left: -400%; -moz-filter: blur(0  ); }
-    100%  { left: -400%; -moz-filter: blur(0  ); }
+    0%          { left:    0 ;    -moz-filter: blur(0  ); }
+    17.5%       { left:    0 ;    -moz-filter: blur(0  ); }
+    19.0625%    {                 -moz-filter: blur(2px); }
+    20.625%     { left: -100%;    -moz-filter: blur(0  ); }
+    38.125%     { left: -100%;    -moz-filter: blur(0  ); }
+    39.6875%    {                 -moz-filter: blur(2px); }
+    41.25%      { left: -200%;    -moz-filter: blur(0  ); }
+    58.75%      { left: -200%;    -moz-filter: blur(0  ); }
+    60.3125%    {                 -moz-filter: blur(2px); }
+    61.875%     { left: -300%;    -moz-filter: blur(0  ); }
+    79.375%     { left: -300%;    -moz-filter: blur(0  ); }
+    80.9375%    {                 -moz-filter: blur(2px); }
+    82.5%       { left: -400%;    -moz-filter: blur(0  ); }
+    100%        { left: -400%;    -moz-filter: blur(0  ); }
 }
 
 @keyframes carousel{
-    0%    { left:    0 ; filter: blur(0  ); }
-    15%   { left:    0 ; filter: blur(0  ); }
-    17.5% {              filter: blur(2px); }
-    20%   { left: -100%; filter: blur(0  ); }
-    35%   { left: -100%; filter: blur(0  ); }
-    37.5% {              filter: blur(2px); }
-    40%   { left: -200%; filter: blur(0  ); }
-    55%   { left: -200%; filter: blur(0  ); }
-    57.5% {              filter: blur(2px); }
-    60%   { left: -300%; filter: blur(0  ); }
-    75%   { left: -300%; filter: blur(0  ); }
-    77.5% {              filter: blur(2px); }
-    80%   { left: -400%; filter: blur(0  ); }
-    100%  { left: -400%; filter: blur(0  ); }
+    0%          { left:    0 ;         filter: blur(0  ); }
+    17.5%       { left:    0 ;         filter: blur(0  ); }
+    19.0625%    {                      filter: blur(2px); }
+    20.625%     { left: -100%;         filter: blur(0  ); }
+    38.125%     { left: -100%;         filter: blur(0  ); }
+    39.6875%    {                      filter: blur(2px); }
+    41.25%      { left: -200%;         filter: blur(0  ); }
+    58.75%      { left: -200%;         filter: blur(0  ); }
+    60.3125%    {                      filter: blur(2px); }
+    61.875%     { left: -300%;         filter: blur(0  ); }
+    79.375%     { left: -300%;         filter: blur(0  ); }
+    80.9375%    {                      filter: blur(2px); }
+    82.5%       { left: -400%;         filter: blur(0  ); }
+    100%        { left: -400%;         filter: blur(0  ); }
 }
