@@ -15,6 +15,7 @@
         display: table;
         width: 500%;
         overflow: hidden;
+        @include vendor(filter, blur(0));
 
         -webkit-animation: carousel 30s alternate infinite;
            -moz-animation: carousel 30s alternate infinite;
@@ -35,40 +36,52 @@
         }
 
 @-webkit-keyframes carousel{
-    0%    { left:0; }
-    15%   { left:0; }
-    20%   { left:-100%; }
-    35%   { left:-100%; }
-    40%   { left:-200%; }
-    55%   { left:-200%; }
-    60%   { left:-300%; }
-    75%   { left:-300%; }
-    80%   { left:-400%; }
-    100%  { left:-400%; }
+    0%    { left:    0 ; -webkit-filter: blur(0  ); }
+    15%   { left:    0 ; -webkit-filter: blur(0  ); }
+    17.5% {              -webkit-filter: blur(2px); }
+    20%   { left: -100%; -webkit-filter: blur(0  ); }
+    35%   { left: -100%; -webkit-filter: blur(0  ); }
+    37.5% {              -webkit-filter: blur(2px); }
+    40%   { left: -200%; -webkit-filter: blur(0  ); }
+    55%   { left: -200%; -webkit-filter: blur(0  ); }
+    57.5% {              -webkit-filter: blur(2px); }
+    60%   { left: -300%; -webkit-filter: blur(0  ); }
+    75%   { left: -300%; -webkit-filter: blur(0  ); }
+    77.5% {              -webkit-filter: blur(2px); }
+    80%   { left: -400%; -webkit-filter: blur(0  ); }
+    100%  { left: -400%; -webkit-filter: blur(0  ); }
 }
 
 @-moz-keyframes carousel{
-    0%    { left:0; }
-    15%   { left:0; }
-    20%   { left:-100%; }
-    35%   { left:-100%; }
-    40%   { left:-200%; }
-    55%   { left:-200%; }
-    60%   { left:-300%; }
-    75%   { left:-300%; }
-    80%   { left:-400%; }
-    100%  { left:-400%; }
+    0%    { left:    0 ; -moz-filter: blur(0  ); }
+    15%   { left:    0 ; -moz-filter: blur(0  ); }
+    17.5% {              -moz-filter: blur(2px); }
+    20%   { left: -100%; -moz-filter: blur(0  ); }
+    35%   { left: -100%; -moz-filter: blur(0  ); }
+    37.5% {              -moz-filter: blur(2px); }
+    40%   { left: -200%; -moz-filter: blur(0  ); }
+    55%   { left: -200%; -moz-filter: blur(0  ); }
+    57.5% {              -moz-filter: blur(2px); }
+    60%   { left: -300%; -moz-filter: blur(0  ); }
+    75%   { left: -300%; -moz-filter: blur(0  ); }
+    77.5% {              -moz-filter: blur(2px); }
+    80%   { left: -400%; -moz-filter: blur(0  ); }
+    100%  { left: -400%; -moz-filter: blur(0  ); }
 }
 
 @keyframes carousel{
-    0%    { left:0; }
-    15%   { left:0; }
-    20%   { left:-100%; }
-    35%   { left:-100%; }
-    40%   { left:-200%; }
-    55%   { left:-200%; }
-    60%   { left:-300%; }
-    75%   { left:-300%; }
-    80%   { left:-400%; }
-    100%  { left:-400%; }
+    0%    { left:    0 ; filter: blur(0  ); }
+    15%   { left:    0 ; filter: blur(0  ); }
+    17.5% {              filter: blur(2px); }
+    20%   { left: -100%; filter: blur(0  ); }
+    35%   { left: -100%; filter: blur(0  ); }
+    37.5% {              filter: blur(2px); }
+    40%   { left: -200%; filter: blur(0  ); }
+    55%   { left: -200%; filter: blur(0  ); }
+    57.5% {              filter: blur(2px); }
+    60%   { left: -300%; filter: blur(0  ); }
+    75%   { left: -300%; filter: blur(0  ); }
+    77.5% {              filter: blur(2px); }
+    80%   { left: -400%; filter: blur(0  ); }
+    100%  { left: -400%; filter: blur(0  ); }
 }
