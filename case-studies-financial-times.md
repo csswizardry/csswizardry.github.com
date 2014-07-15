@@ -3,6 +3,7 @@ layout: post
 title: Financial Times – Workshop and consultancy
 meta: "An intense day of workshop-style Q&A with the Financial Times"
 permalink: /case-studies/financial-times/
+hide-hire-me-link: true
 ---
 
 One of the first clients I worked with after I’d started working for myself was
@@ -54,6 +55,8 @@ managed to cover topics including:
 * **Techniques and guidelines:** What coding styleguide and rules should be in
   place, what techniques and technologies should they use to achieve certain
   results?
+
+{% include promo.html %}
 
 At the end of a long but very fun day, I left the team with a lot of answers to
 a lot of questions—looking back at the notes from the day, it’s crazy just how

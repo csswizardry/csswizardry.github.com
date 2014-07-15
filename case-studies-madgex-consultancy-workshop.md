@@ -3,6 +3,7 @@ layout: post
 title: Madgex – Consultancy and workshop
 meta: "A full-day workshop with a team of ambitious designers and developers"
 permalink: /case-studies/madgex-consultancy-workshop/
+hide-hire-me-link: true
 ---
 
 Nik White, [Madgex](http://madgex.com/)’s Design Director, got in touch with me
@@ -44,6 +45,8 @@ cross-product UI components; theming and skinning components based on their
 white-labelling; versioning and safely consuming and propagating (changes to)
 these components cross-product; creating a useful UI Toolkit; and nitty-gritty
 specifics such as naming conventions and workflows.
+
+{% include promo.html %}
 
 We also had a section of the day dedicated to hacking together proof-of-concept
 Bower packages, and how to author and consume these. Unfortunately, with such a

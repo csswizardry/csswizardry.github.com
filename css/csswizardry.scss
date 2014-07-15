@@ -135,12 +135,13 @@ $inuit-enable-layout--middle:   true;
 $inuit-enable-layout--bottom:   true;
 $inuit-enable-layout--large:    true;
 @import "bower_components/inuit-layout/objects.layout";
-
-$inuit-enable-box--large:   true;
 @import "bower_components/inuit-box/objects.box";
 @import "bower_components/inuit-media/objects.media";
 
-$inuit-ui-list-border-color: $color-gray-ui;
+$inuit-enable-flag--rev:    true;
+@import "bower_components/inuit-flag/objects.flag";
+
+$inuit-ui-list-border-color:    $color-gray-ui;
 $inuit-enable-ui-list--small:   true;
 @import "bower_components/inuit-ui-list/objects.ui-list";
 

@@ -3,6 +3,7 @@ layout: post
 title: NHS – NHSx eLearning platform
 meta: "Working in intense sprints to help build an eLearning platform for the NHS"
 permalink: /case-studies/nhs-nhsx-elearning-platform/
+hide-hire-me-link: true
 ---
 
 I must admit, when I saw an email from the NHS asking me if I’d like to help
@@ -58,6 +59,8 @@ design rationalisation magic on an ambitious new project of theirs, as well as
 joining to build the front-end of the entire product: an eLearning platform
 which aimed to bring all the NHS’ many fragmented learning resources under one
 roof, accessible to all members of NHS staff.
+
+{% include promo.html %}
 
 It was clear from Jason’s opening email that this project was not going to be
 fraught with the same kind of problems you read about in the press. Jason was

@@ -3,6 +3,7 @@ layout: post
 title: BBC – Workshop and code review
 meta: "Running a full-day workshop with developers from the BBC"
 permalink: /case-studies/bbc-workshop/
+hide-hire-me-link: true
 ---
 
 When Keith Mitchell, Engineering Manager at BBC Sport, emailed me asking if I’d
@@ -44,6 +45,8 @@ they all work together day-in, day-out, everyone has a subtly different way of
 building the same, innocuous little pieces of UI. Using this exercise as a base,
 the rest of the workshop talked about how we could all work in a more
 standardised manner to try and make team-working more seamless.
+
+{% include promo.html %}
 
 <b>In the afternoon</b>, I joined a much smaller team of just BBC Sport
 developers for a Q&A session, looking at, and reviewing, the work they were
