@@ -68,6 +68,17 @@
  *
  * (100 - (5 * 15)) / 4 = 6.25
  *
+ * N.B. We also include a halfway point in the middle of our transitioning
+ *      frames to which we apply a subtle blur. This number is derived from:
+ *
+ *      (a * x) + (a-1 * y) + (y / 2)
+ *
+ *      where a is the frame in question (out of n frames).
+ *
+ *      The halfway point between frames 3 and 4 is:
+ *
+ *      (3 * 17.5) + (2 * 3.125) + (3.125 / 2) = 60.3125
+ *
  * I’m pretty sure this is all a mess. To any kind person reading this who would
  * be able to improve it, I would be very grateful if you would advise :)
  */
