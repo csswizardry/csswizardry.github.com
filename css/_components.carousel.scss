@@ -68,6 +68,9 @@
  *
  * (100 - (5 * 15)) / 4 = 6.25
  *
+ * If y comes out as zero-or-below, it means the number we chose for x was too
+ * large: pick again.
+ *
  * N.B. We also include a halfway point in the middle of our transitioning
  *      frames to which we apply a subtle blur. This number is derived from:
  *
