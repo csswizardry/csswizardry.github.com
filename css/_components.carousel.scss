@@ -35,6 +35,14 @@
             width: 20%; /* 100 / number of panes */
         }
 
+
+
+
+
+/**
+ * I’m pretty sure this is all a mess. To any kind person reading this who would
+ * be able to improve it, I would be very grateful if you would advise :)
+ */
 @-webkit-keyframes carousel{
     0%    { left:    0 ; -webkit-filter: blur(0  ); }
     15%   { left:    0 ; -webkit-filter: blur(0  ); }
