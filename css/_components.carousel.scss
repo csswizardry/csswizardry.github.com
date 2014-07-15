@@ -86,52 +86,52 @@
  * be able to improve it, I would be very grateful if you would advise :)
  */
 @-webkit-keyframes carousel{
-    0%          { left:    0 ; -webkit-filter: blur(0  ); }
-    17.5%       { left:    0 ; -webkit-filter: blur(0  ); }
-    19.0625%    {              -webkit-filter: blur(2px); }
-    20.625%     { left: -100%; -webkit-filter: blur(0  ); }
-    38.125%     { left: -100%; -webkit-filter: blur(0  ); }
-    39.6875%    {              -webkit-filter: blur(2px); }
-    41.25%      { left: -200%; -webkit-filter: blur(0  ); }
-    58.75%      { left: -200%; -webkit-filter: blur(0  ); }
-    60.3125%    {              -webkit-filter: blur(2px); }
-    61.875%     { left: -300%; -webkit-filter: blur(0  ); }
-    79.375%     { left: -300%; -webkit-filter: blur(0  ); }
-    80.9375%    {              -webkit-filter: blur(2px); }
-    82.5%       { left: -400%; -webkit-filter: blur(0  ); }
-    100%        { left: -400%; -webkit-filter: blur(0  ); }
+    0%          { -webkit-transform: translate3d(   0 , 0, 0); -webkit-filter: blur(0  ); }
+    17.5%       { -webkit-transform: translate3d(   0 , 0, 0); -webkit-filter: blur(0  ); }
+    19.0625%    {                                              -webkit-filter: blur(2px); }
+    20.625%     { -webkit-transform: translate3d( -20%, 0, 0); -webkit-filter: blur(0  ); }
+    38.125%     { -webkit-transform: translate3d( -20%, 0, 0); -webkit-filter: blur(0  ); }
+    39.6875%    {                                              -webkit-filter: blur(2px); }
+    41.25%      { -webkit-transform: translate3d( -40%, 0, 0); -webkit-filter: blur(0  ); }
+    58.75%      { -webkit-transform: translate3d( -40%, 0, 0); -webkit-filter: blur(0  ); }
+    60.3125%    {                                              -webkit-filter: blur(2px); }
+    61.875%     { -webkit-transform: translate3d( -60%, 0, 0); -webkit-filter: blur(0  ); }
+    79.375%     { -webkit-transform: translate3d( -60%, 0, 0); -webkit-filter: blur(0  ); }
+    80.9375%    {                                              -webkit-filter: blur(2px); }
+    82.5%       { -webkit-transform: translate3d( -80%, 0, 0); -webkit-filter: blur(0  ); }
+    100%        { -webkit-transform: translate3d( -80%, 0, 0); -webkit-filter: blur(0  ); }
 }
 
 @-moz-keyframes carousel{
-    0%          { left:    0 ;    -moz-filter: blur(0  ); }
-    17.5%       { left:    0 ;    -moz-filter: blur(0  ); }
-    19.0625%    {                 -moz-filter: blur(2px); }
-    20.625%     { left: -100%;    -moz-filter: blur(0  ); }
-    38.125%     { left: -100%;    -moz-filter: blur(0  ); }
-    39.6875%    {                 -moz-filter: blur(2px); }
-    41.25%      { left: -200%;    -moz-filter: blur(0  ); }
-    58.75%      { left: -200%;    -moz-filter: blur(0  ); }
-    60.3125%    {                 -moz-filter: blur(2px); }
-    61.875%     { left: -300%;    -moz-filter: blur(0  ); }
-    79.375%     { left: -300%;    -moz-filter: blur(0  ); }
-    80.9375%    {                 -moz-filter: blur(2px); }
-    82.5%       { left: -400%;    -moz-filter: blur(0  ); }
-    100%        { left: -400%;    -moz-filter: blur(0  ); }
+    0%          {    -moz-transform: translate3d(   0 , 0, 0);    -moz-filter: blur(0  ); }
+    17.5%       {    -moz-transform: translate3d(   0 , 0, 0);    -moz-filter: blur(0  ); }
+    19.0625%    {                                                 -moz-filter: blur(2px); }
+    20.625%     {    -moz-transform: translate3d( -20%, 0, 0);    -moz-filter: blur(0  ); }
+    38.125%     {    -moz-transform: translate3d( -20%, 0, 0);    -moz-filter: blur(0  ); }
+    39.6875%    {                                                 -moz-filter: blur(2px); }
+    41.25%      {    -moz-transform: translate3d( -40%, 0, 0);    -moz-filter: blur(0  ); }
+    58.75%      {    -moz-transform: translate3d( -40%, 0, 0);    -moz-filter: blur(0  ); }
+    60.3125%    {                                                 -moz-filter: blur(2px); }
+    61.875%     {    -moz-transform: translate3d( -60%, 0, 0);    -moz-filter: blur(0  ); }
+    79.375%     {    -moz-transform: translate3d( -60%, 0, 0);    -moz-filter: blur(0  ); }
+    80.9375%    {                                                 -moz-filter: blur(2px); }
+    82.5%       {    -moz-transform: translate3d( -80%, 0, 0);    -moz-filter: blur(0  ); }
+    100%        {    -moz-transform: translate3d( -80%, 0, 0);    -moz-filter: blur(0  ); }
 }
 
 @keyframes carousel{
-    0%          { left:    0 ;         filter: blur(0  ); }
-    17.5%       { left:    0 ;         filter: blur(0  ); }
-    19.0625%    {                      filter: blur(2px); }
-    20.625%     { left: -100%;         filter: blur(0  ); }
-    38.125%     { left: -100%;         filter: blur(0  ); }
-    39.6875%    {                      filter: blur(2px); }
-    41.25%      { left: -200%;         filter: blur(0  ); }
-    58.75%      { left: -200%;         filter: blur(0  ); }
-    60.3125%    {                      filter: blur(2px); }
-    61.875%     { left: -300%;         filter: blur(0  ); }
-    79.375%     { left: -300%;         filter: blur(0  ); }
-    80.9375%    {                      filter: blur(2px); }
-    82.5%       { left: -400%;         filter: blur(0  ); }
-    100%        { left: -400%;         filter: blur(0  ); }
+    0%          {         transform: translate3d(   0 , 0, 0);         filter: blur(0  ); }
+    17.5%       {         transform: translate3d(   0 , 0, 0);         filter: blur(0  ); }
+    19.0625%    {                                                      filter: blur(2px); }
+    20.625%     {         transform: translate3d( -20%, 0, 0);         filter: blur(0  ); }
+    38.125%     {         transform: translate3d( -20%, 0, 0);         filter: blur(0  ); }
+    39.6875%    {                                                      filter: blur(2px); }
+    41.25%      {         transform: translate3d( -40%, 0, 0);         filter: blur(0  ); }
+    58.75%      {         transform: translate3d( -40%, 0, 0);         filter: blur(0  ); }
+    60.3125%    {                                                      filter: blur(2px); }
+    61.875%     {         transform: translate3d( -60%, 0, 0);         filter: blur(0  ); }
+    79.375%     {         transform: translate3d( -60%, 0, 0);         filter: blur(0  ); }
+    80.9375%    {                                                      filter: blur(2px); }
+    82.5%       {         transform: translate3d( -80%, 0, 0);         filter: blur(0  ); }
+    100%        {         transform: translate3d( -80%, 0, 0);         filter: blur(0  ); }
 }
