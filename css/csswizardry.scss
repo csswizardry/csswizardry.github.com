@@ -55,6 +55,7 @@
  * Iconic...............Iconic icon styles.
  * Feature list.........Big blocky lists of feature items.
  * Annotate.............Pure CSS figure annotations.
+ * Ads..................AdPacks overrides.
  *
  * TRUMPS
  * Widths...............Simple width helper classes.
@@ -175,6 +176,7 @@ $inuit-enable-ui-list--small:   true;
 @import "components.iconic";
 @import "components.feature-list";
 @import "components.annotate";
+@import "components.ads";
 
 
 
