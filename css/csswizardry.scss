@@ -15,6 +15,7 @@
  * Functions............inuitcss’ default functions.
  * Mixins...............inuitcss’ default mixins.
  * Mixins...............Our extension of inuitcss’ mixins.
+ * Responsive...........Responsive tooling (requires responsive settings).
  * Aliases..............Aliases onto longer inuitcss variables and mixins.
  *
  * GENERIC
@@ -89,6 +90,7 @@
 @import "bower_components/inuit-functions/tools.functions";
 @import "bower_components/inuit-mixins/tools.mixins";
 @import "tools.mixins";
+@import "tools.responsive";
 @import "tools.aliases";
 
 
