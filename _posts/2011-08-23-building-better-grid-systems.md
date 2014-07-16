@@ -21,20 +21,24 @@ With every grid system that gets released—and there are a lot now—I notice t
 
 If you have a grid system where each grid module is defined with a class of, say, `.grid`, you might have some CSS like this:
 
-<pre><code>.row{
-    width:940px;
-    overflow:hidden; <span class="code-comment">/* This is just for brevity. Please use a better clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */</span>
-    clear:both;
-}
-.grid{
-    float:left;
-    margin-right:20px;
-}
-...
-.col-4{
-    width:220px;
-}
-...</code></pre>
+    .row{
+        width:940px;
+        overflow:hidden; <span class="code-comment">/* This is just for brevity. Please use a better clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */</span>
+        clear:both;
+    }
+
+    .grid{
+        float:left;
+        margin-right:20px;
+    }
+
+    ...
+
+    .col-4{
+        width:220px;
+    }
+
+    ...
 
 The most important thing to note is that every `.grid` has a `margin-right` of 20px, so—in a 16 column 940px grid system—4 × `.col-4` actually equals 960px (4 × (220px + 20px)). This is 20px (or one margin) _bigger_ than your wrapper. 
 
@@ -62,23 +66,23 @@ The simplest and most common solution is to use a class of `.last` or `.end` on 
 This would give us:
 
     <div class="row">
-    
+
       <div class="grid  col-4">
         <p>One box plus one gutter</p>
       </div>
-    
+
       <div class="grid  col-4">
         <p>One box plus one gutter</p>
       </div>
-    
+
       <div class="grid  col-4">
         <p>One box plus one gutter</p>
       </div>
-    
+
       <div class="grid col-4  end">
         <p>One box only</p>
       </div>
-      
+
     </div>
 
 This solves the problem, but it means the developer has to remember to add that class every time they construct a row of grids.
@@ -145,14 +149,18 @@ Our 940px `.row` now becomes 960px wide to allow for the fact we are no longer r
       overflow:hidden;
       clear:both;
     }
+
     .grid{
       float:left;
       margin-left:20px;
     }
+
     ...
+
     .col-4{
       width:220px;
     }
+
     ...
 
 This way we can have multiple-row constructions and never have to remember the special `.end`/`.last` classes.
@@ -169,29 +177,31 @@ To transfer this technique, you only need to know three things:
 
 With these, your formula is simply:
 
-    <pre><code>.row{
-      width: <mark>(number of columns * width of one column) + (number of columns * width of one gutter)</mark> px;
-      margin-left: -<mark>width of one gutter</mark> px;
+    .row{
+      width: (number of columns * width of one column) + (number of columns * width of one gutter) px;
+      margin-left: -width of one gutter px;
       overflow:hidden;
       clear:both;
     }
+
     .grid{
       float:left;
-      margin-left: <mark>width of one gutter</mark> px;
-    }</code></pre>
+      margin-left: width of one gutter px;
+    }
 
 So let’s create one using **12 columns** that are **50px wide** with a **gutter of 25px**:
 
-    <pre><code>.row{
-      width:<mark>900px</mark>;
-      margin-left:-<mark>25px</mark>;
+    .row{
+      width:900px;
+      margin-left:-25px;
       overflow:hidden;
       clear:both;
     }
+
     .grid{
       float:left;
-      margin-left:<mark>25px</mark>;
-    }</code></pre>
+      margin-left:25px;
+    }
 
 Plugging in our numbers gives us a grid system that doesn’t require special classes, is totally flexible (you can move columns without needing to move a class around), and gives you more varied layouts (multiple rows).
 
