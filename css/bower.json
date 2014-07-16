@@ -29,7 +29,7 @@
     "inuit-ui-list": "~0.2.0",
     "inuit-images": "~0.1.0",
     "inuit-lists": "~0.1.0",
-    "inuit-flag": "~0.2.3"
+    "inuit-flag": "~0.2.4"
   },
   "resolutions": {
     "inuit-functions": "~0.2.0"
