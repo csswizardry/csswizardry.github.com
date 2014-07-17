@@ -25,14 +25,14 @@ we can do to mitigate its effects:
   can do with a class), they cannot be reused, and their specificity is way, way
   too high. Even an infinite number of chained classes will not trump the
   specificity of one ID.
-* **Do not nest seclectors** unnecessarily. If `.header-nav {}` will work, never
+* **Do not nest selectors** unnecessarily. If `.header-nav {}` will work, never
   use `.header .header-nav {}`; to do so will literally double the specificity
   of the selector without any benefit.
 * **Do not qualify selectors** unless you have a compelling reason to do so. If
   `.nav {}` will work, do not use `ul.nav {}`; to do so would limit the places
-  you can use the `.nav` class, but it also increase the specificity of the
+  you can use the `.nav` class, but it also increases the specificity of the
   selector, again, with no real gain.
-* **Make heavy use of classes**, because they are the ideal selector: low
+* **Make heavy use of classes** because they are the ideal selector: low
   specificity (or rather, all classes have the same specificity, so you have a
   level playing field), great portability, and high reusability.
 
