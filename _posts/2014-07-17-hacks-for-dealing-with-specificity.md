@@ -159,7 +159,7 @@ maintained. This is a really nice way of increasing specificity in isolation.
 
 Again, this is something of a hack, but it’s the best of a bad bunch when it
 comes to increasing specificity. At least this way there’s very little
-maintenance overhead, and no reliance on av location or context.
+maintenance overhead, and no reliance on a location or context.
 
 So there we have it; two ways of safely hacking (and remember, these are hacks)
 your specificity up or down.
