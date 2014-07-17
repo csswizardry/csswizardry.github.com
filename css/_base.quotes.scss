@@ -5,8 +5,6 @@
 /**
  * Inline quotes.
  *
- * 1. If the quote is the first element in a parent, hang its opening
- *    punctuation.
  */
 q {
     quotes: "‘" "’" "“" "”";
@@ -17,11 +15,6 @@ q {
 
     &:after {
         content: close-quote;
-    }
-
-    &:first-child {
-        display: inline-block;
-        text-indent: -0.26em; /* [1] */
     }
 
 }
