@@ -76,9 +76,6 @@ pre {
  * 2. Reindent figcaptions.
  */
 figure {
-    margin-top:   0;
-    margin-right: 0;
-    margin-left:  0;
 
     @media screen and (min-width: 1380px) {
         margin-left: -128px; /* [1] */
