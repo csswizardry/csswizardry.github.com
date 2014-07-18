@@ -23,11 +23,11 @@
     "inuit-buttons": "~0.4.0",
     "inuit-layout": "~0.3.0",
     "inuit-widths": "~0.2.0",
-    "inuit-spacing": "~0.5.1",
+    "inuit-spacing": "~0.6.0",
     "inuit-box": "~0.3.0",
     "inuit-media": "~0.3.0",
     "inuit-ui-list": "~0.3.0",
-    "inuit-images": "~0.1.0",
+    "inuit-images": "~0.2.0",
     "inuit-lists": "~0.1.0",
     "inuit-flag": "~0.3.0",
     "inuit-responsive-tools": "~0.1.0"
