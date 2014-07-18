@@ -10,7 +10,7 @@
   "license": "Apache",
   "private": true,
   "dependencies": {
-    "inuit-defaults": "~0.1.4",
+    "inuit-defaults": "~0.1.5",
     "inuit-mixins": "~0.1.1",
     "inuit-functions": "~0.2.0",
     "inuit-normalize": "~3.0.1",
