@@ -13,7 +13,7 @@ scalable user interfaces. I am [available for
 work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together).
 
 <figure>
-  <img src="https://csswizardry.a.cdnify.io/img/content/me.jpg" alt="">
+  <img src="/img/content/me.jpg" alt="">
   <figcaption>
       On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
       <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
@@ -81,9 +81,7 @@ homepage’s masthead is of me speaking at [DotYork](http://dotyork.com/), and w
 taken by [Jim Poyner](http://jimpoyner.co.uk/).
 
 Responsive testing was made possible by [Finch](https://meetfinch.com/), an
-incredible tool for exposing local dev sites to the open internet, and static
-assets are delivered by [CDNify](https://cdnify.com/), an astoundingly
-simple-to-set up CDN.
+incredible tool for exposing local dev sites to the open internet.
 
 CSS Wizardry’s roadmap and task list are viewable on [a public Trello
 board](https://trello.com/b/5vYEHwrP/csswizardry-com), and all of the code that

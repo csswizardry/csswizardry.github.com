@@ -30,7 +30,7 @@ building our UIs. This took the guise of:
   scale.
 
 <figure>
-  <img src="//csswizardry.a.cdnify.io//img/content/case-studies/bskyb/skybet.com.jpg" alt="">
+  <img src="//img/content/case-studies/bskyb/skybet.com.jpg" alt="">
   <figcaption>Screenshot of the Sky Bet homepage. <a href="/img/content/case-studies/bskyb/skybet.com-full.jpg">View full size/quality (672KB).</a></figcaption>
 </figure>
 
