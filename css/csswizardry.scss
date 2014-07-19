@@ -23,7 +23,6 @@
  * Reset................A pared back reset to remove margins.
  * Box-sizing...........Better default `box-sizing`.
  * Shared...............Sensibly and tersely share global commonalities.
- * Clearfix.............I can’t believe we still need this in 2014.
  *
  * BASE
  * Page.................Page-level styles (HTML element).
@@ -62,6 +61,7 @@
  * Ads..................AdPacks overrides.
  *
  * TRUMPS
+ * Clearfix.............I can’t believe we still need this in 2014.
  * Widths...............Simple width helper classes.
  * Widths-responsive....Polyfill for responsive width classes.
  * Spacing..............Micro-level spacing.
@@ -104,7 +104,6 @@
 @import "bower_components/inuit-reset/generic.reset";
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 @import "bower_components/inuit-shared/generic.shared";
-@import "bower_components/inuit-clearfix/generic.clearfix";
 
 
 
@@ -196,6 +195,8 @@ $inuit-enable-ui-list--small:   true;
 /**
  * #TRUMPS
  */
+@import "bower_components/inuit-clearfix/trumps.clearfix";
+
 $inuit-use-fractions:   false;
 @import "bower_components/inuit-widths/trumps.widths";
 @import "trumps.widths-responsive";
