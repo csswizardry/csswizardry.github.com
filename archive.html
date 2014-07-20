@@ -6,9 +6,9 @@ permalink: /archive/
 ---
 
 <section class="posts">
-    <ul class="ui-list">
+    <ul class="list-ui">
         {% for post in site.posts %}
-        <li class="ui-list__item">
+        <li class="list-ui__item">
             <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d %B, %Y" }}</time>
             <h2 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </li>

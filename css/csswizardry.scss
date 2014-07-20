@@ -149,14 +149,14 @@ $inuit-enable-flag--responsive: true;
 $inuit-flag-collapse-at:        479px !default;
 @import "bower_components/inuit-flag/objects.flag";
 
-$inuit-ui-list-border-color:    $color-gray-ui;
-$inuit-enable-ui-list--small:   true;
-@import "bower_components/inuit-ui-list/objects.ui-list";
+$inuit-list-ui-border-color:    $color-gray-ui;
+$inuit-enable-list-ui--small:   true;
+@import "bower_components/inuit-list-ui/objects.list-ui";
 
 /**
- * Quick, inline extension of the inuitcss UI-List object.
+ * Quick, inline extension of the inuitcss list-ui object.
  */
-.ui-list__title {
+.list-ui__title {
     display: block;
     @include font-size(12px);
     @include font-weight(bold);
