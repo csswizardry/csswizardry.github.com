@@ -37,13 +37,13 @@
 
             .carousel__link {
                 color: inherit;
-                border-bottom: 1px solid #dadada;
+                border-bottom: 1px solid $color-links-carousel;
                 @include font-weight(regular);
                 @include vendor(transition, 0.2s border-color);
 
                 @include attention() {
                     text-decoration: none;
-                    border-bottom-color: #b6b6b6;
+                    border-bottom-color: darken($color-links-carousel, 10%);
                 }
 
             }
