@@ -59,3 +59,7 @@ performance and ease of growth and maintainability in product companies, as well
 as evangelising the incredible work the UI team had done already to the rest of
 the business. Their efforts so far had been great, and I joined them to help
 fill in some of the missing pieces around some of the more architectural issues.
+
+---
+
+{% include promo-bbc.html %}

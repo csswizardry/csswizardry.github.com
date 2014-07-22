@@ -61,3 +61,7 @@ managed to cover topics including:
 At the end of a long but very fun day, I left the team with a lot of answers to
 a lot of questions—looking back at the notes from the day, it’s crazy just how
 much stuff we managed to get covered.
+
+---
+
+{% include promo-nhs.html %}

@@ -56,3 +56,7 @@ review](http://csswizardry.com/work/#section-code-reviews) of sorts.
 The day ended with a brief hacking session, experimenting with creating UI
 components as discrete packages, and managing them with
 [Bower](http://bower.io/).
+
+---
+
+{% include promo-sky.html %}

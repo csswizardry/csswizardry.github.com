@@ -3,6 +3,7 @@ layout: post
 title: BSkyB – Senior UI Developer
 meta: "Almost three years of full-time employment as Senior UI Developer at Sky"
 permalink: /case-studies/bskyb/
+hide-hire-me-link: true
 ---
 
 For almost three years, I was employed by
@@ -30,7 +31,7 @@ building our UIs. This took the guise of:
   scale.
 
 <figure>
-  <img src="//img/content/case-studies/bskyb/skybet.com.jpg" alt="">
+  <img src="/img/content/case-studies/bskyb/skybet.com.jpg" alt="">
   <figcaption>Screenshot of the Sky Bet homepage. <a href="/img/content/case-studies/bskyb/skybet.com-full.jpg">View full size/quality (672KB).</a></figcaption>
 </figure>
 
@@ -83,3 +84,7 @@ products, be that through direct development and engineering work, through
 frameworks and tools I’d written, to code reviews and workshops with other team
 members. Working at Sky was an incredible experience, and I’d recommend it to
 anyone.
+
+---
+
+{% include promo-ft.html %}

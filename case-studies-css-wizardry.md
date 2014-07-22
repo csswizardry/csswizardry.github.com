@@ -3,6 +3,7 @@ layout: post
 title: CSS Wizardry – MVP design and development
 meta: "Redesigning and redeveloping my own website to serve a new purpose over a long weekend"
 permalink: /case-studies/css-wizardry/
+hide-hire-me-link: true
 ---
 
 It seems a little odd to list your own website as a case study on itself, but
@@ -119,3 +120,7 @@ after a very intense initial sprint, spend fragments of time improving and
 honing the site in coming weeks. It was very important to me that I get
 something ‘good’ live in a few days, rather than spending months trying to
 strive for ‘perfect’.
+
+---
+
+{% include promo-madgex.html %}

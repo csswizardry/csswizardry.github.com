@@ -198,3 +198,7 @@ companies as large as the NHS can work quickly and adaptively, in a modern,
 agile way, that doesn’t cost millions of pounds. It was a fantastic product to
 be a part of, and I hope Jason manages to fan out this way of working further
 across the NHS’ departments.
+
+---
+
+{% include promo-css-wizardry.html %}
