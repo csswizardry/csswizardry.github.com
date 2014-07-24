@@ -16,9 +16,9 @@ incredibly varied: development work, design and design process rationalisation,
 internal workshops, performance engineering, and more.
 
 One of my first tasks when I joined Sky was to rebuild the front-end of
-[Sky Bet](http://www.skybet.com/), for which I was front-end lead. From there on
-in, I steered the majority of decisions regarding how we should go about
-building our UIs. This took the guise of:
+[Sky Bet](http://www.skybet.com/), for which I was the sole front-end developer.
+From there on in, I steered the majority of decisions regarding how we should go
+about building our UIs. This took the form of:
 
 * Building internal frameworks and UI Toolkits for other developers to implement.
 * Providing a design–development bridge, and handling des–dev relations.
@@ -54,8 +54,9 @@ Sky Bet was hit by an unusually early uptake in mobile users; far earlier and
 more dramatically than a lot of other industries and sectors were reporting at
 the time. Having only just finished work on the classic, non-responsive
 ‘desktop’ build, it was decided that we respond very quickly and build a
-specific m-dot site as our mobile offering. It was around this time we also
-employed a dedicated Performance Engineer, who I worked very closely with to
+specific m-dot site as our mobile offering. Once again, I was the solo front-end
+developer on this project, and it was around this time we also employed a
+dedicated Performance Engineer, who I worked very closely with to
 ensure our UIs were just as speedy as his software and platform code.
 
 <blockquote class="pull-quote  pull-quote--context">
