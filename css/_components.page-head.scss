@@ -2,6 +2,9 @@
     #PAGE-HEAD
 \*------------------------------------*/
 
+$header-border-width:   6px;
+$header-max-height:     480px;
+
 /**
  * The site’s main page-head can have two different states:
  *
@@ -22,7 +25,7 @@
 .page-head {
     @extend %margin-bottom;
     border-style: solid;
-    border-width: 6px 0 1px;
+    border-width: $header-border-width 0 1px;
     border-top-color: $color-page-head-border;
     border-bottom-color: rgba(0, 0, 0, 0.05);
     padding-top:    $spacing-unit--small; /* [1] */
@@ -47,23 +50,29 @@
  * 1. Mastheads will typically have dark backgrounds, so we need to make sure
  *    the contrast is okay. This value is subject to change as the background
  *    image changes.
- * 2. We need to delegate a lot of the masthead’s layout to its wrapper element.
+ * 2. We need to delegate a lot of the masthead’s layout to its wrapper element
+ *    rather than the masthead itself: it is to this wrapper that most things
+ *    are positioned.
  * 3. The wrapper needs positioning context for us to lay our nav and masthead
  *    text in.
- * 4. Faux-fluid-height technique. This ratio gives us 16:9.
- * 5. When the viewport is at 811px wide, our 16:9 ratio means that the masthead
- *    is currently rendered at about 480px high. Let’s…
- * 6. …snip off the fluid feature at this height, and…
- * 7. …fix the height at the 480px.
+ * 4. Faux-fluid-height technique: simply create the illusion of fluid height by
+ *    creating space via a percentage padding, and then position everything over
+ *    the top of that. This percentage gives us a 16:9 ratio.
+ * 5. When the viewport is at 758px wide, our 16:9 ratio means that the masthead
+ *    is currently rendered at 480px high. Let’s…
+ * 6. …seamlessly snip off the fluid feature at this height, and…
+ * 7. …fix the height at 480px. This means that we should see no jumps in height
+ *    as the masthead moves from fluid to fixed. This actual value takes into
+ *    account the padding and the top border on the header itself.
  */
 .page-head--masthead {
     margin-bottom: 0;
     background: url(/img/css/masthead.jpg) center center #2e2620;
+    @include vendor(background-size, cover);
+    color: $color-masthead; /* [1] */
     border-top-color: $color-masthead;
     border-bottom-width: 0;
-    @include vendor(background-size, cover);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
-    color: $color-masthead; /* [1] */
 
     @include media-query(lap-and-up) {
         background-image: url(/img/css/masthead-medium.jpg);
@@ -77,9 +86,9 @@
         position: relative; /* [3] */
         padding-top: 56.25%; /* [4] */
 
-        @media screen and (min-width: 811px) { /* [5] */
+        @media screen and (min-width: 758px) { /* [5] */
             padding-top: 0; /* [6] */
-            height: 480px; /* [7] */
+            height: $header-max-height - double($spacing-unit) - $header-border-width; /* [7] */
         }
 
     }
