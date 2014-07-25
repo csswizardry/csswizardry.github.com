@@ -79,6 +79,8 @@ So my advice was basically:
 class with a ‘reserved’ character to denote this instead of using an overly
 specific ID.**
 
+{% include promo-case-studies.html %}
+
 Of course, still use IDs in your JavaScript, but where CSS is concerned they
 should always be avoided. You can signal uniqueness via other means, such as a
 prefix/namespace.

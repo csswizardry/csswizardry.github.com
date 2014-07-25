@@ -37,6 +37,8 @@ It works on the principle of percentages, rather than absolute columns, meaning
 that there are no confusing `.span-6` classes that behave like `.span-12` ones
 at smaller sizes.
 
+{% include promo-case-studies.html %}
+
 The grids are also fully (infinitely) nestable, meaning you can apply sizing to
 your sub-components as well as to your page-level layout. Furthermore,
 csswizardry-grids’ implementation is left entirely up to you, with two options:

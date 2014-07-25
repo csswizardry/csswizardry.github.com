@@ -57,6 +57,8 @@ unpredictable because:
 * They can be accidentally called in other parts of the program.
 * They can be accidentally reassigned by other global variables.
 
+{% include promo-case-studies.html %}
+
 Let’s take a simple PHP-based example. Let’s imagine you have a variable in
 global scope called `$name`:
 

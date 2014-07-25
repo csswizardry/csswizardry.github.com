@@ -123,6 +123,8 @@ possible. I’m sure you’ve all seen blank sections of pages where a third par
 piece of JS is taking ages to load and blocking the fetching and rendering of
 the rest of the page’s assets; this is JavaScript’s blocking in action.
 
+{% include promo-case-studies.html %}
+
 Apparently, however, modern browsers get smarter still. I’m going to give you
 an excerpt from an email from [Andy Davies](http://twitter.com/andydavies) to
 me, because he explains far better than I can:

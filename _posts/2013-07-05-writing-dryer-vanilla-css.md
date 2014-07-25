@@ -68,6 +68,8 @@ repetition of the parts that are most likely to change. It doesn’t matter that
 the word `border` is written four times as you could never really change that,
 only delete it.
 
+{% include promo-case-studies.html %}
+
 Another decent example, using borders again:
 
     .bar {

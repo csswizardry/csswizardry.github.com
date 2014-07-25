@@ -96,6 +96,8 @@ more defined baseline to start building on.
 
 ## Building the grid system
 
+{% include promo-case-studies.html %}
+
 In order to combat our `.span-12` style of inappropriate classes, we need to
 think about working with classes like `.one-whole`, `.three-fifths`,
 `.five-twelfths` and so on. These mean that, instead of spanning <var>x</var>

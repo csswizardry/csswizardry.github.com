@@ -59,6 +59,8 @@ often had to tell bewildered looking product owners and designers that <q>it’s
 not as simple as that</q>. Never a good feeling, especially when you’re meant to
 be good at CSS.
 
+{% include promo-case-studies.html %}
+
 ## [The flag object](http://jsfiddle.net/csswizardry/hErrh/)
 
 Today, on my lunch break, I decided enough was enough. I fired up

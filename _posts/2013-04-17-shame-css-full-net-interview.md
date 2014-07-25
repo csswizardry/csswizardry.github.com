@@ -68,6 +68,8 @@ There’s nothing worse than picking up someone else’s code and wondering what
 anything does, or how, or why. Document your code so that, if you get hit by a
 bus on your way home, your colleague can take over right away the next day.
 
+{% include promo-case-studies.html %}
+
 **In terms of integration, do you essentially see the hacks appearing as a block
 of patches as the end of a minified CSS file? How would you recommend people
 work if they’re not using preprocessors?**

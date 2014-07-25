@@ -44,6 +44,8 @@ thought on your part. Using some critical thinking, and thinking for yourself,
 it is easy to deduce that <q>hey, I get the point he’s making, but I can’t do it
 myself because of my situation…</q>
 
+{% include promo-case-studies.html %}
+
 If you can’t avoid using IDs, or you simply don’t want to then _don’t_; no one
 is forcing you to, merely offering up advice that you can take or leave provided
 you have done enough critical thinking to make an informed decision. Imagine the

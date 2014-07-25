@@ -88,6 +88,8 @@ Before I can get to _why_ I am doing this, we need establish some groundwork…
 
 ## People and machines
 
+{% include promo-case-studies.html %}
+
 It is a gross oversimplification, but an important distinction we need to make
 when it comes to HTML and CSS is the one between people – our users – and
 machines.  We typically (for the _vast_ majority of cases) have two things
