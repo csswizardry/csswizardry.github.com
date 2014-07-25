@@ -66,6 +66,8 @@ columns. You might have a `table` with no `colspan`s above a `table` with some
 combination of amounts of cells and amounts of `colspan`s. It all gets very
 hairy, very quickly.
 
+{% include promo-case-studies.html %}
+
 ## Solution
 
 I’ve come up with what _I_ feel is a solid, very pragmatic solution.

@@ -80,6 +80,8 @@ loves his work, that’s a bonus—and usually an indicator that he’ll do a gr
 job—but it’s not how to actually measure the quality of his work; fixing my leak
 for good is how I’ll measure that. We as web developers are no different.
 
+{% include promo-case-studies.html %}
+
 ## A disservice
 
 I also feel that the word craft actually plays down our role. A word which

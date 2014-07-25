@@ -73,6 +73,8 @@ making the same mistakes in future. By looking at the way you and/or your team
 currently work, we can figure out a way of rolling out the improvements across
 all of the work you do.
 
+{% include promo-case-studies.html %}
+
 ## In a nutshell
 
 * I get to work with people who clearly care a lot about the products they
