@@ -36,6 +36,8 @@ the globe. I want to work with nice people who care as much about building great
 things as I do, and having fun in the process. I want people who take their
 work, but not themselves, seriously. I want to work with you.
 
+{% include promo-case-studies.html %}
+
 I am going to become available from the end of October/mid-November so –
 regardless of your location, budget, requirements or whatever – if you think we
 could work together then

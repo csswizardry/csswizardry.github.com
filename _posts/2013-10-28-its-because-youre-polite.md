@@ -74,6 +74,8 @@ fault; rushing about, not reading departure boards thoroughly, me leaving her
 purse and phone on top of a machine rather than keeping hold of it. Entirely our
 own fault.
 
+{% include promo-case-studies.html %}
+
 ## Huddersfield
 
 We arrived in Huddersfield and Naomi went straight to the customer service desk
