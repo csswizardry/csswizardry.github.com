@@ -116,7 +116,7 @@ $logo-height:   64px;
 
             }
 
-            @each $page in about, speaking, my-work, hire-me {
+            @each $page in about, speaking, case-studies, hire-me {
 
                 .page--#{$page} .site-nav__#{$page} {
                     color: $color-links;

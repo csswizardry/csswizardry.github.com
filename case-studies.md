@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Case studies
-page-class: page--my-work
+page-class: page--case-studies
 permalink: /case-studies/
 ---
 
