@@ -65,7 +65,7 @@ ensure our UIs were just as speedy as his software and platform code.
        working on. He’s great at rationalising and pushing back on design
        requirements that could adversely effect performance and working out
        better and faster ways of achieving the same result.</p>
-    <b class="pull-quote__source"><a href="http://thetrilemma.wordpress.com/">Dan Rathbone</a>,
+    <b class="pull-quote__source"><a href="http://trilemma.technology/">Dan Rathbone</a>,
        Lead Performance Engineer, BSkyB</b>
 </blockquote>
 
