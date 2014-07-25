@@ -54,6 +54,8 @@ I was looking at the main menu of the site when inspiration struck. Something as
 What a dropdown menu provides is a hierarchical overview of the subsections contained within the menu item that spawned it. Basically, it lists all the subsections within a section of a site when you hover your mouse cursor over it.
 
 
+{% include promo-case-studies.html %}
+
 
 
 
@@ -72,61 +74,61 @@ A lot of dropdown menus rely on bulky, extraneous markup  and Javascript to work
 
 
     
-    <code><ul id="nav">
-    	<li>
-    		<a href="#">Home</a>
-    	</li>
+    <ul id="nav">
+        <li>
+            <a href="#">Home</a>
+        </li>
     
-    	<li>
-    		<a href="#">About</a>
-    		<ul>
-    			<li><a href="#">The product</a></li>
+        <li>
+            <a href="#">About</a>
+            <ul>
+                <li><a href="#">The product</a></li>
     
-    			<li><a href="#">Meet the team</a></li>
-    		</ul>
-    	</li>
-    	<li>
-    		<a href="#">Services</a>
+                <li><a href="#">Meet the team</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Services</a>
     
-    		<ul>
-    			<li><a href="#">Sevice one</a></li>
-    			<li><a href="#">Sevice two</a></li>
+            <ul>
+                <li><a href="#">Sevice one</a></li>
+                <li><a href="#">Sevice two</a></li>
     
-    			<li><a href="#">Sevice three</a></li>
-    			<li><a href="#">Sevice four</a></li>
-    		</ul>
+                <li><a href="#">Sevice three</a></li>
+                <li><a href="#">Sevice four</a></li>
+            </ul>
     
-    	</li>
-    	<li>
-    		<a href="#">Product</a>
-    		<ul>
-    			<li><a href="#">Small product (one)</a></li>
+        </li>
+        <li>
+            <a href="#">Product</a>
+            <ul>
+                <li><a href="#">Small product (one)</a></li>
     
-    			<li><a href="#">Small product (two)</a></li>
-    			<li><a href="#">Small product (three)</a></li>
-    			<li><a href="#">Small product (four)</a></li>
+                <li><a href="#">Small product (two)</a></li>
+                <li><a href="#">Small product (three)</a></li>
+                <li><a href="#">Small product (four)</a></li>
     
-    			<li><a href="#">Big product (five)</a></li>
-    			<li><a href="#">Big product (six)</a></li>
-    			<li><a href="#">Big product (seven)</a></li>
+                <li><a href="#">Big product (five)</a></li>
+                <li><a href="#">Big product (six)</a></li>
+                <li><a href="#">Big product (seven)</a></li>
     
-    			<li><a href="#">Big product (eight)</a></li>
-    			<li><a href="#">Enormous product (nine)</a></li>
-    			<li><a href="#">Enormous product (ten)</a></li>
+                <li><a href="#">Big product (eight)</a></li>
+                <li><a href="#">Enormous product (nine)</a></li>
+                <li><a href="#">Enormous product (ten)</a></li>
     
-    			<li><a href="#">Enormous product (eleven)</a></li>
-    		</ul>
-    	</li>
-    	<li>
-    		<a href="#">Contact</a>
+                <li><a href="#">Enormous product (eleven)</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Contact</a>
     
-    		<ul>
-    			<li><a href="#">Out-of-hours</a></li>
-    			<li><a href="#">Directions</a></li>
+            <ul>
+                <li><a href="#">Out-of-hours</a></li>
+                <li><a href="#">Directions</a></li>
     
-    		</ul>
-    	</li>
-    </ul></code>
+            </ul>
+        </li>
+    </ul>
 
 
 
@@ -153,68 +155,67 @@ This is where the magic happens--we use CSS to transform a series of nested `<ul
 
 
     
-    <code><span class="code-comment">/* BE SURE TO INCLUDE THE CSS RESET FOUND IN THE DEMO PAGE'S CSS */</span>
-    <span class="code-comment">/*------------------------------------*\
-    	NAV
-    \*------------------------------------*/</span>
+    /* BE SURE TO INCLUDE THE CSS RESET FOUND IN THE DEMO PAGE'S CSS */
+    /*------------------------------------*\
+        NAV
+    \*------------------------------------*/
     #nav{
-    	list-style:none;
-    	font-weight:bold;
-    	margin-bottom:10px;
-    	<span class="code-comment">/* Clear floats */</span>
-    	float:left;
-    	width:100%;
-    	<span class="code-comment">/* Bring the nav above everything else--uncomment if needed.
-    	position:relative;
-    	z-index:5;
-    	*/</span>
+        list-style:none;
+        font-weight:bold;
+        margin-bottom:10px;
+        float:left; /* Clear floats */
+        width:100%;
+        /* Bring the nav above everything else--uncomment if needed.
+        position:relative;
+        z-index:5;
+        */
     }
     #nav li{
-    	float:left;
-    	margin-right:10px;
-    	position:relative;
+        float:left;
+        margin-right:10px;
+        position:relative;
     }
     #nav a{
-    	display:block;
-    	padding:5px;
-    	color:#fff;
-    	background:#333;
-    	text-decoration:none;
+        display:block;
+        padding:5px;
+        color:#fff;
+        background:#333;
+        text-decoration:none;
     }
     #nav a:hover{
-    	color:#fff;
-    	background:#6b0c36;
-    	text-decoration:underline;
+        color:#fff;
+        background:#6b0c36;
+        text-decoration:underline;
     }
     
-    <span class="code-comment">/*--- DROPDOWN ---*/</span>
+    /*--- DROPDOWN ---*/
     #nav ul{
-    	background:#fff; <span class="code-comment">/* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */</span>
-    	background:rgba(255,255,255,0); <span class="code-comment">/* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */</span>
-    	list-style:none;
-    	position:absolute;
-    	left:-9999px; <span class="code-comment">/* Hide off-screen when not needed (this is more accessible than display:none;) */</span>
+        background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+        background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+        list-style:none;
+        position:absolute;
+        left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
     }
     #nav ul li{
-    	padding-top:1px; <span class="code-comment">/* Introducing a padding between the li and the a give the illusion spaced items */</span>
-    	float:none;
+        padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+        float:none;
     }
     #nav ul a{
-    	white-space:nowrap; <span class="code-comment">/* Stop text wrapping and creating multi-line dropdown items */</span>
+        white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
     }
-    #nav li:hover ul{ <span class="code-comment">/* Display the dropdown on hover */</span>
-    	left:0; <span class="code-comment">/* Bring back on-screen when needed */</span>
+    #nav li:hover ul{ /* Display the dropdown on hover */
+        left:0; /* Bring back on-screen when needed */
     }
-    #nav li:hover a{ <span class="code-comment">/* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */</span>
-    	background:#6b0c36;
-    	text-decoration:underline;
+    #nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+        background:#6b0c36;
+        text-decoration:underline;
     }
-    #nav li:hover ul a{ <span class="code-comment">/* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */</span>
-    	text-decoration:none;
+    #nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+        text-decoration:none;
     }
-    #nav li:hover ul li a:hover{ <span class="code-comment">/* Here we define the most explicit hover states--what happens when you hover each individual link. */</span>
-    	background:#333;
-    }</code>
+    #nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+        background:#333;
+    }
 
 
 
@@ -244,13 +245,13 @@ One thing of note however is applying `position:relative;` to the list items, th
 
 
     
-    <code>#nav ul{
-    	background:#fff; <span class="code-comment">/* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */</span>
-    	background:rgba(255,255,255,0); <span class="code-comment">/* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */</span>
-    	list-style:none;
-    	position:absolute;
-    	left:-9999px; <span class="code-comment">/* Hide off-screen when not needed (this is more accessible than display:none;) */</span>
-    }</code>
+    #nav ul{
+        background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+        background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+        list-style:none;
+        position:absolute;
+        left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+    }
 
 
 
@@ -279,16 +280,16 @@ Next up we declare `opacity:0;` for the hidden `<ul>` and then a Webkit only dec
 
 
     
-    <code>#nav ul li{
-    	padding-top:1px; <span class="code-comment">/* Introducing a padding between the li and the a give the illusion spaced items */</span>
-    	float:none;
+    #nav ul li{
+        padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+        float:none;
     }
     #nav ul a{
-    	white-space:nowrap; <span class="code-comment">/* Stop text wrapping and creating multi-line dropdown items */</span>
+        white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
     }
-    #nav li:hover ul{ <span class="code-comment">/* Display the dropdown on hover */</span>
-    	left:0; <span class="code-comment">/* Bring back on-screen when needed */</span>
-    }</code>
+    #nav li:hover ul{ /* Display the dropdown on hover */
+        left:0; /* Bring back on-screen when needed */
+    }
 
 
 
@@ -321,10 +322,10 @@ The final bit of code is the bit that actually makes the dropdown appear when th
 
 
     
-    <code>#nav li:hover a{ <span class="code-comment">/* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */</span>
-    	background:#6b0c36;
-    	text-decoration:underline;
-    }</code>
+    #nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+        background:#6b0c36;
+        text-decoration:underline;
+    }
 
 
 
@@ -365,9 +366,9 @@ This block of code here is where the hover styles come in, there's a bit of nift
 
 
     
-    <code>#nav li:hover ul a{ <span class="code-comment">/* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */</span>
-    	text-decoration:none;
-    }</code>
+    #nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+        text-decoration:none;
+    }
 
 
 
@@ -384,9 +385,9 @@ We also add a touch of Webkit goodness, telling the links to transform. `-webkit
 
 
     
-    <code>#nav li:hover ul li a:hover{ <span class="code-comment">/* Here we define the most explicit hover states--what happens when you hover each individual link. */</span>
-    	background:#333;
-    }</code>
+    #nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+        background:#333;
+    }
 
 
 
