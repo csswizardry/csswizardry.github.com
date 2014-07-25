@@ -54,6 +54,8 @@ time. This is my MVP, and it currently fulfils its business requirements
 perfectly—everything else from here on in will likely be cosmetic tweaks and
 improvements.
 
+{% include promo-case-studies.html %}
+
 This site isn’t finished or perfect—it never will be—but it’s certainly better
 than what I had. I made the decision to have a very intense sprint at getting
 the MVP out, and I can now spend more relaxed time improving and repositioning

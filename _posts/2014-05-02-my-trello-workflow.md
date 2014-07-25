@@ -109,6 +109,8 @@ start working on them properly. For example, you might need to read up on
 various different APIs before deciding which—if any—you might use for
 development.
 
+{% include promo-case-studies.html %}
+
 A good real life example would be the card I dealt with just today. We’re
 working on a very rapidly-developed project for the NHS, and phase one came
 together _very_ quickly. I created a card called <i>Performance improvements</i>

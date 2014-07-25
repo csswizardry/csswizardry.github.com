@@ -115,6 +115,8 @@ out `d`elete command for `=`, which means format. We want to indent the entire
 file by one tab? `<Esc>gg>G`: we swap out the `d`elete command for the indent
 one `>`).
 
+{% include promo-case-studies.html %}
+
 It’s very, very important not to take Vim commands at face value; they’re
 usually presented as part of a much bigger, more defensive, more bulletproof
 chain of commands. This is all part of Vim’s composability.

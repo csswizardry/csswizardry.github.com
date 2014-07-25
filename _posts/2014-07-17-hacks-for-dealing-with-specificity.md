@@ -66,6 +66,8 @@ one; this rule is not breakable. Even if you were working with third-party
 markup that you can’t edit, and all that is in that markup is an ID, you can
 still avoid using that ID in your CSS.
 
+{% include promo-case-studies.html %}
+
 <small>**N.B.** Using IDs in your HTML, as fragment identifiers, or in your JS,
 as hooks, is totally fine—it’s in CSS that IDs are troublesome.</small>
 

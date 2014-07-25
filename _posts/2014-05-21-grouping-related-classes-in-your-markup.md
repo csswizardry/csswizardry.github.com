@@ -93,6 +93,8 @@ We can see here that the classes `.box` and `.promo-box` are related, and
 
 ## Scanning your code
 
+{% include promo-case-studies.html %}
+
 I’ve long been a vocal advocate of using [more classes in your
 markup](http://csswizardry.com/2012/10/a-classless-class-on-using-more-classes-in-your-html/):
 it just makes for more pragmatic, manageable, scalable development. It does,

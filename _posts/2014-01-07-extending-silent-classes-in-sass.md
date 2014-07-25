@@ -86,6 +86,8 @@ Remembering to only ever `@extend` the `x-` prepended version—and avoid writin
 the prepended version elsewhere—means that there’s no chance of an overzealous
 `@extend` directive yielding far more CSS than we were expecting.
 
+{% include promo-case-studies.html %}
+
 The only issue with this, really, is the fact that the `x-` classes will still
 appear in my CSS. Not such a big deal, but considering the whole point of this
 exercise is to _reduce_ the amount of classes in our CSS, it seems a little

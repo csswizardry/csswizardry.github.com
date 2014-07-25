@@ -108,6 +108,8 @@ and I have [already covered](http://csswizardry.com/2014/01/extending-silent-cla
 chiefly, that `@extend` is very greedy, and can cause serious bloat if you’re
 not careful.
 
+{% include promo-case-studies.html %}
+
 The other downside to wrapping these objects up into a more meaningful class is
 that you have to pop open your Sass file(s), think up a brand new name,
 potentially create a new partial, and add some more code to replicate

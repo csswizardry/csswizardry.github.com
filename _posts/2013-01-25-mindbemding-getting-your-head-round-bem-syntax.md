@@ -86,6 +86,8 @@ By using BEM we can be more descriptive but also a lot more explicit; we tie
 concrete links to other elements of our code through naming alone. Powerful
 stuff.
 
+{% include promo-case-studies.html %}
+
 Taking the previous `.site-search` example again, with ‘regular’ naming:
 
     <form class="site-search  full">
