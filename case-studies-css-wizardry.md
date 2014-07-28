@@ -3,6 +3,8 @@ layout: post
 title: CSS Wizardry – MVP design and development
 meta: "Redesigning and redeveloping my own website to serve a new purpose over a long weekend"
 permalink: /case-studies/css-wizardry/
+next-case-study-title: "How I helped Madgex’s front-end developers get a handle on their UI."
+next-case-study-url: /case-studies/madgex-consultancy-workshop/
 hide-hire-me-link: true
 ---
 
@@ -123,4 +125,4 @@ strive for ‘perfect’.
 
 ---
 
-{% include promo-madgex.html %}
+{% include promo-next.html %}

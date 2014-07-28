@@ -3,6 +3,8 @@ layout: post
 title: Madgex – Consultancy and workshop
 meta: "A full-day workshop with a team of ambitious designers and developers"
 permalink: /case-studies/madgex-consultancy-workshop/
+next-case-study-title: "Read about the workshop I ran for the BBC’s front-end developers."
+next-case-study-url: /case-studies/bbc-workshop/
 hide-hire-me-link: true
 ---
 
@@ -62,4 +64,4 @@ fill in some of the missing pieces around some of the more architectural issues.
 
 ---
 
-{% include promo-bbc.html %}
+{% include promo-next.html %}

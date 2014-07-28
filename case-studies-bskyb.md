@@ -3,6 +3,8 @@ layout: post
 title: BSkyB – Senior UI Developer
 meta: "Almost three years of full-time employment as Senior UI Developer at Sky"
 permalink: /case-studies/bskyb/
+next-case-study-title: "How I helped the <cite>Financial Times</cite> with their CSS architecture."
+next-case-study-url: /case-studies/financial-times/
 hide-hire-me-link: true
 ---
 
@@ -88,4 +90,4 @@ anyone.
 
 ---
 
-{% include promo-ft.html %}
+{% include promo-next.html %}

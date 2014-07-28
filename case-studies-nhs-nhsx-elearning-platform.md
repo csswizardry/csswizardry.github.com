@@ -3,6 +3,8 @@ layout: post
 title: NHS – NHSx eLearning platform
 meta: "Working in intense sprints to help build an eLearning platform for the NHS"
 permalink: /case-studies/nhs-nhsx-elearning-platform/
+next-case-study-title: "How employing agile techniques helped me be my own client."
+next-case-study-url: /case-studies/css-wizardry/
 hide-hire-me-link: true
 ---
 
@@ -201,4 +203,4 @@ across the NHS’ departments.
 
 ---
 
-{% include promo-css-wizardry.html %}
+{% include promo-next.html %}

@@ -3,6 +3,8 @@ layout: post
 title: BBC – Workshop and code review
 meta: "Running a full-day workshop with developers from the BBC"
 permalink: /case-studies/bbc-workshop/
+next-case-study-title: "Hear about how I changed and improved front-end process for BSkyB."
+next-case-study-url: /case-studies/bskyb/
 hide-hire-me-link: true
 ---
 
@@ -59,4 +61,4 @@ components as discrete packages, and managing them with
 
 ---
 
-{% include promo-sky.html %}
+{% include promo-next.html %}
