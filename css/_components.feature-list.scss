@@ -72,6 +72,7 @@
              *
              * 1. Center the text-box vertically in the list item.
              * 2. Optically sit the text itself centrally in the list item.
+             * 3. Raise the text a little whenever we hover a link.
              */
             .feature-list__title {
                 @include font-size($spacing-unit);
@@ -81,6 +82,19 @@
                 top: 50%; /* [1] */
                 right: 0;
                 left:  0;
-                margin-top: halve(-$spacing-unit); /* [2] */
+                margin-top: -$spacing-unit; /* [2] */
                 color: #fff;
+                @include vendor(transition, 0.2s);
+
+                .feature-list__link:hover &,
+                .feature-list__link:focus &,
+                .feature-list__link:active & {
+                    margin-top: -$spacing-unit - 2px; /* [3] */
+                }
+
             }
+
+                .feature-list__sub {
+                    display: block;
+                    @include font-size(12px);
+                }
