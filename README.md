@@ -1,5 +1,7 @@
 # csswizardry.com
 
+[![Build Status](https://travis-ci.org/csswizardry/csswizardry.github.com.svg?branch=master)](https://travis-ci.org/csswizardry/csswizardry.github.com)
+
 This is CSS Wizardry’s uncompiled Jekyll source code.
 
 CSS Wizardry is built on [Jekyll](https://github.com/mojombo/jekyll) and
