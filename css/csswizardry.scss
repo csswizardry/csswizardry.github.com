@@ -150,6 +150,14 @@ $inuit-enable-flag--responsive: true;
 $inuit-flag-collapse-at:        479px !default;
 @import "bower_components/inuit-flag/objects.flag";
 
+/**
+ * Kinda hacky for now, but needs more testing before rolling back into main
+ * flag object.
+ */
+.flag__img {
+    white-space: nowrap;
+}
+
 $inuit-list-ui-border-color:    $color-gray-ui;
 $inuit-enable-list-ui--small:   true;
 @import "bower_components/inuit-list-ui/objects.list-ui";
