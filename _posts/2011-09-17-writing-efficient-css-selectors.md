@@ -75,13 +75,13 @@ Remember back up there we discussed which types of selector are the most perform
 
 A key selector like this:
 
-<pre><core>#content <mark>.intro</mark>{}</code></pre>
+    #content .intro {}
 
 Is probably quite performant as classes are an inherently performant selector. The browser will look for all instances of `.intro` (of which there aren’t likely to be many) and then go looking up the DOM tree to see if the matched key selector lives in an element with an ID of ‘content’.
 
 However, the following selector is not very performant at all:
 
-<pre><code>#content <mark>*</mark>{}</code></pre>
+    #content * {}
 
 What this does is looks at _every single_ element on the page (that’s _every_ single one) and then looks to see if any of those live in the `#content` parent. This is a very un-performant selector as the key selector is a very expensive one.
 
@@ -91,7 +91,7 @@ Let’s say you have a massive page, it’s enormous and you’re a big, big sit
 
 This selector therefore is unreasonably expensive and not very performant:
 
-<pre><code>#social a{}</code></pre>
+    #social a {}
 
 What will happen here is the browser will assess all the thousands of links on that page before settling on the four inside of the `#social` section. Our key selector matches far too many other elements that we aren’t interested in.
 
@@ -110,7 +110,7 @@ Whereas we would normally have:
 
 with this CSS:
 
-    #social a{}
+    #social a {}
 
 We’d now have:
 
@@ -123,11 +123,11 @@ We’d now have:
 
 with this CSS:
 
-    #social .social-link{}
+    #social .social-link {}
 
 This new key selector will match far fewer elements and means that the browser can find them and style them faster and can move on to the next thing.
 
-And, we can actually get this selector down further to `.social-link{}` by not overqualifying it; read on to the next section for that...
+And, we can actually get this selector down further to `.social-link {}` by not overqualifying it; read on to the next section for that...
 
 So, to recap, your key selector is the one which determines just how much work the browser will have to do, so **this is the one to keep an eye on**.
 
@@ -135,21 +135,21 @@ So, to recap, your key selector is the one which determines just how much work t
 
 Okay so now we know what a key selector is, and that that is where most of the work comes from, we can look to optimise further. The best thing about having nice explicit key selectors is that you can often avoid overqualifying selectors. An overqualified selector might look like:
     
-   html body .wrapper #content a{}
+   html body .wrapper #content a {}
 
 There is just too much going on here, and at least three of these selectors are totally unnecessary. That could, at the very most, be this:
 
-    #content a{}
+    #content a {}
 
 So what?
 
 Well the first one means that the browser has to look for all `a` elements, then check that they’re in an element with an ID of ‘content’, then so on and so on right the way up to the `html`. This is causing the browser way too many checks that we really don’t need. Knowing this, we can get more realistic examples like this:
 
-    #nav li a{}
+    #nav li a {}
 
 Down to just:
 
-    #nav a{}
+    #nav a {}
 
 We know that if the `a` is inside an `li` it _has_ to be inside the `#nav` so we can instantly drop the `li` from selector. Then, as the nav has an ID we know that only one exists in the page, so the element it is applied to is wholly irrelevant; we can also drop the `ul`.
 
@@ -169,7 +169,7 @@ Browsers will only ever get better at CSS parsing speeds, even mobile ones. You 
 
 It is still happening, browsers still are having to do all the work we’ve talked about, no matter how quick they get. Even if you don’t need or even want to implement any of this it is something that is definitely worth knowing. Bear in mind that selectors can be expensive and that you should avoid the more glaring ones where possible. That means if you find yourself writing something like:
 
-    div:nth-of-type(3) ul:last-child li:nth-of-type(odd) *{ font-weight:bold }
+    div:nth-of-type(3) ul:last-child li:nth-of-type(odd) * { font-weight:bold }
 
 Then you’re probably doing it wrong.
 
