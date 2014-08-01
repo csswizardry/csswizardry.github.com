@@ -4,7 +4,7 @@ date: 2011-09-17 10:58:24
 layout: post
 slug: writing-efficient-css-selectors
 title: Writing efficient CSS selectors
-wordpress_id: 3144
+wordpress_id: 3144_
 categories:
 - Web Development
 tag:
@@ -75,13 +75,13 @@ Remember back up there we discussed which types of selector are the most perform
 
 A key selector like this:
 
-    #content .intro {}
+<pre><code>#content <mark>.intro</mark> {}</code></pre>
 
 Is probably quite performant as classes are an inherently performant selector. The browser will look for all instances of `.intro` (of which there aren’t likely to be many) and then go looking up the DOM tree to see if the matched key selector lives in an element with an ID of ‘content’.
 
 However, the following selector is not very performant at all:
 
-    #content * {}
+<pre><code>#content <mark>*</mark> {}</code></pre>
 
 What this does is looks at _every single_ element on the page (that’s _every_ single one) and then looks to see if any of those live in the `#content` parent. This is a very un-performant selector as the key selector is a very expensive one.
 

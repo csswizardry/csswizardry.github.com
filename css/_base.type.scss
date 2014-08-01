@@ -115,3 +115,20 @@ hr {
     border-bottom: 2px solid $color-gray-ui;
     margin-bottom: $spacing-unit - 2px;
 }
+
+
+
+
+
+/**
+ * Highlighted text.
+ */
+mark {
+
+    pre & {
+        background: none;
+        border-bottom: 1px solid;
+        color: inherit;
+    }
+
+}
