@@ -41,7 +41,7 @@ we can do to mitigate its effects:
 These are all very simple rules—and are very easy to follow if you’re starting
 a new project—but what happens when you need to hack specificity? We all know
 about `!important`, which I won’t go into here, but how can we trick specificity
-into being lowered or increased with no side effects?
+into being lowered or increased with no drastic side effects?
 
 ## Low specificity IDs
 
