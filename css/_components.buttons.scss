@@ -23,3 +23,23 @@
     }
 
 }
+
+.btn--positive {
+    @include font-weight(regular);
+
+    @include attention(self) {
+        background-color: $color-positive;
+            border-color: $color-positive;
+    }
+
+}
+
+//.btn--negative {
+//    @include font-weight(regular);
+//
+//    @include attention(self) {
+//        background-color: $color-negative;
+//            border-color: $color-negative;
+//    }
+//
+//}
