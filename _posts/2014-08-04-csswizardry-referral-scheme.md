@@ -14,7 +14,7 @@ me in to run a workshop, or help out on an initial sprint or two’s work, etc.
 I’ve always been very grateful of this, and as a result, I’m setting up a (very
 informal) referral scheme. **Any individual within a company directly
 responsible for that company hiring me will receive a $50 (USD) Amazon
-voucher.**
+voucher.** A simple, small thank you.
 
 ## Terms
 
