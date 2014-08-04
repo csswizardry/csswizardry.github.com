@@ -30,42 +30,44 @@ Any CSS that unsets styles (apart from in a reset) should start ringing alarm be
 
 Any CSS declarations like these:
 
-    border-bottom:none;
-    padding:0;
-    float:none;
-    margin-left:0;
+    border-bottom: none;
+    padding: 0;
+    float: none;
+    margin-left: 0;
 
 …are _typically_ bad news. If you are having to remove borders, you probably applied them too early. This is really hard to explain so I’ll go with a simple example:
 
-    h2{
-        font-size:2em;
-        margin-bottom:0.5em;
-        padding-bottom:0.5em;
-        border-bottom:1px solid #ccc;
+    h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid #ccc;
     }
 
 Here we’re giving all `h2`s our usual `font-size` and `margin` for spacing, but also a bit of `padding` and a keyline on the bottom edge to visually separate it from the next element on the page. But, perhaps we have a circumstance in which we **don’t** want that keyline, perhaps we have a situation where we want a `h2` to not have that `border` and `padding`. We’d likely end up with something like this:
 
-    h2{
-        font-size:2em;
-        margin-bottom:0.5em;
-        padding-bottom:0.5em;
-        border-bottom:1px solid #ccc;
+    h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid #ccc;
     }
-    .no-border{
-        padding-bottom:0;
-        border-bottom:none;
+
+    .no-border {
+        padding-bottom: 0;
+        border-bottom: none;
     }
 
 Here we have ten lines of CSS and one ugly class name. What would have been better is this:
 
-    h2{
-        font-size:2em;
-        margin-bottom:0.5em;
+    h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
     }
-    .headline{
-        padding-bottom:0.5em;
-        border-bottom:1px solid #ccc;
+
+    .headline {
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid #ccc;
     }
 
 Here we have eight lines of CSS, no undoing anything, and a nice, sensible class name.
@@ -82,22 +84,23 @@ These are a particular bugbear of mine. I _loathe_ magic numbers.
 
 A magic number is a value that is used ‘because it just works’. Take the following example:
 
-    .site-nav{
+    .site-nav {
         [styles]
     }
-        .site-nav > li:hover .dropdown{
-            position:absolute;
-            top:37px;
-            left:0;
+
+        .site-nav > li:hover .dropdown {
+            position: absolute;
+            top: 37px;
+            left: 0;
         }
 
-`top:37px;` here is a magic number; the only reason it works, presumably, is because the `li`s inside `.site-nav` _happen_ to be 37px tall, and the `.dropdown` flyout menu needs to appear at the bottom of it.
+`top: 37px;` here is a magic number; the only reason it works, presumably, is because the `li`s inside `.site-nav` _happen_ to be 37px tall, and the `.dropdown` flyout menu needs to appear at the bottom of it.
 
 The problem here is that 37px is _entirely_ circumstantial and as such, we should place no faith in that number. What if someone changes the `font-size` in `.site-nav` and now everything is 29px tall? This number is no longer valid and the next dev needs to know to update it.
 
 What happens when Chrome _does_ render the `li`s at 37px, but IE renders it at 36px? That number only works in one situation.
 
-Never, _ever_ use numbers just because they work. In this situation we’d be far better off replacing `top:37px;` with `top:100%;`, which basically means ‘all the way from the top’.
+Never, _ever_ use numbers just because they work. In this situation we’d be far better off replacing `top: 37px;` with `top: 100%;`, which basically means ‘all the way from the top’.
 
 Magic numbers have several problems associated with them. As above, they cannot be relied upon, but also, with their very ‘just because it works’ nature, it’s difficult to communicate to another dev where that number came from. If you had a more complex example which used a magic number—and that magic number became invalid—you are faced with one or more of the following problems:
 
@@ -116,9 +119,9 @@ As soon as I see magic numbers in CSS I start asking questions. Why is this here
 
 Qualified selectors are ones like:
 
-    ul.nav{}
-    a.button{}
-    div.header{}
+    ul.nav {}
+    a.button {}
+    div.header {}
 
 Basically, selectors who are needlessly prepended by an element. These are bad news because:
 
@@ -128,9 +131,9 @@ Basically, selectors who are needlessly prepended by an element. These are bad n
 
 These are all bad traits. Those selectors can, and should be:
     
-    .nav{}
-    .button{}
-    .header{}
+    .nav {}
+    .button {}
+    .header {}
 
 Now I know I can apply `.nav` to an `ol`, I can apply `.button` to an `input`, and—when the site gets ported over to HTML5—I can quickly swap out my header `div` for a `header` element without worrying about invalidating any styles.
 
@@ -138,15 +141,15 @@ With regards performance, this is only a very slight issue, however it is an iss
 
 More extreme examples might be:
     
-    ul.nav li.active a{}
-    div.header a.logo img{}
-    .content ul.features a.button{}
+    ul.nav li.active a {}
+    div.header a.logo img {}
+    .content ul.features a.button {}
 
 All of these selectors can be trimmed down massively, or totally rewritten, to:
 
-    .nav .active a{}
-    .logo > img {}
-    .features-button{}
+    .nav .active a {}
+    .logo > img  {}
+    .features-button {}
 
 Which will help us:
 
@@ -161,40 +164,40 @@ As soon as I spot overqualified selectors when I scroll down a stylesheet I inst
 
 Not unlike magic numbers, hard-coded values are also bad news. A hard-coded value might be something like this:
     
-    h1{
-        font-size:24px;
-        line-height:32px;
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
     }
 
-`line-height:32px;` here is not cool, it should be `line-height:1.333`…
+`line-height: 32px;` here is not cool, it should be `line-height: 1.333`…
 
 Line heights should always be set relatively in order to make them more forgiving and flexible. If you ever change the `font-size` of a `h1`, you want to know that your `line-height` will track it. Not having a relative `line-height` means that if you ever need to modify a `h1` you will likely end up with something like this:
  
-    h1{
-        font-size:24px;
-        line-height:32px;
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
     }
     
     /**
      * Main site `h1`
      */
-    .site-title{
-        font-size:36px;
-        line-height:48px;
+    .site-title {
+        font-size: 36px;
+        line-height: 48px;
     }
 
 Here we need to keep on adding fixed `line-heights` indefinitely as our initial one was never flexible enough. With a unitless and/or relative `line-height`, we’d have simply needed:
  
-    h1{
-        font-size:24px;
-        line-height:1.333;
+    h1 {
+        font-size: 24px;
+        line-height: 1.333;
     }
     
     /**
      * Main site `h1`
      */
-    .site-title{
-        font-size:36px;
+    .site-title {
+        font-size: 36px;
     }
 
 This may not seem like a massive difference, but on every text element over a large project, this has a big impact.
@@ -209,12 +212,12 @@ As soon as I see a hard-coded unit in a stylesheet I want to know why it was req
 
 This one is in a similar vein to hard-coded numbers, but a little more specific. Brute forcing CSS is when you use hard-coded magic numbers and a variety of other techniques to force a layout to work. Take for example:
 
-    .foo{
-        margin-left:-3px;
-        position:relative;
-        z-index:99999;
-        height:59px;
-        float:left;
+    .foo {
+        margin-left: -3px;
+        position: relative;
+        z-index: 99999;
+        height: 59px;
+        float: left;
     }
 
 This is _terrible_ CSS. All of these declarations are heavy-handed, brute-forced, layout-affecting declarations which are _clearly_ only used to force something to render as and where it’s wanted.
@@ -229,25 +232,25 @@ As soon as I see brute-forced CSS I want to know how it happened, and how far ba
 
 A ‘dangerous selector’ is one with far too broad a reach. A really obvious and simple example of a dangerous selector might be:
 
-    div{
-       background-color:#ffc;
-       padding:1em;
+    div {
+       background-color: #ffc;
+       padding: 1em;
     }
 
-This will instantly scream at any developer; why on earth would you want to carpet bomb every `div` on your site? Good question, so why would anyone ever want to have a selector like `aside{}` for example? Or `header{}`, or `ul{}`? Selectors like these are way, _way_ too far reaching and will ultimately lead to us having to undo CSS, as per the section previously.
+This will instantly scream at any developer; why on earth would you want to carpet bomb every `div` on your site? Good question, so why would anyone ever want to have a selector like `aside {}` for example? Or `header {}`, or `ul {}`? Selectors like these are way, _way_ too far reaching and will ultimately lead to us having to undo CSS, as per the section previously.
 
-Let’s look at the `header{}` example more closely…
+Let’s look at the `header {}` example more closely…
 
 A lot of people use a `header` element to mark up their site’s main header—which is fine—however, if you style that site-wide header like this:
 
-    header{
-        padding:1em;
-        background-color:#BADA55;
-        color:#fff;
-        margin-bottom:20px;
+    header {
+        padding: 1em;
+        background-color: #BADA55;
+        color: #fff;
+        margin-bottom: 20px;
     }
 
-…then that’s not so fine. The `header` element **does not** mean ‘your site’s main header’ and, as per the spec, the `header` element can be used multiple times in multiple contexts. This should be targeted via a selector more like `.site-header{}`, for example.
+…then that’s not so fine. The `header` element **does not** mean ‘your site’s main header’ and, as per the spec, the `header` element can be used multiple times in multiple contexts. This should be targeted via a selector more like `.site-header {}`, for example.
 
 To give such specific styling to such a generic selector is dangerous. Your styles will leak out into areas they shouldn’t as soon as you start trying to use that element again, and you’ll need to start undoing styles (adding more code to take styles away) in order to combat this.
 
@@ -255,11 +258,12 @@ Make sure your selectors have good [selector intent](http://csswizardry.com/2012
 
 Take the following:
 
-    ul{
-        font-weight:bold;
+    ul {
+        font-weight: bold;
     }
-    header .media{
-        float:left;
+
+    header .media {
+        float: left;
     }
 
 As soon as I see selectors that end in either a type selector or a very basic abstraction class, as above, I start to panic. I know that these selectors are far too broad and will quickly run us into trouble. As soon as we try and reuse those elements we will find that they’re inheriting styles we don’t necessarily want because, somewhere, there’s a really broad selector managing to reach them.
@@ -274,8 +278,8 @@ By this I mean that there are times when you know you will always, _always_ want
 
 For example, you know that you will _always_ want errors to be red, so this rule is totally fine:
 
-    .error-text{
-        color:#c00!important;
+    .error-text {
+        color: #c00!important;
     }
 
 If the error occurs in a `div` where the text is always blue, we can be confident that we want to break that rule in the case of errors. We _always_ want errors to be red because it’s an error, and user messaging should always remain consistent. Here we can proactively add `!important` because we know we always want errors to be red.
@@ -315,7 +319,7 @@ This class name is very loose, and loose class names are very bad for two main r
 * You can’t necessarily glean its purpose from the class alone.
 * It’s so vague that it could very easily be redefined accidentally by another dev.
 
-The first point is the simplest; what does `.card` mean? What does it style? Is it a Trello-esque concept where a card is a component? Is it a class that you add to a playing card on a poker website? Does it refer to an image of a credit card? It’s difficult to know, because it’s far too loose. Let’s imagine it means credit card; this class would have been much better had it been `.credit-card-image{}`. A lot longer, yes; a lot better, hell yes!
+The first point is the simplest; what does `.card` mean? What does it style? Is it a Trello-esque concept where a card is a component? Is it a class that you add to a playing card on a poker website? Does it refer to an image of a credit card? It’s difficult to know, because it’s far too loose. Let’s imagine it means credit card; this class would have been much better had it been `.credit-card-image {}`. A lot longer, yes; a lot better, hell yes!
 
 The second problem with loose class names is that they can very easily be (accidentally) reassigned/redefined. Let’s say you’re working on an commerce site using `.card` again, and it refers to the user’s credit card linked to their account. Now imagine another dev comes along and wants to add some functionality whereby you can send a purchase to someone as a present, with the option to add a card with a message on it. Their temptation might be to use `.card` again somewhere, which is _wrong_, but in certain (albeit unlikely events) this could lead to your `.card` class being redefined and overwritten.
 
