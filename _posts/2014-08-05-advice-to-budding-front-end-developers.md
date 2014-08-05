@@ -93,7 +93,7 @@ excitable, and you may want to do everything as soon as possible, but I’ve
 certainly found that as I’ve worked longer and longer, and matured as a
 developer, that there is no need to rush things.
 
-I started out wanting to do everything right now, trying to run before I could
+I started out wanting to do everything _right now_, trying to run before I could
 crawl. I’m now six (yep, just six) years into being a professional, full time
 developer, and I’ve come to realise just how long six years is. I’m also acutely
 aware of just how many more chunks of six years I have left in front of me: it’s
