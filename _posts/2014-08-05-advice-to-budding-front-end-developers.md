@@ -415,7 +415,7 @@ It takes all sorts, and there is no right or wrong approach.
 
 ---
 
-### In summary
+## In summary
 
 To reiterate, these are all my personal bits of advice; no one has to agree with
 or pay heed to any of them. I’m not trying to be deep, or philosophical, or
