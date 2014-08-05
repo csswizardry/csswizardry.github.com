@@ -155,7 +155,7 @@ A lot of changes in my career have come about almost serendipitously, meaning
 that a lot of it has just been changing things up as opportunities presented
 themselves (you just have to make sure you take them).
 
-I’ve never once set my sights on and end goal, I’ve always just set my sights on
+I’ve never once set my sights on an end goal, I’ve always just set my sights on
 the next thing, and it’s important to always have a <i>next thing</i>…
 
 #### The next thing
