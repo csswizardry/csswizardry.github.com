@@ -62,11 +62,11 @@ would like to be able to give my younger self, given the chance.
 
 ---
 
-## The deep stuff
+## The ‘deep’ stuff
 
 There are some larger, more overarching things that I would advise people do;
-these aren’t really things you can action right away, or measure, but they are
-just general things I’d recommend you do throughout your career.
+these aren’t really things you can action right away, or even measure, but they
+are just general things I’d recommend you do throughout your career.
 
 ### Focus on the right thing
 
