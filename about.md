@@ -54,7 +54,7 @@ great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
 <b>advice</b>, <b>development</b>, and more are all available to clients of all
 shapes and sizes, all over the world:
 
-<a href="http://csswizardry.com/work/" class="btn  btn--full  btn--large  btn--secondary"><strong>Hire
+<a href="http://csswizardry.com/work/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
 
 ---
