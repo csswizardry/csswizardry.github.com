@@ -248,7 +248,7 @@ ass with a certain technology? Make your blog the go-to resource.
 
 People like [Hugo](http://hugogiraudel.com/) making waves in the Sass community,
 [Sara](http://sarasoueidan.com/) publishing great SVG resources, and
-[Anna](https://twitter.com/thebabydino) sharing mind-bending, crazy, complex
+[Ana](https://twitter.com/thebabydino) sharing mind-bending, crazy, complex
 math-based CSS transforms really help cement themselves as authorities in their
 respective areas. This isn’t a quick win, but it’s certainly very effective.
 
