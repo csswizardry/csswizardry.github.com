@@ -37,4 +37,4 @@ Handler](http://www.eventhandler.co.uk/) early next year! On 14 February, 2014
 Tickets are incredibly affordable, with a maximum price of only £150 for the
 entire day! You should pop along, it’ll be great to see you.
 
-<a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture" class="btn  btn--full  btn--large">Book now!</a>
+<a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture" class="btn  btn--full">Book now!</a>

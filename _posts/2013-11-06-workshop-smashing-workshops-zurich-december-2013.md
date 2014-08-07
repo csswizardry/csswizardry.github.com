@@ -37,4 +37,4 @@ Find out how to plan, scale and manage a large front-end by learning about the
 optimal CSS architecture, performance, naming conventions, design rationalisation,
 pragmatism, OOCSS, Sass, and _lots_ more.
 
-<a href="https://shop.smashingmagazine.com/smashing-workshop-planning-building-front-end-zurich.html" class="btn  btn--full  btn--large">Book now!</a>
+<a href="https://shop.smashingmagazine.com/smashing-workshop-planning-building-front-end-zurich.html" class="btn  btn--full">Book now!</a>

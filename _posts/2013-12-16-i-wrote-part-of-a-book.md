@@ -37,6 +37,6 @@ far cleverer than I. I feel honoured to be a part of it.
 It’s a big ol’ book—just shy of 500 pages—full of practical insights from some
 really, really great authors, and—at less than $50—is a total bargain!
 
-<a href="https://shop.smashingmagazine.com/smashing-book-4-new-perspectives-on-web-design.html" class="btn  btn--full  btn--large">
+<a href="https://shop.smashingmagazine.com/smashing-book-4-new-perspectives-on-web-design.html" class="btn  btn--full">
     Buy the book!
 </a>

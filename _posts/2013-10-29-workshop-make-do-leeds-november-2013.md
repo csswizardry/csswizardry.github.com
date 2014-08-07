@@ -41,4 +41,4 @@ This event is incredibly good value, at only &pound;225 per ticket (&pound;200
 for early bird), and the Make Do guys are sure to plan a great after-party as
 well! <a href="http://makedo.in/leeds/css-workshop/">See you there?</a>
 
-<a href="http://makedo.in/leeds/css-workshop/" class="btn  btn--full  btn--large">Book now!</a>
+<a href="http://makedo.in/leeds/css-workshop/" class="btn  btn--full">Book now!</a>
