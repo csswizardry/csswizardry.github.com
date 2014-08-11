@@ -201,6 +201,12 @@ favour. It’s a good idea to keep people on side for you later on, but it’s a
 important to recognise when others do favours for you. Be as helpful as you can
 as often as you can, and go out of your way to leave good impressions on people.
 
+<small>Interestingly enough, on the day I posted this article I received two
+thank-you gifts in the mail from developers who I’d helped out in previous
+weeks. It’s always good to help people, and it’s lovely to be appreciated. Now
+we have three professionals with interchangeably fond memories of each other.
+That can only be a good thing.</small>
+
 ### Don’t assume that someone on the internet knows best
 
 Kind of shooting myself in the foot here, but no one knows you better than you
