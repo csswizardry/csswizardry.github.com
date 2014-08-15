@@ -57,4 +57,4 @@ I have already started work on an alpha of 2.0.0 which you can read (and
 [support](https://gumroad.com/l/JAgjq)) right now at
 [cssguidelin.es](http://cssguidelin.es/).
 
-Now, [go get ’em!](http://cssguidelin.es/#buy-the-guidelines)
+Now, [go get ’em!](http://cssguidelin.es/#support-the-guidelines)
