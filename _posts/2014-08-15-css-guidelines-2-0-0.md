@@ -35,7 +35,7 @@ to try the same: <cite>CSS Guidelines</cite> will be free to all, available at
 [cssguidelin.es](http://cssguidelin.es/), but with a voluntary payment plan
 (provided by [Gumroad](https://gumroad.com/l/JAgjq)).
 
-It will be very interesting to see how many people do pay and how many do not.
+It will be very interesting to see how many people do pay (and how many do not).
 
 ### Reasoning
 
