@@ -56,6 +56,7 @@
  * Pull-quote...........Large, featured quotes.
  * Carousel.............Pure CSS carousel component.
  * Iconic...............Iconic icon styles.
+ * Sprites..............Image sprite styles.
  * Feature list.........Big blocky lists of feature items.
  * Annotate.............Pure CSS figure annotations.
  * Ads..................AdPacks overrides.
@@ -193,6 +194,7 @@ $inuit-enable-list-ui--small:   true;
 @import "components.pull-quote";
 @import "components.carousel";
 @import "components.iconic";
+@import "components.sprites";
 @import "components.feature-list";
 @import "components.annotate";
 @import "components.ads";

@@ -1,0 +1,64 @@
+/*------------------------------------*\
+    #SPRITES
+\*------------------------------------*/
+
+/**
+ * A simple spriting element abstraction.
+ *
+ * 1. The default width of most icons on the web. Override as necessary.
+ * 2. Align all sprites to the middles of whatever content they are alongside.
+ * 3. Although we have used `vertical-align: middle;`, we often need to nudge
+ *    sprites up by a pixel to have them look correct optically.
+ * 4. Hide any text that we might be image-replacing.
+ */
+.sprite {
+    display: inline-block;
+    width:  16px; /* [1] */
+    height: 16px; /* [1] */
+    vertical-align: middle; /* [2] */
+    position: relative; /* [3] */
+    top: -1px; /* [3] */
+    white-space: nowrap; /* [4] */
+    overflow: hidden; /* [4] */
+    text-indent: 100%; /* [4] */
+    background-image: url(../img/css/sprites/main.png);
+}
+
+.sprite--uk {
+    height: 11px;
+}
+
+.sprite--nl {
+    background-position: -16px 0;
+    height: 11px;
+}
+
+.sprite--de {
+    background-position: -32px 0;
+    height: 11px;
+}
+
+.sprite--hr {
+    background-position: -48px 0;
+    height: 11px;
+}
+
+.sprite--no {
+    background-position: 0 -11px;
+    height: 11px;
+}
+
+.sprite--pl {
+    background-position: -16px -11px;
+    height: 11px;
+}
+
+.sprite--ro {
+    background-position: -32px -11px;
+    height: 11px;
+}
+
+.sprite--ch {
+    background-position: -48px -11px;
+    height: 11px;
+}
