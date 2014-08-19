@@ -53,8 +53,10 @@ that other people do the same.
 I’m going out on a limb here, it is a bit of gamble, but I’m hoping that people
 who do get benefit from the guidelines will support them.
 
-I have already started work on an alpha of 2.0.0 which you can read (and
+I have already started work on 2.0.0 which you can read (and
 [support](https://gumroad.com/l/JAgjq)) right now at
-[cssguidelin.es](http://cssguidelin.es/).
+[cssguidelin.es](http://cssguidelin.es/). You can get updates on the project and
+its upcoming chapters by following
+[@cssguidelines](https://twitter.com/cssguidelines).
 
 Now, [go get ’em!](http://cssguidelin.es/#support-the-guidelines)
