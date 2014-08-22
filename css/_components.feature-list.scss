@@ -51,6 +51,30 @@
             padding-top: 56.25%; /* [1] */
             margin-top: 2px; /* [2] */
             border-radius: $base-round;
+            overflow: hidden;
+
+            /**
+             * Add a notch to the inner left side of the links to imply motion
+             * forward.
+             */
+            &:after {
+                content: "";
+                position: absolute;
+                top:  50%;
+                left: -4px;
+                margin-top: halve(-$spacing-unit);
+                border: halve($spacing-unit) solid transparent;
+                border-left-color: $inuit-base-background-color;
+                @include vendor(transition, left 0.2s);
+            }
+
+            @include attention() {
+
+                &:after {
+                    left: 0;
+                }
+
+            }
 
             @include media-query(lap-and-up) {
                 margin-left: 2px; /* [2] */
@@ -72,7 +96,6 @@
              *
              * 1. Center the text-box vertically in the list item.
              * 2. Optically sit the text itself centrally in the list item.
-             * 3. Raise the text a little whenever we hover a link.
              */
             .feature-list__title {
                 @include font-size($spacing-unit);
@@ -84,14 +107,6 @@
                 left:  0;
                 margin-top: -$spacing-unit; /* [2] */
                 color: #fff;
-                @include vendor(transition, 0.2s);
-
-                .feature-list__link:hover &,
-                .feature-list__link:focus &,
-                .feature-list__link:active & {
-                    margin-top: -$spacing-unit - 2px; /* [3] */
-                }
-
             }
 
                 .feature-list__sub {
