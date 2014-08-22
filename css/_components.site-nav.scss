@@ -67,6 +67,7 @@ $logo-height:   64px;
 
         @include media-query(lap-and-up) {
             float: right;
+            overflow: visible;
         }
 
     }
@@ -116,10 +117,53 @@ $logo-height:   64px;
 
             }
 
+            /**
+             * The current state for the nav (in large-screen view) is a notched
+             * out triangle lying toward the bottom of the page head. We apply
+             * this styling to a silent class which we then extend out of the
+             * loop below.
+             */
+            %site-nav__current {
+                color: $color-links;
+
+                @include media-query(lap-and-up) {
+
+                    $notch-size: halve($spacing-unit);
+
+                    position: relative;
+
+                    &:before,
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        pointer-events: none;
+                        border-style: solid;
+                        border-color: transparent;
+                    }
+
+                    &:before {
+                        border-width: $notch-size;
+                        border-bottom-color: #f2f2f2;
+                        margin-left: -$notch-size;
+                        bottom: -$spacing-unit;
+                    }
+
+                    &:after {
+                        border-width: $notch-size - 1;
+                        border-bottom-color: $inuit-base-background-color;
+                        margin-left: -($notch-size - 1);
+                        bottom: -($spacing-unit + 1);
+                    }
+
+                }
+
+            }
+
             @each $page in about, speaking, case-studies, hire-me {
 
                 .page--#{$page} .site-nav__#{$page} {
-                    color: $color-links;
+                    @extend %site-nav__current;
                 }
 
             }
