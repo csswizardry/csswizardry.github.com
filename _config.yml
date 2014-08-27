@@ -9,3 +9,5 @@ url: "http://csswizardry.com"
 markdown: kramdown
 permalink: /:year/:month/:title
 paginate: 10
+exclude:
+  - vendor
