@@ -26,7 +26,7 @@ with your team. If you would like to organise one of these then
 
 <h2>Upcoming events</h2>
 
-<ul class="list-ui  mb">
+<ul class="list-ui  mb++">
 
 	<li>
         <h3 class="list-ui__title">Talk &amp; Workshop</h3>
