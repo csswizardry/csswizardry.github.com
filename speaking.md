@@ -43,6 +43,11 @@ with your team. If you would like to organise one of these then
 		<i class="sprite  sprite--rs"></i> <a href="http://dafed.org">DaFED</a>, Novi Sad (Serbia), November 2014
 	</li>
 
+	<li>
+        <h3 class="list-ui__title">Talk</h3>
+		<i class="sprite  sprite--fr"></i> <a href="http://www.dotcss.eu/">dotCSS</a>, Paris (France), November 2014
+	</li>
+
 </ul>
 
 <h3>Previous events</h3>
