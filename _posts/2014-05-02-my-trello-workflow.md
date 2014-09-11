@@ -11,7 +11,7 @@ tag:
 meta: "How I manage development projects using Trello"
 ---
 
-I’m a huge fan and proponent of working agile and, the various schools of
+I’m a huge fan and proponent of working agile and the various schools of
 thought around it: scrum; Kanban; MVP; product-led, iterative development;
 releasing little, early, and often; you name it.
 
