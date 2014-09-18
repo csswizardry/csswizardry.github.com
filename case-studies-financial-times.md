@@ -33,10 +33,10 @@ excited, and rightfully so:
 </blockquote>
 
 We initially weren’t sure what the extent of our working together might be, so I
-recommended we have an initial day on-site to go through what problems they
-faced, and how we might be able to solve them. On the day, I woke at 0440 and
-made my way from Leeds down to the capital to join Andrew and the team at the
-<cite>FT</cite> offices in London.
+recommended we start with some on-site consultancy work to help the team get a
+handle on some of the problems they faced, and how we might be able to solve
+them. On the day, I woke at 0440 and made my way from Leeds down to the capital
+to join Andrew and the team at the <cite>FT</cite> offices in London.
 
 This initial day turned into an intensive, all-day workshop- and
 consultancy-style Q&A session as Andrew and some of the <cite>FT</cite>’s core
