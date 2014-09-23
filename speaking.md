@@ -29,11 +29,6 @@ with your team. If you would like to organise one of these then
 <ul class="list-ui  mb++">
 
 	<li>
-        <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-		<i class="sprite  sprite--ro"></i> <a href="http://www.smartwebconf.com/">SmartWeb Conference</a>, Bucharest (Romania), September 2014
-	</li>
-
-	<li>
         <h3 class="list-ui__title">Talk</h3>
 		<i class="sprite  sprite--no"></i> <a href="http://trondheimdc.no/">Trondheim Developer Conference</a>, Trondheim (Norway), October 2014
 	</li>
@@ -53,6 +48,11 @@ with your team. If you would like to organise one of these then
 <h3>Previous events</h3>
 
 <ul class="list-ui  mb">
+
+	<li>
+        <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+		<i class="sprite  sprite--ro"></i> <a href="http://www.smartwebconf.com/">SmartWeb Conference</a>, Bucharest (Romania), September 2014
+	</li>
 
 	<li>
         <h3 class="list-ui__title">Talk</h3>
