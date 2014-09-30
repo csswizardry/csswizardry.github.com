@@ -5,3 +5,24 @@
 .bsa_it_d {
     @include font-weight(regular);
 }
+
+.ad-ww {
+    @include font-size(12px, 1.5);
+    font-family: sans-serif;
+    @include font-weight(regular);
+    color: $color-gray;
+
+    @include attention() {
+        text-decoration: none;
+
+        .ad-ww__title {
+            text-decoration: underline;
+        }
+
+    }
+
+}
+
+    .ad-ww__title {
+        display: block;
+    }
