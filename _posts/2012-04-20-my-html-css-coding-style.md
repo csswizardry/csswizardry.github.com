@@ -12,6 +12,9 @@ tag:
 - HTML
 ---
 
+**N.B.** This post is almost completely out of date now; please refer to my [CSS
+Guidelines](http://cssguidelin.es) for more up-to-date information.
+
 Whenever I post jsFiddles, tutorials, articles or do some work here at Sky, I’m very particular about my coding style and am often asked questions about it. A lot of people say ‘code is art’; to me that sentence is a little pretentious but what I _do_ think is that code can be a little more quirky and original than most people write it. It can be interesting. [Mathias Bynens](https://twitter.com/mathias) is constantly tweeting crazy little snippets of quirky, valid JS; he’s also made [some great little tools](http://mothereff.in) to help you explore the different avenues available to you when writing awesome, expressive and ‘different’ code.
 
 When I write HTML and CSS I have a certain set of rules and guidelines I stick to with regards syntax and formatting. I‘ve decided to write them up here **not** to preach or tell you how to do things, but simply to share how _I_ like to work. If you hate the things I do that’s cool, these are not recommendations. If you like anything I do then great; you can have it. What I _would_ love to see is other people doing the same; please consider writing up your coding styles, nuances and preferences and share them about!
