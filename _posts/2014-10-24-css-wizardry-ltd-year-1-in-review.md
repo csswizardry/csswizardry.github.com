@@ -92,7 +92,8 @@ actively worked toward since I was 17 years old (or earlier, depending on where
 you draw your measurements from). I’m very aware that lifestyle isn’t
 immediately available to everyone, because it was never immediately available to
 me. It’s something I’ve had to work very, _very_ hard at to attain, but it’s
-paying back tenfold.
+paying back tenfold. If you’re considering a move to self employment, I would
+advise that you lay as much groundwork as you can before you take the leap.
 
 The work–life balance has been amazing. I’ve not had any quiet periods that I
 haven’t wanted to have; I’ve turned down more work than I’ve accepted, I’ve
