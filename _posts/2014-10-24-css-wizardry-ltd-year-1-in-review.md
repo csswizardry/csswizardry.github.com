@@ -169,7 +169,7 @@ perhaps _too_ leisurely (the extra weight I’ve gained is testament to that).
 
 Also, **the nature of consultancy is that it’s very inefficient**. I’m the
 company’s single point of failure, so if I don’t work, the company doesn’t earn.
-Also, as I’m selling my time, and there’s only one of my, the business model
+Also, as I’m selling my time, and there’s only one of me, the business model
 currently can’t scale—I can only be in one place at one time. It might be
 interesting to explore ways of making CSS Wizardry Ltd. more efficient.
 
