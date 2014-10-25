@@ -204,7 +204,8 @@ Honestly, it’s impossible to say. Perhaps it was
 * spending a week working in, hanging out in, and exploring the beautiful town
   of [Zwolle](https://www.google.com/search?q=zwolle&safe=off&espv=2&biw=1418&bih=747&tbm=isch&tbo=u&source=univ&sa=X&ei=4qxLVLa8J-WM7Aa7m4GQDQ&ved=0CDgQsAQ#safe=off&tbm=isch&q=Zwolle)
   with [Jochem](https://twitter.com/jochemrebergen) and the team;
-* eating [a rattlesnake hotdog](http://www.wurstkuche.com/) in LA;
+* eating [a rattlesnake hotdog](http://www.wurstkuche.com/), drinking cocktails,
+  and generally just hanging out with a client in LA;
 * partying with [6,000 Booking.com employees](http://iconosquare.com/tag/bookingbam)
   at their annual meetup (at which I spoke);
 * running a workshop for [the BBC](http://instagram.com/p/mDoKI2IjC-/);
