@@ -133,4 +133,7 @@ Ordering CSS based on its specificity leads to much simpler and hassle-free
 maintenance, as well as offering improved scalability due to more evenly
 distributed complexity and a more sane working environment.
 
-Always try to maintain an upward trending Specificity Graph across your projects.
+Always try to maintain an upward trending Specificity Graph across your
+projects. It is a very helpful way of keeping a high-level view of your code, it
+is a very simple litmus test and benchmark, and also provides a really effective
+way of writing better quality CSS in more general terms.
