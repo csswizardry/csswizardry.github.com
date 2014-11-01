@@ -70,7 +70,7 @@ we might expect problems, see why we have problems _right now_, and then we can
 use that information to refactor or rework our CSS into a better shape.
 
 A graph with a lot of peaks and troughs is a _bad_ Specificity Graph: it is
-telling us that our CSS full of—or prone to—specificity issues because of
+telling us that our CSS is full of—or prone to—specificity issues because of
 weighty selectors being defined before lighter ones. We have a codebase that is
 likely to prove problematic because we have erratic and poorly managed
 specificity-and-source-order: we are more likely to spend time undoing or
