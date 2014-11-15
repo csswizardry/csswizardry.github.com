@@ -30,11 +30,6 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--fr"></i> <a href="http://www.dotcss.eu/">dotCSS</a>, Paris (France), November 2014
-    </li>
-
-    <li>
-        <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--uk"></i> <a href="http://reasons.to/">Reasons:London</a>, London (UK), February 2015
     </li>
 
@@ -43,6 +38,11 @@ with your team. If you would like to organise one of these then
 <h3>Previous events</h3>
 
 <ul class="list-ui  mb">
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--fr"></i> <a href="http://www.dotcss.eu/">dotCSS</a>, Paris (France), November 2014
+    </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
