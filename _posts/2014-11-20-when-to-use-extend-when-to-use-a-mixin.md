@@ -169,7 +169,7 @@ This, as you would expect, gives us the following:
     .header--home > .header__tagline,
     .btn--warning,
     .alert--error > .alert__text {
-        font-weight : bold;
+        font-weight: bold;
     }
 
     ...
