@@ -37,6 +37,10 @@ that have the potential to cause so much trouble with little or no tangible gain
 Having to shard your stylesheets into less-than-4096-selector-groups as a result
 of misusing a productivity tool is very, very counterintuitive.
 
+**N.B.** I feel I should add that this isn’t me hating on `@extend` per se;
+there’s just a lot to be aware of and you must remain vigilant if you are going
+to use it.
+
 But, if you are going to use `@extend`, when should you?
 
 It is important to realise that **`@extend` creates relationships**. Whenever
