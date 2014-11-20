@@ -385,7 +385,7 @@ Spitting out the same declarations, but dynamically setting the value of
 `width` on a case-by-case basis.
 
 This is the most common and widely agreed upon form of mixin, and I think we can
-all that these are a good idea.
+all agree that these are a good idea.
 
 ## tl;dr
 
