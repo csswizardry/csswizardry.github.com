@@ -34,10 +34,10 @@ order get destroyed; and I have seen clients plough right through their [4095
 selector budget](http://blogs.msdn.com/b/ieinternals/archive/2011/05/14/10164546.aspx).
 It is always better to err on the side of caution and omit any features or tools
 that have the potential to cause so much trouble with little or no tangible gain.
-Having to shard your stylesheets into less-than-4095-selector-groups as a result
+Having to shard your stylesheets into less-than-4096-selector-groups as a result
 of misusing a productivity tool is very, very counterintuitive.
 
-So, if you are going to use `@extend`, when should you?
+But, if you are going to use `@extend`, when should you?
 
 It is important to realise that **`@extend` creates relationships**. Whenever
 you use `@extend`, you are transplanting a selector elsewhere in your stylesheet
@@ -197,7 +197,7 @@ This weighs 299 bytes.
 **Oftentimes, the selectors you’re transplanting may be longer than the
 declarations you’re trying to avoid repeating.**
 
-If we were to actually just repeat the `front-weight: bold;` declaration
+If we were to actually just repeat the `font-weight: bold;` declaration
 <var>n</var> times—instead of trying to avoid repeating it at all—we’d actually
 achieve a smaller file size: **264 bytes**. This is just a very timid model, but
 it should help to illustrate the possibility for diminishing returns.
@@ -317,8 +317,8 @@ defined alongside a specific `font-weight`:
 
 It would get quite tedious to manually repeat those two declarations over and
 over in our codebase; we’d have to remember the number `700` as opposed to the
-more familiar `regular` or `bold`; if we ever change the web font or its weight,
-we’d have to go through the project and change it everywhere.
+more familiar `regular` or `bold`; and if we ever change the web font or its
+weight, we’d have to go through the project and change it everywhere.
 
 We covered earlier that we should not force relationships by using `@extend`
 here, but what we probably should do is use a mixin:
@@ -396,9 +396,9 @@ negatively impacting the source order of your code.
 
 Use a mixin to either inject dynamic values into repeated constructs, or as a
 Sassy copy/paste which allows you to repeat the same group of declarations
-throughout your project, whilst keeping a [Single Source of
+throughout your project whilst keeping a [Single Source of
 Truth](http://en.wikipedia.org/wiki/Single_Source_of_Truth).
 
 ### tl;dr;tl;dr
 
-Use `@extend` for same-for-a-reason; use a mixin when same-just-because.
+Use `@extend` for same-for-a-reason; use a mixin for same-just-because.
