@@ -47,9 +47,9 @@ It is important to realise that **`@extend` creates relationships**. Whenever
 you use `@extend`, you are transplanting a selector elsewhere in your stylesheet
 in order for it to share traits with other selectors that are also being
 transplanted. As a result, you are dictating that these selectors all share a
-relationship, and **misusing `@extend` can incorrectly create relationships
-around the wrong criterion**. It would be like grouping your CD collection by
-the colour of their covers: doable, but not a useful relationship to create.
+relationship, and **misusing `@extend` can create relationships around the wrong
+criterion**. It would be like grouping your CD collection by the colour of their
+covers: doable, but not a useful relationship to create.
 
 **It is vital that you are forming that relationship around the
 right characteristics.**
