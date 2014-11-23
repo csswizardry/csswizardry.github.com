@@ -20,16 +20,16 @@ internal workshops, performance engineering, and more.
 One of my first tasks when I joined Sky was to rebuild the front-end of
 [Sky Bet](http://www.skybet.com/), for which I was the sole front-end developer.
 From there on in, I steered the majority of decisions regarding how we should go
-about building our UIs. This took the form of:
+about building our UIs. This took the form of
 
-* Building internal frameworks and UI Toolkits for other developers to implement.
-* Providing a design–development bridge, and handling des–dev relations.
-* Running internal workshops with design and engineering teams.
-* Becoming product-agnostic, and moving from scrum-to-scrum to help out
-  whichever teams needed me.
-* Pairing and reviewing code written by other developers.
-* Evangelising architectural and performance best practices within the company.
-* Generally improving the techniques and approaches Sky took to writing UIs at
+* building internal frameworks and UI Toolkits for other developers to implement;
+* providing a design–development bridge, and handling des–dev relations;
+* running internal workshops with design and engineering teams;
+* becoming product-agnostic, and moving from scrum to scrum to help out
+  whichever teams needed me;
+* pairing and reviewing code written by other developers;
+* evangelising architectural and performance best practices within the company;
+* generally improving the techniques and approaches Sky took to writing UIs at
   scale.
 
 <figure>
