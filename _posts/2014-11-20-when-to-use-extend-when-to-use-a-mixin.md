@@ -368,7 +368,7 @@ ever making one manual change. Very DRY.
 will almost entirely negate the costs of the slight added filesize.</small>
 
 Of course, mixins are also really, really useful for generating dynamic values
-within repeated constructed: mixins _with_ arguments. I don’t think anyone could
+within repeated constructs: mixins _with_ arguments. I don’t think anyone could
 say these are a bad idea: they’re DRY but also allow us to make on-the-fly
 modifications to our Single Source of Truth. For example:
 
