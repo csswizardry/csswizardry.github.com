@@ -159,7 +159,7 @@ _trend_ upward. There will be little ups and downs along the way, for example:
 Here we would get a kink in our graph where the `.module--large >
 .module__header {}` selector is double that of its neighbours. These kinks do,
 unfortunately, get magnified when we run our code through an actual Specificity
-Graph tool, which leads me to believe that **the Speicifity Graph is probably
+Graph tool, which leads me to believe that the **Specificity Graph is probably
 best kept as a conceptual model**.
 
 The aim of the Specificity Graph is to illustrate the importance of not having
