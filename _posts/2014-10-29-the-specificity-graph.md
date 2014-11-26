@@ -137,3 +137,37 @@ Always try to maintain an upward trending Specificity Graph across your
 projects. It is a very helpful way of keeping a high-level view of your code, it
 is a very simple litmus test and benchmark, and also provides a really effective
 way of writing better quality CSS in more general terms.
+
+## Addendum – 26 November, 2014
+
+It is important to re-stress the word _trending_. The Specificity Graph should
+_trend_ upward. There will be little ups and downs along the way, for example:
+
+    .module {
+    }
+
+        .module__header {
+        }
+
+
+    .module--large {
+    }
+
+        .module--large > .module__header {
+        }
+
+Here we would get a kink in our graph where the `.module--large >
+.module__header {}` selector is double that of its neighbours. These kinks do,
+unfortunately, get magnified when we run our code through an actual Specificity
+Graph tool, which leads me to believe that **the Speicifity Graph is probably
+best kept as a conceptual model**.
+
+The aim of the Specificity Graph is to illustrate the importance of not having
+overly specific selectors appearing too early on. Close-ups of the graph will
+show many jagged, saw-tooth sections, but my aim has always been to concentrate
+on the overall trend of the whole graph. Saw-toothing is to be expected; what we
+do not want is all of our helper classes, carrying `!important`s, to appear at
+the beginning of our project.
+
+Again, we need to look at the overall trend. The graph needs to **trend**
+upward, even taking into account the many ups-and-downs along the way.
