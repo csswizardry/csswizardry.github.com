@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #CLIENT-LIST
+\*------------------------------------*/
+
+.client-list {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+    .client-list__item {
+        display: inline-block;
+        padding: $spacing-unit--small;
+
+        @include media-query(lap-and-up) {
+            padding: $spacing-unit;
+        }
+
+    }
+
+        .client-list__logo {
+            background-color: #666;
+            height: $spacing-unit;
+
+            @include media-query(lap-and-up) {
+                height: $spacing-unit--large;
+            }
+
+        }
