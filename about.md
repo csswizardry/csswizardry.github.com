@@ -23,10 +23,15 @@ work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together).
 
 Named <b>Young Developer of the Year</b> (2014) by <cite>net</cite> magazine,
 I was previously a Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB),
-and have consulted with clients including the <b>BBC</b>, the <b>NHS</b>,
-<b>Booking.com</b>, and the <b>Financial Times</b>. I specialise in
+and have consulted with clients including <b>Google</b>, the <b>BBC</b>, the
+<b>NHS</b>, <b>Booking.com</b>, and the <b>Financial Times</b>. I specialise in
 architecting, writing, and scaling CSS for large sites, apps, and products in
 large-team environments.
+
+<blockquote class="pull-quote  pull-quote--context-alt">
+    <p>I’ve got a crush on Harry Roberts…</p>
+    <b class="pull-quote__source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
+</blockquote>
 
 I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
 [work](http://csswizardry.com/work/),
@@ -36,11 +41,6 @@ pragmatic, product-led approaches to building and scaling large front-ends for
 long-running projects and products. I specialise in OOCSS, architecture,
 scalability, front-end performance, and mobile and responsive web
 design and development.
-
-<blockquote class="pull-quote">
-    <p>I’ve got a crush on Harry Roberts…</p>
-    <b class="pull-quote__source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
-</blockquote>
 
 I am a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts
 Panel, co-author of [a book on new approaches to web
@@ -117,6 +117,9 @@ board](https://trello.com/b/5vYEHwrP/csswizardry-com), and all of the code that
 powers it can be found [on
 GitHub](https://github.com/csswizardry/csswizardry.github.com). Feel free to
 take a look round, but please don’t steal anything.
+
+I chose the name <i>CSS Wizardry</i> when I was 17 years old. It’s a decision
+I’m having to live with…
 
 ---
 
