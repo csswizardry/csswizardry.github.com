@@ -33,6 +33,16 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--uk"></i> <a href="http://reasons.to/">Reasons:London</a>, London (UK), February 2015
     </li>
 
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--au"></i> <a href="http://2015.cssconf.com.au/">CSSConf</a>, Melbourne (Australia), March 2015
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Workshop</h3>
+        <i class="sprite  sprite--uk"></i> <a href="http://dotyork.com/events/event?event=2015-04-08-workshop-css-architecture-for-large-scale-uis">DotYork</a>, York (UK), April 2015
+    </li>
+
 </ul>
 
 <h3>Previous events</h3>
