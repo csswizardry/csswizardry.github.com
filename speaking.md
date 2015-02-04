@@ -39,8 +39,23 @@ with your team. If you would like to organise one of these then
     </li>
 
     <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--fi"></i> <a href="http://frontend.fi/">Frontend.fi</a>, Helsinki (Finland), March 2015
+    </li>
+
+    <li>
         <h3 class="list-ui__title">Workshop</h3>
         <i class="sprite  sprite--uk"></i> <a href="http://dotyork.com/events/event?event=2015-04-08-workshop-css-architecture-for-large-scale-uis">DotYork</a>, York (UK), April 2015
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--de"></i> <a href="http://smashingconf.com/freiburg-2015">SmashingConf</a>, Frieburg (Germany), September 2015
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--it"></i> <a href="http://2015.fromthefront.it/">From The Front</a>, Bologna (Italy), September 2015
     </li>
 
 </ul>
