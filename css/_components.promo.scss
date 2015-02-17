@@ -17,14 +17,11 @@
 
     .promo__links {
         text-align: center;
+    }
 
+    .promo__links-spacer {
         @include media-query(lap-and-up) {
-            word-spacing: 1.5em;
-
-            > .btn {
-                word-spacing: normal;
-            }
-
+            padding-right: 1.5em;
+            padding-left: 1.5em;
         }
-
     }
