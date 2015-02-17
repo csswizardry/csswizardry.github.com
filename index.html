@@ -55,7 +55,7 @@ page-class: page--home
 
             <li class="layout__item">
                 <p class="promo__links">
-                    <a href="http://csswizardry.com/work/" class="btn  btn--secondary">Learn more</a> or <a href="mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together" class="btn">Hire me</a>
+                    <a href="http://csswizardry.com/work/" class="btn  btn--secondary">Learn more</a> <span class="promo__links-spacer">or</span> <a href="mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together" class="btn">Hire me</a>
                 </p>
 
         </ul>
@@ -158,7 +158,7 @@ page-class: page--home
                 {% if paginator.next_page %}
                     <a href="/page{{paginator.next_page}}#section:articles" class="btn  btn--full  btn--secondary">Older articles</a>
                 {% endif %}
-            
+
                 {% if paginator.previous_page %}
                     <li class="layout__item  lap-and-up-one-half  mb">
                         {% if paginator.previous_page == 1 %}
