@@ -30,12 +30,12 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--au"></i> <a href="http://2015.cssconf.com.au/">CSSConf</a>, Melbourne (Australia), March 2015
+        <i class="sprite  sprite--fi"></i> <a href="http://frontend.fi/">Frontend.fi</a>, Helsinki (Finland), March 2015
     </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--fi"></i> <a href="http://frontend.fi/">Frontend.fi</a>, Helsinki (Finland), March 2015
+        <i class="sprite  sprite--au"></i> <a href="http://2015.cssconf.com.au/">CSSConf</a>, Melbourne (Australia), March 2015
     </li>
 
     <li>
