@@ -305,15 +305,15 @@ Example:
     .u-clearfix {}
 
 You will most likely be familiar with the Utility notation because of
-[SUIT](https://github.com/suitcss/utils).  Utilities are complete single
-responsibility rules which have a very specific and targeted task. It is also
-quite common for these rules’ declarations to carry `!important` so as to
-guarantee they beat other less specific ones. They do one thing in a very
-heavy-handed and inelegant way. They are to be used as a last resort when no
-other CSS hooks are available, or to tackle completely unique circumstances,
-e.g. using `.u-text-center` to centrally align one piece of text once and once
-only. They are only one step away from inline styles, so should be used
-sparingly.
+[SUIT](https://github.com/suitcss/utils).  Utilities are complete [single
+responsibility](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+rules which have a very specific and targeted task. It is also quite common for
+these rules’ declarations to carry `!important` so as to guarantee they beat
+other less specific ones. They do one thing in a very heavy-handed and inelegant
+way. They are to be used as a last resort when no other CSS hooks are available,
+or to tackle completely unique circumstances, e.g. using `.u-text-center` to
+centrally align one piece of text once and once only. They are only one step
+away from inline styles, so should be used sparingly.
 
 Because of their heavy-handed approach, their global reusability, and their
 exceptional use-case, it is incredibly important that we signal Utilities to
@@ -379,12 +379,14 @@ Example:
 
     .t-light {}
 
-When we work with Stateful Themes (that is to say, themes that we toggle on and
-off) we normally do so by adding a class to the `body` element. Examples of this
-approach to theming include style-switchers (a user can toggle between different
-themes) and sub-sections of a site (all blog posts have one theme colour, all
-news pages have another theme colour, etc.). We simply add a class high up the
-DOM which then invokes that theme for that particular page.
+When we work with [Stateful
+Themes](https://speakerdeck.com/csswizardry/4half-methods-for-theming-in-s-css?slide=29)
+(that is to say, themes that we toggle on and off) we normally do so by adding a
+class to the `body` element. Examples of this approach to theming include
+style-switchers (a user can toggle between different themes) and sub-sections of
+a site (all blog posts have one theme colour, all news pages have another theme
+colour, etc.). We simply add a class high up the DOM which then invokes that
+theme for that particular page.
 
 A simple way to denote any theme-related classes is to simply prepend them with
 `t-`. Seeing a `t-` class in your HTML should tell you that <q>Ah, right, the
