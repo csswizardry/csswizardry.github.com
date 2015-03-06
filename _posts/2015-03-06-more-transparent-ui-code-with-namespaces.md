@@ -882,11 +882,14 @@ left in the dark, unaware of what I might be able to recycle, modify, or delete.
 
 Okay, we’re at over 5,400 words now, let’s wrap this up.
 
-BEM has provided us with amazing clarity in our classes. Adding namespaces to
-this creates incredibly rich meaning that lives right there in our HTML.
+BEM has already provided us with amazing clarity in our classes. Adding
+namespaces on top of this creates incredibly rich meaning that lives right there
+in our HTML. This level of clarity gives us much greater confidence when
+reworking existing markup, and helps us to make better and more informed
+decisions.
 
-This level of clarity gives us much greater confidence when reworking existing
-markup, and helps us to make informed decisions.
+It also means fewer regressions and collisions when working in multidisciplinary
+teams (e.g. JS engineers, QA engineers, etc.).
 
 We also get some pretty cool side effects if our text editor supports class
 autocompletion: a find-as-you-type directory of all of the different
