@@ -205,8 +205,7 @@ and purely structural aspects of a UI into reusable _objects_. This means that
 things like layout, wrappers and containers, the [Media
 Object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/),
 etc. can all exist as non-cosmetic styles that handle the skeletal aspect of a
-lot of UI components, without every actually looking like anything designed
-‘things’.
+lot of UI components, without ever actually looking like designed ‘things’.
 
 This leads to much DRYer and drastically smaller stylesheets, but does bring
 with it one problem: how do we know which classes might be purely structural,
