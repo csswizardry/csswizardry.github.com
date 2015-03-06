@@ -781,7 +781,7 @@ meaningful namespacing. Of course, this example suffers two key problems:
 
 So, what can we learn from this:
 
-    <body class="t-dark">
+    <body class="t-light">
 
       <article class="c-modal  c-modal--wide  js-modal  is-open">
 
@@ -843,7 +843,7 @@ classes. Amazing.
 
 Contrast that with the following:
 
-    <body class="dark">
+    <body class="light">
 
       <article class="modal  wide  open">
 
