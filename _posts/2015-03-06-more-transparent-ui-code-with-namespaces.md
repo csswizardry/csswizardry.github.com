@@ -183,6 +183,14 @@ Even from this short list alone, we can see just how much more information we
 can communicate to developers simply by placing a character or two at the front
 of our existing classes.
 
+<small>
+It is probably worth noting at this point that these namespaces do not exist for
+encapsulation and sandboxing of styles, but for clarity and informative reasons.
+[Ben Frain](https://twitter.com/benfrain)’s
+[FUN](http://benfrain.com/fun-css-naming-convention-explained/) methodology
+utilises namespacing as a means of soft encapsulation.
+</small>
+
 ## Object Namespaces: `o-`
 
 Format:
