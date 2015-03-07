@@ -703,7 +703,7 @@ This works by:
 
         <blockquote class="c-testimonial">
 
-* `[class*="c-"]`: Find all class attributes that contain the string `<space>c-`,
+* `[class*=" c-"]`: Find all class attributes that contain the string `<space>c-`,
   e.g.:
 
         <blockquote class="o-media  c-testimonial">
