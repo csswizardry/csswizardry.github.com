@@ -784,6 +784,31 @@ The decision is yours.
 
 ---
 
+## Learning the Namespaces
+
+Because each namespace tends to be the first letter of the type of class, we
+should find that learning the namespaces is actually very simple: `c-` means
+Component, `t-` means Theme, `o-` means Object. However, that isn’t to say we
+shouldn’t document our namespaces formally somewhere.
+
+The beauty of namespaces like these is that they’re completely rule based.
+There’s no room for interpretation, which means two things:
+
+1. People have no excuse for not following them.
+2. They can be presented as a cheat sheet.
+
+I would recommend creating a simple cheat sheet of your namespaces, printing it
+out on A3 paper, and hanging on the wall in front of your engineers. These rules
+are so straightforward that they can quite easily be distilled down and
+presented as a simple cheat sheet guide that anyone can follow.
+
+For reference, [here’s a particularly useful
+cheat sheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
+I referred to when I began to [learn
+Vim](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/).
+
+---
+
 ## An Example
 
 Below is a very contrived and forced example to try and demonstrate the power of
