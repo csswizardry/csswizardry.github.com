@@ -12,7 +12,7 @@ adding new features. This is the reason we focus so much on things like
 architectures, naming conventions, methodologies, preprocessors, scalability,
 etc.: because writing CSS is easy; looking after it is not.
 
-What we want is to be able to write code that is transparent and
+What we want is to be able to write code that is as transparent and
 self-documenting as possible. Transparency means that it is clear and obvious
 (to others) in its intent; self-documenting means that we don’t have to lose
 time to writing and reading lengthy, supplementary documentation.
@@ -174,7 +174,7 @@ list should acquaint you with the kinds of thing we’re hoping to achieve.
 * `js-`: Signify that this piece of the DOM has some behaviour acting upon it,
   and that JavaScript binds onto it to provide that behaviour. If you’re not
   a developer working with JavaScript, leave these well alone.
-* `.qa-`: Signify that a QA or Test Engineering team is running an automated UI
+* `qa-`: Signify that a QA or Test Engineering team is running an automated UI
   test which needs to find or bind onto these parts of the DOM. Like the
   JavaScript namespace, this basically just reserves hooks in the DOM for
   non-CSS purposes.
@@ -200,7 +200,7 @@ Example:
 The `o-` namespace for Objects is a very useful one for any teams who use
 Object-Oriented CSS.
 
-OOCSS is fantastic in that it teaches to abstract out the repetitive, shared,
+OOCSS is fantastic in that it teaches us to abstract out the repetitive, shared,
 and purely structural aspects of a UI into reusable _objects_. This means that
 things like layout, wrappers and containers, the [Media
 Object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/),
@@ -439,9 +439,9 @@ Stateful namespaces are lovely. They come from
 or temporary states of the UI that need styling accordingly.
 
 When looking at a piece of interactive UI (e.g. a modal overlay) through
-developer tools, we’ll probably spend some time toggling things on and of. Being
-able to see classes like `.is-open` appear and disappear in the DOM is a highly
-readable and very obvious way of learning about state:
+developer tools, we’ll probably spend some time toggling things on and off.
+Being able to see classes like `.is-open` appear and disappear in the DOM is a
+highly readable and very obvious way of learning about state:
 
     <div class="c-modal  is-open">
       ...
@@ -456,6 +456,14 @@ piece of UI can exist in, for example:
       &.is-open { ... }
 
     }
+
+
+      .c-modal__content {
+        ...
+
+        &.is-loading { ... }
+
+      }
 
 These classes work by chaining other classes, for example `.c-modal.is-open`.
 This heightened specificity ensures that the State always takes prominence over
@@ -640,7 +648,7 @@ This will match all of the following:
 
     .o-layout__item
     .c-modal--wide
-    .c-panel__title
+    .u-text-center
     .c-nav-primary__link--home
 
 But none of these:
@@ -743,11 +751,12 @@ namespaces.
 If you’re not too keen on the idea of typing out `o-` and `c-` for every
 class—and particularly if you aren’t really interested in the autocomplete
 benefits we can gain—another format we could employ is `.object`, `.Component`.
-That is to say, naming any widespread Object classes without a namespace and a
-lowercase first letter, but naming our Component classes without a namespace but
-a capitalised first letter. This feels almost natural: because components are
-named, complete pieces of UI, it feels proper to give them title case. Take
-these examples:
+That is to say, naming any widespread Object classes with no namespace and a
+lowercase first letter, and naming our Component classes with no namespace and
+a capitalised first letter.
+
+This actually feels almost natural: because components are named, complete
+pieces of UI, it feels proper to give them title case. Take these examples:
 
     <blockquote class="media  Testimonial">
     </blockquote>
@@ -825,8 +834,8 @@ Well, we can learn a lot:
   `.c-modal__foot`).
 * We have a layout Object (`.o-layout`) which is currently laying out:
 * Some layout items that are one- and two-thirds wide (`.u-1/3`, `.u-2/3`).
-* These width classes are Utilities, and therefore do not have to be used
-  alongside the layout Objects.
+* These width classes are Utilities, and therefore do not just have to be used
+  alongside the layout Objects—they can be used anywhere.
 * Some button components (`.c-btn`) which have:
 * QA hooks to be bound onto for automated UI testing (`.qa-modal-dismiss`,
   `.qa-modal-accept`).
