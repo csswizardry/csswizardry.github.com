@@ -187,7 +187,7 @@ of our existing classes.
 It is probably worth noting at this point that these namespaces do not exist for
 encapsulation and sandboxing of styles, but for clarity and informative reasons.
 [Ben Frain](https://twitter.com/benfrain)’s
-[FUN](http://benfrain.com/fun-css-naming-convention-explained/) methodology
+[FUN](http://benfrain.com/fun-css-naming-convention-explained/) convention
 utilises namespacing as a means of soft encapsulation.
 </small>
 
