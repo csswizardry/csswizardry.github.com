@@ -161,6 +161,9 @@ list should acquaint you with the kinds of thing we’re hoping to achieve.
 * `t-`: Signify that a class is responsible for adding a Theme to a view. It
   lets us know that UI Components’ current cosmetic appearance may be due to the
   presence of a theme.
+* `s-`: Signify that a class creates a new styling context or <i>Scope</i>.
+  Similar to a Theme, but not necessarily cosmetic, these should be used
+  sparingly—they can be open to abuse and lead to poor CSS if not used wisely.
 * `is-`, `has-`: Signify that the piece of UI in question is currently styled a
   certain way because of a state or condition. This stateful namespace is
   gorgeous, and comes from [SMACSS](https://smacss.com/). It tells us that the
@@ -429,6 +432,115 @@ debugging, and modifying Theme rules becomes much simpler.
 * Theme namespaces are very high-level.
 * They provide a context or scope for many other rules.
 * It’s useful to signal the current condition of the UI.
+
+## Scope Namespaces: `s-`
+
+Format:
+
+    .s-scope-name {}
+
+Example:
+
+    .s-cms-content {}
+
+Scoped contexts in CSS solve a very specific and particular problem: please be
+entirely certain that you actually have this problem before employing Scopes,
+because they can be misused and end up leading to actively bad CSS.
+
+Oftentimes it can be useful to set up a brand new styling context for a
+particular section of your UI. A perfect example of this is areas of
+user-generated content, where some long-form/prose HTML has come from a CMS. The
+styling of this kind of content usually differs from the more app-like UI around
+it. You may have a class-heavy UI architecture to provide complex pieces of
+design like navigations, buttons, modals, etc., and inside all of this you may
+have a simple blog post which is populated via a CMS where the user writes plain
+text and cannot add any classes or complexity.
+
+<small>For a really terse but effective example of Scoping styles, see [David
+Bushell](https://twitter.com/dbushell)’s [<cite>Scoping Typography
+CSS</cite>](http://dbushell.com/2012/04/18/scoping-typography-css/).</small>
+
+You **might** want to style this free-form text differently from the rest of the
+surrounding UI, so you _might_ employ a scoping context. For example:
+
+    <nav class="c-nav-primary">
+      ...
+    </nav>
+
+    <section class="s-cms-content">
+
+      <h1>...</h1>
+
+      <p>...</p>
+
+      <p>...</p>
+
+      <ul>
+        ...
+      </ul>
+
+      <p>...</p>
+
+    </section>
+
+    <ul class="c-share-links">
+      ...
+    </ul>
+
+    <a href="" class="c-btn  c-btn--primary">Next article...</a>
+
+Everything inside the `.s-cms-content` is inaccessible: we can’t get at the DOM
+to add any classes to the nodes inside of it, so we _might_ begin styling via a
+Scope. That _might_ look something like this:
+
+    /**
+     * Create a new styling context for any free-text CMS content (blog posts,
+     * news pages, etc.).
+     *
+     * 1. Use a larger and more readable typeface for continuous prose.
+     * 2. Force all headings to have the same appearance, regardless of their
+     *    hierarchy.
+     * 3. Make links inside long text more apparent.
+     */
+    .s-cms-content {
+      font: 16px/1.5 serif; /* [1] */
+
+      h1, h2, h3, h4, h5, h6 {
+        font: bold 100%/inherit sans-serif; /* [2] */
+      }
+
+      a {
+        text-decoration: underline; /* [3] */
+      }
+
+    }
+
+I cannot stress the word _might_ enough here. [Nesting selectors is
+bad](http://cssguidelin.es/#nesting): it leads to location-based styling,
+meaning that styles are now tightly coupled to DOM structure; it prevents people
+from being able to opt into styles, because nested selectors are very
+dictatorial (i.e. <q>this **will** happen if you put that in there</q>); having
+a type selector as a Key Selector creates very greedy selectors, which can match
+more of the DOM than you intend; and our specificity gets increased, meaning our
+Scope will override previously defined styles, and in turn the Scope itself
+becomes harder to override.
+
+There’s a really good example we can grab from the Sass above. When compiled,
+that code will give us this selector: `.s-cms-content a {}`. This selector is
+in charge of adding underlines to links, and is also of a higher specificity
+than a selector like `.c-btn {}`. This means that if we were to put a button
+inside of this Scope, it would get an underline—this is something we probably
+don’t want. This simple example outlines the potential for problems when working
+with Scopes, so tread carefully.
+
+Please make triple sure that that you need to employ a Scope before you start
+writing lots of nested selectors. If you are unsure, it may be best to err on
+the side of caution and leave Scopes out entirely.
+
+Warnings aside, the actual `s-` namespace becomes incredibly useful for
+signalling to developers that an entire area of the DOM is subject to one big
+caveat. Anything we see styled in here might have an extra layer of styling
+applied to it in a pretty opinionated and greedy manner.
 
 ## Stateful Namespaces: `is-`/`has-`
 
@@ -828,7 +940,11 @@ So, what can we learn from this:
       <article class="c-modal  c-modal--wide  js-modal  is-open">
 
         <div class="c-modal__content">
-          ...
+
+          <div class="s-cms-content">
+            ...
+          </div>
+
         </div><!-- /.c-modal__content -->
 
         <div class="c-modal__foot">
@@ -865,6 +981,9 @@ Well, we can learn a lot:
   currently open (`.is-open`).
 * The modal is made up of a few more pieces (`.c-modal__content` and
   `.c-modal__foot`).
+* There is an entire area of the DOM whose styling is defined by a Scope
+  (`.s-cms-content`). This content comes from a place where we cannot get at the
+  DOM nodes individually, so we revert to styling everything from a new context.
 * We have a layout Object (`.o-layout`) which is currently laying out:
 * Some layout items that are one- and two-thirds wide (`.u-1/3`, `.u-2/3`).
 * These width classes are Utilities, and therefore do not just have to be used
