@@ -506,7 +506,7 @@ Scope. That _might_ look something like this:
       font: 16px/1.5 serif; /* [1] */
 
       h1, h2, h3, h4, h5, h6 {
-        font: bold 100%/inherit sans-serif; /* [2] */
+        font: bold 100%/1.5 sans-serif; /* [2] */
       }
 
       a {
