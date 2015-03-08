@@ -1042,7 +1042,7 @@ left in the dark, unaware of what I might be able to recycle, modify, or delete.
 
 ---
 
-Okay, we’re at over 5,400 words now, let’s wrap this up.
+Okay, we’re at over 6,400 words now, let’s wrap this up.
 
 BEM has already provided us with amazing clarity in our classes. Adding
 namespaces on top of this creates incredibly rich meaning that lives right there
