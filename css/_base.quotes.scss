@@ -30,10 +30,10 @@ q {
  * 1. Hang opening punctuation.
  */
 blockquote {
-    text-indent: -0.41em; /* [1] */
     quotes: "“" "”";
 
     p {
+        text-indent: -0.41em; /* [1] */
 
         &:before {
             content: open-quote;
