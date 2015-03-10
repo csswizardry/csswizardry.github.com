@@ -762,7 +762,7 @@ easily find
 
 I wrote a pretty crude regex to find valid classes:
 
-    \.[a-z]+-[a-z0-9-]+((__)?(--)?[a-z0-9-]+)?(--[a-z0-9-]+)?$
+    ^\.[a-z]+-[a-z0-9-]+((__|--)?[a-z0-9-]+)?(--[a-z0-9-]+)?$
 
 This will match all of the following:
 
@@ -779,19 +779,20 @@ But none of these:
 
 This works by:
 
+* `^`: Make sure we are at the very beginning of the string.
 * `\.`: Must start with a period (i.e. is a class).
 * `[a-z]+`: A single alpha string of one letter or more (i.e. a namespace).
 * `-`: A single hyphen separator.
 * `[a-z0-9-]+`: Alphanumeric, hyphen delimited string of one or more characters
   (i.e. Block name).
 * `(`: Open an optional match.
-  * `(__)?(--)?`: Optional double-hypen or double-underscore (i.e. an Element or
+  * `(__|--)?`: Optional double-hypen or double-underscore (i.e. an Element or
     a Modifier).
   * `[a-z0-9-]+`: Alphanumeric, hyphen delimited string of one or more
     characters (i.e. Element or Modifier name).
 * `)?`: Close the optional match.
 * `(--[a-z0-9-]+)?`: Optional alphanumeric Modifier on the end of all of that.
-* `$`: Find the end of the class.
+* `$`: Make sure we reach the very end of the string.
 
 Yes, that’s very icky. I’ve never really written any regex before, so I have
 absolutely no doubt at all that there is a much more terse and effective way to
