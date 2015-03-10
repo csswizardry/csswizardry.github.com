@@ -781,17 +781,19 @@ This works by:
 
 * `^`: Make sure we are at the very beginning of the string.
 * `\.`: Must start with a period (i.e. is a class).
-* `[a-z]+`: A single alpha string of one letter or more (i.e. a namespace).
+* `[a-z]+`: A single alpha, lowercase string of one letter or more (i.e. a
+  namespace).
 * `-`: A single hyphen separator.
-* `[a-z0-9-]+`: Alphanumeric, hyphen delimited string of one or more characters
-  (i.e. Block name).
+* `[a-z0-9-]+`: Alphanumeric, lowercase, hyphen delimited string of one or more
+  characters (i.e. Block name).
 * `(`: Open an optional match.
-  * `(__|--)?`: Optional double-hypen or double-underscore (i.e. an Element or
+  * `(__|--)?`: Optional double-hyphen or double-underscore (i.e. an Element or
     a Modifier).
-  * `[a-z0-9-]+`: Alphanumeric, hyphen delimited string of one or more
+  * `[a-z0-9-]+`: Alphanumeric, lowercase, hyphen delimited string of one or more
     characters (i.e. Element or Modifier name).
 * `)?`: Close the optional match.
-* `(--[a-z0-9-]+)?`: Optional alphanumeric Modifier on the end of all of that.
+* `(--[a-z0-9-]+)?`: Optional alphanumeric, lowercase Modifier on the end of all
+  of that.
 * `$`: Make sure we reach the very end of the string.
 
 Yes, that’s very icky. I’ve never really written any regex before, so I have
