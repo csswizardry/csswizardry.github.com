@@ -542,6 +542,9 @@ signalling to developers that an entire area of the DOM is subject to one big
 caveat. Anything we see styled in here might have an extra layer of styling
 applied to it in a pretty opinionated and greedy manner.
 
+* Scopes are pretty rare: make triple sure you need them.
+* They rely entirely on nesting, so make sure people are aware of this.
+
 ## Stateful Namespaces: `is-`/`has-`
 
 Format:
