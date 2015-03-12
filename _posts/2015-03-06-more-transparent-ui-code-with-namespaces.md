@@ -792,7 +792,7 @@ This works by:
 * `[a-z0-9-]+`: Alphanumeric, lowercase, hyphen delimited string of one or more
   characters (i.e. Block name).
 * `(`: Open an optional match.
-  * `(_{2}|-{2})?`: Optional two hyphens or underscores (i.e. an Element or a
+  * `(_{2}|-{2})?`: Optional two underscores or hyphens (i.e. an Element or a
      Modifier).
   * `[a-z0-9-]+`: Alphanumeric, lowercase, hyphen delimited string of one or more
     characters (i.e. Element or Modifier name).
