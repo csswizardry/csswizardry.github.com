@@ -606,11 +606,11 @@ server (e.g. `.is-updating`).
 
 Format:
 
-    ._hack-name {}
+    ._<namespace>hack-name {}
 
 Example:
 
-    ._footer-mobile {}
+    ._c-footer-mobile {}
 
 In certain and usually quite rare circumstances, we might need to add a class to
 our markup purely in order to help us hack or override something. If we ever do
@@ -632,7 +632,7 @@ thing](http://csswizardry.com/2013/04/shame-css/).
       /**
        * We need to force the footer to be a fixed height on smaller screens.
        */
-      ._footer-mobile {
+      ._c-footer-mobile {
         height: 80px;
       }
 
@@ -972,7 +972,7 @@ So, what can we learn from this:
       </article><!-- /.c-modal -->
 
       <footer class="c-page-foot">
-        <small class="c-copyright  _copyright">...</small>
+        <small class="c-copyright  _c-copyright">...</small>
       </footer>
 
     </body>
