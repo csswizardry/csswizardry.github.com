@@ -765,7 +765,7 @@ easily find
 
 I wrote a pretty crude regex to find valid classes:
 
-    ^\.[a-z]+-[a-z0-9-]+((__|--)?[a-z0-9-]+)?(--[a-z0-9-]+)?$
+    ^\.(_)?[a-z]+-[a-z0-9-]+((_{2}|-{2})?[a-z0-9-]+)?(-{2}[a-z0-9-]+)?$
 
 This will match all of the following:
 
@@ -773,6 +773,7 @@ This will match all of the following:
     .c-modal--wide
     .u-text-center
     .c-nav-primary__link--home
+    ._c-footer-mobile
 
 But none of these:
 
@@ -784,25 +785,26 @@ This works by:
 
 * `^`: Make sure we are at the very beginning of the string.
 * `\.`: Must start with a period (i.e. is a class).
+* `(_)?`: Optional leading underscore (i.e. a hack).
 * `[a-z]+`: A single alpha, lowercase string of one letter or more (i.e. a
   namespace).
 * `-`: A single hyphen separator.
 * `[a-z0-9-]+`: Alphanumeric, lowercase, hyphen delimited string of one or more
   characters (i.e. Block name).
 * `(`: Open an optional match.
-  * `(__|--)?`: Optional double-hyphen or double-underscore (i.e. an Element or
-    a Modifier).
+  * `(_{2}|-{2})?`: Optional two hyphens or underscores (i.e. an Element or a
+     Modifier).
   * `[a-z0-9-]+`: Alphanumeric, lowercase, hyphen delimited string of one or more
     characters (i.e. Element or Modifier name).
 * `)?`: Close the optional match.
-* `(--[a-z0-9-]+)?`: Optional alphanumeric, lowercase Modifier on the end of all
+* `(-{2}[a-z0-9-]+)?`: Optional alphanumeric, lowercase Modifier on the end of all
   of that.
 * `$`: Make sure we reach the very end of the string.
 
 Yes, that’s very icky. I’ve never really written any regex before, so I have
 absolutely no doubt at all that there is a much more terse and effective way to
 achieve the same thing, but for now this regex seems to work for (almost) all
-eventualities: [try it out](https://regex101.com/r/rG7uF4/2).
+eventualities: [try it out](https://regex101.com/r/rG7uF4/4).
 
 ## Highlight Types of Namespace
 
