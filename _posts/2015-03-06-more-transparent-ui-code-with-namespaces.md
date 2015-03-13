@@ -376,6 +376,10 @@ sparingly.)
       ...
     </div>
 
+<small>Please see this post’s sister article [<cite>Immutable
+CSS</cite>](http://csswizardry.com/2015/03/immutable-css/) for more detail on
+these kinds of rule.</small>
+
 * Utilities are style heavyweights.
 * Alert people as to their existence.
 * Never reassign to anything that carries a leading `u-`.
