@@ -765,7 +765,7 @@ easily find
 
 I wrote a pretty crude regex to find valid classes:
 
-    ^\.(_)?[a-z]+-[a-z0-9-]+((_{2}|-{2})?[a-z0-9-]+)?(-{2}[a-z0-9-]+)?$
+    ^\.(_)?[a-z]+-[a-z0-9-]+((_{2}|-{2})?[a-z0-9-]+)?(-{2}[a-z0-9-]+)?[a-z0-9]$
 
 This will match all of the following:
 
@@ -780,12 +780,13 @@ But none of these:
     .foo // No namespace
     .c-datePicker // Camel case
     .o-media_img // Single underscore
+    .c-page-head-- // Trailing punctuation
 
 This works by:
 
 * `^`: Make sure we are at the very beginning of the string.
 * `\.`: Must start with a period (i.e. is a class).
-* `(_)?`: Optional leading underscore (i.e. a hack).
+* `(_)?`: Optional leading underscore (i.e. a Hack).
 * `[a-z]+`: A single alpha, lowercase string of one letter or more (i.e. a
   namespace).
 * `-`: A single hyphen separator.
@@ -797,14 +798,16 @@ This works by:
   * `[a-z0-9-]+`: Alphanumeric, lowercase, hyphen delimited string of one or more
     characters (i.e. Element or Modifier name).
 * `)?`: Close the optional match.
-* `(-{2}[a-z0-9-]+)?`: Optional alphanumeric, lowercase Modifier on the end of all
-  of that.
+* `(-{2}[a-z0-9-]+)?`: Optional alphanumeric, lowercase Modifier on the end of
+  all of that.
+* `[a-z0-9]`: Ensure that the very last character is alphanumeric (i.e. no
+  trailing punctuation).
 * `$`: Make sure we reach the very end of the string.
 
 Yes, that’s very icky. I’ve never really written any regex before, so I have
 absolutely no doubt at all that there is a much more terse and effective way to
 achieve the same thing, but for now this regex seems to work for (almost) all
-eventualities: [try it out](https://regex101.com/r/rG7uF4/4).
+eventualities: [try it out](https://regex101.com/r/rG7uF4/5).
 
 ## Highlight Types of Namespace
 
