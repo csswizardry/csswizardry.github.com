@@ -3,3 +3,4 @@ _site/
 PSDs/
 bower_components/
 *.draft.md
+*.map
