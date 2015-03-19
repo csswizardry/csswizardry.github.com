@@ -69,8 +69,8 @@ Objects</i>](http://en.wikipedia.org/wiki/Immutable_object).
 
 As with a lot of my work, I try to borrow paradigms from software engineering.
 Software Engineers have been solving these problems since long before I was even
-a twinkle in my dad’s eye, so it’s probably going to be in my interests to see
-how they’d go about it.
+a twinkle in my father’s eye, so it’s probably going to be in my interests to
+see how they’d go about it.
 
 It turns out that immutable objects are objects <q>whose state cannot be
 modified after [they have been] created</q>. That’s _exactly_ what we’re aiming
