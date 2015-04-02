@@ -13,7 +13,7 @@ series of workshops and hack days with Copenhagen-based company [Better
 Collective](http://bettercollective.com/). Product Manager
 [Alette](https://twitter.com/thealette) got in touch with me asking if I’d like
 to help them plan out and begin building the UI for the overhaul of their social
-network, [Betting Expert](http://www.bettingexpert.com/). I immediately said
+network, [bettingexpert](http://www.bettingexpert.com/). I immediately said
 yes.
 
 Alette’s opening emails got me really, really excited. I could tell this was
