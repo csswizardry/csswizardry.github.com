@@ -26,10 +26,10 @@ permalink: /case-studies/
     </li>
 
     <li class="feature-list__item">
-        <a href="css-wizardry/" class="feature-list__link" style="background-color: #f43059;">
+        <a href="better-collective" class="feature-list__link" style="background-color: #00a767;">
             <h2 class="feature-list__title">
-                CSS Wizardry
-                <span class="feature-list__sub">Development, Product</span>
+                Better Collective
+                <span class="feature-list__sub">Workshop, Consultancy</span>
             </h2>
         </a>
     </li>
@@ -57,6 +57,15 @@ permalink: /case-studies/
             <h2 class="feature-list__title">
                 BSkyB
                 <span class="feature-list__sub">Development, Product, Workshop</span>
+            </h2>
+        </a>
+    </li>
+
+    <li class="feature-list__item">
+        <a href="css-wizardry/" class="feature-list__link" style="background-color: #f43059;">
+            <h2 class="feature-list__title">
+                CSS Wizardry
+                <span class="feature-list__sub">Development, Product</span>
             </h2>
         </a>
     </li>
