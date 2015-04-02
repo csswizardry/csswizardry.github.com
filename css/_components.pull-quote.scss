@@ -7,7 +7,8 @@
     color: $color-quote;
     padding-left: 0.5 * $spacing-unit;
     border-left: 0.5 * $spacing-unit solid $color-tint;
-    font-style: italic;
+    margin-right: 0;
+    margin-left:  0;
 
     @include media-query(lap-and-up) {
         margin-left: -$spacing-unit;

@@ -30,6 +30,9 @@ q {
  * 1. Hang opening punctuation.
  */
 blockquote {
+    margin-right: 2 * $spacing-unit;
+    margin-left:  2 * $spacing-unit;
+    font-style: italic;
     quotes: "“" "”";
 
     p {
