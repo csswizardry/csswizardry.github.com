@@ -110,9 +110,8 @@ conditionals: to narrow the selector’s reach. You need to start at the other
 end; write something unambiguous and explicit and forgo the conditions entirely.
 
 **Instead of your selectors casting a really wide net that catch way too much of
-the DOM—and then having to trim down that catch down via conditions—it is far
-more succinct and robust to just catch much less of the DOM in the first
-place.**
+the DOM—and then having to trim that catch down via conditions—it is far more
+succinct and robust to just catch much less of the DOM in the first place.**
 
 Cyclomatic Complexity is quite an advanced principle to try and apply to CSS,
 but if we look at it as just that—a principle—we can start to visualise and even
