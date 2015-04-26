@@ -120,7 +120,7 @@ begin making much better decisions based on it.
 
 Some good rules of thumb:
 
-* **Think of your selectors as mini programs:** Every time you nest or quality,
+* **Think of your selectors as mini programs:** Every time you nest or qualify,
   you are adding an `if` statement; read these `if`s out loud to yourself to try
   and keep your selectors sane.
 * **Keep your Cyclomatic Complexity to a minimum:** Use a tool like
