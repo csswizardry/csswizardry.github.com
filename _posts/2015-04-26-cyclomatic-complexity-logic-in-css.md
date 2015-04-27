@@ -25,8 +25,8 @@ For example:
     }
 
 In this compound selector, the subject is `span`, and the conditions are `IF
-inside .btn AND IF on input AND IF inside .login-box AND IF inside .sidebar AND
-IF on div`.
+(inside .btn) AND IF (on input) AND IF (inside .login-box) AND IF (inside
+.sidebar) AND IF (on div)`.
 
 That is to say, every component part of a selector is an `if`
 statement—something that needs to be satisfied (or not) before the selector will
