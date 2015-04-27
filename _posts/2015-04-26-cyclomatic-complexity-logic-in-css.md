@@ -85,7 +85,7 @@ possible, as greater complexity means that, among other things,
 * code is harder to reason about;
 * there are more potential points of failure;
 * code is harder to modify, maintain, or reuse;
-* you’re left with more outcomes and side effects;
+* you’re left with more outcomes and side effects to be aware of;
 * and code is more difficult to test.
 
 Applied to CSS, we’re basically looking at the number of decisions a browser has
