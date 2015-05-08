@@ -21,12 +21,12 @@ I found myself explaining compound selectors to a client as being made up of the
 <i>subject</i>—the thing we’re actually interested in—and its <i>conditions</i>.
 For example:
 
-    div.sidebar .login-box input.btn span {
+    div.sidebar .login-box a.btn span {
     }
 
 In this compound selector, the subject is `span`, and the conditions are `IF
-(inside .btn) AND IF (on input) AND IF (inside .login-box) AND IF (inside
-.sidebar) AND IF (on div)`.
+(inside .btn) AND IF (on a) AND IF (inside .login-box) AND IF (inside .sidebar)
+AND IF (on div)`.
 
 That is to say, every component part of a selector is an `if`
 statement—something that needs to be satisfied (or not) before the selector will
@@ -39,7 +39,7 @@ huge impact on their quality. Would we really ever write (pseudo code):
 
       @if is-inside(.btn) {
 
-        @if is-on(input) {
+        @if is-on(a) {
 
           @if is-inside(.login-box) {
 
