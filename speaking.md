@@ -30,7 +30,7 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--de"></i> <a href="http://smashingconf.com/freiburg-2015/">SmashingConf</a>, Frieburg (Germany), September 2015
+        <i class="sprite  sprite--de"></i> <a href="http://smashingconf.com/freiburg-2015/">SmashingConf</a>, Freiburg (Germany), September 2015
     </li>
 
     <!--
