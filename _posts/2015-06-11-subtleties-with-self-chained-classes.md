@@ -13,6 +13,8 @@ self-chained classes (e.g. `.foo.foo {}`).
 
 The question was basically surrounding the number of ‘links’ in the chain and
 its relation, if any, to the number of times that class appears in the HTML.
+That is to say, does `.foo.foo {}` equate to specifically `class="foo foo"`, and
+`.foo.foo.foo {}` to `class="foo foo foo"`, and so on?
 
 **Client, to me:**
 
