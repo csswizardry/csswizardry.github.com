@@ -37,8 +37,9 @@ are presented, and he (admirably) admits that
 Which is what makes it such a great post: it’s excellent food for thought and
 left me pondering the problem for weeks!
 
-This post you’re reading is my take on the conundrum. It’s also going to be
-a little bit more philosophical.
+This post you’re reading is my take on the conundrum. It isn’t a direct
+response, rebuttal, or criticism of his. It’s also going to be a little bit more
+philosophical.
 
 ---
 
