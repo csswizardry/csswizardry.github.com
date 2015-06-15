@@ -6,7 +6,7 @@ categories: Web Development
 meta: "How to style specific components when they’re in specific locations"
 ---
 
-With the recent move toward componenised UIs—that is, instead of building
+With the recent move toward componentised UIs—that is, instead of building
 monolithic, page-based websites, we’re building design systems and UI Toolkits
 that come together to form the resulting pages—we’ve yielded a lot of benefits.
 UIs are
