@@ -16,12 +16,12 @@ time trying to make them as painless as possible.
 
 I’m on a nice short flight to Copenhagen as I write this, so in a similar vein
 to posts from [Craig](https://medium.com/message/lets-fly-d566ecd35678) and
-[Cennyd](http://www.cennydd.com/blog/advice-for-people-who-arent-exactly-afraid-of-flying-but-arent-exactly-unafraid-of-flying-either),
+[Cennydd](http://www.cennydd.com/blog/advice-for-people-who-arent-exactly-afraid-of-flying-but-arent-exactly-unafraid-of-flying-either),
 I thought I’d share some of my own flying advice.
 
 ## Arrive Early
 
-Echoing both Cennyd and Craig’s sentiments, the single biggest favour you can do
+Echoing both Cennydd and Craig’s sentiments, the single biggest favour you can do
 yourself is **be early**. Really early. If your flight leaves at 1040, act as
 though your flight leaves at 1000; tell everyone concerned—like your cab
 driver—that your flight leaves at 1000, and then get to the airport 2 hours
