@@ -10,7 +10,7 @@ Hi there, I’m Harry; I am an [award-winning](https://thenetawards.com/previous
 Consultant Front-end Architect, writer, and speaker from the UK. I help
 companies all over the world write better quality, more manageable, more
 scalable user interfaces. I am [available for
-work](mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together).
+work](mailto:csswizardry@gmail.com?subject=Let%E2%80%99s%20work%20together).
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
@@ -64,7 +64,7 @@ me.</strong></a>
 I am open to interesting and fun consulting gigs, short-term contracts,
 workshops and any exciting projects working with nice people **starting in
 2014**. If you think you have something we can work together on then [get in
-touch](mailto:harry@csswizardry.com).
+touch](mailto:csswizardry@gmail.com).
 
 Please note that I get a _lot_ of email, so it may take me a while to get back
 to you. I do try and reply to everyone, no matter how long it might take, but I
@@ -81,7 +81,7 @@ you tweeted at me, or sent me a follow-up email, to remind me to reply.
     <dd>For informal, quick contact and questions, feel free to fire me a
     Tweet!</dd>
 
-    <dt>Email: <a href="mailto:harry@csswizardry.com">harry@csswizardry.com</a></dt>
+    <dt>Email: <a href="mailto:csswizardry@gmail.com">csswizardry@gmail.com</a></dt>
     <dd>For longer enquiries and questions, please send me an email.</dd>
 
 </dl>

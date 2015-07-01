@@ -10,7 +10,7 @@ permalink: /case-studies/
        series of case studies covering a selection of recent work for
        consultancy, engineering, and workshop clients.</p
    ><p class="layout__item  lap-and-up-one-half">Don’t have time to read full case studies?
-       Feel free to <a href="mailto:harry@csswizardry.com?subject=Let%E2%80%99s%20work%20together">send
+       Feel free to <a href="mailto:csswizardry@gmail.com?subject=Let%E2%80%99s%20work%20together">send
        me an email</a> and we can talk directly.</p>
 </div>
 

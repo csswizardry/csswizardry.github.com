@@ -9,11 +9,11 @@ permalink: /speaking/
 I speak about—and run workshops covering—big CSS, its architecture, and writing
 it in large teams on large products in a performant manner that scales. If you
 would like me to speak or run a workshop at one of your events, please
-<a href="mailto:harry@csswizardry.com">drop me a line</a>.
+<a href="mailto:csswizardry@gmail.com">drop me a line</a>.
 
 I also run private workshops, where I come into your offices and get hacking
 with your team. If you would like to organise one of these then
-<a href="mailto:harry@csswizardry.com">fire me an email</a>.
+<a href="mailto:csswizardry@gmail.com">fire me an email</a>.
 
 <figure>
   <img src="/img/content/speaking.jpg" alt="">

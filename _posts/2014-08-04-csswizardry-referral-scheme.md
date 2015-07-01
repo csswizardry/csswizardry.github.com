@@ -42,7 +42,7 @@ be gamed. Loosely, they will be along the lines of:
   there are any grey areas, we will discuss them together.
 
 But if you have any questions, please just fire me an email:
-[harry@csswizardry.com](mailto:harry@csswizardry.com?subject=Question%20about%20referral%20scheme).
+[csswizardry@gmail.com](mailto:csswizardry@gmail.com?subject=Question%20about%20referral%20scheme).
 
 An example of a [cut and
 dried](https://www.google.com/webhp#q=define+cut+and+dried) introduction
