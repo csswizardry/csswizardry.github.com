@@ -122,7 +122,13 @@ the piece of UI in question might have, just at a glance.
 
 **N.B.**: You have to escape the `@` symbol in your CSS file, like so:
 
-    .u-hidden\@print {}
+    @media print {
+
+      .u-hidden\@print {
+        display: none;
+      }
+
+    }
 
 ## Healthchecks
 
@@ -226,8 +232,12 @@ non-relative sense. Some more examples:
 
     .c-page-head {}
 
-    .u-text-center\@sm {}
+    @media screen and (min-width: 15em) {
+      .u-text-center\@sm {}
+    }
 
     .o-layout__item {}
 
-    .u-color-black\@print {}
+    @media print {
+      .u-color-black\@print {}
+    }
