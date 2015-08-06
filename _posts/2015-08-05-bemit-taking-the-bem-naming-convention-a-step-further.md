@@ -60,7 +60,7 @@ really give us any idea of how things behave, act, or should be implemented in a
 global and non-relative sense.
 
 To that end, I decided to extend BEM to become BEMIT. BEMIT doesn’t add any
-other types of class—we still only ever have Blocks, Elements, or Modifiers, but
+other types of class—we still only ever have Blocks, Elements, or Modifiers—but
 it does add usage and state information.
 
 ## Namespaces
@@ -202,7 +202,8 @@ previous article about
 namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#highlight-types-of-namespace).
 
 We can enable this healthcheck in multiple ways, but the simplest would probably
-be nesting the whole lot in a Scope class:
+be nesting the whole lot in [a Scope
+class](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#scope-namespaces-s-):
 
     .s-healthcheck {
 
