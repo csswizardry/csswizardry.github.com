@@ -54,7 +54,7 @@ This level of detail from our classes alone is great! It allows us to make much
 safer and more informed decisions about what things do and how we can use,
 reuse, change, or remove them.
 
-The one thing missing from BEM is that it only tells use what classes to in
+The one thing missing from BEM is that it only tells us what classes to in
 relative terms, as in, how classes are related to _each other_. They don’t
 really give us any idea of how things behave, act, or should be implemented in a
 global and non-relative sense.
