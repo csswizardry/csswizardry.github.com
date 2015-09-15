@@ -30,11 +30,6 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--de"></i> <a href="http://smashingconf.com/freiburg-2015/">SmashingConf</a>, Freiburg (Germany), September 2015
-    </li>
-
-    <li>
-        <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--it"></i> <a href="http://2015.fromthefront.it/">From The Front</a>, Bologna (Italy), September 2015
     </li>
 
@@ -53,6 +48,11 @@ with your team. If you would like to organise one of these then
 <h3>Previous events</h3>
 
 <ul class="list-ui  mb">
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--de"></i> <a href="http://smashingconf.com/freiburg-2015/">SmashingConf</a>, Freiburg (Germany), September 2015
+    </li>
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
