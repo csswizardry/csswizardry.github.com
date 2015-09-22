@@ -26,7 +26,7 @@ with your team. If you would like to organise one of these then
 
 <h2>Upcoming events</h2>
 
-<ul class="list-ui  mb++">
+<ol class="list-ui  mb++">
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
@@ -43,11 +43,11 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--uk"></i> <a href="http://beyondconf.co/">Beyond</a>, London (UK), November 2015
     </li>
 
-</ul>
+</ol>
 
 <h3>Previous events</h3>
 
-<ul class="list-ui  mb">
+<ol class="list-ui  mb" reversed>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
@@ -189,4 +189,4 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--uk"></i> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (UK), February 2012
     </li>
 
-</ul>
+</ol>
