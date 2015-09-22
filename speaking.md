@@ -38,6 +38,11 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-november/">White October Events</a>, London (UK), November 2015
     </li>
 
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--uk"></i> <a href="http://beyondconf.co/">Beyond</a>, London (UK), November 2015
+    </li>
+
 </ul>
 
 <h3>Previous events</h3>
