@@ -30,11 +30,6 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-september/">White October Events</a>, London (UK), September 2015
-    </li>
-
-    <li>
-        <h3 class="list-ui__title">Workshop</h3>
         <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-november/">White October Events</a>, London (UK), November 2015
     </li>
 
@@ -48,6 +43,11 @@ with your team. If you would like to organise one of these then
 <h3>Previous events</h3>
 
 <ol class="list-ui  mb" reversed>
+
+    <li>
+        <h3 class="list-ui__title">Workshop</h3>
+        <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-september/">White October Events</a>, London (UK), September 2015
+    </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
