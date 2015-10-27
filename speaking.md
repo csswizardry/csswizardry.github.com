@@ -38,6 +38,55 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--uk"></i> <a href="http://beyondconf.co/">Beyond</a>, London (UK), November 2015
     </li>
 
+    <li>
+        <h3 class="list-ui__title">Workshop</h3>
+        <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-january-2016/">White October Events</a>, London (UK), January 2016
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Workshop</h3>
+        <i class="sprite  sprite--uk"></i> <a href="http://workintheweb.com/">Work in the Web</a>, Leeds (UK), January 2016
+    </li>
+
+  <!--
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--at"></i> <a href="http://topconf.com/linz-2016/">Topconf</a>, Linz (Austria), February 2016
+    </li>
+  -->
+
+    <li>
+        <h3 class="list-ui__title">Workshop</h3>
+        <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-march-2016/">White October Events</a>, London (UK), March 2016
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+        <i class="sprite  sprite--us"></i> <a href="http://smashingconf.com/sf-2016/">SmashingConf</a>, San Francisco (USA), April 2016
+    </li>
+
+  <!--
+    <li>
+        <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+        <i class="sprite  sprite--uk"></i> <a href="http://www.render-conf.com/">Render</a>, Oxford (UK), April 2016
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--pl"></i> <a href="http://lanyrd.com/2016/fronttrends/">Front-Trends</a>, Warsaw (Poland), May 2016
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--be"></i> <a href="http://frontendunited.org/">Front-end United</a>, Ghent (Belgium), May 2016
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--cz"></i> <a href="http://webexpo.net/prague2015/">WebExpo</a>, Prague (Czech Republic), September 2016
+    </li>
+  -->
+
 </ol>
 
 <h3>Previous events</h3>
