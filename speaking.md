@@ -30,22 +30,22 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-november/">White October Events</a>, London (UK), November 2015
+        <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-november/">White October Events</a>, London (England), November 2015
     </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://beyondconf.co/">Beyond</a>, London (UK), November 2015
+        <i class="sprite  sprite--en"></i> <a href="http://beyondconf.co/">Beyond</a>, London (England), November 2015
     </li>
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-january-2016/">White October Events</a>, London (UK), January 2016
+        <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-january-2016/">White October Events</a>, London (England), January 2016
     </li>
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://workintheweb.com/">Work in the Web</a>, Leeds (UK), January 2016
+        <i class="sprite  sprite--en"></i> <a href="http://workintheweb.com/">Work in the Web</a>, Leeds (England), January 2016
     </li>
 
   <!--
@@ -57,7 +57,7 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-march-2016/">White October Events</a>, London (UK), March 2016
+        <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-march-2016/">White October Events</a>, London (England), March 2016
     </li>
 
     <li>
@@ -68,7 +68,7 @@ with your team. If you would like to organise one of these then
   <!--
     <li>
         <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.render-conf.com/">Render</a>, Oxford (UK), April 2016
+        <i class="sprite  sprite--en"></i> <a href="http://www.render-conf.com/">Render</a>, Oxford (England), April 2016
     </li>
 
     <li>
@@ -79,6 +79,11 @@ with your team. If you would like to organise one of these then
     <li>
         <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--be"></i> <a href="http://frontendunited.org/">Front-end United</a>, Ghent (Belgium), May 2016
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--sc"></i> <a href="http://lanyrd.com/2016/scotlandcss/">ScotlandCSS</a>, Edinburgh (Scotland), May 2016
     </li>
 
     <li>
@@ -95,7 +100,7 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-september/">White October Events</a>, London (UK), September 2015
+        <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-september/">White October Events</a>, London (England), September 2015
     </li>
 
     <li>
@@ -110,7 +115,7 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://dotyork.com/events/event?event=2015-04-08-workshop-css-architecture-for-large-scale-uis">DotYork</a>, York (UK), April 2015
+        <i class="sprite  sprite--en"></i> <a href="http://dotyork.com/events/event?event=2015-04-08-workshop-css-architecture-for-large-scale-uis">DotYork</a>, York (England), April 2015
     </li>
 
     <li>
@@ -125,7 +130,7 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://reasons.to/">Reasons:London</a>, London (UK), February 2015
+        <i class="sprite  sprite--en"></i> <a href="http://reasons.to/">Reasons:London</a>, London (England), February 2015
     </li>
 
     <li>
@@ -155,27 +160,27 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://dotyork.com/">DotYork</a>, York (UK), May 2014
+        <i class="sprite  sprite--en"></i> <a href="http://dotyork.com/">DotYork</a>, York (England), May 2014
     </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://industryconf.com/">Industry Conf</a>, Newcastle (UK), April 2014
+        <i class="sprite  sprite--en"></i> <a href="http://industryconf.com/">Industry Conf</a>, Newcastle (England), April 2014
     </li>
 
     <li>
         <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://futureofwebdesign.com/london-2014/">Future of Web Design</a>, London (UK), April 2014
+        <i class="sprite  sprite--en"></i> <a href="http://futureofwebdesign.com/london-2014/">Future of Web Design</a>, London (England), April 2014
     </li>
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture2">Event Handler</a>, London (UK), March 2014
+        <i class="sprite  sprite--en"></i> <a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture2">Event Handler</a>, London (England), March 2014
     </li>
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture">Event Handler</a>, London (UK), February 2014
+        <i class="sprite  sprite--en"></i> <a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture">Event Handler</a>, London (England), February 2014
     </li>
 
     <li>
@@ -185,12 +190,12 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://makedo.in/leeds/css-workshop/">Make Do</a>, Leeds (UK), November 2013
+        <i class="sprite  sprite--en"></i> <a href="http://makedo.in/leeds/css-workshop/">Make Do</a>, Leeds (England), November 2013
     </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough (UK), October 2013
+        <i class="sprite  sprite--en"></i> <a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough (England), October 2013
     </li>
 
     <li>
@@ -205,7 +210,7 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://hey.wearestac.com/">Hey!Stac</a>, Leeds (UK), June 2013
+        <i class="sprite  sprite--en"></i> <a href="http://hey.wearestac.com/">Hey!Stac</a>, Leeds (England), June 2013
     </li>
 
     <li>
@@ -215,17 +220,17 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://industryconf.com/">Industry Conf</a>, Newcastle (UK), April 2013
+        <i class="sprite  sprite--en"></i> <a href="http://industryconf.com/">Industry Conf</a>, Newcastle (England), April 2013
     </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (UK), September 2012
+        <i class="sprite  sprite--en"></i> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (England), September 2012
     </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://2012.canvasconf.co.uk/">Canvas</a>, Birmingham (UK), September 2012
+        <i class="sprite  sprite--en"></i> <a href="http://2012.canvasconf.co.uk/">Canvas</a>, Birmingham (England), September 2012
     </li>
 
     <li>
@@ -235,7 +240,7 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--uk"></i> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (UK), February 2012
+        <i class="sprite  sprite--en"></i> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (England), February 2012
     </li>
 
 </ol>

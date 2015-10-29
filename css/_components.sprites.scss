@@ -24,7 +24,8 @@
     background-image: url(../img/css/sprites/main.png);
 }
 
-.sprite--uk {
+.sprite--en {
+    background-position: 0 0;
     height: 11px;
 }
 
@@ -110,5 +111,10 @@
 
 .sprite--cz {
     background-position: -128px -11px;
+    height: 11px;
+}
+
+.sprite--sc {
+    background-position: -144px 0;
     height: 11px;
 }
