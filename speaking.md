@@ -83,7 +83,12 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--sc"></i> <a href="http://lanyrd.com/2016/scotlandcss/">ScotlandCSS</a>, Edinburgh (Scotland), May 2016
+        <i class="sprite  sprite--sc"></i> <a href="http://lanyrd.com/2016/scotlandcss/">ScotlandCSS</a>, Edinburgh (Scotland), June 2016
+    </li>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--nl"></i> <a href="http://cssday.nl/">CSS Day</a>, Amsterdam (Netherlands), June 2016
     </li>
 
     <li>
