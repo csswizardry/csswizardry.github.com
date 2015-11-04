@@ -48,12 +48,10 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--en"></i> <a href="http://workintheweb.com/">Work in the Web</a>, Leeds (England), January 2016
     </li>
 
-  <!--
     <li>
         <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--at"></i> <a href="http://topconf.com/linz-2016/">Topconf</a>, Linz (Austria), February 2016
     </li>
-  -->
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
