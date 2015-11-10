@@ -53,6 +53,13 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--at"></i> <a href="http://topconf.com/linz-2016/">Topconf</a>, Linz (Austria), February 2016
     </li>
 
+  <!--
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--nz"></i> <a href="http://www.webstock.org.nz/16/">Webstock</a>, Wellington (New Zealand), February 2016
+    </li>
+  -->
+
     <li>
         <h3 class="list-ui__title">Workshop</h3>
         <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-march-2016/">White October Events</a>, London (England), March 2016
