@@ -53,12 +53,10 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--at"></i> <a href="http://topconf.com/linz-2016/">Topconf</a>, Linz (Austria), February 2016
     </li>
 
-  <!--
     <li>
         <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--nz"></i> <a href="http://www.webstock.org.nz/16/">Webstock</a>, Wellington (New Zealand), February 2016
     </li>
-  -->
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
@@ -70,12 +68,12 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--us"></i> <a href="http://smashingconf.com/sf-2016/">SmashingConf</a>, San Francisco (USA), April 2016
     </li>
 
-  <!--
     <li>
         <h3 class="list-ui__title">Talk &amp; Workshop</h3>
         <i class="sprite  sprite--en"></i> <a href="http://www.render-conf.com/">Render</a>, Oxford (England), April 2016
     </li>
 
+  <!--
     <li>
         <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--pl"></i> <a href="http://lanyrd.com/2016/fronttrends/">Front-Trends</a>, Warsaw (Poland), May 2016
