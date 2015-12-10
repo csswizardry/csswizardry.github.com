@@ -44,7 +44,7 @@ with your team. If you would like to organise one of these then
     </li>
 
     <li>
-        <h3 class="list-ui__title">Talk</h3>
+        <h3 class="list-ui__title">Talk &amp; Workshop</h3>
         <i class="sprite  sprite--nz"></i> <a href="http://www.webstock.org.nz/16/">Webstock</a>, Wellington (New Zealand), February 2016
     </li>
 
