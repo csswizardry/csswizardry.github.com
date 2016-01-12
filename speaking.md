@@ -63,22 +63,22 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--en"></i> <a href="http://www.render-conf.com/">Render</a>, Oxford (England), April 2016
     </li>
 
-  <!--
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--pl"></i> <a href="http://lanyrd.com/2016/fronttrends/">Front-Trends</a>, Warsaw (Poland), May 2016
+        <i class="sprite  sprite--pl"></i> <a href="https://2016.front-trends.com/">Front-Trends</a>, Warsaw (Poland), May 2016
     </li>
 
+  <!--
     <li>
         <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--be"></i> <a href="http://frontendunited.org/">Front-end United</a>, Ghent (Belgium), May 2016
     </li>
+  -->
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--sc"></i> <a href="http://lanyrd.com/2016/scotlandcss/">ScotlandCSS</a>, Edinburgh (Scotland), June 2016
     </li>
-  -->
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
