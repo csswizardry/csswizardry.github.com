@@ -15,15 +15,6 @@ I also run private workshops, where I come into your offices and get hacking
 with your team. If you would like to organise one of these then
 <a href="mailto:csswizardry@gmail.com">fire me an email</a>.
 
-<figure>
-  <img src="/img/content/speaking.jpg" alt="">
-  <figcaption>
-      On stage at <a href="http://2014.thegeekgathering.org/">The Geek Gathering</a>.
-      <a href="https://www.flickr.com/photos/naomiatkinson/14165689102/">Photo</a> by
-      <a href="https://twitter.com/naomisusi">Naomi Atkinson</a>.
-  </figcaption>
-</figure>
-
 <h2>Upcoming events</h2>
 
 <ol class="list-ui  mb++">
