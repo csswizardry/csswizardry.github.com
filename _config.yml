@@ -7,5 +7,5 @@ url: "http://csswizardry.com"
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 paginate: 10
