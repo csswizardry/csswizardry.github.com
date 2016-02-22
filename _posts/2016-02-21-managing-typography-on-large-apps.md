@@ -85,7 +85,7 @@ offset from their surroundings.
 
 This approach now gives us great semantic freedom: none of our headings’ look
 and feel will guide our choice of element, nor will we misuse an element for the
-correct look and feel
+correct look and feel.
 
 To provide our actual styled suite of headings, we need to move away from the
 semantic `h1`–`h6` model, and toward a more purpose-driven model. Instead of
