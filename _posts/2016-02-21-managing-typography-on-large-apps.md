@@ -120,7 +120,7 @@ The upshot of this is that nearly all of your HTML will look more like this:
       ...
 
       <article class="c-tile">
-        <h1 class="c-tile__title">...</h1>
+        <h3 class="c-tile__title">...</h3>
         <p>...</p>
       </article>
 
