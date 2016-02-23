@@ -10,6 +10,15 @@ tag:
 meta: "An interesting way of visually and ‘physically’ grouping multiple class attributes"
 ---
 
+**N.B. 2016-02-23** I no longer advise this technique—it proved far too
+problematic on teams where people we unfamiliar with the syntax. If you do wish
+to clearly delimit classes in your markup, perhaps opt for something a little
+less alien:
+
+    <div class="media  media--large
+                testimonial  testimonial--main"> 
+
+
 A few weeks back, [I put out a
 Tweet](https://twitter.com/csswizardry/status/439383832920604672) to [a
 jsFiddle](http://jsfiddle.net/csswizardry/m2qa9/) describing an idea I’d had in
