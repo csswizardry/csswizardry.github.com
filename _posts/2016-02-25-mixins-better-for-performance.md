@@ -13,7 +13,7 @@ When it comes to preprocessors, one of the most frequent questions I’m asked i
 about this topic, and I firmly believe you should avoid `@extend` for a number
 of reasons:
 
-1. It alters your source order, which is always risk in CSS.
+1. It alters your source order, which is always risky in CSS.
 2. It creates awkward groupings in your code, putting unrelated selectors
    together.
 3. It is very greedy, `@extend`ing every instance of a given subject, not just
