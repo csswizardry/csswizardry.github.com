@@ -131,10 +131,10 @@ I minified and gzipped the two files and got the results I expected:
 * `mixin.css` came in at **12K**.
 * `extend.css` came in at **18K**.
 * This gives a difference in filesize of **6K**.
-* **Using mixins was 150% smaller than using `@extend`.**
+* **Using mixins was 33.333% smaller than using `@extend`.**
 
 Amazing! We’ve gone from mixins being 1.5x larger than using `@extend`, to
-mixins being **1.5x smaller** than using `@extend`. My theory seems correct!
+mixins being **0.3x smaller** than using `@extend`. My theory seems correct!
 
 ## Making Things More Realistic
 
@@ -154,7 +154,7 @@ I compiled each new test file and these were the results:
 * `mixin.css` came in at **16K**.
 * `extend.css` came in at **22K**.
 * This gives a difference in filesize of **6K**.
-* **Using mixins was 137.5% smaller than using `@extend`.**
+* **Using mixins was 27% smaller than using `@extend`.**
 
 The absolute numbers seem trivial (a mere 6K), but in relative terms, we can
 achieve a 27% saving over the wire simply by opting to use mixins to repeat
