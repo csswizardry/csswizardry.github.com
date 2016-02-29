@@ -193,7 +193,7 @@ Here we have our logo; it could be BEMmed up like so:
     .header {}
     .header__logo {}
 
-But that is unecessary. The trick with BEM is knowing when something falls into
+But that is unnecessary. The trick with BEM is knowing when something falls into
 a relevant category. Just because something happens to live inside a block it
 doesn’t always mean is is actually a BEM element. In the case of our site logo 
 it lives in the `.header` purely coincidentally; it could just as easily be in
