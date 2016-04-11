@@ -25,6 +25,11 @@ with your team. If you would like to organise one of these then
     </li>
 
     <li>
+        <h3 class="list-ui__title">Workshop</h3>
+        <i class="sprite  sprite--at"></i> <a href="http://topconf.com/onedayevent/css-workshop/">Topconf</a>, Linz (Austria), May 2016
+    </li>
+
+    <li>
         <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--pl"></i> <a href="https://2016.front-trends.com/">Front-Trends</a>, Warsaw (Poland), May 2016
     </li>
