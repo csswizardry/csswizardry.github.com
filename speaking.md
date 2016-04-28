@@ -20,6 +20,11 @@ with your team. If you would like to organise one of these then
 <ol class="list-ui  mb++">
 
     <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--en"></i> <a href="https://heyst.ac/lectures/the-life-of-a-travelling-css-architect">Hey!Stac</a>, Leeds (England), April 2016
+    </li>
+
+    <li>
         <h3 class="list-ui__title">Workshop</h3>
         <i class="sprite  sprite--at"></i> <a href="http://topconf.com/onedayevent/css-workshop/">Topconf</a>, Linz (Austria), May 2016
     </li>
