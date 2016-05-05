@@ -3,7 +3,6 @@
 \*------------------------------------*/
 
 .client-list {
-    @extend %clearfix;
     margin:  0;
     padding: 0;
     list-style: none;
@@ -18,17 +17,6 @@
             padding: $spacing-unit;
         }
 
-        .client-list--detailed & {
-            display: list-item;
-            padding: 0;
-
-            @include media-query(lap-and-up) {
-                width: 33.333333333333333333%;
-                float: left;
-            }
-
-        }
-
     }
 
         .client-list__logo {
@@ -39,46 +27,4 @@
                 height: $spacing-unit--large;
             }
 
-            .client-list--detailed & {
-                background-color: $color-gray-light;
-                margin-bottom: $spacing-unit--small;
-            }
-
         }
-
-        .client-list__details {
-            @extend %clearfix;
-            border-bottom: 1px solid $color-gray-ui;
-            margin-bottom:  $spacing-unit--small;
-            padding-bottom: $spacing-unit--small;
-
-            @include media-query(lap-and-up) {
-              margin-bottom:  $spacing-unit;
-              padding-bottom: $spacing-unit;
-            }
-
-        }
-
-            .client-list__key,
-            .client-list__value {
-              float: left;
-            }
-
-            .client-list__key {
-              clear: left;
-
-              &:after {
-                content: ":\00a0";
-              }
-
-            }
-
-            .client-list__value {
-                margin-left: 0;
-            }
-
-.client-list--detailed {
-  text-align: left;
-  padding-top: $spacing-unit;
-  border-top: 1px solid $color-gray-ui;
-}
