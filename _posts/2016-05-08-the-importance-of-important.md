@@ -181,7 +181,7 @@ impossible) with functional CSS), e.g.:
 
 ```
 <blockquote class="o-media  c-testimonial">
-  <img class="o-media__img c-testimonnial__photo" ... />
+  <img class="o-media__img c-testimonial__photo" ... />
   <p class="o-media__body c-testimonial__text">...</p>
 </blockquote>
 ```
