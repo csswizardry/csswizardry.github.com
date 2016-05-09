@@ -173,10 +173,11 @@ If, instead, we’re taking a more modular and componentised approach to our CSS
 .c-btn--large {}
 ```
 
-They will have a scope (a Block, in [BEM](#???)), and will be well
-encapsulated. The beauty of classes like this is that we can easily spot
-relationships in our HTML (something that’s much harder (nigh on impossible)
-with functional CSS), e.g.:
+They will have a scope (a Block, in
+[BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)),
+and will be well encapsulated. The beauty of classes like this is that we can
+easily spot relationships in our HTML (something that’s much harder (nigh on
+impossible) with functional CSS), e.g.:
 
 ```
 <blockquote class="o-media  c-testimonial">
