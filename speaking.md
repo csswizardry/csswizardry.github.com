@@ -44,12 +44,10 @@ with your team. If you would like to organise one of these then
         <i class="sprite  sprite--ar"></i> <a href="http://cssconfar.com/">CSSconf Argentina</a>, Buenos Aires (Argentina), August 2016
     </li>
 
-  <!--
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--cz"></i> <a href="http://webexpo.net/prague2015/">WebExpo</a>, Prague (Czech Republic), September 2016
+        <i class="sprite  sprite--cz"></i> <a href="https://webexpo.net/prague2016/">WebExpo</a>, Prague (Czech Republic), September 2016
     </li>
-  -->
 
 </ol>
 
