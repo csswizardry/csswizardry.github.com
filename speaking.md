@@ -21,11 +21,6 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--pl"></i> <a href="https://2016.front-trends.com/">Front-Trends</a>, Warsaw (Poland), May 2016
-    </li>
-
-    <li>
-        <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--be"></i> <a href="http://frontendunited.org/">Front-end United</a>, Ghent (Belgium), May 2016
     </li>
 
@@ -59,6 +54,11 @@ with your team. If you would like to organise one of these then
 <h3>Previous events</h3>
 
 <ol class="list-ui  mb" reversed>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--pl"></i> <a href="https://2016.front-trends.com/">Front-Trends</a>, Warsaw (Poland), May 2016
+    </li>
 
     <li>
         <h3 class="list-ui__title">Workshop</h3>
