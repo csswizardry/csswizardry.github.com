@@ -15,11 +15,21 @@ work](mailto:csswizardry@gmail.com?subject=Let%E2%80%99s%20work%20together).
 <figure>
   <img src="/img/content/me.jpg" alt="">
   <figcaption>
-      On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
-      <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
-      <a href="https://twitter.com/stn1978">Stefan Nitzsche</a>.
+    On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
+    <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
+    <a href="https://twitter.com/stn1978">Stefan Nitzsche</a>.
   </figcaption>
 </figure>
+
+
+
+
+
+<ul class="c-nav-secondary  mt++" id="section:about">
+  <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link  is-current">About</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:contact" class="c-nav-secondary__link">Contact</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
+</ul>
 
 Named <b>Young Developer of the Year</b> (2014) by <cite>net</cite> magazine,
 I was previously a Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB),
@@ -29,8 +39,8 @@ architecting, writing, and scaling CSS for large sites, apps, and products in
 large-team environments.
 
 <blockquote class="pull-quote  pull-quote--context-alt">
-    <p>I’ve got a crush on Harry Roberts…</p>
-    <b class="pull-quote__source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
+  <p>I’ve got a crush on Harry Roberts…</p>
+  <b class="pull-quote__source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
 </blockquote>
 
 I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
@@ -57,7 +67,15 @@ shapes and sizes, all over the world:
 <a href="http://csswizardry.com/work/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
 
----
+
+
+
+
+<ul class="c-nav-secondary  mt++" id="section:contact">
+  <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link">About</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:contact" class="c-nav-secondary__link  is-current">Contact</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
+</ul>
 
 ## Contact
 
@@ -86,7 +104,15 @@ you tweeted at me, or sent me a follow-up email, to remind me to reply.
 
 </dl>
 
----
+
+
+
+
+<ul class="c-nav-secondary  mt++" id="section:colophon">
+  <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link">About</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:contact" class="c-nav-secondary__link">Contact</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link  is-current">Colophon</a></li>
+</ul>
 
 ## Colophon
 
@@ -123,7 +149,7 @@ I’m having to live with…
 
 ---
 
-## Interviews and podcasts
+## Interviews and Podcasts
 
 A selection of some of the podcasts and interviews I have been a part of, newest
 first.
