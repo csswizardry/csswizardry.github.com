@@ -9,15 +9,25 @@ permalink: /speaking/
 I speak about—and run workshops covering—big CSS, its architecture, and writing
 it in large teams on large products in a performant manner that scales. If you
 would like me to speak or run a workshop at one of your events, please
-<a href="mailto:csswizardry@gmail.com">drop me a line</a>.
+[read my speaker’s questions](#section:request) before getting in touch.
 
 I also run private workshops, where I come into your offices and get hacking
 with your team. If you would like to organise one of these then
-<a href="mailto:csswizardry@gmail.com">fire me an email</a>.
+[fire me an email](mailto:csswizardry@gmail.com).
 
-<h2>Upcoming events</h2>
 
-<ol class="list-ui  mb++">
+
+
+
+<ul class="c-nav-secondary  mt++" id="section:upcoming-events">
+  <li class="c-nav-secondary__item"><a href="#section:upcoming-events" class="c-nav-secondary__link  is-current">Upcoming</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:past-events" class="c-nav-secondary__link">Past</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link">Request</a></li>
+</ul>
+
+## Upcoming Events
+
+<ol class="list-ui">
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
@@ -51,7 +61,59 @@ with your team. If you would like to organise one of these then
 
 </ol>
 
-<h3>Previous events</h3>
+
+
+
+
+<ul class="c-nav-secondary  mt++" id="section:request">
+  <li class="c-nav-secondary__item"><a href="#section:upcoming-events" class="c-nav-secondary__link">Upcoming</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:past-events" class="c-nav-secondary__link">Past</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link  is-current">Request</a></li>
+</ul>
+
+## Request to Speak
+
+I would absolutely love to speak at your conference! However, I do just have a
+few questions to make the whole process a lot simpler and upfront for everyone
+involved. If you could [fire me an
+email](mailto:csswizardry@gmail.com?subject=Speaking%20Request)
+answering as many of the below as possible, I’d be really grateful. If you don’t
+have answers to everything just yet, please don’t worry—this is just a rough
+starting point, not a test. Please also remember that **there is no right or
+wrong answer** to any of these questions.
+
+* **When and where is your conference?** I once [travelled 12,000
+  miles](https://www.google.co.uk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#safe=off&q=distance+leeds+uk+to+wellington+nz)
+  to give a talk; I’m not afraid of a commute.
+* **How many attendees do you expect to have?** Rough figures or previous sizes
+  are perfectly fine.
+* **What kind of audience do you have?** It helps to know what the audience will
+  be like (e.g. mainly front-end developers, mainly designers, etc.).
+* **Which other speakers have you approached?** It helps to be aware of any
+  other speakers who run the risk of delivering similar talks.
+* **Do you cover speaker expenses?** Flights, hotels, train journeys, etc.
+* **Do you provide a plus-one ticket?** Is there a chance to bring someone along
+  who might also be interested in attending?
+* **What kind of talk would you like?** I usually give technical talks (CSS
+  architecture, performance, etc.), but am open to discussing other topics.
+* **Do you require a brand new talk?** Writing talks takes a lot of time and
+  effort: forewarned is forearmed.
+* **Do you plan to compensate speakers?** I usually charge a fee to speak,
+  however its value is open to discussion for indie and non-profit events.
+
+<a href="mailto:csswizardry@gmail.com?subject=Speaking%20Request" class="btn  btn--full">Sound okay? <strong>Get in touch!</strong></a>
+
+
+
+
+
+<ul class="c-nav-secondary  mt++" id="section:past-events">
+  <li class="c-nav-secondary__item"><a href="#section:upcoming-events" class="c-nav-secondary__link">Upcoming</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:past-events" class="c-nav-secondary__link  is-current">Past</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link">Request</a></li>
+</ul>
+
+## Past Events
 
 <ol class="list-ui  mb" reversed>
 
