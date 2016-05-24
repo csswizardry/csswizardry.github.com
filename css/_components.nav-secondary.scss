@@ -34,6 +34,7 @@
         background-color: $color-nav-secondary;
         text-decoration: none;
         cursor: default;
+        pointer-events: none;
       }
 
     }
