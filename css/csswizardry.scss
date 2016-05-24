@@ -50,6 +50,7 @@
  * Page-foot............Page footer styles.
  * Page-micro...........Page copyright styles.
  * Site-nav.............Site’s main nav area.
+ * Nav-secondary........Smaller, in-page nav.
  * Buttons..............Extension of inuitcss’ buttons.
  * Boxes................Extension of inuitcss’ box object
  * Post.................Post-specific styles.
@@ -189,6 +190,7 @@ $inuit-enable-list-ui--small:   true;
 @import "components.page-foot";
 @import "components.page-micro";
 @import "components.site-nav";
+@import "components.nav-secondary";
 @import "components.buttons";
 @import "components.boxes";
 @import "components.post";

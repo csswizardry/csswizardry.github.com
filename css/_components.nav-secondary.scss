@@ -1,0 +1,39 @@
+/*------------------------------------*\
+  #NAV-SECONDARY
+\*------------------------------------*/
+
+.c-nav-secondary {
+  margin-left: 0;
+  list-style: none;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  @include font-size(12px, 1.833333333);
+  border: 1px solid $color-nav-secondary;
+  border-radius: $base-round;
+}
+
+  .c-nav-secondary__item {
+    display: table-cell;
+
+    & + & {
+      border-left: 1px solid $color-nav-secondary;
+    }
+
+  }
+
+    .c-nav-secondary__link {
+      display: block;
+      padding-top:    $spacing-unit / 2;
+      padding-bottom: $spacing-unit / 2;
+      color: $color-nav-secondary-text;
+
+      &.is-current {
+        color: #fff;
+        background-color: $color-nav-secondary;
+        text-decoration: none;
+        cursor: default;
+      }
+
+    }
