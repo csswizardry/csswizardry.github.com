@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Speaking and workshops
+title: Speaking and Workshops
 page-class: page--speaking
 meta: "Harry Roberts’ past and upcoming speaking engagements"
 permalink: /speaking/
