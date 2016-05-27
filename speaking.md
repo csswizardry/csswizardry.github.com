@@ -31,7 +31,7 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--sc"></i> <a href="http://lanyrd.com/2016/scotlandcss/">ScotlandCSS</a>, Edinburgh (Scotland), June 2016
+        <i class="sprite  sprite--sc"></i> <a href="http://scotlandcss.com/">ScotlandCSS</a>, Edinburgh (Scotland), June 2016
     </li>
 
     <li>
