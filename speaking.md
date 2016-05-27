@@ -31,11 +31,6 @@ with your team. If you would like to organise one of these then
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
-        <i class="sprite  sprite--be"></i> <a href="http://frontendunited.org/">Front-end United</a>, Ghent (Belgium), May 2016
-    </li>
-
-    <li>
-        <h3 class="list-ui__title">Talk</h3>
         <i class="sprite  sprite--sc"></i> <a href="http://lanyrd.com/2016/scotlandcss/">ScotlandCSS</a>, Edinburgh (Scotland), June 2016
     </li>
 
@@ -116,6 +111,11 @@ wrong answer** to any of these questions.
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+    <li>
+        <h3 class="list-ui__title">Talk</h3>
+        <i class="sprite  sprite--be"></i> <a href="http://frontendunited.org/">Front-end United</a>, Ghent (Belgium), May 2016
+    </li>
 
     <li>
         <h3 class="list-ui__title">Talk</h3>
