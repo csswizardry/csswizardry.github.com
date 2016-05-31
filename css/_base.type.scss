@@ -65,6 +65,10 @@ pre {
     padding: $spacing-unit--small;
     background-color: $color-pre-background;
     border-radius: $base-round;
+    @include media-query(lap-and-up) {
+      margin-right: -$spacing-unit--small;
+      margin-left:  -$spacing-unit--small;
+    }
 
     &,
     code, kbd, samp {
