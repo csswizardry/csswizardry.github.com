@@ -173,7 +173,7 @@ This is how the Declarations Per Ruleset metric comes in handy.
 Selectors Per Rule: 1.4038461538461537
 ```
 
-Selectors per rule is pretty simple. The following CSS has one selector per
+Selectors Per Rule is pretty simple. The following CSS has one selector per
 rule:
 
 ```
