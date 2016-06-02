@@ -94,7 +94,7 @@ aware of when using Parker:
    it’s certainly something to be aware of.
 
 With these points in mind, please remember: Parker is not failsafe; it is not
-infallible and nor does it claim to be. Parker is best used as an rough guide; a
+infallible and nor does it claim to be. Parker is best used as a rough guide; a
 finger in the air. Parker’s job is just to present you with the numbers; it’s
 down to you to know what those numbers represent, and what they mean for your
 CSS.
