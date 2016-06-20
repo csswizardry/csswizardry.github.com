@@ -92,7 +92,8 @@ than being stressed out before a talk.
   way straight to the AV team. Return your mic and thank them for their help and
   support.
 * **Share your slides.** If the slides are only really of use the attendees who
-  are in the room, tweet a link to them to the conference’s Twitter account.
+  are in the room, tweet a link to them directly at the conference’s Twitter
+  @account.
   This means you don’t end up spamming the rest of your followers who aren’t
   present, and the conference can retweet the resources to the attendees.
 * **Thank everyone.** The AV team, volunteers, organisers, venue staff, and a
