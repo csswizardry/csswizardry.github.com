@@ -62,7 +62,8 @@ than being stressed out before a talk.
   possible, but try avoid standing awkwardly close to them whilst they’re
   talking about you.
 * **Thank the MC for their intro.** And shake their hand if appropriate. I find
-  this moment of human interaction just before being introduced puts me at ease.
+  this moment of human interaction just before beginning to speak puts me at
+  ease.
 * **Get out there and enjoy it.** If you’re the type to get nervous, there’s not
   much to be done about that; you’re gonna be nervous. Just get out there and do
   a great job. Have fun.
