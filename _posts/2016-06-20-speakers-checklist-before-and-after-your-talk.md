@@ -99,7 +99,7 @@ than being stressed out before a talk.
 * **Thank everyone.** The AV team, volunteers, organisers, venue staff, and a
   whole lot of other people are jointly responsible for your presence and
   success on stage; take the time to thank them for looking after you. As you
-  leave the venue, smile at and thank as many venue staff as you pass them:
+  leave the venue, smile at and thank as many venue staff as you see:
   their work tidying up etc. isn’t over yet.
 * **Go to the afterparty.** If there’s an afterparty, even if you don’t feel up
   to it, turn up for at least one drink. Show your face, answer any questions
