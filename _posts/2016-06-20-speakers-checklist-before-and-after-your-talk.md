@@ -8,8 +8,8 @@ meta: "Giving talks is stressful. Follow these tips to make the logistics of it 
 
 I’ve been [speaking](/speaking) at conferences for just over four years now, and
 have spoken at 14 in the past five months alone. It helps me (and indeed anyone)
-to have a pretty regimented checklist of things to do before after your talk in
-order to help things run as smoothly as possible.
+to have a pretty regimented checklist of things to do before and after your talk
+in order to help things run as smoothly as possible.
 
 This post isn’t intended to help you research, write, prepare, or deliver a talk
 well—that’s an entire series of blog posts in itself—but it should help you to
