@@ -44,7 +44,7 @@ than being stressed out before a talk.
   yourself.
 * **Remove your lanyard.** Don’t wear your lanyard on-stage. It’s distracting,
   will likely look bad in photos, will get in your way, and can cause annoying
-  noises if you’re waring certain types of microphone.
+  noises if you’re wearing certain types of microphone.
 * **Turn off your speakers.** Unless you need audio for your talk, mute your
   machine completely.
 * **Turn off your wifi.** Unless you need it for your talk, turn it off. You
