@@ -3,7 +3,7 @@ layout: post
 title: "Speaker’s Checklist: Before and After Your Talk"
 date: 2016-06-20 19:59:10
 categories: Web Development
-meta: "A useful list of things to do before, buring, and after your talk."
+meta: "Giving talks is stressful. Follow these tips to make the logistics of it a little simpler."
 ---
 
 I’ve been [speaking](/speaking) at conferences for just over four years now, and
