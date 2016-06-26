@@ -31,12 +31,13 @@ work](mailto:csswizardry@gmail.com?subject=Let%E2%80%99s%20work%20together).
   <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
 </ul>
 
-Named <b>Young Developer of the Year</b> (2014) by <cite>net</cite> magazine,
-I was previously a Senior Developer at [BSkyB](http://en.wikipedia.org/wiki/BSkyB),
-and have consulted with clients including <b>Google</b>, the <b>BBC</b>, the
-<b>NHS</b>, <b>Booking.com</b>, and the <b>Financial Times</b>. I specialise in
-architecting, writing, and scaling CSS for large sites, apps, and products in
-large-team environments.
+A <b>Google Developer Expert</b>, and named <b>Young Developer of the Year</b>
+(2014) by <cite>net</cite> magazine, I was previously a Senior Developer at
+[BSkyB](http://en.wikipedia.org/wiki/BSkyB). I have consulted internationally
+with clients including the <b>United Nations</b>, the <b>BBC</b>, the
+<b>NHS</b>, <b>Google</b>, and the <b>Financial Times</b>. I specialise in CSS
+architecture and front-end performance for large and long-running sites and
+applications.
 
 <blockquote class="pull-quote  pull-quote--context-alt">
   <p>I’ve got a crush on Harry Roberts…</p>
