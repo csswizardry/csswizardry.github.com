@@ -113,6 +113,8 @@ wrong answer** to any of these questions.
   be like (e.g. mainly front-end developers, mainly designers, etc.).
 * **Which other speakers have you approached?** It helps to be aware of any
   other speakers who run the risk of delivering similar talks.
+* **How long does the talk need to be?** Do you have a set talk duration? 45
+  minutes is usually ideal.
 * **Do you cover speaker expenses?** Flights, hotels, train journeys, etc.
 * **Do you provide a plus-one ticket?** Is there a chance to bring someone along
   who might also be interested in attending?
