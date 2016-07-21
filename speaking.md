@@ -60,7 +60,7 @@ with your team. If you would like to organise one of these then
   </li>
 
   <li>
-    <h3 class="list-ui__title">Talk</h3>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <i class="sprite  sprite--de"></i> <a href="https://beyondtellerrand.com/events/berlin-2016">Beyond Tellerrand</a>, Berlin (Germany), November 2016
   </li>
 
