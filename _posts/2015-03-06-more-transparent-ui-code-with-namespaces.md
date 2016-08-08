@@ -966,13 +966,13 @@ So, what can we learn from this:
 
           <p class="o-layout">
             <span class="o-layout__item  u-1/3">
-              <a href="c-btn  c-btn--negative  qa-modal-dismiss">Cancel</a>
+              <a href="" class="c-btn  c-btn--negative  qa-modal-dismiss">Cancel</a>
             </span>
 
             <span class="u-hidden">or</span>
 
             <span class="o-layout__item  u-2/3">
-              <a href="c-btn  c-btn--positive  qa-modal-accept">Confirm</a>
+              <a href="" class="c-btn  c-btn--positive  qa-modal-accept">Confirm</a>
             </span>
           </p>
 
@@ -1031,13 +1031,13 @@ Contrast that with the following:
 
           <p class="layout">
             <span class="layout__item  1/3">
-              <a href="btn  btn--negative">Cancel</a>
+              <a href="" class="btn  btn--negative">Cancel</a>
             </span>
 
             <span class="hidden">or</span>
 
             <span class="layout__item  2/3">
-              <a href="btn  btn--positive">Confirm</a>
+              <a href="" class="btn  btn--positive">Confirm</a>
             </span>
           </p>
 
