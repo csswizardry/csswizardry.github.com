@@ -29,8 +29,8 @@ might have cross-browser issues, its responsiveness may have been bolted on as
 an afterthought, and of course it is probably used extensively and frequently.
 As a result, you might get a lot of value from tackling that first.
 
-**Have a clear idea of which parts of your project should be refactored first, if
-at all.**
+**Have a clear idea of which parts of your project should be refactored, if at
+all.**
 
 **Tip:** Try to limit refactoring work to the scope of single features. It’s
 much safer to refactor a single feature than it is to refactor your entire
@@ -72,8 +72,7 @@ legacy fix away from greenfield CSS, meaning it will be much easier to remove
 once we’ve refactored whatever legacy was causing the problem in the first
 place.
 
-**Move your refactored feature back in to the project and tidy things up at this
-point.**
+**Move the refactored feature back into the project and tidy things up here.**
 
 - - -
 
