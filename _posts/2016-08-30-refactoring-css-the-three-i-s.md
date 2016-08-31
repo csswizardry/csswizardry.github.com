@@ -54,7 +54,7 @@ Normalize.css in future—we don’t want to build our brand new layout system o
 top of a reset that will be removed in six months time.
 
 **Build the new/refactored version of your feature in complete isolation so that
-you know it is well encapsulated, and it’s making use of any legacy.**
+you know it is well encapsulated, and it’s not making use of any legacy.**
 
 ## Implement
 
