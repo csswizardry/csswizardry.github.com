@@ -67,7 +67,8 @@ We tackle these details at implementation stage, and we need to give careful
 consideration as to where we place the fixes. If the fix solves a problem with
 the layout system itself, it is usually best to place the fix in the layout
 system’s partial. If the fix addresses problems arising from conflicts with
-legacy code, it is often best to place it in a Shame.css file. This keeps the
+legacy code, it is often best to place it in a
+[shame.css](http://csswizardry.com/2013/04/shame-css/) file. This keeps the
 legacy fix away from greenfield CSS, meaning it will be much easier to remove
 once we’ve refactored whatever legacy was causing the problem in the first
 place.
