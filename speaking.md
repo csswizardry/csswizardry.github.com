@@ -52,7 +52,7 @@ with your team. If you would like to organise one of these then
   </li>
 
   <li>
-    <h3 class="list-ui__title">Talk</h3>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <i class="sprite  sprite--en"></i> <a href="http://frontendnorth.com/">FrontEndNorth</a>, Sheffield (England), September 2016
   </li>
 
@@ -83,7 +83,7 @@ with your team. If you would like to organise one of these then
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--us"></i> <a href="http://lanyrd.com/2017/smashingconf-barcelona/">SmashingConf</a>, New York (US), June 2017
+    <i class="sprite  sprite--us"></i> <a href="http://lanyrd.com/2017/smashingconf-new-york/">SmashingConf</a>, New York (US), June 2017
   </li>
 
   <li>
