@@ -39,6 +39,13 @@ with your team. If you would like to organise one of these then
     <i class="sprite  sprite--en"></i> <a href="https://mkgeeknight.co.uk/">MK Geek Night</a>, Milton Keynes (England), September 2016
   </li>
 
+  <!--
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <a href="#">Shopify Webinar</a>, Remote/Online, September 2016
+  </li>
+  -->
+
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--cz"></i> <a href="https://webexpo.net/prague2016/">WebExpo</a>, Prague (Czech Republic), September 2016
@@ -55,16 +62,24 @@ with your team. If you would like to organise one of these then
   </li>
 
   <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--pl"></i> <a href="http://code4life.pl/">Code4Life</a>, Warsaw (Poland), October 2016
+  </li>
+
+  <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <i class="sprite  sprite--de"></i> <a href="https://beyondtellerrand.com/events/berlin-2016">Beyond Tellerrand</a>, Berlin (Germany), November 2016
   </li>
 
-  <!--
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <i class="sprite  sprite--ee"></i> <a href="http://topconf.com/tallinn-2016/">Topconf</a>, Tallinn (Estonia), November 2016
+  </li>
+
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--in"></i> <a href="http://www.generateconf.com/">Generate</a>, Bangalore (India), December 2016
+    <i class="sprite  sprite--in"></i> <a href="http://www.generateconf.com/bangalore-2016/">Generate</a>, Bangalore (India), December 2016
   </li>
-  -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
