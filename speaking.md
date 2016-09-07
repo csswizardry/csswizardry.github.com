@@ -34,12 +34,10 @@ with your team. If you would like to organise one of these then
     <i class="sprite  sprite--en"></i> <a href="https://mkgeeknight.co.uk/">MK Geek Night</a>, Milton Keynes (England), September 2016
   </li>
 
-  <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <a href="#">Shopify Webinar</a>, Remote/Online, September 2016
   </li>
-  -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
