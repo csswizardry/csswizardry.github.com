@@ -30,11 +30,6 @@ with your team. If you would like to organise one of these then
 <ol class="list-ui">
 
   <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--cz"></i> <a href="https://webexpo.net/prague2016/">WebExpo</a>, Prague (Czech Republic), September 2016
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <i class="sprite  sprite--en"></i> <a href="http://frontendnorth.com/">FrontEndNorth</a>, Sheffield (England), September 2016
   </li>
@@ -133,6 +128,11 @@ wrong answer** to any of these questions.
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--cz"></i> <a href="https://webexpo.net/prague2016/">WebExpo</a>, Prague (Czech Republic), September 2016
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
