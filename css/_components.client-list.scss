@@ -2,6 +2,14 @@
     #CLIENT-LIST
 \*------------------------------------*/
 
+.client-list-title {
+  text-align: center;
+  @include font-size(16px);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #555;
+}
+
 .client-list {
     margin:  0;
     padding: 0;
