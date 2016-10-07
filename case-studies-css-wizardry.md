@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS Wizardry – MVP design and development
+title: CSS Wizardry – MVP Design and Development
 meta: "Redesigning and redeveloping my own website to serve a new purpose over a long weekend"
 permalink: /case-studies/css-wizardry/
 next-case-study-title: "How I helped the <cite>Financial Times</cite> with their CSS architecture."

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NHS – NHSx eLearning platform
+title: NHS – NHSx eLearning Platform
 meta: "Working in intense sprints to help build an eLearning platform for the NHS"
 permalink: /case-studies/nhs-nhsx-elearning-platform/
 next-case-study-title: "An intense week of workshop and hack days in Copenahgen."
