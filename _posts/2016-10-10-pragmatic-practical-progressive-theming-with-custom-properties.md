@@ -78,8 +78,8 @@ CSS variables, more correctly known as custom properties, are…
 
 > a family of custom author-defined properties known collectively as custom
 > properties, which allow an author to assign arbitrary values to a property
-> with an author-chosen name, and the `var()` function, which allow an author to
-> then use those values in other properties elsewhere in the document.
+> with an author-chosen name, and the `var()` function, which allow [sic] an
+> author to then use those values in other properties elsewhere in the document.
 
 We’ve had variables in preprocessors for quite some time, but they have their
 own drawbacks. For one, they compile down to static CSS, so they don’t ever
