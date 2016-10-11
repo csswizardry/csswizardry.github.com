@@ -64,7 +64,7 @@ colour customisation
   <figcaption><a href="/wp-content/uploads/2016/10/screenshot-theming-twitter-full.png">View full size/quality (401KB).</a></figcaption>
 </figure>
 
-By using CSS’ custom proprties and `@supports`, we can create a themeable UI
+By using CSS’ custom properties and `@supports`, we can create a themeable UI
 without having to compile multiple stylesheets, without having to generate new
 CSS on the fly, and whilst also allowing users of non-supportive browsers to
 have a completely usable website. We’ll be adopting a healthy dose of
@@ -257,7 +257,7 @@ don’t support custom properties as simply as this:
 }
 ```
 
-However, I’d argue that if we’re got a defitne fork in our code (e.g. if you
+However, I’d argue that if we’re got a definite fork in our code (e.g. if you
 support <var>x</var>, do this, otherwise, do this) it is more complete,
 explicit, and proper, to hide the relevant bits of new CSS behind a feature
 query. Rather than making use of the (admittedly specced) behaviour of error
@@ -291,7 +291,7 @@ so would have only served to obscure the point I was trying to make.
 
 If you wish to implement something like this, please feel free to introduce the
 preprocessor layer yourself—it is outside of the scope of this article, which
-exists to prove a concept, and not to be a production-ready soluton. Optimise
+exists to prove a concept, and not to be a production-ready solution. Optimise
 for your use case and make changes and improvements as necessary.
 
 ## Final Word
