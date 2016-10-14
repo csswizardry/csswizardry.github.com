@@ -30,11 +30,6 @@ with your team. If you would like to organise one of these then
 <ol class="list-ui">
 
   <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--pl"></i> <a href="http://code4life.pl/">Code4Life</a>, Warsaw (Poland), October 2016
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <i class="sprite  sprite--de"></i> <a href="https://beyondtellerrand.com/events/berlin-2016">Beyond Tellerrand</a>, Berlin (Germany), November 2016
   </li>
@@ -118,6 +113,11 @@ wrong answer** to any of these questions.
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--pl"></i> <a href="http://code4life.pl/">Code4Life</a>, Warsaw (Poland), October 2016
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
