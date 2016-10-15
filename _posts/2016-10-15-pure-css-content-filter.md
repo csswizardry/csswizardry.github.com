@@ -300,8 +300,11 @@ There are a few drawbacks to this technique. In no particular order:
   mean that we can link people directly to filtered results.
 * Accessibility. Honestly, I’m not sure how good or bad this is for
   accessibility. I have no doubt that there will be some improvements we could
-  make.
+  make. At least it isn’t using the checkbox hack, eh?
 * Should I have done this at all? It feels like it’s blurring the lines between
   what CSS should be doing, and what we should defer to JavaScript.
 * Ugly CSS. Nested selectors, substring selectors, heavily location dependent.
   It’s not the best, is it?
+
+Still, it’s been quite a long time since I played around with CSS like this. and
+it was a lot of fun. I need to make sure I do things like this more often.
