@@ -40,8 +40,8 @@ with your team. If you would like to organise one of these then
   </li>
 
   <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--in"></i> <a href="http://www.generateconf.com/bangalore-2016/">Generate</a>, Bangalore (India), December 2016
+    <h3 class="list-ui__title">Workshop</h3>
+    <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/training/advanced-css-architecture">White October Events</a>, London (England), November 2016
   </li>
 
   <li>
