@@ -268,7 +268,7 @@ I had to nest the last bit of the selector.
 
 ### Awkward Page Jumps
 
-There was another problem I was having that I managed to sovle pretty
+There was another problem I was having that I managed to solve pretty
 painlessly. Because we’re linking to fragment identifiers, the page would
 awkwardly jump around if the content was long enough to cause the page to
 scroll. The solution was a one-line fix.
@@ -276,7 +276,7 @@ scroll. The solution was a one-line fix.
 Because we’re linking to empty anchor elements, they’re not actually visible at
 all in the page (but they do still exist at a point in the DOM, which is why we
 have the page jumps). By simply applying `position: fixed;` to all of the
-anchors, they will always be positioned at the very top–left of the viewport.
+anchors, they will always be positioned at the very top-left of the viewport.
 The practical upshot of this is that the anchors will always be exactly where
 the user has scrolled to, so the page didn’t actually have to jump anywhere.
 
