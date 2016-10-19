@@ -13,9 +13,9 @@ questions to my mind. This post isn’t a direct rebuttal or criticism of Shaun�
 article, but rather my own take on things in the form of a response.
 
 In Shaun’s article, the argument is made that normalising CSS (specifically via
-Normalize.css, but presumably the argument extends to anything of its ilk, like
-a more traditional reset) goes against the philosophy that [websites do not need
-to look the same in every
+[Normalize.css](http://necolas.github.io/normalize.css/), but presumably the
+argument extends to anything of its ilk, like a more traditional reset) goes
+against the philosophy that [websites do not need to look the same in every
 browser](http://dowebsitesneedtolookexactlythesameineverybrowser.com/): a stance
 we fought very very hard to achieve. Whilst I absolutely agree that websites do
 not need to look the same in every browser—doing so is very time consuming,
