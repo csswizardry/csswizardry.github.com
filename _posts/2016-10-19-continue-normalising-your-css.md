@@ -7,7 +7,7 @@ meta: "Why we should still be using Normalize.css"
 ---
 
 Shaun Rashid’s 2015 article [<cite>Normalize (CSS) No
-More.</cite>](http://shaunrashid.com/2015/09/15/normalize-css-no-more/) has been
+More</cite>](http://shaunrashid.com/2015/09/15/normalize-css-no-more/) has been
 making its way round the Twittersphere again recently, and it’s brought a few
 questions to my mind. This post isn’t a direct rebuttal or criticism of Shaun’s
 article, but rather my own take on things in the form of a response.
