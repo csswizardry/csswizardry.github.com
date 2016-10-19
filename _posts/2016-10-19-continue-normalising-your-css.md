@@ -44,8 +44,12 @@ Normalize.css](http://nicolasgallagher.com/about-normalize-css/):
 > browser styles.
 
 So please, do keep using Normalize.css. It makes your life easier, and with an
-absolute minimal overhead (v5.0.0 is a mere 984 bytes after gzip). Or, at the
-very least, try not to dismiss it based on an incorrect understanding.
+absolute minimal overhead: v5.0.0 is a mere 984 bytes after gzip. For context,
+that represents [less than 1.3% of the average CSS
+project](http://httparchive.org/interesting.php#bytesperpage).
+
+Or, at the very least, try not to dismiss it based on an incorrect
+understanding.
 
 <figure>
   <img src="/wp-content/uploads/2016/10/screenshot-normalize-filesize.png"
