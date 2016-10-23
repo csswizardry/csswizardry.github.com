@@ -141,3 +141,7 @@ The next level down from this would be just taking the average colour of the
 image and applying that as a `background-color`. There’s no need for gradients
 and multiple backgrounds with that, but it does still require per-image
 intervention.
+
+However, I’m actually really happy with this as a way to provide something a
+little more substantial to users on poor network conditions. If your site has
+similar static images, I’d recommend experimenting with this technique yourself.
