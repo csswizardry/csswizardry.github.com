@@ -60,7 +60,7 @@ to apply this as a `background-image` on the image itself, only: oh no! This
 image already _is_ a background image. Not to worry, we’ve been able to define
 multiple backgrounds on the same element [since
 IE9](http://caniuse.com/#feat=multibackgrounds). We can define the actual image
-and its gradient approximation in one go.
+and its gradient approximation in one go, in one declaration.
 
 This means that, if the browser has the CSS,
 
@@ -70,10 +70,6 @@ This means that, if the browser has the CSS,
 
 Read more about [multiple backgrounds on
 MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds).
-
-```
-url(/img/css/masthead-large.jpg), linear-gradient(to right, #807363 0%, #251d16 50%, #3f302b 75%, #100b09 100%)
-```
 
 ## Making the Approximation
 
