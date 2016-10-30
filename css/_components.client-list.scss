@@ -7,7 +7,8 @@
   @include font-size(16px);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #555;
+  color: #fcc1ce;
+  -webkit-font-smoothing: auto;
 }
 
 .client-list {
@@ -28,8 +29,13 @@
     }
 
         .client-list__logo {
-            background-color: #555;
+            background-color: lighten($color-brand, 30%);
             height: $spacing-unit;
+            transition: 0.2s;
+
+            &:hover {
+              background-color: #f9f9f9;
+            }
 
             @include media-query(lap-and-up) {
                 height: $spacing-unit--large;
