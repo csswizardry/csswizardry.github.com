@@ -15,11 +15,6 @@
 
 }
 
-/**
- * This is a bit of a magic number; a wrapper this wide will allow us to ‘hang’
- * one icon out of the rest of the page’s ‘grid’. It is used primarily on the
- * home page promo boxes.
- */
 .wrapper--wide {
-    max-width: 1276px;
+    max-width: 1280px;
 }
