@@ -4,6 +4,7 @@
 
 .promo {
     padding-bottom: 0;
+    text-align: center;
 
     @include media-query(desk) {
         padding-bottom: $spacing-unit;
