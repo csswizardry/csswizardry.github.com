@@ -5,13 +5,20 @@
 // Internal variables.
 $logo-height:   64px;
 
-.site-nav {
-    @extend %clearfix;
-    @include font-size(12px);
+@mixin triggers() {
+  @include font-size(12px);
+  font-family: sans-serif;
+  text-transform: uppercase;
 
-    @include media-query(lap-and-up) {
-        @include font-size(16px);
-    }
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+}
+
+.site-nav {
+  @extend %clearfix;
 
     /**
      * If the site nav exists in a masthead, we absolutely position it. We have
@@ -35,9 +42,28 @@ $logo-height:   64px;
 
 }
 
-    .site-nav__home {
+    .site-nav__home-logo {
         display: block;
         float: left;
+    }
+
+    .site-nav__trigger {
+      @include triggers();
+      float: right;
+      line-height: $logo-height;
+
+      &:before {
+        content: "☰ ";
+      }
+
+      .page--home & {
+        color: #fff;
+      }
+
+      @include media-query(lap-and-up) {
+        display: none;
+      }
+
     }
 
         .site-nav__logo {
@@ -53,6 +79,10 @@ $logo-height:   64px;
 
             }
 
+    .site-nav__target {
+      position: fixed;
+    }
+
     /**
      * On smaller viewports, the nav is a 2x2 grid of links that lies perfectly
      * fluch with the top and bottom of the home link. On larger viewports, the
@@ -60,29 +90,49 @@ $logo-height:   64px;
      * way over to the right.
      */
     .site-nav__list {
-        margin:  0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden;
+      position: fixed;
+      top:    6px;
+      right:  0;
+      bottom: 0;
+      left:   0;
+      z-index: 1;
+      transform: translatex(100%);
+      transition: 0.2s;
+      will-change: transform;
+      background-color: $color-gray;
+      margin:  0;
+      padding: 0;
+      list-style: none;
 
-        @include media-query(lap-and-up) {
-            float: right;
-            overflow: visible;
-        }
+      .site-nav__target:target + & {
+        transform: none;
+      }
+
+      @include media-query(lap-and-up) {
+        position: relative;
+        top:    auto;
+        right:  auto;
+        bottom: auto;
+        left:   auto;
+        float: right;
+        background-color: transparent;
+        overflow: visible;
+        transform: none;
+      }
 
     }
 
         .site-nav__item {
-          float: left;
-          width: 50%;
+          border-bottom: 1px solid $color-gray-ui;
+
+          &:last-child {
+            border-bottom: none;
+          }
 
           @include media-query(lap-and-up) {
-            width: auto;
             position: relative;
-
-            &:last-child .site-nav__link {
-              padding-right: 0;
-            }
+            border-bottom: none;
+            float: left;
 
             .site-nav__submenu & {
               float: none;
@@ -96,9 +146,30 @@ $logo-height:   64px;
 
         }
 
+        .site-nav__item--close {
+
+            @include media-query(lap-and-up) {
+              display: none;
+            }
+
+          }
+
+          .site-nav__close {
+            @include triggers();
+            text-align: right;
+
+            &:after {
+              content: " ×";
+              font-size: 18px;
+              line-height: 12px;
+            }
+
+          }
+
           .site-nav__submenu {
             list-style: none;
             margin-left: 0;
+            padding-left: $spacing-unit;
 
             @include media-query(lap-and-up) {
               position: absolute;
@@ -106,6 +177,7 @@ $logo-height:   64px;
               left: 50%;
               transform: translateX(-50%);
               z-index: 1;
+              padding-left: 0;
               text-align: center;
               white-space: nowrap;
               background-color: #fff;
@@ -148,10 +220,8 @@ $logo-height:   64px;
 
           .site-nav__link {
             display: block;
-            padding-right: 12px;
-            padding-left:  12px;
-            line-height: halve($logo-height);
-            color: $color-site-nav;
+            padding: $spacing-unit--small;
+            color: #fff;
 
             @include attention() {
               text-decoration: none;
@@ -160,6 +230,9 @@ $logo-height:   64px;
 
             @include media-query(lap-and-up) {
               line-height: $logo-height;
+              color: $color-gray;
+              padding-top: 0;
+              padding-bottom: 0;
             }
 
             .page-head--masthead & {
@@ -232,16 +305,20 @@ $logo-height:   64px;
             }
 
             .site-nav__sub-link {
+              display: block;
+              padding: $spacing-unit--small;
+              color: #fff;
+
+              @include attention() {
+                text-decoration: none;
+              }
 
               @include media-query(lap-and-up) {
                 @include font-weight('regular');
-                color: #333;
-                display: block;
-                padding: $spacing-unit--small;
+                color: $color-gray;
 
                 @include attention() {
                   color: $color-submenu-link-hover;
-                  text-decoration: none;
                 }
 
               }

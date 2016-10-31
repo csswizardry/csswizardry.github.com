@@ -1,15 +1,18 @@
 <nav class="site-nav">
 
-    <a href="{{ site.baseurl }}/" class="site-nav__home">
+    <a href="{{ site.baseurl }}/" class="site-nav__home-logo">
         <svg class="site-nav__logo" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><path d="M.234 44.003v-41.002c0-1.664 1.344-3.001 3.001-3.001h57.998c1.664 0 3.001 1.344 3.001 3.001v39.536c-1.803-1.102-3.911-1.653-6.324-1.653-3.356 0-5.9.788-7.632 2.363-1.732 1.576-2.598 3.554-2.598 5.936 0 2.61.896 4.528 2.688 5.755 1.058.734 2.971 1.413 5.737 2.039l2.814.631c1.648.361 2.857.776 3.626 1.245.77.481 1.155 1.161 1.155 2.039 0 1.503-.776 2.532-2.327 3.085l-.063.022-.078.001h-5.853c-.773-.274-1.385-.684-1.836-1.232-.493-.601-.824-1.509-.992-2.724h-5.304c0 1.491.288 2.809.864 3.956h-4.483c.524-1.058.786-2.232.786-3.523 0-2.369-.794-4.18-2.381-5.43-1.022-.806-2.538-1.449-4.546-1.93l-4.583-1.101c-1.768-.421-2.923-.788-3.464-1.101-.842-.469-1.263-1.179-1.263-2.129 0-1.034.427-1.84 1.281-2.418.854-.577 1.997-.866 3.428-.866 1.287 0 2.363.223 3.229.668 1.299.674 1.997 1.81 2.093 3.41h5.34c-.096-2.827-1.134-4.982-3.112-6.468-1.979-1.485-4.369-2.228-7.172-2.228-3.356 0-5.9.788-7.632 2.363-1.732 1.576-2.598 3.554-2.598 5.936 0 2.61.896 4.528 2.688 5.755 1.058.734 2.971 1.413 5.737 2.039l2.814.631c1.648.361 2.857.776 3.626 1.245.77.481 1.155 1.161 1.155 2.039 0 1.503-.776 2.532-2.327 3.085l-.066.023h-5.928c-.773-.274-1.385-.684-1.836-1.232-.493-.601-.824-1.509-.992-2.724h-5.304c0 1.491.288 2.809.864 3.956h-5.604c.887-1.39 1.481-2.991 1.781-4.804h-5.503c-.373 1.371-.842 2.4-1.407 3.085-.697.869-1.609 1.442-2.736 1.719h-3.314c-1.201-.309-2.236-.987-3.106-2.034-1.233-1.485-1.849-3.72-1.849-6.702 0-2.983.583-5.289 1.75-6.919s2.76-2.445 4.781-2.445c1.985 0 3.482.577 4.492 1.732.565.649 1.028 1.612 1.389 2.887h5.557c-.084-1.66-.698-3.314-1.84-4.961-2.069-2.935-5.34-4.402-9.815-4.402-3.114 0-5.717.949-7.809 2.848zm64 9.742v-4.165h-1.381c-.096-1.6-.794-2.736-2.093-3.41-.866-.445-1.942-.668-3.229-.668-1.431 0-2.574.289-3.428.866-.854.577-1.281 1.383-1.281 2.418 0 .95.421 1.66 1.263 2.129.541.313 1.696.68 3.464 1.101l4.583 1.101c.774.185 1.475.395 2.103.629z" fill="#f43059" class="site-nav__logo-fill"/></svg>
     </a>
 
+    <a href="#trigger:nav" class="site-nav__trigger">Menu</a>
+    <a class="site-nav__target" id="trigger:nav"></a>
+
     <ul class="site-nav__list">
+        <li class="site-nav__item  site-nav__item--close"><a href="#0" class="site-nav__link site-nav__close">Close</a></li>
         <li class="site-nav__item"><a href="/" class="site-nav__link site-nav__home">Home</a></li>
         <li class="site-nav__item"><a href="/about/" class="site-nav__link  site-nav__about">About</a></li>
         <li class="site-nav__item"><a href="/case-studies/" class="site-nav__link  site-nav__case-studies">Case Studies</a></li>
-        <li class="site-nav__item">
-          <a href="/services/" class="site-nav__link  site-nav__services">Services</a>
+        <li class="site-nav__item"> <a href="/services/" class="site-nav__link  site-nav__services">Services</a>
           <ul class="site-nav__submenu">
             <li class="site-nav__item"><a href="/workshops-training/" class="site-nav__sub-link  site-nav__workshops">Workshops & Training</a></li>
             <li class="site-nav__item"><a href="/consultancy/" class="site-nav__sub-link  site-nav__consultancy">Consultancy</a></li>
