@@ -73,49 +73,108 @@ $logo-height:   64px;
     }
 
         .site-nav__item {
-            float: left;
-            width: 50%;
+          float: left;
+          width: 50%;
 
-            @include media-query(lap-and-up) {
-                width: auto;
+          @include media-query(lap-and-up) {
+            width: auto;
+            position: relative;
 
-                &:last-child a {
-                    padding-right: 0;
-                }
-
+            &:last-child .site-nav__link {
+              padding-right: 0;
             }
+
+            .site-nav__submenu & {
+              float: none;
+            }
+
+            .site-nav__submenu & + & {
+              border-top: 1px solid $color-submenu-border;
+            }
+
+          }
 
         }
 
-            .site-nav__link {
-                display: block;
-                padding-right: 12px;
-                padding-left:  12px;
-                line-height: halve($logo-height);
-                color: $color-site-nav;
+          .site-nav__submenu {
+            list-style: none;
+            margin-left: 0;
+
+            @include media-query(lap-and-up) {
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              transform: translateX(-50%);
+              z-index: 1;
+              text-align: center;
+              white-space: nowrap;
+              background-color: #fff;
+              border-radius: $brand-round;
+              border: 1px solid $color-submenu-border;
+              box-shadow: $brand-round $brand-round 0 rgba(0, 0, 0, 0.1);
+              visibility: hidden;
+              opacity: 0;
+              transition: 0.333s;
+
+              .site-nav__item:hover & {
+                opacity: 1;
+                visibility: visible;
+                will-change: opacity;
+              }
+
+              &:before,
+              &:after {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+              }
+
+              &:before {
+                border: 12px solid transparent;
+                border-bottom-color: $color-submenu-border;
+                margin-left: -12px;
+              }
+
+              &:after {
+                border: 11px solid transparent;
+                border-bottom-color: #fff;
+                margin-left: -11px;
+              }
+
+            }
+
+          }
+
+          .site-nav__link {
+            display: block;
+            padding-right: 12px;
+            padding-left:  12px;
+            line-height: halve($logo-height);
+            color: $color-site-nav;
+
+            @include attention() {
+              text-decoration: none;
+              color: $color-links;
+            }
+
+            @include media-query(lap-and-up) {
+              line-height: $logo-height;
+            }
+
+            .page-head--masthead & {
+
+              @include attention(self) {
+                color: $color-masthead;
+                }
 
                 @include attention() {
-                    text-decoration: none;
-                    color: $color-links;
-                }
-
-                @include media-query(lap-and-up) {
-                    line-height: $logo-height;
-                }
-
-                .page-head--masthead & {
-
-                    @include attention(self) {
-                        color: $color-masthead;
-                    }
-
-                    @include attention() {
-                        text-decoration: underline;
-                    }
-
+                  text-decoration: underline;
                 }
 
             }
+
+          }
 
             /**
              * The current state for the nav (in large-screen view) is a notched
@@ -160,10 +219,31 @@ $logo-height:   64px;
 
             }
 
-            @each $page in about, speaking, case-studies, hire-me {
+            @each $page in about, case-studies, services, workshops, code-reviews, speaking, contact, hire-me {
 
                 .page--#{$page} .site-nav__#{$page} {
                     @extend %site-nav__current;
                 }
+
+            }
+
+            .page--home .site-nav__home {
+              text-decoration: underline;
+            }
+
+            .site-nav__sub-link {
+
+              @include media-query(lap-and-up) {
+                @include font-weight('regular');
+                color: #333;
+                display: block;
+                padding: $spacing-unit--small;
+
+                @include attention() {
+                  color: $color-submenu-link-hover;
+                  text-decoration: none;
+                }
+
+              }
 
             }
