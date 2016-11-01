@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Workshops and Training
-page-class: page--workshops
+page-class: page--services  page--workshops
 meta: "Workshops and training events for clients"
 permalink: /workshops/
 ---

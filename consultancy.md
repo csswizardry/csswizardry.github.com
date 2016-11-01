@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Consultancy and Development
-page-class: page--consultancy
+page-class: page--services  page--consultancy
 meta: "Consultancy and strategic guidance for development teams"
 permalink: /consultancy/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Speaking
-page-class: page--speaking
+page-class: page--services  page--speaking
 meta: "Harry Roberts’ past and upcoming speaking engagements"
 permalink: /speaking/
 ---

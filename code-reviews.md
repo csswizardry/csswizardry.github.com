@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code Reviews and Audits
-page-class: page--code-reviews
+page-class: page--services  page--code-reviews
 meta: "Affordable, remote code reviews and performance audits for your product"
 permalink: /code-reviews/
 ---
