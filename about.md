@@ -27,8 +27,8 @@ work](mailto:csswizardry@gmail.com?subject=Let%E2%80%99s%20work%20together).
 
 <ul class="c-nav-secondary  mt++" id="section:about">
   <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link  is-current">About</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:contact" class="c-nav-secondary__link">Contact</a></li>
   <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
 A <b>Google Developer Expert</b>, and named <b>Young Developer of the Year</b>
@@ -72,47 +72,10 @@ me.</strong></a>
 
 
 
-<ul class="c-nav-secondary  mt++" id="section:contact">
-  <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link">About</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:contact" class="c-nav-secondary__link  is-current">Contact</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
-</ul>
-
-## Contact
-
-I am open to interesting and fun consulting gigs, short-term contracts,
-workshops and any exciting projects working with nice people **starting in
-2014**. If you think you have something we can work together on then [get in
-touch](mailto:csswizardry@gmail.com).
-
-Please note that I get a _lot_ of email, so it may take me a while to get back
-to you. I do try and reply to everyone, no matter how long it might take, but I
-do also try and prioritise the order in which I respond: client and work-related
-emails first, then speaking requests, and then general requests for help and
-advice.
-
-If I do seem to be taking a while to respond, I would not be at all offended if
-you tweeted at me, or sent me a follow-up email, to remind me to reply.
-
-<dl>
-
-    <dt>Twitter: <a href="https://twitter.com/csswizardry">@csswizardry</a></dt>
-    <dd>For informal, quick contact and questions, feel free to fire me a
-    Tweet!</dd>
-
-    <dt>Email: <a href="mailto:csswizardry@gmail.com">csswizardry@gmail.com</a></dt>
-    <dd>For longer enquiries and questions, please send me an email.</dd>
-
-</dl>
-
-
-
-
-
 <ul class="c-nav-secondary  mt++" id="section:colophon">
   <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link">About</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:contact" class="c-nav-secondary__link">Contact</a></li>
   <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link  is-current">Colophon</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
 ## Colophon
@@ -149,6 +112,12 @@ I chose the name <i>CSS Wizardry</i> when I was 17 years old. It’s a decision
 I’m having to live with…
 
 ---
+
+<ul class="c-nav-secondary  mt++" id="section:interviews">
+  <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link">About</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link  is-current">Interviews</a></li>
+</ul>
 
 ## Interviews and Podcasts
 

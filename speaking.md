@@ -1,19 +1,26 @@
 ---
 layout: page
-title: Speaking and Workshops
+title: Speaking
 page-class: page--speaking
 meta: "Harry Roberts’ past and upcoming speaking engagements"
 permalink: /speaking/
 ---
 
-I speak about—and run workshops covering—big CSS, its architecture, and writing
-it in large teams on large products in a performant manner that scales. If you
-would like me to speak or run a workshop at one of your events, please
-[read my speaker’s questions](#section:request) before getting in touch.
+Having spoken at well over 50 public events, sharing my knowledge with
+development and product teams is something I am both very experienced with and
+hugely passionate about. If you’re running an event would like me to speak, I
+have prepared [some information for you](#section:request).
 
-I also run private workshops, where I come into your offices and get hacking
-with your team. If you would like to organise one of these then
-[fire me an email](mailto:csswizardry@gmail.com).
+As well as speaking at development conferences, I can (and indeed do) speak at
+private engagements for companies and their staff. If you are a company who
+would like a tech talk to be delivered on-site to a private audience, please do
+[get in touch](mailto:csswizardry@gmail.com?subject=Internal%20Tech%20Talk).
+
+If you feel like you’d like something a little more involved and in-depth, then
+you’re probably looking for a workshop. I’ve run countless workshops for both
+public events and private clients. Read [more about what that involves](/workshops/).
+
+Want to see where I’m speaking next? [Check out the list.](#section:upcoming-events)
 
 
 
@@ -102,6 +109,15 @@ wrong answer** to any of these questions.
   effort: forewarned is forearmed.
 * **Do you plan to compensate speakers?** I usually charge a fee to speak,
   however its value is open to discussion for indie and non-profit events.
+
+### What’s in It for You?
+
+I will help to promote and publicise your event. I will endeavour to make myself
+available to attendees for the entire duration of the event. I will attend all
+social activities surrounding the event. I will deliver a quality talk of
+practical relevance. I will gladly allow you to record and distribute my talk.
+[I hold myself to a high
+standard](http://csswizardry.com/2016/06/speakers-checklist-before-and-after-your-talk/).
 
 <a href="mailto:csswizardry@gmail.com?subject=Speaking%20Request" class="btn  btn--full">Sound okay? <strong>Get in touch!</strong></a>
 
