@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BSkyB: Senior UI Developer"
+title: BSkyB – Senior UI Developer
 meta: "Almost three years of full-time employment as Senior UI Developer at Sky"
 permalink: /case-studies/bskyb/
 next-case-study-title: "How employing agile techniques helped me be my own client."

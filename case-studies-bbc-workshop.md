@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BBC: Workshop and Code Review"
+title: BBC – Workshop and Code Review
 meta: "Running a full-day workshop with developers from the BBC"
 permalink: /case-studies/bbc-workshop/
 next-case-study-title: "Hear about how I changed and improved front-end process for BSkyB."

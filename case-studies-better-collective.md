@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Better Collective: Workshops and UI Architecture"
+title: Better Collective – Workshops and UI Architecture
 meta: "An intensive, week of workshop, hacking, and laying foundations"
 permalink: /case-studies/better-collective/
 next-case-study-title: "How I helped Madgex’s front-end developers get a handle on their UI."

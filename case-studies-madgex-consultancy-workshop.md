@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Madgex: Consultancy and Workshop"
+title: Madgex – Consultancy and Workshop
 meta: "A full-day workshop with a team of ambitious designers and developers"
 permalink: /case-studies/madgex-consultancy-workshop/
 next-case-study-title: "Read about the workshop I ran for the BBC’s front-end developers."
