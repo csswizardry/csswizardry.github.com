@@ -36,6 +36,24 @@ developers to deliver websites to users in record times. You will learn
 * how to measure performance successes;
 * how to prepare for the performance landscape of tomorrow.
 
+<blockquote class="pull-quote" id="quote:parallax">
+  <p>We hired Harry to provide [front-end] performance consultancy on a high
+  profile and highly trafficked website for one of Europe’s most recognised
+  authorities. His detailed and intricate knowledge of how both the network and
+  the browser work allowed him to improve performance by over 400%, all without
+  sacrificing or removing any assets or features from any of the website. By
+  analysing how the site was put together, and how browsers were dealing with
+  it, he managed to optimise and restructure things in such a way that load
+  times went from around 6.25 seconds to just 1.5.</p>
+  <b class="source  pull-quote__source">Tom Faller, <a href="http://parall.ax/">Parallax</a></b>
+</blockquote>
+
+My performance work has been implemented on very highly trafficked and
+high-availability websites, making dramatic improvements to page speed without
+sacrificing the quality or integrity of any of the website’s content or assets.
+
+
+
 <a href="mailto:csswizardry@gmail.com?subject=Performance%20Workshop" class="btn  btn--full">Request This Workshop</a>
 
 - - -
@@ -53,5 +71,18 @@ learn
 * how to handle layout in a responsive world;
 * theming and customising views;
 * and a whole host more.
+
+<blockquote class="pull-quote" id="quote:christine-tadler">
+  <p>We loved having Harry at Kickstarter! His CSS workshop was tremendously
+  helpful in getting our design team ready for our own CSS overhaul, and his
+  visit left us with some much needed guidance and motivation. He’s a great
+  communicator with great ideas, and he really knows how to get a team on the
+  same page.</p>
+  <b class="source  pull-quote__source"><a href="https://twitter.com/tadler">Christine Tadler</a>,
+  CSS Architect, <a href="https://www.kickstarter.com/">Kickstarter</a></b>
+</blockquote>
+
+I have run CSS architecture workshops for some of the world’s largest and most
+well known organisations.
 
 <a href="mailto:csswizardry@gmail.com?subject=CSS%20Architecture%20Workshop" class="btn  btn--full">Request This Workshop</a>

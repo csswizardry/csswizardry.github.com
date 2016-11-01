@@ -14,9 +14,12 @@ affordable, off the shelf solution that is perfect for you.
 
 Code review clients include: the BBC, Hired, UEFA.
 
-<blockquote class="pull-quote" id="quote:darius-contractor">
-  <p>We sliced 1.5s off PhotoSugar’s page load times using Harry’s knowledge.</p>
-  <b class="source  pull-quote__source">Darius Contractor, <a href="http://www.photosugar.com/">PhotoSugar</a></b>
+<blockquote class="pull-quote" id="quote:rich-fogarty">
+  <p>Harry’s focused, practical approach allowed us to implement significant
+  changes which improved our user experience and overall performance
+  dramatically. I commend him wholeheartedly to anyone looking to take their
+  website to the next level.</p>
+  <b class="source  pull-quote__source">Rich Fogarty, <a href="http://concreteplayground.com">Concrete Playground</a></b>
 </blockquote>
 
 Remote code reviews and performance audits follow a simple and straightforward
@@ -36,6 +39,11 @@ detailed overview of the service, please read [the associated blog
 post](http://csswizardry.com/2013/11/code-reviews-as-service/). If you have
 _any_ questions about code reviews then please feel free to [email
 me](mailto:csswizardry@gmail.com).
+
+<blockquote class="pull-quote" id="quote:darius-contractor">
+  <p>We sliced 1.5s off PhotoSugar’s page load times using Harry’s knowledge.</p>
+  <b class="source  pull-quote__source">Darius Contractor, <a href="http://www.photosugar.com/">PhotoSugar</a></b>
+</blockquote>
 
 This service is perfect for projects whose budget typically would not stretch to
 getting me on-site for a number of days, but do require the same type and
