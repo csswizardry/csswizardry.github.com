@@ -105,7 +105,11 @@
                 top: 50%; /* [1] */
                 right: 0;
                 left:  0;
-                margin-top: -$spacing-unit; /* [2] */
+                -webkit-transform: translateY(-50%); /* [2] */
+                   -moz-transform: translateY(-50%); /* [2] */
+                    -ms-transform: translateY(-50%); /* [2] */
+                     -o-transform: translateY(-50%); /* [2] */
+                        transform: translateY(-50%); /* [2] */
                 color: #fff;
             }
 
