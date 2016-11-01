@@ -46,12 +46,12 @@ applications.
 
 I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
 [work](http://csswizardry.com/services/),
-[speak](https://speakerdeck.com/csswizardry), and [run
-workshops](http://csswizardry.com/speaking/) across the globe covering
+[speak](http://csswizardry.com/speaking/), and [run
+workshops](http://csswizardry.com/workshops/) across the globe covering
 pragmatic, product-led approaches to building and scaling large front-ends for
 long-running projects and products. I specialise in OOCSS, architecture,
-scalability, front-end performance, and mobile and responsive web
-design and development.
+scalability, front-end performance, and mobile and responsive web design and
+development.
 
 I am a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts
 Panel, co-author of [a book on new approaches to web
