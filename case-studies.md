@@ -17,6 +17,24 @@ permalink: /case-studies/
 <ul class="feature-list">
 
     <li class="feature-list__item">
+        <a href="general-electric-consultancy-workshops" class="feature-list__link" style="background-color: #1968b3;">
+            <h2 class="feature-list__title">
+                General Electric
+                <span class="feature-list__sub">Workshop, Consultancy</span>
+            </h2>
+        </a>
+    </li>
+
+    <li class="feature-list__item">
+        <a href="ocado-workshop/" class="feature-list__link" style="background-color: #a9ae00;">
+            <h2 class="feature-list__title">
+                Ocado
+                <span class="feature-list__sub">Workshop</span>
+            </h2>
+        </a>
+    </li>
+
+    <li class="feature-list__item">
         <a href="nhs-nhsx-elearning-platform/" class="feature-list__link" style="background-color: #0072c6;">
             <h2 class="feature-list__title">
                 NHS

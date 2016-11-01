@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Financial Times – Workshop and Consultancy
+title: "Financial Times: Workshop and Consultancy"
 meta: "An intense day of workshop-style Q&A with the Financial Times"
 permalink: /case-studies/financial-times/
-next-case-study-title: "How I helped the NHS create a UI Toolkit for their eLearning platform."
-next-case-study-url: /case-studies/nhs-nhsx-elearning-platform/
+next-case-study-title: "Helping one of the world’s biggest companies with their UI Toolkit"
+next-case-study-url: /case-studies/general-electric-consultancy-workshops/
 hide-hire-me-link: true
 ---
 
