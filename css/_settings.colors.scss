@@ -6,6 +6,7 @@ $color-brand:       $brand-color;
 $color-pink:        $color-brand;
 $color-gray:        #333;
 $color-gray-light:  #999;
+$color-gray-mid:    #666;
 $color-gray-ui:     #ddd;
 $color-green:       #859900;
 $color-highlight:   #fff;
@@ -107,7 +108,7 @@ $color-heading-sub: $color-gray;
 
 
 // Quotes
-$color-quote:           $color-gray-light;
+$color-quote:           $color-gray-mid;
 $color-quote--banner:   $color-gray;
 
 
