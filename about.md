@@ -45,7 +45,7 @@ applications.
 </blockquote>
 
 I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
-[work](http://csswizardry.com/work/),
+[work](http://csswizardry.com/services/),
 [speak](https://speakerdeck.com/csswizardry), and [run
 workshops](http://csswizardry.com/speaking/) across the globe covering
 pragmatic, product-led approaches to building and scaling large front-ends for
@@ -65,7 +65,7 @@ great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
 <b>advice</b>, <b>development</b>, and more are all available to clients of all
 shapes and sizes, all over the world:
 
-<a href="http://csswizardry.com/work/" class="btn  btn--full"><strong>Hire
+<a href="http://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
 
 

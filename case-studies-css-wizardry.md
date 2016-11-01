@@ -23,7 +23,7 @@ Since deciding to work for myself last year, I’d not managed to give CSS
 Wizardry the full redesign it deserved—it was still just a personal blog, which
 didn’t really give visitors the impression that I was in fact running a
 business. In a bid to circumvent this in the short term, I created a dedicated
-[<i>Work</i>](/work/) micro-site which I ran as its own product. This was to be
+[<i>Work</i>](/services/) micro-site which I ran as its own product. This was to be
 my business face to the world for almost a year, and in that time it grew into a
 product in its own right. At the time of writing, that single page micro-site
 has [over 180 commits against it](https://github.com/csswizardry/work)!
