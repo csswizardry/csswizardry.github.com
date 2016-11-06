@@ -17,8 +17,7 @@ Code review clients include: the BBC, Hired, UEFA.
 <blockquote class="pull-quote" id="quote:rich-fogarty">
   <p>Harry’s focused, practical approach allowed us to implement significant
   changes which improved our user experience and overall performance
-  dramatically. I commend him wholeheartedly to anyone looking to take their
-  website to the next level.</p>
+  dramatically. I recommend him wholeheartedly.</p>
   <b class="source  pull-quote__source">Rich Fogarty, <a href="http://concreteplayground.com">Concrete Playground</a></b>
 </blockquote>
 
@@ -29,7 +28,7 @@ format, and have a fixed cost:
 2. I provide you with a review document, suggestions, refactored examples,
    screencasts, etc.
 3. After you’ve digested the document, we have a 90 minute Skype call to discuss
-   what I undcovered, and answer any questions you may have.
+   what I uncovered, and answer any questions you may have.
 
 The practical upshot of which is an improved codebase for the particular
 product, site or app in question, but also—and more importantly—a formal
