@@ -38,11 +38,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <i class="sprite  sprite--de"></i> <a href="https://beyondtellerrand.com/events/berlin-2016">Beyond Tellerrand</a>, Berlin (Germany), November 2016
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <i class="sprite  sprite--ee"></i> <a href="http://topconf.com/tallinn-2016/">Topconf</a>, Tallinn (Estonia), November 2016
   </li>
 
@@ -134,6 +129,11 @@ standard](http://csswizardry.com/2016/06/speakers-checklist-before-and-after-you
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <i class="sprite  sprite--de"></i> <a href="https://beyondtellerrand.com/events/berlin-2016">Beyond Tellerrand</a>, Berlin (Germany), November 2016
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
