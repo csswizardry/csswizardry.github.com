@@ -121,11 +121,11 @@ My time with Ocado was insightful, intense, and enjoyable. In our wrap-up
 emails, Dan shared a particularly pleasing bit of feedback with me which I found
 echoed my own thoughts very well:
 
-> Best training ever I’ve ever had at Ocado! He introduced really fancy stuff.
-> Live coding is really good for me to detect important points and I also can
-> learn his coding style. He introduced some really good tools, which I will
-> surely use in the future. It was quite intensive but I never felt tired. My
-> overall feeling is absolutely positive.
+> Best training I’ve ever had at Ocado! He introduced really fancy stuff. Live
+> coding is really good for me to detect important points and I can also learn
+> his coding style. He introduced some really good tools, which I will surely
+> use in the future. It was quite intensive but I never felt tired. My overall
+> feeling is absolutely positive.
 
 
 ---
