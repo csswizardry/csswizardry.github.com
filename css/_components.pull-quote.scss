@@ -48,7 +48,12 @@
     @include media-query(lap-and-up) {
         width: 50%;
         float: left;
-        margin-right: $spacing-unit;
+        margin-right: 0.5 * $spacing-unit;
+        padding-right: 0.5 * $spacing-unit;
+        padding-left: 0;
+        border-right: 0.5 * $spacing-unit solid $color-tint;
+        border-left: none;
+        text-align: right;
     }
 
 }
@@ -58,7 +63,7 @@
     @include media-query(lap-and-up) {
         width: 50%;
         float: right;
-        margin-left: $spacing-unit;
+        margin-left: 0.5 * $spacing-unit;
     }
 
 }
