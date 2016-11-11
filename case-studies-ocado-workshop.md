@@ -21,7 +21,7 @@ story. I mean, [check this out](https://en.m.wikipedia.org/wiki/Ocado):
 Highly regarded, and no small setup. However, there were several other
 interesting things that I learned in my time at Ocado. Firstly, I got to
 understand the sheer size, breadth, and scale at which they work: Ocado is not
-only.an online-only grocery supermarket, but they also manage stores for [pets
+only an online-only grocery supermarket, but they also manage stores for [pets
 ](https://fetch.co.uk), [kitchen appliances](https://sizzle.co.uk), and even
 [cosmetics](https://fabled.com). Although they don’t have the same physical
 presence as other retailers, being 100% online brings its own interesting and
@@ -31,15 +31,6 @@ service one of the oldest industries on the planet: selling people food and
 drink. Dan and his team are part of Ocado Technology, a separate division within
 Ocado that tackles everything from automation, robotics, and AI, to big data,
 cloud, and IoT.
-
-
-Highly regarded, and no small setup. However, the first thing that I learned
-in my time at Ocado was the sheer size and scale at which they work. Being an
-online-only grocery store, they don’t have the same physical presence as other
-retailers, but being 100% online brings its own interesting and fun challenges
-that others perhaps don’t encounter in quite the same way. It was fascinating to
-learn a little more about how they use very modern technology to service one of
-the oldest industries on the planet: selling people food and drink.
 
 ## Day One
 
