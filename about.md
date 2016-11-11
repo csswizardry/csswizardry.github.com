@@ -9,8 +9,7 @@ permalink: /about/
 Hi there, I’m Harry; I am an [award-winning](https://thenetawards.com/previous-winners/)
 Consultant Front-end Architect, writer, and speaker from the UK. I help
 companies all over the world write better quality, more manageable, more
-scalable user interfaces. I am [available for
-work](mailto:csswizardry@gmail.com?subject=Let%E2%80%99s%20work%20together).
+scalable user interfaces. I am [available for work](/services/).
 
 <figure>
   <img src="/img/content/me.jpg" alt="">
