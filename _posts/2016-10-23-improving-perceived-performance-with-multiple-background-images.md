@@ -145,3 +145,19 @@ intervention.
 However, I’m actually really happy with this as a way to provide something a
 little more substantial to users on poor network conditions. If your site has
 similar static images, I’d recommend experimenting with this technique yourself.
+
+## Update 2016-11-11
+
+Since publishing this post, a couple of people have produced ways of (semi)
+automating this process.
+
+[Louis Bourque](https://twitter.com/louisbourque) has a [Color Extractor
+tool](http://www.louisbourque.ca/Color-Extractor/) which will give you back the
+relevant gradient without having to fire up Photoshop.
+
+[Ben Briggs](https://twitter.com/ben_eb) built
+[postcss-resemble-image](https://github.com/ben-eb/postcss-resemble-image) which
+will: <q>Provide a gradient fallback for an image that loosely resembles the
+original.</q>
+
+Pretty neat! Thanks, gentlemen.
