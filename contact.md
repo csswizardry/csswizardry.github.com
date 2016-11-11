@@ -8,8 +8,11 @@ permalink: /contact/
 
 <p class="u-text-prominent">csswizardry@gmail.com</p>
 
-For consulting and/or speaking engagements, please [send me an
+For consulting engagements, please [send me an
 email](mailto:csswizardry@gmail.com).
+
+For speaking engagements, please [see my speaking
+page](/speaking/#section:request).
 
 For small questions, or just to say hi, please feel free to [fire me a
 Tweet](https://twitter.com/csswizardry).
