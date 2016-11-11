@@ -110,6 +110,9 @@ $logo-height:   64px;
    * 1. Hide the nav off-screen until we need it.
    */
   .site-nav__list {
+    margin:  0;
+    padding: 0;
+    list-style: none;
     position: fixed;
     top:    6px;
     right:  0;
@@ -128,9 +131,6 @@ $logo-height:   64px;
             transition: 0.2s;
     will-change: transform;
     background-color: $color-gray;
-    margin:  0;
-    padding: 0;
-    list-style: none;
 
     /**
      * If we’re targetting the nav, then don’t hide it.
@@ -173,7 +173,7 @@ $logo-height:   64px;
      * default, and horizontally arranged on wider screens.
      */
     .site-nav__item {
-      border-bottom: 1px solid $color-gray-ui;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
       &:last-child {
         border-bottom: none;
