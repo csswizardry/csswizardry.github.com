@@ -126,6 +126,11 @@ first.
 <ol class="list-ui  mb">
 
   <li class="list-ui__item">
+    <h3 class="list-ui__title">Podcast</h3>
+    <time>2016-11-10</time>: <a href="http://hackingui.com/podcast/the-ups-and-downs-of-dominating-a-niche-harry-roberts-css-wizardry/">Hacking UI</a>
+  </li>
+
+  <li class="list-ui__item">
     <h3 class="list-ui__title">AMA</h3>
     <time>2016-10-20</time>: <a href="https://hashnode.com/ama/with-harry-roberts-ciu89znz703oakb53khik6kmo">Hashnode</a>
   </li>
