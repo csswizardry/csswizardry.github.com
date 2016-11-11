@@ -28,9 +28,10 @@ presence as other retailers, being 100% online brings its own interesting and
 fun challenges that others perhaps don’t encounter in quite the same way. It was
 fascinating to learn a little more about how they use very modern technology to
 service one of the oldest industries on the planet: selling people food and
-drink. Dan and his team are part of Ocado Technology, a separate division within
-Ocado that tackles everything from automation, robotics, and AI, to big data,
-cloud, and IoT.
+drink. Dan and his team are part of [Ocado
+Technology](http://www.ocadotechnology.com/), a separate division within Ocado
+that tackles everything from automation, robotics, and AI, to big data, cloud,
+and IoT.
 
 ## Day One
 
