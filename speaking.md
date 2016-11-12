@@ -43,6 +43,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--nl"></i> <a href="http://www.meetup.com/frontmen/">FrontMen Guru Sessions</a>, Amsterdam (Netherlands), November 2016
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--en"></i> <a href="https://www.meetup.com/London-CSS-Meetup/events/234913062/">London CSS</a>, London (England), November 2016
   </li>
 
