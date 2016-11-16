@@ -37,11 +37,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 <ol class="list-ui">
 
   <li>
-    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <i class="sprite  sprite--ee"></i> <a href="http://topconf.com/tallinn-2016/">Topconf</a>, Tallinn (Estonia), November 2016
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--nl"></i> <a href="http://www.meetup.com/frontmen/">FrontMen Guru Sessions</a>, Amsterdam (Netherlands), November 2016
   </li>
@@ -134,6 +129,11 @@ standard](http://csswizardry.com/2016/06/speakers-checklist-before-and-after-you
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <i class="sprite  sprite--ee"></i> <a href="http://topconf.com/tallinn-2016/">Topconf</a>, Tallinn (Estonia), November 2016
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
