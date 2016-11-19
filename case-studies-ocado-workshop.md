@@ -8,11 +8,12 @@ next-case-study-url: /case-studies/nhs-nhsx-elearning-platform/
 hide-hire-me-link: true
 ---
 
-When I got an email from Dan Horan asking me if I’d like to help him and his
-team at [Ocado](https://www.ocado.com/) level up their CSS skills, I didn’t even
-have to give it a thought: my answer was an instant yes! Ocado is a really great
-brand, held in high regard in the UK, and I very much wanted to be part of their
-story. I mean, [check this out](https://en.m.wikipedia.org/wiki/Ocado):
+When I got an email from [Dan Horan](https://twitter.com/danhoran) asking me if
+I’d like to help him and his team at [Ocado](https://www.ocado.com/) level up
+their CSS skills, I didn’t even have to give it a thought: my answer was an
+instant yes! Ocado is a really great brand, held in high regard in the UK, and I
+very much wanted to be part of their story. I mean, [check this
+out](https://en.m.wikipedia.org/wiki/Ocado):
 
 > Ocado is a British online supermarket […] Ocado has been voted the best online
 > supermarket in the UK […] every year since 2010. The company […] is currently
@@ -35,10 +36,10 @@ and IoT.
 
 ## Day One
 
-<blockquote class="pull-quote  pull-quote--context-alt">
-  <p>Everyone thoroughly enjoyed it and took a lot away; we couldn’t have asked for more.</p>
-  <b class="pull-quote__source"><a href="#0">Dan Horan</a>, IT Team Lead, Ocado</b>
-</blockquote>
+<blockquote class="pull-quote  pull-quote--context-alt"> <p>Everyone thoroughly
+enjoyed it and took a lot away; we couldn’t have asked for more.</p> <b
+class="pull-quote__source"><a href="https://twitter.com/danhoran">Dan Horan</a>,
+IT Team Lead, Ocado</b> </blockquote>
 
 The format of our engagement was to be a two day workshop, filling a room full
 of designers, front-end developers, software engineers, and even some very keen
