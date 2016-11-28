@@ -70,15 +70,15 @@ benefits. How do we deal with the downsides?
 
 ## Specificity
 
-It is often noted that it is important the keep specificity low at all times.
+It is often noted that it is important to keep specificity low at all times.
 This is certainly true, and is very good advice, but, as ever, it is a little
 more nuanced than that. What people really mean when they say this is that
 specificity should be well _managed at_ all times. That is to say, we should
 have consistency and very little difference between our selectors.
 
-In theory (although please, dear lord, do not do this), a project whose only
-selectors are IDs would have well managed specificity: the specificity would be
-universally high, but would at least all be equal and consistent.
+In theory (although please, dear lord, do not ever do this), a project whose
+only selectors are IDs would have well managed specificity: the specificity
+would be universally high, but would at least all be equal and consistent.
 
 When we talk about well managed specificity, we’re talking about [Specificity
 Graphs](http://csswizardry.com/2014/10/the-specificity-graph/) which are as flat
@@ -118,7 +118,7 @@ gives us a nice flat specificity graph:
   <figcaption><a href="/wp-content/uploads/2016/11/graph-specificity-01.png">View full size/quality</a></figcaption>
 </figure>
 
-As soon as we nest the BEM classes, like so:
+As soon as we nest the Element classes, like so:
 
     .nav-primary { }
 
@@ -190,7 +190,7 @@ If we were to chain the first class (the Block) with itself, like this:
 side effects:
 
 * We don’t need to know where the Block exists in the DOM, so we we’re not
-  increasing its specificity based on a location that could move.
+  increasing its specificity based on a location that could change.
 * We’re not chaining with another, different, or specific element or class,
   which means that the Block class is still very portable.
 
@@ -268,6 +268,18 @@ We also have a managed (albeit increased) specificity across all of our classes.
 
 We’re increasing specificity, which is generally something we should always
 strive to avoid.
+
+## Use Cases
+
+If you would like to try rolling out this technique, it would be worth
+identifying some key use cases and starting from there. One that immediately
+springs to mind is grid systems. Time and time again I see developers trying to
+use `.grid__item` classes outside of the `.grid` parent, so if I were to start
+using this technique I would probably start there:
+
+    .grid.grid {  }
+
+      .grid .grid__item {  }
 
 ## To Use or Not to Use?
 
