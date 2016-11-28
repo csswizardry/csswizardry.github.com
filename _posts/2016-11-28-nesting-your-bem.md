@@ -73,7 +73,7 @@ benefits. How do we deal with the downsides?
 It is often noted that it is important to keep specificity low at all times.
 This is certainly true, and is very good advice, but, as ever, it is a little
 more nuanced than that. What people really mean when they say this is that
-specificity should be well _managed at_ all times. That is to say, we should
+specificity should be _well managed_ at all times. That is to say, we should
 have consistency and very little difference between our selectors.
 
 In theory (although please, dear lord, do not ever do this), a project whose
