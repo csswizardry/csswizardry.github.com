@@ -147,7 +147,7 @@ As soon as we nest the Element classes, like so:
 …we see a Specificity Graph more like this:
 
 <figure>
-  <img src="/wp-content/uploads/2016/11/graph-specificity-02.png" alt="Graph showing low and flat specificity" />
+  <img src="/wp-content/uploads/2016/11/graph-specificity-02.png" alt="Graph showing changes in specificity" />
   <figcaption><a href="/wp-content/uploads/2016/11/graph-specificity-02.png">View full size/quality</a></figcaption>
 </figure>
 
@@ -198,7 +198,7 @@ This specificity increase is completely self contained. Now we see a Specificity
 Graph that looks like this:
 
 <figure>
-  <img src="/wp-content/uploads/2016/11/graph-specificity-03.png" alt="Graph showing low and flat specificity" />
+  <img src="/wp-content/uploads/2016/11/graph-specificity-03.png" alt="Graph showing higher but still flat specificity" />
   <figcaption><a href="/wp-content/uploads/2016/11/graph-specificity-03.png">View full size/quality</a></figcaption>
 </figure>
 
