@@ -229,7 +229,7 @@ Which gives us, as we’d expect:
 
         .nav-primary .nav-primary__link { }
 
-But how do we quickly and effectively chain the firs class with itself? Like
+But how do we quickly and effectively chain the first class with itself? Like
 this:
 
     .nav-primary {
