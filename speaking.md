@@ -38,16 +38,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--en"></i> <a href="https://www.meetup.com/London-CSS-Meetup/events/234913062/">London CSS</a>, London (England), November 2016
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Workshop</h3>
-    <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/training/advanced-css-architecture">White October Events</a>, London (England), November 2016
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--us"></i> <a href="http://lanyrd.com/2017/smashingconf-new-york/">SmashingConf</a>, New York (US), June 2017
   </li>
 
@@ -124,6 +114,16 @@ standard](http://csswizardry.com/2016/06/speakers-checklist-before-and-after-you
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Workshop</h3>
+    <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/training/advanced-css-architecture">White October Events</a>, London (England), November 2016
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--en"></i> <a href="https://www.meetup.com/London-CSS-Meetup/events/234913062/">London CSS</a>, London (England), November 2016
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
