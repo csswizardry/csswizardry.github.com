@@ -285,8 +285,8 @@ using this technique I would probably start there:
 
 I’m not sure. Like I said at the beginning, this is not a technique I am
 actively recommending or promoting. I just want to put it out there as an
-option, particularly developers who find them in an environment where other
+option, particularly for developers who find them in an environment where other
 developers are prone to abusing CSS.
 
-However, I will say this, if you are already nesting your BEM then go back and
+However, I will say this: if you are already nesting your BEM then go back and
 level out your Specificity Graph by chaining your first class.
