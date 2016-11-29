@@ -36,6 +36,28 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
 <ol class="list-ui">
 
+  <!--
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--uk"></i> <a href="http://dxnevent.com/">Design Exhange</a>, Nottingham, (UK), January 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--is"></i> <a href="http://www.icewebconference.com/">IceWeb Conference</a>, Reykjavik, (Iceland) January 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--ie"></i> <a href="http://www.meetup.com/DublinCSS/">DublinCSS</a>, Dublin, (Ireland) February 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--pl"></i> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2017
+  </li>
+  -->
+
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--us"></i> <a href="http://lanyrd.com/2017/smashingconf-new-york/">SmashingConf</a>, New York (US), June 2017
