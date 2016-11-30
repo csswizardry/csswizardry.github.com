@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 .c-newsletter {
+  text-align: center;
 }
 
   .c-newsletter__title {
@@ -19,6 +20,7 @@
   .c-newsletter__email {
     width: 100%;
     margin-bottom: $spacing-unit;
+    text-align: center;
 
     @include media-query(lap-and-up) {
       width: auto;
