@@ -222,7 +222,7 @@ first.
 
   <li class="list-ui__item">
     <h3 class="list-ui__title">Interview</h3>
-    <time>2014-01-06</time>: <a href="http://alexcarpenter.me/blog/2014/interview-harry-roberts-of-css-wizardry">Alex Carpenter — Harry Roberts of CSS Wizardry</a>
+    <time>2014-01-06</time>: <a href="http://alexcarpenter.me/2014/01/06/interview-harry-roberts-of-css-wizardry">Alex Carpenter — Harry Roberts of CSS Wizardry</a>
   </li>
 
   <li class="list-ui__item">
