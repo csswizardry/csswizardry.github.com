@@ -2,8 +2,8 @@
 layout: post
 title: "CSS Wizardry Newsletter"
 date: 2016-11-30 17:27:11
-categories: Web Development
-meta: "I’m starting a newsletter!"
+categories: Business
+meta: "CSS Wizardry has just got itself a newsletter…"
 ---
 
 I’m gonna level with you: I never really understood the point of people having
