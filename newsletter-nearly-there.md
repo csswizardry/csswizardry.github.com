@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nearly there…
+title: Nearly There…
 page-class: page--newsletter
 meta: "Last step before signing up fully!"
 permalink: /newsletter/nearly-there/
