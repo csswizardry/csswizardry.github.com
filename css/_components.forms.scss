@@ -1,0 +1,23 @@
+/*------------------------------------*\
+  #FORMS
+\*------------------------------------*/
+
+.c-label {
+  display: block;
+}
+
+.c-input-text {
+  border: 2px solid $color-gray-ui;
+  min-width: 25ch;
+  outline: none;
+  transition: border-color 0.2s;
+  padding: 11px 6px;
+  vertical-align: middle;
+  border-radius: $base-round;
+
+  &:active,
+  &:focus {
+    border-color: $color-brand;
+  }
+
+}

@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  #NEWSLETTER
+\*------------------------------------*/
+
+.c-newsletter {
+}
+
+  .c-newsletter__title {
+    @include font-size(16px);
+    font-weight: 600;
+    color: inherit;
+    margin-bottom: 0;
+  }
+
+  .c-newsletter__text {
+    @include font-size(12px);
+  }
+
+  .c-newsletter__email {
+    width: 100%;
+    margin-bottom: $spacing-unit;
+
+    @include media-query(lap-and-up) {
+      width: auto;
+      margin-bottom: 0;
+      min-width: 40ch;
+    }
+
+  }
+
+  .c-newsletter__submit {
+    width: 100%;
+
+    @include media-query(lap-and-up) {
+      width: auto;
+    }
+
+  }
