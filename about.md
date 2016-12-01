@@ -30,39 +30,38 @@ scalable user interfaces. I am [available for work](/services/).
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
-A <b>Google Developer Expert</b>, and named <b>Young Developer of the Year</b>
-(2014) by <cite>net</cite> magazine, I was previously a Senior Developer at
+A [<b>Google Developer
+Expert</b>](https://developers.google.com/experts/people/harry-roberts), and
+named <b>Young Developer of the Year</b> (2014) by <cite>net</cite> magazine, I
+was previously a Senior Developer at
 [BSkyB](http://en.wikipedia.org/wiki/BSkyB). I have consulted internationally
 with clients including the <b>United Nations</b>, the <b>BBC</b>, the
 <b>NHS</b>, <b>Google</b>, and the <b>Financial Times</b>. I specialise in CSS
-architecture and front-end performance for large and long-running sites and
+architecture and front-end performance for large and long-lived sites and
 applications.
-
-<blockquote class="pull-quote  pull-quote--context-alt">
-  <p>I’ve got a crush on Harry Roberts…</p>
-  <b class="pull-quote__source"><a href="http://unfinished.bz/11">Andrew Clarke</a></b>
-</blockquote>
 
 I [write](http://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
 [work](http://csswizardry.com/services/),
 [speak](http://csswizardry.com/speaking/), and [run
 workshops](http://csswizardry.com/workshops/) across the globe covering
 pragmatic, product-led approaches to building and scaling large front-ends for
-long-running projects and products. I specialise in OOCSS, architecture,
-scalability, front-end performance, and mobile and responsive web design and
-development.
+long-running projects and products. I specialise in CSS architecture,
+scalability, front-end performance, and design process and strategy.
 
 I am a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts
 Panel, co-author of [a book on new approaches to web
 development](http://www.smashingmagazine.com/smashing-book-4-new-perspectives/),
-and lead and sole developer of the increasingly popular, open-source, OOCSS
-framework [<cite>inuitcss</cite>](http://twitter.com/inuitcss). For a more
-comprehensive overview, please see [my CV](http://csswizardry.com/csscv/).
+and lead developer of the increasingly popular, open-source, OOCSS framework
+[<cite>inuitcss</cite>](http://twitter.com/inuitcss). For a more comprehensive
+overview, you can [find me on
+LinkedIn](Profilehttps://uk.linkedin.com/in/csswizardry).
 
 Most importantly, I am <strong>available for hire</strong> to help people build
 great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
 <b>advice</b>, <b>development</b>, and more are all available to clients of all
-shapes and sizes, all over the world:
+shapes and sizes, all over the world.
+
+_![Harry](/img/content/signature.png)_
 
 <a href="http://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
@@ -88,9 +87,9 @@ site generator. This is hosted using [GitHub Pages](https://pages.github.com/).
 The CSS is written in [Sass](http://sass-lang.com/), and built on top of
 [inuitcss](https://github.com/inuitcss). inuitcss is a free, open-source,
 Sass-based, OOCSS framework with a strong focus on performance, scalability, and
-a small footprint. This is then built into [ITCSS](http://itcss.io), a
-proprietary CSS architecture of mine which is designed to aid the growth and
-maintainability of CSS projects.
+a small footprint. This is then built into [ITCSS](http://itcss.io), a CSS
+architecture of mine which is designed to aid the growth and maintainability of
+CSS projects.
 
 The font used is [Open Sans](http://en.wikipedia.org/wiki/Open_Sans), and is
 served via [Google Fonts](https://www.google.com/fonts). The icons are from the
@@ -108,7 +107,7 @@ GitHub](https://github.com/csswizardry/csswizardry.github.com). Feel free to
 take a look round, but please don’t steal anything.
 
 I chose the name <i>CSS Wizardry</i> when I was 17 years old. It’s a decision
-I’m having to live with…
+that I’m having to live with…
 
 ---
 
