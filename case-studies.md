@@ -18,7 +18,7 @@ permalink: /case-studies/
 
     <!--
     <li class="feature-list__item">
-        <a href="general-electric-consultancy-workshops" class="feature-list__link" style="background-color: #1968b3;">
+        <a href="general-electric-consultancy-workshops/" class="feature-list__link" style="background-color: #1968b3;">
             <h2 class="feature-list__title">
                 General Electric
                 <span class="feature-list__sub">Workshop, Consultancy</span>
@@ -46,7 +46,7 @@ permalink: /case-studies/
     </li>
 
     <li class="feature-list__item">
-        <a href="better-collective" class="feature-list__link" style="background-color: #00a767;">
+        <a href="better-collective/" class="feature-list__link" style="background-color: #00a767;">
             <h2 class="feature-list__title">
                 Better Collective
                 <span class="feature-list__sub">Workshop, Consultancy</span>
@@ -64,7 +64,7 @@ permalink: /case-studies/
     </li>
 
     <li class="feature-list__item">
-        <a href="bbc-workshop" class="feature-list__link" style="background-color: #ffdf43;">
+        <a href="bbc-workshop/" class="feature-list__link" style="background-color: #ffdf43;">
             <h2 class="feature-list__title" style="color: #000;">
                 BBC
                 <span class="feature-list__sub">Workshop, Consultancy</span>
@@ -73,7 +73,7 @@ permalink: /case-studies/
     </li>
 
     <li class="feature-list__item">
-        <a href="bskyb" class="feature-list__link" style="background-color: #01519c;">
+        <a href="bskyb/" class="feature-list__link" style="background-color: #01519c;">
             <h2 class="feature-list__title">
                 BSkyB
                 <span class="feature-list__sub">Development, Product, Workshop</span>
@@ -91,7 +91,7 @@ permalink: /case-studies/
     </li>
 
     <li class="feature-list__item">
-        <a href="financial-times" class="feature-list__link" style="background-color: #fff1e0;">
+        <a href="financial-times/" class="feature-list__link" style="background-color: #fff1e0;">
             <h2 class="feature-list__title" style="color: #010b13;">
                 Financial Times
                 <span class="feature-list__sub">Workshop, Consultancy</span>
