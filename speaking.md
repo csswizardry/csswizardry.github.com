@@ -60,6 +60,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--gr"></i> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) May 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--us"></i> <a href="http://lanyrd.com/2017/smashingconf-new-york/">SmashingConf</a>, New York (US), June 2017
   </li>
 
