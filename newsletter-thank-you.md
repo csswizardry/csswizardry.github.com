@@ -16,6 +16,10 @@ From now on, you can expect infrequent updates about
 * interesting resources,
 * and exclusive content.
 
+Here are all of the previous newsletters that you may have missed:
+
+{% include newsletter-previous.html %}
+
 Right now though, here’s a screencast showing you how to troubleshoot rendering
 performance:
 

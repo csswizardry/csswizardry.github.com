@@ -34,7 +34,7 @@ Twitter](https://twitter.com/csswizardry) instead.
 
 ## Previous Issues
 
-1. [Issue #0001](http://us14.campaign-archive1.com/?u=95f3f41085f5f957a07ba5efd&id=5ea7afe1ea&e=96a324a92a): <time datetime="2016-12-02">2 December, 2016</time>
+{% include newsletter-previous.html %}
 
 
 
