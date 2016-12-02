@@ -17,6 +17,8 @@ page](/speaking/#section:request).
 For small questions, or just to say hi, please feel free to [fire me a
 Tweet](https://twitter.com/csswizardry).
 
+To keep in regular contact, [join my newsletter](/newsletter/).
+
 Please note that I get a _lot_ of email, so it may take me a while to get back
 to you. I do try and reply to everyone, no matter how long it might take, but I
 do also try and prioritise the order in which I respond: client and work-related
@@ -28,11 +30,14 @@ you tweeted at me, or sent me a follow-up email, to remind me to reply.
 
 <dl>
 
-    <dt>Twitter: <a href="https://twitter.com/csswizardry">@csswizardry</a></dt>
-    <dd>For informal, quick contact and questions, feel free to fire me a
-    Tweet!</dd>
+  <dt>Twitter: <a href="https://twitter.com/csswizardry">@csswizardry</a></dt>
+  <dd>For informal, quick contact and questions, feel free to fire me a
+  Tweet!</dd>
 
-    <dt>Email: <a href="mailto:csswizardry@gmail.com">csswizardry@gmail.com</a></dt>
-    <dd>For longer enquiries and questions, please send me an email.</dd>
+  <dt>Email: <a href="mailto:csswizardry@gmail.com">csswizardry@gmail.com</a></dt>
+  <dd>For longer enquiries and questions, please send me an email.</dd>
+
+  <dt><a href="/newsletter/">Newsletter</a></dt>
+  <dd>For infrequent updates about discounts, exclusive content, resources, etc.</dd>
 
 </dl>
