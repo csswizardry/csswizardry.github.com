@@ -11,8 +11,8 @@ need to click the link in the email I just sent you.
 
 There are also a couple of other things you might need to do:
 
-1. **Check your spam or Promotions folders** because he first email(s) might end
-   up in there.
+1. **Check your spam or Promotions folders** because the first email(s) might
+   end up in there.
 2. **Add `harry@csswizardry.com` as a contact** so that CSS Wizardry emails get
    whitelisted. I’m sending from a personal account, so you’re not adding
 anything corporate or spammy.
