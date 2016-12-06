@@ -6,12 +6,20 @@ permalink: /archive/
 ---
 
 <section class="posts">
-    <ul class="list-ui">
-        {% for post in site.posts %}
-        <li class="list-ui__item">
-            <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d %B, %Y" }}</time>
-            <h2 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        </li>
-        {% endfor %}
-    </ul>
+
+  {% for post in site.posts %}
+    {% assign currentDate = post.date | date: "%Y" %}
+    {% if currentDate != myDate %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h2>{{ currentDate }}</h2>
+      <ul class="list-ui  mb">
+      {% assign myDate = currentDate %}
+    {% endif %}
+      <li class="list-ui__item">
+        <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d %B, %Y" }}</time>
+        <h3 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      </li>
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+
 </section>
