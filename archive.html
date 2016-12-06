@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CSS Wizardry archive
+title: CSS Wizardry Posts Archive
 page-class: page--archive
 permalink: /archive/
 ---
@@ -10,16 +10,17 @@ permalink: /archive/
   {% for post in site.posts %}
     {% assign currentDate = post.date | date: "%Y" %}
     {% if currentDate != myDate %}
-      {% unless forloop.first %}</ul>{% endunless %}
+      {% unless forloop.first %}</ol>{% endunless %}
+      <hr />
       <h2>{{ currentDate }}</h2>
-      <ul class="list-ui  mb">
+      <ol reversed>
       {% assign myDate = currentDate %}
     {% endif %}
-      <li class="list-ui__item">
-        <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d %B, %Y" }}</time>
-        <h3 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <li>
+        <b><time class="" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d" }}</time>:</b>
+        <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
-    {% if forloop.last %}</ul>{% endif %}
+    {% if forloop.last %}</ol>{% endif %}
   {% endfor %}
 
 </section>
