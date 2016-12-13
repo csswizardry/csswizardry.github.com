@@ -4,6 +4,6 @@
 
 label {
   @include font-size(12px);
-  font-weight: 600;
+  @include font-weight(bold);
   cursor: pointer;
 }

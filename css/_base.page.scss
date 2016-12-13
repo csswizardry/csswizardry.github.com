@@ -4,5 +4,5 @@
 
 html {
     font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+    @include font-weight(regular);
 }
