@@ -7,6 +7,10 @@ permalink: /archive/
 
 <section class="posts">
 
+  <p>I have written <b>{{ site.posts | size  }}</b> post on this site, mostly
+  covering CSS, architecture, performance, and web development. Find a
+  reverse-chronological list of them all here.</p>
+
   {% for post in site.posts %}
     {% assign currentDate = post.date | date: "%Y" %}
     {% if currentDate != myDate %}

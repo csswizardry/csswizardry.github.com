@@ -27,6 +27,9 @@ page-class: page--home
 
             <h3 class="heading">Articles</h3>
 
+            <p>There are <b>{{ site.posts | size  }}</b> articles on this blog.
+            Find them all on the <a href="/archive/">archive page</a>.</p>
+
             <ul class="list-ui  post__list  mb">
                 {% for post in paginator.posts %}
                 <li class="list-ui__item">
