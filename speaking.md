@@ -36,16 +36,17 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
 <ol class="list-ui">
 
-  <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--uk"></i> <a href="http://dxnevent.com/">Design Exchange</a>, Nottingham, (UK), January 2017
+    <i class="sprite  sprite--en"></i> <a href="http://dxnevent.com/">Design Exchange</a>, Nottingham, (UK), January 2017
   </li>
 
+  <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--is"></i> <a href="http://www.icewebconference.com/">IceWeb Conference</a>, Reykjavik, (Iceland) January 2017
   </li>
+  -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
@@ -54,9 +55,18 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--bg"></i> <a href="https://bulgariawebsummit.com/">Bulgaria Web Summit</a>, Sofia, (Bulgaria) April 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Workshop</h3>
+    <i class="sprite  sprite--en"></i> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October Events</a>, London (England), April 2016
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--pl"></i> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2017
   </li>
-  -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
