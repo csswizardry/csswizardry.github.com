@@ -2,28 +2,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 
-<!-- Preemptively open up connections for external assets (Twitter widgets etc). -->
-<link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="/css/csswizardry.min.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,600,300">
-
-{% if page.page-class == "page--home" %}
-<!-- Fire off masthead download nice and early. -->
-<link rel="preload" href="/img/css/masthead.jpg" as="image" media="(max-width: 719px)">
-<link rel="preload" href="/img/css/masthead-medium.jpg" as="image" media="(min-width: 720px) and (max-width: 1023px)">
-<link rel="preload" href="/img/css/masthead-large.jpg" as="image" media="(min-width: 1024px)">
-{% endif %}
-
-<link rel="preconnect" href="//srv.carbonads.net">
-<link rel="preconnect" href="//cdn.adpacks.com">
-<link rel="preconnect" href="//assets.servedby-buysellads.com">
-<link rel="preconnect" href="//platform.twitter.com">
-<link rel="preconnect" href="https://platform.twitter.com">
-<link rel="preconnect" href="https://syndication.twitter.com">
-<link rel="preconnect" href="https://cdn.syndication.twimg.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="preconnect" href="https://www.google-analytics.com">
 
 <title>{{ page.title }} &ndash; CSS Wizardry &ndash; CSS, OOCSS, front-end architecture, performance and more, by Harry Roberts</title>
 
