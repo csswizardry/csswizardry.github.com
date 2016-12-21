@@ -1,7 +1,37 @@
 /*------------------------------------*\
-    #ADS
+  #ADS
 \*------------------------------------*/
 
-.bsa_it_d {
-    @include font-weight(regular);
+.carbon-wrap {
+  display: block;
+  text-align: center;
 }
+
+  .carbon-img {
+    display: block;
+    margin-bottom: 6px;
+
+    > img {
+      border-radius: $base-round;
+    }
+
+    &:hover + .carbon-text {
+      text-decoration: underline;
+    }
+
+  }
+
+  .carbon-text {
+    overflow: hidden;
+    display: block;
+    color: $color-gray-mid;
+  }
+
+  .carbon-poweredby {
+    display: block;
+    text-align: center;
+    @include font-size(12px);
+    text-transform: uppercase;
+    color: $color-gray-light;
+    letter-spacing: 0.01em;
+  }
