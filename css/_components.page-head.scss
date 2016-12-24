@@ -73,7 +73,7 @@ $header-max-height:     480px;
 
     margin-bottom: 0;
     background-color: #2e2620;
-    background-image: url(/img/css/masthead.jpg), $bg-grad;
+    background-image: url(https://csswizardry.a.cdnify.io/img/css/masthead.jpg), $bg-grad;
     background-position: center center;
     @include vendor(background-size, cover);
     color: $color-masthead; /* [1] */
@@ -82,11 +82,11 @@ $header-max-height:     480px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
 
     @include media-query(lap-and-up) {
-        background-image: url(/img/css/masthead-medium.jpg), $bg-grad;
+        background-image: url(https://csswizardry.a.cdnify.io/img/css/masthead-medium.jpg), $bg-grad;
     }
 
     @include media-query(desk) {
-        background-image: url(/img/css/masthead-large.jpg), $bg-grad;
+        background-image: url(https://csswizardry.a.cdnify.io/img/css/masthead-large.jpg), $bg-grad;
     }
 
     > .wrapper { /* [2] */

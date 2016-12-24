@@ -4,15 +4,16 @@
 
 <!-- Preemptively open up connections for external assets (Twitter widgets etc). -->
 <link rel="preconnect" href="//fonts.googleapis.com">
-<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="//fonts.gstatic.com">
+<link rel="preconnect" href="https://csswizardry.a.cdnify.io">
 <link rel="stylesheet" href="/css/csswizardry.min.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,600,300">
 
 {% if page.page-class == "page--home" %}
 <!-- Fire off masthead download nice and early. -->
-<link rel="preload" href="/img/css/masthead.jpg" as="image" media="(max-width: 719px)">
-<link rel="preload" href="/img/css/masthead-medium.jpg" as="image" media="(min-width: 720px) and (max-width: 1023px)">
-<link rel="preload" href="/img/css/masthead-large.jpg" as="image" media="(min-width: 1024px)">
+<link rel="preload" href="https://csswizardry.a.cdnify.io/img/css/masthead.jpg" as="image" media="(max-width: 719px)">
+<link rel="preload" href="https://csswizardry.a.cdnify.io/img/css/masthead-medium.jpg" as="image" media="(min-width: 720px) and (max-width: 1023px)">
+<link rel="preload" href="https://csswizardry.a.cdnify.io/img/css/masthead-large.jpg" as="image" media="(min-width: 1024px)">
 {% endif %}
 
 <link rel="preconnect" href="//cdn.carbonads.com">
