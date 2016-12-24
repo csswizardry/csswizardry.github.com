@@ -12,7 +12,7 @@ companies all over the world write better quality, more manageable, more
 scalable user interfaces. I am [available for work](/services/).
 
 <figure>
-  <img src="https://csswizardry.a.cdnify.io/img/content/me.jpg" alt="">
+  <img src="http://csswizardry.a.cdnify.io/img/content/me.jpg" alt="">
   <figcaption>
     On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
     <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
@@ -61,7 +61,7 @@ great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
 <b>advice</b>, <b>development</b>, and more are all available to clients of all
 shapes and sizes, all over the world.
 
-_![Harry](https://csswizardry.a.cdnify.io/img/content/signature.png)_
+_![Harry](http://csswizardry.a.cdnify.io/img/content/signature.png)_
 
 <a href="http://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
