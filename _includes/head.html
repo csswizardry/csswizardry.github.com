@@ -11,9 +11,9 @@
 
 {% if page.page-class == "page--home" %}
 <!-- Fire off masthead download nice and early. -->
-<link rel="preload" href="//csswizardry.a.cdnify.io/img/css/masthead.jpg" as="image" media="(max-width: 719px)">
-<link rel="preload" href="//csswizardry.a.cdnify.io/img/css/masthead-medium.jpg" as="image" media="(min-width: 720px) and (max-width: 1023px)">
-<link rel="preload" href="//csswizardry.a.cdnify.io/img/css/masthead-large.jpg" as="image" media="(min-width: 1024px)">
+<link rel="preload" href="{{ site.cdn }}/img/css/masthead.jpg" as="image" media="(max-width: 719px)">
+<link rel="preload" href="{{ site.cdn }}/img/css/masthead-medium.jpg" as="image" media="(min-width: 720px) and (max-width: 1023px)">
+<link rel="preload" href="{{ site.cdn }}/img/css/masthead-large.jpg" as="image" media="(min-width: 1024px)">
 {% endif %}
 
 <link rel="preconnect" href="//cdn.carbonads.com">
