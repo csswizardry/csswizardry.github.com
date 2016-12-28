@@ -3,6 +3,6 @@
 \*------------------------------------*/
 
 html {
-    font-family: "Open Sans", sans-serif;
+    font-family: $system-fonts;
     @include font-weight(regular);
 }

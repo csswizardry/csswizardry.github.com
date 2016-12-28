@@ -91,11 +91,10 @@ a small footprint. This is then built into [ITCSS](http://itcss.io), a CSS
 architecture of mine which is designed to aid the growth and maintainability of
 CSS projects.
 
-The font used is [Open Sans](http://en.wikipedia.org/wiki/Open_Sans), and is
-served via [Google Fonts](https://www.google.com/fonts). The icons are from the
-[Iconic](https://useiconic.com/) icon system. The photograph used on the
-homepage’s masthead is of me speaking at [DotYork](http://dotyork.com/), and was
-taken by [Jim Poyner](http://jimpoyner.co.uk/).
+Your system font is used wherever possible to give a familiar feel and to help
+improve performance. The photograph used on the homepage’s masthead is of me
+speaking at [DotYork](http://dotyork.com/), and was taken by [Jim
+Poyner](http://jimpoyner.co.uk/).
 
 Responsive testing was made possible by [Finch](https://meetfinch.com/), an
 incredible tool for exposing local dev sites to the open internet.
