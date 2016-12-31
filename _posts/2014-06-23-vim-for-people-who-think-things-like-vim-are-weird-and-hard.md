@@ -40,7 +40,7 @@ _want_ to after reading this post), the simplest way to get started is:
    means <i>delete</i>, `c` means <i>change</i>, and so on. The [main cheatsheet
    here](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html) is
    one of the better ones I’ve seen.
-3. **[Google the rest.](https://www.google.com/webhp#q=change%20entire%20contents%20of%20parenthesis%20vim)**
+3. **[Google the rest.](https://www.google.com/webhp#q=change%20entire%20contents%20of%20parentheses%20vim)**
    The trick with things like Vim (and Git, etc.) is just knowing enough to know
    what to ask Stack Overflow.
 
@@ -49,7 +49,7 @@ Coyier](https://twitter.com/chriscoyier)’s [24 ways](http://24ways.org/) post
 [<cite>Grunt for People Who Think Things Like Grunt are Weird and
 Hard</cite>](http://24ways.org/2013/grunt-is-not-weird-and-hard/).</small>
 
-## In the beginning
+## In the Beginning
 
 Most peoples’ introduction to Vim starts the same way: <q>Why on earth would you
 use this?</q> <q>It’s how old?!</q> <q>You have to type _what_ to quit it?!</q>
@@ -103,7 +103,7 @@ _actually_ does is:
 
 The reason someone would use (or rather, tell _you_ to use) the more verbose
 `<Esc>ggdG` command is that it’s the defensive version; it’s the version that
-will alway work, no matter where in the file, or in which mode, you are.
+will always work, no matter where in the file, or in which mode, you are.
 
 So, one of the first things to note is that ‘verbose’ commands to do one thing
 usually aren’t doing one thing at all.
@@ -121,7 +121,7 @@ It’s very, very important not to take Vim commands at face value; they’re
 usually presented as part of a much bigger, more defensive, more bulletproof
 chain of commands. This is all part of Vim’s composability.
 
-### Learn your text editor
+### Learn Your Text Editor
 
 It might feel a little counterproductive to introduce a learning curve to
 something as basic as a text editor, but if you’re going to spend up to eight or
@@ -136,7 +136,7 @@ that the curve never begins to plateau—you can learn ‘just enough’ in an
 afternoon, but there’s always something more you could learn, or an even more
 efficient method you can work out.
 
-## Widely available
+## Widely Available
 
 Getting stated with Vim is easy: it’s installed on every Unix-like system right
 out of the box. Buy a new Mac? It already has Vim on it. Using someone else’s
@@ -166,7 +166,7 @@ and having to go through any (or all) of the following:
 I know that Vim is free, it’s open source, it’s already on my machine, and I
 control any of its configuration.
 
-## Customisable and extensible
+## Customisable and Extensible
 
 Out of the box, Vim is very simple and surprisingly powerful; it focusses only
 on being a fantastic text editor. That said, you do have the option to massively
@@ -199,7 +199,7 @@ default offering.
 One of the initially most confusing things about Vim is its modes, which
 include, but are not limited to:
 
-* **Command**, which is the ‘normal’ mode for Vim—the one that you’re in
+* **Normal**, which is the ‘normal’ mode for Vim—the one that you’re in
   whenever you open a file.
 * **Insert**, which is the mode you would enter to type stuff.
 * **Visual**, which is a mode in which you can perform all types of highlighting
@@ -207,7 +207,7 @@ include, but are not limited to:
 
 The need for modes might feel quite odd, but a lot of developers—myself
 included—don’t _just_ write code: we read it, we scan it, we review it, we check
-it. Command mode is a mode that I spend a _lot_ of time in. It provides me with
+it. Normal mode is a mode that I spend a _lot_ of time in. It provides me with
 a way to quickly look through large (and small) amounts of code very
 effectively. For example, I can page forward or backward through a large file
 using `Ctrl+f` and `Ctrl+b` respectively; I can jump my cursor
@@ -220,7 +220,7 @@ different Vim commands. I can simply skip to the highest currently visible line
 by hitting `H`, sure, but if I were to hit `dH` then my cursor would jump to the
 `H`ighest currently visible line whilst `d`eleting everything on its way there.
 
-Command mode is where most of the magic happens. This is why it’s the default
+Normal mode is where most of the magic happens. This is why it’s the default
 mode, and the mode I spend most of my time in: manipulating code this way is
 _fast_. I mean, _really_ fast.
 
@@ -250,7 +250,7 @@ of time [reviewing other peoples’
 code](http://csswizardry.com/2013/11/code-reviews-as-a-service/), being able to
 navigate it easily is a must.
 
-## Very literal
+## Very Literal
 
 One of the best things about Vim, and one of the things that makes it quite
 quick to learn and work with, is that its commands are very literal. So much so
@@ -271,7 +271,7 @@ This method of thinking about how you want to manipulate your text, and then
 Just Doing It™, gives rise to the phrase <i>editing at the speed of thought</i>.
 No matter how complex your operation might seem, think it, and you can do it.
 
-## Keyboard shortcuts
+## Keyboard Shortcuts
 
 We all love keyboard shortcuts, right? Right. We all cringe every time we see
 someone use the mouse to head to <i>Edit » Copy</i>, <i>Edit » Paste</i>, right?
@@ -295,7 +295,7 @@ To handle something as specific as that _all_ from the keyboard makes editing so
 much faster than without, and being able to drive your entire editor without
 ever leaving the keyboard makes you surprisingly productive.
 
-## Highly composable
+## Highly Composable
 
 As we’ve briefly looked at, one of Vim’s core principles if that of composition.
 Vim has loads of tiny, single responsibility commands like `d`elete, `y`ank,
@@ -329,7 +329,7 @@ combination we choose, to achieve _very_ specific goals. If I know I can `di{`
 `gUi{`. If I know I can do all that `i`nside braces, I can presume that I must
 be able to do it all _`a`round_ them: `da{`.
 
-Learning Vim isn’t about learning that `<Esc>ggdG` means enter Command mode, go
+Learning Vim isn’t about learning that `<Esc>ggdG` means enter Normal mode, go
 to the top of the file, delete to the bottom of the file, or that `3cit` means
 change the contents of the three nested tags above my cursor, it’s about
 learning that we have a `c`hange command, we have modes we can be in or out of,
@@ -341,7 +341,7 @@ The cognitive overhead of Vim is a _lot_ lower than most people imagine, because
 people don’t realise that we’re just learning a common alphabet, and it’s up to
 _us_ to write the words we want.
 
-## Very minimal
+## Very Minimal
 
 Finally, I just like how plain and simple Vim is to look at and work with.
 
@@ -362,7 +362,7 @@ just get on and work. This is very superficial, and nigh-on impossible to
 quantify, but I find this really helps me focus on whatever it is I’m working
 on.
 
-## Further reading
+## Further Reading
 
 * [Jack Franklin](https://twitter.com/Jack_Franklin) runs a blog called [TIL
   Vim](http://tilvim.com/) through which he shares handy tips.
