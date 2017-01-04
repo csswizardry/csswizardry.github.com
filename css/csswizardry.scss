@@ -34,6 +34,7 @@
  * Images...............inuitcss images
  * Quotes...............Styling for blockquotes, etc.
  * Forms................Form element styling (e.g. LEGEND, LABEL).
+ * Tables...............Basic table styles
  *
  * OBJECTS
  * Wrappers.............Wrappers and page constraints.
@@ -128,6 +129,7 @@
 @import "bower_components/inuit-images/base.images";
 @import "base.quotes";
 @import "base.forms";
+@import "base.tables";
 
 
 

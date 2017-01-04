@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 $spacing-unit:          $inuit-base-spacing-unit;
+$spacing-unit--tiny:    round($inuit-base-spacing-unit--small / 2);
 $spacing-unit--small:   $inuit-base-spacing-unit--small;
 $spacing-unit--large:   $inuit-base-spacing-unit--large;
 

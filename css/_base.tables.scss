@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  #TABLES
+\*------------------------------------*/
+
+table {
+  width: 100%;
+}
+
+th {
+  @include font-weight(bold);
+  text-align: left;
+}
+
+th, td {
+  padding: $spacing-unit--tiny;
+}
+
+thead {
+  border-bottom: 2px solid $color-gray-ui;
+}
