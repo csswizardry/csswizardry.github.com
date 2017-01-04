@@ -67,6 +67,9 @@
  * Newsletter...........Styles specifically for newsletter signups.
  * Video................Videos with aspect ratio.
  *
+ * SCOPES
+ * Post.................Styles scoped specifically to blog post pages
+ *
  * TRUMPS
  * Clearfix.............I can’t believe we still need this in 2014.
  * Widths...............Simple width helper classes.
@@ -211,6 +214,15 @@ $inuit-enable-list-ui--small:   true;
 @import "components.forms";
 @import "components.newsletter";
 @import "components.video";
+
+
+
+
+
+/**
+ * #SCOPES
+ */
+@import "scopes.post";
 
 
 
