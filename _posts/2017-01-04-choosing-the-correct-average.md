@@ -7,12 +7,13 @@ meta: "A look at which average works best for representing certain types of data
 ---
 
 More and more frequently I’m finding myself presenting data to clients. Wether
-it’s through code reviews or performance audits, taking a statistical look at
-code is an important part of my job, and it needs presenting to my clients in a
-way that is representative and honest. This has led me more and more into
-looking at different averages, and knowing when to use the correct one for each
-scenario. Interestingly, I have found that the mean, the average most commonly
-referred to as simply <q>the average</q>, is usually the least useful.
+it’s through [code reviews or performance
+audits](http://csswizardry.com/code-reviews/), taking a statistical look at code
+is an important part of my job, and it needs presenting to my clients in a way
+that is representative and honest. This has led me more and more into looking at
+different averages, and knowing when to use the correct one for each scenario.
+Interestingly, I have found that the mean, the average most commonly referred to
+as simply <q>the average</q>, is usually the least useful.
 
 I want to step through the relative merits of each, using some real life
 examples.
