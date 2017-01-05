@@ -41,12 +41,10 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <i class="sprite  sprite--en"></i> <a href="http://dxnevent.com/">Design Exchange</a>, Nottingham, (UK), January 2017
   </li>
 
-  <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--is"></i> <a href="http://www.icewebconference.com/">IceWeb Conference</a>, Reykjavik, (Iceland) January 2017
+    <i class="sprite  sprite--is"></i> <a href="http://svef.is/vidburdir/Iceweb2017/">IceWeb Conference</a>, Reykjavik, (Iceland) January 2017
   </li>
-  -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
