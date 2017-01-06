@@ -124,18 +124,18 @@ This is where the magic happens--we use CSS to transform a series of nested `<ul
         display: block;
         padding: 5px;
         color: #fff;
-        background: #333;
+        background-color: #333;
         text-decoration: none;
     }
     .nav a:hover {
         color: #fff;
-        background: #6b0c36;
+        background-color: #6b0c36;
         text-decoration: underline;
     }
     
     /*--- DROPDOWN ---*/
     .nav ul {
-        background: #fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+        background-color: #fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
         background: rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
         list-style: none;
         position: absolute;
@@ -152,14 +152,14 @@ This is where the magic happens--we use CSS to transform a series of nested `<ul
         left: 0; /* Bring back on-screen when needed */
     }
     .nav li:hover a { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-        background: #6b0c36;
+        background-color: #6b0c36;
         text-decoration: underline;
     }
     .nav li:hover ul a { /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
         text-decoration: none;
     }
     .nav li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
-        background: #333;
+        background-color: #333;
     }
 
 Just a regular horizontal navigation menu…
@@ -171,7 +171,7 @@ One thing of note however is applying `position: relative;` to the list items, t
 ### The nested lists
 
     .nav ul {
-        background: #fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+        background-color: #fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
         background: rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
         list-style: none;
         position: absolute;
@@ -206,7 +206,7 @@ And this is where the magic happens…
 The final bit of code is the bit that actually makes the dropdown appear when the list item that contains it is hovered. Now, as the `:hover` pseudo-class only works on the `<a>` element in IE6, the dropdowns won't work in _that_ browser. That can be alleviated by using a variety of fixes. However, as dropdowns are progressive, then we're okay with them not working. If you do however want to get this working in IE6 then my favoured solutions is by [using _behaviours_](http://www.xs4all.nl/~peterned/csshover.html).
 
     .nav li:hover a { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-        background: #6b0c36;
+        background-color: #6b0c36;
         text-decoration: underline;
     }
 
@@ -230,7 +230,7 @@ Here we override certain aspects of the persisting hover state so that the dropd
 We also add a touch of Webkit goodness, telling the links to transform. `-webkit-transition: -webkit-transform 0.075s linear;` tells Webkit to animate the `-webkit-transform` we apply later on in the code over 0.075 seconds with no fade-in/out. Look out for the initiation of this in the next (and final) block of CSS.
 
     .nav li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
-        background: #333;
+        background-color: #333;
     }
 
 ## Final word
