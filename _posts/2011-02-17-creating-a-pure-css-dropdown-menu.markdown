@@ -197,8 +197,6 @@ Next up we declare `opacity:0;` for the hidden `<ul>` and then a Webkit only dec
         left:0; /* Bring back on-screen when needed */
     }
 
-[![](http://www.venturelab.co.uk/devblog/wp-content/uploads/2010/06/gap.jpg)](http://www.venturelab.co.uk/devblog/wp-content/uploads/2010/06/gap.jpg) _Above: The 1px gap achieved by the `padding-top:1px;` applied to the list-item_
-
 Here we set up the default list item and link styles. Notice the padding-top:1px; on the `<li>`. As all the colours etc are applied to the `<a>`, putting a 1px padding on the `<li>` in effect pushes the `<a>`--and therefore the colour--away from the edge of the list item, giving it the illusion that they are all separated. Interestingly, IE will not recognise the layout of the `<li>` when hovered, closing the dropdown again. To get round this, I added a [1×1px transparent `gif`](http://www.venturelab.co.uk/img/css/dot.gif) image as a background. Also here we remove the floats applied earlier.
 
 Next, on `#nav ul a`, we apply `white-space:nowrap;` to prevent items wrapping onto two lines, ensuring a consistent display.
