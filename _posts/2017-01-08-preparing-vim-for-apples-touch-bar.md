@@ -58,6 +58,10 @@ inoremap jj <esc>
 inoremap jk <esc>
 ```
 
+This creates an `i`nsert mode `no`n-`re`cursive `map` from `jj` and `jk` to
+`<Esc>`. For more information on mapping either run `:help map.txt`, or see [the
+online documentation](http://vimhelp.appspot.com/map.txt.html).
+
 This only really helps us out if we’re in Normal mode though: if we’re in Visual
 mode it’s just going to move our selection up or down, and Command mode will
 literally write the characters out. What else can we do?
