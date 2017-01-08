@@ -66,6 +66,7 @@
  * Forms................Form styles.
  * Newsletter...........Styles specifically for newsletter signups.
  * Video................Videos with aspect ratio.
+ * Footnotes............Article footnote styles
  *
  * SCOPES
  * Post.................Styles scoped specifically to blog post pages
@@ -214,6 +215,7 @@ $inuit-enable-list-ui--small:   true;
 @import "components.forms";
 @import "components.newsletter";
 @import "components.video";
+@import "components.footnotes";
 
 
 

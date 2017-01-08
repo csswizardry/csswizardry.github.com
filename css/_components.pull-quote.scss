@@ -6,7 +6,8 @@
     @include font-size(20px);
     color: $color-quote;
     padding-left: 0.5 * $spacing-unit;
-    border-left: 0.5 * $spacing-unit solid $color-tint;
+    border-left: 0.5 * $spacing-unit solid $color-brand;
+    border-radius: $base-round;
     margin-right: 0;
     margin-left:  0;
 
@@ -51,7 +52,7 @@
         margin-right: 0.5 * $spacing-unit;
         padding-right: 0.5 * $spacing-unit;
         padding-left: 0;
-        border-right: 0.5 * $spacing-unit solid $color-tint;
+        border-right: 0.5 * $spacing-unit solid $color-brand;
         border-left: none;
         text-align: right;
     }
