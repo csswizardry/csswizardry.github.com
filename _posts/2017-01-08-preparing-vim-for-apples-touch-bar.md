@@ -46,7 +46,7 @@ _bookkeeper_. (Although I think that might be the first time I’ve ever actuall
 written the word bookkeeper. (Interestingly, _bookkeeper_ is the only English
 word that has three consecutive double letters.)))
 
-This means that any time I’m typing, hitting either `jk` or `jj` gets be back
+This means that any time I’m typing, hitting either `jk` or `jj` gets me back
 into Normal mode and leaves my fingers primed for moving up or down. I always
 use this instead of `<Esc>` to get from Insert to Normal.
 
