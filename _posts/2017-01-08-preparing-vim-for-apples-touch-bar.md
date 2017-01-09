@@ -14,7 +14,7 @@ that might have quite an impact: how best to prepare for it?
 ## Background
 
 Vim is a [modal editor](https://en.wikipedia.org/wiki/Vi#Interface). Unlike most
-text editors—where you’re ready to type as soon as it opens—Vim loads itself in
+text editors⁠—⁠where you’re ready to type as soon as it opens⁠—⁠Vim loads itself in
 _Normal_ mode, and you have to make a conscious choice to enter _Insert_ mode in
 order to begin typing. Once you’ve finished typing, you need to get yourself
 back into Normal mode again. To do this, one of the most common options is to
@@ -23,7 +23,7 @@ hit Escape, or `<Esc>`.
 The reason `<Esc>` is used is because Bill Joy, the author of Vim’s predecessor,
 _Vi_, used an [ADM-3A](https://en.wikipedia.org/wiki/ADM-3A) terminal whose
 [`<Esc>` key was located where today’s `<Tab>`
-is](https://en.wikipedia.org/wiki/ADM-3A#/media/File:KB_Terminal_ADM3A.svg)—far
+is](https://en.wikipedia.org/wiki/ADM-3A#/media/File:KB_Terminal_ADM3A.svg)⁠—⁠far
 more convenient than its top-left location today.
 
 There are actually many other modes besides Insert and Normal, and switching
@@ -34,8 +34,8 @@ How can we switch between modes without having an Escape key?[^1]
 
 ## Remap Other Keys
 
-For almost as long as I’ve been using Vim—which is [a long time
-now](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)—I’ve
+For almost as long as I’ve been using Vim⁠—⁠which is [a long time
+now](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)⁠—⁠I’ve
 been using `jj` and `jk` to leave Insert mode. These mappings are on the [Home
 Row](https://en.wikipedia.org/wiki/Touch_typing#Home_row), so always easy to
 reach, and the letter pairs very rarely (if ever) occur in the English language.
