@@ -27,7 +27,7 @@ It’s something I am keen to do more of.
 ## The State of Web Performance
 
 I feel like we have a problem: as technologies improve, tools are becoming more
-costly; as connectivity becomes more ubiquitous; pages are growing heavier; and
+costly; as connectivity becomes more ubiquitous, pages are growing heavier; and
 as more and more people are coming online, the web is getting slower. It’s like
 there are two workstreams flowing in opposite directions.
 
