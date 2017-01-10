@@ -16,11 +16,11 @@ see why.
 
 Over the past three years of consultancy work I’ve helped some [amazing
 people](/#section:clients) level up their CSS architecture, but there’s also
-been a lot of other work that’s happened alongside that. With a great majority
-of these clients, we’ve also taken a look at how their sites actually perform
-both over the wire and on users’ devices. I’ve helped companies large and small
-focus entirely on optimising performance, and it’s something I am very serious
-and passionate about.
+been a lot of other work that’s happened alongside it. With a great majority of
+these clients, we’ve also taken a look at how their sites actually perform both
+over the wire and on users’ devices. I’ve helped companies large and small focus
+entirely on optimising performance, and it’s something I am very serious and
+passionate about.
 
 It’s something I am keen to do more of.
 
@@ -39,7 +39,7 @@ there are two workstreams flowing in opposite directions.
 
 The people tasked with building websites and applications often forget that they
 tend to do so in a bubble of wired connections and powerful machines, failing to
-understand the real-world conditions that people use their products in. The
+understand the real-world conditions in which people use their products. The
 [next Billion](https://qz.com/on/the-next-billion/) (with a capital <i>B</i>)
 internet users certainly [do not enjoy](https://www.webworldwide.io/) the
 increasingly Westernised conditions for which we seem to build things.
