@@ -26,6 +26,12 @@ It’s something I am keen to do more of.
 
 ## The State of Web Performance
 
+<blockquote class="pull-quote  pull-quote--context-alt" id="quote:tim-kadlec">
+  <p>There is a short list of people I whole-heartedly recommend for detailed
+  performance work and Harry is right up there at the top.</p>
+  <b class="source  pull-quote__source"><a href="https://timkadlec.com/">Tim Kadlec</a></b>
+</blockquote>
+
 I feel like we have a problem: as technologies improve, tools are becoming more
 costly; as connectivity becomes more ubiquitous, pages are growing heavier; and
 as more and more people are coming online, the web is getting slower. It’s like
