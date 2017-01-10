@@ -41,3 +41,17 @@ you tweeted at me, or sent me a follow-up email, to remind me to reply.
   <dd>For infrequent updates about discounts, exclusive content, resources, etc.</dd>
 
 </dl>
+
+## Postal Address
+
+My office is based in the centre of Leeds, at [Duke
+Studios](http://duke-studios.com/):
+
+<address>
+CSS Wizardry Ltd.<br />
+℅ Duke Studios<br />
+3 Sheaf Street<br />
+Leeds<br />
+LS10 1HD<br />
+UK
+<address>

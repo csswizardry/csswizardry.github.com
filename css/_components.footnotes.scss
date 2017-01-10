@@ -1,8 +1,7 @@
 /*------------------------------------*\
-    #PAGE
+  #FOOTNOTES
 \*------------------------------------*/
 
-html {
-    font-family: $system-fonts;
-    @include font-weight(regular);
+.footnotes {
+  @include font-size(12px);
 }

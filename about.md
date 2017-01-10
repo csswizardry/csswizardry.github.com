@@ -12,7 +12,7 @@ companies all over the world write better quality, more manageable, more
 scalable user interfaces. I am [available for work](/services/).
 
 <figure>
-  <img src="/img/content/me.jpg" alt="">
+  <img src="{{ site.cdn }}/img/content/me.jpg" alt="">
   <figcaption>
     On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
     <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
@@ -61,7 +61,7 @@ great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
 <b>advice</b>, <b>development</b>, and more are all available to clients of all
 shapes and sizes, all over the world.
 
-_![Harry](/img/content/signature.png)_
+_![Harry]({{ site.cdn }}/img/content/signature.png)_
 
 <a href="http://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
@@ -91,11 +91,10 @@ a small footprint. This is then built into [ITCSS](http://itcss.io), a CSS
 architecture of mine which is designed to aid the growth and maintainability of
 CSS projects.
 
-The font used is [Open Sans](http://en.wikipedia.org/wiki/Open_Sans), and is
-served via [Google Fonts](https://www.google.com/fonts). The icons are from the
-[Iconic](https://useiconic.com/) icon system. The photograph used on the
-homepage’s masthead is of me speaking at [DotYork](http://dotyork.com/), and was
-taken by [Jim Poyner](http://jimpoyner.co.uk/).
+Your system font is used wherever possible to give a familiar feel and to help
+improve performance. The photograph used on the homepage’s masthead is of me
+speaking at [DotYork](http://dotyork.com/), and was taken by [Jim
+Poyner](http://jimpoyner.co.uk/).
 
 Responsive testing was made possible by [Finch](https://meetfinch.com/), an
 incredible tool for exposing local dev sites to the open internet.

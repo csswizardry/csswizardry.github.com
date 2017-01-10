@@ -25,6 +25,15 @@ permalink: /case-studies/
             </h2>
         </a>
     </li>
+
+    <li class="feature-list__item">
+        <a href="raspberry-pi-code-club-workshop/" class="feature-list__link" style="background-image: linear-gradient(to bottom right, #c7053d 0%, #c7053d 50%, #393 50%, #393 100%);">
+            <h2 class="feature-list__title">
+                Raspberry Pi &amp; Code Club
+                <span class="feature-list__sub">Workshop</span>
+            </h2>
+        </a>
+    </li>
     -->
 
     <li class="feature-list__item">

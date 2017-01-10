@@ -1,0 +1,16 @@
+/*------------------------------------*\
+  #TABLES
+\*------------------------------------*/
+
+table {
+  width: 100%;
+}
+
+th {
+  @include font-weight(bold);
+  text-align: left;
+}
+
+th, td {
+  padding: $spacing-unit--tiny;
+}
