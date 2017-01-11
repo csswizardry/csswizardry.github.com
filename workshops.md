@@ -37,10 +37,10 @@ developers to deliver websites to users in record times. You will learn
 * how to prepare for the performance landscape of tomorrow.
 
 <blockquote class="pull-quote" id="quote:parallax">
-  <p>We hired Harry to provide [front-end] performance consultancy on a high
+  <p>We hired Harry to provide performance consultancy on a high
   profile and highly trafficked website for one of Europe’s most recognised
-  authorities. His detailed and intricate knowledge of how both the network and
-  the browser work allowed him to improve performance by over 400%, all without
+  authorities. His detailed and intricate knowledge of how the network and the
+  browser work allowed him to improve performance by over 400%, all without
   sacrificing or removing any assets or features from any of the website. By
   analysing how the site was put together, and how browsers were dealing with
   it, he managed to optimise and restructure things in such a way that load
