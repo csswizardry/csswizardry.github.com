@@ -51,7 +51,7 @@ one](https://trello.com/csswizardry/recommend).
 
 ---
 
-## The columns
+## The Columns
 
 The most fundamental part of any Trello board is its columns. At Sky, we had
 around 18 (yes, one-eight) columns on our board, but they worked—they all had a
@@ -81,7 +81,7 @@ current setup has the following columns, which I will explain in more detail:
 * Ready for release
 * Released
 
-### Product backlog
+### Product Backlog
 
 The <i>Product backlog</i> is the product’s wishlist: This is the stuff that we
 might want to build at some point. This can be seen as a dumping ground of ideas
@@ -92,7 +92,7 @@ source of tasks for all future sprints.
 Sufficiently mature products/projects might have their own <i>Roadmap</i> Trello
 board elsewhere.
 
-### Sprint backlog
+### Sprint Backlog
 
 The <i>Sprint backlog</i> is the stuff that the team has committed to building
 in this current sprint. It is sourced from the cards in the <i>Product
@@ -139,7 +139,7 @@ Implementation should cover the bare minimum to get that task considered
 complete: testing and approval are separate tasks to actually implementing the
 feature.
 
-### Implementation done
+### Implementation Done
 
 This is probably the one column that _everyone’s_ board could use right away. No
 matter what process you have already, this column is _so_ useful.
@@ -161,7 +161,7 @@ yet. Anything in <i>Implementation done</i> says ‘Hey, my developer thinks I�
 complete, so someone please feel free to come along and test me.’ This column
 becomes the <i>to do</i> list for the next people on the process.
 
-### (User) acceptance testing
+### (User) Acceptance Testing
 
 User acceptance testing (<i>UAT</i>) is when a client or Product Owner takes a
 look at the task and either approves or disapproves it based on whatever
@@ -169,7 +169,7 @@ criteria you’re working toward. Anything that fails UAT would typically be mov
 back into the <i>Sprint backlog</i> column until someone is available to amend
 whatever was wrong with the work.
 
-### Ready for release
+### Ready for Release
 
 <i>Ready for release</i>, predictably, is any work that has been done, approved,
 and is waiting to be put live. For me, this usually means merging it into
@@ -185,7 +185,7 @@ me publicly releasing a new feature of [inuitcss](https://twitter.com/inuitcss).
 
 ---
 
-## The labels
+## The Labels
 
 When I used to use a physical board, we had different coloured index cards to
 represent different types of task. Yellow index cards represented features or
@@ -212,14 +212,14 @@ and purple implies a design bug: perhaps the logo is fuzzy on retina devices.
 Green and blue and purple means that we’re to design and build a new feature:
 perhaps a carousel for the homepage.
 
-### Feature/improvement
+### Feature/Improvement
 
 Anything labelled <i>Feature/improvement</i> is something that isn’t in the
 product now, but should be. It’s additional functionality or behaviour that
 somehow improves or enhances the product. Most things tend to fall under this
 category.
 
-### Copy/content
+### Copy/Content
 
 This label means that the card concerns itself with the creation or acquiring of
 content, for example, writing up the FAQs, or getting employee biographies from
@@ -235,7 +235,7 @@ card entitled <i>Price comparison matrix</i> which deals with the design and
 build of displaying these pricing tiers, but the tiers themselves are a product
 task, not a technical one.
 
-### Bug/tech debt/blocked
+### Bug/Tech Debt/Blocked
 
 Red was the clear choice for this type of card: anything that is labelled red
 typically needs fairly immediate attention.
@@ -288,7 +288,7 @@ lets the rest of the team know what everyone else is up to at a glance.
 
 ---
 
-## Reading a Kanban board
+## Reading a Kanban Board
 
 The beauty of a Kanban board—aside from their excellent way of organising
 things—is that they are easily read at a glance. A Kanban board gives a great
@@ -317,7 +317,7 @@ could quickly refactor.
 
 ---
 
-## Extending this
+## Extending This
 
 This is just my setup, and only the parts of it that are general enough to
 share. There are some more specific things I do, but they’re too detailed to be
