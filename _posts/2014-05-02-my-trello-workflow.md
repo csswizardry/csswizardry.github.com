@@ -19,8 +19,8 @@ releasing little, early, and often; you name it.
 [a public demo](https://trello.com/b/KaRKUPfD) of the Trello board that I use
 for development work—just one small aspect of running an agile project. This
 post won’t teach you anything about running an agile project or team—you can
-[hire me for that](/work)—but it might help you set up a decent Kanban board if
-you already know how to work agile.
+[hire me for that](/contact/)—but it might help you set up a decent Kanban board
+if you already know how to work agile.
 
 You will probably want to have this Trello board open as you read this article,
 because things will make a lot more sense if you can have a look around for
