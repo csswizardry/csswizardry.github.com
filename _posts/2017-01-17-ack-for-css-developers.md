@@ -128,7 +128,7 @@ This pretty complex regex does a few things:
 This means we will find IDs, but not hex values.
 
 **N.B.** Because of Sass’ nesting abilities, nested code containing hex values
-become a false positive. As such, only run this regex over your compiled CSS.
+becomes a false positive. As such, only run this regex over your compiled CSS.
 Please refer to [the demo](https://regex101.com/r/BhVEcz/1).
 
 ## Background Shorthand
