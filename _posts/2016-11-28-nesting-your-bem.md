@@ -3,7 +3,7 @@ layout: post
 title: "Nesting Your BEM?"
 date: 2016-11-28 12:50:39
 categories: Web Development
-meta: "A look at the possible benefits off nesting BEM, and mitigating the side effects"
+meta: "A look at the possible benefits of nesting BEM, and mitigating the side effects"
 ---
 
 Let me please start this post by saying that this is **not a recommendation or
