@@ -41,10 +41,9 @@ As simple as that!
 For other operating systems, check [the official installation
 guide](http://beyondgrep.com/install/).
 
-To use Ack, you’ll probably want to `cd` into the root of your project, or
-the root of your CSS directory. Ack searches all directories on and below your
-current location. Here’s what my terminal looks like whilst writing this
-article:
+To use Ack, you’ll probably want to `cd` into the root of your project, or the
+root of your CSS directory. Ack searches all files on and below your current
+location. Here’s what my terminal looks like whilst writing this article:
 
 ```
 harryroberts in ~/Sites/csswizardry.com on (master)
