@@ -9,13 +9,13 @@ meta: "Using the Ack tool to audit and profile your CSS"
 [Ack](http://beyondgrep.com/) is a powerful and very user-friendly alternative
 to grep. Designed for programmers, it’s purpose-built to run searches over
 source code. By default it will ignore your `.git` or `.svn` directories, and
-you can tell it which types of files you’d like it to look for! For example:
+you can tell it which types of files you’d like it to search in! For example:
 
 ```
 $ ack --html "foo"
 ```
 
-Will search for the string `foo` only in your HTML files. Neat, huh?
+…will search for the string `foo` only in your HTML files. Neat, huh?
 
 I use Ack as part of auditing a project, or when trying to find my way around a
 larger codebase. It’s also pretty useful for tracking down bugs and oddities. In
