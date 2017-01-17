@@ -15,7 +15,13 @@ you can tell it which types of files you’d like it to search in! For example:
 $ ack --html "foo"
 ```
 
-…will search for the string `foo` only in your HTML files. Neat, huh?
+…will search for the string `foo` only in your HTML files.
+
+```
+$ ack --html --js --css "bar"
+```
+
+…will search for the string `bar` in your HTML, JS, and CSS files. Neat, huh?
 
 I use Ack as part of auditing a project, or when trying to find my way around a
 larger codebase. It’s also pretty useful for tracking down bugs and oddities. In
