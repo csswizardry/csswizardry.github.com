@@ -23,6 +23,10 @@ $ ack --html --js --css "bar"
 
 …will search for the string `bar` in your HTML, JS, and CSS files. Neat, huh?
 
+Get into the habit of always wrapping your search terms in quotes. Without this,
+we run the risk of our search terms and regexes being interpreted as command
+line arguments.
+
 I use Ack as part of auditing a project, or when trying to find my way around a
 larger codebase. It’s also pretty useful for tracking down bugs and oddities. In
 this short post, we’ll look at a small number of ways CSS developers can make
@@ -110,15 +114,18 @@ We definitely [shouldn’t be using IDs in
 CSS](http://cssguidelin.es/#ids-in-css), so let’s look for them:
 
 ```
-$ ack --css "#[-_a-zA-Z][-_a-zA-Z0-9]*(?=[^}]*\{)"
+$ ack --css -i "#[-_a-z][-_a-z0-9]*(?=[^}]*\{)"
 ```
+
+Firstly, notice the `-i` flag. This tells Ack to run our regexes case
+insensitively.
 
 This pretty complex regex does a few things:
 
 * `#` finds a literal hash (`#`) symbol.
-* `[-_a-zA-Z]` finds a single hyphen (`-`), underscore (`_`), lowercase `a-z`,
-  or uppercase `A-Z` character, denoting a valid start to an ID.
-* `[-_a-zA-Z0-9]*` does almost exactly the same as above, except this time we’re
+* `[-_a-z]` finds a single hyphen (`-`), underscore (`_`), or case insensitive
+  `a-z`, denoting a valid start to an ID.
+* `[-_a-z0-9]*` does almost exactly the same as above, except this time we’re
   looking for zero or more (`*`) characters, and for digits as well (`0-9`).
   We’re doing this separately from the previous lookup because IDs can’t start
   with numbers.
@@ -135,7 +142,7 @@ Please refer to [the demo](https://regex101.com/r/BhVEcz/1).
 
 
 ```
-$ ack --css "background:\s#[a-fA-F0-9]*;"
+$ ack --css -i "background:\s*#[a-f0-9]*;"
 ```
 
 I [recently
@@ -147,7 +154,8 @@ probably look for that whilst we’re here.
 * `\s*` matches zero or more units of whitespace between the colon and the
   beginning of a hex value.
 * `#` is the literal hash symbol (`#`), the beginning of a hex value.
-* `[a-fA-F0-9]*` is a valid hex value (e.g. `#f00`, `#BADA55`).
+* `[a-f0-9]*` is a valid hex value (e.g. `#f00`, `#BADA55`). Setting the `-i`
+  flag means that our regex is now case insensitive.
 * `;` matches the literal semi-colon character (`;`) which denotes the
   termination of the declaration.
 
