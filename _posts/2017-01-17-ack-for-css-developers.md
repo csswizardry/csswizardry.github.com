@@ -178,7 +178,7 @@ for them.
 * `r?em` makes the `r` optional, so we can match either `rem` or `em` at the
   same time.
 
-See [the demo](https://regex101.com/r/ZIG2s2/1).
+See [the demo](https://regex101.com/r/EoH8Z6/1).
 
 Those are just a few of the most common things I search CSS files for as part of
 an audit, but of course Ack can help me find all manner of things, from finding
