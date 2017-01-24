@@ -52,7 +52,7 @@ development](http://www.smashingmagazine.com/smashing-book-4-new-perspectives/),
 and lead developer of the increasingly popular, open-source, OOCSS framework
 [<cite>inuitcss</cite>](http://twitter.com/inuitcss). For a more comprehensive
 overview, you can [find me on
-LinkedIn](Profilehttps://uk.linkedin.com/in/csswizardry).
+LinkedIn](https://uk.linkedin.com/in/csswizardry).
 
 Most importantly, I am <strong>available for hire</strong> to help people build
 great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
