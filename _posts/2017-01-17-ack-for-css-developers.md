@@ -146,7 +146,7 @@ $ ack --css -i "background:\s*#[a-f0-9]*;"
 ```
 
 I [recently
-wrote](http://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/)
+wrote](https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/)
 about how I consider background shorthand syntax an anti-pattern, so we should
 probably look for that whilst we’re here.
 

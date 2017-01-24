@@ -8,7 +8,7 @@ meta: "A look at which average works best for representing certain types of data
 
 More and more frequently I’m finding myself presenting data to clients. Wether
 it’s through [code reviews or performance
-audits](http://csswizardry.com/code-reviews/), taking a statistical look at code
+audits](https://csswizardry.com/code-reviews/), taking a statistical look at code
 is an important part of my job, and it needs presenting to my clients in a way
 that is representative and honest. This has led me more and more into looking at
 different averages, and knowing when to use the correct one for each scenario.
@@ -69,7 +69,7 @@ have a different outcome altogether:
 Paying £55.50 each to subsidise Chad’s expensive taste isn’t quite so fair.
 
 I’ve mentioned issues with the mean before, in my previous [post about
-Parker](http://csswizardry.com/2016/06/improving-your-css-with-parker/).
+Parker](https://csswizardry.com/2016/06/improving-your-css-with-parker/).
 Sometimes it’s nicer to know either a more representative single number, or to
 know that _most values are <var>x</var>_.
 

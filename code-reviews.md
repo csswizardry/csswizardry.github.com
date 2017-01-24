@@ -35,7 +35,7 @@ product, site or app in question, but also—and more importantly—a formal
 document based around your own code which would prevent you making the same
 mistakes in future. A tailored lesson, centred around your own work. For a more
 detailed overview of the service, please read [the associated blog
-post](http://csswizardry.com/2013/11/code-reviews-as-service/). If you have
+post](https://csswizardry.com/2013/11/code-reviews-as-service/). If you have
 _any_ questions about code reviews then please feel free to [email
 me](mailto:csswizardry@gmail.com).
 

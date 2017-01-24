@@ -35,7 +35,7 @@ How can we switch between modes without having an Escape key?[^1]
 ## Remap Other Keys
 
 For almost as long as I’ve been using Vim⁠—⁠which is [a long time
-now](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)⁠—⁠I’ve
+now](https://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/)⁠—⁠I’ve
 been using `jj` and `jk` to leave Insert mode. These mappings are on the [Home
 Row](https://en.wikipedia.org/wiki/Touch_typing#Home_row), so always easy to
 reach, and the letter pairs very rarely (if ever) occur in the English language.
