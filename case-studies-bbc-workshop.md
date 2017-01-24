@@ -53,7 +53,7 @@ standardised manner to try and make team-working more seamless.
 <b>In the afternoon</b>, I joined a much smaller team of just BBC Sport
 developers for a Q&A session, looking at, and reviewing, the work they were
 already doing, and how they might improve or adjust it. A group [code
-review](http://csswizardry.com/services/#section-code-reviews) of sorts.
+review](https://csswizardry.com/services/#section-code-reviews) of sorts.
 
 The day ended with a brief hacking session, experimenting with creating UI
 components as discrete packages, and managing them with
