@@ -40,10 +40,8 @@ with clients including the <b>United Nations</b>, the <b>BBC</b>, the
 architecture and front-end performance for large and long-lived sites and
 applications.
 
-I [write](https://csswizardry.com/2013/12/i-wrote-part-of-a-book/),
-[work](https://csswizardry.com/services/),
-[speak](https://csswizardry.com/speaking/), and [run
-workshops](https://csswizardry.com/workshops/) across the globe covering
+I [write](/2013/12/i-wrote-part-of-a-book/), [work](/services/),
+[speak](/speaking/), and [run workshops](/workshops/) across the globe covering
 pragmatic, product-led approaches to building and scaling large front-ends for
 long-running projects and products. I specialise in CSS architecture,
 scalability, front-end performance, and design process and strategy.

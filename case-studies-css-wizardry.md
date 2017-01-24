@@ -82,8 +82,8 @@ my open-source, Sass-based, OOCSS framework. inuitcss is currently (at the time
 of writing) in a state of flux: its GitHub repos are a collection of pre-alpha
 modules that, although stable, are still, as yet, unofficial. Despite that, I
 know that I have complete faith in the new version of inuitcss—the [NHSx
-site](https://csswizardry.com/case-studies/nhs-nhsx-elearning-platform/) was
-built on the pre-alpha modules with great success.
+site](/case-studies/nhs-nhsx-elearning-platform/) was built on the pre-alpha
+modules with great success.
 
 Using inuitcss (installed via its [Bower](http://bower.io/) packages) meant that
 I had the UI’s framework and architecture set up in less than half-an-hour. This

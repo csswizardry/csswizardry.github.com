@@ -127,7 +127,7 @@ available to attendees for the entire duration of the event. I will attend all
 social activities surrounding the event. I will deliver a quality talk of
 practical relevance. I will gladly allow you to record and distribute my talk.
 [I hold myself to a high
-standard](https://csswizardry.com/2016/06/speakers-checklist-before-and-after-your-talk/).
+standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
 <a href="mailto:csswizardry@gmail.com?subject=Speaking%20Request" class="btn  btn--full">Sound okay? <strong>Get in touch!</strong></a>
 

@@ -35,9 +35,8 @@ product, site or app in question, but also—and more importantly—a formal
 document based around your own code which would prevent you making the same
 mistakes in future. A tailored lesson, centred around your own work. For a more
 detailed overview of the service, please read [the associated blog
-post](https://csswizardry.com/2013/11/code-reviews-as-service/). If you have
-_any_ questions about code reviews then please feel free to [email
-me](mailto:csswizardry@gmail.com).
+post](/2013/11/code-reviews-as-service/). If you have _any_ questions about code
+reviews then please feel free to [email me](mailto:csswizardry@gmail.com).
 
 <blockquote class="pull-quote" id="quote:darius-contractor">
   <p>We sliced 1.5s off PhotoSugar’s page load times using Harry’s knowledge.</p>
