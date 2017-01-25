@@ -52,6 +52,18 @@ To this end, I think that HTTPS is as much an exercise in branding and trust as
 it is in security, and that it will steadily become more and more ubiquitous.
 This is only a good thing.
 
+Further, HTTPS is required in order for certain other technologies to be
+utilised:
+
+* **Brotli**, an improved compression algorithm from Google, needs to run over
+  HTTPS because of third parties (ISPs, proxies, etc.) infamously trying to
+  recompress already compressed transfer. By preventing them getting at it in
+  the first place, it means that they can’t try running gzip over a new, unknown
+  content encoding (e.g. Brotli).
+* **Service Worker** absolutely needs to run over HTTPS, because it’s basically
+  a man in the middle. We’re building a proxy that sits in between our users and
+  our servers, so the need for security there should be pretty clear.
+
 ## HTTP/2
 
 HTTP/2 (or H2, as it’s commonly referred to) is a vast, vast improvement on the
@@ -71,18 +83,6 @@ inlining strategies we came up with as hacks, and will instead allow us to
 deliver faster experiences with simpler architectures: we can optimise assets
 all we like, but there is no denying that HTTP/2 gives developers an astounding
 performance boost right out of the box.
-
-Further, HTTP/2 is required in order for certain other technologies to be
-utilised:
-
-* **Brotli**, an improved compression algorithm from Google, needs to run over
-  HTTP/2 because of third parties (ISPs, proxies, etc.) infamously trying to
-  recompress already compressed transfer. By preventing them getting at it in
-  the first place, it means that they can’t try running gzip over a new, unknown
-  content encoding (e.g. Brotli).
-* **Service Worker** absolutely needs to run over HTTP/2, because it’s basically
-  a man in the middle. We’re building a proxy that sits in between our users and
-  our servers, so the need for security there should be pretty clear.
 
 Currently I’m not making that much use of anything HTTP/2 offers me other than
 multiplexing and header compression (because I didn’t even have to lift a
