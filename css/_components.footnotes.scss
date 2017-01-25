@@ -4,4 +4,9 @@
 
 .footnotes {
   @include font-size(12px);
+
+  p {
+    margin-bottom: 0;
+  }
+
 }

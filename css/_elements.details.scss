@@ -1,0 +1,24 @@
+/*------------------------------------*\
+  #DETAILS
+\*------------------------------------*/
+
+details {
+}
+
+summary {
+  color: $color-brand;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &:hover,
+  &:focus,
+  [open] & {
+      text-decoration: underline;
+  }
+
+}
