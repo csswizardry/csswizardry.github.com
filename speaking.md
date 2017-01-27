@@ -38,11 +38,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <i class="sprite  sprite--is"></i> <a href="https://2017.iceweb.is/">IceWeb Conference</a>, Reykjavik, (Iceland) January 2017
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
     <i class="sprite  sprite--ie"></i> <a href="http://www.meetup.com/DublinCSS/">DublinCSS</a>, Dublin, (Ireland) February 2017
   </li>
 
@@ -144,6 +139,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <i class="sprite  sprite--is"></i> <a href="https://2017.iceweb.is/">IceWeb Conference</a>, Reykjavik, (Iceland) January 2017
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
