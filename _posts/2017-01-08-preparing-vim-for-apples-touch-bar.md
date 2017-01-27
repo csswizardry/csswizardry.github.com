@@ -72,7 +72,7 @@ keyboard change for the sake of just my text editor, but that’s just me.</smal
 
 ## Alternatives to `<Esc>`
 
-Where as `jj` and `jk` are remapped to _act_ like `<Esc>`, it turns out that
+Whereas `jj` and `jk` are remapped to _act_ like `<Esc>`, it turns out that
 there are some native alternatives to `<Esc>` that we can use across modes.
 
 As I mentioned, hitting `jj` and `jk` in Command mode will be interpreted
