@@ -12,7 +12,11 @@ companies all over the world write better quality, more manageable, more
 scalable user interfaces. I am [available for work](/services/).
 
 <figure>
-  <img src="/img/content/me.jpg" alt="">
+  <img src="/img/content/me-750.jpg" alt=""  sizes="(max-width: 1023px) 100vw,
+                                                    (min-width: 1024px) 750px"
+                                            srcset="/img/content/me-480.jpg 480w,
+                                                    /img/content/me-750.jpg 750w,
+                                                    /img/content/me-1024.jpg 1024w" />
   <figcaption>
     On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
     <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
