@@ -47,12 +47,10 @@ increasingly Westernised conditions for which we seem to build things.
 The more I’ve traveled, worked with clients, or talked with developers, the more
 apparent it has become that there is a skills and/or knowledge gap across
 companies: from executive level, all the way down to development teams. A
-conversation I had recently really highlighted this further. Whilst discussing
-the intricacies of a certain performance (anti-)pattern, a developer brazenly
-claimed that <q>…let’s assume an 8MB connection and 50ms RTT.</q>. It’s exactly
-these lines of thinking that I want to help to change.
-
-
+conversation I had recently served to highlight this issue further. Whilst
+discussing the intricacies of a certain performance (anti-)pattern, a developer
+brazenly claimed <q>…let’s assume an 8MB connection and 50ms RTT.</q>. It’s
+exactly these lines of thinking that I want to help to change.
 
 But! The good thing about being in this position is that it gives us a lot of
 room for improvement. Let’s make it better.
