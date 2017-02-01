@@ -145,7 +145,7 @@ then it is 93.
 
 However, if we were to make our own silos of data points, we can begin looking
 at finding a mode: instead of representing each data point individually, we put
-in into a pre-defined bin, e.g. <=60s, >60s, <=90s, etc. Now our data isn’t
+in into a pre-defined bin, e.g. ≤60s, >60s, ≤90s, etc. Now our data isn’t
 whatever-it-ends-up-being, it’s actually inside a category we’re already aware
 of.
 
