@@ -6,6 +6,10 @@
 @import "../tools.all";
 
 /**
+ * This class extends the `.page-head` class found in the base
+ * `_components.page-head.scss` file. The masthead-style page headers are only
+ * used on the homepage, so we pull it out into its own file.
+ *
  * Large site headers act more like mastheads. They have a faux-fluid-height
  * which is controlled by the wrapping element inside it.
  *
