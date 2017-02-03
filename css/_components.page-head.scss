@@ -2,9 +2,6 @@
     #PAGE-HEAD
 \*------------------------------------*/
 
-$header-border-width:   6px;
-$header-max-height:     480px;
-
 /**
  * The site’s main page-head can have two different states:
  *
@@ -42,83 +39,3 @@ $header-max-height:     480px;
 
 
 
-
-/**
- * Large site headers act more like mastheads. They have a faux-fluid-height
- * which is controlled by the wrapping element inside it.
- *
- * 1. Mastheads will typically have dark backgrounds, so we need to make sure
- *    the contrast is okay. This value is subject to change as the background
- *    image changes.
- * 2. We need to delegate a lot of the masthead’s layout to its wrapper element
- *    rather than the masthead itself: it is to this wrapper that most things
- *    are positioned.
- * 3. The wrapper needs positioning context for us to lay our nav and masthead
- *    text in.
- * 4. Faux-fluid-height technique: simply create the illusion of fluid height by
- *    creating space via a percentage padding, and then position everything over
- *    the top of that. This percentage gives us a 16:9 ratio.
- * 5. When the viewport is at 758px wide, our 16:9 ratio means that the masthead
- *    is currently rendered at 480px high. Let’s…
- * 6. …seamlessly snip off the fluid feature at this height, and…
- * 7. …fix the height at 480px. This means that we should see no jumps in height
- *    as the masthead moves from fluid to fixed. This actual value takes into
- *    account the padding and the top border on the header itself.
- */
-.page-head--masthead {
-
-  // Optional Base64 version instead of a gradient.
-  $bg-grad: linear-gradient(to right, #807363 0%, #251d16 50%, #3f302b 75%, #100b09 100%);
-  $bg-grad: url('data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/7gAmQWRvYmUAZMAAAAABAwAVBAMGCg0AAAICAAACpgAAAzEAAAO5/9sAhAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgICAgICAgICAgIDAwMDAwMDAwMDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wgARCAALABADAREAAhEBAxEB/8QAswABAQAAAAAAAAAAAAAAAAAACAcBAQADAAAAAAAAAAAAAAAAAAUBBAYQAAECBgIDAAAAAAAAAAAAAAIAAwETBDQFBhEyFBYHEQAABAQFAgcBAAAAAAAAAAABEQIDEgQUBQBBIhMVITUxMkJTJDQlBhIAAQMDAwUAAAAAAAAAAAAAAQAxEhFBAvDBA5Gh8TJSEwACAgEDBAMBAQAAAAAAAAABEQAhMUFRYfBxgZGh0eGx8f/aAAwDAQACEQMRAAABIJaIutSiMk7MtIZ//9oACAEBAAEFAvtFQORf23C0+Jd3iZ7ttfX/2gAIAQIAAQUCF0H0EDFY/jx4Xf8A/9oACAEDAAEFApRtp6AKpuHrb//aAAgBAgIGPwKvHkCKeVTN6nsi3suR5ae09l//2gAIAQMCBj8CjkDKqEGiOqDtbZcfzprwX//aAAgBAQEGPwL+NtNtFqbfVakuAzLmAOT0+8gBQCFEKCFnPwTiQTKpeBty2SdYt95DwcupsVTqGFISn4odIBIh6kOLR3Xssp9Omq4KN6Kmy2vc9ZRQ5YtR7OxybZ15UkUGo9v9PjIfOWkjh1Y//9oACAEBAwE/IQzU4QJMiWMLKuHEQEIQwd1BBgCcgs+sNdO8Q/8AOpMxIf/aAAgBAgMBPyEqFDBIwDlnhc4hA1qVsSma8zWRlafGHF5Tnj7yujn/2gAIAQMDAT8hNBiNDUjAW7geV2PcGfUev1ng6v8AcqNodyfWp02p/9oADAMBAAIRAxEAABDTX//aAAgBAQMBPxAeMugFju1xEgYfPigDqLBGYpOhGhiR2dLUBNF8pp//2gAIAQIDAT8QYe2yPKCTGAaCjOsFQAqIRQFjLyDkggz9sKv1E/Bc77GqLDpZtT//2gAIAQMDAT8QdksHDCFIPIwswqRmZIroIoIFWzBAJzPxWb+TdeSp2QC1SL6H5XP/2Q==');
-
-    margin-bottom: 0;
-    background-color: #2e2620;
-    background-image: url(/img/css/masthead.jpg), $bg-grad;
-    background-position: center center;
-    @include vendor(background-size, cover);
-    color: $color-masthead; /* [1] */
-    border-top-color: $color-masthead;
-    border-bottom-width: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
-
-    @include media-query(lap-and-up) {
-        background-image: url(/img/css/masthead-medium.jpg), $bg-grad;
-    }
-
-    @include media-query(desk) {
-        background-image: url(/img/css/masthead-large.jpg), $bg-grad;
-    }
-
-    > .wrapper { /* [2] */
-        position: relative; /* [3] */
-        padding-top: 56.25%; /* [4] */
-
-        @media screen and (min-width: 758px) { /* [5] */
-            padding-top: 0; /* [6] */
-            height: $header-max-height - double($spacing-unit) - $header-border-width; /* [7] */
-        }
-
-    }
-
-}
-
-/**
- * Mastheads will have some large text in them. Let’s position that bottom-left.
- */
-.page-head__text {
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    left: auto;
-    color: $color-masthead;
-    @include font-size(24px);
-
-    @include media-query(lap-and-up) {
-        @include font-size(48px);
-    }
-
-    @include media-query(desk) {
-        @include font-size(72px);
-    }
-
-}

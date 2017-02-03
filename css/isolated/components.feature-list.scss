@@ -2,13 +2,16 @@
     #FEATURE-LIST
 \*------------------------------------*/
 
+@import "../settings.all";
+@import "../tools.all";
+
 /**
  * The feature list component houses large, showcase-style blocks of content. It
  * is currently used on the Case Studies page.
  */
 
 .feature-list {
-    @extend %clearfix;
+    @include clearfix();
     margin-left: 0;
     padding: 0;
     list-style: none;

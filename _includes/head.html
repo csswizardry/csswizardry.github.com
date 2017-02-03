@@ -20,7 +20,19 @@
 <link rel="preconnect" href="https://www.google-analytics.com">
 
 <style>
-  {% include csswizardry.min.css %}
+
+  {% include css/csswizardry.min.css %}
+
+  {% if page.page-class == "page--home" %}
+    {% include css/page-head--masthead.css %}
+    {% include css/carousel.css %}
+    {% include css/client-list.css %}
+  {% endif %}
+
+  {% if page.page-class == "page--case-studies" or page.page-class == "page--services" %}
+    {% include css/feature-list.css %}
+  {% endif %}
+
 </style>
 
 <title>{{ page.title }} &ndash; CSS Wizardry &ndash; CSS, OOCSS, front-end architecture, performance and more, by Harry Roberts</title>

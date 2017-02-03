@@ -2,6 +2,9 @@
     #CLIENT-LIST
 \*------------------------------------*/
 
+@import "../settings.all";
+@import "../tools.all";
+
 .client-list-title {
   text-align: center;
   @include font-size(16px);

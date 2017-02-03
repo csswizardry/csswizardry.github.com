@@ -58,11 +58,8 @@
  * Boxes................Extension of inuitcss’ box object
  * Post.................Post-specific styles.
  * Pull-quote...........Large, featured quotes.
- * Carousel.............Pure CSS carousel component.
- * Feature list.........Big blocky lists of feature items.
  * Annotate.............Pure CSS figure annotations.
  * Ads..................AdPacks overrides.
- * Client-list..........Amazing people I’ve had the pleasure of working with.
  * Forms................Form styles.
  * Newsletter...........Styles specifically for newsletter signups.
  * Video................Videos with aspect ratio.
@@ -87,10 +84,7 @@
 /**
  * #SETTINGS
  */
-@import "bower_components/inuit-defaults/settings.defaults";
-@import "settings.global";
-@import "settings.colors";
-@import "bower_components/inuit-responsive-settings/settings.responsive";
+@import "settings.all";
 
 
 
@@ -99,11 +93,7 @@
 /**
  * #TOOLS
  */
-@import "bower_components/inuit-functions/tools.functions";
-@import "bower_components/inuit-mixins/tools.mixins";
-@import "tools.mixins";
-@import "bower_components/inuit-responsive-tools/tools.responsive";
-@import "tools.aliases";
+@import "tools.all";
 
 
 
@@ -207,11 +197,8 @@ $inuit-enable-list-ui--small:   true;
 @import "components.boxes";
 @import "components.post";
 @import "components.pull-quote";
-@import "components.carousel";
-@import "components.feature-list";
 @import "components.annotate";
 @import "components.ads";
-@import "components.client-list";
 @import "components.forms";
 @import "components.newsletter";
 @import "components.video";

@@ -68,3 +68,15 @@
     }
 
 }
+
+// Clearfix mixin for use later in the project
+// ===========================================
+@mixin clearfix() {
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
