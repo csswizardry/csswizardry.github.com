@@ -1,4 +1,4 @@
-var cacheName = 'csswizardry:0001';
+var cacheName = 'csswizardry:0002';
 var cacheFiles = [
   '/',
   '/about/',
@@ -8,7 +8,8 @@ var cacheFiles = [
   '/2015/03/more-transparent-ui-code-with-namespaces/',
   '/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/',
   '/2016/02/mixins-better-for-performance/',
-  '/2016/10/pragmatic-practical-progressive-theming-with-custom-properties/'
+  '/2016/10/pragmatic-practical-progressive-theming-with-custom-properties/',
+  '/case-studies/ocado-workshop/'
 ];
 
 self.addEventListener('install', function(event) {

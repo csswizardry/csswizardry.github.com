@@ -16,6 +16,7 @@ when you have a connection, but until then you can:
 
 Or if you’d like to read something:
 
+* [Case Study: Ocado Workshop](/case-studies/ocado-workshop/)
 * [Pragmatic, Practical, and Progressive Theming with Custom Properties](/2016/10/pragmatic-practical-progressive-theming-with-custom-properties/)
 * [Mixins Better for Performance](/2016/02/mixins-better-for-performance/)
 * [More Transparent UI Code with Namespaces](/2015/03/more-transparent-ui-code-with-namespaces/)
