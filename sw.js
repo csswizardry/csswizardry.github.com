@@ -1,4 +1,4 @@
-var cacheName = 'csswizardry:0002';
+var cacheName = 'csswizardry:0003';
 var cacheFiles = [
   '/',
   '/about/',
