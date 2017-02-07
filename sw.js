@@ -1,16 +1,29 @@
-var cacheName = 'csswizardry:0003';
+var cacheName = 'csswizardry:0005';
 var cacheFiles = [
   '/',
   '/about/',
   '/services/',
   '/contact/',
-  '/offline/',
+  '/case-studies/',
+  '/case-studies/raspberry-pi-code-club-workshop/',
+  '/case-studies/ocado-workshop/',
+  '/case-studies/nhs-nhsx-elearning-platform/',
+  '/case-studies/better-collective/',
+  '/case-studies/madgex-consultancy-workshop/',
+  '/case-studies/bbc-workshop/',
+  '/case-studies/bskyb/',
+  '/case-studies/css-wizardry/',
+  '/case-studies/financial-times/',
   '/2015/03/more-transparent-ui-code-with-namespaces/',
   '/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/',
   '/2016/02/mixins-better-for-performance/',
   '/2016/10/pragmatic-practical-progressive-theming-with-custom-properties/',
-  '/case-studies/ocado-workshop/'
+  '/offline/'
 ];
+
+
+
+
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
@@ -21,6 +34,10 @@ self.addEventListener('install', function(event) {
       })
   );
 });
+
+
+
+
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
@@ -34,6 +51,28 @@ self.addEventListener('fetch', function(event) {
     }).catch(function() {
       // Can't access the network return an offline page from the cache
       return caches.match('/offline/');
+    })
+  );
+});
+
+
+
+
+
+// Empty out any caches that don’t match the ones listed.
+self.addEventListener('activate', function(event) {
+
+  var cacheWhitelist = ['csswizardry:0005'];
+
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.map(function(cacheName) {
+          if (cacheWhitelist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
     })
   );
 });
