@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Oops! It Looks Like Your’re Offline"
+title: "Oops! It Looks Like You’re Offline"
 page-class: page--offline
 meta: "CSS Wizardry’s offline content"
 permalink: /offline/
