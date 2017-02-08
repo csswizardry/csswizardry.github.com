@@ -18,12 +18,14 @@ Since as long as I can remember, I’ve had a soft spot for typography, and when
 it makes up so much of the web, typography should be good. Learning how to
 design with type, and pair typefaces, is a skill unto itself, but the good news
 for us less design-minded developers is that there are a few simple rules we can
-follow to get guaranteed better looking text with almost zero effort.
+follow to get guaranteed better looking text with almost zero effort. And if
+there’s one thing developers love, it’s rules.
 
 Time and again I see mis-implemented type that could have been avoided simply by
 developers having a better appreciation for, and understanding of, some
 typographical nuance. Learn and memorise the rules in this article and you’ll
-find that your text will become much more harmonious and polished.
+find that your text will become much more harmonious and polished, and you won’t
+have designers bugging you about using the wrong type of dash…
 
 ## Ellipses
 
