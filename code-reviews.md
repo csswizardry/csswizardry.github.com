@@ -72,7 +72,7 @@ probably want to find out how and why. During the performance audit I’ll:
 * recommend tooling and monitoring;
 * a whole bunch more.
 
-This will leave you well poised to being implementing performance improvements
+This will leave you well poised to begin implementing performance improvements
 across the entire stack, and faster sites mean more conversions, better
 retention, reduced costs, and happier users.
 
