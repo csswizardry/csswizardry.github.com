@@ -1,24 +1,11 @@
-var cacheName = 'csswizardry:0009';
+var cacheName = 'csswizardry:0010';
 var cacheFiles = [
   '/',
   '/about/',
   '/services/',
   '/contact/',
   '/offline/',
-  '/workshops/',
-  '/speaking/',
-  '/consultancy/',
-  '/code-reviews/',
-  '/case-studies/',
-  '/case-studies/raspberry-pi-code-club-workshop/',
   '/case-studies/ocado-workshop/',
-  '/case-studies/nhs-nhsx-elearning-platform/',
-  '/case-studies/better-collective/',
-  '/case-studies/madgex-consultancy-workshop/',
-  '/case-studies/bbc-workshop/',
-  '/case-studies/bskyb/',
-  '/case-studies/css-wizardry/',
-  '/case-studies/financial-times/',
   '/2015/03/more-transparent-ui-code-with-namespaces/',
   '/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/',
   '/2016/02/mixins-better-for-performance/',
@@ -66,7 +53,7 @@ self.addEventListener('fetch', function(event) {
 // Empty out any caches that don’t match the ones listed.
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = ['csswizardry:0009'];
+  var cacheWhitelist = ['csswizardry:0010'];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {

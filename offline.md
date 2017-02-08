@@ -13,7 +13,7 @@ back:
 * [head to the homepage](/);
 * [read a little more about CSS Wizardry](/about/);
 * [learn about the services I offer](/services/);
-* [see what I’ve done for other companies](/case-studies/), or;
+* [see how I helped Ocado level up their CSS skills](/case-studies/ocado-workshop/), or;
 * [find out how best to get in touch with me](/contact/).
 
 Or if you’d like to read something:
