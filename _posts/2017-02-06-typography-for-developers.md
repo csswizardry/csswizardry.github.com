@@ -54,9 +54,9 @@ If you want to write an ellipsis character, you have a few options:
 ## Quotes
 
 The quotes you find on your keyboard are ambidextrous, or _dumb_ quotes. They
-are big, awful, clumsy straight lines that look like wedges jammed into your
+are big, awful, clumsy, straight lines that look like wedges jammed into your
 text. They exist purely because of space constraints on modern keyboards: there
-isn’t enough room to have left and right single- and double-quote marks, so
+just isn’t enough room to have left and right single- and double-quote marks, so
 instead we have quote marks that can do both.
 
 <p class="_tfd-demo">'Single' and "double" dumb quotes. Ugly.</p>
@@ -125,6 +125,8 @@ name (e.g. _Robert Bayden-Powell_), or words split over two lines in justified
 text, you should use a hyphen. Pretty much everything else has a more specific
 type of dash that should be used.
 
+<p class="_tfd-demo">Front-end Developer</p>
+
 | Mac         | Win      | HTML      | Output |
 | ----------- | -------- | --------- | ------ |
 | -           | -        | `-`       | -      |
@@ -132,15 +134,16 @@ type of dash that should be used.
 ### Minuses
 
 If you really want to show off, there’s technically a different character for
-minuses. A hyphen is a very close approximation, but is actually set a little
-lower and shorter than a true hyphen.
+minuses. A hyphen is a very close approximation, but is set a little lower and
+shorter than a true hyphen.
 
 <p class="_tfd-demo">Your balance is £-1902.</p>
 
 <p class="_tfd-demo">Your balance is £−1902.</p>
 
 Use this in any math you need to write, or for displaying negative values.
-Unfortunately it’s a little harder to write out on a Mac.
+Unfortunately it’s a little harder (read, potentially impossible) to write out
+on a Mac.
 
 | Mac         | Win      | HTML      | Output |
 | ----------- | -------- | --------- | ------ |
