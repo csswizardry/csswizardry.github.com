@@ -92,7 +92,7 @@ regex is pretty weak and even I can still manage.
 ## Find Decimal Pixel Values
 
 ```
-$ ack --css "\d*\.\d+px"
+$ ack --css "\d*\.\d*px"
 ```
 
 We don’t want to have any decimal places in any of our pixel values (e.g.
