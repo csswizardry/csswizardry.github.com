@@ -22,3 +22,11 @@ Or if you’d like to read something:
 * [Mixins Better for Performance](/2016/02/mixins-better-for-performance/)
 * [More Transparent UI Code with Namespaces](/2015/03/more-transparent-ui-code-with-namespaces/)
 * [BEMIT: Taking the BEM Naming Convention a Step Further](/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
+
+I’m next speaking at:
+
+<ul>
+
+  {% include speaking.html %}
+
+</ul>

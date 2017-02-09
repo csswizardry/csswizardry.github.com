@@ -36,10 +36,7 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
 <ol class="list-ui">
 
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/ie.png" alt="" /> <a href="https://www.meetup.com/DublinCSS/events/234858690/">DublinCSS</a>, Dublin, (Ireland) February 2017
-  </li>
+  {% include speaking.html %}
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
