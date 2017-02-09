@@ -16,7 +16,7 @@ permalink: /case-studies/
 
 <ul class="feature-list">
 
-    <!--
+    {% comment %}
     <li class="feature-list__item">
         <a href="general-electric-consultancy-workshops/" class="feature-list__link" style="background-color: #1968b3;">
             <h2 class="feature-list__title">
@@ -25,7 +25,7 @@ permalink: /case-studies/
             </h2>
         </a>
     </li>
-    -->
+    {% endcomment %}
 
     <li class="feature-list__item">
         <a href="raspberry-pi-code-club-workshop/" class="feature-list__link" style="background-image: linear-gradient(to bottom right, #c7053d 0%, #c7053d 50%, #393 50%, #393 100%);">
@@ -108,7 +108,8 @@ permalink: /case-studies/
         </a>
     </li>
 
-    <!--<li class="feature-list__item">
+    {% comment %}
+    <li class="feature-list__item">
         <a href="fasetto/" class="feature-list__link" style="background-color: #f2774a;">
             <h2 class="feature-list__title">
                 Fasetto
@@ -123,6 +124,7 @@ permalink: /case-studies/
                 Joinin.com
             </h2>
         </a>
-    </li>-->
+    </li>
+    {% endcomment %}
 
 </ul>
