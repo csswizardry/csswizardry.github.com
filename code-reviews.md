@@ -12,8 +12,8 @@ permalink: /code-reviews/
 
 For clients who perhaps don’t need a full consultancy engagement, or an entire
 workshop, or maybe just need to learn what they need to fix next, there is an
-affordable, off-the-shelf solution that is perfect for you: a **two-day** remote
-audit.
+affordable, off-the-shelf solution that is perfect for you: a **two-day remote
+audit**.
 
 <ul class="c-nav-secondary">
   <li class="c-nav-secondary__item"><a href="#section:performance-audits" class="c-nav-secondary__link">Performance Audits</a></li>
