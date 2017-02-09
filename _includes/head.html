@@ -3,19 +3,32 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 
 {% if page.page-class == "page--home" %}
-<!-- Fire off masthead download nice and early. -->
+{% comment %}
+<!--
+  - Fire off masthead download nice and early.
+  - Only needed on homepage.
+  -->
+{% endcomment %}
 <link rel="preload" href="/img/css/masthead.jpg" as="image" media="(max-width: 719px)">
 <link rel="preload" href="/img/css/masthead-medium.jpg" as="image" media="(min-width: 720px) and (max-width: 1023px)">
 <link rel="preload" href="/img/css/masthead-large.jpg" as="image" media="(min-width: 1024px)">
 {% endif %}
 
-<!-- Preemptively open up connections for external assets (Twitter widgets etc). -->
+{% comment %}
+<!--
+  - Preemptively open up connections for external assets (Twitter widgets etc).
+  - Only needed on pages with sidebars (i.e. non-feature pages).
+  -->
+{% endcomment %}
+{% if page.layout != "feature" %}
 <link rel="preconnect" href="//cdn.carbonads.com">
 <link rel="preconnect" href="//srv.carbonads.net">
 <link rel="preconnect" href="//platform.twitter.com">
 <link rel="preconnect" href="https://platform.twitter.com">
 <link rel="preconnect" href="https://syndication.twitter.com">
 <link rel="preconnect" href="https://cdn.syndication.twimg.com">
+{% endif %}
+
 <link rel="preconnect" href="//www.google-analytics.com">
 <link rel="preconnect" href="https://www.google-analytics.com">
 
@@ -57,6 +70,8 @@
 <meta name="theme-color" content="#f43059">
 <link rel="manifest" href="/manifest.json">
 
+{% if page.layout != "feature" %}
 <script src="https://platform.twitter.com/widgets.js" defer></script>
+{% endif %}
 
 </head>
