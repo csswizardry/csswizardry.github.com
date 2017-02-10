@@ -10,7 +10,7 @@ permalink: /code-reviews/
 
 <p style="text-align: center;"><small>* 25% discount during February 2017</small></p>
 
-For clients who perhaps don’t need a full consultancy engagement, or an entire
+For clients who don’t yet need a full consultancy engagement, or an entire
 workshop, or maybe just need to learn what they need to fix next, there is an
 affordable, off-the-shelf solution that is perfect for you: a **two-day remote
 audit**.
@@ -109,8 +109,7 @@ project. In it, I will:
 * make recommendations around naming conventions;
 * review anything else you feel needs particular focus.
 
-This will leave your team in a good place to begin any tech debt, as well as
-opening up the codebase to be further extended and developed upon: think
-longevity.
+This will leave your team in a good place to begin tackling any tech debt, as
+well as opening up the codebase to be further extended and developed upon.
 
 <a href="mailto:csswizardry@gmail.com?subject=Code%20Review" class="btn  btn--full">Arrange a Review</a>
