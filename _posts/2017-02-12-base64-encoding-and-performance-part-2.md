@@ -150,6 +150,10 @@ a late-requested resource, we can preload it, like so:
 <link rel="preload" href="masthead.jpg" as="image" />
 ```
 
+I made another demo page:
+
+* [Preloaded Image](http://csswizardry.net/demos/base64/preload.html)
+
 By placing this tag in the `head` of our HTML, we can actually tell the HTML to
 download the image instead of leaving the CSS to ask for it later. This means
 that instead of having a request chain like this:
