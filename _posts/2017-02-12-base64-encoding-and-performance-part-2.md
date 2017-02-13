@@ -195,7 +195,7 @@ requesting it, I was going to preload it:
 I didn’t notice any drastic improvements on this reduced test case because
 preload isn’t really useful here: I already have such a short request chain that
 we don’t get any real gains from reordering it. However, if we had a page with
-many assets, preload can certainly begin to give use some great boosts. I
+many assets, preload can certainly begin to give us some great boosts. I
 actually use it [on my homepage](/) to [preload the
 masthead](https://github.com/csswizardry/csswizardry.github.com/blob/21044ecec9e11998d7a1e12e9f96be2aa990c652/_includes/head.html#L5-L15):
 this is above the fold content that is normally quite late requested, so

@@ -286,7 +286,7 @@ same rule. This means that if we change just one hex value in our CSS
 somewhere—a change that might represent up to six bytes of new data—we have to
 redownload hundreds of kilobytes of styles, images, and fonts.
 
-In fact, fonts are a really bad offender here: fonts and very, very unlikely to
+In fact, fonts are a really bad offender here: fonts are very, very unlikely to
 ever change. They’re a very infrequently modified resource. In fact, I just went
 and checked a long-running project that another client and I are working on: the
 last change to their CSS was yesterday; the last change to their font files was
