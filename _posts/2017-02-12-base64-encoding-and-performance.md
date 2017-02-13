@@ -325,7 +325,7 @@ All in all, it’s a pretty bleak situation: please avoid Base64.
 ## Data Talks
 
 All of this article was written using things I already know. I didn’t run any
-tests of have any data: it’s just how browsers work™. However, I decided to go
+tests or have any data: it’s just how browsers work™. However, I decided to go
 ahead and run some tests to see just what kind of facts and figures we’re
 looking at. [Head over to Part 2 to read
 more](/2017/02/base64-encoding-and-performance-part-2/).
