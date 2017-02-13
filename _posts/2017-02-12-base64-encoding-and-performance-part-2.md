@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Base64 Encoding & Performance: Part 2"
+title: "Base64 Encoding & Performance, Part 2: Gathering Data"
 date: 2017-02-12 15:47:21
 categories: Web Development
 meta: "Statistics, tests, and numbers looking at the performance costs of Base64"
