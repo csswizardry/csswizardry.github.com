@@ -28,7 +28,7 @@ poor, and any IT education I had before that left a lot to be desired. I got to
 where I am through self-teaching, open source, and the knowledge of others. It’s
 because of this that I guest lecture at certain universities, and have a bit of
 a soft spot for non-traditional education resources: The Raspberry Pi Foundation
-is a great cause to get behind.
+felt like a great cause for me to get behind.
 
 Our working engagement was to be a single day workshop, on-site at Raspberry
 Pi’s Cambridge offices. The ‘work’ started the night before, when four of us met
