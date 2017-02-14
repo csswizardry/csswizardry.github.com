@@ -17,9 +17,9 @@ The site is still built with Jekyll and hosted on GitHub Pages, but it’s now
 fronted by Cloudflare who offer a plethora of [performance-related
 services](https://www.cloudflare.com/performance/). I was only really interested
 in HTTPS because it allows me to use, among other things, HTTP/2[^1], Brotli,
-and Service Worker (I’m not actually using the latter two yet, but now at least
-I can), and when my buddy [James](https://twitter.com/jameskirkby) tipped me off
-as to [just how
+and Service Worker (~~I’m not actually using the latter two yet, but now at
+least I can~~ CSS Wizardry is now running on a simple Service Worker!), and when
+my buddy [James](https://twitter.com/jameskirkby) tipped me off as to [just how
 simple](https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/)
 the process is, I got stuck in and got it done.
 
@@ -41,7 +41,7 @@ moment, but for now I want to talk a little about security.
 I imagine that although most users won’t have much of an understanding as to the
 technical implications behind a secure or a not-secure site (I’m hesitant to use
 the word _insecure_), they are becoming aware that there is such thing as
-security. With Google’s intent to [mark certain websites as
+security. With Google’s intent to [mark certain webpages as
 insecure](https://security.googleblog.com/2016/09/moving-towards-more-secure-web.html),
 and the general increase in awareness, users _do_ know that secure websites are
 a thing. The implication, therefore, is that any site that isn’t explicitly
@@ -109,10 +109,10 @@ it’s pretty clear that using HTTP/2 is the right decision. Other companies
 
 ## What Next
 
-Next up, I can look at implementing a simple Service Worker to provide better
-caching strategies, as well as a simple offline page for users on poor or
-non-existent connections. I should also look into splitting up my CSS into more
-granular, individually cacheable chunks.
+~~Next up, I can look at implementing~~ I have now implemented a simple Service
+Worker to provide better caching strategies, as well as a simple offline page
+for users on poor or non-existent connections. I should also look into splitting
+up my CSS into more granular, individually cacheable chunks.
 
 Unfortunately, given that I am still hosting on GitHub Pages, I am limited in
 how much I can implement. Things like enabling Brotli will have to be done by
