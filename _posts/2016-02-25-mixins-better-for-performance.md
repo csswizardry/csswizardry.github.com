@@ -8,10 +8,9 @@ meta: "A look at the performance difference between Sass’ mixins and @extend"
 
 When it comes to preprocessors, one of the most frequent questions I’m asked is
 <q>Mixins or `@extend`?</q> I’ve always been
-[quite](http://csswizardry.com/2014/01/extending-silent-classes-in-sass/)
-[vocal](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/)
-about this topic, and I firmly believe you should avoid `@extend` for a number
-of reasons:
+[quite](/2014/01/extending-silent-classes-in-sass/)
+[vocal](/2014/11/when-to-use-extend-when-to-use-a-mixin/) about this topic, and
+I firmly believe you should avoid `@extend` for a number of reasons:
 
 1. It alters your source order, which is always risky in CSS.
 2. It creates awkward groupings in your code, putting unrelated selectors
@@ -88,7 +87,7 @@ Here’s what I did.
          font-weight: bold;
          line-height: 2;
        }
-       
+
        .#{unique-id()}-#{$i} {
          @include foo;
          content: "ibf#{&}jaslbw";
@@ -100,7 +99,7 @@ Here’s what I did.
          font-weight: bold;
          line-height: 2;
        }
-       
+
        .#{unique-id()}-#{$i} {
          @extend %foo;
          content: "ibf#{&}jaslbw";
