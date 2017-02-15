@@ -30,6 +30,10 @@ page-class: page--home
             <p>There are <b>{{ site.posts | size  }}</b> articles on this blog.
             Find them all on the <a href="/archive/">archive page</a>.</p>
 
+            {% if paginator.page != 1 %}
+              {% include pagination.html %}
+            {% endif %}
+
             <ul class="list-ui  post__list  mb">
                 {% for post in paginator.posts %}
                 <li class="list-ui__item">
@@ -39,25 +43,9 @@ page-class: page--home
                 {% endfor %}
             </ul>
 
+            {% include pagination.html %}
+
         </section>
-
-        <ol class="layout" data-ui-component="Pagination">
-
-            <li class="layout__item  lap-and-up-one-half  mb">
-                {% if paginator.next_page %}
-                    <a href="/page{{paginator.next_page}}#section:articles" class="btn  btn--full  btn--secondary">Older articles</a>
-                {% endif %}
-
-                {% if paginator.previous_page %}
-                    <li class="layout__item  lap-and-up-one-half  mb">
-                        {% if paginator.previous_page == 1 %}
-                            <a href="/#section:articles" class="btn  btn--full">Newer articles</a>
-                        {% else %}
-                            <a href="/page{{paginator.previous_page}}#section:articles" class="btn  btn--full">Newer articles</a>
-                        {% endif %}
-                {% endif %}
-
-        </ol>
 
     </div
 

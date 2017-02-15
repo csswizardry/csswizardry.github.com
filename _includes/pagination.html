@@ -1,0 +1,18 @@
+<ol class="layout" data-ui-component="Pagination">
+
+  <li class="layout__item  lap-and-up-one-half  mb">
+    {% if paginator.next_page %}
+      <a href="/page{{paginator.next_page}}#section:articles" class="btn  btn--full  btn--secondary">Older articles</a>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+      <li class="layout__item  lap-and-up-one-half  mb">
+        {% if paginator.previous_page == 1 %}
+          <a href="/#section:articles" class="btn  btn--full">Newer articles</a>
+        {% else %}
+          <a href="/page{{paginator.previous_page}}#section:articles" class="btn  btn--full">Newer articles</a>
+        {% endif %}
+    {% endif %}
+
+</ol>
+
