@@ -132,8 +132,8 @@ I minified and gzipped the two files and got the results I expected:
 * This gives a difference in filesize of **6K**.
 * **Using mixins was 33.333% smaller than using `@extend`.**
 
-Amazing! We’ve gone from mixins being 1.5x larger than using `@extend`, to
-mixins being **0.3x smaller** than using `@extend`. My theory seems correct!
+Amazing! We’ve gone from mixins being 1.5× larger than using `@extend`, to
+mixins being **0.3× smaller** than using `@extend`. My theory seems correct!
 
 ## Making Things More Realistic
 
