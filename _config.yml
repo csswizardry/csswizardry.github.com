@@ -5,7 +5,7 @@ description: "Write an awesome description for your new site here. You can edit 
 baseurl: ""
 url: "https://csswizardry.com"
 future: true
-sw: "0018"
+sw: "0019"
 
 # Build settings
 markdown: kramdown

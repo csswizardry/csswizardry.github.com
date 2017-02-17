@@ -39,11 +39,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/bg.png" alt="" /> <a href="https://bulgariawebsummit.com/">Bulgaria Web Summit</a>, Sofia, (Bulgaria) April 2017
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Workshop</h3>
     <img src="/img/icons/en.png" alt="" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October Events</a>, London (England), April 2016
   </li>
@@ -136,6 +131,10 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+<li>
+  <h3 class="list-ui__title">Talk</h3>
+  <img src="/img/icons/ie.png" alt="" /> <a href="https://www.meetup.com/DublinCSS/events/234858690/">DublinCSS</a>, Dublin, (Ireland) February 2017
+</li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
