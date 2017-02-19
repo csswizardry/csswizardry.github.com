@@ -3,7 +3,7 @@ comments: true
 date: 2014-06-23 19:41:12
 layout: post
 slug: vim-for-people-who-think-things-like-vim-are-weird-and-hard
-title: Vim for people who think things like Vim are weird and hard
+title: Vim for People Who Think Things Like Vim Are Weird and Hard
 categories:
 - Web Development
 tag:
