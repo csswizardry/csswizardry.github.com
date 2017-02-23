@@ -290,9 +290,8 @@ In fact, fonts are a really bad offender here: fonts are very, very unlikely to
 ever change. They’re a very infrequently modified resource. In fact, I just went
 and checked a long-running project that another client and I are working on: the
 last change to their CSS was yesterday; the last change to their font files was
-at the very beginning of the project: `Initial Commit`. Imagine forcing a user
-to redownload those fonts every single time you update anything in your
-stylesheet.
+eight months ago. Imagine forcing a user to redownload those fonts every single
+time you update anything in your stylesheet.
 
 Base64 encoding means that we can’t cache things independently based on their
 rate of change, and also means that we have to cache bust unrelated things
