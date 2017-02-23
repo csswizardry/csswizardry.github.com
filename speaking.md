@@ -45,12 +45,22 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/at.png" alt="" /> <a href="https://www.wearedevelopers.org/">WeAreDevelopers</a>, Vienna (Austria), May 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/pl.png" alt="" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2017
   </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/gr.png" alt="" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) May 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/pl.png" alt="" /> <a href="http://jandbeyond.org/">J and Beyond</a>, Kraków (Poland), June 2017
   </li>
 
   <li>
@@ -104,6 +114,8 @@ wrong answer** to any of these questions.
   architecture, performance, etc.), but am open to discussing other topics.
 * **Do you require a brand new talk?** Writing talks takes a lot of time and
   effort: forewarned is forearmed.
+* **When can I start publicising your event?** Do you want to keep the lineup
+  quiet for a while, or can I add your event to my speaking list immediately?
 * **Do you plan to compensate speakers?** I usually charge a fee to speak,
   however its value is open to discussion for indie and non-profit events.
 
