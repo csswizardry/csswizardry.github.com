@@ -8,16 +8,15 @@ permalink: /contact/
 
 <p class="u-text-prominent">csswizardry@gmail.com</p>
 
-For consulting engagements, please [send me an
-email](mailto:csswizardry@gmail.com).
-
-For speaking engagements, please [see my speaking
-page](/speaking/#section:request).
-
-For small questions, or just to say hi, please feel free to [fire me a
-Tweet](https://twitter.com/csswizardry).
-
-To keep in regular contact, [join my newsletter](/newsletter/).
+* For consulting engagements, please [send me an
+  email](mailto:csswizardry@gmail.com).
+* For speaking engagements, please [see my speaking
+  page](/speaking/#section:request).
+* For general questions and advice, please see [my AMA
+  repository](https://github.com/csswizardry/ama).
+* For small questions, or just to say hi, please feel free to [fire me a
+  Tweet](https://twitter.com/csswizardry).
+* To keep in regular contact, [join my newsletter](/newsletter/).
 
 Please note that I get a _lot_ of email, so it may take me a while to get back
 to you. I do try and reply to everyone, no matter how long it might take, but I
