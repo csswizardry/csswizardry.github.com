@@ -1,4 +1,4 @@
-var cacheName = 'csswizardry:0020';
+var cacheName = 'csswizardry:0021';
 var cacheFiles = [
   '/',
   '/about/',
@@ -53,7 +53,7 @@ self.addEventListener('fetch', function(event) {
 // Empty out any caches that don’t match the ones listed.
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = ['csswizardry:0020'];
+  var cacheWhitelist = ['csswizardry:0021'];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
