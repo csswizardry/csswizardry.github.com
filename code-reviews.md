@@ -6,9 +6,7 @@ meta: "Affordable, remote code reviews and performance audits for your product"
 permalink: /code-reviews/
 ---
 
-<p class="u-text-prominent"><s>£1,920</s> £1,440* (+VAT)</p>
-
-<p style="text-align: center;"><small>* 25% discount during February 2017</small></p>
+<p class="u-text-prominent">£1,920 (+VAT)</p>
 
 For clients who don’t yet need a full consultancy engagement, or an entire
 workshop, or maybe just need to learn what they need to fix next, there is an
