@@ -506,7 +506,7 @@ also using traditionally ‘bad’ markup. Lovely stuff!
 
 <h3 id="section:retina-images">Retina images</h3>
 
-You don’t need to retina _everything_. A 2x image contains **four times** the
+You don’t need to retina _everything_. A 2× image contains **four times** the
 amount of pixels as the same image in standard resolution. Four. Times. Whilst
 this doesn’t necessarily mean four times the file size over the wire – thanks to
 the image’s own encoding – this does mean that once the image is decompressed
@@ -523,7 +523,7 @@ Retina is great for a nice, sharp experience, but there’s no point in a crisp
 experience if it takes five seconds to download. In most cases speed should win
 over aesthetics.
 
-You can be clever and serve 1.5x images to all devices, in a bid to provide
+You can be clever and serve 1.5× images to all devices, in a bid to provide
 good-enough images to everyone, but the best option would – in my opinion – to
 only use retina sparingly.
 
