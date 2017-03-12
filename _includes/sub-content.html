@@ -14,10 +14,16 @@
 
 <h4>Projects</h4>
 
+{% if page.page-class == "page--home" %}
+  {% assign image-ext = "-home" %}
+{% else %}
+  {% assign image-ext = null %}
+{% endif %}
+
 <ul class="[ list-ui  list-ui--small ]  mb">
-  <li><a href="https://github.com/inuitcss/inuitcss"><img src="/img/content/logo-inuitcss.png" alt="inuitcss" /></a></li>
+  <li><a href="https://github.com/inuitcss/inuitcss"><img src="/img/content/logo-inuitcss{{ image-ext }}.png" alt="inuitcss" /></a></li>
   <li><a href="http://itcss.io/">ITCSS</a> – coming soon…</li>
-  <li><a href="http://cssguidelin.es/"><img src="/img/content/logo-css-guidelines.png" alt="CSS Guidelines" /></a></li>
+  <li><a href="http://cssguidelin.es/"><img src="/img/content/logo-css-guidelines{{ image-ext }}.png" alt="CSS Guidelines" /></a></li>
 </ul>
 
 <h4>Next Appearance</h4>
