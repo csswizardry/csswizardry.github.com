@@ -87,7 +87,7 @@ ensure it fits on most (if not all) terminal screens[^1].
 By default, whenever we write a commit message (not using the `-m` flag) we’re
 going to get thrown into Vim. If you’re a Vim user, this is great! This is
 exactly what we want. If you’re not a Vim user, [skip
-ahead](#commit-messages-in-atom): I got you covered.
+ahead](#git-commit-messages-in-atom): I got you covered.
 
 ### Constraining Columns
 
