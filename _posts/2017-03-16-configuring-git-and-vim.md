@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Configuring Git and Vim"
-date: 2016-03-17 21:41:11
+date: 2017-03-17 21:41:11
 categories: Web Development
 meta: "Both amazing tools in their own rights, how can we get both playing nicely together?"
 ---
