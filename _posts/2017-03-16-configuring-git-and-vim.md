@@ -78,8 +78,8 @@ I’ve simply wrapped the Sass `round()` function around the output, so
 people will now get the nearest integer whether rounded up or down.
 ```
 
-This expanded message offers up additional insights to why the commit exists and
-how we implemented it, and is also constrained to 72 characters in width to
+This expanded message offers up additional insights as to why the commit exists
+and how we implemented it, and is also constrained to 72 characters in width to
 ensure it fits on most (if not all) terminal screens[^1].
 
 ## Writing Commit Messages in Vim
@@ -93,7 +93,7 @@ ahead](#git-commit-messages-in-atom): I got you covered.
 
 You may well have Vim set up to constrain your text editing to a certain number
 of columns (usually 80). If you do, great! If you don’t, simply add the
-following to your `~/.vimrc`:
+following to your `.vimrc`:
 
 ```
 " Force the cursor onto a new line after 80 characters
@@ -221,7 +221,7 @@ Which will look like this inside of `~/.gitconfig`:
 
 ```
 [core]
-  editor = atom
+  editor = vim
 ```
 
 - - -
