@@ -226,8 +226,8 @@ Which will look like this inside of `~/.gitconfig`:
 
 - - -
 
-Regardless of which editor you use, it’s worth knowing that you can tie and Git
-together a little more closely. This should, if nothing else, make you more
+Regardless of which editor you use, it’s worth knowing that you can tie it and
+Git together a little more closely. This should, if nothing else, make you more
 comfortable, if not more productive.
 
 [^1]: I’d really recommend [this article](https://chris.beams.io/posts/git-commit/) if you want to read more about good commit message formatting.
