@@ -70,7 +70,7 @@ the commit in greater detail, for example:
 ```
 [refs #00057] Fix rounding issue with grid mixin
 
-The grid mixin was waorking largeley as expected, but would not round
+The grid mixin was working largely as expected, but would not round
 the output if passed an odd number. This led to scenarios where
 developers were seeing grid gutters of e.g. 12.5px.
 
