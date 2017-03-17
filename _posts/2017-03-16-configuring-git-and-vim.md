@@ -24,6 +24,10 @@ setting up a Git commit template that will be loaded every time you run:
 $ git commit
 ```
 
+This template works across all text editors (i.e. you don’t have to be using
+Vim), and will automatically pre-populate the commit message with your chosen
+placeholder text, ready for you to fill in and customise.
+
 The benefits of a template are manifold, but the main points for me are:
 
 1. **Process** is adhered to every time you make a commit.
