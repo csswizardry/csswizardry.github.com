@@ -86,6 +86,19 @@ This expanded message offers up additional insights as to why the commit exists
 and how we implemented it, and is also constrained to 72 characters in width to
 ensure it fits on most (if not all) terminal screens[^1].
 
+Finally, we need to tell Git that the template exists:
+
+```
+$ git config --global commit.template ~/.git-commit-template
+```
+
+Which should leave something like the following new lines in your `.gitconfig`:
+
+```
+[commit]
+  template = /Users/<username>/.git-commit-template
+```
+
 ## Writing Commit Messages in Vim
 
 By default, whenever we write a commit message (not using the `-m` flag) we’re
