@@ -33,7 +33,7 @@ The benefits of a template are manifold, but the main points for me are:
 1. **Process** is adhered to every time you make a commit.
 2. **Automation** means that you don’t need to lift a finger, but still get
    nicely formatted commit messages every time.
-3. **Consitency** means that you could roll the template out across your team
+3. **Consistency** means that you could roll the template out across your team
    and get identical commit messages from everyone.
 
 Luckily, Git commit templates are incredibly simple to set up. Start by creating

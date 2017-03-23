@@ -35,13 +35,17 @@
   {% include css/csswizardry.min.css %}
 
   {% if page.page-class == "page--home" %}
-    {% include css/page-head--masthead.css %}
-    {% include css/carousel.css %}
-    {% include css/client-list.css %}
+    {% include css/components.page-head--masthead.css %}
+    {% include css/components.carousel.css %}
+    {% include css/components.client-list.css %}
   {% endif %}
 
   {% if page.page-class == "page--case-studies" or page.page-class == "page--services" %}
-    {% include css/feature-list.css %}
+    {% include css/components.feature-list.css %}
+  {% endif %}
+
+  {% if page.page-class == "page--contact page--faq" %}
+    {% include css/elements.details.css %}
   {% endif %}
 
 </style>
