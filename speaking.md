@@ -69,6 +69,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   </li>
 
   <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/en.png" alt="" /> <a href="https://reasons.to/2017/brighton">Reasons to:</a>, Brighton (UK), September 2017
+  </li>
+
+  <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/us.png" alt="" /> <a href="http://2017.cssdevconf.com/">CSS Dev Conf</a>, New Orleans (US), October 2017
   </li>
