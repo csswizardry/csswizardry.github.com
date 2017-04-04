@@ -141,7 +141,7 @@ we have no idea what makes up that component and what else is optional.
 If we were to rework it with BEM:
 
     <div class="media">
-        <img src="logo.png" alt="Foo Corp logo" class="media__img--rev">
+        <img src="logo.png" alt="Foo Corp logo" class="media__img  media__img--rev">
         <div class="media__body">
             <h3 class="alpha">Welcome to Foo Corp</h3>
             <p class="lede">Foo Corp is the best, seriously!</p>
