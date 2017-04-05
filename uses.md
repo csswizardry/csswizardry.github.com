@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Uses – My Setup and Tools
+title: My Setup and Tools
 page-class: page--uses
 meta: "My setup and toolkit"
 permalink: /uses/
