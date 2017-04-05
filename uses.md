@@ -7,8 +7,8 @@ permalink: /uses/
 ---
 
 I often get asked about the tools and setup I use, so I’ve decided to try and
-keep a canonical reference at this URL. I’ve split the list into two halves,
-[software](#software) and [hardware](#hardware).
+keep a canonical reference at this URL. I’ve split the list into two loose
+halves, [software](#software) and [hardware](#hardware).
 
 * [Software](#software)
   * [iTerm2](#iterm2)
@@ -372,3 +372,6 @@ wear any item of clothing twice. The capacity is astounding!
 
 I think that’s about everything. If there’s anything more specific you’d like to
 know about just [drop me a line](/contact/).
+
+If you liked this, you’ll probably like [Wes’](http://wesbos.com/uses), which is
+where I got the idea.
