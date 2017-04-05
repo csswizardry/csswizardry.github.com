@@ -16,6 +16,7 @@ permalink: /contact/
   repository](https://github.com/csswizardry/ama).
 * For small questions, or just to say hi, please feel free to [fire me a
   Tweet](https://twitter.com/csswizardry).
+* For questions about software and tools, see [my setup](/uses/).
 * To keep in regular contact, [join my newsletter](/newsletter/).
 
 Please note that I get a _lot_ of email, so it may take me a while to get back

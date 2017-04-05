@@ -17,10 +17,10 @@ scalable user interfaces. I am [available for work](/services/).
                                             srcset="/img/content/me-480.jpg 480w,
                                                     /img/content/me-750.jpg 750w,
                                                     /img/content/me-1024.jpg 1024w" />
-  <figcaption>
-    On stage at <a href="http://2013.beyondtellerrand.com/">beyond tellerrand</a>.
-    <a href="http://www.flickr.com/photos/stn1978/8899790026/">Photo</a> by
-    <a href="https://twitter.com/stn1978">Stefan Nitzsche</a>.
+  <figcaption markdown="1">
+  On stage at [beyond tellerrand](http://2013.beyondtellerrand.com/).
+  [Photo](http://www.flickr.com/photos/stn1978/8899790026/) by
+  [Stefan Nitzsche](https://twitter.com/stn1978).
   </figcaption>
 </figure>
 
