@@ -124,7 +124,7 @@ at code, so it ought to be presented well:
 I only really have experience with the [Git](https://git-scm.com/) VCS, so it’s
 all I’ve really ever used. I adore Git for so many reasons, but my favourite
 thing has to be just how cheap it is to use: with how simple it is to create a
-repo, or how fast it is to make new branches, there’s no excuse to have
+repo, or how fast it is to make new branches, there’s no excuse for having
 unversioned work. It’s such an elegant, powerful tool—I only wish I knew more of
 it.
 
