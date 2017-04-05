@@ -279,8 +279,8 @@ I have [a desk](http://duke-studios.com/workspace#desk-rental) at [Duke
 Studios](http://duke-studios.com/), a co-working space in Leeds. I travel a
 _lot_ for work, so having an actual office to ground me when I’m home is really
 important to me. Duke has a really diverse set of residents, from accountants to
-software engineers, copywriters to landscape architects. It’s also got [Grub and
-& Grog](http://www.grubandgrog.co.uk/) right there in the building, which is a
+software engineers, copywriters to landscape architects. It’s also got [Grub &
+Grog](http://www.grubandgrog.co.uk/) right there in the building, which is a
 treat. In the event that I’m working remotely—or I’m working on business and
 admin tasks—I’ll probably be at Duke.
 
