@@ -24,6 +24,7 @@ halves, [software](#software) and [hardware](#hardware).
   * [1Password and ZenMate](#1password-and-zenmate)
   * [Netflix and MUBI](#netflix-and-mubi)
   * [Dropbox](#dropbox)
+  * [Priority Pass](#priority-pass)
   * [Misc macOS](#misc-macos)
 * [Hardware](#hardware)
   * [Office](#office)
@@ -218,6 +219,32 @@ I tend to drop nearly all of my non-dev project files into
 [Dropbox](https://www.dropbox.com/), because I don’t really want to keep much
 data actually _on_ my machine (plus it makes setting up new machines much
 faster).
+
+### Priority Pass
+
+This is more of a service than it is software, but [Priority
+Pass](https://www.prioritypass.com/) deserves a special mention. If you take
+more than (I would estimate) eight flights a year, you should probably get
+Priority Pass.
+
+Basically, most airports have lounges that offer wifi, food, drink, showers,
+places to nap, and/or any combination of the above. Lounges are usually only
+available to business class travelers (and I _never_ fly business) which makes
+sense—it’s a slightly more luxurious way of traveling.
+
+But if you spend a lot of time in airports then it’s more a necessity than a
+luxury. In 2015 I visited 26 airports in a 60 day period, and at that frequency
+you really do start to need a little more stability than a 24 hour Starbucks can
+offer you. With Priority Pass, regardless of what travel class you are, you get
+access to over a thousand lounges worldwide just by showing the staff your card.
+I use this at least twice on every trip I make. I can grab some food, jump on
+the wifi, take a shower (I’ve actually only ever done this once—on the way back
+to the UK from New Zealand—but it made an enormous difference), have a drink,
+and regroup my thoughts and senses mid-journey, and all for no more than the
+yearly cost of the Priority Pass membership. It’s effectively all free, if you
+treat the membership as a separate expense.
+
+Honestly, you should probably look into it.
 
 ### Misc macOS
 
