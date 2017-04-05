@@ -244,7 +244,7 @@ not a fan, of late…) who travels a lot, so lightweight is my key consideration
 <img src="/wp-content/uploads/2017/04/duke.jpg" alt="">
 <figcaption>
 Fun fact; that’s actually me sat near the brick wall.
-<a href="/wp-content/uploads/2017/04/duke-full.jpg">View full size/quality (628KB)</a>. 
+<a href="/wp-content/uploads/2017/04/duke-full.jpg">View full size/quality (628KB).</a>
 </figcaption>
 </figure>
 
