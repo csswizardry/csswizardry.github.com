@@ -240,6 +240,14 @@ not a fan, of late…) who travels a lot, so lightweight is my key consideration
 
 ### Office
 
+<figure>
+<img src="/wp-content/uploads/2017/04/duke.jpg" alt="">
+<figcaption>
+Fun fact; that’s actually me sat near the brick wall.
+<a href="/wp-content/uploads/2017/04/duke-full.jpg">View full size/quality (628KB)</a>. 
+</figcaption>
+</figure>
+
 I have [a desk](http://duke-studios.com/workspace#desk-rental) at [Duke
 Studios](http://duke-studios.com/), a co-working space in Leeds. I travel a
 _lot_ for work, so having an actual office to ground me when I’m home is really
