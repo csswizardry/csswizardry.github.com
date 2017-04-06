@@ -199,7 +199,7 @@ location or access the internet over public or insecure networks.
 ### Netflix and MUBI
 
 I really like [Netflix](https://www.netflix.com/), but really _don’t_ like their
-regoin locking (especially since they began blocking my VPN). It’s a super
+region locking (especially since they began blocking my VPN). It’s a super
 first-world problem to have, but I might be halfway through a series in the UK
 and want to catch up on it in my hotel in, say, the States, only to find that
 the content is unavailable. I’d actually happily pay triple the amount for a
@@ -254,7 +254,7 @@ of having a new machine:
 * [Alfred](https://www.alfredapp.com/)
 * [Caffeine](http://lightheadsw.com/caffeine/)
 * [BetterSnap](https://www.boastr.net/bettersnaptool/)
-* [f.lux](https://justgetflux.com/)
+* [f.lux](https://justgetflux.com/)[^1]
 * [ImageOptim](https://imageoptim.com/mac)
 * [JPEGMini](http://www.jpegmini.com/)
 
@@ -334,7 +334,7 @@ don’t want anything of that size.
 ### Nexus 5
 
 I have a [Nexus 5](https://www.google.com/intl/en_uk/nexus/5x/) which is use for
-performance profiling. It’s continued prevalence coupled with its modest spec
+performance profiling. Its continued prevalence coupled with its modest spec
 make it a great testing device.
 
 ### Shure SE425
@@ -402,3 +402,5 @@ know about just [drop me a line](/contact/).
 
 If you liked this, you’ll probably like [Wes’](http://wesbos.com/uses), which is
 where I got the idea.
+
+[^1]: f.lux is still [better than Nightshift](https://forum.justgetflux.com/topic/3655/f-lux-vs-night-shift-in-macos-10-12-4/8).
