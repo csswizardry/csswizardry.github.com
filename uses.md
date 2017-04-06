@@ -403,4 +403,4 @@ know about just [drop me a line](/contact/).
 If you liked this, you’ll probably like [Wes’](http://wesbos.com/uses), which is
 where I got the idea.
 
-[^1]: f.lux is still [better than Nightshift](https://forum.justgetflux.com/topic/3655/f-lux-vs-night-shift-in-macos-10-12-4/8).
+[^1]: f.lux is still [better than Night Shift](https://forum.justgetflux.com/topic/3655/f-lux-vs-night-shift-in-macos-10-12-4/8).
