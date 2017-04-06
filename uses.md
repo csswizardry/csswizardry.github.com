@@ -75,7 +75,7 @@ window.
 ### Vim
 
 > How do you spot a Vim user at a dinner party? Oh, don’t worry, they’ll tell
-> you.
+> you. — [@csswizardry](https://twitter.com/csswizardry/status/831929830103011330)
 
 I’m a very avid and unashamed [Vim](http://www.vim.org/) user. I’ve been using
 it for about five years now and still learn something new every time I fire it
