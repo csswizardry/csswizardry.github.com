@@ -2,7 +2,7 @@
  * inuitcss, by @csswizardry
  *
  * github.com/inuitcss | inuitcss.com
- */.carousel{overflow:hidden;width:100%;text-align:center}.carousel__panes{margin:0;padding:0;list-style:none;position:relative;display:table;width:500%;overflow:hidden;-webkit-filter:blur(0);-moz-filter:blur(0);filter:blur(0);-webkit-animation:carousel 45s alternate infinite;-moz-animation:carousel 45s alternate infinite;animation:carousel 45s alternate infinite}.carousel__panes:hover{-webkit-animation-play-state:paused;-moz-animation-play-state:paused;animation-play-state:paused}.carousel__pane{position:relative;display:table-cell;vertical-align:middle;width:20%}.carousel__link{color:inherit;border-bottom:1px solid #ddd;font-weight:300;-webkit-transition:0.2s border-color;-moz-transition:0.2s border-color;transition:0.2s border-color}.carousel__link:hover,.carousel__link:active,.carousel__link:focus{text-decoration:none;border-bottom-color:#c4c4c4}@-webkit-keyframes carousel{0%,
+ */.carousel{overflow:hidden;width:100%;text-align:center}.carousel__panes{margin:0;padding:0;list-style:none;position:relative;display:table;width:500%;overflow:hidden;-webkit-filter:blur(0);-moz-filter:blur(0);filter:blur(0);-webkit-animation:carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);-moz-animation:carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);animation:carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1)}.carousel__panes:hover{-webkit-animation-play-state:paused;-moz-animation-play-state:paused;animation-play-state:paused}.carousel__pane{position:relative;display:table-cell;vertical-align:middle;width:20%}.carousel__link{color:inherit;border-bottom:1px solid #ddd;font-weight:300;-webkit-transition:0.2s border-color;-moz-transition:0.2s border-color;transition:0.2s border-color}.carousel__link:hover,.carousel__link:active,.carousel__link:focus{text-decoration:none;border-bottom-color:#c4c4c4}@-webkit-keyframes carousel{0%,
     17.5%{-webkit-transform:translate3d(0, 0, 0);-webkit-filter:blur(0)}20.625%,
     38.125%{-webkit-transform:translate3d(-20%, 0, 0);-webkit-filter:blur(0)}41.25%,
     58.75%{-webkit-transform:translate3d(-40%, 0, 0);-webkit-filter:blur(0)}61.875%,
@@ -27,3 +27,4 @@
     39.6875%,
     60.3125%,
     80.9375%{filter:blur(2px)}}
+/*# sourceMappingURL=components.carousel.css.map */

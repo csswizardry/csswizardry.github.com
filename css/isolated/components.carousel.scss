@@ -21,9 +21,9 @@
         overflow: hidden;
         @include vendor(filter, blur(0));
 
-        -webkit-animation: carousel 45s alternate infinite;
-           -moz-animation: carousel 45s alternate infinite;
-                animation: carousel 45s alternate infinite;
+        -webkit-animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
+           -moz-animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
+                animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
     }
 
     .carousel__panes:hover {
