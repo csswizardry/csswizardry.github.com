@@ -17,9 +17,10 @@ The site is still built with Jekyll and hosted on GitHub Pages, but it’s now
 fronted by Cloudflare who offer a plethora of [performance-related
 services](https://www.cloudflare.com/performance/). I was only really interested
 in HTTPS because it allows me to use, among other things, HTTP/2[^1], Brotli,
-and Service Worker (~~I’m not actually using the latter two yet, but now at
-least I can~~ CSS Wizardry is now running on a simple Service Worker!), and when
-my buddy [James](https://twitter.com/jameskirkby) tipped me off as to [just how
+and Service Worker (<del>I’m not actually using the latter two yet, but now at
+least I can</del> CSS Wizardry is now running on a simple Service Worker!), and
+when my buddy [James](https://twitter.com/jameskirkby) tipped me off as to [just
+how
 simple](https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/)
 the process is, I got stuck in and got it done.
 
@@ -109,10 +110,10 @@ it’s pretty clear that using HTTP/2 is the right decision. Other companies
 
 ## What Next
 
-~~Next up, I can look at implementing~~ I have now implemented a simple Service
-Worker to provide better caching strategies, as well as a simple offline page
-for users on poor or non-existent connections. I should also look into splitting
-up my CSS into more granular, individually cacheable chunks.
+<del>Next up, I can look at implementing</del> I have now implemented a simple
+Service Worker to provide better caching strategies, as well as a simple offline
+page for users on poor or non-existent connections. I should also look into
+splitting up my CSS into more granular, individually cacheable chunks.
 
 Unfortunately, given that I am still hosting on GitHub Pages, I am limited in
 how much I can implement. Things like enabling Brotli will have to be done by
