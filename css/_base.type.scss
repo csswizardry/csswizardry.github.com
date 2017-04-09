@@ -148,3 +148,19 @@ mark {
 .text-banner {
     text-align: center;
 }
+
+
+
+
+
+/**
+ * Inserted and deleted text.
+ */
+del {
+  opacity: 0.75;
+}
+
+ins {
+  border-bottom: none;
+  background-color: $color-hilite;
+}
