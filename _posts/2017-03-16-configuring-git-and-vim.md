@@ -169,7 +169,8 @@ set colorcolumn=+1
 
 This means that the column immediately after (`+1`) our `textwidth` cutoff point
 will be highlighted, regardless of whether the number is 80, 72, or anything. So
-now our Vim settings look a little like this:
+now our Vim settings look a little like this <ins>(There is a more up to date
+snippet [below](#update-2017-04-09))</ins>:
 
 ```
 " Force the cursor onto a new line after 80 characters
@@ -182,6 +183,32 @@ set colorcolumn=+1
 
 It’s just a single line of config to get Vim in perfect shape for commit
 messages.
+
+### Update 2017-04-09
+
+It gets even better! The ideal commit message has a title constrained to 50
+characters and a body constrained to 72 characters. The setup we have above will
+only highlight our 72 character limit for body text though, meaning we have to
+work out our title’s limit more manually. However, I recently learned that the
+`colorcolumn` setting can accept more than one value! We can highlight both our
+title and our body’s constraints:
+
+```
+" Force the cursor onto a new line after 80 characters
+set textwidth=80
+" However, in Git commit messages, let’s make it 72 characters
+autocmd FileType gitcommit set textwidth=72
+" Colour the 81st (or 73rd) column so that we don’t type over our limit
+set colorcolumn=+1
+" In Git commit messages, also colour the 51st column (for titles)
+autocmd FileType gitcommit set colorcolumn+=51
+```
+
+The key difference in this snippet is the last line, in which we don’t set a new
+`colorcolumn` value, but we actually append the existing one (by using `+=`) and
+add column number `51`. This means that—in Git commit messages—we’re still
+highlighting the column immediately after our character limit by using the
+relative `+1` value, and the 51st column by using the absolute `51` value.
 
 ## Git Commit Messages in Atom…
 
