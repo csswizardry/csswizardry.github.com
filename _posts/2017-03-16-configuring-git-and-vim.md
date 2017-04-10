@@ -210,6 +210,13 @@ add column number `51`. This means that—in Git commit messages—we’re still
 highlighting the column immediately after our character limit by using the
 relative `+1` value, and the 51st column by using the absolute `51` value.
 
+<figure>
+  <img src="/wp-content/uploads/2017/03/commit-message-small.png" alt="" />
+  <figcaption>Columns 51 and 73 highlighted in a Git commit message in
+    Vim. <a href="/wp-content/uploads/2017/03/commit-message.png">View full
+    size/quality (132KB).</a></figcaption>
+</figure>
+
 ## Git Commit Messages in Atom…
 
 …or Sublime, or VS Code, etc.
