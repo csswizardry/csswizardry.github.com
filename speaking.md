@@ -58,10 +58,12 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/pl.png" alt="" /> <a href="http://jandbeyond.org/">J and Beyond</a>, Kraków (Poland), June 2017
   </li>
 
+  <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/us.png" alt="" /> <a href="https://smashingconf.com/ny-2017/">SmashingConf</a>, New York (US), June 2017
   </li>
+  -->
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
