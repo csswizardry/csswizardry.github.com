@@ -183,7 +183,7 @@ This will quickly put an outline around any explicitly named parts of the UI.
 It’s important to note that although we _can_ style HTML via its `data-*`
 attributes, we probably shouldn’t. `data-*` attributes are meant for holding
 data in markup, _not_ for selecting on. This, from [the HTML Living
-Standard](http://www.whatwg.org/specs/web-apps/current-work/multipage/elements.html#custom-data-attribute)
+Standard](https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#embedding-custom-non-visible-data-with-the-data-attributes)
 (emphasis mine):
 
 > Custom data attributes are intended to store custom data private to the page
