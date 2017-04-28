@@ -92,7 +92,7 @@ This is a problem commonly found in gradient generators, so:
 3. double check your copy/pasted syntax that you get from online generators.
 
 The `background` example is just one of many instances in which we shouldn’t be
-using shorthand. Another very common use-case is vertical centring using
+using shorthand. Another very common use-case is horizontal centring using
 `margin: 0 auto;`:
 
 ```
