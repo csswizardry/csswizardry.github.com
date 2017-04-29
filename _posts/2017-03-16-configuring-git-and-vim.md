@@ -246,7 +246,7 @@ $ git config --global core.editor atom
 If you use Sublime:
 
 ```
-$ git config --global core.editor subl
+$ git config --global core.editor 'subl --wait'
 ```
 
 This will now open all of your commit messages there, instead of the command
@@ -258,8 +258,12 @@ Hopefully now you’ll see something like this in your `.gitconfig`:
 
 ```
 [core]
-  editor = atom
+  editor = atom --wait
 ```
+
+The `--wait` flag tells the editor to <q>Wait for window to be closed before
+returning.</q>, meaning our committing doesn’t resume/continue until we’ve saved
+and closed our text editor window.
 
 Vim users, we’re probably pretty well set already, but if you want to make
 double sure then just run:
