@@ -21,9 +21,9 @@ I spend a _lot_ of time reading [other peoples’ code](/code-reviews/), and
 honestly, most of us could do better. Something I urge everyone to bear in mind
 is that **pride in your work is something that transcends all skills levels**.
 
-One thing that best developer in the world and the newest developer in the world
-have in common is that both both can be just as neat and tidy as each other:
-tidiness is divorced from skill or quality, and that’s some good news.
+One thing that the best developer in the world and the newest developer in the
+world both have in common is that either can be just as neat and tidy as the
+other: tidiness is divorced from skill or quality, and that’s some good news.
 
 Pride in your work speaks for a lot, and leaving clean and tidy code behind you,
 among other things:
