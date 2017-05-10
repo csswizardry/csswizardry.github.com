@@ -320,7 +320,7 @@ Ewww! What’s all that? Was that there the whole time?
 Yes, it was.
 
 By turning on invisibles, we’ve immediately seen what a hidden mess our code
-was—mixtures of tabs and spaces, and a bunch of tailing spaces.
+was—mixtures of tabs and spaces, and a bunch of trailing spaces.
 
 So many times I have opened a file that superficially seems tidy only to find
 that it’s a real mess of poor and inconsistent formatting. Turn on invisibles
@@ -335,7 +335,7 @@ them from doing the right thing.
 ### EditorConfig
 
 Everyone has their own preferences, but a project should have its own consistent
-code style, and that may will differ from yours. This kinda sucks, but it’s just
+code style, and that may well differ from yours. This kinda sucks, but it’s just
 one of those things.
 
 However, it does leave us with a bit of a dilemma:
@@ -504,7 +504,7 @@ $ vim _components.buttons.scss
 into the current, empty buffer:
 
 ```
-:read ../path/to/_tempalte.scss
+:read ../path/to/_template.scss
 ```
 
 You can see [a GIF of
