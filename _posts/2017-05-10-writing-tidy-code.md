@@ -393,13 +393,14 @@ Git has a bunch of whitespace related settings that will mark errors with mixed
 tabs and spaces in `diff`s. Take a read of the docs:
 
 ```
-$ git --help core
+$ git --help config
 ```
 
-…and then once in your pager, search for `core.whitespace` by typing:
+…and then once in your pager, search for `core.whitespace` by first hitting `/`
+(forward slash) to enter search mode, and then typing:
 
 ```
-/core\.whitespace
+core\.whitespace
 ```
 
 Taking a look through those settings, you’ll likely be able to enforce some
