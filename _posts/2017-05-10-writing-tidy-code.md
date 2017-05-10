@@ -22,7 +22,7 @@ honestly, most of us could do better. Something I urge everyone to bear in mind
 is that **pride in your work is something that transcends all skills levels**.
 
 One thing that best developer in the world and the newest developer in the world
-have in common is that both both can be just as neat and tidy as each other:
+have in common is that both can be just as neat and tidy as each other:
 tidiness is divorced from skill or quality, and that’s some good news.
 
 Pride in your work speaks for a lot, and leaving clean and tidy code behind you,
