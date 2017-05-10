@@ -189,6 +189,7 @@ Gif showing the `{`, `}` command in Vim. [View full size (3.0MB)](/wp-content/up
 
 For anyone whose editors have similar capabilities, whitespace isn’t just useful
 for scanning documents, but fundamental to the way we manipulate and edit them.
+A lack of whitespace is crippling, really giving productivity a huge knock.
 
 ## Comments
 
