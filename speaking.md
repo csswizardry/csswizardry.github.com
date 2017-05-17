@@ -40,11 +40,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/gr.png" alt="" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) May 2017
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/pl.png" alt="" /> <a href="http://jandbeyond.org/">J and Beyond</a>, Kraków (Poland), June 2017
   </li>
 
@@ -140,6 +135,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/pl.png" alt="" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2017
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
