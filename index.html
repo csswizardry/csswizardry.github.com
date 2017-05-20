@@ -21,40 +21,40 @@ page-class: page--home
 <div class="wrapper">
 
 <div class="layout  layout--large">
-    <div class="layout__item  lap-and-up-one-half  desk-two-thirds" data-ui-component="Main content">
+  <div class="layout__item  lap-and-up-one-half  desk-two-thirds" data-ui-component="Main content">
 
-        <section class="post" id="section:articles">
+    <section class="post" id="section:articles">
 
-            <h3 class="heading">Articles</h3>
+      <h3 class="heading">Articles</h3>
 
-            <p>There are <b>{{ site.posts | size  }}</b> articles on this blog.
-            Find them all on the <a href="/archive/">archive page</a>.</p>
+      <p>There are <b>{{ site.posts | size  }}</b> articles on this blog.
+      Find them all on the <a href="/archive/">archive page</a>.</p>
 
-            {% if paginator.page != 1 %}
-              {% include pagination.html %}
-            {% endif %}
+      {% if paginator.page != 1 %}
+      {% include pagination.html %}
+      {% endif %}
 
-            <ul class="list-ui  post__list  mb">
-                {% for post in paginator.posts %}
-                <li class="list-ui__item">
-                    <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %B, %Y" }}</time>
-                    <h3 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                </li>
-                {% endfor %}
-            </ul>
+      <ul class="list-ui  post__list  mb">
+        {% for post in paginator.posts %}
+        <li class="list-ui__item">
+          <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %B, %Y" }}</time>
+          <h3 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </li>
+        {% endfor %}
+      </ul>
 
-            {% include pagination.html %}
+      {% include pagination.html %}
 
-        </section>
+    </section>
 
-    </div
+  </div
 
-   ><div class="layout__item  lap-and-up-one-half  desk-one-third" data-ui-component="Sub content">
+  ><div class="layout__item  lap-and-up-one-half  desk-one-third" data-ui-component="Sub content">
 
-        <div class="[ box  box--highlight ]  mb">
-            {% include sub-content.html %}
-        </div>
-
+    <div class="[ box  box--highlight ]  mb">
+      {% include sub-content.html %}
     </div>
+
+  </div>
 
 </div>
