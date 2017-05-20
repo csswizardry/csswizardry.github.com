@@ -4,7 +4,7 @@
   "name": "CSS Wizardry",
   "description": "CSS Architecture and Performance Engineering",
   "start_url": "/",
-  "display": "browser",
+  "display": "standalone",
   "background_color": "#f9f9f9",
   "theme_color": "#f43059",
   "icons": [{
