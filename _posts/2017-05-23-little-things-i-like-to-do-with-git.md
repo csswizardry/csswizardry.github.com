@@ -6,9 +6,10 @@ categories: Web Development
 meta: "Git is a bunch of fun"
 ---
 
-I was chatting just the other day to Tim about how much I love Git—it’s such
-a powerful, elegant tool and it’s one I use the most often. I thought I would
-note down some useful little Git snippets that I use the most frequently.
+I was chatting just the other day to [Tim](https://twitter.com/tkadlec) about
+how much I love Git—it’s such a powerful, elegant tool and it’s one I use the
+most often. I thought I would note down some useful little Git snippets that
+I use the most frequently.
 
 ## Leaderboards
 
@@ -315,3 +316,9 @@ which branch a commit was made on where applicable, and I also get a much
 stricter date format.
 
 I have this aliased to `$ git graph`.
+
+## And you…?
+
+I’m sure you’ve all got loads of your own tips and trick: share them on this
+post’s [GitHub
+issue](https://github.com/csswizardry/csswizardry.github.com/issues/66).
