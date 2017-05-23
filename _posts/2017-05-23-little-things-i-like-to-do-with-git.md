@@ -80,8 +80,8 @@ When you `diff` or `show` an object with a lot of whitespace changes, we’re le
 looking at a lot of visual noise which can make it hard to see anything more
 important.
 
-Thankfully, removing this noise is pretty trivial using the `-w` flag which can
-be used alongside `git diff` and `git show`. For example, before:
+Thankfully, removing this noise is pretty trivial by using the `-w` flag which
+can be used alongside `git diff` and `git show`. For example, before:
 
 ```
  a {
@@ -229,7 +229,8 @@ Thankfully we can use Git to give us a head start:
 $ git log --oneline --no-merges <last tag>..HEAD
 ```
 
-**N.B.** Again, `HEAD` is optional here, and omitting it will leave it implied.
+**N.B.** `HEAD` is optional here—if you omit it (i.e. `... --no-merges <last
+tag>..`) then `HEAD` is implied. That saves you a couple of keystrokes.
 
 This will create a simplified log showing all commits (excluding merge commits)
 that took place between your last release and `HEAD`.
@@ -260,9 +261,7 @@ local branch.
 $ git log --oneline --no-merges HEAD..<remote>/<branch>
 ```
 
-**N.B.** `HEAD` is optional here—if you omit it (i.e. `... --no-merges
-..<remote>/<branch>`) then `HEAD` is implied. That saves you a couple of
-keystrokes.
+**N.B.** Again, `HEAD` is optional here, and omitting it will leave it implied.
 
 For example, let’s see what someone has been doing in a particular feature
 branch whilst you were on holiday:
