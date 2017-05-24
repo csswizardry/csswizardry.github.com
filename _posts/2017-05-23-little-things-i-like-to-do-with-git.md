@@ -6,7 +6,7 @@ categories: Web Development
 meta: "Git is a bunch of fun"
 ---
 
-I was chatting just the other day to [Tim](https://twitter.com/tkadlec) about
+I was chatting with [Tim](https://twitter.com/tkadlec) just the other day about
 how much I love Git—it’s such a powerful, elegant tool and it’s one I use the
 most often. I thought I would note down some useful little Git snippets that
 I use the most frequently.
