@@ -66,9 +66,21 @@ This only really helps us out if we’re in Normal mode though: if we’re in Vi
 mode it’s just going to move our selection up or down, and Command mode will
 literally write the characters out. What else can we do?
 
-<small>A lot of people also like to map Caps-Lock to `<Esc>`, however that needs
-to be done at OS level. I personally don’t like the idea of having a system-wide
-keyboard change for the sake of just my text editor, but that’s just me.</small>
+### Using CapsLock
+
+A lot of people also like to map CapsLock to `<Esc>`, however that needs to be
+done at OS level with a number of different third-party tools. I personally
+don’t like the idea of having a system-wide keyboard change for the sake of just
+my text editor, but that’s just me.
+
+#### Update 2017-05-24
+
+If you’re running macOS Sierra, you can now natively map CapsLock to `<Esc>`:
+
+<figure>
+<img src="/wp-content/uploads/2017/05/screenshot-caps-lock.png" alt="" />
+<figcaption>Remap CapsLock to Escape in System Preferences <a href="/wp-content/uploads/2017/05/screenshot-caps-lock-full.png">View full size/quality (120KB).</a></figcaption>
+</figure>
 
 ## Alternatives to `<Esc>`
 
