@@ -89,29 +89,29 @@ there are some native alternatives to `<Esc>` that we can use across modes.
 
 As I mentioned, hitting `jj` and `jk` in Command mode will be interpreted
 literally, and in Visual mode they will navigate, so in these modes we can use
-either `Ctrl+[` (or `<C-[`> in Vim-speak) or `Ctrl+C` (or `<C-c`> in Vim-speak).
+either `Ctrl-[` (or `<C-[`> in Vim-speak) or `Ctrl-C` (or `<C-c`> in Vim-speak).
 
 The Vim help even says:
 
 > Note: If your `<Esc>` key is hard to hit on your keyboard, train yourself to
-> use `CTRL-[`.
+> use `Ctrl-[`.
 
-So, whenever you’re in any modes other than Insert, reach for `Ctrl-[` or
-`Ctrl-C` instead of `<Esc>`. `Ctrl-C` is probably going to be a little easier to
+So, whenever you’re in any modes other than Insert, reach for `<C-[>` or
+`<C-c>` instead of `<Esc>`. `<C-c>` is probably going to be a little easier to
 remember, because you probably recognise it as the cancel signal in from your
 shell, however there are some subtle differences between the two…
 
 ### What’s the Difference?
 
-`Ctrl-[` acts almost universally identically to `Esc`, so there’s nothing real
-of note there. What does need a little further mention is `Ctrl-C`.
+`<C-[>` acts almost universally identically to `Esc`, so there’s nothing real
+of note there. What does need a little further mention is `<C-c>`.
 
-`Ctrl-C` is a cancel signal, so its job is just to get you straight out of
+`<C-c>` is a cancel signal, so its job is just to get you straight out of
 whatever you’re doing and back into Insert mode as fast as possible. This means
-that `Ctrl-C` will not complete any pending abbreviations or send the
+that `<C-c>` will not complete any pending abbreviations or send the
 `InsertLeave` signal back to Vim (which some of your plugins may depend on).
 
-This doesn’t mean that `Ctrl-C` is bad or should be avoided; it’s just the most
+This doesn’t mean that `<C-c>` is bad or should be avoided; it’s just the most
 heavy handed of the two. Your mileage may vary.
 
 ## Expert Mode
