@@ -22,6 +22,11 @@
 </script>
 
 <script>
+
+{% if page.layout == "post" %}
+  !function(n){var t=RegExp("^"+document.location.href),e=function(){return n.performance.getEntriesByType("resource")},r=function(n){return n.filter(function(n){return!t.test(n.name)})},o=function(n){return function(t,e){return t+e[n]}};n.performance.getEntriesByType&&n.addEventListener("DOMContentLoaded",function(){var n=r(e()),t=n.reduce(o("duration"),0);ga("send","timing","rum","3rd-party-time-at-dom-ready",Math.round(t))}),n.performance.timing&&n.addEventListener("load",function(){var t=n.performance.timing;if(n.performance.getEntriesByType){var a=r(e()),i=a.reduce(o("duration"),0);ga("send","timing","rum","3rd-party-time-at-page-load",Math.round(i))}try{var c={"dns-lookup":t.domainLookupEnd-t.domainLookupStart,"initial-connection":t.connectEnd-t.connectStart,"ssl-connection":t.connectEnd-(t.secureConnectionStart||t.connectEnd),"time-to-first-byte":t.responseStart-t.requestStart,"content-download":t.responseEnd-t.responseStart,"time-to-interactive":t.domInteractive-t.navigationStart,"fully-loaded":t.loadEventStart-t.navigationStart};Object.keys(c).forEach(function(n){ga("send","timing","rum",n,Math.round(c[n]))})}catch(d){}})}(window);
+{% endif %}
+
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
