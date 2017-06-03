@@ -46,11 +46,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   -->
 
   <li>
-    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <img src="/img/icons/en.png" alt="" /> <a href="https://reasons.to/2017/brighton">Reasons to:</a>, Brighton (UK), September 2017
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/us.png" alt="" /> <a href="http://2017.cssdevconf.com/">CSS Dev Conf</a>, New Orleans (US), October 2017
   </li>
@@ -130,6 +125,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/pl.png" alt="" /> <a href="http://jandbeyond.org/">J and Beyond</a>, Kraków (Poland), June 2017
+  </li>
 
   <li>
     <h3 class="list-ui__title">Workshop</h3>
