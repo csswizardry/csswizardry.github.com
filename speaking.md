@@ -50,15 +50,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/en.png" alt="" /> <a href="https://www.meetup.com/Allaboutweb/">All About Web</a>, Leeds (UK), July 2017
   </li>
 
-  <!--
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/au.png" alt="" /> <a href="https://www.webdirections.org/code/">Web Directions, Code</a>, Melbourne (Australia), August 2017
-  </li>
-
-  -->
-
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <img src="/img/icons/za.png" alt="" /> <a href="https://sourceup.co.za/">Source Up!</a>, Johannesburg (South Africa), September 2017
