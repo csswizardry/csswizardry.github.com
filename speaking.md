@@ -47,6 +47,30 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/en.png" alt="" /> <a href="https://www.meetup.com/Allaboutweb/">All About Web</a>, Leeds (UK), July 2017
+  </li>
+
+  <!--
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/au.png" alt="" /> <a href="https://www.webdirections.org/code/">Web Directions, Code</a>, Melbourne (Australia), August 2017
+  </li>
+
+  -->
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/za.png" alt="" /> <a href="https://sourceup.co.za/">Source Up!</a>, Johannesburg (South Africa), September 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Workshop</h3>
+    <img src="/img/icons/en.png" alt="" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October</a>, London (UK), September 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/us.png" alt="" /> <a href="http://2017.cssdevconf.com/">CSS Dev Conf</a>, New Orleans (US), October 2017
   </li>
 
@@ -54,6 +78,15 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/es.png" alt="" /> <a href="http://lanyrd.com/2017/smashingconf-barcelona/">SmashingConf</a>, Barcelona (Spain), October 2017
   </li>
+
+  <!--
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/en.png" alt="" /> <a href="https://pixelpioneers.co/events/belfast-2017">Pixel Pioneers</a>, Belfast (Northern Ireland), November 2017
+  </li>
+
+  -->
 
 </ol>
 
