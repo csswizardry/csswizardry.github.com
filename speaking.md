@@ -90,8 +90,6 @@ wrong answer** to any of these questions.
 * **How long does the talk need to be?** Do you have a set talk duration? 45
   minutes is usually ideal.
 * **Do you cover speaker expenses?** Flights, hotels, train journeys, etc.
-* **Do you provide a plus-one ticket?** Is there a chance to bring someone along
-  who might also be interested in attending?
 * **What kind of talk would you like?** I usually give technical talks (CSS
   architecture, performance, etc.), but am open to discussing other topics.
 * **Do you require a brand new talk?** Writing talks takes a lot of time and
