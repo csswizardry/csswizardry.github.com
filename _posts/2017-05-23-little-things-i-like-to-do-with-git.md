@@ -19,16 +19,17 @@ interested in seeing who has committed how much to your project, `shortlog` can
 give us the answer:
 
 ```
-$ git shortlog -sn
+$ git shortlog -sn --all --no-merges
     80  Harry Roberts
     34  Samantha Peters
      3  Tom Smith
 ```
 
-The `shortlog` gives us summaries of `git log`; the `-s` flag will a <q>suppress
+The `shortlog` gives us summaries of `git log`; the `-s` flag will <q>suppress
 commit description and provide a commit count summary only</q>, and the `-n`
 flag will <q>sort output according to the number of commits per author instead
-of author alphabetic order.</q>
+of author alphabetic order.</q> The `--all` flag logs all branches, and
+`--no-merges` ensures that merge commits aren’t being counted.
 
 The above shows all commits for the lifetime of the project, but if you want to
 see how much people have done during a specified timeframe, you can use the
