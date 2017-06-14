@@ -127,6 +127,16 @@ first.
 
   <li class="list-ui__item">
     <h3 class="list-ui__title">Podcast</h3>
+    <time>2017-06-13</time>: <a href="https://soundcloud.com/scriptcast/1-beer-with-harry-roberts">ScriptCast</a>
+  </li>
+
+  <li class="list-ui__item">
+    <h3 class="list-ui__title">Podcast</h3>
+    <time>2017-06-13</time>: <a href="https://goodstuff.fm/nbsp/121">Non Breaking Space Show</a>
+  </li>
+
+  <li class="list-ui__item">
+    <h3 class="list-ui__title">Podcast</h3>
     <time>2016-11-10</time>: <a href="http://hackingui.com/podcast/the-ups-and-downs-of-dominating-a-niche-harry-roberts-css-wizardry/">Hacking UI</a>
   </li>
 
