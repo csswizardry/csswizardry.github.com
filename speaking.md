@@ -38,13 +38,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   {% include speaking.html %}
 
-  <!--
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/us.png" alt="" /> <a href="https://smashingconf.com/ny-2017/">SmashingConf</a>, New York (US), June 2017
-  </li>
-  -->
-
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/en.png" alt="" /> <a href="https://www.meetup.com/Allaboutweb/">All About Web</a>, Leeds (UK), July 2017
@@ -147,6 +140,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/us.png" alt="" /> <a href="https://smashingconf.com/ny-2017/">SmashingConf</a>, New York (US), June 2017
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
