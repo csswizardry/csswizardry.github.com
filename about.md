@@ -120,9 +120,6 @@ that I’m having to live with…
 
 ## Interviews and Podcasts
 
-A selection of some of the podcasts and interviews I have been a part of, newest
-first.
-
 <ol class="list-ui  mb">
 
   <li class="list-ui__item">
