@@ -135,7 +135,7 @@ type of dash that should be used.
 
 If you really want to show off, there’s technically a different character for
 minuses. A hyphen is a very close approximation, but is set a little lower and
-shorter than a true hyphen.
+shorter than a true minus.
 
 <p class="_tfd-demo">Your balance is £-1902.</p>
 
