@@ -165,7 +165,7 @@ user is left potentially looking at a blank screen. After a certain period has
 elapsed, the browser will eventually timeout and display the page without the
 asset(s) in question. How long is that certain period of time?
 
-It’s **1.3 minutes.**
+It’s **1 minute and 20 seconds.**
 
 If you have any render-blocking, critical, third party assets hosted on an
 external domain, you run the risk of showing users a blank page for 1.3 minutes.
@@ -182,7 +182,7 @@ href="/wp-content/uploads/2017/07/screenshot-outage-full.png">View full
 size/quality (375KB).</a></figcaption>
 </figure>
 
-It’ very important to point out that **this isn’t necessarily the third party’s
+It’s very important to point out that **this isn’t necessarily the third party’s
 fault**. The behaviour outlined above is expected: it’s how web pages and
 browsers work. What we’re doing here is not apportioning blame, but learning
 about how resilient _we_ are if one of our third parties goes down.
