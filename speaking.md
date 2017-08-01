@@ -44,6 +44,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   </li>
 
   <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/en.png" alt="" /> <a href="https://reasons.to/2017/brighton">Reasons to:</a>, Brighton (UK), September 2017
+  </li>
+
+  <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/by.png" alt="" /> <a href="http://css-minsk-js.by/">CSS Minsk JS</a>, Minsk (Belarus), September 2017
   </li>
