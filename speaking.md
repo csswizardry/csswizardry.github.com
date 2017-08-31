@@ -39,18 +39,8 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
-    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <img src="/img/icons/en.png" alt="" /> <a href="https://reasons.to/2017/brighton">Reasons to:</a>, Brighton (UK), September 2017
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/by.png" alt="" /> <a href="http://css-minsk-js.by/">CSS Minsk JS</a>, Minsk (Belarus), September 2017
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <img src="/img/icons/za.png" alt="" /> <a href="https://sourceup.co.za/">Source Up!</a>, Johannesburg (South Africa), September 2017
   </li>
 
   <li>
@@ -68,10 +58,12 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/us.png" alt="" /> <a href="http://2017.cssdevconf.com/">CSS Dev Conf</a>, New Orleans (US), October 2017
   </li>
 
+  <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/es.png" alt="" /> <a href="http://lanyrd.com/2017/smashingconf-barcelona/">SmashingConf</a>, Barcelona (Spain), October 2017
   </li>
+  -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
@@ -151,6 +143,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/hr.png" alt="" /> <a href="https://www.meetup.com/TinelMeetup/">Tinel Meetup</a>, Split (Croatia), August 2017
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
