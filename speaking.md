@@ -65,6 +65,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/uk.png" alt="" /> <a href="https://pixelpioneers.co/events/belfast-2017">Pixel Pioneers</a>, Belfast (Northern Ireland), November 2017
   </li>
 
+  <li>
+    <h3 class="list-ui__title">Workshop</h3>
+    <img src="/img/icons/uk.png" alt="" /> <a href="https://graaft.co/">Graaft</a>, Manchester (United Kingdom), November 2017
+  </li>
+
 </ol>
 
 
