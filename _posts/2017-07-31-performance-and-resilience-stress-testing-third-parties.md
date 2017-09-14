@@ -205,3 +205,9 @@ wrong. Stress-testing third parties is a standard part of any of the bits of
 performance work I undertake, because the ramifications can be huge. And again,
 this isn’t us blaming the providers: it’s finding out how well we handle
 failures.
+
+## Update, 2017-09-14
+
+[Ryan Townsend](https://twitter.com/RyanTownsend) wrote something of a follow-up
+post, [<cite>How 3rd Party Scripts can be performant citizens on the
+web</cite>](https://www.twnsnd.com/posts/performant_third_party_scripts.html).
