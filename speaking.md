@@ -70,6 +70,16 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/uk.png" alt="" /> <a href="https://graaft.co/">Graaft</a>, Manchester (United Kingdom), November 2017
   </li>
 
+  <li>
+    <h3 class="list-ui__title">Workshop</h3>
+    <img src="/img/icons/hr.png" alt="" /> <a href="http://hura.hr/howtowow/harry-roberts-front-end-performance-building-faster-websites/">HURA</a>, Zagreb (Croatia), December 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/pl.png" alt="" /> <a href="http://www.codeeurope.pl/en">Code Europe</a>, Wrocław (Poland), December 2017
+  </li>
+
 </ol>
 
 
