@@ -104,7 +104,7 @@ starting point, not a test. Please also remember that **there is no right or
 wrong answer** to any of these questions.
 
 * **When and where is your conference?** I once [travelled 12,000
-  miles](https://www.google.co.uk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#safe=off&q=distance+leeds+uk+to+wellington+nz)
+  miles](https://www.google.co.uk/search?q=distance+leeds+to+wellington)
   to give a talk; I’m not afraid of a commute.
 * **How many attendees do you expect to have?** Rough figures or previous sizes
   are perfectly fine.
