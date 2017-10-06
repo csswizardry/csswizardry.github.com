@@ -40,23 +40,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/fr.png" alt="" /> <a href="https://www.paris-web.fr">Paris Web</a>, Paris (France), October 2017
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/us.png" alt="" /> <a href="http://2017.cssdevconf.com/">CSS Dev Conf</a>, New Orleans (US), October 2017
-  </li>
-
-  <!--
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/es.png" alt="" /> <a href="http://lanyrd.com/2017/smashingconf-barcelona/">SmashingConf</a>, Barcelona (Spain), October 2017
-  </li>
-  -->
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/hu.png" alt="" /> <a href="http://cssconfbp.rocks/">CSSConf Budapest</a>, Budapest (Hungary), October 2017
   </li>
 
@@ -148,6 +131,16 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/fr.png" alt="" /> <a href="https://www.paris-web.fr">Paris Web</a>, Paris (France), October 2017
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Workshop</h3>
+    <img src="/img/icons/en.png" alt="" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October</a>, London (UK), September 2017
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
