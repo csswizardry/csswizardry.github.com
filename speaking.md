@@ -53,6 +53,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/pl.png" alt="" /> <a href="http://www.codeeurope.pl/en">Code Europe</a>, Wrocław (Poland), December 2017
   </li>
 
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/de.png" alt="" /> <a href="https://conference.awwwards.com/berlin">Awwwards</a>, Berlin (Germany), February 2018
+  </li>
+
 </ol>
 
 
