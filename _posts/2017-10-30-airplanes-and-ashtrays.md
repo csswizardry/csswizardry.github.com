@@ -11,10 +11,10 @@ from Rio de Janeiro to Paris crashed due to a fire on board[^1]. Only 11
 passengers survived. The fire started when a cigarette was disposed of in the
 waste bin in the lavatory, where someone had gone for a secretive smoke.
 
-Inflight smoking has been almost universally been banned on all commercial
-airlines for the best part of two decades now. Yet still, in 2017, all planes
-are fitted with ashtrays. Even brand new planes, built long after the ban was
-enforced, still provide ashtrays for their passengers. Why?
+Inflight smoking has been almost universally banned on all commercial airlines
+for the best part of two decades now. Yet still, in 2017, all planes are fitted
+with ashtrays. Even brand new planes, built long after the ban was enforced,
+still provide ashtrays for their passengers. Why?
 
 The answer is relatively straightforward: despite smoking on an airplane being
 illegal, someone will, inevitably, break the rules. When this happens, we at
