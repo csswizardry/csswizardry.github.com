@@ -49,7 +49,7 @@ allowed the thing they were scared of to happen in the first place.
 But it can get even worse: making something impossible can often lead to
 complete abandonment. When a team cannot bend the rules of your system or
 framework, they’ll often opt to simply not use it at all. This is a net loss,
-where allowing them to do the wrong thing would have at least led to greater
+whereas allowing them to do the wrong thing would have at least led to greater
 adoption, more consistency, and less repetition.
 
 Whenever you plan or design a system, you need to build in your own ashtrays—a
