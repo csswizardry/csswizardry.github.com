@@ -6,7 +6,7 @@ categories: Web Development
 meta: "Sometimes you need to make it possible to do the wrong thing…"
 ---
 
-On 11 July, 1973, 123 passengers lost their lives when their Varig 820 flight
+On 11 July 1973, 123 passengers lost their lives when their Varig 820 flight
 from Rio de Janeiro to Paris crashed due to a fire on board[^1]. Only 11
 passengers survived. The fire started when a cigarette was disposed of in the
 waste bin in the lavatory, where someone had gone for a secretive smoke.
@@ -74,8 +74,8 @@ This means that, although far from ideal, the impact of these hacks is well
 contained and signposted, meaning that they won’t slip through the cracks and
 remain hidden in the codebase for the next five years.
 
-This pragmatism and lack of stubbornness can ultimately make your codebase much
-more malleable, resilient, and ultimately much more useful. Everything is
+This pragmatism and lack of stubbornness can make your codebase much more
+malleable, resilient, and ultimately much more useful. Everything is
 a compromise.
 
 [^1]: [wikipedia.org/Varig_Flight_820](https://en.wikipedia.org/wiki/Varig_Flight_820)
