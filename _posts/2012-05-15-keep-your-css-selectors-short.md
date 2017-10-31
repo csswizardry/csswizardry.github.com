@@ -30,7 +30,7 @@ Keeping CSS selectors short helps with a lot of things:
 
 This is a very vague list, so I’m going to address each in order. You will find that there is a lot of crossover between each point (e.g. reducing location dependency inherently means your selectors are more portable) but I feel they are all points in their own right.
 
-## Increases selector efficiency
+## Increases Selector Efficiency
 
 I have written before about CSS selector efficiency. I’m going to gloss over a lot of the intricacies in this post so for a full background understanding I recommend you read [Writing efficient CSS selectors](http://csswizardry.com/2011/09/writing-efficient-css-selectors/) first.
 
@@ -47,7 +47,7 @@ With the second example the browser only needs to look for one thing; the `.nav`
 
 Now, [CSS selector performance is—by-and-large—not something we _really_ need to worry about any more](http://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/), but that doesn’t mean we should be wasteful. I’m sure none of us would miss a lost £5 but that doesn’t mean we go slipping banknotes into paper shredders… Selector efficiency _does_ exist and you might as well improve it where you **very easily** can.
 
-## Reduces location dependency
+## Reduces Location Dependency
 
 By keeping selectors short you are likely to be reducing the amount of descendant (e.g. `.sidebar .promo {}`) and child (e.g. `.sidebar > .promo {}`) selectors. By removing these descending types of selectors you are reducing the necessity for an element to live inside another one. Let’s reuse the `.sidebar .promo {}` example…
 
@@ -57,7 +57,7 @@ By replacing `.sidebar .promo {}` with something like `.secondary-promo {}` we c
 
 By reducing descendants we can really reduce dependency and make things a lot more portable…
 
-## Increases portability
+## Increases Portability
 
 So now that we’re not tied to locationally dependant selectors, we find that our components are a lot more portable. We can move things a lot more easily because our CSS doesn’t care where a thing lives, it just cares that it exists. Awesome!
 
@@ -85,7 +85,7 @@ Here we have a troublesome selector; what if that `<h2>` needs to become a `<h3>
 
 Now we can apply `.widget-title` to _any_ element—let’s say a `<h4>`—and can now also have any number of unclassed `<h4>`s in the widget without them adopting any title styling. Ossom!
 
-## Reduces chances of selector breakage
+## Reduces Chances of Selector Breakage
 
 The longer a selector is, the more things the browser has to satisfy before it can match it. The more checks there are then—naturally—the more chance there is for something to go wrong.
 
@@ -95,7 +95,7 @@ All that needs to happen is the location of the `div:nth-of-type(2)` to change o
 
 Shorter selectors mean there is statistically less chance for things to go wrong.
 
-## Decreases specificity
+## Decreases Specificity
 
 This is the big one! This is where it really matters!
 
@@ -105,7 +105,7 @@ A selector like `.widget > h2 {}` has a higher specificity (as well as the other
 
 `.nav li a {}` has a higher specificity than `.nav a` (and is also less efficient). Reducing selector length reduces selector specificity and that is **very important**. High specificity leads to self-induced specificity battles that can only be won by making subsequent selectors _more_ specific (or using `!important`, shame on you). This is a terrible thing. The easiest way to reduce specificity (after _dropping IDs from your CSS **completely**_) is to keep your selectors short.
 
-## Can make code more forgiving
+## Can Make Code More Forgiving
 
 This is a very specific but very decent example of how short selectors can make code more forgiving. However, I will warn you, you can argue two sides of what I’m about to tell you; you can argue that it makes your code a lot more flexible and can gracefully handle breakages **or** you could argue that it allows breakages in the first place by being too lenient. Anyway, here’s a true story…
 
@@ -132,7 +132,7 @@ Now, this doesn’t make the markup right, and it does actually _allow_ poorer m
 
 Now I said you could argue both sides here, a more verbose selector means that we’d have spotted the CMS error immediately as no styles would have hit the `<a>`s. But! In the same breath, our CSS was flexible enough to be okay with that. Make of it what you will, because I too am sat on the fence and a little disappointed that the error wasn’t spotted, but here is a very specific example of how shorter selectors can lead to more forgiving CSS.
 
-## Final word
+## Final Word
 
 I did mention that this is a rule I’ve applied to larger sites but, honestly, you should apply this everywhere. The things we’ve discussed tend to really come into their own (and their absence painfully aware) on larger builds, but they will definitely, _definitely_ help you on builds of all sizes; small or large.
 
