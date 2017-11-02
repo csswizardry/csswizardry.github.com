@@ -58,6 +58,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/de.png" alt="" /> <a href="https://conference.awwwards.com/berlin">Awwwards</a>, Berlin (Germany), February 2018
   </li>
 
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/ua.png" alt="" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kiev (Ukraine), March 2018
+  </li>
+
 </ol>
 
 
