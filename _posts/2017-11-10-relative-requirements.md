@@ -256,4 +256,6 @@ zeroes. Then something remarkable happened:
 This was a really reassuring moment, and the site continues to be one of the
 fastest in the e-commerce space.
 
-Try it out. Let me know how you get on.
+Try it out[^1]. Let me know how you get on.
+
+[^1]: Here’s [a Google Sheets document](https://docs.google.com/spreadsheets/d/17ZvkR-ycr3HcZxiBvNwJYA_f87fijuB2JNuoNb9xLKA/edit?usp=sharing) to make your own.
