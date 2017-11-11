@@ -7,8 +7,10 @@
     @include vendor(transition, 0.2s);
 
     @include attention() {
-        background-color: darken($color-btn, 10%);
-            border-color: darken($color-btn, 10%);
+      background-color: darken($color-btn, 10%);
+          border-color: darken($color-btn, 10%);
+      transform: translateY(-1px);
+      box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
     }
 
 }
