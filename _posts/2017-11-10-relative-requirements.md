@@ -14,11 +14,11 @@ fresh and exciting, there comes a problem when a developer’s skill-set doesn�
 match the requirements of the project, or when teams approach new projects the
 same way as the last despite the requirements being fundamentally different.
 
-This awkward matrix of skills against requirements can often lead to problems.
-Developers can end up over-engineering simple marketing sites; designers begin
-striving for pixel-perfection on quick-and-dirty internal dashboards that just
-don’t need it. This can lead to internal friction and arguments between team
-members, but also to excessive cost—spending three days writing the most
+This awkward matrix of skills against requirements can often lead to problems:
+developers can end up over-engineering simple marketing sites, and designers
+begin striving for pixel-perfection on quick-and-dirty internal dashboards that
+just don’t need it. This can lead to internal friction and arguments between
+team members, but also to excessive cost—spending three days writing the most
 extensible and elegant code for a campaign site that will be live for a few days
 is almost impossible to justify.
 
