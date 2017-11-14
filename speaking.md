@@ -54,6 +54,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   </li>
 
   <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/de.png" alt="" /> <a href="https://beyondtellerrand.com/events/munich-2018/speakers/harry-roberts">Beyond Tellerrand</a>, Munich (Germany), January 2018
+  </li>
+
+  <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/de.png" alt="" /> <a href="https://conference.awwwards.com/berlin">Awwwards</a>, Berlin (Germany), February 2018
   </li>
@@ -61,6 +66,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/ua.png" alt="" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kiev (Ukraine), March 2018
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/uk.png" alt="" /> <a href="https://2018.deltavconf.com/">DeltaV Conference</a>, London (UK), May 2018
   </li>
 
 </ol>
