@@ -68,6 +68,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/uk.png" alt="" /> <a href="https://2018.deltavconf.com/">DeltaV Conference</a>, London (UK), May 2018
   </li>
 
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/nl.png" alt="" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (NL), May–June 2018
+  </li>
+
 </ol>
 
 
