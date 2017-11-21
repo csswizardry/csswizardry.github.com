@@ -16,7 +16,7 @@ on, and by using the adjacent sibling selector, we can use that user’s action 
 style subsequent parts of the DOM.
 
 Take a look at the
-[demo](http://www.sassmeister.com/gist/04045234e626aede7d0064ae202f81c4).
+[demo](https://codepen.io/csswizardry/pen/ooqZVX).
 
 ## The HTML
 
