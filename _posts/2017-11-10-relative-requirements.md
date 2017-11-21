@@ -98,7 +98,7 @@ everybody involved the process. To quickly define the traits I have used:
   pixel-perfection? For [Gov.uk](https://www.gov.uk/), striking visuals are
   clearly less important than usability, but if we’re building a site to promote
   a luxury hotel, we need to be focusing on lavish design.
-* **Accessibility:** Of course, accessibility it always important—we should
+* **Accessibility:** Of course, accessibility is always important—we should
   always be building accessible sites and applications—but accessibility still
   needs to be subjected to the same grading as everything else.
 
