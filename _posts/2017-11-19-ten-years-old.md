@@ -21,8 +21,8 @@ CSS tricks and techniques, and I’d also just finished reading
 Mastery</cite>](https://www.amazon.co.uk/gp/product/1430223979?ie=UTF8&tag=blogography-21&linkCode=as2&camp=1634&creative=6738&creativeASIN=1430223979)
 which is a book that inspired me greatly. I actually loathe the name CSS
 Wizardry now, but it’s stuck too well for me to change it: I guess it’s here to
-stay (incidentally, a lot of people think the name choice was making a play on
-the whole Harry/wizard thing—it wasn’t).
+stay. Incidentally, a lot of people think the name choice was making a play on
+the whole Harry/wizard thing—it wasn’t.
 
 Fast forward a decade, and that whimsical purchase has probably been the most
 influential decision I ever made. What started off as an overly-confident
