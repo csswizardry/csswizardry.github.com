@@ -7,6 +7,17 @@
 
     {{ content }}
 
+{% if page.page-class == "page--home" %}
+<script>
+  [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = function() {
+      img.removeAttribute('data-src');
+    };
+  });
+</script>
+{% endif %}
+
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
