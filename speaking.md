@@ -39,11 +39,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
-    <h3 class="list-ui__title">Workshop</h3>
-    <img src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://hura.hr/howtowow/harry-roberts-front-end-performance-building-faster-websites/">HURA</a>, Zagreb (Croatia), December 2017
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="http://www.codeeurope.pl/en">Code Europe</a>, Wrocław (Poland), December 2017
   </li>
@@ -141,6 +136,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Workshop</h3>
+    <img src="/img/icons/uk.png" alt="" width="16" height="11" /> <a href="https://graaft.co/">Graaft</a>, Manchester (United Kingdom), November 2017
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
