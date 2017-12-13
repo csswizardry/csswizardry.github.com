@@ -45,7 +45,7 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.render-conf.com/">Render</a>, Oxford (England), March 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.render-conf.com/">Render</a>, Oxford (England), March 2018
   </li>
 
   <li>
