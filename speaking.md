@@ -39,11 +39,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
-    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <img src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="https://beyondtellerrand.com/events/munich-2018/speakers/harry-roberts">Beyond Tellerrand</a>, Munich (Germany), January 2018
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="https://conference.awwwards.com/berlin">Awwwards</a>, Berlin (Germany), February 2018
   </li>
@@ -136,6 +131,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="http://www.codeeurope.pl/en">Code Europe</a>, Wrocław (Poland), December 2017
+  </li>
 
   <li>
     <h3 class="list-ui__title">Workshop</h3>
