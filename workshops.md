@@ -9,7 +9,7 @@ permalink: /workshops/
 The vast majority of my working life is spent running workshops and training
 events for clients all over the globe. From the smallest of independent
 companies, to organisations with over 300,000 employees, I have taught hundreds
-of people who to write better, more scalable, more maintainable CSS, and how to
+of people how to write better, more scalable, more maintainable CSS, and how to
 make substantial savings on their load times.
 
 I have a number of pre-written workshops that are suitable for one- or two-day
