@@ -60,8 +60,25 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2018
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (NL), May–June 2018
   </li>
+
+  <!--
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/toronto-2018/">Smashing Conference</a>, Toronto (CA), June 2018
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/">Web Unleashed</a>, Toronto (CA), October 2018
+  </li>
+  -->
 
 </ol>
 
@@ -189,7 +206,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/ny-2017/">SmashingConf</a>, New York (US), June 2017
+    <img src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/ny-2017/">Smashing Conference</a>, New York (US), June 2017
   </li>
 
   <li>
@@ -344,7 +361,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <img src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="http://smashingconf.com/sf-2016/">SmashingConf</a>, San Francisco (US), April 2016
+    <img src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="http://smashingconf.com/sf-2016/">Smashing Conference</a>, San Francisco (US), April 2016
   </li>
 
   <li>
@@ -399,7 +416,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="http://smashingconf.com/freiburg-2015/">SmashingConf</a>, Freiburg (Germany), September 2015
+    <img src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="http://smashingconf.com/freiburg-2015/">Smashing Conference</a>, Freiburg (Germany), September 2015
   </li>
 
   <li>
