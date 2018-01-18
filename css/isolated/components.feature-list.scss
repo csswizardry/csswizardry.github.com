@@ -18,23 +18,25 @@
 }
 
     /**
-     * 1. Three columns on wide enough devices.
-     * 2. This crazy stuff ensures that the list has no orhpans. Thanks to
+     * 1. Prevent expensive repaints of subsequent items when hovering.
+     * 2. Three columns on wide enough devices.
+     * 3. This crazy stuff ensures that the list has no orphans. Thanks to
      *    Heydon Pickering for this:
      *    http://www.heydonworks.com/article/tetris-and-the-power-of-css
      */
     .feature-list__item {
+      contain: paint; /* [1] */
 
         @include media-query(lap-and-up) {
             float: left;
-            width: 33.333333333%; /* [1] */
+            width: 33.333333333%; /* [2] */
 
-            &:nth-child(3n+1):last-child { /* [2] */
+            &:nth-child(3n+1):last-child { /* [3] */
                 width: 100%;
             }
 
             &:nth-child(3n+1):nth-last-child(2),
-            &:nth-child(3n+1):nth-last-child(2) + & { /* [2] */
+            &:nth-child(3n+1):nth-last-child(2) + & { /* [3] */
                 width: 50%;
             }
 
@@ -68,13 +70,14 @@
                 margin-top: halve(-$spacing-unit);
                 border: halve($spacing-unit) solid transparent;
                 border-left-color: $inuit-base-background-color;
-                @include vendor(transition, left 0.2s);
+                @include vendor(transition, transform 0.2s);
+                will-change: transform;
             }
 
             @include attention() {
 
                 &:after {
-                    left: 0;
+                  @include vendor(transform, translateX(4px));
                 }
 
             }
