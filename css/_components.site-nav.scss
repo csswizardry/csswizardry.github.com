@@ -219,6 +219,7 @@ $logo-height:   64px;
 
         .site-nav__close {
           @include triggers();
+          line-height: $logo-height;
           text-align: right;
 
           &:after {
