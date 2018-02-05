@@ -40,7 +40,7 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/hu.png" alt="" width="16" height="11" /> <a href="https://www.facebook.com/events/576896259318274/">Osijek Software City</a>, Osijek (Croatia), February 2018
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://www.facebook.com/events/576896259318274/">Osijek Software City</a>, Osijek (Croatia), February 2018
   </li>
 
   <li>
