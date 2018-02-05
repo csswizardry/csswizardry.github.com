@@ -39,6 +39,16 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/hu.png" alt="" width="16" height="11" /> <a href="https://www.facebook.com/events/576896259318274/">Osijek Software City</a>, Osijek (Croatia), February 2018
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="http://dafed.org">DaFED</a>, Novi Sad (Serbia), February 2018
+  </li>
+
+  <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.render-conf.com/">Render Conf</a>, Oxford (England), March 2018
   </li>
