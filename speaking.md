@@ -40,11 +40,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://www.facebook.com/events/576896259318274/">Osijek Software City</a>, Osijek (Croatia), February 2018
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="http://dafed.org">DaFED</a>, Novi Sad (Serbia), February 2018
   </li>
 
@@ -60,7 +55,19 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/uk.png" alt="" width="16" height="11" /> <a href="https://2018.deltavconf.com/">DeltaV Conference</a>, London (UK), May 2018
+    <img src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/en-AU/webclerks/events/245731241/">webclerks</a>, Vienna (Austria), April 2018
+  </li>
+
+<!--
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://frontendne.co.uk/">Frontend NE</a>, Newcastle (England), May 2018
+  </li>
+-->
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://2018.deltavconf.com/">DeltaV Conference</a>, London (England), May 2018
   </li>
 
   <li>
@@ -70,20 +77,32 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (NL), May–June 2018
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (Netherlands), May–June 2018
   </li>
 
   <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/toronto-2018/">Smashing Conference</a>, Toronto (CA), June 2018
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/toronto-2018/">Smashing Conference</a>, Toronto (Canada), June 2018
   </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/">Web Unleashed</a>, Toronto (CA), October 2018
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/">Web Unleashed</a>, Toronto (Canada), October 2018
   </li>
   -->
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://2018.websummercamp.com/">Web Summer Camp</a>, Rovinj (Croatia), August–September 2018
+  </li>
+
+<!--
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/ee.png" alt="" width="16" height="11" /> <a href="https://www.topconf.com/conference/topconf-tallinn-2018">Topconf</a>, Tallinn (Estonia), November 2018
+  </li>
+-->
 
 </ol>
 
@@ -156,6 +175,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="https://conference.awwwards.com/berlin">Awwwards</a>, Berlin (Germany), February 2018
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <img src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="https://beyondtellerrand.com/events/munich-2018/">Beyond Tellerrand</a>, Munich (Germany), January 2018
   </li>
 
@@ -171,12 +195,12 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h3 class="list-ui__title">Workshop</h3>
-    <img src="/img/icons/uk.png" alt="" width="16" height="11" /> <a href="https://graaft.co/">Graaft</a>, Manchester (United Kingdom), November 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://graaft.co/">Graaft</a>, Manchester (United Kingdom), November 2017
   </li>
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <img src="/img/icons/uk.png" alt="" width="16" height="11" /> <a href="https://pixelpioneers.co/events/belfast-2017">Pixel Pioneers</a>, Belfast (Northern Ireland), November 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://pixelpioneers.co/events/belfast-2017">Pixel Pioneers</a>, Belfast (Northern Ireland), November 2017
   </li>
 
   <li>
@@ -196,7 +220,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h3 class="list-ui__title">Workshop</h3>
-    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October</a>, London (UK), September 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October</a>, London (England), September 2017
   </li>
 
   <li>
@@ -206,7 +230,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
-    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://reasons.to/2017/brighton">Reasons to:</a>, Brighton (UK), September 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://reasons.to/2017/brighton">Reasons to:</a>, Brighton (England), September 2017
   </li>
 
   <li>
@@ -266,7 +290,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://dxnevent.com/">Design Exchange</a>, Nottingham, (UK), January 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://dxnevent.com/">Design Exchange</a>, Nottingham, (England), January 2017
   </li>
 
   <li>
