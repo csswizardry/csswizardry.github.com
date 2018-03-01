@@ -6,18 +6,21 @@ meta: "Workshops and training events for clients"
 permalink: /workshops/
 ---
 
-The vast majority of my working life is spent running workshops and training
-events for clients all over the globe. From the smallest of independent
-companies, to organisations with over 300,000 employees, I have taught hundreds
-of people how to write better, more scalable, more maintainable CSS, and how to
-make substantial savings on their load times.
+A large part of my working life is spent running workshops and training events
+for clients all over the globe. From the smallest of independent companies, to
+organisations with over 300,000 employees, I have taught hundreds of people how
+to write better, more scalable, more maintainable CSS, and how to make
+substantial savings on their load times.
 
-I have a number of pre-written workshops that are suitable for one- or two-day
-engagements, or we can work on something a little more bespoke—just [get in
-touch](/contact/).
+I aim to customise in-house training and workshops to ensure that your team get
+the most relevant and pertinent information possible, so before we work together
+I will ask a series of questions (either via email or on a call) to see where
+you’re currently at, where you need to be, and what you want to know. My main
+areas of expertise are front-end performance and CSS architecture, and clients
+often opt to run a hybrid of the two. It’s entirely up to you.
 
 With a truly international reputation, my workshops have been delivered from New
-Zealand to Romania, Uruguay to the US. You’re in good hands.
+Zealand to Romania, Uruguay to the America: you’re in good hands.
 
 Workshop clients include: Google, General Electric, Etsy, Kickstarter, the BBC.
 
@@ -25,8 +28,10 @@ Workshop clients include: Google, General Electric, Etsy, Kickstarter, the BBC.
 
 ## Front-end Performance
 
-The newer of my workshops, the Front-end Performance masterclass will help
-developers to deliver websites to users in record times. You will learn
+My front-end performance knowledge is incredibly extensive. I’ve helped
+billion-dollar companies to make tangible performance improvements that have
+made notable impact on their bottom line. During our time together, your team
+will learn:
 
 * the moral and business impact of good performance;
 * how the network really works, and how to play to its strengths and weaknesses;
@@ -34,7 +39,11 @@ developers to deliver websites to users in record times. You will learn
 * how to trick the browser into downloading things ahead of time;
 * how to detect and troubleshoot performance issues;
 * how to measure performance successes;
-* how to prepare for the performance landscape of tomorrow.
+* how to prepare for the performance landscape of tomorrow;
+* and much, much more.
+
+The amount of content in this workshop cannot be overstated, so expect intense
+and very full days.
 
 <blockquote class="pull-quote" id="quote:parallax">
   <p>We hired Harry to provide performance consultancy on a high
@@ -60,9 +69,10 @@ sacrificing the quality or integrity of any of the website’s content or assets
 
 ## CSS Architecture
 
-My signature workshop has been constantly updated and running for almost three
-years now, with new materials introduced as they become relevant. Attendees will
-learn
+Despite having a keen focus on performance, I made my name inventing and
+pioneering many of the techniques that developers use to write, scale, and
+manage large CSS projects. I’ve helped some of the planet’s largest
+organisations to get a handle on their CSS. Expect to learn:
 
 * how to refine the design process to aid our architectural efforts;
 * how to modularise and decompose UI components in both designs and code;
@@ -70,6 +80,7 @@ learn
 * the ITCSS architecture for scalable and maintainable CSS;
 * how to handle layout in a responsive world;
 * theming and customising views;
+* effective and business-friendly strategies for refactoring CSS;
 * and a whole host more.
 
 <blockquote class="pull-quote" id="quote:christine-tadler">
@@ -83,6 +94,6 @@ learn
 </blockquote>
 
 I have run CSS architecture workshops for some of the world’s largest and most
-well known organisations.
+well known companies—why not add yourself to the list?
 
 <a href="mailto:csswizardry@gmail.com?subject=CSS%20Architecture%20Workshop" class="btn  btn--full">Request This Workshop</a>
