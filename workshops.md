@@ -63,7 +63,7 @@ sacrificing the quality or integrity of any of the website’s content or assets
 
 
 
-<a href="mailto:csswizardry@gmail.com?subject=Performance%20Workshop" class="btn  btn--full">Request This Workshop</a>
+<a href="mailto:csswizardry@gmail.com?subject=Performance%20Workshop" class="btn  btn--full">Let’s Talk Performance…</a>
 
 - - -
 
@@ -96,4 +96,4 @@ organisations to get a handle on their CSS. Expect to learn:
 I have run CSS architecture workshops for some of the world’s largest and most
 well known companies—why not add yourself to the list?
 
-<a href="mailto:csswizardry@gmail.com?subject=CSS%20Architecture%20Workshop" class="btn  btn--full">Request This Workshop</a>
+<a href="mailto:csswizardry@gmail.com?subject=CSS%20Architecture%20Workshop" class="btn  btn--full">Let’s Learn Some CSS…</a>
