@@ -51,6 +51,15 @@ logs:
   pixel." />
 </figure>
 
+### Update 2018-03-01 12:53:00 UTC
+
+[Ryan](https://twitter.com/RyanTownsend) makes a great point:
+
+> Might be worth noting on your new article that you’ll want to set a far-future
+> Cache-Control expiry header for the `no-js.gif` (or even use immutable) if you
+> want to count the number of users without JS rather than counting the number
+> of pageviews.
+
 ## Print Stylesheets
 
 In recent discussions with the NHS, a client of mine, we wondering whether
