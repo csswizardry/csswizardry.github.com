@@ -28,6 +28,8 @@ Workshop clients include: Google, General Electric, Etsy, Kickstarter, the BBC.
 
 ## Front-end Performance
 
+<a href="https://gum.co/perfmatters" class="gumroad-button">Buy the Slides</a>
+
 My front-end performance knowledge is incredibly extensive. I’ve helped
 billion-dollar companies to make tangible performance improvements that have
 made notable impact on their bottom line. During our time together, your team
