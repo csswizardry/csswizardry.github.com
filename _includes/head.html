@@ -45,6 +45,11 @@
 <link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
+<script>
+  LUX = window.LUX || {};
+  LUX.samplerate = 100;
+</script>
+
 <style>
 
   {% include css/csswizardry.min.css %}
@@ -61,12 +66,14 @@
 
 </style>
 
-
-<script>
-  LUX = window.LUX || {};
-  LUX.samplerate = 100;
-</script>
 <script src="https://cdn.speedcurve.com/js/lux.js?id=47684395" async defer></script>
+
+{% if page.layout != "feature" %}
+<script src="https://platform.twitter.com/widgets.js" async defer></script>
+{% endif %}
+{% if page.page-class == "page--services  page--workshops" %}
+<script src="https://gumroad.com/js/gumroad.js" async defer></script>
+{% endif %}
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@csswizardry">
@@ -87,12 +94,5 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta name="theme-color" content="#f43059">
 <link rel="manifest" href="/manifest.json">
-
-{% if page.layout != "feature" %}
-<script src="https://platform.twitter.com/widgets.js" async defer></script>
-{% endif %}
-{% if page.page-class == "page--services  page--workshops" %}
-<script src="https://gumroad.com/js/gumroad.js" async defer></script>
-{% endif %}
 
 </head>
