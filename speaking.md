@@ -40,11 +40,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kiev (Ukraine), March 2018
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/en-AU/webclerks/events/245731241/">webclerks</a>, Vienna (Austria), April 2018
   </li>
 
@@ -162,6 +157,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.render-conf.com/">Render Conf</a>, Oxford (England), March 2018
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
