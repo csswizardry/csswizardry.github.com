@@ -16,6 +16,10 @@
 /**
  * YouTube and Spotify Embeds
  */
+.c-youtube-embed {
+  max-width: 100%;
+}
+
 .c-youtube-embed,
 .c-spotify-embed {
   display: block;
