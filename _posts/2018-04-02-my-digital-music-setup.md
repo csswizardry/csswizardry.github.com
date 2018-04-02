@@ -49,8 +49,8 @@ and a decent amount of volume and you’ll still get the picture:
 src="https://www.youtube.com/embed/5g8a9luSZVI" frameborder="0" allow="autoplay;
 encrypted-media" allowfullscreen></iframe>
 
-After falling fully back in love with this track (and now owning a higher
-quality version of it) I decided to ramp up my home digital music setup to
+After falling fully back in love with this track (and managing to track down
+a quality version of it) I decided to ramp up my home digital music setup to
 something a little better than my current one. I guess this one track kicked
 everything off.
 
