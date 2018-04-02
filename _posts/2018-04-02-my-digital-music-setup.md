@@ -64,7 +64,7 @@ improvements to the music’s quality.
 
 With this in mind, I set about my research: I needed a high-quality speaker that
 would work well with streamed media, but that wouldn’t be overkill. I didn’t
-necessarily want to use Bluetooth as its lower throughput would mean lower
+necessarily want to use Bluetooth as its lower lower throughput would mean lower
 quality: I wanted a wifi enabled speaker that I could stream to directly.
 
 Further, I needed to be mindful of space. I live in a city-centre apartment
@@ -85,7 +85,7 @@ then I’ll start spending!
 
 <figure>
   <img src="/wp-content/uploads/2018/04/ottava.jpg" alt=""  />
-  <figcaption>Technics OTTAVA in-situ. <a href="/wp-content/uploads/2018/04/ottava-full.jpg">See full size/quality (2.7MB)</a></figcaption>
+  <figcaption><a href="/wp-content/uploads/2018/04/ottava-full.jpg">See full size/quality (2.7MB)</a></figcaption>
 </figure>
 
 * [Manufacturer’s Website](http://www.technics.com/uk/products/premium-class/all-in-one-music-system-ottava-f-sc-c70.html)
@@ -138,7 +138,7 @@ I would wholeheartedly recommend it.
 
 <figure>
   <img src="/wp-content/uploads/2018/04/se425.jpg" alt=""  />
-  <figcaption>Shure SE425 in-ear monitors. <a href="/wp-content/uploads/2018/04/se425-full.jpg">See full size/quality (3.6MB)</a></figcaption>
+  <figcaption><a href="/wp-content/uploads/2018/04/se425-full.jpg">See full size/quality (3.6MB)</a></figcaption>
 </figure>
 
 * [Manufacturer’s Website](https://www.shure.co.uk/products/earphones/se425)
@@ -172,7 +172,7 @@ handsome things I’ve ever seen. Still, I do absolutely love ’em.
 
 <figure>
   <img src="/wp-content/uploads/2018/04/dragonfly-red-laptop.jpg" alt=""  />
-  <figcaption>AudioQuest DragonFly Red plugged into my MacBook. <a href="/wp-content/uploads/2018/04/dragonfly-red-laptop-full.jpg">See full size/quality (3.3MB)</a></figcaption>
+  <figcaption><a href="/wp-content/uploads/2018/04/dragonfly-red-laptop-full.jpg">See full size/quality (3.3MB)</a></figcaption>
 </figure>
 
 * [Manufacturer’s Website](https://www.audioquest.com/dacs/dragonfly/dragonfly-red)
@@ -197,7 +197,7 @@ which means better quality listening on the move.
 
 <figure>
   <img src="/wp-content/uploads/2018/04/dragonfly-red-phone.jpg" alt=""  />
-  <figcaption>AudioQuest DragonFly Red plugged into my iPhone. <a href="/wp-content/uploads/2018/04/dragonfly-red-phone-full.jpg">See full size/quality (3.1MB)</a></figcaption>
+  <figcaption><a href="/wp-content/uploads/2018/04/dragonfly-red-phone-full.jpg">See full size/quality (3.1MB)</a></figcaption>
 </figure>
 
 The DragonFly is tiny—the same size as a conventional USB stick—but there’s no
@@ -222,7 +222,7 @@ enough quality audio then I’d recommend picking one up.
 
 <figure>
   <img src="/wp-content/uploads/2018/04/ath-m50x.jpg" alt=""  />
-  <figcaption>Audio-Technica’s ATH-M50x hooked up to Tidal. <a href="/wp-content/uploads/2018/04/ath-m50x-full.jpg">See full size/quality (3.6MB)</a></figcaption>
+  <figcaption><a href="/wp-content/uploads/2018/04/ath-m50x-full.jpg">See full size/quality (3.6MB)</a></figcaption>
 </figure>
 
 * [Manufacturer’s Website](http://www.audio-technica.com/cms/headphones/99aff89488ddd6b1/)
@@ -294,7 +294,8 @@ streaming service then I will swap fully back immediately.
 
 <figure>
   <img src="/wp-content/uploads/2018/04/screenshot-tidal-flac.png" alt=""  />
-  <figcaption>Tidal streaming lossless FLAC audio. <a href="/wp-content/uploads/2018/04/screenshot-tidal-flac-full.png">See full size/quality (437KB)</a></figcaption>
+  <figcaption>Tidal streaming lossless FLAC audio. <a href="/wp-content/uploads/2018/04/screenshot-tidal-flac-full.png">See full
+size/quality (437KB)</a></figcaption>
 </figure>
 
 ### SongShift – £3.99
