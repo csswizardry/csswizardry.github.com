@@ -395,7 +395,7 @@ $logo-height:   64px;
           text-decoration: underline;
         }
 
-        @each $page in workshops, code-reviews, consultancy, speaking {
+        @each $page in workshops, code-reviews, consultancy, speaking, testimonials {
           .page--#{$page} .site-nav__#{$page} {
             @extend %site-nav__current--sub;
           }
