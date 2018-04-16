@@ -38,11 +38,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   {% include speaking.html %}
 
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/en-AU/webclerks/events/245731241/">webclerks</a>, Vienna (Austria), April 2018
-  </li>
-
 <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
@@ -165,6 +160,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk &amp; Workshop</h3>
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Belgrade (Serbia), April 2018
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
