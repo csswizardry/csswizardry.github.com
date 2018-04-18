@@ -65,17 +65,24 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/toronto-2018/">Smashing Conference</a>, Toronto (Canada), June 2018
   </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/">Web Unleashed</a>, Toronto (Canada), October 2018
-  </li>
   -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://2018.websummercamp.com/">Web Summer Camp</a>, Rovinj (Croatia), August–September 2018
   </li>
+
+  <!--
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/">Web Unleashed</a>, Toronto (Canada), October 2018
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://heapcon.io/">Heapcon</a>, Belgrade (Serbia), October 2018
+  </li>
+  -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
