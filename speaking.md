@@ -40,11 +40,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2018
-  </li>
-
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (Netherlands), May–June 2018
   </li>
 
@@ -155,6 +150,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://2018.deltavconf.com/">DeltaV Conference</a>, London (England), May 2018
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
