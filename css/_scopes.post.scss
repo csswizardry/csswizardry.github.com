@@ -16,6 +16,13 @@
     background-color: rgba(0, 0, 0, 0.05);
   }
 
+  iframe {
+    max-width: 100%;
+    width: 100%;
+    border: none;
+    margin-bottom: $spacing-unit;
+  }
+
   :target {
     background-color: $color-hilite;
   }
