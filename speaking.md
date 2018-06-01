@@ -38,11 +38,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   {% include speaking.html %}
 
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (Netherlands), May–June 2018
-  </li>
-
   <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
@@ -55,7 +50,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://2018.websummercamp.com/">Web Summer Camp</a>, Rovinj (Croatia), August–September 2018
   </li>
 
-  <!--
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/">Web Unleashed</a>, Toronto (Canada), October 2018
@@ -65,11 +59,15 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://heapcon.io/">Heapcon</a>, Belgrade (Serbia), October 2018
   </li>
-  -->
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
     <img src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://perfnow.nl/speakers">performance.now()</a>, Amsterdam (Netherlands), November 2018
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/dk.png" alt="" width="16" height="11" /> <a href="https://2018.coldfront.co/">ColdFront</a>, Copenhagen (Denmark), November 2018
   </li>
 
 <!--
@@ -150,6 +148,16 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2018
+  </li>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (Netherlands), May–June 2018
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
