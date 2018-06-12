@@ -92,7 +92,7 @@ I have a couple of expectations (or hopes) that I predict:
 
 ### What Actually Happens
 
-#### Chrome
+#### Chrome (v67.0.3396.79)
 
 * **Expectedly** Chrome does not download any `background-image` until the CSSOM
   has been constructed:
@@ -107,7 +107,7 @@ I have a couple of expectations (or hopes) that I predict:
   <figcaption><a href="/wp-content/uploads/2018/06/chrome-bg-invisible-full.png">View full size/quality</a></figcaption>
   </figure>
 
-#### Safari
+#### Safari (v11.1 (13605.1.33.1.4))
 
 * **Expectedly** Safari does not download any `background-image` until the CSSOM
   has been constructed:
@@ -122,7 +122,7 @@ I have a couple of expectations (or hopes) that I predict:
   <figcaption><a href="/wp-content/uploads/2018/06/safari-bg-invisible-full.png">View full size/quality</a></figcaption>
   </figure>
 
-#### Firefox
+#### Firefox (v60.0.1)
 
 * **Expectedly** Firefox does not download any `background-image` until the
   CSSOM has been constructed:
@@ -137,7 +137,7 @@ I have a couple of expectations (or hopes) that I predict:
   <figcaption><a href="/wp-content/uploads/2018/06/firefox-bg-invisible-full.png">View full size/quality</a></figcaption>
   </figure>
 
-#### Opera
+#### Opera (v53.0.2907.68)
 
 * **Expectedly** Opera does not download any `background-image` until the CSSOM
   has been constructed:
@@ -152,7 +152,7 @@ I have a couple of expectations (or hopes) that I predict:
   <figcaption><a href="/wp-content/uploads/2018/06/opera-bg-invisible-full.png">View full size/quality</a></figcaption>
   </figure>
 
-#### Edge
+#### Edge (v17.17134)
 
 * **Expectedly** Edge does not download any `background-image` until the CSSOM
   has been constructed.
