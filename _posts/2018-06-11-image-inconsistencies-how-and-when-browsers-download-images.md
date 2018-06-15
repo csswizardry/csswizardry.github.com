@@ -13,7 +13,7 @@ This year, I’ve been working closely with the wonderful
 been working pretty hard on making their suite of online products [much
 faster](https://twitter.com/csswizardry/status/1003881067189800962), and I’ve
 been the technical consultant leading the project. It’s been an incredibly fun
-and rewarding project, and we’ve made some real business- and customer-facing
+and rewarding engagement, and we’ve made some real business- and customer-facing
 improvements. One of the key reasons I’ve found the project so fun is that it’s
 given me a real chance to get very forensic. Naturally, a team should always
 tackle the low-hanging fruit first, but once that’s done, you get to delve much
