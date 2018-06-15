@@ -247,7 +247,7 @@ Next, let’s take a look at how browsers handle `<img />`s.
   <figcaption><a href="/wp-content/uploads/2018/06/firefox-img-visible-full.png">View full size/quality</a></figcaption>
   </figure>
 * **Unexpectedly**, despite Firefox knowing it won’t need the `<img />`—as
-  a result if it unexpectedly blocking on CSSOM construction—it will still
+  a result of it unexpectedly blocking on CSSOM construction—it will still
   download the `<img />` even if it knows it will not be visible. I find this
   extremely bizarre: it seems to get things wrong on both counts:
   <figure>
