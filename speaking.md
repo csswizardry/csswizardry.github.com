@@ -38,13 +38,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   {% include speaking.html %}
 
-  <!--
-  <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/toronto-2018/">Smashing Conference</a>, Toronto (Canada), June 2018
-  </li>
-  -->
-
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <img src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://2018.websummercamp.com/">Web Summer Camp</a>, Rovinj (Croatia), August–September 2018
@@ -148,6 +141,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/toronto-2018/">Smashing Conference</a>, Toronto (Canada), June 2018
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
