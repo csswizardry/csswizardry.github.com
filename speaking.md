@@ -39,6 +39,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/ar.png" alt="" width="16" height="11" /> <a href="http://cssconfar.com/">CSSconf Argentina</a>, Buenos Aires (Argentina), August 2018
+  </li>
+
+  <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <img src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://2018.websummercamp.com/">Web Summer Camp</a>, Rovinj (Croatia), August–September 2018
   </li>
