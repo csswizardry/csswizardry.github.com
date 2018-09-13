@@ -63,6 +63,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://frontend-con.io/">FrontEnd Con</a>, Warsaw (Poland), December 2018
   </li>
 
+  <li>
+    <h3 class="list-ui__title">Workshop</h3>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://newadventuresconf.com/2019/">New Adventures</a>, Nottingham (England), January 2019
+  </li>
+
 </ol>
 
 
