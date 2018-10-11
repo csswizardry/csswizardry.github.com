@@ -55,12 +55,6 @@
 
   {% include css/csswizardry.min.css %}
 
-  {% if page.page-class == "page--home" %}
-    {% include css/components.page-head--masthead.css %}
-    {% include css/components.carousel.css %}
-    {% include css/components.client-list.css %}
-  {% endif %}
-
   {% if page.page-class == "page--case-studies" or page.page-class == "page--services" %}
     {% include css/components.feature-list.css %}
   {% endif %}
