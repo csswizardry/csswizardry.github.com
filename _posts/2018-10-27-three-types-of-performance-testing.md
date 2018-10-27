@@ -37,8 +37,8 @@ order—but all complement each other, and will ultimately feed into one another
 
 A lot of the time I’m auditing client sites, many of the issues and
 inefficiencies I uncover could have quite easily been discovered by the
-development team. The problems could be been identified and nipped in the bud
-and never have made it in front of a customer at all if they’d just known there
+development team. The problems could be been identified, nipped in the bud,
+and never have made it in front of a customer at all if they’d just known where
 to look!
 
 <figure>
@@ -163,7 +163,7 @@ direction.
 
 My involvement with clients here is either assessing existing RUM data to
 identify what their performance issues are, and helping them to define
-a strategy for fixing them, and helping the business decide sensible and
+a strategy for fixing them, or helping the business decide sensible and
 relevant metrics to track.
 
 * **Who:** Engineers, Product Owners, Marketing
