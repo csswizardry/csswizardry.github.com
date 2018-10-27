@@ -3,7 +3,7 @@ layout: post
 title: "The Three Types of Performance Testing"
 date: 2018-10-27 10:02:39
 categories: Web Development
-meta: "In what order should we place the content of our HEAD? Does it even matter?"
+meta: "How can we make it easier for businesses to understand when and what to measure?"
 ---
 
 A lot of companies—even if they are aware that performance is key to their
