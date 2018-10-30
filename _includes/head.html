@@ -49,6 +49,9 @@
 <script>
   LUX = window.LUX || {};
   LUX.samplerate = 100;
+  {% if page.lux %}
+  LUX.label = '{{ page.lux }}';
+  {% endif %}
 </script>
 
 <style>
