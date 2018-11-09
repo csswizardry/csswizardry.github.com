@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+
+  <title>import Blocked by CSS</title>
+
+  <link rel="stylesheet" href="https://slowfil.es/file?type=css&delay=1000&regular" />
+  <script>performance.mark('blockingCssDone');</script>
+  <script>console.timeStamp('blockingCssDone');</script>
+
+  <style>
+    @import url(https://slowfil.es/file?type=css&delay=1000&import);
+  </style>
+  <script>
+    performance.mark('importCssDone');
+    console.timeStamp('importCssDone');
+  </script>
+
+  <link rel="shortcut icon" href="/icon.png">
+
+</head>
+<body>
+
+  <h1>Page Rendered</h1>
+  <script>
+    performance.mark('h1Done');
+    console.timeStamp('h1Done');
+  </script>
+
+  <script>
+    var perfEntries = performance.getEntriesByType("mark");
+    for (var i = 0; i < perfEntries.length; i++) {
+      if (window.console) console.log(perfEntries[i].name + ": " + perfEntries[i].startTime + "\n");
+    }
+  </script>
+
+</body>
+</html>
