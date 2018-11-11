@@ -27,7 +27,7 @@ Broadly speaking, this is why CSS is so key to performance:
 5. it’s easy to make JavaScript non-blocking with `async` and `defer`
    attributes;
 6. making CSS asynchronous is much more difficult;
-7. so a good rule of thumb to remember is **that your page will only render as
+7. so a good rule of thumb to remember is that **your page will only render as
    quickly as your slowest stylesheet**.
 
 With this in mind, we need to construct the DOM and CSSOM as quickly as
@@ -379,7 +379,7 @@ It’s very common for third party vendors to provide async snippets like this t
 more safely load their scripts. It’s also very common for developers to be
 suspicious of these third parties and place their async snippets later in the
 page. While this is done with the best of intentions—<q>I don’t want to put
-third party `<script>` before my own assets!</q>—it can often be a net loss. In
+third party `<script>`s before my own assets!</q>—it can often be a net loss. In
 fact, Google Analytics even tell us what to do, and they’re right:
 
 > Copy and paste this code as the first item into the `<HEAD>` of every webpage
