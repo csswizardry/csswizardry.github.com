@@ -303,6 +303,9 @@ This is definitely a bug in WebKit/Blink—missing quotes shouldn’t hide the
 Huge thanks to [Yoav](https://twitter.com/yoavweiss) for helping me track this
 one down.
 
+<ins datetime="2018-11-11">Yoav has now got [a fix queued up in
+Chromium](https://chromium-review.googlesource.com/c/chromium/src/+/1331042)</ins>.
+
 ## Don’t Place `<link rel="stylesheet" />` Before Async Snippets
 
 The previous section looked at how CSS can be slowed down by other resources
