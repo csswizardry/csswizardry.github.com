@@ -87,9 +87,8 @@ wrong answer** to any of these questions.
   other speakers who run the risk of delivering similar talks.
 * **How long does the talk need to be?** Do you have a set talk duration? 45
   minutes is usually ideal.
-* **Do you have any specific AV limitations?** I’m very reluctant to use your
-  machine to present from, and I prefer a lapel or headset microphone. Do you
-  imagine there might be any issues with that?
+* **Do you have any specific AV limitations?** I prefer to use headset or lapel
+  microphone, and would definitely rather use my own laptop to present from.
 * **Do you cover speaker expenses?** Flights, hotels, train journeys, etc.
 * **What kind of talk would you like?** I usually give technical talks (CSS
   architecture, performance, etc.), but am open to discussing other topics.
