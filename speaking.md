@@ -39,11 +39,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
-    <h3 class="list-ui__title">Talk</h3>
-    <img src="/img/icons/ee.png" alt="" width="16" height="11" /> <a href="https://www.topconf.com/conference/topconf-tallinn-2018">Topconf</a>, Tallinn (Estonia), November 2018
-  </li>
-
-  <li>
     <h3 class="list-ui__title">Talk &amp; Workshop</h3>
     <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://frontend-con.io/">FrontEnd Con</a>, Warsaw (Poland), December 2018
   </li>
@@ -123,6 +118,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ## Past Events
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h3 class="list-ui__title">Talk</h3>
+    <img src="/img/icons/dk.png" alt="" width="16" height="11" /> <a href="https://2018.coldfront.co/">ColdFront</a>, Copenhagen (Denmark), November 2018
+  </li>
 
   <li>
     <h3 class="list-ui__title">Talk</h3>
