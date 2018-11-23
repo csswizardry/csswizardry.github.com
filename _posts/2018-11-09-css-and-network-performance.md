@@ -482,6 +482,7 @@ In HTTP/1.1, it’s typical that we concatenate all of our styles into one main
 bundle. Let’s call that `app.css`:
 
 ```
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -534,6 +535,7 @@ This carries three key inefficiencies:
 With HTTP/2, we can begin to address points (1) and (2):
 
 ```
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -598,6 +600,7 @@ block the rendering of subsequent content, rather than the whole page. This
 means that we’re now able to construct our pages like this:
 
 ```
+<!DOCTYPE html>
 <html>
 <head>
 
