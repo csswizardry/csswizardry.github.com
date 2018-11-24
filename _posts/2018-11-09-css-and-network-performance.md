@@ -77,7 +77,7 @@ If we’re bundling all of our CSS into one file, this is how the network treats
 it:
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-css-media-all.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-css-media-all.png" alt="" />
   <figcaption>Notice the single CSS file carries a <i>Highest</i>
   priority.</figcaption>
 </figure>
@@ -97,7 +97,7 @@ Queries:
 Then we see that the network treats files differently:
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-css-media-split.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-css-media-split.png" alt="" />
   <figcaption>CSS files not required to render the current context are assigned
   a <i>Lowest</i> priority.</figcaption>
 </figure>
@@ -135,7 +135,7 @@ Given the following HTML:
 …we end up with a waterfall like this:
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-import-before.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-import-before.png" alt="" />
   <figcaption>Clear lack of parallelisation on the Critical Path.</figcaption>
 </figure>
 
@@ -150,7 +150,7 @@ By simply flattening this out into two `<link rel="stylesheet" />` and zero
 …we get a much healthier waterfall:
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-import-after.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-import-after.png" alt="" />
   <figcaption>Beginning to parallelise our Critical Path CSS.</figcaption>
 </figure>
 
@@ -208,7 +208,7 @@ That means that this HTML:
 …will yield this waterfall:
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-ff-import-blocked-by-js.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-ff-import-blocked-by-js.png" alt="" />
   <figcaption>Loss of parallelisation in Firefox due to ineffective Preload
   Scanner (N.B. The same waterfall occurs in IE/Edge.)</figcaption>
 </figure>
@@ -228,7 +228,7 @@ same phenomenon:
 ```
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-ff-import-blocked-by-css.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-ff-import-blocked-by-css.png" alt="" />
   <figcaption>Loss of parallelisation in Firefox due to ineffective Preload
   Scanner (N.B. The same waterfall occurs in IE/Edge.)</figcaption>
 </figure>
@@ -248,7 +248,7 @@ use a second `<link rel="stylesheet" />`:
 Much healthier:
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-ff-import-unblocked-by-css.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-ff-import-unblocked-by-css.png" alt="" />
   <figcaption>Two <code>&lt;link rel="stylesheet" /&gt;</code>s give us back
   our parallelisation. (N.B. The same waterfall occurs in IE/Edge.)</figcaption>
 </figure>
@@ -276,7 +276,7 @@ Before:
 …gives:
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-chrome-import-blocked-by-css.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-chrome-import-blocked-by-css.png" alt="" />
   <figcaption>Missing quote marks in our `@import` URLs breaks Chrome’s Preload
   Scanner (N.B. The same waterfall occurs in Opera and Safari.)</figcaption>
 </figure>
@@ -292,7 +292,7 @@ After:
 ```
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-chrome-import-unblocked-by-css.png" alt="" />
+  <img src="/wp-content/uploads/2018/11/screenshot-chrome-import-unblocked-by-css.png" alt="" />
   <figcaption>Adding quote marks to our `@import` URLs fixes Chrome’s Preload
   Scanner (N.B. The same waterfall occurs in Opera and Safari.)</figcaption>
 </figure>
@@ -367,7 +367,7 @@ begin downloading until the moment the CSSOM is constructed. We’ve completely
 lost any parallelisation:
 
 <figure>
-<img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-async-js-blocked-by-css.png" alt="" />
+<img src="/wp-content/uploads/2018/11/screenshot-async-js-blocked-by-css.png" alt="" />
 <figcaption>Having a stylesheet before an async snippet undoes our opportunity
 to parallelise.</figcaption>
 </figure>
@@ -406,7 +406,7 @@ Here’s what happens when we move to this pattern:
 ```
 
 <figure>
-<img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/screenshot-async-js-blocked-by-css-fixed.png" alt="" />
+<img src="/wp-content/uploads/2018/11/screenshot-async-js-blocked-by-css-fixed.png" alt="" />
 <figcaption>Swapping a stylesheet and an async snippet around can regain
 parallelisation.</figcaption>
 </figure>
@@ -464,7 +464,7 @@ it arrives; entry (3) is CSS, so executes no JavaScript whatsoever; entry (4)
 doesn’t actually execute until the CSS if finished.
 
 <figure>
-<img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com//wp-content/uploads/2018/11/waterfall-js-execution.png" alt="" />
+<img src="/wp-content/uploads/2018/11/waterfall-js-execution.png" alt="" />
 <figcaption>How CSS can impact the points at which JavaScript executes.</figcaption>
 </figure>
 
