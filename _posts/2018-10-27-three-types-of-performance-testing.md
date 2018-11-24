@@ -16,7 +16,7 @@ disownership is a common reason why performance often gets overlooked. When
 something is everyone’s responsibility, it normally becomes no one’s
 responsibility.
 
-<img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2018/10/testing-diagram.png" alt="Diagram showing
+<img src="/wp-content/uploads/2018/10/testing-diagram.png" alt="Diagram showing
 the circular nature of Proactve, then Reactive, then Passive performance
 testing." />
 
@@ -42,7 +42,7 @@ and never have made it in front of a customer at all if they’d just known wher
 to look!
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2018/10/screenshot-devtools.png" alt="Chrome DevTools’ Performance panel" />
+  <img src="/wp-content/uploads/2018/10/screenshot-devtools.png" alt="Chrome DevTools’ Performance panel" />
 </figure>
 
 The first kind of testing a team should carry out is _Proactive_ testing: this
@@ -87,7 +87,7 @@ the development phase. Therefore, we introduce a slightly more defensive style
 of testing: _Reactive_ testing.
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2018/10/screenshot-wpt.png" alt="csswizardry.com in WebPageTests" />
+  <img src="/wp-content/uploads/2018/10/screenshot-wpt.png" alt="csswizardry.com in WebPageTests" />
 </figure>
 
 Reactive testing is usually done in response to an event in the development
@@ -102,7 +102,7 @@ Lighthouse against your staging environment, automated WebPageTests that run at
 every deployment, performance budgets that run on every build, and so on.
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2018/10/screenshot-speedcurve-budget.png" alt="csswizardry.com’s Visually Complete budget being broken three days in a month" />
+  <img src="/wp-content/uploads/2018/10/screenshot-speedcurve-budget.png" alt="csswizardry.com’s Visually Complete budget being broken three days in a month" />
 </figure>
 
 This synthetic testing can allow us to measure regressions before they make it
@@ -140,7 +140,7 @@ suffer more than others? Do changes in performance correlate to changes in
 business metrics?
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2018/10/screenshot-speedcurve.png" alt="csswizardry.com Start Render vs. Bounce rate for the last month" />
+  <img src="/wp-content/uploads/2018/10/screenshot-speedcurve.png" alt="csswizardry.com Start Render vs. Bounce rate for the last month" />
 </figure>
 
 For this, we need to turn to Real User Monitoring (RUM). RUM is great for
@@ -152,7 +152,7 @@ gathering RUM data from your actual visitors, you’re going to be far better
 equipped to identify what kinds of issues your site suffers in the real world.
 
 <figure>
-  <img src="https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2018/10/screenshot-ga.png" alt="Rudimentary performance information in Google Analytics" />
+  <img src="/wp-content/uploads/2018/10/screenshot-ga.png" alt="Rudimentary performance information in Google Analytics" />
 </figure>
 
 Issues captured here often take longer to fix as we need to gather and assess
