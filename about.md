@@ -87,7 +87,8 @@ CSS Wizardry makes use of many great tools and services; tools and services that
 make my life as a developer much, much simpler.
 
 CSS Wizardry is built on [Jekyll](http://jekyllrb.com/), an open source static
-site generator. This is hosted using [GitHub Pages](https://pages.github.com/).
+site generator. This is hosted using [GitHub Pages](https://pages.github.com/)
+and served via [Cloudflare](https://www.cloudflare.com/).
 
 The CSS is written in [Sass](http://sass-lang.com/), and built on top of
 [inuitcss](https://github.com/inuitcss). inuitcss is a free, open-source,
@@ -96,13 +97,15 @@ a small footprint. This is then built into [ITCSS](http://itcss.io), a CSS
 architecture of mine which is designed to aid the growth and maintainability of
 CSS projects.
 
-Your system font is used wherever possible to give a familiar feel and to help
-improve performance. The photograph used on the homepage’s masthead is of me
-speaking at [DotYork](http://dotyork.com/), and was taken by [Jim
-Poyner](http://jimpoyner.co.uk/).
+Your system font is used to give a familiar feel and to help improve
+performance. Responsive testing was made possible by
+[Finch](https://meetfinch.com/), an incredible tool for exposing local dev sites
+to the open internet. [SpeedCurve](https://speedcurve.com/) and
+[Treo](https://treo.sh/) help me to keep CSS Wizardry fast.
 
-Responsive testing was made possible by [Finch](https://meetfinch.com/), an
-incredible tool for exposing local dev sites to the open internet.
+The photograph used on the homepage’s masthead is of me speaking at
+[DotYork](http://dotyork.com/), and was taken by [Jim
+Poyner](http://jimpoyner.co.uk/).
 
 CSS Wizardry’s roadmap and task list are viewable on [a public Trello
 board](https://trello.com/b/5vYEHwrP/csswizardry-com), and all of the code that
