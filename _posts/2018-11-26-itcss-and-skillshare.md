@@ -7,7 +7,7 @@ meta: "The official introduction to ITCSS on Skillshare"
 ---
 
 Back in February 2018, Scott Sullivan, Partnerships Team Lead at
-[Skillshare](https://skl.sh/2D7lAPY), sent me an email asking if I’d be
+[Skillshare](https://skl.sh/harry), sent me an email asking if I’d be
 interested in collaborating on an official ITCSS video course in conjunction
 with them.
 
@@ -16,7 +16,7 @@ with them.
 <figcaption></figcaption>
 </figure>
 
-<a href="https://skl.sh/2D7lAPY" class="btn  btn--full">
+<a href="https://skl.sh/harry" class="btn  btn--full">
   Sign up and learn ITCSS today!
 </a>
 
@@ -43,14 +43,14 @@ start, to the incredibly creator-friendly terms of their contract, to the way
 Alex ran filming on the day, I felt like this was the best partnership ITCSS and
 I could have.
 
-<a href="https://skl.sh/2D7lAPY" class="btn  btn--secondary  btn--full">
+<a href="https://skl.sh/harry" class="btn  btn--secondary  btn--full">
   Sign up and learn ITCSS today!
 </a>
 
 Together, we produced a 40-minute class that introduces the problems of CSS at
 scale, and how ITCSS begins to formally solve them. Using [my referral
-link](https://skl.sh/2D7lAPY), you can get access to two months of Premium
-Skillshare: [skl.sh/2D7lAPY](https://skl.sh/2D7lAPY)
+link](https://skl.sh/harry), you can get access to two months of Premium
+Skillshare: [skl.sh/harry](https://skl.sh/harry)
 
 For more advanced ITCSS implementation, you can always [hire me](/contact/), or
 if there’s enough interest in an _Advanced ITCSS_ class, [let us
