@@ -34,22 +34,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
 ## Upcoming Events
 
-### 2018
-
-<ol class="list-ui  mb">
-
-  {% include speaking.html %}
-
-</ol>
-
 ### 2019
 
 <ol class="list-ui  mb">
 
-  <li>
-    <h4 class="list-ui__title">Workshop</h4>
-    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://newadventuresconf.com/2019/">New Adventures</a>, Nottingham (England), January 2019
-  </li>
+  {% include speaking.html %}
 
 </ol>
 
@@ -123,6 +112,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2018
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://frontend-con.io/">FrontEnd Con</a>, Warsaw (Poland), December 2018
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
