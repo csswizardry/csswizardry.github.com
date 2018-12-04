@@ -36,9 +36,8 @@ first HTML response _is_ the DOM. However, as CSS is almost always a subresource
 of the HTML, constructing the CSSOM usually takes a good deal longer.
 
 In this post I want to look at how CSS can prove to be a substantial bottleneck
-(both in itself and for other resources) on the network, and how we can mitigate
-it, thus shortening the Critical Path and reducing our time to Start
-Render.
+on the network (both in itself and for other resources) and how we can mitigate
+it, thus shortening the Critical Path and reducing our time to Start Render.
 
 ## Employ Critical CSS
 
@@ -49,9 +48,9 @@ fold), inline them in `<style>` tags in the `<head>` of your document, and
 asynchronously load the remaining stylesheet off of the Critical Path.
 
 While this strategy is effective, it’s not simple: highly dynamic sites can be
-difficult to extract styles from; the process needs to be automated; we have to
-make assumptions about what _above the fold_ even is; it’s hard to capture edge
-cases; tooling still in its relative infancy. And if you’re working with a large
+difficult to extract styles from, the process needs to be automated, we have to
+make assumptions about what _above the fold_ even is, it’s hard to capture edge
+cases, and tooling still in its relative infancy. If you’re working with a large
 or legacy codebase, things get even more difficult…
 
 ## Split Your Media Types
@@ -461,7 +460,7 @@ screenshot, but hopefully you can see the small pink marks that represent
 JavaScript execution. Entry (1) is the HTML that is scheduled to execute some
 JavaScript when other files arrive and/or execute; entry (2) executes the moment
 it arrives; entry (3) is CSS, so executes no JavaScript whatsoever; entry (4)
-doesn’t actually execute until the CSS if finished.
+doesn’t actually execute until the CSS is finished.
 
 <figure>
 <img src="/wp-content/uploads/2018/11/waterfall-js-execution.png" alt="" />
@@ -591,8 +590,8 @@ the files that need it and leaving the rest untouched.
 
 What we haven’t solved is the fact that it all still blocks rendering—we’re
 still only as fast as our slowest stylesheet. What this means is that if, for
-whatever reason, `page-footer.css` takes a long time to download, the browser
-can’t make a start on rendering `.page-header`.
+whatever reason, `site-footer.css` takes a long time to download, the browser
+can’t make a start on rendering `.site-header`.
 
 However, due to a recent change in Chrome (version 69, I believe), and behaviour
 already present in Firefox and IE/Edge, `<link rel="stylesheet" />`s will only
