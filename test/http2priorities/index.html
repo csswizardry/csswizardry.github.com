@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+/* faster-one-regular - latin */
+@font-face {
+  font-family: 'Faster One';
+  font-display: block;
+  font-style: normal;
+  font-weight: 400;
+  src: url('resources/faster-one-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Faster One'), local('FasterOne-Regular'),
+       url('resources/faster-one-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('resources/faster-one-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('resources/faster-one-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('resources/faster-one-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('resources/faster-one-v9-latin-regular.svg#FasterOne') format('svg'); /* Legacy iOS */
+}
+body {
+  font-family: 'Faster One';
+  background-color: yellow;
+  background-image: url(resources/background.png);
+}
+.display {
+  background: white;
+  padding: 10px;
+  width: 800px;
+}
+.spacer {
+  height: 4000px;
+}
+.hidden {
+  width: 600px;
+  height: 400px;
+}
+.visible {
+  width: 600px;
+  height: 450px;
+}
+</style>
+</head>
+<body>
+<div class="display">
+<h1>HTTP/2 priorities test page</h1>
+<span id="dcl">Waiting for DOM Content Loaded...</span>
+<p>Visible Image:</p>
+<img id="visible" class="visible">
+</div>
+<script src="resources/top.js"></script>
+<script>
+document.getElementById("visible").getBoundingClientRect();
+document.getElementById("visible").src = "resources/visible.jpg";
+document.addEventListener("DOMContentLoaded", function(event) {
+  console.log("DOMContentLoaded");
+  document.getElementById("dcl").textContent="DOM Content Loaded!";
+});
+</script>
+<div class="spacer"></div>
+<img class="hidden" src="resources/hidden.jpg?1">
+<img class="hidden" src="resources/hidden.jpg?2">
+<img class="hidden" src="resources/hidden.jpg?3">
+<img class="hidden" src="resources/hidden.jpg?4">
+<img class="hidden" src="resources/hidden.jpg?5">
+<img class="hidden" src="resources/hidden.jpg?6">
+<img class="hidden" src="resources/hidden.jpg?7">
+<img class="hidden" src="resources/hidden.jpg?8">
+<img class="hidden" src="resources/hidden.jpg?9">
+<img class="hidden" src="resources/hidden.jpg?10">
+<img class="hidden" src="resources/hidden.jpg?11">
+<img class="hidden" src="resources/hidden.jpg?12">
+<img class="hidden" src="resources/hidden.jpg?13">
+<img class="hidden" src="resources/hidden.jpg?14">
+<img class="hidden" src="resources/hidden.jpg?15">
+<img class="hidden" src="resources/hidden.jpg?16">
+<img class="hidden" src="resources/hidden.jpg?17">
+<img class="hidden" src="resources/hidden.jpg?18">
+<img class="hidden" src="resources/hidden.jpg?19">
+<img class="hidden" src="resources/hidden.jpg?20">
+<img class="hidden" src="resources/hidden.jpg?21">
+<img class="hidden" src="resources/hidden.jpg?22">
+<img class="hidden" src="resources/hidden.jpg?23">
+<img class="hidden" src="resources/hidden.jpg?24">
+<img class="hidden" src="resources/hidden.jpg?25">
+<img class="hidden" src="resources/hidden.jpg?26">
+<img class="hidden" src="resources/hidden.jpg?27">
+<img class="hidden" src="resources/hidden.jpg?28">
+<img class="hidden" src="resources/hidden.jpg?29">
+<img class="hidden" src="resources/hidden.jpg?30">
+<script >
+  document.write('<scr'+'ipt type="text/javascript" src="resources/bottom.js"></scr'+'ipt>');
+</script>
+</body>
+</html>
