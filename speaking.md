@@ -190,7 +190,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kiev (Ukraine), March 2018
+    <img src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), March 2018
   </li>
 
   <li>
