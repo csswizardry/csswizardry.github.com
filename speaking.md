@@ -40,6 +40,38 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   {% include speaking.html %}
 
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/event/perf/">Spotlight: Web Performance</a>, Toronto (Canada), March 2019
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2019
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/ro.png" alt="" width="16" height="11" /> <a href="https://jsheroes.io/">JSHeroes</a>, Cluj-Napoca (Romania), April 2019
+  </li>
+
+  <!--
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Niš, Kragujevac (Serbia), April 2019
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2019
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/event/webu19/">Web Unleashed</a>, Toronto (Canada), September 2019
+  </li>
+  -->
+
 </ol>
 
 
@@ -140,7 +172,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/">Web Unleashed</a>, Toronto (Canada), October 2018
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/event/webu18/">Web Unleashed</a>, Toronto (Canada), October 2018
   </li>
 
   <li>
