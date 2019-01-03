@@ -1,0 +1,6 @@
+/*!
+ * inuitcss, by @csswizardry
+ *
+ * github.com/inuitcss | inuitcss.com
+ */.c-pagination{display:flex;margin-bottom:24px}.c-pagination__item{flex-grow:1;flex-basis:0;padding:12px;border-radius:3px;border:1px solid transparent}.c-pagination__item:hover{text-decoration:none;border-color:currentColor}.c-pagination__prev::before,.c-pagination__next::before{display:block;font-size:12px;font-size:.75rem;line-height:2;line-height:1;text-transform:uppercase;font-weight:normal;color:#333}.c-pagination__prev::before{content:"Previously: "}.c-pagination__next{text-align:right}.c-pagination__next::before{content:"Up next: "}
+/*# sourceMappingURL=components.pagination.css.map */

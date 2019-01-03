@@ -1,0 +1,51 @@
+/* ==========================================================================
+   #PAGINATION
+   ========================================================================== */
+
+@import "../_settings.all.scss";
+@import "../_tools.all.scss";
+
+/**
+ * Forward and backward navigation within articles.
+ */
+
+.c-pagination {
+  display: flex;
+  margin-bottom: $spacing-unit;
+}
+
+  .c-pagination__item {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 12px;
+    border-radius: $base-round;
+    border: 1px solid transparent;
+
+    &:hover {
+      text-decoration: none;
+      border-color: currentColor;
+    }
+
+  }
+
+    .c-pagination__prev::before,
+    .c-pagination__next::before {
+      display: block;
+      @include font-size(12px);
+      line-height: 1;
+      text-transform: uppercase;
+      font-weight: normal;
+      color: $color-gray;
+    }
+
+    .c-pagination__prev::before {
+      content: "Previously: "
+    }
+
+  .c-pagination__next {
+    text-align: right;
+  }
+
+    .c-pagination__next::before {
+      content: "Up next: "
+    }
