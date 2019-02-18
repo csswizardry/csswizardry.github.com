@@ -42,11 +42,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/event/perf/">Spotlight: Web Performance</a>, Toronto (Canada), March 2019
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2019
   </li>
 
@@ -140,6 +135,17 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 </ul>
 
 ## Past Events
+
+### 2019
+
+<ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://newadventuresconf.com/2019/">New Adventures</a>, Nottingham (England), January 2019
+  </li>
+
+</ol>
 
 ### 2018
 
