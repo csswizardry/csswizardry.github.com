@@ -41,6 +41,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/en-AU/Front-End-Sheffield/events/258556818/">Front End Sheffield</a>, Sheffield (England), March 2019
+  </li>
+
+  <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2019
   </li>
@@ -50,21 +55,46 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/ro.png" alt="" width="16" height="11" /> <a href="https://jsheroes.io/">JSHeroes</a>, Cluj-Napoca (Romania), April 2019
   </li>
 
-  <!--
   <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Niš, Kragujevac (Serbia), April 2019
   </li>
 
+  <!--
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2019
   </li>
+  -->
+
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://pixelpioneers.co/events/bristol-2019">Pixel Pioneers</a>, Bristol, (England) June 2019
+  </li>
+
+  <!--
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/gr.png" alt="" width="16" height="11" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) June 2019
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/ch.png" alt="" width="11" height="11" /> <a href="https://frontendconf.ch/">Front Conference Zürich</a>, Zürich (Switzerland), August 2019
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/cz.png" alt="" width="16" height="11" /> <a href="https://webexpo.net/prague2018/">WebExpo</a>, Prague (Czech Republic), September 2019
+  </li>
+  -->
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/event/webu19/">Web Unleashed</a>, Toronto (Canada), September 2019
+    <img src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/ny-2019/">Smashing Conference</a>, New York (US), October 2019
   </li>
+
+  <!--
   -->
 
 </ol>
