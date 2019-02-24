@@ -18,6 +18,7 @@ scalable user interfaces. I am [available for work](/services/).
                                             srcset="/img/content/me-480.jpg 480w,
                                                     /img/content/me-750.jpg 750w,
                                                     /img/content/me-1024.jpg 1024w"
+                                            intrinsicsize="1024x683"
                                             importance="high" />
 
   <figcaption markdown="1">
@@ -66,7 +67,7 @@ great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
 <b>advice</b>, <b>development</b>, and more are all available to clients of all
 shapes and sizes, all over the world.
 
-_<img src="/img/content/signature.png" alt="Harry" importance="low" />_
+_<img src="/img/content/signature.png" alt="Harry" importance="low" width="123" height="72" />_
 
 <a href="http://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
