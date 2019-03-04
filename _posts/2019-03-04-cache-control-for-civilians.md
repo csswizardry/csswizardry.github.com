@@ -16,6 +16,8 @@ caching practices. Perhaps it’s down to the heavy focus on first-time visits, 
 perhaps it’s a simple lack of awareness and knowledge? Whatever it is, let’s
 have a bit of a refresher.
 
+- - -
+
 ## `Cache-Control`
 
 One of the most common and effective ways to manage the caching of your assets
@@ -35,6 +37,8 @@ _directives_. The `Cache-Control` header can accept one or more directives, and
 it is these directives, what they really mean, and their optimum use-cases that
 I want to cover in this post.
 
+- - -
+
 ## `public` and `private`
 
 `public` means that any caches may store a copy of the response. This includes
@@ -43,10 +47,12 @@ the presence of other directives (such as `max-age`) are implicit instructions
 that caches may store a copy.
 
 `private`, on the other hand, is an explicit instruction that only the end
-recipient of the response (the client, or basically, the browser that requested
-the file) may store a copy of the file. While `private` isn’t a security feature
-in and of itself, it is intended to prevent public caches (such as a CDN)
-storing a response that contains information unique to one user.
+recipient of the response (the _client_, or _the browser_) may store a copy of
+the file. While `private` isn’t a security feature in and of itself, it is
+intended to prevent public caches (such as a CDN) storing a response that
+contains information unique to one user.
+
+- - -
 
 ## `max-age`
 
@@ -64,8 +70,7 @@ revalidate the file.
 
 If the server has a new file for the browser to download, it will respond with
 a `200` response, download the new file, the old file will be ejected from the
-HTTP cache and the new file will replace it, and will honour its caching
-headers.
+HTTP cache, the new file will replace it, and will honour its caching headers.
 
 If the server doesn’t have a fresher copy that needs downloading, the server
 responds with a `304` response, doesn’t need to download any new file, and will
@@ -91,6 +96,8 @@ caches. Using `max-age` and `s-maxage` in conjunction allows you to have
 different fresh durations for private and public caches (e.g. proxies, CDNs)
 respectively.
 
+- - -
+
 ## `no-store`
 
 ```
@@ -107,6 +114,8 @@ realtime information. Now we’d use `no-store`.
 `no-store` is a very strong directive not to persist any information to any
 cache, private or otherwise. Any asset that carries the `no-store` directive
 will always hit the network, no matter what.
+
+- - -
 
 ## `no-cache`
 
@@ -143,6 +152,8 @@ content, it would respond as such (`200`) and send the newer file.
 **Tip:** There is no use sending a `max-age` directive alongside a `no-cache`
 directive as the time-limit for revalidation is zero seconds.
 
+- - -
+
 ## `must-revalidate`
 
 Even more confusingly, while the above sounds like it should be called
@@ -176,6 +187,8 @@ revalidate after that.
 
 In a similar vein to `s-maxage`, `proxy-revalidate` is the public-cache specific
 version of `must-revalidate`. It is simply ignored by private caches.
+
+- - -
 
 ## `immutable`
 
@@ -237,6 +250,8 @@ immutable. You should also have a very robust cache busting strategy in place so
 that you don’t inadvertently aggressively cache a file to which `immutable` has
 been applied.
 
+- - -
+
 ## `stale-while-revalidate`
 
 I really, really wish there was better support for `stale-while-revalidate`.
@@ -262,6 +277,8 @@ stale resource while you revalidate it in the background’.
 `stale-while-revalidate` is a great directive for non-critical resources that,
 sure, we’d like the freshest version, but we know there’ll be no damage caused
 if we use the stale response once more while we’re checking for updates.
+
+- - -
 
 ## Cache Busting
 
@@ -353,6 +370,8 @@ Opera.
 **Tip:** There are a number of directives that `Clear-Site-Data` will accept:
 `"cookies"`, `"storage"`, `"executionContexts"`, and `"*"` (which, naturally,
 means ‘all of the above’).
+
+- - -
 
 ## Examples and Recipes
 
@@ -485,6 +504,8 @@ seconds), that we want to check with the server for updates after that 28-day
 time limit, and if the image is less than one week (86,400 seconds) out of date,
 let’s use that one while we fetch the latest version in the background.
 
+- - -
+
 ## Key Things to Remember
 
 * Cache busting is vitally important. Work out your cache busting strategy
@@ -513,6 +534,8 @@ very granular, bespoke, and effective caching strategies specific to our own
 applications.
 
 Cache rules everything.
+
+- - -
 
 ## Resources and Related Reading
 
