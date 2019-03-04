@@ -80,7 +80,7 @@ use its own heuristics to decide that it might release a stale copy of a file
 without revalidating it. This behaviour is somewhat non-deterministic, so it’s
 quite hard to know exactly what a browser will actually do. To this end, we have
 a series of more explicit directives that we can augment our `max-age` with.
-Thanks to [Andy Davies](https://twitter.com/AndyDavies) for helping my clarify
+Thanks to [Andy Davies](https://twitter.com/AndyDavies) for helping me clarify
 this one.
 
 ### `s-maxage`
