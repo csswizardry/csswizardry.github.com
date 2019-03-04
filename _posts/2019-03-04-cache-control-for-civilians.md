@@ -24,7 +24,7 @@ assets, meaning everything on our pages can have a very bespoke and granular
 cache policy. The amount of control we’re granted makes for very intricate and
 powerful caching strategies.
 
-A Cache-Control header might look something like this:
+A `Cache-Control` header might look something like this:
 
 ```
 Cache-Control: public, max-age=31536000
