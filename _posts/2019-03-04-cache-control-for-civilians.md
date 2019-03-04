@@ -220,7 +220,7 @@ a revalidation within the 31,536,000-second freshness lifespan. This means no
 unnecessary roundtrips spent retrieving `304` responses, which potentially saves
 us a lot of latency on the critical path ([CSS blocks
 rendering](https://csswizardry.com/2018/11/css-and-network-performance/)). On
-high-latency connections, this saving could be tangible.
+high latency connections, this saving could be tangible.
 
 **Beware:** You should not apply `immutable` to any files that are not
 immutable. You should also have a very robust cache busting strategy in place so
@@ -233,9 +233,9 @@ I really, really wish there was better support for `stale-while-revalidate`.
 
 We’ve talked a lot so far about revalidation: the process of the browser making
 the trip back to the server to check whether a fresher file might be available.
-On high latency connections, the duration of revalidation alone can be tangible,
-and that time is simply dead time—until we’ve heard from the server, we can
-neither release a cached copy (`304`) or download the new file (`200`).
+On high latency connections, the duration of revalidation alone can be
+noticeable, and that time is simply dead time—until we’ve heard from the server,
+we can neither release a cached copy (`304`) or download the new file (`200`).
 
 What `stale-while-revalidate` provides is a grace period (defined by us) in
 which the browser is permitted to use an out of date (stale) asset while we’re
@@ -399,7 +399,7 @@ newest `style.f4fa2b.css` that it references, but your three-day cached FAQs
 page is still pointing at `style.ae3f66.css`. The effects of this may be slight,
 but it’s a scenario you should be aware of.
 
-### Static JS (CSS) App Bundle
+### Static JS (or CSS) App Bundle
 
 Let’s say our `app.[fingerprint].js` updates pretty frequently—potentially with
 every release we do—but we’ve also put in the work to fingerprint the file every
@@ -413,9 +413,9 @@ Cache-Control: max-age=31536000, immutable
 It doesn’t matter that we update our JS quite frequently: because of our ability
 to reliably cache bust it, we can cache it for as long as we like. In this case,
 we’ve chosen to cache it for a year. I picked a year because firstly, a year is
-a long time, but secondly, it’s actually highly unlikely that a browser will
+a long time, but secondly, it’s pretty highly unlikely that a browser will
 actually hold onto a file for that long anyway (browsers have a finite amount of
-storage they can use for HTTP cache, so periodically empty parts of it
+storage they can use for HTTP cache, so they periodically empty parts of it
 themselves; users may clear their own cache). Going anything beyond a year is
 likely to be no more effective.
 
@@ -432,7 +432,7 @@ the rest of the page, and a user wouldn’t even really notice if it was
 completely missing anyway.
 
 Images are usually a heavy asset to download, so we want to cache it; it’s not
-critical to the page, so we don’t need to fetch the latest version, and we could
+critical to the page, so we don’t need to fetch the latest version; and we could
 probably even get away with serving the image after it’s gone a little out of
 date. Let’s do this:
 
