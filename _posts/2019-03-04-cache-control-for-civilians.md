@@ -93,6 +93,10 @@ respectively.
 
 ## `no-store`
 
+```
+Cache-Control: no-store
+```
+
 What if we don’t want to cache a file? What if the file contains sensitive
 information? Perhaps it’s an HTML page that contains your bank details? Or maybe
 the information is time-critical? Perhaps a page that contains realtime stock
@@ -105,6 +109,10 @@ cache, private or otherwise. Any asset that carries the `no-store` directive
 will always hit the network, no matter what.
 
 ## `no-cache`
+
+```
+Cache-Control: no-cache
+```
 
 This is the one that trips most people up… `no-cache` doesn’t mean ‘no cache’.
 It means ‘do `no`t serve a copy from `cache` until you’ve revalidated it with
