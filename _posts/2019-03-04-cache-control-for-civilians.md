@@ -496,7 +496,10 @@ Cache rules everything.
 * [<cite>Stale-While-Revalidate, Stale-If-Error Available
   Today</cite>](https://www.fastly.com/blog/stale-while-revalidate-stale-if-error-available-today)
   – [Steve Souders](https://twitter.com/Souders), 2014
-* [RFC 7234 – HTTP/1.1 Caching](https://tools.ietf.org/html/rfc7234) – June 2014
+* [<cite>A Tale of Four
+  Caches</cite>](https://calendar.perfplanet.com/2016/a-tale-of-four-caches/)
+– [Yoav Weiss](https://twitter.com/yoavweiss), 2016
+* [RFC 7234 – HTTP/1.1 Caching](https://tools.ietf.org/html/rfc7234) – 2014
 
 ### Do as I Say, Not as I Do
 
