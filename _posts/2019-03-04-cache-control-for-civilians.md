@@ -80,6 +80,8 @@ use its own heuristics to decide that it might release a stale copy of a file
 without revalidating it. This behaviour is somewhat non-deterministic, so it’s
 quite hard to know exactly what a browser will actually do. To this end, we have
 a series of more explicit directives that we can augment our `max-age` with.
+Thanks to [Andy Davies](https://twitter.com/AndyDavies) for helping my clarify
+this one.
 
 ### `s-maxage`
 
@@ -474,3 +476,22 @@ very granular, bespoke, and effective caching strategies specific to our own
 applications.
 
 Cache rules everything.
+
+## Resources and Related Reading
+
+* [<cite>Caching best practices & max-age
+  gotchas</cite>](https://jakearchibald.com/2016/caching-best-practices/)
+  – [Jake Archibald](https://twitter.com/jaffathecake), 2016
+* [<cite>Cache-Control:
+  immutable</cite>](http://bitsup.blogspot.com/2016/05/cache-control-immutable.html)
+  – [Patrick McManus](https://twitter.com/mcmanusducksong), 2016
+* [<cite>Stale-While-Revalidate, Stale-If-Error Available
+  Today</cite>](https://www.fastly.com/blog/stale-while-revalidate-stale-if-error-available-today)
+  – [Steve Souders](https://twitter.com/Souders), 2014
+* [RFC 7234 – HTTP/1.1 Caching](https://tools.ietf.org/html/rfc7234) – June 2014
+
+### Do as I Say, Not as I Do
+
+Before someone on Hacker News hauls me over the coals for my hypocrisy, it’s
+worth noting that my own caching strategy is so sub-par that I’m not even going
+to go into it.
