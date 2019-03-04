@@ -60,12 +60,10 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Niš, Kragujevac (Serbia), April 2019
   </li>
 
-  <!--
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2019
   </li>
-  -->
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
