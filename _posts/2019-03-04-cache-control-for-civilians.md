@@ -317,7 +317,7 @@ You should be very wary of caching any files like these, because we lose almost
 all control over them once they’re on the user’s device.
 
 Despite this example being a stylesheet, HTML pages fall squarely into this
-camp. We can’t change the file name of a webpage—imagine that havoc that would
+camp. We can’t change the file name of a webpage—imagine the havoc that would
 cause!—which is exactly why we tend not to cache them at all.
 
 ### Query String – `style.css?v=1.2.14`
