@@ -325,6 +325,35 @@ than each individual file. This in turn implies that if we only needed to cache
 bust our stylesheet, we’d also have to cache bust all of the static files for
 that release. This is potentially wasteful, so prefer options (1) or (2).
 
+### `Clear-Site-Data`
+
+Cache invalidation is hard—[famously
+so](https://martinfowler.com/bliki/TwoHardThings.html)—so there’s [a spec
+currently underway](https://www.w3.org/TR/clear-site-data/) that helps
+developers quite definitively clear the entire cache for their site’s origin in
+one fell swoop: `Clear-Site-Data`.
+
+I don’t want to go into too much detail in this post as `Clear-Site-Data` is
+not a `Cache-Control` directive, but is in fact a whole new HTTP header.
+
+```
+Clear-Site-Data: "cache"
+```
+
+Applying this header to any one of your origin’s assets will clear the cache for
+the entire origin, not just the file to which it is attached. That means that,
+if you needed to hard-purge your entire site from all visitors’ caches, you
+could apply the above header to just your HTML payload.
+
+[Browser
+support](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data#Browser_compatibility),
+at the time of writing, is limited to Chrome, Android Webview, Firefox, and
+Opera.
+
+**Tip:** There are a number of directives that `Clear-Site-Data` will accept:
+`"cookies"`, `"storage"`, `"executionContexts"`, and `"*"` (which, naturally,
+means ‘all of the above’).
+
 ## Examples and Recipes
 
 Okay, let’s take a look at some scenarios and what kinds of `Cache-Control`
@@ -499,6 +528,8 @@ Cache rules everything.
 * [<cite>A Tale of Four
   Caches</cite>](https://calendar.perfplanet.com/2016/a-tale-of-four-caches/)
 – [Yoav Weiss](https://twitter.com/yoavweiss), 2016
+* [Clear-Site-Data](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data)
+  – MDN
 * [RFC 7234 – HTTP/1.1 Caching](https://tools.ietf.org/html/rfc7234) – 2014
 
 ### Do as I Say, Not as I Do
