@@ -280,6 +280,23 @@ if we use the stale response once more while we’re checking for updates.
 
 - - -
 
+## `stale-if-error`
+
+In a similar manner to `stale-while-revalidate`, `stale-if-error` allows the
+browser a grace period in which it can permissibly return a stale response if
+the revalidated resource returns a `5xx`-class error.
+
+```
+Cache-Control: max-age=2419200, stale-if-error=86400
+```
+
+Here, we instruct the cache that the file is fresh for 28 days (2,419,200
+seconds), and that if we were to encounter an error after that time, we allow an
+additional day (86,400 seconds) during which we will allow a stale asset to be
+served.
+
+- - -
+
 ## Cache Busting
 
 It would be irresponsible to talk about caching without talking about cache
