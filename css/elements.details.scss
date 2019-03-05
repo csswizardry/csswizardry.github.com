@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  #DETAILS
+\*------------------------------------*/
+
+details {
+  @extend %margin-bottom;
+}
+
+summary {
+  color: $color-brand;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  [open] & {
+      text-decoration: underline;
+  }
+
+}

@@ -1,5 +1,6 @@
 ---
 layout: default
+page-class: page--post
 ---
 
 {% include header.html %}
@@ -14,6 +15,13 @@ layout: default
             <h1 itemprop="name  headline">{{ page.title }}</h1>
 
             <p class="hide">Written by <b itemprop="author">Harry Roberts</b> on <b itemprop="publisher">CSS Wizardry</b>.</p>
+
+            {% if page.toc == true %}
+              <details>
+                <summary>Table of Contents</summary>
+                {% include toc.html html=content %}
+              </details>
+            {% endif %}
 
             {{ content }}
 
