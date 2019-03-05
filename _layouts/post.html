@@ -19,7 +19,7 @@ page-class: page--post
             {% if page.toc == true %}
               <details>
                 <summary>Table of Contents</summary>
-                {% include toc.html html=content %}
+                {% include toc.html html=content ordered=true %}
               </details>
             {% endif %}
 

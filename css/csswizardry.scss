@@ -29,6 +29,7 @@
  * Page.................Our extension of the inuitcss page module.
  * Headings.............Heading styles
  * Type.................Misc type styles
+ * Lists................Simple list styles
  * Links................Hyperlink styles
  * Lists................inuitcss list styles
  * Images...............inuitcss images
@@ -118,6 +119,7 @@
 @import "base.page";
 @import "bower_components/inuit-headings/base.headings";
 @import "base.type";
+@import "base.lists";
 @import "base.links";
 @import "bower_components/inuit-lists/base.lists";
 @import "bower_components/inuit-images/base.images";
