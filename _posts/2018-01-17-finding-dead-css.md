@@ -3,6 +3,7 @@ layout: post
 title: "Finding Dead CSS"
 date: 2018-01-17 14:25:19
 categories: Web Development
+toc: false
 meta: "Finding dead or unused CSS on a live website"
 ---
 

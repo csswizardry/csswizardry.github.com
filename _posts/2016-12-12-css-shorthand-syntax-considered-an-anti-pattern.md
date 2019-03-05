@@ -3,6 +3,7 @@ layout: post
 title: "CSS Shorthand Syntax Considered an Anti-Pattern"
 date: 2016-12-12 14:11:38
 categories: Web Development
+toc: false
 meta: "Avoid using CSS’ shorthand syntax"
 ---
 

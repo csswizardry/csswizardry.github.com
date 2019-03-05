@@ -3,6 +3,7 @@ layout: post
 title: "ITCSS × Skillshare"
 date: 2018-11-26 17:04:10
 categories: Web Development
+toc: false
 meta: "The official introduction to ITCSS on Skillshare"
 ---
 

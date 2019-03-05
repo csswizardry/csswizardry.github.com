@@ -3,6 +3,7 @@ layout: post
 title: "Airplanes and Ashtrays"
 date: 2017-10-30 12:53:49
 categories: Web Development
+toc: false
 meta: "Sometimes you need to make it possible to do the wrong thing…"
 ---
 

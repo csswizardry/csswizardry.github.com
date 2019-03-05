@@ -16,7 +16,7 @@ page-class: page--post
 
             <p class="hide">Written by <b itemprop="author">Harry Roberts</b> on <b itemprop="publisher">CSS Wizardry</b>.</p>
 
-            {% if page.toc == true %}
+            {% if page.toc != false %}
               <details>
                 <summary>Table of Contents</summary>
                 {% include toc.html html=content ordered=true %}

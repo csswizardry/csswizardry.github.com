@@ -3,7 +3,6 @@ layout: post
 title: "Cache-Control for Civilians"
 date: 2019-03-04 01:21:39
 categories: Web Development
-toc: true
 meta: "What does Cache-Control really do? In basic terms? Let’s find out!"
 ---
 
