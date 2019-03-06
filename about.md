@@ -44,7 +44,7 @@ Commerce](https://www.shiftcommerce.com/).
 
 With over a decade of professional experience, and five years working as an
 independent consultant, I have been trusted by the likes of the <b>United
-Nation</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>, and [many
+Nations</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>, and [many
 more](/#section:clients). Through combinations of workshops, training, audits,
 development, and consultancy, I have helped my clients to build and scale
 resilient, performant front-ends for a variety of different applications.
