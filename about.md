@@ -7,10 +7,14 @@ permalink: /about/
 lux: About
 ---
 
-Hi there, I’m Harry; I am an [award-winning](https://thenetawards.com/previous-winners/)
-Consultant Front-end Architect, writer, and speaker from the UK. I help
-companies all over the world write better quality, more manageable, more
-scalable user interfaces. I am [available for work](/services/).
+Hi there, I’m Harry. I am an independent **Consultant Web Performance Engineer**
+from Leeds, UK. I help some of the world’s largest and most respected
+organisations deliver faster and more reliable experiences to their customers.
+I am an invited [Google Developer
+Expert](https://developers.google.com/experts/people/harry-roberts), an
+[award-winning developer](https://thenetawards.com/previous-winners/), an
+[international speaker](/speaking/), and Performance Ambassador for [SHIFT
+Commerce](https://www.shiftcommerce.com/).
 
 <figure>
   <img src="/img/content/me-750.jpg" alt="" sizes="(max-width: 1023px) 100vw,
@@ -38,34 +42,37 @@ scalable user interfaces. I am [available for work](/services/).
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
-A [<b>Google Developer
-Expert</b>](https://developers.google.com/experts/people/harry-roberts), and
-named <b>Young Developer of the Year</b> (2014) by <cite>net</cite> magazine, I
-was previously a Senior Developer at
-[BSkyB](http://en.wikipedia.org/wiki/BSkyB). I have consulted internationally
-with clients including the <b>United Nations</b>, the <b>BBC</b>, the
-<b>NHS</b>, <b>Google</b>, and the <b>Financial Times</b>. I specialise in CSS
-architecture and front-end performance for large and long-lived sites and
-applications.
+With over a decade of professional experience, and five years working as an
+independent consultant, I have been trusted by the likes of the <b>United
+Nation</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>, and [many
+more](/#section:clients). Through combinations of workshops, training, audits,
+development, and consultancy, I have helped my clients to build and scale
+resilient, performant front-ends for a variety of different applications.
 
-I [write](/2013/12/i-wrote-part-of-a-book/), [work](/services/),
-[speak](/speaking/), and [run workshops](/workshops/) across the globe covering
-pragmatic, product-led approaches to building and scaling large front-ends for
-long-running projects and products. I specialise in CSS architecture,
-scalability, front-end performance, and design process and strategy.
+<blockquote class="pull-quote  pull-quote--context-alt" id="quote:tim-kadlec">
+  <p>There is a short list of people I whole-heartedly recommend for detailed
+  performance work and Harry is right there at the top.</p>
+  <b class="source  pull-quote__source"><a href="https://timkadlec.com/">Tim Kadlec</a></b>
+</blockquote>
 
-I am a member of [Smashing Magazine’s](http://www.smashingmagazine.com/) Experts
-Panel, co-author of [a book on new approaches to web
-development](http://www.smashingmagazine.com/smashing-book-4-new-perspectives/),
-and lead developer of the increasingly popular, open-source, OOCSS framework
-[<cite>inuitcss</cite>](http://twitter.com/inuitcss). For a more comprehensive
-overview, you can [find me on
-LinkedIn](https://uk.linkedin.com/in/csswizardry).
+Internationally recognised as a leading expert in CSS architecture and front-end
+performance, it is my job to help companies accomplish the **return on
+investment** that web performance efforts can bring, whether that is increasing
+conversions, improving engagement, or **growing revenues**. I thrive on being
+a business-focused engineer, equally comfortable in front of C-level executives
+as I am in front of a room full of developers.
 
-Most importantly, I am <strong>available for hire</strong> to help people build
-great products. <b>Workshops</b>, <b>consultancy</b>, <b>training</b>,
-<b>advice</b>, <b>development</b>, and more are all available to clients of all
-shapes and sizes, all over the world.
+Most importantly, I am **available for hire**. My work spans many industries,
+countries, and formats. From troubleshooting and assessing existing performance
+issues, to training engineers to debug and avoid these common pitfalls in
+future; from **advising and consulting** with teams to get a handle on web
+performance issues, to everything else in between. If you need a faster website,
+we’ll get you a faster website.
+
+If you think I can help you—and I probably can—**say hello**: I enjoy working
+with companies of all shapes, sizes, locations, problems, needs, and budgets.
+I’m professional, but I’m laid back—[drop me a line](/contact/), and we can see
+what fits.
 
 _<img src="/img/content/signature.png" alt="Harry" importance="low" width="123" height="72" />_
 
@@ -102,7 +109,7 @@ Your system font is used to give a familiar feel and to help improve
 performance. Responsive testing was made possible by
 [Finch](https://meetfinch.com/), an incredible tool for exposing local dev sites
 to the open internet. [SpeedCurve](https://speedcurve.com/) and
-[Treo](https://treo.sh/) help me to keep CSS Wizardry fast.
+[Treo](https://treo.sh/) help keep CSS Wizardry fast.
 
 The photograph used on the homepage’s masthead is of me speaking at
 [DotYork](http://dotyork.com/), and was taken by [Jim
