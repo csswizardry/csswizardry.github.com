@@ -299,6 +299,41 @@ served.
 
 - - -
 
+## `no-transform`
+
+`no-transform` doesn’t have anything do with storing, serving, or revalidating
+freshness, but it does instruct intermediaries that they cannot modify, or
+_transform_, any of the response.
+
+A common scenario in which an intermediary might modify a response is to make
+optimisations on behalf of developers _for_ users: a telco provider might proxy
+image requests though their stack and make optimisations to them before passing
+them off to end users on mobile connections.
+
+The issue here is that developers begin to lose control of the presentation of
+their resources, and the image optimisations made by the telco might be deemed
+too aggressive and unacceptable, or we might have already optimised the images
+to the ideal degree ourselves and anything further is unnecessary.
+
+Here, we want to instruct this middleware not to transform any of our content.
+
+```
+Cache-Control: no-transform
+```
+
+The `no-transform` header can sit alongside any other directives, and needs no
+other directives for it to function itself.
+
+**N.B.** Some transformations are a good idea: CDNs choosing between Gzip or
+Brotli encoding for users that need the former or could use the latter; image
+transformation services automatically converting to WebP; etc.
+
+**N.B.** If you’re running over HTTPS—which you should be—then intermediaries
+and proxies can’t modify payloads anyway, so `no-transform` would be
+ineffective.
+
+- - -
+
 ## Cache Busting
 
 It would be irresponsible to talk about caching without talking about cache
