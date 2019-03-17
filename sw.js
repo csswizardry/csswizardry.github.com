@@ -1,4 +1,4 @@
-var cacheName = 'csswizardry:0093';
+var cacheName = 'csswizardry:0094';
 var cacheFiles = [
   '/',
   '/about/',
@@ -7,9 +7,9 @@ var cacheFiles = [
   '/offline/',
   '/case-studies/ocado-workshop/',
   '/2015/03/more-transparent-ui-code-with-namespaces/',
-  '/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/',
-  '/2016/02/mixins-better-for-performance/',
-  '/2016/10/pragmatic-practical-progressive-theming-with-custom-properties/',
+  '/2018/06/image-inconsistencies-how-and-when-browsers-download-images/',
+  '/2018/11/css-and-network-performance/',
+  '/2019/03/cache-control-for-civilians/',
 ];
 
 
@@ -53,7 +53,7 @@ self.addEventListener('fetch', function(event) {
 // Empty out any caches that don’t match the ones listed.
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = ['csswizardry:0093'];
+  var cacheWhitelist = ['csswizardry:0094'];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {

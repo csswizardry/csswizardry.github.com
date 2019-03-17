@@ -18,9 +18,9 @@ back:
 
 Or if you’d like to read something:
 
-* [Pragmatic, Practical, and Progressive Theming with Custom Properties](/2016/10/pragmatic-practical-progressive-theming-with-custom-properties/)
-* [Mixins Better for Performance](/2016/02/mixins-better-for-performance/)
-* [More Transparent UI Code with Namespaces](/2015/03/more-transparent-ui-code-with-namespaces/)
+* [Cache-Control for Civilians](/2019/03/cache-control-for-civilians/)
+* [CSS and Network Performance](/2018/11/css-and-network-performance/)
+* [Image Inconsistencies: How and When Browsers Download Images](/2018/06/image-inconsistencies-how-and-when-browsers-download-images/)
 * [BEMIT: Taking the BEM Naming Convention a Step Further](/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
 
 I’m next speaking at:
