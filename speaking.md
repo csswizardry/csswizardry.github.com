@@ -138,6 +138,8 @@ wrong answer** to any of these questions.
   effort: forewarned is forearmed.
 * **When can I start publicising your event?** Do you want to keep the lineup
   quiet for a while, or can I add your event to my speaking list immediately?
+* **How much does a ticket cost for attendees?** I like to have a rough idea of
+  the cost of the event if possible.
 * **Do you plan to compensate speakers?** I usually charge a fee to speak,
   however its value is open to discussion for indie and non-profit events.
 
