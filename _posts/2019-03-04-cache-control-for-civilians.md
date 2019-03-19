@@ -273,7 +273,7 @@ Cache-Control: max-age=31536000, stale-while-revalidate=86400
 ```
 
 This is telling the browser, ‘this file is good to use for a year, but after
-that year is up, you have one extra week in which you may continue to serve this
+that year is up, you have one extra day in which you may continue to serve this
 stale resource while you revalidate it in the background’.
 
 `stale-while-revalidate` is a great directive for non-critical resources that,
@@ -555,7 +555,7 @@ Cache-Control: max-age=2419200, must-revalidate, stale-while-revalidate=86400
 
 Here we’re telling the browser to store the image for 28 days (2,419,200
 seconds), that we want to check with the server for updates after that 28-day
-time limit, and if the image is less than one week (86,400 seconds) out of date,
+time limit, and if the image is less than one day (86,400 seconds) out of date,
 let’s use that one while we fetch the latest version in the background.
 
 - - -
