@@ -8,6 +8,16 @@
     {{ content }}
 
 <script>
+  // Crude image lazy-loader
+  [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = function() {
+      img.removeAttribute('data-src');
+    };
+  });
+</script>
+
+<script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/sw.js').then(function(registration) {
