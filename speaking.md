@@ -84,7 +84,7 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/cz.png" alt="" width="16" height="11" /> <a href="https://webexpo.net/prague2019/">WebExpo</a>, Prague (Czech Republic), September 2019
+    <img data-src="/img/icons/cz.png" alt="" width="16" height="11" /> <a href="https://www.webexpo.net/prague2019/">WebExpo</a>, Prague (Czech Republic), September 2019
   </li>
 
   <li>
