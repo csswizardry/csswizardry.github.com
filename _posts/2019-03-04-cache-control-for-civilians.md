@@ -608,6 +608,7 @@ Cache rules everything.
 * [Clear-Site-Data](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data)
   – MDN
 * [RFC 7234 – HTTP/1.1 Caching](https://tools.ietf.org/html/rfc7234) – 2014
+* [Cache-Control Header Builder ](https://cache-control.sdgluck.now.sh/) – 2019
 
 ### Do as I Say, Not as I Do
 
