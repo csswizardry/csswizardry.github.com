@@ -5,4 +5,5 @@
 html {
     font-family: $system-fonts;
     @include font-weight(regular);
+    scroll-behavior: smooth;
 }
