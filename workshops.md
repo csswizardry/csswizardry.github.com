@@ -20,7 +20,7 @@ areas of expertise are front-end performance and CSS architecture, and clients
 often opt to run a hybrid of the two. It’s entirely up to you.
 
 With a truly international reputation, my workshops have been delivered from New
-Zealand to Romania, Uruguay to the America: you’re in good hands.
+Zealand to Romania, Uruguay to the US: you’re in good hands.
 
 Workshop clients include: Google, General Electric, Etsy, Kickstarter, the BBC.
 
