@@ -41,16 +41,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2019
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ro.png" alt="" width="16" height="11" /> <a href="https://jsheroes.io/">JSHeroes</a>, Cluj-Napoca (Romania), April 2019
-  </li>
-
-  <li>
     <h4 class="list-ui__title">Talk</h4>
     <img data-src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Niš, Kragujevac (Serbia), April 2019
   </li>
@@ -185,6 +175,16 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2019
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img data-src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2019
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/en-AU/Front-End-Sheffield/events/258556818/">Front End Sheffield</a>, Sheffield (England), March 2019
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
