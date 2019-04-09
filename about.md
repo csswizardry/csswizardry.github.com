@@ -101,7 +101,7 @@ and served via [Cloudflare](https://www.cloudflare.com/).
 The CSS is written in [Sass](http://sass-lang.com/), and built on top of
 [inuitcss](https://github.com/inuitcss). inuitcss is a free, open-source,
 Sass-based, OOCSS framework with a strong focus on performance, scalability, and
-a small footprint. This is then built into [ITCSS](http://itcss.io), a CSS
+a small footprint. This is then built into [ITCSS](https://skl.sh/harry), a CSS
 architecture of mine which is designed to aid the growth and maintainability of
 CSS projects.
 
