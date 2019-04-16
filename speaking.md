@@ -6,10 +6,10 @@ meta: "Harry Roberts’ past and upcoming speaking engagements"
 permalink: /speaking/
 ---
 
-Having spoken at well over 50 public events, sharing my knowledge with
+Having spoken at close to 100 public events, sharing my knowledge with
 development and product teams is something I am both very experienced with and
-hugely passionate about. If you’re running an event would like me to speak, I
-have prepared [some information for you](#section:request).
+hugely passionate about. If you’re running an event would like me to speak,
+I have prepared [some information for you](#section:request).
 
 As well as speaking at development conferences, I can (and indeed do) speak at
 private engagements for companies and their staff. If you are a company who
