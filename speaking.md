@@ -55,12 +55,10 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://pixelpioneers.co/events/bristol-2019">Pixel Pioneers</a>, Bristol, (England) June 2019
   </li>
 
-  <!--
   <li>
     <h4 class="list-ui__title">Talk</h4>
     <img data-src="/img/icons/gr.png" alt="" width="16" height="11" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) June 2019
   </li>
-  -->
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
