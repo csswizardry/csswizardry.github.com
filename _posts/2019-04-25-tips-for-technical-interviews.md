@@ -6,7 +6,7 @@ categories: Web Development
 meta: "How can you prepare for and survive a technical interview?"
 ---
 
-Yesterday, I spoke at ITKonket in [Kragujevac](https://itkonekt.com/), Serbia.
+Yesterday, I spoke at [ITKonket](https://itkonekt.com/) in Kragujevac, Serbia.
 During the Q&A after my talk, one great and non-technical question I got was for
 general advice on interviewing at tech companies. I decided to write down (and
 expand on) my answer in the hope that it might help someone else, too.
