@@ -93,7 +93,7 @@ This question does a few neat things:
 Literally ask them how to best prepare for and pass their interview. Will you
 need to bring a laptop? Will you be meeting at their office or an off-site
 location? Do you need to buzz into a shared reception area? Who should you ask
-for upon arrival. Will there be any whiteboarding tasks? What would they like to
+for upon arrival? Will there be any whiteboarding tasks? What would they like to
 hear from you? Should you prepare a portfolio of work? Do they want to see any
 code you’ve written (if yes, tidy up your repos and check relevant permissions
 for showing code you’ve written elsewhere).
@@ -234,7 +234,7 @@ form your decisions based a lot on that.
 
 Once you’re in, who’s keeping an eye on you? How do you know you’re doing the
 right thing? Who’s going to help you progress to the next steps? Will you have
-regular 1:1 meetings at which you can raise any concerns. Will you have any key
+regular 1:1 meetings at which you can raise any concerns? Will you have any key
 targets against which you will be measured?
 
 This is vital, and can raise red flags immediately. I’ve seen too many
