@@ -77,7 +77,7 @@ go easy on it. Don’t go Instagram-stalking them or sending them friend request
 Make a good impression. Be interested; be interesting. They’re hiring a human
 being, after all, so use this as an opportunity to differentiate.
 
-### I’ve Read Your About Page but Is There Anywhere Else I Can Look for a Good Company Overview?
+### I’ve Read Your _About_ Page but Is There Anywhere Else I Can Look for a Good Company Overview?
 
 This question does a few neat things:
 
