@@ -41,11 +41,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2019
-  </li>
-
-  <li>
     <h4 class="list-ui__title">Talk</h4>
     <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://dev.shiftconf.co/">Shift DEV</a>, Split, (Croatia) May 2019
   </li>
@@ -175,6 +170,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2019
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img data-src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Niš, Kragujevac (Serbia), April 2019
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
