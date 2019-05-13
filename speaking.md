@@ -50,12 +50,10 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img data-src="/img/icons/gr.png" alt="" width="16" height="11" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) June 2019
   </li>
 
-  <!--
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img data-src="/img/icons/es.png" alt="" width="16" height="11" /> <a href="https://csscamp.tech/">CSSCamp</a>, Barcelona (Spain), July 2016
   </li>
-  -->
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
