@@ -50,6 +50,13 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img data-src="/img/icons/gr.png" alt="" width="16" height="11" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) June 2019
   </li>
 
+  <!--
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img data-src="/img/icons/es.png" alt="" width="16" height="11" /> <a href="https://csscamp.tech/">CSSCamp</a>, Barcelona (Spain), July 2016
+  </li>
+  -->
+
   <li>
     <h4 class="list-ui__title">Talk</h4>
     <img data-src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="https://www.clarityconf.com/2019">Clarity</a>, San Francisco, (US) August 2019
@@ -71,13 +78,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://digitalab.in/">Digitalab.in</a>, Labin (Croatia), September 2019
   </li>
-
-  <!--
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/rs.png" alt="" width="16" height="11" importance="low" /> <a href="https://heapcon.io/">Heapcon</a>, Belgrade (Serbia), October 2019
-  </li>
-  -->
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
