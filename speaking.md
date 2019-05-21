@@ -89,6 +89,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   </li>
   -->
 
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img data-src="/img/icons/hk.png" alt="" width="16" height="11" /> <a href="https://2019.webconf.asia/">Webconf.asia</a>, Hong Kong, November 2019
+  </li>
+
 </ol>
 
 
