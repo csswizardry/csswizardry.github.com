@@ -82,12 +82,10 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img data-src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/ny-2019/">Smashing Conference</a>, New York (US), October 2019
   </li>
 
-  <!--
   <li>
     <h4 class="list-ui__title">Talk</h4>
     <img data-src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="https://scriptconf.org/">ScriptConf</a>, Linz (Austria), October 2019
   </li>
-  -->
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
