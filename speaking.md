@@ -41,6 +41,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/TinelMeetup/events/261250679/">Tinel Meetup</a>, Split (Croatia), May 2019
+  </li>
+
+  <li>
     <h4 class="list-ui__title">Workshop</h4>
     <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://pixelpioneers.co/events/bristol-2019">Pixel Pioneers</a>, Bristol, (England) June 2019
   </li>
