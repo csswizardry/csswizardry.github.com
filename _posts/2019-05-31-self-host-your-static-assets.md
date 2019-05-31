@@ -145,7 +145,7 @@ href="https://www.webpagetest.org/result/190531_FX_f7d7b8ae511b02aabc7fa0bbef0e3
 test.</a></figcaption>
 </figure>
 
-On a slower, higher-latency connection, the story is much, mush worse. Over 3G,
+On a slower, higher-latency connection, the story is much, much worse. Over 3G,
 the externally-hosted version comes it at an eye-watering **1.765s slower**.
 I thought this was meant to make our site faster?!
 
