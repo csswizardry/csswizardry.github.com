@@ -250,11 +250,6 @@ That said, this isn’t always the case, and by self-hosting your assets you can
 design [much more bespoke caching
 strategies](https://csswizardry.com/2019/03/cache-control-for-civilians/).
 
-### Compression, Preload, Push
-
-As well as being able to define your own caching strategies if you self host,
-you’re also able to set your own compression levels, make use of H/2 Push.
-
 ## Myth: Cross-Domain Caching
 
 A more interesting take is the power of cross-domain caching of assets. That is
