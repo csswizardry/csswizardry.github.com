@@ -195,6 +195,11 @@ For bonus points, deploying these as [HTTP
 headers](https://andydavies.me/blog/2019/03/22/improving-perceived-performance-with-a-link-rel-equals-preconnect-http-header/)
 will be even faster.
 
+**N.B.** Even if you do implement `preconnect`, you’re still only going to make
+a small dent in your lost time: you still need to open the relevant connections,
+and, especially on high latency connections, it’s unlikely that you’re ever
+going to fully pay off the overhead upfront.
+
 ## Penalty: Loss of Prioritisation
 
 The second penalty comes in the form of a protocol-level optimisation that we
