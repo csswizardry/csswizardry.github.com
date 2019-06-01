@@ -146,7 +146,7 @@ test.</a></figcaption>
 </figure>
 
 On a slower, higher-latency connection, the story is much, much worse. Over 3G,
-the externally-hosted version comes it at an eye-watering **1.765s slower**.
+the externally-hosted version comes in at an eye-watering **1.765s slower**.
 I thought this was meant to make our site faster?!
 
 <figure>
