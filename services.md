@@ -55,7 +55,7 @@ Thinking of hiring me? [You’re in good company](/#section:clients).
   <li class="feature-list__item">
     <a href="/code-reviews/" class="feature-list__link">
       <h2 class="feature-list__title">
-        Code Reviews and Audits
+        Performance Audits
         <span class="feature-list__sub">Remote code reviews and performance audits</span>
       </h2>
     </a>
