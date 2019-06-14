@@ -26,8 +26,8 @@ there.
 </blockquote>
 
 1. **I survey you:** To begin, I need to know a lot about your organisation,
-   what problems you feel you face, and what we need to focus on. I’ll send
-   a series of very focused questions that will help me to understand the
+   what problems you feel you face, and what we need to concentrate on. I’ll
+   send a series of very focused questions that will help me to understand the
    business’ needs immediately.
 2. **You grant me access:** Where possible, I’ll need access to analytics and
    RUM accounts, repositories, staging environments, etc.
@@ -67,7 +67,7 @@ Once the audit is complete, you receive:
   the thousands of words, so I ensure it is broken into clear, thematic sections
   with defined action points. This document becomes the canonical reference for
   your engineering team, and as well as developer-facing, technical insights,
-  I will include a business-oriented executive summary that highlight key
+  I will include a business-oriented executive summary that highlights key
   findings and their impact.
 * **Performance Backlog:** A Trello board that I populate as I review the site
   will be made available to your team. Cards have clear checklists covering
