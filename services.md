@@ -62,6 +62,15 @@ Thinking of hiring me? [You’re in good company](/#section:clients).
   </li>
 
   <li class="feature-list__item">
+    <a href="/downloads/" class="feature-list__link">
+      <h2 class="feature-list__title">
+        Downloads
+        <span class="feature-list__sub">Assets and Resources</span>
+      </h2>
+    </a>
+  </li>
+
+  <li class="feature-list__item">
     <a href="/contact/" class="feature-list__link">
       <h2 class="feature-list__title">
         Contact Me

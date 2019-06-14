@@ -35,7 +35,7 @@
 <link rel="dns-prefetch" href="https://syndication.twitter.com">
 {% endif %}
 
-{% if page.page-class == "page--services  page--workshops" %}
+{% if page.page-class == "page--services  page--workshops" or page.page-class == "page--services  page--downloads" %}
 <link rel="preconnect" href="https://gumroad.com">
 <link rel="dns-prefetch" href="https://gumroad.com">
 {% endif %}
@@ -88,6 +88,9 @@
 {% endif %}
 {% if page.page-class == "page--services  page--workshops" %}
 <script src="https://gumroad.com/js/gumroad.js" defer></script>
+{% endif %}
+{% if page.page-class == "page--services  page--downloads" %}
+<script src="https://gumroad.com/js/gumroad-embed.js" defer></script>
 {% endif %}
 
 <meta name="twitter:card" content="summary">

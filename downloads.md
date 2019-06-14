@@ -1,0 +1,28 @@
+---
+layout: page
+title: Downloads and Resources
+page-class: page--services  page--downloads
+meta: "Downloadable resources and assets"
+permalink: /downloads/
+---
+
+Periodically, I’ll make resources and assets available for download. These are
+usually extensive workshop slide-decks that can be viewed out of context.
+
+**N.B.** If you download any of the below and then go on to [hire
+me](/services/), be sure to mention your license key and I will deduct the cost
+of your downalod(s) from your final invoice.
+
+## Trade Secrets: Secret Performance Tools (and How to Use ’Em)
+
+A half-day workshop all about secret and well-hidden performance tools.
+
+<div class="gumroad-product-embed" data-gumroad-product-id="trade-secrets"><a href="https://gumroad.com/l/trade-secrets">Loading…</a></div>
+
+- - -
+
+## Front-End Performance: Building Faster Websites
+
+A mega-deck that goes with my full-day front-end performance workshop.
+
+<div class="gumroad-product-embed" data-gumroad-product-id="perfmatters"><a href="https://gumroad.com/l/perfmatters">Loading…</a></div>
