@@ -210,6 +210,10 @@ the browser and server work in tandem to build a dependency tree of all of these
 prioritised streams so that we can return critical assets sooner, and perhaps
 delay the delivery of less important ones.
 
+<small>To fully understand the benefits of prioritisation, [Pat Meenan’s
+post](https://calendar.perfplanet.com/2018/http2-prioritization/) on the topic
+serves as a good primer.</small>
+
 <small>**N.B.** Technically, owing to H/2’s [connection
 coalescence](https://daniel.haxx.se/blog/2016/08/18/http2-connection-coalescing/),
 requests can be prioritised against each other over different domains as long as
