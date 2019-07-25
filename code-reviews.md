@@ -20,27 +20,36 @@ there.
 
 ## How It Works
 
+All it takes is five straightforward steps to turn your project around:
+
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:peter-gibb">
-<p>Harry’s performance audit gave comprehensive, forensic insight across the full delivery pipeline. Clearly highlighted priorities brought rapid benefits and a plan for continued improvement. Genius. </p>
+<p>Harry’s performance audit gave comprehensive, forensic insight across the full delivery pipeline. Clearly highlighted priorities brought rapid benefits and a plan for continued improvement. Genius.</p>
 <b class="source  pull-quote__source">Peter Gibb, <a href="https://www.icaew.com/">ICAEW</a></b>
 </blockquote>
 
-1. **I survey you:** To begin, I need to know a lot about your organisation,
-   what problems you feel you face, and what we need to concentrate on. I’ll
-   send a series of very focused questions that will help me to understand the
+1. **Survey:** To begin, I need to know a lot about your organisation, the
+   problems you feel you face, and what we need to concentrate on. I’ll send
+   a series of very focused questions that will help me to understand the
    business’ needs immediately.
-2. **You grant me access:** Where possible, I’ll need access to analytics and
-   RUM accounts, repositories, staging environments, etc.
-3. **I spend a week auditing the site:** Remotely, I roll up my sleeves and dig
-   in! With an encyclopaedic knowledge of all things web-performance, nothing
-   will evade me. From infrastructure and the network to assets and payloads;
-   from CSS and fonts to runtime and rendering (and everything in between), we
-   have a lot to pay attention to.
-4. **I write up my findings:** Once I’ve uncovered everything, I’ll put together
-   a full report outlining all of the issues and problems that exist, as well as
-   preemptive optimisations we could make in order to be even faster.
-5. **We hold a formal handover:** To ensure that all knowledge is fully
-   transferred, we’ll run a handover session between all relevant parties.
+2. **Audit:** Remotely, I roll up my sleeves and dig in! With an encyclopaedic
+   knowledge of all things web-performance, nothing will evade me. From
+   infrastructure and the network to assets and payloads; from CSS and fonts to
+   runtime and rendering (and everything in between), we have a lot to pay
+   attention to.
+3. **Report:** Once I’ve uncovered everything, I’ll put together a full report
+   outlining all of the issues and problems that exist, as well as preemptive
+   optimisations we could make in order to be even faster. The report will
+   contain actionable and prioritised tasks that you and your engineers can
+   begin to implement in a sensible and considered order.
+4. **Handover:** Once you and your team have had chance to read and digest the
+   report, you’ll likely have some questions or comments. We’ll hold a formal
+   handover session to ensure that you fully understand the entirety of the audit
+   document, and know what you need to do next.
+5. **Reconvene:** One to three months later—depending on what would be most
+   appropriate for your organisation—I drop back in and conduct a brief audit
+   against your to-do list that I left you with. This phase ensures you’re
+   accountable, as well as shows me where any regressions may have happened or
+   what you may have struggled to overcome.
 
 ## Existing Issues and Opportunistic Optimisations
 
@@ -77,5 +86,9 @@ Once the audit is complete, you receive:
   questions about my findings, I can explain anything that requires it, we can
   look to discuss longer-term strategies, and generally close up the project
   with a formal handover session.
+* **Check-In:** Rather than simply leaving you to get on with things unassisted,
+  I will check back in within one to three months to see what progress has been
+  made—and maintained!—as well as to see what outstanding issues or unresolved
+  problems there might be.
 
 <a href="mailto:csswizardry@gmail.com?subject=Performance%20Audit" class="btn  btn--full">Arrange a Review</a>
