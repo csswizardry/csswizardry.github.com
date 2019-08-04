@@ -6,10 +6,8 @@ meta: "Get in touch to discuss work and speaking engagements"
 permalink: /contact/
 ---
 
-<p class="u-text-prominent">csswizardry@gmail.com</p>
-
 * For consulting engagements, please [send me an
-  email](mailto:csswizardry@gmail.com).
+  email](#so-you-want-to-send-me-an-email).
 * For speaking engagements, please [see my speaking
   page](/speaking/#section:request).
 * For general questions and advice, please see [my AMA
@@ -19,33 +17,47 @@ permalink: /contact/
 * For questions about software and tools, see [my setup](/uses/).
 * To keep in regular contact, [join my newsletter](/newsletter/).
 
-Please note that I get a _lot_ of email, so it may take me a while to get back
-to you. I do try and reply to everyone, no matter how long it might take, but I
-do also try and prioritise the order in which I respond: client and work-related
-emails first, then speaking requests, and then general requests for help and
-advice.
+## So, You Want to Send Me an Email?
+
+That’s great! I can’t wait to see what we’ll be discussing. However… I get a lot
+of email. A lot. In order to help me help you, please try and observe the
+following suggestions:
+
+* If you are a **retainer client**, make use of your priority email address.
+* If you are emailing with **unsolicited offers** of link exchanges, writing
+  content for my blog, your app development services, etc., I will not return
+  a reply. Sorry.
+  * If you chase up after several days, I will **mark your email as spam**.
+* **State your intentions** clearly and early. If you’re asking for advice,
+  that’s absolutely fine, but I can assist you faster if we get straight to the
+  point.
+* If appropriate (this usually applies to conferences), **begin your email’s
+  subject line with the expectations and time commitments** of the message,
+  e.g.: <q>[Action Required – <2 minutes] Speaker’s Dinner</q>, or <q>[No Action
+  Required] Directions to Venue</q>.
+  * Seeing a subject like the former lets me know that you need a reply, and
+    that I can probably do it from my phone while I stand in line for a coffee.
+    The latter lets me know that the email is purely informational and that
+    I don’t need to carve out any time for it.
+* If you’re **inviting me to speak** at your event, [this
+  list](https://csswizardry.com/speaking/#section:request) will probably be
+  useful.
+
+None of the above are strict requirements, but they will generally help me to
+triage and manage email and prioritise your response appropriately. They aren’t
+points designed to limit access to me, but rather to streamline it.
+
+All set? Here we go:
+
+<p class="u-text-prominent">csswizardry@gmail.com</p>
 
 If I do seem to be taking a while to respond, I would not be at all offended if
 you tweeted at me, or sent me a follow-up email, to remind me to reply.
 
-<dl>
-
-  <dt>Twitter: <a href="https://twitter.com/csswizardry">@csswizardry</a></dt>
-  <dd>For informal, quick contact and questions, feel free to fire me a
-  Tweet!</dd>
-
-  <dt>Email: <a href="mailto:csswizardry@gmail.com">csswizardry@gmail.com</a></dt>
-  <dd>For longer enquiries and questions, please send me an email.</dd>
-
-  <dt><a href="/newsletter/">Newsletter</a></dt>
-  <dd>For infrequent updates about discounts, exclusive content, resources, etc.</dd>
-
-</dl>
-
 ## Postal Address
 
 My office is based in the centre of Leeds, at [Duke
-Studios](http://duke-studios.com/):
+Studios](https://duke-studios.com/):
 
 <address>
 CSS Wizardry Ltd.<br />

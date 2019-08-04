@@ -89,14 +89,14 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
 ## Request to Speak
 
-I would absolutely love to speak at your conference! However, I do just have a
-few questions to make the whole process a lot simpler and upfront for everyone
+I would absolutely love to speak at your conference! However, I do just have
+a few questions to make the whole process a lot simpler and upfront for everyone
 involved. If you could [fire me an
-email](mailto:csswizardry@gmail.com?subject=Speaking%20Request)
-answering as many of the below as possible, I’d be really grateful. If you don’t
-have answers to everything just yet, please don’t worry—this is just a rough
-starting point, not a test. Please also remember that **there is no right or
-wrong answer** to any of these questions.
+email](/contact/#so-you-want-to-send-me-an-email) answering as many of the below
+as possible, I’d be really grateful. If you don’t have answers to everything
+just yet, please don’t worry—this is just a rough starting point, not a test.
+Please also remember that **there is no right or wrong answer** to any of these
+questions.
 
 * **When and where is your conference?** I once [travelled 12,000
   miles](https://www.google.co.uk/search?q=distance+leeds+to+wellington)
