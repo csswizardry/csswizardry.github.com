@@ -12,7 +12,7 @@ You could be leaving hundreds of thousands of pounds of revenue on the table
 every year due to a poorly- or un-optimised website. Slow websites are one of
 online consumers’ biggest frustrations, and a fast way to miss out on sales.
 
-Wether you want to boost revenues, improve conversion rates, reduce churn, or
+Whether you want to boost revenues, improve conversion rates, reduce churn, or
 improve retention and engagement, a well-optimised site is a key way to get
 there.
 
