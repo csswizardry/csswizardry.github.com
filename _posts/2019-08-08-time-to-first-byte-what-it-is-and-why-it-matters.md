@@ -27,7 +27,7 @@ a high TTFB will leave you on the back foot, and any efforts you make to
 optimises images, clear the critical path, and asynchronously load your webfonts
 will all be made in the spirit of playing catchup. That’s not to say that more
 front-end oriented optimisations should be forgone, but there is, unfortunately,
-and air of  [closing the stable door after the horse has
+an air of  [closing the stable door after the horse has
 bolted](https://www.collinsdictionary.com/dictionary/english/to-close-the-stable-door-after-the-horse-has-bolted).
 You really want to squish those TTFB bugs as soon as you can.
 
