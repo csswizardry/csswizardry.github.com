@@ -42,37 +42,37 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/ch.png" alt="" width="11" height="11" /> <a href="https://frontendconf.ch/">Front Conference Zürich</a>, Zürich (Switzerland), August 2019
+    <img src="/img/icons/ch.png" alt="" width="11" height="11" loading="lazy" /> <a href="https://frontendconf.ch/">Front Conference Zürich</a>, Zürich (Switzerland), August 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/cz.png" alt="" width="16" height="11" /> <a href="https://www.webexpo.net/prague2019/">WebExpo</a>, Prague (Czech Republic), September 2019
+    <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.webexpo.net/prague2019/">WebExpo</a>, Prague (Czech Republic), September 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/sc.png" alt="" width="16" height="11" /> <a href="https://finchconf.uk/">Finch Front-End</a>, Edinburgh (Scotland), September 2019
+    <img src="/img/icons/sc.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://finchconf.uk/">Finch Front-End</a>, Edinburgh (Scotland), September 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://digitalab.in/">Digitalab.in</a>, Labin (Croatia), September 2019
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://digitalab.in/">Digitalab.in</a>, Labin (Croatia), September 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/ny-2019/">Smashing Conference</a>, New York (US), October 2019
+    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/ny-2019/">Smashing Conference</a>, New York (US), October 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="https://scriptconf.org/">ScriptConf</a>, Linz (Austria), October 2019
+    <img src="/img/icons/at.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://scriptconf.org/">ScriptConf</a>, Linz (Austria), October 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/hk.png" alt="" width="16" height="11" /> <a href="https://2019.webconf.asia/">Webconf.asia</a>, Hong Kong, November 2019
+    <img src="/img/icons/hk.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2019.webconf.asia/">Webconf.asia</a>, Hong Kong, November 2019
   </li>
 
 </ol>
@@ -152,62 +152,62 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/es.png" alt="" width="16" height="11" /> <a href="https://csscamp.tech/">CSSCamp</a>, Barcelona (Spain), July 2019
+    <img src="/img/icons/es.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://csscamp.tech/">CSSCamp</a>, Barcelona (Spain), July 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/gr.png" alt="" width="16" height="11" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) June 2019
+    <img src="/img/icons/gr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) June 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://pixelpioneers.co/events/bristol-2019">Pixel Pioneers</a>, Bristol, (England) June 2019
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://pixelpioneers.co/events/bristol-2019">Pixel Pioneers</a>, Bristol, (England) June 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/TinelMeetup/events/261250679/">Tinel Meetup</a>, Split (Croatia), May 2019
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/TinelMeetup/events/261250679/">Tinel Meetup</a>, Split (Croatia), May 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://dev.shiftconf.co/">Shift DEV</a>, Split, (Croatia) May 2019
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://dev.shiftconf.co/">Shift DEV</a>, Split, (Croatia) May 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2019
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Niš, Kragujevac (Serbia), April 2019
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Niš, Kragujevac (Serbia), April 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ro.png" alt="" width="16" height="11" /> <a href="https://jsheroes.io/">JSHeroes</a>, Cluj-Napoca (Romania), April 2019
+    <img src="/img/icons/ro.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://jsheroes.io/">JSHeroes</a>, Cluj-Napoca (Romania), April 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2019
+    <img src="/img/icons/ua.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/en-AU/Front-End-Sheffield/events/258556818/">Front End Sheffield</a>, Sheffield (England), March 2019
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/en-AU/Front-End-Sheffield/events/258556818/">Front End Sheffield</a>, Sheffield (England), March 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/event/perf/">Spotlight: Web Performance</a>, Toronto (Canada), March 2019
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://fitc.ca/event/perf/">Spotlight: Web Performance</a>, Toronto (Canada), March 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://newadventuresconf.com/2019/">New Adventures</a>, Nottingham (England), January 2019
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://newadventuresconf.com/2019/">New Adventures</a>, Nottingham (England), January 2019
   </li>
 
 </ol>
@@ -218,107 +218,107 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://frontend-con.io/">FrontEnd Con</a>, Warsaw (Poland), December 2018
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://frontend-con.io/">FrontEnd Con</a>, Warsaw (Poland), December 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ee.png" alt="" width="16" height="11" /> <a href="https://www.topconf.com/conference/topconf-tallinn-2018">Topconf</a>, Tallinn (Estonia), November 2018
+    <img src="/img/icons/ee.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.topconf.com/conference/topconf-tallinn-2018">Topconf</a>, Tallinn (Estonia), November 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/dk.png" alt="" width="16" height="11" /> <a href="https://2018.coldfront.co/">ColdFront</a>, Copenhagen (Denmark), November 2018
+    <img src="/img/icons/dk.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2018.coldfront.co/">ColdFront</a>, Copenhagen (Denmark), November 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://perfnow.nl/speakers">performance.now()</a>, Amsterdam (Netherlands), November 2018
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/speakers">performance.now()</a>, Amsterdam (Netherlands), November 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/rs.png" alt="" width="16" height="11" importance="low" /> <a href="https://heapcon.io/">Heapcon</a>, Belgrade (Serbia), October 2018
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" importance="low" /> <a href="https://heapcon.io/">Heapcon</a>, Belgrade (Serbia), October 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://fitc.ca/event/webu18/">Web Unleashed</a>, Toronto (Canada), October 2018
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://fitc.ca/event/webu18/">Web Unleashed</a>, Toronto (Canada), October 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://2018.websummercamp.com/">Web Summer Camp</a>, Rovinj (Croatia), August–September 2018
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2018.websummercamp.com/">Web Summer Camp</a>, Rovinj (Croatia), August–September 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ar.png" alt="" width="16" height="11" /> <a href="http://cssconfar.com/">CSSconf Argentina</a>, Buenos Aires (Argentina), August 2018
+    <img src="/img/icons/ar.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://cssconfar.com/">CSSconf Argentina</a>, Buenos Aires (Argentina), August 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/Web-Performance-NY/events/252306343/">New York Web Performance Group</a>, New York (US), July 2018
+    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/Web-Performance-NY/events/252306343/">New York Web Performance Group</a>, New York (US), July 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ca.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/toronto-2018/">Smashing Conference</a>, Toronto (Canada), June 2018
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/toronto-2018/">Smashing Conference</a>, Toronto (Canada), June 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (Netherlands), May–June 2018
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://frontendunited.org/">Frontend United</a>, Utrecht (Netherlands), May–June 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2018
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://2018.deltavconf.com/">DeltaV Conference</a>, London (England), May 2018
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2018.deltavconf.com/">DeltaV Conference</a>, London (England), May 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/en-AU/webclerks/events/245731241/">webclerks</a>, Vienna (Austria), April 2018
+    <img src="/img/icons/at.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/en-AU/webclerks/events/245731241/">webclerks</a>, Vienna (Austria), April 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Belgrade (Serbia), April 2018
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Belgrade (Serbia), April 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ua.png" alt="" width="16" height="11" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), March 2018
+    <img src="/img/icons/ua.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), March 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.render-conf.com/">Render Conf</a>, Oxford (England), March 2018
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.render-conf.com/">Render Conf</a>, Oxford (England), March 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="http://dafed.org">DaFED</a>, Novi Sad (Serbia), February 2018
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://dafed.org">DaFED</a>, Novi Sad (Serbia), February 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://www.facebook.com/events/576896259318274/">Osijek Software City</a>, Osijek (Croatia), February 2018
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.facebook.com/events/576896259318274/">Osijek Software City</a>, Osijek (Croatia), February 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="https://conference.awwwards.com/berlin">Awwwards</a>, Berlin (Germany), February 2018
+    <img src="/img/icons/de.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://conference.awwwards.com/berlin">Awwwards</a>, Berlin (Germany), February 2018
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="https://beyondtellerrand.com/events/munich-2018/">Beyond Tellerrand</a>, Munich (Germany), January 2018
+    <img src="/img/icons/de.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://beyondtellerrand.com/events/munich-2018/">Beyond Tellerrand</a>, Munich (Germany), January 2018
   </li>
 
 </ol>
@@ -329,112 +329,112 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="http://www.codeeurope.pl/en">Code Europe</a>, Wrocław (Poland), December 2017
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.codeeurope.pl/en">Code Europe</a>, Wrocław (Poland), December 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://hura.hr/howtowow/harry-roberts-front-end-performance-building-faster-websites/">HURA</a>, Zagreb (Croatia), December 2017
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://hura.hr/howtowow/harry-roberts-front-end-performance-building-faster-websites/">HURA</a>, Zagreb (Croatia), December 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://graaft.co/">Graaft</a>, Manchester (United Kingdom), November 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://graaft.co/">Graaft</a>, Manchester (United Kingdom), November 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://pixelpioneers.co/events/belfast-2017">Pixel Pioneers</a>, Belfast (Northern Ireland), November 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://pixelpioneers.co/events/belfast-2017">Pixel Pioneers</a>, Belfast (Northern Ireland), November 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/hu.png" alt="" width="16" height="11" /> <a href="http://cssconfbp.rocks/">CSSConf Budapest</a>, Budapest (Hungary), October 2017
+    <img src="/img/icons/hu.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://cssconfbp.rocks/">CSSConf Budapest</a>, Budapest (Hungary), October 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="http://2017.cssdevconf.com/">CSS Dev Conf</a>, New Orleans (US), October 2017
+    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2017.cssdevconf.com/">CSS Dev Conf</a>, New Orleans (US), October 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/fr.png" alt="" width="16" height="11" /> <a href="https://www.paris-web.fr">Paris Web</a>, Paris (France), October 2017
+    <img src="/img/icons/fr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.paris-web.fr">Paris Web</a>, Paris (France), October 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October</a>, London (England), September 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October</a>, London (England), September 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/by.png" alt="" width="16" height="11" /> <a href="http://css-minsk-js.by/">CSS Minsk JS</a>, Minsk (Belarus), September 2017
+    <img src="/img/icons/by.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://css-minsk-js.by/">CSS Minsk JS</a>, Minsk (Belarus), September 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://reasons.to/2017/brighton">Reasons to:</a>, Brighton (England), September 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://reasons.to/2017/brighton">Reasons to:</a>, Brighton (England), September 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/TinelMeetup/">Tinel Meetup</a>, Split (Croatia), August 2017
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/TinelMeetup/">Tinel Meetup</a>, Split (Croatia), August 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="https://smashingconf.com/ny-2017/">Smashing Conference</a>, New York (US), June 2017
+    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/ny-2017/">Smashing Conference</a>, New York (US), June 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="http://jandbeyond.org/">J and Beyond</a>, Kraków (Poland), June 2017
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://jandbeyond.org/">J and Beyond</a>, Kraków (Poland), June 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/gr.png" alt="" width="16" height="11" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) May 2017
+    <img src="/img/icons/gr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://devitconf.org/">DEVit</a>, Thessaloniki, (Greece) May 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2017
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="https://www.wearedevelopers.org/">WeAreDevelopers</a>, Vienna (Austria), May 2017
+    <img src="/img/icons/at.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.wearedevelopers.org/">WeAreDevelopers</a>, Vienna (Austria), May 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October Events</a>, London (England), April 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.whiteoctoberevents.co.uk/training/front-end-performance">White October Events</a>, London (England), April 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/bg.png" alt="" width="16" height="11" /> <a href="https://bulgariawebsummit.com/">Bulgaria Web Summit</a>, Sofia, (Bulgaria) April 2017
+    <img src="/img/icons/bg.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://bulgariawebsummit.com/">Bulgaria Web Summit</a>, Sofia, (Bulgaria) April 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="http://pages.xebia.com/events/css-performance-en-architectuur-workshop">Xebia</a>, Amsterdam, (Netherlands) March 2017
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://pages.xebia.com/events/css-performance-en-architectuur-workshop">Xebia</a>, Amsterdam, (Netherlands) March 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ie.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/DublinCSS/events/234858690/">DublinCSS</a>, Dublin, (Ireland) February 2017
+    <img src="/img/icons/ie.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/DublinCSS/events/234858690/">DublinCSS</a>, Dublin, (Ireland) February 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/is.png" alt="" width="16" height="11" /> <a href="https://2017.iceweb.is/">IceWeb Conference</a>, Reykjavik, (Iceland) January 2017
+    <img src="/img/icons/is.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2017.iceweb.is/">IceWeb Conference</a>, Reykjavik, (Iceland) January 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://dxnevent.com/">Design Exchange</a>, Nottingham, (England), January 2017
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://dxnevent.com/">Design Exchange</a>, Nottingham, (England), January 2017
   </li>
 
 </ol>
@@ -445,47 +445,47 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/training/advanced-css-architecture">White October Events</a>, London (England), November 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.whiteoctoberevents.co.uk/training/advanced-css-architecture">White October Events</a>, London (England), November 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://www.meetup.com/London-CSS-Meetup/events/234913062/">London CSS</a>, London (England), November 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/London-CSS-Meetup/events/234913062/">London CSS</a>, London (England), November 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="http://www.meetup.com/frontmen/">FrontMen Guru Sessions</a>, Amsterdam (Netherlands), November 2016
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.meetup.com/frontmen/">FrontMen Guru Sessions</a>, Amsterdam (Netherlands), November 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/ee.png" alt="" width="16" height="11" /> <a href="http://topconf.com/tallinn-2016/">Topconf</a>, Tallinn (Estonia), November 2016
+    <img src="/img/icons/ee.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://topconf.com/tallinn-2016/">Topconf</a>, Tallinn (Estonia), November 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="https://beyondtellerrand.com/events/berlin-2016">Beyond Tellerrand</a>, Berlin (Germany), November 2016
+    <img src="/img/icons/de.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://beyondtellerrand.com/events/berlin-2016">Beyond Tellerrand</a>, Berlin (Germany), November 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="http://code4life.pl/">Code4Life</a>, Warsaw (Poland), October 2016
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://code4life.pl/">Code4Life</a>, Warsaw (Poland), October 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://2016.webdevconf.com/">WDC</a>, Bristol (England), October 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2016.webdevconf.com/">WDC</a>, Bristol (England), October 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://frontendnorth.com/">FrontEndNorth</a>, Sheffield (England), September 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://frontendnorth.com/">FrontEndNorth</a>, Sheffield (England), September 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/cz.png" alt="" width="16" height="11" /> <a href="https://webexpo.net/prague2016/">WebExpo</a>, Prague (Czech Republic), September 2016
+    <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://webexpo.net/prague2016/">WebExpo</a>, Prague (Czech Republic), September 2016
   </li>
 
   <li>
@@ -495,87 +495,87 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://mkgeeknight.co.uk/">MK Geek Night</a>, Milton Keynes (England), September 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://mkgeeknight.co.uk/">MK Geek Night</a>, Milton Keynes (England), September 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ch.png" alt="" width="11" height="11" /> <a href="https://frontendconf.ch/">Frontend Conference</a>, Zürich (Switzerland), September 2016
+    <img src="/img/icons/ch.png" alt="" width="11" height="11" loading="lazy" /> <a href="https://frontendconf.ch/">Frontend Conference</a>, Zürich (Switzerland), September 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/ar.png" alt="" width="16" height="11" /> <a href="http://cssconfar.com/">CSSconf Argentina</a>, Buenos Aires (Argentina), August 2016
+    <img src="/img/icons/ar.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://cssconfar.com/">CSSconf Argentina</a>, Buenos Aires (Argentina), August 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="http://cssday.nl/">CSS Day</a>, Amsterdam (Netherlands), June 2016
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://cssday.nl/">CSS Day</a>, Amsterdam (Netherlands), June 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/sc.png" alt="" width="16" height="11" /> <a href="http://scotlandcss.com/">ScotlandCSS</a>, Edinburgh (Scotland), June 2016
+    <img src="/img/icons/sc.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://scotlandcss.com/">ScotlandCSS</a>, Edinburgh (Scotland), June 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/be.png" alt="" width="16" height="11" /> <a href="http://frontendunited.org/">Front-end United</a>, Ghent (Belgium), May 2016
+    <img src="/img/icons/be.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://frontendunited.org/">Front-end United</a>, Ghent (Belgium), May 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="https://2016.front-trends.com/">Front-Trends</a>, Warsaw (Poland), May 2016
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2016.front-trends.com/">Front-Trends</a>, Warsaw (Poland), May 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="http://topconf.com/onedayevent/css-workshop/">Topconf</a>, Linz (Austria), May 2016
+    <img src="/img/icons/at.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://topconf.com/onedayevent/css-workshop/">Topconf</a>, Linz (Austria), May 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="https://heyst.ac/lectures/the-life-of-a-travelling-css-architect">Hey!Stac</a>, Leeds (England), April 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://heyst.ac/lectures/the-life-of-a-travelling-css-architect">Hey!Stac</a>, Leeds (England), April 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.render-conf.com/">Render Conf</a>, Oxford (England), April 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.render-conf.com/">Render Conf</a>, Oxford (England), April 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/us.png" alt="" width="16" height="11" /> <a href="http://smashingconf.com/sf-2016/">Smashing Conference</a>, San Francisco (US), April 2016
+    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://smashingconf.com/sf-2016/">Smashing Conference</a>, San Francisco (US), April 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-march-2016/">White October Events</a>, London (England), March 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-march-2016/">White October Events</a>, London (England), March 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/nz.png" alt="" width="16" height="11" /> <a href="http://www.webstock.org.nz/16/">Webstock</a>, Wellington (New Zealand), February 2016
+    <img src="/img/icons/nz.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.webstock.org.nz/16/">Webstock</a>, Wellington (New Zealand), February 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/at.png" alt="" width="16" height="11" /> <a href="http://topconf.com/linz-2016/">Topconf</a>, Linz (Austria), February 2016
+    <img src="/img/icons/at.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://topconf.com/linz-2016/">Topconf</a>, Linz (Austria), February 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://workintheweb.com/">Work in the Web</a>, Leeds (England), January 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://workintheweb.com/">Work in the Web</a>, Leeds (England), January 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-january-2016/">White October Events</a>, London (England), January 2016
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-january-2016/">White October Events</a>, London (England), January 2016
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/es.png" alt="" width="16" height="11" /> <a href="http://www.meetup.com/Barcelona-Web-Performance/events/228088580/">Web Perf Barcelona</a>, Barcelona (Spain), January 2016
+    <img src="/img/icons/es.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.meetup.com/Barcelona-Web-Performance/events/228088580/">Web Perf Barcelona</a>, Barcelona (Spain), January 2016
   </li>
 
 </ol>
@@ -586,47 +586,47 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://beyondconf.co/">Beyond</a>, London (England), November 2015
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://beyondconf.co/">Beyond</a>, London (England), November 2015
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-november/">White October Events</a>, London (England), November 2015
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-november/">White October Events</a>, London (England), November 2015
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-september/">White October Events</a>, London (England), September 2015
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.whiteoctoberevents.co.uk/event/css-workshop-september/">White October Events</a>, London (England), September 2015
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/it.png" alt="" width="16" height="11" /> <a href="http://2015.fromthefront.it/">From The Front</a>, Bologna (Italy), September 2015
+    <img src="/img/icons/it.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2015.fromthefront.it/">From The Front</a>, Bologna (Italy), September 2015
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="http://smashingconf.com/freiburg-2015/">Smashing Conference</a>, Freiburg (Germany), September 2015
+    <img src="/img/icons/de.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://smashingconf.com/freiburg-2015/">Smashing Conference</a>, Freiburg (Germany), September 2015
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://dotyork.com/events/event?event=2015-04-08-workshop-css-architecture-for-large-scale-uis">DotYork</a>, York (England), April 2015
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://dotyork.com/events/event?event=2015-04-08-workshop-css-architecture-for-large-scale-uis">DotYork</a>, York (England), April 2015
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/au.png" alt="" width="16" height="11" /> <a href="http://2015.cssconf.com.au/">CSSConf</a>, Melbourne (Australia), March 2015
+    <img src="/img/icons/au.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2015.cssconf.com.au/">CSSConf</a>, Melbourne (Australia), March 2015
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/fi.png" alt="" width="16" height="11" /> <a href="http://frontend.fi/">Frontend.fi</a>, Helsinki (Finland), March 2015
+    <img src="/img/icons/fi.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://frontend.fi/">Frontend.fi</a>, Helsinki (Finland), March 2015
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://reasons.to/">Reasons:London</a>, London (England), February 2015
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://reasons.to/">Reasons:London</a>, London (England), February 2015
   </li>
 
 </ol>
@@ -637,52 +637,52 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/fr.png" alt="" width="16" height="11" /> <a href="http://www.dotcss.eu/">dotCSS</a>, Paris (France), November 2014
+    <img src="/img/icons/fr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.dotcss.eu/">dotCSS</a>, Paris (France), November 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/rs.png" alt="" width="16" height="11" /> <a href="http://dafed.org">DaFED</a>, Novi Sad (Serbia), November 2014
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://dafed.org">DaFED</a>, Novi Sad (Serbia), November 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/no.png" alt="" width="16" height="11" /> <a href="http://trondheimdc.no/">Trondheim Developer Conference</a>, Trondheim (Norway), October 2014
+    <img src="/img/icons/no.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://trondheimdc.no/">Trondheim Developer Conference</a>, Trondheim (Norway), October 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/ro.png" alt="" width="16" height="11" /> <a href="http://www.smartwebconf.com/">SmartWeb Conference</a>, Bucharest (Romania), September 2014
+    <img src="/img/icons/ro.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.smartwebconf.com/">SmartWeb Conference</a>, Bucharest (Romania), September 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/hr.png" alt="" width="16" height="11" /> <a href="http://2014.thegeekgathering.org/">The Geek Gathering</a>, Osijek (Croatia), May 2014
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2014.thegeekgathering.org/">The Geek Gathering</a>, Osijek (Croatia), May 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://dotyork.com/">DotYork</a>, York (England), May 2014
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://dotyork.com/">DotYork</a>, York (England), May 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://industryconf.com/">Industry Conf</a>, Newcastle (England), April 2014
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://industryconf.com/">Industry Conf</a>, Newcastle (England), April 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://futureofwebdesign.com/london-2014/">Future of Web Design</a>, London (England), April 2014
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://futureofwebdesign.com/london-2014/">Future of Web Design</a>, London (England), April 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture2">Event Handler</a>, London (England), March 2014
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture2">Event Handler</a>, London (England), March 2014
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture">Event Handler</a>, London (England), February 2014
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture">Event Handler</a>, London (England), February 2014
   </li>
 
 </ol>
@@ -693,42 +693,42 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/ch.png" alt="" width="11" height="11" /> <a href="https://shop.smashingmagazine.com/smashing-workshop-planning-building-front-end-zurich.html">Smashing Workshop</a>, Zürich (Switzerland), December 2013
+    <img src="/img/icons/ch.png" alt="" width="11" height="11" loading="lazy" /> <a href="https://shop.smashingmagazine.com/smashing-workshop-planning-building-front-end-zurich.html">Smashing Workshop</a>, Zürich (Switzerland), December 2013
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://makedo.in/leeds/css-workshop/">Make Do</a>, Leeds (England), November 2013
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://makedo.in/leeds/css-workshop/">Make Do</a>, Leeds (England), November 2013
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough (England), October 2013
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://www.hashtagtide.co/">#TIDE</a>, Scarborough (England), October 2013
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img data-src="/img/icons/nl.png" alt="" width="16" height="11" /> <a href="http://fronteers.nl/congres/2013">Fronteers</a>, Amsterdam (Netherlands), October 2013
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://fronteers.nl/congres/2013">Fronteers</a>, Amsterdam (Netherlands), October 2013
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="http://2013.cssconf.eu/">CSSconf.eu</a>, Berlin (Germany), September 2013
+    <img src="/img/icons/de.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2013.cssconf.eu/">CSSconf.eu</a>, Berlin (Germany), September 2013
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://hey.wearestac.com/">Hey!Stac</a>, Leeds (England), June 2013
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://hey.wearestac.com/">Hey!Stac</a>, Leeds (England), June 2013
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/de.png" alt="" width="16" height="11" /> <a href="http://2013.beyondtellerrand.com/">Beyond Tellerrand</a>, Düsseldorf (Germany), May 2013
+    <img src="/img/icons/de.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2013.beyondtellerrand.com/">Beyond Tellerrand</a>, Düsseldorf (Germany), May 2013
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://industryconf.com/">Industry Conf</a>, Newcastle (England), April 2013
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://industryconf.com/">Industry Conf</a>, Newcastle (England), April 2013
   </li>
 
 </ol>
@@ -739,22 +739,22 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (England), September 2012
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (England), September 2012
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://2012.canvasconf.co.uk/">Canvas</a>, Birmingham (England), September 2012
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2012.canvasconf.co.uk/">Canvas</a>, Birmingham (England), September 2012
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/pl.png" alt="" width="16" height="11" /> <a href="http://2012.front-trends.com/">Front-Trends</a>, Warsaw (Poland), April 2012
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://2012.front-trends.com/">Front-Trends</a>, Warsaw (Poland), April 2012
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img data-src="/img/icons/en.png" alt="" width="16" height="11" /> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (England), February 2012
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://thedigitalbarn.co.uk/">Digital Barn</a>, Barnsley (England), February 2012
   </li>
 
 </ol>
