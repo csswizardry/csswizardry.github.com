@@ -273,9 +273,8 @@ sans-fonts and then “pop” into place with the correct fonts…</q> which, of
 course, I, every async font loading strategy, and the entire `font-display`/Font
 Loading spec disagree with.
 
-With the help of [Paul Calvano](https://twitter.com/paulcalvano), I ascertained
-that approximately 13,100 sites in the HTTP Archive currently use Hoefler&Co’s
-Cloud.typography service. That’s approximately [$15.5m
+I ascertained that approximately 13,100 sites in the HTTP Archive currently use
+Hoefler&Co’s Cloud.typography service. That’s approximately [$15.5m
 a year](https://www.wolframalpha.com/input/?i=$99+*+13100+*+12) worth of
 customers currently bound to a slow-by-design, slow-by-default webfont solution
 that we could have helped out!
