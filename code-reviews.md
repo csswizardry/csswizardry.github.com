@@ -46,9 +46,9 @@ around:
 4. **Handover:** Once you and your team have had chance to read and digest the
    report, you’ll likely have some questions or comments. We’ll hold a formal
    handover session to ensure that you fully understand the entirety of the audit
-   document, and know what you need to do next.
+   document and know what you need to do next.
 5. **Reconvene:** One to three months later—depending on what would be most
-   appropriate for your organisation—I drop back in and conduct a brief audit
+   appropriate for your organisation—I’ll drop back in and conduct a brief audit
    against your to-do list that I left you with. This phase ensures you’re
    accountable, as well as shows me where any regressions may have happened or
    what you may have struggled to overcome.
@@ -77,14 +77,16 @@ Once the audit is complete, you receive:
   the investigation uncovered. It is not uncommon for these audits to run into
   the thousands of words, so I ensure it is broken into clear, thematic sections
   with defined action points. This document becomes the canonical reference for
-  your engineering team, and as well as developer-facing, technical insights,
-  I will include a business-oriented executive summary that highlights key
-  findings and their impact.
+  your engineering team. As well as developer-facing, technical insights, I will
+  include a business-oriented executive summary that highlights key findings and
+  their expected impact.
 * **Performance Backlog:** A Trello board that I populate as I review the site
   will be made available to your team. Cards have clear checklists covering
-  everything from common pitfalls to long-term optimisations.
+  everything from common pitfalls to long-term optimisations. Key tasks are
+  created and loosely prioritised in order for your team to hit the ground
+  running.
 * **Half-Day Handover:** Scheduled for some time after delivery of the report,
-  we’ll set aside half a day for a call in which your engineers can ask
+  we’ll set aside a half-day for a call in which your engineers can ask
   questions about my findings, I can explain anything that requires it, we can
   look to discuss longer-term strategies, and generally close up the project
   with a formal handover session.
