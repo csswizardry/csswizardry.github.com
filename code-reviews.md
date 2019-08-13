@@ -20,7 +20,8 @@ there.
 
 ## How It Works
 
-All it takes is five straightforward steps to turn your project around:
+All it takes is one week and five straightforward steps to turn your project
+around:
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:peter-gibb">
 <p>Harry’s performance audit gave comprehensive, forensic insight across the full delivery pipeline. Clearly highlighted priorities brought rapid benefits and a plan for continued improvement. Genius.</p>
@@ -33,9 +34,10 @@ All it takes is five straightforward steps to turn your project around:
    business’ needs immediately.
 2. **Audit:** Remotely, I roll up my sleeves and dig in! With an encyclopaedic
    knowledge of all things web-performance, nothing will evade me. From
-   infrastructure and the network to assets and payloads; from CSS and fonts to
-   runtime and rendering (and everything in between), we have a lot to pay
-   attention to.
+   infrastructure and the network, to assets and payloads; from CSS and fonts,
+   to runtime and rendering (and everything in between), we have a lot to pay
+   attention to. I’ll spend at least five days looking though everything I can
+   get my hands on.
 3. **Report:** Once I’ve uncovered everything, I’ll put together a full report
    outlining all of the issues and problems that exist, as well as preemptive
    optimisations we could make in order to be even faster. The report will
