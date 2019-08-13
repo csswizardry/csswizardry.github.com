@@ -235,8 +235,7 @@ solution more thoroughly so I’d be better poised to make recommendations.
 
 I got the details of a member of the team at Hoefler&Co and asked if I could
 send them some questions pertaining to their cloud service. If you’re
-interested, you can [read the unedited email in
-full](https://gist.github.com/csswizardry/44ead7d606191f68233f1f77c61b63ba).
+interested, you can [read the unedited email in full](https://csswz.it/2Mc8pkt).
 
 The response I got shed some light on a few things. To summarise:
 
