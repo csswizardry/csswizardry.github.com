@@ -55,7 +55,7 @@ stages of the page-load lifecycle. Let’s pick it apart…
      returns a `302`, forwarding the request to a self-hosted CSS file that is
      optimised specifcally for your browser, OS, and UA (Google Fonts do
      something similar). The CSS file(s) that we host is provided by
-     entire Cloud.typography.
+     Cloud.typography.
        * In case you’re wondering, a non-whitelisted domain returns a `403`
          response.
    * The file is so big because it actually contains all of our fonts as Base64
