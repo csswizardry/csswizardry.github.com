@@ -216,6 +216,8 @@ a staggering 1,504ms improvement in TTI at the 50th percentile.
 inherently present in Cloud.typography. All I’m doing here is mitigating the
 issues as best I can on the client’s end.
 
+{% include promo.html %}
+
 ## Solving the Problem for Everyone
 
 We’re over 1,300 words in and I haven’t even explicitly addressed the crux of

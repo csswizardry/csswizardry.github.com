@@ -332,6 +332,8 @@ transformation services automatically converting to WebP; etc.
 and proxies can’t modify payloads anyway, so `no-transform` would be
 ineffective.
 
+{% include promo.html %}
+
 - - -
 
 ## Cache Busting

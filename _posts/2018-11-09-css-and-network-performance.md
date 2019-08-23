@@ -656,6 +656,8 @@ fast as the slowest CSS file.
 For further detail on this method of linking CSS, I would recommend reading
 [Jake’s article on the subject](https://jakearchibald.com/2016/link-in-body/).
 
+{% include promo.html %}
+
 ## Summary
 
 There is a _lot_ to digest in this article. It ended up going way beyond the
