@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Services
+title: Let’s Work Together
 page-class: page--services
 meta: "Services offered to clients of all shapes and sizes"
 permalink: /services/
@@ -14,14 +14,15 @@ impact on our work is an understatement. We can’t recommend him enough.</p><b
 class="source pull-quote__source"><a href="https://twitter.com/addyosmani">Addy
 Osmani</a>, Google</b></blockquote>
 
-For many years now, I have worked as an independent consultant, helping some of
-the biggest companies in the world to improve their products by providing
-consultancy, audits, code, workshops, and more.
+So, you want to work together? That’s great! So do I. With over a decade of
+professional experience—five of which have been spent consulting for [some of
+the world’s largest and most respected brands](/#section:clients)—you’re in safe
+hands.
 
-With a strong focus on performance and efficiency, my work aims to leave
-companies with faster code and faster teams.
-
-Thinking of hiring me? [You’re in good company](/#section:clients).
+I work with companies to improve web performance across the front-ends of their
+products. From consulting to training, development to speaking, from
+billion-dollar multinationals to fledgling startups, I take a pragmatic and
+business-minded approach to helping organisations do the right things, quickly.
 
 <ul class="feature-list">
 
