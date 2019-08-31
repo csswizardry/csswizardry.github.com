@@ -42,11 +42,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.webexpo.net/prague2019/">WebExpo</a>, Prague (Czech Republic), September 2019
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/sc.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://finchconf.uk/">Finch Front-End</a>, Edinburgh (Scotland), September 2019
   </li>
 
@@ -144,6 +139,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2019
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/ch.png" alt="" width="11" height="11" loading="lazy" /> <a href="https://frontendconf.ch/">Front Conference Zürich</a>, Zürich (Switzerland), August 2019
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
