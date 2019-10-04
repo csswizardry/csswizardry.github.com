@@ -23,7 +23,12 @@ Commerce](https://www.shiftcommerce.com/).
                                                     /img/content/me-750.jpg 750w,
                                                     /img/content/me-1024.jpg 1024w"
                                             intrinsicsize="1024x683"
-                                            importance="high" />
+                                            importance="high"
+                                            onload="performance.clearMarks('About Page Image'); performance.mark('About Page Image');" />
+  <script>
+    performance.clearMarks("About Page Image");
+    performance.mark("About Page Image");
+  </script>
 
   <figcaption markdown="1">
   On stage at [beyond tellerrand](http://2013.beyondtellerrand.com/).
@@ -76,7 +81,7 @@ what fits.
 
 _<img src="/img/content/signature.png" alt="Harry" importance="low" width="123" height="72" />_
 
-<a href="http://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
+<a href="https://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
 
 
@@ -94,11 +99,11 @@ me.</strong></a>
 CSS Wizardry makes use of many great tools and services; tools and services that
 make my life as a developer much, much simpler.
 
-CSS Wizardry is built on [Jekyll](http://jekyllrb.com/), an open source static
+CSS Wizardry is built on [Jekyll](https://jekyllrb.com/), an open source static
 site generator. This is hosted using [GitHub Pages](https://pages.github.com/)
 and served via [Cloudflare](https://www.cloudflare.com/).
 
-The CSS is written in [Sass](http://sass-lang.com/), and built on top of
+The CSS is written in [Sass](https://sass-lang.com/), and built on top of
 [inuitcss](https://github.com/inuitcss). inuitcss is a free, open-source,
 Sass-based, OOCSS framework with a strong focus on performance, scalability, and
 a small footprint. This is then built into [ITCSS](https://skl.sh/harry), a CSS
