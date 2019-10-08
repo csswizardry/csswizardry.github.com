@@ -1,4 +1,5 @@
 <head>
+<script>performance.mark('HEAD Start');</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 
@@ -102,6 +103,9 @@ ga('send', 'pageview');
 <meta name="theme-color" content="#f43059">
 <link rel="manifest" href="/manifest.json">
 
-<script>performance.mark('HEAD Finished');</script>
+<script>
+  performance.mark('HEAD End');
+  performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
+</script>
 
 </head>
