@@ -21,5 +21,11 @@
   }
 </script>
 
+<script>
+  performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
+  console.log(performance.getEntriesByType("mark"));
+  console.log(performance.getEntriesByType("measure"));
+</script>
+
 </body>
 </html>
