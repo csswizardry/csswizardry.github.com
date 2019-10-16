@@ -47,7 +47,7 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/hk.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2019.webconf.asia/">Webconf.asia</a>, Hong Kong, November 2019
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>, Amsterdam (Netherlands), November 2019
   </li>
 
 </ol>
@@ -233,7 +233,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/speakers">performance.now()</a>, Amsterdam (Netherlands), November 2018
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>, Amsterdam (Netherlands), November 2018
   </li>
 
   <li>
