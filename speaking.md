@@ -41,11 +41,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/ny-2019/">Smashing Conference</a>, New York (US), October 2019
-  </li>
-
-  <li>
     <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/at.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://scriptconf.org/">ScriptConf</a>, Linz (Austria), October 2019
   </li>
@@ -129,6 +124,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2019
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://digitalab.in/">Digitalab.in</a>, Labin (Croatia), September 2019
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
