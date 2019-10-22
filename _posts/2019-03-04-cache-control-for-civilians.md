@@ -328,10 +328,6 @@ other directives for it to function itself.
 Brotli encoding for users that need the former or could use the latter; image
 transformation services automatically converting to WebP; etc.
 
-**N.B.** If you’re running over HTTPS—which you should be—then intermediaries
-and proxies can’t modify payloads anyway, so `no-transform` would be
-ineffective.
-
 {% include promo.html %}
 
 - - -
