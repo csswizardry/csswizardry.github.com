@@ -40,6 +40,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   {% include speaking.html %}
 
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>, Amsterdam (Netherlands), November 2019
+  </li>
+
 </ol>
 
 
