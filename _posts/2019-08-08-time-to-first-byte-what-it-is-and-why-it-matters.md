@@ -80,7 +80,7 @@ presented in no particular order:
   there. If your origin is in, say, Virginia, that’s going to be a large and
   invisible increase in TTFB.
 * **Filesystem reads:** The server simply reading static files such as images or
-  sylesheets from the filesystem has a cost. It all gets added to your TTFB.
+  stylesheets from the filesystem has a cost. It all gets added to your TTFB.
 * **Prioritisation:** HTTP/2 has a (re)prioritisation mechanism whereby it may
   choose to [stall lower-priority
   responses](https://github.com/pmeenan/http2priorities#readme) on the server
