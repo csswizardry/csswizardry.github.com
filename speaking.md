@@ -40,11 +40,6 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   {% include speaking.html %}
 
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>, Amsterdam (Netherlands), November 2019
-  </li>
-
 </ol>
 
 
@@ -119,6 +114,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2019
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2019.ffconf.org/">ffconf</a>, Brighton (England), November 2019
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
