@@ -24,6 +24,10 @@ products. From consulting to training, development to speaking, from
 billion-dollar multinationals to fledgling startups, I take a pragmatic and
 business-minded approach to helping organisations do the right things, quickly.
 
+<style>
+  {% include css/components.feature-list.css %}
+</style>
+
 <ul class="feature-list">
 
   <li class="feature-list__item">

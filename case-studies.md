@@ -14,6 +14,10 @@ permalink: /case-studies/
        me an email</a> and we can talk directly.</p>
 </div>
 
+<style>
+  {% include css/components.feature-list.css %}
+</style>
+
 <ul class="feature-list">
 
     {% comment %}
