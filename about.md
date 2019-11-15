@@ -24,6 +24,7 @@ Commerce](https://www.shiftcommerce.com/).
                                                     /img/content/me-1024.jpg 1024w"
                                             intrinsicsize="1024x683"
                                             importance="high"
+                                            elementtiming="about-image"
                                             onload="performance.clearMarks('About Page Image'); performance.mark('About Page Image');" />
   <script>
     performance.clearMarks("About Page Image");
