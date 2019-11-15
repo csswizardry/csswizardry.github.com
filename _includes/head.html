@@ -55,11 +55,13 @@ ga('send', 'pageview');
   {% endif %}
 </script>
 
+<script>performance.mark('CSS Start');</script>
 <style>
 
   {% include css/csswizardry.min.css %}
 
 </style>
+<script>performance.mark('CSS End');</script>
 
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 
