@@ -41,6 +41,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   {% include speaking.html %}
 
   <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/hk.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2019.webconf.asia/">Webconf.asia</a>, Hong Kong, August 2020
+  </li>
+
+  <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.webexpo.net/">WebExpo</a>, Prague (Czech Republic), September 2020
   </li>
