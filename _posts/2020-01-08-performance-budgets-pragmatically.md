@@ -45,7 +45,7 @@ budgeting. Your budgeting is actually far, far simpler:
 Whatever monitoring you use (I adore [SpeedCurve](https://speedcurve.com) and
 [Treo](https://treo.sh/)), my suggestion for setting a budget for any trackable
 metric is to take the worst data point in the past two weeks and use that as
-your budget. Load times were 7.2s? You’re not allowed to get any slower than
+your limit. Load times were 7.2s? You’re not allowed to get any slower than
 that. JS size was 478KB? You can’t introduce any more without refactoring what’s
 already there. 68 third party requests? You can’t add any more.
 
