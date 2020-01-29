@@ -77,6 +77,10 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.webexpo.net/">WebExpo</a>, Prague (Czech Republic), September 2020
   </li>
 
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/ca.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://fitc.ca/event/webu20/">Web Unleashed</a>, Toronto (Canada), October 2020
+  </li>
 
 </ol>
 
