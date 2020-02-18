@@ -42,6 +42,11 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/lv.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2020.frontcon.com/">Frontcon</a>, Riga (Latvia), April 2020
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/ua.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2020
   </li>
 
@@ -50,12 +55,12 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/by.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.frontendunited.org/">Frontend United</a>, Minsk (Belarus), May 2020
   </li>
+  -->
 
   <li>
-    <h4 class="list-ui__title">Talk</h4>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2020
   </li>
-  -->
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
@@ -68,9 +73,16 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   </li>
 
   <li>
-    <h4 class="list-ui__title">Talk</h4>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/hk.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2020.webconf.asia/">Webconf.asia</a>, Hong Kong, August 2020
   </li>
+
+  <!--
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/ru.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://frontendconf.ru/">FrontendConf</a>, Moscow (Russia), September 2020
+  </li>
+  -->
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
@@ -78,9 +90,21 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
   </li>
 
   <li>
-    <h4 class="list-ui__title">Talk</h4>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/ca.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://fitc.ca/event/webu20/">Web Unleashed</a>, Toronto (Canada), October 2020
   </li>
+
+  <!--
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/be.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://fullstackeurope.com/2020/">Full Stack Europe</a>, Antwerp (Belgium), October 2020
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://reactiveconf.com/">ReactiveConf</a>, Prague (Czech Republic), October 2020
+  </li>
+  -->
 
 </ol>
 
