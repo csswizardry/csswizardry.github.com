@@ -50,12 +50,10 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
     <img src="/img/icons/ua.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2020
   </li>
 
-  <!--
   <li>
-    <h4 class="list-ui__title">Talk</h4>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/by.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.frontendunited.org/">Frontend United</a>, Minsk (Belarus), May 2020
   </li>
-  -->
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
