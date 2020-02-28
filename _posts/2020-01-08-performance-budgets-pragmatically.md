@@ -23,8 +23,8 @@ budgets actually be?!</q>**
 
 When faced with the task of setting a brand new budget, it can feel
 daunting—almost paralysing—trying to find a value that is both attainable but
-but effective. Is it too ambitious? Is it not ambitious enough? Is it going to
-be really difficult to hit? Or do we risk making it so easy to achieve that it’s
+effective. Is it too ambitious? Is it not ambitious enough? Is it going to be
+really difficult to hit? Or do we risk making it so easy to achieve that it’s
 almost pointless? How do we know? How long will it take to find out?
 
 Here’s the thing: **most organisations aren’t ready for challenges, they’re in
