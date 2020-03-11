@@ -6,7 +6,7 @@ meta: "Affordable, remote performance audits and code reviews for your product"
 permalink: /code-reviews/
 ---
 
-<p class="u-text-prominent">£6,000 (+VAT)</p>
+<p class="u-text-prominent">£<s>6,000</s>5,000 (+VAT)</p>
 
 You could be leaving hundreds of thousands of pounds of revenue on the table
 every year due to a poorly- or un-optimised website. Slow websites are one of
