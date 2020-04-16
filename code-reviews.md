@@ -36,7 +36,7 @@ around:
    knowledge of all things web-performance, nothing will evade me. From
    infrastructure and the network, to assets and payloads; from CSS and fonts,
    to runtime and rendering (and everything in between), we have a lot to pay
-   attention to. I’ll spend at least five days looking though everything I can
+   attention to. I’ll spend at least five days looking through everything I can
    get my hands on.
 3. **Report:** Once I’ve uncovered everything, I’ll put together a full report
    outlining all of the issues and problems that exist, as well as preemptive
