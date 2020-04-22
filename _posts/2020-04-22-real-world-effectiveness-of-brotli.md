@@ -161,7 +161,7 @@ not, is it being used for anything else, is server-side prioritisation
 stop-starting transfer, do H/2 streams have exclusive access to bandwidth? This
 section is a more academic assessment and should be seen as a good jump-off
 point, but consider analysing the data properly in something like Wireshark, and
-also ready [Barry Pollard](https://twitter.com/tunetheweb)’s far more forensic
+also read [Barry Pollard](https://twitter.com/tunetheweb)’s far more forensic
 analysis of the magic 14KB in his [_Critical Resources and the First 14 KB
 – A Review_](https://www.tunetheweb.com/blog/critical-resources-and-the-first-14kb/).</small>
 
@@ -340,7 +340,7 @@ compression in the first place. To combat this, we have two options:
 
 1. **use a pragmatic compression level** that balances speed and effectiveness
    when dynamically compressing assets, or;
-2. **Upload precompressed static assets** with a much higher compression level,
+2. **upload precompressed static assets** with a much higher compression level,
    and use the first option for dynamic responses.
 
 ## So What?
