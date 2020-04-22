@@ -4,7 +4,7 @@
 
 table {
   width: 100%;
-  table-layout: fixed;
+  @include font-size(12px);
 }
 
 th {
