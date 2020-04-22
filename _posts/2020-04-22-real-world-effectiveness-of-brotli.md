@@ -298,7 +298,7 @@ but the things we mainly care about are:
 
 * Gzip size reduction vs. nothing: 73% decrease
 * Gzip FCP improvement vs. nothing: 23.305% decrease
-* Brotli size reduction vs. Gzip: 5.767% decreaase
+* Brotli size reduction vs. Gzip: 5.767% decrease
 * Brotli FCP improvement vs. Gzip: 3.462% decrease
 
 <small>All values are median; ‘Size’ refers to HTML, CSS, and JS only.</small>
