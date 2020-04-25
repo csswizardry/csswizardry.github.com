@@ -1,3 +1,17 @@
+{% if page.page-class != "page--home" and page.page-class != "page--about" %}
+<style>
+  {% include css/components.headshot.css %}
+</style>
+
+<p class="c-headshot">
+  <img src="/img/css/masthead.6ddf08d9.jpg" alt="" loading="lazy" elementtiming="sidebar-image" onload="performance.clearMarks('Sidebar Image'); performance.mark('Sidebar Image');" />
+  <script>
+    performance.clearMarks("Sidebar Image");
+    performance.mark("Sidebar Image");
+  </script>
+</p>
+{% endif %}
+
 <p>Hi there, I’m Harry. I am an <a href="https://thenetawards.com/previous-winners/">award-winning</a> <b>Consultant Front-end Architect</b>, <b>designer</b>, <b>developer</b>, <b>writer</b> and <b>speaker</b> from the UK. I <a href="/archive/">write</a>, <a href="https://twitter.com/csswizardry">tweet</a>, <a href="/speaking/">speak</a> and <a href="http://github.com/csswizardry">share code</a> about authoring and scaling CSS for big websites. You can <a href="/contact/">hire me</a>.</p>
 
 <p><a href="https://twitter.com/csswizardry" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @csswizardry</a></p>
