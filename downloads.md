@@ -13,6 +13,16 @@ usually extensive workshop slide-decks that can be viewed out of context.
 me](/services/), be sure to mention your license key and I will deduct the cost
 of your download(s) from your final invoice.
 
+## Questions for Consultants: Useful Questions to Ask Your Clients
+
+My first ebook comes in at just over 25,000 words. It’s a consultants guide to
+asking the very best questions to help your clients be more successful. I think
+you’ll like it.
+
+<div class="gumroad-product-embed" data-gumroad-product-id="questions-for-consultants"><a href="https://gumroad.com/l/questions-for-consultants">Loading…</a></div>
+
+- - -
+
 ## Trade Secrets: Secret Performance Tools (and How to Use ’Em)
 
 A half-day workshop all about secret and well-hidden performance tools.
