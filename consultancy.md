@@ -1,43 +1,43 @@
 ---
 layout: page
-title: Consultancy and Development
+title: Web Performance Consultancy
 page-class: page--services  page--consultancy
 meta: "Consultancy and strategic guidance for development teams"
 permalink: /consultancy/
 ---
 
-I provide on-site consultancy and development work for companies and teams of
-all sizes. Need help starting a new project? Let me help you get set up.
-Struggling to work out why pages feel so slow? Let’s work it out.
+**Web performance affects all businesses. How does it affect yours?**
 
-Consultancy clients include: the United Nations, the NHS, Sky, Unilever, the
-Financial Times.
+I work together with organisations of all sizes to analyse, find, and fix
+site-speed issues. How much does a one-second slowdown affect conversion rates?
+Are third party scripts impacting engagement? How does site-speed influence
+revenues?
 
-Consultancy work normally—although certainly not always—happens toward the
-beginning of a project: I come in, speak with the business to learn about what
-your requirements are, then work with developers to set up architectures,
-frameworks, and approaches that help us to satisfy those requirements.
+It’s my job to help you find out.
 
-After this initial engagement, it is not uncommon for clients to open a
-retainer, so that I can be called in periodically to either review progress, or
-assist with tricky or troublesome roadblocks.
+Consultancy engagements are designed for specific clients and projects, but they
+all combine some or all of the following:
 
-Consultancy engagements are usually very specific to the client and project, so
-it’s always best to open a discussion as early as possible to work out exactly
-what you need, and how much of it.
+* **Analysis:** You can’t fix what you can’t measure. Let’s work out just how
+  site-speed affects your business. Once we have an idea of exactly what web
+  performance means for you, we’re far better equipped to make meaningful
+  improvements.
+* **Audits:** I’m a technical consultant at heart—I have a forensic knowledge of
+  how both the network and web browsers work. My audits are famed for their
+  extensive, detailed, yet actionable insights, and will uncover everything that
+  is working against us.
+* **Implementation:** Performance sprints are a highly effective way to realise
+  returns _fast_. I’ll work alongside your engineering team to get
+  customer-facing site-speed improvements out of the door and earning you money.
+  I won’t just find the problems—I’ll fix them.
+* **Culture:** You should never need to call pest control twice. I will ensure
+  your team is left self-sufficient and able to tackle these issues themselves
+  in future. Let’s build a performance culture that bakes site-speed
+  considerations into projects from the outset. Let’s make it easy to do the
+  right thing.
 
-<a href="mailto:csswizardry@gmail.com?subject=Consultancy%20Engagement" class="btn  btn--full">Discuss Consultancy Work</a>
+I pride myself on my ability to work with organisations, not merely for them. So
+much so that I wrote [a book about
+it](https://gumroad.com/l/questions-for-consultants).
 
-## Development
-
-Consultancy work often involves some development work on my part (proofs of
-concept, initial architecture, sprint-zero work, etc.), but most of the time is
-spent discussing and planning.
-
-If you’d like me to provide more long-term and more involved development work,
-that is something that I am open to discussing for the right team and the right
-product.
-
-Development clients include: Sky, NHS.
-
-<a href="mailto:csswizardry@gmail.com?subject=Development%20Engagement" class="btn  btn--full">Discuss Development Work</a>
+<a href="mailto:csswizardry@gmail.com?subject=Consultancy%20Engagement" class="btn  btn--full">Let’s Talk!</a>
