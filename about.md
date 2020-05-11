@@ -11,10 +11,11 @@ Hi there, I’m Harry. I am an independent **Consultant Web Performance Engineer
 from Leeds, UK. I help some of the world’s largest and most respected
 organisations deliver faster and more reliable experiences to their customers.
 I am an invited [Google Developer
-Expert](https://developers.google.com/experts/people/harry-roberts), an
-[award-winning developer](https://thenetawards.com/previous-winners/), an
-[international speaker](/speaking/), and Performance Ambassador for [SHIFT
-Commerce](https://www.shiftcommerce.com/).
+Expert](https://developers.google.com/experts/people/harry-roberts),
+a [Cloudinary Media Developer
+Expert](https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program#harry_roberts),
+an [award-winning developer](https://thenetawards.com/previous-winners/), and an
+[international speaker](/speaking/).
 
 <figure>
   <img src="/img/content/me-750.jpg" alt="" sizes="(max-width: 1023px) 100vw,
