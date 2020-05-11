@@ -9,7 +9,7 @@ permalink: /speaking/
 **Practical insights, delivered.**
 
 I’ve spoken at a lot of conferences. [Over one-hundred](#section:past-events) of
-them Sharing knowledge is one of my key motivations, and is a large part of why
+them. Sharing knowledge is one of my key motivations, and is a large part of why
 I chose to become a consultant in the first place—I love to help.
 
 From local meetups to international events, I am an enthusiastic, engaging, and
