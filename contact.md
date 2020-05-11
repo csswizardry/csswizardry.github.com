@@ -1,27 +1,57 @@
 ---
 layout: page
-title: Contact Me
+title: Let’s Talk!
 page-class: page--contact
 meta: "Get in touch to discuss work and speaking engagements"
 permalink: /contact/
 ---
 
-<p class="u-text-prominent">csswizardry@gmail.com</p>
+**Consultancy projects, speaking engagements, or just to say hi.**
 
-* For consulting engagements, please [send me an
+<a href="mailto:csswizardry@gmail.com" class="btn  btn--full" id="section:details">csswizardry@gmail.com</a>
+
+* For **consulting engagements**, please [send me an
   email](mailto:csswizardry@gmail.com).
-* For speaking engagements, please [see my speaking
+* For **speaking engagements**, [see my speaking
   page](/speaking/#section:request).
-* For general questions and advice, please see [my AMA
+* For **general questions** and advice, see [my AMA
   repository](https://github.com/csswizardry/ama).
-* For small questions, or just to say hi, please feel free to [fire me a
+* For **small questions**, or just to say hi, feel free to [fire me a
   Tweet](https://twitter.com/csswizardry).
-* For questions about software and tools, see [my setup](/uses/).
-* To keep in regular contact, [join my newsletter](/newsletter/).
+* Interested in **software and tools**? See [my setup](/uses/).
+* To keep in **regular contact**, [join my newsletter](/newsletter/).
+* Got **questions**? See [the FAQ](#section:faq).
 
-If I do seem to be taking a while to respond, I would not be at all offended if
-you tweeted at me, or sent me a follow-up email, to remind me to reply. I get
-a lot of email.
+
+
+
+
+<ul class="c-nav-secondary  mt++" id="section:faq">
+  <li class="c-nav-secondary__item"><a href="#section:details" class="c-nav-secondary__link">Contact Details</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:faq" class="c-nav-secondary__link  is-current">FAQ</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:office" class="c-nav-secondary__link">Office</a></li>
+</ul>
+
+## Frequently Asked Questions
+
+It can be daunting sending an email off into the blue, so hopefully I can answer
+some of your questions up-front. If not, please do not hesitate to contact me
+with anything at all that you might need to know. I guarantee you’ll be
+pleasantly surprised.
+
+{% include faq-consultancy.md %}
+
+{% include faq-workshops.md %}
+
+
+
+
+
+<ul class="c-nav-secondary  mt++" id="section:office">
+  <li class="c-nav-secondary__item"><a href="#section:details" class="c-nav-secondary__link">Contact Details</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:faq" class="c-nav-secondary__link">FAQ</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:office" class="c-nav-secondary__link  is-current">Office</a></li>
+</ul>
 
 ## Postal Address
 

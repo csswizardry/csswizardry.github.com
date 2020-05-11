@@ -41,3 +41,7 @@ much so that I wrote [a book about
 it](https://gumroad.com/l/questions-for-consultants).
 
 <a href="mailto:csswizardry@gmail.com?subject=Consultancy%20Engagement" class="btn  btn--full">Let’s Talk!</a>
+
+## Got Questions?
+
+{% include faq-consultancy.md %}
