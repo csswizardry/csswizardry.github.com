@@ -6,15 +6,11 @@ meta: "Harry Roberts’ past and upcoming speaking engagements"
 permalink: /speaking/
 ---
 
-<ul class="c-nav-secondary">
-  <li class="c-nav-secondary__item"><a href="#section:upcoming-events" class="c-nav-secondary__link">Upcoming</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:past-events" class="c-nav-secondary__link">Past</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link">Invite</a></li>
-</ul>
+**Practical insights, delivered.**
 
-I’ve spoken at a lot of conferences. [Over 100.](#section:past-events) Sharing
-knowledge is one of my key motivations, and is a large part of why I chose to
-become a consultant in the first place—I love to help.
+I’ve spoken at a lot of conferences. [Over one-hundred](#section:past-events) of
+them Sharing knowledge is one of my key motivations, and is a large part of why
+I chose to become a consultant in the first place—I love to help.
 
 From local meetups to international events, I am an enthusiastic, engaging, and
 professional speaker. My focus is on web performance and site-speed

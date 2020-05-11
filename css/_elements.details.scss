@@ -4,6 +4,12 @@
 
 details {
   @extend %margin-bottom;
+
+  & + & {
+    padding-top: $spacing-unit;
+    border-top: 1px solid $color-gray-ui;
+  }
+
 }
 
 summary {
@@ -14,8 +20,12 @@ summary {
 
   &:hover,
   &:focus,
-  [open] & {
-      text-decoration: underline;
+  [open] > & {
+    text-decoration: underline;
+  }
+
+  [open] > & {
+    @extend %margin-bottom;
   }
 
 }
