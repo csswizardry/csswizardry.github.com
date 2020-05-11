@@ -34,7 +34,7 @@
 
 <details>
 
-  <summary>Can we live-stream or record the sessions?</summary>
+  <summary>Can we live-stream or record workshops?</summary>
 
   <p>If you have the ability to do so, then yes! Live-streaming means you can
   open the sessions up to remote members of the team.</p>
@@ -43,7 +43,7 @@
 
 <details>
 
-  <summary>Can we choose the content?</summary>
+  <summary>Can we choose workshop content?</summary>
 
   <p>Absolutely! We’ll work together to design an itinerary that will best suit
   your team and projects. There’s no point looking at e-commerce case studies if

@@ -14,15 +14,12 @@ impact on our work is an understatement. We can’t recommend him enough.</p><b
 class="source pull-quote__source"><a href="https://twitter.com/addyosmani">Addy
 Osmani</a>, Google</b></blockquote>
 
-So, you want to work together? That’s great! So do I. With over a decade of
-professional experience—five of which have been spent consulting for [some of
-the world’s largest and most respected brands](/#section:clients)—you’re in safe
-hands.
+I help companies of all shapes and sizes asses, identify, and fix site-speed
+issues. Through a combination of audits, consultancy, and training, let’s find
+out what web performance means for your business, and how to ensure we’re on top
+of things.
 
-I work with companies to improve web performance across the front-ends of their
-products. From consulting to training, development to speaking, from
-billion-dollar multinationals to fledgling startups, I take a pragmatic and
-business-minded approach to helping organisations do the right things, quickly.
+<a href="/contact/" class="btn  btn--positive  btn--ull">{% include availability.md %}</a>
 
 <style>
   {% include css/components.feature-list.css %}
