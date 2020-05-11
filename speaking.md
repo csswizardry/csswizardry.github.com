@@ -28,9 +28,8 @@ very soon.
 Take a look at [my preliminary questions ](#section:request)and then [drop me
 a line](/contact/).
 
-**Am I any good?** Check this talk from 2019’s [performance.now()
-conference](https://perfnow.nl/). It’s a good representation of me and my style
-of talk.
+**Am I any good?** Check this keynote from 2019’s [performance.now()
+conference](https://perfnow.nl/). It’s a good representation of me and my style.
 
 <figure class="c-video">
   <iframe class="c-video__media" src="https://www.youtube.com/embed/cXLOIIJ1UaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
