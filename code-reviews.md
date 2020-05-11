@@ -8,6 +8,8 @@ permalink: /code-reviews/
 
 <p class="u-text-prominent">£<s>6,000</s>5,000 (+VAT)</p>
 
+**Your website is too slow. I can tell you why.**
+
 You could be leaving hundreds of thousands of pounds of revenue on the table
 every year due to a poorly- or un-optimised website. Slow websites are one of
 online consumers’ biggest frustrations, and a fast way to miss out on sales.
@@ -16,12 +18,9 @@ Whether you want to boost revenues, improve conversion rates, reduce churn, or
 improve retention and engagement, a well-optimised site is a key way to get
 there.
 
-**Your website is slow. I can tell you why.**
-
 ## How It Works
 
-All it takes is one week and five straightforward steps to turn your project
-around:
+All it takes is five straightforward steps to turn your site around:
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:peter-gibb">
 <p>Harry’s performance audit gave comprehensive, forensic insight across the full delivery pipeline. Clearly highlighted priorities brought rapid benefits and a plan for continued improvement. Genius.</p>

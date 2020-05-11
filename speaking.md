@@ -1,26 +1,48 @@
 ---
 layout: page
-title: Speaking
+title: Public Speaking and Conferences
 page-class: page--services  page--speaking
 meta: "Harry Roberts’ past and upcoming speaking engagements"
 permalink: /speaking/
 ---
 
-Having spoken at over 100 public events, sharing my knowledge with development
-and product teams is something I am both very experienced with and hugely
-passionate about. If you’re running an event would like me to speak, I have
-prepared [some information for you](#section:request).
+<ul class="c-nav-secondary">
+  <li class="c-nav-secondary__item"><a href="#section:upcoming-events" class="c-nav-secondary__link">Upcoming</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:past-events" class="c-nav-secondary__link">Past</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link">Invite</a></li>
+</ul>
 
-As well as speaking at development conferences, I can (and indeed do) speak at
-private engagements for companies and their staff. If you are a company who
-would like a tech talk to be delivered on-site to a private audience, please do
-[get in touch](mailto:csswizardry@gmail.com?subject=Internal%20Tech%20Talk).
+I’ve spoken at a lot of conferences. [Over 100.](#section:past-events) Sharing
+knowledge is one of my key motivations, and is a large part of why I chose to
+become a consultant in the first place—I love to help.
 
-If you feel like you’d like something a little more involved and in-depth, then
-you’re probably looking for a workshop. I’ve run countless workshops for both
-public events and private clients. Read [more about what that involves](/workshops/).
+From local meetups to international events, I am an enthusiastic, engaging, and
+professional speaker. My focus is on web performance and site-speed
+optimisation, from both a technical- and business-perspective.
 
-Want to see where I’m speaking next? [Check out the list.](#section:upcoming-events)
+**Want to see where I’m speaking next?** I have a fairly full international
+[schedule](#section:upcoming-events), so hopefully I’ll be in a city near you
+very soon.
+
+**Want me to speak at your event?** I’ll probably say yes. I usually say yes.
+Take a look at [my preliminary questions ](#section:request)and then [drop me
+a line](/contact/).
+
+**Am I any good?** Check this talk from 2019’s [performance.now()
+conference](https://perfnow.nl/). It’s a good representation of me and my style
+of talk.
+
+<figure class="c-video">
+  <iframe class="c-video__media" src="https://www.youtube.com/embed/cXLOIIJ1UaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+
+As well as public speaking engagements, I am available to deliver talks
+in-house, directly to you and your colleagues. This means we can tailor the
+content to provide the most focused and valuable talk possible. [Contact
+me](/contact/) to talk about possibilities.
+
+Looking for something a little more involved? You might want [a
+workshop](/workshops/). My workshops are renowned.
 
 
 
@@ -29,7 +51,7 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 <ul class="c-nav-secondary  mt++" id="section:upcoming-events">
   <li class="c-nav-secondary__item"><a href="#section:upcoming-events" class="c-nav-secondary__link  is-current">Upcoming</a></li>
   <li class="c-nav-secondary__item"><a href="#section:past-events" class="c-nav-secondary__link">Past</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link">Request</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link">Invite</a></li>
 </ul>
 
 ## Upcoming Events
@@ -113,10 +135,10 @@ Want to see where I’m speaking next? [Check out the list.](#section:upcoming-e
 <ul class="c-nav-secondary  mt++" id="section:request">
   <li class="c-nav-secondary__item"><a href="#section:upcoming-events" class="c-nav-secondary__link">Upcoming</a></li>
   <li class="c-nav-secondary__item"><a href="#section:past-events" class="c-nav-secondary__link">Past</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link  is-current">Request</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link  is-current">Invite</a></li>
 </ul>
 
-## Request to Speak
+## Invite to Speak
 
 I would absolutely love to speak at your conference! However, I do just have
 a few questions to make the whole process a lot simpler and upfront for everyone
@@ -170,7 +192,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 <ul class="c-nav-secondary  mt++" id="section:past-events">
   <li class="c-nav-secondary__item"><a href="#section:upcoming-events" class="c-nav-secondary__link">Upcoming</a></li>
   <li class="c-nav-secondary__item"><a href="#section:past-events" class="c-nav-secondary__link  is-current">Past</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link">Request</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:request" class="c-nav-secondary__link">Invite</a></li>
 </ul>
 
 ## Past Events

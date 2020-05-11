@@ -55,12 +55,12 @@
 
 }
 
-//.btn--negative {
-//    @include font-weight(regular);
-//
-//    @include attention(self) {
-//        background-color: $color-negative;
-//            border-color: $color-negative;
-//    }
-//
-//}
+.btn--negative {
+    @include font-weight(regular);
+
+    @include attention(self) {
+        background-color: $color-negative;
+            border-color: $color-negative;
+    }
+
+}
