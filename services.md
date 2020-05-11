@@ -42,7 +42,7 @@ business-minded approach to helping organisations do the right things, quickly.
   <li class="feature-list__item">
     <a href="/consultancy/" class="feature-list__link">
       <h2 class="feature-list__title">
-        Consultancy and Development
+        Consultancy
         <span class="feature-list__sub">Help, guidance, and implementation</span>
       </h2>
     </a>
@@ -61,7 +61,7 @@ business-minded approach to helping organisations do the right things, quickly.
     <a href="/code-reviews/" class="feature-list__link">
       <h2 class="feature-list__title">
         Performance Audits
-        <span class="feature-list__sub">Remote code reviews and performance audits</span>
+        <span class="feature-list__sub">Forensic site-speed examination</span>
       </h2>
     </a>
   </li>
@@ -70,7 +70,7 @@ business-minded approach to helping organisations do the right things, quickly.
     <a href="/downloads/" class="feature-list__link">
       <h2 class="feature-list__title">
         Downloads
-        <span class="feature-list__sub">Assets and Resources</span>
+        <span class="feature-list__sub">Assets and resources</span>
       </h2>
     </a>
   </li>
@@ -79,7 +79,7 @@ business-minded approach to helping organisations do the right things, quickly.
     <a href="/contact/" class="feature-list__link">
       <h2 class="feature-list__title">
         Contact Me
-        <span class="feature-list__sub">Get in touch right away</span>
+        <span class="feature-list__sub">Let’s get planning</span>
       </h2>
     </a>
   </li>
