@@ -1,6 +1,6 @@
 <details>
 
-  <summary>How many people can attend?</summary>
+  <summary>How many people can attend a workshop?</summary>
 
   <p>The good news is that I don’t base workshop pricing on the number of
   attendees. Making it harder for people to attend will minimise my impact,
