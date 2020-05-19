@@ -66,7 +66,7 @@ Suffice to say, I ended up going down a little rabbit hole…
 I ran the same suite of tests against the [harry.is](https://harry.is) and
 [csswizardry.com](https://csswizardry.com) homepages. I started out with
 harry.is because that’s where I was using Google Fonts, but I felt it was a page
-too simple to be realistic. So, I cloned the CSS wizardry homepage a bunch of
+too simple to be realistic. So, I cloned the CSS Wizardry homepage a bunch of
 times and implemented the various different methods there. For each of section
 of this post, I will list the results for both sites. My variants are:
 
@@ -97,7 +97,7 @@ means I can’t share any URLs—apologies). The specific profile was a Samsung
 Galaxy S4 over 3G.
 
 To make the snippets easier to read, I’m going to replace all instances of
-`https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap`
+`https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700`
 with `$CSS`.
 
 ## Default/Legacy
@@ -175,7 +175,7 @@ a faster and more pleasant experience.
 |                       | FP  | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|----:|-----:|-----:|-----:|-----------:|
 |                       | 3.4 |  3.4 |  5.0 |  5.2 |         99 |
-| Change from Baseline: |   0 | -1.2 | +0.6 | +0.2 |          1 |
+| Change from Baseline: |   0 | -1.2 | +0.6 | +0.2 |         +1 |
 
 **Results – CSS Wizardry:**
 
@@ -214,9 +214,9 @@ to leave the CSS file itself fully synchronous.
 
 ## Async CSS
 
-Making your CSS asynchronous is one of the key techniques involved when
-employing Critical CSS. While there are a number of ways to achieve this, I’d
-dare say the simplest and most ubiquitous is [Filament Group’s print media type
+Making your CSS asynchronous is one of the key techniques involved in employing
+Critical CSS. While there are a number of ways to achieve this, I’d dare say the
+simplest and most ubiquitous is [Filament Group’s print media type
 trick](https://www.filamentgroup.com/lab/load-css-simpler/).
 
 This will implicitly tell the browser to load the CSS file in a non-blocking
