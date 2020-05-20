@@ -578,7 +578,7 @@ domains makes for an experience several seconds faster than the baseline.
 **This is something that I strongly recommend adopting if you are a Google Fonts
 user.**
 
-If Google Fonts isn’t your only render-blocking resource, if and you’re
+If Google Fonts isn’t your only render-blocking resource, or if you’re
 violating any of the other principles for fast CSS (e.g. if you’re `@import`ing
 your Google Fonts CSS file), then your mileage will vary. These optimisations
 are most beneficial on project where Google Fonts is posing on of your biggest
