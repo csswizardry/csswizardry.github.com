@@ -394,7 +394,7 @@ high-latency networks can be very, very high. The median TTFB (including request
 queueing, DNS, TCP, TLS, and server time) for the Google Fonts CSS file across
 all tests was 1406ms. Conversely, the median download time for the CSS file was
 just 9.5ms—it took 148× longer to get to the headers of the file than it did to
-download the whole thing.
+download the file itself.
 
 Put another way: even though Google are `preconnect`ing the `fonts.gstatic.com`
 origin for us, they’re only gaining about a 10ms head-start. Put another-other
