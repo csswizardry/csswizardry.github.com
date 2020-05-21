@@ -13,6 +13,13 @@ usually extensive workshop slide-decks that can be viewed out of context.
 me](/services/), be sure to mention your license key and I will deduct the cost
 of your download(s) from your final invoice.
 
+## What Is Site-Speed and Why Should I Care?
+
+This free ebook talks you through the basics of site-speed and the vital role it
+plays in your business, whatever your industry.
+
+<a href="./site-speed/" class="btn  btn--positive">Read the <b>FREE</b> ebook</a>
+
 ## Questions for Consultants: Useful Questions to Ask Your Clients
 
 My first ebook comes in at just over 25,000 words. It’s a consultants guide to
