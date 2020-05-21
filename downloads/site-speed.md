@@ -42,4 +42,4 @@ It’s as simple as that. Their appreciation manifests itself in different
 ways—they spend more money, they’re far more engaged, and they’re generally
 happier and more impressed by your website.</p>
 
-<a href="/download/site-speed.pdf.html" class="btn  btn--positive  btn--full">Download the full PDF, <b>FREE!</b></a>
+<a href="/downloads/site-speed.pdf.html" class="btn  btn--positive  btn--full">Download the full PDF, <b>FREE!</b></a>
