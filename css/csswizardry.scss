@@ -77,6 +77,7 @@
  * Spacing..............Micro-level spacing.
  * Show/hide............Helpers to show and side stuff.
  * Type.................Utility classes for typography.
+ * Colors...............Utility classes for different colors.
  */
 
 
@@ -208,6 +209,7 @@ $inuit-enable-list-ui--small:   true;
 @import "components.video";
 @import "components.footnotes";
 @import "components.embeds";
+@import "components.syntax";
 
 
 
@@ -237,3 +239,4 @@ $inuit-enable-margins--none:    true;
 @import "bower_components/inuit-spacing/trumps.spacing";
 @import "trumps.show-hide";
 @import "trumps.type";
+@import "trumps.colors";

@@ -179,17 +179,17 @@ the main `app.js` bundles for the sake of the fonts. The fix? Simple: swap their
 
 **Before:**
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="https://cloud.typography.com/[number]/[number]/css/fonts.css" />
 <script src="https://www.[client].com/packs/application-[hash].js"></script>
-```
+{% endhighlight %}
 
 **After:**
 
-```
+{% highlight html %}
 <script src="https://www.[client].com/packs/application-[hash].js"></script>
 <link rel="stylesheet" href="https://cloud.typography.com/[number]/[number]/css/fonts.css" />
-```
+{% endhighlight %}
 
 Yes. As simple as that. Note now that entry (3) executes before the
 `fonts.[client].com` file has even begun downloading.
@@ -202,9 +202,9 @@ Yes. As simple as that. Note now that entry (3) executes before the
 My second tactic was to pay the connection cost for `fonts.[client].com`
 up-front by simply preconnecting to that origin. Early in the `<head>`:
 
-```
+{% highlight html %}
 <link rel="preconnect" href="https://fonts.[client].com" />
-```
+{% endhighlight %}
 
 Note entry (11) in which we’re dealing with a whopping 397ms of connection
 overhead off of the Critical Path.
@@ -297,10 +297,10 @@ method](https://www.filamentgroup.com/lab/load-css-simpler/) being by far the
 simplest and the most widely supported:
 
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="https://cloud.typography.com/[number]/[number]/css/fonts.css"
       media="print" onload="this.media='all'" />
-```
+{% endhighlight %}
 
 The magic lies in the second line. By setting a non-matching media type, the
 browser naturally loads the stylesheet with a low priority off of the Critical

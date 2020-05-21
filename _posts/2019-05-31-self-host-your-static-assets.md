@@ -19,9 +19,9 @@ It’s not uncommon for developers to link to static assets such as libraries or
 plugins that are hosted at a public/CDN URL. A classic example is jQuery, that
 we might link to like so:
 
-```
+{% highlight html %}
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-```
+{% endhighlight %}
 
 There are a number of perceived benefits to doing this, but my aim later in this
 article is to either debunk these claims, or show how other costs vastly
@@ -89,11 +89,11 @@ a hash that is then Base64 encoded) of the exact file that you both expect and
 intend to use. The browser can then check that the file you received is indeed
 the one you requested.
 
-```
+{% highlight html %}
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
         crossorigin="anonymous"></script>
-```
+{% endhighlight %}
 
 Again, if you absolutely must link to an externally hosted static asset, make
 sure it’s SRI-enabled. You can add SRI yourself using [this handy
@@ -111,12 +111,12 @@ I’m going to use an example taken straight from Bootstrap’s own [Getting
 Started](https://getbootstrap.com/docs/4.3/getting-started/introduction/). They
 instruct users to include these following four files:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="..." crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="..." crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="..." crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="..." crossorigin="anonymous"></script>
-```
+{% endhighlight %}
 
 These four files are hosted across three different origins, so we’re going to
 need to open three TCP connections. How much does that cost?
@@ -179,7 +179,7 @@ somehow tied, then you can use [a `preconnect` Resource
 Hint](https://speakerdeck.com/csswizardry/more-than-you-ever-wanted-to-know-about-resource-hints?slide=28)
 to preemptively open a TCP connection to the specified origin(s):
 
-```
+{% highlight html %}
 <head>
 
   ...
@@ -189,7 +189,7 @@ to preemptively open a TCP connection to the specified origin(s):
   ...
 
 </head>
-```
+{% endhighlight %}
 
 For bonus points, deploying these as [HTTP
 headers](https://andydavies.me/blog/2019/03/22/improving-perceived-performance-with-a-link-rel-equals-preconnect-http-header/)

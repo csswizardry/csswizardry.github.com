@@ -68,9 +68,9 @@ Queries. The practical upshot of this is that the browser will…
 Basically, any CSS not needed to render the current view is effectively
 lazyloaded by the browser.
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="all.css" />
-```
+{% endhighlight %}
 
 If we’re bundling all of our CSS into one file, this is how the network treats
 it:
@@ -84,14 +84,14 @@ it:
 If we can split that single, all-render blocking file into its respective Media
 Queries:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="all.css" media="all" />
 <link rel="stylesheet" href="small.css" media="(min-width: 20em)" />
 <link rel="stylesheet" href="medium.css" media="(min-width: 64em)" />
 <link rel="stylesheet" href="large.css" media="(min-width: 90em)" />
 <link rel="stylesheet" href="extra-large.css" media="(min-width: 120em)" />
 <link rel="stylesheet" href="print.css" media="print" />
-```
+{% endhighlight %}
 
 Then we see that the network treats files differently:
 
@@ -121,15 +121,15 @@ the Critical Path:
 
 Given the following HTML:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="all.css" />
-```
+{% endhighlight %}
 
 …and the contents of `all.css` is:
 
-```
+{% highlight css %}
 @import url(imported.css);
-```
+{% endhighlight %}
 
 …we end up with a waterfall like this:
 
@@ -141,10 +141,10 @@ Given the following HTML:
 By simply flattening this out into two `<link rel="stylesheet" />` and zero
 `@import`s:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="all.css" />
 <link rel="stylesheet" href="imported.css" />
-```
+{% endhighlight %}
 
 …we get a much healthier waterfall:
 
@@ -196,13 +196,13 @@ In Firefox and IE/Edge, the Preload Scanner doesn’t seem to pick up any
 
 That means that this HTML:
 
-```
+{% highlight html %}
 <script src="app.js"></script>
 
 <style>
   @import url(app.css);
 </style>
-```
+{% endhighlight %}
 
 …will yield this waterfall:
 
@@ -218,13 +218,13 @@ downloading until the JavaScript file has completed.
 The problem isn’t unique to JavaScript, either. The following HTML creates the
 same phenomenon:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="style.css" />
 
 <style>
   @import url(app.css);
 </style>
-```
+{% endhighlight %}
 
 <figure>
   <img src="/wp-content/uploads/2018/11/screenshot-ff-import-blocked-by-css.png" alt="" />
@@ -239,10 +239,10 @@ break things as we change our dependency order (think _cascade_).
 The preferred solution to this problem is to avoid the `@import` altogether and
 use a second `<link rel="stylesheet" />`:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" href="app.css" />
-```
+{% endhighlight %}
 
 Much healthier:
 
@@ -264,13 +264,13 @@ to reorder anything. Still, as before, my recommendation here is to avoid the
 
 Before:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="style.css" />
 
 <style>
   @import url(app.css);
 </style>
-```
+{% endhighlight %}
 
 …gives:
 
@@ -282,13 +282,13 @@ Before:
 
 After:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="style.css" />
 
 <style>
   @import url("app.css");
 </style>
-```
+{% endhighlight %}
 
 <figure>
   <img src="/wp-content/uploads/2018/11/screenshot-chrome-import-unblocked-by-css.png" alt="" />
@@ -312,13 +312,13 @@ The previous section looked at how CSS can be slowed down by other resources
 inadvertently delay the downloading of subsequent resources, chiefly JavaScript
 inserted with an asynchronous loading snippet like so:
 
-```
+{% highlight html %}
 <script>
   var script = document.createElement('script');
   script.src = "analytics.js";
   document.getElementsByTagName('head')[0].appendChild(script);
 </script>
-```
+{% endhighlight %}
 
 There is a fascinating behaviour present in all browsers that is intentional and
 expected, yet I have never met a single developer who knew about it. This is
@@ -328,12 +328,12 @@ carry:
 **A browser will not execute a `<script>` if there is any currently-in flight
 CSS.**
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="slow-loading-stylesheet.css" />
 <script>
   console.log("I will not run until slow-loading-stylesheet.css is downloaded.");
 </script>
-```
+{% endhighlight %}
 
 This is by design. This is on purpose. Any synchronous `<script>`s in your HTML
 will not execute while any CSS is currently being downloaded. This is a simple,
@@ -351,7 +351,7 @@ If we drop a `<link rel="stylesheet" />` in front of our async snippet, it will
 not run until that CSS file has been downloaded and parsed. This means our CSS
 is pushing everything back:
 
-```
+{% highlight html %}
 <link rel="stylesheet" href="app.css" />
 
 <script>
@@ -359,7 +359,7 @@ is pushing everything back:
   script.src = "analytics.js";
   document.getElementsByTagName('head')[0].appendChild(script);
 </script>
-```
+{% endhighlight %}
 
 Given this order, we can clearly see that the JavaScript file does not even
 begin downloading until the moment the CSSOM is constructed. We’ve completely
@@ -394,7 +394,7 @@ above your stylesheets.**
 
 Here’s what happens when we move to this pattern:
 
-```
+{% highlight html %}
 <script>
   var script = document.createElement('script');
   script.src = "analytics.js";
@@ -402,7 +402,7 @@ Here’s what happens when we move to this pattern:
 </script>
 
 <link rel="stylesheet" href="app.css" />
-```
+{% endhighlight %}
 
 <figure>
 <img src="/wp-content/uploads/2018/11/screenshot-async-js-blocked-by-css-fixed.png" alt="" />
@@ -444,7 +444,7 @@ If some of your JavaScript does but some does not depend on CSS, then the
 absolute most optimum order for loading synchronous JavaScript and CSS would be
 to split that JavaScript in two and load it either side of your CSS:
 
-```
+{% highlight html %}
 <!-- This JavaScript executes as soon as it has arrived. -->
 <script src="i-need-to-block-dom-but-DONT-need-to-query-cssom.js"></script>
 
@@ -452,7 +452,7 @@ to split that JavaScript in two and load it either side of your CSS:
 
 <!-- This JavaScript executes as soon as the CSSOM is built. -->
 <script src="i-need-to-block-dom-but-DO-need-to-query-cssom.js"></script>
-```
+{% endhighlight %}
 
 With this loading pattern, we get download and execution both happening in the
 most optimum order. I apologise for the tiny, tiny details in the below
@@ -480,7 +480,7 @@ performance and progressive render. It’s also very component friendly.
 In HTTP/1.1, it’s typical that we concatenate all of our styles into one main
 bundle. Let’s call that `app.css`:
 
-```
+{% highlight html %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -518,7 +518,7 @@ bundle. Let’s call that `app.css`:
   </footer>
 
 </body>
-```
+{% endhighlight %}
 
 This carries three key inefficiencies:
 
@@ -533,7 +533,7 @@ This carries three key inefficiencies:
 
 With HTTP/2, we can begin to address points (1) and (2):
 
-```
+{% highlight html %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -579,7 +579,7 @@ With HTTP/2, we can begin to address points (1) and (2):
   </footer>
 
 </body>
-```
+{% endhighlight %}
 
 Now we’re getting some way around the redundancy issue as we’re able to load CSS
 more appropriate to the page, as opposed to indiscriminately downloading
@@ -598,7 +598,7 @@ already present in Firefox and IE/Edge, `<link rel="stylesheet" />`s will only
 block the rendering of subsequent content, rather than the whole page. This
 means that we’re now able to construct our pages like this:
 
-```
+{% highlight html %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -644,7 +644,7 @@ means that we’re now able to construct our pages like this:
   </footer>
 
 </body>
-```
+{% endhighlight %}
 
 The practical upshot of this is that we’re now able to progressively render our
 pages, effectively drip-feeding styles to the page as they become available.

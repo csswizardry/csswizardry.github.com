@@ -115,10 +115,10 @@ a more suitable baseline to compare against.
 
 **Snippet:**
 
-```
+{% highlight html %}
 <link rel="stylesheet"
       href="$CSS" />
-```
+{% endhighlight %}
 
 There are two key issues here:
 
@@ -165,10 +165,10 @@ a faster and more pleasant experience.
 
 **Snippet:**
 
-```
+{% highlight html %}
 <link rel="stylesheet"
       href="$CSS&display=swap" />
-```
+{% endhighlight %}
 
 **Results – harry.is:**
 
@@ -226,11 +226,11 @@ the rest of the page.
 
 **Snippet:**
 
-```
+{% highlight html %}
 <link rel="stylesheet"
       href="$CSS&display=swap"
       media="print" onload="this.media='all'" />
-```
+{% endhighlight %}
 
 While the trick is devilishly simple—which is what makes it so cool—**I’ve long
 had my reservations**. Y’see, a regular, synchronous stylesheet blocks
@@ -325,7 +325,7 @@ to make use of it. Consider the print stylesheet a fallback.
 
 **Snippet:**
 
-```
+{% highlight html %}
 <link rel="preload"
       as="style"
       href="$CSS&display=swap" />
@@ -333,7 +333,7 @@ to make use of it. Consider the print stylesheet a fallback.
 <link rel="stylesheet"
       href="$CSS&display=swap"
       media="print" onload="this.media='all'" />
-```
+{% endhighlight %}
 
 **N.B.** In future, we should be able to use Priority Hints to solve this issue.
 
@@ -406,7 +406,7 @@ huge gains. Let’s see what happens.
 
 **Snippet:**
 
-```
+{% highlight html %}
 <link rel="preconnect"
       href="https://fonts.gstatic.com"
       crossorigin />
@@ -418,7 +418,7 @@ huge gains. Let’s see what happens.
 <link rel="stylesheet"
       href="$CSS&display=swap"
       media="print" onload="this.media='all'" />
-```
+{% endhighlight %}
 
 We can visualise the benefits well in WebPageTest:
 
@@ -593,7 +593,7 @@ document.
 
 Here is the optimum snippet to use for fast Google Fonts:
 
-```
+{% highlight html %}
 <link rel="preconnect"
       href="https://fonts.gstatic.com"
       crossorigin />
@@ -605,4 +605,4 @@ Here is the optimum snippet to use for fast Google Fonts:
 <link rel="stylesheet"
       href="$CSS&display=swap"
       media="print" onload="this.media='all'" />
-```
+{% endhighlight %}

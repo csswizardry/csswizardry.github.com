@@ -5,6 +5,11 @@
 table {
   width: 100%;
   @include font-size(12px);
+
+  @include media-query(lap-and-up) {
+    @include font-size(16px);
+  }
+
 }
 
 th {
