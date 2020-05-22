@@ -579,10 +579,11 @@ domains makes for an experience several seconds faster than the baseline.
 user.**
 
 If Google Fonts isn’t your only render-blocking resource, if and you’re
-violating any of the other principles for fast CSS (e.g. if you’re `@import`ing
-your Google Fonts CSS file), then your mileage will vary. These optimisations
-are most beneficial on project where Google Fonts is posing on of your biggest
-performance bottlenecks.
+violating any of the other [principles for fast
+CSS](https://csswizardry.com/2018/11/css-and-network-performance/) (e.g. if
+you’re `@import`ing your Google Fonts CSS file), then your mileage will vary.
+These optimisations are most beneficial on project where Google Fonts is posing
+one of your biggest performance bottlenecks.
 
 ## Google Fonts Async Snippet
 
