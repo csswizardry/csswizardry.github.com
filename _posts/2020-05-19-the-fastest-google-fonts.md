@@ -163,6 +163,13 @@ text before `swap`ping to the web font whenever it arrives. This means we’re n
 going to leave users looking at any invisible text (FOIT), which makes for both
 a faster and more pleasant experience.
 
+**N.B.** It’s only more pleasant if you make the effort to define a suitable
+fallback to display in the interim—flashing a page full of Times New Roman
+before settling on Open Sans would likely be a net worse experience. Thankfully,
+[Monica](https://twitter.com/notwaldorf) has made this process not only easy,
+but surprisingly fun. I wouldn’t be able to do this bit without her [_Font Style
+Matcher_](https://meowni.ca/font-style-matcher/).
+
 **Snippet:**
 
 {% highlight html %}
