@@ -182,14 +182,14 @@ Matcher_](https://meowni.ca/font-style-matcher/).
 |                       | FP  | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|----:|-----:|-----:|-----:|-----------:|
 |                       | 3.4 |  3.4 |  4.5 |  5.2 |         99 |
-| Change from Baseline: |   0 | -1.2 | -0.4 | +0.2 |         +1 |
+| Change from Baseline: |   0 | −1.2 | −0.4 | +0.2 |         +1 |
 
 **Results – CSS Wizardry:**
 
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
 |                       |  3.6 |  3.6 |  4.6 |  4.6 |         95 |
-| Change from Baseline: | +0.2 | -0.7 | +0.2 | +0.2 |         -1 |
+| Change from Baseline: | +0.2 | −0.7 | +0.2 | +0.2 |         −1 |
 
 We haven’t removed any render-blocking resources from the critical path, so
 I wasn’t expecting to see any improvements in first paint. In fact, while
@@ -281,16 +281,16 @@ Still! What happens to Google Fonts if we load it asynchronously?
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
 |                       |  1.8 |  1.8 |  4.5 |  5.1 |        100 |
-| Change from Baseline: | -1.6 | -2.8 | -0.4 | +0.1 |         +2 |
-| Change from Previous: | -1.6 | -1.6 |    0 | -0.1 |         +1 |
+| Change from Baseline: | −1.6 | −2.8 | −0.4 | +0.1 |         +2 |
+| Change from Previous: | −1.6 | −1.6 |    0 | −0.1 |         +1 |
 
 **Results – CSS Wizardry:**
 
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
 |                       |  1.7 |  2.2 |  4.9 |  5.0 |         99 |
-| Change from Baseline: | -1.7 | -2.1 | +0.5 | +0.6 |         +3 |
-| Change from Previous: | -1.9 | -1.4 | +0.3 | +0.4 |         +4 |
+| Change from Baseline: | −1.7 | −2.1 | +0.5 | +0.6 |         +3 |
+| Change from Previous: | −1.9 | −1.4 | +0.3 | +0.4 |         +4 |
 
 **These results are tremendous.**
 
@@ -349,7 +349,7 @@ to make use of it. Consider the print stylesheet a fallback.
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
 |                       |  1.8 | 1 .8 |  4.5 |  5.3 |        100 |
-| Change from Baseline: | -1.6 | -2.8 | -0.4 | +0.3 |         +2 |
+| Change from Baseline: | −1.6 | −2.8 | −0.4 | +0.3 |         +2 |
 | Change from Previous: |    0 |    0 |    0 | +0.2 |          0 |
 
 **Results – CSS Wizardry:**
@@ -357,8 +357,8 @@ to make use of it. Consider the print stylesheet a fallback.
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
 |                       |  2.0 |  2.0 |  4.3 |  4.3 |         98 |
-| Change from Baseline  | -1.4 | -2.3 | -0.1 | -0.1 |         +2 |
-| Change from Previous  | +0.3 | -0.2 | -0.6 | -0.7 |         -1 |
+| Change from Baseline  | −1.4 | −2.3 | −0.1 | −0.1 |         +2 |
+| Change from Previous  | +0.3 | −0.2 | −0.6 | −0.7 |         −1 |
 
 While first paint either remained the same or got slower, **first contentful
 paint either remained the same or got faster**, and in the case of CSS Wizardry,
@@ -440,16 +440,16 @@ We can visualise the benefits well in WebPageTest:
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
 |                       |  1.8 |  1.8 |  3.8 |  4.4 |        100 |
-| Change from Baseline  | -1.6 | -2.8 | -1.1 | -0.6 |         +2 |
-| Change from Previous  |    0 |    0 | -0.7 | -0.9 |          0 |
+| Change from Baseline  | −1.6 | −2.8 | −1.1 | −0.6 |         +2 |
+| Change from Previous  |    0 |    0 | −0.7 | −0.9 |          0 |
 
 **Results – CSS Wizardry:**
 
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
 |                       |  1.9 |  1.9 |  3.5 |  3.6 |         99 |
-| Change from Baseline  | -1.5 | -2.4 | -0.9 | -0.8 |         +3 |
-| Change from Previous  | -0.1 | -0.1 | -0.8 | -0.7 |         +1 |
+| Change from Baseline  | −1.5 | −2.4 | −0.9 | −0.8 |         +3 |
+| Change from Previous  | −0.1 | −0.1 | −0.8 | −0.7 |         +1 |
 
 Here we go! First (contentful) paint is realistically untouched. Any changes
 here are unrelated to our `preconnect` at the `preconnect` only impacts
