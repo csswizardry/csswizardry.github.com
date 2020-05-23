@@ -67,11 +67,11 @@ I ran the same suite of tests against the [harry.is](https://harry.is) and
 [csswizardry.com](https://csswizardry.com) homepages. I started out with
 harry.is because that’s where I was using Google Fonts, but I felt it was a page
 too simple to be realistic. So, I cloned the CSS Wizardry homepage a bunch of
-times and implemented the various different methods there. For each of section
-of this post, I will list the results for both sites. My variants are:
+times and implemented the various different methods there. For each section of
+this post, I will list the results for both sites. My variants are:
 
 * **Legacy:** Google Fonts with no `font-display`.
-* **`font-display: swap;`:** Using Google Fonts’ new-default.
+* **`font-display: swap;`:** Using Google Fonts’ new default.
 * **Async CSS:** Loading the Google Fonts File asynchronously.
 * **`preload`:** `preload`ing the CSS file to increase its priority.
 * **`preconnect`:** Warming up the `fonts.gstatic.com` origin myself.
@@ -146,8 +146,8 @@ experiments was the consistency of Google Fonts.
 
 At this point, Lighthouse is giving one error and one warning:
 
-> * (Error) Ensure text remains visible during webfont load
-> * (Warning) Eliminate render-blocking resources
+* <q>(Error) Ensure text remains visible during webfont load</q>
+* <q>(Warning) Eliminate render-blocking resources</q>
 
 The first is a result of not having a web font loading solution (e.g.
 `font-display`); the second is a result of the synchronous Google Fonts CSS
@@ -181,8 +181,8 @@ Matcher_](https://meowni.ca/font-style-matcher/).
 
 |                       | FP  | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|----:|-----:|-----:|-----:|-----------:|
-|                       | 3.4 |  3.4 |  5.0 |  5.2 |         99 |
-| Change from Baseline: |   0 | -1.2 | +0.6 | +0.2 |         +1 |
+|                       | 3.4 |  3.4 |  4.5 |  5.2 |         99 |
+| Change from Baseline: |   0 | -1.2 | -0.4 | +0.2 |         +1 |
 
 **Results – CSS Wizardry:**
 
@@ -195,8 +195,8 @@ We haven’t removed any render-blocking resources from the critical path, so
 I wasn’t expecting to see any improvements in first paint. In fact, while
 harry.is remained identical, CSS Wizardry got 200ms slower. What we do see,
 however, is **a dramatic improvement in first contentful paint**—over a second
-on harry.is! **First web font improved by 100–200ms**, yet visually complete was
-200ms slower.
+on harry.is! **First web font improved on harry.is**, but not on
+csswizardry.com. Visually complete was 200ms slower.
 
 I’m happy to say, for the metrics that matter the most, **we are 700–1,200ms
 faster**.
@@ -207,7 +207,7 @@ improvement from this move.
 
 Predictably, Lighthouse now only gives one warning:
 
-> * (Warning) Eliminate render-blocking resources
+* <q>(Warning) Eliminate render-blocking resources</q>
 
 Therefore, the next step is to solve the synchronous CSS file.
 
@@ -280,8 +280,8 @@ Still! What happens to Google Fonts if we load it asynchronously?
 
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
-|                       |  1.8 |  1.8 |  5.0 |  5.1 |        100 |
-| Change from Baseline: | -1.6 | -2.8 | +0.6 | +0.1 |         +2 |
+|                       |  1.8 |  1.8 |  4.5 |  5.1 |        100 |
+| Change from Baseline: | -1.6 | -2.8 | -0.4 | +0.1 |         +2 |
 | Change from Previous: | -1.6 | -1.6 |    0 | -0.1 |         +1 |
 
 **Results – CSS Wizardry:**
@@ -348,8 +348,8 @@ to make use of it. Consider the print stylesheet a fallback.
 
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
-|                       |  1.8 | 1 .8 |  5.0 |  5.3 |        100 |
-| Change from Baseline: | -1.6 | -2.8 | +0.6 | +0.3 |         +2 |
+|                       |  1.8 | 1 .8 |  4.5 |  5.3 |        100 |
+| Change from Baseline: | -1.6 | -2.8 | -0.4 | +0.3 |         +2 |
 | Change from Previous: |    0 |    0 |    0 | +0.2 |          0 |
 
 **Results – CSS Wizardry:**
@@ -440,8 +440,8 @@ We can visualise the benefits well in WebPageTest:
 |                       | FP   | FCP  | FWF  | VC   | Lighthouse |
 |-----------------------|-----:|-----:|-----:|-----:|-----------:|
 |                       |  1.8 |  1.8 |  3.8 |  4.4 |        100 |
-| Change from Baseline  | -1.6 | -2.8 | -0.6 | -0.6 |         +2 |
-| Change from Previous  |    0 |    0 | -1.2 | -0.9 |          0 |
+| Change from Baseline  | -1.6 | -2.8 | -1.1 | -0.6 |         +2 |
+| Change from Previous  |    0 |    0 | -0.7 | -0.9 |          0 |
 
 **Results – CSS Wizardry:**
 
@@ -454,10 +454,10 @@ We can visualise the benefits well in WebPageTest:
 Here we go! First (contentful) paint is realistically untouched. Any changes
 here are unrelated to our `preconnect` at the `preconnect` only impacts
 resources after the critical path. Our focus is on first web font and visually
-complete, both of which show tremendous improvement. **800–1,200ms improvement on
-first web font** and **700–900ms improvement on visually complete** against our
-previous variant, and **600–900ms and 600–800ms respective improvements** against
-our baseline. **Lighthouse scores are sitting pretty at 100 and 99.**
+complete, both of which show tremendous improvement. **700–1,200ms improvement
+on first web font** and **700–900ms improvement on visually complete** against
+our previous variant, and **600–900ms and 600–800ms respective improvements**
+against our baseline. **Lighthouse scores are sitting pretty at 100 and 99.**
 
 **`preconnect`ing `fonts.gstatic.com` is a good idea.**
 
@@ -506,7 +506,7 @@ video? Click here.</a>
 </figure>
 
 **I would not recommend using `font-disply: optional;` alongside asynchronous
-CSS**; I would recommend using asynchronous. Ergo, I would not recommend
+CSS**; I would recommend using asynchronous CSS. Ergo, I would not recommend
 `font-display: optional;`. It’s better overall to have non-blocking CSS with
 a FOUT than it is to have the needless FOIT.
 
@@ -585,7 +585,7 @@ domains makes for an experience several seconds faster than the baseline.
 **This is something that I strongly recommend adopting if you are a Google Fonts
 user.**
 
-If Google Fonts isn’t your only render-blocking resource, if and you’re
+If Google Fonts isn’t your only render-blocking resource, and if you’re
 violating any of the other [principles for fast
 CSS](https://csswizardry.com/2018/11/css-and-network-performance/) (e.g. if
 you’re `@import`ing your Google Fonts CSS file), then your mileage will vary.
