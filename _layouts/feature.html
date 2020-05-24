@@ -5,11 +5,13 @@ layout: default
 {% include header.html %}
 
 <div class="wrapper">
+  <script>performance.mark('Content Start')</script>
 
     <h1 elementtiming="page-title">{{ page.title }}</h1>
 
     {{ content }}
 
+  <script>performance.mark('Content End')</script>
 </div>
 
 {% include footer.html %}

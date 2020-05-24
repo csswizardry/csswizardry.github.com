@@ -5,9 +5,11 @@ layout: default
 {% include header--masthead.html %}
 
 <div class="wrapper">
+  <script>performance.mark('Content Start')</script>
 
     {{ content }}
 
+  <script>performance.mark('Content End')</script>
 </div>
 
 {% include footer.html %}

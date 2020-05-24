@@ -24,6 +24,7 @@
 <script>
   performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
   performance.measure('CSS Time', 'CSS Start', 'CSS End');
+  performance.measure('Content Time', 'Content Start', 'Content End');
   console.log(performance.getEntriesByType("mark"));
   console.log(performance.getEntriesByType("measure"));
 </script>
