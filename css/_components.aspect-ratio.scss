@@ -23,7 +23,7 @@
     --height: 9; /* [2] */
     position: relative;
     padding-top: calc(var(--height) / var(--width) * 100%); /* [3] */
-    background-size: cover;
+    background-size: cover; /* [4] */
 
     > img {
       position: absolute;
