@@ -65,7 +65,9 @@
  * Newsletter...........Styles specifically for newsletter signups.
  * Video................Videos with aspect ratio.
  * Footnotes............Article footnote styles
- * EMBEDS...............Embedded Tweets etc. need to look nicer
+ * Embeds...............Embedded Tweets etc. need to look nicer
+ * Syntax...............Syntax highlighting
+ * Aspect-Ratio.........General-purpose aspect-ratio fluid-images component.
  *
  * SCOPES
  * Post.................Styles scoped specifically to blog post pages
@@ -210,6 +212,7 @@ $inuit-enable-list-ui--small:   true;
 @import "components.footnotes";
 @import "components.embeds";
 @import "components.syntax";
+@import "components.aspect-ratio";
 
 
 
