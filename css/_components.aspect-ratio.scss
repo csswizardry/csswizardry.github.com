@@ -25,6 +25,11 @@
     padding-top: calc(var(--height) / var(--width) * 100%); /* [3] */
     background-size: cover; /* [4] */
 
+    /**
+     * We need to sit the image absolutely and stretched over the area that the
+     * parent `.c-aspect-ratio` component has reserved.
+     */
+
     > img {
       position: absolute;
       top: 0;
