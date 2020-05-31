@@ -29,6 +29,10 @@
             padding: $spacing-unit;
         }
 
+        > a {
+          display: block;
+        }
+
     }
 
         .client-list__logo {
@@ -41,7 +45,8 @@
             }
 
             @include media-query(lap-and-up) {
-                height: $spacing-unit--large;
+              height: $spacing-unit--large;
+              width: auto;
             }
 
         }

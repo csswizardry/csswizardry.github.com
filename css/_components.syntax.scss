@@ -100,3 +100,16 @@ green     #859900  operators, other keywords
 .highlight .vg  { color: #268bd2 } /* Name.Variable.Global */
 .highlight .vi  { color: #268bd2 } /* Name.Variable.Instance */
 .highlight .il  { color: #2aa198 } /* Literal.Number.Integer.Long */
+
+/**
+ * This is gross, but as the utility margin/padding classes aren’t namespaced,
+ * they collide and need overriding/undoing when in the highlighter.
+ */
+
+.highlight .m {
+  margin: 0 !important;
+}
+
+.highlight .p {
+  padding: 0 !important;
+}
