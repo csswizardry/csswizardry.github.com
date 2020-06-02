@@ -57,7 +57,7 @@ word for it—here’s what they had to say about me:
   <blockquote class="pull-quote  pull-quote--long-form">
     <p>There is a short list of people I whole-heartedly recommend for detailed performance work and Harry is right there at the top.</p>
   </blockquote>
-  <p><a href="https://timkadlec.com/">Tim Kadlec</a></p>
+  <p>— <a href="https://timkadlec.com/">Tim Kadlec</a>, Web Performance Consultant</p>
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  css  workshop  performance" id="testimonial:jackie-balzer">
