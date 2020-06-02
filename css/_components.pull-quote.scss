@@ -68,3 +68,8 @@
     }
 
 }
+
+.pull-quote--long-form {
+  @include font-size(18px);
+  font-style: normal;
+}
