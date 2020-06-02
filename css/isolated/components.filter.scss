@@ -1,0 +1,103 @@
+/* ==========================================================================
+   #FILTER
+   ========================================================================== */
+
+@import "../_settings.all.scss";
+@import "../_tools.all.scss";
+
+/**
+ * Pure-CSS content filter, used predominantly on the Testimonials page.
+ */
+
+.c-filter {
+  display: flex;
+  flex-flow: wrap;
+}
+
+  /**
+   * Make the targets hover at the top of the viewport so that we never get
+   * awkward page jumps when filtering.
+   */
+  .c-filter__target {
+    position: fixed;
+  }
+
+  .c-filter__links {
+    flex-basis: 100%;
+    padding: $spacing-unit--small;
+    margin-bottom: $spacing-unit;
+    background-color: #fff;
+    border-bottom: 1px solid $color-gray-ui;
+  }
+
+    .c-filter__link {
+      @include font-size(12px);
+      display: block;
+      margin-bottom: $spacing-unit--tiny;
+      text-align: center;
+      padding-right: $spacing-unit--small;
+      padding-left:  $spacing-unit--small;
+      border-radius: $base-round;
+      background-color: rgba(0, 0, 0, 0);
+      -webkit-transition: 0.333s;
+      transition: 0.333s;
+
+      @include media-query(lap-and-up) {
+        display: inline-block;
+        margin-bottom: 0;
+      }
+
+    }
+
+    .c-filter__link--reset {
+      border: 0 solid $color-gray-ui;
+      border-bottom-width: 1px;
+      border-radius: 0;
+
+      @include media-query(lap-and-up) {
+        border-right-width: 1px;
+        border-bottom-width: 0;
+      }
+
+    }
+
+  .c-filter__item {
+    margin-bottom: $spacing-unit;
+  }
+
+  /**
+   * If we haven’t targeted anything, ensure all items are turned on.
+   */
+  .c-filter__target:not(:target) ~ .c-filter__item {
+    display: block;
+  }
+
+  /**
+   * As soon as we target anything, turn all items ‘off’.
+   */
+  .c-filter__target:target ~ .c-filter__item {
+    display: none;
+  }
+
+  %_visible-state {
+    display: block;
+  }
+
+  %_current-state {
+    background-color: $color-gray-ui;
+    color: $color-gray;
+    pointer-events: none;
+    text-decoration: none;
+  }
+
+  @each $item in attendee, conference, peer, client, css, performance, consultancy, workshop {
+
+    [id="tag:#{$item}"]:target ~ [data-tag~="#{$item}"] {
+      @extend %_visible-state;
+    }
+
+    [id="tag:#{$item}"]:target ~ .c-filter__links [href="#tag:#{$item}"] {
+      @extend %_current-state;
+    }
+
+  }
