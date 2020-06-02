@@ -190,6 +190,18 @@ $logo-height:   64px;
         border-bottom: none;
         float: left;
 
+        &.has-sub-menu {
+
+          > a {
+            transition: 0.2s;
+          }
+
+          &:hover > a {
+            transform: translateY(-2px);
+          }
+
+        }
+
         .site-nav__sub-menu & {
           float: none;
         }
