@@ -24,6 +24,7 @@
     position: relative;
     padding-top: calc(var(--height) / var(--width) * 100%); /* [3] */
     background-size: cover; /* [4] */
+    background-repeat: no-repeat; /* [4] */
 
     /**
      * We need to sit the image absolutely and stretched over the area that the
