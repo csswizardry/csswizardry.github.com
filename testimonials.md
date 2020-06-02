@@ -82,7 +82,7 @@ word for it—here’s what they had to say about me:
     <p>He has remained a part of Coingaming in some way for over two years now: we’ve rehired and retained him a number of times to help keep us on the right path as our business scales and evolves, and as we add new products and team members to our family.</p>
 
   </blockquote>
-  <p>— <a href="https://example.com/">Tim Heath, CEO & Founder</a>, Coingaming</p>
+  <p>— <a href="https://www.linkedin.com/in/tim-heath-55096b1/">Tim Heath, CEO & Founder</a>, Coingaming</p>
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  css  consultancy" id="testimonial:alette-holmberg-nielsen">
@@ -108,7 +108,7 @@ word for it—here’s what they had to say about me:
   <blockquote class="pull-quote  pull-quote--long-form">
     <p>Spending a week with Harry has turned my approach to large CSS projects on its head. For years I’ve struggled to find a way to effectively structure large, complex CSS projects and his ITCSS methodology has delivered. Now I have a small, flexible SASS codebase and more performant CSS. Whilst guiding me with ITCSS, Harry dropped in many nuggets of CSS & SASS wisdom which were excellent and will prove invaluable to me in the future. I now feel equipped to use Sass & CSS in my development workflow with the most challenging projects.</p>
   </blockquote>
-  <p>— Justin Waugh, UNOPS</p>
+  <p>— <a href="https://www.linkedin.com/in/justindwaugh/">Justin Waugh</a>, UNOPS</p>
 </article>
 
 </section>
