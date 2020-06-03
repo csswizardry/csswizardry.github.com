@@ -18,7 +18,7 @@
   <summary>How long do workshops last?</summary>
 
   <p>At least one day—a half-day isn’t long enough to cover anything of real
-  substance.. I recommend running a two-day workshop so that day one can be
+  substance. I recommend running a two-day workshop so that day one can be
   spent learning, and day two spent implementing. It’s hugely valuable to host
   a second hackathon-style second day so that your team can begin to put their
   newfound knowledge into practice with my guidance.</p>
