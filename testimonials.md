@@ -17,7 +17,7 @@ word for it—here’s what they had to say about me:
 
   <!-- <a class="c-filter__target" id="tag:attendee"></a> -->
   <a class="c-filter__target" id="tag:client"></a>
-  <!-- <a class="c-filter__target" id="tag:conference"></a> -->
+  <a class="c-filter__target" id="tag:conference"></a>
   <a class="c-filter__target" id="tag:consultancy"></a>
   <a class="c-filter__target" id="tag:css"></a>
   <a class="c-filter__target" id="tag:peer"></a>
@@ -28,7 +28,7 @@ word for it—here’s what they had to say about me:
     <a href="#tag:all" class="c-filter__link  c-filter__link--rese">All</a>
     <!-- <a href="#tag:attendee" class="c-filter__link">Attendee</a> -->
     <a href="#tag:client" class="c-filter__link">Client</a>
-    <!-- <a href="#tag:conference" class="c-filter__link">Conference</a> -->
+    <a href="#tag:conference" class="c-filter__link">Conference</a>
     <a href="#tag:consultancy" class="c-filter__link">Consultancy</a>
     <a href="#tag:css" class="c-filter__link">CSS</a>
     <a href="#tag:peer" class="c-filter__link">Peer</a>
@@ -50,6 +50,16 @@ word for it—here’s what they had to say about me:
     <p>Harry gave the team a strong footing for identifying performance issues on iPlayer. With his knowledge, we were able to roll out quick fixes to our audiences without the need for big rewrites, all within just two days.</p>
   </blockquote>
   <p>— <a href="https://twitter.com/mattjburrows">Matthew Burrows</a>, BBC iPlayer</p>
+</article>
+
+<article class="c-card c-filter__item" data-tag="conference" id="testimonial:marc-thiele">
+  <h2><img src="/img/content/testimonials/btconf.png" width="139" height="48" alt="Beyond Tellerrand" /></h2>
+  <blockquote class="pull-quote">
+    <p>I could start and say how great it is to work with Harry on projects, but I assume many other people before me did this already. Therefore I’d like to mention the many reasons why it is great to have Harry Roberts be a part of your events.</p>
+    <p>Harry is a reliable and well prepared speaker who finds the right balance between giving a technical talk and still entertaining the audience. He’s never let me down and always come in on time. Next to the things I mentioned and which are obvious, it is important for an event organiser like me to have speakers at your events that engage with the audience and do not hide backstage, for example. For the delegates, one of the best things at such events is when speakers are accessible, and when they can ask questions and exchange after a talk is done. This is what Harry also is excellent at and never disappoints.</p>
+    <p>But most importantly over the last nearly-ten years, Harry became a close friend of mine and I am always happy and looking forward to seeing him!</p>
+  </blockquote>
+  <p>— <a href="https://twitter.com/marcthiele">Marc Thiele</a>, beyond tellerrand Events</p>
 </article>
 
 <article class="c-card c-filter__item" data-tag="peer  performance" id="testimonial:tim-kadlec">
