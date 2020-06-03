@@ -65,7 +65,7 @@ word for it—here’s what they had to say about me:
   <blockquote class="pull-quote">
     <p>We approached Harry as although we had a good grasp of the fundamentals of web performance as a team, we needed to dig deeper. We got Harry in for a two day on-site and were hugely impressed by the depth and breadth Harry was able to cover in such a short time. Crucially, we were left with a long list of tangible actions to take away which have since resulted in a measurable improvement in the performance of our sites across the board.</p>
   </blockquote>
-  <p><a href="https://twitter.com/barrymcgee">Barry McGee</a>, Canonical</p>
+  <p><a href="https://twitter.com/barrymcgee">Barry McGee</a>, Senior Web Developer, Canonical</p>
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  css  training  performance" id="testimonial:jackie-balzer">
