@@ -27,7 +27,7 @@ And you should not expect:
 * Updates for the sake of updates. I will only publish when there’s something
   worth sharing.
 
-<a href="http://csswizardry.us14.list-manage2.com/subscribe?u=95f3f41085f5f957a07ba5efd&id=ba05b5418d" class="btn  btn--full">Sign up</a>
+<a href="https://csswizardry.us14.list-manage2.com/subscribe?u=95f3f41085f5f957a07ba5efd&id=ba05b5418d" class="btn  btn--full">Sign up</a>
 
 Not that fussed about email? You can still catch me [on
 Twitter](https://twitter.com/csswizardry) instead.
