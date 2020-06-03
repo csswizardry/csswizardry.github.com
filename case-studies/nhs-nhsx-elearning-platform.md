@@ -1,5 +1,6 @@
 ---
 layout: post
+page-class: page--case-studies
 title: "NHS: NHSx eLearning Platform"
 meta: "Working in intense sprints to help build an eLearning platform for the NHS"
 permalink: /case-studies/nhs-nhsx-elearning-platform/

@@ -1,5 +1,6 @@
 ---
 layout: post
+page-class: page--case-studies
 title: "BBC: Workshop and Code Review"
 meta: "Running a full-day workshop with developers from the BBC"
 permalink: /case-studies/bbc-workshop/

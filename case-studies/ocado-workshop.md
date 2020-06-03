@@ -1,5 +1,6 @@
 ---
 layout: post
+page-class: page--case-studies
 title: "Ocado: Workshop"
 meta: "Two intensive days of CSS and front-end performance"
 permalink: /case-studies/ocado-workshop/

@@ -1,5 +1,6 @@
 ---
 layout: post
+page-class: page--case-studies
 title: "CSS Wizardry: MVP Design and Development"
 meta: "Redesigning and redeveloping my own website to serve a new purpose over a long weekend"
 permalink: /case-studies/css-wizardry/

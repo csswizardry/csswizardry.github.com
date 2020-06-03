@@ -20,16 +20,14 @@ permalink: /case-studies/
 
 <ul class="feature-list">
 
-    {% comment %}
     <li class="feature-list__item">
-        <a href="general-electric-consultancy-workshops/" class="feature-list__link" style="background-color: #1968b3;">
+        <a href="vitamix-performance-consultancy" class="feature-list__link" style="background-color: #da1a32;">
             <h2 class="feature-list__title">
-                General Electric
-                <span class="feature-list__sub">Workshop, Consultancy</span>
+                Vitamix
+                <span class="feature-list__sub">Performance Consultancy</span>
             </h2>
         </a>
     </li>
-    {% endcomment %}
 
     <li class="feature-list__item">
         <a href="raspberry-pi-code-club-workshop/" class="feature-list__link" style="background-image: linear-gradient(to bottom right, #c7053d 0%, #c7053d 50%, #393 50%, #393 100%);">
