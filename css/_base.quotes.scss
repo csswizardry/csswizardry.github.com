@@ -35,7 +35,7 @@ blockquote {
     quotes: "“" "”";
 
     p {
-        text-indent: -0.41em; /* [1] */
+        text-indent: -0.45em; /* [1] */
 
         &:before {
             content: open-quote;
