@@ -259,7 +259,7 @@ you can prefetch that hostname’s DNS by simply adding this early on in the
 
     <head>
         ...
-        <link rel="dns-prefetch" href="//widget.foo.com">
+        <link rel="dns-prefetch" href="https://widget.foo.com">
         ...
     </head>
 
