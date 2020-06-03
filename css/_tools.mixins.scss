@@ -35,11 +35,15 @@
 
 }
 
-// Generate Helvetica Neue’s numbered font-weights from their aliases.
+// Generate numbered font-weights from their aliases.
 @mixin font-weight($font-weight) {
 
-    @if ($font-weight == "regular") {
+    @if ($font-weight == "light") {
         font-weight: 300;
+    }
+
+    @if ($font-weight == "regular") {
+        font-weight: 400;
     }
 
     @if ($font-weight == "bold") {

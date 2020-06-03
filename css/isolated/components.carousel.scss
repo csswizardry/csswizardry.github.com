@@ -9,6 +9,7 @@
     overflow: hidden;
     width: 100%;
     text-align: center;
+    @include font-weight(light);
 }
 
     .carousel__panes {
@@ -42,7 +43,7 @@
             .carousel__link {
                 color: inherit;
                 border-bottom: 1px solid $color-links-carousel;
-                @include font-weight(regular);
+                @include font-weight(light);
                 @include vendor(transition, 0.2s border-color);
 
                 @include attention() {

@@ -10,7 +10,7 @@
  * Headings 1–6.
  */
 @include headings() {
-    @include font-weight(regular);
+    @include font-weight(light);
     color: $color-headings;
 }
 
