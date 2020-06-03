@@ -90,7 +90,7 @@
     text-decoration: none;
   }
 
-  @each $item in attendee, conference, peer, client, css, performance, consultancy, workshop {
+  @each $item in attendee, conference, peer, client, css, performance, consultancy, training {
 
     [id="tag:#{$item}"]:target ~ [data-tag~="#{$item}"] {
       @extend %_visible-state;

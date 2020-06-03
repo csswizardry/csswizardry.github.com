@@ -17,7 +17,7 @@ Osmani</a>, Google</b></blockquote>
 I help companies of all shapes and sizes asses, identify, and fix site-speed
 issues. Through a combination of audits, consultancy, and training, let’s find
 out what web performance means for your business, and how to ensure we’re on top
-of things. Let’s do it together.
+of things.
 
 <a href="/contact/?cta-services-page" class="btn  btn--positive  btn--ull">{% include availability.md %}</a>
 

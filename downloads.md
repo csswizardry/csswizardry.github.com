@@ -22,7 +22,7 @@ plays in your business, whatever your industry.
 
 ## Questions for Consultants: Useful Questions to Ask Your Clients
 
-My first ebook comes in at just over 25,000 words. It’s a consultants guide to
+My first ebook comes in at just over 35,000 words. It’s a consultants guide to
 asking the very best questions to help your clients be more successful. I think
 you’ll like it.
 

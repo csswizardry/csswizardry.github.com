@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .pull-quote {
-    @include font-size(20px);
+    @include font-size(18px);
     color: $color-quote;
     padding-left: 0.5 * $spacing-unit;
     border-left: 0.5 * $spacing-unit solid $color-brand;
@@ -45,6 +45,8 @@
  * Pull quotes that sit within the context of their surrounding copy.
  */
 .pull-quote--context {
+  @include font-size(20px);
+  font-style: italic;
 
     @include media-query(lap-and-up) {
         width: 50%;
@@ -60,6 +62,8 @@
 }
 
 .pull-quote--context-alt {
+  @include font-size(20px);
+  font-style: italic;
 
     @include media-query(lap-and-up) {
         width: 50%;
@@ -67,9 +71,4 @@
         margin-left: $spacing-unit;
     }
 
-}
-
-.pull-quote--long-form {
-  @include font-size(18px);
-  font-style: normal;
 }
