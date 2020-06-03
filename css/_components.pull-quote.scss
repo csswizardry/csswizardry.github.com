@@ -4,6 +4,7 @@
 
 .pull-quote {
     @include font-size(18px);
+    font-style: normal;
     color: $color-quote;
     padding-left: 0.5 * $spacing-unit;
     border-left: 0.5 * $spacing-unit solid $color-brand;
