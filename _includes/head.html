@@ -64,6 +64,10 @@ ga('send', 'pageview');
 
   {% include css/csswizardry.min.css %}
 
+  {% if page.layout == "post" %}
+    {% include css/components.syntax.css %}
+  {% endif %}
+
 </style>
 <script>performance.mark('CSS End');</script>
 
