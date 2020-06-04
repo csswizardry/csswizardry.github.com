@@ -40,7 +40,7 @@ fast, incredibly well suited to the device in question, and has almost zero
 engineering overhead. But, on [harry.is](https://harry.is), I really wanted to
 throw caution to the wind. To hell with it! Let’s have a web font!
 
-However, I still needed to be fast.
+However, I still needed it to be fast.
 
 While prototyping, I turned to Google Fonts, and with their recent ability to
 support `font-display` via a URL parameter (`&display=swap`), I knew that things
@@ -452,7 +452,7 @@ We can visualise the benefits well in WebPageTest:
 | Change from Previous  | −0.1 | −0.1 | −0.8 | −0.7 |         +1 |
 
 Here we go! First (contentful) paint is realistically untouched. Any changes
-here are unrelated to our `preconnect` at the `preconnect` only impacts
+here are unrelated to our `preconnect` as the `preconnect` only impacts
 resources after the critical path. Our focus is on first web font and visually
 complete, both of which show tremendous improvement. **700–1,200ms improvement
 on first web font** and **700–900ms improvement on visually complete** against
