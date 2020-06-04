@@ -20,6 +20,7 @@ permalink: /contact/
   Tweet](https://twitter.com/csswizardry).
 * Interested in **software and tools**? See [my setup](/uses/).
 * To keep in **regular contact**, [join my newsletter](/newsletter/).
+* Still use **RSS**? [Subscribe](https://feeds.feedburner.com/csswizardry).
 * Am I **any good?** Read some [testimonials](/testimonials/).
 * Got **questions**? See [the FAQ](#section:faq).
 
