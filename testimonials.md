@@ -37,7 +37,7 @@ word for it—here’s what they had to say about me:
   </nav>
 
 <article class="c-card c-filter__item" data-tag="client  css  training" id="testimonial:addy-osmani">
-  <h2><img src="/img/content/testimonials/google.png" width="146" height="48" alt="Google" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/google.png" width="146" height="48" alt="Google" /></h2>
   <blockquote class="pull-quote">
     <p>Harry helped our team level up their scalable CSS architecture skills, and to say that he had a large impact on our work is an understatement. We can’t recommend him enough.</p>
   </blockquote>
@@ -45,7 +45,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  performance  training" id="testimonial:matt-burrows">
-  <h2><img src="/img/content/testimonials/iplayer.png" width="288" height="48" alt="BBC iPlayer" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/iplayer.png" width="288" height="48" alt="BBC iPlayer" /></h2>
   <blockquote class="pull-quote">
     <p>Harry gave the team a strong footing for identifying performance issues on iPlayer. With his knowledge, we were able to roll out quick fixes to our audiences without the need for big rewrites, all within just two days.</p>
   </blockquote>
@@ -53,7 +53,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card c-filter__item" data-tag="conference" id="testimonial:marc-thiele">
-  <h2><img src="/img/content/testimonials/btconf.png" width="139" height="48" alt="Beyond Tellerrand" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/btconf.png" width="139" height="48" alt="Beyond Tellerrand" /></h2>
   <blockquote class="pull-quote">
     <p>I could start and say how great it is to work with Harry on projects, but I assume many other people before me did this already. Therefore I’d like to mention the many reasons why it is great to have Harry Roberts be a part of your events.</p>
     <p>Harry is a reliable and well prepared speaker who finds the right balance between giving a technical talk and still entertaining the audience. He’s never let me down and always come in on time. Next to the things I mentioned and which are obvious, it is important for an event organiser like me to have speakers at your events that engage with the audience and do not hide backstage, for example. For the delegates, one of the best things at such events is when speakers are accessible, and when they can ask questions and exchange after a talk is done. This is what Harry also is excellent at and never disappoints.</p>
@@ -63,7 +63,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card c-filter__item" data-tag="peer  performance" id="testimonial:tim-kadlec">
-  <h2><img src="/img/content/testimonials/tim-kadlec.png" width="221" height="48" alt="Tim Kadlec" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/tim-kadlec.png" width="221" height="48" alt="Tim Kadlec" /></h2>
   <blockquote class="pull-quote">
     <p>There is a short list of people I whole-heartedly recommend for detailed performance work and Harry is right there at the top.</p>
   </blockquote>
@@ -71,7 +71,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  training  performance" id="testimonial:barry-mcgee">
-  <h2><img src="/img/content/testimonials/canonical.png" width="361" height="48" alt="Canonical" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/canonical.png" width="361" height="48" alt="Canonical" /></h2>
   <blockquote class="pull-quote">
     <p>We approached Harry as although we had a good grasp of the fundamentals of web performance as a team, we needed to dig deeper. We got Harry in for a two day on-site and were hugely impressed by the depth and breadth Harry was able to cover in such a short time. Crucially, we were left with a long list of tangible actions to take away which have since resulted in a measurable improvement in the performance of our sites across the board.</p>
   </blockquote>
@@ -79,7 +79,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  css  training  performance" id="testimonial:jackie-balzer">
-  <h2><img src="/img/content/testimonials/adobe.png" width="191" height="48" alt="Adobe" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/adobe.png" width="191" height="48" alt="Adobe" /></h2>
   <blockquote class="pull-quote">
     <p>Harry’s workshop was excellent; we left with tons of new ideas and techniques to improve both the CSS architecture and overall performance of <a href="http://behance.com/" class="carousel__link">Behance</a> and <a href="http://myportfolio.com/" class="carousel__link">Adobe Portfolio</a>.</p>
   </blockquote>
@@ -87,7 +87,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  performance  consultancy" id="testimonial:tim-heath">
-  <h2><img src="/img/content/testimonials/coingaming.png" width="279" height="48" alt="Coingaming" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/coingaming.png" width="279" height="48" alt="Coingaming" /></h2>
   <blockquote class="pull-quote">
     <p>When we first connected with Harry, he was a totally unknown quantity to us—he’d simply met one of our UX designers at a conference and mentioned that he might be able to help us with some site-speed issues we were facing. A few weeks later and he was sat in our office in Tallinn, digging into the problems right there alongside our engineers.</p>
 
@@ -104,7 +104,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  css  consultancy" id="testimonial:alette-holmberg-nielsen">
-  <h2><img src="/img/content/testimonials/better-collective.png" width="212" height="48" alt="Better Collective" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/better-collective.png" width="212" height="48" alt="Better Collective" /></h2>
   <blockquote class="pull-quote">
     <p>We worked with Harry for one incredible week, in which we created a tailor-made CSS framework from scratch, complete with naming conventions, documentation style, attributions and an object oriented architecture. Pretty impressive, especially considering that we were only three persons: Harry, a designer and a product manager. Harry was the driving force behind the architecture and for every question we asked, he had well-thought out answer. We managed to make decisions very quickly, which enabled us to move extremely fast toward actual implementation. Without sacrificing quality in any way.</p>
 
@@ -114,7 +114,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card  c-filter__item" data-tag="peer  css" id="testimonial:josh-nesbitt">
-  <h2><img src="/img/content/testimonials/stac.png" width="108" height="48" alt="Stac" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/stac.png" width="108" height="48" alt="Stac" /></h2>
   <blockquote class="pull-quote">
     <p>I’ve worked with Harry on numerous projects over the years and each time he brings huge amounts of value with his detailed knowledge of performance and front-end architecture. Specifically, on the NHSx project, the techniques I learned surrounding ITCSS changed the way I build web applications. Without a doubt, Harry is the consultant you should bring in if you want an authority on how to build well-architected, fast web apps.</p>
   </blockquote>
@@ -122,7 +122,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card  c-filter__item" data-tag="client  consultancy  css" id="testimonial:justin-waugh">
-  <h2><img src="/img/content/testimonials/unops.png" width="327" height="48" alt="UNOPS" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/unops.png" width="327" height="48" alt="UNOPS" /></h2>
   <blockquote class="pull-quote">
     <p>Spending a week with Harry has turned my approach to large CSS projects on its head. For years I’ve struggled to find a way to effectively structure large, complex CSS projects and his ITCSS methodology has delivered. Now I have a small, flexible SASS codebase and more performant CSS. Whilst guiding me with ITCSS, Harry dropped in many nuggets of CSS & SASS wisdom which were excellent and will prove invaluable to me in the future. I now feel equipped to use Sass & CSS in my development workflow with the most challenging projects.</p>
   </blockquote>
