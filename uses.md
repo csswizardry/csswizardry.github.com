@@ -153,7 +153,7 @@ interested in taking a look. There’s nothing really remarkable in most of them
 
 ### Chrome
 
-[Chrome](https://www.google.com/chrome/browser/) is by browser of choice for
+[Chrome](https://www.google.com/chrome/browser/) is my browser of choice for
 just about everything: browsing, building, testing. I use it on my desktop and
 my phone.
 
