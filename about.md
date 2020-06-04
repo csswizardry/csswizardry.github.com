@@ -86,7 +86,7 @@ with companies of all shapes, sizes, locations, problems, needs, and budgets.
 I’m professional, but I’m laid back—[drop me a line](/contact/), and we can see
 what fits.
 
-_<img src="/img/content/signature.png" alt="Harry" importance="low" width="123" height="72" />_
+_<img src="{{ site.cloudinary }}/img/content/signature.png" alt="Harry" importance="low" width="123" height="72" />_
 
 <a href="https://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>

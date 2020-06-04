@@ -8,7 +8,7 @@ next-case-study-url: /case-studies/ocado-workshop/
 hide-hire-me-link: true
 ---
 
-<img src="/img/content/case-studies/raspberry-pi/logo-pi.png" alt="" width="128" height="165"
+<img src="{{ site.cloudinary }}/img/content/case-studies/raspberry-pi/logo-pi.png" alt="" width="128" height="165"
      style="float: left;
             margin-right: 24px;
             shape-outside: url(/img/content/case-studies/raspberry-pi/logo-pi.png);

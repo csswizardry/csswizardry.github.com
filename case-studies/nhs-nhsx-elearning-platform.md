@@ -26,7 +26,7 @@ built on Rails, HTML5, and Sass, and all run very agile (using GitHub and
 [Trello](/2014/05/my-trello-workflow/)) by a lean team of just four people.
 
 <figure>
-  <img src="/img/content/case-studies/nhs/01.png" alt="">
+  <img src="{{ site.cloudinary }}/img/content/case-studies/nhs/01.png" alt="">
   <figcaption><a href="/img/content/case-studies/nhs/01-full.png">View full size/quality (113KB).</a></figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Next, the three of us set up an informal meeting at the NHS offices to meet
 each other, and decide how we would go about tackling the project.
 
 <figure>
-  <img src="/img/content/case-studies/nhs/02.png" alt="">
+  <img src="{{ site.cloudinary }}/img/content/case-studies/nhs/02.png" alt="">
   <figcaption><a href="/img/content/case-studies/nhs/02-full.png">View full size/quality (95KB).</a></figcaption>
 </figure>
 

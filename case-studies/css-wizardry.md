@@ -29,7 +29,7 @@ product in its own right. At the time of writing, that single page micro-site
 has [over 180 commits against it](https://github.com/csswizardry/work)!
 
 <figure>
-  <img src="/img/content/case-studies/css-wizardry/old.png" alt="">
+  <img src="{{ site.cloudinary }}/img/content/case-studies/css-wizardry/old.png" alt="">
   <figcaption>Screenshot of the previous CSS Wizardry home page. <a href="/img/content/case-studies/css-wizardry/old-full.png">View full size/quality (179KB).</a></figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ constantly tweaking and refining the copy used throughout the site, so it was
 something I didn’t really need to worry about during the redesign.
 
 <figure>
-  <img src="/img/content/case-studies/css-wizardry/new.jpg" alt="">
+  <img src="{{ site.cloudinary }}/img/content/case-studies/css-wizardry/new.jpg" alt="">
   <figcaption>Screenshot of the current CSS Wizardry home page. <a href="/img/content/case-studies/css-wizardry/new-full.png">View full size/quality (550KB).</a></figcaption>
 </figure>
 
