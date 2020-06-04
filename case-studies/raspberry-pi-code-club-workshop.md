@@ -48,7 +48,7 @@ we skipped past that and dove straight in to a crash course on
 and discussing how ITCSS might fit their specific requirements (that’s a core
 part of the architecture’s design: it can be moulded to fit almost any project).
 
-<img src="/img/content/case-studies/raspberry-pi/logo-cc.png" alt="" width="128" height="128"
+<img src="{{ site.cloudinary }}/img/content/case-studies/raspberry-pi/logo-cc.png" alt="" width="128" height="128"
      style="float: right;
             margin-left: 12px;
             shape-outside: circle();" />
