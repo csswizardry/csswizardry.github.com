@@ -37,7 +37,7 @@
     margin-bottom: 0;
     position: static;
     background-color: #2e2620;
-    background-image: url(/img/css/masthead.6ddf08d9.jpg), var(--base64);
+    background-image: url(/img/css/masthead.4c100a13.jpg), var(--base64);
     background-position: center 25%;
     @include vendor(background-size, cover);
     color: $color-masthead; /* [1] */
@@ -46,11 +46,11 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
 
     @include media-query(lap-and-up) {
-        background-image: url(/img/css/masthead-medium.12fb835e.jpg), var(--base64);
+        background-image: url(/img/css/masthead-medium.e55920c9.jpg), var(--base64);
     }
 
     @include media-query(desk) {
-        background-image: url(/img/css/masthead-large.0510e3a2.jpg), var(--base64);
+        background-image: url(/img/css/masthead-large.3cbc4956.jpg), var(--base64);
     }
 
     > .wrapper { /* [2] */
