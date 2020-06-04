@@ -5,6 +5,7 @@ description: "CSS Architecture, Web Performance Optimisation, and more, by Harry
 baseurl: ""
 url: "https://csswizardry.com"
 future: true
+cloudinary: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com"
 
 # Build settings
 markdown: kramdown

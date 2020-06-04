@@ -251,7 +251,7 @@ probably way less than you expect). Take for example Vitamix, a client for whom
 I implemented asynchronous CSS for their own font provider(s):
 
 <figure>
-<img src="/wp-content/uploads/2020/05/waterfall-vitamix.png" alt="" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2020/05/waterfall-vitamix.png" alt="" />
 <figcaption>While Chrome can do asynchronous DNS/TCP/TLS, it will serialise and
 stall non-critical requests on slower connections.</figcaption>
 </figure>
@@ -391,7 +391,7 @@ Google Fonts are good to us—they `preconnect` the `fonts.gstatic.com` origin
 preemptively via an HTTP header attached to the `fonts.googleapis.com` response:
 
 <figure>
-<img src="/wp-content/uploads/2020/05/screenshot-header.png" alt="" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2020/05/screenshot-header.png" alt="" />
 <figcaption>While not all that effective in these demos, I wish more third-party
 providers would do things like this.</figcaption>
 </figure>
@@ -430,7 +430,7 @@ huge gains. Let’s see what happens.
 We can visualise the benefits well in WebPageTest:
 
 <figure>
-<img src="/wp-content/uploads/2020/05/anim-preconnect.gif" alt="" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2020/05/anim-preconnect.gif" alt="" />
 <figcaption>See just how much we can bring connection overhead forward with
 <code>preconnect</code>.</figcaption>
 </figure>
@@ -487,7 +487,7 @@ It’s much easier to visualise it than it is to explain, so here’s a screensh
 of the filmstrip:
 
 <figure>
-<img src="/wp-content/uploads/2020/05/filmstrip-foit.png" alt="Screenshot
+<img src="{{ site.cloudinary }}/wp-content/uploads/2020/05/filmstrip-foit.png" alt="Screenshot
 showing missing text midway through two separate page loads." />
 <figcaption>Note the FOIT at 3.4–3.5s and 3.2s respectively.</figcaption>
 </figure>
