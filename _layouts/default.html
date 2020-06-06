@@ -28,6 +28,10 @@
   var customTimingContent = performance.measure('Content Time', 'Content Start', 'Content End');
   console.log(performance.getEntriesByType("mark"));
   console.log(performance.getEntriesByType("measure"));
+
+  ga('send', 'timing', 'Custom Timings', 'HEAD Time', customTimingHead.duration);
+  ga('send', 'timing', 'Custom Timings', 'CSS Time', customTimingCss.duration);
+  ga('send', 'timing', 'Custom Timings', 'Content Time', customTimingContent.duration);
 </script>
 
 <script src="/js/web-vitals-0.2.2.min.js" defer></script>
@@ -48,10 +52,6 @@ addEventListener('DOMContentLoaded', function() {
   webVitals.getFID(sendToGoogleAnalytics);
   webVitals.getLCP(sendToGoogleAnalytics);
 });
-
-ga('send', 'timing', 'Custom Timings', 'HEAD Time', customTimingHead.duration);
-ga('send', 'timing', 'Custom Timings', 'CSS Time', customTimingCss.duration);
-ga('send', 'timing', 'Custom Timings', 'Content Time', customTimingContent.duration);
 </script>
 
 <script src="/js/instant.page.5.0.1.min.js" type="module"></script>
