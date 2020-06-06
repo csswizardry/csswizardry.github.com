@@ -29,6 +29,8 @@ improving site-speed. You <a href="/services/?ref=cta-sidebar-bio">should hire m
   <a href="/services/?ref=cta-sidebar" class="btn  btn--full  btn--positive" data-sctrack="cta-sidebar" elementtiming="cta-sidebar">{% include availability.md %}</a>
   <script>
     performance.mark("CTA Sidebar");
+    var customTimingCtaSidebar = performance.getEntriesByName("CTA Sidebar")[0];
+    ga('send', 'timing', 'Custom Timings', 'CTA Sidebar', customTimingCtaSidebar.startTime);
   </script>
 </p>
 
