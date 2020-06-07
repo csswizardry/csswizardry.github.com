@@ -41,26 +41,6 @@
   }());
 </script>
 
-<script src="/js/web-vitals-0.2.2.min.js" defer></script>
-<script>
-  // Send Web Vitals to Google Analytics
-function sendToGoogleAnalytics({name, delta, id}) {
-  ga('send', 'event', {
-    eventCategory: 'Web Vitals',
-    eventAction: name,
-    eventValue: Math.round(name === 'CLS' ? delta * 1000 : delta),
-    eventLabel: id,
-    nonInteraction: true,
-  });
-}
-
-addEventListener('DOMContentLoaded', function() {
-  webVitals.getCLS(sendToGoogleAnalytics);
-  webVitals.getFID(sendToGoogleAnalytics);
-  webVitals.getLCP(sendToGoogleAnalytics);
-});
-</script>
-
 <script src="/js/instant.page.5.0.1.min.js" type="module"></script>
 
 </body>
