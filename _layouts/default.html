@@ -27,18 +27,23 @@
 
   (function() {
 
-    perfEntries = performance.getEntries();
-    for (i = 0; i < perfEntries.length; i++) {
-      if (perfEntries[i].entryType == 'mark') {
-        console.log(perfEntries[i].name + ": " + perfEntries[i].startTime);
-        ga('send', 'timing', 'Custom Timings', perfEntries[i].name, perfEntries[i].startTime);
-      } else if (perfEntries[i].entryType == 'measure') {
-        console.log(perfEntries[i].name + ": " + perfEntries[i].duration);
-        ga('send', 'timing', 'Custom Timings', perfEntries[i].name, perfEntries[i].duration);
+    if (window.performance) {
+
+      perfEntries = performance.getEntries();
+      for (i = 0; i < perfEntries.length; i++) {
+        if (perfEntries[i].entryType == 'mark') {
+          console.log(perfEntries[i].name + ": " + perfEntries[i].startTime);
+          ga('send', 'timing', 'Custom Timings', perfEntries[i].name, perfEntries[i].startTime);
+        } else if (perfEntries[i].entryType == 'measure') {
+          console.log(perfEntries[i].name + ": " + perfEntries[i].duration);
+          ga('send', 'timing', 'Custom Timings', perfEntries[i].name, perfEntries[i].duration);
+        }
       }
+
     }
 
   }());
+
 </script>
 
 <script src="/js/instant.page.5.0.1.min.js" type="module"></script>
