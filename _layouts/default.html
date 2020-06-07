@@ -29,15 +29,22 @@
 
     if (window.performance) {
 
+      var params = (new URL(document.location)).searchParams;
+
       perfEntries = performance.getEntries();
       for (i = 0; i < perfEntries.length; i++) {
-        if (perfEntries[i].entryType == 'mark') {
-          console.log(perfEntries[i].name + ": " + perfEntries[i].startTime);
-          ga('send', 'timing', 'Custom Timings', perfEntries[i].name, perfEntries[i].startTime);
-        } else if (perfEntries[i].entryType == 'measure') {
-          console.log(perfEntries[i].name + ": " + perfEntries[i].duration);
-          ga('send', 'timing', 'Custom Timings', perfEntries[i].name, perfEntries[i].duration);
+
+        if (perfEntries[i].entryType == 'mark' || perfEntries[i].entryType == 'measure') {
+          var timingType = perfEntries[i].entryType == 'mark' ? perfEntries[i].startTime : perfEntries[i].duration;
+
+          ga('send', 'timing', 'Custom Timings', perfEntries[i].name, timingType);
+
+          if (params.get('debug')) {
+            console.log(perfEntries[i].name + ': ' + timingType);
+          }
+
         }
+
       }
 
     }
