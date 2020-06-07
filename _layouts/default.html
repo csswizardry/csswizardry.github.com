@@ -22,22 +22,23 @@
 </script>
 
 <script>
-  // Capture Custom Timings
-  performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
-  performance.measure('CSS Time', 'CSS Start', 'CSS End');
+
   performance.measure('Content Time', 'Content Start', 'Content End');
 
-  // Send Custom Timings to Google Analytics
-  var customTimingHead = performance.getEntriesByName("HEAD Time")[0];
-  var customTimingCss = performance.getEntriesByName("CSS Time")[0];
-  var customTimingContent = performance.getEntriesByName("Content Time")[0];
+  (function() {
 
-  ga('send', 'timing', 'Custom Timings', 'HEAD Time', customTimingHead.duration);
-  ga('send', 'timing', 'Custom Timings', 'CSS Time', customTimingCss.duration);
-  ga('send', 'timing', 'Custom Timings', 'Content Time', customTimingContent.duration);
+    perfEntries = performance.getEntries();
+    for (i = 0; i < perfEntries.length; i++) {
+      if (perfEntries[i].entryType == 'mark') {
+        console.log(perfEntries[i].name + ": " + perfEntries[i].startTime);
+        ga('send', 'timing', 'Custom Timings', perfEntries[i].name, perfEntries[i].startTime);
+      } else if (perfEntries[i].entryType == 'measure') {
+        console.log(perfEntries[i].name + ": " + perfEntries[i].duration);
+        ga('send', 'timing', 'Custom Timings', perfEntries[i].name, perfEntries[i].duration);
+      }
+    }
 
-  //console.log(performance.getEntriesByType("mark"));
-  //console.log(performance.getEntriesByType("measure"));
+  }());
 </script>
 
 <script src="/js/web-vitals-0.2.2.min.js" defer></script>

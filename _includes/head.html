@@ -70,7 +70,10 @@ ga('send', 'pageview');
   {% endif %}
 
 </style>
-<script>performance.mark('CSS End');</script>
+<script>
+  performance.mark('CSS End');
+  performance.measure('CSS Time', 'CSS Start', 'CSS End');
+</script>
 
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 
@@ -110,6 +113,7 @@ ga('send', 'pageview');
 
 <script>
   performance.mark('HEAD End');
+  performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
 </script>
 
 </head>
