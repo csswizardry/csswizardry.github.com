@@ -27,18 +27,26 @@
 
   (function() {
 
+    // Only progress if the browser supports User Timings
     if (window.performance) {
 
+      // Store URL params for debugging later
       var params = (new URL(document.location)).searchParams;
 
+      // Loop through all performance entries we’ve captured
       perfEntries = performance.getEntries();
       for (i = 0; i < perfEntries.length; i++) {
 
+        // Only act on mark or measure timings
         if (perfEntries[i].entryType == 'mark' || perfEntries[i].entryType == 'measure') {
+
+          // For marks we need the startTime; for measures we need the duration
           var timingType = perfEntries[i].entryType == 'mark' ? perfEntries[i].startTime : perfEntries[i].duration;
 
+          // Send the data off to Google Analytics and store in our ‘Custom Timings’ category
           ga('send', 'timing', 'Custom Timings', perfEntries[i].name, timingType);
 
+          // Log the marks and measures if we have ?debug=true on the URL
           if (params.get('debug')) {
             console.log(perfEntries[i].name + ': ' + timingType);
           }

@@ -34,8 +34,6 @@ an [award-winning developer](https://thenetawards.com/previous-winners/), and an
   <script>
     performance.clearMarks("About Page Image");
     performance.mark("About Page Image");
-    var customTimingAboutPageImage = performance.getEntriesByName("About Page Image")[0];
-    ga('send', 'timing', 'Custom Timings', 'About Page Image', customTimingAboutPageImage.startTime);
   </script>
 </div>
 
