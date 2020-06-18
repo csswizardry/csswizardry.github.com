@@ -104,7 +104,7 @@ word for it—here’s what they had to say about me:
 </article>
 
 <article class="c-card c-filter__item" data-tag="conference" id="testimonial:ivo-lukac">
-  <h2><img src="/img/content/testimonials/wsc.png" width="159" height="48" alt="Web Summer Camp" /></h2>
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/wsc.png" width="159" height="48" alt="Web Summer Camp" /></h2>
   <blockquote class="pull-quote">
     <p>Harry held a full day workshop at Web Summer Camp, an event I organize every year. I knew about his expertise on optimizing performance of web sites beforehand, but he still blew me away with overwhelming details he delivered and the dedication to share his knowledge to the crowd. The workshop was to be six hours long but he continued for two more hours and most participants remained to hear his valuable advice, tips, and tricks. Some of them were literally applying his advice on their projects during the workshop and doubling the speed of their sites.</p>
     <p>But what I like most about Harry is that he is a very approachable and friendly person, great to communicate with, all in all, a great bloke.</p>
