@@ -44,6 +44,14 @@ word for it—here’s what they had to say about me:
   <p>— <a href="https://twitter.com/addyosmani">Addy Osmani</a>, Google</p>
 </article>
 
+<article class="c-card c-filter__item" data-tag="conference" id="testimonial:vitaly-friedman">
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/smashing-magazine.png" width="184" height="48" alt="Smashing Magazine" /></h2>
+  <blockquote class="pull-quote">
+    <p>Harry is very knowledgeable, experienced, and hard-working, with a vivid passion for web performance, tooling, and productivity. We’ve received incredible feedback from his sessions and the insights he kindly shares. Highly recommended!</p>
+  </blockquote>
+  <p>— <a href="https://twitter.com/smashingmag">Vitaly Friedman</a>, Smashing Magazine</p>
+</article>
+
 <article class="c-card c-filter__item" data-tag="client  performance  training" id="testimonial:matt-burrows">
   <h2><img src="{{ site.cloudinary }}/img/content/testimonials/iplayer.png" width="288" height="48" alt="BBC iPlayer" /></h2>
   <blockquote class="pull-quote">
@@ -90,26 +98,12 @@ word for it—here’s what they had to say about me:
   <h2><img src="{{ site.cloudinary }}/img/content/testimonials/coingaming.png" width="279" height="48" alt="Coingaming" /></h2>
   <blockquote class="pull-quote">
     <p>When we first connected with Harry, he was a totally unknown quantity to us—he’d simply met one of our UX designers at a conference and mentioned that he might be able to help us with some site-speed issues we were facing. A few weeks later and he was sat in our office in Tallinn, digging into the problems right there alongside our engineers.</p>
-
     <p>The impact of his work cannot be overstated. Within just a matter of days he’d identified and rolled out fixes that took global load times down from 18 seconds to just six. The results of his work could be seen immediately in our KPIs and showed a severalfold return on investment after no time at all.</p>
-
     <p>But, he wasn’t ready to stop there: after focusing on tactical and high-return tasks, he turned his attention to longer-term strategic goals, including geographic monitoring and fostering a performance culture within the business. He always spoke about <i>we</i>, fully embedding himself in the team and making himself a core member. It really felt like he was there with us the whole time.</p>
-
     <p>He works quickly, methodically, and incredibly forensically, and has a wonderful ability to manage both the business- and technical challenges of web performance. Though clearly technically very proficient, his ability to speak in relevant and jargon-free dialogue allowed him to pull all facets of Coingaming together to better understand and support site-speed efforts. From Business Insights to Marketing, Product to Engineering, and right up to me, the CEO, everyone was left aware of the importance and impact that site-speed has on our business.</p>
-
     <p>He has remained a part of Coingaming in some way for over two years now: we’ve rehired and retained him a number of times to help keep us on the right path as our business scales and evolves, and as we add new products and team members to our family.</p>
-
   </blockquote>
   <p>— <a href="https://www.linkedin.com/in/tim-heath-55096b1/">Tim Heath, CEO & Founder</a>, Coingaming</p>
-</article>
-
-<article class="c-card c-filter__item" data-tag="conference" id="testimonial:ivo-lukac">
-  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/wsc.png" width="159" height="48" alt="Web Summer Camp" /></h2>
-  <blockquote class="pull-quote">
-    <p>Harry held a full day workshop at Web Summer Camp, an event I organize every year. I knew about his expertise on optimizing performance of web sites beforehand, but he still blew me away with overwhelming details he delivered and the dedication to share his knowledge to the crowd. The workshop was to be six hours long but he continued for two more hours and most participants remained to hear his valuable advice, tips, and tricks. Some of them were literally applying his advice on their projects during the workshop and doubling the speed of their sites.</p>
-    <p>But what I like most about Harry is that he is a very approachable and friendly person, great to communicate with, all in all, a great bloke.</p>
-  </blockquote>
-  <p>— <a href="https://2018.websummercamp.com/">Ivo Lukač</a>, Web Summer Camp</p>
 </article>
 
 <article class="c-card c-filter__item" data-tag="client  css  consultancy" id="testimonial:alette-holmberg-nielsen">
@@ -128,6 +122,15 @@ word for it—here’s what they had to say about me:
     <p>I’ve worked with Harry on numerous projects over the years and each time he brings huge amounts of value with his detailed knowledge of performance and front-end architecture. Specifically, on the NHSx project, the techniques I learned surrounding ITCSS changed the way I build web applications. Without a doubt, Harry is the consultant you should bring in if you want an authority on how to build well-architected, fast web apps.</p>
   </blockquote>
   <p>— <a href="https://stac.works/">Josh Nesbitt</a>, Consultant, Stac</p>
+</article>
+
+<article class="c-card c-filter__item" data-tag="conference" id="testimonial:ivo-lukac">
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/wsc.png" width="159" height="48" alt="Web Summer Camp" /></h2>
+  <blockquote class="pull-quote">
+    <p>Harry held a full day workshop at Web Summer Camp, an event I organize every year. I knew about his expertise on optimizing performance of web sites beforehand, but he still blew me away with overwhelming details he delivered and the dedication to share his knowledge to the crowd. The workshop was to be six hours long but he continued for two more hours and most participants remained to hear his valuable advice, tips, and tricks. Some of them were literally applying his advice on their projects during the workshop and doubling the speed of their sites.</p>
+    <p>But what I like most about Harry is that he is a very approachable and friendly person, great to communicate with, all in all, a great bloke.</p>
+  </blockquote>
+  <p>— <a href="https://2018.websummercamp.com/">Ivo Lukač</a>, Web Summer Camp</p>
 </article>
 
 <article class="c-card  c-filter__item" data-tag="client  consultancy  css" id="testimonial:justin-waugh">
