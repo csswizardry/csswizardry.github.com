@@ -44,6 +44,14 @@ word for it—here’s what they had to say about me:
   <p>— <a href="https://twitter.com/addyosmani">Addy Osmani</a>, Google</p>
 </article>
 
+<article class="c-card c-filter__item" data-tag="client  performance  training" id="testimonial:michael-gooding">
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/akamai.png" width="118" height="48" alt="Akamai" /></h2>
+  <blockquote class="pull-quote">
+    <p>We engaged Harry to provide our go-to-market teams insight into the latest industry web performance challenges and tuning and debugging techniques to address them. Harry’s infectious passion and knowledge for the subject shone through, and he left us equally as excited and passionate to share our new found knowledge with customers. We look forward to working with Harry again in the future.</p>
+  </blockquote>
+  <p>— <a href="https://twitter.com/michael_g_81">Michael Gooding</a>, Akamai</p>
+</article>
+
 <article class="c-card c-filter__item" data-tag="conference" id="testimonial:vitaly-friedman">
   <h2><img src="{{ site.cloudinary }}/img/content/testimonials/smashing-magazine.png" width="184" height="48" alt="Smashing Magazine" /></h2>
   <blockquote class="pull-quote">
