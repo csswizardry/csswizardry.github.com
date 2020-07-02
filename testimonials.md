@@ -15,7 +15,7 @@ word for it—here’s what they had to say about me:
 
 <section class="c-filter">
 
-  <!-- <a class="c-filter__target" id="tag:attendee"></a> -->
+  <a class="c-filter__target" id="tag:attendee"></a>
   <a class="c-filter__target" id="tag:client"></a>
   <a class="c-filter__target" id="tag:conference"></a>
   <a class="c-filter__target" id="tag:consultancy"></a>
@@ -25,8 +25,8 @@ word for it—here’s what they had to say about me:
   <a class="c-filter__target" id="tag:training"></a>
 
   <nav class="c-filter__links">
-    <a href="#tag:all" class="c-filter__link  c-filter__link--rese">All</a>
-    <!-- <a href="#tag:attendee" class="c-filter__link">Attendee</a> -->
+    <a href="#tag:all" class="c-filter__link">All</a>
+    <a href="#tag:attendee" class="c-filter__link">Attendee</a>
     <a href="#tag:client" class="c-filter__link">Client</a>
     <a href="#tag:conference" class="c-filter__link">Conference</a>
     <a href="#tag:consultancy" class="c-filter__link">Consultancy</a>
@@ -76,6 +76,15 @@ word for it—here’s what they had to say about me:
     <p>But most importantly over the last nearly-ten years, Harry became a close friend of mine and I am always happy and looking forward to seeing him!</p>
   </blockquote>
   <p>— <a href="https://twitter.com/marcthiele">Marc Thiele</a>, beyond tellerrand Events</p>
+</article>
+
+<article class="c-card c-filter__item" data-tag="performance  attendee  training" id="testimonial:zach-miller">
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/superfein.png" width="98" height="48" alt="Superfein" /></h2>
+  <blockquote class="pull-quote">
+    <p>Harry is a truly inspired and gifted teacher, and a web performance master. He is gracious and patient, taking the time to answer every single question, always making you feel comfortable and easy. The web performance workshop was so complete and comprehensive, it covered every aspect of performance-first development. What became clear very quickly, is Harry’s completely holistic approach to web performance, where every single development decision is questioned and tested, to ensure it is performance driven. The workshop has helped me change my career path by giving me the tools, the knowledge, the confidence and the skills necessary to work and grow in the web performance field.</p>
+    <p>Harry brings a lot of brevity and lightness to his workshops, they are fun, inclusive and very inspiring. At the beginning I called Harry a teacher, but during and after the workshop, it felt like he was not just a teacher, but a mentor. And that is priceless. I encourage anyone who is serious about web performance to take a workshop with Harry Roberts.</p>
+  </blockquote>
+  <p>— Zach Miller, Front-end Developer, <a href="https://superfein.design/">Superfein</a></p>
 </article>
 
 <article class="c-card c-filter__item" data-tag="peer  performance" id="testimonial:tim-kadlec">
@@ -139,6 +148,24 @@ word for it—here’s what they had to say about me:
     <p>But what I like most about Harry is that he is a very approachable and friendly person, great to communicate with, all in all, a great bloke.</p>
   </blockquote>
   <p>— <a href="https://2018.websummercamp.com/">Ivo Lukač</a>, Web Summer Camp</p>
+</article>
+
+<article class="c-card c-filter__item" data-tag="performance  attendee  training" id="testimonial:jannik-lehmann">
+  <h2>Jannik Lehmann</h2>
+  <blockquote class="pull-quote">
+  <p>I visited Harry’s <i>Web Performance Masterclass</i> and can’t recommend it
+enough. It has been five sessions where we really focussed on the topic, what
+it’s about, and how to handle things best. Harry wouldn’t end the workshop
+before making sure literally every last question was answered, and there were
+very few questions he didn’t have an answer for. In the rare event that he
+didn’t, he really cared and made a great effort to provide an answer at the
+beginning of the next session.</p>
+  <p>The vibe on the workshop was really nice, I blame this on Harry quite
+a bit: his endless patience and impressive in-depth knowledge on the topic made
+it a really valuable experience. The resources we got were great, it was easy to
+follow along, it was well prepared, and made the deep-dive feel really easy.</p>
+  </blockquote>
+  <p>— <a href="https://www.linkedin.com/in/jannikmueller/">Jannik Lehmann</a>, Freelance JavaScript Developer and Consultant</p>
 </article>
 
 <article class="c-card  c-filter__item" data-tag="client  consultancy  css" id="testimonial:justin-waugh">
