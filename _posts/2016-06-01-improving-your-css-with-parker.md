@@ -285,7 +285,7 @@ unusual relationships and dependencies, removes encapsulation, and makes using
 DevTools far more difficult:
 
 <figure>
-  <img src="/wp-content/uploads/2016/05/screenshot-extend-devtools.png"
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2016/05/screenshot-extend-devtools.png"
 alt="Screenshot showing the mess created in DevTools by Sass’ extend feature" />
   <figcaption><a href="/wp-content/uploads/2016/05/screenshot-extend-devtools-full.png">View full size/quality (135KB).</a></figcaption>
 </figure>
@@ -531,7 +531,7 @@ which has a few key benefits:
 
 Parker is a really useful, valuable tool that presents us with some seemingly
 obvious and simple data. As soon as we understand what these numbers represent,
-and the principles behind them, we can quickly begin to asses and improve the
+and the principles behind them, we can quickly begin to assess and improve the
 quality of our CSS.
 
 I’d really recommend running Parker over your existing project(s) right now, and

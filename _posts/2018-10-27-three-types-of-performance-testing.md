@@ -134,7 +134,7 @@ and all third parties are implemented and running. You’re out on the world wid
 web—you have no idea who is turning up to the site, what their context is, what
 hardware, software, or infrastructure they’re using, or anything.
 
-Now, we sit back and conduct _Passive_ tests to gather data over time and asses
+Now, we sit back and conduct _Passive_ tests to gather data over time and assess
 the situation: can we spot patterns? Do certain browsers or geographic locales
 suffer more than others? Do changes in performance correlate to changes in
 business metrics?

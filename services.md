@@ -14,7 +14,7 @@ impact on our work is an understatement. We can’t recommend him enough.</p><b
 class="source pull-quote__source"><a href="https://twitter.com/addyosmani">Addy
 Osmani</a>, Google</b></blockquote>
 
-I help companies of all shapes and sizes asses, identify, and fix site-speed
+I help companies of all shapes and sizes to assess, identify, and fix site-speed
 issues. Through a combination of audits, consultancy, and training, let’s find
 out what web performance means for your business, and how to ensure we’re on top
 of things.
