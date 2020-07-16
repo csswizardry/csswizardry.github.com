@@ -57,70 +57,6 @@ workshop](/workshops/). My workshops are renowned.
 
   {% include speaking.html %}
 
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/lv.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2020.frontcon.com/">Frontcon</a>, Riga (Latvia), April 2020
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/ua.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://jsfest.com.ua/">JS Fest</a>, Kyiv (Ukraine), April 2020
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/by.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.frontendunited.org/">Frontend United</a>, Minsk (Belarus), May 2020
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) May 2020
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://itkonekt.com/en/">IT-Konekt</a>, Belgrade, Niš (Serbia), May 2020
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/austin-2020">Smashing Conference</a>, Austin (US), June 2020
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/hk.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2020.webconf.asia/">Webconf.asia</a>, Hong Kong, August 2020
-  </li>
-
-  <!--
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/ru.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://frontendconf.ru/">FrontendConf</a>, Moscow (Russia), September 2020
-  </li>
-  -->
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.webexpo.net/">WebExpo</a>, Prague (Czech Republic), September 2020
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/ca.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://fitc.ca/event/webu20/">Web Unleashed</a>, Toronto (Canada), October 2020
-  </li>
-
-  <!--
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/be.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://fullstackeurope.com/2020/">Full Stack Europe</a>, Antwerp (Belgium), October 2020
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://reactiveconf.com/">ReactiveConf</a>, Prague (Czech Republic), October 2020
-  </li>
-  -->
-
 </ol>
 
 
@@ -191,6 +127,18 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 </ul>
 
 ## Past Events
+
+### 2020
+
+<ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <a href="https://smashingconf.com/online-workshops/workshops/harry-roberts">Smashing Conference</a>, Remote (Online), May–June 2020
+  </li>
+
+</ol>
+
 
 ### 2019
 
