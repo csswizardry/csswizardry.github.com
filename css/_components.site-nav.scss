@@ -131,6 +131,7 @@ $logo-height:   64px;
             transition: 0.2s;
     will-change: transform;
     background-color: $color-gray;
+    content-visibility: hidden;
 
     @supports (backdrop-filter: blur(5px)) {
       background-color: rgba($color-gray, 0.8);
@@ -141,6 +142,7 @@ $logo-height:   64px;
      * If we’re targetting the nav, then don’t hide it.
      */
     .site-nav__target:target + & {
+      content-visibility: visible;
       -webkit-transform: none;
          -moz-transform: none;
           -ms-transform: none;
@@ -152,6 +154,7 @@ $logo-height:   64px;
      * Unhide it permanently on larger screens.
      */
     @include media-query(lap-and-up) {
+      content-visibility: visible;
       position: relative;
       top:    auto;
       right:  auto;

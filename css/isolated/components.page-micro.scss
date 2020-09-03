@@ -2,10 +2,14 @@
     #PAGE-MICRO
 \*------------------------------------*/
 
+@import "../settings.all";
+@import "../tools.all";
+
 .page-micro {
     background-color: $color-page-micro-background;
     padding: $spacing-unit--small;
     text-align: center;
+    content-visibility: auto;
 
     &,
     a {

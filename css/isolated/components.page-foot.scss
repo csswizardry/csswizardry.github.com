@@ -2,9 +2,13 @@
     #PAGE-FOOT
 \*------------------------------------*/
 
+@import "../settings.all";
+@import "../tools.all";
+
 .page-foot {
     @include font-size(12px);
     padding-bottom: 0;
+    content-visibility: auto;
 
     @include media-query(desk) {
         padding-bottom: $spacing-unit;

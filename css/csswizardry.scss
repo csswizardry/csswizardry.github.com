@@ -51,8 +51,6 @@
  * Page-head............Page header styles.
  * Bands................Full-width page bands.
  * Promo................Lead promo blocks on the home page.
- * Page-foot............Page footer styles.
- * Page-micro...........Page copyright styles.
  * Site-nav.............Site’s main nav area.
  * Nav-secondary........Smaller, in-page nav.
  * Buttons..............Extension of inuitcss’ buttons.
@@ -194,8 +192,6 @@ $inuit-enable-list-ui--small:   true;
 @import "components.page-head";
 @import "components.bands";
 @import "components.promo";
-@import "components.page-foot";
-@import "components.page-micro";
 @import "components.site-nav";
 @import "components.nav-secondary";
 @import "components.buttons";

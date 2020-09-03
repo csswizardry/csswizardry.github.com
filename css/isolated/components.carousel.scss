@@ -10,6 +10,7 @@
     width: 100%;
     text-align: center;
     @include font-weight(light);
+    content-visibility: auto;
 }
 
     .carousel__panes {
