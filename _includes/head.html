@@ -112,6 +112,13 @@ ga('send', 'pageview');
 <meta name="theme-color" content="#f43059">
 <link rel="manifest" href="/manifest.json">
 
+{% if page.previous.url %}
+  <link rel="prerender" href="{{page.previous.url}}" />
+{% endif %}
+{% if page.next.url %}
+  <link rel="prerender" href="{{page.next.url}}" />
+{% endif %}
+
 <script>
   performance.mark('HEAD End');
   performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
