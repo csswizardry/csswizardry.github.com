@@ -57,6 +57,16 @@ workshop](/workshops/). My workshops are renowned.
 
   {% include speaking.html %}
 
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <a href="https://smashingconf.com/online-workshops/workshops/harry-roberts">Smashing Conference</a>, Remote (Online), October 2020
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/austin-2020/">Smashing Conference</a>, Austin (US), October 2020
+  </li>
+
 </ol>
 
 
@@ -131,6 +141,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2020
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/lv.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2020.frontcon.com/">Frontcon</a>, Riga (Latvia), August 2020
+  </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
