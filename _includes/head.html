@@ -59,6 +59,9 @@ ga('send', 'pageview');
   {% if page.lux %}
   LUX.label = '{{ page.lux }}';
   {% endif %}
+  {% if layout.lux %}
+  LUX.label = '{{ layout.lux }}';
+  {% endif %}
 </script>
 
 <script>performance.mark('CSS Start');</script>
