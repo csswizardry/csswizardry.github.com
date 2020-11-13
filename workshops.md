@@ -36,6 +36,16 @@ it all, you end up with an up-skilled team and a faster website. It’s a win-wi
 
 <a href="/contact/" class="btn  btn--full">Organise a Workshop</a>
 
+## Lockdown Learning
+
+Missing conferences? Wanting to keep your team sharp during times of no travel?
+I’ve written an entire workshop, <cite>Web Performance Back to Front</cite>,
+designed specifically for remote delivery. Delivered to teams anywhere—or all
+over!—the world, optimised for highly practical online delivery, and recorded
+for you to keep forever.
+
+<a href="/workshops/web-performance-back-to-front/" class="btn  btn--full">Learn more…</a>
+
 ## Try Before You Buy
 
 Want an idea of the topics we’ll cover? Take a look at the slide-deck from my

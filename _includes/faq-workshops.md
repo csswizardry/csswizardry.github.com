@@ -1,5 +1,15 @@
 <details>
 
+  <summary>Do you run workshops remotely?</summary>
+
+  <p>Yes! Owing to 2020’s Coronavirus pandemic, I designed a workshop curriculum
+  and format specifically optimised for remote delivery.
+  <a href="/workshops/web-performance-back-to-front/">Learn more…</a></p>
+
+</details>
+
+<details>
+
   <summary>How many people can attend a workshop?</summary>
 
   <p>The good news is that I don’t base workshop pricing on the number of
