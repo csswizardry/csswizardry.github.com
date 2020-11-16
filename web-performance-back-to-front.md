@@ -54,10 +54,10 @@ I went right back to the drawing board to design a workshop format specifically
 optimised for remote delivery. Short, focused, and intensive sessions with
 a clear topic, all recorded for you to keep forever.
 
-However, day-long video calls are tiring—it’s difficult to stay engaged and it’s
-easy to lose focus. This is the last thing you want when you’re trying to learn.
-To combat this, the five sessions are delivered over five consecutive days: 5×
-two-hour sessions run across the course of a week.
+However, day-long video calls are tiring. It’s difficult to stay engaged and
+it’s easy to lose focus—this is the last thing you want when you’re trying to
+learn. To combat this, the five sessions are delivered over five consecutive
+days: 5× two-hour sessions run across the course of a week.
 
 Each day, we meet to take on a new theme, each compartmentalised into its own
 micro-workshop with very clear confines and remits. This means that rather than
