@@ -82,11 +82,11 @@ results. Higher variance means a less stable metric across pages.</figcaption>
 
 With this suite of numbers, I can now begin to make assessments.
 
-I can see from the screenshot above that TTFB is my most stable metrics—no one
+I can see from the screenshot above that TTFB is my most stable metric—no one
 page appears to have particularly expensive database queries or API calls on the
-back-end. Conversely, LCP is far more erratic, meaning that we are likely to have highly
-different content page to page (the metric isn’t _bad_, per se, it’s highly
-variable), and that it’s potentially not equally optimised or delivered.
+back-end. Conversely, LCP is far more erratic, meaning that we are likely to
+have highly different content page to page (the metric isn’t _bad_, per se, it’s
+highly variable), and that it’s potentially not equally optimised or delivered.
 Everything else is a shade in between, and at this stage offers no real
 insights. It’s when we begin to graph the data that useful patterns emerge.
 
