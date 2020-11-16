@@ -1,1 +1,1 @@
-I am <strong>accepting new projects</strong> for Q3 2020
+I am <strong>accepting new projects</strong> for Q4 2020
