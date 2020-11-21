@@ -64,7 +64,6 @@
  * Video................Videos with aspect ratio.
  * Footnotes............Article footnote styles
  * Embeds...............Embedded Tweets etc. need to look nicer
- * Aspect-Ratio.........General-purpose aspect-ratio fluid-images component.
  *
  * SCOPES
  * Post.................Styles scoped specifically to blog post pages
@@ -205,7 +204,6 @@ $inuit-enable-list-ui--small:   true;
 @import "components.video";
 @import "components.footnotes";
 @import "components.embeds";
-@import "components.aspect-ratio";
 
 
 

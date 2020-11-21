@@ -1,9 +1,12 @@
 {% if page.page-class != "page--home" and page.page-class != "page--about" %}
-<p class="c-aspect-ratio"
-   style="--width: 720;
-          --height: 480;
-          background-image: url({% include base64/masthead.jpg.html %});">
-  <img src="/img/css/masthead.4c100a13.jpg" alt="" loading="lazy" elementtiming="sidebar-image" onload="performance.clearMarks('Sidebar Image'); performance.mark('Sidebar Image');" />
+<p>
+  <img src="/img/css/masthead.4c100a13.jpg"
+       alt=""
+       width="720"
+       height="480"
+       style="background-image: url({% include base64/masthead.jpg.html %});"
+       elementtiming="sidebar-image"
+       onload="performance.clearMarks('Sidebar Image'); performance.mark('Sidebar Image');" />
   <script>
     performance.clearMarks("Sidebar Image");
     performance.mark("Sidebar Image");
@@ -45,9 +48,10 @@ improving site-speed. You <a href="/services/?ref=cta-sidebar-bio">should hire m
 {% endif %}
 
 <ul class="[ list-ui  list-ui--small ]  mb">
-  <li><a href="https://github.com/inuitcss/inuitcss"><img src="{{ site.cloudinary }}/img/content/logo-inuitcss{{ image-ext }}.png" alt="inuitcss" loading="lazy" /></a></li>
+  <li><a href="https://github.com/inuitcss/inuitcss"><img src="{{
+      site.cloudinary }}/img/content/logo-inuitcss{{ image-ext }}.png" alt="inuitcss" width="500" height="238" loading="lazy" /></a></li>
   <li><a href="http://itcss.io/">ITCSS</a> – coming soon…</li>
-  <li><a href="http://cssguidelin.es/"><img src="{{ site.cloudinary }}/img/content/logo-css-guidelines{{ image-ext }}.png" alt="CSS Guidelines" loading="lazy" /></a></li>
+  <li><a href="http://cssguidelin.es/"><img src="{{ site.cloudinary }}/img/content/logo-css-guidelines{{ image-ext }}.png" alt="CSS Guidelines" width="540" height="180" loading="lazy" /></a></li>
 </ul>
 
 <h4>Next Appearance</h4>

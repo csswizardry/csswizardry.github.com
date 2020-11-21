@@ -18,16 +18,14 @@ an [award-winning developer](https://thenetawards.com/previous-winners/), and an
 [international speaker](/speaking/).
 
 <figure>
-<div class="c-aspect-ratio"
-     style="--width: 1024;
-            --height: 683;
-            background-image: url({% include base64/me.jpg.html %});">
   <img src="/img/content/me-750.jpg" alt="" sizes="(max-width: 1023px) 100vw,
                                                    (min-width: 1024px) 750px"
                                             srcset="/img/content/me-480.jpg 480w,
                                                     /img/content/me-750.jpg 750w,
                                                     /img/content/me-1024.jpg 1024w"
-                                            intrinsicsize="1024x683"
+                                            style="background-image: url({% include base64/me.jpg.html %});"
+                                            width="1024"
+                                            height="683"
                                             importance="high"
                                             elementtiming="about-image"
                                             onload="performance.clearMarks('About Page Image'); performance.mark('About Page Image');" />
@@ -35,7 +33,6 @@ an [award-winning developer](https://thenetawards.com/previous-winners/), and an
     performance.clearMarks("About Page Image");
     performance.mark("About Page Image");
   </script>
-</div>
 
   <figcaption markdown="1">
   On stage at [beyond tellerrand](http://2013.beyondtellerrand.com/).
