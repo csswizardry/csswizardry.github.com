@@ -8,12 +8,15 @@
  * 3. Setting `vertical-align` removes the whitespace that appears under `img`
  *    elements when they are dropped into a page as-is. Safer alternative to
  *    using `display: block;`.
+ * 4. Setup for Base64 LQIP backgrounds.
  */
 img {
   max-width: 100%; /* [1] */
   font-style: italic; /* [2] */
   vertical-align: middle; /* [3] */
   height: auto;
+  background-repeat: no-repeat; /* [4] */
+  background-size: cover; /* [4] */
 }
 
 video {
