@@ -25,7 +25,7 @@
 
   performance.measure('Content Time', 'Content Start', 'Content End');
 
-  (function() {
+  window.addEventListener('load', function() {
 
     // Only progress if the browser supports User Timings
     if (window.performance) {
