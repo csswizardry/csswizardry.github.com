@@ -110,31 +110,6 @@ ga('send', 'pageview');
 <meta name="theme-color" content="#f43059">
 <link rel="manifest" href="/manifest.json">
 
-{% comment %}
-<!--
-  - Prerender the previous/next blog post if possible.
-  -->
-{% endcomment %}
-{% if page.previous.url %}
-  <link rel="prerender" href="{{page.previous.url}}" />
-{% endif %}
-{% if page.next.url %}
-  <link rel="prerender" href="{{page.next.url}}" />
-{% endif %}
-
-{% comment %}
-<!--
-  - From the homepage, prerender the first blog post.
-  -->
-{% endcomment %}
-{% if page.page-class == "page--home" %}
-{% for post in paginator.posts %}
-  {% if forloop.first == true %}
-    <link rel="prerender" href="{{ post.url }}" />
-  {% endif %}
-{% endfor %}
-{% endif %}
-
 <script>
   performance.mark('HEAD End');
   performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
