@@ -5,18 +5,6 @@
 
 <title>{{ page.title }} &ndash; CSS Wizardry &ndash; Web Performance Optimisation</title>
 
-{% if page.page-class == "page--home" %}
-{% comment %}
-<!--
-  - Fire off masthead download nice and early.
-  - Only needed on homepage.
-  -->
-{% endcomment %}
-<link rel="preload" href="/img/css/masthead.4c100a13.jpg" as="image" media="(max-width: 44.9375em)">
-<link rel="preload" href="/img/css/masthead-medium.e55920c9.jpg" as="image" media="(min-width: 45em) and (max-width: 63.9375em)">
-<link rel="preload" href="/img/css/masthead-large.3cbc4956.jpg" as="image" media="(min-width: 64em)">
-{% endif %}
-
 {% comment %}
 <!--
   - Preemptively open up connections for external assets (Twitter widgets etc).
