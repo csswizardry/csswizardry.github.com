@@ -23,20 +23,20 @@ right into the browser.
 <cite>Web Performance Back to Front</cite> is designed to take a look at all
 aspects of the site-speed spectrum. Starting with a look at everything that is
 happening on the server and CDN, everything across the network, all that takes
-place in the browser, and each bit in between, we’ll cover it all.
+place in the browser, and each bit in between—we’ll cover it all.
 
 In order to keep the workshop engaging, relevant, and practical, it takes the
 form of a real-life performance audit of your own sites and projects—a true
 insight into my own process employed on some of the largest sites in the world.
 We’ll work together over a series of sessions to audit, inspect, and uncover
-performance bottlenecks on the projects that matter most to you.
+performance bottlenecks on the projects that matter to you.
 
 The workshop is divided into five key topics that seamlessly follow on from the
-last in our journey from the back-end to the front.
+last on our journey from the back-end to the front.
 
 1. **Getting to Know a Website:** How to quickly determine the topography of
    a site, how to get our tooling set up to be the most forensic possible, and
-   using other third party tools to complete the picture.
+   using other tools to complete the picture.
 2. **Server, CDN, and Network:** Analysing and troubleshooting back-end issues
    from the browser, determining whether our CDN is working as expected, and
    looking at our sensitivity to network performance.
@@ -63,13 +63,15 @@ Each day, we meet to take on a new theme, each compartmentalised into its own
 micro-workshop with very clear confines and remits. This means that rather than
 trying to juggle a whole week’s worth of learning, we can hit the reset button
 each morning and look at something new. Because all of the sessions are
-recorded, you can dip back in whenever you like: Need to recap third parties?
+recorded, you can dip back in whenever you like. Need to recap third parties?
 Skip to session four! Want to relocate a DevTools setting? Check your notes from
 the first session!
 
 By the end of the week, we’ll have covered the entire web performance gamut in
-five individual sessions, we’ll have actionable insights and action points for
-our own projects and work, we’ll have a whole host of new resources and tools,
+five individual sessions; we’ll have actionable insights and action points for
+our own projects and work; we’ll have a whole host of new resources and tools;
 and we’ll have it all recorded to keep forever!
+
+Sound good?
 
 <a href="/contact/" class="btn  btn--full">Organise a Workshop</a>
