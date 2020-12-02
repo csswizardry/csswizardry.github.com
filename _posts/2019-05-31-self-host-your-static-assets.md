@@ -61,7 +61,7 @@ references](https://github.com/search?q=rawgit&type=Code) to the now-sunset
 service, and almost 20,000 live sites are still linking to it!
 
 <figure>
-<img src="/wp-content/uploads/2019/05/big-query-rawgit.jpg" alt="" />
+<img src="/wp-content/uploads/2019/05/big-query-rawgit.jpg" alt="" loading="lazy" />
 <figcaption>Many thanks to <a href="https://twitter.com/paulcalvano">Paul
 Calvano</a> who very kindly <a
 href="https://bigquery.cloud.google.com/savedquery/226352634162:7c27aa5bac804a6687f58db792c021ee">queried
@@ -125,7 +125,7 @@ Well, on a reasonably fast connection, hosting these static assets off-site is
 311ms, or 1.65×, slower than hosting them ourselves.
 
 <figure>
-<img src="/wp-content/uploads/2019/05/wpt-off-site-cable.png" alt="" />
+<img src="/wp-content/uploads/2019/05/wpt-off-site-cable.png" alt="" loading="lazy" />
 <figcaption>By linking to three different origins in order to serve static
 assets, we cumulatively lose a needless 805ms to network negotiation. <a
 href="https://www.webpagetest.org/result/190531_FY_618f9076491312ef625cf2b1a51167ae/3/details/">Full
@@ -138,7 +138,7 @@ a year](https://wpostats.com/2016/05/04/trainline-spending.html). This is
 a pretty quick way to make eight mill.
 
 <figure>
-<img src="/wp-content/uploads/2019/05/wpt-self-hosted-cable.png" alt="" />
+<img src="/wp-content/uploads/2019/05/wpt-self-hosted-cable.png" alt="" loading="lazy" />
 <figcaption>By simply moving our assets onto the host domain, we completely
 remove any extra connection overhead. <a
 href="https://www.webpagetest.org/result/190531_FX_f7d7b8ae511b02aabc7fa0bbef0e37bc/3/details/">Full
@@ -150,7 +150,7 @@ the externally-hosted version comes in at an eye-watering **1.765s slower**.
 I thought this was meant to make our site faster?!
 
 <figure>
-<img src="/wp-content/uploads/2019/05/wpt-off-site-3g.png" alt="" />
+<img src="/wp-content/uploads/2019/05/wpt-off-site-3g.png" alt="" loading="lazy" />
 <figcaption>On a high latency connection, network overhead totals a whopping
 5.037s. All completely avoidable. <a
 href="https://www.webpagetest.org/result/190531_XE_a95eebddd2346f8bb572cecf4a8dae68/3/details/">Full
@@ -161,7 +161,7 @@ Moving the assets onto our own infrastructure brings load times down from around
 5.4s to just 3.6s.
 
 <figure>
-<img src="/wp-content/uploads/2019/05/wpt-self-hosted-3g.png" alt="" />
+<img src="/wp-content/uploads/2019/05/wpt-self-hosted-3g.png" alt="" loading="lazy" />
 <figcaption>By self-hosting our static assets, we don’t need to open any more
 connections. <a
 href="https://www.webpagetest.org/result/190531_ZF_4d76740567ec1eba1e6ec67acfd57627/1/details/">Full
@@ -228,13 +228,13 @@ Compare the two HTTP/2 dependency trees for both the off-site and self-hosted
 versions respectively:
 
 <figure>
-<img src="/wp-content/uploads/2019/05/wpt-dep-tree-off-site.png" alt="" />
+<img src="/wp-content/uploads/2019/05/wpt-dep-tree-off-site.png" alt="" loading="lazy" />
 <figcaption>Notice how we need to build new dependency trees per
 origin? Stream IDs 1 and 3 keep reoccurring.</figcaption>
 </figure>
 
 <figure>
-<img src="/wp-content/uploads/2019/05/wpt-dep-tree-self-hosted.png" alt="" />
+<img src="/wp-content/uploads/2019/05/wpt-dep-tree-self-hosted.png" alt="" loading="lazy" />
 <figcaption>By hosting all content under the same origin, we can build one, more
 complete dependency tree. Every stream has a unique ID as they’re all in the
 same tree.</figcaption>

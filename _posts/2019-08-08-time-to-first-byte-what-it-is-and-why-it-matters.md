@@ -34,7 +34,7 @@ You really want to squish those TTFB bugs as soon as you can.
 ## What is TTFB?
 
 <figure>
-<img src="/wp-content/uploads/2019/08/screenshot-ttfb.png" alt="" />
+<img src="/wp-content/uploads/2019/08/screenshot-ttfb.png" alt="" loading="lazy" />
 <figcaption>The TTFB timing entry isn’t particularly insightful. <a
 href="/wp-content/uploads/2019/08/screenshot-ttfb-full.png">View full
 size/quality (375KB)</a></figcaption>
@@ -144,7 +144,7 @@ the application has measured itself.
 This is exactly what we did at BBC iPlayer last year:
 
 <figure>
-<img src="/wp-content/uploads/2019/08/screenshot-server-timing.png" alt="" />
+<img src="/wp-content/uploads/2019/08/screenshot-server-timing.png" alt="" loading="lazy" />
 <figcaption>The newly-available <code>Server-Timing</code> header can be added
 to any response. <a
 href="/wp-content/uploads/2019/08/screenshot-server-timing-full.png">View full
@@ -157,7 +157,7 @@ the relevant data. All the browser does is display the data in the relevant
 tooling, making it available on the front-end:
 
 <figure>
-<img src="/wp-content/uploads/2019/08/screenshot-ttfb-iplayer.png" alt="" />
+<img src="/wp-content/uploads/2019/08/screenshot-ttfb-iplayer.png" alt="" loading="lazy" />
 <figcaption>Now we can see, right there in the browser, how long certain aspects
 of our TTFB took. <a
 href="/wp-content/uploads/2019/08/screenshot-ttfb-iplayer-full.png">View full

@@ -23,7 +23,7 @@ mind as you read.</small>
 It all started, as these things often do, with a waterfall:
 
 <figure>
-<img src="/wp-content/uploads/2019/08/wpt-cloud.typography-blocking.png" />
+<img src="/wp-content/uploads/2019/08/wpt-cloud.typography-blocking.png" alt="" />
 <figcaption>So much to unpack in only a handful of entries! Can you see
 it? <a href="/wp-content/uploads/2019/08/wpt-cloud.typography-blocking.png">View
 full size (31KB)</a></figcaption>
@@ -121,7 +121,7 @@ on our Critical Path for a first-time visit on a cable connection. A repeat view
 still cost us 280ms:
 
 <figure>
-<img src="/wp-content/uploads/2019/08/wpt-cloud.typography-blocking-repeat-view.png" />
+<img src="/wp-content/uploads/2019/08/wpt-cloud.typography-blocking-repeat-view.png" alt="" loading="lazy" />
 <figcaption>Because the Cloud.typography ‘CSS file’ has
 a <code>must-revalidate</code> header,
 we still take the latency hit on repeat views. <a
@@ -195,7 +195,7 @@ Yes. As simple as that. Note now that entry (3) executes before the
 `fonts.[client].com` file has even begun downloading.
 
 <figure>
-<img src="/wp-content/uploads/2019/08/wpt-cloud.typography-unblocking.png" />
+<img src="/wp-content/uploads/2019/08/wpt-cloud.typography-unblocking.png" alt="" loading="lazy" />
 <figcaption>By loading the CSS after our JS, the JS can run much sooner. <a href="/wp-content/uploads/2019/08/wpt-cloud.typography-unblocking.png">View full size (29KB)</a></figcaption>
 </figure>
 

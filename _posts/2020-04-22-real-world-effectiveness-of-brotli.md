@@ -277,7 +277,7 @@ accepted compression algorithm(s) is via the `content-encoding` request header,
 and using WebPageTest, I can define my own. Easy!
 
 <figure>
-<img src="/wp-content/uploads/2020/04/wpt-advanced.png" alt="">
+<img src="/wp-content/uploads/2020/04/wpt-advanced.png" alt="" loading="lazy">
 <figcaption>WebPageTest’s advanced feature allows us to set custom request
 headers.</figcaption>
 </figure>

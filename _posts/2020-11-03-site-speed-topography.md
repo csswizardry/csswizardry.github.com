@@ -65,7 +65,7 @@ milestones and metrics. We’re interested in the first seven technical timings,
 _First Byte_ through _Total Blocking Time_:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2020/10/wpt-milestones.png" alt="" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2020/10/wpt-milestones.png" alt="" loading="lazy" />
 <figcaption>WebPageTest offers a wealth of insight, but right now we don’t need
 to go any deeper than this.</figcaption>
 </figure>
@@ -75,7 +75,7 @@ it into a spreadsheet. If you’d like a copy of the exact spreadsheet I use, yo
 can [get hold of it here](https://gumroad.com/l/site-speed-topography).
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2020/10/milestones-spreadsheet.png" alt="" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2020/10/milestones-spreadsheet.png" alt="" loading="lazy" />
 <figcaption>Note the bottom row shows me the Standard Deviation of the tests’
 results. Higher variance means a less stable metric across pages.</figcaption>
 </figure>
@@ -97,7 +97,7 @@ before](https://gumroad.com/l/site-speed-topography)—I’ve simply graphed the
 data by page type.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2020/10/milestones-chart.png" alt="" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2020/10/milestones-chart.png" alt="" loading="lazy" />
 <figcaption><strong>N.B.</strong> CLS is the only metric not captured in
 seconds, thus appears plotted separately against the right Y-axis.</figcaption>
 </figure>

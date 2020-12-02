@@ -80,7 +80,7 @@ UK.
 ### Under Budget
 
 <figure>
-<img src="/wp-content/uploads/2020/01/visually-complete-budget.png" alt="" />
+<img src="/wp-content/uploads/2020/01/visually-complete-budget.png" alt="" loading="lazy" />
 <figcaption>Well under budget for Visually Complete every single day. <a href="/wp-content/uploads/2020/01/visually-complete-budget.png">(View full size.)</a></figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ maximum for the next two weeks before revisiting once more.
 ### On Budget
 
 <figure>
-<img src="/wp-content/uploads/2020/01/start-render-budget.png" alt="" />
+<img src="/wp-content/uploads/2020/01/start-render-budget.png" alt="" loading="lazy" />
 <figcaption>Hitting the Start Render threshold four days out of 14. <a href="/wp-content/uploads/2020/01/start-render-budget.png">(View full size.)</a></figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ some proactive input to keep within the bounds.
 ### Over Budget
 
 <figure>
-<img src="/wp-content/uploads/2020/01/fully-loaded-budget.png" alt="" />
+<img src="/wp-content/uploads/2020/01/fully-loaded-budget.png" alt="" loading="lazy" />
 <figcaption>Completely overshooting the Fully Loaded budget every day. <a href="/wp-content/uploads/2020/01/fully-loaded-budget.png">(View full size.)</a></figcaption>
 </figure>
 
