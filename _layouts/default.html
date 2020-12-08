@@ -5,7 +5,17 @@
 
 <body>
 
-    {{ content }}
+  <nav class="hide">
+    <a href="
+             {% if page.page-class == 'page--home' %}
+              #section:articles
+             {% else %}
+              #section:main
+             {% endif %}
+            ">Skip to main content</a>
+  </nav>
+
+  {{ content }}
 
 <script>
   if ('serviceWorker' in navigator) {
