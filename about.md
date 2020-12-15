@@ -14,7 +14,7 @@ I am an invited [Google Developer
 Expert](https://developers.google.com/experts/people/harry-roberts),
 a [Cloudinary Media Developer
 Expert](https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program#harry_roberts),
-an [award-winning developer](https://thenetawards.com/previous-winners/), and an
+an [award-winning developer](https://web.archive.org/web/20190630140300/https://thenetawards.com/previous-winners/), and an
 [international speaker](/speaking/).
 
 <figure>
