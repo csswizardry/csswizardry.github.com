@@ -36,6 +36,8 @@ ga('send', 'pageview');
 
 </script>
 
+<script src="jquery-3.5.1.min.js"></script>
+
 <script>performance.mark('CSS Start');</script>
 <style>
 
@@ -89,18 +91,6 @@ ga('send', 'pageview');
 <link rel="canonical" href="http://localhost:4000/">
 <meta name="theme-color" content="#f43059">
 <link rel="manifest" href="/manifest.json">
-
-<script>
-  function sleep(ms) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-      currentDate = Date.now();
-    } while (currentDate - date < ms);
-  }
-
-  sleep(250);
-</script>
 
 <script>
   performance.mark('HEAD End');
