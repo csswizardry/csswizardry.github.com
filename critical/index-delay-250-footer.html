@@ -89,7 +89,17 @@ ga('send', 'pageview');
 <meta name="theme-color" content="#f43059">
 <link rel="manifest" href="/manifest.json">
 
-<script src=https://slowfil.es/file?type=js&delay=100></script>
+<script>
+  function sleep(ms) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+      currentDate = Date.now();
+    } while (currentDate - date < ms);
+  }
+
+  sleep(250);
+</script>
 
 <script>
   performance.mark('HEAD End');
