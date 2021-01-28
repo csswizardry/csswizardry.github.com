@@ -6,8 +6,6 @@ meta: "Affordable, remote performance audits and code reviews for your product"
 permalink: /code-reviews/
 ---
 
-<p class="u-text-prominent">£6,000 (+VAT)</p>
-
 **Your website is too slow. I can tell you why.**
 
 You could be leaving hundreds of thousands of pounds of revenue on the table
