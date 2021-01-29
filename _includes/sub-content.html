@@ -6,6 +6,7 @@
        height="480"
        style="background-image: url({% include base64/masthead.jpg.html %});"
        elementtiming="sidebar-image"
+       decoding="async"
        onload="performance.clearMarks('Sidebar Image'); performance.mark('Sidebar Image');" />
   <script>
     performance.clearMarks("Sidebar Image");
