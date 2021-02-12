@@ -48,9 +48,9 @@ it](https://gumroad.com/l/questions-for-consultants).
 
 For lighter-touch guidance and advice, we can schedule 90-minute consultations
 to answer your most pressing questions: want to work out what a slow website is
-costing your business? Need to know where you should you focus your efforts
-first? Looking for help troubleshooting specific performance issues? Let’s get
-your answers.
+costing your business? Need to know where you should focus your efforts first?
+Looking for help troubleshooting specific performance issues? Let’s get your
+answers.
 
 Consultations are a great idea if:
 
