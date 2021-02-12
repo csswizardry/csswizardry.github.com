@@ -12,12 +12,14 @@ permalink: /contact/
 
 * For **consulting engagements**, please [send me an
   email](mailto:csswizardry@gmail.com).
+  * For **consultations**, [schedule an
+    appointment](/consultancy/#consultations).
 * For **speaking engagements**, [see my speaking
   page](/speaking/#section:request).
 * For **general questions** and advice, see [my AMA
   repository](https://github.com/csswizardry/ama).
-* For **small questions**, or just to say hi, feel free to [fire me a
-  Tweet](https://twitter.com/csswizardry).
+* For **small questions**, or just to say hi, feel free to [fire me
+  a Tweet](https://twitter.com/csswizardry).
 * Interested in **software and tools**? See [my setup](/uses/).
 * To keep in **regular contact**, [join my newsletter](/newsletter/).
 * Still use **RSS**? [Subscribe](https://feeds.feedburner.com/csswizardry).

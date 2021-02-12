@@ -42,6 +42,36 @@ it](https://gumroad.com/l/questions-for-consultants).
 
 <a href="mailto:csswizardry@gmail.com?subject=Consultancy%20Engagement" class="btn  btn--full">Let’s Talk!</a>
 
+- - -
+
+## Consultations
+
+For lighter-touch guidance and advice, we can schedule 90-minute consultations
+to answer your most pressing questions: want to work out what a slow website is
+costing your business? Need to know where you should you focus your efforts
+first? Looking for help troubleshooting specific performance issues? Let’s get
+your answers.
+
+Consultations are a great idea if:
+
+1. **you have a specific, distinct issue** that you don’t need a weeks-long
+   consultancy project to solve;
+2. **you want to start your site-speed journey more tentatively**, testing the
+   water with a smaller commitment at the beginning.
+
+If we go on to work together more fully after our initial consultation, it gets
+discounted from your first consultancy invoice. Win-win, no risk!
+
+<a href="https://calendly.com/csswizardry/consultation" class="btn  btn--full">Schedule a Consultation</a>
+
+<small>A consultation is not just a call—when you schedule a consultation, I’ll
+ask you to provide me with any relevant research, homework, and tasks so that
+I can fully prepare for our meeting. Want me to look over some waterfall charts?
+You got it! Need me to debug some stuff? Send me a URL. Need a second opinion on
+your Vitals? I’m on it!</small>
+
+- - -
+
 ## Got Questions?
 
 {% include faq-consultancy.md %}
