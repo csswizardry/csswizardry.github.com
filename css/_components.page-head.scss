@@ -43,15 +43,8 @@
       @media screen and (min-height: 75em) {
         position: sticky;
         top: 0;
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: rgba(255, 255, 255, 0.95);
         z-index: 1;
-        backdrop-filter: blur(10px);
-        transition: 0.2s background-color;
-        will-change: opacity;
-
-        &:hover {
-          background-color: rgba(255, 255, 255, 0.95);
-        }
       }
 
     }
