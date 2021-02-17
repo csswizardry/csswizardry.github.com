@@ -33,3 +33,19 @@ a {
     }
 
 }
+
+/**
+ * On large enough screens, the header docks to the top of the screen.
+ * Accordingly, we need to keep any `:target`ed elements clear.
+ */
+@supports (position: sticky) {
+
+  @media screen and (min-height: 75em) {
+
+    :target {
+      scroll-margin-top: 5 * $spacing-unit;
+    }
+
+  }
+
+}
