@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+
+  <script>
+    performance.mark('startAsyncSnippet');
+    var script = document.createElement('script');
+    script.src = "https://slowfil.es/file?type=js&delay=1000";
+    document.getElementsByTagName('head')[0].appendChild(script);
+    performance.mark('endAsyncSnippet');
+  </script>
+
+  <title>HEAD</title>
+
+  <!--
+  <script>
+    performance.mark('startCSSBlock');
+  </script>
+  <style>
+    h1 { color: hotpoink; }
+  </style>
+  <script>
+    performance.mark('endCSSBlock');
+  </script>
+
+  <script>
+    performance.mark('startCSSFile');
+  </script>
+  <link rel="stylesheet" href="https://slowfil.es/file?type=css&delay=1000" />
+  <script>
+    performance.mark('endCSSFile');
+  </script>
+
+  <script>
+    performance.mark('cssDone');
+  </script>
+
+  <script>
+    performance.mark('startScriptTag');
+  </script>
+  <script src="https://slowfil.es/file?type=js&delay=1000&regular"></script>
+  <script>
+    performance.mark('endScriptTag');
+  </script>
+
+  <script>
+    performance.mark('startScriptTagAsync');
+  </script>
+  <script src="https://slowfil.es/file?type=js&delay=1000&async" async></script>
+  <script>
+    performance.mark('endScriptTagAsync');
+  </script>
+  -->
+
+  <script>
+    performance.mark('DONE');
+  </script>
+
+</head>
+<body>
+
+  <h1>Done</h1>
+
+  <script>
+    var perfEntries = performance.getEntriesByType("mark");
+    for (var i = 0; i < perfEntries.length; i++) {
+      if (window.console) console.log(perfEntries[i].name + ": " + perfEntries[i].startTime + "\n");
+    }
+  </script>
+
+</body>
+</html>
+

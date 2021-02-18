@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+
+  <script>
+    function wait(ms) {
+      var start = Date.now(),
+      now = start;
+      while (now - start < ms) {
+        now = Date.now();
+      }
+    }
+    wait(1000);
+  </script>
+
+  <title>My Page</title>
+
+</head>
+<body>
+
+  <h1>Long-Running JS Before <code>&lt;title&gt;</code></h1>
+
+  <p><a href="/2018/10/get-your-head-straight/#title">Back to article</a></p>
+
+</body>
+</html>
