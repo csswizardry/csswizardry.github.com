@@ -25,6 +25,8 @@
      *    http://www.heydonworks.com/article/tetris-and-the-power-of-css
      */
     .feature-list__item {
+      position: relative; /* [1] */
+      z-index: 1; /* [1] */
       contain: paint; /* [1] */
 
         @include media-query(lap-and-up) {

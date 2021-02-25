@@ -2,11 +2,17 @@
     #BUTTONS
 \*------------------------------------*/
 
+/**
+ * 1. Fight repaints.
+ * 2. Fight repaints of subsequent elements.
+ */
+
 .btn {
     @include font-weight(bold);
     @include vendor(transition, 0.2s);
     position: relative;
-    will-change: transform;
+    will-change: transform; /* [1] */
+    z-index: 1; /* [2] */
 
     @include attention() {
       background-color: darken($color-btn, 10%);
