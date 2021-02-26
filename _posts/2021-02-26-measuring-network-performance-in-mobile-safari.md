@@ -59,7 +59,7 @@ to be faster and are found in ‘faster regions’.
   <figcaption>Same page, same connection speed, same locale, same release year, different devices.</figcaption>
 </figure>
 
-<h3><q>But, Can’t I Just Emulate?</q></h3>
+## <q>But, Can’t I Just Emulate?</q>
 
 No.
 
