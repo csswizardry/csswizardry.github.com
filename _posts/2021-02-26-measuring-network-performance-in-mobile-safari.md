@@ -149,7 +149,7 @@ Inspector_. That’s it! You’re good to go.
   <img src="{{ site.cloudinary }}/wp-content/uploads/2021/02/ios-safari-settings.png" width="1500" height="1624" alt="" loading="lazy" />
 </figure>
 
-This will allow your desktop version of Safari to inspect the current tab ob
+This will allow your desktop version of Safari to inspect the current tab of
 your iPhone’s Safari instance.
 
 ### Inspect Your Phone From Your Mac
