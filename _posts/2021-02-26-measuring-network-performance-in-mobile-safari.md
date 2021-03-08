@@ -98,8 +98,11 @@ However, there are two key caveats:
    is—DevTools allows us to work far more quickly and interactively, responding
    to changes and tweaks as we make them.
 
-But still, this is an amazing starting point for anyone wanting to start
-profiling web performance on iOS.
+Still, this is an amazing starting point for anyone wanting to begin profiling
+web performance on iOS. In fact, this is something that WebPageTest has improved
+upon and [written
+about](https://blog.catchpoint.com/2021/01/28/with-m1-mac-minis-the-future-is-bright-for-mobile-device-testing/)
+only a month prior to this article you’re reading right now.
 
 ## Testing in Safari’s DevTools
 
