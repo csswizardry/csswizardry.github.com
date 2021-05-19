@@ -180,7 +180,7 @@ The small demo embedded below shows the exported Request Map data for my
 homepage:
 
 <figure>
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSIbxaluGaV83Xr8Mov6m-UtukC5c5u64dBrQQp3SWIzSCNiJzjgMZ_2BiGnKt0V2wsmLYIOu8z_pEQ/pubhtml?widget=true&amp;headers=true" height="360"></iframe>
+  <iframe loading=lazy src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSIbxaluGaV83Xr8Mov6m-UtukC5c5u64dBrQQp3SWIzSCNiJzjgMZ_2BiGnKt0V2wsmLYIOu8z_pEQ/pubhtml?widget=true&amp;headers=true" height="360"></iframe>
 </figure>
 
 The columns should all be fairly self-explanatory:

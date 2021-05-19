@@ -24,7 +24,7 @@ streaming Spotify through an Amazon Echo.
 
 Here are my top five most-played tracks of 2017’s 70,000 minutes:
 
-<iframe class="c-spotify-embed"
+<iframe loading=lazy class="c-spotify-embed"
 src="https://open.spotify.com/embed/user/csswizardry/playlist/2X2MsFTeUPHUUWuvFaBWcS"
 width="300" height="380" frameborder="0" allowtransparency="true"
 allow="encrypted-media"></iframe>
