@@ -56,17 +56,3 @@ pleasantly surprised.
   <li class="c-nav-secondary__item"><a href="#section:faq" class="c-nav-secondary__link">FAQ</a></li>
   <li class="c-nav-secondary__item"><a href="#section:office" class="c-nav-secondary__link  is-current">Office</a></li>
 </ul>
-
-## Postal Address
-
-My office is based in the centre of Leeds, at [Duke
-Studios](https://duke-studios.com/):
-
-<address>
-CSS Wizardry Ltd.<br />
-℅ Duke Studios<br />
-3 Sheaf Street<br />
-Leeds<br />
-LS10 1HD<br />
-UK
-<address>
