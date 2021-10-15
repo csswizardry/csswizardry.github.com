@@ -59,11 +59,6 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    🌍 <a href="https://fitc.ca/event/webu21/">Web Unleashed</a>, Remote (Online), October 2021
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/de.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://beyondtellerrand.com/events/dusseldorf-2021/">Beyond Tellerrand</a>, Düsseldorf (Germany), November 2021
   </li>
 
@@ -141,6 +136,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2021
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) October 2021
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
