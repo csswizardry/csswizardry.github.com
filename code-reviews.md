@@ -1,20 +1,22 @@
 ---
 layout: page
-title: Performance Audits and Code Reviews
+title: Performance Audits
 page-class: page--services  page--code-reviews
-meta: "Affordable, remote performance audits and code reviews for your product"
+meta: "Affordable, remote performance audits for your product"
 permalink: /code-reviews/
 ---
 
 **Your website is too slow. I can tell you why.**
 
-You could be leaving hundreds of thousands of pounds of revenue on the table
+You could be leaving hundreds of thousands of dollars of revenue on the table
 every year due to a poorly- or un-optimised website. Slow websites are one of
 online consumers’ biggest frustrations, and a fast way to miss out on sales.
 
 Whether you want to boost revenues, improve conversion rates, reduce churn, or
 improve retention and engagement, a well-optimised site is a key way to get
 there.
+
+{% include promo-ten-minute-teardown.html %}
 
 ## How It Works
 
@@ -92,4 +94,33 @@ Once the audit is complete, you receive:
   made—and maintained!—as well as to see what outstanding issues or unresolved
   problems there might be.
 
-<a href="mailto:csswizardry@gmail.com?subject=Performance%20Audit" class="btn  btn--full">Arrange a Review</a>
+<a href="mailto:csswizardry@gmail.com?subject=Performance%20Audit" class="btn  btn--full">Arrange an Audit</a>
+
+- - -
+
+## Ten-Minute Teardown
+
+Sometimes, a week-long audit is a little more than you need. Perhaps you only
+have a very specific issue you’d like to tackle; maybe you’re not sure how much
+input you need at all? For you, we have the _Ten-Minute Teardown_: a quick-fire,
+tactical, and straight to the point screencast covering the most immediate
+problems you face.
+
+<figure>
+<img src="{{ site.cloudinary }}/img/content/teardown.jpg" alt="" loading="lazy" width="750" height="469" />
+<figcaption>Video is the ideal format for tactical problem solving.</figcaption>
+</figure>
+
+You tell me the issue, I run some tests, and then record myself solving it. At
+the end, you’re left with a screencast showing exactly how I went about
+troubleshooting the issue, as well its solution.
+
+A teardown is a very pragmatic response to the need for short, targeted advice
+that doesn’t require a full audit engagement. It can also be used to triage the
+extent of performance issues with your site.
+
+<a href="https://calendly.com/csswizardry/ten-minute-teardown" class="btn  btn--full">Schedule a Teardown</a>
+
+<small>A teardown does not necessarily last for only ten minutes. If I need to
+spend 30 minutes, I will. The point is more that the service is a quick-fire,
+fast-turnaround format.</small>
