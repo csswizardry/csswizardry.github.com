@@ -101,7 +101,7 @@ However, there are two key caveats:
 Still, this is an amazing starting point for anyone wanting to begin profiling
 web performance on iOS. In fact, this is something that WebPageTest has improved
 upon and [written
-about](https://blog.catchpoint.com/2021/01/28/with-m1-mac-minis-the-future-is-bright-for-mobile-device-testing/)
+about](https://www.catchpoint.com/blog/m1-mac-mini-mobile-device-testing)
 only a month prior to this article you’re reading right now.
 
 ## Testing in Safari’s DevTools
