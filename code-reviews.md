@@ -113,7 +113,7 @@ problems you face.
 
 You tell me the issue, I run some tests, and then record myself solving it. At
 the end, you’re left with a screencast showing exactly how I went about
-troubleshooting the issue, as well its solution.
+troubleshooting the issue, as well as its solution.
 
 A teardown is a very pragmatic response to the need for short, targeted advice
 that doesn’t require a full audit engagement. It can also be used to triage the
