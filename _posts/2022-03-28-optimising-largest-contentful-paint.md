@@ -100,7 +100,7 @@ sized, sensibly compressed, etc. Don’t have a 3MB TIFF as your LCP candidate.
 
 This isn’t going to work for a lot, if not most, sites. But the best way to get
 a fast LCP is to ensure that your LCP is text-based. This, in effect, makes your
-FCP and LCP synonymous[^1]. That’s it. As simple as that. If possible, avoid
+FCP and LCP synonymous[^1][^2]. That’s it. As simple as that. If possible, avoid
 image-based LCP candidates and opt instead for textual LCPs.
 
 The chances are, however, that won’t work for you. Let’s look at our other
@@ -448,3 +448,4 @@ preload scanner. Beyond that, there are several things that we need to avoid:
 </figure>
 
 [^1]: You’ll need to make sure you’re using `font-display: [swap|optional];` so as to avoid an initial, invisible text paint.
+[^2]: I did discover [another bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1310995) while investigating this, though.
