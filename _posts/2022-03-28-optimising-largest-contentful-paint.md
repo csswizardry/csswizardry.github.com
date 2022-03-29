@@ -139,8 +139,11 @@ It’s also worth noting that each demo is very stripped back, and doesn’t
 _necessarily_ represent realistic conditions in which many responses would be
 in-flight at the same time. Once we run into resource contention, LCP
 candidates’ discovery may work differently to what is exhibited in these reduced
-test cases—all I’m interested in right now is inherent differences in how
-browsers treat certain resources.
+test cases. In cases like these, we might look to [Priority
+Hints](https://web.dev/priority-hints/) or
+[Preload](https://web.dev/preload-critical-assets/) to lend a hand. All I’m
+interested in right now is inherent differences in how browsers treat certain
+resources.
 
 The initial demos can be found at:
 
