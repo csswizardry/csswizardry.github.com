@@ -392,6 +392,29 @@ to a 3.767s LCP event rather than 3.144s.
 
 Avoid fading in your LCP candidate, whether it’s image- or text-based.
 
+### Don’t Host Your LCP Off-Site
+
+Where possible, we should always [self-host our static
+assets](https://csswizardry.com/2019/05/self-host-your-static-assets/). This
+includes our LCP candidate.
+
+It’s not uncommon for site owners to use third-party image optimisation services
+such as [Cloudinary](https://cloudinary.com/) to serve both automated and
+dynamically optimised images: on the fly resizing, format switching,
+compression, etc. However, even when taking into account the performance
+improvements of of these services, the cost of heading to a different origin
+almost always outweighs the benefits. [In
+testing](https://www.webpagetest.org/result/220329_BiDcEY_A7T/2/details/#request-overlay-step1-2),
+the time spent resolving a new origin added 509ms to overall time spend
+downloading our LCP image.
+
+By all means, use third party services for non-critical, non-LCP images, but if
+you can, bring your LCP candidate onto the same origin as the host page. That’s
+exactly what I do for [this site](https://github.com/csswizardry/csswizardry.github.com/blob/a5875b108191f3fcdc580cd13b02e285fee1a5b0/_includes/header--masthead.html#L11-L13).
+
+<small>**N.B.** While `preconnect` may help a little, it’s still highly unlikely
+to be faster than not opening a new connection at all.</small>
+
 ### Don’t Build Your LCP on the Client
 
 I see this all too often, and it’s part of the continued obsession with
