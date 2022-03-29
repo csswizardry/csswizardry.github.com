@@ -232,9 +232,10 @@ our demo, it is actually flagged as being the much smaller
 <code>&lt;p&gt;</code> element.</figcaption>
 </figure>
 
-Once the fix rolls out in M102 (which is Canary at the time of writing), we can
-expect accurate measurements. This does mean that you may experience degraded
-LCP scores for your site.
+Once the fix rolls out in M102 (which is Canary at the time of writing, and will
+reach Stable on [24 May, 2022](https://chromiumdash.appspot.com/schedule)), we
+can expect accurate measurements. This does mean that you may experience
+degraded LCP scores for your site.
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2022/03/image-m102.png" alt="" loading="lazy" width="1500" height="970" />
