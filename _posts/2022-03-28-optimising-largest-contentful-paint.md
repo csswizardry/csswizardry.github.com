@@ -372,9 +372,13 @@ completely counter-intuitive. Please don’t do it!
 <img src="{{ site.cloudinary }}/wp-content/uploads/2022/03/waterfall-lazyload.png" alt="" loading="lazy" width="930" height="148" />
 </figure>
 
-Interestingly, one of the features of `loading="lazy"` is that it hides the
-image in question from the preload scanner. This means that, even if the image
-is in the viewport, the browser will still late-request it.
+Interestingly, one of the features of `loading="lazy"` is that it [hides the
+image in question from the preload
+scanner](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/html/parser/html_preload_scanner.cc;l=601;drc=7fb345a0da63049b102e1c0bcdc8d7831110e324?q=HTMLPreloadScanner&ss=chromium).
+This means that, even if the image is in the viewport, the browser will still
+late-request it. This is why you can’t safely add `loading="lazy"` to all of
+your images and simply hope the browser does (what you think is) the right
+thing.
 
 In my tests, lazily loading our image pushed LCP back to 4.418s: 1.274s slower
 than the `<img />` variant, and almost identical to the `background-image` test.
