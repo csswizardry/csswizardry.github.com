@@ -64,7 +64,7 @@ themselves, but it’s going to help your LCP if you can get them as low as
 possible.
 
 <figure>
-<img src="/wp-content/uploads/2022/03/treo.png" alt="" loading="lazy" width="1500" height="321" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2022/03/treo.png" alt="" loading="lazy" width="1500" height="321" />
 <figcaption>
   <a href="https://treo.sh/sitespeed/csswizardry.com?formFactor=phone&metrics=ttfb%2Cfcp%2Clcp%2Cfid%2Ccls%2Col">Treo</a>
   is an incredible tool for getting timings data from CrUX.
