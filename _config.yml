@@ -11,6 +11,9 @@ cloudinary: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/ht
 markdown: kramdown
 permalink: /:year/:month/:title/
 paginate: 10
+incremental: true
 
 # Gems
-gems: [jekyll-paginate]
+plugins:
+- jekyll-sitemap
+- jekyll-paginate
