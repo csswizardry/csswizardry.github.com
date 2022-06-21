@@ -45,34 +45,38 @@ To quickly recap, BEM gives us two very useful suffixes—`__element` and
 `--modifier`—that we append onto our classes in order to tell us the role of
 certain bits of UI, for example:
 
-    /**
-     * The top-level ‘Block’ of a component.
-     */
-    .modal {}
+{% highlight css %}
+/**
+ * The top-level ‘Block’ of a component.
+ */
+.modal {}
 
-      /**
-       * An ‘Element’ that is a part of the larger Block.
-       */
-      .modal__title {}
+  /**
+   * An ‘Element’ that is a part of the larger Block.
+   */
+  .modal__title {}
 
-    /**
-     * A ‘Modifier’ of the Block.
-     */
-    .modal--large {}
+/**
+ * A ‘Modifier’ of the Block.
+ */
+.modal--large {}
+{% endhighlight %}
 
 In our CSS, this naming isn’t all that useful, but when we see it in out HTML we
 get a much better view of what’s going on:
 
-    <div class="modal  modal--large">
+{% highlight html %}
+<div class="modal  modal--large">
 
-      <h1 class="modal__title">Sign into your account</h1>
+  <h1 class="modal__title">Sign into your account</h1>
 
-      <div class="modal__content">
-        <form class="form-login">
-        </form>
-      </div>
+  <div class="modal__content">
+    <form class="form-login">
+    </form>
+  </div>
 
-    </div>
+</div>
+{% endhighlight %}
 
 We can see from this that we have a number of classes all relating to our
 `.modal`, and a class of `.form-login` which begins a brand new context.
@@ -198,15 +202,19 @@ utilises namespacing as a means of soft encapsulation.
 
 Format:
 
-    .o-object-name[<element>|<modifier>] {}
+{% highlight css %}
+.o-object-name[<element>|<modifier>] {}
+{% endhighlight %}
 
 Example:
 
-    .o-layout {}
+{% highlight css %}
+.o-layout {}
 
-      .o-layout__item {}
+  .o-layout__item {}
 
-    .o-layout--fixed {}
+.o-layout--fixed {}
+{% endhighlight %}
 
 The `o-` namespace for Objects is a very useful one for any teams who use
 Object-Oriented CSS.
@@ -229,8 +237,10 @@ of the CSS or what its classes mean or do. You’re asked by a Product Owner to
 add some padding around the testimonials that appear on the site. You right
 click, Inspect Element, and you see this:
 
-    <blockquote class="media  testimonial">
-    </blockquote>
+{% highlight html %}
+<blockquote class="media  testimonial">
+</blockquote>
+{% endhighlight %}
 
 Now, it should be fairly clear here that what you should do is go and find the
 `.testimonial {}` ruleset in your CSS and add the padding there. However, using
@@ -257,8 +267,10 @@ developers about their universal nature, and hopefully avoid ever having people
 binding onto them and breaking things. If you ever see a class that begins with
 `o-`, alarm bells should ring and you should know to stay well away from it.
 
-    <blockquote class="o-media  testimonial">
-    </blockquote>
+{% highlight html %}
+<blockquote class="o-media  testimonial">
+</blockquote>
+{% endhighlight %}
 
 * Objects are abstract.
 * They can be used in any number of places across the project—places you might
@@ -270,15 +282,19 @@ binding onto them and breaking things. If you ever see a class that begins with
 
 Format:
 
-    .c-component-name[<element>|<modifier>] {}
+{% highlight css %}
+.c-component-name[<element>|<modifier>] {}
+{% endhighlight %}
 
 Example:
 
-    .c-modal {}
+{% highlight css %}
+.c-modal {}
 
-      .c-modal__title {}
+  .c-modal__title {}
 
-    .c-modal--gallery {}
+.c-modal--gallery {}
+{% endhighlight %}
 
 Components are some of the safest types of selectors we will encounter.
 Components are finite, discrete, implementation-specific parts of our UI that
@@ -294,8 +310,10 @@ Objects are implementation-agnostic, Components are implementation-specific.
 If we revisit the previous example, and introduce the Object and Components’
 namespaces, we’d be left with this:
 
-    <blockquote class="o-media  c-testimonial">
-    </blockquote>
+{% highlight html %}
+<blockquote class="o-media  c-testimonial">
+</blockquote>
+{% endhighlight %}
 
 Now I can tell _purely_ from this HTML that any changes I make to the `.o-media`
 class may be felt throughout the entire site, but any changes I make to the
@@ -309,11 +327,15 @@ class may be felt throughout the entire site, but any changes I make to the
 
 Format:
 
-    .u-utility-name {}
+{% highlight css %}
+.u-utility-name {}
+{% endhighlight %}
 
 Example:
 
-    .u-clearfix {}
+{% highlight css %}
+.u-clearfix {}
+{% endhighlight %}
 
 You will most likely be familiar with the Utility notation because of
 [SUIT](https://github.com/suitcss/utils).  Utilities are complete [single
@@ -332,9 +354,11 @@ other developers. We do not want anyone trying to bind onto these in future
 selectors. Take the following example, which actually happened on a project I
 worked on. A number of months into a project, a developer wrote this bit of CSS:
 
-    .footer .text-center {
-      font-size: 75%;
-    }
+{% highlight css %}
+.footer .text-center {
+  font-size: 75%;
+}
+{% endhighlight %}
 
 Here we can see a problem: the `.text-center` class now has two responsibilities
 when it appears anywhere inside `.footer`. It now has side effects, which are
@@ -350,14 +374,16 @@ people know that there is a heavyweight rule being applied to the section of the
 DOM. It will help explain why certain things might be happening and hard to
 override. Take this example:
 
-    <div class="font-size-large">
-      ...
+{% highlight html %}
+<div class="font-size-large">
+  ...
 
-      <blockquote class="pullquote">
-      </blockquote>
+  <blockquote class="pullquote">
+  </blockquote>
 
-      ...
-    </div>
+  ...
+</div>
+{% endhighlight %}
 
 A developer inheriting this might be confused as to why the `blockquote`’s font
 size is different to what they expected. This is because it’s inheriting the
@@ -367,14 +393,16 @@ potential offenders: <q>Ah, here’s a Utility, that must be what’s causing
 it.</q> (This is actually a fairly good example of why we should use Utilities
 sparingly.)
 
-    <div class="u-font-size-large">
-      ...
+{% highlight html %}
+<div class="u-font-size-large">
+  ...
 
-      <blockquote class="c-pullquote">
-      </blockquote>
+  <blockquote class="c-pullquote">
+  </blockquote>
 
-      ...
-    </div>
+  ...
+</div>
+{% endhighlight %}
 
 <small>Please see this post’s sister article [<cite>Immutable
 CSS</cite>](http://csswizardry.com/2015/03/immutable-css/) for more detail on
@@ -388,11 +416,15 @@ these kinds of rule.</small>
 
 Format:
 
-    .t-theme-name {}
+{% highlight css %}
+.t-theme-name {}
+{% endhighlight %}
 
 Example:
 
-    .t-light {}
+{% highlight css %}
+.t-light {}
+{% endhighlight %}
 
 When we work with [Stateful
 Themes](https://speakerdeck.com/csswizardry/4half-methods-for-theming-in-s-css?slide=29)
@@ -415,18 +447,20 @@ state applied to it, which is important to know whilst debugging. Seeing that
 class in our CSS also tells us a lot: it helps to sandbox and isolate any chunks
 of theme-related CSS inside namespaced rulesets:
 
-    .c-btn {
-      display: inline-block;
-      padding: 1em;
-      background-color: #333;
-      color: #e4e4e4;
+{% highlight css %}
+.c-btn {
+  display: inline-block;
+  padding: 1em;
+  background-color: #333;
+  color: #e4e4e4;
 
-      .t-light & {
-        background-color: #e4e4e4;
-        color: #333;
-      }
+  .t-light & {
+    background-color: #e4e4e4;
+    color: #333;
+  }
 
-    }
+}
+{% endhighlight %}
 
 Here we can see that our buttons have a light grey text colour on top of a dark
 grey background, but when we invoke the `.t-light` theme, those colours invert.
@@ -441,11 +475,15 @@ debugging, and modifying Theme rules becomes much simpler.
 
 Format:
 
-    .s-scope-name {}
+{% highlight css %}
+.s-scope-name {}
+{% endhighlight %}
 
 Example:
 
-    .s-cms-content {}
+{% highlight css %}
+.s-cms-content {}
+{% endhighlight %}
 
 Scoped contexts in CSS solve a very specific and particular problem: please be
 entirely certain that you actually have this problem before employing Scopes,
@@ -467,57 +505,61 @@ CSS</cite>](http://dbushell.com/2012/04/18/scoping-typography-css/).</small>
 You **might** want to style this free-form text differently from the rest of the
 surrounding UI, so you _might_ employ a scoping context. For example:
 
-    <nav class="c-nav-primary">
-      ...
-    </nav>
+{% highlight html %}
+<nav class="c-nav-primary">
+  ...
+</nav>
 
-    <section class="s-cms-content">
+<section class="s-cms-content">
 
-      <h1>...</h1>
+  <h1>...</h1>
 
-      <p>...</p>
+  <p>...</p>
 
-      <p>...</p>
+  <p>...</p>
 
-      <ul>
-        ...
-      </ul>
+  <ul>
+    ...
+  </ul>
 
-      <p>...</p>
+  <p>...</p>
 
-    </section>
+</section>
 
-    <ul class="c-share-links">
-      ...
-    </ul>
+<ul class="c-share-links">
+  ...
+</ul>
 
-    <a href="" class="c-btn  c-btn--primary">Next article...</a>
+<a href="" class="c-btn  c-btn--primary">Next article...</a>
+{% endhighlight %}
 
 Everything inside the `.s-cms-content` is inaccessible: we can’t get at the DOM
 to add any classes to the nodes inside of it, so we _might_ begin styling via a
 Scope. That _might_ look something like this:
 
-    /**
-     * Create a new styling context for any free-text CMS content (blog posts,
-     * news pages, etc.).
-     *
-     * 1. Use a larger and more readable typeface for continuous prose.
-     * 2. Force all headings to have the same appearance, regardless of their
-     *    hierarchy.
-     * 3. Make links inside long text more apparent.
-     */
-    .s-cms-content {
-      font: 16px/1.5 serif; /* [1] */
+{% highlight css %}
+/**
+ * Create a new styling context for any free-text CMS content (blog posts,
+ * news pages, etc.).
+ *
+ * 1. Use a larger and more readable typeface for continuous prose.
+ * 2. Force all headings to have the same appearance, regardless of their
+ *    hierarchy.
+ * 3. Make links inside long text more apparent.
+ */
+.s-cms-content {
+  font: 16px/1.5 serif; /* [1] */
 
-      h1, h2, h3, h4, h5, h6 {
-        font: bold 100%/1.5 sans-serif; /* [2] */
-      }
+  h1, h2, h3, h4, h5, h6 {
+    font: bold 100%/1.5 sans-serif; /* [2] */
+  }
 
-      a {
-        text-decoration: underline; /* [3] */
-      }
+  a {
+    text-decoration: underline; /* [3] */
+  }
 
-    }
+}
+{% endhighlight %}
 
 I cannot stress the word _might_ enough here. [Nesting selectors is
 bad](http://cssguidelin.es/#nesting): it leads to location-based styling,
@@ -553,13 +595,17 @@ applied to it in a pretty opinionated and greedy manner.
 
 Format:
 
-    .[is|has]-state {}
+{% highlight css %}
+.[is|has]-state {}
+{% endhighlight %}
 
 Example:
 
-    .is-open {}
+{% highlight css %}
+.is-open {}
 
-    .has-dropdown {}
+.has-dropdown {}
+{% endhighlight %}
 
 Stateful namespaces are lovely. They come from
 [SMACSS](https://smacss.com/book/type-state), and they tell us about short-lived
@@ -570,27 +616,31 @@ developer tools, we’ll probably spend some time toggling things on and off.
 Being able to see classes like `.is-open` appear and disappear in the DOM is a
 highly readable and very obvious way of learning about state:
 
-    <div class="c-modal  is-open">
-      ...
-    </div>
+{% highlight html %}
+<div class="c-modal  is-open">
+  ...
+</div>
+{% endhighlight %}
 
 It’s also incredibly handy in our CSS to tell people possible states that a
 piece of UI can exist in, for example:
 
-    .c-modal {
-      ...
+{% highlight css %}
+.c-modal {
+  ...
 
-      &.is-open { ... }
+  &.is-open { ... }
 
-    }
+}
 
 
-      .c-modal__content {
-        ...
+  .c-modal__content {
+    ...
 
-        &.is-loading { ... }
+    &.is-loading { ... }
 
-      }
+  }
+{% endhighlight %}
 
 These classes work by chaining other classes, for example `.c-modal.is-open`.
 This heightened specificity ensures that the State always takes prominence over
@@ -610,11 +660,15 @@ server (e.g. `.is-updating`).
 
 Format:
 
-    ._<namespace>hack-name {}
+{% highlight css %}
+._<namespace>hack-name {}
+{% endhighlight %}
 
 Example:
 
-    ._c-footer-mobile {}
+{% highlight css %}
+._c-footer-mobile {}
+{% endhighlight %}
 
 In certain and usually quite rare circumstances, we might need to add a class to
 our markup purely in order to help us hack or override something. If we ever do
@@ -631,16 +685,18 @@ These types of class are pretty easy to spot in our codebase, so any hacks will
 become very apparent, which is a [good
 thing](http://csswizardry.com/2013/04/shame-css/).
 
-    @media screen and (max-width: 30em) {
+{% highlight css %}
+@media screen and (max-width: 30em) {
 
-      /**
-       * We need to force the footer to be a fixed height on smaller screens.
-       */
-      ._c-footer-mobile {
-        height: 80px;
-      }
+  /**
+    * We need to force the footer to be a fixed height on smaller screens.
+    */
+  ._c-footer-mobile {
+    height: 80px;
+  }
 
-    }
+}
+{% endhighlight %}
 
 * Hacks are ugly—give them ugly classes.
 * Hacks should be temporary, do not reuse or bind onto their classes.
@@ -650,11 +706,15 @@ thing](http://csswizardry.com/2013/04/shame-css/).
 
 Format:
 
-    .js-component-name {}
+{% highlight css %}
+.js-component-name {}
+{% endhighlight %}
 
 Example:
 
-    .js-modal {}
+{% highlight css %}
+.js-modal {}
+{% endhighlight %}
 
 JavaScript namespaces are pretty common now, and most people tend to use them.
 The idea is that—in order to properly separate our concerns—we should never have
@@ -690,11 +750,15 @@ be allowed to choose JS hooks like `.jsModal` if they so desire.
 
 Format:
 
-    .qa-node-name {}
+{% highlight css %}
+.qa-node-name {}
+{% endhighlight %}
 
 Example:
 
-    .qa-error-login {}
+{% highlight css %}
+.qa-error-login {}
+{% endhighlight %}
 
 An unusual, but potentially very useful namespace is this one, for your QA team.
 When running automated UI tests with something like
@@ -717,12 +781,16 @@ separation of concerns.
 What we need to do is have the QA team bind onto a suite of their own classes
 that we leave well alone. This means that if we start out with this:
 
-    <strong class="message  error  qa-error-login">
+{% highlight html %}
+<strong class="message  error  qa-error-login"></strong>
+{% endhighlight %}
 
 …and we refactor those nasty `.message` and `.error` classes, we should be left
 with something like this:
 
-    <strong class="c-message  c-message--error  qa-error-login">
+{% highlight html %}
+<strong class="c-message  c-message--error  qa-error-login"></strong>
+{% endhighlight %}
 
 We can make all of the CSS changes we like, as long we we ensure that the QA
 team’s hook stays in place.
@@ -773,18 +841,22 @@ I wrote a pretty crude regex to find valid classes:
 
 This will match all of the following:
 
-    .o-layout__item
-    .c-modal--wide
-    .u-text-center
-    .c-nav-primary__link--home
-    ._c-footer-mobile
+{% highlight css %}
+.o-layout__item
+.c-modal--wide
+.u-text-center
+.c-nav-primary__link--home
+._c-footer-mobile
+{% endhighlight %}
 
 But none of these:
 
-    .foo // No namespace
-    .c-datePicker // Camel case
-    .o-media_img // Single underscore
-    .c-page-head-- // Trailing punctuation
+{% highlight sass %}
+.foo // No namespace
+.c-datePicker // Camel case
+.o-media_img // Single underscore
+.c-page-head-- // Trailing punctuation
+{% endhighlight %}
 
 This works by:
 
@@ -818,44 +890,49 @@ eventualities: [try it out](https://regex101.com/r/rG7uF4/5).
 If you’d like to visualise the amount of, say, Components that are currently in
 any given view, you simply need a bit of CSS like this:
 
-    [class^="c-"],
-    [class*=" c-"] {
-      outline: 5px solid cyan;
-    }
+{% highlight css %}
+[class^="c-"],
+[class*=" c-"] {
+  outline: 5px solid cyan;
+}
+{% endhighlight %}
 
 This works by:
 
 * `[class^="c-"]`: Find all class attributes that start with the string `c-`,
   e.g.:
 
-        <blockquote class="c-testimonial">
+        {% highlight html %}
+<blockquote class="c-testimonial">{% endhighlight %}
 
 * `[class*=" c-"]`: Find all class attributes that contain the string `<space>c-`,
   e.g.:
-
-        <blockquote class="o-media  c-testimonial">
+    {% highlight html %}
+<blockquote class="o-media  c-testimonial">{% endhighlight %}
 
 A more complete example:
 
-    [class^="o-"],
-    [class*=" o-"] {
-      outline: 5px solid orange;
-    }
+{% highlight css %}
+[class^="o-"],
+[class*=" o-"] {
+  outline: 5px solid orange;
+}
 
-    [class^="c-"],
-    [class*=" c-"] {
-      outline: 5px solid cyan;
-    }
+[class^="c-"],
+[class*=" c-"] {
+  outline: 5px solid cyan;
+}
 
-    [class^="u-"],
-    [class*=" u-"] {
-      outline: 5px solid violet;
-    }
+[class^="u-"],
+[class*=" u-"] {
+  outline: 5px solid violet;
+}
 
-    [class^="_"],
-    [class*=" _"] {
-      outline: 5px solid red;
-    }
+[class^="_"],
+[class*=" _"] {
+  outline: 5px solid red;
+}
+{% endhighlight %}
 
 What this allows us to do is get a quick visual indication of the rough make-up
 of a page. Lots of red? Yikes! That means there are a lot of hacks. Lots of
@@ -870,7 +947,7 @@ high-level overview of the composition of your UIs.
 If we want to find all types of namespace in our CSS files, we simply need to
 run a Grep, like so:
 
-    $ git grep "\.t-"
+<figure class="highlight"><pre><code>$ git grep "\.t-"</code></pre></figure>
 
 This will yield all Theme namespaces (the `\` is simply escaping the `.` so that
 it matches the `.` string, and not its regex meaning of <i>anything</i>) in our
@@ -893,14 +970,16 @@ a capitalised first letter.
 This actually feels almost natural: because components are named, complete
 pieces of UI, it feels proper to give them title case. Take these examples:
 
-    <blockquote class="media  Testimonial">
-    </blockquote>
+{% highlight html %}
+<blockquote class="media  Testimonial">
+</blockquote>
 
-    <ul class="list-inline  Nav-Primary">
-    </ul>
+<ul class="list-inline  Nav-Primary">
+</ul>
 
-    <ul class="box  box--large  Panel  Panel--info">
-    </ul>
+<ul class="box  box--large  Panel  Panel--info">
+</ul>
+{% endhighlight %}
 
 Lowercase is a generic and global abstraction, title case is a named piece of
 specific UI.
@@ -950,42 +1029,44 @@ meaningful namespacing. Of course, this example suffers two key problems:
 
 So, what can we learn from this:
 
-    <body class="t-light">
+{% highlight html %}
+<body class="t-light">
 
-      <article class="c-modal  c-modal--wide  js-modal  is-open">
+  <article class="c-modal  c-modal--wide  js-modal  is-open">
 
-        <div class="c-modal__content">
+    <div class="c-modal__content">
 
-          <div class="s-cms-content">
-            ...
-          </div>
+      <div class="s-cms-content">
+        ...
+      </div>
 
-        </div><!-- /.c-modal__content -->
+    </div><!-- /.c-modal__content -->
 
-        <div class="c-modal__foot">
+    <div class="c-modal__foot">
 
-          <p class="o-layout">
-            <span class="o-layout__item  u-1/3">
-              <a href="" class="c-btn  c-btn--negative  qa-modal-dismiss">Cancel</a>
-            </span>
+      <p class="o-layout">
+        <span class="o-layout__item  u-1/3">
+          <a href="" class="c-btn  c-btn--negative  qa-modal-dismiss">Cancel</a>
+        </span>
 
-            <span class="u-hidden">or</span>
+        <span class="u-hidden">or</span>
 
-            <span class="o-layout__item  u-2/3">
-              <a href="" class="c-btn  c-btn--positive  qa-modal-accept">Confirm</a>
-            </span>
-          </p>
+        <span class="o-layout__item  u-2/3">
+          <a href="" class="c-btn  c-btn--positive  qa-modal-accept">Confirm</a>
+        </span>
+      </p>
 
-        </div><!-- /.c-modal__foot -->
+    </div><!-- /.c-modal__foot -->
 
-      </article><!-- /.c-modal -->
+  </article><!-- /.c-modal -->
 
-      <footer class="c-page-foot">
-        <small class="c-copyright  _c-copyright">...</small>
-      </footer>
+  <footer class="c-page-foot">
+    <small class="c-copyright  _c-copyright">...</small>
+  </footer>
 
-    </body>
-    </html>
+</body>
+</html>
+{% endhighlight %}
 
 Well, we can learn a lot:
 
@@ -1019,38 +1100,40 @@ classes. Amazing.
 
 Contrast that with the following:
 
-    <body class="light">
+{% highlight html %}
+<body class="light">
 
-      <article class="modal  wide  open">
+  <article class="modal  wide  open">
 
-        <div class="modal__content">
-          ...
-        </div><!-- /.modal__content -->
+    <div class="modal__content">
+      ...
+    </div><!-- /.modal__content -->
 
-        <div class="modal__foot">
+    <div class="modal__foot">
 
-          <p class="layout">
-            <span class="layout__item  1/3">
-              <a href="" class="btn  btn--negative">Cancel</a>
-            </span>
+      <p class="layout">
+        <span class="layout__item  1/3">
+          <a href="" class="btn  btn--negative">Cancel</a>
+        </span>
 
-            <span class="hidden">or</span>
+        <span class="hidden">or</span>
 
-            <span class="layout__item  2/3">
-              <a href="" class="btn  btn--positive">Confirm</a>
-            </span>
-          </p>
+        <span class="layout__item  2/3">
+          <a href="" class="btn  btn--positive">Confirm</a>
+        </span>
+      </p>
 
-        </div><!-- /.modal__foot -->
+    </div><!-- /.modal__foot -->
 
-      </article><!-- /.modal -->
+  </article><!-- /.modal -->
 
-      <footer class="page-foot">
-        <small class="copyright">...</small>
-      </footer>
+  <footer class="page-foot">
+    <small class="copyright">...</small>
+  </footer>
 
-    </body>
-    </html>
+</body>
+</html>
+{% endhighlight %}
 
 Other than the BEM naming, I can glean very little from this piece of HTML. I’m
 left in the dark, unaware of what I might be able to recycle, modify, or delete.

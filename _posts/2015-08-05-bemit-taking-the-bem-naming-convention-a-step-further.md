@@ -32,18 +32,22 @@ useful in complex or deep pieces of DOM. For example, if I were to ask you to
 delete all of the user-related classes in the following chunk of HTML, which
 ones would you get rid of?
 
-    <div class="media  user  premium">
-      <img src="" alt="" class="img  photo  avatar" />
-      <p class="body  bio">...</p>
-    </div>
+{% highlight html %}
+<div class="media  user  premium">
+  <img src="" alt="" class="img  photo  avatar" />
+  <p class="body  bio">...</p>
+</div>
+{% endhighlight %}
 
 Well we’d definitely start with `user`, but anything beyond that would have to
 be a guess, educated or otherwise. However, if we rewrote it with BEM:
 
-    <div class="media  user  user--premium">
-      <img src="" alt="" class="media__img  user__photo  avatar" />
-      <p class="media__body  user__bio">...</p>
-    </div>
+{% highlight html %}
+<div class="media  user  user--premium">
+  <img src="" alt="" class="media__img  user__photo  avatar" />
+  <p class="media__body  user__bio">...</p>
+</div>
+{% endhighlight %}
 
 Here we can instantly see that `user`, `user--premium`, `user__photo`, and
 `user__bio` are all related to each other. We can also see that `media`,
@@ -81,10 +85,12 @@ The most common types of namespace are `c-`, for Components, `o-`, for Objects,
 in the linked post). With this in mind, the above HTML would be rewritten as
 this:
 
-    <div class="o-media  c-user  c-user--premium">
-      <img src="" alt="" class="o-media__img  c-user__photo  c-avatar" />
-      <p class="o-media__body  c-user__bio">...</p>
-    </div>
+{% highlight html %}
+<div class="o-media  c-user  c-user--premium">
+  <img src="" alt="" class="o-media__img  c-user__photo  c-avatar" />
+  <p class="o-media__body  c-user__bio">...</p>
+</div>
+{% endhighlight %}
 
 From this, I can see that we have a reusable abstraction in [the Media
 Object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/)
@@ -103,10 +109,12 @@ The next thing BEMIT adds to traditional BEM naming is responsive suffixes.
 These suffixes take the format `@<breakpoint>`, and tell us <q>this class when
 at this size</q>:
 
-    <div class="o-media@md  c-user  c-user--premium">
-      <img src="" alt="" class="o-media__img@md  c-user__photo  c-avatar" />
-      <p class="o-media__body@md  c-user__bio">...</p>
-    </div>
+{% highlight html %}
+<div class="o-media@md  c-user  c-user--premium">
+  <img src="" alt="" class="o-media__img@md  c-user__photo  c-avatar" />
+  <p class="o-media__body@md  c-user__bio">...</p>
+</div>
+{% endhighlight %}
 
 So here we have `o-media@md`, which means <q>be the media object at this
 breakpoint</q>. Other possible examples:
@@ -122,13 +130,15 @@ the piece of UI in question might have, just at a glance.
 
 **N.B.**: You have to escape the `@` symbol in your CSS file, like so:
 
-    @media print {
+{% highlight css %}
+@media print {
 
-      .u-hidden\@print {
-        display: none;
-      }
+  .u-hidden\@print {
+    display: none;
+  }
 
-    }
+}
+{% endhighlight %}
 
 ## Healthchecks
 
@@ -142,56 +152,58 @@ But another happy side effect we get is that we can run a visual healthcheck
 against our UI. By using substring selectors, we can target and then visualise
 the general makeup of a page based on the types of class it contains:
 
-    /**
-     * Outline all classes.
-     */
-    [class] {
-      outline: 5px solid lightgrey;
-    }
+{% highlight css %}
+/**
+ * Outline all classes.
+ */
+[class] {
+  outline: 5px solid lightgrey;
+}
 
-    /**
-     * Outline all BEM Elements.
-     */
-    [class*="__"] {
-      outline: 5px solid grey;
-    }
+/**
+ * Outline all BEM Elements.
+ */
+[class*="__"] {
+  outline: 5px solid grey;
+}
 
-    /**
-     * Outline all BEM Modifiers.
-     */
-    [class*="--"] {
-      outline: 5px solid darkgrey;
-    }
+/**
+ * Outline all BEM Modifiers.
+ */
+[class*="--"] {
+  outline: 5px solid darkgrey;
+}
 
-    /**
-     * Outline all Object classes.
-     */
-    [class^="o-"],
-    [class*=" o-"] {
-      outline: 5px solid orange;
-    }
+/**
+ * Outline all Object classes.
+ */
+[class^="o-"],
+[class*=" o-"] {
+  outline: 5px solid orange;
+}
 
-    /**
-     * Outline all Component classes.
-     */
-    [class^="c-"],
-    [class*=" c-"] {
-      outline: 5px solid cyan;
-    }
+/**
+ * Outline all Component classes.
+ */
+[class^="c-"],
+[class*=" c-"] {
+  outline: 5px solid cyan;
+}
 
-    /**
-     * Outline all Responsive classes.
-     */
-    [class*="@"] {
-      outline: 5px solid rosybrown;
-    }
+/**
+ * Outline all Responsive classes.
+ */
+[class*="@"] {
+  outline: 5px solid rosybrown;
+}
 
-    /**
-     * Outline all Hack classes.
-     */
-    [class^="_"] {
-      outline: 5px solid red;
-    }
+/**
+ * Outline all Hack classes.
+ */
+[class^="_"] {
+  outline: 5px solid red;
+}
+{% endhighlight %}
 
 Of course this isn’t bulletproof—something might be both a Component and an
 Element and a Responsive class—but if we write the classes in pretty selective
@@ -205,24 +217,28 @@ We can enable this healthcheck in multiple ways, but the simplest would probably
 be nesting the whole lot in [a Scope
 class](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#scope-namespaces-s-):
 
-    .s-healthcheck {
+{% highlight css %}
+.s-healthcheck {
 
-      ...
+  ...
 
-      /**
-       * Outline all Responsive classes.
-       */
-      [class*="@"] {
-        outline: 5px solid rosybrown;
-      }
+  /**
+   * Outline all Responsive classes.
+   */
+  [class*="@"] {
+    outline: 5px solid rosybrown;
+  }
 
-      ...
+  ...
 
-    }
+}
+{% endhighlight %}
 
 …which you can then add to your `html` element when you want to turn it on:
 
-    <html class="s-healthcheck">
+{% highlight html %}
+<html class="s-healthcheck">
+{% endhighlight %}
 
 ## Final Word
 
@@ -231,14 +247,16 @@ adding information onto the beginning and end of the standard Block, Element, or
 Modifier classes to give us more knowledge about how the classes behave in a
 non-relative sense. Some more examples:
 
-    .c-page-head {}
+{% highlight css %}
+.c-page-head {}
 
-    @media screen and (min-width: 15em) {
-      .u-text-center\@sm {}
-    }
+@media screen and (min-width: 15em) {
+  .u-text-center\@sm {}
+}
 
-    .o-layout__item {}
+.o-layout__item {}
 
-    @media print {
-      .u-color-black\@print {}
-    }
+@media print {
+  .u-color-black\@print {}
+}
+{% endhighlight %}

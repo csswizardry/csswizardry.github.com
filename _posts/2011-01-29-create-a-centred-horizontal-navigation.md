@@ -28,31 +28,37 @@ However, there is a way to have a centred horizontal navigation without knowing 
 
 The markup:
 
-    <ul class="nav">
-      <li><a href="/">Home</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/work/">Work</a></li>
-      <li><a href="/clients/">Clients</a></li>
-      <li><a href="/contact/">Contact</a></li>
-    </ul>
+{% highlight html %}
+<ul class="nav">
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/work/">Work</a></li>
+  <li><a href="/clients/">Clients</a></li>
+  <li><a href="/contact/">Contact</a></li>
+</ul>
+{% endhighlight %}
 
 Pretty standard, an unordered list of menu items. The CSS is where it’s at. I have highlighted the bits that do the majority of the work:
-    
-<pre><code>.nav{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    <mark>text-align:center;</mark>
+
+{% highlight css %}
+.nav {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-.nav li{
-    <mark>display:inline;</mark>
+
+.nav li {
+  display: inline;
 }
-.nav a{
-    <mark>display:inline-block;</mark>
-    padding:10px;
-}</code></pre>
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+}
+{% endhighlight %}
 
 What I’ve done here is simply create a navigation list and given it a border top
 and bottom (purely to highlight its centred text). Instead of floating the
