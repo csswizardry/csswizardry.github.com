@@ -28,7 +28,7 @@ an [award-winning developer](https://web.archive.org/web/20190630140300/https://
        width="1024"
        height="683"
        style="background-image: url({% include base64/me.jpg.html %});"
-       fetchpriority="high"
+       importance="high"
        elementtiming="about-image"
        onload="performance.clearMarks('About Page Image'); performance.mark('About Page Image');" />
   <script>
@@ -85,7 +85,7 @@ with companies of all shapes, sizes, locations, problems, needs, and budgets.
 I’m professional, but I’m laid back—[drop me a line](/contact/), and we can see
 what fits.
 
-_<img src="{{ site.cloudinary }}/img/content/signature.png" alt="Harry" fetchpriority="low" width="123" height="72" />_
+_<img src="{{ site.cloudinary }}/img/content/signature.png" alt="Harry" importance="low" width="123" height="72" />_
 
 <a href="https://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>

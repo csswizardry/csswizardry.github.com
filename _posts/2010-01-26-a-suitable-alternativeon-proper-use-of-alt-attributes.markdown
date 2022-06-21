@@ -13,7 +13,7 @@ tag:
 - Semantics
 ---
 
-Images in HTML come with a mandatory attribute used to _textually_ describe the information displayed _visually_ through the image. The `alt` attribute ([not tag](https://csswizardry.com/eta)) is used by screenreaders etc to tell users who can't view the actual image what it represents. It is also used in any circumstance where images can't be loaded (slow connections, broken URIs etc).
+Images in HTML come with a mandatory attribute used to _textually_ describe the information displayed _visually_ through the image. The `alt` attribute ([not tag](http://csswizardry.com/eta)) is used by screenreaders etc to tell users who can't view the actual image what it represents. It is also used in any circumstance where images can't be loaded (slow connections, broken URIs etc).
 
 
 
@@ -47,7 +47,7 @@ The next best scenario is that you are using images correctly, for their correct
 
 
 
-![A photograph of an abandoned car](https://csswizardry.com/wp-content/uploads/2010/01/car.jpg)
+![A photograph of an abandoned car](http://csswizardry.com/wp-content/uploads/2010/01/car.jpg)
 
 
 
@@ -67,13 +67,13 @@ One example might be the above image of a car. This, while technically correct, 
 
 
 
-Another real-world example of poor `alt` attribute usage is actually on [CNN's website](https://www.cnn.com/). On their home page today (26 January, 2010) they have a series of headlines with accompanying images. The code for such a pairing looks like this:
+Another real-world example of poor `alt` attribute usage is actually on [CNN's website](http://www.cnn.com/). On their home page today (26 January, 2010) they have a series of headlines with accompanying images. The code for such a pairing looks like this:
 
 
 
-
+    
     <code><img height="68" border="0" width="120" alt="Haiti's swanky club ->
-    now home to misery" src="https://i.cdn.turner.com/cnn/2010/WORLD/ ->
+    now home to misery" src="http://i.cdn.turner.com/cnn/2010/WORLD/ ->
     americas/01/26/haiti.camp/tzvids.haiti.aid.cnn.jpg"> ->
     … Haiti's swanky club now home to misery</code>
 
@@ -100,7 +100,7 @@ This is wrong on two counts:
 
 
 
-On the [BBC's home page](https://www.bbc.co.uk/) however (on the same date) they are using `alt` attributes perfectly. They have an image of a woman wearing a veil, alongside the article's headline France report back face veil ban. The image's `alt` attribute: `alt="A woman wears a full-length veil in Lyon, 25 January"`.
+On the [BBC's home page](http://www.bbc.co.uk/) however (on the same date) they are using `alt` attributes perfectly. They have an image of a woman wearing a veil, alongside the article's headline France report back face veil ban. The image's `alt` attribute: `alt="A woman wears a full-length veil in Lyon, 25 January"`.
 
 
 
@@ -127,7 +127,7 @@ Writing proper `alt` text is incredibly simple, yet a little more time consuming
 
 
 
-Also, for any pages that use similar images repeatedly but are slightly different to one another, make sure your alt attributes reflect these differences. A good example would be [my portfolio page](https://csswizardry.com/portfolio/). Instead of using `alt="Screenshot"` over and over again I used text like `alt="Screenshot of Suzanna Haworth’s website"` and `alt="Screenshot of RAAMaudio UK Ltd."` etc.
+Also, for any pages that use similar images repeatedly but are slightly different to one another, make sure your alt attributes reflect these differences. A good example would be [my portfolio page](http://csswizardry.com/portfolio/). Instead of using `alt="Screenshot"` over and over again I used text like `alt="Screenshot of Suzanna Haworth’s website"` and `alt="Screenshot of RAAMaudio UK Ltd."` etc.
 
 
 
