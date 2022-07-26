@@ -73,6 +73,19 @@ This now means I can do this:
 $ git praise -L18,23 _includes/head.html
 ```
 
+Or, for a completely neutral option, we can alias `who` onto `blame`:
+
+```
+$ git config --global alias.who blame
+```
+
+Which, predictably, looks like this:
+
+```
+# Find out who wrote great comments:
+$ git who -L1,9 module.js
+```
+
 Small change, but it’s pretty nice.
 
 ## Hide Whitespace Noise
