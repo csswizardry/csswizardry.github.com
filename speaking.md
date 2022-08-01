@@ -59,7 +59,7 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/bg.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://challengeaccepted.dev/">DEV: Challenge Accepted</a>: Sofia (Bulgaria),September 2022
+    <img src="/img/icons/bg.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://challengeaccepted.dev/">DEV: Challenge Accepted</a>: Sofia (Bulgaria), September 2022
   </li>
 
   <li>
@@ -69,7 +69,7 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland),October 2022
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), October 2022
   </li>
 
   <li>
@@ -79,7 +79,7 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/se.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://oredev.org/">Øredev</a>: Malmö (Sweden),November 2022
+    <img src="/img/icons/se.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://oredev.org/">Øredev</a>: Malmö (Sweden), November 2022
   </li>
 
   <li>
@@ -184,7 +184,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland),October 2021
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), October 2021
   </li>
 
   <li>
@@ -277,7 +277,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.clarityconf.com/2019">Clarity</a>: San Francisco (US),August 2019
+    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.clarityconf.com/2019">Clarity</a>: San Francisco (US), August 2019
   </li>
 
   <li>
@@ -287,12 +287,12 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/gr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://devitconf.org/">DEVit</a>: Thessaloniki (Greece),June 2019
+    <img src="/img/icons/gr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://devitconf.org/">DEVit</a>: Thessaloniki (Greece), June 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://pixelpioneers.co/events/bristol-2019">Pixel Pioneers</a>: Bristol (England),June 2019
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://pixelpioneers.co/events/bristol-2019">Pixel Pioneers</a>: Bristol (England), June 2019
   </li>
 
   <li>
@@ -302,12 +302,12 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://dev.shiftconf.co/">Shift DEV</a>: Split (Croatia),May 2019
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://dev.shiftconf.co/">Shift DEV</a>: Split (Croatia), May 2019
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland),May 2019
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), May 2019
   </li>
 
   <li>
@@ -403,7 +403,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland),May 2018
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), May 2018
   </li>
 
   <li>
@@ -524,12 +524,12 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img src="/img/icons/gr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://devitconf.org/">DEVit</a>: Thessaloniki (Greece),May 2017
+    <img src="/img/icons/gr.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://devitconf.org/">DEVit</a>: Thessaloniki (Greece), May 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland),May 2017
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), May 2017
   </li>
 
   <li>
@@ -544,22 +544,22 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/bg.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://bulgariawebsummit.com/">Bulgaria Web Summit</a>: Sofia (Bulgaria),April 2017
+    <img src="/img/icons/bg.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://bulgariawebsummit.com/">Bulgaria Web Summit</a>: Sofia (Bulgaria), April 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://pages.xebia.com/events/css-performance-en-architectuur-workshop">Xebia</a>: Amsterdam (Netherlands),March 2017
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://pages.xebia.com/events/css-performance-en-architectuur-workshop">Xebia</a>: Amsterdam (Netherlands), March 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/ie.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/DublinCSS/events/234858690/">DublinCSS</a>: Dublin (Ireland),February 2017
+    <img src="/img/icons/ie.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.meetup.com/DublinCSS/events/234858690/">DublinCSS</a>: Dublin (Ireland), February 2017
   </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/is.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2017.iceweb.is/">IceWeb Conference</a>: Reykjavik (Iceland),January 2017
+    <img src="/img/icons/is.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2017.iceweb.is/">IceWeb Conference</a>: Reykjavik (Iceland), January 2017
   </li>
 
   <li>
