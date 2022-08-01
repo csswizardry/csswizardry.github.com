@@ -51,11 +51,46 @@ workshop](/workshops/). My workshops are renowned.
 
 ## Upcoming Events
 
-### 2021
+### 2022
 
 <ol class="list-ui  mb">
 
   {% include speaking.html %}
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/bg.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://challengeaccepted.dev/">DEV: Challenge Accepted</a>, Sofia, (Bulgaria) September 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://digital-labin.com/">Digita Labin</a>, Labin (Croatia), September 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/pl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>, Gdańsk, (Poland) October 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    🌍 <a href="https://fitc.ca/event/webu22/speakers/">Web Unleashed</a>, Remote (Online), October 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/se.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://oredev.org/">Øredev</a>, Malmö, (Sweden) November 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.modernfrontends.live/">Modern FrontEnds Live!</a>, London (England), November 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://hura.hr/howtowow/harry-roberts-front-end-performance-building-faster-websites-2/">HURA</a>, Zagreb (Croatia), December 2022
+  </li>
 
 </ol>
 
@@ -131,6 +166,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2021
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/sf-2022/">Smashing Conference</a>, San Francisco (US), June 2022
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
