@@ -64,7 +64,7 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
-    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://digital-labin.com/">Digita Labin</a>: Labin (Croatia), September 2022
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://digital-labin.com/">Digital Labin</a>: Labin (Croatia), September 2022
   </li>
 
   <li>
