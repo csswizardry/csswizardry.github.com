@@ -79,6 +79,11 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/nl.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>: Amsterdam (Netherlands), October 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/se.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://oredev.org/">Øredev</a>: Malmö (Sweden), November 2022
   </li>
 
@@ -163,7 +168,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
 ## Past Events
 
-### 2021
+### 2022
 
 <ol class="list-ui  mb" reversed>
 
@@ -171,6 +176,12 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/us.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/sf-2022/">Smashing Conference</a>: San Francisco (US), June 2022
   </li>
+
+</ol>
+
+### 2021
+
+<ol class="list-ui  mb" reversed>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
