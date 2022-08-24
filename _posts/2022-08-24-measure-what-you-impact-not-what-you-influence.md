@@ -140,8 +140,9 @@ on the User Timing API and `performance.mark` and `performance.measure`:
 </head>
 ```
 
-This way, we can refactor and measure our `head` time without also measuring the
-many other metrics that comprise First Paint. In fact, I do that [on this
+This way, we can refactor and measure our `head` time in isolation without also
+measuring the many other metrics that comprise First Paint. In fact, I do that
+[on this
 site](https://github.com/csswizardry/csswizardry.github.com/blob/4cd8e456df9c9793879cd898f9871c631b8a1bf0/_includes/head.html#L102-L105).
 
 ## Signal vs. Noise
@@ -183,7 +184,7 @@ Priority Hints, however, offer us that control. Our options are `fetchpriority=`
 * `high`: sets initial priority to High;
 * `auto`: effectively redundant—it’s the same as omitting the attribute
   altogether;
-* `low`: sets initial priority to low.
+* `low`: sets initial priority to Low.
 
 Now comes the key insight: modifying a file’s priority doesn’t change how soon
 the browser discovers it—that’s not how browsers work—but it does affect how
