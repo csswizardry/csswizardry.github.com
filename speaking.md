@@ -83,7 +83,7 @@ workshop](/workshops/). My workshops are renowned.
   </li>
 
   <li>
-    <h4 class="list-ui__title">Talk</h4>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/se.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://oredev.org/">Øredev</a>: Malmö (Sweden), November 2022
   </li>
 
