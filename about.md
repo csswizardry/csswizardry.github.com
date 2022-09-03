@@ -53,8 +53,8 @@ an [award-winning developer](https://web.archive.org/web/20190630140300/https://
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
-With over a decade of professional experience, and five years working as an
-independent consultant, I have been trusted by the likes of the <b>United
+With over a decade of professional experience, and eight years working as
+an independent consultant, I have been trusted by the likes of the <b>United
 Nations</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>, and [many
 more](/#section:clients). Through combinations of workshops, training, audits,
 development, and consultancy, I have helped my clients to build and scale
@@ -82,8 +82,8 @@ we’ll get you a faster website.
 
 If you think I can help you—and I probably can—**say hello**: I enjoy working
 with companies of all shapes, sizes, locations, problems, needs, and budgets.
-I’m professional, but I’m laid back—[drop me a line](/contact/), and we can see
-what fits.
+I’m professional, but I’m very laid back—[drop me a line](/contact/), and we can
+see what fits.
 
 _<img src="{{ site.cloudinary }}/img/content/signature.png" alt="Harry" fetchpriority="low" width="123" height="72" />_
 
