@@ -169,6 +169,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/de.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://smashingconf.com/freiburg-2022/">Smashing Conference</a>: Freiburg (Germany), September 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2022.websummercamp.com/">Web Summer Camp</a>: Šibenik (Croatia), September 2022
   </li>
 
