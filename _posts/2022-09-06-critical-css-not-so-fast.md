@@ -93,7 +93,7 @@ If we were to implement Critical CSS on this page by:
   </style>
 
   <link rel="stylesheet"
-        href="/non-Critical.css"
+        href="/non-critical.css"
         media="print"
         onload="performance.mark('css loaded'); this.media='all'" />
 
@@ -262,7 +262,8 @@ the `</body>`:
   ...
 
 
-  <link rel="stylesheet" href="/non-Critical.css"
+  <link rel="stylesheet"
+        href="/non-critical.css"
         onload="performance.mark('css loaded')" />
 </body>
 ```
@@ -302,8 +303,9 @@ This means that speeding up the file’s fetch is unlikely to help it be applied
 to the document any sooner. This could lead to lots of dead, unstyled time, and
 the issue only gets worse the larger the page. You can see this in the
 screenshot above: Start Render is at 2.1s, but the non-Critical CSS is applied
-at 2.9s. Your mileage will vary, but the best advice I have here is to make very
-very sure that your non-Critical styles do not change anything above the fold.
+at 2.9s. Your mileage will vary, but the best advice I have here is to make
+very, very sure that your non-Critical styles do not change anything above the
+fold.
 
 Finally, you’re effectively rendering the page twice: once with Critical CSS,
 and a second time with Critical CSS plus non-Critical CSS (the CSSOM is
