@@ -17,6 +17,21 @@ Let’s look at why.
 <small>**N.B.** Critical CSS when defined as ‘the styles needed to render the
 initial viewport’.</small>
 
+## Overview
+
+Critical CSS is not as straightforward as we’d like, and there is a lot to
+consider before we get started with it. It _is_ worth doing if:
+
+* **CSS is your biggest blocker, or;**
+* **you plan to tackle everything around it at the same time;**
+  * i.e. other render-blocking resources;
+* **it can be done trivially or from the outset;**
+  * retrofitting Critical CSS is difficult and error prone;
+* **you maintain it and everything around it;**
+  * it’s all to easy to (re)introduce render-blocking regressions;
+* **you load the non-Critical CSS sensibly;**
+  * current methods can be no better than just leaving your CSS as-is.
+
 ## Critical CSS Is Difficult to Implement
 
 …particularly when we talk about retrofitting it. Reliably extracting the
