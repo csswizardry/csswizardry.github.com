@@ -53,7 +53,7 @@ All it takes is five straightforward steps to turn your site around:
    what you may have struggled to overcome.
 
 <figure>
-<img src="/img/content/audit-trello.png" alt="" loading="lazy" width="750" height="476" />
+<img src="{{ site.cloudinary }}/img/content/audit-trello.png" alt="" loading="lazy" width="750" height="476" />
 <figcaption>A full Trello board forms the basis of your Performance Sprint.</figcaption>
 </figure>
 
@@ -77,13 +77,11 @@ a class-leader.**
 
 Once the audit is complete, you receive:
 
-* **Audit Document:** An extensive, detailed report that covers everything that
-  the investigation uncovered. It is not uncommon for these audits to run into
-  the thousands of words, so I ensure it is broken into clear, thematic sections
-  with defined action points. This document becomes the canonical reference for
-  your engineering team. As well as developer-facing, technical insights, I will
-  include a business-oriented executive summary that highlights key findings and
-  their expected impact.
+* **Executive Summary:** A high-level, non-technical Keynote highlighting the
+  biggest findings and their implications, as well as immediate- and short-term
+  strategic advice for fixing the issues in question. This document is designed
+  to orientate and align everyone with a shared understanding of the task at
+  hand.
 * **Performance Backlog:** A Trello board that I populate as I review the site
   will be made available to your team. Cards have clear checklists covering
   everything from common pitfalls to long-term optimisations. Key tasks are
