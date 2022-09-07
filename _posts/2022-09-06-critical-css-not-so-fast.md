@@ -14,7 +14,7 @@ developers expect.
 
 Let’s look at why.
 
-<small>**N.B.** Critical CSS when defined as ‘the styles need to render the
+<small>**N.B.** Critical CSS when defined as ‘the styles needed to render the
 initial viewport’.</small>
 
 ## Critical CSS Is Difficult to Implement
