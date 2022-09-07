@@ -52,6 +52,11 @@ All it takes is five straightforward steps to turn your site around:
    accountable, as well as shows me where any regressions may have happened or
    what you may have struggled to overcome.
 
+<figure>
+<img src="/img/content/audit-trello.png" alt="" loading="lazy" width="750" height="476" />
+<figcaption>A full Trello board forms the basis of your Performance Sprint.</figcaption>
+</figure>
+
 ## Existing Issues and Opportunistic Optimisations
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:rich-fogarty">
