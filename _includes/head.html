@@ -77,7 +77,11 @@ ga('send', 'pageview');
 <script src="https://gumroad.com/js/gumroad-embed.js" defer></script>
 {% endif %}
 
+{% if page.main %}
+<meta name="twitter:card" content="summary_large_image">
+{% else %}
 <meta name="twitter:card" content="summary">
+{% endif %}
 <meta name="twitter:site" content="@csswizardry">
 <meta name="twitter:domain" content="csswizardry.com">
 <meta name="twitter:creator" content="@csswizardry">
