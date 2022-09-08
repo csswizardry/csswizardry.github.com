@@ -3,6 +3,7 @@ layout: post
 title: "Critical CSS? Not So Fast!"
 date: 2022-09-06 16:00:00
 categories: Web Development
+main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/09/critical-filmstrip-03.png"
 meta: "How helpful is Critical CSS?"
 ---
 
@@ -90,7 +91,7 @@ of the CSS or the end of the `<head>`. Pay attention to where they land, and if
 they sit on top of either each other or anything else.</small>
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-blocking.png" alt="" loading="lazy" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-blocking.png" width="750" height="119" alt="" loading="lazy" />
 <figcaption>Note that the CSS file is marked as blocking (see the orange cross),
 and thus carries <i>Highest</i> priority and hits the network first.</figcaption>
 </figure>
@@ -124,7 +125,7 @@ back Start Render, so making it asynchronous will have zero impact. Start Render
 remains unchanged because we tackled the wrong problem.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-critical.png" alt="" loading="lazy" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-critical.png" width="750" height="119" alt="" loading="lazy" />
 <figcaption>Note that the CSS is now fetched as a non-blocking, <i>Lowest</i>
 priority request, and hits the network after the JavaScript.</figcaption>
 </figure>
@@ -133,7 +134,7 @@ In both cases—‘Blocking’ and ‘Critical CSS’ respectively—Start Rende
 exactly the same time. Critical CSS made no difference:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/critical-filmstrip.png" alt="" loading="lazy" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/critical-filmstrip.png" width="750" height="351" alt="" loading="lazy" />
 <figcaption>Both of the above exhibit the same visual behaviour because the CSS
 was never the problem anyway—it is the JavaScript that is blocking rendering.</figcaption>
 </figure>
@@ -150,7 +151,7 @@ In our case, **CSS was not the bottleneck**.
 Let’s take a look at what would happen if the CSS _was_ our biggest blocker:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-blocking-02.png" alt="" loading="lazy" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-blocking-02.png" width="750" height="119" alt="" loading="lazy" />
 <figcaption>Again, both files are render blocking. However, note that both
 purple lines sit on top of each other—<code>css loaded</code> and <code>head
 finished</code> are synonymous.</figcaption>
@@ -161,7 +162,7 @@ Render. Does moving to Critical CSS—inlining the important stuff and loading t
 rest asynchronously—make a difference?
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-critical-02.png" alt="" loading="lazy" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-critical-02.png" width="750" height="119" alt="" loading="lazy" />
 <figcaption>Now, <code>head finished</code> and Start Render are identical;
 <code>css loaded</code> is later. It worked!</figcaption>
 </figure>
@@ -171,7 +172,7 @@ highlight the next issue—the JS. That’s what we need to tackle next in order
 keep making steps in the right direction.
 
 <figure>
-<img src="/wp-content/uploads/2022/09/critical-filmstrip-02.png" alt="" loading="lazy" />
+<img src="/wp-content/uploads/2022/09/critical-filmstrip-02.png" width="750" height="351" alt="" loading="lazy" />
 <figcaption>Note the change in <code>font-size</code>. More on <a
 href="#debugging-critical-css">this phenomenon later</a>.</figcaption>
 </figure>
@@ -246,7 +247,7 @@ _Lowest_ priority, which can lead to too-slow fetch times. You can read more
 about that [in a previous post](/2020/05/the-fastest-google-fonts/#async-css).
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2020/05/waterfall-vitamix.png" alt="" loading="lazy" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2020/05/waterfall-vitamix.png" width="750" height="351" alt="" loading="lazy" />
 <figcaption>Even though the CSS is non-Critical, waiting over 12s is
 unacceptable.</figcaption>
 </figure>
@@ -286,7 +287,7 @@ the `</body>`:
 What happens now?
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/critical-filmstrip-03.png" alt="" loading="lazy" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/critical-filmstrip-03.png" width="750" height="351" alt="" loading="lazy" />
 <figcaption>Note a large gap between Start Render and Visually Complete. More on
 that <a href="#pitfalls-and-concerns">in the next section</a>.</figcaption>
 </figure>
