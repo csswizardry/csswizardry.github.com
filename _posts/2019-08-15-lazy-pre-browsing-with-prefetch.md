@@ -42,7 +42,7 @@ not_ need it, we get a Lowest priority request completely off of the Critical
 Path. This means we never get slower than the baseline, but hopefully will stand
 to get much faster simply by paying off our network overhead early:
 
-```
+```php
 <link rel="<?php echo $page == 'home' ? 'stylesheet' : 'prefetch'; ?>"
       href="https://third-party.com/file.css" />
 ```
