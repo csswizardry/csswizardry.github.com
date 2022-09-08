@@ -3,6 +3,7 @@ layout: post
 title: "The Fastest Google Fonts"
 date: 2020-05-19 17:35:04
 categories: Web Development
+main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2020/05/filmstrip-foit.png"
 meta: "Google Fonts is fast. Now it’s faster. Much faster."
 ---
 

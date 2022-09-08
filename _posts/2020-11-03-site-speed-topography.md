@@ -3,6 +3,7 @@ layout: post
 title: "Site-Speed Topography"
 date: 2020-11-03 23:04:10
 categories: Web Development
+main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2020/10/milestones-chart.png"
 meta: "Learning the lay of the land"
 ---
 

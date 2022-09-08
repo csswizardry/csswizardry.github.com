@@ -3,6 +3,7 @@ layout: post
 title: "Measure What You Impact, Not What You Influence"
 date: 2022-08-24 12:41:16
 categories: Web Development
+main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/08/user-timing-chrome.png"
 meta: "When implementing performance fixes, it’s imperative that you measure the right thing—but what is ‘right’?"
 ---
 
@@ -211,7 +212,7 @@ Let’s take a look at the before and after:
 Remember, the only thing that Priority Hints affects is Queuing time, but if we
 look at the two screenshots, we see huge variance across almost all resource
 timing phases. Judging the efficacy of Priority Hints on overall time would be
-pretty inaccurate (we’d still lead to the same conclusions—Priority Hints _do_
+pretty inaccurate (we’d still arrive at the same conclusions—Priority Hints _do_
 help improve LCP—but via the wrong workings out).
 
 ## Final Thoughts
