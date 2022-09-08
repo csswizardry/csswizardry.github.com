@@ -82,9 +82,15 @@ ga('send', 'pageview');
 <meta name="twitter:domain" content="csswizardry.com">
 <meta name="twitter:creator" content="@csswizardry">
 <meta name="twitter:title" content="{{ page.title }} – CSS Wizardry">
-<meta name="twitter:image" content="https://csswizardry.com/logo.png">
 {% if page.meta %}
     <meta name="twitter:description" content="{{ page.meta }}">
+{% endif %}
+{% if page.main %}
+<meta name="twitter:image" content="{{ page.main }}">
+<meta property="og:image" content="{{ page.main }}" />
+{% else %}
+<meta name="twitter:image" content="https://csswizardry.com/logo.png">
+<meta name="og:image" content="https://csswizardry.com/logo.png">
 {% endif %}
 
 <link rel="alternate" type="application/atom+xml" href="https://feeds.feedburner.com/csswizardry">
