@@ -75,10 +75,14 @@ $logo-height:   64px;
   /**
    * On smaller screens, this is the link that will open the responsive nav.
    */
-  .site-nav__open {
+  .site-nav__opener {
     @include triggers();
     float: right;
     line-height: $logo-height;
+    background: none;
+    border: none;
+    font-weight: bold;
+    padding: 0;
 
     &:before {
       content: "☰ ";
@@ -119,6 +123,7 @@ $logo-height:   64px;
     bottom: 0;
     left:   0;
     z-index: 2;
+    overflow: scroll;
     -webkit-transform: translateX(100%); /* [1] */
        -moz-transform: translateX(100%); /* [1] */
         -ms-transform: translateX(100%); /* [1] */
@@ -141,7 +146,7 @@ $logo-height:   64px;
     /**
      * If we’re targetting the nav, then don’t hide it.
      */
-    .site-nav__target:target + & {
+    .site-nav.is-open & {
       content-visibility: visible;
       -webkit-transform: none;
          -moz-transform: none;
@@ -224,7 +229,8 @@ $logo-height:   64px;
     /**
      * The link for closing the nav again.
      */
-    .site-nav__item--close {
+    .site-nav__item--closer {
+      text-align: right;
 
         @include media-query(lap-and-up) {
           display: none;
@@ -232,9 +238,10 @@ $logo-height:   64px;
 
       }
 
-        .site-nav__close {
+        .site-nav__closer {
           @include triggers();
           line-height: $logo-height;
+          width: 100%;
           text-align: right;
 
           &:after {
@@ -324,6 +331,9 @@ $logo-height:   64px;
           display: block;
           padding: $spacing-unit--small;
           color: #fff;
+          background: none;
+          border: none;
+          font-weight: bold;
 
           @include attention() {
             text-decoration: none;
