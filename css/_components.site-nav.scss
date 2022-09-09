@@ -3,13 +3,17 @@
 \*------------------------------------*/
 
 // Internal variables.
-$logo-height:   64px;
+$_logo-height:   64px;
 
 // Set a consistent style for triggers for the responsive nav.
 @mixin triggers() {
   @include font-size(12px);
   font-family: sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
+  padding: 0;
+  background: none;
+  border: none;
 
   &:hover,
   &:focus {
@@ -78,11 +82,8 @@ $logo-height:   64px;
   .site-nav__opener {
     @include triggers();
     float: right;
-    line-height: $logo-height;
-    background: none;
-    border: none;
+    line-height: $_logo-height;
     font-weight: bold;
-    padding: 0;
 
     &:before {
       content: "☰ ";
@@ -227,7 +228,7 @@ $logo-height:   64px;
 
 
     /**
-     * The link for closing the nav again.
+     * The button for closing the nav again.
      */
     .site-nav__item--closer {
       text-align: right;
@@ -240,7 +241,7 @@ $logo-height:   64px;
 
         .site-nav__closer {
           @include triggers();
-          line-height: $logo-height;
+          line-height: $_logo-height;
           width: 100%;
           text-align: right;
 
@@ -331,9 +332,6 @@ $logo-height:   64px;
           display: block;
           padding: $spacing-unit--small;
           color: #fff;
-          background: none;
-          border: none;
-          font-weight: bold;
 
           @include attention() {
             text-decoration: none;
@@ -341,7 +339,7 @@ $logo-height:   64px;
           }
 
           @include media-query(lap-and-up) {
-            line-height: $logo-height;
+            line-height: $_logo-height;
             color: $color-gray;
             padding-top: 0;
             padding-bottom: 0;
