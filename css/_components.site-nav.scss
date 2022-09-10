@@ -100,15 +100,6 @@ $_logo-height:   64px;
   }
 
   /**
-   * The invisible target that will power the responsive nav’s open/close.
-   */
-  .site-nav__target {
-    position: fixed;
-    top:  0;
-    left: 0;
-  }
-
-  /**
    * The great big list of links that gets pushed and pulled around across
    * breakpoints. Things get a little hairy.
    *
