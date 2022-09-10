@@ -36,10 +36,21 @@ $_logo-height:   64px;
 
   /**
    * The main site logo exists as part of the nav.
+   *
+   * 1. Sit the logo over the top of the responsive nav so that it looks like
+   *    it’s a part of it. Looks kinda neat.
    */
   .site-nav__home-link {
     display: block;
     float: left;
+    position: relative;
+    z-index: 3;
+    will-change: transform;
+
+    @include media-query(lap-and-up) {
+      position: static;
+    }
+
   }
 
     .site-nav__logo {
@@ -48,6 +59,14 @@ $_logo-height:   64px;
 
       .site-nav__logo-fill {
         fill: $color-brand;
+        transition: fill 0.2s;
+
+        /**
+         * Make the logo white when it sits over the dark, open nav.
+         */
+        .is-open & {
+          fill: #fff;
+        }
 
         .page-head--masthead & {
           fill: $color-page-head;
@@ -137,7 +156,7 @@ $_logo-height:   64px;
     /**
      * If we’re targetting the nav, then don’t hide it.
      */
-    .site-nav.is-open & {
+    .is-open & {
       content-visibility: visible;
       -webkit-transform: none;
          -moz-transform: none;
