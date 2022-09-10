@@ -7,58 +7,59 @@
 
 $_panes-quantity: 5;
 
-.carousel {
-    overflow: hidden;
-    width: 100%;
-    text-align: center;
-    @include font-weight(light);
+.c-carousel {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  @include font-weight(light);
 }
 
-    .carousel__panes {
-        margin:  0;
-        padding: 0;
-        list-style: none;
-        position: relative;
-        display: table;
-        width: $_panes-quantity * 100%;
-        overflow: hidden;
-        @include vendor(filter, blur(0));
+  .c-carousel__panes {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: table;
+    width: $_panes-quantity * 100%;
+    overflow: hidden;
+    @include vendor(filter, blur(0));
 
-        -webkit-animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
-           -moz-animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
-                animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
+    -webkit-animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
+       -moz-animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
+            animation: carousel 45s alternate infinite cubic-bezier(0.6, 0, 0.14, 1);
+
+    &:hover {
+      -webkit-animation-play-state: paused;
+        -moz-animation-play-state: paused;
+              animation-play-state: paused;
     }
 
-    .carousel__panes:hover {
-        -webkit-animation-play-state: paused;
-           -moz-animation-play-state: paused;
-                animation-play-state: paused;
+  }
+
+
+    /**
+     * 1. Attempt to lazily paint off-screen panes.
+     */
+    .c-carousel__pane {
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
+      width: 100% / $_panes-quantity;
+      content-visibility: auto; /* [1] */
     }
 
+      .c-carousel__link {
+        color: inherit;
+        border-bottom: 1px solid $color-links-carousel;
+        @include font-weight(light);
+        @include vendor(transition, 0.2s border-color);
 
-        /**
-         * 1. Attempt to lazily paint off-screen panes.
-         */
-        .carousel__pane {
-            position: relative;
-            display: table-cell;
-            vertical-align: middle;
-            width: 100% / $_panes-quantity;
-            content-visibility: auto; /* [1] */
+        @include attention() {
+          text-decoration: none;
+          border-bottom-color: darken($color-links-carousel, 10%);
         }
 
-            .carousel__link {
-                color: inherit;
-                border-bottom: 1px solid $color-links-carousel;
-                @include font-weight(light);
-                @include vendor(transition, 0.2s border-color);
-
-                @include attention() {
-                    text-decoration: none;
-                    border-bottom-color: darken($color-links-carousel, 10%);
-                }
-
-            }
+      }
 
 
 
@@ -110,53 +111,73 @@ $_panes-quantity: 5;
  * I’m pretty sure this is all a mess. To any kind person reading this who would
  * be able to improve it, I would be very grateful if you would advise :)
  */
-@-webkit-keyframes carousel{
-    0%,
-    17.5%       { -webkit-transform: translate3d(   0 , 0, 0); -webkit-filter: blur(0  ); }
-    20.625%,
-    38.125%     { -webkit-transform: translate3d( -20%, 0, 0); -webkit-filter: blur(0  ); }
-    41.25%,
-    58.75%      { -webkit-transform: translate3d( -40%, 0, 0); -webkit-filter: blur(0  ); }
-    61.875%,
-    79.375%     { -webkit-transform: translate3d( -60%, 0, 0); -webkit-filter: blur(0  ); }
-    82.5%,
-    100%        { -webkit-transform: translate3d( -80%, 0, 0); -webkit-filter: blur(0  ); }
-    19.0625%,
-    39.6875%,
-    60.3125%,
-    80.9375%    {                                              -webkit-filter: blur(2px); }
+
+@-webkit-keyframes carousel {
+  0%,
+  17.5%       { -webkit-transform: translate3d(   0 , 0, 0); -webkit-filter: blur(0  ); }
+
+  20.625%,
+  38.125%     { -webkit-transform: translate3d( -20%, 0, 0); -webkit-filter: blur(0  ); }
+
+  41.25%,
+  58.75%      { -webkit-transform: translate3d( -40%, 0, 0); -webkit-filter: blur(0  ); }
+
+  61.875%,
+  79.375%     { -webkit-transform: translate3d( -60%, 0, 0); -webkit-filter: blur(0  ); }
+
+  82.5%,
+  100%        { -webkit-transform: translate3d( -80%, 0, 0); -webkit-filter: blur(0  ); }
+
+  19.0625%,
+  39.6875%,
+  60.3125%,
+  80.9375%    {                                              -webkit-filter: blur(2px); }
+
 }
 
-@-moz-keyframes carousel{
-    0%,
-    17.5%       {    -moz-transform: translate3d(   0 , 0, 0);    -moz-filter: blur(0  ); }
-    20.625%,
-    38.125%     {    -moz-transform: translate3d( -20%, 0, 0);    -moz-filter: blur(0  ); }
-    41.25%,
-    58.75%      {    -moz-transform: translate3d( -40%, 0, 0);    -moz-filter: blur(0  ); }
-    61.875%,
-    79.375%     {    -moz-transform: translate3d( -60%, 0, 0);    -moz-filter: blur(0  ); }
-    82.5%,
-    100%        {    -moz-transform: translate3d( -80%, 0, 0);    -moz-filter: blur(0  ); }
-    19.0625%,
-    39.6875%,
-    60.3125%,
-    80.9375%    {                                                 -moz-filter: blur(2px); }
+@-moz-keyframes carousel {
+  0%,
+  17.5%       {    -moz-transform: translate3d(   0 , 0, 0);    -moz-filter: blur(0  ); }
+
+  20.625%,
+  38.125%     {    -moz-transform: translate3d( -20%, 0, 0);    -moz-filter: blur(0  ); }
+
+  41.25%,
+  58.75%      {    -moz-transform: translate3d( -40%, 0, 0);    -moz-filter: blur(0  ); }
+
+  61.875%,
+  79.375%     {    -moz-transform: translate3d( -60%, 0, 0);    -moz-filter: blur(0  ); }
+
+  82.5%,
+  100%        {    -moz-transform: translate3d( -80%, 0, 0);    -moz-filter: blur(0  ); }
+
+  19.0625%,
+  39.6875%,
+  60.3125%,
+  80.9375%    {                                                 -moz-filter: blur(2px); }
+
 }
 
 @keyframes carousel{
-    0%,
-    17.5%       {         transform: translate3d(   0 , 0, 0);         filter: blur(0  ); }
-    20.625%,
-    38.125%     {         transform: translate3d( -20%, 0, 0);         filter: blur(0  ); }
-    41.25%,
-    58.75%      {         transform: translate3d( -40%, 0, 0);         filter: blur(0  ); }
-    61.875%,
-    79.375%     {         transform: translate3d( -60%, 0, 0);         filter: blur(0  ); }
-    82.5%,
-    100%        {         transform: translate3d( -80%, 0, 0);         filter: blur(0  ); }
-    19.0625%,
-    39.6875%,
-    60.3125%,
-    80.9375%    {                                                      filter: blur(2px); }
+
+  0%,
+  17.5%       {         transform: translate3d(   0 , 0, 0);         filter: blur(0  ); }
+
+  20.625%,
+  38.125%     {         transform: translate3d( -20%, 0, 0);         filter: blur(0  ); }
+
+  41.25%,
+  58.75%      {         transform: translate3d( -40%, 0, 0);         filter: blur(0  ); }
+
+  61.875%,
+  79.375%     {         transform: translate3d( -60%, 0, 0);         filter: blur(0  ); }
+
+  82.5%,
+  100%        {         transform: translate3d( -80%, 0, 0);         filter: blur(0  ); }
+
+  19.0625%,
+  39.6875%,
+  60.3125%,
+  80.9375%    {                                                      filter: blur(2px); }
+
 }
