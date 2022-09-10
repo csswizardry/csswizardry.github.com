@@ -245,6 +245,14 @@ $_logo-height:   64px;
           width: 100%;
           text-align: right;
 
+          &#{&}#{&} {
+
+            @include attention() {
+              text-decoration: none;
+            }
+
+          }
+
           &:after {
             content: " ×";
             font-size: 18px;
@@ -334,8 +342,8 @@ $_logo-height:   64px;
           color: #fff;
 
           @include attention() {
-            text-decoration: none;
-            color: $color-links;
+            text-decoration: underline;
+            color: #fff;;
           }
 
           @include media-query(lap-and-up) {
@@ -343,12 +351,18 @@ $_logo-height:   64px;
             color: $color-gray;
             padding-top: 0;
             padding-bottom: 0;
+
+            @include attention() {
+              color: $color-links;
+              text-decoration: none
+            }
+
           }
 
           .page-head--masthead & {
 
-            @include attention(self) {
-              color: $color-masthead;
+              @include attention(self) {
+                color: $color-masthead;
               }
 
               @include attention() {
@@ -370,13 +384,16 @@ $_logo-height:   64px;
          * loop below.
          */
         %site-nav__current {
-          color: $color-links;
+          color: #fff;
+          text-decoration: underline;
 
           @include media-query(lap-and-up) {
 
             $notch-size: halve($spacing-unit);
 
+            color: $color-links;
             position: relative;
+            text-decoration: none;
 
             &:before,
             &:after {
@@ -416,6 +433,12 @@ $_logo-height:   64px;
 
         %site-nav__current--sub {
           text-decoration: underline;
+
+          @include media-query(lap-and-up) {
+            text-decoration: none;
+            color: $color-links;
+          }
+
         }
 
         @each $page in workshops, code-reviews, consultancy, speaking, downloads {
