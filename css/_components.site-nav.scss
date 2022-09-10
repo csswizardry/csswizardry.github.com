@@ -81,13 +81,14 @@ $_logo-height:   64px;
    */
   .site-nav__opener {
     @extend %triggers;
+    color: $color-links;
     float: right;
 
     &:before {
       content: "☰ ";
     }
 
-    .page--home & {
+    .page-head--masthead & {
       color: #fff;
     }
 
