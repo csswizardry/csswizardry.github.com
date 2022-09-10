@@ -7,17 +7,37 @@
 
   <style>
 
-    html{
-      font:0.75em/1.5 sans-serif;
-      background-color:#fafafa;
-      color:#333;
+    * {
+      box-sizing: border-box;
+      margin:  0;
+      padding: 0;
+      font: 0.75em/1.5 system-ui, sans-serif;
     }
 
-    iframe{
-      border:none;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
-      float:left;
-      margin:0 24px 24px 0;
+    html {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    body {
+      padding: 1.5rem;
+    }
+
+    iframe {
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      float: left;
+      margin-right: 1.5rem;
+      margin-bottom: 1.5rem;
+      resize: both;
+    }
+
+    hr {
+      clear: both;
+      border: 1px solid transparent;
+      border-top-color: #eee;
+      border-bottom-color: #fff;
+      margin-bottom: 1.5rem;
     }
 
   </style>
@@ -25,11 +45,15 @@
 </head>
 <body>
 
-  <iframe src="/" width=320 height=480></iframe>
+  <iframe src="/code-reviews/?123" width=480 height=720></iframe>
 
-  <iframe src="/" width=480 height=320></iframe>
+  <iframe src="/code-reviews/?123" width=720 height=480></iframe>
 
-  <iframe src="/" width=1024 height=768></iframe>
+  <hr />
+
+  <iframe src="/?1234" width=480 height=720></iframe>
+
+  <iframe src="/?1234" width=720 height=480></iframe>
 
 </body>
 </html>
