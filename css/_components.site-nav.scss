@@ -5,23 +5,6 @@
 // Internal variables.
 $_logo-height:   64px;
 
-// Set a consistent style for triggers for the responsive nav.
-@mixin triggers() {
-  @include font-size(12px);
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 0;
-  background: none;
-  border: none;
-
-  &:hover,
-  &:focus {
-    text-decoration: none;
-  }
-
-}
-
 .site-nav {
   @extend %clearfix;
 
@@ -76,14 +59,29 @@ $_logo-height:   64px;
 
 
 
+  // Set a consistent style for triggers for the responsive nav.
+  %triggers {
+    @include font-size(12px);
+    line-height: $_logo-height;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0;
+    background: none;
+    border: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+
+  }
+
   /**
    * On smaller screens, this is the link that will open the responsive nav.
    */
   .site-nav__opener {
-    @include triggers();
+    @extend %triggers;
     float: right;
-    line-height: $_logo-height;
-    font-weight: bold;
 
     &:before {
       content: "☰ ";
@@ -231,8 +229,7 @@ $_logo-height:   64px;
       }
 
         .site-nav__closer {
-          @include triggers();
-          line-height: $_logo-height;
+          @extend %triggers;
           width: 100%;
           text-align: right;
 
