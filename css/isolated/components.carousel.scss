@@ -5,12 +5,13 @@
 @import "../settings.all";
 @import "../tools.all";
 
+$_panes-quantity: 5;
+
 .carousel {
     overflow: hidden;
     width: 100%;
     text-align: center;
     @include font-weight(light);
-    content-visibility: auto;
 }
 
     .carousel__panes {
@@ -19,7 +20,7 @@
         list-style: none;
         position: relative;
         display: table;
-        width: 500%;
+        width: $_panes-quantity * 100%;
         overflow: hidden;
         @include vendor(filter, blur(0));
 
@@ -34,11 +35,16 @@
                 animation-play-state: paused;
     }
 
+
+        /**
+         * 1. Attempt to lazily paint off-screen panes.
+         */
         .carousel__pane {
             position: relative;
             display: table-cell;
             vertical-align: middle;
-            width: 20%; /* 100 / number of panes */
+            width: 100% / $_panes-quantity;
+            content-visibility: auto; /* [1] */
         }
 
             .carousel__link {
