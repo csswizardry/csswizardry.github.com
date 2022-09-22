@@ -25,12 +25,12 @@ an [award-winning developer](https://web.archive.org/web/20190630140300/https://
        srcset="/img/content/me-480.jpg 480w,
                /img/content/me-750.jpg 750w,
                /img/content/me-1024.jpg 1024w"
-       width=1024
-       height=683
+       width="1024"
+       height="683"
        style="background-image: url({% include base64/me.jpg.html %});"
-       fetchpriority=high
-       decoding=sync
-       elementtiming=about-image
+       fetchpriority="high"
+       decoding="sync"
+       elementtiming="about-image"
        onload="performance.clearMarks('About Page Image'); performance.mark('About Page Image');" />
   <script>
     performance.clearMarks("About Page Image");
