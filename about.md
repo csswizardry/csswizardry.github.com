@@ -18,16 +18,11 @@ an [award-winning developer](https://web.archive.org/web/20190630140300/https://
 [international speaker](/speaking/).
 
 <figure>
-  <img src="/img/content/me-750.jpg"
-       alt=""
-       sizes="(max-width: 1023px) 100vw,
-              (min-width: 1024px) 750px"
-       srcset="/img/content/me-480.jpg 480w,
-               /img/content/me-750.jpg 750w,
-               /img/content/me-1024.jpg 1024w"
-       width="1024"
-       height="683"
-       style="background-image: url({% include base64/me.jpg.html %});"
+  <img src="/img/content/about.jpg"
+       alt
+       width="1500"
+       height="844"
+       style="background-image: url({% include base64/about.jpg.html %});"
        fetchpriority="high"
        decoding="sync"
        elementtiming="about-image"
@@ -36,12 +31,7 @@ an [award-winning developer](https://web.archive.org/web/20190630140300/https://
     performance.clearMarks("About Page Image");
     performance.mark("About Page Image");
   </script>
-
-  <figcaption markdown="1">
-  On stage at [beyond tellerrand](http://2013.beyondtellerrand.com/).
-  [Photo](http://www.flickr.com/photos/stn1978/8899790026/) by
-  [Stefan Nitzsche](https://twitter.com/stn1978).
-  </figcaption>
+  <figcaption>Workshopping at <a href="https://digital-labin.com/">Digital Labin</a>, 2022. Photograph by <a href="https://www.instagram.com/dzambofilm/">Ivica Džambo</a>.</figcaption>
 </figure>
 
 

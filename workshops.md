@@ -25,6 +25,23 @@ With a 99% approval rating, my workshops are not your typical corporate training
 session. They’re intense, intensive, and packed with real-world, practical
 insights. I’m a teacher who _does_.
 
+<figure>
+  <img src="/img/content/workshops.jpg"
+       alt=""
+       width="1500"
+       height="844"
+       style="background-image: url({% include base64/workshops.jpg.html %});"
+       fetchpriority="high"
+       decoding="sync"
+       elementtiming="workshops-image"
+       onload="performance.clearMarks('Workshops Page Image'); performance.mark('Workshops Page Image');" />
+  <script>
+    performance.clearMarks("Workshops Page Image");
+    performance.mark("Workshops Page Image");
+  </script>
+  <figcaption>Workshopping at <a href="https://digital-labin.com/">Digital Labin</a>, 2022. Photograph by <a href="https://www.instagram.com/dzambofilm/">Ivica Džambo</a>.</figcaption>
+</figure>
+
 Topics, format, and content can be worked out together to best suit your needs,
 but generally speaking, we’ll be focusing on the entire gamut of front-end web
 performance: tooling, techniques, case studies, insider knowledge, tips, tricks,
