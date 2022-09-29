@@ -18,7 +18,7 @@ an [award-winning developer](https://web.archive.org/web/20190630140300/https://
 [international speaker](/speaking/).
 
 <figure>
-  <img src="{{ site.cloudinary }}/img/content/about.jpg"
+  <img src="/img/content/about.jpg"
        alt
        width="1500"
        height="844"
