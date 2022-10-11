@@ -68,7 +68,7 @@ workshop](/workshops/). My workshops are renowned.
   </li>
 
   <li>
-    <h4 class="list-ui__title">Talk</h4>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.modernfrontends.live/">Modern FrontEnds Live!</a>: London (England), November 2022
   </li>
 
