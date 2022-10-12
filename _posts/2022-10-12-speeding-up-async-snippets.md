@@ -57,9 +57,9 @@ How is this any different to just loading the file normally? What have we done
 that makes this asynchronous? Where is the magic?!
 
 Well, the answer is _nothing_. We didn’t do a thing. It’s [the spec which
-dictates](https://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element)
-that any scripts injected dynamically should be treated as asynchronous. Simply
-by inserting the script with a script, we’ve automatically opted into a standard
+dictates](https://html.spec.whatwg.org/multipage/scripting.html) that any
+scripts injected dynamically should be treated as asynchronous. Simply by
+inserting the script with a script, we’ve automatically opted into a standard
 browser behaviour. That’s really the extent of the whole technique.
 
 But that begs the question… can’t we just use the `async` attribute?
