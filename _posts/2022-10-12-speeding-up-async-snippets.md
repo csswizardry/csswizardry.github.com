@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Speeding Up Async Snippets"
-date: 2022-10-12 21:47:12
+date: 2022-10-12 20:48:12
 categories: Web Development
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/10/waterfall-async-snippets-before.png"
 meta: "Async snippets used to improve performance, but now they’re a legacy anti-pattern. How do we handle them now?"
@@ -56,11 +56,11 @@ special: it’s just injecting a script that resolves to a regular, blocking
 How is this any different to just loading the file normally? What have we done
 that makes this asynchronous? Where is the magic?!
 
-Well, the answer is _nothing_. We didn’t do a thing. It’s the spec which
-dictates that any scripts injected dynamically should be treated as asynchronous
-[citation needed]. Simply by inserting the script with a script, we’ve
-automatically opted into a standard browser behaviour. That’s really the extent
-of the whole technique.
+Well, the answer is _nothing_. We didn’t do a thing. It’s [the spec which
+dictates](https://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element)
+that any scripts injected dynamically should be treated as asynchronous. Simply
+by inserting the script with a script, we’ve automatically opted into a standard
+browser behaviour. That’s really the extent of the whole technique.
 
 But that begs the question… can’t we just use the `async` attribute?
 
