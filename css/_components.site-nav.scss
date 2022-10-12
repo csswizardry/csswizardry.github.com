@@ -64,7 +64,7 @@ $_logo-height:   64px;
         /**
          * Make the logo white when it sits over the dark, open nav.
          */
-        .is-open & {
+        .site-nav.is-open & {
           fill: #fff;
         }
 
