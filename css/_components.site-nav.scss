@@ -431,7 +431,7 @@ $_logo-height:   64px;
 
         }
 
-        @each $page in about, case-studies, services, contact {
+        @each $page in about, case-studies, speaking, services, contact {
 
           .page--#{$page} .site-nav__#{$page} {
             @extend %site-nav__current;
@@ -449,7 +449,7 @@ $_logo-height:   64px;
 
         }
 
-        @each $page in workshops, code-reviews, consultancy, speaking, downloads {
+        @each $page in workshops, code-reviews, consultancy, downloads {
           .page--#{$page} .site-nav__#{$page} {
             @extend %site-nav__current--sub;
           }

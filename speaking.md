@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Public Speaking and Conferences
-page-class: page--services  page--speaking
+page-class: page--speaking
 meta: "Harry Roberts’ past and upcoming speaking engagements"
 permalink: /speaking/
 ---
