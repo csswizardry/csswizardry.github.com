@@ -10,6 +10,7 @@
     padding: $spacing-unit--small;
     text-align: center;
     content-visibility: auto;
+    contain-intrinsic-size: 1px 100px;
 
     &,
     a {

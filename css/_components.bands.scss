@@ -6,6 +6,7 @@
     padding-top:    $spacing-unit;
     padding-bottom: $spacing-unit;
     content-visibility: auto;
+    contain-intrinsic-size: 1px 1000px;
 
     @include media-query(desk) {
         padding-top:    $spacing-unit--large;
