@@ -27,4 +27,15 @@
     background-color: $color-hilite;
   }
 
+  /**
+   * Lazily-render any late text nodes. Scoped to any Ps after the second H2.
+   *
+   * 1. The actual values are mostly irrelevant, but 250px seems like a suitable
+   *    and sensible height estimate for most paragraphs.
+   */
+  > h2:nth-of-type(2) ~ p {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 250px; /* [1] */
+  }
+
 }
