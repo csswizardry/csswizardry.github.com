@@ -23,7 +23,7 @@ Take a look at the
 We start off by simply defining our filter context, `.c-filter`. Everything is
 going to happen inside of this `section`.
 
-```
+```html
 <section class="c-filter">
   ...
 </section>
@@ -37,7 +37,7 @@ on: these are the backbone to the whole technique.
 They’re defined as (empty) anchor elements, because that’s precisely what they
 are: anchors for us to link to.
 
-```
+```html
 <a class="c-filter__target" id="tag:css"></a>
 <a class="c-filter__target" id="tag:html"></a>
 <a class="c-filter__target" id="tag:accessibility"></a>
@@ -47,7 +47,7 @@ are: anchors for us to link to.
 
 After this, we have our filtering links that the user will click on:
 
-```
+```html
 <nav class="c-filter__links">
   <a href="#tag:all" class="c-filter__link  c-filter__link--reset">Reset</a>
   <a href="#tag:html" class="c-filter__link">HTML</a>
@@ -65,7 +65,7 @@ accordingly.
 Following this, we have our list of items we’d like to filter. In this case,
 they’re blog posts:
 
-```
+```html
 <article class="c-article c-filter__item" data-tag="vim">
   <h2>Using Macros</h2>
   <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
@@ -103,7 +103,7 @@ The process will go a little like this:
 The majority of the work happens in the CSS. The first chunk isn’t really
 aything exciting: it’s just cosmetic styling and laying out our items.
 
-```
+```scss
 /**
  * 1. Clearfix our filter context.
  */
@@ -143,7 +143,7 @@ aything exciting: it’s just cosmetic styling and laying out our items.
 
 Now things start to get a little more interesting:
 
-```
+```scss
 .c-filter__target:not(:target) ~ .c-filter__item {
   opacity: 1;
 }
@@ -165,7 +165,7 @@ actually started off as `display: block;` in my first version of this).
 
 The next bit of CSS looks quite similar:
 
-```
+```scss
 .c-filter__target:target ~ .c-filter__item {
   opacity: 0.25;
 }
@@ -184,7 +184,7 @@ specific DOM nodes: we can’t use a blanket rule.
 
 I’m using Sass to help me out here, and that looks like this:
 
-```
+```scss
 @each $tag in html, css, accessibility, performance, vim {
 
   [id="tag:#{$tag}"]:target ~ [data-tag~="#{$tag}"] {
@@ -199,7 +199,7 @@ I’m using Sass to help me out here, and that looks like this:
 Here we have a loop that contains every one of my tags, and goes through them
 all making selectors that look like this:
 
-```
+```scss
 [id="tag:css"]:target ~ [data-tag~="css"] { ... }
 ```
 
@@ -224,7 +224,7 @@ So if we’re targeting the `css` anchor, please go ahead and find all elements
 tagged with `css` later in the DOM tree. Once you’ve found them, please turn
 them on:
 
-```
+```scss
 opacity: 1;
 ```
 
@@ -241,7 +241,7 @@ certainly not insurmountable.
 Inside of the same Sass loop as before, I’m generating a new suite of selectors
 that each look like this:
 
-```
+```scss
 [id="tag:css"]:target ~ .c-filter__links [href="#tag:css"] { ... }
 ```
 
@@ -280,7 +280,7 @@ anchors, they will always be positioned at the very top-left of the viewport.
 The practical upshot of this is that the anchors will always be exactly where
 the user has scrolled to, so the page didn’t actually have to jump anywhere.
 
-```
+```scss
 .c-filter__target {
   position: fixed;
 }
