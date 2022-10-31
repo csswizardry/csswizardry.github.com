@@ -69,6 +69,16 @@ workshop](/workshops/). My workshops are renowned.
 
 </ol>
 
+### 2023
+
+<ol class="list-ui  mb">
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.webexpo.net/prague2022/">WebExpo</a>: Prague (Czech Republic), April 2023
+  </li>
+
+</ol>
 
 
 
