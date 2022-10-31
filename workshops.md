@@ -28,8 +28,8 @@ insights. I’m a teacher who _does_.
 <figure>
   <img src="{{ site.cloudinary }}/img/content/workshops.jpg"
        alt=""
-       width="1500"
-       height="844"
+       width="750"
+       height="422"
        style="background-image: url({% include base64/workshops.jpg.html %});"
        fetchpriority="high"
        decoding="sync"

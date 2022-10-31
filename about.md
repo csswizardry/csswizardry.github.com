@@ -20,8 +20,8 @@ an [award-winning developer](https://web.archive.org/web/20190630140300/https://
 <figure>
   <img src="/img/content/about.jpg"
        alt
-       width="1500"
-       height="844"
+       width="750"
+       height="422"
        style="background-image: url({% include base64/about.jpg.html %});"
        fetchpriority="high"
        decoding="sync"
