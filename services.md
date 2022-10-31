@@ -19,7 +19,7 @@ issues. Through a combination of audits, consultancy, and training, let’s find
 out what web performance means for your business, and how to ensure we’re on top
 of things.
 
-<a href="/consultancy/?cta-services-page#consultations" class="btn  btn--positive  btn--ull">{% include availability.md %}</a>
+<a href="/code-reviews/?cta-services-page#fix-it-fast" class="btn  btn--positive">{% include cta.md %}</a>
 
 <style>
   {% include css/components.feature-list.css %}

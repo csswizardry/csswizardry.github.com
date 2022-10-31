@@ -17,7 +17,7 @@ Whether you want to boost revenues, improve conversion rates, reduce churn, or
 improve retention and engagement, a well-optimised site is a key way to get
 there.
 
-{% include promo-ten-minute-teardown.html %}
+{% include promo-fix-it-fast.md %}
 
 ## How It Works
 
@@ -102,11 +102,11 @@ Once the audit is complete, you receive:
 
 - - -
 
-## Ten-Minute Teardown
+## Fix It Fast!
 
 Sometimes, a week-long audit is a little more than you need. Perhaps you only
 have a very specific issue you’d like to tackle; maybe you’re not sure how much
-input you need at all? For you, we have the _Ten-Minute Teardown_: a quick-fire,
+input you need at all? For you, we have the _Fix It Fast_ option: a quick-fire,
 tactical, and straight to the point screencast covering the most immediate
 problems you face.
 
@@ -119,12 +119,8 @@ You tell me the issue, I run some tests, and then record myself solving it. At
 the end, you’re left with a screencast showing exactly how I went about
 troubleshooting the issue, as well as its solution.
 
-A teardown is a very pragmatic response to the need for short, targeted advice
-that doesn’t require a full audit engagement. It can also be used to triage the
-extent of performance issues with your site.
+_Fix It Fast_ is a very pragmatic response to the need for short, targeted
+advice that doesn’t require a full audit engagement. It can also be used to
+triage the extent of performance issues with your site.
 
-<a href="https://calendly.com/csswizardry/ten-minute-teardown" class="btn  btn--full">Schedule a Teardown</a>
-
-<small>A teardown does not necessarily last for only ten minutes. If I need to
-spend 30 minutes, I will. The point is more that the service is a quick-fire,
-fast-turnaround format.</small>
+<a href="https://calendly.com/csswizardry/ten-minute-teardown" class="btn  btn--full">Fix It <b>Fast!</b></a>
