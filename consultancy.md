@@ -15,6 +15,23 @@ revenues?
 
 It’s my job to help you find out.
 
+<figure>
+  <img src="/img/content/consultancy.jpg"
+       alt=""
+       width="750"
+       height="422"
+       style="background-image: url({% include base64/consultancy.jpg.html %});"
+       fetchpriority="high"
+       decoding="sync"
+       elementtiming="consultancy-image"
+       onload="performance.clearMarks('Consultancy Page Image'); performance.mark('Consultancy Page Image');" />
+  <script>
+    performance.clearMarks("Consultancy Page Image");
+    performance.mark("Consultancy Page Image");
+  </script>
+  <figcaption>Consulting with the team at <a href="https://1337.tech/">13|37</a>.</figcaption>
+</figure>
+
 Consultancy engagements are designed for specific clients and projects, but they
 all combine some or all of the following:
 

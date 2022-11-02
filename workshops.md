@@ -26,7 +26,7 @@ session. They’re intense, intensive, and packed with real-world, practical
 insights. I’m a teacher who _does_.
 
 <figure>
-  <img src="{{ site.cloudinary }}/img/content/workshops.jpg"
+  <img src="/img/content/workshops.jpg"
        alt=""
        width="750"
        height="422"
