@@ -14,8 +14,11 @@ I am an invited [Google Developer
 Expert](https://developers.google.com/experts/people/harry-roberts),
 a [Cloudinary Media Developer
 Expert](https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program#harry_roberts),
-an [award-winning developer](https://web.archive.org/web/20190630140300/https://thenetawards.com/previous-winners/), and an
-[international speaker](/speaking/).
+an [award-winning
+developer](https://web.archive.org/web/20190630140300/https://thenetawards.com/previous-winners/),
+an [international speaker](/speaking/), and co-chair of the inimitable
+[<cite>performance.now()</cite>](https://perfnow.nl/), _the_ web performance
+conference for professionals.
 
 <figure>
   <img src="/img/content/about.jpg"
@@ -49,7 +52,7 @@ an independent consultant, I have been trusted by the likes of the <b>United
 Nations</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>, and [many
 more](/#section:clients). Through combinations of workshops, training, audits,
 development, and consultancy, I have helped my clients to build and scale
-resilient, performant front-ends for a variety of different applications.
+resilient, performant front-ends for a variety of applications.
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:tim-kadlec">
   <p>There is a short list of people I whole-heartedly recommend for detailed
