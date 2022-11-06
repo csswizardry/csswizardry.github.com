@@ -12,8 +12,7 @@ permalink: /contact/
 
 * For **consulting engagements**, please [send me an
   email](mailto:csswizardry@gmail.com).
-  * For **consultations**, [schedule an
-    appointment](/consultancy/#consultations).
+  * For **consultations**, [schedule an appointment](/consultancy/#consultations).
 * For **speaking engagements**, [see my speaking
   page](/speaking/#section:request).
 * For **general questions** and advice, see [my AMA
@@ -30,12 +29,6 @@ permalink: /contact/
 
 
 
-<ul class="c-nav-secondary  mt++" id="section:faq">
-  <li class="c-nav-secondary__item"><a href="#section:details" class="c-nav-secondary__link">Contact Details</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:faq" class="c-nav-secondary__link  is-current">FAQ</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:office" class="c-nav-secondary__link">Office</a></li>
-</ul>
-
 ## Frequently Asked Questions
 
 It can be daunting sending an email off into the blue, so hopefully I can answer
@@ -46,13 +39,3 @@ pleasantly surprised.
 {% include faq-consultancy.md %}
 
 {% include faq-workshops.md %}
-
-
-
-
-
-<ul class="c-nav-secondary  mt++" id="section:office">
-  <li class="c-nav-secondary__item"><a href="#section:details" class="c-nav-secondary__link">Contact Details</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:faq" class="c-nav-secondary__link">FAQ</a></li>
-  <li class="c-nav-secondary__item"><a href="#section:office" class="c-nav-secondary__link  is-current">Office</a></li>
-</ul>
