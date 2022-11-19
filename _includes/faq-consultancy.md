@@ -15,8 +15,8 @@
 
   <p>Absolutely! While my <a href="/#section:clients">client list</a> tends to
   highlight more familiar household names, I love partnering with anyone who’s
-  keen to do good work. In fact, some of my most fond memories are joining teeny
-  tiny teams and working closely together solving problems.</p>
+  keen to do good work. In fact, some of my most fond memories are joining
+  smaller teams and working closely together to solve problems.</p>
 
   <p>Whether it’s consultancy, audits, or training, the size of your company
   does not matter. There’s something for everyone.</p>
