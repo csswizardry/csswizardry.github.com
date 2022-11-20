@@ -57,6 +57,16 @@ workshop](/workshops/). My workshops are renowned.
 
   {% include speaking.html %}
 
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://dafed.org">DaFED</a>: Novi Sad (Serbia), December 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.helloworld.rs/desavanja/helloworld-masterclass-radionica-heri-roberts-u-beogradu/16447">HelloWorld</a>: Belgrade (Serbia), December 2022
+  </li>
+
 </ol>
 
 ### 2023
