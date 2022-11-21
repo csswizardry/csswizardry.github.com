@@ -38,23 +38,24 @@ The first thing you need to do is start with a hypothesis: which code do you
 assume to be dead? Identify a CSS selector that you would no longer expect
 a user to encounter (e.g. `#checkout_wrapper`).
 
-Next, you need to create a 1×1px transparent GIF with that name. Drop it into
-a `dead/` directory: `/assets/img/dead/checkout_wrapper.gif`.
+Next, you need to create a 1×1px transparent GIF called `dead-css.gif` or
+similar, and add a URL parameter to reflect the selector you wish to monitor,
+e.g.: `/assets/img/dead-css.gif?#checkout_wrapper`.
 
 After that, you just need to set that specific image as a background on the
 corresponding selector in your CSS:
 
-```
+```css
 #checkout_wrapper {
-  background-image: url('/assets/img/dead/checkout_wrapper.gif');
+  background-image: url('/assets/img/dead-css.gif?#checkout_wrapper');
   // Existing, legacy code
 }
 ```
 
 Finally, you need to put that change live and then sit back and wait. After
 perhaps three months, you need to check your server’s logs for any requests for
-that new image. If there are no entries, nobody had that legacy component
-rendered on their screen: you can probably go ahead and delete it all.
+that image and URL parameter. If there are no entries, nobody had that legacy
+component rendered on their screen: you can probably go ahead and delete it all.
 
 If you do find entries for that particular image, you know that, somehow, the
 legacy feature is potentially still accessible—the number of entries should give
