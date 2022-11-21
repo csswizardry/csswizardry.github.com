@@ -29,7 +29,7 @@ I recently wrote an article about [finding dead CSS](/2018/01/finding-dead-css/)
 by using a tracking pixel… we can use almost the exact same technique to detect
 non-JavaScript browsers:
 
-```
+```html
 <noscript>
   <img src="/pixels/no-js.gif" alt="" />
 </noscript>
@@ -68,7 +68,7 @@ hypotheticals and maybes: <q>I can imagine <var>x</var> user might want to print
 <var>y</var> information.</q> These were sensible and educated guesses, but
 guesses nonetheless. Let’s gather some data:
 
-```
+```css
 @media print {
 
   html::after {
