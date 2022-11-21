@@ -78,6 +78,10 @@ guesses nonetheless. Let’s gather some data:
 }
 ```
 
+Note that most printers will not print background-images and -colours by
+default, so we insert the image via `content` rather than, say,
+`background-image`.
+
 Now, whenever someone wants to print our page, a request for `print.gif` will
 fire off and we can capture that information: we can make informed decisions
 about if and how to implement a print stylesheet, and how much effort we should
