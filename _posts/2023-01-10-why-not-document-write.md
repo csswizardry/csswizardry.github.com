@@ -27,7 +27,7 @@ You may have also seen that there’s very little explanation as to _why_
 `document.write()` is so harmful. Well, the short answer is:
 
 **From a purely performance-facing point of view, `document.write()` itself
-isn’t that special or unique.** In fact, all it does it surfaces potential
+isn’t that special or unique.** In fact, all it does is surfaces potential
 behaviours already present in any synchronous script—the only main difference is
 that `document.write()` guarantees that these negative behaviours will manifest
 themselves, whereas other synchronous scripts can make use of alternate
@@ -41,7 +41,8 @@ does a good job of discouraging its use.</small>
 
 ## What Makes Scripts Slow?
 
-There are a number of things that can make regular, synchronous scripts[^1] slow.
+There are a number of things that can make regular, synchronous scripts[^1]
+slow:
 
 1. Synchronous JS **can** block DOM construction while the file is downloading.
    * The belief that <q>synchronous JS blocks DOM construction</q> is only true
@@ -276,7 +277,7 @@ JS](https://csswizardry.com/2018/11/css-and-network-performance/#dont-place-link
 and in this example, serves to hide the `document.write()` from the Preload
 Scanner.
 
-`document.write()` later in the page, however, does become more severe. Hiding
+Thus, `document.write()` later in the page does become more severe. Hiding
 a file from the Preload Scanner—and only surfacing it to the browser the exact
 moment we need it—is going to make its entire fetch a blocking action. And,
 because the `document.write()` file is now being fetched by the primary parser
