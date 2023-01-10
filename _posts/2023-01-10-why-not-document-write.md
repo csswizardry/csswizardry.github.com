@@ -7,6 +7,10 @@ main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://
 meta: "We’re often told not to use document.write(), but… why?!"
 ---
 
+<!--
+  - https://www.webpagetest.org/video/compare.php?tests=230105_BiDcVM_9EX-r:5-c:0,230105_BiDcV4_9EY-r:4-c:0,230105_BiDcJJ_9F0-r:1-c:0,230105_BiDcK7_9F1-r:2-c:0,230105_BiDcH7_9HP-r:1-c:0,230105_BiDc0J_9HQ-r:4-c:0
+  -->
+
 If you’ve ever run a Lighthouse test before, there’s a high chance you’ve seen
 the audit [<q>Avoid
 `document.write()`</q>](https://developer.chrome.com/docs/lighthouse/best-practices/no-document-write/):
