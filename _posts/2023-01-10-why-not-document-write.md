@@ -308,7 +308,7 @@ fetch. This doesn’t happen when files are fetched from the Preload Scanner.</f
 
 ## Avoid `document.write()`
 
-As well as exhibiting unbpredicatable and buggy behaviour as keenly stressed in
+As well as exhibiting unpredictable and buggy behaviour as keenly stressed in
 the [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/write) and
 [Google articles](https://developer.chrome.com/blog/removing-document-write/),
 `document.write()` is slow. It guarantees both a blocking fetch and a blocking
