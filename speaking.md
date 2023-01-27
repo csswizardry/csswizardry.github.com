@@ -51,34 +51,14 @@ workshop](/workshops/). My workshops are renowned.
 
 ## Upcoming Events
 
-### 2022
+### 2023
 
 <ol class="list-ui  mb">
 
   {% include speaking.html %}
 
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://dafed.org">DaFED</a>: Novi Sad (Serbia), December 2022
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Workshop</h4>
-    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.helloworld.rs/desavanja/helloworld-masterclass-radionica-heri-roberts-u-beogradu/16447">HelloWorld</a>: Belgrade (Serbia), December 2022
-  </li>
-
 </ol>
 
-### 2023
-
-<ol class="list-ui  mb">
-
-  <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/cz.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.webexpo.net/prague2023/">WebExpo</a>: Prague (Czech Republic), April 2023
-  </li>
-
-</ol>
 
 
 
@@ -151,6 +131,21 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2022
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.helloworld.rs/desavanja/helloworld-masterclass-radionica-heri-roberts-u-beogradu/16447">HelloWorld</a>: Belgrade (Serbia), December 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/rs.png" alt="" width="16" height="11" loading="lazy" /> <a href="http://dafed.org">DaFED</a>: Novi Sad (Serbia), December 2022
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Workshop</h4>
+    <img src="/img/icons/hr.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://hura.hr/howtowow/harry-roberts-front-end-performance-building-faster-websites-2/">HURA</a>: Zagreb (Croatia), December 2022
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>

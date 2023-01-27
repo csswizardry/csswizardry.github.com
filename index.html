@@ -21,14 +21,14 @@ lux: Home
 
 {% include carousel.html %}
 
-<div class="wrapper">
+<div class=wrapper>
 
 <div class="layout  layout--large">
   <div class="layout__item  lap-and-up-one-half  desk-two-thirds" data-ui-component="Main content">
 
-    <section class="post" id="section:articles">
+    <section class=post id=section:articles>
 
-      <h3 class="heading">Articles</h3>
+      <h3 class=heading>Articles</h3>
 
       <p>There are <b>{{ site.posts | size  }}</b> articles on this blog.
       Find them all on the <a href="/archive/">archive page</a>.</p>
@@ -39,10 +39,10 @@ lux: Home
 
       <ul class="list-ui  post__list  mb">
         {% for post in paginator.posts %}
-        <li class="list-ui__item">
+        <li class=list-ui__item>
 
           {% if forloop.first == true %}
-            <link rel="prerender" href="{{ post.url }}" />
+            <link rel=prerender href="{{ post.url }}" />
           {% endif %}
 
           <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %B, %Y" }}</time>

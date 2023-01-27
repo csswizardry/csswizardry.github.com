@@ -19,7 +19,7 @@ lux: Post
             <p class="hide">Written by <b itemprop="author">Harry Roberts</b> on <b itemprop="publisher">CSS Wizardry</b>.</p>
 
             {% if page.toc != false %}
-              <details>
+              <details class=c-toc>
                 <summary>Table of Contents</summary>
                 {% include toc.html html=content ordered=true %}
               </details>
