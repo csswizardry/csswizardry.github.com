@@ -1,8 +1,6 @@
-<head>
 <script>performance.mark('HEAD Start');</script>
-<meta charset="UTF-8">
-<meta http-equiv="origin-trial" content="ApFQs1Y5ZgeutC7AweF1BjzW/yW7sW36dI+6huZxlsK713REpyDCh/fYRsq3EgpISen4mxXGGhzitcipQw2wfwoAAABZeyJvcmlnaW4iOiJodHRwczovL2Nzc3dpemFyZHJ5LmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpb3JpdHlIaW50c0FQSSIsImV4cGlyeSI6MTY0Nzk5MzU5OX0=" />
-<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width, minimum-scale=1.0">
 
 <title>{{ page.title }} &ndash; CSS Wizardry &ndash; Web Performance Optimisation</title>
 
@@ -13,22 +11,22 @@
   -->
 {% endcomment %}
 {% if page.layout != "feature" %}
-<link rel="preconnect" href="https://res.cloudinary.com">
-<link rel="preconnect" href="https://cdn.carbonads.com">
-<link rel="preconnect" href="https://srv.carbonads.net">
-<link rel="preconnect" href="https://cdn.syndication.twimg.com">
-<link rel="preconnect" href="https://syndication.twitter.com">
+<link rel=preconnect href=https://res.cloudinary.com>
+<link rel=preconnect href=https://cdn.carbonads.com>
+<link rel=preconnect href=https://srv.carbonads.net>
+<link rel=preconnect href=https://cdn.syndication.twimg.com>
+<link rel=preconnect href=https://syndication.twitter.com>
 {% endif %}
 
 {% if page.page-class == "page--services  page--workshops" or page.page-class == "page--services  page--downloads" %}
-<link rel="preconnect" href="https://gumroad.com">
+<link rel=preconnect href=https://gumroad.com>
 {% endif %}
 
 {% if page.page-class == "page--services  page--speaking" %}
-<link rel="preconnect" href="https://www.youtube.com">
+<link rel=preconnect href=https://www.youtube.com>
 {% endif %}
 
-<link rel="preconnect" href="https://csswizardry.com" crossorigin>
+<link rel=preconnect href=https://csswizardry.com crossorigin>
 
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -63,55 +61,53 @@ ga('send', 'pageview');
   performance.measure('CSS Time', 'CSS Start', 'CSS End');
 </script>
 
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+<script src=https://www.google-analytics.com/analytics.js async></script>
 
-<script src="https://cdn.speedcurve.com/js/lux.js?id=47684395" defer></script>
+<script src=https://cdn.speedcurve.com/js/lux.js?id=47684395 defer></script>
 
 {% if page.layout != "feature" %}
-<script src="https://platform.twitter.com/widgets.js" defer></script>
+<script src=https://platform.twitter.com/widgets.js defer></script>
 {% endif %}
 {% if page.page-class == "page--services  page--workshops" %}
-<script src="https://gumroad.com/js/gumroad.js" defer></script>
+<script src=https://gumroad.com/js/gumroad.js defer></script>
 {% endif %}
 {% if page.page-class == "page--services  page--downloads" %}
-<script src="https://gumroad.com/js/gumroad-embed.js" defer></script>
+<script src=https://gumroad.com/js/gumroad-embed.js defer></script>
 {% endif %}
 
 {% if page.main %}
-<meta name="twitter:card" content="summary_large_image">
+<meta name=twitter:card content=summary_large_image>
 {% else %}
-<meta name="twitter:card" content="summary">
+<meta name=twitter:card content=summary>
 {% endif %}
-<meta name="twitter:site" content="@csswizardry">
-<meta name="twitter:domain" content="csswizardry.com">
-<meta name="twitter:creator" content="@csswizardry">
-<meta name="twitter:title" content="{{ page.title }} – CSS Wizardry">
+<meta name=twitter:site content=@csswizardry>
+<meta name=twitter:domain content=csswizardry.com>
+<meta name=twitter:creator content=@csswizardry>
+<meta name=twitter:title content="{{ page.title }} – CSS Wizardry">
 {% if page.meta %}
-    <meta name="twitter:description" content="{{ page.meta }}">
+    <meta name=twitter:description content="{{ page.meta }}">
 {% endif %}
 {% if page.main %}
-<meta name="twitter:image" content="{{ page.main }}">
-<meta property="og:image" content="{{ page.main }}" />
+<meta name=twitter:image content="{{ page.main }}">
+<meta property=og:image content="{{ page.main }}" />
 {% else %}
-<meta name="twitter:image" content="https://csswizardry.com/logo.png">
-<meta name="og:image" content="https://csswizardry.com/logo.png">
+<meta name=twitter:image content=https://csswizardry.com/logo.png>
+<meta name=og:image content=https://csswizardry.com/logo.png>
 {% endif %}
 
-<link rel="alternate" type="application/atom+xml" href="https://feeds.feedburner.com/csswizardry">
+<link rel=alternate type=application/atom+xml href=https://feeds.feedburner.com/csswizardry>
 
-<link rel="shortcut icon" href="/icon.png">
-<link rel="apple-touch-icon" href="/icon.png">
-<meta name="apple-mobile-web-app-title" content="csswizardry">
+<link rel=shortcut icon href=/icon.png>
+<link rel=apple-touch-icon href=/icon.png>
+<meta name=apple-mobile-web-app-title content=csswizardry>
 {% if page.meta %}
-  <meta name="description" content="{{ page.meta }}">
+  <meta name=description content="{{ page.meta }}">
 {% endif %}
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<meta name="theme-color" content="#f43059">
-<link rel="manifest" href="/manifest.json">
+<link rel=canonical href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta name=theme-color content=#f43059>
+<link rel=manifest href=/manifest.json>
 
 <script>
   performance.mark('HEAD End');
   performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
 </script>
-
-</head>
