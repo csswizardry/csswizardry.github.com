@@ -6,17 +6,17 @@ lux: Post
 
 {% include header.html %}
 
-<div class="wrapper">
+<div class=wrapper>
 
-    <div class="layout">
-        <section class="layout__item  desk-three-fifths  s-post" data-ui-component="Main content" itemscope itemtype="http://schema.org/Article" id="section:main">
+    <div class=layout>
+        <section class="layout__item  desk-three-fifths  s-post" data-ui-component="Main content" itemscope itemtype=http://schema.org/Article id=section:main>
           <script>performance.mark('Content Start')</script>
 
-            <time class="post__date" datetime="{{ page.date | date: "%Y-%m-%d" }}"  itemprop="datePublished">{{ page.date | date: "%-d %B, %Y" }}</time>
+            <time class=post__date datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
 
-            <h1 itemprop="name  headline" elementtiming="page-title">{{ page.title }}</h1>
+            <h1 itemprop="name  headline" elementtiming=page-title>{{ page.title }}</h1>
 
-            <p class="hide">Written by <b itemprop="author">Harry Roberts</b> on <b itemprop="publisher">CSS Wizardry</b>.</p>
+            <p class=hide>Written by <b itemprop=author>Harry Roberts</b> on <b itemprop=publisher>CSS Wizardry</b>.</p>
 
             {% if page.toc != false %}
               <details class=c-toc>
@@ -33,13 +33,13 @@ lux: Post
               {% include css/components.pagination.css %}
             </style>
 
-            <nav class="c-pagination">
+            <nav class=c-pagination>
               {% if page.previous.url %}
-                <link rel="prerender" href="{{page.previous.url}}" />
+                <link rel=prerender href="{{page.previous.url}}" />
                 <a href="{{page.previous.url}}" class="c-pagination__item  c-pagination__prev">{{page.previous.title}}</a>
               {% endif %}
               {% if page.next.url %}
-                <link rel="prerender" href="{{page.next.url}}" />
+                <link rel=prerender href="{{page.next.url}}" />
                 <a href="{{page.next.url}}" class="c-pagination__item c-pagination__next">{{page.next.title}}</a>
               {% endif %}
             </nav>
@@ -49,7 +49,7 @@ lux: Post
                 <hr />
 
                 <p>
-                    <a href="https://www.paypal.me/csswizardry/5USD" class="btn btn--full">☕️ Did this help? <strong>Buy me a coffee!</strong></a>
+                    <a href=https://www.paypal.me/csswizardry/5USD class="btn btn--full">☕️ Did this help? <strong>Buy me a coffee!</strong></a>
                 </p>
             {% endif %}
 
