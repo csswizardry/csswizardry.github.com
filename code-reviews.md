@@ -7,7 +7,7 @@ main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://
 permalink: /code-reviews/
 ---
 
-**Your website is too slow. I can tell you why.**
+**Your website is slow. I can tell you why.**
 
 You could be leaving hundreds of thousands of dollars of revenue on the table
 every year due to a poorly- or un-optimised website. Slow websites are one of
