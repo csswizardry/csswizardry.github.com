@@ -48,10 +48,10 @@ All it takes is five straightforward steps to turn your site around:
    handover session to ensure that you fully understand the entirety of the audit
    document and know what you need to do next.
 5. **Reconvene:** One to three months later—depending on what would be most
-   appropriate for your organisation—I’ll drop back in and conduct a brief audit
-   against your to-do list that I left you with. This phase ensures you’re
-   accountable, as well as shows me where any regressions may have happened or
-   what you may have struggled to overcome.
+   helpful for you—I’ll drop back in and conduct a brief re-audit against the
+   backlog that I left you with. This phase ensures you’re accountable, as
+   well as shows me where any regressions may have happened or what you may have
+   struggled to overcome.
 
 <figure>
 <img src="{{ site.cloudinary }}/img/content/audit-trello.png" alt="" loading="lazy" width="750" height="476" />
