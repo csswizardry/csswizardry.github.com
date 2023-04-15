@@ -3,7 +3,7 @@ layout: page
 title: "Sentinel: Your Web-Performance Watchman"
 page-class: page--services  page--sentinel
 meta: "I keep an eye on site-speed so you don’t have to"
-main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/content/audit-trello.png"
+main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/content/sentinel/speedcurve-003.png"
 permalink: /sentinel/
 ---
 
@@ -26,7 +26,7 @@ Even the most performance-conscious teams rarely have the time or resources to:
 Outsource your performance monitoring to me, your web-performance watchman.
 
 <figure>
-<img src="/img/content/sentinel/speedcurve-001.png" alt="" width="1500" height="864">
+<img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-001.png" alt="" width="1500" height="864">
 </figure>
 
 ## What is Sentinel?
@@ -61,7 +61,7 @@ hand over a report containing the timing of the regression, its cause, its
 severity, its impact, and its fix.
 
 <figure>
-<img src="/img/content/sentinel/speedcurve-002.png" alt="" width="1500" height="864">
+<img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-002.png" alt="" width="1500" height="864">
 </figure>
 
 ## What Does Sentinel Look Like?
@@ -85,7 +85,7 @@ calculate relevant budgets for each of our chosen metrics, and set up the
 corresponding dashboards and alerts for them.
 
 <figure>
-<img src="/img/content/sentinel/speedcurve-003.png" alt="" width="1500" height="864">
+<img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-003.png" alt="" width="1500" height="864">
 </figure>
 
 ### Monitor
@@ -105,7 +105,7 @@ a report and send it over. This could be via email, or directly into your issue
 tracker. It’s entirely up to you.
 
 <figure>
-<img src="/img/content/sentinel/report-001.png" alt="" width="1500" height="864">
+<img src="{{ site.cloudinary }}/img/content/sentinel/report-001.png" alt="" width="1500" height="864">
 </figure>
 
 ### Report
