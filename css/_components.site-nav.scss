@@ -449,7 +449,7 @@ $_logo-height:   64px;
 
         }
 
-        @each $page in workshops, code-reviews, consultancy, downloads {
+        @each $page in workshops, code-reviews, consultancy, downloads, sentinel {
           .page--#{$page} .site-nav__#{$page} {
             @extend %site-nav__current--sub;
           }
