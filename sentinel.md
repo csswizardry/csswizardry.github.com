@@ -128,7 +128,7 @@ any opportunities?
 
 ## Pricing
 
-**_Sentinel_ costs $3,999/mo.**
+**_Sentinel_ costs $5,999/mo.**
 
 * <small>USD</small>
 * <small>Billed monthly</small>
