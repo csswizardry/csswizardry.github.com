@@ -83,9 +83,11 @@ ga('send', 'pageview');
 <meta name=twitter:site content=@csswizardry>
 <meta name=twitter:domain content=csswizardry.com>
 <meta name=twitter:creator content=@csswizardry>
+<meta property=og:title content="{{ page.title }} – CSS Wizardry">
 <meta name=twitter:title content="{{ page.title }} – CSS Wizardry">
 {% if page.meta %}
     <meta name=twitter:description content="{{ page.meta }}">
+    <meta property=og:description content="{{ page.meta }}">
 {% endif %}
 {% if page.main %}
 <meta name=twitter:image content="{{ page.main }}">
@@ -104,6 +106,7 @@ ga('send', 'pageview');
   <meta name=description content="{{ page.meta }}">
 {% endif %}
 <link rel=canonical href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property=og:url content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta name=theme-color content=#f43059>
 <link rel=manifest href=/manifest.json>
 
