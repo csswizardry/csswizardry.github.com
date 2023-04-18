@@ -64,6 +64,10 @@ severity, its impact, and its fix.
 <img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-002.png" alt="" width="1500" height="864">
 </figure>
 
+<p>
+  <a href="https://calendly.com/csswizardry/sentinel" class="btn btn--full">Learn more…</a>
+</p>
+
 ## What Does Sentinel Look Like?
 
 There are three key aspects to _Sentinel_.
@@ -126,6 +130,10 @@ compare your site against competitors and industry peers. How do we stack up? Is
 anyone making great progress? Do we need to catch up to anyone? Can we identify
 any opportunities?
 
+<p>
+  <a href="https://calendly.com/csswizardry/sentinel" class="btn btn--full">Arrange a call</a>
+</p>
+
 ## Pricing
 
 **_Sentinel_ costs $5,999/mo.**
@@ -154,10 +162,11 @@ any opportunities?
   position within your industry. Do we have opportunities for improvement? Are we
   leading the pack?
 
-## Let’s Go!
+## Learn More
 
-Sound good? Let’s talk about it some more:
+If you want to know more about _Sentinel_ and how it can help your team, let’s
+arrange a zero-obligation call to discuss it further:
 
 <p>
-    <a href="mailto:csswizardry@gmail.com?subject=Sentinel%20Enquiry" class="btn btn--full">Let’s talk <i>Sentinel</i></a>
+  <a href="https://calendly.com/csswizardry/sentinel" class="btn btn--full">Let’s talk <i>Sentinel</i></a>
 </p>
