@@ -51,6 +51,18 @@ If you have any render-blocking CSS or synchronous JS hosted on third party
 domains, go and bring it onto your own infrastructure _right now_. Critical
 assets are far too valuable to leave on someone else’s servers.
 
+### <ins datetime="2023-04-27">`code.jquery.com` Outage
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yikes! It looks like
+code.jquery.⁠com is currently suffering an outage. This is going to have
+a huge impact across a massive portion of the web. Please please please
+SELF-HOST YOUR STATIC ASSETS: <a
+href="https://t.co/YWb7ZLdPxc">https://t.co/YWb7ZLdPxc</a> <a
+href="https://t.co/2UjFNhrCST">pic.twitter.com/2UjFNhrCST</a></p>&mdash; Harry
+Roberts (@csswizardry) <a
+href="https://twitter.com/csswizardry/status/1651599057608142849?ref_src=twsrc%5Etfw">27
+April, 2023</a></blockquote>
+
 ## Risk: Service Shutdowns
 
 A far less common occurrence, but what happens if a provider decides they need
