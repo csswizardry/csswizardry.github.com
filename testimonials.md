@@ -36,6 +36,15 @@ word for it—here’s what they had to say about me:
     <a href="#tag:training" class="c-filter__link">Training</a>
   </nav>
 
+<article class="c-card c-filter__item" data-tag="client  performance  training" id="testimonial:jonathon-olenick">
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/sait.png" width="292" height="48" alt="Southern Alberta Institute of Technology" /></h2>
+  <blockquote class="pull-quote">
+    <p>Thank you so much for the excellent session, Harry—it was a lot of fun. The team was jazzed by what they learned and were amazed by how prepared you came and all of the ideas you helped spark for ways forward.</p>
+    <p>We appreciated your thoroughness, insights, expertise, and the thoughtfulness you brought towards your prepared materials.</p>
+  </blockquote>
+  <p>— Jonathon Olenick, Manager, Digital Experience, <a href="https://www.sait.ca/">Southern Alberta Institute of Technology</a></p>
+</article>
+
 <article class="c-card c-filter__item" data-tag="client  css  training" id="testimonial:addy-osmani">
   <h2><img src="{{ site.cloudinary }}/img/content/testimonials/google.png" width="146" height="48" alt="Google" /></h2>
   <blockquote class="pull-quote">

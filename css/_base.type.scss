@@ -19,6 +19,19 @@
 
 
 /**
+ * On pages like /testimonials/, the content of H2s are IMGs which are set to
+ * 48px height (two baseline grids). As a result, the H2 itself needs its
+ * `line-height` effectively unsetting, letting the IMG do the work instead.
+ */
+h2:has(> img) {
+  line-height: 1;
+}
+
+
+
+
+
+/**
  * A generic heading style which can be applied to any headings.
  */
 .heading {
