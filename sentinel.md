@@ -159,8 +159,8 @@ any opportunities?
   month? Did we have more incidents than normal?
 * **Quarterly healthchecks and benchmarks:** Every three months, I’ll run
   a suite of tests against your closest competitors and peers to establish our
-  position within your industry. Do we have opportunities for improvement? Are we
-  leading the pack?
+  position within your industry. Are we leading the pack? Or do we have
+  opportunities for improvement?
 
 ## Learn More
 
