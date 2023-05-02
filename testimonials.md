@@ -37,7 +37,7 @@ word for it—here’s what they had to say about me:
   </nav>
 
 <article class="c-card c-filter__item" data-tag="client  performance  training" id="testimonial:jonathon-olenick">
-  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/sait.png" width="292" height="48" alt="Southern Alberta Institute of Technology" /></h2>
+  <h2><img src="/img/content/testimonials/sait.png" width="292" height="48" alt="Southern Alberta Institute of Technology" /></h2>
   <blockquote class="pull-quote">
     <p>Thank you so much for the excellent session, Harry—it was a lot of fun. The team was jazzed by what they learned and were amazed by how prepared you came and all of the ideas you helped spark for ways forward.</p>
     <p>We appreciated your thoroughness, insights, expertise, and the thoughtfulness you brought towards your prepared materials.</p>
