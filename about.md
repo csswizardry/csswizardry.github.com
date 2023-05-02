@@ -7,8 +7,8 @@ permalink: /about/
 lux: About
 ---
 
-Hi there, I’m Harry. I am an independent **Consultant Web Performance Engineer**
-from Leeds, UK. I help some of the world’s largest and most respected
+Hi there, I’m Harry Roberts. I am an independent **Consultant Web Performance
+Engineer** from Leeds, UK. I help some of the world’s largest and most respected
 organisations deliver faster and more reliable experiences to their customers.
 I am an invited [Google Developer
 Expert](https://developers.google.com/experts/people/harry-roberts),
