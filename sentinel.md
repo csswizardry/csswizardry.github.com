@@ -26,7 +26,7 @@ Even the most performance-conscious teams rarely have the time or resources to:
 Outsource your performance monitoring to me, your web-performance watchman.
 
 <figure>
-<img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-001.png" alt="" width="1500" height="864">
+  <img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-001.png" alt="" width="1500" height="864">
 </figure>
 
 ## What is Sentinel?
@@ -61,7 +61,7 @@ hand over a report containing the timing of the regression, its cause, its
 severity, its impact, and its fix.
 
 <figure>
-<img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-002.png" alt="" width="1500" height="864">
+  <img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-002.png" alt="" width="1500" height="864">
 </figure>
 
 <p>
@@ -89,7 +89,7 @@ calculate relevant budgets for each of our chosen metrics, and set up the
 corresponding dashboards and alerts for them.
 
 <figure>
-<img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-003.png" alt="" width="1500" height="864">
+  <img src="{{ site.cloudinary }}/img/content/sentinel/speedcurve-003.png" alt="" width="1500" height="864">
 </figure>
 
 ### Monitor
@@ -141,7 +141,7 @@ any opportunities?
 * <small>USD</small>
 * <small>Billed monthly</small>
 * <small>20% discount for annual billing</small>
-* <small>Minimum commitment of 12 months</small>
+* <small>Minimum commitment of six months</small>
 
 ### What’s Included?
 
