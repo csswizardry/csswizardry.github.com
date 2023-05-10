@@ -3,6 +3,7 @@ layout: page
 title: Public Speaking and Conferences
 page-class: page--speaking
 meta: "Harry Roberts’ past and upcoming speaking engagements"
+main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/css/masthead-medium.e55920c9.jpg"
 permalink: /speaking/
 ---
 
