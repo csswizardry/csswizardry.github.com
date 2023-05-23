@@ -191,7 +191,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), October 2022
+    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">Infoshare</a>: Gdańsk (Poland), October 2022
   </li>
 
   <li>
@@ -237,7 +237,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), October 2021
+    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">Infoshare</a>: Gdańsk (Poland), October 2021
   </li>
 
   <li>
@@ -360,7 +360,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), May 2019
+    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">Infoshare</a>: Gdańsk (Poland), May 2019
   </li>
 
   <li>
@@ -456,7 +456,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
-    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), May 2018
+    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">Infoshare</a>: Gdańsk (Poland), May 2018
   </li>
 
   <li>
@@ -582,7 +582,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">infoShare</a>: Gdańsk (Poland), May 2017
+    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">Infoshare</a>: Gdańsk (Poland), May 2017
   </li>
 
   <li>
