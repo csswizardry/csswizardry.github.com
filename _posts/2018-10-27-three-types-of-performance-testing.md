@@ -35,11 +35,11 @@ order—but all complement each other, and will ultimately feed into one another
 
 ## Proactive
 
-A lot of the time I’m auditing client sites, many of the issues and
+A lot of the time when auditing client sites, many of the issues and
 inefficiencies I uncover could have quite easily been discovered by the
-development team. The problems could be been identified, nipped in the bud,
-and never have made it in front of a customer at all if they’d just known where
-to look!
+development team themselves. The problems could be been identified, nipped in
+the bud, and never have made it in front of a customer at all if they’d just
+known where to look!
 
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2018/10/screenshot-devtools.png" alt="Chrome DevTools’ Performance panel" />
