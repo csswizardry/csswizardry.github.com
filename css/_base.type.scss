@@ -12,6 +12,7 @@
 @include headings() {
     @include font-weight(light);
     color: $color-headings;
+    text-wrap: balance;
 }
 
 
