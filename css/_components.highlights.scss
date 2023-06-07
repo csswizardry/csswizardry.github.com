@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #HIGHLIGHTS
+   ========================================================================== */
+
+.c-highlight {
+  $_text-color: #36393a;
+
+  padding: $spacing-unit;
+  background-color: $color-hilite;
+
+  &, a {
+    color: $_text-color;
+  }
+
+  &::selection,
+  ::selection {
+    color: $color-hilite;
+    background-color: $_text-color;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+}
