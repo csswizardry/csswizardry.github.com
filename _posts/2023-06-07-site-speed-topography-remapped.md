@@ -129,6 +129,8 @@ these pages in a browser!—we can already work out where our main liabilities
 lie. We know where to focus our efforts, and our day-one to-do list is already
 written. No more false starts and dead ends. **Optimise the work not done.**
 
-So, what are you waiting for?
+So, what are you waiting for? [Grab a copy of the new Site-Speed Topography
+spreadsheet along with a 15-minute screencast
+explainer!](https://csswizardry.gumroad.com/l/site-speed-topography-remapped)
 
 <a href="https://csswizardry.gumroad.com/l/site-speed-topography-remapped" class="btn  btn--full">Get the new spreadsheet!</a>
