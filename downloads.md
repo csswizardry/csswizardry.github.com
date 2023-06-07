@@ -9,9 +9,10 @@ permalink: /downloads/
 Periodically, I’ll make resources and assets available for download. These are
 usually extensive workshop slide-decks that can be viewed out of context.
 
-**N.B.** If you download any of the below and then go on to [hire
-me](/services/), be sure to mention your license key and I will deduct the cost
-of your download(s) from your final invoice.
+<p class="c-highlight"><strong>N.B.</strong> If you download any of the below
+and then go on to <a href="/services/">hire me</a>, be sure to mention your
+license key and I will deduct the cost of your download(s) from your final
+invoice.</p>
 
 ## What Is Site-Speed and Why Should I Care?
 
