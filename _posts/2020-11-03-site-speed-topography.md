@@ -7,6 +7,11 @@ main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://
 meta: "Learning the lay of the land"
 ---
 
+<p class="c-highlight"><strong>N.B.</strong> On 6 June, 2023, I published an
+updated version of this article. I would encourage you to read <a
+href="/2023/06/site-speed-topography-remapped/"><cite>Site-Speed Topography
+Remapped</cite></a> after this.</p>
+
 A couple of years ago, my first few days on a new web performance project were
 always slow going. So many false starts, tedious workflows, and a complete lack
 of efficiency really made it difficult for me to find momentum. All through no
