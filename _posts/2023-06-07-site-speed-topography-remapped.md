@@ -98,6 +98,8 @@ Here is the new-look <i>Site-Speed Topography</i> spreadsheet:
 <figcaption>A much more colourful spreadsheet provides way more information. <a href="{{ site.cloudinary }}/wp-content/uploads/2023/06/site-speed-topography-01-large.png">View full size/quality (182KB)</a></figcaption>
 </figure>
 
+<a href="https://csswizardry.gumroad.com/l/site-speed-topography-remapped" class="btn  btn--full">Get the new spreadsheet!</a>
+
 Now, without having to do any mental gymnastics at all, we can quickly see:
 
 * How pages perform overall across all metrics.
