@@ -7,11 +7,11 @@ permalink: /services/
 ---
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:addy-osmani"><p>Harry’s tailored
-workshop was nothing short of fantastic, and a real eye-opener, helping our team
-level up their scalable CSS architecture skills. The entire team left it
-learning something new, and to say that what was covered will have a large
-impact on our work is an understatement. We can’t recommend him enough.</p><b
-class="source pull-quote__source"><a href="https://twitter.com/addyosmani">Addy
+workshop was nothing short of fantastic—a real eye-opener, helping our team
+level up their scalable CSS architecture skills. The entire team left learning
+something new, and to say that what was covered will have a large impact on our
+work is an understatement. We can’t recommend him enough.</p>
+<b class="source pull-quote__source"><a href="https://twitter.com/addyosmani">Addy
 Osmani</a>, Google</b></blockquote>
 
 I help companies of all shapes and sizes to assess, identify, and fix site-speed
