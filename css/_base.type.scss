@@ -13,6 +13,20 @@
     @include font-weight(light);
     color: $color-headings;
     text-wrap: balance;
+    hyphens: auto;
+}
+
+h1 {
+  font-weight: 900;
+
+  @include media-query(lap-and-up) {
+    @include font-size(72px);
+    border-left: $spacing-unit solid $color-brand;
+    border-radius: $base-round;
+    margin-left: -($spacing-unit + $spacing-unit--small);
+    padding-left: $spacing-unit--small;
+  }
+
 }
 
 

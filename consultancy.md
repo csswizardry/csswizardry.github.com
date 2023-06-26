@@ -6,7 +6,7 @@ meta: "Consultancy and strategic guidance for development teams"
 permalink: /consultancy/
 ---
 
-**Web performance affects all businesses. How does it affect yours?**
+**Web performance impacts all businesses. How does it affect yours?**
 
 I work together with organisations of all sizes to analyse, find, and fix
 site-speed issues. How much does a one-second slowdown affect conversion rates?
@@ -32,8 +32,8 @@ It’s my job to help you find out.
   <figcaption>Consulting with the team at <a href="https://1337.tech/">13|37</a>.</figcaption>
 </figure>
 
-Consultancy engagements are designed for specific clients and projects, but they
-all combine some or all of the following:
+Consultancy engagements are tailored to each client and project, but they all
+combine some or all of the following:
 
 * **Analysis:** You can’t fix what you can’t measure. Let’s work out just how
   site-speed affects your business. Once we have an idea of exactly what web
@@ -53,8 +53,8 @@ all combine some or all of the following:
   considerations into projects from the outset. Let’s make it easy to do the
   right thing.
 
-I pride myself on my ability to work with organisations, not merely for them. So
-much so that I wrote [a book about
+I pride myself on my ability to work with organisations and not merely for them.
+So much so that [I wrote a book about
 it](https://gumroad.com/l/questions-for-consultants).
 
 <a href="mailto:csswizardry@gmail.com?subject=Consultancy%20Engagement" class="btn  btn--full">Let’s Talk!</a>

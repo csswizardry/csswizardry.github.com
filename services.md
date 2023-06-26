@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Let’s Work Together
+title: What Can I Do for You?
 page-class: page--services
 meta: "Services offered to clients of all shapes and sizes"
 permalink: /services/

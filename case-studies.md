@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Case Studies
+title: Good Work for Good People
 page-class: page--case-studies
 permalink: /case-studies/
 ---

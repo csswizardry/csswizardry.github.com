@@ -68,14 +68,19 @@
 
 /**
  * Mastheads will have some large text in them. Let’s position that bottom-left.
+ *
+ * 1. Remove some pretty opinionated base styles.
  */
 .page-head__text {
     margin: 0;
+    padding-left: 0; /* [1] */
+    border-left: 0; /* [1] */
     position: absolute;
     bottom: 0;
     left: auto;
     color: $color-masthead;
     @include font-size(24px);
+    font-weight: 300; /* [1] */
 
     @include media-query(lap-and-up) {
         @include font-size(48px);

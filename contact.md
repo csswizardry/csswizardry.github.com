@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Let’s Talk!
+title: Let’s Get Started
 page-class: page--contact
 meta: "Get in touch to discuss work and speaking engagements"
 permalink: /contact/
