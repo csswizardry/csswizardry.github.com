@@ -49,7 +49,15 @@ I want to cover in this post.
 `public` means that any caches may store a copy of the response. This includes
 CDNs, proxy servers, and the like. The `public` directive is often redundant, as
 the presence of other directives (such as `max-age`) are implicit instructions
-that caches may store a copy.
+that caches may store a copy. Further, the presence of `public` on requests with
+an `Authorization` header  _will_ cause the response to be stored in public
+caches which you really, really do not want:
+
+> Responses for requests with `Authorization` header fields must not be stored
+> in a shared cache; however, the public directive will cause such responses to
+> be stored in a shared cache.
+
+<small>[`Cache-Control` on MDN.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control#public)</small>
 
 `private`, on the other hand, is an explicit instruction that only the end
 recipient of the response (the _client_, or _the browser_) may store a copy of
