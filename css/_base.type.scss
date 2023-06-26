@@ -17,10 +17,10 @@
 }
 
 h1 {
-  font-weight: 900;
 
   @include media-query(lap-and-up) {
     @include font-size(72px);
+    font-weight: 900;
     border-left: $spacing-unit solid $color-brand;
     border-radius: $base-round;
     margin-left: -($spacing-unit + $spacing-unit--small);
