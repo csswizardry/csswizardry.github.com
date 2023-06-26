@@ -18,6 +18,9 @@ caching practices. Perhaps it’s down to the heavy focus on first-time visits, 
 perhaps it’s a simple lack of awareness and knowledge? Whatever it is, let’s
 have a bit of a refresher.
 
+Let’s look at `Cache-Control` in simple terms, and how we can we can best
+utilise it. Let’s look at `Cache-Control` for civilians.
+
 - - -
 
 ## `Cache-Control`
