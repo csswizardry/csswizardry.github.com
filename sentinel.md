@@ -45,6 +45,11 @@ feature work to do, and even with the best will in the world, performance ends
 up falling off the radar. Regressions sneak in, go unnoticed, and never get
 fixed.
 
+<blockquote class="pull-quote  pull-quote--context-alt" id="quote:patrick-meenan">
+<p><q>Service</q> undersells what Harry is providing here. It looks like a comprehensive monitor/triage/root-cause/impact high-touch service from one of the best.</p>
+<b class="source  pull-quote__source"><a href="https://twitter.com/patmeenan/status/1648293161872117762">Patrick Meenan</a></b>
+</blockquote>
+
 _Sentinel_ is a service I offer to a small number of trusted clients: I become
 your eyes and ears so you can get on with what you do best. Using my own
 monitoring, I’ll work with you to define performance budgets and set up
