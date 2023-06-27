@@ -122,13 +122,14 @@ $_logo-height:   64px;
    * breakpoints. Things get a little hairy.
    *
    * 1. Hide the nav off-screen until we need it.
+   * 2. 6px page-border plus current 48px of ribbon.
    */
   .site-nav__list {
     margin:  0;
     padding: 0;
     list-style: none;
     position: fixed;
-    top:    6px;
+    top:    54px; /* [2] */
     right:  0;
     bottom: 0;
     left:   0;
