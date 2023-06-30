@@ -3,7 +3,7 @@ layout: post
 title: "Why Not document.write()?"
 date: 2023-01-10 16:17:11
 categories: Web Development
-main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2023/01/lighthouse.png"
+main: "https://csswizardry.com/wp-content/uploads/2023/01/lighthouse.png"
 meta: "We’re often told not to use document.write(), but… why?!"
 ---
 

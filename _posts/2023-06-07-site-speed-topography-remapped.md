@@ -3,7 +3,7 @@ layout: post
 title: "Site-Speed Topography Remapped"
 date: 2023-06-07 17:11:58
 categories: Web Development
-main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2023/06/site-speed-topography-01.png"
+main: "https://csswizardry.com/wp-content/uploads/2023/06/site-speed-topography-01.png"
 meta: "Revisiting and remapping my Site-Speed Topography technique for assessing web performance at large"
 ---
 
