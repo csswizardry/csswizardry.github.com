@@ -65,7 +65,7 @@ This is particularly true in the case of `DOMContentLoaded`.
 
 **[The `DOMContentLoaded`
 event](https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event)
-fires once all of your deferred JavaScript has finished running.**
+fires once all of your `defer`red JavaScript has finished running.**
 
 Therefore, anyone leaning heavily on `defer`—or frameworks that utilise
 it—should immediately see the significance of this metric.
@@ -126,9 +126,10 @@ origin](https://treo.sh/sitespeed/csswizardry.com?metrics=dcl%2Col).
 
 ### Google Analytics
 
-[Until recently](https://support.google.com/analytics/answer/11583528?hl=en),
-Google Analytics also surfaces `DOMContentLoaded` information. Only this time,
-we aren’t limited to just Chrome visits! That said, we aren’t presented with
+Until, well,
+[today](https://support.google.com/analytics/answer/11583528?hl=en), Google
+Analytics also surfaced `DOMContentLoaded` information. Only this time, we
+aren’t limited to just Chrome visits! That said, we aren’t presented with
 particularly granular data, either:
 
 <figure>
@@ -146,13 +147,13 @@ outliers in the field.
 Takeaways here are:
 
 1. **Only about 10% of Chrome visitors have what Google deem to be a Good
-   `DOMContentLoaded`.** All `defer`red JavaScript has run within 1.5s for the
-   vast minority of sessions.
+   `DOMContentLoaded`.** All `defer`red JavaScript has run within 1.5s for only
+   the vast minority of visitors.
 2. **3.56% of all users waited over 10s for `DOMContentLoaded`.** This is a 10
-   second wait for all `defer`red JavaScript to run.
+   second wait for key `defer`red JavaScript to run.
 
 <small>Given that the `DOMContentLoaded` event fires after the last of our
-deferred files has run, there’s every possibility that key functionality from
+`defer`red files has run, there’s every possibility that key functionality from
 any preceding files has already become available, but that’s not something we
 have any visibility over without looking into custom monitoring, which is
 exactly the situation we’re in here. Remember, this is still a proxy metric—just
@@ -174,7 +175,7 @@ actually referred to as `domContentLoadedEventStart`—there is no bare
    equivalent to the concept we’ve been discussing in this article so far. To
    get the metric we’ve been referring to as `DOMContentLoaded`, you need
    `window.performance.timing.domContentLoadedEventStart`.
-   * Because deferred JS is guaranteed to run after synchronous JS, this event
+   * Because `defer`red JS is guaranteed to run after synchronous JS, this event
      also marks the point that all synchronous work is complete.
 2. **`domContentLoadedEventEnd`:** The end event captures the time at which all
    JS wrapped in a `DOMContentLoaded` event listener has finished running:
@@ -183,7 +184,7 @@ actually referred to as `domContentLoadedEventStart`—there is no bare
      // Do something
    });
    ```
-   * This is separate to deferred JavaScript and runs after our
+   * This is separate to `defer`red JavaScript and runs after our
      `DOMContentLoaded` event—if we are running a nontrivial amount of code at
      `DOMContentLoaded`, we’re also interested in this milestone. That’s not in
      the scope of this article, though, so we probably won’t come back to that
@@ -217,7 +218,7 @@ running—which is great!—it doesn’t tell us how long it took to run. We mig
 have a `DOMContentLoaded` at 5s, but did the code start running at 4.8s? 2s? Who
 knows?!
 
-We do.
+**We do.**
 
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2023/06/defer-waterfall-minimal.png" alt="" width="930" height="522" loading="lazy">
@@ -225,17 +226,17 @@ We do.
 </figure>
 
 In the above waterfall, which is the same one from earlier, only even shorter,
-we have the vertical pink line around 12s, which is `DOMContentLoaded`, we also
-have a vertical sort of yellow line around 3.5s (actually, it’s at 3.52s
-exactly). This is `domInteractive`. `domInteractive` is the event immediately
-before `domContentLoadedEventStart`. This is the moment the browser has finished
-parsing all synchronous DOM work: your HTML and all blocking scripts it
-encountered on the way. Basically, the browser is now at the `</html>` tag. The
-browser is ready to run your `defer`red JavaScript.
+we still have the vertical pink line around 12s, which is `DOMContentLoaded`,
+but we also have a vertical sort-of yellow line around 3.5s (actually, it’s at
+3.52s exactly). This is `domInteractive`. `domInteractive` is the event
+immediately before `domContentLoadedEventStart`. This is the moment the browser
+has finished parsing all synchronous DOM work: your HTML and all blocking
+scripts it encountered on the way. Basically, the browser is now at the
+`</html>` tag. The browser is ready to run your `defer`red JavaScript.
 
 One very important thing to note is that the `domInteractive` event fired long,
 long before the request for file 133 was even dispatched. Immediately this tells
-us that the delta between `DOMContentLoaded` and `domInteractive` includes code
+us that the delta between `domInteractive` and `DOMContentLoaded` includes code
 execution **and any remaining fetch**.
 
 Thankfully, the browser wasn’t just idling in this time. Because `defer`red code
@@ -303,8 +304,8 @@ This demo below contains:
 
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2023/06/devtools-console.png" alt="" width="1500" height="813" loading="lazy">
-  <figcaption>The <code>`defer`ed code finished: 3129ms</code> lines up with
-DevTools’ own reported 3.13s <code>DOMContentLoaded</code>.</figcaption>
+  <figcaption>The <q><code>`defer`ed code finished: 3129ms</code></q> lines up
+  with DevTools’ own reported 3.13s <code>DOMContentLoaded</code>.</figcaption>
 </figure>
 
 Or take a look at [the live demo on Glitch](https://deep-bow-engine.glitch.me/).
