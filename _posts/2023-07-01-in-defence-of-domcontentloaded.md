@@ -46,8 +46,8 @@ Or are they…?
 
 ## Technically Meaningful
 
-Not all metrics _need_ to be user-centric. I’m willing to bet you still monitor
-[TTFB](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/), even though
+Not all metrics _need_ to be user-centric. I’m willing to bet you still [monitor
+TTFB](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/), even though
 you know your customers will have no concept of a first byte whatsoever. This is
 because some metrics are useful to developers. TTFB is a good measure of your
 server response times and general back-end health, and issues here may have
@@ -354,3 +354,57 @@ access to is `DOMContentLoaded` (or we aren’t already using something more
 suitable), then we do actually have some visibility on app state and
 availability. If you are using `defer` or `type=module`, then `DOMContentLoaded`
 might be more useful to you than you realise.
+
+## Back to Work
+
+I mentioned previously that the `DOMContentLoaded` event fires once all
+`defer`red JavaScript has run, which means that we could potentially be
+trickling functionality throughout the entire time between `domInteractive` and
+`DOMContentLoaded`.
+
+In my client’s case, however, the site is completely nonfunctional until the
+very last file (response 133 in the waterfall) has successfully executed. In
+fact, blocking the request for file 133 has the exact same effect as disabling
+JavaScript entirely. This means the `DOMContentLoaded` event for them is an
+almost exact measure of when the app is available. This means that **tracking
+and improving `DOMContentLoaded` will have a direct correlation to an improved
+customer experience**.
+
+### Improving `DOMContentLoaded`
+
+Given that `DOMContentLoaded` marks the point at which all synchronous HTML and
+JavaScript has been dealt with, and all `defer`red JavaScript has been fetched
+and run, this leaves us many different opportunities to improve the metric: we
+could reduce the size of our HTML, we could remove or reduce expensive
+synchronous JavaScript, we could inline small scripts to remove any network
+cost, and we can reduce the amount of `defer`red JavaScript.
+
+Further, as `DOMContentLoaded` is a milestone timing, any time we can shave from
+preceding timings should be realised later on. For example, all things being
+equal, a 500ms improvement in TTFB will yield a 500ms improvement in subsequent
+milestones, such as First Contentful Paint or, in our case, `DOMContentLoaded`.
+
+However, _in our_ case, the delta between `domInteractive` and
+`DOMContentLoaded` was 8.681s, or about 70%. And while their TTFB certainly does
+need improvement, I don’t think it would be the most effective place to spend
+time while tackling this particular problem.
+
+Almost all of that 8.7s was lost to queuing and fetching that sheer number of
+bundles. Not necessarily the size of the bundles—just the sheer quantity of
+files that need scheduling, and which each carry their own latency cost.
+
+While we haven’t worked out the sweet spot for this project, as a rule,
+a smaller number of larger bundles would usually download much faster than many
+tiny ones:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">As a rule, RTT (α) stays constant while download time (𝑥) is proportional to filesize. Therefore, splitting one large bundle into 16 smaller ones goes from 1α + 𝑥 to 16α + 16(0.0625𝑥). Expect things to probably get a little slower. <a href="https://t.co/c0hEsIAwKq">pic.twitter.com/c0hEsIAwKq</a></p>&mdash; Harry Roberts (@csswizardry) <a href="https://twitter.com/csswizardry/status/1352402710688133122?ref_src=twsrc%5Etfw">21 January, 2021</a></blockquote>
+
+My advice in this case is to tweak their build to output maybe 8–10 bundles and
+re-test from there. It’s important to balance bundle size, number of bundles,
+and caching strategies, but it’s clear to me that the issue here is overzealous
+code-splitting.
+
+With that done, we should be able to improve `DOMContentLoaded`, thus having
+a noticeable impact on functionality and therefore customer experience.
+
+`DOMContentLoaded` has proved to be a very, very useful metric for us.
