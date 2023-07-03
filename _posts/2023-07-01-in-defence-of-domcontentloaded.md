@@ -35,6 +35,15 @@ experience your site. Sure, if you have `Load` times of 18 seconds, your site
 probably isn’t very fast, but a good `Load` time doesn’t mean your site is
 necessarily very fast, either.
 
+<figure>
+<img src="/wp-content/uploads/2023/06/dcl.gif" alt="" width="904" height="680">
+<figcaption>Which do you think provides the better user experience?</figcaption>
+</figure>
+
+In the comparison above, which do you think provides the better user experience?
+I’m willing to bet you’d all say B, right? Based on `DOMContentLoaded`, A is
+11.292s faster!
+
 `Load` and `DOMContentLoaded` are internal browser events—your users have no
 idea what a `Load` time even is. I bet half of your colleagues don’t either. As
 metrics themselves, they have little to no reflection on the real user
