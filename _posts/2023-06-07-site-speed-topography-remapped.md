@@ -87,7 +87,7 @@ in numbers.
 
 Surely, if we have all of the facts and figures in front of us anyway, manually
 eyeballing a bar chart to try and spot patterns is much more effort than
-necessary? We’re already in a spreadshet—can’t we being the patterns to us?
+necessary? We’re already in a spreadsheet—can’t we bring the patterns to us?
 
 **Yes**. We can.
 
