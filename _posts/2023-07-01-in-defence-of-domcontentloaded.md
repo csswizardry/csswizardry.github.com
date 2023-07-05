@@ -36,7 +36,7 @@ probably isn’t very fast, but a good `Load` time doesn’t mean your site is
 necessarily very fast, either.
 
 <figure>
-<img src="/wp-content/uploads/2023/06/dcl.gif" alt="" width="904" height="680">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2023/06/dcl.gif" alt="" width="904" height="680">
 <figcaption>Which do you think provides the better user experience?</figcaption>
 </figure>
 
