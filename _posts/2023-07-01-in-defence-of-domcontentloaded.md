@@ -129,6 +129,12 @@ the `DOMContentLoaded` event to us. Above, we can see that currently, at the
 `DOMContentLoaded`—almost 90% of people are waiting over 1.5s before the app’s
 key functionality is available, with almost half waiting over 3.5s!
 
+<figure>
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/06/treo-dcl.png" alt="" width="1500" height="534" loading="lazy">
+  <figcaption><code>DOMContentLoaded</code> was 4.7s for 75% of Chrome visitors
+in May 2023.</figcaption>
+</figure>
+
 It would also seem that [Treo](https://treo.sh/) (which is a truly amazing tool)
 surfaces `DOMContentLoaded` data [for a given
 origin](https://treo.sh/sitespeed/csswizardry.com?metrics=dcl%2Col).
