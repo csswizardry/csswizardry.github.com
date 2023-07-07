@@ -3,33 +3,9 @@ layout: page
 title: "Sentinel: Your Web-Performance Watchman"
 page-class: page--services  page--sentinel
 meta: "I keep an eye on site-speed so you don’t have to"
-main: "https://csswizardry.com/img/content/sentinel/speedcurve-003.png"
+main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/content/sentinel/speedcurve-003.png"
 permalink: /sentinel/
 ---
-
-<details class="c-toc">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#what-is-sentinel">What is Sentinel?</a></li>
-    <li><a href="#what-does-sentinel-look-like">What Does Sentinel Look Like?</a>
-      <ol>
-        <li><a href="#setup">Setup</a></li>
-        <li><a href="#monitor">Monitor</a></li>
-        <li><a href="#report">Report</a></li>
-      </ol>
-    </li>
-    <li><a href="#pricing">Pricing</a>
-      <ol>
-        <li><a href="#whats-included">What’s Included?</a></li>
-      </ol>
-    </li>
-    <li><a href="#learn-more">Learn More</a>
-      <ol>
-        <li><a href="#questions">Questions?</a></li>
-      </ol>
-    </li>
-  </ol>
-</details>
 
 **I focus on site-speed so you don’t have to.**
 
@@ -168,7 +144,7 @@ any opportunities?
 **_Sentinel_ costs $5,999/mo.**
 
 * <small>USD</small>
-* <small>Billed quarterly</small>
+* <small>Billed monthly</small>
 * <small>20% discount for annual billing</small>
 * <small>Minimum commitment of six months</small>
 
@@ -198,68 +174,4 @@ arrange a zero-obligation call to discuss it further:
 
 <p>
   <a href="https://calendly.com/csswizardry/sentinel" class="btn btn--full">Let’s talk <i>Sentinel</i></a>
-</p>
-
-### Questions?
-
-<details open>
-
-  <summary>Isn’t this just a retainer?</summary>
-
-  <p>Not quite. While you do get access to me for a year, <i>Sentinel</i> is
-  different from your usual retainer in a few keys ways…</p>
-
-  <p>Firstly, most retainers cover <var>x</var> days a month, whereas
-  <strong><i>Sentinel</i> is always-on</strong>. Constant monitoring and
-  realtime alerts mean I get to work whenever I need to, not just the few days
-  we pre-agreed.</p>
-
-  <p>Secondly, with traditional retainers require that you find work for me to
-  do. With <i>Sentinel</i>, I go looking for problems! You input is zero, while
-  I coordinate myself and reach out to you when you need it. <strong>Low input;
-  high output.</strong></p>
-
-  <p>Thirdly, with a regular retainer, if you don’t use me one month, you still
-  have to pay. That’s just how retainers work. With <i>Sentinel</i>, you’re
-  always guaranteed a baseline of <strong>deliverables every month and each
-  quarter</strong>.</p>
-
-  <p>It really is like having me on staff, but with none of the annoying
-  paperwork.</p>
-
-</details>
-
-<details>
-
-  <summary>That’s pretty expensive, no?</summary>
-
-  <p>To the right company, <strong>no</strong>. But unless you’re a company
-  turning over several million dollars a year online, <i>Sentinel</i> probably
-  isn’t the service for you—you simply wouldn’t get the benefit from it, and
-  that’s fine!</p>
-
-  <p>For context, Google Analytics 360 costs $150,000 per year for the
-  monitoring alone. <strong><i>Sentinel</i> comes in at way under half of
-  that cost</strong> and comes with my expertise, 24/7.</p>
-
-  <p>I recently calculated that a high-end retail client of mine loses over
-  $380,000 per year as the result of just a 100ms slowdown. <i>Sentinel</i>
-  represents just a 15% investment for <strong>safeguarding 85% of that
-  revenue</strong>.</p>
-
-</details>
-
-<details>
-
-  <summary>How many Sentinel clients do you have?</summary>
-
-  <p>As <i>Sentinel</i> is a lot of involved and constant work, <strong>I limit
-  the number of clients at any one time to five</strong>. This means I’m not
-  spreading myself too thin, and that clients who are so invested in and
-  committed to site-speed are never left under served.</p>
-
-</details>
-
-<p>
-  <a href="https://calendly.com/csswizardry/sentinel" class="btn btn--full">I’m ready—let’s do it!</a>
 </p>
