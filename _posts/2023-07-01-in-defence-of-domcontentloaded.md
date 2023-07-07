@@ -124,10 +124,10 @@ data for it from two pretty decent sources…
 
 [CrUX Dashboard](https://developer.chrome.com/docs/crux/dashboard/) is one of
 very few [CrUX resources](https://developer.chrome.com/docs/crux/) that surfaces
-the `DOMContentLoaded` event to us. Above, we can see that currently, at the
-75th percentile, only 11% of Chrome visitors experience a Good
-`DOMContentLoaded`—almost 90% of people are waiting over 1.5s before the app’s
-key functionality is available, with almost half waiting over 3.5s!
+the `DOMContentLoaded` event to us. Above, we can see that, currently, only 11%
+of Chrome visitors experience a _Good_ `DOMContentLoaded`—almost 90% of people
+are waiting over 1.5s before the app’s key functionality is available, with
+almost half waiting over 3.5s!
 
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2023/06/treo-dcl.png" alt="" width="1500" height="534" loading="lazy">
