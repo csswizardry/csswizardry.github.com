@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang=en-GB class="page  page--home  ">
 
-  <script>performance.mark('HEAD Start');</script>
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width, minimum-scale=1.0">
 
@@ -38,9 +37,13 @@ ga('send', 'pageview');
   
 </script>
 
-<script>performance.mark('CSS Start');</script>
 
 <link rel=stylesheet href=/css/concat/bundle.css>
+
+<script>
+  const css_time = performance.mark('css_time');
+  console.log(css_time.startTime)
+</script>
 
 <style>
 
@@ -59,8 +62,6 @@ ga('send', 'pageview');
 
 </style>
 <script>
-  performance.mark('CSS End');
-  performance.measure('CSS Time', 'CSS Start', 'CSS End');
 </script>
 
 <script src=https://www.google-analytics.com/analytics.js async></script>
@@ -106,8 +107,6 @@ ga('send', 'pageview');
 <meta name=view-transition content=same-origin>
 
 <script>
-  performance.mark('HEAD End');
-  performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
 </script>
 
 
@@ -215,7 +214,11 @@ ga('send', 'pageview');
 </script>
 
 
-        <h1 class=page-head__text elementtiming=masthead-title>Web Performance Optimisation, Consultancy, and Engineering</h1>
+        <h1 class=page-head__text id=heading>Web Performance Optimisation, Consultancy, and Engineering</h1>
+        <script>
+          const heading = document.getElementById('heading');
+          heading.innerText = css_time.startTime;
+        </script>
 
     </div>
 
@@ -223,7 +226,6 @@ ga('send', 'pageview');
 
 
 <div class=wrapper id=section:main>
-  <script>performance.mark('Content Start')</script>
 
     <!--
   - Jump straight back out of wrapper mode on the home page.
@@ -693,7 +695,6 @@ ga('send', 'pageview');
 
     </section>
 
-    <script>performance.mark('Content End')</script>
   </div
 
   ><div class="layout__item  lap-and-up-one-half  desk-one-third" data-ui-component="Sub content">
@@ -723,7 +724,6 @@ improving site-speed. You <a href=/services/?ref=cta-sidebar-bio>should hire me<
   <a href=/code-reviews/?ref=cta-sidebar#fix-it-fast class="btn  btn--full btn--positive" data-sctrack=cta-sidebar elementtiming=cta-sidebar>Suffering? <b>Fix It Fast!</b>
 </a>
   <script>
-    performance.mark("CTA Sidebar");
   </script>
 </p>
 
@@ -865,7 +865,6 @@ improving site-speed. You <a href=/services/?ref=cta-sidebar-bio>should hire me<
 
 <script>
 
-  performance.measure('Content Time', 'Content Start', 'Content End');
 
   window.addEventListener('load', function() {
 
