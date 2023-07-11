@@ -57,7 +57,7 @@ doesn’t magically make everything faster. We’re still limited by device and
 network constraints. We still have finite bandwidth, only now it needs sharing
 among more files—it just gets diluted.
 
-<img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/playing-cards.png" alt="" width="160" height="157" style="float: left; margin-right: 1.5rem; margin-left: -1.5rem; shape-outside: url('/wp-content/uploads/2023/07/playing-cards.png'); shape-margin: 12px;">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/playing-cards.png" alt="" width="160" height="157" style="float: left; margin-right: 1.5rem; margin-left: -1.5rem; shape-outside: url('/wp-content/uploads/2023/07/playing-cards.png'); shape-margin: 1.5rem;">
 
 Let’s leave the web and HTTP for a second. Let’s play cards! Taylor, Charlie,
 Sam, and Alex want to play cards. I am going to deal the cards to the four of
