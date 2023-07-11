@@ -14,9 +14,9 @@ thread</a>, but I felt it needed a more permanent spot. You should <a
 href="https://twitter.com/csswizardry">follow me on Twitter</a> if you aren’t
 already.</p>
 
-I’ve been asked a few times—mostly in workshops—why HTTP/2 (H/2) waterfalls
-often still look like HTTP/1.x (H/1). Why are hings are done in sequence rather
-than in parallel?
+I’ve been asked a few times—mostly in [workshops](/workshops/)—why HTTP/2 (H/2)
+waterfalls often still look like HTTP/1.x (H/1). Why are hings are done in
+sequence rather than in parallel?
 
 Let’s unpack it!
 
@@ -29,6 +29,7 @@ have such a staggered waterfall? This doesn't look like H/2 at all!
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/waterfall-h2.png" alt="" width="930" height="2171">
+<figcaption>This doesn’t look very parallelised!</figcaption>
 </figure>
 
 Things get a little clearer if we add Chrome’s queueing time to the graph. All
@@ -37,6 +38,8 @@ dispatched in sequence.
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/waterfall-h2-waiting.png" alt="" width="930" height="2171" loading="lazy">
+<figcaption>The white bars show how long the browser queued the request for. All
+files were discovered around 3.25s, but were all requested sometime after that.</figcaption>
 </figure>
 
 As a performance engineer, one of the first shifts in thought is that we don’t
@@ -75,6 +78,7 @@ Can you see where this is going?
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/cards-round-robin.png" alt="" width="930" height="2171" loading="lazy">
+<figcaption>Everything isn’t faster—everything is slower.</figcaption>
 </figure>
 
 What if I dealt each person all of their cards at once instead? Even with the
@@ -82,6 +86,8 @@ same overall 52-second timings, folk have a full hand of cards much sooner.
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/cards-at-once.png" alt="" width="930" height="2171" loading="lazy">
+<figcaption>Half a JavaScript file is useless to us, so let’s focus on getting
+complete responses over the wire as soon as possible.</figcaption>
 </figure>
 
 Thankfully, the (s)lowest common denominator works just fine for a game of
@@ -96,13 +102,15 @@ possible. We don’t want a file at 49, 50, 51, 52s when we could have 13, 26, 3
 On the web, it turns out that some slightly H/1-like behaviour is still a good
 idea.
 
-Back to our chart.  Each of those files is a deferred JS bundle, meaning they
-need to run in sequence. Because of how everything is scheduled, requested, and
-prioritised, we have an elegant pattern whereby files are queued, fetched, and
-executed in a near-perfect order!
+Back to our chart. Each of those files is [a `defer`red JS
+bundle](/2023/07/in-defence-of-domcontentloaded/), meaning they need to run in
+sequence. Because of how everything is scheduled, requested, and prioritised, we
+have an elegant pattern whereby files are queued, fetched, and executed in
+a near-perfect order!
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/waterfall-h2-waiting.png" alt="" width="930" height="2171" loading="lazy">
+<figcaption>Hopefully it all makes a little more sense now.</figcaption>
 </figure>
 
 Queue, fetch, execute, queue, fetch, execute, queue, fetch, execute, queue,
