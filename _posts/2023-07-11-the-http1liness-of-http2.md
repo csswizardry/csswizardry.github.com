@@ -74,12 +74,12 @@ dealt. Fifty-two seconds.
 This is what that looks like. It took 49 seconds before the first person had all
 of their cards.
 
-Can you see where this is going?
-
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/cards-round-robin.png" alt="" width="930" height="2171" loading="lazy">
 <figcaption>Everything isn’t faster—everything is slower.</figcaption>
 </figure>
+
+Can you see where this is going?
 
 What if I dealt each person all of their cards at once instead? Even with the
 same overall 52-second timings, folk have a full hand of cards much sooner.
