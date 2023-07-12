@@ -7,9 +7,7 @@ main: "https://csswizardry.com/wp-content/uploads/2023/06/devtools-dcl.png"
 meta: "Is there any reason to still measure the DOMContentLoaded event? Perhaps…"
 ---
 
-<!-- <img src="/wp-content/uploads/2023/06/playing-cards.png" alt="" width="160" height="157" style="float: left; margin-right: 24px; shape-outside: url(/wp-content/uploads/2023/06/playing-cards.png); shape-margin: 12px;"> -->
-
-Honestly, I started writing this article, for no real reason and somewhat
+Honestly, I started writing this article for no real reason, and somewhat
 without context, in December 2022—over half a year ago! But, I left it in
 `_drafts/` until today, when a genuinely compelling scenario came up that gives
 real opportunity for explanation. It no longer feels like
@@ -41,8 +39,8 @@ necessarily very fast, either.
 </figure>
 
 In the comparison above, which do you think provides the better user experience?
-I’m willing to bet you’d all say B, right? Based on `DOMContentLoaded`, A is
-11.292s faster!
+I’m willing to bet you’d all say B, right? But, based on `DOMContentLoaded`,
+A is actually over 11s faster!
 
 `Load` and `DOMContentLoaded` are internal browser events—your users have no
 idea what a `Load` time even is. I bet half of your colleagues don’t either. As
@@ -58,8 +56,8 @@ Or are they…?
 Not all metrics _need_ to be user-centric. I’m willing to bet you still [monitor
 TTFB](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/), even though
 you know your customers will have no concept of a first byte whatsoever. This is
-because some metrics are useful to developers. TTFB is a good measure of your
-server response times and general back-end health, and issues here may have
+because some metrics are still useful to developers. TTFB is a good measure of
+your server response times and general back-end health, and issues here may have
 knock-on effects later down the line (namely with Largest Contentful Paint).
 
 Equally, both `DOMContentLoaded` and `Load` aren’t just meaningless browser
@@ -93,12 +91,12 @@ visibility on whether it ran successfully but it has at least finished.</small>
 ## Putting It to Use
 
 I’m working with a client at the moment who is using [Nuxt](https://nuxt.com/)
-and currently has their client-side JavaScript split into an eyewatering 121
-`defer`red files:
+and has their client-side JavaScript split into an eyewatering 121 `defer`red
+files:
 
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2023/06/defer-waterfall-abridged.png" alt="" width="930" height="522" loading="lazy">
-  <figcaption>Don’t get me started on their TTFB. <a href="/wp-content/uploads/2023/06/defer-waterfall-full.png">View unabridged.</a></figcaption>
+  <figcaption><a href="/wp-content/uploads/2023/06/defer-waterfall-full.png">View unabridged.</a></figcaption>
 </figure>
 
 Above, the vertical pink line at 12.201s signifies the `DOMContentLoaded` event.
