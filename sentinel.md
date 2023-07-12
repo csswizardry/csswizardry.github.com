@@ -3,7 +3,7 @@ layout: page
 title: "Sentinel: Your Web-Performance Watchman"
 page-class: page--services  page--sentinel
 meta: "I keep an eye on site-speed so you don’t have to"
-main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/content/sentinel/speedcurve-003.png"
+main: "https://csswizardry.com/img/content/sentinel/speedcurve-003.png"
 permalink: /sentinel/
 ---
 
@@ -144,7 +144,7 @@ any opportunities?
 **_Sentinel_ costs $5,999/mo.**
 
 * <small>USD</small>
-* <small>Billed monthly</small>
+* <small>Billed quarterly</small>
 * <small>20% discount for annual billing</small>
 * <small>Minimum commitment of six months</small>
 
