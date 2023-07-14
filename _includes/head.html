@@ -61,7 +61,14 @@ ga('send', 'pageview');
   performance.measure('CSS Time', 'CSS Start', 'CSS End');
 </script>
 
-<script src=https://www.google-analytics.com/analytics.js async></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=G-DNCL1RY4GT" async></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DNCL1RY4GT');
+</script>
 
 <script src=https://cdn.speedcurve.com/js/lux.js?id=47684395 defer></script>
 
