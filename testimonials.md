@@ -36,6 +36,15 @@ word for it—here’s what they had to say about me:
     <a href="#tag:training" class="c-filter__link">Training</a>
   </nav>
 
+<article class="c-card c-filter__item" data-tag="client  performance  consultancy" id="testimonial:anna-oconnell">
+  <h2><img src="{{ site.cloudinary }}/img/content/testimonials/mkm.png" width="165" height="48" alt="MKM" /></h2>
+  <blockquote class="pull-quote">
+    <p>We engaged Harry to help with site-speed and take a deep, specialist dive into our codebase. Having spent many years in the industry, and being in receipt of numerous reports where we need to repeatedly ask for amendments and clarity over a number of versions, I was thrilled to receive the high-end report he produced—not one change was requested!</p>
+    <p>It is of such a high standard: easy to read, gives clear and direct advice for points of action, and explains the investigated areas in such a way that it is accessible for all, technical or not. Thank you, Harry—this is a career first for me <em>not</em> having to ask for the report to be redrafted so that it’s usable!</p>
+  </blockquote>
+  <p>— <a href="https://www.linkedin.com/in/anna-o-connell-9aa253199/">Anna O’Connell</a>, Scrum Master, MKM</p>
+</article>
+
 <article class="c-card c-filter__item" data-tag="client  performance  training" id="testimonial:jonathon-olenick">
   <h2><img src="/img/content/testimonials/sait.png" width="292" height="48" alt="Southern Alberta Institute of Technology" /></h2>
   <blockquote class="pull-quote">
