@@ -19,25 +19,29 @@ intended to modify.**
 
 When we write something like:
 
-    .btn {
-      background: red;
-    }
+```css
+.btn {
+  background: red;
+}
+```
 
 …we’re likely to get a red background colour applied to our button. But what
 we’re really saying is this:
 
-    .btn {
-      background-image: initial;
-      background-position-x: initial;
-      background-position-y: initial;
-      background-size: initial;
-      background-repeat-x: initial;
-      background-repeat-y: initial;
-      background-attachment: initial;
-      background-origin: initial;
-      background-clip: initial;
-      background-color: red;
-    }
+```css
+.btn {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: red;
+}
+```
 
 Simply by using the shorter syntax, we have implicitly decided that we want no
 image to start top-left, repeat <var>x</var> and <var>y</var>, to scroll with
@@ -53,9 +57,11 @@ should be avoided. CSS is a lot harder to undo than it is to do.
 
 In this example, what we really wanted to say was this:
 
-    .btn {
-      background-color: red;
-    }
+```css
+.btn {
+  background-color: red;
+}
+```
 
 Here we’ve done exactly what we needed to do, and absolutely nothing else.
 
@@ -64,7 +70,7 @@ Here we’ve done exactly what we needed to do, and absolutely nothing else.
 One such example I encountered on a client project earlier this year looked a
 little like this:
 
-```
+```css
 .base-class {
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -96,7 +102,7 @@ The `background` example is just one of many instances in which we shouldn’t b
 using shorthand. Another very common use-case is vertical centring using
 `margin: 0 auto;`:
 
-```
+```css
 .wrapper {
   margin: 0 auto;
 }
@@ -111,7 +117,7 @@ intentionally introduced elsewhere.
 If all you want to do is centre a `div`, then don’t mention anything to do with
 its top and bottom edges. Favour the longhand version:
 
-```
+```css
 .wrapper {
   margin-right: auto;
   margin-left:  auto;
@@ -127,7 +133,7 @@ So far we’ve looked at the problem with inadvertently unsetting other
 properties, but there is a scenario in which shorthand would be okay. Take for
 example:
 
-```
+```css
 .box {
   padding: 10px;
 }
@@ -136,7 +142,7 @@ example:
 Here we aren’t inadvertently unsetting anything because we do want all four
 sides to carry `10px` padding. Here, shorthand makes complete sense. Also:
 
-```
+```css
 .btn {
   padding: 12px 24px;
 }
@@ -144,7 +150,7 @@ sides to carry `10px` padding. Here, shorthand makes complete sense. Also:
 
 …and:
 
-```
+```css
 .foo {
   margin: 12px 17px 16px 10px;
 }

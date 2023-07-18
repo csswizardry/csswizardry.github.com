@@ -7,9 +7,12 @@ permalink: /archive/
 
 <section class="posts">
 
+  {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
+
   <p>I have written <b>{{ site.posts | size  }}</b> post on this site, mostly
-  covering CSS, architecture, performance, and web development. Find a
-  reverse-chronological list of them all here.</p>
+  covering CSS, architecture, performance, and web development. Find
+  a reverse-chronological list of them below, or, at random, why not read
+  <a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a>?</p>
 
   {% for post in site.posts %}
     {% assign currentDate = post.date | date: "%Y" %}
