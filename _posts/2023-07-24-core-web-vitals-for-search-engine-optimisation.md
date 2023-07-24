@@ -466,7 +466,7 @@ wording. Field data is still presented first:
 And lab data, from the Lighthouse test we just initiated, beneath that:
 
 <figure>
-  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/psi-lab.png" alt="" width="1500" height="1323" loading="lazy">
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/psi-lab.png" alt="" width="1500" height="1329" loading="lazy">
   <figcaption>Here we can clearly see that this was run from a predetermined location, on a predetermined device, over a predetermined connection speed. This was one page load run by us, for us.</figcaption>
 </figure>
 
