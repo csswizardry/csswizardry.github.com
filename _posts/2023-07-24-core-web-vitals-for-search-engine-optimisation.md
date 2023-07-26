@@ -7,11 +7,16 @@ main: "https://csswizardry.com/wp-content/uploads/2023/07/cwv-seo.png"
 meta: "There’s still a lot of misunderstanding about CWV for SEO. Let’s work it out together."
 ---
 
-{% comment %}
 ## Updates
-0. <ins datetime="2023-07-24">24 July, 2023: [Added a note about URL Groups](#foo)</ins>
+
+Stay updated by following [this article’s Twitter
+thread](https://twitter.com/csswizardry/status/1683353820900761600). I will post
+amendments and updates there.
+
+0. <ins datetime="2023-07-26">26 July, 2023: [iOS (and Other) Traffic Doesn’t Count](#ios-and-other-traffic-doesnt-count)</ins>
+
 ## Core Web Vitals
-{% endcomment %}
+
 
 Google’s Core Web Vitals initiative was launched in [May of
 2020](https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html)
@@ -606,6 +611,54 @@ customers are in a region that enjoys _Good_ experiences, but you have a lot of
 traffic from regions that suffer _Poor_ experiences, those worse data points may
 be negatively impacting your success elsewhere.
 
+## iOS (and Other) Traffic Doesn’t Count
+
+Core Web Vitals is a Chrome initiative—evidenced by _Chrome_ User Experience
+Report, among other things. The APIs used to capture the three Core Web Vitals
+are available in [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine)),
+the browser engine that powers Chromium-based browsers such as Chrome, Edge, and
+Opera. While the APIs are available to these non-Chrome browsers, only Chrome
+currently captures data themselves, and populates the _Chrome_ User Experience
+Report from there. So, Blink-based browsers have the Core Web Vitals APIs, but
+only Chrome captures data for CrUX.
+
+It should be, hopefully, fairly obvious that non-Chrome browsers such as Firefox
+or Edge would not contribute data to the _Chrome_ User Experience Report, but
+what about Chrome on iOS? That is called Chrome, after all?
+
+Unfortunately, while Chrome on iOS is a project owned by the Chromium team, the
+browser itself does not use Blink—the only engine that can currently capture
+Core Web Vitals data:
+
+> **Due to constraints of the iOS platform, all browsers must be built on top of
+> the WebKit rendering engine.** For Chromium, this means supporting both WebKit
+> as well as Blink, Chrome’s rendering engine for other platforms.  
+> — [Open-sourcing Chrome on iOS!](https://blog.chromium.org/2017/01/open-sourcing-chrome-on-ios.html)
+
+From Apple themselves:
+
+> 2.5.6 Apps that browse the web **must use the appropriate WebKit framework**
+> and WebKit JavaScript.  
+> — [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+
+Any browser on the iOS platform—Chrome, Firefox, Edge, Safari, you name it—uses
+WebKit, and the APIs that power Core Web Vitals aren’t currently available
+there:
+
+* [LargestContentfulPaint](https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint#browser_compatibility)
+* [PerformanceEventTiming](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEventTiming#browser_compatibility)
+* [LayoutShift](https://developer.mozilla.org/en-US/docs/Web/API/LayoutShift#browser_compatibility)
+
+From Google themselves:
+
+> There are a few notable exceptions that do not provide data to the CrUX
+> dataset […] **Chrome on iOS.**  
+> — [CrUX methodology](https://developer.chrome.com/docs/crux/methodology/)
+
+The key takeaway here is that Chrome on iOS is actually WebKit under the hood,
+so capturing Core Web Vitals is not possible at all, for developers or for the
+Chrome team.
+
 ## Core Web Vitals and Single Page Applications
 
 If you’re building a Single-Page Application (SPA), you’re going to have to take
@@ -756,6 +809,7 @@ requirement for non-official sources to edit or update their content as Core Web
 Vitals information changes.
 
 * [Using site speed in web search ranking](https://developers.google.com/search/blog/2010/04/using-site-speed-in-web-search-ranking) – Google Search Central Blog – 9 April 2010
+* [Open-sourcing Chrome on iOS!](https://blog.chromium.org/2017/01/open-sourcing-chrome-on-ios.html) – Chromium Blog – 31 January, 2017
 * [Using page speed in mobile search ranking](https://developers.google.com/search/blog/2018/01/using-page-speed-in-mobile-search) – Google Search Central Blog – 17 January 2018
 * [Chrome User Experience Report - New country dimension](https://developer.chrome.com/blog/crux-2018-01/) – Chrome Developers – 24 January, 2018
 * [Largest Contentful Paint (LCP)](https://web.dev/lcp/) – web.dev – 8 August, 2019
@@ -778,3 +832,7 @@ Vitals information changes.
 * [The role of page experience in creating helpful content](https://developers.google.com/search/blog/2023/04/page-experience-in-search) – Google Search Central Blog – 19 April, 2023
 * [Advancing Interaction to Next Paint](https://web.dev/inp-cwv/) – web.dev – 10 May, 2023
 * [About PageSpeed Insights](https://developers.google.com/speed/docs/insights/v5/about)
+* [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+* [LargestContentfulPaint](https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint#browser_compatibility) – MDN
+* [PerformanceEventTiming](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEventTiming#browser_compatibility) – MDN
+* [LayoutShift](https://developer.mozilla.org/en-US/docs/Web/API/LayoutShift#browser_compatibility) – MDN
