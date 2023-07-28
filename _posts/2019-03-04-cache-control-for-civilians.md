@@ -54,8 +54,8 @@ an `Authorization` header  _will_ cause the response to be stored in public
 caches which you really, really do not want:
 
 > Responses for requests with `Authorization` header fields must not be stored
-> in a shared cache; however, the public directive will cause such responses to
-> be stored in a shared cache.
+> in a shared cache; however, the `public` directive will cause such responses
+> to be stored in a shared cache.
 
 <small>[`Cache-Control` on MDN.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control#public)</small>
 
