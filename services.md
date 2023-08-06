@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: What Can I Do for You?
+title: Your Website, Faster.
 page-class: page--services
 meta: "Services offered to clients of all shapes and sizes"
 permalink: /services/
