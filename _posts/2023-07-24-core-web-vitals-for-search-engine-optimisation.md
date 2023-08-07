@@ -542,7 +542,7 @@ where you are. Which means…
 
 Core Web Vitals really shine in competitive environments, or when users aren’t
 searching for something that only you could possibly provide. When Google could
-rank a number of different URLs highly, it defers to other tanking signals to
+rank a number of different URLs highly, it defers to other ranking signals to
 refine its ordering.
 
 > …for many queries, there is lots of helpful content available. **Having
