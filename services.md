@@ -25,7 +25,7 @@ of things.
   {% include css/components.feature-list.css %}
 </style>
 
-<ul class="feature-list">
+<ul class="feature-list" style="clear: both;">
 
   <li class="feature-list__item">
     <a href="/sentinel/" class="feature-list__link">
