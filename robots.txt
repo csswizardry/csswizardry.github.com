@@ -1,5 +1,3 @@
 User-agent: *
 Sitemap: https://csswizardry.com/sitemap.xml
-
-User-agent: ChatGPT-User
-Disallow: /
+Disallow:
