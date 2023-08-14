@@ -9,7 +9,7 @@ lux: Post
 <div class=wrapper>
 
     <div class=layout>
-        <section class="layout__item  desk-three-fifths  s-post" data-ui-component="Main content" itemscope itemtype=http://schema.org/Article id=section:main>
+        <section class="layout__item  desk-three-fifths  s-post" data-ui-component="Main content" itemscope itemtype=http://schema.org/BlogPosting id=section:main>
           <script>performance.mark('Content Start')</script>
 
             <time class=post__date datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
@@ -26,6 +26,47 @@ lux: Post
             {% endif %}
 
             {{ content }}
+
+            <script type="application/ld+json">
+              {
+                "@context": "https://schema.org",
+                "@type": "BlogPosting",
+                "url": "{{ site.url }}{{ page.url }}",
+                "name": {{ page.title | jsonify }},
+                "headline": {{ page.title | jsonify }},
+                "keywords": {{ page.tags | join: ',' | jsonify }},
+                "description": {{ page.meta | jsonify }},
+                "articleBody": {{ page.content | strip_html | jsonify }},
+                "datePublished": {{ page.date | jsonify }},
+                "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+                "author": {
+                  "@type": "Person",
+                  "url": "{{ site.url }}",
+                  "name": "Harry Roberts"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": {{ site.title | jsonify }},
+                  "url": "{{ site.url }}",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "width": 128,
+                    "height": 128,
+                    "url": "{{ site.url }}/icon.png"
+                  }
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "{{ site.url }}{{ page.url }}"
+                {% if page.main %}
+                },
+                "image": {
+                  "@type": "ImageObject",
+                  "url": "{{ page.main }}"
+                {% endif %}
+                }
+              }
+            </script>
 
             <hr />
 
