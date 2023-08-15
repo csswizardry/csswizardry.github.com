@@ -58,6 +58,11 @@ workshop](/workshops/). My workshops are renowned.
 
   {% include speaking.html %}
 
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/bg.png" alt width="16" height="11" loading="lazy" /> <a href="https://challengeaccepted.dev/">DEV: Challenge Accepted</a>: Sofia (Bulgaria), September 2023
+  </li>
+
 </ol>
 
 
