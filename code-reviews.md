@@ -9,7 +9,8 @@ permalink: /code-reviews/
 
 <script>
   const taglines = ['Your website is slow. I know why.',
-                    'I find the problems that the last team couldn’t.']
+                    'I find the problems that the last team couldn’t.',
+                    'Your website, faster.']
   const tagline  = taglines[Math.floor(Math.random() * taglines.length)];
 </script>
 
