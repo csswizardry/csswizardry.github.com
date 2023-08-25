@@ -76,6 +76,10 @@
 <script src=https://gumroad.com/js/gumroad-embed.js defer></script>
 {% endif %}
 
+<link rel=preload href=/img/css/masthead-small-lqip.jpg  as=image media="(max-width: 44.9375em)"                       fetchpriority=high>
+<link rel=preload href=/img/css/masthead-medium-lqip.jpg as=image media="(min-width: 45em) and (max-width: 63.9375em)" fetchpriority=high>
+<link rel=preload href=/img/css/masthead-large-lqip.jpg  as=image media="(min-width: 64em)"                            fetchpriority=high>
+
 {% if page.main %}
 <meta name=twitter:card content=summary_large_image>
 {% else %}
