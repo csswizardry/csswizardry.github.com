@@ -29,10 +29,22 @@
 
 .band--dark {
     background-color: $color-band-dark-background;
-    color: $color-band-dark;
+
+    &, a {
+      color: $color-band-dark;
+    }
 }
 
 .band--attention {
     background-color: $color-band-attention-background;
     color: $color-band-attention;
 }
+
+  .band__title {
+    text-align: center;
+    @include font-size(16px);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-font-smoothing: auto;
+  }

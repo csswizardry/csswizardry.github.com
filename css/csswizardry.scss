@@ -46,6 +46,7 @@
  * Media................The media object.
  * Flag.................The flag object.
  * UI list..............inuitcss’ UI list.
+ * Inline list..........Simple inline lists.
  *
  * COMPONENTS
  * Page-head............Page header styles.
@@ -180,6 +181,8 @@ $inuit-enable-list-ui--small:   true;
     color: $color-gray-light;
     margin-bottom: 0;
 }
+
+@import "objects.list-inline";
 
 
 
