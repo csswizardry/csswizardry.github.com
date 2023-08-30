@@ -1,9 +1,10 @@
-var cacheName = 'csswizardry:0143';
+var cacheName = 'csswizardry:0144';
 var cacheFiles = [
   '/',
   '/about/',
   '/services/',
   '/contact/',
+  '/sentinel/',
   '/offline/',
   '/case-studies/ocado-workshop/',
   '/2015/03/more-transparent-ui-code-with-namespaces/',
