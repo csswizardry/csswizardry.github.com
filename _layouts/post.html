@@ -77,11 +77,11 @@ lux: Post
             <nav class=c-pagination>
               {% if page.previous.url %}
                 <link rel=prerender href="{{page.previous.url}}" />
-                <a href="{{page.previous.url}}" class="c-pagination__item c-pagination__prev" style="view-transition-name: x-{{ page.previous.date | date: '%Y-%m-%d' }}">{{page.previous.title}}</a>
+                <a href="{{page.previous.url}}?utm_source=pagination&utm_medium=internal" class="c-pagination__item c-pagination__prev" style="view-transition-name: x-{{ page.previous.date | date: '%Y-%m-%d' }}">{{page.previous.title}}</a>
               {% endif %}
               {% if page.next.url %}
                 <link rel=prerender href="{{page.next.url}}" />
-                <a href="{{page.next.url}}" class="c-pagination__item c-pagination__next" style="view-transition-name: x-{{ page.next.date | date: '%Y-%m-%d' }}">{{page.next.title}}</a>
+                <a href="{{page.next.url}}?utm_source=pagination&utm_medium=internal" class="c-pagination__item c-pagination__next" style="view-transition-name: x-{{ page.next.date | date: '%Y-%m-%d' }}">{{page.next.title}}</a>
               {% endif %}
             </nav>
 
