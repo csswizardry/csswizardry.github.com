@@ -14,7 +14,7 @@ lux: Post
 
             <time class=post__date datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
 
-            <h1 itemprop="name  headline" elementtiming=page-title>{{ page.title }}</h1>
+            <h1 itemprop="name  headline" elementtiming=page-title style="view-transition-name: x-{{ page.date | date: '%Y-%m-%d' }}">{{ page.title }}</h1>
 
             <p class=hide>Written by <b itemprop=author>Harry Roberts</b> on <b itemprop=publisher>CSS Wizardry</b>.</p>
 
@@ -77,11 +77,11 @@ lux: Post
             <nav class=c-pagination>
               {% if page.previous.url %}
                 <link rel=prerender href="{{page.previous.url}}" />
-                <a href="{{page.previous.url}}" class="c-pagination__item  c-pagination__prev">{{page.previous.title}}</a>
+                <a href="{{page.previous.url}}" class="c-pagination__item c-pagination__prev" style="view-transition-name: x-{{ page.previous.date | date: '%Y-%m-%d' }}">{{page.previous.title}}</a>
               {% endif %}
               {% if page.next.url %}
                 <link rel=prerender href="{{page.next.url}}" />
-                <a href="{{page.next.url}}" class="c-pagination__item c-pagination__next">{{page.next.title}}</a>
+                <a href="{{page.next.url}}" class="c-pagination__item c-pagination__next" style="view-transition-name: x-{{ page.next.date | date: '%Y-%m-%d' }}">{{page.next.title}}</a>
               {% endif %}
             </nav>
 
