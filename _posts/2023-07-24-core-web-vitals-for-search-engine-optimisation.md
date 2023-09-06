@@ -769,7 +769,12 @@ announcement:
 > did not impact your site.  
 > — [Using site speed in web search ranking](https://developers.google.com/search/blog/2010/04/using-site-speed-in-web-search-ranking)
 
+However, this is completely separate to the Core Web Vitals initiative, where we
+still have zero insight as to how much impact site-speed will have on rankings.
+
 ## Measuring the Impact of Core Web Vitals on SEO
+
+If Google won’t tell us, can we work it out ourselves?
 
 To the best of my knowledge, no one has done any meaningful study about just how
 much _Good_ Page Experience might help organic rankings. The only way to really
