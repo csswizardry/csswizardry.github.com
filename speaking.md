@@ -60,7 +60,12 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/bg.png" alt width="16" height="11" loading="lazy" /> <a href="https://challengeaccepted.dev/">DEV: Challenge Accepted</a>: Sofia (Bulgaria), September 2023
+    <img src="/img/icons/pl.png" alt width="16" height="11" loading="lazy" /> <a href="https://infoshare.pl/">Infoshare</a>: (Poland), October 2023
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/nl.png" alt width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>: Amsterdam (Netherlands), November 2023
   </li>
 
 </ol>
@@ -137,6 +142,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2023
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://2023.stateofthebrowser.com/">State of the Browser</a>: London (England), September 2023
+  </li>
 
   <li>
     <h4 class="list-ui__title">Workshop</h4>
