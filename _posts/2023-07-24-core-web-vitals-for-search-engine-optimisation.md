@@ -121,7 +121,7 @@ manner and I’m happy that the Core Web Vitals team constantly evolve or even
 replace the metrics in response to changes in the landscape.
 
 <figure>
-  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/cwv-metrics.png" alt="" width="1500" height="351" loading="lazy">
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/cwv-metrics.png" alt="Graphic showing the three current Core Web Vitals and their thresholds" width="1500" height="351" loading="lazy">
   <figcaption>— <a href="https://web.dev/vitals/">Web Vitals</a></figcaption>
 </figure>
 
@@ -244,7 +244,7 @@ The simplified Page Experience report contains:
 * No Intrusive Interstitials
 
 <figure>
-  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/page-experience.png" alt="" width="960" height="540" loading="lazy" style="mix-blend-mode: multiply;">
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/page-experience.png" alt="Graphic showing how the Page Experience report actually contains Core Web Vitals as a subset of requirements" width="960" height="540" loading="lazy" style="mix-blend-mode: multiply;">
   <figcaption>— <a href="https://developers.google.com/search/blog/2021/08/simplifying-the-page-experience-report">Simplifying the Page Experience report</a></figcaption>
 </figure>
 
@@ -288,7 +288,7 @@ Incidentally, although INP isn’t yet a Core Web Vital, Search Console has
 started sending emails warning site owners about INP issues:
 
 <figure>
-  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/inp-email.png" width="2086" height="1870" loading="lazy" alt="" style="mix-blend-mode: multiply;">
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/inp-email.png" width="2086" height="1870" loading="lazy" alt="Screenshot showing an example email that Search Console has begun sending site owners to warn them about INP issues" style="mix-blend-mode: multiply;">
   <figcaption>Search Console emails have begun warning people about INP issues. Credit: <a href="https://twitter.com/ryantownsend">Ryan Townsend</a>.</figcaption>
 </figure>
 
@@ -303,7 +303,7 @@ they live in (or something else entirely)?
 It’s done on a per-URL basis:
 
 <figure>
-  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/url-table.png" width="1408" height="439" loading="lazy" alt="">
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/url-table.png" width="1408" height="439" loading="lazy" alt="Screenshot of a table showing that Core Web Vitals are judged at URL-level in Search">
   <figcaption>— <a href="https://support.google.com/webmasters/answer/10218333?hl=en"><cite>Page Experience report</cite></a></figcaption>
 </figure>
 
@@ -465,14 +465,14 @@ Nowadays, the same data and layout exists, but with much less deliberate
 wording. Field data is still presented first:
 
 <figure>
-  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/psi-field.png" alt="" width="1500" height="787" loading="lazy">
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/psi-field.png" alt="A recent PageSpeed Insights screenshot showing less clear wording around field data" width="1500" height="787" loading="lazy">
   <figcaption>Here we can see that this data came from CrUX and is based on real, aggregated data.</figcaption>
 </figure>
 
 And lab data, from the Lighthouse test we just initiated, beneath that:
 
 <figure>
-  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/psi-lab.png" alt="" width="1500" height="1329" loading="lazy">
+  <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/psi-lab.png" alt="A recent PageSpeed Insights screenshot showing less clear wording around lab data" width="1500" height="1329" loading="lazy">
   <figcaption>Here we can clearly see that this was run from a predetermined location, on a predetermined device, over a predetermined connection speed. This was one page load run by us, for us.</figcaption>
 </figure>
 
@@ -497,7 +497,7 @@ If a URL achieves _Good_ status, that status will be used as a ranking signal in
 search results.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/pass-fail.png" alt="" widthg="1367" height="721" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/pass-fail.png" alt="Screenshot showing that URLs will be marked up in Search if they pass all Page Experience signals, but not showing that they would get marked down for not passing" widthg="1367" height="721" loading="lazy">
 <figcaption>— <a href="https://support.google.com/webmasters/answer/10218333?hl=en">Page Experience report</a></figcaption>
 </figure>
 
@@ -588,7 +588,7 @@ any searches for you on desktop will have your fast site taken into
 consideration.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/cwv-map.png" alt="" widthg="1500" height="884" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/cwv-map.png" alt="A screenshot of Treo showing Core Web Vitals data from CrUX segmented by country, displayed on a world map" widthg="1500" height="884" loading="lazy">
 <figcaption><a href="https://treo.sh/">Treo</a> makes it easy to visualise global CrUX data.</figcaption>
 </figure>
 
