@@ -10,8 +10,6 @@ The best request is the one that never happens: in the fight for fast websites,
 avoiding the network is far better than hitting the network at all. To this end,
 having a solid caching strategy can make all the difference for your visitors.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">📊 How is your knowledge of caching and Cache-Control headers?</p>&mdash; Harry Roberts (@csswizardry) <a href="https://twitter.com/csswizardry/status/1102333486776631296?ref_src=twsrc%5Etfw">3 March, 2019</a></blockquote>
-
 That being said, more and more often in my work I see lots of opportunities
 being left on the table through unconsidered or even completely overlooked
 caching practices. Perhaps it’s down to the heavy focus on first-time visits, or
