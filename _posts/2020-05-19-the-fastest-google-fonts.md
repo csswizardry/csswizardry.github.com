@@ -47,15 +47,11 @@ While prototyping, I turned to Google Fonts, and with their recent ability to
 support `font-display` via a URL parameter (`&display=swap`), I knew that things
 would stay pretty speedy. Then I had an idea.
 
-It started with a tweet:
+It started with [a tweet](https://twitter.com/csswizardry/status/1259790019067351045):
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIP: If you’re going to
-use `font-display` for your Google Fonts then it makes sense to asynchronously
-load the whole request chain. <a
-href="https://t.co/k6obyVZGZP">pic.twitter.com/k6obyVZGZP</a></p>&mdash; Harry
-Roberts (@csswizardry) <a
-href="https://twitter.com/csswizardry/status/1259790019067351045?ref_src=twsrc%5Etfw">11
-May, 2020</a></blockquote>
+> TIP: If you’re going to use `font-display` for your Google Fonts then it makes
+> sense to asynchronously load the whole request chain.  
+> — [@csswizardry](https://twitter.com/csswizardry/status/1259790019067351045)
 
 While `font-display: swap;` is a huge win, there are still a lot of things
 leaving me feeling uneasy. What else could I do to make Google Fonts _fast_?
