@@ -1,10 +1,12 @@
 ---
 layout: page
-title: What Is Site-Speed and Why Should I Care?
+title: What Is Site-Speed?
 page-class: page--site-speed
 meta: "People talk a lot about site-speed, but what is it? And does it matter?"
 permalink: /downloads/site-speed/
 ---
+
+## And Why Should I Care?
 
 Site-speed, also known as web-performance or page-speed, is a broad term that
 deals with **how fast your customers think your website is.**
@@ -18,7 +20,7 @@ Generally speaking, the faster a user’s experience is, the happier they will b
 This is crucial on the web where people are fickle and exhibit short attention
 spans. Site-speed could be the difference between missing and making a sale.
 
-## Why Fast Matters
+### Why Fast Matters
 
 <style>
 .c-mask {
