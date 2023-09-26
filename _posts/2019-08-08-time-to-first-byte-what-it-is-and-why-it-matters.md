@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Time to First Byte: What It Is and Why It Matters"
+title: "Time to First Byte: What It Is and How to Improve It"
 date: 2019-08-08 02:06:56
 categories: Web Development
 meta: "Just how much does TTFB matter when it comes to front-end performance?"
