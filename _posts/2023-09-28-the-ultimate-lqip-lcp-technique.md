@@ -23,8 +23,8 @@ Image Placeholders_.
 Low-Quality Image Placeholders are nothing new. [Guy
 Podjarny](https://twitter.com/guypod) is responsible, I _think_ for [coining the
 term over a decade
-ago](https://web.archive.org/web/20180627215503/https://www.guypo.com/introducing-lqip-low-quality-image-placeholders/)!
-And before that, we even had the `lowsrc` attribute for `<img>` elements:
+ago](https://www.guypo.com/introducing-lqip-low-quality-image-placeholders)! And
+before that, we even had the `lowsrc` attribute for `<img>` elements:
 
 ```html
 <img lowsrc=lo-res.jpg src=hi-res.jpg alt>
