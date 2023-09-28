@@ -134,7 +134,7 @@ system, which is exactly what we’re trying to do.
 provide a great user experience. Passing LCP for metrics’ sake is unwise and
 against the spirit of web performance. Ensure that your LQIP is still of
 sufficient quality to be useful, and follow it up immediately with your
-full-quality image. Poor quality images, particularly for ecommerce is
+full-quality image. Poor quality images, particularly where ecommerce is
 concerned, are <a
 href="https://www.businesswire.com/news/home/20230517005168/en/Cloudinary-Global-E-Commerce-Survey-Reveals-Visual-Content-Can-Help-Reduce-Returns-by-One-Third">particularly
 harmful</a>.</p>
