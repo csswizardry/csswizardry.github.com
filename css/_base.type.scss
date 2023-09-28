@@ -97,7 +97,6 @@ pre {
     padding: $spacing-unit--small;
     background-color: $color-pre-background;
     border-radius: $base-round;
-    position: relative;
 
     @include media-query(lap-and-up) {
       margin-right: -$spacing-unit--small;
@@ -113,19 +112,6 @@ pre {
     li & {
       margin-top: 1.5rem;
     }
-
-    /**
-     * Give affordance to scrollable code examples.
-     */
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      width: 24px;
-      background-image: linear-gradient(90deg, transparent, #002b36);
-}
 
 }
 
