@@ -90,18 +90,14 @@
 <meta name=twitter:site content=@csswizardry>
 <meta name=twitter:domain content=csswizardry.com>
 <meta name=twitter:creator content=@csswizardry>
-<meta property=og:title content="{{ page.title }} – CSS Wizardry">
-<meta name=twitter:title content="{{ page.title }} – CSS Wizardry">
+<meta name=twitter:title property=og:title content="{{ page.title }} – CSS Wizardry">
 {% if page.meta %}
-    <meta name=twitter:description content="{{ page.meta }}">
-    <meta property=og:description content="{{ page.meta }}">
+<meta name=twitter:description property=og:description content="{{ page.meta }}">
 {% endif %}
 {% if page.main %}
-<meta name=twitter:image content="{{ page.main }}">
-<meta property=og:image content="{{ page.main }}">
+<meta name=twitter:image property=og:image content="{{ page.main }}">
 {% else %}
-<meta name=twitter:image content=https://csswizardry.com/logo.png>
-<meta property=og:image content=https://csswizardry.com/logo.png>
+<meta name=twitter:image property=og:image content=https://csswizardry.com/logo.png>
 {% endif %}
 
 <link rel=alternate type=application/atom+xml href=https://feeds.feedburner.com/csswizardry>
