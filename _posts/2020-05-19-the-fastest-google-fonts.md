@@ -3,25 +3,14 @@ layout: post
 title: "Speed Up Google Fonts"
 date: 2020-05-19 17:35:04
 categories: Web Development
-main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2020/05/filmstrip-foit.png"
+main: "https://csswizardry.com/wp-content/uploads/2020/05/filmstrip-foit.png"
 meta: "Google Fonts is fast. Now it’s faster. Much faster."
 ---
-
-<!--
-* The Wiz: https://www.webpagetest.org/video/compare.php?tests=200518_3N_cb4cdd57dd6eb154cdaacdd563253fd1
-200518_2J_70c5f6c1c92a1cd436e525ac2b895f51
-200518_AY_290d20f93c0e4b469e0bbe60a63f678e
-200518_8F_49cb76e22485f51fad729e085a8bd08e
-200518_4W_7d70995268b4aa4f495304063d449ae3&thumbSize=150&ival=100&end=all
-* harry.is: https://wpt1.speedcurve.com/video/compare.php?tests=200518_W4_fc45dbb9bc1ce576f670d591d8b3dc6e%2C200518_PR_df4e11518dd3daae51841501e0d38f84%2C200518_ZC_867eb106ecbcf59739e05d2747a0a96a%2C200518_DZ_b6c3032d6d3ac7fd78a1d7eadca76b54%2C200518_0N_2c58f89634840837db9162bc01128251&thumbSize=150&ival=16.67&end=visual
--->
 
 For the most part, web fonts nowadays are faster than ever. With more
 standardised FOUT/FOIT behaviour from browser vendors, to the newer
 `font-display` specification, performance—and therefore the user—seems to have
 been finally been put front-and-centre.
-
-{% include promo.html %}
 
 It’s widely accepted that self-hosted fonts are the fastest option: same origin
 means reduced network negotiation, predictable URLs mean we can `preload`,
@@ -61,6 +50,8 @@ leaving me feeling uneasy. What else could I do to make Google Fonts _fast_?
 Suffice to say, I ended up going down a little rabbit hole…
 
 ## Testing
+
+{% include promo.html %}
 
 I ran the same suite of tests against the [harry.is](https://harry.is) and
 [csswizardry.com](https://csswizardry.com) homepages. I started out with
