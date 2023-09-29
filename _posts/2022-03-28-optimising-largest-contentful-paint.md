@@ -25,14 +25,10 @@ https://docs.google.com/spreadsheets/d/17Ut1Hgj4aHeimg_Pp_xUi5gkWLMh2FKZBKnqo56R
 Vital. It’s the easiest to optimise, and it’s the only one of the three that
 works the exact same in the lab as it does in the field (don’t even get me
 started on this…). Yet, surprisingly, it’s the least optimised CWV in CrUX—at
-the time of writing, **only half of origins in the dataset had a Good LCP**:
+the time of writing, [**only half of origins in the dataset had a Good
+LCP**](https://twitter.com/ChromeUXReport/status/1501325517634490376)!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Once more, we saw an
-increase in the number of origins having good Core Web Vitals (CWV) driven by
-improved good CLS.<br><br>52.7% of origins had good LCP<br>94.9% of origins had
-good FID<br>70.6% of origins had good CLS<br>39.0% of origins had good LCP, FID,
-and CLS</p>&mdash; Chrome UX Report 📊 (@ChromeUXReport) <a href="https://twitter.com/ChromeUXReport/status/1501325517634490376?ref_src=twsrc%5Etfw">8 March
-2022</a></blockquote>
+{% include promo.html %}
 
 This genuinely surprises me, because LCP is the simplest metric to improve. So,
 in this post, I want to go deep and show you some interesting tricks and
