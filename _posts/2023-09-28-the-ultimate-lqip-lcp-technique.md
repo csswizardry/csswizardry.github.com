@@ -136,7 +136,7 @@ against the spirit of web performance. Ensure that your LQIP is still of
 sufficient quality to be useful, and follow it up immediately with your
 full-quality image. Poor quality images, particularly where ecommerce is
 concerned, are <a
-href="https://www.businesswire.com/news/home/20230517005168/en/Cloudinary-Global-E-Commerce-Survey-Reveals-Visual-Content-Can-Help-Reduce-Returns-by-One-Third">particularly
+href="https://www.businesswire.com/news/home/20230517005168/en/Cloudinary-Global-E-Commerce-Survey-Reveals-Visual-Content-Can-Help-Reduce-Returns-by-One-Third">especially
 harmful</a>.</p>
 
 ## Don’t Upscale Your LQIP
@@ -520,6 +520,32 @@ To get your BPP down to roughly 0.05, you’re going to want to experiment with
 a _really_ small number. Play around with numerous different images from your
 site to ensure whatever quality setting you choose doesn’t ever take you _below_
 0.05BPP.
+
+### Use Your Judgement
+
+If you do manage to get your image all the way down to your target filesize,
+there’s every chance it will be _too_ low quality to be visually acceptable,
+even if it does satisfy LCP’s technical requirements.
+
+Here’s a current client’s product image compressed down to 4KB (their target was
+actually 3.015KB, but even the most aggressive settings couldn’t get me all the
+way):
+
+<figure>
+<img src="/wp-content/uploads/2023/09/too-far.jpg" width="760" height="577" alt="" loading="lazy">
+</figure>
+
+This is visually unacceptable as an LCP candidate, even though it ticks every
+box in the spec. My advice here—and it’s very subjective—is that you shouldn’t
+accept an LQIP–LCP that you wouldn’t be happy for a user to look at for any
+period of time.
+
+In this particular instance, I bumped the quality up to 10, which came in at
+12KB, was still super fast, but was visually much more acceptable.
+
+<figure>
+<img src="/wp-content/uploads/2023/09/just-right.jpg" width="760" height="577" alt="" loading="lazy">
+</figure>
 
 ## Summary
 
