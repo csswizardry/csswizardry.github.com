@@ -21,6 +21,8 @@ standardised FOUT/FOIT behaviour from browser vendors, to the newer
 `font-display` specification, performance—and therefore the user—seems to have
 been finally been put front-and-centre.
 
+{% include promo.html %}
+
 It’s widely accepted that self-hosted fonts are the fastest option: same origin
 means reduced network negotiation, predictable URLs mean we can `preload`,
 self-hosted means we can set our own [`cache-control`
