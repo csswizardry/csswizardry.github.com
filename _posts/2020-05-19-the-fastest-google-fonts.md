@@ -7,6 +7,20 @@ main: "https://csswizardry.com/wp-content/uploads/2020/05/filmstrip-foit.png"
 meta: "Google Fonts is fast. Now it’s faster. Much faster."
 ---
 
+<div class="c-highlight  mb">
+
+<p><strong>Ten-Second Version:</strong> If you really can’t
+be bothered going to all of the effort outlined in this post, there is a super
+rough-and-ready, ten-second, alternative approach—<strong>place your Google
+Fonts stylesheet at the closing <code>&lt;/body&gt;</code> tag</strong>. This
+means we don’t block rendering of the entire page just for the sake of web
+fonts. Instead, we apply them <em>after</em> we’ve styled everything else.</p>
+
+<p><small>Please note that this may have side-effects. If you want to be very
+thorough, keep reading…</small></p>
+
+</div>
+
 For the most part, web fonts nowadays are faster than ever. With more
 standardised FOUT/FOIT behaviour from browser vendors, to the newer
 `font-display` specification, performance—and therefore the user—seems to have
