@@ -150,7 +150,7 @@ Attacking the problem this way has many benefits:
    as a result, which will help with almost all future work.
 
 Your overall goals for the project can remain the same but try to [identify and
-isolate](https://csswizardry.com/2016/08/refactoring-css-the-three-i-s/) the
+isolate](/2016/08/refactoring-css-the-three-i-s/) the
 sub-tasks into much smaller and safer units. Make sure you only ever step into
 short tunnels.
 

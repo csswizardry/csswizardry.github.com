@@ -140,7 +140,7 @@ paper, I’ll make a note of investigating these specifically in my testing.
 After extremities, I’d like to actually **find consistencies**. Once again
 noting that TTFB is very consistent—as seen in the table view—I can draw the
 conclusion that back-end time (and [whatever else might be happening in
-there](https://csswizardry.com/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/))
+there](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/))
 is uniformly consistent across each page type. This means that I likely don’t
 need to do any specific work on any individual pages, but also suggests that any
 general back-end improvements I make in area _A_ will also be felt in locations

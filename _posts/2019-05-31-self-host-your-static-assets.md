@@ -41,7 +41,7 @@ outweigh them.
 ## Risk: Slowdowns and Outages
 
 I won’t go into too much detail in this post, because I have a [whole
-article](https://csswizardry.com/2017/07/performance-and-resilience-stress-testing-third-parties/)
+article](/2017/07/performance-and-resilience-stress-testing-third-parties/)
 on the subject of third party resilience and the risks associated with slowdowns
 and outages. Suffice to say, if you have any critical assets served by third
 party providers, and that provider is suffering slowdowns or, heaven forbid,
@@ -269,7 +269,7 @@ enforce a reasonably aggressive cache policy.
 
 That said, this isn’t always the case, and by self-hosting your assets you can
 design [much more bespoke caching
-strategies](https://csswizardry.com/2019/03/cache-control-for-civilians/).
+strategies](/2019/03/cache-control-for-civilians/).
 
 ## Myth: Cross-Domain Caching
 

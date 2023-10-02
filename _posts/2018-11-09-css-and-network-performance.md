@@ -685,7 +685,7 @@ performance practices for loading CSS:
 Everything I have outlined above adheres to specs or known/expected behaviour,
 but, as always, test everything yourself. While it’s all theoretically true,
 things always work differently in practice. Test and
-[measure](https://csswizardry.com/2018/10/three-types-of-performance-testing/).
+[measure](/2018/10/three-types-of-performance-testing/).
 
 ### Thanks
 

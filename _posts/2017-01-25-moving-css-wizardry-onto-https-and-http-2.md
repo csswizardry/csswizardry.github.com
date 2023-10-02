@@ -7,7 +7,7 @@ meta: "Improving security and performance on CSS Wizardry"
 ---
 
 Hopefully by now, you should be able to [read this article over
-HTTPS](https://csswizardry.com/2017/01/moving-css-wizardry-onto-https-and-http-2/)
+HTTPS](/2017/01/moving-css-wizardry-onto-https-and-http-2/)
 and HTTP/2. (If that link doesn’t work, please hit your back button and [let me
 know](https://twitter.com/csswizardry)!) I made the switch yesterday, and all
 being well the new DNS settings have propagated through. At some point soon I

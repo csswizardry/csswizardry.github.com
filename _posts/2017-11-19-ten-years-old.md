@@ -8,7 +8,7 @@ meta: "csswizardry.com turns ten today!"
 ---
 
 Ten years ago today, a seventeen-year old Harry decided to register the domain
-[csswizardry.com](https://csswizardry.com). It was such a small and
+[csswizardry.com](). It was such a small and
 inconsequential decision at the time: I only bought the domain because
 [NuBlue](https://www.nublue.co.uk/), a British hosting firm, was running
 a promotional offer in which a .com domain and a year’s hosting was about £39 (I
@@ -34,10 +34,10 @@ sometimes.
 Over the last ten years I’ve been fortunate enough to work for [a number of
 companies](https://uk.linkedin.com/in/csswizardry), both large and small, as
 a salaried front-end developer; I’ve spoken and workshopped at [over 85 public
-events](https://csswizardry.com/speaking/#section:past-events) (and countless
+events](/speaking/#section:past-events) (and countless
 other private ones); I was able to start my own consultancy business through
 which I’ve worked with some [truly amazing
-clients](https://csswizardry.com/#section:clients); I’ve been able to travel the
+clients](/#section:clients); I’ve been able to travel the
 world visiting over 35 different countries; I’ve met countless new people and
 made many wonderful new friends; I’ve experienced more amazing things than
 I feel I deserve. It’s been a phenomenal journey and I’m grateful for it every
@@ -49,7 +49,7 @@ little, you’ve all played a part. From colleagues, to managers, to bosses, to
 clients, to conferences, and everyone in between: thank you.
 
 But it’s been hard work. A lot of continued hard work. Writing [over 200
-articles](https://csswizardry.com/archive/), releasing [open-source
+articles](/archive/), releasing [open-source
 projects](https://github.com/csswizardry), developing and sharing new
 methodologies and techniques, is all just a small part of what’s made this all
 possible. Looking back on ten whole years begins to put a lot of it into
@@ -81,11 +81,11 @@ interesting facts and figures[^1] from the last decade:
   responsible for **14,237,772** pageviews.
 * The most highly trafficked single article has been [<cite>Creating a pure CSS
   dropdown
-  menu</cite>](https://csswizardry.com/2011/02/creating-a-pure-css-dropdown-menu/),
+  menu</cite>](/2011/02/creating-a-pure-css-dropdown-menu/),
   taking 10.17% of the total pageviews.
 * The most highly trafficked single day was **25 April 2013** with **34,374**
   visitors. **74.25%** of them were reading about
-  [<cite>Shame.css</cite>](https://csswizardry.com/2013/04/shame-css/)
+  [<cite>Shame.css</cite>](/2013/04/shame-css/)
 * The most highly trafficked year was **2013**, which was when I was writing
   with a much higher frequency.
 * With **26.36%** of total visitors, **the US is the top location**, followed by

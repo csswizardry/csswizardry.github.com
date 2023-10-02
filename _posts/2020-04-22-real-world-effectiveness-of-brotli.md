@@ -170,7 +170,7 @@ over primed TCP connections will not be subject to slow start. This brings forth
 two important points:
 
 1. Not that it should need repeating: you need to [**self-host your static
-   assets**](https://csswizardry.com/2019/05/self-host-your-static-assets/).
+   assets**](/2019/05/self-host-your-static-assets/).
    This is a great way to avoid a slow start penalty, as using your own
    already-warmed up origin means your packets have access to greater bandwidth,
    which brings me to point two;

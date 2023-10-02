@@ -13,7 +13,7 @@ web include at least one image. The median image-weight per page landed at
 [881KB in 2022](https://almanac.httparchive.org/en/2022/page-weight#fig-13),
 which is more than HTML, CSS, JS, and fonts combined! And while images do not
 block rendering (unless you do [something
-silly](https://csswizardry.com/2017/02/base64-encoding-and-performance/)), it’s
+silly](/2017/02/base64-encoding-and-performance/)), it’s
 important to consider how we offer a reasonably pleasant experience while users
 are waiting for images to load. One solution to that problem is _Low-Quality
 Image Placeholders_.
@@ -46,15 +46,15 @@ LQIP to somewhat resemble the final image.
 ## Core Web Vitals and Largest Contentful Paint
 
 While LQIP isn’t a new subject at all, [Core Web
-Vitals](https://csswizardry.com/2023/07/core-web-vitals-for-search-engine-optimisation/)
+Vitals](/2023/07/core-web-vitals-for-search-engine-optimisation/)
 and [Largest Contentful
-Paint](https://csswizardry.com/2022/03/optimising-largest-contentful-paint/)
+Paint](/2022/03/optimising-largest-contentful-paint/)
 are, and unfortunately, they don’t necessarily get along so well…
 
 If your LCP candidate is an image (whether that’s a `background-image` or an
 `<img>` element), it’s going to be somewhat slower than if your LCP candidate
 was a text node, and while [making image-based LCPs
-fast](https://csswizardry.com/2022/03/optimising-largest-contentful-paint/)
+fast](/2022/03/optimising-largest-contentful-paint/)
 isn’t impossible, it is harder.
 
 Using an LQIP while we wait for our full-res LCP candidate certainly fills
@@ -432,7 +432,7 @@ CSS’ multiple backgrounds:
 ```
 
 0. As `background-image` is [hidden from the preload
-   scanner](https://csswizardry.com/2022/03/optimising-largest-contentful-paint/#background-image-url),
+   scanner](/2022/03/optimising-largest-contentful-paint/#background-image-url),
    I’m `preload`ing the LQIP (`lo-res.jpg`) so that it’s already on its way
    before the parser encounters the `<header>`.
    * Note that I’m not `preload`ing `hi-res.jpg`—we don’t want the two images to
@@ -464,10 +464,10 @@ this:
    small to qualify for LCP, and _massively_ upscaled:
    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAgICAgICAgICAgMDAwMDAwMDAwMBAQEBAQEBAgEBAgICAQICAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA//AABEIAAsAEAMBEQACEQEDEQH/xACAAAEBAQAAAAAAAAAAAAAAAAAICQoQAAAEBAUEAQUAAAAAAAAAAAMEBQYBAhMUBxIVFhcACAkkERgjJTdDAQADAQAAAAAAAAAAAAAAAAAHCAkGEQAABAUCAwcEAwAAAAAAAAABAgMEBhESExQFBwAVIwgWFyEiJDMxMkJDNEFR/9oADAMBAAIRAxEAPwDP12CsRLfmKpRpN7FZ6ok7kxPHIoiWbLlCyQvgFTI6tKWeSihwEUEcgspheMBBwYyyZBBYhTS5YRg6O3m4ei7fQrF0dEjLWmLNukNo7Vgmcz1c4uBQTTIqIpkdCc5VyFUOBDAcxREtEzV42T1KEND2/ibX1ojiNJu11ZyKTZqk2kc1XoUXE5TmKLg4lIAmEqQmrAhpgPD872MFxcADY5d2dyb4TRXcArubaCHq72buHpsQ7EQ5hxOvmicTyhscsfKlJRjMJBjAEwU88YzRm6KPZ47TCMd7RpljeO3ejbg6UgRu+W1Fskcj1e2UwvG+EmQBQVERLScEzFUAwGD7RMUtrtf0OM4AePIiiGLmcSaaUCulk0UnKKhlCVFVTstxEqJhAxSgsKavp8wH68Sm8SV79RRyjy/bUGpqHF+gafa7sb37YvvyvE1fLqume5b/AD/Kp0kz3H8MH9/Bu5xrWfexrmMr8Nnp8wpnh5ntsi3+yniWGx9zO1WjK/qdmij8v5df6p/FR536fxnwpPK9pXJTiteXaO9X9a095fFfOk1dp6x715Wz67eetmt6f2qXWm7OuD4R6lLkWdlpzxMvvHO0pbyp+0xaZ4tHTtXMnq08HN7id2HV3m96+aXLsnMnSaU7fSs/5X6JVVefH//Z" width="16" height="11" alt="" />
 2. The second frame is a [**24KB**
-   image](https://csswizardry.com/img/css/masthead-large-lqip.jpg) that is both
+   image](/img/css/masthead-large-lqip.jpg) that is both
    my LQIP _and_ my LCP.
 3. The third and final frame is the full-resolution, [**160KB**
-   image](https://csswizardry.com/img/css/masthead-large.jpg).
+   image](/img/css/masthead-large.jpg).
 
 The `background-image` method only works if images are decorational. If your
 image _is_ content (e.g. it’s a product image), then semantically,

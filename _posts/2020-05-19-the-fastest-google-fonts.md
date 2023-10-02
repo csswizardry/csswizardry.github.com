@@ -29,10 +29,10 @@ been finally been put front-and-centre.
 It’s widely accepted that self-hosted fonts are the fastest option: same origin
 means reduced network negotiation, predictable URLs mean we can `preload`,
 self-hosted means we can set our own [`cache-control`
-directives](https://csswizardry.com/2019/03/cache-control-for-civilians/), and
+directives](/2019/03/cache-control-for-civilians/), and
 full ownership mitigates [the risks that come with leaving static assets on
 third-party
-origins](https://csswizardry.com/2019/05/self-host-your-static-assets/).
+origins](/2019/05/self-host-your-static-assets/).
 
 That said, the convenience of a service like Google Fonts cannot be overstated.
 Their ability to serve the tiniest possible font files tailored to specific user
@@ -68,7 +68,7 @@ Suffice to say, I ended up going down a little rabbit hole…
 {% include promo.html %}
 
 I ran the same suite of tests against the [harry.is](https://harry.is) and
-[csswizardry.com](https://csswizardry.com) homepages. I started out with
+[csswizardry.com](/) homepages. I started out with
 harry.is because that’s where I was using Google Fonts, but I felt it was a page
 too simple to be realistic. So, I cloned the CSS Wizardry homepage a bunch of
 times and implemented the various different methods there. For each section of
@@ -410,7 +410,7 @@ download the file itself.
 Put another way: even though Google are `preconnect`ing the `fonts.gstatic.com`
 origin for us, they’re only gaining about a 10ms head-start. Put another-other
 way, this file is [latency-bound, not
-bandwidth-bound](https://csswizardry.com/2019/01/bandwidth-or-latency-when-to-optimise-which/).
+bandwidth-bound](/2019/01/bandwidth-or-latency-when-to-optimise-which/).
 
 If we implement a first-party `preconnect`, we should stand to make some pretty
 huge gains. Let’s see what happens.
@@ -591,7 +591,7 @@ user.**
 
 If Google Fonts isn’t your only render-blocking resource, and if you’re
 violating any of the other [principles for fast
-CSS](https://csswizardry.com/2018/11/css-and-network-performance/) (e.g. if
+CSS](/2018/11/css-and-network-performance/) (e.g. if
 you’re `@import`ing your Google Fonts CSS file), then your mileage will vary.
 These optimisations are most beneficial on project where Google Fonts is posing
 one of your biggest performance bottlenecks.

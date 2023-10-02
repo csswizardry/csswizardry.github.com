@@ -155,7 +155,7 @@ Working on a client site a few days ago, I wanted to see how much (or _if_)
 Using [Local Overrides](https://csswizardry.gumroad.com/l/perfect-devtools),
 I added `fetchpriority=high` to their LCP candidate, which was a simple `<img
 />` element (which is naturally pretty [fast by
-default](https://csswizardry.com/2022/03/optimising-largest-contentful-paint/)).
+default](/2022/03/optimising-largest-contentful-paint/)).
 
 I created a control[^4], reloaded the page five times, and took the median LCP.
 Despite these two defensive measures, I was surprised by the variance in results

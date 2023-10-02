@@ -134,13 +134,13 @@ I use a bunch of handy tools from the command line on a daily basis:
 
 * [Ack](https://beyondgrep.com/): A better source code search for programmers. I
   absolutely _love_ Ack. Read more about why [you should use it
-  too](https://csswizardry.com/2017/01/ack-for-css-developers/).
+  too](/2017/01/ack-for-css-developers/).
 * [ghi](https://github.com/stephencelis/ghi): View your repo’s GitHub issues
   from right there on the command line!
 * [Parker](https://github.com/katiefenn/parker): Static analysis for your CSS
   projects. My buddy [Katie](http://www.katiefenn.co.uk/) made this and it’s so
   good. Here’s how you can [make the most of
-  it](https://csswizardry.com/2016/06/improving-your-css-with-parker/).
+  it](/2016/06/improving-your-css-with-parker/).
 * [Wget](https://www.gnu.org/software/wget/) and [curl](https://curl.haxx.se/):
   I feel like I use Wget as more of a utility, mainly for just saving files to
   disk, and curl as more of a debugging tool (inspecting headers, for example).
@@ -171,7 +171,7 @@ vector work.
 ### Sketch
 
 I worked on [a project for the
-NHS](https://csswizardry.com/case-studies/nhs-nhsx-elearning-platform/) a few
+NHS](/case-studies/nhs-nhsx-elearning-platform/) a few
 years back and the designer was using [Sketch](https://www.sketchapp.com/). I
 bought a copy so that I was able to properly translate the designs, but haven’t
 really used it much since. I really admire what Sketch is doing—proving that a

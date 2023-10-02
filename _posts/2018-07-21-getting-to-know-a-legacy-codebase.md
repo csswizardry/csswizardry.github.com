@@ -65,7 +65,7 @@ code, or what you might simply be able to ignore.
 
 For a slightly more robust, but still imperfect method of identifying dead code,
 try this technique that I wrote up [earlier in
-2018](https://csswizardry.com/2018/01/finding-dead-css/).
+2018](/2018/01/finding-dead-css/).
 
 Although very vague data, it should give some idea as to where to start looking.
 
@@ -125,7 +125,7 @@ tool from my buddy [Katie](http://www.katiefenn.co.uk/). You can use it to grab
 useful information about the overall make-up and health of your CSS: how many
 IDs, mean specificity, how many `!important`s, etc. Learn more about Parker with
 my post all about [demystifying its
-output](https://csswizardry.com/2016/06/improving-your-css-with-parker/).
+output](/2016/06/improving-your-css-with-parker/).
 
 [ack](https://beyondgrep.com/) is an incredible little command line utility that
 serves as a more useful, sensible, and user-friendly alternative to grep. You
@@ -138,7 +138,7 @@ $ ack --css "\d*\.\d*px"
 
 This will search every CSS file for pixel values that contain decimals (e.g.
 `24.1px`). ack is incredibly useful, so I’d recommend reading my [<cite>Ack for
-CSS Developers</cite>](https://csswizardry.com/2017/01/ack-for-css-developers/)
+CSS Developers</cite>](/2017/01/ack-for-css-developers/)
 post for some more practical examples.
 
 If you’re feeling adventurous, install

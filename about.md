@@ -81,7 +81,7 @@ see what fits.
 
 _<img src="{{ site.cloudinary }}/img/content/signature.png" alt="Harry" fetchpriority="low" width="123" height="72" />_
 
-<a href="https://csswizardry.com/services/" class="btn  btn--full"><strong>Hire
+<a href="/services/" class="btn  btn--full"><strong>Hire
 me.</strong></a>
 
 

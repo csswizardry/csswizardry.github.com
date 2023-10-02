@@ -253,7 +253,7 @@ In browsers that support `immutable`, a user refresh will never cause
 a revalidation within the 31,536,000-second freshness lifespan. This means no
 unnecessary roundtrips spent retrieving `304` responses, which potentially saves
 us a lot of latency on the critical path ([CSS blocks
-rendering](https://csswizardry.com/2018/11/css-and-network-performance/)). On
+rendering](/2018/11/css-and-network-performance/)). On
 high latency connections, this saving could be tangible.
 
 **Beware:** You should not apply `immutable` to any files that are not

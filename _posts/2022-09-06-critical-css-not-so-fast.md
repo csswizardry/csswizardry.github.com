@@ -385,8 +385,8 @@ There’s a lot to consider in this post, so to recap:
 
 - - -
 
-[^1]: [Cache-Control for Civilians – Fingerprint](https://csswizardry.com/2019/03/cache-control-for-civilians/#fingerprint--styleae3f66css)
-[^2]: [Cache-Control for Civilians – `immutable`](https://csswizardry.com/2019/03/cache-control-for-civilians/#immutable)
+[^1]: [Cache-Control for Civilians – Fingerprint](/2019/03/cache-control-for-civilians/#fingerprint--styleae3f66css)
+[^2]: [Cache-Control for Civilians – `immutable`](/2019/03/cache-control-for-civilians/#immutable)
 [^3]: Zero-runtime, automatically deduped, and, ideally, placed in-`<body>` in `<style>` blocks—not in `style` attributes.
 <!-- [^4]: Yes, inline `<style>` and `<script>` are still blocking; they’re just very fast. -->
 <!-- [^5]: The `type` attribute is pretty interesting, actually. An omitted `type` attribute is implied `type=text/javascript`, which itself is obsolete, so just don’t bother with it. `type=module` is non-blocking (equivalent to `defer`), and any malformed or invalud `type` attribute causes the parser to skip the `<script>` block entirely. -->

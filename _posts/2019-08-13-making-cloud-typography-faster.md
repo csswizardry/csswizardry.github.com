@@ -38,7 +38,7 @@ stages of the page-load lifecycle. Let’s pick it apart…
 
 0. Entry (9), for `cloud.typography.com`, has very high connection overhead
    (405ms in total), [surprisingly large
-   TTFB](https://csswizardry.com/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/)
+   TTFB](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/)
    (210ms), and returns a `302`
    anyway. What’s going on here? Where are we getting redirected to?
    * It turns out that Cloud.typography is redirecting the request to
@@ -79,7 +79,7 @@ request sits on our Critical Path and therefore blocks rendering.
 
 To further exacerbate the problem, the `302` response has [a `Cache-Control:
 must-revalidate, private`
-header](https://csswizardry.com/2019/03/cache-control-for-civilians/#must-revalidate),
+header](/2019/03/cache-control-for-civilians/#must-revalidate),
 meaning that we will always make an outgoing request for this resource
 regardless of whether or not we’re hitting the site from a cold or a warm cache.
 Although this response has a 0B filesize, we will always take the latency hit on
@@ -96,7 +96,7 @@ remains unbroken—this is all work taking place on the Critical Path.
 Once we’ve dealt with the connection overhead, we begin downloading a behemoth
 CSS file (271.3KB) that is packed with all of the fonts for the project encoded
 in Base64 data URIs. [Base64 is absolutely terrible for
-performance](https://csswizardry.com/2017/02/base64-encoding-and-performance/),
+performance](/2017/02/base64-encoding-and-performance/),
 and, particularly where fonts are concerned, has the following issues:
 
 * Base64 encoding assets into CSS moves more weight (therefore delays) onto the

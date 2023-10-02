@@ -63,7 +63,7 @@ can design a safe middle-ground into your framework that can accept these
 deviations in the safest, least destructive way possible.
 
 The quickest example I can bring to mind is my own
-[Shame.css](https://csswizardry.com/2013/04/shame-css/). The idea behind
+[Shame.css](/2013/04/shame-css/). The idea behind
 Shame.css is that we do not want any hacks or nasty CSS in our codebase—of
 course we don’t!—but we also have to accept that they are inevitable. Instead of
 leaving developers to introduce these hacks throughout the entire codebase, we

@@ -9,12 +9,12 @@ meta: "Revisiting and remapping my Site-Speed Topography technique for assessing
 
 <p class="c-highlight"><strong>N.B.</strong> This is an update to my 2020
 article <a
-href="https://csswizardry.com/2020/11/site-speed-topography/"><cite>Site-Speed
+href="/2020/11/site-speed-topography/"><cite>Site-Speed
 Topography</cite></a>. You will need to catch up with that piece before this one
 makes sense.</p>
 
 Around two and a half years ago, I debuted my [<cite>Site-Speed
-Topography</cite>](https://csswizardry.com/2020/11/site-speed-topography/)
+Topography</cite>](/2020/11/site-speed-topography/)
 technique for getting broad view of an entire site’s performance from just
 a handful of key URLs and some readily available metrics.
 
@@ -35,7 +35,7 @@ from an entire website, we can quickly build the overall landscape—or
 milestone timings.
 
 Realistically, you _need_ to read [the original
-post](https://csswizardry.com/2020/11/site-speed-topography/) before this
+post](/2020/11/site-speed-topography/) before this
 article will make sense, but the basic premise is that by taking key metrics
 from multiple different page types, and analysing the similarities, differences,
 or variations among them, you can also very quickly realise some very valuable
@@ -51,7 +51,7 @@ timings into a spreadsheet helps us spot patterns and problems.</figcaption>
 </figure>
 
 Similar
-[TTFB](https://csswizardry.com/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/)
+[TTFB](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/)
 across pages suggests that no pages have much more expensive database calls than
 others; large deltas between TTFB and First Contentful Paint highlight a high
 proportion of render-blocking resources; gaps between Largest Contentful Paint
@@ -72,7 +72,7 @@ Above, we can see that the Product Listing Page (PLP) is by far the worst
 performing of the sample, and would need particular attention. We can also see
 that First Paint and First Contentful Paint are near identical on all pages
 except the PLP—is this a webfont issue? In fact, [we can see a lot of
-issues](https://csswizardry.com/2020/11/site-speed-topography/#building-the-map)
+issues](/2020/11/site-speed-topography/#building-the-map)
 if we look hard enough. But… who wants to look hard? Shouldn’t these things be
 easier to spot?
 
@@ -81,7 +81,7 @@ easier to spot?
 ## Remapping
 
 If you read the original post, the section [<cite>Building the
-Map</cite>](https://csswizardry.com/2020/11/site-speed-topography/#building-the-map)
+Map</cite>](/2020/11/site-speed-topography/#building-the-map)
 explains in a lot of words a way to spot visually a bunch of patterns that live
 in numbers.
 

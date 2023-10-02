@@ -273,7 +273,7 @@ notice any real degradation.
 Because JS can write/read to/from the CSSOM, all browsers will halt execution of
 any synchronous JS if there is any preceding, pending CSS. In effect, [CSS
 blocks
-JS](https://csswizardry.com/2018/11/css-and-network-performance/#dont-place-link-relstylesheet--before-async-snippets),
+JS](/2018/11/css-and-network-performance/#dont-place-link-relstylesheet--before-async-snippets),
 and in this example, serves to hide the `document.write()` from the Preload
 Scanner.
 

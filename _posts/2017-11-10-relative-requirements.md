@@ -131,7 +131,7 @@ This means that if we have five traits, we have a total of 15 points to spend.
 If we have six traits, our budget is 18 points, and so on.
 
 The 3 in this equation is derived from the [median
-score](https://csswizardry.com/2017/01/choosing-the-correct-average/) that any
+score](/2017/01/choosing-the-correct-average/) that any
 trait could have. What this means is that, if we _really_ wanted to, we could
 award all of our traits a 3 out of 5, allocating all of our budget equally:
 

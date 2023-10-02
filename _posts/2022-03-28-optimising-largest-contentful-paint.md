@@ -396,7 +396,7 @@ Avoid fading in your LCP candidate, whether it’s image- or text-based.
 ### Don’t Host Your LCP Off-Site
 
 Where possible, we should always [self-host our static
-assets](https://csswizardry.com/2019/05/self-host-your-static-assets/). This
+assets](/2019/05/self-host-your-static-assets/). This
 includes our LCP candidate.
 
 It’s not uncommon for site owners to use third-party image optimisation services

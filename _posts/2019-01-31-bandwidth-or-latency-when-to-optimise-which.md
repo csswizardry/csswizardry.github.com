@@ -131,7 +131,7 @@ gains through optimising them further.
 
 The waterfall I used as a demo was exactly that—a demo. It’s vital that you run
 your own tests [several
-times](https://csswizardry.com/2017/01/choosing-the-correct-average/) and across
+times](/2017/01/choosing-the-correct-average/) and across
 a range of different network conditions to assess how key resources respond.
 
 A good rule of thumb to remember is that, for regular web browsing, improvements
