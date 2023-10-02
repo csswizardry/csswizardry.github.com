@@ -23,9 +23,11 @@ web platform feature to make the entire process a breeze: `clear-site-data`.
 
 ## `clear-site-data`
 
-A relatively new HTTP header, available in most modern browsers, allows
-developers to declaratively clear data associated with a given origin[^1] via
-one simple response header: `clear-site-data`.
+[A relatively new HTTP
+header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data),
+available in most modern browsers, allows developers to declaratively clear data
+associated with a given origin[^1] via one simple response header:
+`clear-site-data`.
 
 ```http
 Clear-Site-Data: "cache", "cookies"
