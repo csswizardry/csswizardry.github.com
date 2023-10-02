@@ -80,8 +80,8 @@ the whole time. Tread carefully!
 Unfortunately, `clear-site-data` is not supported by Safari, and as all browsers
 on iOS are just Safari under the hood, there is no quick way to achieve this for
 any of your iPhone users. Therefore, my advice to you is to immediately ask your
-customer <q>are you using an iPhone?</q>. If the answer is no, direct them to
-your `clear/` page; if yes, then, well, I’m sorry. It’s back to the old
+customer <q>Are you using an iPhone?</q>. If the answer is no, direct them to
+your `/clear` page; if yes, then, well, I’m sorry. It’s back to the old
 fashioned way.
 
 [^1]: `https://www.bar.com` and `https://foo.bar.com` are different origins: an origin is scoped to scheme, domain, and port.
