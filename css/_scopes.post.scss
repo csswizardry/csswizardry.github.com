@@ -38,4 +38,18 @@
     contain-intrinsic-size: 1px 250px; /* [1] */
   }
 
+  /**
+   * Indicate internal links.
+   */
+  a[href^="https://csswizardry.com"]::after,
+  a[href^="/"]::after {
+    content: "";
+    display: inline-block;
+    width:  1ch;
+    height: 1ch;
+    background-image: url(https://csswizardry.com/icon.png);
+    background-size: cover;
+    margin-left: 0.1ch;
+  }
+
 }

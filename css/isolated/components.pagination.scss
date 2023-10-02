@@ -28,8 +28,7 @@
 
   }
 
-    .c-pagination__prev::before,
-    .c-pagination__next::before {
+    .c-pagination__item::before {
       display: block;
       @include font-size(12px);
       line-height: 1;
@@ -48,4 +47,8 @@
 
     .c-pagination__next::before {
       content: "Up next: "
+    }
+
+    .c-pagination__item.c-pagination__item.c-pagination__item::after {
+      display: none;
     }
