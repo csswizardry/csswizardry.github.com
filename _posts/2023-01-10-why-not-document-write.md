@@ -18,7 +18,7 @@ the audit [<q>Avoid
 <figure>
 <img src="/wp-content/uploads/2023/01/lighthouse.png" alt="" width="1396" height="461">
 <figcaption><q>For users on slow connections, external scripts dynamically
-injected via `document.write()` can delay page load by tens of
+injected via <code>document.write()</code> can delay page load by tens of
 seconds.</q></figcaption>
 </figure>
 
