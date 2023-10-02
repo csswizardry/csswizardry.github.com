@@ -5,6 +5,7 @@
 table {
   width: 100%;
   @include font-size(12px);
+  font-variant-numeric: tabular-nums;
 
   @include media-query(lap-and-up) {
     @include font-size(16px);
