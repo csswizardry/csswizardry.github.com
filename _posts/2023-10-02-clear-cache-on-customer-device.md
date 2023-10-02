@@ -56,10 +56,10 @@ themselves. Something maybe a little like this:
 ```js
 const referer = req.get('Referer');
 
-if (referer != 'https://www.example.com/clear') {
-  return;
-} else {
+if (referer === 'https://www.example.com/clear') {
   res.set('clear-site-data', 'cache');
+} else {
+  res.status(403).send('Forbidden: Invalid Referer');
 }
 ```
 
