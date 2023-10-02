@@ -24,8 +24,9 @@ permalink: /archive/
       {% assign myDate = currentDate %}
     {% endif %}
       <li>
-        <b><time class="" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d" }}</time>:</b>
-        <a href="{{ post.url }}"style="view-transition-name: x-{{ post.date | date: '%Y-%m-%d' }}">{{ post.title }}</a>
+        <b><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d" }}</time></b>
+        <br>
+        <a href="{{ post.url }}" style="view-transition-name: x-{{ post.date | date: '%Y-%m-%d' }}">{{ post.title }}</a>
       </li>
     {% if forloop.last %}</ol>{% endif %}
   {% endfor %}
