@@ -91,8 +91,9 @@ your `/clear` page; if yes, then, well, I’m sorry. It’s back to the old
 fashioned way.
 
 It’s also worth noting that Firefox doesn’t support the specific `"cache"`
-directive, it was removed in 94, but I can’t imagine the average Firefox user
-would need assistance clearing their cache.
+directive, [it was removed in
+94](https://bugzilla.mozilla.org/show_bug.cgi?id=1671182), but I can’t imagine
+the average Firefox user would need assistance clearing their cache.
 
 [^1]: `https://www.bar.com` and `https://foo.bar.com` are different origins: an origin is scoped to scheme, domain, and port.
 [^2]: [The spec](https://w3c.github.io/webappsec-Clear-Site-Data/#clear-cache) dictates that any sort of cache associated with the given origin should be cleared, and not just [the HTTP cache](https://csswizardry.com/2019/03/cache-control-for-civilians/)
