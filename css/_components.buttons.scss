@@ -38,6 +38,14 @@
       }
     }
 
+    /**
+     * Remove CSS Wizardry favicon from Pagination  Super aggressive specificity
+     * override needed, unfortunately.
+     */
+    &#{&}#{&}::after {
+      display: none;
+    }
+
 }
 
 .btn--secondary {

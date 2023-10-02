@@ -26,6 +26,14 @@
       border-color: currentColor;
     }
 
+    /**
+     * Remove CSS Wizardry favicon from Pagination  Super aggressive specificity
+     * override needed, unfortunately.
+     */
+    &#{&}#{&}::after {
+      display: none;
+    }
+
   }
 
     .c-pagination__item::before {
@@ -47,8 +55,4 @@
 
     .c-pagination__next::before {
       content: "Up next: "
-    }
-
-    .c-pagination__item.c-pagination__item.c-pagination__item::after {
-      display: none;
     }

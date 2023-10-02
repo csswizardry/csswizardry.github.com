@@ -85,9 +85,11 @@ code, kbd, samp {
     font-family: "Operator Mono", Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
     font-style: normal;
     word-break: break-word;
+
     a:hover &, a:active &, a:focus & {
       text-decoration: underline;
     }
+
 }
 
 pre {

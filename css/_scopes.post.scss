@@ -47,9 +47,10 @@
     display: inline-block;
     width:  1ch;
     height: 1ch;
-    background-image: url(https://csswizardry.com/icon.png);
+    background-image: url(/icon.png);
     background-size: cover;
     margin-left: 0.1ch;
+    vertical-align: super;
   }
 
 }
