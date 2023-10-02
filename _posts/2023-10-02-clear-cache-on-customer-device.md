@@ -67,7 +67,7 @@ if (referer === 'https://www.example.com/clear') {
 
 <p class="c-highlight">This isn’t the first time I’ve written about
 <code>Clear-Site-Data</code>—I mentioned it briefly in my 2019 article all about
-<a href="https://csswizardry.com/2019/03/cache-control-for-civilians/">setting
+<a href="https://csswizardry.com/2019/03/cache-control-for-civilians/#clear-site-data">setting
 the correct caching headers</a>. However, this is the first time I’ve focused on
 <code>Clear-Site-Data</code> in its own right.</p>
 
