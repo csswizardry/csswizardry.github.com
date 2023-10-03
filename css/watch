@@ -1,6 +1,5 @@
 #!/bin/sh
 
-#sass --watch csswizardry.scss:csswizardry.min.css --style compressed --precision 9
 sass --watch csswizardry.scss:../_includes/css/csswizardry.min.css --style compressed --precision 9 --sourcemap=none
 
 exit 0
