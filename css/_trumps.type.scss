@@ -2,17 +2,9 @@
   #TYPE
 \*------------------------------------*/
 
-@mixin selection() {
+::selection {
   color: #fff;
   background-color: $color-brand;
-}
-
-::selection {
-  @include selection();
-}
-
-::-moz-selection {
-  @include selection();
 }
 
 .u-text-prominent {
