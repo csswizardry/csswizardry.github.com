@@ -29,10 +29,10 @@ conference for professionals.
        fetchpriority="high"
        decoding="sync"
        elementtiming="about-image"
-       onload="performance.clearMarks('About Page Image'); performance.mark('About Page Image');" />
+       onload="performance.clearMarks('About_Page_Image'); performance.mark('About_Page_Image');" />
   <script>
-    performance.clearMarks("About Page Image");
-    performance.mark("About Page Image");
+    performance.clearMarks("About_Page_Image");
+    performance.mark("About_Page_Image");
   </script>
   <figcaption>Workshopping at <a href="https://digital-labin.com/">Digital Labin</a>, 2022. Photograph by <a href="https://www.instagram.com/dzambofilm/">Ivica Džambo</a>.</figcaption>
 </figure>

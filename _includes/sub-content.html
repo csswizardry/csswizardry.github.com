@@ -10,10 +10,10 @@
        style="background-image: url(/img/css/masthead-small-lqip.jpg), url({% include base64/masthead.jpg.html %});"
        elementtiming=sidebar-image
        decoding=sync
-       onload="performance.clearMarks('Sidebar Image'); performance.mark('Sidebar Image');">
+       onload="performance.clearMarks('Sidebar_Image'); performance.mark('Sidebar_Image');">
   <script>
-    performance.clearMarks("Sidebar Image");
-    performance.mark("Sidebar Image");
+    performance.clearMarks("Sidebar_Image");
+    performance.mark("Sidebar_Image");
   </script>
 </p>
 {% endif %}
@@ -37,7 +37,7 @@ improving site-speed. You <a href=/services/?utm_source=sidebar&utm_medium=inter
 <p class=text-banner>
   <a href=/code-reviews/?utm_source=sidebar&utm_medium=internal#fix-it-fast class="btn  btn--full btn--positive" data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
   <script>
-    performance.mark("CTA Sidebar");
+    performance.mark("CTA_Sidebar");
   </script>
 </p>
 
