@@ -35,4 +35,28 @@
 
 </script>
 
+<script>
+  /**
+   * The site nav has been explicitly turned ‘off’ with `content-visibility:
+   * hidden;` in its component CSS file. This means we don’t need to bother
+   * rendering it at all on the first pass: it’s off-screen anyway. Once we’re
+   * approaching domInteractive, we turn it back ‘on’. It’s wrapped in a rAF to
+   * make it asynchronous, which is probably a bit of a micro-optimisation.
+   */
+  requestAnimationFrame(() => {
+    const siteNavList = document.getElementById('jsSiteNavList');
+    siteNavList.style.contentVisibility = 'visible';
+  });
+
+  const navReady = performance.mark('Nav_Ready');
+  console.log('Nav ready at: ' + navReady.startTime + 'ms');
+</script>
+
+<noscript>
+  <!-- In the highly unlikely event that someone has disabled JS, turn the nav
+    -  back ‘on’ synchronously.
+    -->
+  <style> .site-nav__list { content-visibility: visible; } </style>
+</noscript>
+
 <script src=/js/instant.page.5.1.1.min.js type=module fetchpriority=low></script>
