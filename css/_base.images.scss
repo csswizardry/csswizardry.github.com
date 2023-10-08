@@ -9,6 +9,7 @@
  *    elements when they are dropped into a page as-is. Safer alternative to
  *    using `display: block;`.
  * 4. Setup for Base64 LQIP backgrounds.
+ * 5. Any instances of `shape-outside` will automatically pick up this margin.
  */
 img {
   max-width: 100%; /* [1] */
@@ -17,6 +18,7 @@ img {
   height: auto;
   background-repeat: no-repeat; /* [4] */
   background-size: cover; /* [4] */
+  shape-margin: 0.75rem; /* [5] */
 }
 
 video {

@@ -11,8 +11,7 @@ hide-hire-me-link: true
 <img src="{{ site.cloudinary }}/img/content/case-studies/raspberry-pi/logo-pi.png" alt="" width="128" height="165"
      style="float: left;
             margin-right: 24px;
-            shape-outside: url(/img/content/case-studies/raspberry-pi/logo-pi.png);
-            shape-margin: 12px;" />
+            shape-outside: url(/img/content/case-studies/raspberry-pi/logo-pi.png);" />
 
 I was approached by my friend [Jonic](https://twitter.com/Jonic), Senior
 Developer at the Raspberry Pi Foundation, about running a workshop with him and
