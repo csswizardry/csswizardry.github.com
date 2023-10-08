@@ -420,7 +420,7 @@ look to Search Console to find and fix your Core Web Vitals issues:
 > identify opportunities for improvement.  
 > — [Evaluating page experience for a better web](https://developers.google.com/search/blog/2020/05/evaluating-page-experience)
 
-## Ignore Lighthouse/PageSpeed Scores
+## Ignore Lighthouse and PageSpeed Insights Scores
 
 This is one of the most pervasive and definitely the most common
 misunderstandings I see surrounding site-speed and SEO. Your Lighthouse
