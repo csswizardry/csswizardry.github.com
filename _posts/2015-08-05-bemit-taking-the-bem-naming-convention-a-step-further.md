@@ -236,7 +236,9 @@ class](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#
 
 …which you can then add to your `html` element when you want to turn it on:
 
+```html
 <html class="s-healthcheck">
+```
 
 ## Final Word
 
