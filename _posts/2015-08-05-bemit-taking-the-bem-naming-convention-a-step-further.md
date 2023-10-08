@@ -80,10 +80,10 @@ and where we might be able to reuse it (if at all), whether or not we can modify
 it, and much more. The linked article is pretty sizable, but will give you a
 whole load more insight into the technique.
 
-The most common types of namespace are `c-`, for Components, `o-`, for Objects,
-`u-`, for Utilities, and `is-/has-` for States (there are plenty more detailed
-in the linked post). With this in mind, the above HTML would be rewritten as
-this:
+The most common types of namespace are `c-`, for _Components_, `o-`, for
+_Objects_, `u-`, for _Utilities_, and `is-` or `has-` for _States_ (there are
+plenty more detailed in the linked post). With this in mind, the above HTML
+would be rewritten as this:
 
 ```html
 <div class="o-media  c-user  c-user--premium">
