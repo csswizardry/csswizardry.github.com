@@ -11,7 +11,7 @@ toc: false
 <p class="c-highlight">This article started life as <a
 href="https://twitter.com/csswizardry/status/1678793192756355073">a Twitter
 thread</a>, but I felt it needed a more permanent spot. You should <a
-href="https://twitter.com/csswizardry">follow me on Twitter</a> if you aren’t
+href="https://twitter.com/csswizardry">follow me on Twitter</a> if you don’t
 already.</p>
 
 I’ve been asked a few times—mostly in [workshops](/workshops/)—why HTTP/2 (H/2)
