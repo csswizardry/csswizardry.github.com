@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "What Is the Maximum Max-Age?"
+title: "What Is the Maximum max-age?"
 date: 2023-10-16 14:18:39
 categories: Web Development
 meta: "We usually set max-age directives to a year; can we go longer?"
 ---
 
-If you wanted to cache a file ‘forever’, you’d probably use a `cache-control`
+If you wanted to cache a file ‘forever’, you’d probably use a `Cache-Control`
 header like this:
 
 ```
-cache-control: max-age=31536000
+Cache-Control: max-age=31536000
 ```
 
 This instructs any cache that it may store and reuse a response for one year (60
@@ -26,7 +26,7 @@ I wondered the same. Let’s find out together.
 
 ## `max-age`
 
-`max-age` is a `cache-control` directive that instructs a cache that it may
+`max-age` is a `Cache-Control` directive that instructs a cache that it may
 store and reuse a response for <var>n</var> seconds from the point at which it
 entered the cache in question. Once that time has elapsed, the cache should
 either revalidate the file with the origin server, or do whatever any
@@ -98,7 +98,7 @@ seconds, which is a year. Why a year, though? A year isn’t forever. Was
 Historically—_very_ historically—caching was bound to <q>approximately one year
 from the time the response is sent</q>. This restriction was introduced by the
 long defunct `Expires` header, and we’re talking about `max-age`, which is
-a `cache-control` directive. Does `Cache-Control` say anything different?
+a `Cache-Control` directive. Does `Cache-Control` say anything different?
 
 ## `2147483648` Seconds
 
