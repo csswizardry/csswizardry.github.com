@@ -115,7 +115,7 @@ It turns out there is a maximum value for `max-age`, and it’s defined in [RFC
 
 The spec says caches should accept a maximum `max-age` value of
 whatever-it’s-been-told, falling back to 2,147,483,648 seconds (which is 68
-years), or failing that, falling back to as-long-as-is-possibly-can. This
+years), or failing that, falling back to as-long-as-it-possibly-can. This
 wording means that, technically, there isn’t a maximum as long as the cache
 understands the value you passed it. Theoretically, you could set
 a `max-age=9999999999` (that’s 317 years!) or higher. If the cache can work with
