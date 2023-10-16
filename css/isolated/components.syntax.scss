@@ -29,6 +29,16 @@ green     #859900  operators, other keywords
 /**
  * Unfortunately, I need to overwrite some annoying defaults.
  */
+
+.highlight {
+
+    @include media-query(lap-and-up) {
+      margin-right: -$spacing-unit--small;
+      margin-left:  -$spacing-unit--small;
+    }
+
+}
+
 .highlight pre {
   background-color: transparent;
   margin-right: auto;
