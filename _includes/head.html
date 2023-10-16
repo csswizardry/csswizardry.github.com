@@ -82,11 +82,7 @@
 <link rel=preload href=/img/css/masthead-large-lqip.jpg  as=image media="(min-width: 64em)"                            fetchpriority=high>
 {% endif %}
 
-{% if page.main %}
 <meta name=twitter:card content=summary_large_image>
-{% else %}
-<meta name=twitter:card content=summary>
-{% endif %}
 <meta name=twitter:site content=@csswizardry>
 <meta name=twitter:domain content=csswizardry.com>
 <meta name=twitter:creator content=@csswizardry>
@@ -97,7 +93,7 @@
 {% if page.main %}
 <meta name=twitter:image property=og:image content="{{ page.main }}">
 {% else %}
-<meta name=twitter:image property=og:image content=https://csswizardry.com/logo.png>
+<meta name=twitter:image property=og:image content=https://csswizardry.com/img/css/masthead-small.jpg>
 {% endif %}
 
 <link rel=alternate type=application/atom+xml href=https://feeds.feedburner.com/csswizardry>
