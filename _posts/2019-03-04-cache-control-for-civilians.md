@@ -67,6 +67,11 @@ contains information unique to one user.
 
 ## `max-age`
 
+<p class="c-highlight">Want to know the largest valid value for
+a <code>max-age</code> directive? <a
+href="/2023/10/what-is-the-maximum-max-age/">I wrote all about it in
+2023!</a></p>
+
 `max-age` defines a unit of time in seconds (relative to the time of the
 request) for which the response is deemed ‘fresh’.
 
@@ -89,15 +94,18 @@ update the cached copy with the new headers. This means that, if the
 `Cache-Control: max-age=60` header is still present, the cached file’s 60
 seconds starts again. 120 seconds overall cache time for one file.
 
-**Beware:** There is one pretty large caveat with `max-age` on its own…
-`max-age` tells the browser that the asset in question is stale, but it doesn’t
-tell the browser that it absolutely cannot use the stale version. A browser may
-use its own heuristics to decide that it might release a stale copy of a file
-without revalidating it. This behaviour is somewhat non-deterministic, so it’s
-quite hard to know exactly what a browser will actually do. To this end, we have
-a series of more explicit directives that we can augment our `max-age` with.
-Thanks to [Andy Davies](https://twitter.com/AndyDavies) for helping me clarify
-this one.
+Note that, in certain scenarios, caches are permitted to continue to serve stale
+responses after the `max-age` limit has been passed:
+
+> HTTP allows caches to reuse [stale
+> responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#fresh_and_stale_based_on_age)
+> when they are disconnected from the origin server. `must-revalidate` is a way
+> to prevent this from happening – either the stored response is revalidated
+> with the origin server or a 504 (Gateway Timeout) response is generated.  
+> — [Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
+In order to prevent this from happening, we can augment `max-age` with a number
+of the following directives.
 
 ### `s-maxage`
 
