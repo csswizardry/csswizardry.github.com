@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is the Maximum Max-Age?"
+title: "What Is the Maximum Max-Age?"
 date: 2023-10-16 14:18:39
 categories: Web Development
 meta: "We usually set max-age directives to a year; can we go longer?"
