@@ -69,16 +69,16 @@ Plotted on the same horizontal axis of 1.6s, the waterfalls speak for
 themselves:
 
 <figure>
-<img src="/wp-content/uploads/2023/10/brotli-3g-one.png" alt="" width="930" height="131" loading="lazy">
-<figcaption>201ms of cumulative latency; 109ms of cumulative download.</figcaption>
+  <img src="/wp-content/uploads/2023/10/brotli-3g-one.png" alt="" width="930" height="131" loading="lazy">
+  <figcaption>201ms of cumulative latency; 109ms of cumulative download. <a href="/wp-content/uploads/2023/10/brotli-3g-one.png">(View full size.)</a></figcaption>
 </figure>
 
 With one huge file, we got a **1,094ms `css_time`** and transferred **18.4KB of
 CSS**.
 
 <figure>
-<img src="/wp-content/uploads/2023/10/brotli-3g-many.png" alt="" width="930" height="318" loading="lazy">
-<figcaption>4,362ms of cumulative latency; 240ms of cumulative download.</figcaption>
+  <img src="/wp-content/uploads/2023/10/brotli-3g-many.png" alt="" width="930" height="318" loading="lazy">
+  <figcaption>4,362ms of cumulative latency; 240ms of cumulative download. <a href="/wp-content/uploads/2023/10/brotli-3g-many.png">(View full size.)</a></figcaption>
 </figure>
 
 With many small files, as ‘recommended’ in HTTP/2-world, we got **a 1,524ms
@@ -195,7 +195,9 @@ faster.</figcaption>
 Viewed a little more visually:
 
 <figure>
-<img src="/wp-content/uploads/2023/10/chart-compression.png" alt="" width="1500" height="710" loading="lazy">
+  <img src="/wp-content/uploads/2023/10/chart-compression.png" alt="" width="1500" height="710" loading="lazy">
+  <figcaption><a href="/wp-content/uploads/2023/10/chart-compression.png">(View full
+size.)</a></figcaption>
 </figure>
 
 These numbers tell us that at:
@@ -293,9 +295,10 @@ I ran all of the tests over the following connection types:
 * **Fibre:** 20 Mbps downlink, 5 Mbps uplink, 4ms RTT
 
 <figure>
-<img src="/wp-content/uploads/2023/10/chart-all.png" alt="" width="1500" height="704" loading="lazy">
-<figcaption>All variants begin to converge on a similar timing as network speed
-improves.</figcaption>
+  <img src="/wp-content/uploads/2023/10/chart-all.png" alt="" width="1500" height="704" loading="lazy">
+  <figcaption>All variants begin to converge on a similar timing as network speed
+improves. <a href="/wp-content/uploads/2023/10/chart-all.png">(View full
+size.)</a></figcaption>
 </figure>
 
 This data shows us that:
@@ -484,8 +487,8 @@ of the test runs. You can also see this data in WebPageTest’s _Plot Full
 Results_ view:
 
 <figure>
-<img src="/wp-content/uploads/2023/10/wpt-full-results.png" alt="" width="1500" height="681" loading="lazy">
-<figcaption>For the one-big-file version, outliers were pushing 1.5s</figcaption>
+  <img src="/wp-content/uploads/2023/10/wpt-full-results.png" alt="" width="1500" height="681" loading="lazy">
+  <figcaption>For the one-big-file version, outliers were pushing 1.5s. <a href="/wp-content/uploads/2023/10/wpt-full-results.png">(View full size.)</a></figcaption>
 </figure>
 
 - - -
