@@ -18,7 +18,7 @@ a bad thing is a different discussion for a different time, but if you’re
 interested in seeing who has committed how much to your project, `shortlog` can
 give us the answer:
 
-```
+```bash
 $ git shortlog -sn --all --no-merges
     80  Harry Roberts
     34  Samantha Peters
@@ -35,7 +35,7 @@ The above shows all commits for the lifetime of the project, but if you want to
 see how much people have done during a specified timeframe, you can use the
 `--since` and `--until` flags:
 
-```
+```bash
 $ git shortlog -sn --since='10 weeks' --until='2 weeks'
     59  Harry Roberts
     24  Samantha Peters
@@ -48,7 +48,7 @@ I have this aliased to `$ git stats`.
 Git has a very useful `blame` feature which allows us to check which developer
 was responsible for changing a particular piece of code:
 
-```
+```bash
 # See who last changed lines 5 through 10 of the buttons’ CSS:
 $ git blame -L5,10 _components.buttons.scss
 ```
@@ -62,26 +62,26 @@ feature before—I wonder who did that?!</q>)
 Taking the lead from SVN, I alias `praise` onto `blame`, so I can use either
 depending on my context:
 
-```
+```bash
 $ git config --global alias.praise blame
 ```
 
 This now means I can do this:
 
-```
+```bash
 # Find out who implemented Resource Hints and buy them a coffee:
 $ git praise -L18,23 _includes/head.html
 ```
 
 Or, for a completely neutral option, we can alias `who` onto `blame`:
 
-```
+```bash
 $ git config --global alias.who blame
 ```
 
 Which, predictably, looks like this:
 
-```
+```bash
 # Find out who wrote great comments:
 $ git who -L1,9 module.js
 ```
@@ -97,7 +97,7 @@ important.
 Thankfully, removing this noise is pretty trivial by using the `-w` flag which
 can be used alongside `git diff` and `git show`. For example, before:
 
-```
+```diff
  a {
    color: $color-links;
 
@@ -114,7 +114,7 @@ can be used alongside `git diff` and `git show`. For example, before:
 
 …and after:
 
-```
+```diff
  a {
    color: $color-links;
 
@@ -138,13 +138,13 @@ writing markdown, like I am right now.
 
 Thankfully, we can show only changes words by using the `--word-diff` flag:
 
-```
+```bash
 $ git diff --word-diff
 ```
 
 Running a diff without the `--word-diff` flag shows quite a large difference:
 
-```
+```diff
 -My friend Tom recently gave an excellent talk
 +My good friend Tom gave an excellent talk
 ```
@@ -152,7 +152,7 @@ Running a diff without the `--word-diff` flag shows quite a large difference:
 …but rerunning the diff with `--word-diff` enabled gives us a much more
 digestible and helpful overview:
 
-```
+```diff
 My {+good+} friend Tom [-recently-] gave an excellent talk
 ```
 
@@ -164,7 +164,7 @@ It’s not uncommon for me to jump between lots of different branches on any giv
 project, and keeping track of them can be pretty tricky. We can get Git to help
 us work this out:
 
-```
+```bash
 $ git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
 ```
 
@@ -181,7 +181,7 @@ Sometimes—especially for team leads—it’s useful to get a general idea of w
 everyone has been getting up to across all branches. Once again, Git makes that
 really easy for us:
 
-```
+```bash
 $ git log --all --oneline --no-merges
 ```
 
@@ -191,7 +191,7 @@ This will give us a simplified log of everybody’s work across `--all` branches
 We can also limit the number of commits we return by complementing the command
 with a `--since`:
 
-```
+```bash
 $ git log --all --since='2 weeks' --oneline --no-merges
 ```
 
@@ -206,7 +206,7 @@ You move back onto an old project, or come back to the office after a prolonged
 break, and you’re not sure what the last things you worked on are—it happens. We
 can ask Git to give us a quick recap of our work on a project quite easily:
 
-```
+```bash
 $ git log --all --oneline --no-merges --author=<your email address>
 ```
 
@@ -223,7 +223,7 @@ I’ve been up to on any given day. Rather than keeping a detailed list of tasks
 that I’ve completed, I can just ask Git to pull up all of that information for
 me:
 
-```
+```bash
 $ git log --since=00:00:00 --all --no-merges --oneline --author=<your email address>
 ```
 
@@ -239,7 +239,7 @@ Writing a CHANGELOG can be a little tedious; we have to look over all of the
 work we’ve done since our last release and then pull out all of the useful bits.
 Thankfully we can use Git to give us a head start:
 
-```
+```bash
 $ git log --oneline --no-merges <last tag>..HEAD
 ```
 
@@ -251,7 +251,7 @@ that took place between your last release and `HEAD`.
 
 For example:
 
-```
+```bash
 $ git log --oneline --no-merges 1.0.0..
 1257b95 [refs #00019] Bump version
 2b9b28e [refs #00019] Add auto width class
@@ -271,7 +271,7 @@ If you haven’t worked on a project for a little while, you might want to check
 what’s happened upstream before you pull all of those changes down into your
 local branch.
 
-```
+```bash
 $ git log --oneline --no-merges HEAD..<remote>/<branch>
 ```
 
@@ -280,7 +280,7 @@ $ git log --oneline --no-merges HEAD..<remote>/<branch>
 For example, let’s see what someone has been doing in a particular feature
 branch whilst you were on holiday:
 
-```
+```bash
 $ git checkout feature/fonts
 $ git fetch
 $ git log --oneline --no-merges ..origin/feature/fonts
@@ -296,13 +296,13 @@ probably wise to quickly review what they all are.
 
 In order to do this, we’re effectively just inverting the previous command:
 
-```
+```bash
 $ git log --oneline --no-merges <remote>/<branch>..HEAD
 ```
 
 For example:
 
-```
+```bash
 $ git fetch
 $ git log --oneline --no-merges origin/feature/fonts..HEAD
 ```
@@ -319,7 +319,7 @@ Pretty much every example above uses simplified logs because I just want to get
 a quick idea of what’s going on. For more forensic details I use a `--graph` log
 with some extra options:
 
-```
+```bash
 $ git log --graph --all --decorate --stat --date=iso
 ```
 
