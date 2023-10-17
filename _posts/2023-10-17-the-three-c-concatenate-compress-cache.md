@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Three Cs: Concatenate, Compress, Cache"
+title: "The Three Cs: 🤝 Concatenate, 🗜️ Compress, 🗳️ Cache"
 date: 2023-10-17 00:00:00
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/10/chart-all.png"
