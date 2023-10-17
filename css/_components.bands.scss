@@ -30,7 +30,7 @@
 .band--dark {
     background-color: $color-band-dark-background;
 
-    &, a {
+    &, a, code {
       color: $color-band-dark;
     }
 }
