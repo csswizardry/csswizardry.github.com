@@ -403,7 +403,7 @@ dictionaries so that even small files would have a much larger dataset available
 to be compressed against. _Shared Dictionary Compression for HTTP_ (SDHC) was
 pioneered by Google, and it worked by:
 
-> …using pre-negotiated dictionaries to ‘war’ up" its internal state prior to
+> …using pre-negotiated dictionaries to ‘warm up’ its internal state prior to
 > encoding or decoding. These may either be already stored locally, or uploaded
 > from a source and then cached.  
 > — [SDHC](https://en.wikipedia.org/wiki/SDCH)
