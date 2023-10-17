@@ -95,6 +95,11 @@ data. As a rule, latency stays constant while download time is proportional to
 filesize. Notice just how much more light green (especially compared to dark) we
 see in the many-files version of Bootstrap compared to the one-big-file.
 
+This is not a new phenomenon—a client of mine suffered [the same problem in
+July](/2023/07/in-defence-of-domcontentloaded/#putting-it-to-use), and the Khan
+Academy ran into [the same
+issue](https://blog.khanacademy.org/forgo-js-packaging-not-so-fast/) in 2015!
+
 If we take some very simple figures, we can soon model the point with numbers…
 
 Say we have one file that takes **1,000ms to download** with **100ms of
@@ -215,11 +220,9 @@ This looks like another point in favour of serving one-big-file, right?
 
 ## 🗳️ Cache
 
-This is the easy one.
-
-Caching is something I’ve been [a little obsessed with
-lately](https://speakerdeck.com/csswizardry/cache-rules-everything), but for
-static assets as we’re discussing today, we don’t need to know much other than:
+Caching is something I’ve been [obsessed with
+lately](https://speakerdeck.com/csswizardry/cache-rules-everything), but for the
+static assets we’re discussing today, we don’t need to know much other than:
 cache everything as aggressively as possible.
 
 Each of your bundles **requires** a unique fingerprint, e.g. `main.af8a22.css`.
@@ -384,6 +387,50 @@ For example:
   bundling it into `app.js`: discrete changes to components shouldn’t require
   fetching all of `app.js` again.
 
+## The Future Is Brighter
+
+The reason we’re erring on the side of fewer, larger bundles is that
+currently-available compression algorithms work by compressing a file against
+itself. The larger a file is, the more historical data there is to compress
+subsequent chunks of the file against, and as compression favours repetition,
+the chance of recurring phrases increases the larger the file gets. It’s kind of
+self-fulfilling.
+
+### Shared Dictionary Compression for HTTP
+
+There was an attempt at compressing files against predefined, external
+dictionaries so that even small files would have a much larger dataset available
+to be compressed against. _Shared Dictionary Compression for HTTP_ (SDHC) was
+pioneered by Google, and it worked by:
+
+> …using pre-negotiated dictionaries to ‘war’ up" its internal state prior to
+> encoding or decoding. These may either be already stored locally, or uploaded
+> from a source and then cached.  
+> — [SDHC](https://en.wikipedia.org/wiki/SDCH)
+
+Unfortunately, SDHC was [removed in Chrome 59 in
+2017](https://chromestatus.com/feature/5763176272494592). Had it worked out,
+we’d have been able to forgo bundling years ago.
+
+### Compression Dictionaries
+
+Friends [Patrick Meenan](https://twitter.com/patmeenan) and [Yoav
+Weiss](https://twitter.com/yoavweiss) have restarted work on implementing
+an SDCH-like external dictionary mechanism, but with far more robust
+implementation to avoid the issues encountered with previous attempts.
+
+While work is very much in its infancy, it is incredibly exciting. You can read
+[the explainer](https://github.com/WICG/compression-dictionary-transport), or
+[the
+Internet-Draft](https://datatracker.ietf.org/doc/draft-ietf-httpbis-compression-dictionary/00/)
+already. We can [expect Origin Trials
+already](https://chromestatus.com/feature/5124977788977152).
+
+The [early
+outcomes](https://github.com/WICG/compression-dictionary-transport/blob/main/examples.md)
+of this work show great promise, so this _is_ something to look forward to, but
+it’s a way off yet…
+
 ## tl;dr
 
 In the current landscape, bundling is still a very effective strategy. Larger
@@ -394,6 +441,10 @@ a many-file setup.
 However, one huge bundle would limit our ability to employ an effective caching
 strategy, so begin to conservatively split out into bundles that are governed
 largely by how often they’re likely to change. Avoid resending unchanged bytes.
+
+Future platform features will pave the way for simplified build steps, but even
+the best compression in the world won’t sidestep the way HTTP’s scheduling
+mechanisms work.
 
 Bundling is here to stay for a while.
 
