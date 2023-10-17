@@ -57,6 +57,9 @@ relevant. An anti pattern, even.
 
 **Or did it?**
 
+It turns out [H/2 acts more like H/1.1 than you might
+think…](/2023/07/the-http1liness-of-http2/)
+
 As an experiment, I took the <cite>CSS Wizardry</cite> homepage and crudely
 added Bootstrap. In one test, I concatenated it all into one big file, and the
 other had the library split into 12 files. I’m measuring when the last
