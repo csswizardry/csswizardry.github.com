@@ -235,16 +235,16 @@ Once you’ve done this, caching is a simple case of storing the file forever,
 immutably:
 
 ```http
-Cache-Control: max-age=2147483647, immutable
+Cache-Control: max-age=2147483648, immutable
 ```
 
-* **`max-age=2147483647`:** [This
+* **`max-age=2147483648`:** [This
   directive](/2019/03/cache-control-for-civilians/#max-age) instructs all caches
   to store the response for the maximum possible time. <small>We’re all used to
-  seeing `max-age=31556926`, which is one year. This is perfectly reasonable and
+  seeing `max-age=31536000`, which is one year. This is perfectly reasonable and
   practical for almost any static content, but if the file really is immutable,
   we might as well shoot for forever. In the 32-bit world, forever is
-  [2,147,483,647](https://en.wikipedia.org/wiki/2,147,483,647#In_computing)
+  [2,147,483,648](/2023/10/what-is-the-maximum-max-age/).
   seconds, or 68 years.</small>
 * **`immutable`:** [This
   directive](/2019/03/cache-control-for-civilians/#immutable) instructs caches
@@ -252,7 +252,7 @@ Cache-Control: max-age=2147483647, immutable
   revalidating the file once its `max-age` is met. You can _only_ add this
   directive to responses that are fingerprinted (e.g. `main.af8a22.css`)
 
-All static asset—provided they _are_ fingerprinted—can safely carry such an
+All static assets—provided they _are_ fingerprinted—can safely carry such an
 aggressive `Cache-Control` header as they’re very easy to cache bust. Which
 brings me nicely on to…
 
