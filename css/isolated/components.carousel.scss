@@ -37,15 +37,20 @@ $_panes-quantity: 5;
   }
 
 
-    /**
-     * 1. Attempt to lazily paint off-screen panes.
-     */
     .c-carousel__pane {
       position: relative;
       display: table-cell;
       vertical-align: middle;
       width: 100% / $_panes-quantity;
-      content-visibility: auto; /* [1] */
+
+      /**
+       * 1. Attempt to lazily paint off-screen panes.
+       */
+      & + & {
+        content-visibility: auto; /* [1] */
+        contain-intrinsic-size: 1px 240px; /* [1] */
+      }
+
     }
 
       .c-carousel__link {
