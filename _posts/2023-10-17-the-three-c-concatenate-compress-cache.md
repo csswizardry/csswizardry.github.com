@@ -203,12 +203,14 @@ Viewed a little more visually:
 size.)</a></figcaption>
 </figure>
 
-These numbers tell us that at:
+These numbers tell us that:
 
-* **low (or no) compression**, many smaller files is faster than one large one;
-* **medium compression**, one large file is marginally faster than many smaller
+* at **low (or no) compression**, many smaller files is faster than one large
+  one;
+* at **medium compression**, one large file is marginally faster than many
+  smaller
   ones;
-* **higher compression**, one large file is markedly faster than many smaller
+* at **higher compression**, one large file is markedly faster than many smaller
   ones.
 
 Basically, the more aggressive your ability to compress, the better you’ll fare
@@ -258,14 +260,14 @@ brings me nicely on to…
 
 The important part of this section is cache _busting_.
 
-We’ve seen how heavily **concatenated** files **compress** better, thus download
+We’ve seen how heavily-**concatenated** files **compress** better, thus download
 faster, but how does that affect our **caching** strategy?
 
 While monolithic bundles might be faster overall for first-time visits, they
-suffer one huge downfall: even a tiny, one-character changes to the bundle would
+suffer one huge downfall: even a tiny, one-character change to the bundle would
 require that a user redownload the entire file just to access one trivial
 change. Imagine having to fetch a several-hundred kilobyte CSS file all over
-again for the sake of changing one hex code.
+again for the sake of changing one hex code:
 
 ```diff
   .c-btn {
@@ -294,7 +296,7 @@ I ran all of the tests over the following connection types:
 
 * **3G:** 1.6 Mbps downlink, 768 Kbps uplink, 150ms RTT
 * **4G:** 9 Mbps downlink, 9 Mbps uplink, 170ms RTT
-* **Cable:** 5 Mbps downlink, 1 Mbps downlink, 28ms RTT
+* **Cable:** 5 Mbps downlink, 1 Mbps uplink, 28ms RTT
 * **Fibre:** 20 Mbps downlink, 5 Mbps uplink, 4ms RTT
 
 <figure>
@@ -430,12 +432,12 @@ While work is very much in its infancy, it is incredibly exciting. You can read
 [the
 Internet-Draft](https://datatracker.ietf.org/doc/draft-ietf-httpbis-compression-dictionary/00/)
 already. We can [expect Origin Trials
-already](https://chromestatus.com/feature/5124977788977152).
+as we speak](https://chromestatus.com/feature/5124977788977152).
 
 The [early
 outcomes](https://github.com/WICG/compression-dictionary-transport/blob/main/examples.md)
 of this work show great promise, so this _is_ something to look forward to, but
-it’s a way off yet…
+widespread and ubiquitous support a way off yet…
 
 ## tl;dr
 
