@@ -136,7 +136,7 @@ anyone making great progress? Do we need to catch up to anyone? Can we identify
 any opportunities?
 
 <p>
-  <a href="https://calendly.com/csswizardry/sentinel" class="btn btn--full">Arrange a call</a>
+  <a href="mailto:csswizardry@gmail.com" class="btn btn--full">Arrange a call</a>
 </p>
 
 ## Pricing
