@@ -173,5 +173,5 @@ If you want to know more about _Sentinel_ and how it can help your team, let’s
 arrange a zero-obligation call to discuss it further:
 
 <p>
-  <a href="https://calendly.com/csswizardry/sentinel" class="btn btn--full">Let’s talk <i>Sentinel</i></a>
+  <a href="mailto:csswizardry@gmail.com" class="btn btn--full">Let’s talk <i>Sentinel</i></a>
 </p>
