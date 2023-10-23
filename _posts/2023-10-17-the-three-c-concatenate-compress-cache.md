@@ -404,6 +404,87 @@ subsequent chunks of the file against, and as compression favours repetition,
 the chance of recurring phrases increases the larger the file gets. It’s kind of
 self-fulfilling.
 
+Understanding why things work this way is easier to visualise with a simple
+model. Below (and unless you want to count them, you’ll just have to believe
+me), we have one-thousand `a` characters:
+
+```
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+```
+
+This takes up 1,000 bytes of data. We could represent these one-thousand `a`s as
+`1000(a)`, which takes up just seven bytes of data, but can be multiplied back
+out to restore the original thousand-character string with no loss of data. This
+is lossless compression.
+
+If we were to split this string out into 10 files each containing 100 `a`s, we’d
+only be able to store those as:
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+```
+100(a)
+```
+
+That’s ten lots of `100(a)`, which comes in at 60 bytes as opposed to the seven
+bytes achieved with `1000(a)`. While 60 is still much smaller than 1,000, it’s
+much less effective than one large file as before.
+
+If we were to go even further, one-thousand files with a lone `a`  character in
+each, we’d find that things actually get larger! Look:
+
+```bash
+harryroberts in ~/Sites/compression on (main)
+» ls -lhFG
+total 15608
+-rw-r--r--    1 harryroberts  staff   1.0K 23 Oct 09:29 1000a.txt
+-rw-r--r--    1 harryroberts  staff    40B 23 Oct 09:29 1000a.txt.gz
+-rw-r--r--    1 harryroberts  staff     2B 23 Oct 09:29 1a.txt
+-rw-r--r--    1 harryroberts  staff    29B 23 Oct 09:29 1a.txt.gz
+```
+
+Attempting to compress a single `a` character _increases_ the file size from two
+bytes to 29. One mega-file compresses from 1,000 bytes down to 40 bytes; the
+same data across 1,000 files would cumulatively come in at 29,000 bytes—that’s
+725 times larger.
+
+Although an extreme example, in the right (wrong?) circumstances, things can get
+worse with many smaller bundles.
+
 ### Shared Dictionary Compression for HTTP
 
 There was an attempt at compressing files against predefined, external
