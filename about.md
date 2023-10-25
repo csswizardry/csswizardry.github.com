@@ -47,8 +47,8 @@ conference for professionals.
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
-With over a decade of professional experience, and eight years working as
-an independent consultant, I have been trusted by the likes of the <b>United
+With over 15 years of professional experience, and a decade working as an
+independent consultant, I have been trusted by the likes of the <b>United
 Nations</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>, and [many
 more](/#section:clients). Through combinations of workshops, training, audits,
 development, and consultancy, I have helped my clients to build and scale
