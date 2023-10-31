@@ -3,10 +3,12 @@
 //\*------------------------------------*/
 
 // Spit out vendor prefixes in one go. Very pragmatic, far from perfect.
+//
+// Note that this no longer actually spits out any vendor prefixed properties
+// anymore. I could go through the CSS removing usage of `@vendor`, but I’m lazy
+// and fixing the problem here yields the same outcome.
 @mixin vendor($property, $value...) {
-    -webkit-#{$property}: $value;
-       -moz-#{$property}: $value;
-            #{$property}: $value;
+  #{$property}: $value;
 }
 
 // Apply ‘attention’ styles in one go.

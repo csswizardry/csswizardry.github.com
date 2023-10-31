@@ -4,6 +4,7 @@
 
 $color-brand:       $brand-color;
 $color-pink:        $color-brand;
+$color-bg:          #f9f9f9;
 $color-gray:        #333;
 $color-gray-light:  #999;
 $color-gray-mid:    #666;
@@ -20,7 +21,7 @@ $color-hilite:      #ffc;
 
 
 // Page
-$inuit-base-background-color:   #f9f9f9;
+$inuit-base-background-color:   $color-bg;
 $inuit-base-text-color:         $color-gray;
 
 
