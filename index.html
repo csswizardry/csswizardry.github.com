@@ -41,7 +41,20 @@ lux: Home
         <li class=list-ui__item>
 
           {% if forloop.first == true %}
-            <link rel=prerender href="{{ post.url }}" />
+
+            <script type="speculationrules">
+
+              {
+                "prerender": [
+                  {
+                    "source": "list",
+                    "urls": [ "{{ post.url }}" ]
+                  }
+                ]
+              }
+
+            </script>
+
           {% endif %}
 
           <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %B, %Y" }}</time>
