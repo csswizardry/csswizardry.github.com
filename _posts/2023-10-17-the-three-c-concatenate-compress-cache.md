@@ -8,8 +8,9 @@ meta: "We know we should do it, but do we know how?"
 ---
 
 I began writing this article in early July 2023 but began to feel a little
-underwhelmed by it and so left it unfinished. However, after [recent and renewed
-discussions](https://twitter.com/dhh/status/1712145950397841826) around the
+underwhelmed by it and so left it unfinished. However, after
+[recent](https://twitter.com/dhh/status/1712145950397841826) and [renewed
+discussions](https://twitter.com/dhh/status/1719041666412347651) around the
 relevance and usefulness of build steps, I decided to dust it off and get it
 finished.
 
