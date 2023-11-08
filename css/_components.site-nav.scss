@@ -135,16 +135,8 @@ $_logo-height:   64px;
     left:   0;
     z-index: 2;
     overflow: scroll;
-    -webkit-transform: translateX(100%); /* [1] */
-       -moz-transform: translateX(100%); /* [1] */
-        -ms-transform: translateX(100%); /* [1] */
-         -o-transform: translateX(100%); /* [1] */
-            transform: translateX(100%); /* [1] */
-    -webkit-transition: 0.2s;
-       -moz-transition: 0.2s;
-        -ms-transition: 0.2s;
-         -o-transition: 0.2s;
-            transition: 0.2s;
+    transform: translateX(100%); /* [1] */
+    transition: 0.2s;
     will-change: transform;
     background-color: $color-gray;
     contain: layout;
@@ -160,11 +152,7 @@ $_logo-height:   64px;
      */
     .is-open & {
       content-visibility: visible;
-      -webkit-transform: none;
-         -moz-transform: none;
-          -ms-transform: none;
-           -o-transform: none;
-              transform: none;
+      transform: none;
     }
 
     /**
@@ -181,11 +169,7 @@ $_logo-height:   64px;
       background-color: transparent;
       overflow: visible;
       backdrop-filter: none;
-      -webkit-transform: none;
-         -moz-transform: none;
-          -ms-transform: none;
-           -o-transform: none;
-              transform: none;
+      transform: none;
     }
 
   }
@@ -288,11 +272,7 @@ $_logo-height:   64px;
             position: absolute;
             top: 100%;
             left: 50%;
-            -webkit-transform: translateX(-50%) translateY(-10px);
-               -moz-transform: translateX(-50%) translateY(-10px);
-                -ms-transform: translateX(-50%) translateY(-10px);
-                 -o-transform: translateX(-50%) translateY(-10px);
-                    transform: translateX(-50%) translateY(-10px);
+            transform: translateX(-50%) translateY(-10px);
             z-index: 1;
             padding-left: 0;
             text-align: center;
@@ -309,11 +289,7 @@ $_logo-height:   64px;
               opacity: 1;
               visibility: visible;
               will-change: opacity;
-              -webkit-transform: translateX(-50%) translateY(0);
-                 -moz-transform: translateX(-50%) translateY(0);
-                  -ms-transform: translateX(-50%) translateY(0);
-                   -o-transform: translateX(-50%) translateY(0);
-                      transform: translateX(-50%) translateY(0);
+              transform: translateX(-50%) translateY(0);
             }
 
             /**

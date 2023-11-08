@@ -7,7 +7,10 @@
 
 /**
  * The feature list component houses large, showcase-style blocks of content. It
- * is currently used on the Case Studies page.
+ * is currently used on the Services and Case Studies pages.
+ *
+ * 1. Ensure that the `border-radius` is visually apparent by preventing
+ *    anything rendering beyond the list’s edges.
  */
 
 .feature-list {
@@ -15,6 +18,10 @@
     margin-left: 0;
     padding: 0;
     list-style: none;
+    border-radius: $base-round;
+    overflow: hidden; /* [1] */
+    background-color: $color-links;
+    background-image: radial-gradient(circle, lighten($color-links, 10%) 0%, $color-links 100%);
 }
 
     /**
@@ -48,16 +55,14 @@
 
         /**
          * 1. Faux fluid height in 16:9 ratio.
-         * 2. Space items apart by two pixels…
+         * 2. Visually space items apart by one pixel…
          * 3. …except the first row and first column.
          */
         .feature-list__link {
             position: relative;
             display: block;
-            background-color: $color-links;
             padding-top: 56.25%; /* [1] */
-            margin-top: 2px; /* [2] */
-            border-radius: $base-round;
+            border-top: 1px solid $color-bg; /* [2] */
             overflow: hidden;
 
             /**
@@ -85,14 +90,14 @@
             }
 
             @include media-query(lap-and-up) {
-                margin-left: 2px; /* [2] */
+                border-left: 1px solid $color-bg; /* [2] */
 
                 .feature-list__item:nth-of-type(-n+3) > & {
-                    margin-top: 0; /* [3] */
+                    border-top: none; /* [3] */
                 }
 
                 .feature-list__item:nth-of-type(3n+1) > & {
-                    margin-left: 0; /* [3] */
+                    border-left: none; /* [3] */
                 }
 
             }
@@ -113,11 +118,7 @@
                 top: 50%; /* [1] */
                 right: 0;
                 left:  0;
-                -webkit-transform: translateY(-50%); /* [2] */
-                   -moz-transform: translateY(-50%); /* [2] */
-                    -ms-transform: translateY(-50%); /* [2] */
-                     -o-transform: translateY(-50%); /* [2] */
-                        transform: translateY(-50%); /* [2] */
+                transform: translateY(-50%); /* [2] */
                 color: #fff;
             }
 
