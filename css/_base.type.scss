@@ -77,6 +77,19 @@ dt {
 
 
 /**
+ * Paragraphs
+ *
+ * 1. Avoid orphans.
+ */
+p {
+  text-wrap: pretty; /* [1] */
+}
+
+
+
+
+
+/**
  * Code-like elements.
  */
 code, kbd, samp {
