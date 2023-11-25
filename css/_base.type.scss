@@ -49,10 +49,13 @@ h2:has(> img) {
  * A generic heading style which can be applied to any headings.
  */
 .heading {
+    display: block;
     @include font-size(22px);
+    color: $color-headings;
 }
 
 .heading-sub {
+    display: block;
     @include font-size(16px);
     @include font-weight(bold);
     margin-bottom: 0;
