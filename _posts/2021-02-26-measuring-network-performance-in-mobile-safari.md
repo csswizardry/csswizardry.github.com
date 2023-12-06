@@ -7,6 +7,11 @@ main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://
 meta: "How often do you test your site in iOS Safari? Do you even know how?!"
 ---
 
+<p class="c-highlight"><strong>N.B.</strong> This article is no longer accurate,
+and changes in both iOS/MacOS and WebPageTest are no longer properly reflected.
+Let me update this article when I get chance. In the meantime, the particularly
+determined among you can probably fill the gaps yourselves—good luck!</p>
+
 So far this year, all but one of my clients have been concerned about [Google’s
 upcoming Web Vitals
 update](https://developers.google.com/search/blog/2020/11/timing-for-page-experience).
