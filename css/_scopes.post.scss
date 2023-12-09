@@ -4,6 +4,13 @@
 
 .s-post {
 
+  /**
+   * Avoid orphans.
+   */
+  p, li {
+    text-wrap: pretty;
+  }
+
   table {
 
   }
