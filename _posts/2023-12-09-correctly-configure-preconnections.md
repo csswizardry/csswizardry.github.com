@@ -230,3 +230,24 @@ unaccounted for.
 
 I’d recommend familiarising yourself with the entire suite of `Sec-*`
 headers—they’re incredibly useful debugging tools.
+
+## `preconnect` and DNS
+
+Because <b style="color: #318a90">DNS</b> is simply IP resolution, it is
+unaffected by anything CORS-related. This means that:
+
+1. **If you have mistakenly configured your `preconnect`s** to use or omit
+   `crossorigin` when you should have actually omitted or used `crossorigin`,
+   the <b style="color: #318a90">DNS</b> step can still be reused—only the
+   <b style="color: #eb8a30">TCP</b> and <b style="color: #c94bd4">TLS</b> need
+   discarding and doing again. That said, <b style="color: #318a90">DNS</b> is
+   usually—by far—the fastest part of the process anyway, so speeding it up
+   while missing out on <b style="color: #eb8a30">TCP</b> and
+   <b style="color: #c94bd4">TLS</b> isn’t much of an optimisation to celebrate.
+2. **If you have everything configured correctly** or you aren’t using
+   `preconnect` at all, you’ll actually see the browser reusing the
+   <b style="color: #318a90">DNS</b> resolution for a subsequent request that
+   needs a different CORS mode. If you zoom right in on this abridged waterfall,
+   you’ll see that the second CORS-enabled request to `static.files.bbci.co.uk`
+   doesn’t incur any <b style="color: #318a90">DNS</b> at all:
+   <img src="{{ site.cloudinary }}/wp-content/uploads/2023/12/bbc-news-waterfall-dns.png" alt="" width="930" height="182" loading="lazy">
