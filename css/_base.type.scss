@@ -84,7 +84,7 @@ dt {
  *
  * 1. Avoid orphans.
  */
-p {
+p, li {
   text-wrap: pretty; /* [1] */
 }
 
