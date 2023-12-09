@@ -206,7 +206,7 @@ Simple!
 
 We just add a second `preconnect` to open an additional CORS-enabled connection
 to `static.files.bbci.co.uk`. (Remember earlier when the browser had opened five
-connections to four origins—one of them was CORS-enabled!)
+connections to four origins? One of them was CORS-enabled!)
 
 Let’s keep going and see where we end up…
 
@@ -226,7 +226,7 @@ This feels comfortable! The browser naturally opened five connections, so I’m
 happy to see that we’ve also landed on five `preconnect`s; nothing is
 unaccounted for.
 
-## `Sec-*` Request Headers
+### `Sec-*` Request Headers
 
 I’d recommend familiarising yourself with the entire suite of `Sec-*`
 headers—they’re incredibly useful debugging tools.
