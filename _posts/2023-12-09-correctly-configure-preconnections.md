@@ -244,7 +244,7 @@ unaffected by anything CORS-related. This means that:
    usually—by far—the fastest part of the process anyway, so speeding it up
    while missing out on <b style="color: #eb8a30">TCP</b> and
    <b style="color: #c94bd4">TLS</b> isn’t much of an optimisation to celebrate.
-2. **If you have everything configured correctly** or you aren’t using
+2. **If you have everything configured correctly**, or you aren’t using
    `preconnect` at all, you’ll actually see the browser reusing the
    <b style="color: #318a90">DNS</b> resolution for a subsequent request that
    needs a different CORS mode. If you zoom right in on this abridged waterfall,
