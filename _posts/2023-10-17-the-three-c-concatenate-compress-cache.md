@@ -247,8 +247,8 @@ Cache-Control: max-age=2147483648, immutable
   seeing `max-age=31536000`, which is one year. This is perfectly reasonable and
   practical for almost any static content, but if the file really is immutable,
   we might as well shoot for forever. In the 32-bit world, forever is
-  [2,147,483,648](/2023/10/what-is-the-maximum-max-age/).
-  seconds, or 68 years.</small>
+  [2,147,483,648](/2023/10/what-is-the-maximum-max-age/) seconds, or 68
+  years.</small>
 * **`immutable`:** [This
   directive](/2019/03/cache-control-for-civilians/#immutable) instructs caches
   that the file’s content will _never_ change, and therefore to never bother
