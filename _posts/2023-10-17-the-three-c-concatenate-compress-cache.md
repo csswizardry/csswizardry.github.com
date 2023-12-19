@@ -131,8 +131,8 @@ smaller files will be greater than the original one file. Add to that [the
 browser’s scheduling mechanisms](/2023/07/the-http1liness-of-http2/), we’re
 unlikely to dispatch all 10 requests at the same time.
 
-So, it looks like one huge file is fastest option, right? What more do we need
-to know? We should just bundle everything into one, no?
+So, it looks like one huge file is the fastest option, right? What more do we
+need to know? We should just bundle everything into one, no?
 
 As I said before, we have a few more things to juggle all at once here. We need
 to learn a little bit more about the rest of our setup before we can make
