@@ -15,7 +15,7 @@ href="https://twitter.com/csswizardry">follow me on Twitter</a> if you don’t
 already.</p>
 
 I’ve been asked a few times—mostly in [workshops](/workshops/)—why HTTP/2 (H/2)
-waterfalls often still look like HTTP/1.x (H/1). Why are hings are done in
+waterfalls often still look like HTTP/1.x (H/1). Why are things are done in
 sequence rather than in parallel?
 
 Let’s unpack it!
