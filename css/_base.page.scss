@@ -2,6 +2,10 @@
     #PAGE
 \*------------------------------------*/
 
+@view-transition {
+  navigation: auto;
+}
+
 html {
     font-family: $system-fonts;
     @include font-weight(regular);
