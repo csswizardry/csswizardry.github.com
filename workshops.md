@@ -34,10 +34,10 @@ insights. I’m a teacher who _does_.
        fetchpriority="high"
        decoding="sync"
        elementtiming="workshops-image"
-       onload="performance.clearMarks('Workshops Page Image'); performance.mark('Workshops Page Image');" />
+       onload="performance.clearMarks('workshopsPageImage'); performance.mark('workshopsPageImage');" />
   <script>
-    performance.clearMarks("Workshops Page Image");
-    performance.mark("Workshops Page Image");
+    performance.clearMarks("workshopsPageImage");
+    performance.mark("workshopsPageImage");
   </script>
   <figcaption>Workshopping at <a href="https://digital-labin.com/">Digital Labin</a>, 2022. Photograph by <a href="https://www.instagram.com/dzambofilm/">Ivica Džambo</a>.</figcaption>
 </figure>

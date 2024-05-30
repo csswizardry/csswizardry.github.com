@@ -31,7 +31,7 @@
 
 <script>
 
-  performance.measure('Content_Time', 'Content_Start', 'Content_End');
+  performance.measure('contentTime', 'contentStart', 'contentEnd');
 
 </script>
 
@@ -49,7 +49,7 @@
     siteNavList.style.contentVisibility = 'visible';
   });
 
-  const navReady = performance.mark('Nav_Ready');
+  const navReady = performance.mark('navReady');
   console.log('Nav ready at: ' + navReady.startTime + 'ms');
 </script>
 

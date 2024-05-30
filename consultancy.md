@@ -24,10 +24,10 @@ It’s my job to help you find out.
        fetchpriority="high"
        decoding="sync"
        elementtiming="consultancy-image"
-       onload="performance.clearMarks('Consultancy Page Image'); performance.mark('Consultancy Page Image');" />
+       onload="performance.clearMarks('consultancyPageImage'); performance.mark('consultancyPageImage');" />
   <script>
-    performance.clearMarks("Consultancy Page Image");
-    performance.mark("Consultancy Page Image");
+    performance.clearMarks("consultancyPageImage");
+    performance.mark("consultancyPageImage");
   </script>
   <figcaption>Consulting with the team at <a href="https://1337.tech/">13|37</a>.</figcaption>
 </figure>

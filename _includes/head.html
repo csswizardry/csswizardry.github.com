@@ -1,4 +1,4 @@
-<script>performance.mark('HEAD_Start');</script>
+<script>performance.mark('headStart');</script>
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width, minimum-scale=1.0">
 
@@ -40,7 +40,7 @@
   {% endif %}
 </script>
 
-<script>performance.mark('CSS_Start');</script>
+<script>performance.mark('cssStart');</script>
 <style>
 
   {% include css/csswizardry.min.css %}
@@ -51,8 +51,8 @@
 
 </style>
 <script>
-  performance.mark('CSS_End');
-  performance.measure('CSS_Time', 'CSS_Start', 'CSS_End');
+  performance.mark('cssEnd');
+  performance.measure('cssTime', 'cssStart', 'cssEnd');
 </script>
 
 <script src="https://www.googletagmanager.com/gtag/js?id=G-DNCL1RY4GT" async></script>
@@ -112,6 +112,6 @@
 <meta name=format-detection content="telephone=no">
 
 <script>
-  performance.mark('HEAD_End');
-  performance.measure('HEAD_Time', 'HEAD_Start', 'HEAD_End');
+  performance.mark('headEnd');
+  performance.measure('headTime', 'headStart', 'headEnd');
 </script>
