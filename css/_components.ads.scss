@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .adpacks {
-  min-height: 8 * $spacing-unit;
+  min-height: 9 * $spacing-unit;
 }
 
 .carbon-wrap {
@@ -29,6 +29,7 @@
     overflow: hidden;
     display: block;
     color: $color-gray-mid;
+    text-wrap: balance;
   }
 
   .carbon-poweredby {
