@@ -39,11 +39,27 @@ improving site-speed. You <a href=/services/?utm_source=sidebar&utm_medium=inter
 <hr>
 
 <p class=text-banner>
-  <a href=/code-reviews/?utm_source=sidebar&utm_medium=internal#fix-it-fast class="btn  btn--full btn--positive" data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
+  <a href=/code-reviews/?utm_source=sidebar&utm_medium=internal#fix-it-fast class="btn  btn--full btn--positive" id=cta data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
   <script>
     performance.mark("ctaSidebar");
   </script>
 </p>
+
+<script>
+  (() => {
+
+    const cta = document.getElementById('cta');
+
+    cta.addEventListener('click', (event) => {
+
+      setTimeout(() => {
+        LUX.addData('ctaClicked', true)
+      });
+
+    });
+
+  })();
+</script>
 
 <h4>Projects</h4>
 
