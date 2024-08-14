@@ -160,7 +160,7 @@ want to maybe use `blocking=render`. But even then, I wouldn’t.
 already. It’s non-standard behaviour, but Chrome [<q>will make font preloads
 block rendering until they finish or until
 a timeout</q>](https://chromestatus.com/feature/5087982807154688). This is
-already happening.</ins>
+already happening and you don’t need `blocking=render`.</ins>
 
 ## A/B Testing and Experimentation
 
