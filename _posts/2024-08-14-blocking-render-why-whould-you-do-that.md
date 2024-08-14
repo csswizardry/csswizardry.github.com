@@ -157,7 +157,7 @@ want to maybe use `blocking=render`. But even then, I wouldn’t.
 
 ## A/B Testing and Experimentation
 
-`blocking=render`’s application in client-size A/B testing is, for me, its most
+`blocking=render`’s application in client-side A/B testing is, for me, its most
 compelling use-case.
 
 Client-side A/B testing tools work by altering the DOM and presenting a variant
@@ -231,9 +231,11 @@ snippets is that if that four-second timeout is reached, we’ll still display t
 page even if experiments haven’t completed—the `4000`ms is a magic number that
 we use to hopefully win a race condition.
 
-By using `blocking=render`, that timeout now potentially becomes infinity. While
-that does terrify me, it does guarantee we don’t paint anything _too_ soon. No
-more race conditions, but a potentially longer render-blocked period.
+By using `blocking=render`, that timeout now becomes [governed by the browser’s
+own heuristics](https://github.com/whatwg/html/issues/7131#footnote2), which is
+almost definitely going to be longer than four seconds. While that does terrify
+me, it does guarantee we don’t paint anything _too_ soon. No more race
+conditions, but a potentially longer render-blocked period.
 
 As I said at the top of the article, most of us won’t need `blocking=render`,
 and those of us who do will know that we do.
