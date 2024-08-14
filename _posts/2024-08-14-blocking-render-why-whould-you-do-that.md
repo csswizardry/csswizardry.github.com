@@ -52,9 +52,10 @@ blocking states:
    render blocking. Files that are render blocking prohibit the browser from
    presenting the page, but do permit the browser to at least construct it.
 3. **Parser blocking:** The worst case scenario is a file that prevents the
-   browser from even building the page. Everything is blocked while the resource
-   is fetched. Files that are parser blocking are inherently also render
-   blocking—the browser can’t present a page that it can’t even construct.
+   browser from even building the page. All parsing and rendering is blocked
+   while the resource is fetched. Files that are parser blocking are inherently
+   also render blocking—the browser can’t present a page that it can’t even
+   construct.
 
 Visually, this is how that process looks for each scenario:
 
@@ -154,6 +155,12 @@ Note that almost the exact same behaviour could be achieved by adding
 
 If a web font _is_ your content (which, for 99.999% of you, it isn’t), you might
 want to maybe use `blocking=render`. But even then, I wouldn’t.
+
+<ins>Interestingly, Chrome exhibits `blocking=render` on web-font `preload`s
+already. It’s non-standard behaviour, but Chrome [<q>will make font preloads
+block rendering until they finish or until
+a timeout</q>](https://chromestatus.com/feature/5087982807154688). This is
+already happening.</ins>
 
 ## A/B Testing and Experimentation
 
