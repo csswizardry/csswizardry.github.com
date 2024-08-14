@@ -164,9 +164,9 @@ Note that almost the exact same behaviour could be achieved by adding
 If a web font _is_ your content (which, for 99.999% of you, it isn’t), you might
 want to maybe use `blocking=render`. But even then, I wouldn’t.
 
-<ins>Interestingly, Chrome exhibits `blocking=render` on web-font `preload`s
-already. It’s non-standard behaviour, but Chrome [<q>will make font preloads
-block rendering until they finish or until
+<ins>Interestingly, Chrome exhibits `blocking=render`-style behaviour on
+web-font `preload`s already. It’s non-standard behaviour, but Chrome [<q>will
+make font preloads block rendering until they finish or until
 a timeout</q>](https://chromestatus.com/feature/5087982807154688). This is
 already happening and you don’t need `blocking=render`.</ins>
 
