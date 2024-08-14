@@ -234,6 +234,12 @@ and good user experience—but a user didn’t benefit from it. Anti-flicker
 snippets eschew this behaviour and take an all-or-nothing approach: nothing,
 nothing, nothing, _everything_.
 
+<figure>
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/anti-flicker.png" alt="" width="750" height="223">
+<figcaption>A regular, progressive render (top) versus an anti-flicker
+big-reveal (bottom). Which do you think is the better experience?</figcaption>
+</figure>
+
 `blocking=render` leaves the browser to its usual rendering process, so we can
 still get a progressive render of the page, only now we do it in a way more
 akin to loading a CSS file.
