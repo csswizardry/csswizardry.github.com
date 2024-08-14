@@ -61,7 +61,15 @@ Visually, this is how that process looks for each scenario:
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/blocking-status.png" alt="" width="750" height="424">
-<figcaption>A non-, render-, and parser-blocking file in an HTML document.</figcaption>
+<figcaption>
+  A non-, render-, and parser-blocking file in an HTML document. Imagine the
+downloading file (pink) is in the <code>&lt;head&gt;</code>—even though you can
+never see <code>&lt;head&gt;</code> tags or their children, they still get
+rendered just like any other HTML, they’re just set to <code>display:
+none;</code>. That said, these diagrams also apply to a downloading file (pink)
+that is in the middle of the <code>&lt;body&gt;</code>. HTML is parsed
+line-by-line and is very predictable. We ❤️ HTML.
+</figcaption>
 </figure>
 
 ### Blocking Files
