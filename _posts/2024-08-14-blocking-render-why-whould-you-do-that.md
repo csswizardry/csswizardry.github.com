@@ -168,7 +168,7 @@ want to maybe use `blocking=render`. But even then, I wouldn’t.
 web-font `preload`s already. It’s non-standard behaviour, but Chrome [<q>will
 make font preloads block rendering until they finish or until
 a timeout</q>](https://chromestatus.com/feature/5087982807154688). This is
-already happening and you don’t need `blocking=render`.</ins>
+already happening and you don’t need `blocking=render`.[^1]</ins>
 
 ## A/B Testing and Experimentation
 
@@ -268,3 +268,7 @@ following:
 …to behave like this:
 
 * `<link rel=stylesheet href>`
+
+- - -
+
+[^1]: [x.com/kurtextrem/status/1823698340388782591](https://x.com/kurtextrem/status/1823698340388782591)
