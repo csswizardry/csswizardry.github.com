@@ -42,7 +42,7 @@ include `parse`, `load`, and even a negation to encourage the opposite, such as
 ## Blocking Status
 
 Generally speaking, when loading resources into web pages, there are three
-blocking states:
+possible blocking states:
 
 1. **Non-blocking:** From a performance perspective, this is the most desirable.
    The resource is fetched and processed asynchronously while the browser is
