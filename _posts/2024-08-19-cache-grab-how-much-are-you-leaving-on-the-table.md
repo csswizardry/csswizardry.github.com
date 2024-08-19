@@ -50,7 +50,17 @@ An important thing to note is that each of these navigation types are exclusive:
 a bfcache hit will have been triggered by someone hitting their back button, but
 does not also get counted in the Back–Forward navigation type.
 
+There are a handful of places you can view navigation information about your
+site, but my two preferred options are:
 
+1. [Treo’s free Sitespeed tool](https://treo.sh/sitespeed/www.bbc.co.uk), way
+   down at the bottom.
+2. [CrUX
+   Dashboard](https://lookerstudio.google.com/reporting/bbc5698d-57bb-4969-9e07-68810b9fa348/page/p_9c6zf5n7fd?params=%7B%22origin%22:%22https:%2F%2Fwww.bbc.co.uk%22%7D),
+   under <i>Navigation Type Distribution</i>.
+
+While they aren’t the only places you can find this information, they’re
+probably the easiest and fastest.
 
 <small><strong>N.B.</strong> As with all CrUX data, this only applies to hard
 navigations—SPAs are not very well represented in the report.</small>
@@ -275,6 +285,18 @@ You could use your own logs to determine how many `prefetch` or `prerender`
 requests you received, but this wouldn’t tell you how many `prefetch`ed or
 `prerender`ed pages were actually served to your visitors. CrUX and/or custom
 monitoring would be needed for that.
+
+#### But I Haven’t Implemented Prerender?!
+
+If you haven’t deployed speculative loads on your site but you are still seeing
+a small number of entries (e.g. the BBC haven’t actually implemented
+`speculationrules` but still have 2.5% in the CrUX data set), that may well be
+explained by other prerendering behaviour present in Chrome, for example:
+<q>When you type a URL into the Chrome address bar […] Chrome may automatically
+prerender the page for you…</q>, or <q>when you use the bookmarks bar…</q>.
+
+You can read much more on [Chrome for
+Developers](https://developer.chrome.com/docs/web-platform/prerender-pages).
 
 ## How Far Can We Take This?
 
