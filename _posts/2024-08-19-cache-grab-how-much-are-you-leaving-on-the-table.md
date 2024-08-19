@@ -82,7 +82,7 @@ in-and-of itself, but let’s consider two competing points:
 
 1. **If a lot of navigations are from cache, our caching strategy must be pretty
    good!** I’m of the opinion that almost all responses can be cached for at
-   least a little but, so serving absolutely zero files from cache would be
+   least a little bit, so serving absolutely zero responses from cache would be
    cause for concern. Are we leaving opportunities on the table here?
 2. **If a lot of navigations are from cache, why are users hitting the same
    pages over and over again?** The only way a file can be served from browser
@@ -122,14 +122,14 @@ _bfcache_ by fixing any issues that prevent the back/forward cache from being
 used.
 
 The **71.7%** figure listed is a nice touch from Treo, and it shows us that of
-all navigation-types initiated by the back or forward buttons, how many were of
+all navigation types initiated by the back or forward buttons, how many were of
 the much faster _bfcache_ variant? This is your hit-rate, and we can see that
 the BBC serve the majority of it’s back/forward button page views from the
 back/forward cache. The figure is determined by:
 
 `hit rate = bfcache / (bfcache + back–forward)`, or:
 
-`13.7 / (13.7 + 5.4) = 0.717277487`
+`13.7 / (13.7 + 5.4) = 0.717277487` – 71.7%.
 
 The reason the bfcache is so much faster is that, where traditional back/forward
 navigations should hopefully retrieve most of their (sub)resources from HTTP
