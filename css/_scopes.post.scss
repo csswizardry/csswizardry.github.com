@@ -60,8 +60,8 @@
     vertical-align: super;
   }
 
-  a:visited {
-    color: #fc4f6f;
+  a:visited:not(.btn) {
+    //color: #fc4f6f;
     color: #6a0dad;
   }
 
