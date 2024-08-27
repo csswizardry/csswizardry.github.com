@@ -103,10 +103,6 @@ $_logo-height:   64px;
     color: $color-links;
     float: right;
 
-    &:before {
-      content: "☰ ";
-    }
-
     .page-head--masthead & {
       color: #fff;
     }
@@ -245,12 +241,6 @@ $_logo-height:   64px;
               text-decoration: none;
             }
 
-          }
-
-          &:after {
-            content: " ×";
-            font-size: 18px;
-            line-height: 12px;
           }
 
         }
