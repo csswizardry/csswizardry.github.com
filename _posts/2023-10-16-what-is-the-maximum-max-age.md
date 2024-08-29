@@ -4,6 +4,9 @@ title: "What Is the Maximum max-age?"
 date: 2023-10-16 14:18:39
 categories: Web Development
 meta: "We usually set max-age directives to a year; can we go longer?"
+faq:
+  - question: "What is the maximum value for cache-control’s max-age?"
+    answer: "Conventionally, people tend to use one year, which is 3,1536,000 seconds. However, the spec says that caches MUST honour up to 2,147,483,648 seconds, which, in a 32-bit system, is the largest possible integer that can be represented in binary form. That’s a whopping 68 years!"
 ---
 
 If you wanted to cache a file ‘forever’, you’d probably use a `Cache-Control`

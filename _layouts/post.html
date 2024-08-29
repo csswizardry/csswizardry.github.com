@@ -28,6 +28,27 @@ lux: Post
 
         {{ content }}
 
+        {% if page.faq %}
+          <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {% for item in page.faq %}
+                {
+                  "@type": "Question",
+                  "name": "{{ item.question | escape }}",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "{{ item.answer | escape }}"
+                  }
+                }{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+              ]
+            }
+          </script>
+        {% endif %}
+
         <script type="application/ld+json">
           {
             "@context": "https://schema.org",
