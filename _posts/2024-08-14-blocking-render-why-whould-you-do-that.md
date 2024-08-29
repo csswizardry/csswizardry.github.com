@@ -5,6 +5,9 @@ date: 2024-08-14 12:45:11
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2024/08/blocking-status.png"
 meta: "Why on earth would you make something render-blocking?!"
+faq:
+  - question: "Why would be need a blocking=render attribute?"
+    answer: "Generally, we don’t! The primary use case thus far is to grant scripts the ability to be render- but not parser-blocking, which is not currently possible. This would be particularly helpful for A/B testing libraries who currently rely on anti-flicker snippets to achieve the results they want."
 ---
 
 WebKit have recently announced their [intent to
