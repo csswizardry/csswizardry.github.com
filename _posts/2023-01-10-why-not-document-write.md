@@ -5,6 +5,9 @@ date: 2023-01-10 16:17:11
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/01/lighthouse.png"
 meta: "We’re often told not to use document.write(), but… why?!"
+faq:
+  - question: "Why is document.write() bad for performance?"
+    answer: "document.write() forces scripts to block DOM construction during their download by hiding them from the Preload Scanner. This means that scripts injected with document.write() are always fully synchronous."
 ---
 
 <!--

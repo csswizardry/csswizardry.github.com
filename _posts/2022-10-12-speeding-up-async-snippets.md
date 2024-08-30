@@ -5,6 +5,9 @@ date: 2022-10-12 20:48:12
 categories: Web Development
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/10/waterfall-async-snippets-before.png"
 meta: "Async snippets used to improve performance, but now they’re a legacy anti-pattern. How do we handle them now?"
+faq:
+  - question: "What is an async snippet?"
+    answer: "Async snippets are a JavaScript design pattern largely employed by third parties to inject subsequent scripts in an asynchronous manner. Async snippets are a legacy implementation designed to sidestep a lack of support for the HTML async attribute for script elements. Compared to the async attribute, async snippets are considered an anti-pattern and should be avoided."
 ---
 
 If you’ve been a web developer for any reasonable amount of time, you’ve more

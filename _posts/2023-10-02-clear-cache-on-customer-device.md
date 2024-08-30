@@ -5,6 +5,9 @@ date: 2023-10-02 15:30:49
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/10/clear-site-data.png?1"
 meta: "There’s a super quick and easy way to clear cache on your customers’ devices. Are you using it yet?"
+faq:
+  - question: "How can I clear my customer’s cache?"
+    answer: 'You can use the Clear-Site-Data HTTP header, e.g. Clear-Site-Data: "cache".'
 ---
 
 If you work in customer support for any kind of tech firm, you’re probably all
