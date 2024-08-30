@@ -19,7 +19,7 @@ permalink: /archive/
     {% if currentDate != myDate %}
       {% unless forloop.first %}</ol>{% endunless %}
       <hr />
-      <h2>{{ currentDate }}</h2>
+      <h2 id=year-{{ currentDate }}>{{ currentDate }}</h2>
       <ol reversed>
       {% assign myDate = currentDate %}
     {% endif %}
@@ -30,5 +30,23 @@ permalink: /archive/
       </li>
     {% if forloop.last %}</ol>{% endif %}
   {% endfor %}
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "CSS Wizardry",
+        "item": "https://csswizardry.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://csswizardry.com/archive/"
+      }]
+    }
+  </script>
 
 </section>
