@@ -116,6 +116,36 @@ lux: Post
         <hr />
 
         <style>
+
+          .c-mini-profile {
+            display: flex;
+            gap: 0.75rem;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            content-visibility: auto;
+            contain-intrinsic-size: 1px 120px;
+          }
+
+            .c-mini-profile__avatar {
+              border-radius: 100%;
+            }
+
+            .c-mini-profile__content {
+            }
+
+        </style>
+
+        <article class=c-mini-profile>
+          <img src=/img/content/avatar.jpg alt width=72 height=72 loading=lazy class=c-mini-profile__avatar>
+          <div class=c-mini-profile__content>
+            <h5 class=mb0 style="font-weight: bold;">By Harry Roberts</h5>
+            <p class=mb0>Harry Roberts is an independent consultant web performance engineer. He helps companies of all shapes and sizes find and fix site speed issues.</p>
+          </div>
+        </article>
+
+        <hr />
+
+        <style>
           {% include css/components.pagination.css %}
         </style>
 
