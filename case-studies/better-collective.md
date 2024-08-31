@@ -6,6 +6,7 @@ permalink: /case-studies/better-collective/
 next-case-study-title: "How I helped Madgex’s front-end developers get a handle on their UI."
 next-case-study-url: /case-studies/madgex-consultancy-workshop/
 hide-hire-me-link: true
+case-study: true
 ---
 
 At the end of February 2015, I had the immense pleasure of running a week-long

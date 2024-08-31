@@ -6,6 +6,7 @@ permalink: /case-studies/bskyb/
 next-case-study-title: "How employing agile techniques helped me be my own client."
 next-case-study-url: /case-studies/css-wizardry/
 hide-hire-me-link: true
+case-study: true
 ---
 
 For almost three years, I was employed by

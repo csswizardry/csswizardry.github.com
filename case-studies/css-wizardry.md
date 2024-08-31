@@ -6,6 +6,7 @@ permalink: /case-studies/css-wizardry/
 next-case-study-title: "How I helped the <cite>Financial Times</cite> with their CSS architecture."
 next-case-study-url: /case-studies/financial-times/
 hide-hire-me-link: true
+case-study: true
 ---
 
 It seems a little odd to list your own website as a case study on itself, but
