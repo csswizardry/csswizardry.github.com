@@ -22,7 +22,7 @@ consultation:
 2. I take a look over your Core Web Vitals data.
 3. I identify your key liabilities and pain points and provide early triage.
 4. I suggest an appropriate level of engagement.
-5. You decide how you’d like to proceed.
+5. You decide if you’d like to proceed.
 
 It’s as simple as that.
 
@@ -54,5 +54,6 @@ Here is a consultation I did for a potential client:
     <img src="{{ site.cloudinary }}/img/content/consultations/cwv-urls-02.png" alt="" width="1500" height="1125">
 * **I would definitely recommend at least an audit-style engagement to solve
   these Core Web Vitals issues.**
+  * I’ll attach some options and guide prices with this mini-audit.
 
 <a href="mailto:csswizardry@gmail.com?subject=Free%20Consultation" class="btn  btn--full">Request a Consultation</a>
