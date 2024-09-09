@@ -5,7 +5,6 @@
 </article>
 
 {% if page.page-class != "page--home" and page.page-class != "page--about" %}
-
 <p>
   <img src=/img/css/masthead-small.jpg
        alt
@@ -13,12 +12,7 @@
        height=480
        style="background-image: url(/img/css/masthead-small-lqip.jpg), url({% include base64/masthead.jpg.html %});"
        elementtiming=sidebar-image
-       decoding=sync
-       onload="performance.clearMarks('sidebarImage'); performance.mark('sidebarImage');">
-  <script>
-    performance.clearMarks("sidebarImage");
-    performance.mark("sidebarImage");
-  </script>
+       decoding=sync>
 </p>
 {% endif %}
 
@@ -40,9 +34,6 @@ improving site-speed. You <a href=/services/?utm_source=sidebar&utm_medium=inter
 
 <p class=text-banner>
   <a href=/code-reviews/?utm_source=sidebar&utm_medium=internal#fix-it-fast class="btn  btn--full btn--positive" id=cta data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
-  <script>
-    performance.mark("ctaSidebar");
-  </script>
 </p>
 
 <script>

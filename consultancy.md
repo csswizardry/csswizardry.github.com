@@ -20,15 +20,11 @@ It’s my job to help you find out.
        alt=""
        width="750"
        height="422"
+       id="consultancy-image"
        style="background-image: url({% include base64/consultancy.jpg.html %});"
        fetchpriority="high"
        decoding="sync"
-       elementtiming="consultancy-image"
-       onload="performance.clearMarks('consultancyPageImage'); performance.mark('consultancyPageImage');" />
-  <script>
-    performance.clearMarks("consultancyPageImage");
-    performance.mark("consultancyPageImage");
-  </script>
+       elementtiming="consultancy-image">
   <figcaption>Consulting with the team at <a href="https://1337.tech/">13|37</a>.</figcaption>
 </figure>
 

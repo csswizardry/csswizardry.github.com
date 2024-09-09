@@ -25,15 +25,11 @@ conference for professionals.
        alt
        width="750"
        height="422"
+       id="about-image"
        style="background-image: url({% include base64/about.jpg.html %});"
        fetchpriority="high"
        decoding="sync"
-       elementtiming="about-image"
-       onload="performance.clearMarks('aboutPageImage'); performance.mark('aboutPageImage');" />
-  <script>
-    performance.clearMarks("aboutPageImage");
-    performance.mark("aboutPageImage");
-  </script>
+       elementtiming="about-image">
   <figcaption>Workshopping at <a href="https://digital-labin.com/">Digital Labin</a>, 2022. Photograph by <a href="https://www.instagram.com/dzambofilm/">Ivica Džambo</a>.</figcaption>
 </figure>
 
