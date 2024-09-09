@@ -22,7 +22,7 @@ one year? Why not 10 years? Why not `max-age=forever`? Why not `max-age=∞`?!
 
 I wondered the same. Let’s find out together.
 
-<details>
+<details data-nosnippet>
   <summary>Like spoilers? See the answer.</summary>
   <p>It’s <code>2147483648</code> seconds, or 68 years. To find out why, read on!</p>
 </details>
