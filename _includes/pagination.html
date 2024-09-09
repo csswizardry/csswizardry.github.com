@@ -22,23 +22,28 @@
     const archiveOlder = document.getElementById('archiveOlder');
     const archiveNewer = document.getElementById('archiveNewer');
 
-    archiveOlder.addEventListener('click', (event) => {
+    if (archiveOlder) {
+      archiveOlder.addEventListener('click', (event) => {
 
-      setTimeout(() => {
-        LUX.addData('archivePaginationUsed', true)
-        LUX.addData('archiveOlderUsed', true)
+        setTimeout(() => {
+          LUX.addData('archivePaginationUsed', true)
+          LUX.addData('archiveOlderUsed', true)
+        });
+
       });
+    };
 
-    });
+    if (archiveNewer) {
+      archiveNewer.addEventListener('click', (event) => {
 
-    archiveNewer.addEventListener('click', (event) => {
+        setTimeout(() => {
+          LUX.addData('archivePaginationUsed', true)
+          LUX.addData('archiveNewerUsed', true)
+        });
 
-      setTimeout(() => {
-        LUX.addData('archivePaginationUsed', true)
-        LUX.addData('archiveNewerUsed', true)
       });
+    };
 
-    });
 
   })();
 </script>
