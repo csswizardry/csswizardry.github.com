@@ -26,7 +26,7 @@ consultation:
 
 It’s as simple as that.
 
-<a href="mailto:csswizardry@gmail.com" class="btn  btn--full">Request a Consultation</a>
+<a href="mailto:csswizardry@gmail.com?subject=Free%20Consultation" class="btn  btn--full">Request a Consultation</a>
 
 ## Example Consultation
 
@@ -55,4 +55,4 @@ Here is a consultation I did for a potential client:
 * **I would definitely recommend at least an audit-style engagement to solve
   these Core Web Vitals issues.**
 
-<a href="mailto:csswizardry@gmail.com" class="btn  btn--full">Request a Consultation</a>
+<a href="mailto:csswizardry@gmail.com?subject=Free%20Consultation" class="btn  btn--full">Request a Consultation</a>
