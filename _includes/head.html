@@ -111,6 +111,10 @@
 
 <meta name=format-detection content="telephone=no">
 
+{% if page.indexable == false %}
+<meta name=robots content=noindex>
+{% endif %}
+
 <script>
   performance.mark('headEnd');
   performance.measure('headTime', 'headStart', 'headEnd');
