@@ -3,6 +3,7 @@ layout: feature
 title: Good Work for Good People
 page-class: page--case-studies
 permalink: /case-studies/
+lux: "Case Studies"
 ---
 
 <div class="layout">

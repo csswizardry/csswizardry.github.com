@@ -7,6 +7,7 @@ next-case-study-title: "How I helped the NHS create a UI Toolkit for their eLear
 next-case-study-url: /case-studies/nhs-nhsx-elearning-platform/
 hide-hire-me-link: true
 case-study: true
+lux: "Case Study"
 ---
 
 When I got an email from [Dan Horan](https://twitter.com/danhoran) asking me if

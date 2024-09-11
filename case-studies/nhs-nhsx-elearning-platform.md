@@ -7,6 +7,7 @@ next-case-study-title: "An intense week of workshop and hack days in Copenahgen.
 next-case-study-url: /case-studies/better-collective/
 hide-hire-me-link: true
 case-study: true
+lux: "Case Study"
 ---
 
 I must admit, when I saw an email from the NHS asking me if I’d like to help

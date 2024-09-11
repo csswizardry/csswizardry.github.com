@@ -7,6 +7,7 @@ next-case-study-title: "How I helped Madgex’s front-end developers get a handl
 next-case-study-url: /case-studies/madgex-consultancy-workshop/
 hide-hire-me-link: true
 case-study: true
+lux: "Case Study"
 ---
 
 At the end of February 2015, I had the immense pleasure of running a week-long

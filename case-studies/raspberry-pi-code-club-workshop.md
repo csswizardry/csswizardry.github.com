@@ -7,6 +7,7 @@ next-case-study-title: "Two days of architecture and performance workshops with 
 next-case-study-url: /case-studies/ocado-workshop/
 hide-hire-me-link: true
 case-study: true
+lux: "Case Study"
 ---
 
 <img src="{{ site.cloudinary }}/img/content/case-studies/raspberry-pi/logo-pi.png" alt="" width="128" height="165"

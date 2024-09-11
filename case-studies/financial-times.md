@@ -7,6 +7,7 @@ next-case-study-title: "Preparing Raspberry Pi for their upcoming changes"
 next-case-study-url: /case-studies/raspberry-pi-code-club-workshop/
 hide-hire-me-link: true
 case-study: true
+lux: "Case Study"
 ---
 
 One of the first clients I worked with after I’d started working for myself was

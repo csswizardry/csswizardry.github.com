@@ -4,6 +4,7 @@ title: Your Website, Faster.
 page-class: page--services
 meta: "Services offered to clients of all shapes and sizes"
 permalink: /services/
+lux: "Services"
 ---
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:addy-osmani"><p>Harry’s tailored

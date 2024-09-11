@@ -5,6 +5,7 @@ page-class: page--services  page--code-reviews
 meta: "Affordable, remote performance audits for your product"
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/content/audit-trello.png"
 permalink: /code-reviews/
+lux: "Services / Audits"
 ---
 
 <script>

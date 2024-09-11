@@ -6,6 +6,7 @@ meta: "Free, zero-obligation performance consultations!"
 permalink: /free-consultations/
 indexable: false
 main: "https://csswizardry.com/img/content/consultations/cwv-overview.png"
+lux: "Services / Free Consultations"
 ---
 
 **Yes, free.**

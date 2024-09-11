@@ -5,6 +5,7 @@ page-class: page--services  page--sentinel
 meta: "I keep an eye on site-speed so you don’t have to"
 main: "https://csswizardry.com/img/content/sentinel/speedcurve-003.png"
 permalink: /sentinel/
+lux: "Services / Sentinel"
 ---
 
 **I focus on site-speed so you don’t have to.**

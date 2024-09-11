@@ -7,6 +7,7 @@ next-case-study-title: "How I helped the <cite>Financial Times</cite> with their
 next-case-study-url: /case-studies/financial-times/
 hide-hire-me-link: true
 case-study: true
+lux: "Case Study"
 ---
 
 It seems a little odd to list your own website as a case study on itself, but

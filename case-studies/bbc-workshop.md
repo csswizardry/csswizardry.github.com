@@ -7,6 +7,7 @@ next-case-study-title: "Hear about how I changed and improved front-end process 
 next-case-study-url: /case-studies/bskyb/
 hide-hire-me-link: true
 case-study: true
+lux: "Case Study"
 ---
 
 When Keith Mitchell, Engineering Manager at BBC Sport, emailed me asking if I’d

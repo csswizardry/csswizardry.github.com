@@ -4,6 +4,7 @@ title: Web Performance Consultancy
 page-class: page--services  page--consultancy
 meta: "Consultancy and strategic guidance for development teams"
 permalink: /consultancy/
+lux: "Services / Consultancy"
 ---
 
 **Web performance impacts all businesses. How does it affect yours?**

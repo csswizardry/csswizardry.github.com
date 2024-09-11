@@ -7,6 +7,7 @@ next-case-study-title: "Read about the workshop I ran for the BBC’s front-end 
 next-case-study-url: /case-studies/bbc-workshop/
 hide-hire-me-link: true
 case-study: true
+lux: "Case Study"
 ---
 
 Nik White, [Madgex](http://madgex.com/)’s Design Director, got in touch with me

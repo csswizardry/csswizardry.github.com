@@ -4,6 +4,7 @@ title: Downloads and Resources
 page-class: page--services  page--downloads
 meta: "Downloadable resources and assets"
 permalink: /downloads/
+lux: "Services / Downloads"
 ---
 
 Periodically, I’ll make resources and assets available for download. These are
