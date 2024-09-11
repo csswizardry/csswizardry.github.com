@@ -4,6 +4,7 @@ title: Let’s Get Started
 page-class: page--contact
 meta: "Get in touch to discuss work and speaking engagements"
 permalink: /contact/
+lux: "Contact"
 ---
 
 **Consultancy projects, speaking engagements, or just to say hi.**
