@@ -4,6 +4,7 @@ title: Testimonials
 page-class: page--case-studies  page--testimonials
 meta: "Nice things people have said about me"
 permalink: /testimonials/
+lux: "Testimonials"
 ---
 
 I’ve done a lot of great work with a lot of great people, but don’t just take my
