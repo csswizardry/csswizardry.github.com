@@ -31,14 +31,11 @@ insights. I’m a teacher who _does_.
        alt=""
        width="750"
        height="422"
+       id="workshops-image"
        style="background-image: url({% include base64/workshops.jpg.html %});"
        fetchpriority="high"
        decoding="sync"
-       elementtiming="workshops-image"
-       onload="performance.clearMarks('workshopsPageImage'); performance.mark('workshopsPageImage');" />
-  <script>
-    performance.clearMarks("workshopsPageImage");
-    performance.mark("workshopsPageImage");
+       elementtiming="workshops-image" />
   </script>
   <figcaption>Workshopping at <a href="https://digital-labin.com/">Digital Labin</a>, 2022. Photograph by <a href="https://www.instagram.com/dzambofilm/">Ivica Džambo</a>.</figcaption>
 </figure>
