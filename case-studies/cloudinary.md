@@ -114,28 +114,29 @@ billing (if billing is based on data transfer).
 
 ### `immutable`
 
-The second thing is much more problematic: we’re using `immutable` in
-a situation where we shouldn’t use `immutable` at all. `immutable` is like
+The second thing is much more problematic: we’re using
+[`immutable`](/2019/03/cache-control-for-civilians/#immutable)
+in a situation where we shouldn’t use `immutable` at all. `immutable` is like
 a contract with the browser that says <q>This content will never change and
 therefore never needs revalidating, even if a user refreshes, etc.</q> You can
 only safely use `immutable` on files like `app.ca51e8.js`, whose filename is
 also immutable.
 
 This behaviour compounds with the first problem in that we’ve got colliding
-revalidation's headers, and a directive that tells the browser not to revalidate
+revalidation headers, and a directive that tells the browser not to revalidate
 anyway. This renders the revalidation headers ineffective as the browser, as
 a result of `immutable`, should never emit `If-None-Match` or
-`If-Modified-Since` request headers
+`If-Modified-Since` request headers.
 
-The impact of all of this is that we will very aggressively cache these
-responses with no way to actually cache-bust them on the client (`private`) for
-a month (`2592000`).
+The impact of all of this is that we will very aggressively cache (`immutable`)
+these responses with no way to actually cache-bust them on the client
+([`private`](/2019/03/cache-control-for-civilians/#public-and-private)) for a month (`2592000`).
 
 #### Recommendation
 
 Remove `immutable`.
 
-**The benefit to customers** is that they new assets are not aggressively cached in
+**The benefit to customers** is that assets are not aggressively cached in
 unreachable environments.
 
 **The benefit to end users** is they are far more likely to see correct and
@@ -146,17 +147,18 @@ more earnings if you bill based on throughput.
 
 ### `stale-while-revalidate`
 
-This isn’t a current issue, rather something I thing we as an image provider
+This isn’t a current issue, rather something I think we as an image provider
 could make great use of…
 
 Given that images (though obviously very important) won’t ever break a site if
 they’re wrong or out of date (in the way that a wrong JavaScript file might),
-we’re in the luxurious position to also make use of `stale-while-revalidate`!
+we’re in the luxurious position to also make use of
+[`stale-while-revalidate`](/2019/03/cache-control-for-civilians/#stale-while-revalidate)!
 
 We can tell the browser to cache and reuse the file for [however long we have
 already
 decided](https://cloudinary.com/glossary/caching-images#:~:text=Caching%20images%20with%20Cloudinary)
-(`max-age`), but also offer a grace period where the browser is permitted to
+([`max-age`](/2019/03/cache-control-for-civilians/#max-age)), but also offer a grace period where the browser is permitted to
 reuse a stale image for a short time while it fetches the new one in the
 background.
 
@@ -171,7 +173,9 @@ Cache-Control: private,
 
 #### Recommendation
 
-* **Keep `private` and `no-transform`**—they’re sensible for sure!
+* **Keep `private` and
+  [`no-transform`](/2019/03/cache-control-for-civilians/#no-transform)**—they’re
+  sensible for sure!
   * Although `no-transform` is technically redundant for us as we’re running
     over HTTPS. Leaving it in will have no adverse effects.
 * **Drop `immutable`** as the assets themselves are not immutable.
@@ -182,8 +186,8 @@ Cache-Control: private,
 
 ## Reception
 
-The unsolicited feedback was well received! The inclusion of `immutable` was
-indeed a mistake, so we got that removed with a matter of urgency.
+Feedback was well received. The inclusion of `immutable` was indeed a mistake,
+so we got that removed with a matter of urgency:
 
 > The `immutable` point is interesting – and in fact is indeed a bug; this
 > should only be sent for a versioned URL, not the unversioned one as in your
@@ -193,7 +197,7 @@ The `Last-Modified` and `ETag` situation had a few more moving parts, but was an
 overall happy ending:
 
 > With regard to the use of both `Last-Modifiied` and `ETag` – in fact with our
-> platform this should be correctly handled as we don't update the modification
+> platform this should be correctly handled as we don’t update the modification
 > date unless something _actually_ changes – simply re-uploading into your Media
 > Library should not update the date.
 >
@@ -202,18 +206,20 @@ overall happy ending:
 > going to create a QA task internally to ensure there is not a regression
 > somewhere that has affected that.
 
-This is fair! Great context, and, actually, clients that understand both `ETag`
-and `Last-Modified` prefer `ETag` anyway: we can safely leave both and satisfy
-all of our needs—no false positives, and supporting their outlier customers.
+This is fair! Great context.
 
-> I like the idea of `stale-while-revalidate` – this is something I hadn't
-> considered and is nice and safe for legacy clients that wouldn't support it so
+And, as it turns out clients that understand both `ETag` and `Last-Modified`
+will prefer `ETag` anyway: we can safely leave both and satisfy all of our
+needs—no false positives while still supporting outlier customers.
+
+> I like the idea of `stale-while-revalidate` – this is something I hadn’t
+> considered and is nice and safe for legacy clients that wouldn’t support it so
 > including it should be nice and safe – again, thanks for pointing this out!
 
 We didn’t get `stale-while-revalidate` out yet, but I still think it would be
 a neat addition.
 
-Although Cloudinary didn’t hire me directly, I like these kind of collaborative
+Although Cloudinary didn’t hire me directly, I love these kind of collaborative
 efforts to make far reaching improvements. At Cloudinary’s scale, that’s a lot
 of people!
 
