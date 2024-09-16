@@ -149,6 +149,7 @@ var {
  * 2. Reindent figcaptions.
  */
 figure {
+  counter-increment: figure;
 
     @media screen and (min-width: 1380px) {
         margin-left: -128px; /* [1] */
@@ -165,6 +166,11 @@ figure {
 
         @media screen and (min-width: 1380px) {
             margin-left: 128px; /* [2] */
+        }
+
+        &::before {
+          content: "Fig. " counter(figure) ": ";
+          font-weight: bold;
         }
 
     }
