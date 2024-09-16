@@ -747,7 +747,7 @@ side-by-side:
 
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2024/09/diagram-all.png" alt width="4215" height="1087" loading="lazy">
-  <figcaption><a href="{{ site.cloudinary }}/wp-content/uploads/2024/09/diagram-all.png">View full size (KB)</a></figcaption>
+  <figcaption><a href="{{ site.cloudinary }}/wp-content/uploads/2024/09/diagram-all.png">View full size (29KB)</a></figcaption>
 </figure>
 
 Many thanks to [Barry Pollard](https://x.com/tunetheweb) and [Robin
