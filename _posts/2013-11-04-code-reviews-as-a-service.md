@@ -37,7 +37,7 @@ teaching people how to circumvent them.
 I had an idea of a way to fuse my desires to work in an ‘educator’ role (I use
 scare quotes as I feel that without them I would just sound really pretentious)
 with a variety of clients in far-flung locations: [remote code
-reviews](/work/#section-code-reviews).
+reviews](/services/#section-code-reviews).
 
 As of, well, now, I’m offering the same level of consultancy—on _your_ products
 to solve _your_ problems—but with fixed deliverables in a fixed timeframe and at
@@ -84,8 +84,8 @@ all of the work you do.
   future projects, improving yourself as a developer.
 
 For more information, or to arrange a review, head to [my work
-page](/work/).
+page](/services/).
 
-<a href="/work/#section-code-reviews" class="btn  btn--full">
+<a href="/services/#section-code-reviews" class="btn  btn--full">
     Arrange a code review!
 </a>

@@ -36,7 +36,7 @@ In the last year I’ve worked for large companies like [the
 BBC](/case-studies/bbc-workshop/) and [the
 NHS](/case-studies/nhs-nhsx-elearning-platform/), to [smaller
 companies](/case-studies/madgex-consultancy-workshop/), to working with
-[individuals](/work/#quote:markus-klug) from their home
+[individuals](/services/#quote:markus-klug) from their home
 offices.
 
 The single longest engagement I had was with [the
@@ -195,7 +195,7 @@ is, for now, my dream job.** I’d be silly to change that.
 Honestly, it’s impossible to say. Perhaps it was
 
 * staying in [this hotel that is literally a castle](http://www.schlosshotel-kronberg.de/);
-* working from [Markus](/work/#quote:markus-klug)’ house
+* working from [Markus](/services/#quote:markus-klug)’ house
   up in the snowy, forested [hills above
   Frankfurt](https://www.google.com/search?q=Kronberg,+Frankfurt&safe=off&espv=2&biw=1418&bih=747&source=lnms&tbm=isch&sa=X&ei=HrdLVKDNCtKd7gbIxoCgDQ&ved=0CAgQ_AUoAw);
 * [this view](http://instagram.com/p/jt-SAPIjIV/) on my way to work in
