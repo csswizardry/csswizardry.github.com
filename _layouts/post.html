@@ -161,10 +161,10 @@ lux: Post
                 "source": "list",
                 "urls": [
                   {% if page.next.url %}
-                    "{{ page.next.url }}?utm_source=pagination&utm_medium=internal",
+                    "{{ page.next.url }}",
                   {% endif %}
                   {% if page.previous.url %}
-                    "{{ page.previous.url }}?utm_source=pagination&utm_medium=internal"
+                    "{{ page.previous.url }}"
                   {% endif %}
                 ]
               }
@@ -175,10 +175,10 @@ lux: Post
 
         <nav class=c-pagination>
           {% if page.previous.url %}
-            <a href="{{ page.previous.url }}?utm_source=pagination&utm_medium=internal" class="c-pagination__item c-pagination__prev" style="view-transition-name: x-{{ page.previous.date | date: '%Y-%m-%d' }}" id=articleOlder>{{page.previous.title}}</a>
+            <a href="{{ page.previous.url }}" class="c-pagination__item c-pagination__prev" style="view-transition-name: x-{{ page.previous.date | date: '%Y-%m-%d' }}" id=articleOlder>{{page.previous.title}}</a>
           {% endif %}
           {% if page.next.url %}
-            <a href="{{ page.next.url }}?utm_source=pagination&utm_medium=internal" class="c-pagination__item c-pagination__next" style="view-transition-name: x-{{ page.next.date | date: '%Y-%m-%d' }}" id=articleNewer>{{page.next.title}}</a>
+            <a href="{{ page.next.url }}" class="c-pagination__item c-pagination__next" style="view-transition-name: x-{{ page.next.date | date: '%Y-%m-%d' }}" id=articleNewer>{{page.next.title}}</a>
           {% endif %}
         </nav>
 
@@ -214,7 +214,7 @@ lux: Post
             <hr />
 
             <p>
-                <a href=/code-reviews/?utm_source=post-footer&utm_medium=internal&utm_campaign=fix-it-fast#fix-it-fast class="btn btn--full">Did this help? <strong>We can do way more!</strong></a>
+                <a href=/code-reviews/#fix-it-fast class="btn btn--full">Did this help? <strong>We can do way more!</strong></a>
             </p>
         {% endif %}
 
