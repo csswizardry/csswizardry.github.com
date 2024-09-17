@@ -137,7 +137,7 @@ There are a few things in the table you may not have seen before, briefly, they 
 
 ## Typographic work planner CSS:
 
-The CSS used to create the work planner is pretty basic, with a dash or progressive enhancement added via some CSS3. [View the full CSS file with reset etc.](http://csswizardry.com/demos/typographic-work-planner/css/style.css)
+The CSS used to create the work planner is pretty basic, with a dash or progressive enhancement added via some CSS3. [View the full CSS file with reset etc.](/demos/typographic-work-planner/css/style.css)
 
     table{
       margin-bottom:20px;
@@ -194,4 +194,4 @@ The CSS used to create the work planner is pretty basic, with a dash or progress
       padding:10px 5px;
     }
 
-**[Typographic work planner demo](http://csswizardry.com/demos/typographic-work-planner/)**
+**[Typographic work planner demo](/demos/typographic-work-planner/)**

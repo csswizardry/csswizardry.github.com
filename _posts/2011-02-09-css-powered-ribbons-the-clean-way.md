@@ -14,7 +14,7 @@ tag:
 - Markup
 ---
 
-I’ve started buying [.net magazine](http://www.netmag.co.uk/) again recently. I don’t normally but I was hoping it might help in [my search for a super-awesome new agency](http://csswizardry.com/2011/02/hire-me/). I was flicking through this month’s edition when I happened upon a Create a wraparound ribbon tutorial. I thought I’d give it a read as I really love little design conundrums and how other people solve them. I was a little surprised to see it had been done in five elements. I challenged myself to do it in one...
+I’ve started buying [.net magazine](http://www.netmag.co.uk/) again recently. I don’t normally but I was hoping it might help in my search for a super-awesome new agency. I was flicking through this month’s edition when I happened upon a Create a wraparound ribbon tutorial. I thought I’d give it a read as I really love little design conundrums and how other people solve them. I was a little surprised to see it had been done in five elements. I challenged myself to do it in one...
 
 Okay, so I can’t re-publish or copy sections of the article but you can either buy .net and read it, or look at the tiny images on [the latest issue page](http://www.netmag.co.uk/zine/latest-issue/issue-212). It simply creates what is in the screenshot--a ribbon-like effect that sits outside and then ‘behind’ its content.
 
@@ -105,7 +105,7 @@ What this does is creates a white `<h2>` with a pink background, pulls the `<h2>
 
 ## [Demo](/demos/css-powered-ribbons/)
 
-I made [a demo](/demos/css-powered-ribbons/), also, which shows how this can be extended using some alternating `nth-of-type` styles. Feel free to pick it apart and see what does what. If any of the examples above seems out of context then view [the demo’s stylesheet](http://csswizardry.com/demos/css-powered-ribbons/css/style.css) and source for the comprehensive code.
+I made [a demo](/demos/css-powered-ribbons/), also, which shows how this can be extended using some alternating `nth-of-type` styles. Feel free to pick it apart and see what does what. If any of the examples above seems out of context then view [the demo’s stylesheet](/demos/css-powered-ribbons/css/style.css) and source for the comprehensive code.
 
 ## Final word
 

@@ -35,7 +35,7 @@ optional, which classes are recyclable, which classes can you delete, and so on?
 A lot of times, I’m willing to bet.
 
 Naming conventions like
-[BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+[BEM](/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 do a fantastic job to help communicate the roles and responsibilities of the
 classes we find in our HTML, and if you’re not yet using BEM then I urge you to
 stop reading this article right now and to start with that instead—this post
@@ -317,7 +317,7 @@ Example:
 
 You will most likely be familiar with the Utility notation because of
 [SUIT](https://github.com/suitcss/utils).  Utilities are complete [single
-responsibility](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+responsibility](/2012/04/the-single-responsibility-principle-applied-to-css/)
 rules which have a very specific and targeted task. It is also quite common for
 these rules’ declarations to carry `!important` so as to guarantee they beat
 other less specific ones. They do one thing in a very heavy-handed and inelegant
@@ -377,7 +377,7 @@ sparingly.)
     </div>
 
 <small>Please see this post’s sister article [<cite>Immutable
-CSS</cite>](http://csswizardry.com/2015/03/immutable-css/) for more detail on
+CSS</cite>](/2015/03/immutable-css/) for more detail on
 these kinds of rule.</small>
 
 * Utilities are style heavyweights.
@@ -629,7 +629,7 @@ same with our Hack classes.
 
 These types of class are pretty easy to spot in our codebase, so any hacks will
 become very apparent, which is a [good
-thing](http://csswizardry.com/2013/04/shame-css/).
+thing](/2013/04/shame-css/).
 
     @media screen and (max-width: 30em) {
 
@@ -662,7 +662,7 @@ styling and behaviour bound to the same hooks. To bind both technologies onto
 the same hook means we can’t have one without the other: our UI becomes
 all-or-nothing, which makes it very opinionated and inflexible.
 
-When I worked at [Sky](http://csswizardry.com/case-studies/bskyb/), we had an
+When I worked at [Sky](/case-studies/bskyb/), we had an
 incident where a developer had built a text-callout UI component that had a
 distinct appearance, and some behaviour to fade text in and out of it. A Product
 Owner asked that we reuse the same piece of UI elsewhere, but we didn’t need to
@@ -932,7 +932,7 @@ presented as a simple cheat sheet guide that anyone can follow.
 For reference, [here’s a particularly useful
 cheat sheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 I referred to when I began to [learn
-Vim](http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/).
+Vim](/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/).
 
 ---
 

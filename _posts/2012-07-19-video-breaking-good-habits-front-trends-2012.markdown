@@ -21,4 +21,4 @@ On Vimeo: [https://vimeo.com/44773888](https://vimeo.com/44773888)
 
 
 
-[My Front-Trends writeup.](http://csswizardry.com/2012/04/front-trends-2012/)
+[My Front-Trends writeup.](/2012/04/front-trends-2012/)

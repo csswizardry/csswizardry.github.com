@@ -37,13 +37,13 @@ netbooks are set at about 1024px wide. Such a shift toward mobile and portable
 devices mean that screen sizes are actually getting _smaller_.
 
 In my opinion, [iPhones and other mobile devices should be handled
-separately](http://csswizardry.com/2010/01/iphone-css-tips-for-building-iphone-websites/),
+separately](/2010/01/iphone-css-tips-for-building-iphone-websites/),
 serving them device specific CSS. Netbooks on the other hand are still ‘desktop’
 machines like any other. Their smallness is their key feature, and at 1024px
 horizontal resolution, they aren’t that small anyway…
 
 With [the 960 Grid System](http://960.gs/), and [an optimum line length of 52-78
-characters](http://csswizardry.com/type-tips/#tip-09), sticking to 1024px
+characters](/type-tips/#tip-09), sticking to 1024px
 shouldn’t be that difficult anyway. I believe that although desktop monitor
 sizes are generally getting larger, other equally important technologies are
 creeping up, and as responsible developers you should cater for them. Sure you
@@ -78,11 +78,10 @@ iPhone loading poorly optimised sites is a real grind, and via some sensible
 optimisation these problems can be easily alleviated.
 
 However, a more interesting example might be the one that happened to myself…
-When [we first started at Venturelab](http://csswizardry.com/2010/01/pastures-newfrom-sense-to-venturelab/)
-we really were building the company from the ground up. For the first few weeks
-we were without desktop machines _and_ internet. I was working on a 10.1″
-netbook with a screen resolution of 1024x600px, and over a poor 3G connection
-via a dongle.
+When we first started at Venturelab we really were building the company from the
+ground up. For the first few weeks we were without desktop machines _and_
+internet. I was working on a 10.1″ netbook with a screen resolution of
+1024x600px, and over a poor 3G connection via a dongle.
 
 > Accessibility isn’t just about disabilities, it’s about varying degrees of
 > ability to access content.

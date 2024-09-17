@@ -113,7 +113,7 @@ This is certainly not uncommon practice, but because all closing tags look the s
 
 ### Namespaced fragment identifiers
 
-I came up with [this idea to namespace fragment identifiers](http://csswizardry.com/2011/06/namespacing-fragment-identifiers/) last year. It’s basically, I think, a nice way to add a little more meaning to your fragment identifiers and give a little bit more of a clue as to what they actually link to.
+I came up with [this idea to namespace fragment identifiers](/2011/06/namespacing-fragment-identifiers/) last year. It’s basically, I think, a nice way to add a little more meaning to your fragment identifiers and give a little bit more of a clue as to what they actually link to.
 
     <a href=#section:fragment-identifiers>Fragment identifiers</a>
     
@@ -129,7 +129,7 @@ So far I’ve dealt with how I write HTML, but what about CSS? My CSS is a lot l
 
 ### No IDs
 
-This is more a technical thing, but I have [a blanket-ban on IDs in CSS](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/). There is literally no point in them, and they only ever cause harm. Everything that needs styling is done so without using IDs.
+This is more a technical thing, but I have [a blanket-ban on IDs in CSS](/2011/09/when-using-ids-can-be-a-pain-in-the-class/). There is literally no point in them, and they only ever cause harm. Everything that needs styling is done so without using IDs.
 
 ### Table of contents
 

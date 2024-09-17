@@ -157,7 +157,7 @@ sides to carry `10px` padding. Here, shorthand makes complete sense. Also:
 ```
 
 Here—although I’d question the use of [magic
-numbers](http://csswizardry.com/2012/11/code-smells-in-css/#magic-numbers)—we
+numbers](/2012/11/code-smells-in-css/#magic-numbers)—we
 are still explicitly setting all four sides, so, again, this use of shorthand
 would still be okay.
 

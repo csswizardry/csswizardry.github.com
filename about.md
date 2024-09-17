@@ -277,7 +277,7 @@ that I’m having to live with…
 
   <li class="list-ui__item">
     <h3 class="list-ui__title">Interview</h3>
-    <time>2013-04-25</time>: <a href="http://csswizardry.com/2013/04/shame-css-full-net-interview/">net mag – Use shame.css to house hacks</a>
+    <time>2013-04-25</time>: <a href="/2013/04/shame-css-full-net-interview/">net mag – Use shame.css to house hacks</a>
   </li>
 
   <li class="list-ui__item">

@@ -160,7 +160,7 @@ out into:
 
 Three smaller and more composable rulesets, each with a smaller number of
 declarations. CSS like this likely adheres to the [Single Responsibility
-Principle](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/),
+Principle](/2012/04/the-single-responsibility-principle-applied-to-css/),
 meaning we have very well defined and encapsulated rulesets that can be combined
 and composed in a very modular fashion.
 
@@ -257,11 +257,11 @@ We often end up with lots of selectors per rule for two key reasons:
 0. **Using Sass’ `@extend`:** Sass’ `@extend` functionality has long been
    considered an anti-pattern for a number of reasons <small>(please see
    [<cite>Extending silent classes in
-   Sass</cite>](http://csswizardry.com/2014/01/extending-silent-classes-in-sass/),
+   Sass</cite>](/2014/01/extending-silent-classes-in-sass/),
    [<cite>When to use `@extend`; when to use a
-   mixin</cite>](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/),
+   mixin</cite>](/2014/11/when-to-use-extend-when-to-use-a-mixin/),
    [<cite>Mixins Better for
-   Performance</cite>](http://csswizardry.com/2016/02/mixins-better-for-performance/)).</small>
+   Performance</cite>](/2016/02/mixins-better-for-performance/)).</small>
    `@extend` transplants selectors from one part of your project to all
    converge on another. This has plenty of its own problems—detailed in the
    linked articles—but it ultimately gives us a long, unwieldy list of selectors
@@ -323,7 +323,7 @@ header nav ul li a {
 Nesting, qualifying, and pseudo selectors all increase the Identifiers Per
 Selector metric, and we should strive to keep this number as small as possible.
 Identifiers Per Selector is effectively our [Cyclomatic
-Complexity](http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/).
+Complexity](/2015/04/cyclomatic-complexity-logic-in-css/).
 
 Having a high number of identifiers per selector brings a few problems:
 
@@ -339,7 +339,7 @@ Having a high number of identifiers per selector brings a few problems:
 
 For further reading about the problems with long selectors, please refer to my
 article [<cite>Keep your CSS selectors
-short</cite>](http://csswizardry.com/2012/05/keep-your-css-selectors-short/).
+short</cite>](/2012/05/keep-your-css-selectors-short/).
 
 We want to see an Identifiers Per Selector value between 1 and 2 (remember, this
 being a mean value means we can end up with decimals). We can’t have smaller
@@ -425,9 +425,9 @@ and instantly impossible to reuse: both of these traits are diametrically
 opposed to the pursuit of modular and reusable CSS.
 
 Further reading: [<cite>When using IDs can be a pain in the
-class…</cite>](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/),
+class…</cite>](/2011/09/when-using-ids-can-be-a-pain-in-the-class/),
 [<cite>Hacks for dealing with
-specificity</cite>](http://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/).
+specificity</cite>](/2014/07/hacks-for-dealing-with-specificity/).
 
 - - -
 
@@ -466,7 +466,7 @@ not zero, you don’t necessarily need to panic. Just ensure that any instances 
 
 To understand how and when we should use `!important`, please see my recent
 article [<cite>The Importance of `!important`: Forcing Immutability in
-CSS</cite>](http://csswizardry.com/2016/05/the-importance-of-important/).
+CSS</cite>](/2016/05/the-importance-of-important/).
 
 To get a quick look at where `!important` is being used in your project, try
 running this inside of your CSS directory:

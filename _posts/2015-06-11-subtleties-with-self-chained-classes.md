@@ -62,7 +62,7 @@ That is to say, does `.foo.foo {}` equate to specifically `class="foo foo"`, and
 > have the same specificity as each other. You’ll remember from the workshop
 > how self-chaining classes increases the selector’s specificity correspondingly
 > (allowing us to [Hack
-> Specificity](http://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/)).
+> Specificity](/2014/07/hacks-for-dealing-with-specificity/)).
 > Well that’s not going to be a side effect here.
 >
 > What’s the use case for it anyway? Seems a little funky to be honest. :P

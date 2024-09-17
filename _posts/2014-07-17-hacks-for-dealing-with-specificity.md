@@ -20,7 +20,7 @@ Like I said, we can’t opt out of specificity, but there are a number of things
 we can do to mitigate its effects:
 
 * **[Never use IDs in
-  CSS](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/)**,
+  CSS](/2011/09/when-using-ids-can-be-a-pain-in-the-class/)**,
   ever. They have no advantage over classes (anything you can do with an ID, you
   can do with a class), they cannot be reused, and their specificity is way, way
   too high. Even an infinite number of chained classes will not trump the
@@ -56,7 +56,7 @@ like to stress that **no rules are unbreakable**. There will always be
 exceptions, there will always be a situation which requires a rule to be bent,
 there will always be anomalies. Whenever someone says <q>always do
 <var>x</var></q>, apply some [critical
-thinking](http://csswizardry.com/2013/01/you-know-your-context-on-critical-thinking-and-thinking-for-yourself/)
+thinking](/2013/01/you-know-your-context-on-critical-thinking-and-thinking-for-yourself/)
 to work out the principles behind that rule, and take and break the bits you
 need to.
 
@@ -101,7 +101,7 @@ The beauty of this selector is that [it has the exact same specificity as a
 class](http://jsfiddle.net/csswizardry/V4JX6/), so we’re selecting a chunk of
 the DOM based on an ID, but never actually increasing our specificity beyond
 that of our classes that we’re making [liberal use of
-elsewhere](http://csswizardry.com/2012/10/a-classless-class-on-using-more-classes-in-your-html/).
+elsewhere](/2012/10/a-classless-class-on-using-more-classes-in-your-html/).
 
 But **this is a hack.**
 

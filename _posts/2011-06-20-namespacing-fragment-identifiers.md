@@ -20,7 +20,7 @@ At first I thought this was awesome because, well, how cool is that?! But then I
 <pre><code>#foo:bar{ <span class="code-comment">/* Looks for an element with an ID of foo and a pseudo-selector(class/element) of bar */</span> }
 #foo.bar{ <span class="code-comment">/* Looks for an element with an ID of foo and a class of bar */</span> }</code></pre>
 
-So, whilst these are perfectly valid in HTML, <del>they’re useless in CSS</del> they _can_ be [styled with CSS](http://csswizardry.com/2011/06/namespacing-fragment-identifiers/#addendum:escaping). Kinda sucks, huh? But! If we know they’re okay in HTML and totally pointless in CSS, can we use that to our advantage?
+So, whilst these are perfectly valid in HTML, <del>they’re useless in CSS</del> they _can_ be [styled with CSS](/2011/06/namespacing-fragment-identifiers/#addendum:escaping). Kinda sucks, huh? But! If we know they’re okay in HTML and totally pointless in CSS, can we use that to our advantage?
 
 Answer: yes!
 
@@ -68,7 +68,7 @@ I propose a (loose) standard whereby you namespace your fragment identifiers wit
 
 ## Addendum
 
-Ben ‘[Cowboy](https://twitter.com/#!/cowboy)’ Alman [points out](http://csswizardry.com/2011/06/namespacing-fragment-identifiers/#comment-61782) that [escaping the colon will allow you to style the ID via CSS, as will escaping the period](http://jsfiddle.net/csswizardry/ZYhhS/):
+Ben ‘[Cowboy](https://twitter.com/#!/cowboy)’ Alman [points out](/2011/06/namespacing-fragment-identifiers/#comment-61782) that [escaping the colon will allow you to style the ID via CSS, as will escaping the period](http://jsfiddle.net/csswizardry/ZYhhS/):
 
 <pre><code>#foo\:bar{ <span class="code-comment">/* Works! */</span> }
 #foo\.bar{ <span class="code-comment">/* Works! */</span> } </code></pre>

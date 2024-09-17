@@ -11,10 +11,10 @@ meta: "A new service I’m offering: remote code reviews"
 hide-hire-me-link: true
 ---
 
-With [my recent move to self employment](http://csswizardry.com/2013/10/lets-work-together/),
+With [my recent move to self employment](/2013/10/lets-work-together/),
 one of the things I am most keen to do is ‘educational’ work. That is to say, I
 want to carry on being a developer, but spend more time educating and imparting
-my knowledge. This is taking the shape of more [talks and workshops](http://csswizardry.com/speaking/)
+my knowledge. This is taking the shape of more [talks and workshops](/speaking/)
 ([two](http://makedo.in/leeds/css-workshop/)
 [upcoming](https://shop.smashingmagazine.com/smashing-workshop-planning-building-front-end-zurich.html))
 but also consultancy work; going into peoples’ offices and spending time with
@@ -37,7 +37,7 @@ teaching people how to circumvent them.
 I had an idea of a way to fuse my desires to work in an ‘educator’ role (I use
 scare quotes as I feel that without them I would just sound really pretentious)
 with a variety of clients in far-flung locations: [remote code
-reviews](http://csswizardry.com/work/#section-code-reviews).
+reviews](/work/#section-code-reviews).
 
 As of, well, now, I’m offering the same level of consultancy—on _your_ products
 to solve _your_ problems—but with fixed deliverables in a fixed timeframe and at
@@ -84,8 +84,8 @@ all of the work you do.
   future projects, improving yourself as a developer.
 
 For more information, or to arrange a review, head to [my work
-page](http://csswizardry.com/work/).
+page](/work/).
 
-<a href="http://csswizardry.com/work/#section-code-reviews" class="btn  btn--full">
+<a href="/work/#section-code-reviews" class="btn  btn--full">
     Arrange a code review!
 </a>

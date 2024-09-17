@@ -135,7 +135,7 @@ Some good rules of thumb:
   bit you _know_ you want and then write as little extra CSS as possible in
   order to get a correct match.
 * **Brush up on [Selector
-  Intent](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/):**
+  Intent](/2012/07/shoot-to-kill-css-selector-intent/):**
   Make sure you’re writing the selectors you _intend_, not just the ones that
   happen to work.
 

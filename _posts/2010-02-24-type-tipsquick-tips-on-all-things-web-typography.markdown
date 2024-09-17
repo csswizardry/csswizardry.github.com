@@ -20,7 +20,7 @@ Yesterday I released [Type Tips](/type-tips/), a collection of short and simple 
 
 
 
-[![A screenshot of type tips](http://csswizardry.com/wp-content/uploads/2010/02/type-tips.jpg)](/type-tips/)
+[![A screenshot of type tips](/wp-content/uploads/2010/02/type-tips.jpg)](/type-tips/)
 
 
 

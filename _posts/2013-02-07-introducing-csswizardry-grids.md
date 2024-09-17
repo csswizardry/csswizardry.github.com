@@ -12,7 +12,7 @@ branch-id: 4m2oWizUnII
 branch-url: http://branch.com/b/introducing-csswizardry-grids
 ---
 
-Yesterday I wrote <cite>[Responsive grid systems; a solution?](http://csswizardry.com/2013/02/responsive-grid-systems-a-solution/)</cite>,
+Yesterday I wrote <cite>[Responsive grid systems; a solution?](/2013/02/responsive-grid-systems-a-solution/)</cite>,
 all about the principles behind creating the fluid grid system in
 [inuit.css](http://inuitcss.com). That post deals with the thoughts, reasonings
 and theory behind how such a grid system works. _This_ post is
@@ -24,7 +24,7 @@ and theory behind how such a grid system works. _This_ post is
 > grid systems should.
 
 * [csswizardry-grids source on GitHub](http://git.io/csswizardry-grids)
-* [Basic demo](http://csswizardry.github.com/csswizardry-grids)
+* [Basic demo](https://csswizardry.github.com/csswizardry-grids)
 
 <small>**N.B.** I am a huge proponent of the extra `div`s style grid systems which keep
 your page’s layout and content totally separated. To find out more as to why, I

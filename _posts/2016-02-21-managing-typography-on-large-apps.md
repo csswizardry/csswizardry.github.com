@@ -6,7 +6,7 @@ categories: Web Development
 meta: "A look at managing typography more practically on larger sites and apps"
 ---
 
-I’ve [written before](http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css)
+I’ve [written before](/2012/02/pragmatic-practical-font-sizing-in-css/)
 about managing typographical styles across larger projects, but an issue that I
 still see clients continually coming up against is that of specifically managing
 their headings across larger and more complex apps.

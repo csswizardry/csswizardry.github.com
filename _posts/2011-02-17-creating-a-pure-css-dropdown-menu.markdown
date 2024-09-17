@@ -18,7 +18,7 @@ a lot of content that needed navigating extremely simply and fairly rapidly. We
 have so much to say and such a lot of content that the navigation of the site
 needed to be even more dynamic and encompassing than normal.
 
-## [Demo](http://csswizardry.com/demos/css-dropdown/)
+## [Demo](/demos/css-dropdown/)
 
 This article has been ported from the now-defunct Venturelab Devblog, where
 I had originally authored it.

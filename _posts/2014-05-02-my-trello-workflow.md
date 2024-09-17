@@ -250,7 +250,7 @@ a feature live, you hard-coded some values that should be dynamic. You know that
 you need to go back and tidy these things up, but they’re not necessarily bugs.
 
 I’ve written about [hacks—and how they’re
-inevitable—before](http://csswizardry.com/2013/04/shame-css/), and these are
+inevitable—before](/2013/04/shame-css/), and these are
 exactly the kinds of thing we mean when we talk about tech debt.
 
 <i>Blocked</i> cards are ones which are held up—or <i>blocked</i>—by other cards
@@ -333,4 +333,5 @@ extend it for your own work.
 
 Agile and process is something I’m really, _really_ enjoying working on with my
 clients at the moment, so if you feel like you could use some help then please
-do [get in touch](/work) with me—I’d love to work together on this kind of stuff.
+do [get in touch](/services/) with me—I’d love to work together on this kind of
+stuff.

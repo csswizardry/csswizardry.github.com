@@ -18,7 +18,7 @@ Yesterday when <del>being dragged around shops by</del> out shopping with my gir
 ## The shampoo lid
 
 
-![A photograph of matching bottles of shampoo and conditioner, illustrating lid differences](http://csswizardry.com/wp-content/uploads/2010/02/shampoo.jpg)
+![A photograph of matching bottles of shampoo and conditioner, illustrating lid differences](/wp-content/uploads/2010/02/shampoo.jpg)
 
 
 Imagine the scenario, you're a girl with long hair and you're washing it in the shower. Your hair is in your eyes, and covered in shampoo. Opening your eyes would lead to some serious stinging! You reach down and below you, by your feet, you have two identical bottles--except they're not identical... One has its lid on the top and the the other has its lid on the bottom. As long as you've learnt which one's which, as my girlfriend clearly has, you know without having to open your eyes which bottle you have hold of. This is a really ingenious piece of usability, yet so so simple.

@@ -92,7 +92,7 @@ How you group them can be entirely your choice, the concept here just deals with
 the fact that we’re grouping things _at all_.
 
 It’s important to note here that I’m using [BEM-style
-naming](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/),
+naming](/2013/01/mindbemding-getting-your-head-round-bem-syntax/),
 which already starts to group classes anyway. If you’re not using BEM, your HTML
 might look like this:
 
@@ -106,19 +106,19 @@ We can see here that the classes `.box` and `.promo-box` are related, and
 {% include promo-case-studies.html %}
 
 I’ve long been a vocal advocate of using [more classes in your
-markup](http://csswizardry.com/2012/10/a-classless-class-on-using-more-classes-in-your-html/):
+markup](/2012/10/a-classless-class-on-using-more-classes-in-your-html/):
 it just makes for more pragmatic, manageable, scalable development. It does,
 however, make your markup a little heavier. This is a small price to pay for the
 advantages that a nicely decoupled, [single
-responsibility](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+responsibility](/2012/04/the-single-responsibility-principle-applied-to-css/)
 UI, built on a well-abstracted, highly composable codebase brings, but it’s
 always nice to try and mitigate the effects of more verbose HTML. I feel that it
 would be nice to have the best of both worlds (hence my proposal for
 [<cite>Naming UI components in
-OOCSS</cite>](http://csswizardry.com/2014/03/naming-ui-components-in-oocss/)),
+OOCSS</cite>](/2014/03/naming-ui-components-in-oocss/)),
 so I’m constantly looking for ways to try and keep an even balance.
 
-[BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+[BEM](/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 is already an incredibly solid start in making your HTML a lot more transparent:
 having namespaces in your classes paints a really clear picture of which classes
 are related to one another, if at all. It leaves you with highly descriptive
@@ -207,7 +207,7 @@ of errors occurring.
 
 As I mentioned previously, however, this method is not without its drawbacks, so
 please take these—and [your own
-context](http://csswizardry.com/2013/01/you-know-your-context-on-critical-thinking-and-thinking-for-yourself/)—into
+context](/2013/01/you-know-your-context-on-critical-thinking-and-thinking-for-yourself/)—into
 account when considering adopting it.
 
 The first possible pitfall with this method of using square brackets to group

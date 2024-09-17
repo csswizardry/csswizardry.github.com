@@ -19,7 +19,7 @@ This is a quick, simple tutorial on how to create multiple column lists by only 
 
 
 
-## [View demo](http://csswizardry.com/demos/multiple-column-lists/)
+## [View demo](/demos/multiple-column-lists/)
 
 
 

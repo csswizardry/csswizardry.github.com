@@ -10,7 +10,7 @@ Let me please start this post by saying that this is **not a recommendation or
 new ‘best practice’**. This is me thinking out loud.
 
 I’m a huge fan and proponent of
-[BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/),
+[BEM](/2013/01/mindbemding-getting-your-head-round-bem-syntax/),
 and have been for many years. It’s kinda funny looking, sure, but it provides me
 with a lot of things:
 
@@ -63,7 +63,7 @@ because it
 * increases fragility (nesting means more chances for the selector to go wrong).
 
 In short, [<cite>keep your CSS selectors
-short</cite>](http://csswizardry.com/2012/05/keep-your-css-selectors-short/).
+short</cite>](/2012/05/keep-your-css-selectors-short/).
 
 But in the case of nesting BEM we see that nesting does in fact give us tangible
 benefits. How do we deal with the downsides?
@@ -81,7 +81,7 @@ only selectors are IDs would have well managed specificity: the specificity
 would be universally high, but would at least all be equal and consistent.
 
 When we talk about well managed specificity, we’re talking about [Specificity
-Graphs](http://csswizardry.com/2014/10/the-specificity-graph/) which are as flat
+Graphs](/2014/10/the-specificity-graph/) which are as flat
 as possible.
 
 If we look at the following CSS for a series of components:

@@ -41,7 +41,7 @@ It is now written on top of Sass, not doing anything particularly exciting but t
 
 
 
-inuit.css is fully OO; it is a library which does very little styling but a _lot_ of heavy lifting. inuit.css’ job is to package up design patterns and abstractions such as [the nav abstraction](http://csswizardry.com/2011/09/the-nav-abstraction/), [the island object](http://csswizardry.com/2011/10/the-island-object/) and more.
+inuit.css is fully OO; it is a library which does very little styling but a _lot_ of heavy lifting. inuit.css’ job is to package up design patterns and abstractions such as [the nav abstraction](/2011/09/the-nav-abstraction/), [the island object](/2011/10/the-island-object/) and more.
 
 
 

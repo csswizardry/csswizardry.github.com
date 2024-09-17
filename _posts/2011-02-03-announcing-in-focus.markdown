@@ -14,7 +14,7 @@ You may remember me Dribbbling [a couple](http://dribbble.com/shots/99264-Secret
 
 
 
-[![](http://csswizardry.com/wp-content/uploads/2011/02/in-focus.jpg)](/in-focus/)
+[![](/wp-content/uploads/2011/02/in-focus.jpg)](/in-focus/)
 
 The site took me about three hours from concept to first phase, then about an hour to port it over to WordPress, so about 4-5 hours in total. I'm pretty pleased with the design, and it has a tablet and mobile version, too.
 

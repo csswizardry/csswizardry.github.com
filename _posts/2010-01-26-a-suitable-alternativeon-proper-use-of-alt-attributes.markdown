@@ -13,7 +13,7 @@ tag:
 - Semantics
 ---
 
-Images in HTML come with a mandatory attribute used to _textually_ describe the information displayed _visually_ through the image. The `alt` attribute ([not tag](http://csswizardry.com/eta)) is used by screenreaders etc to tell users who can't view the actual image what it represents. It is also used in any circumstance where images can't be loaded (slow connections, broken URIs etc).
+Images in HTML come with a mandatory attribute used to _textually_ describe the information displayed _visually_ through the image. The `alt` attribute (not _tag_) is used by screenreaders etc to tell users who can't view the actual image what it represents. It is also used in any circumstance where images can't be loaded (slow connections, broken URIs etc).
 
 
 
@@ -47,7 +47,7 @@ The next best scenario is that you are using images correctly, for their correct
 
 
 
-![A photograph of an abandoned car](http://csswizardry.com/wp-content/uploads/2010/01/car.jpg)
+![A photograph of an abandoned car](/wp-content/uploads/2010/01/car.jpg)
 
 
 
@@ -127,7 +127,7 @@ Writing proper `alt` text is incredibly simple, yet a little more time consuming
 
 
 
-Also, for any pages that use similar images repeatedly but are slightly different to one another, make sure your alt attributes reflect these differences. A good example would be [my portfolio page](http://csswizardry.com/portfolio/). Instead of using `alt="Screenshot"` over and over again I used text like `alt="Screenshot of Suzanna Haworth’s website"` and `alt="Screenshot of RAAMaudio UK Ltd."` etc.
+Also, for any pages that use similar images repeatedly but are slightly different to one another, make sure your alt attributes reflect these differences. A good example would be [my portfolio page](/portfolio/). Instead of using `alt="Screenshot"` over and over again I used text like `alt="Screenshot of Suzanna Haworth’s website"` and `alt="Screenshot of RAAMaudio UK Ltd."` etc.
 
 
 

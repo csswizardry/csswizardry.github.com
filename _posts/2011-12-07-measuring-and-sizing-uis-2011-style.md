@@ -22,7 +22,7 @@ These methods seem to have all happened sequentially, with us each time dropping
 
 Let’s forget responsive design for a second. Responsive design is a three-tiered approach but here we’re only interested in fluid layouts (N.B. not even necessarily fluid grids). A fluid layout, as you all know, is one that is size-agnostic; it acts like a liquid, occupying a constant percentage of a varying space.
 
-Now, fluid grids are a little tricky as they’re based around full grid systems. Luckily I’ve created a simple [fluid grid calculator](http://csswizardry.com/fluid-grids/) to work these behemoths out, but in more simple terms it’s remarkably easy to set a fluid layout even if that was never the intention.
+Now, fluid grids are a little tricky as they’re based around full grid systems. Luckily I’ve created a simple [fluid grid calculator](/fluid-grids/) to work these behemoths out, but in more simple terms it’s remarkably easy to set a fluid layout even if that was never the intention.
 
 If your designer sends you a two-column design then all you need to do is work out **not** how big the respective columns are, but instead work out _how much bigger one is than the other_. That is to say; stop thinking ‘this content area is 600px and the sidebar is 300px’ and _start_ thinking ‘this content area is twice as big as the sidebar’. Percentages work well whether you’re going responsive or not!
 
@@ -70,7 +70,7 @@ To work out unitless line-heights is simple. Use the following equation: the lin
 
 ## Using rems
 
-Despite [my initial thoughts](http://csswizardry.com/2011/05/font-sizing-with-rem-could-be-avoided/), I have now started setting type in rems (with a pixel fallback).
+Despite [my initial thoughts](/2011/05/font-sizing-with-rem-could-be-avoided/), I have now started setting type in rems (with a pixel fallback).
 
 This gives us two things, firstly we have what I call ‘progressive accessibility’ in that it brings the accessibility benefits of ems but only in more advanced browsers.
 

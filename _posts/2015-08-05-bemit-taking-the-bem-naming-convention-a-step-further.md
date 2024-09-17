@@ -8,7 +8,7 @@ meta: "Adding further meaning and information to the BEM naming convention"
 
 Anybody who’s followed me or my work for any length of time will no doubt know
 that I’m a huge proponent of [the BEM naming
-convention](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
+convention](/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
 What I’m about to talk about in this post is not an alternative or different
 naming convention to BEM, but an augmentation: small additions that level BEM up
 a notch. This extended BEM syntax has been dubbed <i>BEMIT</i>, as it borrows
@@ -71,7 +71,7 @@ it does add usage and state information.
 
 So as not to repeat myself, it’s probably best you refer to my post from earlier
 this year, [<cite>More Transparent UI Code with
-Namespaces</cite>](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/),
+Namespaces</cite>](/2015/03/more-transparent-ui-code-with-namespaces/),
 in which I introduce the idea of prefixing every class in a codebase with a
 certain string in order to explain to developers what kind of job it does. This
 [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)-like
@@ -211,11 +211,11 @@ order (i.e. in the order of least to most important to know about, hence Hacks
 coming last), we can begin to get a nice visual snapshot of the makeup of any
 given page. You can read more about the benefits of this highlighting in [my
 previous article about
-namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#highlight-types-of-namespace).
+namespaces](/2015/03/more-transparent-ui-code-with-namespaces/#highlight-types-of-namespace).
 
 We can enable this healthcheck in multiple ways, but the simplest would probably
 be nesting the whole lot in [a Scope
-class](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#scope-namespaces-s-):
+class](/2015/03/more-transparent-ui-code-with-namespaces/#scope-namespaces-s-):
 
 ```css
 .s-healthcheck {

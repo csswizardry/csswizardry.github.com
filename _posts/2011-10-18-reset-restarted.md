@@ -150,13 +150,13 @@ Things I’ve removed:
 * Aforementioned lists reset.
 * Removal of borders from fieldsets (this needs defining on a per-design basis).
 * Font weights and styles have been redefined rather than removed.
-* Removed the underlines from the redefined `u` element as well as from the `a` by default as per my article [On negative hovers](http://csswizardry.com/2011/05/on-negative-hovers/).
+* Removed the underlines from the redefined `u` element as well as from the `a` by default as per my article [On negative hovers](/2011/05/on-negative-hovers/).
 
 Things I’ve added:
 
 * Default stylings for text-level elements.
 * Default styles for several new and/or redefined HTML5 elements (e.g. `mark` and `u`).
-* [Text styles on images](http://csswizardry.com/2011/06/styling-alt-text-on-images/)
+* [Text styles on images](/2011/06/styling-alt-text-on-images/)
 * Make form elements inherit type properly.
 
 Even if you don’t choose to use my reset (though it’d be great if you did) the one thing I urge you to take from this article is **think about your reset**. If you find yourself constantly overwriting rules from it then you ought to remove them. And remember; your reset can change per-build! You don’t always have to use the same one, just alter it where necessary for each design.

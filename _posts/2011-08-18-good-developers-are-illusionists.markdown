@@ -30,7 +30,7 @@ Another practical example of this is something I helped someone out with recentl
 
 
 
-![Incorrect structure](http://csswizardry.com/wp-content/uploads/2011/08/incorrect.gif)
+![Incorrect structure](/wp-content/uploads/2011/08/incorrect.gif)
 
 
 
@@ -54,7 +54,7 @@ Enter the magic of illusion. Here's how I tackled that problem:
 
 
 
-![Correct structure](http://csswizardry.com/wp-content/uploads/2011/08/correct.gif)
+![Correct structure](/wp-content/uploads/2011/08/correct.gif)
 
 
 

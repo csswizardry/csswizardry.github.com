@@ -11,11 +11,11 @@ meta: "Redesigning CSS Wizardry to better suit my needs"
 ---
 
 [Almost a year ago, I decided I wanted to work for
-myself.](http://csswizardry.com/2013/07/make-it-count/) Everything after that
+myself.](/2013/07/make-it-count/) Everything after that
 all happened so quickly that I never even got round to redesigning this website.
 
 I’m a very pragmatic, product-led, agile-working developer, so I decided to put
-together [a micro-site](http://csswizardry.com/work/) to handle a more
+together [a micro-site](/work/) to handle a more
 business-oriented face onto the web: it would be far, _far_ quicker to build
 something small and focused from scratch than it would have been—at the time—to
 redesign the whole site. That micro site has served me very well, and grew into

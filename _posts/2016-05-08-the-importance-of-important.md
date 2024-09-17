@@ -62,7 +62,7 @@ If we need to bump the specificity of a single class up, we can chain it with
 itself (e.g. `.btn.btn {}`). If we need to bring the specificity of an ID down,
 we can rewrite it as an attribute selector (e.g. `[id="header"] {}`). You can
 read about that in much more detail in my [<cite>Hacks for Dealing with
-Specificity</cite>](http://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/)
+Specificity</cite>](/2014/07/hacks-for-dealing-with-specificity/)
 article.
 
 Most of the time, there is no need to turn to an `!important`.
@@ -95,7 +95,7 @@ explicit jobs. Classes like:
 
 They all begin with a `u-` in order to tell the next developer [what their
 purpose
-is](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/),
+is](/2015/03/more-transparent-ui-code-with-namespaces/),
 and they all carry out just one simple piece of styling.
 
 All of the declarations in the rulesets above are defined without an
@@ -174,7 +174,7 @@ If, instead, we’re taking a more modular and componentised approach to our CSS
 ```
 
 They will have a scope (a Block, in
-[BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)),
+[BEM](/2013/01/mindbemding-getting-your-head-round-bem-syntax/)),
 and will be well encapsulated. The beauty of classes like this is that we can
 easily spot relationships in our HTML (something that’s much harder (nigh on
 impossible) with functional CSS), e.g.:

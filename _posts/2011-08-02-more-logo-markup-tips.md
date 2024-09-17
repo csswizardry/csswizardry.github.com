@@ -13,7 +13,7 @@ tag:
 - Web Standards
 ---
 
-In my previous article we determined that [your logo is not a `<h1>`](http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/) and is in fact an image (`<img />`) in its own right. Now let’s cover some nice little tips and snippets for making the most of your markup and creating a nicer UX around it.
+In my previous article we determined that [your logo is not a `<h1>`](/2010/10/your-logo-is-an-image-not-a-h1/) and is in fact an image (`<img />`) in its own right. Now let’s cover some nice little tips and snippets for making the most of your markup and creating a nicer UX around it.
 
 The techniques I’m going to cover can be found on my recently launched hub site [hry.rbrts.me](http://hry.rbrts.me), but for the sake of clarity I have [isolated them in a jsFiddle here](http://jsfiddle.net/csswizardry/h7zrY/).
 

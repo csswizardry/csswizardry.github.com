@@ -159,7 +159,7 @@ To which my response was:
 > <q>…more often than not code was being duplicated.</q>
 > 
 > Back on the subject of DRYness. To quote myself from [this
-> article](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/):
+> article](/2014/11/when-to-use-extend-when-to-use-a-mixin/):
 > <q>Repetition in a compiled system is not a bad thing: repetition in source is
 > a bad thing.</q>
 > 

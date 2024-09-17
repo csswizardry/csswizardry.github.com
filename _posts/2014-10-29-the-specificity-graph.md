@@ -11,7 +11,7 @@ As we all (should) probably know by now,
 troublesome features, and is an area that soon becomes hard to manage on
 projects of any reasonable size. Specificity is a trait best avoided, which is
 why we [don’t use IDs in
-CSS](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class),
+CSS](https://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/),
 and we [don’t nest selectors](http://cssguidelin.es/#nesting) unless absolutely
 necessary.
 

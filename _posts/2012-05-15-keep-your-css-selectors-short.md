@@ -32,7 +32,7 @@ This is a very vague list, so I’m going to address each in order. You will fin
 
 ## Increases Selector Efficiency
 
-I have written before about CSS selector efficiency. I’m going to gloss over a lot of the intricacies in this post so for a full background understanding I recommend you read [Writing efficient CSS selectors](http://csswizardry.com/2011/09/writing-efficient-css-selectors/) first.
+I have written before about CSS selector efficiency. I’m going to gloss over a lot of the intricacies in this post so for a full background understanding I recommend you read [Writing efficient CSS selectors](/2011/09/writing-efficient-css-selectors/) first.
 
 If we ignore actual types of selector (`* {}` is typically the slowest, depending on how it’s being used, IDs are the fastest followed by classes, descendants are comparably quite slow followed by pseudo-selectors) then _in general_ it is safe to say that shorter selectors are faster.
 
@@ -63,7 +63,7 @@ So now that we’re not tied to locationally dependant selectors, we find that o
 
 Another way to increase portability is to not qualify selectors. A qualified selector is one like `ul.nav {}` or `a.button {}` or `div.content {}`.
 
-Qualified selectors are bad because they reduce efficiency (more checks than we really need) but—more importantly—because they tie us to specific elements. We can’t now use that `.button` class on an `<input>` or a `<button>`, for example. We can’t [apply `.nav` to an `<ol>` to make a breadcrumb](http://csswizardry.com/2011/09/the-nav-abstraction/).
+Qualified selectors are bad because they reduce efficiency (more checks than we really need) but—more importantly—because they tie us to specific elements. We can’t now use that `.button` class on an `<input>` or a `<button>`, for example. We can’t [apply `.nav` to an `<ol>` to make a breadcrumb](/2011/09/the-nav-abstraction/).
 
 **Selectors should be element-agnostic**. Your CSS shouldn’t care what element you’re wanting to apply styling to.
 
@@ -99,7 +99,7 @@ Shorter selectors mean there is statistically less chance for things to go wrong
 
 This is the big one! This is where it really matters!
 
-Longer selectors have a higher specificity. Specificity is a nightmare and **you should keep specificity as low as possible all of the time**. We already know that we [**do not use IDs in CSS**](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/) but a chain of selectors are often just as bad (though not quite).
+Longer selectors have a higher specificity. Specificity is a nightmare and **you should keep specificity as low as possible all of the time**. We already know that we [**do not use IDs in CSS**](/2011/09/when-using-ids-can-be-a-pain-in-the-class/) but a chain of selectors are often just as bad (though not quite).
 
 A selector like `.widget > h2 {}` has a higher specificity (as well as the other problems we discussed) than a selector like `.widget-title {}`.
 

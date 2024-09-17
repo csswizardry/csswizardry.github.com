@@ -54,7 +54,7 @@ Wrong, you can actually use the `border-radius` shorthand to nail this in three 
 
 
 
-The syntax follows the following rule: `border-radius:top-left top-right bottom-right bottom-left;`. I've tested this in Firefox (`-moz-border-radius`), Webkit (`-webkit-border-radius`) and Opera (`border-radius`) and [it works just fine](http://csswizardry.com/demos/border-radius/).
+The syntax follows the following rule: `border-radius:top-left top-right bottom-right bottom-left;`. I've tested this in Firefox (`-moz-border-radius`), Webkit (`-webkit-border-radius`) and Opera (`border-radius`) and [it works just fine](/demos/border-radius/).
 
 
 

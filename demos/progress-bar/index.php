@@ -52,7 +52,7 @@ else{
 		</li>
 	</ol>
 	
-	<p style="clear:both;"><a href="http://csswizardry.com/2010/11/mark-up-a-semantic-accessible-progressively-enhanced-mobile-optimised-progress-bar-bonus-style-the-numbers-in-an-ordered-list">Back to main article.</p>
+	<p style="clear:both;"><a href="/2010/11/mark-up-a-semantic-accessible-progressively-enhanced-mobile-optimised-progress-bar-bonus-style-the-numbers-in-an-ordered-list">Back to main article.</p>
 
 	<script type="text/javascript">
 		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

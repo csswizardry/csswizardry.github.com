@@ -19,7 +19,7 @@ teams, maintenance, working on products and a lot, _lot_ more. Sky has been
 great – and the most formative work of my career so far – so choosing to leave
 was an incredibly difficult decision; one which took a long time to make. You
 can read a lot more about that in my (now infamous) post,
-[<cite>Make it count</cite>](http://csswizardry.com/2013/07/make-it-count/),
+[<cite>Make it count</cite>](/2013/07/make-it-count/),
 from back in July. Now, for the next chapter…
 
 **I’m going it alone.**

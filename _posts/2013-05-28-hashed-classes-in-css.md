@@ -12,7 +12,7 @@ meta: Spoofing the uniqueness of IDs by putting hashes in your classes
 
 I gave a talk at [Beyond Tellerrand](http://2013.beyondtellerrand.com/) yesterday
 in which I shared some advice concerning the use of IDs in CSS, something which
-[I vehemently recommend you avoid](/2011/09/when-using-ids-can-be-a-pain-in-the-class).
+[I vehemently recommend you avoid](/2011/09/when-using-ids-can-be-a-pain-in-the-class/).
 [Vitaly](http://twitter.com/smashingmag), who was in the audience,
 [tweeted a snippet of the advice](https://twitter.com/smashingmag/status/339029930551676930)
 which was, unfortunately, a little out of context. I got a _lot_ of tweets after
@@ -25,7 +25,7 @@ your JS, sure, and as fragment identifiers in HTML, but do not use them to style
 things in CSS. The reasons for this are, firstly, lack of reusability and
 secondly—and more importantly—_they are a specificity heavyweight_. Instead of
 covering the specificity problems again, you can check out [the article I
-previously wrote on the subject](/2011/09/when-using-ids-can-be-a-pain-in-the-class)
+previously wrote on the subject](/2011/09/when-using-ids-can-be-a-pain-in-the-class/)
 back in 2011.
 
 Whenever I give this advice I typically get mixed reactions; a lot of people see

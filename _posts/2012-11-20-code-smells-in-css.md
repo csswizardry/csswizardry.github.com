@@ -254,7 +254,7 @@ A lot of people use a `header` element to mark up their site’s main header—w
 
 To give such specific styling to such a generic selector is dangerous. Your styles will leak out into areas they shouldn’t as soon as you start trying to use that element again, and you’ll need to start undoing styles (adding more code to take styles away) in order to combat this.
 
-Make sure your selectors have good [selector intent](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/).
+Make sure your selectors have good [selector intent](/2012/07/shoot-to-kill-css-selector-intent/).
 
 Take the following:
 
@@ -292,7 +292,7 @@ I have no qualms whatsoever with `!important`, as long as it has been used proac
 
 ## IDs
 
-This one is very specific to me, and to larger teams. [I have written before about how IDs are a bad idea](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/) because of their heightened specificity; they are of no use to anyone and should **never be used in CSS**. Use IDs in HTML for fragment identifiers and JS hooks, but never in CSS.
+This one is very specific to me, and to larger teams. [I have written before about how IDs are a bad idea](/2011/09/when-using-ids-can-be-a-pain-in-the-class/) because of their heightened specificity; they are of no use to anyone and should **never be used in CSS**. Use IDs in HTML for fragment identifiers and JS hooks, but never in CSS.
 
 The reasons are simple:
 

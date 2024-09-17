@@ -104,7 +104,7 @@ our ability to reuse things.**
 One method, obviously, would be to wrap all these classes up into one unique one
 using Sass’ `@extend` directive, but there are problems with `@extend` that both
 [Oliver J Ash](http://oliverjash.me/2012/09/07/methods-for-modifying-objects-in-oocss.html)
-and I have [already covered](http://csswizardry.com/2014/01/extending-silent-classes-in-sass/):
+and I have [already covered](/2014/01/extending-silent-classes-in-sass/):
 chiefly, that `@extend` is very greedy, and can cause serious bloat if you’re
 not careful.
 

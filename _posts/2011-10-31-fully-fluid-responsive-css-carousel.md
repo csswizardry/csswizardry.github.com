@@ -195,7 +195,7 @@ The problem is that you have to know how many full moves and pauses are needed f
 
 ## Update
 
-Massive thanks to Clay who’s worked out that the number of steps is 4n-3 and that the total time between start of one animation and the next is 100 / 2(n-1) (where n is the number of panes). See [his full comment](http://csswizardry.com/2011/10/fully-fluid-responsive-css-carousel/#comment-95396).
+Massive thanks to Clay who’s worked out that the number of steps is 4n-3 and that the total time between start of one animation and the next is 100 / 2(n-1) (where n is the number of panes). See [his full comment](/2011/10/fully-fluid-responsive-css-carousel/#comment-95396).
 
 But, the code above will sort you out a perfect animation for a five panes so feel free to nab it! I’ll update if and when I crack some maths!
 

@@ -62,7 +62,7 @@ This does mean additional HTTP requests, however it does mean that we see the ex
 
 
 
-In case you haven't guessed, one of the first igloos to come to inuit.css is the [annotated `<figure>` snippet](http://csswizardry.com/2011/06/annotated-figures-in-html5-and-css/) I wrote last week!
+In case you haven't guessed, one of the first igloos to come to inuit.css is the [annotated `<figure>` snippet](/2011/06/annotated-figures-in-html5-and-css/) I wrote last week!
 
 I'm working on writing igloos and also preparing them and v2.0 for release. They should be ready within the next week or so but to keep up to date follow [inuit.css on Twitter](http://twitter.com/inuitcss).
 

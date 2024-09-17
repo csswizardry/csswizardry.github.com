@@ -199,7 +199,7 @@ system for each of our breakpoints. Now it’s no longer just `.one-whole`,
 query we have. Initially this seems like a lot, **but**…
 
 This level of repetition will compress _incredibly_ well. We all know [we should
-be gzipping our plain text assets anyway](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:gzipping-and-minifying),
+be gzipping our plain text assets anyway](/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:gzipping-and-minifying),
 but it’s more important than ever with things like this. Gzip works best on
 repeated strings, so the more repeated strings in your code then the better
 compression ratio you will get. Although repetition in code is bad (usually more

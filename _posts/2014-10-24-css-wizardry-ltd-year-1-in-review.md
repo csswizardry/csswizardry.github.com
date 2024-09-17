@@ -18,7 +18,7 @@ attempts at self-censoring, I just let it all flow. You have been warned.</small
 
 ## The work
 
-I [went into self employment](http://csswizardry.com/2013/10/lets-work-together/)
+I [went into self employment](/2013/10/lets-work-together/)
 in typical _me_ fashion: informal, optimistic, freestyle. My thinking was that
 I’d had 6–7 years of amazing but very predictable employment, so **I wanted to
 make the most of striking out alone by not having any rigid plans in place**. I
@@ -36,11 +36,11 @@ In the last year I’ve worked for large companies like [the
 BBC](/case-studies/bbc-workshop/) and [the
 NHS](/case-studies/nhs-nhsx-elearning-platform/), to [smaller
 companies](/case-studies/madgex-consultancy-workshop/), to working with
-[individuals](http://csswizardry.com/work/#quote:markus-klug) from their home
+[individuals](/work/#quote:markus-klug) from their home
 offices.
 
 The single longest engagement I had was with [the
-NHS](http://csswizardry.com/case-studies/nhs-nhsx-elearning-platform/), and
+NHS](/case-studies/nhs-nhsx-elearning-platform/), and
 lasted just 21 days. The majority of my work has been single-day workshops with
 companies, and a few week-to-fortnight engagements with several clients who
 required a little more involvement.
@@ -54,7 +54,7 @@ I wanted to do.**
 I have only worked on three development projects in the last year. One was an
 initial sprint’s worth of work to define and plan out architectures and
 strategies; another was [the
-NHS project](http://csswizardry.com/case-studies/nhs-nhsx-elearning-platform/)
+NHS project](/case-studies/nhs-nhsx-elearning-platform/)
 which was several sprint’s worth of work handled in a very satellite fashion;
 another is still ongoing. I’ve really enjoyed the dev work, but only because my
 role has, again, been very consultancy led. **I’ve turned down every project
@@ -195,7 +195,7 @@ is, for now, my dream job.** I’d be silly to change that.
 Honestly, it’s impossible to say. Perhaps it was
 
 * staying in [this hotel that is literally a castle](http://www.schlosshotel-kronberg.de/);
-* working from [Markus](http://csswizardry.com/work/#quote:markus-klug)’ house
+* working from [Markus](/work/#quote:markus-klug)’ house
   up in the snowy, forested [hills above
   Frankfurt](https://www.google.com/search?q=Kronberg,+Frankfurt&safe=off&espv=2&biw=1418&bih=747&source=lnms&tbm=isch&sa=X&ei=HrdLVKDNCtKd7gbIxoCgDQ&ved=0CAgQ_AUoAw);
 * [this view](http://instagram.com/p/jt-SAPIjIV/) on my way to work in

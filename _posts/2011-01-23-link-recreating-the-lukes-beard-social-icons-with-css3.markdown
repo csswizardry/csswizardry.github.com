@@ -13,7 +13,7 @@ tag:
 - Progressive Enhancement
 ---
 
-I was browsing [Dribbble](http://dribbble.com/csswizardry) this afternoon when I came across [Luke's Beard profile](http://dribbble.com/lukesbeard/) and then, in turn, [his website](http://www.lukesbeard.com/). I noticed some pretty cool hover effects going on with his social icons which [I decided to recreate without JavaScript and using some progressive CSS](http://csswizardry.com/demos/lukes-beard-social-icons/).
+I was browsing [Dribbble](http://dribbble.com/csswizardry) this afternoon when I came across [Luke's Beard profile](http://dribbble.com/lukesbeard/) and then, in turn, [his website](http://www.lukesbeard.com/). I noticed some pretty cool hover effects going on with his social icons which [I decided to recreate without JavaScript and using some progressive CSS](/demos/lukes-beard-social-icons/).
 
 
 
@@ -21,7 +21,7 @@ I was browsing [Dribbble](http://dribbble.com/csswizardry) this afternoon when I
 
 
 
-I won't write everything up because a view of the source and [CSS](http://csswizardry.com/demos/lukes-beard-social-icons/css/style.css) should explain everything.
+I won't write everything up because a view of the source and [CSS](/demos/lukes-beard-social-icons/css/style.css) should explain everything.
 
 Luke did not commission this work, so please don't reuse the icons or copy this without permission from the respective people. I allow full use of my code (with attribution) but please don't copy Luke's format for social icons--the code is mine but its implementation on social icons is Luke's.
 

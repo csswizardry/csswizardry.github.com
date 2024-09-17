@@ -13,7 +13,7 @@ tag:
 - Performance
 ---
 
-Efficient CSS is not a new topic, nor one that I really need to cover, but it’s something I’m really interested in and have been keeping an eye on more and more since working at [Sky](http://csswizardry.com/case-studies/bskyb/).
+Efficient CSS is not a new topic, nor one that I really need to cover, but it’s something I’m really interested in and have been keeping an eye on more and more since working at [Sky](/case-studies/bskyb/).
 
 A lot of people forget, or simply don’t realise, that CSS can be both performant and non-performant. This can be easily forgiven however when you realise just how little you can, err, realise, non-performant CSS.
 

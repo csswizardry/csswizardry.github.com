@@ -227,7 +227,7 @@ inside its (S)CSS file, not something else’s.
 #### The Good
 
 Although we are using nesting, we do have good [Selector
-Intent](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/): we
+Intent](/2012/07/shoot-to-kill-css-selector-intent/): we
 really do want to make `.nav-primary` do something different when it’s inside of
 `.page-head`. Good Selector Intent means that our CSS is doing the right things
 for the right reasons.
@@ -246,11 +246,11 @@ is good Separation of Concerns.
 But, of course there are bad bits.
 
 First and foremost, this is violating [the Open/Closed
-Principle](http://csswizardry.com/2012/06/the-open-closed-principle-applied-to-css/).
+Principle](/2012/06/the-open-closed-principle-applied-to-css/).
 This means that we are editing `.nav-primary` specifically, only we’re doing it
 via `.page-head`. We are not extending components here, we are altering them
 through conditions (i.e. increasing [Cyclomatic
-Complexity](http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/)).
+Complexity](/2015/04/cyclomatic-complexity-logic-in-css/)).
 
 Because of violation of the Open/Closed Principle, we have ended up with a
 dictatorial selector. We have written a selector that says <q>If you put that
@@ -277,7 +277,7 @@ We implement this in the DOM like so:
 Because `.nav-primary--sub` sits alongside a class of `.nav-primary`, it’s going
 to get shunted over to the right. We probably don’t want this, so we’ll have to
 write some CSS to undo it. More CSS to achieve less styling is [a definite Code
-Smell](http://csswizardry.com/2012/11/code-smells-in-css/#undoing-styles).
+Smell](/2012/11/code-smells-in-css/#undoing-styles).
 
 So nesting perhaps isn’t the best solution.
 
@@ -329,7 +329,7 @@ in time’.
 We also have a really nice paper trail of intent here: we can see in our HTML
 that we have clear separation of concerns. We have classes for component
 styling, and classes for bespoke or ‘in situ’ treatments. If we’d adopted
-[Namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+[Namespaces](/2015/03/more-transparent-ui-code-with-namespaces/)
 here we’d have _even more_ clarity.
 
 #### The Bad

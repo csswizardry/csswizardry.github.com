@@ -247,7 +247,7 @@ that you could highlight up to a point you can <i>visualise</i>.
 Modes are a great way to work through different tasks on your code without
 ever leaving your text editor, or even your keyboard. For me, who spends a lot
 of time [reviewing other peoples’
-code](http://csswizardry.com/2013/11/code-reviews-as-a-service/), being able to
+code](/2013/11/code-reviews-as-service/), being able to
 navigate it easily is a must.
 
 ## Very Literal
@@ -314,7 +314,7 @@ smaller component-parts allows people to combine and compose an almost limitless
 amount of variations.
 
 Anyone who is familiar with the [Single Responsibility
-Principle](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+Principle](/2012/04/the-single-responsibility-principle-applied-to-css/)
 will already see the huge, _huge_ benefit this brings. Instead of rigid commands
 that only do one big, specific thing, we can piece together the bits we want as
 we want them. Subway operates on the Single Responsibility Principle in order to

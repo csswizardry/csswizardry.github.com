@@ -21,7 +21,7 @@ tag:
 
 How about that for an over-the-top title? But it's true, that's what we're going to be doing. It's been a while since my last post, unfortunately, so I thought I'd make up for it with this sizeable offering in which we will learn a lot of really great techniques in order to make something as simple as a progress bar. By which I mean a breadcrumb-esque meter of steps, such as you might find on a checkout process; we are making [this](/demos/progress-bar/):
 
-[![Screenshot of the final product.](http://csswizardry.com/wp-content/uploads/2010/11/progress.jpg)](/demos/progress-bar/)
+[![Screenshot of the final product.](/wp-content/uploads/2010/11/progress.jpg)](/demos/progress-bar/)
 
 
 
@@ -192,7 +192,7 @@ As stated earlier we are assuming the current page to be the payment page. Now, 
 
 Well the solution would be to programatically wrap a `<strong>` around the text on that page, undo the bolding effects with CSS for browsers with styles enabled, and allow people viewing unstyled content to see that the bolded item is the current page. This gives us:
 
-![Unstyled progress bar](http://csswizardry.com/wp-content/uploads/2010/11/progress-unstyled.jpg)
+![Unstyled progress bar](/wp-content/uploads/2010/11/progress-unstyled.jpg)
 
 As you can see, users with styles disabled can clearly see the current link is the bolded one, this makes the progress bar that little bit more  accessible to those who might need it.
 
@@ -279,7 +279,7 @@ Now to style this thing up. First off we'll look at the very basic CSS, and that
 
 All of the above is very obvious, it is essentially just like creating a normal navigational menu, and gives us this:
 
-![Basic progress bar](http://csswizardry.com/wp-content/uploads/2010/11/progress-basic.jpg)
+![Basic progress bar](/wp-content/uploads/2010/11/progress-basic.jpg)
 
 
 
@@ -356,7 +356,7 @@ Once we have this number available to us we use the CSS `:before` pseudo-element
 
 This then gives us this:
 
-![Non-CSS3 progress bar](http://csswizardry.com/wp-content/uploads/2010/11/no-css3-progress.jpg)
+![Non-CSS3 progress bar](/wp-content/uploads/2010/11/no-css3-progress.jpg)
 
 
 
@@ -506,7 +506,7 @@ The full, combined CSS for the progress bar so far is:
 
 Which, when coupled with the markup, gives this:
 
-[![Screenshot of the final product.](http://csswizardry.com/wp-content/uploads/2010/11/progress.jpg)](/demos/progress-bar/)
+[![Screenshot of the final product.](/wp-content/uploads/2010/11/progress.jpg)](/demos/progress-bar/)
 
 
 
@@ -553,7 +553,7 @@ So, let's cover what we've done so far. We've:
 
 
 
-For more information on mobile/iPhone optimised sites please see [my associated article](http://csswizardry.com/2010/01/iphone-css-tips-for-building-iphone-websites/).
+For more information on mobile/iPhone optimised sites please see [my associated article](/2010/01/iphone-css-tips-for-building-iphone-websites/).
 
 
 
@@ -613,11 +613,11 @@ Now, add the following to the very end of your CSS file:
 
 
 
-Now, if you want to test this and don't have a smartphone, or haven't got this hosted in a live environment, simply resize your browser window right down until you see the change. I tend to use the Firefox Web Developer Toolbar addon to [resize the window to 480x800px](http://csswizardry.com/wp-content/uploads/2010/11/mobile-optimised-progress.jpg).
+Now, if you want to test this and don't have a smartphone, or haven't got this hosted in a live environment, simply resize your browser window right down until you see the change. I tend to use the Firefox Web Developer Toolbar addon to [resize the window to 480x800px](/wp-content/uploads/2010/11/mobile-optimised-progress.jpg).
 
 On the iPhone this now looks like:
 
-![iPhone optimised progress bar](http://csswizardry.com/wp-content/uploads/2010/11/iphone-progress.jpg)
+![iPhone optimised progress bar](/wp-content/uploads/2010/11/iphone-progress.jpg)
 
 
 
@@ -627,11 +627,11 @@ On the iPhone this now looks like:
 
 
 
-## [Demo](http://csswizardry.com/demos/progress-bar/)
+## [Demo](/demos/progress-bar/)
 
 
 
-For the full working demo head to [http://csswizardry.com/demos/progress-bar/](http://csswizardry.com/demos/progress-bar/). For the complete CSS (with reset) please see [http://csswizardry.com/demos/progress-bar/css/style.css](http://csswizardry.com/demos/progress-bar/css/style.css). Also, try using Firebug to change the `<body>`'s ID to `go-page`.
+For the full working demo head to [/demos/progress-bar/](/demos/progress-bar/). For the complete CSS (with reset) please see [/demos/progress-bar/css/style.css](/demos/progress-bar/css/style.css). Also, try using Firebug to change the `<body>`'s ID to `go-page`.
 
 
 

@@ -36,7 +36,7 @@ Hi there, I'm Harry Roberts, I am a web developer at [BSkyB](http://sky.com/). I
 
 
 
-![A photo of me](http://csswizardry.com/wp-content/uploads/2009/12/harry-roberts.jpg)**Above:** A photo of me.
+![A photo of me](/wp-content/uploads/2009/12/harry-roberts.jpg)**Above:** A photo of me.
 
 
 

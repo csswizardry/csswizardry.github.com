@@ -160,7 +160,7 @@ Okay, so far we’ve worked with body copy to headings to beyond; what about sma
 
 <pre><code>small,<del datetime="2012-03-01T00:00:16+00:00">.omega</del><ins datetime="2012-03-01T00:00:16+00:00">.milli</ins>{ [font styles] }</code></pre>
 
-[`small` has been redefined in HTML5](http://csswizardry.com/2011/01/html5-and-text-level-semantics/#small-el) so that’s an element we can use again freely<del> and `.omega` is simply the last letter in the Greek alphabet</del>.
+[`small` has been redefined in HTML5](/2011/01/html5-and-text-level-semantics/#small-el) so that’s an element we can use again freely<del> and `.omega` is simply the last letter in the Greek alphabet</del>.
 
 #### Addendum
 

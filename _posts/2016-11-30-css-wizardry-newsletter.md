@@ -30,7 +30,7 @@ within the remit of a Tweet or a blog post. This means more curated and
 exclusive content; it means more off-topic and obscure; it means more personable
 and direct.
 
-<a href="http://csswizardry.us14.list-manage2.com/subscribe?u=95f3f41085f5f957a07ba5efd&id=ba05b5418d" class="btn  btn--full">Sign up</a>
+<a href="https://csswizardry.us14.list-manage2.com/subscribe?u=95f3f41085f5f957a07ba5efd&id=ba05b5418d" class="btn  btn--full">Sign up</a>
 
 ### Exclusive Content
 
@@ -95,4 +95,4 @@ touch](/contact/) with me to discuss options.
 
 Cool! Get yourself [signed up below](#mc_embed_signup) or directly on [the
 MailChimp
-site](http://csswizardry.us14.list-manage2.com/subscribe?u=95f3f41085f5f957a07ba5efd&id=ba05b5418d).
+site](https://csswizardry.us14.list-manage2.com/subscribe?u=95f3f41085f5f957a07ba5efd&id=ba05b5418d).

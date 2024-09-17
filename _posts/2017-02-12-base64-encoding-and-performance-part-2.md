@@ -26,8 +26,8 @@ again over assets who’ve been inlined using Base64.
 I started out by creating two simple HTML files that have a full-cover
 background image. The first was loaded normally, the second with Base64:
 
-* [Normal](http://csswizardry.net/demos/base64/)
-* [Base64](http://csswizardry.net/demos/base64/base64.html)
+* [Normal](https://csswizardry.net/demos/base64/)
+* [Base64](https://csswizardry.net/demos/base64/base64.html)
 
 The [source image](https://www.flickr.com/photos/rockersdelight/26842162186/)
 was taken by my friend [Ashley](https://twitter.com/iamashley). I resized it
@@ -152,7 +152,7 @@ a late-requested resource, we can preload it, like so:
 
 I made another demo page:
 
-* [Preloaded Image](http://csswizardry.net/demos/base64/preload.html)
+* [Preloaded Image](https://csswizardry.net/demos/base64/preload.html)
 
 By placing this tag in the `head` of our HTML, we can actually tell the HTML to
 download the image instead of leaving the CSS to ask for it later. This means

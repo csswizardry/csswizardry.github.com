@@ -47,7 +47,7 @@ html{
 body{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color:#333;
-	background:url(http://csswizardry.com/wp-content/themes/default/images/grid.gif) top center repeat-y #fff;
+	background:url(/wp-content/themes/default/images/grid.gif) top center repeat-y #fff;
 	background:#fff;
 }
 #wrapper{

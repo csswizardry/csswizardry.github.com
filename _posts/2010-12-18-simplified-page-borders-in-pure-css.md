@@ -16,7 +16,7 @@ You may well be familiar with [John Hicks](http://hicksdesign.co.uk/)’ page
 borders that he uses on his site. These are a series of fixed position `<b>`
 elements that are placed top, right, bottom and left of the viewport over the
 content, giving the illusion of a fixed border. I wanted to achieve a similar
-effect recently but, given [my militant approach to progressive enhancement](http://csswizardry.com/2010/12/the-implementation-appreciation-rule/),
+effect recently but, given [my militant approach to progressive enhancement](/2010/12/the-implementation-appreciation-rule/),
 I decided to drop the insemantic markup and fashion a pure CSS alternative. For
 a live demo please visit [suzannahaworth.com](http://suzannahaworth.com/).
 

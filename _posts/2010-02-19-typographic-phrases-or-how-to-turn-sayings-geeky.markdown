@@ -26,7 +26,7 @@ A while ago I had the idea to express some old sayings in a silly, geeky way, us
 
 
 
-![Many hands make light work](http://csswizardry.com/wp-content/uploads/2010/02/many-hands.jpg)
+![Many hands make light work](/wp-content/uploads/2010/02/many-hands.jpg)
 
 
 
@@ -43,7 +43,7 @@ There are lots of contradictions in sayings and phrases. Like this one, if many 
 
 
 
-![Too many cooks spoil the broth](http://csswizardry.com/wp-content/uploads/2010/02/too-many-cooks.jpg)
+![Too many cooks spoil the broth](/wp-content/uploads/2010/02/too-many-cooks.jpg)
 
 
 
@@ -54,7 +54,7 @@ There are lots of contradictions in sayings and phrases. Like this one, if many 
 
 
 
-![A stitch in time saves nine](http://csswizardry.com/wp-content/uploads/2010/02/a-stitch-in-time.jpg)
+![A stitch in time saves nine](/wp-content/uploads/2010/02/a-stitch-in-time.jpg)
 
 
 
@@ -65,7 +65,7 @@ There are lots of contradictions in sayings and phrases. Like this one, if many 
 
 
 
-![While the cat is away the mice will play](http://csswizardry.com/wp-content/uploads/2010/02/while-the-cat-is-away.jpg)
+![While the cat is away the mice will play](/wp-content/uploads/2010/02/while-the-cat-is-away.jpg)
 
 
 
@@ -76,7 +76,7 @@ There are lots of contradictions in sayings and phrases. Like this one, if many 
 
 
 
-![Absence makes the heart grow fonder vs. time is a great healer](http://csswizardry.com/wp-content/uploads/2010/02/absence.jpg)
+![Absence makes the heart grow fonder vs. time is a great healer](/wp-content/uploads/2010/02/absence.jpg)
 
 
 
@@ -93,7 +93,7 @@ This one is another glaring contradiction, so I decided to combine the two into 
 
 
 
-![Out of sight, out of mind](http://csswizardry.com/wp-content/uploads/2010/02/out-of-sight.jpg)
+![Out of sight, out of mind](/wp-content/uploads/2010/02/out-of-sight.jpg)
 
 
 
@@ -109,7 +109,7 @@ This one doesn't really follow the code paradigm, but I thought I'd include it a
 
 
 
-![Two wrongs don't make a right](http://csswizardry.com/wp-content/uploads/2010/02/two-wrongs.jpg)
+![Two wrongs don't make a right](/wp-content/uploads/2010/02/two-wrongs.jpg)
 
 
 

@@ -11,7 +11,7 @@ categories:
 
 [inuit.css](http://inuitcss.com) has been live for a couple of months now, but I've decided to do a more extensive writeup of what it is, what it does, who it might help and who could--or should--be using it.
 
-[![inuit.css logo](http://csswizardry.com/wp-content/uploads/2011/04/inuit-logo.jpg)](http://inuitcss.com/)
+[![inuit.css logo](/wp-content/uploads/2011/04/inuit-logo.jpg)](http://inuitcss.com/)
 
 
 

@@ -13,11 +13,11 @@ tag:
 - HTML
 ---
 
-**N.B.** The build along [went ahead](http://csswizardry.com/2011/11/build-along-1-reflection-and-reasoning/).
+**N.B.** The build along [went ahead](/2011/11/build-along-1-reflection-and-reasoning/).
 
 I’ve been toying around with this idea the last few weeks. I’ve decided to do a quick _testing-the-water_ blog post to gauge interest and see whether anyone else would be into the idea. The story goes thus...
 
-A few weeks ago I was building a page for my good friend and awesome chap [Nick Payne](http://twitter.com/makeusabrew)--the page had been designed by another swell fella, [Ian Thomas](http://twitter.com/anatomic). We’re all pretty good friends and all excel in different areas, Ian designed Nick’s site and, [as designers _don’t_ need to code](http://csswizardry.com/2011/09/do-designers-need-to-code/), I built it. Nick sorted all the back-end and is building it onto [JAOSS](http://jaoss.org).
+A few weeks ago I was building a page for my good friend and awesome chap [Nick Payne](http://twitter.com/makeusabrew)--the page had been designed by another swell fella, [Ian Thomas](http://twitter.com/anatomic). We’re all pretty good friends and all excel in different areas, Ian designed Nick’s site and, [as designers _don’t_ need to code](/2011/09/do-designers-need-to-code/), I built it. Nick sorted all the back-end and is building it onto [JAOSS](http://jaoss.org).
 
 **N.B.** Ian can and does actually code, but for this project we all wanted a slice of the action so, in this case, he didn’t...
 

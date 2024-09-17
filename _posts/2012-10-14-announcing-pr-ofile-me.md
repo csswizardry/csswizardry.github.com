@@ -14,7 +14,7 @@ meta: A new project!
 ---
 
 Over eighteen months ago I wrote [an article about a mobile optimised business
-card](http://csswizardry.com/2011/02/mobile-business-card/) I made. Today I
+card](/2011/02/mobile-business-card/) I made. Today I
 finally did something awesome with it!
 
 [pr.ofile.me](http://pr.ofile.me) is basically a way of emulating business cards

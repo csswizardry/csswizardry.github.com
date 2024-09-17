@@ -7,7 +7,7 @@ meta: "Treating CSS rules as being immutable"
 ---
 
 In my recent article, [<cite>More Transparent UI Code with
-Namespaces</cite>](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/),
+Namespaces</cite>](/2015/03/more-transparent-ui-code-with-namespaces/),
 I mentioned a number of times that certain classes cannot or should not be
 changed, bound onto, reassigned, or otherwise modified after their initial
 creation. We had phrases like:
@@ -162,7 +162,7 @@ Until we actually get ways of creating truly immutable objects in CSS, there are
 a number of rules and principles we can stick to:
 
 Firstly, utilise and **stick to** [our
-namespacing](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/).
+namespacing](/2015/03/more-transparent-ui-code-with-namespaces/).
 Even though we can get around or break these rules, they’re a great start. If we
 make sure we signal these types of rule, at least we have a better chance of
 people modifying CSS safely.

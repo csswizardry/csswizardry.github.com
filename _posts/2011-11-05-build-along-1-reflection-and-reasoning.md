@@ -17,7 +17,7 @@ tag:
 - Responsive web design
 ---
 
-Here are, in no particular order, just a few thoughts about [the build-along](http://csswizardry.com/2011/11/css-wizardry-build-along-1/) I did last night. These thoughts cover the thinking and reasoning behind the decisions I made. The build-along was a single, small PSD, but the following should apply to builds of any size. Get into the habit of doing the following on tiny sites and you’ll be well equipped to build that next Facebook meets YouTube with a dash of LinkedIn that that prospective client just emailed you about...
+Here are, in no particular order, just a few thoughts about [the build-along](/2011/11/css-wizardry-build-along-1/) I did last night. These thoughts cover the thinking and reasoning behind the decisions I made. The build-along was a single, small PSD, but the following should apply to builds of any size. Get into the habit of doing the following on tiny sites and you’ll be well equipped to build that next Facebook meets YouTube with a dash of LinkedIn that that prospective client just emailed you about...
 
 Here is [the final build](http://dl.dropbox.com/u/2629908/build-along/index.html) and its code is on [GitHub](https://github.com/csswizardry/build-along-1).
 
@@ -27,7 +27,7 @@ I built this HTML-first. No CSS other than the UA’s _whatsoever_. No images, n
 
 ## No IDs
 
-The build uses no IDs for styling. This was quite an odd shift for me to make, and I made it [a number of weeks back](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/). The main drawback of using IDs is that they introduce a specificity wild card not unlike using `!important` (though obviously not as horrible). By not using them it means that I can’t really get tripped up by overly specific selectors as easily as I could if I _was_ using IDs. I’ve not removed the chance completely, but really easily and quickly lessened it.
+The build uses no IDs for styling. This was quite an odd shift for me to make, and I made it [a number of weeks back](/2011/09/when-using-ids-can-be-a-pain-in-the-class/). The main drawback of using IDs is that they introduce a specificity wild card not unlike using `!important` (though obviously not as horrible). By not using them it means that I can’t really get tripped up by overly specific selectors as easily as I could if I _was_ using IDs. I’ve not removed the chance completely, but really easily and quickly lessened it.
 
 ## ‘Ugly’ classes to do lots of heavy lifting
 

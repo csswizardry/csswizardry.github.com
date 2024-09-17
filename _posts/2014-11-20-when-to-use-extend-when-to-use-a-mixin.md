@@ -25,7 +25,7 @@ a feature with a lot of promise and twice as many caveats.
 If you are definitely, completely set on using `@extend`:
 
 1. Please reconsider.
-2. Use the [placeholder hack](http://csswizardry.com/2014/01/extending-silent-classes-in-sass/).
+2. Use the [placeholder hack](/2014/01/extending-silent-classes-in-sass/).
 3. Keep an eye on your output.
 
 In theory, `@extend` is great, but, in practice, there is just too much that can
@@ -131,7 +131,7 @@ live hundreds of lines away from one another—based on shared traits that are
 purely coincidental. And not only have I forced an unusual relationship, but I
 now have a very unusual source order in which specificity is jumbled up. I am
 distributing selectors across my codebase for purely circumstantial reasons.
-This is [not good news](http://csswizardry.com/2014/10/the-specificity-graph/).
+This is [not good news](/2014/10/the-specificity-graph/).
 
 I have transplanted unrelated rulesets to hundreds of lines away from their
 source, in order to live with other rulesets, in the incorrect location, based
@@ -264,7 +264,7 @@ Which results in:
 This is a perfect use-case for `@extend`. These rulesets are inherently related;
 their shared traits are shared for a reason, not coincidentally. Further, we
 aren’t transplanting their selectors hundreds of lines away from their source,
-so our [Specificity Graph](http://csswizardry.com/2014/10/the-specificity-graph/)
+so our [Specificity Graph](/2014/10/the-specificity-graph/)
 stays nice and sane.
 
 ## When to use a mixin

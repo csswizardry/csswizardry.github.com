@@ -66,7 +66,7 @@ I did mention that you can add a class as well as the ID or remove the ID comple
 
 ### Remove IDs completely?
 
-We’ve covered where IDs can trip us up and be but they serve a purpose other than style-hooks; they can be used as [fragment identifiers](http://csswizardry.com/2011/06/namespacing-fragment-identifiers/) for marking landmarks in the page.
+We’ve covered where IDs can trip us up and be but they serve a purpose other than style-hooks; they can be used as [fragment identifiers](/2011/06/namespacing-fragment-identifiers/) for marking landmarks in the page.
 
 I’m sure you’ve seen ‘Skip to navigation’ or ‘Jump to content’ links in pages, and these wouldn’t work without our IDs so we need to keep those in as well as adding our new class.
 

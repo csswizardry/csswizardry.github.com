@@ -37,7 +37,7 @@ Initially I actually just wrote everything out in one giant `<pre>` with `<span>
 
 So far in I thought that that seemed a little too easy/lazy, and it also came with the massive issue of not being semantic, meaningful or just plain proper markup. A CV is a series of headings and lists, not a single block of preformatted text.
 
-I got to work rewriting, refactoring and tidying and marked it all up properly, and moved any braces, comments and quotes etc out of the HTML and into the CSS making [massive use of the `content:;` property](http://csswizardry.com/2010/09/keeping-code-clean-with-content/).
+I got to work rewriting, refactoring and tidying and marked it all up properly, and moved any braces, comments and quotes etc out of the HTML and into the CSS making [massive use of the `content:;` property](/2010/09/keeping-code-clean-with-content/).
 
 The resulting document is a semantically sound, properly marked up CV that is transformed into a CSSesque appearance using, well, CSS.
 

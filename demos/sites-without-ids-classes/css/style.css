@@ -48,7 +48,7 @@ html{
 }
 body{
 	font-family:Georgia, "Times New Roman", Times, serif;
-	background:url(http://csswizardry.com/whitleyjournalism.co.uk/img/css/grid.png) top center repeat-y #fff;
+	background:url(/whitleyjournalism.co.uk/img/css/grid.png) top center repeat-y #fff;
 	background:#fff;
 	color:#333;
 }

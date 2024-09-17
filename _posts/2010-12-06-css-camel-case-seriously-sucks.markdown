@@ -131,13 +131,13 @@ This has been true of every text editor I have used.
 
 This is an odd one, but one that definitely, _definitely_ irks me. I can't `Ctrl+Shift+[Arrow key]` single words in a camel case string. Take the following screenshot:
 
-![Selecting camel case strings](http://csswizardry.com/wp-content/uploads/2010/12/camel-case-select.gif)
+![Selecting camel case strings](/wp-content/uploads/2010/12/camel-case-select.gif)
 
 Here I use the Ctrl+Shift+Left arrow keys to select chunks of text--rather than one character--at at time. The problem here is that the camel case string is treated as one word. What if I just wanted to select `tweet` and change it to `facebook`? I  can't do that with `Ctrl+Shift+[Arrow key]`
 
 With the hyphen delimited version, we get:
 
-![Selecting hyphenated strings](http://csswizardry.com/wp-content/uploads/2010/12/hyphen-select.gif)
+![Selecting hyphenated strings](/wp-content/uploads/2010/12/hyphen-select.gif)
 
 This is far nicer as we can select individual parts of a string with ease. Changing `tweet` to `facebook` here could not be simpler.
 

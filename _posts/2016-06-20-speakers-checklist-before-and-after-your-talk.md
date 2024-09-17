@@ -6,7 +6,7 @@ categories: Web Development
 meta: "Giving talks is stressful. Follow these tips to make the logistics of it a little simpler."
 ---
 
-I’ve been [speaking](/speaking) at conferences for just over four years now, and
+I’ve been [speaking](/speaking/) at conferences for just over four years now, and
 have spoken at 14 in the past five months alone. It helps me (and indeed anyone)
 to have a pretty regimented checklist of things to do before and after your talk
 in order to help things run as smoothly as possible.

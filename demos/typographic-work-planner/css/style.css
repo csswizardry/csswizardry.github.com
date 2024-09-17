@@ -48,7 +48,7 @@ body{
 	font-size:62.5%;
 	font-family:Arial, Verdana, sans-serif;
 	color:#333;
-	background:/*url(http://csswizardry.com/quick-tips/img/css/grid.gif) top center repeat-y */#fff;
+	background:/*url(/quick-tips/img/css/grid.gif) top center repeat-y */#fff;
 }
 #wrapper{
 	width:940px;

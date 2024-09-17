@@ -33,8 +33,8 @@ _their_ context, they will put that responsibility on the author’s shoulders.
 People aren’t thinking for themselves.
 
 The two most recent examples, for me, were me advising [completely against the
-use of IDs in CSS](http://csswizardry.com/2012/11/code-smells-in-css/), and
-[for the use of a background image for your logo](http://csswizardry.com/2013/01/your-logo-is-still-an-image-and-so-is-mine/).
+use of IDs in CSS](/2012/11/code-smells-in-css/), and
+[for the use of a background image for your logo](/2013/01/your-logo-is-still-an-image-and-so-is-mine/).
 
 In the first case, I had questions like <q>what if you can’t touch the markup
 and it only has IDs in it?</q> In this case, you _obviously_ can’t avoid IDs;

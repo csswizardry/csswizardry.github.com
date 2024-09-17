@@ -28,7 +28,7 @@ The benefits are, as I see them:
 
 This next bit on its own is enough to convince me, this one tip is one of the most valuable ones I have, personally.
 
-Whenever I start a new project I typically want to know two things; my base `font-size` and my base `line-height`. Let’s say that I choose a base `font-size` of 16px and a base `line-height` of 24px. This gives me ([in proper units](http://csswizardry.com/2011/12/measuring-and-sizing-uis-2011-style/)) this:
+Whenever I start a new project I typically want to know two things; my base `font-size` and my base `line-height`. Let’s say that I choose a base `font-size` of 16px and a base `line-height` of 24px. This gives me ([in proper units](/2011/12/measuring-and-sizing-uis-2011-style/)) this:
     
 <pre><code>html{
     font:<mark>1em</mark>/<mark>1.5</mark> "Comic Sans MS", cursive;
@@ -102,7 +102,7 @@ In working at [Sky](http://www.bskyb.com), there were times when we wanted a lar
 
 Interestingly, what I actually did was create an abstract class of `.landmark` which carried that `margin-bottom:3rem;` to denote any content that was deemed a large, thematic break in the page (signified by larger spacing).
 
-Other times we had a boxed-off bit of content for which I used the [Island Object](http://csswizardry.com/2011/10/the-island-object/). Some CSS like this…
+Other times we had a boxed-off bit of content for which I used the [Island Object](/2011/10/the-island-object/). Some CSS like this…
     
     .island{
         padding:1.5rem;

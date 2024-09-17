@@ -15,7 +15,7 @@ tag:
 
 I tend to do a lot of tinkering with code, and came up with something that’s not so new, but still, in my opinion, pretty cool. An accordion using nothing but semantic HTML, CSS and some nice progressive CSS3. There are also two versions, a horizontal one and a vertical one.
 
-## [Demo](http://csswizardry.com/demos/accordion/)
+## [Demo](/demos/accordion/)
 
 This article has been ported from the now-defunct Venturelab Devblog, where I had originally authored it.
 
@@ -146,7 +146,7 @@ Here we have a simple unordered list containing a series of class-named list ite
 .slide-04  { background:green; color:white; }
 .slide-05  { background:blue; color:white; }</code></pre>
 
-It’s all fairly self-explanatory; first we have the `.accordion` class for the `<ul>` where we define a width and overflow hidden ([to clear floats](http://csswizardry.com/floats/)) and some other bits and pieces.
+It’s all fairly self-explanatory; first we have the `.accordion` class for the `<ul>` where we define a width and overflow hidden ([to clear floats](/floats/)) and some other bits and pieces.
 
 Next we float the list items left so they all stack up, give them a width of 20% (**100% ÷ 5 = 20%**) and give them `overflow:hidden;` so that no content breaks out of them. We also apply a fixed height that will nicely house all the content once the list items expand.
 

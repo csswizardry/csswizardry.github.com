@@ -83,7 +83,7 @@ may be, you’re still going to have to be very conscientious.
 
 Decide what you’re looking for (this can always change) and point your efforts
 at that. To quote a previous article of mine: [<cite>Make it
-count</cite>](http://csswizardry.com/2013/07/make-it-count/).
+count</cite>](/2013/07/make-it-count/).
 
 ### Don’t rush it
 
@@ -145,7 +145,7 @@ and again.
 
 I’ve always tried to avoid big, monolithic goals purely because I know how much
 can (and will) change it all. I never once even thought about working in [a
-large, product-based company](http://csswizardry.com/case-studies/bskyb/), never
+large, product-based company](/case-studies/bskyb/), never
 mind thought about the fact I might enjoy that. It just so happens that working
 in such a place came about almost by chance, and it completely changed what I
 wanted out of my career. I didn’t have any other plans or goals that would get
@@ -227,7 +227,7 @@ your time spent working for someone else. Learn as much as you can about
 process, about the industry, about clients, you name it, whilst working for
 someone else. I’m very, _very_ glad I decided to start working for myself, but
 I wouldn’t be half the developer I am today had I not spent three years working
-for [Sky](http://csswizardry.com/case-studies/bskyb/). Being able to learn, get
+for [Sky](/case-studies/bskyb/). Being able to learn, get
 trained, attend conferences, and more, all whilst getting paid a fixed salary is
 absolutely _nothing_ to turn your nose up at. Make the most of your full time
 jobs; don’t rush into self employment until you feel you’ve gotten every last

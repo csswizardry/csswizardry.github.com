@@ -10,7 +10,7 @@ tag:
 meta: The full version of the .net magazine shame.css interview
 ---
 
-Since writing about [shame.css](http://csswizardry.com/2013/04/shame-css/) last
+Since writing about [shame.css](/2013/04/shame-css/) last
 week, there has been a lot of buzz and discussion around it, which is great!
 Part of that was an interview I did with .net magazine about the idea.  You can
 read [the edited version of the interview over on the .net site](http://www.netmagazine.com/news/use-shamecss-house-css-hacks-says-dev-132699)
@@ -87,7 +87,7 @@ you probably fix that and 2) I reckon a hacks section at the end of your
 stylesheet is probably your best bet. Shame.css isn’t at all intended for public
 viewing so you should never end up with a separate stylesheet called by a link
 element in your markup. [You should be serving one concatenated and minified
-stylesheet only.](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:css-and-performance)
+stylesheet only.](/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:css-and-performance)
 
 **Finally, if shame.css as a concept really took off, how do you think it would
 change design process and websites in general?**

@@ -96,7 +96,7 @@ Internet Explorer(8)'s take on my bar charts is as you'd expect from any browser
 
 
 
-![A screenshot of the CSS bar chart in Internet Explorer 8](http://csswizardry.com/wp-content/uploads/2010/02/ie.gif)
+![A screenshot of the CSS bar chart in Internet Explorer 8](/wp-content/uploads/2010/02/ie.gif)
 
 
 
@@ -113,7 +113,7 @@ Next up is Firefox, where we add some round corners to the blue bars, and also a
 
 
 
-![A screenshot of the CSS bar chart in Firefox](http://csswizardry.com/wp-content/uploads/2010/02/firefox.gif)
+![A screenshot of the CSS bar chart in Firefox](/wp-content/uploads/2010/02/firefox.gif)
 
 
 
@@ -130,7 +130,7 @@ It is in Webkit based browsers such as Safari and Chrome that the real magic hap
 
 
 
-![A screenshot of the CSS bar chart in Safari](http://csswizardry.com/wp-content/uploads/2010/02/safari.gif)
+![A screenshot of the CSS bar chart in Safari](/wp-content/uploads/2010/02/safari.gif)
 
 
 
@@ -152,7 +152,7 @@ However, for the real show-piece, the Webkit animation. I'm not using any Javasc
 
 
 
-Now that's the theory covered, let's look at what does all this stuff... Please note, I have used some PHP to randomise the values used by the bars of the chart. As a result, some CSS appears in the source code of the PHP file, and the rest in [the page's CSS file](http://csswizardry.com/demos/graphs/css/style.css). The code shown in the examples below is condensed into one large chunk.
+Now that's the theory covered, let's look at what does all this stuff... Please note, I have used some PHP to randomise the values used by the bars of the chart. As a result, some CSS appears in the source code of the PHP file, and the rest in [the page's CSS file](/demos/graphs/css/style.css). The code shown in the examples below is condensed into one large chunk.
 
 
 

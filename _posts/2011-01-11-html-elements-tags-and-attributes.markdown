@@ -90,7 +90,3 @@ When people say 'mark important text up in a `strong` tag' they mean mark import
 
 
 This is probably really very basic for the majority of you, so apologies, but it really winds me up when I see developers making this mistake. Still.
-
-
-
-**Note:** I also made [this visual aid](/eta).

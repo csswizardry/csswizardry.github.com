@@ -45,7 +45,7 @@ Loads more.
 
 This is how we should start imagining our HTML. For the longest time we strove to keep our HTML free of classes, that meant that the only way of targeting things was through the convoluted selectors like I outlined above. I mean, no one really goes as far as to drop _all_ classes _entirely_ (there are a few notable exceptions), but the comparison still stands.
 
-In a similar vein to my previous article, [Shoot to kill; CSS selector intent](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/), your selectors should be just as specific as an elements purpose/function. Don’t use `.header ul{}` if what you _really_ mean is `.site-nav{}`.
+In a similar vein to my previous article, [Shoot to kill; CSS selector intent](/2012/07/shoot-to-kill-css-selector-intent/), your selectors should be just as specific as an elements purpose/function. Don’t use `.header ul{}` if what you _really_ mean is `.site-nav{}`.
 
 Of course, not everything needs a class, but going back to the classroom analogy the teacher might want to select a subset of people, perhaps all the girls. This you could liken to an element; boys, girls, teachers, janitors are all like types of element and these it often _does_ make sense to select on (all links need to be red, all `h1`s need to be a certain size etc). But what if you want to single out all milk-monitors or all people over 6 years old…? These subsets are explicit and reasoned, therefore the way you select them should be too. **Your selectors should be as explicit as your reason for wanting to select something.**
 

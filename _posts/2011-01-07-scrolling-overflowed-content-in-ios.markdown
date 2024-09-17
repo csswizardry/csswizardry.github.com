@@ -25,7 +25,7 @@ This article was actually brought about by seeing this, [the iScroll project](ht
 
 Well guess what, it does!
 
-Head to my article [Let it snow!](http://csswizardry.com/2010/12/let-it-snow/) on an iOS device and head to the first block of code. Take two fingers (as opposed to the usual one) and scroll horizontally. See that? Pretty cool, huh?
+Head to my article [Let it snow!](/2010/12/let-it-snow/) on an iOS device and head to the first block of code. Take two fingers (as opposed to the usual one) and scroll horizontally. See that? Pretty cool, huh?
 
 Apologies if you already knew that, but everyone I've spoken to had no idea about it.
 

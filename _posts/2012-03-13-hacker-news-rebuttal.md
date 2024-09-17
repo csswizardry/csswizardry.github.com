@@ -165,7 +165,7 @@ I’m pretty sure no CSS developer has ever said ‘I wish I’d used an ID here
 
 IDs work, sure, but they are way too specific. It doesn’t matter how good a developer you are, you cannot change the fact that an ID is massively more specific than a class.
 
-I would genuinely love to see an elegant solution to [this](http://jsfiddle.net/csswizardry/3sxZR/) that doesn’t use a class over an ID. ([There isn’t one.](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/))
+I would genuinely love to see an elegant solution to [this](http://jsfiddle.net/csswizardry/3sxZR/) that doesn’t use a class over an ID. ([There isn’t one.](/2011/09/when-using-ids-can-be-a-pain-in-the-class/))
 
 There is literally _no_ reason why, from a purely CSS point of view, that an ID is better than a class. An ID is impossible to reuse (whether you want to or not) and they have a way-over-the-top specificity.
 

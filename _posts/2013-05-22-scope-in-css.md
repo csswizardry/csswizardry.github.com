@@ -84,7 +84,7 @@ with writing CSS this way…
 
 ## Loose selectors
 
-<i>Loose selectors</i> are something [I have written about before](http://csswizardry.com/2012/11/code-smells-in-css/),
+<i>Loose selectors</i> are something [I have written about before](/2012/11/code-smells-in-css/),
 but it is recently that I have noticed a parallel that can be drawn between them
 and scope in programming. Please do note that **this is only a metaphor**. CSS
 does not have scope like programming languages do; I am merely trying to use
@@ -167,16 +167,16 @@ out to the following, which is overly specific:
 
 [Nesting in CSS is a **bad idea**.](http://www.youtube.com/watch?v=R-BX4N8egEc&hd=1&t=27m02s)
 
-I have [written](http://csswizardry.com/2012/05/keep-your-css-selectors-short/)
-[a](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/)
-[few](http://csswizardry.com/2012/07/quasi-qualified-css-selectors/)
-[times](http://csswizardry.com/2011/09/writing-efficient-css-selectors/)
+I have [written](/2012/05/keep-your-css-selectors-short/)
+[a](/2012/07/shoot-to-kill-css-selector-intent/)
+[few](/2012/07/quasi-qualified-css-selectors/)
+[times](/2011/09/writing-efficient-css-selectors/)
 about the importance paying attention to your CSS selectors, and nesting is one
 of the easiest ways to fly in the face of that.
 
 The main, and most fundamental problem with nested selectors is that
 **they unnecessarily increase specificity**, and
-[specificity is a bad thing](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/).
+[specificity is a bad thing](/2011/09/when-using-ids-can-be-a-pain-in-the-class/).
 
 So, even though nesting gives us rock solid scope (and about as close to actual
 scope in CSS as you’ll ever get), it’s not the right answer. So what is?
@@ -196,7 +196,7 @@ best way to achieve this, in my opinion, is <i>BEM</i>.
         }
 
 BEM is a naming convention that
-[I have written about previously](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/),
+[I have written about previously](/2013/01/mindbemding-getting-your-head-round-bem-syntax/),
 so you can familiarise yourself with it there. The way BEM helps us with scope
 is to imply it by namespacing your selectors with the scope in which they
 function. A class of `.bar{}` operating in the scope of `.foo{}` would now be

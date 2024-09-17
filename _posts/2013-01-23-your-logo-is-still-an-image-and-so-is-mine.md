@@ -17,7 +17,7 @@ branch-url: http://branch.com/b/your-logo-is-still-an-image-and-so-is-mine-css-w
 ---
 
 Almost two years ago I wrote
-[an article about image semantics](http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/)
+[an article about image semantics](/2010/10/your-logo-is-an-image-not-a-h1/)
 which covered the appropriate markup for your site’s logo. In short, it stated
 that logos are content and should therefore be marked up as `img` elements,
 **not** `h1`s, as is a very common practice.
@@ -34,7 +34,7 @@ I received [an issue](https://github.com/csswizardry/csswizardry.github.com/issu
 on [the CSS Wizardry repo](https://github.com/csswizardry/csswizardry.github.com/)
 asking me to go into more detail about how I handle things here:
 
-> I was recently re-reading your [logo is an image](http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/)
+> I was recently re-reading your [logo is an image](/2010/10/your-logo-is-an-image-not-a-h1/)
 > article and I noticed you’ve taken a different approach on your new site. I
 > was wondering if you could walk us through this.
 
@@ -169,7 +169,7 @@ see-through. By using a 1×1px transparent gif then you get this see-through
 behaviour attached to a tiny image.
 
 Now, this image _is_ initially an extra HTTP request,
-[a performance no-no](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:http-requests-and-dns-lookups),
+[a performance no-no](/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:http-requests-and-dns-lookups),
 **but**:
 
 * **It’s only a few bytes in size** so it’ll be over the wire in no time.

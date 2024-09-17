@@ -30,7 +30,7 @@ it, someone who gets DRYness, abstraction, efficiency, etc.
 The media object’s job is simply to display an image with some text content
 beside it, both aligned to the tops of each other, with a little gap between. It
 also has the option have the image on either the left- or right-hand side of the
-text. This is [the SRP](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+text. This is [the SRP](https://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
 to a tee.
 
     +---------+ ~~~~~~~~~~ ~~~~~
@@ -54,7 +54,7 @@ It’s been something that’s been asked about a lot at work because, on the fa
 of it, it looks like a really simple construct. However, looks can be deceiving…
 The only way to achieve this kind of thing with the media object would be by
 using margins and paddings and magic numbers, and we all know
-[what bad news that is](http://csswizardry.com/2012/11/code-smells-in-css/).  I
+[what bad news that is](/2012/11/code-smells-in-css/).  I
 often had to tell bewildered looking product owners and designers that <q>it’s
 not as simple as that</q>. Never a good feeling, especially when you’re meant to
 be good at CSS.

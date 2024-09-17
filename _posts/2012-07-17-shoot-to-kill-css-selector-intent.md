@@ -30,11 +30,11 @@ What determines the impact of a selector is its _key selector_. The key selector
 .ul li a        { <span class="code-comment">/* ‘a’ is the key selector */</span> }
 p:last-child    { <span class="code-comment">/* ‘:last-child’ is the key selector */</span> }</code></pre>
 
-As I discuss in [Writing efficient CSS selectors](http://csswizardry.com/2011/09/writing-efficient-css-selectors/), the key selector plays a big part in CSS efficiency, so it’s worth bearing that in mind, but where _selector intent_ is concerned this is basically the place you need to be looking to see how far reaching your selector is. `html > body > section.content > article span{}` is a ridiculously convoluted and terrible selector that no one anywhere would ever write (right?) but despite how specific and disastrously over the top it is, its key selector (`span`) is still very, _very_ broad. It doesn’t matter so much what comes before your key selector, it’s only the key that really matters.
+As I discuss in [Writing efficient CSS selectors](/2011/09/writing-efficient-css-selectors/), the key selector plays a big part in CSS efficiency, so it’s worth bearing that in mind, but where _selector intent_ is concerned this is basically the place you need to be looking to see how far reaching your selector is. `html > body > section.content > article span{}` is a ridiculously convoluted and terrible selector that no one anywhere would ever write (right?) but despite how specific and disastrously over the top it is, its key selector (`span`) is still very, _very_ broad. It doesn’t matter so much what comes before your key selector, it’s only the key that really matters.
 
 As a _general_ rule you should try and avoid any key selector that is a type selector (basically an element, like `ul` or `span` or whatever) or a base object (e.g. `.nav` or `.media`). Just because something is the only `.media` object in your content area it doesn’t mean it always will be.
 
-Let’s keep looking at the `.header ul{}` example. Let’s assume our markup is thus, as we’re using [the nav abstraction](http://csswizardry.com/2011/09/the-nav-abstraction/):
+Let’s keep looking at the `.header ul{}` example. Let’s assume our markup is thus, as we’re using [the nav abstraction](/2011/09/the-nav-abstraction/):
 
     <div class=header>
     
@@ -80,7 +80,7 @@ Keep your key selector as explicit and specific as you possibly can, preferring 
 
 ## Real-life example
 
-A really good example of where I messed up on this myself is on a project I did at Sky; I had a selector which was simply `#content table{}`. (Eww, I even used an ID!!!) This is a troublesome selector for three reasons; firstly [it uses an ID which is a big no](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/), secondly it has a lot higher specificity than it needs to and lastly—and most importantly—it has a poor selector intent. I wasn’t wanting to style these tables _because_ they were in `#content`, that was just how the DOM landed so that’s how I chose to target them. _Entirely_ my bad.
+A really good example of where I messed up on this myself is on a project I did at Sky; I had a selector which was simply `#content table{}`. (Eww, I even used an ID!!!) This is a troublesome selector for three reasons; firstly [it uses an ID which is a big no](/2011/09/when-using-ids-can-be-a-pain-in-the-class/), secondly it has a lot higher specificity than it needs to and lastly—and most importantly—it has a poor selector intent. I wasn’t wanting to style these tables _because_ they were in `#content`, that was just how the DOM landed so that’s how I chose to target them. _Entirely_ my bad.
 
 For the first few weeks this was fine but then all of a sudden we needed to add some tables inside `#content` that didn’t want to look anything like the previous ones. Uh oh. My previous selector was far too far reaching, I was now having to undo a blanket style I’d set on _every_ table in the `#content` `div`. If I’d had a better selector intent then instead of:
 
