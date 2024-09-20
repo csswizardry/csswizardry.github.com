@@ -54,13 +54,12 @@ lux: Post
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "url": "{{ site.url }}{{ page.url }}",
-            "name": {{ page.title | jsonify }},
-            "headline": {{ page.title | jsonify }},
-            "keywords": {{ page.tags | join: ',' | jsonify }},
-            "description": {{ page.meta | jsonify }},
-            "articleBody": {{ page.content | strip_html | jsonify }},
-            "datePublished": {{ page.date | jsonify }},
-            "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+            "name": "{{ page.title }}",
+            "headline": "{{ page.title }}",
+            "keywords": "{{ page.tags | join: ',' }}",
+            "description": "{{ page.meta }}",
+            "datePublished": "{{ page.date }}",
+            "dateModified": "{{ page.last_modified_at | default: page.date }}",
             "author": {
               "@type": "Person",
               "url": "{{ site.url }}",
@@ -68,7 +67,7 @@ lux: Post
             },
             "publisher": {
               "@type": "Organization",
-              "name": {{ site.title | jsonify }},
+              "name": "{{ site.title }}",
               "url": "{{ site.url }}",
               "logo": {
                 "@type": "ImageObject",
@@ -101,15 +100,15 @@ lux: Post
                 "position": 1,
                 "name": "Blog",
                 "item": "https://csswizardry.com/archive/"
-              },{
+              }, {
                 "@type": "ListItem",
                 "position": 2,
-                "name": {{ page.date | date: "%Y" }},
+                "name": "{{ page.date | date: "%Y" }}",
                 "item": "https://csswizardry.com/archive/#year-{{ page.date | date: "%Y" }}"
-              },{
+              }, {
                 "@type": "ListItem",
                 "position": 3,
-                "name": {{ page.title | jsonify }},
+                "name": "{{ page.title }}",
                 "item": "{{ site.url }}{{ page.url }}"
               }]
             }
