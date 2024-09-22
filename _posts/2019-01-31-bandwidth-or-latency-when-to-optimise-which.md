@@ -41,9 +41,10 @@ It’s something of a misnomer to use phrases like <q>increase in bandwidth</q>
 and <q>reduction in latency</q>. We don’t really have the ability to simply
 ‘increase bandwidth’—although that would be nice!—so what we’re really looking
 to do is reduce the amount of transfer. Similarly, there isn’t much we can do to
-really ‘reduce latency’, but we can avoid latency by perhaps moving our assets
-closer to the client (e.g. a CDN) or mitigating network overhead (e.g. with
-Resource Hints).
+really ‘reduce latency’, but we can [avoid
+latency](https://csswizardry.com/2024/09/optimising-for-high-latency-environments/)
+by perhaps moving our assets closer to the client (e.g. a CDN) or mitigating
+network overhead (e.g. with Resource Hints).
 
 ## Use Large Request Rows
 
