@@ -92,12 +92,15 @@ was about **1.4× slower** and about **3.3× heavier**.
 What might explain this phenomenon?
 
 When we talk about downloading files, we—generally speaking—have two things to
-consider: latency and bandwidth. In the waterfall charts above, we notice we
-have both light and dark green in the CSS responses: the light green can be
-considered latency, while the dark green is when we’re actually downloading
-data. As a rule, latency stays constant while download time is proportional to
-filesize. Notice just how much more light green (especially compared to dark) we
-see in the many-files version of Bootstrap compared to the one-big-file.
+consider: [latency and
+bandwidth](/2019/01/bandwidth-or-latency-when-to-optimise-which/). In the
+waterfall charts above, we notice we have both light and dark green in the CSS
+responses: the light green can be considered latency, while the dark green is
+when we’re actually downloading data. As a rule, [latency stays
+constant](/2024/09/optimising-for-high-latency-environments/) while download
+time is proportional to filesize. Notice just how much more light green
+(especially compared to dark) we see in the many-files version of Bootstrap
+compared to the one-big-file.
 
 This is not a new phenomenon—a client of mine suffered [the same problem in
 July](/2023/07/in-defence-of-domcontentloaded/#putting-it-to-use), and the Khan
