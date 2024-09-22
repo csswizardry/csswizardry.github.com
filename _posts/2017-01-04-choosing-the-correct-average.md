@@ -197,9 +197,9 @@ statistical outliers should not be represented by the mean, as results are
 easily skewed. If we want to get a general overview of what most things are
 looking like, the mode might be the one to go for.
 
-* Mean is good for data with a very small range, actually not usually that
+* **Mean** is good for data with a very small range, actually not usually that
   useful. Good for working out average score, or splitting the cost of a meal.
-* Median is good for finding a representative value of a skewed data set. Good
-  for measuring open-ended data.
-* Mode is good for a holistic overview; if you can represent the data in a
+* **Median** is good for finding a representative value of a skewed data set.
+  Good for measuring open-ended data.
+* **Mode** is good for a holistic overview; if you can represent the data in a
   histogram then it will give you the mode.
