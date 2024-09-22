@@ -42,7 +42,7 @@ and <q>reduction in latency</q>. We don’t really have the ability to simply
 ‘increase bandwidth’—although that would be nice!—so what we’re really looking
 to do is reduce the amount of transfer. Similarly, there isn’t much we can do to
 really ‘reduce latency’, but we can [avoid
-latency](https://csswizardry.com/2024/09/optimising-for-high-latency-environments/)
+latency](/2024/09/optimising-for-high-latency-environments/)
 by perhaps moving our assets closer to the client (e.g. a CDN) or mitigating
 network overhead (e.g. with Resource Hints).
 
@@ -80,11 +80,12 @@ information here!
 
 There are a lot of different phases involved in getting from the point of
 requesting a file until we’re able to begin downloading it. Once resources have
-been discovered, their outgoing requests may need to be scheduled; the browser
+been discovered, their outgoing requests may need to be scheduled, the browser
 might need to perform a DNS lookup to determine the resource’s origin’s IP
-address; we’ll then need to open up a TCP connection to that origin; hopefully
-we’re running over a secure connection, so that will incur some TLS negotiation;
-once we’re on the server, we deal with Time to First Byte (TTFB)[^4], which
+address, we’ll then need to open up a TCP connection to that origin, hopefully
+we’re running over a secure connection that will incur some TLS negotiation, and
+then once we’re on the server we deal with Time to First Byte
+([TTFB](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/))[^4], which
 includes time spent on the server and the time taken for the first byte of data
 to traverse the network and end up back on the machine.
 
