@@ -162,7 +162,7 @@ a lot of data; secondly, this still only tells me how each page performs, and
 doesn’t give me a very good overview of the site’s performance like we wanted.
 
 <figure>
-  <img src="/wp-content/uploads/2017/01/chart-load-times.png" alt="">
+  <img src="/wp-content/uploads/2017/01/chart-load-times.png" alt="" style="mix-blend-mode: multiply;">
   <figcaption>Chart showing load times of various pages on a website. <a href="/wp-content/uploads/2017/01/chart-load-times.png">View full size/quality (15KB)</a></figcaption>
 </figure>
 
@@ -173,7 +173,7 @@ A histogram plots the frequency of a data point, not the data point itself. This
 allows us to very easily identify the mode:
 
 <figure>
-  <img src="/wp-content/uploads/2017/01/chart-load-times-histogram.png" alt="">
+  <img src="/wp-content/uploads/2017/01/chart-load-times-histogram.png" alt="" style="mix-blend-mode: multiply;">
   <figcaption>Chart showing load times of various pages on a website. <a href="/wp-content/uploads/2017/01/chart-load-times-histogram.png">View full size/quality (9KB)</a></figcaption>
 </figure>
 
