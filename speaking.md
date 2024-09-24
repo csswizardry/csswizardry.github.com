@@ -53,7 +53,7 @@ workshop](/workshops/). My workshops are renowned.
 
 ## Upcoming Events
 
-### 2023
+### 2024
 
 <ol class="list-ui  mb">
 
@@ -61,7 +61,7 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.middlesbroughfe.co.uk/">Middlesbrough Front End</a>: Middlesbrough (England), July 2024
+    <img src="/img/icons/nl.png" alt width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>: Amsterdam (Netherlands), November 2024
   </li>
 
 </ol>
@@ -134,6 +134,22 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 </ul>
 
 ## Past Events
+
+### 2024
+
+<ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://www.middlesbroughfe.co.uk/">Middlesbrough Front End</a>: Middlesbrough (England), July 2024
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <img src="/img/icons/cz.png" alt width="16" height="11" loading="lazy"> <a href="https://webexpo.net/">WebExpo</a>: Prague (Czech Republic), May 2024
+  </li>
+
+</ol>
 
 ### 2023
 
