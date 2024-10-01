@@ -22,6 +22,19 @@ plays in your business, whatever your industry.
 
 <a href="./site-speed/" class="btn  btn--positive">Read the <b>FREE</b> ebook</a>
 
+---
+
+## Contracts Starter Pack
+
+A good contract forms the backbone of any trusting, secure, and smooth
+engagement. I have made available my consultancy-specific documentation for
+download, including Statements of Work, Non-Disclosure Agreements, Master
+Services Agreements, and more.
+
+<div class="gumroad-product-embed" data-gumroad-product-id="contracts-starter-pack"><a href="https://csswizardry.gumroad.com/l/contracts-starter-pack">Loading…</a></div>
+
+---
+
 ## Questions for Consultants: Useful Questions to Ask Your Clients
 
 My first ebook comes in at just over 35,000 words. It’s a consultants guide to
