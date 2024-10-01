@@ -15,7 +15,7 @@ amendments and updates there.
 
 0. <ins datetime="2023-07-26">26 July, 2023: [iOS (and Other) Traffic Doesn’t Count](#ios-and-other-traffic-doesnt-count)</ins>
 
-## Core Web Vitals
+## Core Web Vitals and SEO
 
 
 Google’s Core Web Vitals initiative was launched in [May of
