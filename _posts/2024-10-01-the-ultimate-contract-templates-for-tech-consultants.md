@@ -17,7 +17,7 @@ property, managing payment terms, and avoiding scope creep.
 ## Why You Need Contract Templates as a Tech Consultant
 
 In the fast-paced world of tech consulting—especially where shorter, more
-tactical engagement are concerned—it’s easy to dive into projects without fully
+tactical engagements are concerned—it’s easy to dive into projects without fully
 considering the legal protection you need. Contracts provide clarity between you
 and your clients, ensuring there are no misunderstandings around deliverables,
 payment, and project scope.
