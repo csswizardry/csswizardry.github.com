@@ -95,7 +95,7 @@ p {
 /**
  * Code-like elements.
  */
-code, kbd, samp {
+code, kbd, samp, output {
     color: $color-code;
     font-family: "Operator Mono", Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
     font-style: normal;
