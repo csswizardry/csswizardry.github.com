@@ -6,6 +6,9 @@ categories: Web Development
 meta: "What does Cache-Control really do? In basic terms? Let’s find out!"
 ---
 
+<p class="c-highlight">Looking for a <code>max-age</code> calculator? <a
+href="/max-age/">Try it out!</a></p>
+
 The best request is the one that never happens: in the fight for fast websites,
 avoiding the network is far better than hitting the network at all. To this end,
 having a solid caching strategy can make all the difference for your visitors.

@@ -9,6 +9,9 @@ faq:
     answer: "Conventionally, people tend to use one year, which is 3,1536,000 seconds. However, the spec says that caches MUST honour up to 2,147,483,648 seconds, which, in a 32-bit system, is the largest possible integer that can be represented in binary form. That’s a whopping 68 years!"
 ---
 
+<p class="c-highlight">Looking for a <code>max-age</code> calculator? <a
+href="/max-age/">Try it out!</a></p>
+
 If you wanted to cache a file ‘forever’, you’d probably use a `Cache-Control`
 header like this:
 
