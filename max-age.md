@@ -89,7 +89,7 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
 
     // Check if input is a number (in seconds) to reverse engineer
     if (!isNaN(input) && input !== '') {
-      const seconds = parseInt(input);
+      let seconds = Math.abs(parseInt(input));  // Convert to absolute value
       output.textContent = 'max-age=' + seconds;
       outputHuman.textContent = humanizeTime(seconds);
       return;
@@ -108,19 +108,19 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
       if (part.includes('forever')) {
         maxAge = 2147483648; // Maximum allowed value for max-age
       } else if (part.includes('second')) {
-        maxAge += parseTime(part) * 1; // Seconds
+        maxAge += Math.abs(parseTime(part)) * 1;
       } else if (part.includes('minute')) {
-        maxAge += parseTime(part) * secondsPerMinute;
+        maxAge += Math.abs(parseTime(part)) * secondsPerMinute;
       } else if (part.includes('hour')) {
-        maxAge += parseTime(part) * secondsPerHour;
+        maxAge += Math.abs(parseTime(part)) * secondsPerHour;
       } else if (part.includes('day')) {
-        maxAge += parseTime(part) * secondsPerDay;
+        maxAge += Math.abs(parseTime(part)) * secondsPerDay;
       } else if (part.includes('week')) {
-        maxAge += parseTime(part) * secondsPerWeek;
+        maxAge += Math.abs(parseTime(part)) * secondsPerWeek;
       } else if (part.includes('month')) {
-        maxAge += parseTime(part) * secondsPerMonth;
+        maxAge += Math.abs(parseTime(part)) * secondsPerMonth;
       } else if (part.includes('year')) {
-        maxAge += parseTime(part) * secondsPerYear;
+        maxAge += Math.abs(parseTime(part)) * secondsPerYear;
       } else {
         output.textContent = 'Error: Unsupported time format.';
         return;
@@ -139,7 +139,7 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
 
   function parseTime(input) {
     // Extract the number part (digit or word) and convert it to an actual
-    // number
+    // number.
     const numberMatch = input.match(/(\d+|\b(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)\b)/);
 
     if (!numberMatch) {
@@ -154,7 +154,7 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
       number = wordToNumber[numberString];
     }
 
-    return number || 1; // Fall back to 1 if something goes wrong
+    return Math.abs(number) || 1; // Return the absolute value, or else return 1
   }
 
   // Function to convert seconds into human-friendly time format
