@@ -22,7 +22,7 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
   }
 </style>
 
-<label for="jsInput">Enter a time period (e.g. ‘a day’, ‘3 days’, ‘eight weeks’, ‘6 months’, ‘10 seconds’, ‘forever’) or seconds (e.g. 3600):</label>
+<label for="jsInput">Enter a time period (e.g. ‘a day’, ‘eight weeks’, ‘6 months’, ‘10 seconds’, ‘forever’) or seconds (e.g. 3600):</label>
 
 <input type="text" class="c-input-text  c-input-text--max-age" id="jsInput" name="max-age-input" placeholder="e.g. two months and 30 seconds">
 
