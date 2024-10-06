@@ -184,3 +184,17 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
   // Attach the input event listener with debounce
   document.getElementById('jsInput').addEventListener('input', debounce(calculateMaxAge, 300));
 </script>
+
+## Disclaimer
+
+This `max-age` calculator aims to provide convenient and human-friendly
+conversions between time periods and cache durations. While I strive for
+accuracy, there may be edge cases or unexpected behavior in certain input
+formats. As this tool interprets natural language and various time units, I
+encourage users to verify important calculations and be mindful of potential
+inaccuracies in highly complex inputs.
+
+I welcome feedback and suggestions! If you encounter any issues, or if you’d
+like to contribute improvements, please feel free to submit them to the GitHub
+repo at
+[github.com/csswizardry/csswizardry.github.com](https://github.com/csswizardry/csswizardry.github.com/blob/master/max-age.md).
