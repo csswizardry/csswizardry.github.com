@@ -9,7 +9,7 @@ lux: max-age Calculator
 
 [`Cache-Control`](/2019/03/cache-control-for-civilians/)’s
 [`max-age`](/2023/10/what-is-the-maximum-max-age/)
-directive accepts a duration in seconds—seconds aren’t particularly
+directive accepts a duration in seconds, but seconds aren’t particularly
 human-friendly. This calculator allows you to specify `max-age` in much more
 palatable terms and end up with a compliant `max-age` format. Alternatively, you
 can paste an existing `max-age` value and get its human-friendly equivalent.
