@@ -61,7 +61,7 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
     'sixty':     60,
     'seventy':   70,
     'eighty':    80,
-    'ninety':    90,
+    'ninety':    90
   };
 
   // Conversion factors
@@ -127,7 +127,8 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
       }
     });
 
-    // Ensure max-age doesn’t exceed the specced limit: https://csswizardry.com/2023/10/what-is-the-maximum-max-age/
+    // Ensure max-age doesn’t exceed the specced limit:
+    // https://csswizardry.com/2023/10/what-is-the-maximum-max-age/
     if (maxAge > 2147483648) {
       maxAge = 2147483648;
     }
