@@ -7,6 +7,12 @@ permalink: /downloads/
 lux: "Services / Downloads"
 ---
 
+<style>
+  .gumroad-product-embed, iframe {
+    min-height: 100vh;
+  }
+</style>
+
 Periodically, I’ll make resources and assets available for download. These are
 usually extensive workshop slide-decks that can be viewed out of context.
 
@@ -31,7 +37,7 @@ engagement. I have made available my consultancy-specific documentation for
 download, including Statements of Work, Non-Disclosure Agreements, Master
 Services Agreements, and more.
 
-<div class="gumroad-product-embed" data-gumroad-product-id="contracts-starter-pack"><a href="https://csswizardry.gumroad.com/l/contracts-starter-pack">Loading…</a></div>
+<div class="gumroad-product-embed" data-gumroad-product-id="contracts-starter-pack"><a href="https://csswizardry.gumroad.com/l/contracts-starter-pack">Loading <cite>Contracts Starter Pack</cite></a>…</div>
 
 ---
 
@@ -41,7 +47,7 @@ My first ebook comes in at just over 35,000 words. It’s a consultants guide to
 asking the very best questions to help your clients be more successful. I think
 you’ll like it.
 
-<div class="gumroad-product-embed" data-gumroad-product-id="questions-for-consultants"><a href="https://gumroad.com/l/questions-for-consultants">Loading…</a></div>
+<div class="gumroad-product-embed" data-gumroad-product-id="questions-for-consultants"><a href="https://gumroad.com/l/questions-for-consultants">Loading <cite>Questions for Consultants</cite></a>…</div>
 
 - - -
 
@@ -49,7 +55,7 @@ you’ll like it.
 
 A half-day workshop all about secret and well-hidden performance tools.
 
-<div class="gumroad-product-embed" data-gumroad-product-id="trade-secrets"><a href="https://gumroad.com/l/trade-secrets">Loading…</a></div>
+<div class="gumroad-product-embed" data-gumroad-product-id="trade-secrets"><a href="https://gumroad.com/l/trade-secrets">Loading <cite>Trade Secrets</cite></a>…</div>
 
 - - -
 
@@ -57,4 +63,4 @@ A half-day workshop all about secret and well-hidden performance tools.
 
 A mega-deck that goes with my full-day front-end performance workshop.
 
-<div class="gumroad-product-embed" data-gumroad-product-id="perfmatters"><a href="https://gumroad.com/l/perfmatters">Loading…</a></div>
+<div class="gumroad-product-embed" data-gumroad-product-id="perfmatters"><a href="https://gumroad.com/l/perfmatters">Loading <cite>Front-End Performance</cite></a>…</div>
