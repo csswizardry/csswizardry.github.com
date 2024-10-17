@@ -8,7 +8,7 @@ lux: "Services / Downloads"
 ---
 
 <style>
-  .gumroad-product-embed, iframe {
+  .gumroad-product-embed, iframe[src^="https://app.gumroad.com"] {
     min-height: 100vh;
   }
 </style>
