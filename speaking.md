@@ -59,6 +59,11 @@ workshop](/workshops/). My workshops are renowned.
 
   {% include speaking.html %}
 
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://londonwebstandards.org/events/lwsnov2024/">London Web Standards</a>: London (England), November 2024
+  </li>
+
 </ol>
 
 
