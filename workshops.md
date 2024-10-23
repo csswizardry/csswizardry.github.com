@@ -36,7 +36,6 @@ insights. I’m a teacher who _does_.
        fetchpriority="high"
        decoding="sync"
        elementtiming="workshops-image" />
-  </script>
   <figcaption>Workshopping at <a href="https://digital-labin.com/">Digital Labin</a>, 2022. Photograph by <a href="https://www.instagram.com/dzambofilm/">Ivica Džambo</a>.</figcaption>
 </figure>
 
