@@ -61,4 +61,25 @@
   <style> .site-nav__list { content-visibility: visible; } </style>
 </noscript>
 
-<script src=/js/instant.page.5.1.1.min.js type=module fetchpriority=low></script>
+  <script type=speculationrules>
+    {
+      "prefetch": [
+        {
+          "source": "document",
+          "where": {
+            "selector_matches": "a[href^='/']"
+          },
+          "eagerness": "immediate"
+        }
+      ],
+      "prerender": [
+        {
+          "source": "document",
+          "where": {
+            "selector_matches": "a[href^='/']"
+          },
+          "eagerness": "moderate"
+        }
+      ]
+    }
+  </script>
