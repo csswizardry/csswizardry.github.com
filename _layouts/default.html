@@ -15,51 +15,49 @@
 
   {{ content }}
 
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/sw.js?0156').then(function(registration) {
-        // Successfully registered the Service Worker
-        //console.log('Service Worker registration successful with scope: ', registration.scope);
-      }).catch(function(err) {
-        // Failed to register the Service Worker
-        //console.log('Service Worker registration failed: ', err);
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js?0156').then(function(registration) {
+          // Successfully registered the Service Worker
+          //console.log('Service Worker registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+          // Failed to register the Service Worker
+          //console.log('Service Worker registration failed: ', err);
+        });
       });
+    }
+  </script>
+
+  <script>
+    performance.measure('contentTime', 'contentStart', 'contentEnd');
+  </script>
+
+  <script>
+    /**
+     * The site nav has been explicitly ‘turned off’ with `content-visibility:
+     * hidden;` in its component (S)CSS file. This means we don’t need to bother
+     * rendering it at all on the first pass: it’s off-screen anyway. Once we’re
+     * approaching `domInteractive` (that’s now), we turn it ‘back on’. It’s
+     * wrapped in a rAF to make it asynchronous, which is probably a bit of
+     * a micro-optimisation.
+     */
+    requestAnimationFrame(() => {
+      const siteNavList = document.getElementById('jsSiteNavList');
+      siteNavList.style.contentVisibility = 'visible';
     });
-  }
-</script>
 
-<script>
+    const navReady = performance.mark('navReady');
+    console.log('Nav ready at: ' + navReady.startTime + 'ms');
+  </script>
 
-  performance.measure('contentTime', 'contentStart', 'contentEnd');
-
-</script>
-
-<script>
-  /**
-   * The site nav has been explicitly ‘turned off’ with `content-visibility:
-   * hidden;` in its component (S)CSS file. This means we don’t need to bother
-   * rendering it at all on the first pass: it’s off-screen anyway. Once we’re
-   * approaching `domInteractive` (that’s now), we turn it ‘back on’. It’s
-   * wrapped in a rAF to make it asynchronous, which is probably a bit of
-   * a micro-optimisation.
-   */
-  requestAnimationFrame(() => {
-    const siteNavList = document.getElementById('jsSiteNavList');
-    siteNavList.style.contentVisibility = 'visible';
-  });
-
-  const navReady = performance.mark('navReady');
-  console.log('Nav ready at: ' + navReady.startTime + 'ms');
-</script>
-
-<noscript>
-  <!--
-    - In the highly unlikely event that someone has disabled JS, turn the nav
-    - ‘back on’ synchronously.
-    -->
-  <style> .site-nav__list { content-visibility: visible; } </style>
-</noscript>
+  <noscript>
+    <!--
+      - In the highly unlikely event that someone has disabled JS, turn the nav
+      - ‘back on’ synchronously.
+      -->
+    <style> .site-nav__list { content-visibility: visible; } </style>
+  </noscript>
 
   <script type=speculationrules>
     {
@@ -82,4 +80,11 @@
         }
       ]
     }
+  </script>
+
+  <script>
+    (() => {
+      const rtt = navigator.connection.rtt;
+      LUX.addData('rtt', rtt);
+    })();
   </script>
