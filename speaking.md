@@ -66,6 +66,16 @@ workshop](/workshops/). My workshops are renowned.
 
 </ol>
 
+### 2025
+
+<ol class="list-ui  mb">
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/gr.png" alt width="16" height="11" loading="lazy" /> <a href="https://devoxx.gr/">Devoxx Greece</a>: Athens (Greece), April 2025
+  </li>
+
+</ol>
 
 
 
