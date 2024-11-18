@@ -41,6 +41,7 @@ slides and presentations, here you go:
         color: inherit;
         font-size: 1.5rem;
         line-height: 1;
+        font-weight: 600;
       }
 
       .c-cwv-colours__values {
@@ -89,4 +90,4 @@ slides and presentations, here you go:
 * HSL: `hsl(4, 100%, 63%)`
 * HWB: `hwb(4, 26%, 0%)`
 
-* [^1]: ‘Official’ as in sampled from PageSpeed Insights and web.dev.
+[^1]: ‘Official’ as in sampled from PageSpeed Insights and web.dev.
