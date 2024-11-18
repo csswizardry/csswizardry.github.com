@@ -17,6 +17,8 @@ slides and presentations, here you go:
     margin-left: 0;
     padding: 0;
     text-align: center;
+    overflow: hidden;
+    border-radius: 3px;
   }
 
     @media (min-width: 480px) {
