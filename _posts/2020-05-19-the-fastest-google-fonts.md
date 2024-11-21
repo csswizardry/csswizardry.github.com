@@ -642,3 +642,14 @@ Here is the optimum snippet to use for fast Google Fonts:
         href="$CSS&display=swap" />
 </noscript>
 {% endhighlight %}
+
+## Using Async CSS with a CSP
+
+If you're using a Content Security Policy and you don't want to use the
+`unsafe-inline` keyword, you can use a SHA-256 hash together with the
+`unsafe-hashes` keyword instead:
+
+{% highlight http %}
+Content-Security-Policy: script-src
+    'unsafe-hashes' 'sha256-MhtPZXr7+LpJUY5qtMutB+qWfQtMaPccfe7QXtCcEYc=';
+{% endhighlight %}
