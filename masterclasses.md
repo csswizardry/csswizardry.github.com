@@ -241,13 +241,13 @@ You’re not alone. Need to streamline your workflows? We’ll be there in no ti
     performance.mark('begin');
 
     // Shuffle the cards so we get a different order every time.
-    const masterclassList = document.getElementById('jsMasterclassList');
-    const masterclassItem = Array.from(masterclassList.querySelectorAll('.jsMasterclassItem'));
+    const masterclassList  = document.getElementById('jsMasterclassList');
+    const masterclassItems = Array.from(masterclassList.querySelectorAll('.jsMasterclassItem'));
 
-    shuffle(masterclassItem);
+    shuffle(masterclassItems);
 
     masterclassList.innerHTML = '';
-    masterclassItem.forEach(item => {
+    masterclassItems.forEach(item => {
       masterclassList.appendChild(item);
     });
 
