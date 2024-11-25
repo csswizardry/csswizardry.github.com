@@ -215,7 +215,7 @@ You’re not alone. Need to streamline your workflows? We’ll be there in no ti
   {% for masterclass in page.masterclasses %}
     <li class="c-tile  jsMasterclassItem">
       <div class="c-tile__hero">
-        <img src="/img/content/masterclass/{{ masterclass.image }}.jpg" alt class="c-tile__image" width="960" height="549" loading="lazy">
+        <img src="{{ site.cloudinary }}/img/content/masterclass/{{ masterclass.image }}.jpg" alt class="c-tile__image" width="960" height="549" loading="lazy">
       </div>
       <div class="c-tile__content">
         <h3 class="c-tile__title">{{ masterclass.title }}</h3>
