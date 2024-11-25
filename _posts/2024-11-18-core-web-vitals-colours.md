@@ -30,6 +30,7 @@ slides and presentations, here you go:
     .c-cwv-colours__colour {
       flex: 1;
       padding: 1.5rem;
+      cursor: copy;
     }
 
       .c-cwv-colours__title {
@@ -69,6 +70,25 @@ slides and presentations, here you go:
   </li>
 
 </ul>
+
+<script>
+  (() => {
+    document.querySelectorAll('.c-cwv-colours__colour').forEach(colourElement => {
+      colourElement.title = 'Click to copy hex code';
+      colourElement.addEventListener('click', () => {
+        const valueElement = colourElement.querySelector('.c-cwv-colours__value');
+        const value = valueElement.textContent;
+
+        // Copy the value to the clipboard
+        navigator.clipboard.writeText(value).then(() => {
+          console.log(`Copied to clipboard: ${value}`);
+        }).catch(err => {
+          console.error('Failed to copy text: ', err);
+        });
+      });
+    });
+  })();
+</script>
 
 ## More Colour Formats?
 
