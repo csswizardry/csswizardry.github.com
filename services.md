@@ -29,9 +29,18 @@ of things.
 <ul class="feature-list" style="clear: both;">
 
   <li class="feature-list__item">
+    <a href="/masterclasses/" class="feature-list__link">
+      <h2 class="feature-list__title">
+        Masterclasses <sup style="text-transform: uppercase; font-size: 0.75rem; top: -0.75em;">New</sup>
+        <span class="feature-list__sub">Bite-sized courses for your whole team</span>
+      </h2>
+    </a>
+  </li>
+
+  <li class="feature-list__item">
     <a href="/sentinel/" class="feature-list__link">
       <h2 class="feature-list__title">
-        Sentinel <sup style="text-transform: uppercase; font-size: 0.75rem; top: -0.75em;">New</sup>
+        Sentinel
         <span class="feature-list__sub">Your web-performance watchman</span>
       </h2>
     </a>
