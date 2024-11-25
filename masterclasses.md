@@ -8,7 +8,7 @@ permalink: /masterclasses/
 lux: "Services / Masterclasses"
 masterclasses:
   - title: "WebPageTest: An Introduction"
-    image: "wpt"
+    image: "wpt-basics"
     intro: "We’ve done PageSpeed Insights and now we want to level up! Let’s get started with WebPageTest…"
     description: "Getting started with WebPageTest can be pretty daunting, but this Masterclass will get you comfortable and confident with the basics: <ul><li>running your first test;</li> <li>sensible setup;</li> <li>best practices for best results;</li> <li>key features;</li> <li>early analysis.</li></ul>"
   - title: "WebPageTest: Power User"
