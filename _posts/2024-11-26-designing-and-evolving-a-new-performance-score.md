@@ -29,7 +29,7 @@ Vitals are:
 3. **freely available** for any origin with enough data…
 
 …they make for the most obvious starting point when conducting cross-site
-comparisons (discounting the fact we can’t get Core Web Vitals data on iOs
+comparisons (discounting the fact we can’t get Core Web Vitals data on iOS
 yet…).
 
 However, comparing Core Web Vitals across <var>n</var> websites isn’t without
@@ -150,7 +150,7 @@ Think INP _metric_ vs. Lighthouse _score_.
 
 ## First Attempts
 
-Before I begin getting serious with my algorithm (if you can call it that),
+Before I began getting serious with my algorithm (if you can call it that),
 I attempted some very naive early approaches. Very naive indeed. Let’s take
 a look where I started…
 
@@ -160,7 +160,7 @@ With the requirement to highlight passingness, an early approach I embarked on
 was deriving an _ordinal score_: a score that offers a rank rather than a place
 on a continuum.
 
-To arrive at this score, we could assign a number to each of _Pass_, _Needs
+To arrive at this score, we could assign a number to each of _Good_, _Needs
 Improvement_, and _Poor_:
 
 * **Good:** 3 points
@@ -390,7 +390,7 @@ nuance?
 One bit of data we have access to in CrUX is what percentage of experiences pass
 the Core Web Vitals threshold. For example, to achieve a _Good_ LCP score, you
 need to serve just 75% of experiences at 2.5s or faster. However, many sites
-will hit much better (or worwse) than this. For example, above, RIMOWA passes
+will hit much better (or worse) than this. For example, above, RIMOWA passes
 LCP at the 84th percentile and CHANEL at the 85th percentile; conversely,
 Moncler only passes LCP at the 24th percentile. I can pass this into the
 algorithm to award over- or underachieving.
