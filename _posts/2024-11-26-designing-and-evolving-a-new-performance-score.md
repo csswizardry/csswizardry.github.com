@@ -197,7 +197,7 @@ absurd! INP is measured in **hundreds of milliseconds**, LCP is measured in
 inordinate weighting to INP.
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-01.png" alt="" width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-01.png" alt="" width="1500" height="194" loading="lazy">
 <figcaption>A naive summing approach awards the lowest score to our highest
 performer and the highest score to our middlemost. This is completely
 useless.</figcaption>
@@ -214,7 +214,7 @@ why don’t we try normalising them?
 Let’s convert our INP into seconds:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-02.png" alt="" width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-02.png" alt="" width="1500" height="194" loading="lazy">
 <figcaption>This is marginally better—we’re now attributing the best to the
 best, but we’re now awarding the worst to the middle.</figcaption>
 </figure>
@@ -255,7 +255,7 @@ Once we’ve done this, we end up with a new normalised column that places each 
 the metrics proportionately (not equally) on a 0–1 scale:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-rescaled.png" alt="" width="1500" height="210" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-rescaled.png" alt="" width="1500" height="210" loading="lazy">
 <figcaption>Now we can compare disparate metrics like-for-like.</figcaption>
 </figure>
 
@@ -284,7 +284,7 @@ Once we averaged out the normalised Core Web Vitals scores, we were onto
 something much more trustworthy!
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-03.png" alt="" width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-03.png" alt="" width="1500" height="194" loading="lazy">
 <figcaption>Now the new metric aligns with our ordinal score. That’s great
 news!</figcaption>
 </figure>
@@ -310,7 +310,7 @@ numbers. As the scale is 0–1, we just need to subtract the derived score from 
 `= 1 - (AVERAGE(E2:G2))`:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-inverted.png" alt="" width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-inverted.png" alt="" width="1500" height="194" loading="lazy">
 <figcaption>Now we have a higher-is-better paradigm which is much more familiar
 as a measure of success.</figcaption>
 </figure>
@@ -321,7 +321,7 @@ worst. I decided that a Lighthouse-like score out of 100 might be more intuitive
 still: `= 100 - (AVERAGE(E2:G2) * 100)`:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-100.png" alt="" width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-100.png" alt="" width="1500" height="194" loading="lazy">
 <figcaption>Now we have a higher-is-better paradigm which is much more familiar
 as a measure of success.</figcaption>
 </figure>
@@ -329,7 +329,7 @@ as a measure of success.</figcaption>
 Finally, let’s round the numbers to the nearest integer:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-rounded.png" alt="" width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-rounded.png" alt="" width="1500" height="194" loading="lazy">
 <figcaption>Oh, that doesn’t seem too fair…</figcaption>
 </figure>
 
@@ -348,7 +348,7 @@ dataset, gave much more encouraging results, I still wanted to build in more
 resilience:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-real-data.png" alt="" width="1500" height="192" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-real-data.png" alt="" width="1500" height="192" loading="lazy">
 <figcaption>Nice! I worked with RIMOWA for about 18 months on getting them to
 this place.</figcaption>
 </figure>
@@ -366,7 +366,7 @@ and a score out of 100 obscures this fact.
 The 100-based score was short lived, and I soon removed it:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-indexed.png" alt="" width="1500" height="192" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-indexed.png" alt="" width="1500" height="192" loading="lazy">
 <figcaption>0–1 is a better scale for indexing.</figcaption>
 </figure>
 
@@ -396,7 +396,7 @@ Now, instead of immediately aggregating the normalised values, I weight the
 normalised values around passingness and then aggregate them.
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-weighted.png" alt="" width="1500" height="328" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-weighted.png" alt="" width="1500" height="328" loading="lazy">
 <figcaption>It looks like everyone got a little bump… is that fair?</figcaption>
 </figure>
 
@@ -418,7 +418,7 @@ based entirely on data, and no weighting is applied with influence or bias. It�
 all facts all the way down.
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-crrrux.png" alt="" width="1500" height="278" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-crrrux.png" alt="" width="1500" height="278" loading="lazy">
 <figcaption>The Weighted Score further weighted by Ordinal Score gave good
 outcomes.</figcaption>
 </figure>
@@ -439,7 +439,7 @@ a list of origins with the click of a button. Here is an abridged top-100
 origins from the HTTP Archive:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-top-100.png" alt="" width="1500" height="588" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-top-100.png" alt="" width="1500" height="588" loading="lazy">
 <figcaption>I had to blur the origins—there’s a lot of NSFW stuff in here.</figcaption>
 </figure>
 
@@ -451,7 +451,7 @@ In 2021, [Jake Archibald](https://jakearchibald.com/) ran a series determining
 Plugging the current roster into CrRRUX:
 
 <figure>
-<img src="/wp-content/uploads/2024/11/new-metric-f1.png" alt="" width="1500" height="379" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-f1.png" alt="" width="1500" height="379" loading="lazy">
 <figcaption>Again, I am happy with the clustering and respect for ordinality.</figcaption>
 </figure>
 
