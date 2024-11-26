@@ -53,22 +53,11 @@ workshop](/workshops/). My workshops are renowned.
 
 ## Upcoming Events
 
-### 2024
-
-<ol class="list-ui  mb">
-
-  {% include speaking.html %}
-
-</ol>
-
 ### 2025
 
 <ol class="list-ui  mb">
 
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/gr.png" alt width="16" height="11" loading="lazy" /> <a href="https://devoxx.gr/">Devoxx Greece</a>: Athens (Greece), April 2025
-  </li>
+  {% include speaking.html %}
 
 </ol>
 
@@ -143,6 +132,11 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 ### 2024
 
 <ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt="" width="16" height="11" loading="lazy" /> <a href="https://londonwebstandards.org/events/lwsnov2024/">London Web Standards</a>: London (England), November 2024
+  </li>
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
