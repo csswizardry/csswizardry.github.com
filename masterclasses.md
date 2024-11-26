@@ -138,7 +138,8 @@ You’re not alone. Need to streamline your workflows? We’ll be there in no ti
   contain: layout paint;
 }
 
-.c-tile:has(details[open]) {
+.c-tile:has(details[open]),
+.c-tile:target {
   border-color: #f43059;
 }
 
@@ -213,7 +214,7 @@ You’re not alone. Need to streamline your workflows? We’ll be there in no ti
 <ul class="c-tiles-list" id="jsMasterclassList">
 
   {% for masterclass in page.masterclasses %}
-    <li class="c-tile  jsMasterclassItem">
+    <li class="c-tile  jsMasterclassItem" id="masterclass-{{ masterclass.image }}">
       <div class="c-tile__hero">
         <img src="{{ site.cloudinary }}/img/content/masterclass/{{ masterclass.image }}.jpg" alt class="c-tile__image" width="960" height="549" loading="lazy">
       </div>
