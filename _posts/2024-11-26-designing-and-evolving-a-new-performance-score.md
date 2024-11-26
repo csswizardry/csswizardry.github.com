@@ -13,7 +13,10 @@ me to use in my pitching process—competition is a great motivator!
 
 The problem is, there aren’t many clear and simple ways to do it, especially not
 in a way that can be distilled into a single, simple value that clients can
-understand…
+understand.
+
+I have spent the last several weeks working on a new relative-ranking score;
+today I am writing it up.
 
 ---
 
