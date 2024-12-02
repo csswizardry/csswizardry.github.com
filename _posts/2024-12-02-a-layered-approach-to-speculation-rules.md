@@ -3,7 +3,7 @@ layout: post
 title: "A Layered Approach to Speculation Rules"
 date: 2024-12-02 00:01:56
 categories: Web Development
-main: "/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
+main: "https://csswizardry.com/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
 meta: "Layering up our Speculation Rules for a more progressive aproach to performance."
 ---
 
