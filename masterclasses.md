@@ -224,7 +224,7 @@ You’re not alone. Need to streamline your workflows? We’ll be there in no ti
         <div class="c-tile__text">
         <p>{{ masterclass.intro }}</p>
         <details>
-          <summary>Learn more…</summary>
+          <summary>Learn more<span class="hide"> about {{ masterclass.title }}</span>…</summary>
           <p>{{ masterclass.description }}</p>
         </details>
         </div>
