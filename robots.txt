@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-User-agent: ChatGPT-User
+User-agent: GPTBot
 Disallow: /
 
 Sitemap: https://csswizardry.com/sitemap.xml
