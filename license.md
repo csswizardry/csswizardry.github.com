@@ -12,7 +12,7 @@ tips, techniques, and other materials, is made available under the [MIT
 license](https://opensource.org/license/MIT). By using the content, you agree to
 the terms of this license.
 
-## Summary of the MIT license
+## Summary of the MIT License
 
 The MIT license allows you to:
 
@@ -60,9 +60,37 @@ SOFTWARE.
 
 When using content from this site:
 
-1. Include a copy of the license text or link back to this page.
-2. Clearly credit the original author or source (e.g., _‘Content by Harry
-   Roberts, csswizardry.com, available under the MIT license’_).
+1. **Include a copy of the license** text or link back to this page in code
+   repositories.
+2. **Clearly credit the original author** and source (e.g., _‘Content by Harry
+   Roberts, csswizardry.com, available under the MIT license.’_) in production
+   code.
+
+## tl;dr
+
+If you use any of my code snippets or examples—including in modified or
+derivative works—you must include proper credit and attribution. This ensures
+others know the source and that you respect the license terms.
+
+Examples of how to provide attribution:
+
+**HTML:**
+
+```html
+<!--! Content by Harry Roberts, csswizardry.com, available under the MIT license. -->
+```
+
+**CSS:**
+
+```css
+/*! Content by Harry Roberts, csswizardry.com, available under the MIT license. */
+```
+
+**JS:**
+
+```js
+/*! Content by Harry Roberts, csswizardry.com, available under the MIT license. */
+```
 
 ## Questions or Permissions
 

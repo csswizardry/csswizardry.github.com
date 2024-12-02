@@ -19,6 +19,8 @@ lux: Post
 
         <p class=hide>Written by <b itemprop=author>Harry Roberts</b> on <b itemprop=publisher>CSS Wizardry</b>.</p>
 
+        {% include license-notice.html %}
+
         {% if page.toc != false %}
           <details class=c-toc>
             <summary>Table of Contents</summary>
@@ -116,6 +118,8 @@ lux: Post
 
         {% endif %}
 
+        {% include license-notice.html %}
+
         <hr />
 
         <style>
@@ -157,7 +161,6 @@ lux: Post
           {
             "prerender": [
               {
-                "source": "list",
                 "urls": [
                   {% if page.next.url %}
                     "{{ page.next.url }}",
