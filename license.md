@@ -4,7 +4,7 @@ title: License
 page-class: page--license
 meta: "All code and examples on csswizardry.com are provided free of charge for commercial works, but you do have some small responsibilities in return…"
 permalink: /license/
-main: "/img/content/licensing/poster.jpg"
+main: "https://csswizardry.com/img/content/licensing/poster.jpg"
 lux: License
 ---
 
