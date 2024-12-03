@@ -9,7 +9,7 @@ lux: "Contact"
 
 **Consultancy projects, speaking engagements, or just to say hi.**
 
-<a href="mailto:csswizardry@gmail.com" class="btn  btn--full" id="section:details">csswizardry@gmail.com</a>
+<a href="mailto:csswizardry@gmail.com" class="btn  btn--full" id="section:details">harry@csswizardry.com</a>
 
 * For **consulting engagements**, please [send me an
   email](mailto:csswizardry@gmail.com).

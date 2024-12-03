@@ -4,7 +4,7 @@ title: "A Layered Approach to Speculation Rules"
 date: 2024-12-02 00:01:56
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
-meta: "Layering up our Speculation Rules for a more progressive aproach to performance."
+meta: "The new Speculation Rules API is incredibly powerful, but we can do so much more! By taking a layered, opt-in approach, we can add more progressive and effective functionality."
 ---
 
 I’ve always loved doing slightly unconventional and crafty things with simple
@@ -300,6 +300,8 @@ Putting them all together in the format and order required, our Speculation
 Rules look like this:
 
 ```html
+<!--! Content by Harry Roberts, csswizardry.com, available under the MIT license. -->
+
 <script type=speculationrules>
   {
     "prefetch": [
