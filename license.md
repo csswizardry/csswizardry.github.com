@@ -2,8 +2,9 @@
 layout: page
 title: License
 page-class: page--license
-meta: "Your rights and responsiblities"
+meta: "All code and examples on csswizardry.com are provided free of charge for commercial works, but you do have some small responsibilities in return…"
 permalink: /license/
+main: "/img/content/licensing/poster.jpg"
 lux: License
 ---
 
