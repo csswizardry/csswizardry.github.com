@@ -27,11 +27,11 @@ while ensuring a small nod of recognition in return.
 
 Over the years, conscientious developers and organisations have occasionally
 reached out to ask if they can use my code in commercial settings. My answer has
-always been an informal yes.
+always been an informal _yes!_
 
 However, I feel it’s time to provide more structure and clarity. From now on,
 everything shared on `csswizardry.com`—unless stated otherwise—is covered by the
-MIT Licence.
+MIT License.
 
 This move isn’t about restricting or limiting usage. Instead, it formalises my
 commitment to sharing my work freely while making it clear to commercial
@@ -43,30 +43,30 @@ In return, all I ask for is appropriate credit. I think that’s fair.
 ## The MIT License
 
 I chose [the MIT license](https://opensource.org/license/mit) because it’s one
-of the most permissive and widely used licences available. It allows you to use,
+of the most permissive and widely used licenses available. It allows you to use,
 modify, and reproduce my work freely, whether for personal or commercial
 purposes.
 
 At the same time, it protects me by absolving any liability for how the content
 is used. It’s a win-win.
 
-The MIT Licence is already a familiar standard in the open-source world, so the
-chances are you or your company have used work under this licence before. It’s
+The MIT License is already a familiar standard in the open-source world, so the
+chances are you or your company have used work under this license before. It’s
 simple, clear, and works perfectly for my goals.
 
 ## Using My Code: What to Know
 
 Here are answers to common or expected questions about using my code under the
-MIT Licence.
+MIT License.
 
 <details name="license-faq" open>
   <summary>Do I need to pay to use your code?</summary>
-  <p>No, you don’t need to pay to use any of the code shared on <code>csswizardry.com</code>. My content is licensed under the MIT Licence, which allows free use for both personal and commercial purposes.</p>
+  <p>No, you don’t need to pay to use any of the code shared on <code>csswizardry.com</code>. My content is licensed under the MIT License, which allows free use for both personal and commercial purposes.</p>
 </details>
 
 <details name="license-faq">
   <summary>Do I need to apply to use your code?</summary>
-  <p>No, there’s no need to apply or seek permission. The MIT Licence already grants you the right to use, modify, and distribute the code as long as you meet its conditions, which primarily involve proper attribution.</p>
+  <p>No, there’s no need to apply or seek permission. The MIT License already grants you the right to use, modify, and distribute the code as long as you meet its conditions, which primarily involve proper attribution.</p>
 </details>
 
 <details name="license-faq">
@@ -76,13 +76,13 @@ MIT Licence.
 
 <details name="license-faq">
   <summary>What happens if I don’t comply?</summary>
-  <p>If you don’t comply with the MIT Licence (e.g. by failing to include attribution), you’re in breach of the licence. This means you lose the rights granted by it, and technically, your use of the code would be unauthorised.</p>
+  <p>If you don’t comply with the MIT License (e.g. by failing to include attribution), you’re in breach of the license. This means you lose the rights granted by it, and technically, your use of the code would be unauthorised.</p>
   <p>I’d prefer to resolve issues amicably, so if there’s a misunderstanding, I’d encourage you to reach out so we can work things out.</p>
 </details>
 
 <details name="license-faq">
   <summary>Can I use your code in a commercial project?</summary>
-  <p>Yes, you’re free to use my code in commercial projects. The MIT Licence permits this, and there are no hidden fees or obligations beyond proper attribution.</p>
+  <p>Yes, you’re free to use my code in commercial projects. The MIT License permits this, and there are no hidden fees or obligations beyond proper attribution.</p>
 </details>
 
 <details name="license-faq">
@@ -92,7 +92,7 @@ MIT Licence.
 
 <details name="license-faq">
   <summary>Can I modify your code?</summary>
-  <p>Yes, the MIT Licence allows you to modify my code to suit your needs. Even if you make changes, you still need to include attribution to the original source.</p>
+  <p>Yes, the MIT License allows you to modify my code to suit your needs. Even if you make changes, you still need to include attribution to the original source.</p>
 </details>
 
 <details name="license-faq">
@@ -106,8 +106,8 @@ MIT Licence.
 </details>
 
 <details name="license-faq">
-  <summary>Where can I learn more about the MIT Licence?</summary>
-  <p>You can read <a href="https://opensource.org/licenses/MIT">the full text of the MIT Licence</a> or read <a href="https://csswizardry.com/license/">the Licence page</a> of this site.</p>
+  <summary>Where can I learn more about the MIT License?</summary>
+  <p>You can read <a href="https://opensource.org/licenses/MIT">the full text of the MIT License</a> or read <a href="https://csswizardry.com/license/">the License page</a> of this site.</p>
 </details>
 
 
