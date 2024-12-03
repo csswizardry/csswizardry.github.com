@@ -42,12 +42,11 @@ lux: Home
 
           {% if forloop.first == true %}
 
-            <script type="speculationrules">
+            <script type=speculationrules>
 
               {
                 "prerender": [
                   {
-                    "source": "list",
                     "urls": [ "{{ post.url }}" ]
                   }
                 ]
