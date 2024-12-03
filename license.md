@@ -98,5 +98,4 @@ Examples of how to provide attribution:
 
 ## Questions or Permissions
 
-If you have any questions about the license or wish to inquire about permissions
-for specific use cases, please [contact me](/contact/).
+{% include faq-license.html %}
