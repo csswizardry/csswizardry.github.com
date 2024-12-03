@@ -13,6 +13,9 @@ tips, techniques, and other materials, is made available under the [MIT
 license](https://opensource.org/license/MIT). By using the content, you agree to
 the terms of this license.
 
+You can read more about my decision in [my announcement
+post](/2024/12/licensing-code-on-css-wizardry/).
+
 ## Summary of the MIT License
 
 The MIT license allows you to:
