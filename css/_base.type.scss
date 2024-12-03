@@ -196,6 +196,8 @@ hr {
  * Highlighted text.
  */
 mark {
+  color: inherit;
+  background-color: $color-hilite;
 
     pre & {
         background: none;
