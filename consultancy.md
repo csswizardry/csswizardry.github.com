@@ -2,7 +2,7 @@
 layout: page
 title: Web Performance Consultancy
 page-class: page--services  page--consultancy
-meta: "Consultancy and strategic guidance for development teams"
+meta: "Harry Roberts provides web performance consultancy to help companies of all shapes and sizes pass Core Web Vitals and improve user experience."
 permalink: /consultancy/
 lux: "Services / Consultancy"
 ---

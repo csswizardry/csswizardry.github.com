@@ -2,7 +2,7 @@
 layout: page
 title: Let’s Get Started
 page-class: page--contact
-meta: "Get in touch to discuss work and speaking engagements"
+meta: "Contact Harry Roberts to arrange training for your team, to begin passing Core Web Vitals, or to speak at your event."
 permalink: /contact/
 lux: "Contact"
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 page-class: page--about
-meta: "About Harry Roberts’ work, abilities, and services"
+meta: "Harry Roberts is an award-winning Consultant Web Performance Engineer from the UK. He helps companies of all shapes and sizes find and fix site-speed issues."
 permalink: /about/
 lux: About
 ---
