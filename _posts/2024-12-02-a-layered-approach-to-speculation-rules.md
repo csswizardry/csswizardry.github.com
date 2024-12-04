@@ -175,7 +175,7 @@ And the corresponding Speculation Rules:
 phase, you’d never need both `class="prefetch prerender"`; one or the other is
 sufficient.</small>
 
-However, I’m fond of the self-fulfillingness of this pattern:
+However, I’m very fond of this pattern:
 
 ```html
 <a href data-prefetch>Prefetched Link</a>
@@ -190,7 +190,7 @@ And their respective Speculation Rules:
     "prefetch": [
       {
         "where": {
-          "selector_matches": "[data-prefetch]"
+          "selector_matches": "[data-prefetch='']"
         },
         ...
       }
@@ -207,18 +207,54 @@ And their respective Speculation Rules:
 </script>
 ```
 
-It keeps all logic contained in a `data-prefetch` attribute, and the redundancy
-of `data-prefetch=prerender` matching both is, by definition, a non-issue (in
-much the same way [`dns-prefetch` and `preconnect` get along just
-fine](https://speakerdeck.com/csswizardry/more-than-you-ever-wanted-to-know-about-resource-hints?slide=40)
-despite the overlap in their Venn diagram).
+It keeps all logic nicely and neatly contained in a `data-prefetch` attribute.
+
+Note that I’m using `[data-prefetch='']`. This matches `data-prefetch`
+_exaxtly_. If I were to use `[data-prefetch]`, it would match any and all of the
+following:
+
+* `<a href data-prefetch>`
+* `<a href data-prefetch=prerender>`
+* `<a href data-prefetch=foo>`
+* `<a href data-prefetch='baz bar foo'>`
+* `<a href data-prefetch=false>`
+
+The last one is the one I care about the most, and will become very important
+right about… now.
+
+### Opt-Out Strategy
+
+We’ll probably run into a scenario at some point where we explicitly want to opt
+out of prefetching or prerendering—for example, a log-out page. In order to be
+able to achieve that, we’ll need to reserve something like
+`data-prefetch=false`.
+
+If we’d used `"selector_matches": "[data-prefetch]"` above, that would also
+match `data-prefetch=false`, which is exactly what we don’t want. That’s why we
+bound our selector onto `"selector_matches": "[data-prefetch='']"`
+specifically—only match a `data-prefetch` attribute that has no value.
+
+Now, we have the following three explicit opt-in and -out hooks:
+
+* **`data-prefetch`:** Only prefetch this link.
+* **`data-prefetch=prerender`:** Make a full prerender for this link.
+* **`data-prefetch=false`:** Do nothing with this link.
+
+```html
+<a href data-prefetch>Prefetched Link</a>
+<a href data-prefetch=prerender>Prerendered Link</a>
+<a href data-prefetch=false>Untouched Link</a>
+```
+
+Anything else would fail to match any Speculation Rule, and thus would do
+nothing.
 
 ### Layering Up
 
-With this simple opt-in mechanism in place, I wanted to look at ways to subtly
-and effectively layer this up to add further disclosed functionality without any
-additional configuration. What could I do to _really_ maximise the benefit of
-Speculation Rules with just these two attributes?
+With these simple opt-in and -out mechanisms in place, I wanted to look at ways
+to subtly and effectively layer this up to add further disclosed functionality
+without any additional configuration. What could I do to _really_ maximise the
+benefit of Speculation Rules with just these two attributes?
 
 My thinking was that if we’re explicitly marking `data-prefetch` and
 `data-prefetch=prerender`, could we upgrade the former to the later on-demand?
@@ -236,7 +272,7 @@ Also easy!
 Working from most- to least-aggressive, and keeping in mind our two truisms, the
 best way to think about what we’re achieving is that we:
 
-0. **immediately pay LCP** costs for any link we’ve opted into:
+0. **immediately pay LCP** costs for any matching link we’ve opted into:
    ```json
    "prerender": [
      {
@@ -248,12 +284,12 @@ best way to think about what we’re achieving is that we:
      ...
    ]
    ```
-0. **immediately pay TTFB** costs for any link we’ve opted into:
+0. **immediately pay TTFB** costs for any matching link we’ve opted into:
    ```json
    "prefetch": [
      {
        "where": {
-         "selector_matches": "[data-prefetch]"
+         "selector_matches": "[data-prefetch='']"
        },
        "eagerness": "immediate"
      },
@@ -266,7 +302,7 @@ best way to think about what we’re achieving is that we:
      ...
      {
        "where": {
-         "selector_matches": "[data-prefetch]"
+         "selector_matches": "[data-prefetch='']"
        },
        "eagerness": "moderate"
      }
@@ -278,12 +314,17 @@ best way to think about what we’re achieving is that we:
      ...
      {
        "where": {
-         "href_matches": "/*"
+         "and": [
+           { "href_matches": "/*" },
+           { "not": { "selector_matches": "[data-prefetch=false]" } }
+         ]
        },
        "eagerness": "moderate"
      }
    ],
    ```
+   Note that here is where we prefetch any internal link _except those
+   explicitly opted out_.
 
 Now, the client has the ability to prerender highly likely or encouraged
 navigations with the `data-prefetch=prerender` attributes (e.g. on their
@@ -292,9 +333,9 @@ top-level navigation or their homepage calls-to-action).
 Things that are less likely but still reasonable candidates for warm-up (e.g.
 items in the sub-navigation) can simply carry `data-prefetch`.
 
-Everything else would just be a bare `<a href>`, and all links (except the
-already-maxed out `data-prefetch=prerender`) get upgraded to the next category
-on demand.
+All other internal links (`"href_matches": "/*"`)—except the already-maxed out
+`data-prefetch=prerender` or opted-out `data-prefetch=false`—get upgraded to the
+next category on demand.
 
 Putting them all together in the format and order required, our Speculation
 Rules look like this:
@@ -307,13 +348,16 @@ Rules look like this:
     "prefetch": [
       {
         "where": {
-          "selector_matches": "[data-prefetch]"
+          "selector_matches": "[data-prefetch='']"
         },
         "eagerness": "immediate"
       },
       {
         "where": {
-          "href_matches": "/*"
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "selector_matches": "[data-prefetch=false]" } }
+          ]
         },
         "eagerness": "moderate"
       }
@@ -327,7 +371,7 @@ Rules look like this:
       },
       {
         "where": {
-          "selector_matches": "[data-prefetch]"
+          "selector_matches": "[data-prefetch='']"
         },
         "eagerness": "moderate"
       }
@@ -343,7 +387,6 @@ We could apply these against this example page:
 
   <li class=c-nav__main>
     <a href=/ data-prefetch=prerender>Home</a>
-  </li>
 
   <li class=c-nav__main>
 
@@ -355,7 +398,6 @@ We could apply these against this example page:
       <li>
         <a href=/about/board/ data-prefetch>Company Directors</a>
     </ul>
-  </li>
 
   <li class=c-nav__main>
 
@@ -368,10 +410,12 @@ We could apply these against this example page:
         <a href=/services/industries/ data-prefetch>Industries</a>
     </ul>
 
-  </li>
 
   <li class=c-nav__main>
     <a href=/contact/ data-prefetch=prerender>Contact Us</a>
+
+  <li class=c-nav__main>
+    <a href=/log-out/ data-prefetch=false>Log Out</a>
 
 </ul>
 
@@ -394,6 +438,7 @@ We could apply these against this example page:
   are immediately prefetched but prerendered on demand.
 * All other links (e.g. the _Sitemap_ page) are dormant until they get
   prefetched on demand.
+* Any links with `data-prefetch=false` are skipped entirely.
 
 I can’t publish any names or numbers or facts or figures, but we ran an
 experiment for a week and the outcomes we’re incredibly compelling.
