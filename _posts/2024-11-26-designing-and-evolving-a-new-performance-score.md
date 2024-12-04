@@ -458,6 +458,17 @@ Plugging the current roster into CrRRUX:
 <figcaption>Again, I am happy with the clustering and respect for ordinality.</figcaption>
 </figure>
 
+I also particularly like that, even though the scale runs from 0–1 within the
+cohort, objectively bad sites will still never score high just because they’re
+relatively better than their peers:
+
+<figure>
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-sports-betting.png" alt="" width="1500" height="372" loading="lazy">
+<figcaption>Note how the CrRRUX Score reduces the Aggregate and Weighted Scores significantly.</figcaption>
+</figure>
+
+Weighting around ordinality adds a very useful dimension to the metric overall.
+
 ## Conclusion
 
 CrRRUX simplifies competitor analysis into a single number reflecting real user
