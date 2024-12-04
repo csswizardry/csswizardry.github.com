@@ -10,7 +10,7 @@ lux: License
 
 Unless otherwise stated, all content on this website, including code snippets,
 tips, techniques, and other materials, is made available under the [MIT
-license](https://opensource.org/license/MIT). By using the content, you agree to
+License](https://opensource.org/license/MIT). By using the content, you agree to
 the terms of this license.
 
 You can read more about my decision in [my announcement
@@ -18,7 +18,7 @@ post](/2024/12/licensing-code-on-css-wizardry/).
 
 ## Summary of the MIT License
 
-The MIT license allows you to:
+The MIT License allows you to:
 
 
 * Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
@@ -67,7 +67,7 @@ When using content from this site:
 1. **Include a copy of the license** text or link back to this page in code
    repositories.
 2. **Clearly credit the original author** and source (e.g., _‘Content by Harry
-   Roberts, csswizardry.com, available under the MIT license.’_) in production
+   Roberts, csswizardry.com, available under the MIT License.’_) in production
    code.
 
 ## tl;dr
@@ -81,19 +81,19 @@ Examples of how to provide attribution:
 **HTML:**
 
 ```html
-<!--! Content by Harry Roberts, csswizardry.com, available under the MIT license. -->
+<!--! Content by Harry Roberts, csswizardry.com, available under the MIT License. -->
 ```
 
 **CSS:**
 
 ```css
-/*! Content by Harry Roberts, csswizardry.com, available under the MIT license. */
+/*! Content by Harry Roberts, csswizardry.com, available under the MIT License. */
 ```
 
 **JS:**
 
 ```js
-/*! Content by Harry Roberts, csswizardry.com, available under the MIT license. */
+/*! Content by Harry Roberts, csswizardry.com, available under the MIT License. */
 ```
 
 ## Questions or Permissions

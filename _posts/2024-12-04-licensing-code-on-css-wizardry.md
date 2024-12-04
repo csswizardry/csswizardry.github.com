@@ -4,7 +4,7 @@ title: "Licensing Code on CSS Wizardry"
 date: 2024-12-04 10:32:12
 categories: Web Development
 main: "https://csswizardry.com/img/content/licensing/poster.jpg"
-meta: "I’ve recently decided to apply the permissive MIT license to all content on CSS Wizardry by default. How does this affect you?"
+meta: "I’ve recently decided to apply the permissive MIT License to all content on CSS Wizardry by default. How does this affect you?"
 ---
 
 Since founding `csswizardry.com` in 2007, I’ve shared [hundreds of
@@ -42,7 +42,7 @@ In return, all I ask for is appropriate credit. I think that’s fair.
 
 ## The MIT License
 
-I chose [the MIT license](https://opensource.org/license/mit) because it’s one
+I chose [the MIT License](https://opensource.org/license/mit) because it’s one
 of the most permissive and widely used licenses available. It allows you to use,
 modify, and reproduce my work freely, whether for personal or commercial
 purposes.
