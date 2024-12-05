@@ -19,7 +19,11 @@ lux: Post
 
         <p class=hide>Written by <b itemprop=author>Harry Roberts</b> on <b itemprop=publisher>CSS Wizardry</b>.</p>
 
-        {% include license-notice.html %}
+        {% if page.case-study != true %}
+
+          {% include license-notice.html %}
+
+        {% endif %}
 
         {% if page.toc != false %}
           <details class=c-toc>
@@ -50,6 +54,8 @@ lux: Post
             }
           </script>
         {% endif %}
+
+        {% if page.case-study != true %}
 
         <script type="application/ld+json">
           {
@@ -91,133 +97,55 @@ lux: Post
           }
         </script>
 
-        {% if page.case-study != true %}
-
-          <script type="application/ld+json">
-            {
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Blog",
-                "item": "https://csswizardry.com/archive/"
-              }, {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "{{ page.date | date: "%Y" }}",
-                "item": "https://csswizardry.com/archive/#year-{{ page.date | date: "%Y" }}"
-              }, {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "{{ page.title }}",
-                "item": "{{ site.url }}{{ page.url }}"
-              }]
-            }
-          </script>
-
-        {% endif %}
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Blog",
+              "item": "https://csswizardry.com/archive/"
+            }, {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "{{ page.date | date: "%Y" }}",
+              "item": "https://csswizardry.com/archive/#year-{{ page.date | date: "%Y" }}"
+            }, {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "{{ page.title }}",
+              "item": "{{ site.url }}{{ page.url }}"
+            }]
+          }
+        </script>
 
         {% include license-notice.html %}
 
         <hr />
 
-        <style>
+        <div class=layout>
 
-          .c-mini-profile {
-            display: flex;
-            gap: 0.75rem;
-            align-items: flex-start;
-            margin-bottom: 1.5rem;
-            content-visibility: auto;
-            contain-intrinsic-size: 1px 120px;
-          }
+          <div class="layout__item  one-half">
 
-            .c-mini-profile__avatar {
-              border-radius: 100%;
-            }
+            {% include web-share.html %}
 
-            .c-mini-profile__content {
-            }
+            </div><div class="layout__item  one-half">
 
-        </style>
+            <p><a href=/contact/ class="btn  btn--full  btn--positive"><strong>Hire me</strong></a></p>
 
-        <article class=c-mini-profile>
-          <img src=/img/content/avatar.jpg alt width=72 height=72 loading=lazy class=c-mini-profile__avatar>
-          <div class=c-mini-profile__content>
-            <h5 class=mb0 style="font-weight: bold;">By Harry Roberts</h5>
-            <p class=mb0>Harry Roberts is an independent consultant web performance engineer. He helps companies of all shapes and sizes find and fix site speed issues.</p>
           </div>
-        </article>
+
+        </div>
 
         <hr />
 
-        <style>
-          {% include css/components.pagination.css %}
-        </style>
+        {% include article-pagination.html %}
 
-        <script type=speculationrules>
+        <hr />
 
-          {
-            "prerender": [
-              {
-                "urls": [
-                  {% if page.next.url %}
-                    "{{ page.next.url }}",
-                  {% endif %}
-                  {% if page.previous.url %}
-                    "{{ page.previous.url }}"
-                  {% endif %}
-                ]
-              }
-            ]
-          }
+        {% include mini-profile.html %}
 
-        </script>
-
-        <nav class=c-pagination>
-          {% if page.previous.url %}
-            <a href="{{ page.previous.url }}" class="c-pagination__item c-pagination__prev" style="view-transition-name: x-{{ page.previous.date | date: '%Y-%m-%d' }}" id=articleOlder>{{page.previous.title}}</a>
-          {% endif %}
-          {% if page.next.url %}
-            <a href="{{ page.next.url }}" class="c-pagination__item c-pagination__next" style="view-transition-name: x-{{ page.next.date | date: '%Y-%m-%d' }}" id=articleNewer>{{page.next.title}}</a>
-          {% endif %}
-        </nav>
-
-        <script>
-          (() => {
-
-            const articleOlder = document.getElementById('articleOlder');
-            const articleNewer = document.getElementById('articleNewer');
-
-            articleOlder.addEventListener('click', (event) => {
-
-              setTimeout(() => {
-                LUX.addData('articlePaginationUsed', true)
-                LUX.addData('articleOlderUsed', true)
-              });
-
-            });
-
-            articleNewer.addEventListener('click', (event) => {
-
-              setTimeout(() => {
-                LUX.addData('articlePaginationUsed', true)
-                LUX.addData('articleNewerUsed', true)
-              });
-
-            });
-
-          })();
-        </script>
-
-        {% if page.hide-hire-me-link != true %}
-
-            <hr />
-
-            <p>
-                <a href=/code-reviews/#fix-it-fast class="btn btn--full">Did this help? <strong>We can do way more!</strong></a>
-            </p>
         {% endif %}
 
       <script>performance.mark('contentEnd')</script>

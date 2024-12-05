@@ -1,0 +1,22 @@
+<p><button class="btn  btn--secondary btn--full" id=jsShareButton>Share this</button></p>
+
+<script type=module>
+
+  if (!navigator.share) {
+    shareButton.style.display = 'none';
+  } else {
+
+    const shareButton = document.getElementById('jsShareButton');
+    const shareData = {
+      text: 'I really enjoyed ‘{{ page.title }}’ by @csswizardry! https://csswizardry.com{{ page.url }} ',
+    };
+
+    shareButton.addEventListener('click', async () => {
+      try {
+        await navigator.share(shareData);
+      } catch (err) { }
+    });
+  }
+
+</script>
+
