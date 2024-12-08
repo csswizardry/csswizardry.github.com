@@ -14,6 +14,20 @@ I’ve spoken at a lot of conferences. [Over one-hundred](#section:past-events) 
 them. Sharing knowledge is one of my key motivations, and is a large part of why
 I chose to become a consultant in the first place—I love to help.
 
+<figure>
+  <img src="/img/content/perfnow-2024.jpg"
+       alt
+       width="1500"
+       height="843"
+       id="about-image"
+       style="background-image: url({% include base64/speaking.jpg.html %});"
+       fetchpriority="high"
+       decoding="sync"
+       elementtiming="speaking-image">
+  <figcaption>On-stage at performance.now() 2024, Amsterdam. Photo by <a
+href="https://richardtheemling.com/">Richard Theemling</a>.</figcaption>
+</figure>
+
 From local meetups to international events, I am an enthusiastic, engaging, and
 professional speaker. My focus is on web performance and site-speed
 optimisation, from both a technical- and business-perspective.
@@ -30,7 +44,7 @@ a line](/contact/).
 conference](https://perfnow.nl/). It’s a good representation of me and my style.
 
 <figure class="c-video" id="video">
-  <iframe class="c-video__media" src="https://www.youtube.com/embed/cXLOIIJ1UaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="c-video__media" src="https://www.youtube.com/embed/cXLOIIJ1UaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </figure>
 
 As well as public speaking engagements, I am available to deliver talks
