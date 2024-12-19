@@ -11,8 +11,8 @@ Hi there, I’m Harry Roberts. I am an independent **Consultant Web Performance
 Engineer** from Leeds, UK. I help some of the world’s largest and most respected
 organisations deliver faster and more reliable experiences to their customers.
 I am an invited [Google Developer
-Expert](https://developers.google.com/experts/people/harry-roberts),
-a [Cloudinary Media Developer
+Expert](https://developers.google.com/profile/u/csswizardry), a [Cloudinary
+Media Developer
 Expert](https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program#harry_roberts),
 an [award-winning
 developer](https://web.archive.org/web/20190630140300/https://thenetawards.com/previous-winners/),
