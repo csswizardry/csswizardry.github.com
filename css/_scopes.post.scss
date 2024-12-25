@@ -4,6 +4,33 @@
 
 .s-post {
 
+  @supports (animation-timeline: scroll()) {
+
+    /**
+     * Scroll-driven progress bar.
+     */
+
+    @keyframes progress {
+      to { transform: scaleX(100%); }
+    }
+
+    &::before {
+      content: "";
+      height: 6px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      transform: scaleX(0);
+      transform-origin: left;
+      background-color: $color-brand;
+      animation: progress linear both;
+      animation-timeline: scroll();
+      z-index: 2;
+    }
+
+  }
+
   /**
    * Avoid orphans.
    */
