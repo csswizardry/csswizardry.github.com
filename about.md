@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: About Harry Roberts
 page-class: page--about
 meta: "Harry Roberts is an award-winning Consultant Web Performance Engineer from the UK. He helps companies of all shapes and sizes find and fix site-speed issues."
 permalink: /about/
