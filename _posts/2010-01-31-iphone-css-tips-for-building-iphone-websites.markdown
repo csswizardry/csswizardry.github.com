@@ -55,7 +55,7 @@ Now, both when browsing and saving your site to their home screen, a user will o
 
 #### The home screen icon
 
-Actually making the icon is very simple. All you need to do is upload a 57x57px icon (usually a larger version of your favicon) to your server root. The icon must be named `apple-touch-icon.png`, and the iPhone will sort the rest out. See [my icon](/apple-touch-icon.png).
+Actually making the icon is very simple. All you need to do is upload a 57x57px icon (usually a larger version of your favicon) to your server root. The icon must be named `apple-touch-icon.png`, and the iPhone will sort the rest out.
 
 ### Stopping user pinch-zooming
 
@@ -79,7 +79,7 @@ The first thing you need to do is make sure the HTML link element that points to
 
     <link rel="stylesheet" href="/path/to/style.css">
 
-Next, we're going to use [Quick Tip #15](/quick-tips/#tip-15) that I wrote on my Quick Tips page. This means that we can just add our iPhone styles directly onto the end of the main stylesheet, and inherit all the styles set for desktop viewing:
+Next, we're going to use Quick Tip #15 that I wrote on my Quick Tips page. This means that we can just add our iPhone styles directly onto the end of the main stylesheet, and inherit all the styles set for desktop viewing:
 
     /*--- Main CSS here ---*/
     
@@ -179,6 +179,6 @@ As images inherently have a set pixel width (i.e. their own width) there is a hi
         }
     }
 
-Other than elements very specific to my site, that is pretty much [all the CSS I use to quickly size and linearise my content](/wp-content/themes/default/style.css). Any elements specific to your own site will obviously need considering on a case-by-case basis, but if you remember to not set absolute widths and to always linearise your content then it should be a doddle. Oh and it's a great time to use some guaranteed CSS3.
+Other than elements very specific to my site, that is pretty much all the CSS I use to quickly size and linearise my content. Any elements specific to your own site will obviously need considering on a case-by-case basis, but if you remember to not set absolute widths and to always linearise your content then it should be a doddle. Oh and it's a great time to use some guaranteed CSS3.
 
 Do you have an iPhone version of your site? Have you any more tips you'd like to add? Please do so in the comments below.
