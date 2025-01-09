@@ -304,6 +304,12 @@ worldwide](http://gs.statcounter.com/).
 In short, although nice in theory, there is no evidence that cross-domain
 caching is in any way effective.
 
+### <ins>Update: 2025-01-09</ins>
+
+<ins>Chrome 86 (2020) and Firefox 85 (2021) also both enabled cache
+partitioning, meaning no major browser stands to gain any performance benefit
+from shared assets hosting. <strong>Self-host your static assets.</strong></ins>
+
 ## Myth: Access to a CDN
 
 Another commonly touted benefit of using a static asset provider is that they’re
