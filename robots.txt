@@ -1,7 +1,10 @@
 User-agent: *
 Allow: /
 
+# Block GPTBot from accessing articles. This is a little brittle, but it works
+# on the basis that all my blog posts were published at some point in the 21st
+# century. TODO: Update when I’m 109.
 User-agent: GPTBot
-Disallow: /
+Disallow: /20*
 
 Sitemap: https://csswizardry.com/sitemap.xml
