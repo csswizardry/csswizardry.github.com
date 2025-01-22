@@ -1,11 +1,13 @@
 ---
 layout: feature
-title: Your Website, Faster.
+title: Services
 page-class: page--services
 meta: "Services offered to clients of all shapes and sizes"
 permalink: /services/
 lux: "Services"
 ---
+
+## How Can I Help?
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:addy-osmani"><p>Harry’s tailored
 workshop was nothing short of fantastic—a real eye-opener, helping our team

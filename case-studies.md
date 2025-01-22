@@ -1,10 +1,12 @@
 ---
 layout: feature
-title: Good Work for Good People
+title: Case Studies
 page-class: page--case-studies
 permalink: /case-studies/
 lux: "Case Studies"
 ---
+
+## Good Work for Good People
 
 <div class="layout">
     <p class="layout__item  lap-and-up-one-half">In no particular order, a
