@@ -27,11 +27,11 @@ iteration. This is not meaningful or productive work—it is time sunk into mere
 keeping themselves at square one.
 
 It’s a form of open-source vendor lock-in, and adding even the most trivial of
-performance improvements becomes impossible as frameworks obscure or even remove
-the ability to fiddle with the nuts and bolts. The worst thing? You get to do it
-all again in 18 months! The stack owns you, and you have an entire development
-team who might be paid one or two quarters every two or three years just to
-tread water.
+performance improvements becomes impossible as frameworks obscure or sometimes
+remove the ability to fiddle with the nuts and bolts. The worst thing? You get
+to do it all again in 18 months! The stack owns you, and you have an entire
+development team who might be paid one or two quarters every two or three years
+just to tread water.
 
 They’re **iterating slowly on a fast-moving platform**.
 
