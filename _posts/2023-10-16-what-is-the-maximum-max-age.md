@@ -99,7 +99,7 @@ seconds, which is a year. Why a year, though? A year isn’t forever. Was
 2616](https://datatracker.ietf.org/doc/html/rfc2616#section-14.21) says of the
 `Expires` header:
 
-> To mark a response as “never expires,” an origin server sends an `Expires`
+> To mark a response as ‘never expires,’ an origin server sends an `Expires`
 > date approximately one year from the time the response is sent. HTTP/1.1
 > servers SHOULD NOT send `Expires` dates more than one year in the future.
 
