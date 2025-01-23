@@ -35,10 +35,11 @@ just to tread water.
 
 They’re **iterating slowly on a fast-moving platform**.
 
-The saddest part of it all is that these were ex-clients who had to re-hire me
-because with the ‘upgrades’ came severe site-speed regressions. As good as it
-may be for business, I hate going through the same work with the same client
-more than once. After all, you should never need to call pest control twice.
+The saddest part of it all is that these were ex-clients who had to
+[re-hire](/services/) me because with the ‘upgrades’ came severe site-speed
+regressions. As good as it may be for business, I hate going through the same
+work with the same client more than once. After all, you should never need to
+call pest control twice.
 
 The web as a platform is a safe bet. It’s un-versioned _by design_. That’s the
 commitment the web makes to you—take advantage of it.
@@ -73,9 +74,11 @@ it simply traverse your site just like they were always designed to do. Your
 [escalator became stairs](https://www.youtube.com/watch?v=tqOkWWV6a_U).
 
 The web platform moves slowly, and I understand that can be frustrating for
-developers who want to innovate, but over a decade of consultancy experience has
-taught me time and time again that the alternative is much more restrictive in
-the long term. What’s brand new today starts to show its age much more quickly.
+developers who want to innovate, but [over a decade of consultancy
+experience](/consultancy/) has taught me time and time again that the
+alternative is much more restrictive in the long run. What’s brand new today
+starts to show its age much more quickly than something that’s already stood the
+test of time.
 
 Every layer of abstraction made in the browser moves you further from the
 platform, ties you further into framework lock-in, and moves you further away
@@ -83,19 +86,21 @@ from fast.
 
 I remain convinced that the typical developer doesn’t know enough about business
 analysis, and the typical business analyst doesn’t know enough about
-development, to fully reconcile the two sides of the coin. The lock-in (and its
-ongoing cost) is very real, and today’s shiny will become tomorrow’s millstone.
+development, to fully reconcile the two sides of the coin. Deeper and more
+balanced, long-term discussions need to be had from both parties, because the
+lock-in (and its ongoing cost) is very real, and today’s shiny will soon become
+tomorrow’s millstone.
 
 I’m not against front-end frameworks, and, believe me, I’m not naive enough to
 believe that the only thing a front-end framework provides is soft navigations,
 but if you’re going to use one, I shouldn’t be able to smell it.
 
-[Nolan Lawson](https://nolanlawson.com/) said it best when he said [<q>the best
-SPA is better than the best MPA; the average SPA is worse than the average
-MPA</q>](https://nolanlawson.com/2022/06/27/spas-theory-versus-practice/).
-
 If you’re going to go all-in on a framework or, heaven forbid, an SPA, give the
 long term some serious consideration, and make sure you do a really, really good
 job.
+
+[Nolan Lawson](https://nolanlawson.com/) said it best when he said [<q>the best
+SPA is better than the best MPA; the average SPA is worse than the average
+MPA</q>](https://nolanlawson.com/2022/06/27/spas-theory-versus-practice/).
 
 [^1]: `@view-transition { navigation: auto; }`
