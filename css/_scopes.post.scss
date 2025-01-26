@@ -72,6 +72,10 @@
     contain-intrinsic-size: 1px 250px; /* [1] */
   }
 
+  .c-cross-sell.c-cross-sell + p {
+    content-visibility: visible;
+  }
+
   /**
    * Indicate internal links.
    */
