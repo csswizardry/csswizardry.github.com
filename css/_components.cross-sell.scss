@@ -1,0 +1,36 @@
+/* ==========================================================================
+   #CROSS-SELL
+   ========================================================================== */
+
+/**
+ * Cross-link other articles from post-to-post.
+ */
+
+.c-cross-sell {
+  width: 50%;
+  float: left;
+  margin-right: 12px;
+}
+
+.c-cross-sell__title {
+  font-size: 12px;
+  line-height: 2;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+@media screen and (min-width: 45em) {
+  .c-cross-sell {
+    margin-left: -12px;
+  }
+
+  .c-cross-sell:nth-of-type(even) {
+    float: right;
+    text-align: right;
+    margin-right: -12px;
+    margin-left:   12px;
+  }
+
+}

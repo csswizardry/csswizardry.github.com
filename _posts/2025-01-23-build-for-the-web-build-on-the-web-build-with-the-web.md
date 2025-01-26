@@ -26,6 +26,8 @@ rewriting entire projects just to maintain feature parity with the previous
 iteration. This is not meaningful or productive work—it is time sunk into merely
 keeping themselves at square one.
 
+{% include cross-sell.html %}
+
 It’s a form of open-source vendor lock-in, and adding even the most trivial of
 performance improvements becomes impossible as frameworks obscure or sometimes
 remove the ability to fiddle with the nuts and bolts. The worst thing? You get
@@ -83,6 +85,8 @@ test of time.
 Every layer of abstraction made in the browser moves you further from the
 platform, ties you further into framework lock-in, and moves you further away
 from fast.
+
+{% include cross-sell.html %}
 
 I remain convinced that the typical developer doesn’t know enough about business
 analysis, and the typical business analyst doesn’t know enough about
