@@ -3,7 +3,12 @@
   {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
 
   <h4 class="c-cross-sell__title">You might also like…</h4>
-  <h5 class="c-cross-sell__link"><a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a></h5>
+  <h5 class="c-cross-sell__link">
+    <a href="{{ site.posts[random].url }}">
+      <cite>{{ site.posts[random].title }}</cite>
+      <small>(<time>{{ site.posts[random].date | date: "%Y" }}</time>)</small>
+    </a>
+  </h5>
 
 </aside>
 

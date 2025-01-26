@@ -12,7 +12,7 @@ permalink: /archive/
   <p>I have written <b>{{ site.posts | size  }}</b> post on this site, mostly
   covering CSS, architecture, performance, and web development. Find
   a reverse-chronological list of them below, or, at random, why not read
-  <a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a>?</p>
+  <a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a> <small>(<time>{{ site.posts[random].date | date: "%Y" }}</time>)</small>?</p>
 
   {% for post in site.posts %}
     {% assign currentDate = post.date | date: "%Y" %}
