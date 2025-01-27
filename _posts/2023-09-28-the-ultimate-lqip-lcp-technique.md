@@ -185,6 +185,8 @@ The first takeaway is: **don’t upscale your LQIP**.
 
 ### Calculating the Upscaling Penalty
 
+{% include cross-sell.html %}
+
 Let’s get a bit more detailed about upscaling and penalties. Some [close reading
 of the spec](https://www.w3.org/TR/largest-contentful-paint/#sec-add-lcp-entry)
 tells us exactly how this works. It’s not the easiest thing to digest, but I’ll
@@ -276,6 +278,8 @@ order to register a fast LCP time:
 > have very little content, when compared to the size at which they are
 > displayed.  
 > — [Largest Contentful Paint change in Chrome 112 to ignore low-entropy images](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/speed/metrics_changelog/2023_04_lcp.md)
+
+{% include cross-sell.html %}
 
 This one is much simpler to make sense of. In order for an image to be counted
 as an LCP candidate, it needs to contain at least 0.05 bits of data per pixel
@@ -406,6 +410,8 @@ size)</a></figcaption>
 </figure>
 
 ## Implementing Low-Quality Image Placeholders
+
+{% include cross-sell.html %}
 
 My implementation becomes incredibly simple as I’m using a background image.
 This means I can simply layer up the progressively higher-resolution files using

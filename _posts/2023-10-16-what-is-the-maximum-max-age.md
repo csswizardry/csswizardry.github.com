@@ -44,6 +44,8 @@ a `max-age` that equates to forever?
 
 ## `immutable`
 
+{% include cross-sell.html %}
+
 If we’re confident that we can cache a file for a year, we must be also quite
 confident that it never _really_ changes. After all, a year is a very long time
 in internet timescales. If we have this degree of confidence that a file won’t
@@ -120,6 +122,8 @@ It turns out there is a maximum value for `max-age`, and it’s defined in [RFC
 > integer it can represent, or if any of its subsequent calculations overflows,
 > the cache **MUST** consider the value to be 2147483648 (2<sup>31</sup>) or the
 > greatest positive integer it can conveniently represent.
+
+{% include cross-sell.html %}
 
 The spec says caches should accept a maximum `max-age` value of
 whatever-it’s-been-told, falling back to 2,147,483,648 seconds (which is 68

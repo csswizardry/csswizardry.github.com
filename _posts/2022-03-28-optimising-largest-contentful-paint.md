@@ -55,6 +55,8 @@ not limited to):
 * First Paint
 * First Contentful Paint
 
+{% include cross-sell.html %}
+
 If any of these are slow, you’re already on the back foot, and they’re going to
 have a knock-on effect on your LCP. The metrics above don’t matter in and of
 themselves, but it’s going to help your LCP if you can get them as low as
@@ -163,6 +165,8 @@ The initial demos can be found at:
   <div style="background-image: url(lcp.jpg)">...</div>
   ```
 
+{% include cross-sell.html %}
+
 [The WebPageTest
 comparison](https://webpagetest.org/video/compare.php?tests=%2C220320_BiDc0C_6AJ%2C220320_BiDcJT_6AP%2C220320_BiDcN0_6AM%2C220320_BiDc56_6AK&thumbSize=200&ival=100&end=full)
 is available for you to look through, though we’ll pick apart individual
@@ -239,6 +243,8 @@ degraded LCP scores for your site.
 <figcaption>This bug is fixed in Chrome 102.</figcaption>
 </figure>
 
+{% include cross-sell.html %}
+
 Because of the current reporting bug, `<image>` in `<svg>` is likely to go from
 being (inadvertently) one of the fastest LCP types, to one of the slowest. In
 the unlikely event that you are using `<image>` in `<svg>`, it’s probably
@@ -313,6 +319,8 @@ which is far too late. We don’t like `background-image` LCPs.
 
 #### Getting Around `background-image` Issues
 
+{% include cross-sell.html %}
+
 If you currently have a site whose LCP is a `background-image`, you might be
 thinking of refactoring or rebuilding that component right now. But, happily,
 there’s a very quick workaround that requires almost zero effort: let’s
@@ -355,6 +363,8 @@ In summary:
 - - -
 
 ## Don’t Shoot Yourself in the Foot
+
+{% include cross-sell.html %}
 
 Alright! Now we know which are the best candidates, is there anything else can
 do (or avoid doing) to make sure we aren’t running slowly? It turns out there

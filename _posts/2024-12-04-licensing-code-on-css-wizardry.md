@@ -29,6 +29,8 @@ Over the years, conscientious developers and organisations have occasionally
 reached out to ask if they can use my code in commercial settings. My answer has
 always been an informal _yes!_
 
+{% include cross-sell.html %}
+
 However, I feel it’s time to provide more structure and clarity. From now on,
 everything shared on `csswizardry.com`—unless stated otherwise—is covered by the
 MIT License.
@@ -49,6 +51,8 @@ purposes.
 
 At the same time, it protects me by absolving any liability for how the content
 is used. It’s a win-win.
+
+{% include cross-sell.html %}
 
 The MIT License is already a familiar standard in the open-source world, so the
 chances are you or your company have used work under this license before. It’s

@@ -75,6 +75,8 @@ In this scenario, I am explicitly prerendering named and known URLs, with
 a loose idea of a potential and likely user journey—I’m warming up what I think
 might be the visitor’s next page.
 
+{% include cross-sell.html %}
+
 While these are both functional and beneficial, I wanted to do more. My site,
 although not very obviously, has two sides to it: the blog, for folk like you,
 and the commercial aspect, for [potential clients](/services/). While steering
@@ -431,6 +433,8 @@ We could apply these against this example page:
   <a href=/sitemap/>Sitemap</a>
 </footer>
 ```
+
+{% include cross-sell.html %}
 
 * Top-level navigation items with `data-prefetch=prerender` (e.g. the _About_
   page) are immediately prerendered.

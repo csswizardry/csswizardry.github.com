@@ -159,6 +159,8 @@ a fresher response), but if the server responds favourably, the network transfer
 is only a file’s headers: the body can be grabbed from cache rather than
 redownloaded.
 
+{% include cross-sell.html %}
+
 So, like I say, this is a smart way to combine freshness and the possibility of
 getting a file from cache, but it will hit the network for at least an HTTP
 header response.
@@ -321,6 +323,8 @@ served.
 
 ## `no-transform`
 
+{% include cross-sell.html %}
+
 `no-transform` doesn’t have anything do with storing, serving, or revalidating
 freshness, but it does instruct intermediaries that they cannot modify, or
 _transform_, any of the response.
@@ -420,6 +424,8 @@ that release. This is potentially wasteful, so prefer options (1) or (2).
 
 ### `Clear-Site-Data`
 
+{% include cross-sell.html %}
+
 Cache invalidation is hard—[famously
 so](https://martinfowler.com/bliki/TwoHardThings.html)—so there’s [a spec
 currently underway](https://www.w3.org/TR/clear-site-data/) that helps
@@ -468,6 +474,8 @@ To this end, let’s go with:
 Request URL: /account/
 Cache-Control: no-store
 ```
+
+{% include cross-sell.html %}
 
 As per the spec, this would be sufficient to prevent a browser persisting the
 response to disk at all, across private and shared caches:
