@@ -26,7 +26,7 @@ lux: Post
         {% if page.toc != false %}
           <details class=c-toc>
             <summary>Table of Contents</summary>
-            {% include toc.html html=content ordered=true %}
+            {% include toc.html html=content ordered=true h_max=3 %}
           </details>
         {% endif %}
 
