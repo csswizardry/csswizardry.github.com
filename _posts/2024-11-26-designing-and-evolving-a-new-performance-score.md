@@ -114,6 +114,8 @@ while the other doesn’t, yet their values are near identical!
   </tbody>
 </table>
 
+{% include cross-sell.html %}
+
 I wanted to make sure that any score I designed was sympathetic to both
 scenarios.
 
@@ -200,7 +202,7 @@ absurd! INP is measured in **hundreds of milliseconds**, LCP is measured in
 inordinate weighting to INP.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-01.png" alt="Google Sheets screenshot showing three domains whose Core Web Vitals scores have been summed, leading to completely inappropriate scoring outcomes." width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-01.png" alt="A spreadsheet comparing three fictional  websites—www.foo.com, www.bar.com, and www.baz.com—using various performance metrics: LCP (Largest Contentful Paint), INP (Interaction to Next Paint), and CLS (Cumulative Layout Shift). The table includes two scoring columns: ‘Ordinal Score’ (higher is better) and ‘New Metric’ (higher is worse), with colour-coded highlights (green and red) to indicate performance levels. The metrics have been summed, leading to completely inappropriate scoring outcomes." width="1500" height="194" loading="lazy">
 <figcaption>A naive summing approach awards the lowest score to our highest
 performer and the highest score to our middlemost. This is completely
 useless.</figcaption>
@@ -217,7 +219,7 @@ why don’t we try normalising them?
 Let’s convert our INP into seconds:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-02.png" alt="Google Sheets screenshot showing similar summing as before, only this time with quasi-normalised inputs." width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-02.png" alt="Google Sheets screenshot showing similar summing as before, only this time with quasi-normalised inputs leading to marginally better outcomes." width="1500" height="194" loading="lazy">
 <figcaption>This is marginally better—we’re now attributing the best to the
 best, but we’re now awarding the worst to the middle.</figcaption>
 </figure>
@@ -237,6 +239,8 @@ methods we can lean on, but given that the ranges in our data are likely to be
 quite narrow (i.e. we’re unlikely to compare a 1.5s LCP to a 1500s LCP), we can
 probably use the simplest: rescaling, or [**min-max
 normalisation**](https://en.wikipedia.org/wiki/Feature_scaling#Rescaling_(min-max_normalization)).
+
+{% include cross-sell.html %}
 
 Min-max normalisation takes a range of data points and plots them in the correct
 relative positions on a simple 0–1 scale. It doesn’t distribute them evenly—it
@@ -355,6 +359,8 @@ resilience:
 <figcaption>Nice! I worked with RIMOWA for about 18 months on getting them to
 this place.</figcaption>
 </figure>
+
+{% include cross-sell.html %}
 
 The ordinal score correctly counts up passingness, and the New Score,
 separately, gives us an accurate reflection of each site’s standing in the
