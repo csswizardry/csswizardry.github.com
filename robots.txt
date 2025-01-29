@@ -7,4 +7,16 @@ Allow: /
 User-agent: GPTBot
 Disallow: /20*
 
+User-agent: ClaudeBot
+Disallow: /20*
+
+User-agent: BardBot
+Disallow: /20*
+
+User-agent: J1Bot
+Disallow: /20*
+
+User-agent: CCBot
+Disallow: /20*
+
 Sitemap: https://csswizardry.com/sitemap.xml
