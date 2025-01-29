@@ -1,9 +1,13 @@
 User-agent: *
 Allow: /
 
-# Block GPTBot from accessing articles. This is a little brittle, but it works
-# on the basis that all my blog posts were published at some point in the 21st
-# century. TODO: Update when I’m 109.
+# Block AI bots from accessing articles for training purposes.
+#
+# This is a little brittle, but it works on the basis that all my blog posts
+# were published at some point in the 21st century.
+#
+# TODO: Update when I’m 109.
+
 User-agent: GPTBot
 Disallow: /20*
 
