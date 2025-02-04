@@ -76,7 +76,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js?0163').then(function(registration) {
+        navigator.serviceWorker.register('/sw.js?0164').then(function(registration) {
           // Successfully registered the Service Worker
           //console.log('Service Worker registration successful with scope: ', registration.scope);
         }).catch(function(err) {
@@ -86,3 +86,5 @@
       });
     }
   </script>
+
+  <link rel=stylesheet href=/css/print.css media=print>
