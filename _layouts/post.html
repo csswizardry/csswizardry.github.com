@@ -10,27 +10,31 @@ lux: Post
 
   <div class=layout>
 
-    <section class="layout__item  desk-three-fifths  s-post" data-ui-component="Main content" itemscope itemtype=http://schema.org/BlogPosting id=section:main>
-      <script>performance.mark('contentStart')</script>
+    <section class="layout__item  desk-three-fifths" data-ui-component="Main content" itemscope itemtype=http://schema.org/BlogPosting id=section:main>
+      <div class="s-post">
 
-        <time class=post__date datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
+        <script>performance.mark('contentStart')</script>
 
-        <h1 itemprop="name  headline" elementtiming=page-title style="view-transition-name: x-{{ page.date | date: '%Y-%m-%d' }}">{{ page.title }}</h1>
+          <time class=post__date datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
 
-        <p class=hide>Written by <b itemprop=author>Harry Roberts</b> on <b itemprop=publisher>CSS Wizardry</b>.</p>
+          <h1 itemprop="name  headline" elementtiming=page-title style="view-transition-name: x-{{ page.date | date: '%Y-%m-%d' }}">{{ page.title }}</h1>
 
-        {% if page.case-study != true %}
+          <p class=hide>Written by <b itemprop=author>Harry Roberts</b> on <b itemprop=publisher>CSS Wizardry</b>.</p>
 
-        {% endif %}
+          {% if page.case-study != true %}
 
-        {% if page.toc != false %}
-          <details class=c-toc>
-            <summary>Table of Contents</summary>
-            {% include toc.html html=content ordered=true h_max=3 %}
-          </details>
-        {% endif %}
+          {% endif %}
 
-        {{ content }}
+          {% if page.toc != false %}
+            <details class=c-toc>
+              <summary>Table of Contents</summary>
+              {% include toc.html html=content ordered=true h_max=3 %}
+            </details>
+          {% endif %}
+
+          {{ content }}
+
+      </div><!-- /.s-post -->
 
         {% if page.faq %}
           <script type="application/ld+json">
