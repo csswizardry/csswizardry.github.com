@@ -63,7 +63,7 @@ possible blocking states:
 Visually, this is how that process looks for each scenario:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/blocking-status.png" alt="" width="750" height="424">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/blocking-status.png" alt="Comparison of non-blocking, render-blocking, and parser-blocking resources in web performance. A visual breakdown of how different loading strategies affect rendering, parsing, and blocking behaviour in the browser." width="750" height="424">
 <figcaption>
   A non-, render-, and parser-blocking file in an HTML document. Imagine the
 downloading file (pink) is in the <code>&lt;head&gt;</code>—even though you can
@@ -125,7 +125,7 @@ anyway…
 Imagine you’ve built a simple countdown or stopwatch app:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/foft.gif" alt="" width="750" height="432">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/foft.gif" alt="A digital stopwatch running an HTML file, displaying ‘00:51’ in large green text before unceremoniously changing its typeface and continuing to count down." width="750" height="432">
 <figcaption>The change from fallback font to web font causes a very noticeable
 change in UI. This might be unacceptable.</figcaption>
 </figure>
@@ -238,7 +238,7 @@ snippets eschew this behaviour and take an all-or-nothing approach: nothing,
 nothing, nothing, _everything_.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/anti-flicker.png" alt="" width="750" height="223">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/anti-flicker.png" alt="Progressive rendering sequence of a webpage displaying a web performance consultancy service. The timeline from 0.8s to 1.7s shows how content and images load incrementally, highlighting the impact of rendering delays." width="750" height="223">
 <figcaption>A regular, progressive render (top) versus an anti-flicker
 big-reveal (bottom). Which do you think is the better experience?</figcaption>
 </figure>
