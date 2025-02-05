@@ -115,7 +115,7 @@ approaches to optimising high-latency experiences—it is not about improving
 metrics within the CrUX dataset. What follows is overall best-practice advice
 for designing with latency in mind.
 
-This section details opportunist upgrades we can make that will hopefully
+This section details opportunistic upgrades we can make that will hopefully
 improve latency-bound visitors’ experiences.
 
 ### Reduce Transfer Size
@@ -594,7 +594,7 @@ If you can’t avoid making preflight requests, read on.
 
 If you’re building an SPA (which you probably are ([and you probably shouldn’t
 be](https://x.com/csswizardry/status/1831039135290921254))), check what’s
-happening with your client-size API calls.
+happening with your client-side API calls.
 
 ## Pay Latency Costs Up-Front and Out of Band
 
