@@ -113,7 +113,13 @@
 {% if page.meta %}
   <meta name=description content="{{ page.meta }}">
 {% endif %}
+
+{% if page.canonical %}
+<link rel=canonical href="{{ page.canonical }}">
+{% else %}
 <link rel=canonical href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+{% endif %}
+
 <meta property=og:url content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta name=theme-color content=#f43059>
 <link rel=manifest href=/manifest.json>
