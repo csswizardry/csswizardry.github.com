@@ -3,7 +3,7 @@ comments: true
 date: 2010-10-04 16:57:39
 layout: post
 slug: in-response-to-invisible-captcha-to-prevent-form-spam
-title: In response to 'Invisible captcha to prevent form spam'
+title: In response to ‘Invisible captcha to prevent form spam’
 wordpress_id: 1429
 categories:
 - Web Development
