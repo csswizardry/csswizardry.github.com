@@ -399,7 +399,7 @@ $_logo-height:   64px;
 
         }
 
-        @each $page in about, case-studies, speaking, services, contact {
+        @each $page in about, blog, case-studies, speaking, services, contact {
 
           .page--#{$page} .site-nav__#{$page} {
             @extend %site-nav__current;
