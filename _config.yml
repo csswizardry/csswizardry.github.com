@@ -11,6 +11,7 @@ cloudinary: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/ht
 markdown: kramdown
 permalink: /:year/:month/:title/
 paginate: 10
+paginate_path: "/blog/page-:num/"
 incremental: true
 
 # Gems
