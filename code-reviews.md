@@ -6,7 +6,7 @@ meta: "Affordable, effective web performance audits to help you make your site f
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/content/audit-trello.png"
 permalink: /code-reviews/
 lux: "Services / Audits"
-canonical: /performance-audits/
+canonical: https://csswizardry.com/performance-audits/
 ---
 
 <p><strong id="jsTagline"></strong></p>
