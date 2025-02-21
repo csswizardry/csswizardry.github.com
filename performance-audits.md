@@ -4,9 +4,8 @@ title: Performance Audits
 page-class: page--services  page--code-reviews
 meta: "Affordable, effective web performance audits to help you make your site fast. Pass Core Web Vitals in no time!"
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/content/audit-trello.png"
-permalink: /code-reviews/
+permalink: /performance-audits/
 lux: "Services / Audits"
-canonical: /performance-audits/
 ---
 
 <p><strong id="jsTagline"></strong></p>

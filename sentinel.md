@@ -151,9 +151,9 @@ any opportunities?
 
 ### What’s Included?
 
-* **Initial [performance audit](/code-reviews/):** We’ll conduct a thorough
-  audit before we begin monitoring. This allows us to start from a healthy
-  baseline.
+* **Initial [performance audit](/performance-audits/):** We’ll conduct
+  a thorough audit before we begin monitoring. This allows us to start from
+  a healthy baseline.
 * **Metric and budget definition:** We’ll work out your key metrics and their
   corresponding budgets.
 * **Monitoring software:** No need to procure your own monitoring software—I
