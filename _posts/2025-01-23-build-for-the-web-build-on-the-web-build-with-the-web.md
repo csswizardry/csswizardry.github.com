@@ -90,7 +90,7 @@ from fast.
 
 I remain convinced that the typical developer doesn’t know enough about business
 analysis, and the typical business analyst doesn’t know enough about
-development, to fully reconcile the two sides of the coin. Deeper and more
+development, to fully reconcile the two sides of the coin. Deeper, and more
 balanced, long-term discussions need to be had from both parties, because the
 lock-in (and its ongoing cost) is very real, and today’s shiny will soon become
 tomorrow’s millstone.
