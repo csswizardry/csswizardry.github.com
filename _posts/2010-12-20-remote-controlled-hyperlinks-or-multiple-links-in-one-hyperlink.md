@@ -13,7 +13,7 @@ tag:
 - Hyperlinks
 ---
 
-This is a little development technique I dreamt up the other day. I’m not even one-hundred percent sure what to call it, but due to what it does, which you’ll find out in a second, I think _remote controlled hyperlinks_ will (sort of) do... I put it into practice on [Suze’s new site](http://suzannahaworth.com/), in the sidebar.
+This is a little development technique I dreamt up the other day. I’m not even one-hundred percent sure what to call it, but due to what it does, which you’ll find out in a second, I think _remote controlled hyperlinks_ will (sort of) do...
 
 Imagine you have a piece of running text like ‘read more about me or get in touch’. Here we have two actions; read more and make contact. Let’s also imagine that your about page and contact page are one and the same; the contact section is just your email address on that page. What I wanted was a cool way of giving the impression of two separate links to the same page but also making clear that the two links both did the same thing.
 
