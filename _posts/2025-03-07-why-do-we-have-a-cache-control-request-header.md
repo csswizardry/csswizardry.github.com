@@ -271,7 +271,7 @@ stored content rather than attempting a network request that might fail.
   or offline-first apps.
 * To force freshness, use:
   ```http
-  Cache-Control: no-store, no-cache, max-age=0, must-revalidate
+  Cache-Control: no-store, no-cache, max-age=0
   ```
 * To build offline-first apps, consider:
   ```http
