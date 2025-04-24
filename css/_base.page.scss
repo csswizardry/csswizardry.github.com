@@ -10,7 +10,4 @@ html {
   font-family: $system-fonts;
   @include font-weight(regular);
   scroll-behavior: smooth;
-  background-image: url('/img/css/bg.png');
-  background-size: $spacing-unit;
-  background-position: 0 -1px;
 }
