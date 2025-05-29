@@ -7,3 +7,23 @@
     <p style="text-align: center;"><small><a href="/case-studies/">View all case studies…</a></small></p>
 
 </article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+
+  "@id": "{{ site.url }}{{ page.url }}#caseStudy",
+  "@type": "CaseStudy",
+
+  "name": "{{ page.title }}",
+  "headline": "{{ page.title }}",
+  "url": "{{ site.url }}{{ page.url }}",
+
+  "author":    { "@id": "{{ site.url }}#person" },
+  "publisher": { "@id": "{{ site.url }}#org" },
+
+  "about": "{{ page.meta | default: page.excerpt | strip_html | truncate: 160 }}",
+
+  "inLanguage": "en-GB"
+}
+</script>

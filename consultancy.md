@@ -7,6 +7,40 @@ permalink: /consultancy/
 lux: "Services / Consultancy"
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+
+  "@id": "{{ site.url }}/consultancy/#service",
+  "@type": "ProfessionalService",
+  "serviceType": "Site-Speed & Web-Performance Consultancy",
+  "url": "{{ site.url }}/consultancy/",
+  "provider": { "@id": "{{ site.url }}#org" },
+
+  "areaServed": "Worldwide",
+  "priceRange": "GBP7500-50000",
+
+  "audience": {
+    "@type": "Audience",
+    "audienceType": [
+      "E-commerce",
+      "Retail",
+      "Media",
+      "Publishing",
+      "High-Traffic Brands"
+    ]
+  },
+
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "VirtualLocation",
+      "url": "{{ site.url }}/consultancy/"
+    }
+  }
+}
+</script>
+
 **Web performance impacts all businesses. How does it affect yours?**
 
 I work together with organisations of all sizes to analyse, find, and fix

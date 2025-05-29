@@ -7,6 +7,49 @@ meta: "Independent consultant Harry Roberts helps global brands shave seconds an
 lux: Home
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@id": "https://csswizardry.com/#org",
+      "@type": "Organization",
+      "name": "CSS Wizardry Ltd.",
+      "url": "https://csswizardry.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://csswizardry.com/#logo",
+        "url": "https://csswizardry.com/icon.png",
+        "contentUrl": "https://csswizardry.com/icon.png"
+      },
+      "founder": { "@id": "https://csswizardry.com/#person" },
+      "sameAs": [
+        "https://twitter.com/csswizardry",
+        "https://github.com/csswizardry",
+        "https://www.linkedin.com/in/csswizardry/",
+        "https://developers.google.com/profile/u/csswizardry"
+      ],
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "Sales",
+        "email": "mailto:csswizardry@gmail.com"
+      }]
+    },
+
+    {
+      "@id": "https://csswizardry.com/#person",
+      "@type": "Person",
+      "name": "Harry Roberts",
+      "jobTitle": "Consultant Web-Performance Engineer",
+      "url": "https://csswizardry.com/about/",
+      "worksFor": { "@id": "https://csswizardry.com/#org" }
+    }
+
+  ]
+}
+</script>
+
 <!--
   - Jump straight back out of wrapper mode on the home page.
   -->
