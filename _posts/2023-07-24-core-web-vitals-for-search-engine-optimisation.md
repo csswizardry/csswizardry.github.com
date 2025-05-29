@@ -28,7 +28,7 @@ places, even contradictory. In this post, I am going to distil everything that
 you actually _need_ to know using fully referenced and cited Google sources.
 
 **Don’t have time to read 5,500+ words?** Need to get this message across to
-your entire company? [Hire me](/contact/?utm_campaign=cwv-seo) to deliver this
+your entire company? [Hire me](/contact/) to deliver this
 talk internally.
 
 If you’re happy just to trust me, then this is all you need to know right now:
@@ -83,7 +83,7 @@ endeavour for almost any reason you care to name.</p>
 Now would be a good time to mention: **I am an independent web performance
 consultant**—one of the best. I am available to help you find and fix your
 site-speed issues through [performance
-audits](/code-reviews/?utm_campaign=cwv-seo), [training and
+audits](/performance-audits/?utm_campaign=cwv-seo), [training and
 workshops](/workshops/?utm_campaign=cwv-seo),
 [consultancy](/consultancy/?utm_campaign=cwv-seo), and more. You should [get in
 touch](/contact/?utm_campaign=cwv-seo).

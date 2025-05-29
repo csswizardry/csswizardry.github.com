@@ -21,6 +21,9 @@ trivia-for-the-sake-of-it thanks to a recent client project.
 I never thought I’d write an article in defence of `DOMContentLoaded`, but here
 it is…
 
+_**Want actionable timings and not just trivia?** [Explore my consultancy
+services](/consultancy/)._
+
 For many, many years now, performance engineers have been making a concerted
 effort to move away from technical metrics such as `Load`, and toward more
 user-facing, UX metrics such as [Speed

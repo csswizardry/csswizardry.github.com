@@ -24,6 +24,9 @@ time. Sounds like a dream, right?
 
 Wrong.
 
+_**Still seeing nine-hundred-kilobyte stylesheets?** [See my performance-audit
+service](/consultancy/) to cut parse times in half._
+
 Unfortunately Base64 encoding assets is very much an anti-pattern[^1]. In this
 article I’m hoping to share some insights as to critical path optimisation,
 Gzip, and of course, Base64.
@@ -31,7 +34,7 @@ Gzip, and of course, Base64.
 ## Let’s Look at Some Code
 
 The reason I was motivated to write this article is because I’ve just been doing
-a [performance audit](/code-reviews/) for a client, and I came across the very
+a [performance audit](/performance-audits/) for a client, and I came across the very
 issues I’m about to outline. This is an actual stylesheet from an actual client:
 things are anonymised, but this is a completely real project.
 

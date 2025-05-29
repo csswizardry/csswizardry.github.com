@@ -21,6 +21,10 @@ thorough, keep reading…</small></p>
 
 </div>
 
+_Third parties getting you down? [Read
+more](/2018/05/identifying-auditing-discussing-third-parties/) or [hire
+me](/consultancy/)._
+
 For the most part, web fonts nowadays are faster than ever. With more
 standardised FOUT/FOIT behaviour from browser vendors, to the newer
 `font-display` specification, performance—and therefore the user—seems to have
