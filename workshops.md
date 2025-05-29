@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshops and Training
+title: Web Performance Workshops & Team Training
 page-class: page--services  page--workshops
 meta: "Workshops and training events for clients"
 permalink: /workshops/

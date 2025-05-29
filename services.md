@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Services
+title: Web Performance Optimisation Services
 page-class: page--services
 meta: "Services offered to clients of all shapes and sizes"
 permalink: /services/
