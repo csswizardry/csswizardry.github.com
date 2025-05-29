@@ -6,6 +6,8 @@ categories: Web Development
 meta: "What does Cache-Control really do? In basic terms? Let’s find out!"
 ---
 
+## Why Caching Headers Still Matter for Web Performance in 2025
+
 <p class="c-highlight">Try out the <a href="/max-age/"><code>max-age</code>
 calculator</a>.</p>
 
