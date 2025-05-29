@@ -27,7 +27,7 @@
 
   <summary>How long will it take?</summary>
 
-  <p>Probably not as long as you think! Over the past six years, I have managed
+  <p>Probably not as long as you think! Over the past decade, I have managed
   to optimise my workflow to such an extent that we can move incredibly quickly.
   Vitamix had this to say about it:</p>
 
@@ -42,3 +42,40 @@
   start, the better.</p>
 
 </details>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+
+    {
+      "@type": "Question",
+      "name": "How much will it cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Engagements start around $1,000 and can scale to $100,000 for large, enterprise-level projects. Every project is designed around your exact needs, so the best next step is to get in touch and we’ll map out an approach that fits."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Do you work with smaller organisations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Although my portfolio highlights well-known brands, I regularly partner with smaller teams. Whether it’s consultancy, audits, or training, company size isn’t a blocker—great work happens at every size and shape."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "How long will it take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thanks to a refined workflow developed over many years, we can move fast. Audits typically turn around inside two weeks, and longer consultancy engagements run three-to-six months with measurable wins delivered along the way."
+      }
+    }
+
+  ]
+}
+</script>
