@@ -8,6 +8,7 @@ meta: "We’re often told not to use document.write(), but… why?!"
 faq:
   - question: "Why is document.write() bad for performance?"
     answer: "document.write() forces scripts to block DOM construction during their download by hiding them from the Preload Scanner. This means that scripts injected with document.write() are always fully synchronous."
+last_modified_at: 2025-06-01
 ---
 
 <!--

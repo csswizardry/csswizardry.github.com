@@ -15,7 +15,14 @@ lux: Post
 
         <script>performance.mark('contentStart')</script>
 
-          <time class=post__date datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
+        <p class=post__date>
+          <time datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
+
+          {% if page.last_modified_at %}
+            <ins>last updated on <time datetime={{ page.last_modified_at | date: "%Y-%m-%d" }} itemprop=dateModified>{{ page.last_modified_at | date: "%-d %B, %Y" }}</time></ins>
+          {% endif %}
+
+        </p>
 
           <h1 itemprop="name  headline" elementtiming=page-title style="view-transition-name: x-{{ page.date | date: '%Y-%m-%d' }}">{{ page.title }}</h1>
 
@@ -132,7 +139,9 @@ lux: Post
 
             </div><div class="layout__item  one-half">
 
-            <p><a href=/contact/ class="btn  btn--full  btn--positive"><strong>Hire me</strong></a></p>
+            <p><a href=/consultancy/ class="btn  btn--full
+                                            btn--positive">
+              <strong>Hire me</strong><span class="hide"> as your site speed consultant</span></a></p>
 
           </div>
 
