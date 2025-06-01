@@ -19,7 +19,7 @@ lux: Post
           <time datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
 
           {% if page.last_modified_at %}
-            <ins>and last updated on <time datetime={{ page.last_modified_at | date: "%Y-%m-%d" }} itemprop=dateModified>{{ page.last_modified_at | date: "%-d %B, %Y" }}</time></ins>
+            <ins>(last updated on <time datetime={{ page.last_modified_at | date: "%Y-%m-%d" }} itemprop=dateModified>{{ page.last_modified_at | date: "%-d %B, %Y" }}</time>)</ins>
           {% endif %}
 
         </p>
