@@ -4,6 +4,7 @@ title: "Self-Host Your Static Assets"
 date: 2019-05-31 21:10:11
 categories: Web Development
 meta: "Why is it so much better to self-host your static assets?"
+last_modified_at: 2025-01-09
 ---
 
 One of the quickest wins—and one of the first things I recommend my clients
