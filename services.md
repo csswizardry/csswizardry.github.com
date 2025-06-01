@@ -2,7 +2,7 @@
 layout: feature
 title: Web Performance Optimisation Services
 page-class: page--services
-meta: "Services offered to clients of all shapes and sizes"
+meta: "Audits, consultancy, workshops: CSS Wizardry delivers end-to-end web-performance services that shave seconds and grow revenue for teams worldwide."
 permalink: /services/
 lux: "Services"
 ---

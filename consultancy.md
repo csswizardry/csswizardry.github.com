@@ -2,7 +2,7 @@
 layout: page
 title: Site-Speed & Web Performance Consultant
 page-class: page--services  page--consultancy
-meta: "Harry Roberts provides web performance consultancy to help companies of all shapes and sizes pass Core Web Vitals and improve user experience."
+meta: "Independent web-performance consultant Harry Roberts uncovers bottlenecks, fixes Core Web Vitals and adds £m-level revenue for brands like the Financial Times and Google."
 permalink: /consultancy/
 lux: "Services / Consultancy"
 ---

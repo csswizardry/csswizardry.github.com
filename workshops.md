@@ -2,7 +2,7 @@
 layout: page
 title: Web Performance Workshops & Team Training
 page-class: page--services  page--workshops
-meta: "Workshops and training events for clients"
+meta: "Hands-on web-performance workshops—remote or on-site—that equip your team to find, fix and prevent speed issues, guided by consultant Harry Roberts."
 permalink: /workshops/
 lux: "Services / Workshops"
 ---

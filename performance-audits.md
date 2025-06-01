@@ -2,7 +2,7 @@
 layout: page
 title: Site-Speed Performance Audits
 page-class: page--services  page--code-reviews
-meta: "Affordable, effective web performance audits to help you make your site fast. Pass Core Web Vitals in no time!"
+meta: "Detailed site-speed audits that surface every bottleneck, prioritise fixes by ROI, and get you passing Core Web Vitals within weeks—trusted by the BBC and Sky."
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/content/audit-trello.png"
 permalink: /performance-audits/
 lux: "Services / Audits"
