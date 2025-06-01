@@ -1,31 +1,38 @@
-<p><button class="btn  btn--secondary btn--full" id=jsShareButton>Share this</button></p>
+<p>
+  <button id="jsShareButton"
+          class="btn btn--secondary btn--full"
+          type="button">
+    Share this
+  </button>
+</p>
 
-<script type=module>
+<script type="module">
+
+  const shareButton = document.getElementById('jsShareButton');
 
   if (!navigator.share) {
-    shareButton.style.display = 'none';
+    shareButton.hidden = true;
   } else {
 
-    const shareButton = document.getElementById('jsShareButton');
+    /**
+     * This is very non-standard, but Bluesky’s Web Share is broken so I have
+     * to bundle everything into text:
+     *
+     * https://github.com/bluesky-social/social-app/issues/5051
+     */
     const shareData = {
-      /**
-       * This is very non-standard, but Bluesky’s Web Share is broken so I have
-       * to bundle everything into `text`:
-       *
-       * https://github.com/bluesky-social/social-app/issues/5051
-       */
-
-      //title: "{{ page.title }}",
-      //url: "https://csswizardry.com{{ page.url }}",
-      text: 'I really enjoyed ‘{{ page.title }}’ by @csswizardry! https://csswizardry.com{{ page.url }} '
+      text: `I really enjoyed ‘{{ page.title | escape }}` +
+            `’ by @csswizardry! https://csswizardry.com{{ page.url }}`
+      //title: "{{ page.title | escape }}",
+      //url:   "https://csswizardry.com{{ page.url }}" */
     };
 
     shareButton.addEventListener('click', async () => {
       try {
         await navigator.share(shareData);
-      } catch (err) { }
+      } catch (_) {
+      }
     });
   }
 
 </script>
-
