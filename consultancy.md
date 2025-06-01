@@ -11,6 +11,9 @@ lux: "Services / Consultancy"
 {
   "@context": "https://schema.org",
 
+  "name": "CSS Wizardry Ltd.",
+  "image": "https://csswizardry.com/icon.png",
+  "address": "Leeds, GB",
   "@id": "{{ site.url }}/consultancy/#service",
   "@type": "ProfessionalService",
   "serviceType": "Site-Speed & Web-Performance Consultancy",
