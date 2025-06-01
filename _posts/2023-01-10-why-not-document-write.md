@@ -36,6 +36,12 @@ that `document.write()` guarantees that these negative behaviours will manifest
 themselves, whereas other synchronous scripts can make use of alternate
 optimisations to sidestep them.
 
+<ins datetime="2025-06-01"><strong>N.B.</strong> Happily, nothing about
+<code>document.write()</code> specifically will impact Interaction to Next
+Paint. Only if the JavaScript itself is particularly problematic or expensive
+will you suffer poor INP scores. If you are struggling with INP, let’s organise
+a <a href="/workshops/">workshop</a>!</ins>
+
 <small>**N.B.** This audit and, accordingly, this article, only deals with
 script injection using `document.write()`—not its usage in general. [The MDN
 entry for
