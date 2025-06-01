@@ -83,10 +83,10 @@ endeavour for almost any reason you care to name.</p>
 Now would be a good time to mention: **I am an independent web performance
 consultant**—one of the best. I am available to help you find and fix your
 site-speed issues through [performance
-audits](/performance-audits/?utm_campaign=cwv-seo), [training and
-workshops](/workshops/?utm_campaign=cwv-seo),
-[consultancy](/consultancy/?utm_campaign=cwv-seo), and more. You should [get in
-touch](/contact/?utm_campaign=cwv-seo).
+audits](/performance-audits/), [training and
+workshops](/workshops/),
+[consultancy](/consultancy/), and more. You should [get in
+touch](/contact/).
 
 For citations, quotes, proof, and evidence, read on…
 
@@ -802,7 +802,7 @@ they’re cheaper to run, they’re better for the environment, and they rank
 better. **There is no reason not to do it.**
 
 If you’d like help getting your Core Web Vitals in order, you can [hire
-me](/services/?utm_campaign=cwv-seo).
+me](/services/).
 
 {% include promo.html %}
 
