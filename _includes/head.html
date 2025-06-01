@@ -133,7 +133,12 @@
 {% endif %}
 
 {% if page.indexable == false %}
-  <meta name=robots content=noindex>
+  <meta name=robots content="noindex, follow">
+{% endif %}
+
+{% if paginator and paginator.page > 1 %}
+  <!-- Don’t index low quality pages. -->
+  <meta name=robots content="noindex, follow">
 {% endif %}
 
 <script>
