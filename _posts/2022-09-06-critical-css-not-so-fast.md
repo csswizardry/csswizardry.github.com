@@ -4,7 +4,10 @@ title: "Critical CSS? Not So Fast!"
 date: 2022-09-06 16:00:00
 categories: Web Development
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/09/critical-filmstrip-03.png"
-meta: "How helpful is Critical CSS?"
+meta: "Critical CSS promises faster loading, but is it worth the complexity? Learn when Critical CSS actually boosts performance or when it might slow you down."
+faq:
+  - question: "Is Critical CSS worth implementing?"
+    answer: "Critical CSS can improve site speed, but only if CSS is genuinely your biggest performance bottleneck and it is maintained properly. Otherwise, the complexity may not justify the performance gains."
 ---
 
 I have long held very strong opinions about the Critical CSS pattern. In theory,
@@ -33,7 +36,7 @@ consider before we get started with it. It _is_ worth doing if:
 * **you load the non-Critical CSS sensibly;**
   * current methods can be no better than just leaving your CSS as-is.
 
-## Critical CSS Is Difficult to Implement
+## Challenges of Implementing Critical CSS
 
 …particularly when we talk about retrofitting it. Reliably extracting the
 relevant ‘critical’ styles is based, first and foremost, on some brittle
@@ -52,7 +55,7 @@ any faster.
 
 Let’s look at the performance implications of getting Critical CSS right.
 
-## Ensure CSS Is Your Biggest Bottleneck
+## Identifying CSS as Your Performance Bottleneck
 
 Critical CSS only helps if CSS is your biggest render-blocking bottleneck, and
 quite often, it isn’t. In my opinion, there is often a large over-focus on CSS
