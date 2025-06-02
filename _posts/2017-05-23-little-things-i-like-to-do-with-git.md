@@ -2,6 +2,7 @@
 layout: post
 title: "Little Things I Like to Do with Git"
 date: 2017-05-23 14:39:29
+last_modified_at: 2025-06-02
 categories: Web Development
 meta: "Git is a bunch of fun"
 ---
@@ -224,7 +225,7 @@ that I’ve completed, I can just ask Git to pull up all of that information for
 me:
 
 ```bash
-$ git log --since=00:00:00 --all --no-merges --oneline --author=<your email address>
+$ git log --since='midnight' --all --no-merges --oneline --author=<your email address>
 ```
 
 This will `log` `--all` branches showing you the work that the specified
@@ -232,6 +233,17 @@ This will `log` `--all` branches showing you the work that the specified
 a simplified `--oneline` overview.
 
 I have this aliased to `$ git today`.
+
+### <ins datetime="2025-06-02">Yesterday’s Work</ins>
+
+Similarly, if you want to remind yourself of yesterday’s work—in advance of your
+standup, for example—we have:
+
+```bash
+$ git log --since='yesterday.midnight' --until='midnight' --all --no-merges --oneline --author=<your email address>
+```
+
+This, predictably, is aliased to `$ git yesterday`.
 
 ## Generate a Changelog
 
