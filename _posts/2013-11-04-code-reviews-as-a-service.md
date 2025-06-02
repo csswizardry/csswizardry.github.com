@@ -1,6 +1,7 @@
 ---
 comments: true
 date: 2013-11-04 11:18:23
+last_modified_at: 2025-06-02
 layout: post
 slug: code-reviews-as-service
 title: Code reviews as a service
@@ -36,8 +37,8 @@ teaching people how to circumvent them.
 
 I had an idea of a way to fuse my desires to work in an ‘educator’ role (I use
 scare quotes as I feel that without them I would just sound really pretentious)
-with a variety of clients in far-flung locations: [remote code
-reviews](/services/#section-code-reviews).
+with a variety of clients in far-flung locations: remote code
+reviews and [performance audits](/performance-audits/).
 
 As of, well, now, I’m offering the same level of consultancy—on _your_ products
 to solve _your_ problems—but with fixed deliverables in a fixed timeframe and at
