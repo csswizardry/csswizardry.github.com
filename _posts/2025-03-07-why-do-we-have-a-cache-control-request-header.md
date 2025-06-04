@@ -2,8 +2,14 @@
 layout: post
 title: "Why Do We Have a Cache-Control Request Header?"
 date: 2025-03-07 15:55:04
+last_modified_at: 2025-06-04
 categories: Web Development
 meta: "Learn how the Cache-Control request header works, how browsers handle refresh and hard refresh caching, and when developers should use it for realtime data and offline-first applications."
+faq:
+  - question: "When should I add Cache-Control in HTTP requests?"
+    answer: "Use it for real-time or offline-first data where freshness is critical; e.g. `no-store` or `only-if-cached`."
+  - question: "Is `max-age=0` the same as `no-cache`?"
+    answer: "Both force revalidation, but `no-cache` is stricter and must revalidate before reuse."
 ---
 
 I’ve [written](/2019/03/cache-control-for-civilians/) and
@@ -277,3 +283,6 @@ stored content rather than attempting a network request that might fail.
   ```http
   Cache-Control: only-if-cached
   ```
+
+Need a helping hand with your caching strategy? Schedule a [performance
+audit](/performance-audits/).
