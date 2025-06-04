@@ -22,7 +22,7 @@ conference for professionals.
 
 <figure>
   <img src="/img/content/about.jpg"
-       alt
+       alt="Harry Roberts leading a web performance workshop at Digital Labin 2022, standing in front of a group of attendees and speaking with animated hand gestures against a concrete and tiled backdrop."
        width="750"
        height="422"
        id="about-image"
