@@ -2,7 +2,7 @@
 layout: page
 title: Web Performance Testimonials
 page-class: page--case-studies  page--testimonials
-meta: "Nice things people have said about me"
+meta: "Read real client testimonials for Harry Roberts’ web performance audits, training, and consultancy. Discover why top brands choose CSS Wizardry."
 permalink: /testimonials/
 lux: "Testimonials"
 ---
