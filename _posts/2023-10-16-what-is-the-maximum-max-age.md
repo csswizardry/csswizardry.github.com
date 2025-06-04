@@ -2,11 +2,14 @@
 layout: post
 title: "What Is the Maximum max-age?"
 date: 2023-10-16 14:18:39
+last_modified_at: 2025-06-04
 categories: Web Development
-meta: "We usually set max-age directives to a year; can we go longer?"
+meta: "How long?! RFC9111 lets max-age reach 68 years—far beyond the usual one that developers set. Here are the raw numbers, the spec, and when to use it."
 faq:
   - question: "What is the maximum value for cache-control’s max-age?"
-    answer: "Conventionally, people tend to use one year, which is 3,1536,000 seconds. However, the spec says that caches MUST honour up to 2,147,483,648 seconds, which, in a 32-bit system, is the largest possible integer that can be represented in binary form. That’s a whopping 68 years!"
+    answer: "Most teams stick to one year, but RFC9111 states caches MUST honour any value up to 2,147,483,648 seconds—68 years—the largest signed 32-bit integer."
+  - question: "Should I swap my 31536000s for 2147483648s?"
+    answer: "Maybe, but only for truly immutable, fingerprinted assets. HTML and API responses should keep short or revalidated lifetimes to avoid serving stale data."
 ---
 
 <p class="c-highlight">Try out the <a href="/max-age/"><code>max-age</code>
@@ -154,3 +157,6 @@ been stored for a year might not actually make it that long.
 This post was mostly an exercise in curiosity. But, if you wanted to, you could
 go ahead and swap all of your `31536000`s for `2147483648`s. It works in [all
 major browsers](https://cache-tests.fyi/).
+
+Need a second pair of eyes on your caching strategy? Arrange a [performance
+audit](/performance-audits/)!
