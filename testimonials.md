@@ -8,7 +8,13 @@ lux: "Testimonials"
 ---
 
 I’ve done a lot of great work with a lot of great people, but don’t just take my
-word for it—here’s what they had to say about me:
+word for it—here’s what they had to say about me.
+
+Below are client and peer reviews of my **web performance audits, consultancy,
+and training**. Whether audits for large enterprises or one-day workshops for
+small independents, these testimonials show why top brands choose me.
+
+If you want to join them, [get in touch](/contact/).
 
 <style>
 {% include css/components.filter.css %}
