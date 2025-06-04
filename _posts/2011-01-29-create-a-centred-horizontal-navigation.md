@@ -1,6 +1,7 @@
 ---
 comments: true
 date: 2011-01-29 18:53:10
+last_modified_at: 2023-09-29
 layout: post
 slug: create-a-centred-horizontal-navigation
 title: Create a centred horizontal navigation
