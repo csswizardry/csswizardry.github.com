@@ -12,6 +12,11 @@ tag:
 - CSS
 ---
 
+<p class="c-highlight">Since originally penning this article in 2011, I have
+fully transitioned myself away from CSS and heavily into <a
+href="/consultancy/">web performance consultancy</a>. You can <a
+href="/contact/">hire me</a> for that now!</p>
+
 {% include promo.html %}
 
 This article was originally written in 2011 and used `text-align`ment and
