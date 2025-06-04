@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Testimonials
+title: Web Performance Testimonials
 page-class: page--case-studies  page--testimonials
 meta: "Nice things people have said about me"
 permalink: /testimonials/
