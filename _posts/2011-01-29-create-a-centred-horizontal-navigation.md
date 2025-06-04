@@ -10,14 +10,13 @@ categories:
 - Web Development
 tag:
 - CSS
+meta: "2025 refresh: build a perfectly centred horizontal nav with just two Flexbox rules—`display:flex` and `justify-content:center`. Demo included!"
 ---
 
 <p class="c-highlight">Since originally penning this article in 2011, I have
 fully transitioned myself away from CSS and heavily into <a
 href="/consultancy/">web performance consultancy</a>. You can <a
 href="/contact/">hire me</a> for that now!</p>
-
-{% include promo.html %}
 
 This article was originally written in 2011 and used `text-align`ment and
 `display: inline;` to manipulate lists as text-level, inline elements. However,
@@ -53,6 +52,8 @@ a great example of just how powerful CSS has gotten in the last decade.
 
 </ul>
 ```
+
+{% include promo.html %}
 
 Pretty standard, an unordered list of menu items. The CSS is where it’s at:
 
