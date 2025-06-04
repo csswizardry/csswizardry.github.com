@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-01-29 18:53:10
-last_modified_at: 2023-09-29
+last_modified_at: 2025-06-04
 layout: post
 slug: create-a-centred-horizontal-navigation
 title: Create a centred horizontal navigation
@@ -12,88 +12,73 @@ tag:
 - CSS
 ---
 
-<p class="c-highlight"><strong>N.B.</strong> This article is kind of old now.
-While the technique definitely still works, I’d recommend looking into <a
-href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Flexbox</a>
-for this nowadays. Happy coding!</p>
-
 {% include promo.html %}
 
-Centring block level elements is easy, just define a width and set `margin:
-0 auto;`, but what if you don’t know that fixed width? You could use
-`text-align: center;` but that won’t work on 100%-width block-level elements
-either… that’ll only work on text-level elements.
+This article was originally written in 2011 and used `text-align`ment and
+`display: inline;` to manipulate lists as text-level, inline elements. However,
+in 2025, I completely rewrote it to utilise Flexbox: the much more suitable
+approach for the times.
 
-Defining explicit widths and heights should always be avoided wherever possible,
-as doing so will make the document a lot less future-proof, flexible and
-extensible… Suppose you have four items in your navigation menu--you can work
-out the width of these and use `margin: 0 auto;` to centre them. Adding a fifth
-will increase the width, meaning you’d need to alter the CSS, too. This is far
-from ideal, and more so with a CMS to power the site (a client can add pages,
-but perhaps can’t edit CSS).
-
-However, there is a way to have a centred horizontal navigation without knowing
-an explicit width, and without adding CSS. It’s also remarkably easy.
-
-The markup:
+It massively simplified the amount of CSS needed to build a horizontally centred
+nav, so while this post may now seem a little underwhelming, it does serve as
+a great example of just how powerful CSS has gotten in the last decade.
 
 ```html
-<ul class="nav">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/services/">Work</a></li>
-    <li><a href="/clients/">Clients</a></li>
-    <li><a href="/contact/">Contact</a></li>
+<ul class=c-nav>
+
+  <li class=c-nav__item>
+    <a href=# class=c-nav__link>Home</a>
+  </li>
+
+  <li class=c-nav__item>
+    <a href=# class=c-nav__link>About</a>
+  </li>
+
+  <li class=c-nav__item>
+    <a href=# class=c-nav__link>Work</a>
+  </li>
+
+  <li class=c-nav__item>
+    <a href=# class=c-nav__link>Clients</a>
+  </li>
+
+  <li class=c-nav__item>
+    <a href=# class=c-nav__link>Content</a>
+  </li>
+
 </ul>
 ```
 
-Pretty standard, an unordered list of menu items. The CSS is where it’s at.
-I have highlighted the bits that do the majority of the work:
+Pretty standard, an unordered list of menu items. The CSS is where it’s at:
 
 ```css
-.nav {
-    border: 1px solid #ccc;
-    border-width: 1px 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center; /* « The magic. */
+.c-nav {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.nav li {
-    display: inline; /* « More magic. */
-}
+  .c-nav__item { }
 
-.nav a {
-    display: inline-block; /* « Last bit of magic. */
-    padding: 10px;
-}
+    .c-nav__link {
+      display: block;
+    }
 ```
 
-What I’ve done here is simply create a navigation list and given it a border top
-and bottom (purely to highlight its centred text). Instead of floating the
-_block-level_ `<li>`s left I’ve given them `display: inline;`, that is to say
-they no longer occupy 100% the available width and they now stack up nicely
-against each other.
+The workhorses here are simply `display: flex;` and `justify-content: center;`.
+This creates a Flex context and forces items to pack from the centre outward.
 
-Next we use (the much underused) `display: inline-block;` to make sure the links
-themselves don’t break onto new lines but still obey any padding values
-accordingly. Here I have given them a larger hit area by adding `padding: 10px;`
-
-You could have, if you wanted, applied inline-block to the `<li>`s. however
-IE6-7 will only allow `inline-block` to work on elements that are inherently
-inline elements. `display: inline-block;` will not work on block-level elements.
+`gap` optionally spaces the items by `10px`, which creates an un-clickable
+‘dead’ zone between each link. Whether you want this or not is entirely up to
+you, so feel free to modify or exclude to suit your needs.
 
 ## [Demo](/demos/centred-nav/)
 
-[Here’s a quick demo](/demos/centred-nav/). Try using Firebug or similar to add
-other list items on the fly, and watch as they seamlessly centre in the list. I
-have tested this in IE7-8 to find it works perfectly. I haven’t checked IE6 but
-I imagine it’ll be fine.
-
-## Update
-
-You asked and I heard; I have made [a CSS powered dropdown version of this](/demos/centred-nav/dropdown.html)
-for you. The line `top: 100%;` will make the dropdown work in IE7, but kinda
-ruins the experience a little in all other browsers. Whether you leave it in or
-not is up to you. Again, view source for the how-to…
+[Here’s a quick demo](/demos/centred-nav/)! It works in all major current
+browsers.
