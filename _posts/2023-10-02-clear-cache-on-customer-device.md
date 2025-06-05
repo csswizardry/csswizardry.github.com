@@ -2,6 +2,7 @@
 layout: post
 title: "How to Clear Cache and Cookies on a Customer’s Device"
 date: 2023-10-02 15:30:49
+last_modified_at: 2025-06-05
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/10/clear-site-data.png?1"
 meta: "There’s a super quick and easy way to clear cache on your customers’ devices. Are you using it yet?"
@@ -83,6 +84,20 @@ Note that this will prevent anything from going into cache while active, so you
 will notice performance degradations. While ever the header is live, you will be
 constantly evicting users’ caches, effectively disabling caching for your site
 the whole time. Tread carefully!
+
+## <ins datetime="2025-06-05">Clearing Speculation Rules’ Cache</ins>
+
+Starting in [Chrome
+138](https://developer.chrome.com/blog/chrome-138-beta#speculation_rules_add_prefetchcache_and_prerendercache_to_clear-site-data_header),
+`Clear-Site-Data` is being extended by two additional directives that will empty
+the prefetch and prerender caches respectively:
+
+```http
+Clear-Site-Data: "prefetchCache", "prerenderCache"
+```
+
+This will be particularly useful in cases you may have misconfigured your
+[Speculation Rules](/2024/12/a-layered-approach-to-speculation-rules/).
 
 ## Clearing Cache on iOS
 

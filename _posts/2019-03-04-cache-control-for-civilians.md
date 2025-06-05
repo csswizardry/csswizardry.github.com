@@ -2,6 +2,7 @@
 layout: post
 title: "Cache-Control for Civilians"
 date: 2019-03-04 01:21:39
+last_modified_at: 2025-06-05
 categories: Web Development
 meta: "What does Cache-Control really do? In basic terms? Let’s find out!"
 ---
@@ -453,7 +454,11 @@ Opera.
 
 **Tip:** There are a number of directives that `Clear-Site-Data` will accept:
 `"cookies"`, `"storage"`, `"executionContexts"`, and `"*"` (which, naturally,
-means ‘all of the above’).
+means ‘all of the above’), and starting with [Chrome
+138](https://developer.chrome.com/blog/chrome-138-beta#speculation_rules_add_prefetchcache_and_prerendercache_to_clear-site-data_header),
+support for the `prefetchCache` and `prerenderCache` directives is added to help
+you clear caches populated by [Speculation
+Rules](/2024/12/a-layered-approach-to-speculation-rules/).
 
 - - -
 

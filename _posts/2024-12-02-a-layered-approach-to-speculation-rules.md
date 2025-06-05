@@ -2,6 +2,7 @@
 layout: post
 title: "A Layered Approach to Speculation Rules"
 date: 2024-12-02 00:01:56
+last_modified_at: 2025-06-05
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
 meta: "The new Speculation Rules API is incredibly powerful, but we can do so much more! By taking a layered, opt-in approach, we can add more progressive and effective functionality."
@@ -450,6 +451,16 @@ experiment for a week and the outcomes we’re incredibly compelling.
 I guess my point after all of this is that I think this is quite an elegant
 pattern and I’m quite happy with myself. If you’d like to be happy with me, too,
 I’m taking on [new clients for 2025](/services/).
+
+## <ins datetime="2025-06-05">Clearing Speculation Rules’ Cache With `Clear-Site-Data`</ins>
+
+In the [upcoming Chrome 138
+release](https://developer.chrome.com/blog/chrome-138-beta#speculation_rules_add_prefetchcache_and_prerendercache_to_clear-site-data_header),
+the [`Clear-Site-Data` HTTP response
+header](/2023/10/clear-cache-on-customer-device/) is being extended to add
+support for both the `prefetchCache` and `prerenderCache` directives. These can
+be used by developers to forcibly purge end-users caches in the event you may
+have incorrectly or misconfigured something in or around your Speculation Rules.
 
 <small>Thanks to [Barry Pollard](https://x.com/tunetheweb) for sense-checks and
 streamlining.</small>
