@@ -7,9 +7,10 @@ permalink: /about/
 lux: About
 ---
 
-Hi there, I’m Harry Roberts. I am an independent **Consultant Web Performance
-Engineer** from Leeds, UK. I help some of the world’s largest and most respected
-organisations deliver faster and more reliable experiences to their customers.
+**Hi there, I’m Harry. I am an independent Consultant Web Performance Engineer
+based in Leeds, UK. I deliver high-end, bespoke consultancy to world-class,
+ambitious clients.**
+
 I am an invited [Google Developer
 Expert](https://developers.google.com/profile/u/csswizardry), a [Cloudinary
 Media Developer
