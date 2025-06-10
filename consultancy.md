@@ -2,7 +2,7 @@
 layout: page
 title: Site-Speed & Web Performance Consultant
 page-class: page--services  page--consultancy
-meta: "Independent web-performance consultant Harry Roberts uncovers bottlenecks, fixes Core Web Vitals and adds £m-level revenue for brands like the Financial Times and Google."
+meta: "Independent web performance consultant Harry Roberts uncovers bottlenecks, fixes Core Web Vitals, and adds £m-level revenue."
 permalink: /consultancy/
 lux: "Services / Consultancy"
 ---

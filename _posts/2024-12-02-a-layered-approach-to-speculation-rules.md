@@ -5,7 +5,7 @@ date: 2024-12-02 00:01:56
 last_modified_at: 2025-06-05
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
-meta: "The new Speculation Rules API is incredibly powerful, but we can do so much more! By taking a layered, opt-in approach, we can add more progressive and effective functionality."
+meta: "The new Speculation Rules API is incredibly powerful, but we can do so much more! By taking a layered approach, we can add more progressive functionality."
 ---
 
 I’ve always loved doing slightly unconventional and crafty things with simple
