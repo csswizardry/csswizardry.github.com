@@ -82,7 +82,8 @@ this post, I will list the results for both sites. My variants are:
 * **`font-display: swap;`:** Using Google Fonts’ new default.
 * **Async CSS:** Loading the Google Fonts File asynchronously.
 * **`preload`:** `preload`ing the CSS file to increase its priority.
-* **`preconnect`:** Warming up the `fonts.gstatic.com` origin myself.
+* **[`preconnect`](/2023/12/correctly-configure-preconnections/):** Warming up
+  the `fonts.gstatic.com` origin myself.
 
 Further, each variant is additive—it includes the previous variant as well as
 its own additions. I didn’t try _just_ `preload` or _just_ async, because it
@@ -199,12 +200,13 @@ Matcher_](https://meowni.ca/font-style-matcher/).
 |                       |  3.6 |  3.6 |  4.6 |  4.6 |         95 |
 | Change from Baseline: | +0.2 | −0.7 | +0.2 | +0.2 |         −1 |
 
-We haven’t removed any render-blocking resources from the critical path, so
-I wasn’t expecting to see any improvements in first paint. In fact, while
-harry.is remained identical, CSS Wizardry got 200ms slower. What we do see,
-however, is **a dramatic improvement in first contentful paint**—over a second
-on harry.is! **First web font improved on harry.is**, but not on
-csswizardry.com. Visually complete was 200ms slower.
+We haven’t removed any
+[render-blocking](/2024/08/blocking-render-why-whould-you-do-that/) resources
+from the critical path, so I wasn’t expecting to see any improvements in first
+paint. In fact, while harry.is remained identical, CSS Wizardry got 200ms
+slower. What we do see, however, is **a dramatic improvement in first contentful
+paint**—over a second on harry.is! **First web font improved on harry.is**, but
+not on csswizardry.com. Visually complete was 200ms slower.
 
 I’m happy to say, for the metrics that matter the most, **we are 700–1,200ms
 faster**.

@@ -57,11 +57,12 @@ we measure and benchmark ourselves as we work. Not about the ultimate outcome,
 LCP, which is a UX metric, but about the technical metrics that we are impacting
 directly.
 
-We might hypothesise that reducing the amount of render-blocking CSS should help
-improve LCP—and that’s a sensible hypothesis!—but this is where my first point
-about atomicity comes in. Trying to proxy the impact of reducing our CSS from
-our LCP time leaves us open to a lot of variance and nondeterminism. When we
-refreshed, perhaps we hit an outlying, huge first-byte time? What if another
+We might hypothesise that reducing the amount of
+[render-blocking](/2024/08/blocking-render-why-whould-you-do-that/) CSS should
+help improve LCP—and that’s a sensible hypothesis!—but this is where my first
+point about atomicity comes in. Trying to proxy the impact of reducing our CSS
+from our LCP time leaves us open to a lot of variance and nondeterminism. When
+we refreshed, perhaps we hit an outlying, huge first-byte time? What if another
 file on the critical path had dropped out of cache and needed fetching from the
 network? What if we incurred a DNS lookup this time that we hadn’t the previous
 time? Working in this manner requires that all things remain equal, and that

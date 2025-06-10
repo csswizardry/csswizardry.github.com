@@ -1,6 +1,7 @@
 ---
 comments: true
 date: 2013-01-23 18:33:00
+last_modified_at: 2025-06-10
 layout: post
 slug: your-logo-is-still-an-image-and-so-is-mine
 title: Your logo is still an image… and so is mine!
@@ -198,6 +199,7 @@ and also take even more advantage of sprites! A machine sees an `img` labelled
 ‘CSS Wizardry’ (perfect) and a user sees my logo (awesome)! Everyone is happy,
 everything is correct.
 
-**Edit:** As many people have suggested, you could – if your stats allow it –
-use a Base64 data-URI instead of a gif and save the HTTP request. This obviously
-isn’t cachable in the same way as an image is, but it is gzippable!
+**Edit:** As many people have suggested, you could use a [Base64
+data](/2017/02/base64-encoding-and-performance/)-URI instead of a gif and save
+the additional HTTP request. This obviously isn’t cachable in the same way as an
+image is, and also does bring certain other downsides you ought to be aware of!

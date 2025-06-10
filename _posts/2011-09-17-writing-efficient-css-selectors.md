@@ -5,6 +5,7 @@ layout: post
 slug: writing-efficient-css-selectors
 title: Writing efficient CSS selectors
 wordpress_id: 3144_
+meta: "CSS selectors, and their combinations, can be fast or slow! And while hopefully imperceptible, it’s definitely worth knowing about."
 categories:
 - Web Development
 tag:
