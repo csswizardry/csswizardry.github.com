@@ -7,6 +7,7 @@ main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://
 permalink: /code-reviews/
 lux: "Services / Audits"
 canonical: https://csswizardry.com/performance-audits/
+indexable: false
 ---
 
 <p><strong id="jsTagline"></strong></p>
