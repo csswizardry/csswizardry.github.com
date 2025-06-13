@@ -1,1 +1,1 @@
-Suffering? <b>Fix It Fast!</b>
+<strong>Get started…</strong>
