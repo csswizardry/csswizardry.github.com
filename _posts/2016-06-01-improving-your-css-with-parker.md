@@ -277,7 +277,8 @@ href="http://t.co/0jAEb2h8VF">pic.twitter.com/0jAEb2h8VF</a></p>&mdash; Gaël
 Métais (@gaelmetais) <a
 href="https://twitter.com/gaelmetais/status/564109775995437057">7 February
 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script src="https://platform.twitter.com/widgets.js" defer></script>
 
 A confusing mess of unrelated selectors all grouped together via coincidence as
 opposed to reason. This fragments style information across your project, creates

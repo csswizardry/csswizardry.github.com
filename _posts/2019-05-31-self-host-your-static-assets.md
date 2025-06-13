@@ -64,6 +64,8 @@ Roberts (@csswizardry) <a
 href="https://twitter.com/csswizardry/status/1651599057608142849?ref_src=twsrc%5Etfw">27
 April, 2023</a></blockquote>
 
+<script src="https://platform.twitter.com/widgets.js" defer></script>
+
 ## Risk: Service Shutdowns
 
 A far less common occurrence, but what happens if a provider decides they need

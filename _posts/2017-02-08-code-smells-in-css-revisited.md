@@ -227,6 +227,8 @@ Rupert](https://twitter.com/davatron5000):
   — Dave Rupert (@davatron5000) <a href="https://twitter.com/davatron5000/status/829091851651149824">7 February, 2017</a>
 </blockquote>
 
+<script src="https://platform.twitter.com/widgets.js" defer></script>
+
 If we need to style something differently because of its context, where should
 we put that additional CSS?
 

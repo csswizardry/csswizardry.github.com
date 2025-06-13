@@ -4,18 +4,8 @@
 
 <title>{{ page.title }} {% if paginator and paginator.page > 1 %}Blog – Page {{ paginator.page }} {% endif %}– CSS Wizardry</title>
 
-{% comment %}
-<!--
-  - Preemptively open up connections for external assets (Twitter widgets etc).
-  - Only needed on pages with sidebars (i.e. non-feature pages).
-  -->
-{% endcomment %}
 {% if page.layout != "feature" %}
 <link rel=preconnect href=https://res.cloudinary.com>
-<link rel=preconnect href=https://cdn.carbonads.com>
-<link rel=preconnect href=https://srv.carbonads.net>
-<link rel=preconnect href=https://cdn.syndication.twimg.com>
-<link rel=preconnect href=https://syndication.twitter.com>
 {% endif %}
 
 {% if page.page-class == "page--services  page--workshops" or page.page-class == "page--services  page--downloads" %}
@@ -73,9 +63,6 @@
 
 <script src=https://cdn.speedcurve.com/js/lux.js?id=47684395 defer></script>
 
-{% if page.layout != "feature" %}
-<script src=https://platform.twitter.com/widgets.js defer></script>
-{% endif %}
 {% if page.page-class == "page--services  page--workshops" %}
 <script src=https://gumroad.com/js/gumroad.js defer></script>
 {% endif %}

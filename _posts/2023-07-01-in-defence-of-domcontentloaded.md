@@ -420,6 +420,8 @@ tiny ones:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As a rule, RTT (α) stays constant while download time (𝑥) is proportional to filesize. Therefore, splitting one large bundle into 16 smaller ones goes from 1α + 𝑥 to 16α + 16(0.0625𝑥). Expect things to probably get a little slower. <a href="https://t.co/c0hEsIAwKq">pic.twitter.com/c0hEsIAwKq</a></p>&mdash; Harry Roberts (@csswizardry) <a href="https://twitter.com/csswizardry/status/1352402710688133122?ref_src=twsrc%5Etfw">21 January, 2021</a></blockquote>
 
+<script src="https://platform.twitter.com/widgets.js" defer></script>
+
 My advice in this case is to tweak their build to output maybe 8–10 bundles and
 re-test from there. It’s important to balance bundle size, number of bundles,
 and caching strategies, but it’s clear to me that the issue here is overzealous

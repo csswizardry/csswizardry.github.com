@@ -41,6 +41,8 @@ of a ‘dubious’ copy of this track? I’ll donate £25 to a charity of your c
 href="https://twitter.com/csswizardry/status/975337747169857537">18 March,
 2018</a></blockquote>
 
+<script src="https://platform.twitter.com/widgets.js" defer></script>
+
 If you want to listen to the track—of course you do, it’s stunning—then you’ll
 have to make do with the YouTube version. Couple it with some good headphones
 and a decent amount of volume and you’ll still get the picture:

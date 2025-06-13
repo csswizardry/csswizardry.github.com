@@ -39,6 +39,9 @@ Let’s go.
 
 ## Solve Everything Beforehand
 
+_**Struggling to hit 2.5s?** [Work with me one-to-one and deliver a faster
+LCP](/consultancy/)._
+
 Let’s start with the easy stuff. LCP is a milestone timing—it measures…
 
 > …the render time of the largest image or text block visible within the
@@ -313,6 +316,8 @@ images) are not requested by your CSS, but by the DOM node that needs them
 it.]</p>&mdash; Harry Roberts (@csswizardry) <a
 href="https://twitter.com/csswizardry/status/1436361516534620168?ref_src=twsrc%5Etfw">10 September
 2021</a></blockquote>
+
+<script src="https://platform.twitter.com/widgets.js" defer></script>
 
 This means that `background-image` LCPs are requested at the very last moment,
 which is far too late. We don’t like `background-image` LCPs.
