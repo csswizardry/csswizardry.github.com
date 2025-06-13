@@ -1,8 +1,26 @@
 <hr class=hide-desk>
 
-<article class="[ box  box--highlight ]  mb" data-ui-component=ad>
-  {% include adpacks.html %}
-</article>
+<p class=text-banner>
+  <a href=/performance-audits/#fix-it-fast class="btn  btn--full btn--positive" id=cta data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
+</p>
+
+<script>
+  (() => {
+
+    const cta = document.getElementById('cta');
+
+    cta.addEventListener('click', (event) => {
+
+      setTimeout(() => {
+        LUX.addData('ctaClicked', true)
+      });
+
+    });
+
+  })();
+</script>
+
+<hr>
 
 {% if page.page-class != "page--home" and page.page-class != "page--about" %}
 <p>
@@ -25,28 +43,6 @@
 href=/speaking/>speak</a></b>, and <b><a
 href=http://github.com/csswizardry>share code</a></b> about measuring and
 improving site-speed. You <a href=/services/>should hire me</a>.</p>
-
-<hr>
-
-<p class=text-banner>
-  <a href=/performance-audits/#fix-it-fast class="btn  btn--full btn--positive" id=cta data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
-</p>
-
-<script>
-  (() => {
-
-    const cta = document.getElementById('cta');
-
-    cta.addEventListener('click', (event) => {
-
-      setTimeout(() => {
-        LUX.addData('ctaClicked', true)
-      });
-
-    });
-
-  })();
-</script>
 
 <hr>
 
