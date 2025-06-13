@@ -51,6 +51,7 @@
 
     @include media-query(desk) {
         background-image: url(/img/css/masthead-large.jpg), url(/img/css/masthead-large-lqip.jpg), var(--base64);
+        view-transition-name: masthead;
     }
 
     > .wrapper { /* [2] */
