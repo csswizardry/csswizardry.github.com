@@ -75,6 +75,11 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/hr.png" alt width="16" height="11" loading="lazy" /> <a href="https://shift.infobip.com/">Infobip Shift</a>: Zadar (Croatia), September 2025
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/nl.png" alt width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>: Amsterdam (Netherlands), October 2025
   </li>
 
