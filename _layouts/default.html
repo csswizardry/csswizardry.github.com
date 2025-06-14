@@ -75,14 +75,20 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/sw.js?0166').then(function(registration) {
-          // Successfully registered the Service Worker
-          //console.log('Service Worker registration successful with scope: ', registration.scope);
-        }).catch(function(err) {
-          // Failed to register the Service Worker
-          //console.log('Service Worker registration failed: ', err);
-        });
-      });
+
+      navigator.serviceWorker.getRegistrations()
+        .then(registrations => {
+          return Promise.all(
+            registrations.map(reg => reg.unregister())
+          );
+        })
+
+        .then(() => caches.keys())
+        .then(names => {
+          return Promise.all(
+            names.map(name => caches.delete(name))
+          );
+        })
+
     }
   </script>
