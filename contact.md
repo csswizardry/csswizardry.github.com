@@ -39,4 +39,6 @@ pleasantly surprised.
 
 {% include faq-consultancy.md %}
 
+- - -
+
 {% include faq-workshops.md %}
