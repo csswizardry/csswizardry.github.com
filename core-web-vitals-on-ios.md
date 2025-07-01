@@ -2,7 +2,7 @@
 layout: page
 title: Core Web Vitals on iOS
 page-class: page--services page--workshops
-meta: "Join the one-day workshop and get hands-on with Core Web Vitals in Safari"
+meta: "Arrange a one-day workshop and get hands-on with Core Web Vitals in Safari"
 main: "https://csswizardry.com/img/content/core-web-vitals-ios/main.png"
 permalink: /workshops/core-web-vitals-on-ios/
 ---
