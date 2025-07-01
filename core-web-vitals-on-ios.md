@@ -20,7 +20,7 @@ Five years on, Core Web Vitals have worked! The web as an ecosystem has gotten
 steadily faster across the board:
 
 <figure>
-<img src="/img/content/core-web-vitals-ios/origins-with-good-scores.png" alt="Chart showing an increasing trend in the number of origins passing all three Core Web Vitals" width="1200" height="1200">
+<img src="{{ site.cloudinary }}/img/content/core-web-vitals-ios/origins-with-good-scores.png" alt="Chart showing an increasing trend in the number of origins passing all three Core Web Vitals" width="1200" height="1200">
 <figcaption>From the <a href="https://httparchive.org/reports/techreport/tech?tech=ALL#good-cwvs">HTTP Archive Technology Report</a></figcaption>
 </figure>
 
@@ -32,10 +32,10 @@ steadily faster across the board:
 
 It’s important to view Core Web Vitals through two distinct lenses:
 
-<img src="/img/content/core-web-vitals-ios/firefox-logo.png" alt="Firefox logo" width="128" height="128"
+<img src="{{ site.cloudinary }}/img/content/core-web-vitals-ios/firefox-logo.png" alt="Firefox logo" width="128" height="128"
      style="float: right;
             margin-left: 24px;
-            shape-outside: url(/img/content/core-web-vitals-ios/firefox-logo.png);" />
+            shape-outside: url({{ site.cloudinary }}/img/content/core-web-vitals-ios/firefox-logo.png);" />
 
 1. **[Core Web Vitals, the metrics](https://web.dev/articles/vitals):** Largest
    Contentful Paint, Interaction to Next Paint, and Cumulative Layout Shift.
@@ -65,10 +65,10 @@ However, things are about to change.
 
 <a href="/contact/" class="btn  btn--primary">Beat the Competition</a>
 
-<img src="/img/content/core-web-vitals-ios/safari-logo.png" alt="Safari logo" width="128" height="128"
+<img src="{{ site.cloudinary }}/img/content/core-web-vitals-ios/safari-logo.png" alt="Safari logo" width="128" height="128"
      style="float: left;
             margin-right: 24px;
-            shape-outside: url(/img/content/core-web-vitals-ios/safari-logo.png);" />
+            shape-outside: url({{ site.cloudinary }}/img/content/core-web-vitals-ios/safari-logo.png);" />
 
 ## Core Web Vitals Come to Safari
 
