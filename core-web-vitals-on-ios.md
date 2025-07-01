@@ -20,7 +20,7 @@ Five years on, Core Web Vitals have worked! The web as an ecosystem has gotten
 steadily faster across the board:
 
 <figure>
-<img src="{{ site.cloudinary }}/img/content/core-web-vitals-ios/origins-with-good-scores.png" alt="Chart showing an increasing trend in the number of origins passing all three Core Web Vitals" width="1200" height="1200">
+<img src="{{ site.cloudinary }}/img/content/core-web-vitals-ios/origins-with-good-scores.png" alt="Chart showing an increasing trend in the number of origins passing all three Core Web Vitals" width="1200" height="1200" style="mix-blend-mode: darken;">
 <figcaption>From the <a href="https://httparchive.org/reports/techreport/tech?tech=ALL#good-cwvs">HTTP Archive Technology Report</a></figcaption>
 </figure>
 
