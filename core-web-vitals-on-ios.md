@@ -3,6 +3,7 @@ layout: page
 title: Core Web Vitals on iOS
 page-class: page--services page--workshops
 meta: "Join the one-day workshop and get hands-on with Core Web Vitals in Safari"
+main: "https://csswizardry.com/img/content/core-web-vitals-ios/main.png"
 permalink: /workshops/core-web-vitals-on-ios/
 ---
 
@@ -112,6 +113,11 @@ covering, but not limited to:
   * Safari-specific devtools
   * Tips, tricks, and workflows
   * Testing real devices
+
+<blockquote class="pull-quote  pull-quote--context-alt">
+  <p>Harry gave the team a strong footing for identifying performance issues on iPlayer. With his knowledge, we were able to roll out quick fixes to our audiences without the need for big rewrites, all within just two days.</p>
+  <b class="source  pull-quote__source">— <a href="https://twitter.com/mattjburrows">Matthew Burrows</a>, BBC iPlayer</b>
+</blockquote>
 
 The goal is to leave the team aware of the upcoming changes, arm them with tools
 and knowledge to optimise for the different engines, and ensure that your Safari
