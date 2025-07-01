@@ -50,6 +50,13 @@ it all, you end up with an up-skilled team and a faster website. It’s a win-wi
 
 <a href="/contact/" class="btn  btn--full">Organise a Workshop</a>
 
+## Core Web Vitals on iOS
+
+Core Web Vitals are coming to Safari! But it won’t be all plain sailing. Get
+yourselves prepared before the end of the year—we don’t have long!
+
+<a href="/workshops/core-web-vitals-on-ios/" class="btn  btn--full">Get ready for iOS</a>
+
 ## Lockdown Learning
 
 Missing conferences? Wanting to keep your team sharp during times of no travel?
