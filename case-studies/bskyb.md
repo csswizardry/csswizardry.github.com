@@ -11,7 +11,7 @@ lux: "Case Study"
 ---
 
 For almost three years, I was employed by
-[BSkyB](http://en.wikipedia.org/wiki/BSkyB) (Sky) as Senior UI Developer. I
+[BSkyB](https://en.wikipedia.org/wiki/BSkyB) (Sky) as Senior UI Developer. I
 worked primarily in their Betting & Gaming arm; a suite of highly trafficked and
 very highly profitable online products.
 
@@ -20,7 +20,7 @@ incredibly varied: development work, design and design process rationalisation,
 internal workshops, performance engineering, and more.
 
 One of my first tasks when I joined Sky was to rebuild the front-end of
-[Sky Bet](http://www.skybet.com/), for which I was the sole front-end developer.
+[Sky Bet](https://www.skybet.com/), for which I was the sole front-end developer.
 From there on in, I steered the majority of decisions regarding how we should go
 about building our UIs. This took the form of
 
@@ -69,7 +69,7 @@ ensure our UIs were just as speedy as his software and platform code.
        working on. He’s great at rationalising and pushing back on design
        requirements that could adversely effect performance and working out
        better and faster ways of achieving the same result.</p>
-    <b class="pull-quote__source"><a href="http://trilemma.technology/">Dan Rathbone</a>,
+    <b class="pull-quote__source"><a href="https://trilemma.technology/">Dan Rathbone</a>,
        Lead Performance Engineer, BSkyB</b>
 </blockquote>
 
