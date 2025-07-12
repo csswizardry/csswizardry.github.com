@@ -3,8 +3,8 @@ layout: post
 title: "Financial Times: Workshop and Consultancy"
 meta: "An intense day of workshop-style Q&A with the Financial Times"
 permalink: /case-studies/financial-times/
-next-case-study-title: "Cache in the cloud—fixing caching at Cloudinary"
-next-case-study-url: /case-studies/cloudinary/
+next-case-study-title: "Setting a New Standard for ISO.org"
+next-case-study-url: /case-studies/iso-org/
 hide-hire-me-link: true
 case-study: true
 lux: "Case Study"

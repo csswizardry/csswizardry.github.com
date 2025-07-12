@@ -11,9 +11,10 @@ lux: "Case Study"
 ---
 
 <img src="{{ site.cloudinary }}/img/content/case-studies/raspberry-pi/logo-pi.png" alt="" width="128" height="165"
+     class="u-outdent"
      style="float: left;
             margin-right: 24px;
-            shape-outside: url(/img/content/case-studies/raspberry-pi/logo-pi.png);" />
+            shape-outside: url({{ site.cloudinary }}/img/content/case-studies/raspberry-pi/logo-pi.png);" />
 
 I was approached by my friend [Jonic](https://twitter.com/Jonic), Senior
 Developer at the Raspberry Pi Foundation, about running a workshop with him and
@@ -50,6 +51,7 @@ and discussing how ITCSS might fit their specific requirements (that’s a core
 part of the architecture’s design: it can be moulded to fit almost any project).
 
 <img src="{{ site.cloudinary }}/img/content/case-studies/raspberry-pi/logo-cc.png" alt="" width="128" height="128"
+     class="u-outdent-alt"
      style="float: right;
             margin-left: 12px;
             shape-outside: circle();" />
