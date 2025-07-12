@@ -11,19 +11,53 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-
-  "@id": "{{ site.url }}{{ page.url }}#caseStudy",
-  "@type": "CaseStudy",
-
-  "name": "{{ page.title }}",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://csswizardry.com{{ page.permalink }}"
+  },
   "headline": "{{ page.title }}",
-  "url": "{{ site.url }}{{ page.url }}",
+  "description": "{{ page.meta  }}",
+  "author": {
+    "@type": "Person",
+    "name": "Harry Roberts",
+    "url": "https://csswizardry.com/about/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CSS Wizardry Ltd",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://csswizardry.com/img/csswizardry-logo.png"
+    }
+  },
+  "articleSection": "Case Study"
+}
+</script>
 
-  "author":    { "@id": "{{ site.url }}#person" },
-  "publisher": { "@id": "{{ site.url }}#org" },
-
-  "about": "{{ page.meta | default: page.excerpt | strip_html | truncate: 160 }}",
-
-  "inLanguage": "en-GB"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://csswizardry.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Case Studies",
+      "item": "https://csswizardry.com/case-studies/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.title }}",
+      "item": "https://csswizardry.com{{ page.permalink }}"
+    }
+  ]
 }
 </script>
