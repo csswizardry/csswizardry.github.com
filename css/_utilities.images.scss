@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #IMAGES
+   ========================================================================== */
+
+.u-outdent {
+  @include media-query(desk) {
+    margin-left: -$spacing-unit;
+  }
+}
+
+.u-outdent-alt {
+  @include media-query(desk) {
+    margin-right: -$spacing-unit;
+  }
+}

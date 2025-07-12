@@ -79,6 +79,7 @@
  * Show/hide............Helpers to show and side stuff.
  * Type.................Utility classes for typography.
  * Colors...............Utility classes for different colors.
+ * Images...............Nudge little images around.
  */
 
 
@@ -241,3 +242,4 @@ $inuit-enable-margins--none:    true;
 @import "trumps.show-hide";
 @import "trumps.type";
 @import "trumps.colors";
+@import "utilities.images";
