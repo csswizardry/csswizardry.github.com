@@ -8,6 +8,7 @@ next-case-study-url: /case-studies/bbc-workshop/
 hide-hire-me-link: true
 case-study: true
 lux: "Case Study"
+toc: false
 ---
 
 Nik White, [Madgex](http://madgex.com/)’s Design Director, got in touch with me

@@ -8,6 +8,7 @@ next-case-study-url: /case-studies/iso-org/
 hide-hire-me-link: true
 case-study: true
 lux: "Case Study"
+toc: false
 ---
 
 One of the first clients I worked with after I’d started working for myself was

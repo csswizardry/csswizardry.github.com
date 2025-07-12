@@ -8,6 +8,7 @@ next-case-study-url: /case-studies/cloudinary/
 hide-hire-me-link: true
 case-study: true
 lux: "Case Study"
+toc: false
 ---
 
 <img src="/img/content/case-studies/iso-org/iso-logo.png" alt="" width="128" height="106"

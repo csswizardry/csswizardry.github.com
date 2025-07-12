@@ -8,6 +8,7 @@ next-case-study-url: /case-studies/madgex-consultancy-workshop/
 hide-hire-me-link: true
 case-study: true
 lux: "Case Study"
+toc: false
 ---
 
 At the end of February 2015, I had the immense pleasure of running a week-long
