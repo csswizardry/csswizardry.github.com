@@ -21,7 +21,7 @@ lux: "Case Studies"
   {% include css/components.feature-list.css %}
 </style>
 
-<ul class="feature-list">
+<ul class="feature-list" id="jsCaseStudiesList">
 
   <li class="feature-list__item">
     <a href="iso-org/" class="feature-list__link" style="background-color: #e30010;">
@@ -142,3 +142,18 @@ lux: "Case Studies"
   {% endcomment %}
 
 </ul>
+
+<script>
+  (() => {
+    const list = document.getElementById('jsCaseStudiesList');
+    const listItems = Array.from(list.children);
+
+    for (let i = listItems.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [listItems[i], listItems[j]] = [listItems[j], listItems[i]];
+    }
+
+    list.innerHTML = '';
+    list.append(...listItems);
+  })();
+</script>
