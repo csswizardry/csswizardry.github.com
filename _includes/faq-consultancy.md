@@ -1,6 +1,6 @@
 <details open>
 
-  <summary>How much will it cost?</summary>
+  <summary>How much will our web performance project cost?</summary>
 
   <p>You’d be surprised. From $1,000 to $100,000, there’s always something we’ll
   be able to do to help solve your problem. My approach is to design the
@@ -25,7 +25,7 @@
 
 <details>
 
-  <summary>How long will it take?</summary>
+  <summary>How long will our web performance project take?</summary>
 
   <p>Probably not as long as you think! Over the past decade, I have managed
   to optimise my workflow to such an extent that we can move incredibly quickly.
@@ -51,7 +51,7 @@
 
     {
       "@type": "Question",
-      "name": "How much will it cost?",
+      "name": "How much will our web performance project cost?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Engagements start around $1,000 and can scale to $100,000 for large, enterprise-level projects. Every project is designed around your exact needs, so the best next step is to get in touch and we’ll map out an approach that fits."
@@ -69,7 +69,7 @@
 
     {
       "@type": "Question",
-      "name": "How long will it take?",
+      "name": "How long will our web performance project take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Thanks to a refined workflow developed over many years, we can move fast. Audits typically turn around inside two weeks, and longer consultancy engagements run three-to-six months with measurable wins delivered along the way."
