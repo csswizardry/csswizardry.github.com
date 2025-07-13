@@ -307,12 +307,16 @@ Five simple steps:
         "@type": "Course",
         "name": "{{ mc.title }}",
         "description": "{{ mc.intro | strip_html | escape }}",
-        "url": "{{ page.url | absolute_url }}#masterclass-{{ mc.image }}"{% if mc.price %},
+        "url": "{{ page.url | absolute_url }}#masterclass-{{ mc.image }}",
         "offers": {
           "@type": "Offer",
-          "price": "{{ mc.price }}",
+          {% if mc.price %}
+            "price": "{{ mc.price }}",
+          {% else %}
+            "price": "2500",
+          {% endif %}
           "priceCurrency": "USD"
-        }{% endif %}
+        }
       }
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
