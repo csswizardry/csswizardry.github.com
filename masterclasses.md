@@ -305,17 +305,29 @@ Five simple steps:
       "position": {{ forloop.index }},
       "item": {
         "@type": "Course",
-        "name": "{{ mc.title }}",
+        "name": "{{ mc.title | escape }}",
         "description": "{{ mc.intro | strip_html | escape }}",
         "url": "{{ page.url | absolute_url }}#masterclass-{{ mc.image }}",
+        "provider": {
+          "@type": "Organization",
+          "name": "CSS Wizardry Ltd",
+          "url": "{{ "/" | absolute_url }}"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "url": "{{ page.url | absolute_url }}#masterclass-{{ mc.image }}"
+        },
         "offers": {
           "@type": "Offer",
           {% if mc.price %}
-            "price": "{{ mc.price }}",
+          "price": "{{ mc.price }}",
           {% else %}
-            "price": "2500",
+          "price": "2500",
           {% endif %}
-          "priceCurrency": "USD"
+          "priceCurrency": "USD",
+          "category": "Masterclass",
+          "url": "{{ page.url | absolute_url }}#masterclass-{{ mc.image }}"
         }
       }
     }{% unless forloop.last %},{% endunless %}
