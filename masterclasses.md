@@ -293,3 +293,29 @@ Five simple steps:
 * Maximum attendees is capped at 12 people.
 * All Masterclasses include a formal Q&A session.
 * Discounts are offered for multiple Masterclasses.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {% for mc in page.masterclasses %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": "Course",
+        "name": "{{ mc.title }}",
+        "description": "{{ mc.intro | strip_html | escape }}",
+        "url": "{{ page.url | absolute_url }}#masterclass-{{ mc.image }}"{% if mc.price %},
+        "offers": {
+          "@type": "Offer",
+          "price": "{{ mc.price }}",
+          "priceCurrency": "USD"
+        }{% endif %}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
