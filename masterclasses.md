@@ -316,6 +316,7 @@ Five simple steps:
         "hasCourseInstance": {
           "@type": "CourseInstance",
           "courseMode": "Online",
+          "courseWorkload": "P3H",
           "url": "{{ page.url | absolute_url }}#masterclass-{{ mc.image }}"
         },
         "offers": {
