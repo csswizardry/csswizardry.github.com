@@ -1,9 +1,57 @@
 ---
 layout: feature
-title: Case Studies
+title: Web Performance Case Studies
 page-class: page--case-studies
 permalink: /case-studies/
+meta: "Real-world performance wins: how I drove gains for ISO.org, Cloudinary, the BBC, and more."
 lux: "Case Studies"
+case_studies:
+  - title: "ISO.org"
+    url: "/case-studies/iso-org/"
+    bg_color: "#e30010"
+    description: "Performance Audit"
+  - title: "Cloudinary"
+    url: "/case-studies/cloudinary/"
+    bg_color: "#3447c5"
+    description: "Consultancy"
+  - title: "Raspberry Pi & Code Club"
+    url: "/case-studies/raspberry-pi-code-club-workshop/"
+    bg_gradient: "linear-gradient(to bottom right, #c7053d 0%, #c7053d 50%, #393 50%, #393 100%)"
+    description: "Workshop"
+  - title: "Ocado"
+    url: "/case-studies/ocado-workshop/"
+    bg_color: "#a9ae00"
+    description: "Workshop"
+  - title: "NHS"
+    url: "/case-studies/nhs-nhsx-elearning-platform/"
+    bg_color: "#0072c6"
+    description: "Development, Product, Performance"
+  - title: "Better Collective"
+    url: "/case-studies/better-collective/"
+    bg_color: "#00a767"
+    description: "Workshop, Consultancy"
+  - title: "Madgex"
+    url: "/case-studies/madgex-consultancy-workshop/"
+    bg_color: "#009ddc"
+    description: "Workshop, Consultancy"
+  - title: "BBC"
+    url: "/case-studies/bbc-workshop/"
+    bg_color: "#ffdf43"
+    title_color: "#000"
+    description: "Workshop, Consultancy"
+  - title: "BSkyB"
+    url: "/case-studies/bskyb/"
+    bg_color: "#01519c"
+    description: "Development, Product, Workshop"
+  - title: "CSS Wizardry"
+    url: "/case-studies/css-wizardry/"
+    bg_color: "#f43059"
+    description: "Development, Product"
+  - title: "Financial Times"
+    url: "/case-studies/financial-times/"
+    bg_color: "#fff1e0"
+    title_color: "#010b13"
+    description: "Workshop, Consultancy"
 ---
 
 ## Good Work for Good People
@@ -22,125 +70,28 @@ lux: "Case Studies"
 </style>
 
 <ul class="feature-list" id="jsCaseStudiesList">
-
+  {% for case_study in page.case_studies %}
   <li class="feature-list__item">
-    <a href="iso-org/" class="feature-list__link" style="background-color: #e30010;">
-      <h2 class="feature-list__title">
-      ISO.org
-      <span class="feature-list__sub">Audit</span>
+    <a
+      href="{{ case_study.url }}"
+      class="feature-list__link"
+      style="
+        {% if case_study.bg_color %}background-color: {{ case_study.bg_color }};{% endif %}
+        {% if case_study.bg_gradient %}background-image: {{ case_study.bg_gradient }};{% endif %}
+      "
+    >
+      <h2
+        class="feature-list__title"
+        {% if case_study.title_color %}
+        style="color: {{ case_study.title_color }};"
+        {% endif %}
+      >
+        {{ case_study.title }}
+        <span class="feature-list__sub">{{ case_study.description }}</span>
       </h2>
     </a>
   </li>
-
-  <li class="feature-list__item">
-    <a href="cloudinary/" class="feature-list__link" style="background-color: #3447c5;">
-      <h2 class="feature-list__title">
-      Cloudinary
-      <span class="feature-list__sub">Consultancy</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="raspberry-pi-code-club-workshop/" class="feature-list__link" style="background-image: linear-gradient(to bottom right, #c7053d 0%, #c7053d 50%, #393 50%, #393 100%);">
-      <h2 class="feature-list__title">
-        Raspberry Pi &amp; Code Club
-        <span class="feature-list__sub">Workshop</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="ocado-workshop/" class="feature-list__link" style="background-color: #a9ae00;">
-      <h2 class="feature-list__title">
-        Ocado
-        <span class="feature-list__sub">Workshop</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="nhs-nhsx-elearning-platform/" class="feature-list__link" style="background-color: #0072c6;">
-      <h2 class="feature-list__title">
-        NHS
-        <span class="feature-list__sub">Development, Product, Performance</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="better-collective/" class="feature-list__link" style="background-color: #00a767;">
-      <h2 class="feature-list__title">
-        Better Collective
-        <span class="feature-list__sub">Workshop, Consultancy</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="madgex-consultancy-workshop/" class="feature-list__link" style="background-color: #009ddc;">
-      <h2 class="feature-list__title">
-        Madgex
-        <span class="feature-list__sub">Workshop, Consultancy</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="bbc-workshop/" class="feature-list__link" style="background-color: #ffdf43;">
-      <h2 class="feature-list__title" style="color: #000;">
-        BBC
-        <span class="feature-list__sub">Workshop, Consultancy</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="bskyb/" class="feature-list__link" style="background-color: #01519c;">
-      <h2 class="feature-list__title">
-        BSkyB
-        <span class="feature-list__sub">Development, Product, Workshop</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="css-wizardry/" class="feature-list__link" style="background-color: #f43059;">
-      <h2 class="feature-list__title">
-        CSS Wizardry
-        <span class="feature-list__sub">Development, Product</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="financial-times/" class="feature-list__link" style="background-color: #fff1e0;">
-      <h2 class="feature-list__title" style="color: #010b13;">
-        Financial Times
-        <span class="feature-list__sub">Workshop, Consultancy</span>
-      </h2>
-    </a>
-  </li>
-
-  {% comment %}
-  <li class="feature-list__item">
-    <a href="fasetto/" class="feature-list__link" style="background-color: #f2774a;">
-      <h2 class="feature-list__title">
-        Fasetto
-        <span class="feature-list__sub">Development, Product, Performance</span>
-      </h2>
-    </a>
-  </li>
-
-  <li class="feature-list__item">
-    <a href="joinin.com/" class="feature-list__link" style="background-color: #3fd5af;">
-      <h2 class="feature-list__title">
-        Joinin.com
-      </h2>
-    </a>
-  </li>
-  {% endcomment %}
-
+  {% endfor %}
 </ul>
 
 <script>
@@ -156,4 +107,21 @@ lux: "Case Studies"
     list.innerHTML = '';
     list.append(...listItems);
   })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {% for case_study in page.case_studies %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "url": "{{ case_study.url | absolute_url }}",
+      "name": "{{ case_study.title }}"
+    }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}
 </script>
