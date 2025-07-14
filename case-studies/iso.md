@@ -53,7 +53,7 @@ And how did it go? It went very well:
 
 <figure>
 <img src="{{ site.cloudinary  }}/img/content/case-studies/iso-org/crux.png" alt="Graphs showing significant and sustained improvements in all three Core Web Vitals since the project started" width="1500" height="348" loading="lazy">
-<figcaption>I think the numbers speak for themselves… <a href="{{ site.cloudinary  }}/img/content/case-studies/iso-org/crux.png">View full sie (32.5KB)</a></figcaption>
+<figcaption>I think the numbers speak for themselves… <a href="{{ site.cloudinary  }}/img/content/case-studies/iso-org/crux.png">View full size (32.5KB)</a></figcaption>
 </figure>
 
 You can see in the graphs above that our first performance-facing deployments
