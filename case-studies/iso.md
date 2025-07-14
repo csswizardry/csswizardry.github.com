@@ -38,9 +38,10 @@ follows. It’s a wise move!
 We decided to benchmark against [Core Web
 Vitals](/workshops/core-web-vitals-on-ios/) as they’re arguably the most
 sensible place to start for a fledgling project. Their biggest sticking points
-were Largest Contentful Paint and Cumulative Layout Shift. Interaction to Next
-Paint wasn’t much of a concern for them as they’d made smart decisions in the
-past and not gone all-in on JavaScript.
+were [Largest Contentful Paint](/2022/03/optimising-largest-contentful-paint/)
+and Cumulative Layout Shift. Interaction to Next Paint wasn’t much of a concern
+for them as they’d made smart decisions in the past and not gone all-in on
+JavaScript.
 
 The project was to be incredibly tactical—a quick-fire round of specific
 improvements built out into a backlog that the team could pick up as and when
