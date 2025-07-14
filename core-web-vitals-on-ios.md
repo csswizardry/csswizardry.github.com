@@ -34,6 +34,7 @@ It’s important to view Core Web Vitals through two distinct lenses:
 
 <img src="{{ site.cloudinary }}/img/content/core-web-vitals-ios/firefox-logo.png" alt="Firefox logo" width="128" height="128"
      loading="lazy"
+     class="u-outdent-alt"
      style="float: right;
             margin-left: 24px;
             shape-outside: url({{ site.cloudinary }}/img/content/core-web-vitals-ios/firefox-logo.png);" />
@@ -68,6 +69,7 @@ However, things are about to change.
 
 <img src="{{ site.cloudinary }}/img/content/core-web-vitals-ios/safari-logo.png" alt="Safari logo" width="128" height="128"
      loading="lazy"
+     class="u-outdent"
      style="float: left;
             margin-right: 24px;
             shape-outside: url({{ site.cloudinary }}/img/content/core-web-vitals-ios/safari-logo.png);" />
