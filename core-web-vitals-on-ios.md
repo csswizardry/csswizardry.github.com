@@ -77,7 +77,7 @@ However, things are about to change.
 ## Core Web Vitals Come to Safari
 
 Apple announced that Largest Contentful Paint and Interaction to Next Paint
-would be coming to Safari as part of [the Interop 2025
+will be coming to Safari as part of [the Interop 2025
 project](https://webkit.org/blog/16458/announcing-interop-2025/)! This means
 that we can begin tracking and instrumenting two of the three Core Web Vitals
 before the end of the year!
