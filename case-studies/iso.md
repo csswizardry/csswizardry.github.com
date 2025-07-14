@@ -2,6 +2,7 @@
 layout: post
 title: "Setting a New Standard for ISO.org"
 meta: "How I helped ISO.org achieve all-green Core Web Vitals for the first time ever. LCP down 29%, CLS down 94%."
+main: "https://csswizardry.com/img/content/case-studies/iso-org/crux.png"
 permalink: /case-studies/iso-org/
 next-case-study-title: "Cache in the cloud—fixing caching at Cloudinary"
 next-case-study-url: /case-studies/cloudinary/
