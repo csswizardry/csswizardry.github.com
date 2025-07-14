@@ -93,28 +93,32 @@ To help prepare clients—both new and old—I’ve designed a one-day workshop
 covering, but not limited to:
 
 * **Apple, Safari, and Core Web Vitals**
-  * Why can’t we get Core Web Vitals on iPhones?
-  * Why can’t we get Core Web Vitals in Safari?
-  * What even is Chrome on iOS?
+  + Why can’t we get Core Web Vitals on iPhones?
+  + Why can’t we get Core Web Vitals in Safari?
+  + What even is Chrome on iOS?
 * **Key events**
-  * LCP is coming to Safari in 2025!
-  * Blink can run on iOS as of 17.4 (but it still doesn’t)
+  + LCP is coming to Safari in 2025!
+  + Blink can run on iOS as of 17.4 (but it still doesn’t)
 * **What does Safari mean to you?**
-  * Based on your own audience, how much does it matter to you?
-  * Can we infer anything from existing Core Web Vitals data?
+  + Based on your own audience, how much does it matter to you?
+  + Can we infer anything from existing Core Web Vitals data?
 * **How does Safari differ from Chrome?**
-  * WebKit vs. Blink
-  * JavaScriptCore vs. V8
-  * Performance API availability
-  * Interop 2025
+  + WebKit vs. Blink
+  + JavaScriptCore vs. V8
+  + Performance API availability
+  + Interop 2025
+* **Do the same optimisation techniques apply?**
+  + Can we reuse the same work we did for Chrome?
+  + Do we need to do anything differently?
+  + Does Safari need special treatment?
 * **How do we measure Safari in the wild?**
-  * If it’s not in CrUX, where is it?
-  * Real user monitoring
-  * Which metrics can we capture
+  + If it’s not in CrUX, where is it?
+  + Real user monitoring
+  + Which metrics can we capture
 * **Safari on localhost**
-  * Safari-specific devtools
-  * Tips, tricks, and workflows
-  * Testing real devices
+  + Safari-specific devtools
+  + Tips, tricks, and workflows
+  + Testing real devices
 
 <blockquote class="pull-quote  pull-quote--context-alt">
   <p>Harry gave the team a strong footing for identifying performance issues on iPlayer. With his knowledge, we were able to roll out quick fixes to our audiences without the need for big rewrites, all within just two days.</p>
