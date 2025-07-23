@@ -51,7 +51,20 @@
 </style>
 <script>
   performance.mark('cssEnd');
-  performance.measure('cssTime', 'cssStart', 'cssEnd');
+
+  performance.measure('cssTime', {
+    start: 'cssStart',
+    end: 'cssEnd',
+    detail: {
+      devtools: {
+        dataType: 'track-entry',
+        trackGroup: 'csswizardry.com',
+        track: 'Technical Timings',
+        tooltipText: 'Main CSS Bundle Parsed',
+        color: 'secondary-light'
+      }
+    }
+  });
 </script>
 
 <script src="https://www.googletagmanager.com/gtag/js?id=G-DNCL1RY4GT" async></script>
@@ -133,5 +146,18 @@
 
 <script>
   performance.mark('headEnd');
-  performance.measure('headTime', 'headStart', 'headEnd');
+
+  performance.measure('headTime', {
+    start: 'headStart',
+    end: 'headEnd',
+    detail: {
+      devtools: {
+        dataType: 'track-entry',
+        trackGroup: 'csswizardry.com',
+        track: 'Technical Timings',
+        tooltipText: 'Head Tags Parsed',
+        color: 'secondary-light'
+      }
+    }
+  });
 </script>

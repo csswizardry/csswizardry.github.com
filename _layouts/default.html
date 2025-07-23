@@ -16,7 +16,19 @@
   {{ content }}
 
   <script>
-    performance.measure('contentTime', 'contentStart', 'contentEnd');
+    performance.measure('contentTime', {
+      start: 'contentStart',
+      end: 'contentEnd',
+      detail: {
+        devtools: {
+          dataType: 'track-entry',
+          trackGroup: 'csswizardry.com',
+          track: 'Technical Timings',
+          tooltipText: 'Main Content Parsed',
+          color: 'secondary-light'
+        }
+      }
+    });
   </script>
 
   <script>
