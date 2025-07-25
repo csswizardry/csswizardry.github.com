@@ -18,14 +18,20 @@ If you:
 
 * are interested in closely profiling specific, atomic parts of your
   application;
+  * you can intricately time bare-metal events.
 * work in an organisation where different teams contribute different code to the
   same front-end;
+  * you can create a custom section in DevTools for each team.
 * need to gather rich (meta)data about key parts of your runtime;
+  * you can capture arbitrary data as part of standard APIs.
 * provide or consume APIs;
-* maintain a third party package that could be traced, or;
+  * you could track their response times with ease and surface that information
+    to the front-end and DevTools.
+* maintain a third party package that could be traced;
+  * you can provide clear signposting for key events (e.g. hydration) to your
+    consumers, or;
 * are just interested in performance tooling…
-
-…then this article is for you.
+  * …this article is for you.
 
 ## Making Your Code a First Class Citizen
 
