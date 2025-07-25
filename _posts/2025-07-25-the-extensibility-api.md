@@ -198,6 +198,13 @@ However, there are two major downsides thus far:
    information. Neither hovering or clicking the marker give us the high
    resolution timing that we’d use a `.mark()` for in the first place:
 
+<ins date="2025-07-25">[Jack
+Franklin](https://bsky.app/profile/jackf.io/post/3lusgjh2ts22h), who works on
+the Performance panel, read this article and, within less than two hours, has [a
+change lined
+up](https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/6787872)
+to add timestamps to extended `perormance.mark()` in M140. Incredible.</ins>
+
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-05.png" alt="Chrome DevTools Summary pane missing timestamp details for a custom performance.mark() entry using the Extensibility API." width="1500" height="891" loading="lazy">
 <figcaption>The UI doesn’t surface any timestamp information anywhere. I find
