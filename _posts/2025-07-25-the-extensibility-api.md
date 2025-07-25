@@ -66,7 +66,7 @@ Note that `.mark()`’s useful property is `startTime` and `.measures()`’s is
 `duration`.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-01.png" alt"Chrome DevTools Console view filtered using source:console-api to isolate user-generated performance logs." width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-01.png" alt="Chrome DevTools Console view filtered using source:console-api to isolate user-generated performance logs." width="1500" height="891" loading="lazy">
 <figcaption>You can use <code>source:console-api</code> to scope your Console
 messages only to things logged to it. Much cleaner.</figcaption>
 </figure>
