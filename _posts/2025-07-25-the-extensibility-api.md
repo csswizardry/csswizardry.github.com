@@ -68,7 +68,7 @@ high-resolution timestamp, `cssEnd`, using `performance.mark()` once more.
 Lastly, we use `performance.measure()` to create a measure of the duration of
 the delta between `cssStart` and `cssEnd`.
 
-We could log any of the above `marks()` or `measures()` to the console. For
+We could log any of the above `.mark()`s or `.measure()`s to the console. For
 example, to get the start time of `cssStart`, we could do:
 
 ```js
