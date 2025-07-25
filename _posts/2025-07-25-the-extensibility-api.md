@@ -66,7 +66,7 @@ Note that `.mark()`’s useful property is `startTime` and `.measures()`’s is
 `duration`.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-01.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-01.png" alt"Chrome DevTools Console view filtered using source:console-api to isolate user-generated performance logs." width="1500" height="891" loading="lazy">
 <figcaption>You can use <code>source:console-api</code> to scope your Console
 messages only to things logged to it. Much cleaner.</figcaption>
 </figure>
@@ -94,7 +94,7 @@ DevTools will automatically pick up these marks and measures, and display them
 in the _Timings_ track of the Performance panel:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-02.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-02.png" alt="Chrome Performance panel showing User Timing entries cssTime, jsTime, and jsEnd added via performance.mark() and .measure()." width="1500" height="891" loading="lazy">
 <figcaption>Note that <code>cssTime</code> and <code>jsTime</code> take up
 a proportional amount of space to their duration, but <code>jsEnd</code>,
 a <code>.mark()</code>, takes up a thin sliver of the UI as it represents
@@ -134,7 +134,7 @@ Before we can do anything, in the Performance panel’s settings, we need to
 enable _Show custom tracks_:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-03.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-03.png" alt="Settings panel in Chrome DevTools with the ‘Show custom tracks’ option enabled for using the Performance Extensibility API." width="1500" height="891" loading="lazy">
 <figcaption>Look in the Performance panel’s settings, not DevTools’ overall
 settings.</figcaption>
 </figure>
@@ -161,7 +161,7 @@ the Extensibility API for `performance.mark()`:
 
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-04.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-04.png" alt="DevTools Performance panel showing a custom marker jsEnd added using the Extensibility API and styled with a custom colour." width="1500" height="891" loading="lazy">
 <figcaption>Look toward the top-right and note the light blue
 <code>jsEnd</code> marker. That’s the extended
 <code>performance.mark()</code> in action.</figcaption>
@@ -186,7 +186,7 @@ However, there are two major downsides thus far:
    resolution timing that we’d use a `.mark()` for in the first place:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-05.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-05.png" alt="Chrome DevTools Summary pane missing timestamp details for a custom performance.mark() entry using the Extensibility API." width="1500" height="891" loading="lazy">
 <figcaption>The UI doesn’t surface any timestamp information anywhere. I find
 this pretty bizarre.</figcaption>
 </figure>
@@ -223,7 +223,7 @@ what this looks like.
 Hey! That’s pretty neat!
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-06.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-06.png" alt="Custom track labelled ‘CSS’ in Chrome DevTools Performance panel created using performance.measure() and the Extensibility API." width="1500" height="891" loading="lazy">
 </figure>
 
 We now have our first custom track titled <q>CSS</q>, sourced from our `track:
@@ -260,7 +260,7 @@ performance.mark('jsEnd', {
 Notice that our `jsEnd` marker is now a dark pinky-purple:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-07.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-07.png" alt="Marker text in the Performance panel replaced with tooltipText using the Extensibility API—note the absence of an actual tooltip." width="1500" height="891" loading="lazy">
 <figcaption>The top-right marker is now dark pink, which I guess maps to <code>secondary-dark</code>.</figcaption>
 </figure>
 
@@ -286,7 +286,7 @@ The takeaway so far is that the Extensibility API is less useful for
 `performance.mark()`.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-08.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-08.png" alt="Chrome DevTools Summary pane displaying custom metadata properties attached via the Extensibility API’s properties array." width="1500" height="891" loading="lazy">
 <figcaption>The <code>tooltipText</code> simply replaces the marker’s text and
 doesn’t actually create a tooltip.</figcaption>
 </figure>
@@ -314,7 +314,7 @@ Above, I’ve passed in almost-pointless data to illustrate the point, but I’m
 sure you can think of your own useful use-cases.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-09.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-09.png" alt="Custom .measure() entry with tooltip, colour, and rich metadata shown in a dedicated CSS track using the Extensibility API." width="1500" height="891" loading="lazy">
 <figcaption>Note the custom data that now appears in the <i>Summary</i> pane.</figcaption>
 </figure>
 
@@ -348,7 +348,7 @@ I’ve added a `color`, a `tooltipText`, and some made up metadata in
 API to grab these numbers for real. That code is in [the appendix](#appendix).
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-10.png" alt width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-10.png" alt="Chrome Performance panel with grouped custom tracks for CSS and JS under ‘First Party’, showing cssTime and jsTime entries with full metadata." width="1500" height="891" loading="lazy">
 <figcaption>The <code>.measure()</code> actually gets a proper tooltip, and we
 have rich metadata in the <i>Summary</i> pane.</figcaption>
 </figure>
