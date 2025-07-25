@@ -14,6 +14,19 @@ documentation is somewhat dry and doesn’t really state the benefits or outcome
 very clearly, so I spent a couple of hours looking into it and here are the key
 takeaways.
 
+If you:
+
+* are interested in closely profiling specific, atomic parts of your
+  application;
+* work in an organisation where different teams contribute different code to the
+  same front-end;
+* need to gather rich (meta)data about key parts of your runtime;
+* provide or consume APIs;
+* maintain a third party package that could be traced, or;
+* are just interested in performance tooling…
+
+…then this article is for you.
+
 ## Making Your Code a First Class Citizen
 
 [Chrome’s DevTools](https://csswizardry.gumroad.com/l/perfect-devtools/) are
