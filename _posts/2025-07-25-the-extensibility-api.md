@@ -201,7 +201,7 @@ However, there are two major downsides thus far:
    but at first, it’s easy to mistake a `.mark()` for a `.meaasure()`.
 2. **There is absolutely no way of knowing at what time the `.mark()` was
    fired!** Even clicking the marker itself doesn’t show us any timestamp
-   information. Neither hovering or clicking the marker give us the high
+   information. Neither hovering or clicking the marker gives us the high
    resolution timing that we’d use a `.mark()` for in the first place:
 
 <ins date="2025-07-25">[Jack
