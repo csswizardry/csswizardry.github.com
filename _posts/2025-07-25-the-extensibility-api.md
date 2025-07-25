@@ -156,8 +156,8 @@ performance.mark('jsEnd', {
 });
 ```
 
-We’re forgoing anything else for now, but this is the first step into adopting
-the Extensibility API for `performance.mark()`:
+We’re forgoing anything else for now, but this is the first step to adopting the
+Extensibility API for `performance.mark()`:
 
 
 <figure>
@@ -278,7 +278,7 @@ performance.mark('jsEnd', {
 });
 ```
 
-To be honest, this is no better, and certainly no more convenient than just
+To be honest, this is no better, and certainly no more convenient, than just
 using a different string in place of `jsEnd`—this text hasn’t produced
 a tooltip, but rather just replaced the marker’s text.
 
@@ -318,7 +318,7 @@ sure you can think of your own useful use-cases.
 <figcaption>Note the custom data that now appears in the <i>Summary</i> pane.</figcaption>
 </figure>
 
-All of the features I just showed you, `color`, `tooltipText`, and `properties`
+All of the features I just showed you (`color`, `tooltipText`, and `properties`)
 apply equally to `performance.measure()`, so let’s leap ahead and bring our
 `performance.measure()` example up to date in one go:
 
@@ -429,7 +429,7 @@ Now we have a track _group_ called _First Party_ which contains both a _CSS_ and
 a _JS_ sub-track!
 
 I hope you can already begin to imagine and envision use-cases for tracks and
-track groups. If you’re using profiling and instrumenting your application with
+track groups. If you’re profiling and instrumenting your application with
 `performance.mark()` and `performance.measure()` already, the idea of getting it
 all organised surely excites you!
 
@@ -484,7 +484,8 @@ don’t worry about that until you’ve got the mechanism dialled in.
 
 If you work on a framework or a third party that instruments its own User
 Timings, please consider moving them into your own track group. It would be nice
-to see, for example, Next.js route-change or hydration timings in its own track.
+to see, for example, Next.js route-change or hydration timings in their own
+place.
 
 ## Appendix
 
