@@ -122,9 +122,11 @@ input you need at all? For you, we have the _Fix It Fast_ option: a quick-fire,
 tactical, and straight to the point screencast covering the most immediate
 problems you face.
 
-<figure>
-<img src="{{ site.cloudinary }}/img/content/teardown.jpg" alt="" loading="lazy" width="750" height="469" />
-<figcaption>Video is the ideal format for tactical problem solving.</figcaption>
+What does that look like? Here’s an audit I did for the [Yorkshire Air
+Ambulance](https://www.yorkshireairambulance.org.uk/) service in summer of 2025:
+
+<figure class="c-video" id="video">
+  <iframe class="c-video__media" src="https://www.youtube.com/embed/da7hmM4aYDg?si=R0ra0DunSlCfDNX7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </figure>
 
 You tell me the issue, I run some tests, and then record myself solving it. At
