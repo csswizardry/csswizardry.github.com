@@ -36,23 +36,31 @@
     const articleOlder = document.getElementById('articleOlder');
     const articleNewer = document.getElementById('articleNewer');
 
-    articleOlder.addEventListener('click', (event) => {
+    if(articleOlder) {
 
-      setTimeout(() => {
-        LUX.addData('articlePaginationUsed', true)
-        LUX.addData('articleOlderUsed', true)
+      articleOlder.addEventListener('click', (event) => {
+
+        setTimeout(() => {
+          LUX.addData('articlePaginationUsed', true)
+          LUX.addData('articleOlderUsed', true)
+        });
+
       });
 
-    });
+    }
 
-    articleNewer.addEventListener('click', (event) => {
+    if(articleNewer) {
 
-      setTimeout(() => {
-        LUX.addData('articlePaginationUsed', true)
-        LUX.addData('articleNewerUsed', true)
+      articleNewer.addEventListener('click', (event) => {
+
+        setTimeout(() => {
+          LUX.addData('articlePaginationUsed', true)
+          LUX.addData('articleNewerUsed', true)
+        });
+
       });
 
-    });
+    }
 
   })();
 </script>
