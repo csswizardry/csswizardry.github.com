@@ -121,7 +121,9 @@
         return;
       }
 
-      // Categorise and bucket high-cardinality metrics.
+      // Categorise and bucket high cardinality metrics.
+
+      // Convert battery to a number out of 100 and round up to the nearest 5%.
       function bucketBattery(level) {
         return level != null ? Math.min(100, Math.ceil(level * 100 / 5) * 5) : null;
       }
