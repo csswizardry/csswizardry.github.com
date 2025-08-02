@@ -80,8 +80,10 @@
 
   <script>
     (() => {
-      const rtt = navigator.connection.rtt;
-      LUX.addData('rtt', rtt);
+      if ('connection.rtt' in navigator) {
+        const rtt = navigator.connection.rtt;
+        LUX.addData('rtt', rtt);
+      }
     })();
   </script>
 
