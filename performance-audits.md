@@ -116,7 +116,7 @@ Once the audit is complete, you receive:
 
 ## Fix It Fast!
 
-Sometimes, a week-long audit is a little more than you need. Perhaps you only
+Sometimes, a weeks-long audit is a little more than you need. Perhaps you only
 have a very specific issue you’d like to tackle; maybe you’re not sure how much
 input you need at all? For you, we have the _Fix It Fast_ option: a quick-fire,
 tactical, and straight to the point screencast covering the most immediate
