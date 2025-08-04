@@ -204,6 +204,7 @@ However, there are two major downsides thus far:
    information. Neither hovering or clicking the marker gives us the high
    resolution timing that we’d use a `.mark()` for in the first place:
 
+<img src="/wp-content/uploads/2025/07/jack.png" alt width="260" height="94" style="float: left; margin-right: 24px;">
 <ins date="2025-07-25">[Jack
 Franklin](https://bsky.app/profile/jackf.io/post/3lusgjh2ts22h), who works on
 the Performance panel, read this article and, within less than two hours, has [a
