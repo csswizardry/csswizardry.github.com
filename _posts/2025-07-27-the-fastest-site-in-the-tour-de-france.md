@@ -1294,6 +1294,13 @@ Here we can see there is very little correlation.
 
 ## Appendix
 
+## Credits and Inspiration
+
+My good friend and peer [Jake Archibald](https://jakearchibald.com/) wrote
+a multi-part piece in 2021 asking [<cite>Who has the fastest F1 website in
+2021?</cite>](https://jakearchibald.com/2021/f1-perf-part-1/). That should
+definitely be seen as the genesis of this post.
+
 ### Methodology
 
 I took the most [up-to-date CrUX
