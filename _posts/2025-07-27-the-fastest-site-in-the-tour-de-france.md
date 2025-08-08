@@ -366,10 +366,10 @@ seems very healthy!
   <figcaption>A visual comparison using <a href="/2024/11/designing-and-evolving-a-new-performance-score/">CrRRUX</a> highlights interesting insights.</figcaption>
 </figure>
 
-A clear cliff appears between positions 11 (Lapierre) and 12 (Pinarello) when
-sites suddenly move from failing one or all of the Core Web Vitals to
-overwhelmingly passing all three. This is measured by the [_Ordinal_
-score—around which CrRRUX is heavily
+A clear cliff appears between rows 12 (Lapierre) and 13 (Pinarello) when sites
+suddenly move from failing one or all of the Core Web Vitals to overwhelmingly
+passing all three. This is measured by the [_Ordinal_ score—around which CrRRUX
+is heavily
 weighted](/2024/11/designing-and-evolving-a-new-performance-score/#naive-approach-1-ordinal-score)—and
 means any site that only passes, say, two Core Web Vitals cannot rank above any
 site that passes all three.
