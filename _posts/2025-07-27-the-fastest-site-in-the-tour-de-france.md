@@ -665,7 +665,7 @@ manufacturer.
 |    1,298 |      105 | 0.01 |
 
 Giant took third place on our podium. It looks as though they make use of
-Vue.js—or at least Vue Cart— but no obvious signs of a framework such as Nuxt.
+Vue.js—or at least Vue Cart—but no obvious signs of a framework such as Nuxt.
 
 * Giant is built as a _Multiple Page App_. Or as we used to call them,
   _websites_.
@@ -674,7 +674,7 @@ Vue.js—or at least Vue Cart— but no obvious signs of a framework such as Nux
   and one to `https://images2.giant-bicycles.com`.
   * The `static.` origins are on the critical path.
 * They make use of old school, JS-based lazy loading.
-* They use unquoted `attribute=value` pairs like I do—nice.
+* They use unquoted `attribute=value` pairs like I do—_nice_.
 * Great restraint shown here—only a small number of resources loaded from the
   `<head>`.
   * Non-critical CSS files are fetched asynchronously.
@@ -823,7 +823,8 @@ API calls.</figcaption>
     Both RUM and synthetic testing cannot detect `iframe`-originated LCP’s for
     privacy reasons, but CrUX, being part of Chrome, can. The upshot of this is
     that developers might wrongly assume that the site is much faster than it is
-    if they are relying on Lighthouse, DevTools, or WebPageTest.
+    if they are relying on Lighthouse, DevTools, WebPageTest, or anything other
+    than CrUX.
 * The rest of the PDP’s LCP story is a bit of a car crash. As content loads on
   the client, the LCP candidate keeps on changing (all while CLS scores keep on
   increasing). Once the browser does settle on its LCP candidate, Trek fade it
@@ -1048,16 +1049,16 @@ bad news.</figcaption>
   * 16MB of the 24MB transferred is image data.
 * The PDP’s HTML payload is gargantuan.
   * Almost 4MB decompressed—almost all of it is Nuxt state (`window.__NUXT__`).
-* We have an eyewatering 5MB of uncompressed JS.
+* We have an eyewatering 5MB of JS.
   * 12MB of the total 37MB uncompressed page bytes are JavaScript.
   * That’s not a typo.
 
 #### Takeaways
 
-Before we focus on the bad, Ridley’s new Noah 3.0 won its first ever race—at the
-Tour de France, no less. It also marked the first ever Tour stage win for Uno-X
-Mobility, the team that ride Ridley’s bikes. That’s more of a win than any Core
-Web Vitals—congratulations.
+Before we focus on the bad, Ridley’s new Noah 3.0 won its first ever race. And
+at the Tour de France, no less. It also marked the first ever Tour stage win for
+Uno-X Mobility, the team that ride Ridley’s bikes. That’s more of a win than any
+Core Web Vitals, so congratulations are in order. Let’s take a moment.
 
 But onto the job at hand. Ridley is struggling a lot with all three metrics. LCP
 is hampered by already-high first-byte times, leaving only a 500ms budget to get
@@ -1069,7 +1070,7 @@ down.
 On the subject of the main thread, the constantly-firing
 `requestAnimationFrame()` is dragging them into the very pits of INP—well over
 one second! This isn’t because the main thread is necessarily blocked—`rAF()` is
-relatively noninvasive and each one only lasts a small amount of time, but the
+relatively noninvasive and each one only lasts a small amount of time—but the
 main thread is just kept _so_ busy, it’s hard to sneak any user input in.
 
 <figure>
