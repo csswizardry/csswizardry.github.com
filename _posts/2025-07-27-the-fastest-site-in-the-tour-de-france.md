@@ -4,7 +4,7 @@ title: "The Fastest Site in the Tour de France"
 date: 2025-07-27 11:17:41
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2025/07/merida-pdp.jpg"
-meta: ""
+meta: "How fast are pro cycling teams’ and manufacturers’ websites? A CrRRUX-powered deep dive into bike brand performance, visibility, and missed opportunities."
 ---
 
 <style>
@@ -1097,6 +1097,34 @@ now</a> to see detailed analysis of Ridley’s website.
 
 
 ## Patterns and Insights
+
+As a cycling enthusiast, perhaps the most surprising insight for me was that
+most of the larger, wealthier, and most prestigious brands tend to appear in the
+slower half of the cohort. Is this complacency? An Apple-esque arrogance? Who
+knows.
+
+**Big brands aren’t always the best performers.**
+
+Several of the industry’s most recognisable names fall startlingly low on this
+list. Trek, Orbea, and Specialized—brands with global reach and
+significant marketing clout—rank 19th, 20th, and 13th respectively. Their
+reputations far outpace their web performance.
+
+**High-end doesn’t always mean high CrUX scores.**
+
+Colnago (17th), Wilier (18th), and Bianchi (15th) are all brands dripping with
+prestige and heritage (and the price tags to match), but in terms of web
+performance, they’re clustered towards the bottom of the group. This might
+suggest that legacy and luxury don’t always translate into digital excellence—or
+perhaps that their customer base tolerates slower experiences in exchange for
+reputation and perception.
+
+**The underdog story is online-first.**
+
+Merida and Factor might not be the first names fans think of when naming
+top-tier race bikes, but they do top this table with near-perfect CrRRUX scores.
+These brands show that operational excellence, modern manufacturing, and
+attention to digital experience can co-exist without the century-old heritage.
 
 
 
