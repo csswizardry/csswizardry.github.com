@@ -1294,10 +1294,24 @@ Here we can see there is very little correlation.
 
 ## Appendix
 
-### WebPageTest URLs and Scripts
+### Methodology
 
-I ran WebPageTests for the fastest and slowest three sites’ homepages. Below are
-the tests and the relevant scripts.
+I took the most [up-to-date CrUX
+data](https://developer.chrome.com/docs/crux/history-api) (blended mobile and
+desktop data) for the most recent time period available on the final stage of
+the Tour (27 July 2025). CrUX data is based on real users’ experiences.
+
+I pulled that data into Google Sheets where I ran it through my own [CrRRUX
+algorithm](/2024/11/designing-and-evolving-a-new-performance-score/)—a metric
+designed to objectively and fairly rank a cohort of origins’ Core Web Vitals
+data.
+
+For each of the fastest and slowest three sites, I took the homepage and the
+product details page for their flagship, high-end road race bike. I then ran
+a series of synthetic tests with [WebPageTest](https://www.webpagetest.org/).
+Below are the tests and the relevant scripts.
+
+### WebPageTest URLs and Scripts
 
 {% comment %}
 * [WebPageTest comparison](https://www.webpagetest.org/video/compare.php?tests=250727_ZiDc99_4G6,250727_ZiDcR0_4G7,250727_ZiDcFC_4G8,250727_ZiDcQQ_4G9,250727_ZiDc4Q_4GA,250727_ZiDc9W_4GB)
