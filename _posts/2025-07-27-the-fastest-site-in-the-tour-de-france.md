@@ -3,7 +3,7 @@ layout: post
 title: "The Fastest Site in the Tour de France"
 date: 2025-07-27 11:17:41
 categories: Web Development
-main: "https://csswizardry.com/wp-content/uploads/2025/07/merida-pdp.jpg"
+main: "https://csswizardry.com/wp-content/uploads/2025/07/factor-pdp.jpg"
 meta: "How fast are pro cycling teams’ and manufacturers’ websites? A CrRRUX-powered deep dive into bike brand performance, visibility, and missed opportunities."
 ---
 
