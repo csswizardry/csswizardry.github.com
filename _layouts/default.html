@@ -46,7 +46,6 @@
     });
 
     const navReady = performance.mark('navReady');
-    console.log('Nav ready at: ' + navReady.startTime + 'ms');
   </script>
 
   <noscript>
@@ -155,23 +154,18 @@
       if (netInfo) {
 
         window.LUX.addData('dataSaver', netInfo.saveData);
-        console.log('dataSaver:', netInfo.saveData);
 
         const rttBucket = bucketRTT(netInfo.rtt);
         window.LUX.addData('rttBucket', rttBucket);
-        console.log('rttBucket (ms):', rttBucket);
 
         const rttCategory = categoriseRTT(netInfo.rtt);
         window.LUX.addData('rttCategory', rttCategory);
-        console.log('rttCategory (Low/Medium/High):', rttCategory);
 
         const downlinkBucket = bucketDownlink(netInfo.downlink);
         window.LUX.addData('downlinkBucket', downlinkBucket);
-        console.log('downlinkBucket (Mbps):', downlinkBucket);
 
         if ('downlinkMax' in netInfo) {
           window.LUX.addData('downlinkMax', netInfo.downlinkMax);
-          console.log('downlinkMax (Mbps):', netInfo.downlinkMax);
         }
 
       }
@@ -182,14 +176,11 @@
         navigator.getBattery().then(function(batt) {
           const levelBucket = bucketBattery(batt.level);
           window.LUX.addData('batteryLevelBucket', levelBucket);
-          console.log('batteryLevelBucket (%):', levelBucket);
 
           window.LUX.addData('batteryCharging', batt.charging);
-          console.log('batteryCharging:', batt.charging);
 
           const lowFlag = isBatteryLow(batt.level);
           window.LUX.addData('batteryLow', lowFlag);
-          console.log('batteryLow (≤20%):', lowFlag);
         }).catch(function() {
           console.log('Battery API error or unsupported');
         });
