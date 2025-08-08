@@ -1294,7 +1294,7 @@ Here we can see there is very little correlation.
 
 ## Appendix
 
-## Credits and Inspiration
+### Credits and Inspiration
 
 My good friend and peer [Jake Archibald](https://jakearchibald.com/) wrote
 a multi-part piece in 2021 asking [<cite>Who has the fastest F1 website in
