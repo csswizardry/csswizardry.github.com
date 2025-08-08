@@ -914,7 +914,7 @@ than that, it’s quite difficult to see what stack they’re on.
 #### Orbea’s Product Details Page Insights
 
 * **URL:** [orbea.com/us-en/…/orca-aero-m10i-replica](https://www.orbea.com/us-en/bicycles/road/orca-aero/cat/orca-aero-m10i-replica)
-* **WebPageTest:** [webpagetest.org/result/250804_ZiDc96_AG2](https://www.webpagetest.org/result/250804_ZiDc96_AG2/)
+* **WebPageTest:** [webpagetest.org/…/250804_ZiDc96_AG2](https://www.webpagetest.org/result/250804_ZiDc96_AG2/)
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/wpt-orbea-pdp.png" alt="" width="1012" height="1094" loading="lazy">
@@ -1032,7 +1032,7 @@ bad news.</figcaption>
 #### Ridley’s Product Details Page Insights
 
 * **URL:** [ridley-bikes.com/en_US/bikes/SBINF3RID082](https://www.ridley-bikes.com/en_US/bikes/SBINF3RID082)
-* **WebPageTest:** [webpagetest.org/result/250804_ZiDcYD_AG4](https://www.webpagetest.org/result/250804_ZiDcYD_AG4/)
+* **WebPageTest:** [webpagetest.org/…/250804_ZiDcYD_AG4](https://www.webpagetest.org/result/250804_ZiDcYD_AG4/)
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/wpt-ridley-pdp.png" alt="" width="1012" height="771" loading="lazy">
