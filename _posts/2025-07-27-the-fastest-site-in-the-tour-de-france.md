@@ -691,7 +691,7 @@ Vue.js—or at least Vue Cart— but no obvious signs of a framework such as Nux
 </figure>
 
 * They’re lazily loading their homepage LCP!
-  * With JS, no less. Super slow. It’s the 84th request.
+  * With JS, no less. Super slow. It’s the 84<sup>th</sup> request.
   * It’s getting requested _after_ Facebook, Google Tag Manager, Google
     Analytics, and Klaviyo have been completely returned.
   * And they’re putting `fetchpriority=high` on there. Make your mind up!
@@ -709,7 +709,7 @@ long to paint it.</figcaption>
 
 * The LCP image is `preload`ed now, meaning the `images2.` connection is
   negotiated much earlier on PDPs.
-  * This is why it’s now the sixth request as opposed to the 84th.
+  * This is why it’s now the sixth request as opposed to the 84<sup>th</sup>.
   * The `preload` needs `fetchpriority=high`
   * The killer here is the fact that we don’t put the LCP on the glass for
     a very, very long time.
@@ -829,7 +829,8 @@ API calls.</figcaption>
   increasing). Once the browser does settle on its LCP candidate, Trek fade it
   in! Chrome takes the end of the animation as its LCP timestamp, further
   exacerbating the issue.
-  * The API response that contains the LCP content is the 148th request!
+  * The API response that contains the LCP content is the 148<sup>th</sup>
+    request!
 * Product pages are not sufficiently place-held to safeguard CLS scores: the
   main app shell is empty, and oncoming content is not place-held either.
 
@@ -1106,18 +1107,18 @@ knows.
 **Big brands aren’t always the best performers.**
 
 Several of the industry’s most recognisable names fall startlingly low on this
-list. Trek, Orbea, and Specialized—brands with global reach and
-significant marketing clout—rank 19th, 20th, and 13th respectively. Their
-reputations far outpace their web performance.
+list. Trek, Orbea, and Specialized—brands with global reach and significant
+marketing clout—rank 19<sup>th</sup>, 20<sup>th</sup>, and 13<sup>th</sup>
+respectively. Their reputations far outpace their web performance.
 
 **High-end doesn’t always mean high CrUX scores.**
 
-Colnago (17th), Wilier (18th), and Bianchi (15th) are all brands dripping with
-prestige and heritage (and the price tags to match), but in terms of web
-performance, they’re clustered towards the bottom of the group. This might
-suggest that legacy and luxury don’t always translate into digital excellence—or
-perhaps that their customer base tolerates slower experiences in exchange for
-reputation and perception.
+Colnago (17<sup>th</sup>), Wilier (18<sup>th</sup>), and Bianchi
+(15<sup>th</sup>) are all brands dripping with prestige and heritage (and the
+price tags to match), but in terms of web performance, they’re clustered towards
+the bottom of the group. This might suggest that legacy and luxury don’t always
+translate into digital excellence—or perhaps that their customer base tolerates
+slower experiences in exchange for reputation and perception.
 
 **The underdog story is online-first.**
 
@@ -1177,23 +1178,23 @@ _team_ site that raced the 2025 Tour de France:
 **The fastest bike brand also supports a mid-ranked team.**
 
 Merida tops the CrRRUX rankings for manufacturers (1.0000) but sponsors Bahrain
-Victorious—only 17th in the final Tour standings. The Bahrain Victorious team
-site, however, is the second-fastest overall. It’s a rare alignment: fast bike
-site, fast team site, middling result.
+Victorious—only 17<sup>th</sup> in the final Tour standings. The Bahrain
+Victorious team site, however, is the second-fastest overall. It’s a rare
+alignment: fast bike site, fast team site, middling result.
 
 **Factor and Israel–Premier Tech deliver on both fronts.**
 
 Factor comes second in the CrRRUX bike table (0.9986) and Israel–Premier Tech
 ranks third among team sites (0.9978). This is one of only two pairings where
 both bike and team site land in the top three for performance. Their Tour
-placement? 18th. Fast site, slow legs.
+placement? 18<sup>th</sup>. Fast site, slow legs.
 
 **Jayco–AlUla ride one of the fastest bike sites but have the slowest team site**
 
 Giant ranks third in the bike CrRRUX table (0.9985), but Jayco–AlUla come dead
-last for team website performance (0.5562). Their Tour finish—17th—sits toward
-the bottom. Perhaps the team should take some performance tips from Giant’s
-developers?
+last for team website performance (0.5562). Their Tour
+finish—17<sup>th</sup>—sits toward the bottom. Perhaps the team should take some
+performance tips from Giant’s developers?
 
 Could we conclude that Merida and Factor and Bahrain Victorious and
 Israel–Premier Tech care about performance in all aspects of their operations?
