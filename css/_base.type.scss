@@ -186,6 +186,16 @@ hr {
     border: none;
     border-bottom: 1px solid $color-gray-ui;
     margin-bottom: $spacing-unit - 1px;
+
+    .s-post & {
+
+      @media screen and (min-width: 1380px) {
+        margin-left: -128px;
+        margin-top:    3 * ($spacing-unit);
+        margin-bottom: 3 * ($spacing-unit) - 1px;
+      }
+
+    }
 }
 
 

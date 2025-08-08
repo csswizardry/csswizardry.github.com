@@ -3,12 +3,17 @@
 \*------------------------------------*/
 
 table {
-  width: 100%;
   @include font-size(12px);
   font-variant-numeric: tabular-nums;
+  width: calc(100% + #{$spacing-unit});
+  margin-right: -$spacing-unit--small;
+  margin-left:  -$spacing-unit--small;
 
   @include media-query(lap-and-up) {
     @include font-size(16px);
+    width: 100%;
+    margin-right: 0;
+    margin-left:  0;
   }
 
 }
