@@ -107,85 +107,29 @@
   </script>
 
   <script type=module>
-    ;(function(){
 
-      /**
-       * Send high-fidelity network and device information back to SpeedCurve. We
-       * can use this to better segment and bucket metrics-by-condition.
-       */
+    (() => {
+      // Bail out if SpeedCurve is not available.
+      if (!window.LUX || typeof window.LUX.addData !== 'function') return;
 
-      // Ensure SpeedCurve is up and running, otherwise, bail out.
-      if (!window.LUX || typeof window.LUX.addData !== 'function') {
-        console.warn('SpeedCurve not available: network detection aborted.');
-        return;
-      }
+      const obs = window.obs || Object.create(null);
 
-      // Categorise and bucket high cardinality metrics.
+      // Keys we intend to send. Keep in sync with obs.js
+      const keys = [
+        'dataSaver',
+        'rttBucket',
+        'rttCategory',
+        'downlinkBucket',
+        'downlinkMax',
+        'batteryLow',
+        'batteryCharging',
+      ];
 
-      // Convert battery to a number out of 100 and round up to the nearest 5%.
-      function bucketBattery(level) {
-        return level != null ? Math.min(100, Math.ceil(level * 100 / 5) * 5) : null;
-      }
-
-      // Bucket RTT into 25ms increments.
-      function bucketRTT(rtt) {
-        return rtt != null ? Math.ceil(rtt / 25) * 25 : null;
-      }
-
-      // Assign RTT its CrUX-defined category.
-      function categoriseRTT(rtt) {
-        if (rtt == null) return null;
-        return rtt < 75 ? 'Low' : rtt <= 275 ? 'Medium' : 'High';
-      }
-
-      // Bucket downlink into 5Mbps increments.
-      function bucketDownlink(downlink) {
-        return downlink != null ? Math.ceil(downlink / 5) * 5 : null;
-      }
-
-      // If the battery is currently less than 20%, assign ‘Low Battery’ status.
-      function isBatteryLow(level) {
-        return level != null ? level <= 0.2 : null;
-      }
-
-      // Grab data from the Network Information API.
-      const netInfo = navigator.connection;
-
-      if (netInfo) {
-
-        window.LUX.addData('dataSaver', netInfo.saveData);
-
-        const rttBucket = bucketRTT(netInfo.rtt);
-        window.LUX.addData('rttBucket', rttBucket);
-
-        const rttCategory = categoriseRTT(netInfo.rtt);
-        window.LUX.addData('rttCategory', rttCategory);
-
-        const downlinkBucket = bucketDownlink(netInfo.downlink);
-        window.LUX.addData('downlinkBucket', downlinkBucket);
-
-        if ('downlinkMax' in netInfo) {
-          window.LUX.addData('downlinkMax', netInfo.downlinkMax);
+      for (const key of keys) {
+        if (Object.prototype.hasOwnProperty.call(obs, key)) {
+          window.LUX.addData(key, obs[key]);
         }
-
       }
-
-      // Grab data from the Battery Status API.
-      if ('getBattery' in navigator) {
-
-        navigator.getBattery().then(function(batt) {
-          const levelBucket = bucketBattery(batt.level);
-          window.LUX.addData('batteryLevelBucket', levelBucket);
-
-          window.LUX.addData('batteryCharging', batt.charging);
-
-          const lowFlag = isBatteryLow(batt.level);
-          window.LUX.addData('batteryLow', lowFlag);
-        }).catch(function() {
-          console.log('Battery API error or unsupported');
-        });
-
-      }
-
     })();
+
   </script>
