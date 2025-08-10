@@ -138,6 +138,12 @@ $_logo-height:   64px;
     contain: layout;
     content-visibility: hidden;
 
+    .has-battery-low &,
+    .has-battery-critical & {
+      transition: none;
+      will-change: auto;
+    }
+
     @supports (backdrop-filter: blur(5px)) {
       background-color: rgba($color-gray, 0.8);
       backdrop-filter: blur(5px);
