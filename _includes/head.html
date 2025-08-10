@@ -35,7 +35,7 @@ window.obs = { config: { observeChanges: false } }
   {% if layout.lux %}
     LUX.label = '{{ layout.lux }}';
   {% endif %}
-  //# sourceURL=speedcurve.js
+  //# sourceURL=inline:speedcurve.js
 </script>
 
 <script>
@@ -43,12 +43,12 @@ window.obs = { config: { observeChanges: false } }
   RM.install({
     token: "j5ss3vj:q7xf9tv"
   });
-  //# sourceURL=request-metrics.js
+  //# sourceURL=inline:request-metrics.js
 </script>
 
 <script>
   (function(){var dbpr=100;if(Math.random()*100>100-dbpr){var d="dbbRum",w=window,o=document,a=addEventListener,scr=o.createElement("script");scr.async=!0;w[d]=w[d]||[];w[d].push(["presampling",dbpr]);["error","unhandledrejection"].forEach(function(t){a(t,function(e){w[d].push([t,e])});});scr.src="https://cdn.debugbear.com/vUKP1Yu0eg5g.js";o.head.appendChild(scr);}})()
-  //# sourceURL=debugbear.js
+  //# sourceURL=inline:debugbear.js
 </script>
 
 <script>performance.mark('cssStart');</script>
@@ -60,7 +60,7 @@ window.obs = { config: { observeChanges: false } }
     {% include css/components.syntax.css %}
   {% endif %}
 
-  /*# sourceURL=csswizardry.css */
+  /*# sourceURL=inline:csswizardry.css */
 
 </style>
 <script>
