@@ -20,6 +20,8 @@
     padding: 12px;
     border-radius: $base-round;
     border: 1px solid transparent;
+    will-change: transform;
+    transition: 0.3333s transform;
 
     &:hover {
       text-decoration: none;
@@ -45,14 +47,27 @@
       color: $color-gray;
     }
 
-    .c-pagination__prev::before {
-      content: "Previously: "
+    .c-pagination__prev {
+
+      &:hover {
+        transform: translateX(-$spacing-unit--small);
+      }
+
+      &::before {
+        content: "Previously: "
+      }
+
     }
 
   .c-pagination__next {
     text-align: right;
-  }
 
-    .c-pagination__next::before {
+    &:hover {
+      transform: translateX($spacing-unit--small);
+    }
+
+    &::before {
       content: "Up next: "
     }
+
+  }
