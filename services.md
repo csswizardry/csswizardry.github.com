@@ -49,7 +49,7 @@ of things.
   </li>
 
   <li class="feature-list__item">
-    <a href="/code-reviews/" class="feature-list__link">
+    <a href="/performance-audits/" class="feature-list__link">
       <h2 class="feature-list__title">
         Performance Audits
         <span class="feature-list__sub">Forensic site-speed examination</span>
