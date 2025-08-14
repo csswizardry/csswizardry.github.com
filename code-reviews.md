@@ -10,6 +10,8 @@ canonical: https://csswizardry.com/performance-audits/
 indexable: false
 ---
 
+<meta http-equiv="refresh" content="0;url=/performance-audits/" />
+
 <p><strong id="jsTagline"></strong></p>
 
 <script>
