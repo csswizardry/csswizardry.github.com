@@ -22,5 +22,24 @@
     "sizes": "144x144",
     "type": "image/png",
     "purpose": "maskable"
-  }]
+  }, {
+    "src": "/img/icons/144.png",
+    "sizes": "144x144",
+    "type": "image/png",
+    "purpose": "any"
+  }],
+  "screenshots": [
+    {
+      "src": "/img/pwa/screenshot-mobile.png",
+      "sizes": "1224x2010",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/img/pwa/screenshot-desktop.png",
+      "sizes": "3104x1844",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
 }
