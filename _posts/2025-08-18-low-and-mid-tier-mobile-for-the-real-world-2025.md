@@ -18,8 +18,8 @@ For the casual performance enthusiast, dedicated device testing is likely to be
 overkill. However, anyone [working full time on site-speed](/services/) will
 probably benefit from having at least one real device to hand.
 
-I’m working on a project at the moment where mobile INP is our key focus, and
-while [Chrome Desktop’s
+I’m working on [a project](/case-studies/) at the moment where mobile INP is our
+key focus, and while [Chrome Desktop’s
 DevTools](https://csswizardry.gumroad.com/l/perfect-devtools) has been a great
 starting point, replicating real-world mobile interactions and performance has
 been a consistent challenge.
