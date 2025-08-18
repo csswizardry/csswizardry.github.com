@@ -109,7 +109,7 @@ DevTools’ <em>Low-</em> and <em>Mid-tier</em> presets.</p>
 
 ### Why the Samsung Galaxy A15 and A54?
 
-* **Distribution market penetration:**
+* **Distribution and market penetration:**
   * Samsung leads global shipments and the _A_ series is the backbone of that
     share. These models are sold/carrier-ranged across Europe and North America,
     so you’re testing on what people actually use. [^1] [^2] [^3] [^4] [^5]
@@ -123,7 +123,7 @@ DevTools’ <em>Low-</em> and <em>Mid-tier</em> presets.</p>
   Typically $199 for the A15 5G, well under the A54’s original $450 RRP. [^13]
   [^7]
 
-Based on these factors along, many devices might make the grade, so let’s look
+Based on these factors alone, many devices might make the grade, so let’s look
 in a little more detail.
 
 ## Real Low-Tier Mobile for 2025: Samsung Galaxy A15 5G
