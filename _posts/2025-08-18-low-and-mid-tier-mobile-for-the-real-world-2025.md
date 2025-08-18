@@ -103,7 +103,7 @@ Galaxy A15 5G (SM-A156x)</strong></a> (low-tier) and a <a
 href="https://www.samsung.com/uk/smartphones/galaxy-a/galaxy-a54-5g-green-256gb-sm-a546blgdeub/"><strong>Samsung
 Galaxy A54 5G (SM-A546x)</strong></a> (mid-tier). Both are mass-market, widely
 ranged across regions, have multi-year software support, and map well to Chrome
-DevTools’ _Low-_ and _Mid-tier_ presets.</p>
+DevTools’ <em>Low-</em> and <em>Mid-tier</em> presets.</p>
 
 </div>
 
