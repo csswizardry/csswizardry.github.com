@@ -9,15 +9,18 @@ lux: "Contact"
 
 **Consultancy projects, speaking engagements, or just to say hi.**
 
-<p class="text-banner">
+<a href="mailto:csswizardry@gmail.com" class="btn  btn--full" id="section:details">harry@csswizardry.com</a>
 
-  <a href="mailto:csswizardry@gmail.com" class="btn  btn--secondary" id="section:details">Email Me</a>
+Or book a free call:
 
-  <i>or</i>
+<noscript><a href="https://calendly.com/csswizardry/30min" class="btn  btn--full">Book a Free Call</a></noscript>
 
-  <a href="https://calendly.com/csswizardry/30min" class="btn  btn--positive"><strong>Book a Call</strong></a>
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/csswizardry/30min?background_color=f9f9f9&text_color=333333&primary_color=f43059" style="min-width:320px;height:700px;margin-bottom:1.5rem;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" defer></script>
+<!-- Calendly inline widget end -->
 
-</p>
+- - -
 
 ## Frequently Asked Questions
 

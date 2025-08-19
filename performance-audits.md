@@ -137,4 +137,7 @@ _Fix It Fast_ is a very pragmatic response to the need for short, targeted
 advice that doesn’t require a full audit engagement. It can also be used to
 triage the extent of performance issues with your site.
 
-<a href="https://calendly.com/csswizardry/ten-minute-teardown" class="btn  btn--full">Fix It <b>Fast!</b></a>
+<noscript><a href="https://calendly.com/csswizardry/ten-minute-teardown" class="btn  btn--full">Book your <i>Fix It Fast!</i></a></noscript>
+
+<div class="calendly-inline-widget" data-url="https://calendly.com/csswizardry/fix-it-fast?background_color=f9f9f9&text_color=333333&primary_color=f43059" style="min-width:320px;height:700px;margin-bottom:1.5rem;"></div>
+<script src="https://assets.calendly.com/assets/external/widget.js" defer></script>
