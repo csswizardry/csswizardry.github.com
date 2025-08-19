@@ -17,6 +17,7 @@ Or book a free call:
 
 <div class="calendly-inline-widget" data-url="https://calendly.com/csswizardry/30min?background_color=f9f9f9&text_color=333333&primary_color=f43059" style="min-width:320px;height:700px;margin-bottom:1.5rem;"></div>
 <script src="https://assets.calendly.com/assets/external/widget.js" async fetchpriority=high></script>
+<link rel="preconnect" href="https://calendly.com">
 
 - - -
 
