@@ -9,26 +9,15 @@ lux: "Contact"
 
 **Consultancy projects, speaking engagements, or just to say hi.**
 
-<a href="mailto:csswizardry@gmail.com" class="btn  btn--full" id="section:details">harry@csswizardry.com</a>
+<p class="text-banner">
 
-* For **consulting engagements**, please [send me an
-  email](mailto:csswizardry@gmail.com).
-  * For **consultations**, [schedule an appointment](/consultancy/#consultations).
-* For **speaking engagements**, [see my speaking
-  page](/speaking/#section:request).
-* For **general questions** and advice, see [my AMA
-  repository](https://github.com/csswizardry/ama).
-* For **small questions**, or just to say hi, feel free to [fire me
-  a Tweet](https://twitter.com/csswizardry).
-* Interested in **software and tools**? See [my setup](/uses/).
-* To keep in **regular contact**, [join my newsletter](/newsletter/).
-* Still use **RSS**? [Subscribe](https://feeds.feedburner.com/csswizardry).
-* Am I **any good?** Read some [testimonials](/testimonials/).
-* Got **questions**? See [the FAQ](#frequently-asked-questions).
+  <a href="mailto:csswizardry@gmail.com" class="btn  btn--secondary" id="section:details">Email Me</a>
 
+  <i>or</i>
 
+  <a href="https://calendly.com/csswizardry/30min" class="btn  btn--positive"><strong>Book a Call</strong></a>
 
-
+</p>
 
 ## Frequently Asked Questions
 

@@ -11,6 +11,7 @@
     @include font-weight(bold);
     @include vendor(transition, 0.2s);
     position: relative;
+    @include font-weight(bold);
     will-change: transform; /* [1] */
     z-index: 1; /* [2] */
 
@@ -60,7 +61,6 @@
 }
 
 .btn--positive {
-    @include font-weight(regular);
 
     @include attention(self) {
         background-color: $color-positive;
@@ -70,7 +70,6 @@
 }
 
 .btn--negative {
-    @include font-weight(regular);
 
     @include attention(self) {
         background-color: $color-negative;

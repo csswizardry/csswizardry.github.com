@@ -1,7 +1,9 @@
 <hr class=hide-desk>
 
+{% if page.page-class != "page--contact" %}
+
 <p class=text-banner>
-  <a href=/contact/ class="btn  btn--full btn--positive" id=cta data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
+  <a href=https://calendly.com/csswizardry/30min class="btn  btn--full btn--positive" id=cta data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
 </p>
 
 <script>
@@ -23,6 +25,8 @@
 </script>
 
 <hr>
+
+{% endif %}
 
 {% if page.page-class != "page--home" and page.page-class != "page--about" %}
 <p>
