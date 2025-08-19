@@ -944,10 +944,10 @@ than that, it’s quite difficult to see what stack they’re on.
 
 It’s first byte times that are crippling Orbea. Setting even a modest `max-age`
 (and allowing Cloudflare to serve cached HTML responses) would take the edge
-off. Typekit and the way they’ve placed it cause them sever paint-timing issues.
-Blocking on top of blocking on top of blocking. The double-carousel issue on the
-PDP accounts almost exactly for their CLS scores. That would be a quick win for
-them.
+off. Typekit—and the way they’ve placed it—cause them severe paint-timing
+issues. Blocking on top of blocking on top of blocking. The double-carousel
+issue on the PDP accounts almost exactly for their CLS scores. That would be
+a quick win for them.
 
 <a href="https://csswizardry.gumroad.com/l/subscribe" class="btn">Subscribe
 now</a> to see detailed analysis of Orbea’s website.
