@@ -31,32 +31,24 @@
     });
   </script>
 
-  <script>
+  <style>
+
     /**
      * The site nav has been explicitly ‘turned off’ with `content-visibility:
      * hidden;` in its component (S)CSS file. This means we don’t need to bother
      * rendering it at all on the first pass: it’s off-screen anyway. Once we’re
-     * approaching `domInteractive` (that’s now), we turn it ‘back on’. It’s
-     * wrapped in a rAF to make it asynchronous, which is probably a bit of
-     * a micro-optimisation.
+     * approaching `domInteractive` (that’s now), we turn it ‘back on’. This
+     * prioritises the painting of on-screen or above-the-fold content ahead of
+     * an off-screen nav drawer.
      */
-    requestAnimationFrame(() => {
-      const siteNavList = document.getElementById('jsSiteNavList');
-      siteNavList.style.contentVisibility = 'visible';
-    });
 
-    const navReady = performance.mark('navReady');
+    .site-nav__list {
+      content-visibility: visible;
+    }
 
-    //# sourceURL=nav-visibility.inline.js
-  </script>
+    /*# sourceURL=nav-visibility.inline.css */
 
-  <noscript>
-    <!--
-      - In the highly unlikely event that someone has disabled JS, turn the nav
-      - ‘back on’ synchronously.
-      -->
-    <style> .site-nav__list { content-visibility: visible; } </style>
-  </noscript>
+  </style>
 
   <script type=speculationrules>
     {
