@@ -45,13 +45,27 @@
     border-bottom-width: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
 
+    .has-delivery-mode-lite & {
+      background-image: url(/img/css/masthead-small-lqip.jpg), var(--base64);
+    }
+
     @include media-query(lap-and-up) {
-        background-image: url(/img/css/masthead-medium.jpg), url(/img/css/masthead-medium-lqip.jpg), var(--base64);
+      background-image: url(/img/css/masthead-medium.jpg), url(/img/css/masthead-medium-lqip.jpg), var(--base64);
+
+      .has-delivery-mode-lite & {
+        background-image: url(/img/css/masthead-medium-lqip.jpg), var(--base64);
+      }
+
     }
 
     @include media-query(desk) {
-        background-image: url(/img/css/masthead-large.jpg), url(/img/css/masthead-large-lqip.jpg), var(--base64);
-        view-transition-name: masthead;
+       background-image: url(/img/css/masthead-large.jpg), url(/img/css/masthead-large-lqip.jpg), var(--base64);
+      view-transition-name: masthead;
+
+      .has-delivery-mode-lite & {
+        background-image: url(/img/css/masthead-large-lqip.jpg), var(--base64);
+      }
+
     }
 
     > .wrapper { /* [2] */
