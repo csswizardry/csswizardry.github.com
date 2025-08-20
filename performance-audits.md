@@ -141,4 +141,4 @@ triage the extent of performance issues with your site.
 
 <div class="calendly-inline-widget" data-url="https://calendly.com/csswizardry/fix-it-fast?background_color=f9f9f9&text_color=333333&primary_color=f43059" style="min-width:320px;height:700px;margin-bottom:1.5rem;"></div>
 <script src="https://assets.calendly.com/assets/external/widget.js" defer fetchpriority=high></script>
-<link rel="preconnect" href="https://calendly.com" crossorigin>
+<link rel="dns-prefetch" href="https://calendly.com">
