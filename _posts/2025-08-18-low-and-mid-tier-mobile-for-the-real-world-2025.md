@@ -2,6 +2,7 @@
 layout: post
 title: "Low- and Mid-Tier Mobile for the Real World (2025)"
 date: 2025-08-18 11:23:19
+last_modified_at: 2025-08-20
 categories: Web Development
 main: "/wp-content/uploads/2025/08/moto-g4.jpg"
 meta: "Discover the most representative low- and mid-tier mobile devices for web performance testing in 2025."
@@ -254,6 +255,27 @@ I actually went out and bought myself an A54 5G after conducting this research!
   * Europe-wide launch
   * Note 13 5G/Pro 5G are common mid-range alternatives to Samsung in Spain/CEE
   * Useful to cross-check different SoC/storage stacks [^17] [^18] [^19]
+
+## WebPageTest Equivalents
+
+If you’d like to replicate these devices in
+[WebPageTest](https://www.webpagetest.org/), you’ll need to pick from their
+(slightly dated) device emulation list. While there aren’t any one-to-one
+matches for current hardware, there are some pretty close proxies. I’d
+recommend:
+
+* **Galaxy A15 5G → Pixel 3A**
+  * Modest CPU, 4 GB RAM, mid-2019 mid-tier silicon.
+  * This is almost bang-on for what a budget A-series feels like today.
+
+* **Galaxy A54 5G → Pixel 5**
+  * Former ‘premium midrange’ Android.
+  * Slightly older, but architecturally very close to the Exynos 1380.
+  * Perfect stand-in for a global mid-tier.
+
+It’s worth stressing that these aren’t perfect matches (they never will be), but
+they’re close enough to give you realistic lab results when you can’t test
+directly on a physical device.
 
 {% comment %}
 ## Regional Variants
