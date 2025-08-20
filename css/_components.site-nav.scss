@@ -138,8 +138,17 @@ $_logo-height:   64px;
     contain: layout;
     content-visibility: hidden;
 
+    /**
+     * Disable transitions when the battery is low or critical, or if the user
+     * preferences reduced motion.
+     */
     .has-battery-low &,
     .has-battery-critical & {
+      transition: none;
+      will-change: auto;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
       transition: none;
       will-change: auto;
     }
