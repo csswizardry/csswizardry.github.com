@@ -16,7 +16,16 @@ Or book a free call:
 <noscript><a href="https://calendly.com/csswizardry/30min" class="btn  btn--full">Book a Free Call</a></noscript>
 
 <div class="calendly-inline-widget" data-url="https://calendly.com/csswizardry/30min?background_color=f9f9f9&text_color=333333&primary_color=f43059" style="min-width:320px;height:700px;margin-bottom:1.5rem;"></div>
-<script src="https://assets.calendly.com/assets/external/widget.js" async fetchpriority=high></script>
+<script src="https://assets.calendly.com/assets/external/widget.js" async fetchpriority="high"></script>
+
+<!--
+  - Warm up the DNS for the resulting Calendly embed.
+  -
+  - It looks like Chrome puts `navigate` requests into a different connection
+  - pool, meaning the TCP/TLS phase from a `preconnect` cannot be reused. This
+  - means that `dns-prefetch` is actually going to be overall faster than
+  - a wasteful `preconnect`.
+  -->
 <link rel="dns-prefetch" href="https://calendly.com">
 
 - - -
