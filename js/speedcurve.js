@@ -16,6 +16,7 @@
     'rttBucket',
     'rttCategory',
     'downlinkBucket',
+    'downlinkCategory',
     'downlinkMax',
     'batteryCritical',
     'batteryLow',
