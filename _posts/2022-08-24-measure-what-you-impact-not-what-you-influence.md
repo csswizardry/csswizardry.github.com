@@ -2,6 +2,7 @@
 layout: post
 title: "Measure What You Impact, Not What You Influence"
 date: 2022-08-24 12:41:16
+last_modified_at: 2025-08-22
 categories: Web Development
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/08/user-timing-chrome.png"
 meta: "When implementing performance fixes, it’s imperative that you measure the right thing—but what is ‘right’?"
@@ -12,6 +13,12 @@ changes to their sites and apps, but mistakes in how they measure them often
 lead to incorrect conclusions about the effectiveness of that work. This can go
 either way: under- or overestimating the efficacy of those changes. Naturally,
 neither is great.
+
+<p class="c-highlight">You can now make your measurements even more meaningful
+by using the <a href="/2025/07/the-extensibility-api/"><i>Performance
+Extensibility API</i></a>: add rich metadata to your <i>User Timing</i>
+<code>performance.mark()</code>s and <code>performance.measure()</code>s, and
+filter and group them in DevTools’ <i>Performance</i> panel.</p>
 
 ## Problems When Measuring Performance
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Making Sense of the Performance Extensibility API"
 date: 2025-07-25 15:15:11
+last_modified_at: 2025-08-22
 categories: Web Development
 main: "/wp-content/uploads/2025/07/extensibility-10.png"
 meta: "Making sense—and use!—of the new Performance Extensibility API in Chrome DevTools."
@@ -13,6 +14,12 @@ of putting your code front-and-centre in Chrome’s Performance panel. Their own
 documentation is somewhat dry and doesn’t really state the benefits or outcomes
 very clearly, so I spent a couple of hours looking into it and here are the key
 takeaways.
+
+<p class="c-highlight">Not sure how to use the Performance Extensibility API?
+Read up on the <a
+href="/2022/08/measure-what-you-impact-not-what-you-influence/"><i>User Timing
+API</i>’s <code>performance.mark()</code> and
+<code>performance.measure()</code></a> first.</p>
 
 If you:
 
