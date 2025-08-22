@@ -7,63 +7,13 @@
 {% if page.page-class != "page--contact" %}
 
 <style>
-  @media (pointer: fine) {
-
-    @keyframes wobble {
-
-      from {
-        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-      }
-
-      15% {
-        transform: translate3d(-6%, 0, 0) rotate3d(0, 0, 1, -2deg) scale3d(1.05, 1.05, 1);
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
-      }
-
-      30% {
-        transform: translate3d(5%, 0, 0) rotate3d(0, 0, 1, 1.5deg) scale3d(1.08, 1.08, 1);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
-      }
-
-      45% {
-        transform: translate3d(-4%, 0, 0) rotate3d(0, 0, 1, -1.5deg) scale3d(1.06, 1.06, 1);
-        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.32);
-      }
-
-      60% {
-        transform: translate3d(3%, 0, 0) rotate3d(0, 0, 1, 1deg) scale3d(1.04, 1.04, 1);
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.28);
-      }
-
-      75% {
-        transform: translate3d(-1.5%, 0, 0) rotate3d(0, 0, 1, -0.5deg) scale3d(1.02, 1.02, 1);
-        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.26);
-      }
-
-      to {
-        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-        box-shadow: none;
-      }
-
-    }
-
-    html:has(.u-wobble-trigger:hover) .u-wobble {
-      animation-name: wobble;
-      animation-duration: .75s;
-      animation-fill-mode: both;
-    }
-
-    .u-wobble {
-      will-change: transform;
-    }
-
-  }
+{% include css/components.happy-harry.css %}
+/*# sourceURL=happy-harry.inline.css */
 </style>
 
 <p class=text-banner>
   <a href=https://calendly.com/csswizardry/30min class="btn  btn--full
-    btn--positive  u-wobble-trigger" id=cta data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
+    btn--positive  c-happy-harry-trigger" id=cta data-sctrack=cta-sidebar elementtiming=cta-sidebar>{% include cta.md %}</a>
 </p>
 
 <script>
@@ -97,7 +47,7 @@
        style="background-image: url(/img/css/masthead-small-lqip.jpg), url({% include base64/masthead.jpg.html %}); view-transition-name: masthead;"
        elementtiming=sidebar-image
        decoding=sync
-       class=u-wobble>
+       class=c-happy-harry>
 </p>
 {% endif %}
 
