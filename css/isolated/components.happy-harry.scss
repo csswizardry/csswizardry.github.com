@@ -83,6 +83,7 @@
              .c-happy-harry-trigger:focus) & {
       animation: happy-harry .85s ease-in-out infinite;
     }
+
   }
 
 }
@@ -92,7 +93,7 @@
   html:has(.c-happy-harry-trigger:hover,
            .c-happy-harry-trigger:active,
            .c-happy-harry-trigger:focus) .c-happy-harry {
-    animation:none;
+    animation: none;
   }
 
 }
