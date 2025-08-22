@@ -1,0 +1,98 @@
+/* ==========================================================================
+   #HAPPY-HARRY
+   ========================================================================== */
+
+/**
+ * On devices that support it, make me do a happy dance when you hover the
+ * Call to Action link in the sidebar.
+ */
+
+@media (pointer: fine) {
+
+  @keyframes happy-harry {
+
+    0% {
+      transform: translateY(0) translateX(0) rotate(0deg) scale(1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      animation-timing-function: cubic-bezier(.36,0,.08,1);
+    }
+
+    /* Hop 1 */
+    12.5% {
+      transform: translateY(-6px) translateX(-2px) rotate(-3deg) scale(1.03);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18); /* lighter, further away */
+      animation-timing-function: cubic-bezier(.22,1,.36,1);
+    }
+    25% {
+      transform: translateY(0) translateX(0) rotate(0deg) scale(1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.28); /* fuller on landing */
+      animation-timing-function: cubic-bezier(.36,0,.08,1);
+    }
+
+    /* Hop 2 */
+    37.5% {
+      transform: translateY(-8px) translateX(2px) rotate(3deg) scale(1.04);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.16);
+      animation-timing-function: cubic-bezier(.22,1,.36,1);
+    }
+    50% {
+      transform: translateY(0) translateX(0) rotate(0deg) scale(1);
+      box-shadow: 0 5px 14px rgba(0,0,0,0.3);
+      animation-timing-function: cubic-bezier(.36,0,.08,1);
+    }
+
+    /* Hop 3 */
+    62.5% {
+      transform: translateY(-5px) translateX(-1px) rotate(-2deg) scale(1.02);
+      box-shadow: 0 7px 18px rgba(0,0,0,0.2);
+      animation-timing-function: cubic-bezier(.22,1,.36,1);
+    }
+    75% {
+      transform: translateY(0) translateX(0) rotate(0deg) scale(1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.28);
+      animation-timing-function: cubic-bezier(.36,0,.08,1);
+    }
+
+    /* A little skip */
+    87.5% {
+      transform: translateY(-3px) translateX(1px) rotate(1.5deg) scale(1.01);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.22);
+      animation-timing-function: cubic-bezier(.22,1,.36,1);
+    }
+
+    /* 🕺 */
+    100% {
+      transform: translateY(0) translateX(0) rotate(0deg) scale(1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+
+  }
+
+  /**
+   * The target image.
+   */
+  .c-happy-harry {
+    will-change: transform;
+
+    /**
+     * `:has()` is a super power! If the document has a `:hover`ed trigger,
+     * start animating the target image.
+     */
+    html:has(.c-happy-harry-trigger:hover,
+             .c-happy-harry-trigger:active,
+             .c-happy-harry-trigger:focus) & {
+      animation: happy-harry .85s ease-in-out infinite;
+    }
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce){
+
+  html:has(.c-happy-harry-trigger:hover,
+           .c-happy-harry-trigger:active,
+           .c-happy-harry-trigger:focus) .c-happy-harry {
+    animation:none;
+  }
+
+}
