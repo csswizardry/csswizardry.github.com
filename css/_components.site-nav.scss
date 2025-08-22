@@ -62,10 +62,10 @@ $_logo-height:   64px;
         transition: fill 0.2s;
 
         /**
-         * Make the logo light when it sits over the dark, open nav.
+         * Make the logo white when it sits over the dark, open nav.
          */
         .site-nav.is-open & {
-          fill: #f9f9f9;
+          fill: #fff;
         }
 
         .page-head--masthead & {
