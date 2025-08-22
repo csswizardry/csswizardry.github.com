@@ -12,15 +12,21 @@
 
   // Keys we intend to send. Keep in sync with obs.js
   const keys = [
+    'canShowRichMedia',
+    'connectionCapability',
+    'conservationPreference',
+    'cpuBucket',
+    'cpuCategory',
     'dataSaver',
-    'rttBucket',
-    'rttCategory',
+    'deliveryMode',
+    'deviceCapability',
     'downlinkBucket',
     'downlinkCategory',
-    'downlinkMax',
-    'batteryCritical',
-    'batteryLow',
-    'batteryCharging',
+    'ramBucket',
+    'ramCategory',
+    'rttBucket',
+    'rttCategory',
+    'shouldAvoidRichMedia'
   ];
 
   for (const key of keys) {
