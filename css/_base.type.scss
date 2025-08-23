@@ -97,7 +97,7 @@ p {
  */
 code, kbd, samp, output {
     color: $color-code;
-    font-family: "Operator Mono", Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    font-family: "Operator Mono", ui-monospace, monospace;
     font-style: normal;
     word-break: break-word;
 
