@@ -8,13 +8,6 @@ main: "/wp-content/uploads/2025/08/moto-g4.jpg"
 meta: "Discover the most representative low- and mid-tier mobile devices for web performance testing in 2025."
 ---
 
-<!--
-  - Mobile Safari keeps trying to turn handset names into addresses. Let’s stop
-    that happening for this page only:
- -->
-
-<meta name="format-detection" content="address=no">
-
 For the casual performance enthusiast, dedicated device testing is likely to be
 overkill. However, anyone [working full time on site-speed](/services/) will
 probably benefit from having at least one real device to hand.
