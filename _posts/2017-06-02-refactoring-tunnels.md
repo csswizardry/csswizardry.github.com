@@ -5,6 +5,7 @@ date: 2017-06-02 12:19:58
 categories: Web Development
 toc: false
 meta: "A metaphor for defining the scope of refactoring tasks"
+main: "/wp-content/uploads/2017/06/tunnel.jpg"
 ---
 
 In my work, I tend to get involved in a lot of refactoring projects. From
@@ -35,7 +36,7 @@ A concept I came up with to help my clients and their teams tackle these two
 problems was the idea of a _Refactoring Tunnel_.
 
 <figure>
-<img src="/wp-content/uploads/2017/06/tunnel.jpg" alt="" />
+<img src="{{ site.cloudinary }}/wp-content/uploads/2017/06/tunnel.jpg" alt width="750" height="499" loading="lazy">
 </figure>
 
 A Refactoring Tunnel is a metaphor in which the length or size of the
@@ -78,7 +79,9 @@ many days—or even weeks—away from us? We have no way of knowing. The uncerta
 is stressful; it is a gamble. We begin to wish we’d never started, and in total
 desperation, we do this:
 
-    $ git reset --hard origin/master
+```bash
+$ git reset --hard origin/master
+```
 
 We just throw everything away. We hard reset ourselves to a point in time we
 knew to be safe—and we do begin to feel safer again—but we have to face up to
