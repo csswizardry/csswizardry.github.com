@@ -204,16 +204,30 @@ hr {
 
 /**
  * Highlighted text.
+ *
+ * 1. Strip browser default `mark` styling.
+ * 2. We’re `color`-agnostic now.
+ * 3. Wavy underline derived from the font itself; color is hard-coded based on
+ *    the average colour of the emoji.
+ * 4. Show underline behind descenders—don’t interrupt.
+ * 5. Add pointing finger emoji before and after the marked text:
+ *    `\00a0` is a non-breaking space which prevents the emoji from becoming
+ *    a widow or orphan.
  */
-mark {
-  color: inherit;
-  background-color: $color-hilite;
 
-    pre & {
-        background: none;
-        border-bottom: 1px solid;
-        color: inherit;
-    }
+mark {
+  background-color: transparent; /* [1] */
+  color: inherit; /* [2] */
+  text-decoration: from-font #ffd048 wavy underline; /* [3] */
+  text-decoration-skip-ink: none; /* [4] */
+
+  &::before {
+    content: "👉\00a0"; /* [5] */
+  }
+
+  &::after {
+    content: "\00a0👈"; /* [5] */
+  }
 
 }
 
