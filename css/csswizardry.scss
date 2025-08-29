@@ -107,10 +107,10 @@
 /**
  * #GENERIC
  */
-@import "bower_components/inuit-normalize/generic.normalize";
-@import "bower_components/inuit-reset/generic.reset";
-@import "bower_components/inuit-box-sizing/generic.box-sizing";
-@import "bower_components/inuit-shared/generic.shared";
+@import "inuit-normalize/generic.normalize";
+@import "inuit-reset/generic.reset";
+@import "inuit-box-sizing/generic.box-sizing";
+@import "inuit-shared/generic.shared";
 
 
 
@@ -119,13 +119,13 @@
 /**
  * #BASE
  */
-@import "bower_components/inuit-page/base.page";
+@import "inuit-page/base.page";
 @import "base.page";
-@import "bower_components/inuit-headings/base.headings";
+@import "inuit-headings/base.headings";
 @import "base.type";
 @import "base.lists";
 @import "base.links";
-@import "bower_components/inuit-lists/base.lists";
+@import "inuit-lists/base.lists";
 @import "base.images";
 @import "base.quotes";
 @import "base.forms";
@@ -146,20 +146,20 @@ $inuit-btn-radius:          $base-round;
 $inuit-btn-border-width:    2px;
 $inuit-enable-btn--small:   true;
 $inuit-enable-btn--full:    true;
-@import "bower_components/inuit-buttons/objects.buttons";
+@import "inuit-buttons/objects.buttons";
 
 $inuit-enable-layout--middle:   true;
 $inuit-enable-layout--bottom:   true;
 $inuit-enable-layout--large:    true;
-@import "bower_components/inuit-layout/objects.layout";
+@import "inuit-layout/objects.layout";
 
-@import "bower_components/inuit-box/objects.box";
-@import "bower_components/inuit-media/objects.media";
+@import "inuit-box/objects.box";
+@import "inuit-media/objects.media";
 
 $inuit-enable-flag--rev:        true;
 $inuit-enable-flag--responsive: true;
 $inuit-flag-collapse-at:        479px !default;
-@import "bower_components/inuit-flag/objects.flag";
+@import "inuit-flag/objects.flag";
 
 /**
  * Kinda hacky for now, but needs more testing before rolling back into main
@@ -171,7 +171,7 @@ $inuit-flag-collapse-at:        479px !default;
 
 $inuit-list-ui-border-color:    $color-gray-ui;
 $inuit-enable-list-ui--small:   true;
-@import "bower_components/inuit-list-ui/objects.list-ui";
+@import "inuit-list-ui/objects.list-ui";
 
 /**
  * Quick, inline extension of the inuitcss list-ui object.
@@ -229,16 +229,16 @@ $inuit-enable-list-ui--small:   true;
 /**
  * #TRUMPS
  */
-@import "bower_components/inuit-clearfix/trumps.clearfix";
+@import "inuit-clearfix/trumps.clearfix";
 
 $inuit-use-fractions:   false;
-@import "bower_components/inuit-widths/trumps.widths";
+@import "inuit-widths/trumps.widths";
 @import "trumps.widths-responsive";
 
 $inuit-enable-margins:          true;
 $inuit-enable-margins--huge:    true;
 $inuit-enable-margins--none:    true;
-@import "bower_components/inuit-spacing/trumps.spacing";
+@import "inuit-spacing/trumps.spacing";
 @import "trumps.show-hide";
 @import "trumps.type";
 @import "trumps.colors";

@@ -1,5 +1,10 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-sass --watch csswizardry.scss:../_includes/css/csswizardry.min.css --style compressed --precision 9 --sourcemap=none
+sass --watch csswizardry.scss:../_includes/css/csswizardry.min.css \
+     --style=compressed \
+     --no-source-map \
+     --load-path bower_components \
+     --quiet-deps \
+     --silence-deprecation=import
 
 exit 0
