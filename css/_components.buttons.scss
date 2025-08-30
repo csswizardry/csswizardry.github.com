@@ -9,7 +9,7 @@
 
 .btn {
     @include font-weight(bold);
-    @include vendor(transition, 0.2s);
+    @include vendor(transition, transform 0.2s);
     position: relative;
     @include font-weight(bold);
     will-change: transform; /* [1] */
