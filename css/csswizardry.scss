@@ -22,7 +22,7 @@
  * defaults.css.........Taking my new little reset for a spin.
  * Shared...............Sensibly and tersely share global commonalities.
  *
- * BASE
+ * ELEMENTS
  * Page.................Page-level styles (HTML element).
  * Page.................Our extension of the inuitcss page module.
  * Headings.............Heading styles
@@ -69,7 +69,7 @@
  * SCOPES
  * Post.................Styles scoped specifically to blog post pages
  *
- * TRUMPS
+ * UTILITIES
  * Clearfix.............I can’t believe we still need this in 2014.
  * Widths...............Simple width helper classes.
  * Widths-responsive....Polyfill for responsive width classes.
@@ -116,16 +116,16 @@
  * #BASE
  */
 @import "inuit-page/base.page";
-@import "base.page";
+@import "elements.page";
 @import "inuit-headings/base.headings";
-@import "base.type";
-@import "base.lists";
-@import "base.links";
+@import "elements.type";
+@import "elements.lists";
+@import "elements.links";
 @import "inuit-lists/base.lists";
-@import "base.images";
-@import "base.quotes";
-@import "base.forms";
-@import "base.tables";
+@import "elements.images";
+@import "elements.quotes";
+@import "elements.forms";
+@import "elements.tables";
 @import "elements.details";
 
 
@@ -223,19 +223,19 @@ $inuit-enable-list-ui--small:   true;
 
 
 /**
- * #TRUMPS
+ * #UTILITIES
  */
 @import "inuit-clearfix/trumps.clearfix";
 
 $inuit-use-fractions:   false;
 @import "inuit-widths/trumps.widths";
-@import "trumps.widths-responsive";
+@import "utilities.widths-responsive";
 
 $inuit-enable-margins:          true;
 $inuit-enable-margins--huge:    true;
 $inuit-enable-margins--none:    true;
 @import "inuit-spacing/trumps.spacing";
-@import "trumps.show-hide";
-@import "trumps.type";
-@import "trumps.colors";
+@import "utilities.show-hide";
+@import "utilities.type";
+@import "utilities.colors";
 @import "utilities.images";
