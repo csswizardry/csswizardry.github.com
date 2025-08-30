@@ -15,13 +15,25 @@ Disallow: /20*
 User-agent: ClaudeBot
 Disallow: /20*
 
-User-agent: BardBot
-Disallow: /20*
-
-User-agent: J1Bot
-Disallow: /20*
-
 User-agent: CCBot
+Disallow: /20*
+
+User-agent: cohere-ai
+Disallow: /20*
+
+User-agent: AI2Bot
+Disallow: /20*
+
+User-agent: Diffbot
+Disallow: /20*
+
+User-agent: Bytespider
+Disallow: /20*
+
+User-agent: Google-Extended
+Disallow: /20*
+
+User-agent: Applebot-Extended
 Disallow: /20*
 
 Sitemap: https://csswizardry.com/sitemap.xml
