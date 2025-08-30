@@ -19,9 +19,7 @@
  * Aliases..............Aliases onto longer inuitcss variables and mixins.
  *
  * GENERIC
- * Normalize.css........A level playing field.
- * Reset................A pared back reset to remove margins.
- * Box-sizing...........Better default `box-sizing`.
+ * defaults.css.........Taking my new little reset for a spin.
  * Shared...............Sensibly and tersely share global commonalities.
  *
  * BASE
@@ -107,9 +105,7 @@
 /**
  * #GENERIC
  */
-@import "inuit-normalize/generic.normalize";
-@import "inuit-reset/generic.reset";
-@import "inuit-box-sizing/generic.box-sizing";
+@import "defaults.css/defaults";
 @import "inuit-shared/generic.shared";
 
 
