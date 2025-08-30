@@ -30,6 +30,7 @@
     "inuit-images": "~0.2.0",
     "inuit-lists": "~0.1.0",
     "inuit-flag": "~0.3.0",
-    "inuit-responsive-tools": "~0.1.0"
+    "inuit-responsive-tools": "~0.1.0",
+    "defaults.css": "csswizardry/defaults.css#^0.1.2"
   }
 }
