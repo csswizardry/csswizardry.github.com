@@ -49,6 +49,15 @@
 
 }
 
+/**
+ * I think inuitcss and ~something else~ have caused a weird regression that
+ * I’ve never seen before. I just want to get it fixed, so I’m hard-coding some
+ * padding values here for now.
+ */
+.btn--full {
+  padding: 10px 22px
+}
+
 .btn--secondary {
     background: none;
     color: $color-btn;
