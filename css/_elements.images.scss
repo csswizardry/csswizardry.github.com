@@ -3,25 +3,8 @@
    ========================================================================== */
 
 /**
- * 1. Fluid images for responsive purposes.
- * 2. Offset `alt` text from surrounding copy.
- * 3. Setting `vertical-align` removes the whitespace that appears under `img`
- *    elements when they are dropped into a page as-is. Safer alternative to
- *    using `display: block;`.
- * 4. Setup for Base64 LQIP backgrounds.
- * 5. Any instances of `shape-outside` will automatically pick up this margin.
- */
+ * All I need to do is configure the `shape-margin` for defaults.css. Nice!
+ **/
 img {
-  max-width: 100%; /* [1] */
-  font-style: italic; /* [2] */
-  vertical-align: middle; /* [3] */
-  height: auto;
-  background-repeat: no-repeat; /* [4] */
-  background-size: cover; /* [4] */
-  shape-margin: 0.75rem; /* [5] */
-}
-
-video {
-  max-width: 100%;
-  vertical-align: middle;
+  --defaults-shape-margin: 0.75rem;
 }
