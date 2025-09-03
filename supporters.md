@@ -74,7 +74,7 @@ These wonderful people support CSS Wizardry.
 
 <a href="https://csswizardry.gumroad.com/l/subscribe" class="btn  btn--positive"><b>Become a Supporter</b></a>
 or
-<button class="btn  btn--small" id="jsRandomiseSupporters">Randomise Supporters</button>
+<button class="btn  btn--small" id="jsRandomiseSupporters">Shuffle<span class="hide"> Supporters</span></button>
 
 - - -
 
