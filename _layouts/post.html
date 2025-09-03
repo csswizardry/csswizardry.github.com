@@ -34,8 +34,14 @@ lux: Post
 
           {% if page.toc != false %}
             <details class=c-toc>
+
               <summary>Table of Contents</summary>
-              {% include toc.html html=content ordered=true h_max=3 %}
+
+                <p>Independent writing is brought to you via my wonderful
+                  <a href="/supporters/">Supporters</a>.</p>
+
+                {% include toc.html html=content ordered=true h_max=3 %}
+
             </details>
           {% endif %}
 
