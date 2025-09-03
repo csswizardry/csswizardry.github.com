@@ -44,7 +44,7 @@ supporters:
           position: absolute;
           top:  0;
           left: 0;
-          transform: translate(-50%, -50%);
+          transform: translate(-25%, -25%);
           font-size: 1.5rem;
           line-height: 1;
           width: 1em;
@@ -63,8 +63,8 @@ supporters:
         .c-list-supporters__avatar {
           border-radius: 50%;
           flex-shrink: 0;
-          width:  3rem;
-          height: 3rem;
+          width:  4.5rem;
+          height: 4.5rem;
           object-fit: cover;
         }
 
