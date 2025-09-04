@@ -113,7 +113,7 @@ or
         {% else %}
       {% endcase %}
     ">
-      <a href="{{ person.url }}" class="c-list-supporters__link">
+      <a href="{{ person.url }}" class="c-list-supporters__link" rel="ugc">
         <img
           src="/img/content/supporters/{{ person.avatar }}"
           alt="{{ person.name }}’s avatar"
