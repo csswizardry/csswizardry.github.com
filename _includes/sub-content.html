@@ -40,6 +40,13 @@
 
 {% if page.page-class != "page--home" and page.page-class != "page--about" %}
 <p>
+
+  <link rel=preload
+        as=image
+        href=/img/css/masthead-small-lqip.jpg
+        fetchpriority=high
+        media="(min-width: 64em)">
+
   <img src=/img/css/masthead-small.jpg
        alt
        width=720
