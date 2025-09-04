@@ -47,6 +47,12 @@ supporters:
       position: relative;
     }
 
+    .c-list-supporters__item:target {
+      background-color: #ffc;
+      outline: 0.75rem solid #ffc;
+      scroll-margin-block-start: 1.5rem;
+    }
+
       .c-list-supporters__item::before {
           content: var(--tier);
           position: absolute;
@@ -90,7 +96,9 @@ or
 <ul id="jsSupportersList" class="c-list-supporters">
 
   {% for person in page.supporters %}
-    <li class="c-list-supporters__item" style="
+    {% assign slug = person.name | slugify: 'default' %}
+
+    <li id="supporter:{{ slug }}" class="c-list-supporters__item" style="
       {% case person.tier %}
         {% when 'supporter' %}
           --tier: '☕️';
@@ -107,7 +115,7 @@ or
     ">
       <a href="{{ person.url }}" class="c-list-supporters__link">
         <img
-          src="/img/content/subscribers/{{ person.avatar }}"
+          src="/img/content/supporters/{{ person.avatar }}"
           alt="{{ person.name }}’s avatar"
           width="48"
           height="48"
