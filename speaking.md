@@ -85,6 +85,16 @@ workshop](/workshops/). My workshops are renowned.
 
 </ol>
 
+### 2026
+
+<ol class="list-ui  mb">
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt width="16" height="11" loading="lazy" /> <a href="https://webdayout.com/">Web Day Out</a>: Brighton (England), March 2026
+  </li>
+
+</ol>
 
 
 
