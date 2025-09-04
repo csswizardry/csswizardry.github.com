@@ -27,6 +27,14 @@ supporters:
   url: https://hekla.dev
   avatar: hekla.png
   tier: ''
+- name: Robin Marx
+  url: https://www.linkedin.com/in/rmarx/
+  avatar: robin-marx.jpg
+  tier: insider
+- name: Andy Bell
+  url: https://bell.bz
+  avatar: andy-bell.jpg
+  tier: insider
 ---
 
 <style>
