@@ -15,10 +15,18 @@ supporters:
   url: https://github.com/alessioalex
   avatar: alessioalex.jpeg
   tier: subscriber
-- name: Dogwonder Ltd
+- name: Rich Holman
   url: https://richholman.com
-  avatar: dogwonder.png
+  avatar: rich-holman.png
   tier: supporter
+- name: Risko Ruus
+  url: https://www.linkedin.com/in/risko-ruus/
+  avatar: risko-ruus.jpeg
+  tier: seeker
+- name: Hekla
+  url: https://hekla.dev
+  avatar: hekla.png
+  tier: ''
 ---
 
 <style>
@@ -92,8 +100,9 @@ or
           --tier: '🗝️';
         {% when 'seeker' %}
           --tier: '🔮';
-        {% else %}
+        {% when 'partner' %}
           --tier: '🤝';
+        {% else %}
       {% endcase %}
     ">
       <a href="{{ person.url }}" class="c-list-supporters__link">
