@@ -35,6 +35,10 @@ supporters:
   url: https://bell.bz
   avatar: andy-bell.jpg
   tier: insider
+- name: Paul Calvano
+  url: https://paulcalvano.com/
+  avatar: paul-calvano.jpg
+  tier: insider
 ---
 
 <style>
