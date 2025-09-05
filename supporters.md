@@ -47,6 +47,10 @@ supporters:
   url: https://www.linkedin.com/in/sylvainlaneyrie/
   avatar: sylvain-laneyrie.webp
   tier: insider
+- name: Patrick Meenan
+  url: https://bsky.app/profile/patmeenan.com
+  avatar: patrick-meenan.jpg
+  tier: ''
 ---
 
 <style>
