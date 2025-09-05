@@ -26,7 +26,7 @@ supporters:
 - name: Hekla
   url: https://hekla.dev
   avatar: hekla.png
-  tier: ''
+  tier: insider
 - name: Robin Marx
   url: https://www.linkedin.com/in/rmarx/
   avatar: robin-marx.jpg
