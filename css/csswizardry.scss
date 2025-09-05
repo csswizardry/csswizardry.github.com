@@ -52,6 +52,7 @@
  * Promo................Lead promo blocks on the home page.
  * Site-nav.............Site’s main nav area.
  * Nav-secondary........Smaller, in-page nav.
+ * Sub-content..........Site’s sub-content/sidebar.
  * Buttons..............Extension of inuitcss’ buttons.
  * Boxes................Extension of inuitcss’ box object
  * Post.................Post-specific styles.
@@ -195,6 +196,7 @@ $inuit-enable-list-ui--small:   true;
 @import "components.promo";
 @import "components.site-nav";
 @import "components.nav-secondary";
+@import "components.sub-content";
 @import "components.buttons";
 @import "components.boxes";
 @import "components.post";

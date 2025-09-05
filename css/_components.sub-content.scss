@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #SUB-CONTENT
+   ========================================================================== */
+
+/**
+ * One small screens, there’s no point eagerly rendering all the sub-content
+ * area. Use `content-visibility` to defer rendering until the user approaches.
+ */
+
+.c-sub-content {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 1500px;
+
+  @include media-query(desk) {
+    content-visibility: visible;
+    contain-intrinsic-size: none none;
+  }
+
+}
