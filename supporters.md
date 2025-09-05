@@ -1,5 +1,5 @@
 ---
-layout: feature
+layout: page
 title: "Supporters"
 page-class: page--blog  page--supporters
 meta: ""
