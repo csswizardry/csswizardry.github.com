@@ -39,6 +39,14 @@ supporters:
   url: https://paulcalvano.com/
   avatar: paul-calvano.jpg
   tier: insider
+- name: Matt Zeunert
+  url: https://www.debugbear.com/
+  avatar: matt-zeunert.jpeg
+  tier: seeker
+- name: Sylvain Laneyrie
+  url: https://www.linkedin.com/in/sylvainlaneyrie/
+  avatar: sylvain-laneyrie.webp
+  tier: insider
 ---
 
 <style>
