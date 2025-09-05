@@ -2,6 +2,7 @@
 layout: post
 title: "The Ultimate Low-Quality Image Placeholder Technique"
 date: 2023-09-28 18:59:20
+last_modified_at: 2025-09-05
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/09/csswizardry.com-lcp.jpg"
 meta: "Can Low-Quality Image Placeholders and LCP play nicely together?"
@@ -551,6 +552,28 @@ In this particular instance, I bumped the quality up to 10, which came in at
 
 <figure>
 <img src="/wp-content/uploads/2023/09/just-right.jpg" width="760" height="577" alt="" loading="lazy">
+</figure>
+
+## <ins datetime="2025-09-05">Verifying It Works</ins>
+
+You can use the Element Timing API to verify that your LQIP image(s) are being
+loaded and rendered in the intended order:
+
+```js
+const observer = new PerformanceObserver((list) => {
+  list.getEntries().forEach((entry) => {
+    console.log(entry);
+  });
+});
+observer.observe({ type: "element", buffered: true });
+```
+
+This should show you <var>n</var> separate entries for your LQIPs and your full
+image:
+
+<figure>
+<img src="/wp-content/uploads/2023/09/lqip-verify.png" width="1500" height="964" alt="" loading="lazy">
+<figcaption>Three separate entries for my Base64 placeholder, my LQIP, and my final LCP image. <a href="/wp-content/uploads/2023/09/lqip-verify.png">View full size (89KB)</a></figcaption>
 </figure>
 
 ## Summary
