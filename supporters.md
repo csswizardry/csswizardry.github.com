@@ -51,6 +51,10 @@ supporters:
   url: https://bsky.app/profile/patmeenan.com
   avatar: patrick-meenan.jpg
   tier: ''
+- name: Speed Kit
+  url: https://www.speedkit.com/
+  avatar: fabian-krumbholz.jpg
+  tier: insider
 ---
 
 <style>
