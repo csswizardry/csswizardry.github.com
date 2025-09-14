@@ -11,13 +11,17 @@
   min-width: 25ch;
   outline: none;
   transition: border-color 0.2s;
-  padding: 11px 6px;
+  padding: 10px 6px;
   vertical-align: middle;
   border-radius: $base-round;
 
   &:active,
   &:focus {
     border-color: $color-brand;
+  }
+
+  &::placeholder {
+    color: $color-gray-light;
   }
 
 }
