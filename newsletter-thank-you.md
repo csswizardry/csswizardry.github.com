@@ -23,3 +23,6 @@ performance:
 <figure class="c-video">
   <iframe class="c-video__media" src="https://www.youtube.com/embed/2vFrZXWiwIc" frameborder="0" allowfullscreen></iframe>
 </figure>
+
+See you in there!  
+_<img src="{{ site.cloudinary }}/img/content/signature.png" alt="Harry" fetchpriority="low" width="123" height="72" />_
