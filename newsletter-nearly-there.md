@@ -16,4 +16,4 @@ There are also a couple of other things you might need to do:
    allowlisted.
 
 Speak soon!  
-_Harry_
+_<img src="{{ site.cloudinary }}/img/content/signature.png" alt="Harry" fetchpriority="low" width="123" height="72" />_
