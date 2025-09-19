@@ -40,11 +40,11 @@
 
   if (!navigation) return;
 
-  const { encodedBodySize } = navigation;
+  const { transferSize } = navigation;
 
-  if (encodedBodySize === 0) {
+  if (transferSize === 0) {
     LUX.addData('fromCache', true);
-  } else if (encodedBodySize > 0) {
+  } else if (transferSize > 0) {
     LUX.addData('fromCache', false);
   }
 
