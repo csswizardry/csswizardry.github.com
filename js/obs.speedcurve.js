@@ -34,4 +34,18 @@
       window.LUX.addData(key, obs[key]);
     }
   }
+
+  // Was the response from HTTP cache or the network?
+  const navigation = performance.getEntriesByType('navigation')[0];
+
+  if (!navigation) return;
+
+  const { encodedBodySize } = navigation;
+
+  if (encodedBodySize === 0) {
+    LUX.addData('fromCache', true);
+  } else if (encodedBodySize > 0) {
+    LUX.addData('fromCache', false);
+  }
+
 })();
