@@ -34,19 +34,4 @@
       window.LUX.addData(key, obs[key]);
     }
   }
-
-  // Send HTTP Protocol if available via Server-Timing header.
-  const navEntry = performance.getEntriesByType('navigation')[0];
-  if (!navEntry || !Array.isArray(navEntry.serverTiming)) {
-    return;
-  }
-
-  const protocol = navEntry.serverTiming.find(t => t.name === 'protocol');
-
-  if (!protocol || !protocol.description) {
-    return;
-  }
-
-  LUX.addData('Protocol', protocol.description);
-
 })();
