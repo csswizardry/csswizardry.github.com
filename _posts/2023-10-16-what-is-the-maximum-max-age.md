@@ -143,7 +143,7 @@ And why 2,147,483,648 seconds?
 In a 32-bit system, the largest possible integer that can be represented in
 binary form is `01111111111111111111111111111111`: a zero followed by 31 ones
 (the first zero is reserved for switching between positive and negative values,
-so `11111111111111111111111111111111` would be equal to -2,147,483,648).
+so `11111111111111111111111111111111` would be equal to −2,147,483,648).
 
 ## Does It Matter?
 
