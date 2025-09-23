@@ -103,7 +103,7 @@ Longer selectors have a higher specificity. Specificity is a nightmare and **you
 
 A selector like `.widget > h2 {}` has a higher specificity (as well as the other problems we discussed) than a selector like `.widget-title {}`.
 
-`.nav li a {}` has a higher specificity than `.nav a` (and is also less efficient). Reducing selector length reduces selector specificity and that is **very important**. High specificity leads to self-induced specificity battles that can only be won by making subsequent selectors _more_ specific (or using `!important`, shame on you). This is a terrible thing. The easiest way to reduce specificity (after _dropping IDs from your CSS **completely**_) is to keep your selectors short.
+`.nav li a {}` has a higher specificity than `.nav a` (and is also less efficient). Reducing selector length [reduces selector specificity](/2014/07/hacks-for-dealing-with-specificity/) and that is **very important**. High specificity leads to self-induced specificity battles that can only be won by making subsequent selectors _more_ specific (or using `!important`, shame on you). This is a terrible thing. The easiest way to reduce specificity (after _dropping IDs from your CSS **completely**_) is to keep your selectors short.
 
 ## Can Make Code More Forgiving
 

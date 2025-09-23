@@ -883,7 +883,9 @@ than that, it’s quite difficult to see what stack they’re on.
     must-revalidate` policy.
   * This means every page view is a back end-heavy trip to origin:
     `cf-cache-status DYNAMIC`.
-* They link to a lot of render-blocking resources, including third-party ones.
+* They link to a lot of
+  [render-blocking](/2024/08/blocking-render-why-whould-you-do-that/) resources,
+  including third-party ones.
 * They use Typekit which [contains an
   `@import`](/2018/11/css-and-network-performance/#avoid-import-in-css-files)—a
   real killer.

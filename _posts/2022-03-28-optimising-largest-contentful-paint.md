@@ -348,8 +348,9 @@ waterfall almost exactly mimics the fastest `<img />` option:
 </figure>
 
 We could also `preload` this image, rather than using an `<img />` element, but
-I generally feel that `preload` is a bit of a code smell and should be avoided
-if possible.
+I generally feel that `preload` is a bit of a [code
+smell](/2017/02/code-smells-in-css-revisited/) and should be avoided if
+possible.
 
 ### Summary
 

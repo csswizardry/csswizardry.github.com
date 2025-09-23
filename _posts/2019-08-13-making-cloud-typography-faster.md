@@ -244,11 +244,12 @@ The response I got shed some light on a few things. To summarise:
 * the client was implementing everything correctly;
 * the redirect doesn’t ‘release’ the fonts for usage, but actually gathers some
   information about your browser and OS and forwards the request to the correct
-  one of many CSS files that Cloud.typography provide you to self host;
+one of many CSS files that Cloud.typography provide you to [self
+host](/2019/05/self-host-your-static-assets/);
   * The `Location` of the redirect depends heavily on the User Agent making the
     request, so you can’t circumvent the trip to Cloud.typography.
-  * (Author’s note: But make no mistake, the redirect exists primarily for
-    usage tracking, otherwise they’d cache it.)
+  * (Author’s note: But make no mistake, the redirect exists primarily for usage
+    tracking, otherwise they’d cache it.)
 * the cloud service is aimed at developers and agencies who might need access to
   a larger library to fulfil many different projects;
 * the self-hosted option is aimed at companies who have a limited and
