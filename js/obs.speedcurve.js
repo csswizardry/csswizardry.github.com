@@ -48,4 +48,13 @@
     LUX.addData('fromCache', false);
   }
 
+  // Was the response from the back–forward cache?
+  window.addEventListener('pageshow', (event) => {
+    if (event.persisted) {
+      LUX.addData('frombfCache', true);
+    } else {
+      LUX.addData('frombfCache', false);
+    }
+  });
+
 })();
