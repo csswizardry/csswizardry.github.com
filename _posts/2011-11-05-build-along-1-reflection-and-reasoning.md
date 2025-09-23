@@ -87,7 +87,7 @@ Here’s a challenge, next time your designer sends you a PSD designed on, say, 
 
 ## Be resourceful
 
-During this build I copied and pasted _loads_ of code. I used [my vanilla boilerplate](https://github.com/csswizardry/vanilla), I copied and pasted [the media object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/), [the nav abstraction](csswizardry.com/2011/09/the-nav-abstraction/), [the carousel](csswizardry.com/2011/10/fully-fluid-responsive-css-carousel/). If it already exists somewhere then reuse it! There are no prizes for writing more lines of code; be resourceful.
+During this build I copied and pasted _loads_ of code. I used [my vanilla boilerplate](https://github.com/csswizardry/vanilla), I copied and pasted [the media object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/), [the nav abstraction](/2011/09/the-nav-abstraction/), [the carousel](/2011/10/fully-fluid-responsive-css-carousel/). If it already exists somewhere then reuse it! There are no prizes for writing more lines of code; be resourceful.
 
 ## Take away?
 

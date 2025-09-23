@@ -35,7 +35,7 @@ I’ll touch on each of these in a little more detail.
 
 Basic really; this site uses loads of gradients, round corners, shadows, all that stuff. None of it works in IE_x_ but that’s cool. Sites don’t have to look the same in every browser (and we took that to a bit of an extreme where media queries are concerned).
 
-It uses my [fluid carousel](csswizardry.com/2011/10/fully-fluid-responsive-css-carousel/) which doesn’t even behave like a carousel in IE, it acts as more of a promo. This is fine, though, as we were careful to only put non-essential content in here. Got a good browser? You get a pure CSS carousel. Got an older one? You get what looks like a nice, fluid promo panel.
+It uses my [fluid carousel](/2011/10/fully-fluid-responsive-css-carousel/) which doesn’t even behave like a carousel in IE, it acts as more of a promo. This is fine, though, as we were careful to only put non-essential content in here. Got a good browser? You get a pure CSS carousel. Got an older one? You get what looks like a nice, fluid promo panel.
 
 ## Content-out
 
