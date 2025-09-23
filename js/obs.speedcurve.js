@@ -57,4 +57,11 @@
     }
   });
 
+  if (document.prerendering) {
+  } else if (performance.getEntriesByType("navigation")[0]?.activationStart > 0) {
+    LUX.addData('fromPrerender', true);
+  } else {
+    LUX.addData('fromPrerender', false);
+  }
+
 })();
