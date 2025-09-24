@@ -1,1 +1,45 @@
-<a href="/masterclasses/" class="c-highlight  c-highlight--small  c-highlight--ribbon">Arrange a Masterclass</a>
+<a href="/masterclasses/" class="c-highlight  c-highlight--small c-highlight--ribbon" id=jsRibbon>Arrange a Masterclass</a>
+
+<script>
+(() => {
+
+  const ribbonVariants = [
+    { href: '/masterclasses/',                  text: 'Arrange a Masterclass' },
+    { href: '/sentinel/',                       text: 'Sentinel: Your Web-Performance Watchman' },
+    { href: '/performance-audits/#fix-it-fast', text: 'Suffering? Fix it Fast!' },
+  ];
+
+  const getVariantIndex = () => {
+    const stored = localStorage.getItem('ribbonVariant');
+    const len = ribbonVariants.length;
+
+    if (stored !== null) {
+      const n = Number(stored);
+      if (Number.isInteger(n) && n >= 0 && n < len) {
+        return n;
+      }
+    }
+
+    const i = Math.floor(Math.random() * len);
+    localStorage.setItem('ribbonVariant', i);
+    return i;
+  };
+
+  const i = getVariantIndex();
+  const { href, text } = ribbonVariants[i];
+  const ribbon = document.querySelector('#jsRibbon');
+
+  if (!ribbon) return;
+
+  ribbon.href = href;
+  ribbon.textContent = text;
+
+  // Send the variant and any clicks to SpeedCurve.
+  window.LUX?.addData?.('ribbonVariant', String(i + 1));
+  ribbon.addEventListener('click', () => {
+    window.LUX?.addData?.('ribbonClicked', true);
+  });
+
+
+})();
+</script>
