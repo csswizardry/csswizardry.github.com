@@ -3,14 +3,20 @@
 <script>
 (() => {
 
+  const VARIANT_VERSION = 2;
+  const STORAGE_KEY = `ribbonVariant_v${VARIANT_VERSION}`;
+
+
   const ribbonVariants = [
     { href: '/masterclasses/',                  text: 'Arrange a Masterclass' },
     { href: '/sentinel/',                       text: 'Sentinel: Your Web-Performance Watchman' },
     { href: '/performance-audits/#fix-it-fast', text: 'Suffering? Fix it Fast!' },
+    { href: '/newsletter/',                     text: 'Join the Newsletter' },
+    { href: '/supporters/',                     text: 'Become a Supporter' }
   ];
 
   const getVariantIndex = () => {
-    const stored = localStorage.getItem('ribbonVariant');
+    const stored = localStorage.getItem(STORAGE_KEY);
     const len = ribbonVariants.length;
 
     if (stored !== null) {
@@ -21,7 +27,7 @@
     }
 
     const i = Math.floor(Math.random() * len);
-    localStorage.setItem('ribbonVariant', i);
+    localStorage.setItem(STORAGE_KEY, i);
     return i;
   };
 
