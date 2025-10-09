@@ -64,4 +64,13 @@
     LUX.addData('fromPrerender', false);
   }
 
+  // Time to Last Byte (TTLB)
+  if (navigation.responseEnd && navigation.startTime >= 0) {
+    const ttlb = Math.round(navigation.responseEnd - navigation.startTime);
+    if (Number.isFinite(ttlb) && ttlb >= 0) {
+      LUX.addData('TTLB', ttlb);
+    }
+  }
+
+
 })();
