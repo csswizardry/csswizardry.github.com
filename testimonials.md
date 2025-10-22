@@ -48,7 +48,7 @@ If you want to join them, [get in touch](/contact/).
   <blockquote class="pull-quote">
     <p>Harry was excellent from start to finish, fitting us in at short notice and finding a solution that worked to our budget and timeline.</p>
     <p>The one-day audit was surprisingly in-depth, flagging up numerous areas we could improve on with clear next steps and a great Trello board in which to manage them. It was exactly what we needed to take our website from excellent to incredible, with confidence.</p>
-    <p>Performance optimisation can be difficult, like pulling levers in the dark and hoping they give the desired changes. Harry broke down exactly what each lever does, why they’re sometimes doing something counter-intuitive, and which ones we need to focus our time and energy on. It was well worth the investment</p>
+    <p>Performance optimisation can be difficult, like pulling levers in the dark and hoping they give the desired changes. Harry broke down exactly what each lever does, why they’re sometimes doing something counter-intuitive, and which ones we need to focus our time and energy on. It was well worth the investment.</p>
   </blockquote>
   <p>— <a href="https://uk.linkedin.com/in/jamiewarb">Jamie Warburton</a>, Head of Engineering, Hex</p>
 </article>
