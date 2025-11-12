@@ -1,4 +1,4 @@
-<script>performance.mark('headStart');</script>
+<script>performance.mark('HEAD_Start');</script>
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width, minimum-scale=1.0">
 
@@ -50,7 +50,7 @@
   //# sourceURL=debugbear.inline.js
 </script>
 
-<script>performance.mark('cssStart');</script>
+<script>performance.mark('CSS_Start');</script>
 <style>
 
   {% include css/csswizardry.min.css %}
@@ -63,11 +63,11 @@
 
 </style>
 <script>
-  performance.mark('cssEnd');
+  performance.mark('CSS_End');
 
-  performance.measure('cssTime', {
-    start: 'cssStart',
-    end: 'cssEnd',
+  performance.measure('CSS_Time', {
+    start: 'CSS_Start',
+    end: 'CSS_End',
     detail: {
       devtools: {
         dataType: 'track-entry',
@@ -163,11 +163,11 @@
 {% endif %}
 
 <script>
-  performance.mark('headEnd');
+  performance.mark('HEAD_End');
 
-  performance.measure('headTime', {
-    start: 'headStart',
-    end: 'headEnd',
+  performance.measure('HEAD_Time', {
+    start: 'HEAD_Start',
+    end: 'HEAD_End',
     detail: {
       devtools: {
         dataType: 'track-entry',

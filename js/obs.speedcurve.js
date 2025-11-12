@@ -72,5 +72,15 @@
     }
   }
 
+  /**
+   * Compute new ‘First Potential Paint’ (FPP) metric. This is the time,
+   * relative to navigation start, at which the browser finished parsing the
+   * `<head>` and could potentially start rendering the `<body>`.
+   */
+  const navEntry = performance.getEntriesByType('navigation')[0];
+  const headEndMark = performance.getEntriesByName('HEAD_End')[0];
+  const fpp = headEndMark.startTime - navEntry.startTime;
+  // Assign FPP to a new `measure`.
+  performance.measure('fpp', { start: navEntry.startTime, end: headEndMark.startTime });
 
 })();
