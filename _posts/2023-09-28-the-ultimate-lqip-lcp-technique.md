@@ -556,16 +556,24 @@ In this particular instance, I bumped the quality up to 10, which came in at
 
 ## <ins datetime="2025-09-05">Verifying It Works</ins>
 
-You can use the Element Timing API to verify that your LQIP image(s) are being
-loaded and rendered in the intended order:
+You can use the [Element Timing
+API](/2022/08/measure-what-you-impact-not-what-you-influence/) to verify that
+your LQIP image(s) are being loaded and rendered in the intended order:
 
-```js
-const observer = new PerformanceObserver((list) => {
-  list.getEntries().forEach((entry) => {
-    console.log(entry);
+```html
+
+<header elementtiming=masthead>
+  […]
+</header>
+
+<script>
+  const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+      console.log(entry);
+    });
   });
-});
-observer.observe({ type: "element", buffered: true });
+  observer.observe({ type: "element", buffered: true });
+</script>
 ```
 
 This should show you <var>n</var> separate entries for your LQIPs and your full
