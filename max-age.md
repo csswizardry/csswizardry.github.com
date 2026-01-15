@@ -183,6 +183,15 @@ can paste an existing `max-age` value and get its human-friendly equivalent.
     return parts.length > 0 ? parts.join(' and ') : '0 seconds';
   }
 
+  // Allow folk to hot-link a specific value
+  const urlParams = new URLSearchParams(window.location.search);
+  const valueParam = urlParams.get('value');
+  if (valueParam && !isNaN(valueParam) && Number(valueParam) > 0) {
+    const input = document.getElementById('jsInput');
+    input.value = valueParam;
+    calculateMaxAge();
+  }
+
   // Attach the input event listener with debounce
   document.getElementById('jsInput').addEventListener('input', debounce(calculateMaxAge, 300));
 </script>
