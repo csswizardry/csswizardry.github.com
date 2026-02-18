@@ -67,22 +67,11 @@ workshop](/workshops/). My workshops are renowned.
 
 ## Upcoming Events
 
-### 2025
-
-<ol class="list-ui  mb">
-
-  {% include speaking.html %}
-
-</ol>
-
 ### 2026
 
 <ol class="list-ui  mb">
 
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/en.png" alt width="16" height="11" loading="lazy" /> <a href="https://webdayout.com/">Web Day Out</a>: Brighton (England), March 2026
-  </li>
+  {% include speaking.html %}
 
 </ol>
 
@@ -158,7 +147,12 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 <ol class="list-ui  mb" reversed>
 
   <li>
-    <h4 class="list-ui__title">Talk &amp; Workshop</h4>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/nl.png" alt width="16" height="11" loading="lazy" /> <a href="https://perfnow.nl/">performance.now()</a>: Amsterdam (Netherlands), October 2025
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/ca.png" alt width="16" height="11" loading="lazy" /> <a href="https://fitc.ca/event/webu25/">Web Unleashed</a>: Toronto (Canada), October 2025
   </li>
 
