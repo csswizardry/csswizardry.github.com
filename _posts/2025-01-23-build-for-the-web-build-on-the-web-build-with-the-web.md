@@ -7,6 +7,12 @@ meta: "What is the real, long-term cost of adopting a JavaScript framework?"
 toc: false
 ---
 
+<p class="c-highlight"><strong>March 2026:</strong> After even more
+encouragement, I delivered this blog post as a talk at Jeremy’s <a
+href="https://webdayout.com/">Web Day Out</a> in Brighton on 12 March, 2026. You
+can <a href="https://speakerdeck.com/csswizardry/build-for-the-web-build-on-the-web-build-with-the-web">view
+the slides on Speaker Deck</a>.</p>
+
 <p class="c-highlight">This article started life as <a
 href="https://www.linkedin.com/feed/update/urn:li:activity:7287827600968699904/">a
 post on LinkedIn</a>, but after some gentle nudging from friend, web custodian,
