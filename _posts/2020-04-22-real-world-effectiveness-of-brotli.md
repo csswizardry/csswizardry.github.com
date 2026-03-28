@@ -91,7 +91,7 @@ the speed at which those admittedly fewer chunks of data arrive will not change.
 ### TCP, Packets, and Round Trips
 
 Taking a very reductive and simplistic view of how files are transmitted from
-server to client, we need to look at TCP. When we receive a file from a sever,
+server to client, we need to look at TCP. When we receive a file from a server,
 we don’t get the whole file in one go. TCP, upon which HTTP sits, breaks the
 file up into segments, or _packets_. Those packets are sent, in batches, in
 order, to the client. They are each acknowledged before the next series of
