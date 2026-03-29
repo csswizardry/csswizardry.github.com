@@ -354,8 +354,8 @@ scopes a layout event to the whole document, touching 4,371 nodes and applying
 new layout to just 41 of them—fewer than 10%:
 
 <figure>
-<img src="/wp-content/uploads/2026/04/opentable-before.png" alt="Chrome DevTools performance profile showing OpenTable’s mobile drawer before containment. Opening the language switcher triggers a layout rooted at the whole document, touching 4,371 nodes and laying out 41 of them in 11.21 milliseconds." width="1500" height="966" loading="lazy">
-<figcaption>11.21ms of layout work, rooted at <code>#document</code>, touching 4,371 nodes to relayout just 41. <a href="/wp-content/uploads/2026/04/opentable-before-full.png">View full size/quality (1MB)</a></figcaption>
+<img src="{{ site.cloudinary }}/wp-content/uploads/2026/04/opentable-before.png" alt="Chrome DevTools performance profile showing OpenTable’s mobile drawer before containment. Opening the language switcher triggers a layout rooted at the whole document, touching 4,371 nodes and laying out 41 of them in 11.21 milliseconds." width="1500" height="966" loading="lazy">
+<figcaption>11.21ms of layout work, rooted at <code>#document</code>, touching 4,371 nodes to relayout just 41. <a href="{{ site.cloudinary }}/wp-content/uploads/2026/04/opentable-before-full.png">View full size/quality (1MB)</a></figcaption>
 </figure>
 
 While the whole operation only took 11 milliseconds, that’s still a lot of
@@ -365,8 +365,8 @@ By applying `contain: strict` to the drawer menu’s root DOM node, we can limit
 the reach of the work and create incredible savings:
 
 <figure>
-<img src="/wp-content/uploads/2026/04/opentable-after.png" alt="Chrome DevTools performance profile showing OpenTable’s mobile drawer after applying contain: strict. The layout root is now the drawer itself, touching 73 nodes and laying out 40 of them in 1.89 milliseconds." width="1500" height="966" loading="lazy">
-<figcaption>1.89ms of layout work, rooted at the drawer itself, touching 73 nodes to relayout 40. <a href="/wp-content/uploads/2026/04/opentable-after-full.png">View full size/quality (1MB)</a></figcaption>
+<img src="{{ site.cloudinary }}/wp-content/uploads/2026/04/opentable-after.png" alt="Chrome DevTools performance profile showing OpenTable’s mobile drawer after applying contain: strict. The layout root is now the drawer itself, touching 73 nodes and laying out 40 of them in 1.89 milliseconds." width="1500" height="966" loading="lazy">
+<figcaption>1.89ms of layout work, rooted at the drawer itself, touching 73 nodes to relayout 40. <a href="{{ site.cloudinary }}/wp-content/uploads/2026/04/opentable-after-full.png">View full size/quality (1MB)</a></figcaption>
 </figure>
 
 Now, we can see as clear as day that the operation only touched 73 DOM nodes, 40
