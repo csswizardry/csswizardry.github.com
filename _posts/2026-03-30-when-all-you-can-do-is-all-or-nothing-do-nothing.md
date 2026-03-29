@@ -9,9 +9,11 @@ meta: "If your design system can only apply `loading=lazy` or `fetchpriority=hig
 
 I’ve been working a lot over the last few years on the idea of **web performance
 for design systems**. While a lot of my clients want me to start at the end and
-work back (<q>we have a slow site, how can we make it faster?</q>), particularly
-ambitious clients ask <q>how can we bake web performance in from the start?</q>
-This post comes from a specific bit of advice I gave a client recently.
+work back (<q>we have a slow site, how can we make it faster?</q>),
+[particularly ambitious
+clients](https://www.linkedin.com/in/iris-wezenberg-4774b534/) ask <q>how can we
+bake web performance in from the start?</q> This post comes from a specific bit
+of advice I gave a client recently.
 
 Their design system sits on top of a highly permissive CMS. Editors have a lot
 of freedom—which is great—but it means the system often does not know, or cannot
