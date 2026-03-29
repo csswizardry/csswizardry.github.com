@@ -68,14 +68,16 @@ lazy-load it. But if CMS users can also use it:
 
 …then the design system doesn’t have the right to guess.
 
-In that world, this version is safer:
+In that world, this change is safer:
 
-```html
+```diff
 <article class=c-card>
   <img src=/img/promo.jpg
        alt="Promotional image"
        width=640
-       height=360>
+       height=360
+-      loading=lazy>
++>
 
   <h2>Spring Collection</h2>
   <p>Discover the latest arrivals.</p>
