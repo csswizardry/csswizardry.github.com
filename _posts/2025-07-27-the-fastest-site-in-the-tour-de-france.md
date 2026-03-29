@@ -803,6 +803,8 @@ image.</figcaption>
     all.
 * INP scores are pushed up by a huge _Recalculate Style_ event when opening the
   nav.
+  * In situations like this, [CSS containment](/2026/04/what-is-css-containment-and-how-can-i-use-it/)
+    can sometimes help localise that work.
   * They’re reading style properties while also attempting to write them.
   * As just 2.9× CPU throttling, this event took an eyewatering 154ms!
 
