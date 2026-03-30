@@ -80,26 +80,4 @@
     })();
   </script>
 
-  <script>
-    if ('serviceWorker' in navigator) {
-
-      navigator.serviceWorker.getRegistrations()
-        .then(registrations => {
-          return Promise.all(
-            registrations.map(reg => reg.unregister())
-          );
-        })
-
-        .then(() => caches.keys())
-        .then(names => {
-          return Promise.all(
-            names.map(name => caches.delete(name))
-          );
-        })
-
-    }
-
-    //# sourceURL=sw.inline.js
-  </script>
-
   <script src=/js/obs.speedcurve.js?v=0005 type=module></script>
