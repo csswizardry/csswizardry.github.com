@@ -7,6 +7,97 @@ permalink: /services/
 lux: "Services"
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ site.url }}/services/#webpage",
+      "url": "{{ site.url }}/services/",
+      "name": "Web Performance Optimisation Services",
+      "description": "Audits, consultancy, workshops, and monitoring services from CSS Wizardry.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "CSS Wizardry"
+      },
+      "about": [
+        { "@id": "{{ site.url }}/#org" },
+        { "@id": "{{ site.url }}/#person" }
+      ],
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "{{ site.url }}/services/#services",
+        "name": "Services",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "{{ site.url }}/masterclasses/",
+            "name": "Masterclasses"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "{{ site.url }}/sentinel/",
+            "name": "Sentinel"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "{{ site.url }}/performance-audits/",
+            "name": "Performance Audits"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "{{ site.url }}/workshops/",
+            "name": "Workshops and Training"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "{{ site.url }}/consultancy/",
+            "name": "Consultancy"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "{{ site.url }}/speaking/",
+            "name": "Speaking"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "url": "{{ site.url }}/downloads/",
+            "name": "Downloads"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "CSS Wizardry",
+          "item": "{{ site.url }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "{{ site.url }}/services/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 ## How Can I Help?
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:addy-osmani"><p>Harry’s tailored

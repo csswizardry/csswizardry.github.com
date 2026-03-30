@@ -7,6 +7,54 @@ permalink: /contact/
 lux: "Contact"
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "{{ site.url }}/contact/#webpage",
+      "url": "{{ site.url }}/contact/",
+      "name": "Contact",
+      "description": "Contact Harry Roberts to discuss consultancy projects, training, speaking, or a free call.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "CSS Wizardry"
+      },
+      "about": [
+        { "@id": "{{ site.url }}/#org" },
+        { "@id": "{{ site.url }}/#person" }
+      ],
+      "mainEntity": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": "csswizardry@gmail.com",
+        "url": "{{ site.url }}/contact/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "CSS Wizardry",
+          "item": "{{ site.url }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "{{ site.url }}/contact/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 **Consultancy projects, speaking engagements, or just to say hi.**
 
 <a href="mailto:csswizardry@gmail.com" class="btn  btn--full" id="section:details">harry@csswizardry.com</a>

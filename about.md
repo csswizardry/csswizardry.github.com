@@ -7,6 +7,67 @@ permalink: /about/
 lux: About
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ site.url }}/about/#webpage",
+      "url": "{{ site.url }}/about/",
+      "name": "About Harry Roberts – Award-Winning Web Performance Consultant",
+      "description": "Harry Roberts is an award-winning Consultant Web Performance Engineer from the UK.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "CSS Wizardry"
+      },
+      "mainEntity": { "@id": "{{ site.url }}/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "Harry Roberts",
+      "url": "{{ site.url }}/about/",
+      "image": "{{ site.url }}/img/content/about.jpg",
+      "jobTitle": "Consultant Web Performance Engineer",
+      "worksFor": { "@id": "{{ site.url }}/#org" },
+      "sameAs": [
+        "https://twitter.com/csswizardry",
+        "https://github.com/csswizardry",
+        "https://www.linkedin.com/in/csswizardry/",
+        "https://developers.google.com/profile/u/csswizardry"
+      ],
+      "knowsAbout": [
+        "Web performance",
+        "Core Web Vitals",
+        "CSS architecture",
+        "Front-end performance",
+        "Site-speed optimisation"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "CSS Wizardry",
+          "item": "{{ site.url }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "{{ site.url }}/about/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 **Hi there, I’m Harry. I am an independent Consultant Web Performance Engineer
 based in Leeds, UK. I deliver high-end, bespoke consultancy to world-class,
 ambitious clients.**
