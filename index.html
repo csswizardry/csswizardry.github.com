@@ -15,13 +15,15 @@ lux: Home
     {
       "@id": "https://csswizardry.com/#org",
       "@type": "Organization",
-      "name": "CSS Wizardry Ltd.",
+      "name": "CSS Wizardry Ltd",
       "url": "https://csswizardry.com/",
       "logo": {
         "@type": "ImageObject",
         "@id": "https://csswizardry.com/#logo",
         "url": "https://csswizardry.com/icon.png",
-        "contentUrl": "https://csswizardry.com/icon.png"
+        "contentUrl": "https://csswizardry.com/icon.png",
+        "width": 128,
+        "height": 128
       },
       "founder": { "@id": "https://csswizardry.com/#person" },
       "sameAs": [
@@ -33,7 +35,7 @@ lux: Home
       "contactPoint": [{
         "@type": "ContactPoint",
         "contactType": "Sales",
-        "email": "mailto:csswizardry@gmail.com"
+        "email": "csswizardry@gmail.com"
       }]
     },
 
@@ -43,9 +45,39 @@ lux: Home
       "name": "Harry Roberts",
       "jobTitle": "Consultant Web-Performance Engineer",
       "url": "https://csswizardry.com/about/",
+      "image": "https://csswizardry.com/img/avatars/me.jpg",
+      "sameAs": [
+        "https://twitter.com/csswizardry",
+        "https://github.com/csswizardry",
+        "https://www.linkedin.com/in/csswizardry/",
+        "https://developers.google.com/profile/u/csswizardry"
+      ],
       "worksFor": { "@id": "https://csswizardry.com/#org" }
-    }
+    },
 
+    {
+      "@id": "https://csswizardry.com/#website",
+      "@type": "WebSite",
+      "name": "CSS Wizardry",
+      "url": "https://csswizardry.com/",
+      "publisher": { "@id": "https://csswizardry.com/#org" },
+      "inLanguage": "en-GB"
+    },
+
+    {
+      "@id": "https://csswizardry.com/#webpage",
+      "@type": "WebPage",
+      "url": "https://csswizardry.com/",
+      "name": "Site-Speed Optimisation",
+      "description": "Award-winning web performance consultant Harry Roberts helps global brands optimise site speed through audits, consultancy, and training.",
+      "isPartOf": { "@id": "https://csswizardry.com/#website" },
+      "about": [
+        { "@id": "https://csswizardry.com/#org" },
+        { "@id": "https://csswizardry.com/#person" }
+      ],
+      "primaryImageOfPage": { "@id": "https://csswizardry.com/#logo" },
+      "inLanguage": "en-GB"
+    }
   ]
 }
 </script>
@@ -104,6 +136,26 @@ lux: Home
         </li>
         {% endfor %}
       </ul>
+
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Recent articles",
+        "itemListOrder": "https://schema.org/ItemListOrderDescending",
+        "numberOfItems": {{ paginator.posts | size }},
+        "itemListElement": [
+          {% for post in paginator.posts %}
+          {
+            "@type": "ListItem",
+            "position": {{ forloop.index }},
+            "url": "https://csswizardry.com{{ post.url }}",
+            "name": {{ post.title | jsonify }}
+          }{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+      </script>
 
       {% include pagination.html %}
 
