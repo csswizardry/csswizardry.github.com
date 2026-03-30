@@ -9,7 +9,7 @@ permalink: /blog/
 
   {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
 
-  <p>I have written <b>{{ site.posts | size  }}</b> post on this site, mostly
+  <p>I have written <b>{{ site.posts | size  }}</b> posts on this site, mostly
   covering web performance and CSS architecture. Find a reverse-chronological list
   of them below, or, at random, why not read
   <a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a>
@@ -31,6 +31,56 @@ permalink: /blog/
       </li>
     {% if forloop.last %}</ol>{% endif %}
   {% endfor %}
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [{
+        "@type": "CollectionPage",
+        "@id": "https://csswizardry.com/blog/#webpage",
+        "url": "https://csswizardry.com/blog/",
+        "name": "CSS Wizardry Blog Archives",
+        "description": "Archive of CSS Wizardry articles covering web performance and CSS architecture.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://csswizardry.com/#website",
+          "url": "https://csswizardry.com/",
+          "name": "CSS Wizardry"
+        },
+        "about": [
+          {
+            "@type": "Organization",
+            "@id": "https://csswizardry.com/#org",
+            "name": "CSS Wizardry Ltd",
+            "url": "https://csswizardry.com/"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://csswizardry.com/#person",
+            "name": "Harry Roberts",
+            "url": "https://csswizardry.com/about/"
+          }
+        ],
+        "mainEntity": {
+          "@type": "ItemList",
+          "@id": "https://csswizardry.com/blog/#posts",
+          "name": "Archived articles",
+          "numberOfItems": {{ site.posts | size }},
+          "itemListOrder": "https://schema.org/ItemListOrderDescending",
+          "itemListElement": [
+            {% for post in site.posts %}
+            {
+              "@type": "ListItem",
+              "position": {{ forloop.index }},
+              "url": "https://csswizardry.com{{ post.url }}",
+              "name": {{ post.title | jsonify }}
+            }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        }
+      }]
+    }
+  </script>
 
   <script type="application/ld+json">
     {
