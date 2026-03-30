@@ -156,7 +156,39 @@ figure {
     }
 
     > img {
-        border-radius: $base-round;
+      border-radius: $base-round;
+
+      @media (pointer: fine) {
+        cursor: zoom-in;
+        transition: transform 0.3333s;
+        transform-origin: center left;
+
+        &:active {
+          transform: scale(2);
+          z-index: 1;
+          position: relative;
+        }
+
+      }
+
+    }
+
+    &:has(img) {
+      position: relative;
+
+      &::before {
+        content: "Loading…" / "";
+        @include font-size(12px);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ccc;
+        z-index: -1;
+      }
+
     }
 
 }
