@@ -2,7 +2,7 @@
 layout: page
 title: Public Speaking and Conferences
 page-class: page--speaking
-meta: "Harry Roberts’ past and upcoming speaking engagements"
+meta: "Harry Roberts is an international speaker on web performance, CSS architecture, and front-end engineering, available for conferences, keynotes, and private events."
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/img/css/masthead-medium.e55920c9.jpg"
 permalink: /speaking/
 lux: "Speaking"
@@ -16,7 +16,7 @@ I chose to become a consultant in the first place—I love to help.
 
 <figure>
   <img src="/img/content/perfnow-2024.jpg"
-       alt
+       alt="Harry Roberts delivering a keynote on stage at performance.now() 2024 in Amsterdam, photographed mid-talk in front of a large projected slide."
        width="1500"
        height="843"
        id="about-image"
