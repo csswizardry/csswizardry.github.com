@@ -16,10 +16,10 @@ lux: Post
         <script>performance.mark('contentStart')</script>
 
         <p class=post__date>
-          <time datetime={{ page.date | date: "%Y-%m-%d" }}  itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop=datePublished>{{ page.date | date: "%-d %B, %Y" }}</time>
 
           {% if page.last_modified_at %}
-            <ins>(last updated on <time datetime={{ page.last_modified_at | date: "%Y-%m-%d" }} itemprop=dateModified>{{ page.last_modified_at | date: "%-d %B, %Y" }}</time>)</ins>
+            <ins>(last updated on <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop=dateModified>{{ page.last_modified_at | date: "%-d %B, %Y" }}</time>)</ins>
           {% endif %}
 
         </p>
@@ -81,11 +81,13 @@ lux: Post
             "headline": "{{ page.title }}",
             "keywords": "{{ page.tags | join: ',' }}",
             "description": "{{ page.meta }}",
-            "datePublished": "{{ page.date }}",
-            "dateModified": "{{ page.last_modified_at | default: page.date }}",
+            "datePublished": "{{ page.date | date_to_xmlschema }}",
+            "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+            "inLanguage": "en-GB",
+            "isAccessibleForFree": true,
             "author": {
               "@type": "Person",
-              "url": "{{ site.url }}",
+              "url": "{{ site.url }}/about/",
               "name": "Harry Roberts"
             },
             "publisher": {
@@ -124,11 +126,6 @@ lux: Post
             }, {
               "@type": "ListItem",
               "position": 2,
-              "name": "{{ page.date | date: "%Y" }}",
-              "item": "https://csswizardry.com/blog/#year-{{ page.date | date: "%Y" }}"
-            }, {
-              "@type": "ListItem",
-              "position": 3,
               "name": "{{ page.title }}",
               "item": "{{ site.url }}{{ page.url }}"
             }]
