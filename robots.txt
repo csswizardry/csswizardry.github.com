@@ -36,4 +36,22 @@ Disallow: /20*
 User-agent: Applebot-Extended
 Disallow: /20*
 
+# Allow search and user-request bots that can surface and cite content without
+# using it for model training.
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://csswizardry.com/sitemap.xml
