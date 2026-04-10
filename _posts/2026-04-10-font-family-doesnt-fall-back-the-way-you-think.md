@@ -8,9 +8,8 @@ meta: "A quick but important reminder that font-family declarations don’t inhe
 ---
 
 There is a small but surprisingly important nuance in the way `font-family`
-works that seems to catch a lot of people out. In my [continuing
-series](/2026/04/what-is-css-containment-and-how-can-i-use-it/) on [web
-performance for design
+works that seems to catch a lot of people out. In my continuing series on [web
+performance](/2026/04/what-is-css-containment-and-how-can-i-use-it/) for [design
 systems](/2026/03/when-all-you-can-do-is-all-or-nothing-do-nothing/), today
 we’ll look at font stacks and how, when improperly configured, they can cause
 unsightly flashes of inappropriate or unexpected fallback text, and in more
