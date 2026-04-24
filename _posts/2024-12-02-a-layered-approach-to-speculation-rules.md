@@ -6,6 +6,17 @@ last_modified_at: 2025-06-05
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
 meta: "The new Speculation Rules API is incredibly powerful, but we can do so much more! By taking a layered approach, we can add more progressive functionality."
+faq:
+  - question: "What are Speculation Rules?"
+    answer: "Speculation Rules are browser instructions that let you prefetch or prerender likely future navigations so the next page can load much faster."
+  - question: "What is the difference between prefetch and prerender?"
+    answer: "Prefetch fetches resources ahead of time, while prerender goes much further and prepares the destination page in advance so navigation can feel almost instant."
+  - question: "Why use a layered approach to Speculation Rules?"
+    answer: "A layered approach lets you start with safer, cheaper behaviour and progressively add more aggressive speculation where the payoff is higher and the risks are acceptable."
+  - question: "Should every link be prerendered?"
+    answer: "No. Prerendering everything is usually too expensive and too risky, so you should choose targets carefully and apply clear opt-in or opt-out rules."
+  - question: "How can I clear Speculation Rules cache?"
+    answer: "One option is Clear-Site-Data, which can be used to explicitly wipe prefetched or prerendered state when you need a hard reset."
 ---
 
 I’ve always loved doing slightly unconventional and crafty things with simple

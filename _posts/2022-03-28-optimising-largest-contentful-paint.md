@@ -5,6 +5,17 @@ date: 2022-03-28 23:02:11
 categories: Web Development
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/03/chart-full.png"
 meta: "Let’s look at some more technical and non-obvious aspects of optimising Largest Contentful Paint"
+faq:
+  - question: "What is Largest Contentful Paint?"
+    answer: "Largest Contentful Paint is a Core Web Vitals metric that measures when the largest visible content element in the viewport finishes rendering."
+  - question: "What usually improves LCP most?"
+    answer: "The biggest wins usually come from improving server response times, choosing a good LCP candidate, and making sure the browser can discover and prioritise it quickly."
+  - question: "Should I lazy-load my LCP image?"
+    answer: "No. Lazy-loading your LCP candidate usually delays it and makes the metric worse."
+  - question: "Can animations or fades hurt LCP?"
+    answer: "Yes. Fade-ins and similar effects can delay when the browser considers the content fully rendered, which can worsen LCP."
+  - question: "Are image-based LCPs always best?"
+    answer: "Not necessarily. In many cases a text-based candidate is easier to prioritise and can produce a faster, more reliable LCP than a heavy image."
 ---
 
 <!--

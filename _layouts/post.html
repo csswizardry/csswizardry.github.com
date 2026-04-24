@@ -47,6 +47,22 @@ lux: Post
 
           {{ content }}
 
+          {% if page.faq and page.faq.size > 0 %}
+
+            <hr>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="c-faq">
+              {% for item in page.faq %}
+                <details>
+                  <summary>{{ item.question }}</summary>
+                  <p>{{ item.answer }}</p>
+                </details>
+              {% endfor %}
+            </div>
+          {% endif %}
+
       </div><!-- /.s-post -->
 
         {% if page.faq %}

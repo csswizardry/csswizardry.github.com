@@ -5,6 +5,17 @@ date: 2023-07-24 00:00:00
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/07/cwv-seo.png"
 meta: "There’s still a lot of misunderstanding about CWV for SEO. Let’s work it out together."
+faq:
+  - question: "Do Core Web Vitals affect SEO?"
+    answer: "Yes, but only modestly. Core Web Vitals are a ranking signal, not the dominant factor, and they rarely outweigh stronger content or relevance."
+  - question: "Are Core Web Vitals a tie-breaker?"
+    answer: "That is the most practical way to think about them. They can help separate otherwise similar results, but they are not a substitute for strong content and search intent alignment."
+  - question: "Do I need to pass Core Web Vitals on every page?"
+    answer: "No. Rankings are assessed at the URL level, so some pages can fail without dragging every other page down with them."
+  - question: "Do Lighthouse or PageSpeed Insights scores affect rankings?"
+    answer: "No. Google’s rankings are based on real-world field data, not Lighthouse scores."
+  - question: "Does iOS traffic count toward Core Web Vitals for SEO?"
+    answer: "No. Core Web Vitals data used for Google Search comes from Chrome data sources, so Safari traffic is not included."
 ---
 
 ## Updates

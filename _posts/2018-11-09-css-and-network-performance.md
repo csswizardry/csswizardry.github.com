@@ -5,6 +5,15 @@ date: 2018-11-09 19:57:12
 categories: Web Development
 meta: "How can CSS impact network and resource-loading performance? Can things
 be that serious?"
+faq:
+  - question: "Can CSS affect network performance?"
+    answer: "Yes. CSS can delay rendering, block later requests, and influence how quickly the browser discovers and prioritises other resources."
+  - question: "Is @import bad for performance?"
+    answer: "Usually, yes. @import often creates additional request chains and can delay stylesheet discovery, which is why external stylesheets linked directly in HTML are generally preferable."
+  - question: "Should I inline critical CSS?"
+    answer: "Inlining a small amount of critical CSS can help the browser render above-the-fold content sooner by avoiding an extra render-blocking stylesheet request."
+  - question: "Where should I place my stylesheet links?"
+    answer: "That depends on the constraints, but in general you want to avoid accidentally blocking more important work and you should place stylesheets deliberately rather than by habit."
 ---
 
 Despite having been called <cite>CSS Wizardry</cite> for over a decade now,

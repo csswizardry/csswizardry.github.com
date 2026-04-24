@@ -6,6 +6,17 @@ last_modified_at: 2025-09-05
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/09/csswizardry.com-lcp.jpg"
 meta: "Can Low-Quality Image Placeholders and LCP play nicely together?"
+faq:
+  - question: "Can low-quality image placeholders hurt LCP?"
+    answer: "Yes. If implemented badly, LQIPs can delay or interfere with the real Largest Contentful Paint candidate and make the metric worse."
+  - question: "Can LQIPs and LCP work well together?"
+    answer: "Yes. With the right approach, you can keep the UX benefits of a placeholder without compromising the final LCP result."
+  - question: "Should I upscale an LQIP aggressively?"
+    answer: "No. Over-upscaling a tiny placeholder can introduce a visible quality penalty and undermine the overall result."
+  - question: "How small should an LQIP be?"
+    answer: "The article recommends aiming for a sensible minimum quality threshold rather than making the placeholder as tiny as possible at any cost."
+  - question: "How do I verify that an LQIP implementation works?"
+    answer: "You should test the real page, confirm which element becomes the LCP candidate, and make sure the placeholder does not slow or replace the final intended image."
 ---
 
 At the time of writing,

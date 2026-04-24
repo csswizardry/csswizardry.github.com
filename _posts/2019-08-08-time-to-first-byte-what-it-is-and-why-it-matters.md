@@ -4,6 +4,15 @@ title: "Time to First Byte: What It Is and How to Improve It"
 date: 2019-08-08 02:06:56
 categories: Web Development
 meta: "Just how much does TTFB matter when it comes to front-end performance?"
+faq:
+  - question: "What is Time to First Byte?"
+    answer: "Time to First Byte measures how long it takes from making a request until the first byte of the response arrives back from the server."
+  - question: "Why does TTFB matter?"
+    answer: "TTFB matters because every downstream task depends on it. A slow first byte delays rendering, resource discovery, and other performance milestones."
+  - question: "What causes a slow TTFB?"
+    answer: "Slow TTFB can come from network latency, redirects, slow application logic, overloaded infrastructure, or cache misses closer to origin."
+  - question: "How can I improve TTFB?"
+    answer: "Common improvements include reducing server work, caching more effectively, cutting redirects, using a CDN, and bringing content physically closer to users."
 ---
 
 I’m working on a client project at the moment and, as they’re an ecommerce site,

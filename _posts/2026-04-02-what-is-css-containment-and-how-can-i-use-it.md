@@ -5,6 +5,17 @@ date: 2026-04-02 11:30:00
 categories: Web Development
 main: ""
 meta: "CSS containment lets you isolate layout and paint work to self-contained ‘islands’. Here’s what each contain value does and how to use it safely."
+faq:
+  - question: "What is CSS containment?"
+    answer: "CSS containment is a way to isolate parts of the page so the browser can limit how far layout, paint, size, or style calculations need to spread."
+  - question: "What does the contain property do?"
+    answer: "The contain property tells the browser which kinds of work a component can keep to itself, using values such as layout, paint, size, and style."
+  - question: "When should I use CSS containment?"
+    answer: "It works best on self-contained UI islands such as drawers, widgets, panels, or components whose internal changes should not affect the rest of the page."
+  - question: "What is the difference between contain and content-visibility?"
+    answer: "contain constrains browser work around a component, while content-visibility can go further by skipping work for off-screen content until it is needed."
+  - question: "Can CSS containment cause bugs?"
+    answer: "Yes. It can introduce clipping, sizing surprises, new stacking contexts, and other side effects, so it should be applied deliberately and tested carefully."
 ---
 
 Continuing my work on _web performance for design systems_, I want to look at

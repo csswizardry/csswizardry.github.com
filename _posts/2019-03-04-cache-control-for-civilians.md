@@ -5,6 +5,17 @@ date: 2019-03-04 01:21:39
 last_modified_at: 2025-06-05
 categories: Web Development
 meta: "What does Cache-Control really do? In basic terms? Let’s find out!"
+faq:
+  - question: "What does Cache-Control do?"
+    answer: "Cache-Control tells browsers and intermediary caches how a response should be stored, how long it can be reused for, and when it needs to be revalidated."
+  - question: "What is the difference between no-store and no-cache?"
+    answer: "no-store means do not store the response at all. no-cache still allows storage, but the cached response must be successfully revalidated before it can be reused."
+  - question: "What does max-age mean?"
+    answer: "max-age defines how long a response can be considered fresh. While it is fresh, the browser can usually reuse it without contacting the server."
+  - question: "What is immutable used for?"
+    answer: "immutable tells the browser that a fresh resource will not change during its cache lifetime, which helps avoid unnecessary revalidation on refresh."
+  - question: "How should I update long-lived cached files?"
+    answer: "The safest approach is cache busting with fingerprinted filenames, so you can cache assets aggressively while still forcing clients to fetch a new version when the file changes."
 ---
 
 ## Why Caching Headers Still Matter for Web Performance in 2025

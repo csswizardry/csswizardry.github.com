@@ -5,6 +5,17 @@ date: 2023-10-17 00:00:00
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/10/chart-all.png"
 meta: "We know we should do it, but do we know how?"
+faq:
+  - question: "What are the three Cs of front-end performance?"
+    answer: "They are concatenate, compress, and cache: three practical ways to reduce request overhead, transfer size, and repeat work."
+  - question: "Do we still need concatenation with HTTP/2 or HTTP/3?"
+    answer: "Not always, but not never either. Modern protocols reduce the need for blanket concatenation, yet there are still cases where fewer requests can be beneficial."
+  - question: "Is compression still important on the modern web?"
+    answer: "Absolutely. Compression remains one of the highest-return ways to reduce payload size and improve delivery speed."
+  - question: "Why is caching one of the three Cs?"
+    answer: "Because the fastest request is often the one you do not need to make again. Good caching eliminates repeat transfers and avoids unnecessary latency."
+  - question: "Can we drop our build tools yet?"
+    answer: "Sometimes, but not universally. The right answer depends on what your tooling is doing for concatenation, compression, caching, and overall delivery strategy."
 ---
 
 I began writing this article in early July 2023 but began to feel a little

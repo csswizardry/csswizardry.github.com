@@ -5,6 +5,15 @@ date: 2024-09-16 11:01:48
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2024/09/diagram-all.png"
 meta: "We can’t do much to change latency, so how can we work around it?"
+faq:
+  - question: "What is high latency in web performance?"
+    answer: "High latency means requests take a long time to begin or complete because of network round-trip time, even before transfer size becomes the main issue."
+  - question: "Can I reduce latency itself?"
+    answer: "Usually only indirectly. You often cannot change the user’s network conditions, so the practical work is reducing round trips, avoiding new connections, and hiding latency where possible."
+  - question: "How do I optimise for high-latency environments?"
+    answer: "Common strategies include cutting transfer size, using a CDN, avoiding redirects and preflights, reusing connections, and caching aggressively."
+  - question: "Do preconnect and caching help with latency?"
+    answer: "Yes. preconnect can pay connection setup costs earlier, and good caching avoids repeated trips across a slow network altogether."
 ---
 
 Last week, I posted [a short update on

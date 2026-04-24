@@ -5,6 +5,15 @@ date: 2021-02-26 01:41:12
 categories: Web Development
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2021/02/inspecting-safari-02.png"
 meta: "How often do you test your site in iOS Safari? Do you even know how?!"
+faq:
+  - question: "How can I test web performance in iOS Safari?"
+    answer: "A reliable approach is to use a real iPhone and inspect it through Safari’s developer tools on a Mac, or use WebPageTest where appropriate."
+  - question: "Can I just emulate Mobile Safari?"
+    answer: "Not fully. Emulation can be helpful, but it is not a complete substitute for testing on real iOS hardware and Safari itself."
+  - question: "What do I need to debug an iPhone with Safari DevTools?"
+    answer: "You need a Mac, an iPhone, Safari, and the relevant developer and Web Inspector settings enabled so the phone can be inspected remotely."
+  - question: "Why is testing on iOS important?"
+    answer: "Because iOS Safari behaves differently enough that issues with rendering, networking, or performance can go unnoticed if you only test in desktop browsers or Chrome."
 ---
 
 <p class="c-highlight"><strong>N.B.</strong> This article is no longer accurate,

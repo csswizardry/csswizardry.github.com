@@ -5,6 +5,15 @@ date: 2020-05-19 17:35:04
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2020/05/filmstrip-foit.png"
 meta: "Google Fonts is fast. Now it’s faster. Much faster."
+faq:
+  - question: "What is the fastest way to load Google Fonts?"
+    answer: "It depends on the trade-offs you want, but strong options include reducing the number of files requested, using the right loading strategy, and adding supporting hints such as preconnect or preload where appropriate."
+  - question: "Does font-display help Google Fonts performance?"
+    answer: "Yes. font-display can improve perceived performance by controlling how text is shown while the font loads, with swap and optional being especially useful."
+  - question: "Should I preload Google Fonts?"
+    answer: "Sometimes. preload can speed up font discovery, but it needs to be used carefully because it can also add unnecessary work if applied indiscriminately."
+  - question: "Is preconnect useful for Google Fonts?"
+    answer: "Yes. preconnect can reduce the setup cost of talking to the Google Fonts origins, which often helps the fonts start downloading sooner."
 ---
 
 <div class="c-highlight  mb">
