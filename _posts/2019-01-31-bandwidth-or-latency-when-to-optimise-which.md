@@ -4,6 +4,17 @@ title: "Bandwidth or Latency: When to Optimise for Which"
 date: 2019-01-31 14:11:15
 categories: Web Development
 meta: "How can you tell when bandwidth or latency are your bottlenecks?"
+faq:
+  - question: "What is the difference between latency and bandwidth?"
+    answer: "Bandwidth is the amount of data that can be transferred over a connection, while latency is how long it takes data to travel from one point to another. Bandwidth is about capacity; latency is about delay."
+  - question: "Which matters more for web performance: latency or bandwidth?"
+    answer: "For most day-to-day web browsing, latency is often the bigger bottleneck because pages are made up of many relatively small requests, each of which pays network overhead before download even begins."
+  - question: "When should I optimise for bandwidth?"
+    answer: "Optimising for bandwidth matters most when you are transferring larger files, such as images, video, or other heavy assets where download time dominates overall request time."
+  - question: "When should I optimise for latency?"
+    answer: "Optimising for latency matters most when requests are small and network negotiation takes longer than the actual download, which is very common on the web."
+  - question: "How can I tell whether a request is bandwidth-bound or latency-bound?"
+    answer: "A quick way is to compare total request time with the network-overhead time shown in Chrome DevTools’ large request rows. If most of the time is spent negotiating the request, latency is the bottleneck; if most of it is spent downloading bytes, bandwidth is the bottleneck."
 ---
 
 When it comes to network performance, there are two main limiting factors that
