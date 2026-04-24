@@ -4,6 +4,17 @@ title: "The Three Types of Performance Testing"
 date: 2018-10-27 10:02:39
 categories: Web Development
 meta: "How can we make it easier for businesses to understand when and what to measure?"
+faq:
+  - question: "What are the three types of performance testing?"
+    answer: "This article frames them as proactive, reactive, and passive testing: work done before problems happen, work done in response to issues, and ongoing monitoring that watches performance continuously."
+  - question: "What is proactive performance testing?"
+    answer: "Proactive testing is the work you do ahead of time to prevent problems, such as benchmarking, profiling, auditing, and making performance part of your development process."
+  - question: "What is reactive performance testing?"
+    answer: "Reactive testing happens when a problem has already appeared and you need to investigate, diagnose, and fix it."
+  - question: "What is passive performance testing?"
+    answer: "Passive testing is continuous measurement and monitoring in the background, often through tools that track real-world performance over time."
+  - question: "Which type of performance testing should I start with?"
+    answer: "You usually need all three eventually, but the right starting point depends on your situation: proactive work prevents issues, reactive work solves current ones, and passive monitoring keeps you informed over time."
 ---
 
 A lot of companies—even if they are aware that performance is key to their

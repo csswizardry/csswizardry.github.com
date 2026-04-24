@@ -4,6 +4,17 @@ title: "Base64 Encoding & Performance, Part 1: What’s Up with Base64?"
 date: 2017-02-12 12:11:13
 categories: Web Development
 meta: "A look at the many huge disadvantages of Base64 encoding assets into your CSS"
+faq:
+  - question: "What is Base64 encoding?"
+    answer: "Base64 is a way of representing binary data as text so that assets such as images or fonts can be embedded directly inside files like CSS or HTML."
+  - question: "Is Base64 bad for performance?"
+    answer: "Often, yes. Embedding assets as Base64 can increase file size, weaken caching, and force unrelated resources to download together, which can make delivery less efficient."
+  - question: "Why does Base64 make files bigger?"
+    answer: "Base64 encoding expands binary data into a text representation, which usually increases the amount of data that has to be transferred."
+  - question: "Should I inline images in CSS with Base64?"
+    answer: "Usually not by default. While inlining can reduce request count, it often creates bigger, less cacheable files and can make overall performance worse."
+  - question: "Does Gzip solve the problems with Base64?"
+    answer: "Not completely. Compression can reduce some of the overhead, but it does not remove the underlying trade-offs around caching, coupling, and inflated transfer size."
 ---
 
 **This is the first in a two-part post. [Read Part

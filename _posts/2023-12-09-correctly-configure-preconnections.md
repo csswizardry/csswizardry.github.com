@@ -5,6 +5,17 @@ date: 2023-12-09 19:17:04
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/12/bbc-news-waterfall-initial.png"
 meta: "We’re probably familiar with preconnect, but are we getting it right?"
+faq:
+  - question: "What does preconnect do?"
+    answer: "preconnect tells the browser to set up the connection to another origin early by performing DNS lookup, TCP connection setup, and usually TLS negotiation before the resource itself is requested."
+  - question: "What is the difference between preconnect and dns-prefetch?"
+    answer: "dns-prefetch only resolves the hostname. preconnect goes further by also opening the transport connection, which makes it more powerful but also more expensive."
+  - question: "Should I preconnect to every third-party origin?"
+    answer: "No. preconnecting to too many origins can waste resources and reduce the benefit, so it is best reserved for a small number of genuinely important, early-needed connections."
+  - question: "When should I use crossorigin with preconnect?"
+    answer: "You should use crossorigin when the eventual request will need a CORS-enabled connection, such as many font requests, so the warmed connection can be reused properly."
+  - question: "Can too many preconnects hurt performance?"
+    answer: "Yes. Because preconnect is relatively expensive, overusing it can create unnecessary work and compete with more important requests."
 ---
 
 A trivial performance optimisation to help speed up third-party or other-origin

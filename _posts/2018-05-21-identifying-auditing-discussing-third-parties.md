@@ -4,6 +4,17 @@ title: "Identifying, Auditing, and Discussing Third Parties"
 date: 2018-05-21 10:01:21
 categories: Web Development
 meta: "Gathering data about third-parties using free and open-source tooling"
+faq:
+  - question: "How do I identify third-party scripts on my site?"
+    answer: "A practical starting point is to inspect requests in your tooling and group them by origin so you can see which resources are being loaded from third-party domains."
+  - question: "How do I audit third parties for performance?"
+    answer: "You audit them by measuring what they load, how often they are requested, how much they weigh, how long they block or delay work, and what business value they provide in return."
+  - question: "Why are third parties bad for performance?"
+    answer: "They are not always bad, but they often introduce extra requests, extra bytes, extra execution time, and extra operational risk that your team does not fully control."
+  - question: "How do I talk to stakeholders about third-party performance costs?"
+    answer: "The most effective approach is to bring evidence: clear measurements, concrete trade-offs, and a business-focused explanation of what each third party is costing in speed, resilience, and user experience."
+  - question: "Should I remove every third party?"
+    answer: "No. The goal is not to remove everything, but to understand each dependency, justify its cost, and govern it properly."
 ---
 
 A large part of my performance consultancy work is auditing and subsequently
