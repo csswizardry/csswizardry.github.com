@@ -16,6 +16,17 @@
         @extend %margin-bottom;
     }
 
+    .promo__link {
+      display: block;
+      color: #333;
+      font-weight: 400;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+    }
+
     .promo__links {
         text-align: center;
     }
