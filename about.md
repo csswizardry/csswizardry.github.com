@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Harry Roberts – Award-Winning Web Performance Consultant
+title: About Harry Roberts
 page-class: page--about
 meta: "Harry Roberts is an award-winning Consultant Web Performance Engineer from the UK. He helps companies of all shapes and sizes find and fix site-speed issues."
 permalink: /about/
@@ -15,7 +15,7 @@ lux: About
       "@type": "ProfilePage",
       "@id": "{{ site.url }}/about/#webpage",
       "url": "{{ site.url }}/about/",
-      "name": "About Harry Roberts – Award-Winning Web Performance Consultant",
+      "name": "About Harry Roberts",
       "description": "Harry Roberts is an award-winning Consultant Web Performance Engineer from the UK.",
       "isPartOf": {
         "@type": "WebSite",
