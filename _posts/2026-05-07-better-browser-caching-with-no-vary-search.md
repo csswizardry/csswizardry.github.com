@@ -242,16 +242,15 @@ something like this before:
 * `/?test`
 * `/?asdf`
 
-Ordinarily, that gives us a different URL and therefore a different cache key.
-But if the main document is using `No-Vary-Search`, that assumption may no
-longer hold. Appending search params may not bypass cache for this document
-because the cache has explicitly been told those parameters do not matter.
+Usually, that gives us a different URL and therefore a different cache key. But
+if the main document is using `No-Vary-Search`, that assumption may no longer
+hold. Appending search params may not bypass cache for this document because the
+cache has explicitly been told those parameters do not matter.
 
-Honestly, I would love DevTools to surface this more clearly. Something akin to
-the existing ⚠️ iconography in the _Network_ panel’s title, would be really
-helpful here: not because anything is wrong per se, but because the browser may
-be doing something surprising unless you know to look for the `No-Vary-Search`
-header.
+Honestly, I would love DevTools to surface this more clearly. Something like the
+existing ⚠️ iconography in the _Network_ panel’s title would be really helpful
+here: not because anything is wrong per se, but because the browser may be doing
+something surprising unless you know to look for the `No-Vary-Search` header.
 
 ## Use It Carefully
 
@@ -268,25 +267,22 @@ This means `No-Vary-Search` is best suited to parameters that are:
 
 If a parameter affects the HTML, do not ignore it.
 
-It is also worth noting that, as of **7 May 2026**, this is still an
-experimental feature and support is not yet universal, so I would treat it as a
-progressive enhancement rather than a foundational part of your caching
-strategy.
+It’s also worth noting that, at the time of writing, this is still an
+experimental feature and support is not yet universal, so I would treat it as
+a progressive enhancement rather than a foundational part of your caching
+strategy. That’s exactly what I’ve done with my site for now.
 
 ## A Nice Fit for Messy Real-World URLs
 
 What I like about `No-Vary-Search` is that it acknowledges how the web actually
-works.
+works. URLs pick up baggage: marketing tags get appended, tracking parameters
+are added, client-side state makes its way into the address bar. Two URLs that
+are materially the same page often arrive looking totally different.
 
-URLs pick up baggage. Marketing tags get appended. Tracking parameters get
-added. Client-side state leaks into the address bar. Two URLs that are
-materially the same page often arrive wearing different coats.
+Historically, caches had to treat those as entirely separate keys, but
+`No-Vary-Search` gives us a way to be a little more deliberate. If the response
+is the same, we can say so. And if only certain parameters matter, we can say
+that, too.
 
-Historically, caches had to treat those as entirely separate keys.
-
-`No-Vary-Search` gives us a way to be a little more honest. If the response is
-the same, we can say so. And if only certain parameters matter, we can say that
-too.
-
-For teams who care about getting more out of HTTP cache, that is a very welcome
-addition.
+For teams who care about getting more out of the HTTP cache, that is a very welcome
+addition!
