@@ -5,6 +5,19 @@ date: 2026-05-07 21:31:40
 categories: Web Development
 main: ""
 meta: "No-Vary-Search lets HTTP caches ignore irrelevant query parameters such as UTM tags, while still keeping meaningful ones like product variants in the cache key."
+faq:
+  - question: "What is No-Vary-Search?"
+    answer: "No-Vary-Search is an HTTP response header that tells caches which URL search parameters can be ignored when matching requests to cached responses."
+  - question: "What problem does No-Vary-Search solve?"
+    answer: "It reduces cache fragmentation caused by irrelevant query parameters such as UTM tags, so materially identical URLs can reuse the same cached response."
+  - question: "When should I use No-Vary-Search?"
+    answer: "Use it when some query parameters do not meaningfully change the response body, such as analytics, campaign, or other tracking parameters."
+  - question: "When should I not use No-Vary-Search?"
+    answer: "Do not use it for parameters that change the HTML or otherwise alter the response in a meaningful way, such as product variants or content filters rendered on the server."
+  - question: "Can No-Vary-Search ignore all query parameters?"
+    answer: "Yes. The params form can tell caches to ignore all search parameters, but it should only be used when the response truly does not vary by query string."
+  - question: "Does No-Vary-Search affect debugging?"
+    answer: "Yes. Appending a throwaway query string to try to bypass cache may no longer work if the document uses No-Vary-Search and the cache has been told those parameters do not matter."
 ---
 
 I’ve [written](/2019/03/cache-control-for-civilians/),
