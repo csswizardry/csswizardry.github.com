@@ -148,7 +148,7 @@ I use a bunch of handy tools from the command line on a daily basis:
 ### Dotfiles
 
 I host [my dotfiles on
-GitHub](https://github.com/csswizardry/dotfiles/blob/master/.vimrc), if you’re
+GitHub](https://github.com/csswizardry/dotfiles/), if you’re
 interested in taking a look. There’s nothing really remarkable in most of them.
 
 ### Chrome
