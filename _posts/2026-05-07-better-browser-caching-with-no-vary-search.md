@@ -2,6 +2,7 @@
 layout: post
 title: "Better Browser Caching with No-Vary-Search"
 date: 2026-05-07 21:31:40
+last_modified_at: 2026-05-11
 categories: Web Development
 main: ""
 meta: "No-Vary-Search lets HTTP caches ignore irrelevant query parameters such as UTM tags, while still keeping meaningful ones like product variants in the cache key."
@@ -15,7 +16,7 @@ faq:
   - question: "When should I not use No-Vary-Search?"
     answer: "Do not use it for parameters that change the HTML or otherwise alter the response in a meaningful way, such as product variants or content filters rendered on the server."
   - question: "Can No-Vary-Search ignore all query parameters?"
-    answer: "Yes. The params form can tell caches to ignore all search parameters, but it should only be used when the response truly does not vary by query string."
+    answer: "Yes. Today, the `params` form can tell caches to ignore all search parameters, but the spec is moving toward `params=()` instead. In either case, it should only be used when the response truly does not vary by query string."
   - question: "Does No-Vary-Search affect debugging?"
     answer: "Yes. Appending a throwaway query string to try to bypass cache may no longer work if the document uses No-Vary-Search and the cache has been told those parameters do not matter."
 ---
@@ -149,6 +150,13 @@ all, sites.
 
 If your page genuinely does not vary by query string at all, you can be much
 broader:
+
+<ins date="2026-05-11">A quick update: the `params` boolean syntax shown below
+is likely to change in the spec to an empty list, `params=()`, instead. At the
+time of writing, this newer syntax is not yet implemented in browsers, so the
+original `params` form remains what you’re most likely to encounter in
+practice. Thanks to <a href="https://bsky.app/profile/tunetheweb.com">Barry
+Pollard</a> for the heads-up. Keep an eye on <a href="https://github.com/httpwg/http-extensions/pull/3374">the HTTPWG discussion</a> and <a href="https://issues.chromium.org/issues/492218542">the Chromium issue</a> for progress.</ins>
 
 ```http
 No-Vary-Search: params
