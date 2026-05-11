@@ -99,7 +99,7 @@ fix](/performance-audits/). [Let’s talk!](/contact/)
 </div>
 
 <p class="c-inp-simulator-toggle">
-  <button class="btn  btn--full" id="jsInpToggle" type="button" aria-controls="jsInpPanel" aria-expanded="false">Toggle interactive panel</button>
+  <button class="btn  btn--full" id="jsInpToggle" type="button" aria-controls="jsInpPanel" aria-expanded="false">Click me…</button>
 </p>
 
 <div class="c-inp-simulator-panel" id="jsInpPanel" hidden>
