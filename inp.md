@@ -15,7 +15,7 @@ delays that your users are feeling.
 
 If your site feels sticky, sluggish, or slow to react, this is exactly the sort
 of problem I [help teams](/consultancy/) [diagnose and
-fix](/performance-audits/). [Let’s talk!](/contact/).
+fix](/performance-audits/). [Let’s talk!](/contact/)
 
 <style>
   .c-inp-simulator-controls {
