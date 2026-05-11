@@ -248,7 +248,8 @@ are space-separated quoted strings:
 No-Vary-Search: params=("utm_source" "utm_medium" "gclid")
 ```
 
-…not comma-separated values that you may be used to in most other places.
+…not comma-separated values that you may be used to in [most other
+places](/2019/03/cache-control-for-civilians/).
 
 That is a small detail, but one worth being aware of.
 
