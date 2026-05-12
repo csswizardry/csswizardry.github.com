@@ -274,6 +274,46 @@ existing ⚠️ iconography in the _Network_ panel’s title would be really hel
 here: not because anything is wrong per se, but because the browser may be doing
 something surprising unless you know to look for the `No-Vary-Search` header.
 
+## Unknown Params Should Bust Cache
+
+One of the trickier practical problems with `No-Vary-Search` is keeping it all
+in sync. The marketing team may start using a new `utm_*` parameter, or an
+ecommerce team may ship a new filter or facet, and unless that change is
+reflected in the `No-Vary-Search` header, caching behaviour may well differ from
+the ideal scenario.
+
+For that reason, the sensible and defensive default is to **always let new and
+unknown parameters vary the cache key**. In other words, if you do not yet know
+whether a parameter is meaningful, treat it as semantic until proven otherwise.
+
+Imagine marketing starts adding new params, e.g.:
+
+* `?utm_campaign_variant=summer-a`
+* `?utm_campaign_variant=summer-b`
+
+If those parameters are absent from `No-Vary-Search`, then yes, you will miss
+out on some caching opportunities, but that is no slower than the situation
+we’ve lived with all along. The worst case scenario is just the status quo:
+separate cache entries for URLs that are materially the same.
+
+On the flip side, imagine the ecommerce team introduces:
+
+* `?material=leather`
+* `?material=canvas`
+
+If _those_ parameters are absent from `No-Vary-Search`, that is by far the safer
+outcome. We’d much rather let them produce separate cache entries than
+accidentally fold distinct pages into one.
+
+This is the same basic principle I recently wrote about in [<cite>When All You
+Can Do Is All or Nothing, Do
+Nothing</cite>](/2026/03/when-all-you-can-do-is-all-or-nothing-do-nothing/):
+when the system lacks the context to be precise, the safer fallback is usually
+the less clever one. In this case, that means allowing unknown parameters to
+bust cache until someone has explicitly decided they are safe to ignore.
+
+Again, this is not wasteful—it’s just the same behaviour we’ve always had.
+
 ## Use It Carefully
 
 This header is only as good as the assumptions behind it: if two URLs really do
