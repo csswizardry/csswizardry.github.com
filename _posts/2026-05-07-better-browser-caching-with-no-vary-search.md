@@ -274,7 +274,7 @@ existing ⚠️ iconography in the _Network_ panel’s title would be really hel
 here: not because anything is wrong per se, but because the browser may be doing
 something surprising unless you know to look for the `No-Vary-Search` header.
 
-## Unknown Params Should Bust Cache
+## Unknown Params Should Bust the Cache
 
 One of the trickier practical problems with `No-Vary-Search` is keeping it all
 in sync. The marketing team may start using a new `utm_*` parameter, or an
