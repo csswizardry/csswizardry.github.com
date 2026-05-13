@@ -23,23 +23,25 @@ Sometimes, web performance really is a _them_ problem.
 
 It’s not our fault that someone is on a struggling connection, a weaker device,
 or a battery that is nearly dead, but it is still our responsibility to design
-around those scenarios where we can. That, to me, is where
-[Obs.js](/Obs.js/demo/) becomes truly powerful.
+around those scenarios where we can. To help, I built [Obs.js](/Obs.js/demo/),
+a tiny library which tells us a large amount about our users’ context.
 
 I released Obs.js in summer 2025, and while it’s been incredibly useful and
 insightful (instrumental, even) on several client projects, I haven’t really
 talked about it much since then. Today, I will.
 
-<small>If you want the more direct technical walkthrough, I’ve written that up in
-<a href="/2025/08/obs-js-context-aware-web-performance/"><cite>Obs.js: Context-Aware Web Performance for
-Everyone</cite></a>. This piece is
-the companion to that one. This is less about the API itself and more
-about why I think having this sort of signal available to us matters.</small>
+<small>If you want the more direct technical walkthrough, I’ve written that up
+in <a href="/2025/08/obs-js-context-aware-web-performance/"><cite>Obs.js:
+Context-Aware Web Performance for Everyone</cite></a>. This piece is the
+companion to that one. This is less about the API itself and more about why
+I think having this sort of signal available to us matters.</small>
 
 ## A Real Example
 
-I can’t share client work here, but I can share a small but very real example of
-my own.
+Obs.js reads browser signals about our users’ connection, device capability,
+battery status, and more. We can then use this information to adapt and tailor
+our front-end code to suit their conditions. And while I can’t share client work
+here, I can share a small but very real example of my own.
 
 On my [homepage](/), I use Obs.js to alter the masthead imagery depending on the
 browser’s inferred delivery mode. In the faster case, I use the full, high-res
@@ -54,7 +56,7 @@ image stack:
 }
 ```
 
-And if Obs.js decides the visitor is better served by a `lite` mode, I drop down
+And if Obs.js decides the visitor is better served by `lite` mode, I drop down
 to the [LQIP](/2023/09/the-ultimate-lqip-lcp-technique/)-only variant:
 
 ```css
@@ -65,7 +67,7 @@ to the [LQIP](/2023/09/the-ultimate-lqip-lcp-technique/)-only variant:
 }
 ```
 
-There is nothing massively sophisticated going on here, and that’s exactly why
+There’s nothing massively sophisticated going on here, and that’s exactly why
 I like it. I’m not trying to build some elaborate adaptive-delivery system; I’m
 just making a small adjustment in response to a signal from the browser.
 
@@ -74,10 +76,10 @@ code. Only one visitor gets the richer masthead stack, and another gets the
 LQIP-only version. The difference lies not in my application but in the
 _context_ in which it is being viewed.
 
-What I find particularly reassuring is that this is not creating some sort of
-second-rate experience for visitors in `lite` mode, and, happily, the numbers
-prove it: [SpeedCurve](https://www.speedcurve.com/) shows that across 3,777 page
-views in `lite` mode and 4,965 in `rich` mode, [Largest Contentful
+What I find reassuring is that this is not creating some sort of second-rate
+experience for visitors in `lite` mode, and, happily, the numbers prove it:
+[SpeedCurve](https://www.speedcurve.com/) shows that across 3,777 page views in
+`lite` mode and 4,965 in `rich` mode, [Largest Contentful
 Paint](/2022/03/optimising-largest-contentful-paint/) is only 80ms apart!
 Virtually identical experiences.
 
