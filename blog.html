@@ -10,11 +10,15 @@ permalink: /blog/
 
   {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
 
-  <p>I have written <b>{{ site.posts | size  }}</b> posts on this site, mostly
-  covering web performance and CSS architecture. Find a reverse-chronological list
-  of them below, or, at random, why not read
+  <p>This is the full archive of everything I’ve published here:
+  <b>{{ site.posts | size }}</b> articles on web performance, site-speed,
+  Core Web Vitals, caching, browser behaviour, and the occasional older CSS
+  piece.</p>
+
+  <p>If you’d rather start somewhere less chronological, try
   <a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a>
-  <small>(<time>{{ site.posts[random].date | date: "%Y" }}</time>)</small>?</p>
+  <small>(<time>{{ site.posts[random].date | date: "%Y" }}</time>)</small>
+  at random.</p>
 
   {% for post in site.posts %}
     {% assign currentDate = post.date | date: "%Y" %}
