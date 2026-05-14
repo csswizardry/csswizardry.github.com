@@ -100,18 +100,17 @@ lux: "Services"
 
 ## How Can I Help?
 
-<blockquote class="pull-quote  pull-quote--context-alt" id="quote:addy-osmani"><p>Harry’s tailored
-workshop was nothing short of fantastic—a real eye-opener, helping our team
-level up their scalable CSS architecture skills. The entire team left learning
-something new, and to say that what was covered will have a large impact on our
-work is an understatement. We can’t recommend him enough.</p>
-<b class="source pull-quote__source"><a href="https://twitter.com/addyosmani">Addy
-Osmani</a>, Google</b></blockquote>
+<blockquote class="pull-quote  pull-quote--context-alt" id="quote:rich-fogarty">
+<p>Harry’s focused, practical approach allowed us to implement significant
+changes which improved our user experience and overall performance
+dramatically. I recommend him wholeheartedly.</p>
+<b class="source pull-quote__source">Rich Fogarty, <a href="http://concreteplayground.com">Concrete Playground</a></b></blockquote>
 
-I help companies of all shapes and sizes to assess, identify, and fix site-speed
-issues. Through a combination of audits, consultancy, and training, let’s find
-out what web performance means for your business, and how to ensure we’re on top
-of things.
+I help organisations **find, fix, and prevent** web performance issues. Whether
+you need a forensic audit, hands-on consultancy, team training, or ongoing
+support, the goal is the same: **faster websites**, stronger Core Web Vitals,
+and **clearer commercial returns** from the work we do. **I’m the man for the
+job.**
 
 <a href="/contact/" class="btn  btn--positive">{% include cta.md %}</a>
 

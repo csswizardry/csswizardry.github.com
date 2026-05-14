@@ -54,16 +54,22 @@ case_studies:
     description: "Workshop, Consultancy"
 ---
 
-## Good Work for Good People
+## Selected Work
 
 <div class="layout">
-  <p class="layout__item  lap-and-up-one-half">In no particular order, a
-     series of case studies covering a selection of recent work for
-     consultancy, engineering, and workshop clients.</p
-   ><p class="layout__item  lap-and-up-one-half">Don’t have time to read full case studies?
-     Feel free to <a href="mailto:csswizardry@gmail.com?subject=Let%E2%80%99s%20work%20together">send
-     me an email</a> and we can talk directly.</p>
+  <p class="layout__item  lap-and-up-one-half">A selection of recent case
+     studies spanning audits, consultancy, engineering, and training. Together,
+     they show how web performance work lands in the real world: faster
+     websites, stronger Core Web Vitals, more confident teams, and clearer
+     commercial returns.</p
+   ><p class="layout__item  lap-and-up-one-half">Every project is different,
+     but the underlying themes tend to be familiar: a slow site, an unclear
+     starting point, and a team that knows things could be better. If that
+     sounds like you, <a href="mailto:csswizardry@gmail.com?subject=Let%E2%80%99s%20work%20together">drop
+     me a line</a>.</p>
 </div>
+
+<p><a href="/contact/" class="btn  btn--positive">Add Yourself to the List…</a></p>
 
 <style>
   {% include css/components.feature-list.css %}
