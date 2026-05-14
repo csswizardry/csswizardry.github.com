@@ -128,6 +128,8 @@ That is the crucial thing to understand: `No-Vary-Search` is not changing the
 URL, and it is not rewriting requests. It is changing how cache matching treats
 the differing query string.
 
+{% include cross-sell.html %}
+
 ## `No-Vary-Search` Syntaxes
 
 The header has a few useful, different forms.
@@ -337,6 +339,8 @@ It’s also worth noting that, at the time of writing, this is still an
 experimental feature and support is not yet universal, so I would treat it as
 a progressive enhancement rather than a foundational part of your caching
 strategy. That’s exactly what I’ve done with my site for now.
+
+{% include cross-sell.html %}
 
 ## A Nice Fit for Messy Real-World URLs
 

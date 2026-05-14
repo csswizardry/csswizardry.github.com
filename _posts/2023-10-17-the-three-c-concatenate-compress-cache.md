@@ -154,6 +154,8 @@ As I said before, we have a few more things to juggle all at once here. We need
 to learn a little bit more about the rest of our setup before we can make
 a final decision about our concatenation strategy.
 
+{% include cross-sell.html %}
+
 ## 🗜️ Compress
 
 The above tests were run with Brotli compression[^2]. What happens when we
@@ -365,6 +367,8 @@ and less about how it’s bundled.
 <small>As an example, I have a client with a 2.4MB main bundle (unfortunately
 that isn’t a typo) which takes less than 10ms to compile on a mid-tier
 mobile device.</small>
+
+{% include cross-sell.html %}
 
 ## My Advice
 

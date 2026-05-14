@@ -447,6 +447,8 @@ default, eliminating the need to perform connection and TLS back-to-back. It can
 also provide genuine seamless connection migration as devices traverse the
 internet.
 
+{% include cross-sell.html %}
+
 ## Avoid Incurring Latency
 
 Alright! They were all fairly opportunistic upgrades, but what happens if a) you
@@ -728,6 +730,8 @@ origin-wide policy (which is a feature, not a bug).
 
 Any latency that can’t be avoided, take the hit once and deal with it.
 Subsequent occurrences should be mooted by virtue of being cached.
+
+{% include cross-sell.html %}
 
 ## So, What Are My Options?
 

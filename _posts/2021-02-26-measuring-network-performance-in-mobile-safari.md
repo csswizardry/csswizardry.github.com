@@ -76,6 +76,8 @@ to be faster and are found in ‘faster regions’.
   <figcaption>Same page, same connection speed, same locale, same release year, different devices.</figcaption>
 </figure>
 
+{% include cross-sell.html %}
+
 ## <q>But, Can’t I Just Emulate?</q>
 
 No.
@@ -234,6 +236,8 @@ workflow onto the data provided by Safari.
 testing, I’m running a workshop with Smashing Magazine real soon, and that will
 make you DevTools experts. You can still [grab
 tickets](https://smashingconf.com/online-workshops/workshops/harry-roberts).</small>
+
+{% include cross-sell.html %}
 
 ## Why Bother?
 

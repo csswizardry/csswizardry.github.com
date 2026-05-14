@@ -117,6 +117,8 @@ containment—we don’t really need to give it much more attention than that.
 
 Let’s go through each of these in turn.
 
+{% include cross-sell.html %}
+
 ## Layout Containment
 
 `contain: layout` tells the browser that the internal layout of the
@@ -616,6 +618,8 @@ Containment usually does **not** belong on:
 * small inline elements like buttons or labels; or
 * elements whose whole purpose is to extend beyond their own bounds
   visually.
+
+{% include cross-sell.html %}
 
 ## Closing Thoughts
 

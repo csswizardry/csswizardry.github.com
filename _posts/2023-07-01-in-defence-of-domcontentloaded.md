@@ -78,6 +78,8 @@ impact the user experience in other ways, even if not directly.
 
 This is particularly true in the case of `DOMContentLoaded`.
 
+{% include cross-sell.html %}
+
 ## What Does It Actually Mean?
 
 **[The `DOMContentLoaded`
@@ -379,6 +381,8 @@ access to is `DOMContentLoaded` (or we aren’t already using something more
 suitable), then we do actually have some visibility on app state and
 availability. If you are using `defer` or `type=module`, then `DOMContentLoaded`
 might be more useful to you than you realise.
+
+{% include cross-sell.html %}
 
 ## Back to Work
 
