@@ -157,20 +157,6 @@ figure {
 
     > img {
       border-radius: $base-round;
-
-      @media (pointer: fine) {
-        cursor: zoom-in;
-        transition: transform 0.3333s;
-        transform-origin: center left;
-
-        &:active {
-          transform: scale(2);
-          z-index: 1;
-          position: relative;
-        }
-
-      }
-
     }
 
     &:has(img) {

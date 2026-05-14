@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang=en-gb>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, minimum-scale=1.0">
+
+  <title>&lt;mark&gt;</title>
+
+<style>
+html {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  padding: 1ch;
+  background: #222;
+  color: #eee;
+}
+mark {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: from-font #ffd048 wavy underline;
+  text-decoration-skip-ink: none;
+}
+
+  mark::before {
+    content: "👉\00a0";
+  }
+
+  mark::after {
+    content: "\00a0👈";
+  }
+</style>
+
+<h1><mark>Welcome!</mark> to <cite>Mark My Words</cite></i></h1>
+
+<p>Shakespeare&nbsp;wrote: <q>To be, or not to be: that is the <mark>question</mark>.</q></p>
+
+<p>The search for <mark>climate change</mark> returned 1,245 results.</p>
+
+<p>Please pay attention to the <mark>updated deadline</mark>: 30 September.</p>
+
+<p>In our test, the variable <code>x</code> unexpectedly held the value <mark>null</mark>.</p>
+
+<p>This recipe calls for <mark>unsalted butter</mark>, not the regular salted kind.</p>
+
+<p>My favourite colour is <mark>blue</mark>, though I sometimes lean towards green.</p>
+
+<p>The witness stated: ‘I saw him enter the room at <mark>around midnight</mark>.’</p>
+
+<p>Common misspelling: <s>definately</s> → <mark>definitely</mark>.</p>

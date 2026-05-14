@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #EMBEDS
+   ========================================================================== */
+
+/**
+ * Better styling for embedded Tweets
+ */
+
+.twitter-tweet-rendered {
+  margin-top: 0 !important;
+  margin-right: auto;
+  margin-bottom: $spacing-unit !important;
+  margin-left: auto;
+}
+
+/**
+ * YouTube and Spotify Embeds
+ */
+.c-youtube-embed,
+.c-spotify-embed {
+  display: block;
+  margin-right: auto;
+  margin-bottom: $spacing-unit;
+  margin-left: auto;
+}

@@ -1,0 +1,49 @@
+/* ==========================================================================
+   #PRINT
+   ========================================================================== */
+
+
+
+
+
+/* Hide stuff
+   ========================================================================== */
+
+.c-highlight--ribbon,
+.site-nav__list,
+.page-foot,
+[data-ui-component="Sub content"],
+[id="section:learn"],
+.c-newsletter {
+  display: none;
+}
+
+
+
+
+
+/* Tweak stuff
+   ========================================================================== */
+
+html {
+  background: none;
+  color: #000;
+}
+
+pre,
+.highlighter-rouge {
+  page-break-inside: avoid;
+}
+
+.s-post a[href]::after {
+  content: " (LINK: " attr(href) ")" !important;
+  display: inline;
+  background: none;
+  vertical-align: unset;
+  font-size: 75%;
+  color: #666;
+}
+
+.s-post a[href^="/"]::after {
+  content: " (LINK: https://csswizardry.com" attr(href) ")" !important;
+}

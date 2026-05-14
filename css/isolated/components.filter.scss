@@ -10,8 +10,6 @@
  */
 
 .c-filter {
-  display: flex;
-  flex-flow: wrap;
 }
 
   /**
@@ -23,7 +21,6 @@
   }
 
   .c-filter__links {
-    flex-basis: 100%;
     padding: $spacing-unit--small;
     margin-bottom: $spacing-unit;
     background-color: #fff;
@@ -91,7 +88,8 @@
     text-decoration: none;
   }
 
-  @each $item in attendee, conference, peer, client, css, performance, consultancy, training {
+  @each $item in attendee, conference, peer, client, css, performance, consultancy, training,
+                 ad-hoc, tactical, strategic, long-term, counsel {
 
     [id="tag:#{$item}"]:target ~ [data-tag~="#{$item}"] {
       @extend %_visible-state;
