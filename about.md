@@ -2,7 +2,7 @@
 layout: page
 title: About Harry Roberts
 page-class: page--about
-meta: "Harry Roberts is an award-winning Consultant Web Performance Engineer from the UK. He helps companies of all shapes and sizes find and fix site-speed issues."
+meta: "Harry Roberts is an independent web performance consultant based in Leeds, UK. He helps teams improve site speed, front-end performance, and Core Web Vitals."
 permalink: /about/
 lux: About
 ---
@@ -16,7 +16,7 @@ lux: About
       "@id": "{{ site.url }}/about/#webpage",
       "url": "{{ site.url }}/about/",
       "name": "About Harry Roberts",
-      "description": "Harry Roberts is an award-winning Consultant Web Performance Engineer from the UK.",
+      "description": "Harry Roberts is an independent web performance consultant based in Leeds, UK.",
       "isPartOf": {
         "@type": "WebSite",
         "@id": "{{ site.url }}/#website",
@@ -31,7 +31,7 @@ lux: About
       "name": "Harry Roberts",
       "url": "{{ site.url }}/about/",
       "image": "{{ site.url }}/img/content/about.jpg",
-      "jobTitle": "Consultant Web Performance Engineer",
+      "jobTitle": "Web Performance Consultant",
       "worksFor": { "@id": "{{ site.url }}/#org" },
       "sameAs": [
         "https://twitter.com/csswizardry",
@@ -42,9 +42,9 @@ lux: About
       "knowsAbout": [
         "Web performance",
         "Core Web Vitals",
-        "CSS architecture",
-        "Front-end performance",
-        "Site-speed optimisation"
+        "Site-speed optimisation",
+        "Performance engineering",
+        "Browser performance"
       ]
     },
     {
@@ -68,19 +68,23 @@ lux: About
 }
 </script>
 
-**Hi there, I’m Harry. I am an independent Consultant Web Performance Engineer
-based in Leeds, UK. I deliver high-end, bespoke consultancy to world-class,
-ambitious clients.**
+**Hi, I’m Harry.** I’m an independent web performance consultant based in
+Leeds, UK. I help teams understand how site-speed affects their business,
+improve Core Web Vitals, and work out where the **real bottlenecks** are.
 
-I am an invited [Google Developer
+I’m an invited [Google Developer
 Expert](https://developers.google.com/profile/u/csswizardry), a [Cloudinary
 Media Developer
 Expert](https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program#harry_roberts),
-an [award-winning
-developer](https://web.archive.org/web/20190630140300/https://thenetawards.com/previous-winners/),
-an [international speaker](/speaking/), and co-chair of the inimitable
-[<cite>performance.now()</cite>](https://perfnow.nl/), _the_ web performance
+an [international speaker](/speaking/), and co-chair of
+[<cite>performance.now()</cite>](https://perfnow.nl/), the web performance
 conference for professionals.
+
+Alongside client work, I have published **over [240 articles](/archive/)** on
+CSS Wizardry and delivered **over [150 conference talks](/speaking/)** on web
+performance, site-speed, and front-end engineering. Since 2009, my writing and
+teaching have **informed and improved** the work of individuals and teams
+around the world.
 
 <figure>
   <img src="/img/content/about.jpg"
@@ -102,16 +106,14 @@ conference for professionals.
 <ul class="c-nav-secondary  mt++" id="section:about">
   <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link  is-current">About</a></li>
   <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:why-css-wizardry" class="c-nav-secondary__link">Why CSS Wizardry?</a></li>
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
-With <span class="js-date">very many</span> years of professional experience,
-and over a decade working as an independent consultant, I have been trusted by
-the likes of the <b>United Nations</b>, <b>Google</b>, the <b>BBC</b>,
-<b>General Electric</b>, and [many more](/#section:clients). Through
-combinations of workshops, training, audits, development, and consultancy,
-I have helped my clients to build and scale resilient, performant front-ends for
-a variety of applications.
+With <span class="js-date">many</span> years of professional experience, and
+more than a decade working independently, I’ve been trusted by the likes of the
+<b>United Nations</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>,
+and [many more](/#section:clients).
 
 <script>
   const currentYear = new Date().getFullYear();
@@ -120,30 +122,42 @@ a variety of applications.
   document.querySelector('.js-date').textContent = yearsOfExperience;
 </script>
 
+My work tends to sit somewhere between **engineering, troubleshooting, and
+enablement**. In practice, that can mean auditing a site to uncover what is
+really holding it back, working alongside a team to get fixes shipped, or
+helping leadership understand what performance is costing them and where the
+strongest returns are likely to come from. More often than not, it means some
+mixture of all three.
+
+Through combinations of consultancy, performance audits, implementation
+support, and training, I help teams build **faster, more resilient
+websites** and stronger web performance practices around them.
+
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:tim-kadlec">
   <p>There is a short list of people I whole-heartedly recommend for detailed
   performance work and Harry is right there at the top.</p>
   <b class="source  pull-quote__source"><a href="https://timkadlec.com/">Tim Kadlec</a></b>
 </blockquote>
 
-Internationally recognised as a leading expert in CSS architecture and front-end
-performance, it is my job to help companies accomplish the **return on
-investment** that web performance efforts can bring, whether that is increasing
-conversions, improving engagement, or **growing revenues**. I thrive on being
-a business-focused engineer, equally comfortable in front of C-level executives
-as I am in front of a room full of developers.
+The two things I care most about are practicality and outcomes. Fast websites
+are good, but they are not the end in themselves. What matters is what that
+speed unlocks: better experiences, **healthier conversion rates**, stronger
+Core Web Vitals, and more confidence in the product itself.
 
-Most importantly, I am **available for hire**. My work spans many industries,
-countries, and formats. From troubleshooting and assessing existing performance
-issues, to training engineers to debug and avoid these common pitfalls in
-future; from **advising and consulting** with teams to get a handle on web
-performance issues, to everything else in between. If you need a faster website,
-we’ll get you a faster website.
+I work with companies of all shapes and sizes, across a range of industries,
+countries, and team structures. Sometimes that means a **forensic performance
+audit**; sometimes it means help fixing a specific issue, training for engineers,
+or a longer-term partnership that helps a team build performance thinking into
+the way it works. All of that is squarely in my wheelhouse.
 
-If you think I can help you—and I probably can—**say hello**: I enjoy working
-with companies of all shapes, sizes, locations, problems, needs, and budgets.
-I’m professional, but I’m very laid back—[drop me a line](/contact/), and we can
-see what fits.
+If you need a faster website, better Core Web Vitals, a detailed performance
+audit, or simply a clearer understanding of where your **biggest
+opportunities** lie, I can help. I’m comfortable in the weeds with engineers,
+and just as comfortable helping stakeholders understand the **commercial side**
+of web performance work.
+
+If that sounds useful, [say hello](/contact/). I’m professional, but pretty
+laid back, and I’m always happy to see whether there’s a good fit.
 
 _<img src="{{ site.cloudinary }}/img/content/signature.png" alt="Harry" fetchpriority="low" width="123" height="72" />_
 
@@ -157,6 +171,7 @@ me.</strong></a>
 <ul class="c-nav-secondary  mt++" id="section:colophon">
   <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link">About</a></li>
   <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link  is-current">Colophon</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:why-css-wizardry" class="c-nav-secondary__link">Why CSS Wizardry?</a></li>
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
@@ -176,15 +191,14 @@ a small footprint. This is then built into [ITCSS](https://skl.sh/harry), a CSS
 architecture of mine which is designed to aid the growth and maintainability of
 CSS projects.
 
-Your system font is used to give a familiar feel and to help improve
-performance. Responsive testing was made possible by
-[Finch](https://meetfinch.com/), an incredible tool for exposing local dev sites
-to the open internet. [SpeedCurve](https://speedcurve.com/) and
-[Treo](https://treo.sh/) help keep CSS Wizardry fast.
+The site is intentionally fairly lean. Your system font is used to give
+a familiar feel and to help improve performance.
+[SpeedCurve](https://speedcurve.com/) and [Treo](https://treo.sh/) help keep CSS
+Wizardry _fast_.
 
-The photograph used on the homepage’s masthead is of me speaking at
-[DotYork](http://dotyork.com/), and was taken by [Jim
-Poyner](http://jimpoyner.co.uk/).
+The photograph used on the homepage’s masthead is of me speaking at [Digital
+Labin](https://digital-labin.com/), and was taken by [Marin Cuk Vurnek of
+EVENTography](https://www.facebook.com/mcveventography/).
 
 CSS Wizardry’s roadmap and task list are viewable on [a public Trello
 board](https://trello.com/b/5vYEHwrP/csswizardry-com), and all of the code that
@@ -192,14 +206,36 @@ powers it can be found [on
 GitHub](https://github.com/csswizardry/csswizardry.github.com). Feel free to
 take a look round, but please don’t steal anything.
 
-I chose the name <i>CSS Wizardry</i> when I was 17 years old. It’s a decision
-that I’m having to live with…
+---
+
+<ul class="c-nav-secondary  mt++" id="section:why-css-wizardry">
+  <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link">About</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:why-css-wizardry" class="c-nav-secondary__link  is-current">Why CSS Wizardry?</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
+</ul>
+
+## Why CSS Wizardry?
+
+I chose the name <i>CSS Wizardry</i> when I was 17 years old. I had read [Andy
+Budd](https://www.andybudd.com/)’s [<cite>CSS
+Mastery</cite>](https://link.springer.com/book/10.1007/978-1-4302-0123-6),
+become mildly obsessed, and then very unoriginally registered `csswizardry.com`.
+
+I would not necessarily recommend letting teenagers pick their own domain
+names.
+
+While my early career really was rooted in CSS architecture and design
+systems—and so for a long time the name made perfect sense—my work has been much
+more squarely focused on web performance for the best part of a decade now. The
+name has stuck, and at this point I suspect it probably always will.
 
 ---
 
 <ul class="c-nav-secondary  mt++" id="section:interviews">
   <li class="c-nav-secondary__item"><a href="#section:about" class="c-nav-secondary__link">About</a></li>
   <li class="c-nav-secondary__item"><a href="#section:colophon" class="c-nav-secondary__link">Colophon</a></li>
+  <li class="c-nav-secondary__item"><a href="#section:why-css-wizardry" class="c-nav-secondary__link">Why CSS Wizardry?</a></li>
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link  is-current">Interviews</a></li>
 </ul>
 
