@@ -30,6 +30,8 @@ important to consider how we offer a reasonably pleasant experience while users
 are waiting for images to load. One solution to that problem is _Low-Quality
 Image Placeholders_.
 
+{% include promo.html %}
+
 ## Low-Quality Image Placeholders
 
 Low-Quality Image Placeholders are nothing new. [Guy
@@ -150,6 +152,8 @@ full-quality image. Poor quality images, particularly where ecommerce is
 concerned, are <a
 href="https://www.businesswire.com/news/home/20230517005168/en/Cloudinary-Global-E-Commerce-Survey-Reveals-Visual-Content-Can-Help-Reduce-Returns-by-One-Third">especially
 harmful</a>.</p>
+
+{% include promo.html %}
 
 ## Don’t Upscale Your LQIP
 

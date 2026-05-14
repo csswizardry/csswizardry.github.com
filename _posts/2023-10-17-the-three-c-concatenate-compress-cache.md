@@ -27,6 +27,8 @@ finished.
 
 Let’s go!
 
+{% include promo.html %}
+
 When serving and storing files on the web, there are a number of different
 things we need to take into consideration in order to balance ergonomics,
 performance, and effectiveness. In this post, I’m going to break these processes
@@ -409,6 +411,8 @@ For example:
 * **`carousel.js`** might be needed a few pages, but not enough to warrant
   bundling it into `app.js`: discrete changes to components shouldn’t require
   fetching all of `app.js` again.
+
+{% include promo.html %}
 
 ## The Future Is Brighter
 

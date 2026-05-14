@@ -30,6 +30,8 @@ out of other useful things.
 Recently, I’ve been playing similar games with the [Speculation Rules
 API](https://developer.chrome.com/docs/web-platform/prerender-pages).
 
+{% include promo.html %}
+
 ## Speculation Rules
 
 I don’t want to go super in-depth about the [Speculation Rules
@@ -137,6 +139,8 @@ generated](https://jekyllrb.com/) and served from
 traffic, so the risk of increased server load anywhere is minimal. For sites
 with lots of traffic and highly dynamic back-ends (database queries, API calls,
 insufficient caching), this approach might be a little too liberal.
+
+{% include promo.html %}
 
 ## A Multi-Tiered Approach
 

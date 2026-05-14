@@ -46,6 +46,8 @@ In this post, we’ll take a look at what CSS containment actually is, what each
 creating hard-to-debug side effects. We’ll also look at my most favourite
 real-world example of just how effective containment can be. Let’s go!
 
+{% include promo.html %}
+
 ## Why Containment Exists
 
 To understand containment, you don’t need to memorise the entire rendering
@@ -341,6 +343,8 @@ That combination is very powerful, but it comes with responsibilities:
 As a rule of thumb: do not reach for `strict` until you have a clear reason and
 a good understanding of what will happen.
 
+
+{% include promo.html %}
 
 ## Containment in the Real World
 

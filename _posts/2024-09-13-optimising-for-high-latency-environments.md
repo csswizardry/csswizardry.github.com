@@ -26,6 +26,8 @@ to the Chrome User Experience Report (CrUX). This gives fascinating insights
 into the network topography of our visitors, and how much we might be impacted
 by high latency regions.
 
+{% include promo.html %}
+
 ## What is RTT?
 
 Round-trip-time (RTT) is basically a measure of latency—how long did it take to
@@ -116,6 +118,8 @@ remember](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/).
 <figcaption>Interestingly, latency only accounts for a small proportion of my
 overall TTFB metric.</figcaption>
 </figure>
+
+{% include promo.html %}
 
 ## Improving Experiences for High Latency Environments
 

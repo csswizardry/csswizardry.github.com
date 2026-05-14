@@ -24,6 +24,8 @@ it is…
 _**Want actionable timings and not just trivia?** [Explore my consultancy
 services](/consultancy/)._
 
+{% include promo.html %}
+
 For many, many years now, performance engineers have been making a concerted
 effort to move away from technical metrics such as `Load`, and toward more
 user-facing, UX metrics such as [Speed
@@ -330,6 +332,8 @@ This demo below contains:
 </figure>
 
 Or take a look at [the live demo on Glitch](https://deep-bow-engine.glitch.me/).
+
+{% include promo.html %}
 
 ## A Better Way?
 

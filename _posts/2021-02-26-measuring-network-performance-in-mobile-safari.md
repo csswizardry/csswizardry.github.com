@@ -31,6 +31,8 @@ a completely different ballgame to Chrome, and not something many people tend to
 focus on. So, I’m going to share with you a handful of tips to make it a little
 easier should you need to do the same—and you should do the same.
 
+{% include promo.html %}
+
 ## Why iOS Gets Overlooked
 
 Google has a pretty tight grip on the tech industry: it makes by far the most
@@ -118,6 +120,8 @@ web performance on iOS. In fact, this is something that WebPageTest has improved
 upon and [written
 about](https://www.catchpoint.com/blog/m1-mac-mini-mobile-device-testing)
 only a month prior to this article you’re reading right now.
+
+{% include promo.html %}
 
 ## Testing in Safari’s DevTools
 

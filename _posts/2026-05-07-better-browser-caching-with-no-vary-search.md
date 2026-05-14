@@ -51,6 +51,8 @@ are the same page, just with different tracking baggage attached.
 And yet, to an HTTP cache, different query strings traditionally equate to
 completely different URLs, which means different cache entries. That is wasteful.
 
+{% include promo.html %}
+
 ## The Problem We’re Solving
 
 By default, caches are cautious. If the URL differs, the cache key differs, and,
@@ -313,6 +315,8 @@ the less clever one. In this case, that means allowing unknown parameters to
 bust cache until someone has explicitly decided they are safe to ignore.
 
 Again, this is not wasteful—it’s just the same behaviour we’ve always had.
+
+{% include promo.html %}
 
 ## Use It Carefully
 

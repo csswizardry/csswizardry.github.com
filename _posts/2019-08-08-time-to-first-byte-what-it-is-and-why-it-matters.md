@@ -40,6 +40,8 @@ an air of  [closing the stable door after the horse has
 bolted](https://www.collinsdictionary.com/dictionary/english/to-close-the-stable-door-after-the-horse-has-bolted).
 You really want to squish those TTFB bugs as soon as you can.
 
+{% include promo.html %}
+
 ## What is TTFB?
 
 <figure>
@@ -137,6 +139,8 @@ help you understand what exactly TTFB can entail. And with so much potentially
 taking place in our TTFB phase, it’s almost a miracle that websites load at all!
 
 So. Much. Stuff!
+
+{% include promo.html %}
 
 ## Demystifying TTFB
 
