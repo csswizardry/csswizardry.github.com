@@ -1,0 +1,59 @@
+- title: Home
+  url: /
+  slug: home
+
+- title: About
+  url: /about/
+  slug: about
+
+- title: Blog
+  url: /blog/
+  slug: blog
+  children:
+    - title: Supporters
+      url: /supporters/
+      slug: supporters
+
+- title: Services
+  url: /services/
+  slug: services
+  children:
+    - title: Performance Audits
+      url: /performance-audits/
+      slug: code-reviews
+    - title: Consultancy
+      url: /consultancy/
+      slug: consultancy
+    - title: Workshops and Training
+      url: /workshops/
+      slug: workshops
+    - title: Masterclasses
+      url: /masterclasses/
+      slug: masterclasses
+      badge: New
+    - title: Sentinel
+      url: /sentinel/
+      slug: sentinel
+    - title: Downloads
+      url: /downloads/
+      slug: downloads
+
+- title: Speaking
+  url: /speaking/
+  slug: speaking
+
+- title: Case Studies
+  url: /case-studies/
+  slug: case-studies
+  children:
+    - title: Testimonials
+      url: /testimonials/
+      slug: testimonials
+
+- title: Contact
+  url: /contact/
+  slug: contact
+  children:
+    - title: Newsletter
+      url: /newsletter/
+      slug: newsletter
