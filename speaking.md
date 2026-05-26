@@ -73,6 +73,21 @@ workshop](/workshops/). My workshops are renowned.
 
   {% include speaking.html %}
 
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/nl.png" alt width="16" height="11" loading="lazy" /> <a href="http://cssday.nl/">CSS Day</a>: Amsterdam (Netherlands), June 2026
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt width="16" height="11" loading="lazy" /> <a href="https://www.developersupnorth.co.uk/">Developers Up North</a>: Hull (England), June 2026
+  </li>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/nl.png" alt width="16" height="11" loading="lazy" /> <a href="https://fronteersconf.org/">Fronteers Dark Mode</a>: Dordrecht (Netherlands), October 2026
+  </li>
+
 </ol>
 
 
@@ -141,6 +156,17 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 </ul>
 
 ## Past Events
+
+### 2026
+
+<ol class="list-ui  mb" reversed>
+
+  <li>
+    <h4 class="list-ui__title">Talk</h4>
+    <img src="/img/icons/en.png" alt width="16" height="11" loading="lazy" /> <a href="https://webdayout.com/">Web Day Out</a>: Brighton (England), March 2026
+  </li>
+
+</ol>
 
 ### 2025
 
@@ -1007,6 +1033,7 @@ standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
   <li>
     <h4 class="list-ui__title">Talk &amp; Workshop</h4>
     <img src="/img/icons/nl.png" alt width="16" height="11" loading="lazy" /> <a href="http://fronteers.nl/congres/2013">Fronteers</a>: Amsterdam (Netherlands), October 2013
+
   </li>
 
   <li>
