@@ -32,7 +32,9 @@ out.
 What I found was both enlightening and calming, but it did shine a light on
 a gap in the way we tend to talk about modern web performance metrics.
 
-This is the story behind a new metric I like to call the _TBT Window_.
+This is the story behind a [new web performance
+metric](/2024/11/designing-and-evolving-a-new-performance-score/) I like to call
+the _TBT Window_.
 
 {% include promo.html %}
 
