@@ -4,7 +4,7 @@ title: "Front-End’s Missing Metric: The TBT Window"
 date: 2026-06-01 11:30:00
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2026/06/speedcurve-02.png"
-meta: "The TBT Window is the FCP-to-TTI interval used to calculate synthetic Total Blocking Time. If FCP or TTI moves, TBT can change even when long tasks do not."
+meta: "The TBT Window is the FCP-to-TTI interval used to calculate Total Blocking Time. If FCP or TTI moves, TBT can change even when long tasks do not."
 faq:
   - question: "What is the TBT Window?"
     answer: "The TBT Window is the interval between First Contentful Paint and Time to Interactive during which Total Blocking Time counts the blocking portions of long tasks."
@@ -12,6 +12,8 @@ faq:
     answer: "TBT can change if FCP or TTI moves, because that changes the measurement window in which long tasks are counted."
   - question: "Can genuine long-task regressions widen the TBT Window?"
     answer: "Yes. Because TTI depends on long-task quietness, more or later long tasks can push TTI later, widening the TBT Window and increasing TBT for legitimate reasons."
+  - question: "Is TTI still an important metric?"
+    answer: "TTI is no longer part of the Lighthouse performance score, but it still matters for TBT because it defines the end of the TBT Window."
   - question: "Why should synthetic tools show the TBT Window?"
     answer: "Plotting TBT Window alongside TBT helps developers tell the difference between more blocking work and a larger measurement window."
 ---
@@ -358,7 +360,7 @@ TTI leaves a lot to be desired—entirely unrelated and unexpected network
 activity can completely tank otherwise healthy pages.
 
 TTI may have left the Lighthouse score, but it has not entirely left your
-metrics. If you monitor synthetic TBT, keep an eye on your TBT Window as well.
+metrics. If you monitor TBT, keep an eye on your TBT Window as well.
 Otherwise, sooner or later, you will find yourself trying to find JavaScript
 that didn’t even change.
 
