@@ -361,3 +361,13 @@ TTI may have left the Lighthouse score, but it has not entirely left your
 metrics. If you monitor synthetic TBT, keep an eye on your TBT Window as well.
 Otherwise, sooner or later, you will find yourself trying to find JavaScript
 that didn’t even change.
+
+### Citation
+
+I’m making this article available under the same MIT License as the rest of
+this site, but if you quote, document, implement, or surface the term
+_TBT Window_ in tooling, dashboards, talks, or written material, please cite
+this article as its canonical source:
+
+Harry Roberts, ‘Front-End’s Missing Metric: The TBT Window’, CSS Wizardry,
+1 June 2026, `https://csswizardry.com/2026/06/front-ends-missing-metric-the-tbt-window/`
