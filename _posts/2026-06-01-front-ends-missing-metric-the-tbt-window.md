@@ -318,7 +318,7 @@ a larger surface area.
 This is no longer theoretical: synthetic tools can expose the TBT Window today,
 and I think they should. In fact, happily, after advising
 [Matt](https://www.mattzeunert.com/) on this exact topic, he added it to
-DebugBear which I believe makes them the first!
+[DebugBear](https://www.debugbear.com/) which I believe makes them the first!
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2026/06/debugbear.png" alt="DebugBear lab test dashboard showing Total Blocking Time over time and a highlighted Total Blocking Time Window card reporting 4.42 seconds between FCP and TTI." width="1500" height="908" loading="lazy">
