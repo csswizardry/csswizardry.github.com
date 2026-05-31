@@ -151,7 +151,7 @@ of main thread blocking activity remain mostly unchanged, but the sheer surface
 area being measured is substantially larger:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2026/06/wpt-02.png" alt="Zoomed WebPageTest main-thread comparison showing broadly similar blocking activity in both traces, but a much longer measured TBT Window after the regression." width="1500" height="489" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2026/06/wpt-02.png" alt="Zoomed WebPageTest main thread comparison showing broadly similar blocking activity in both traces, but a much longer measured TBT Window after the regression." width="1500" height="489" loading="lazy">
 <figcaption>The work did not suddenly appear; the metric simply had much more of the timeline available to count.</figcaption>
 </figure>
 
@@ -224,6 +224,17 @@ That means TTI can move because of long tasks, but it can also move because the
 page fails to reach that required network quietness. This is precisely what
 happened here—a network optimisation changed the network profile, TTI moved,
 and the TBT Window grew.
+
+Consider also the case of
+a [render-blocking](/2024/08/blocking-render-why-whould-you-do-that/)
+`<script>`. Any long tasks contained within it are, by definition, exempt from
+inclusion in TBT as they fall before FCP. The sensible and worthwhile
+optimisation to [make the script
+asynchronous](/2022/10/speeding-up-async-snippets/#the-new-syntax) will tangibly
+improve milestone timings, but now makes any of those long tasks candidates for
+inclusion in TBT. In other words, speeding up paint timings may negatively
+impact interactivity numbers despite no material change in the amount of main
+thread activity.
 
 The long tasks did not get worse, they just became visible to the metric.
 
@@ -339,7 +350,7 @@ already seeing.
 
 TBT is still a useful lab metric. It is not a replacement for [Interaction to
 Next Paint](https://web.dev/articles/inp/), and it is not a perfect model of
-real-user interactivity, but it remains a very practical way to spot main-thread
+real-user interactivity, but it remains a very practical way to spot main thread
 contention during page load.
 
 Unfortunately, however, I feel it being bounded by the arbitrary definitions of
