@@ -24,7 +24,8 @@ a team, but ultimately shed light on a tangible gap in our front-end tooling.
 For my client, from one [SpeedCurve](https://www.speedcurve.com/) synthetic test
 to the next, their Total Blocking Time (TBT) skyrocketed from **495&nbsp;ms** to
 **5,789&nbsp;ms**. That’s more than a tenfold increase! Naturally, it was all
-hands on deck to pin down the cause, and I was called in to help out.
+hands on deck to pin down the cause, and I was [called in](/contact/) to help
+out.
 
 What I found was both enlightening and calming, but it did shine a light on
 a gap in the way we tend to talk about modern web performance metrics.
@@ -42,6 +43,9 @@ more than 50&nbsp;ms—and counts only the blocking portion of each one.
 A 70&nbsp;ms task contributes 20&nbsp;ms to TBT; a 250&nbsp;ms task contributes
 200&nbsp;ms. The first 50&nbsp;ms of any task is effectively tolerated, and
 anything beyond that is considered blocking time.
+
+It is a lab-based proxy for the more real user-centric [Interaction to Next
+Paint](/inp-simulator/) field metric.
 
 This much is probably familiar, but the part that is often overlooked is that
 TBT is not an unbounded sum of all blocking work in the trace: it is a sum of
