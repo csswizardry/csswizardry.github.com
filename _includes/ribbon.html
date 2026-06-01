@@ -3,7 +3,7 @@
 <script>
 (() => {
 
-  const VARIANT_VERSION = 2;
+  const VARIANT_VERSION = 3;
   const STORAGE_KEY = `ribbonVariant_v${VARIANT_VERSION}`;
 
 
@@ -16,7 +16,7 @@
   ];
 
   const getVariantIndex = () => {
-    const stored = localStorage.getItem(STORAGE_KEY);
+    const stored = sessionStorage.getItem(STORAGE_KEY);
     const len = ribbonVariants.length;
 
     if (stored !== null) {
@@ -27,7 +27,7 @@
     }
 
     const i = Math.floor(Math.random() * len);
-    localStorage.setItem(STORAGE_KEY, i);
+    sessionStorage.setItem(STORAGE_KEY, i);
     return i;
   };
 
