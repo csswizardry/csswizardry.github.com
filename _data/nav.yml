@@ -10,6 +10,12 @@
   url: /blog/
   slug: blog
   children:
+    - title: Newsletter
+      url: /newsletter/
+      slug: newsletter
+    - title: Downloads
+      url: /downloads/
+      slug: downloads
     - title: Supporters
       url: /supporters/
       slug: supporters
@@ -24,6 +30,9 @@
     - title: Consultancy
       url: /consultancy/
       slug: consultancy
+    - title: Sentinel
+      url: /sentinel/
+      slug: sentinel
     - title: Workshops and Training
       url: /workshops/
       slug: workshops
@@ -31,12 +40,6 @@
       url: /masterclasses/
       slug: masterclasses
       badge: New
-    - title: Sentinel
-      url: /sentinel/
-      slug: sentinel
-    - title: Downloads
-      url: /downloads/
-      slug: downloads
 
 - title: Speaking
   url: /speaking/
@@ -53,7 +56,3 @@
 - title: Contact
   url: /contact/
   slug: contact
-  children:
-    - title: Newsletter
-      url: /newsletter/
-      slug: newsletter
