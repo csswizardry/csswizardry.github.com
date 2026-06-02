@@ -19,8 +19,8 @@ faq:
 ---
 
 An incident (and it _was_ an incident!) on a client project got me thinking
-about the metrics we use, and the importance of fully understanding their exact
-definitions. Bizarrely defined and often overlooked specs sent panic around
+about the metrics we use and the importance of fully understanding their exact
+definitions. Bizarrely-defined and oft-overlooked specs sent panic around
 a team, but ultimately shed light on a tangible gap in our front-end tooling.
 
 For my client, from one [SpeedCurve](https://www.speedcurve.com/) synthetic test
