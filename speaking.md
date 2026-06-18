@@ -75,11 +75,6 @@ workshop](/workshops/). My workshops are renowned.
 
   <li>
     <h4 class="list-ui__title">Talk</h4>
-    <img src="/img/icons/en.png" alt width="16" height="11" loading="lazy" /> <a href="https://www.developersupnorth.co.uk/">Developers Up North</a>: Hull (England), June 2026
-  </li>
-
-  <li>
-    <h4 class="list-ui__title">Talk</h4>
     <img src="/img/icons/nl.png" alt width="16" height="11" loading="lazy" /> <a href="https://fronteersconf.org/">Fronteers Dark Mode</a>: Dordrecht (Netherlands), October 2026
   </li>
 
