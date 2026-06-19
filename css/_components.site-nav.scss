@@ -475,7 +475,7 @@ $_logo-height:   64px;
  * View transitions for the nav indicator.
  */
 
-html:active-view-transition {
+html:active-view-transition .page-head:not(.page-head--masthead) {
 
   .site-nav__link {
 
