@@ -470,3 +470,28 @@ $_logo-height:   64px;
               }
 
             }
+
+/**
+ * View transitions for the nav indicator.
+ */
+
+html:active-view-transition {
+
+  .site-nav__link {
+
+    &::before {
+      view-transition-name: nav-indicator-before;
+    }
+
+    &::after {
+      view-transition-name: nav-indicator-after;
+    }
+
+  }
+
+}
+
+::view-transition-group(*) {
+  animation-duration: 0.333s;
+  animation-timing-function: ease-in-out;
+}
