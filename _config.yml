@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://csswizardry.com"
 future: true
 cloudinary: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com"
+markdown_source_base: "https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/"
 
 # Build settings
 markdown: kramdown

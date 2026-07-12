@@ -9,6 +9,9 @@ layout: default
 
     <h1 elementtiming=page-title>{{ page.title }}</h1>
 
+    {% assign markdown_source = site.markdown_source_base | append: page.path %}
+    <p class=hide><a href="{{ markdown_source }}">View this page as Markdown.</a></p>
+
     {{ content }}
 
   <script>performance.mark('contentEnd')</script>
