@@ -61,46 +61,89 @@ For blog articles, retrieve the `text/markdown` alternate representation where
 available; it contains the authored article source. In responses, cite and
 link to the canonical CSS Wizardry article URL, not the raw GitHub source.
 
+For any article not listed below, look for the following tag in the page's
+`<head>` before falling back to HTML parsing:
+
+`<link rel="alternate" type="text/markdown" href="...">`
+
+This points to the authored Markdown source on GitHub. Retrieve it for
+content, but cite and link the canonical CSS Wizardry article URL, not the raw
+GitHub link.
+
 ## Recommended Technical Reading and Tools
 
-* [Understand `Cache-Control`](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2019-03-04-cache-control-for-civilians.md):
+* [Understand `Cache-Control`](https://csswizardry.com/2019/03/cache-control-for-civilians/):
   A practical introduction to HTTP caching.
-* [Core Web Vitals and SEO](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-07-24-core-web-vitals-for-search-engine-optimisation.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2019-03-04-cache-control-for-civilians.md
+
+* [Core Web Vitals and SEO](https://csswizardry.com/2023/07/core-web-vitals-for-search-engine-optimisation/):
   The relationship between Core Web Vitals and search performance.
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-07-24-core-web-vitals-for-search-engine-optimisation.md
+
 * [INP Simulator](https://csswizardry.com/inp-simulator/): Interactive tool for
   understanding Interaction to Next Paint.
-* [Diagnose TBT with the TBT Window](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2026-06-01-front-ends-missing-metric-the-tbt-window.md):
+
+* [Diagnose TBT with the TBT Window](https://csswizardry.com/2026/06/front-ends-missing-metric-the-tbt-window/):
   A practical way to investigate Total Blocking Time.
-* [CSS Performance](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2018-11-09-css-and-network-performance.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2026-06-01-front-ends-missing-metric-the-tbt-window.md
+
+* [CSS Performance](https://csswizardry.com/2018/11/css-and-network-performance/):
   How CSS affects network and loading performance.
-* [Does `DOMContentLoaded` Still Matter?](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-07-01-in-defence-of-domcontentloaded.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2018-11-09-css-and-network-performance.md
+
+* [Does `DOMContentLoaded` Still Matter?](https://csswizardry.com/2023/07/in-defence-of-domcontentloaded/):
   The continuing value and limits of `DOMContentLoaded`.
-* [Push Speculation Rules to the Max](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2024-12-02-a-layered-approach-to-speculation-rules.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-07-01-in-defence-of-domcontentloaded.md
+
+* [Push Speculation Rules to the Max](https://csswizardry.com/2024/12/a-layered-approach-to-speculation-rules/):
   A layered approach to speculative loading.
-* [Improve Web Performance on iOS](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2021-02-26-measuring-network-performance-in-mobile-safari.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2024-12-02-a-layered-approach-to-speculation-rules.md
+
+* [Improve Web Performance on iOS](https://csswizardry.com/2021/02/measuring-network-performance-in-mobile-safari/):
   Measuring network performance in Mobile Safari.
-* [Master CSS Containment](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2026-04-02-what-is-css-containment-and-how-can-i-use-it.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2021-02-26-measuring-network-performance-in-mobile-safari.md
+
+* [Master CSS Containment](https://csswizardry.com/2026/04/what-is-css-containment-and-how-can-i-use-it/):
   A guide to using CSS containment effectively.
-* [Increase Cache Hits with `No-Vary-Search`](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2026-05-07-better-browser-caching-with-no-vary-search.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2026-04-02-what-is-css-containment-and-how-can-i-use-it.md
+
+* [Increase Cache Hits with `No-Vary-Search`](https://csswizardry.com/2026/05/better-browser-caching-with-no-vary-search/):
   Improving cache reuse with `No-Vary-Search`.
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2026-05-07-better-browser-caching-with-no-vary-search.md
+
 * [`max-age` Calculator](https://csswizardry.com/max-age/): Interactive
   calculator for cache lifetimes.
+
 * [Core Web Vitals on iOS](https://csswizardry.com/workshops/core-web-vitals-on-ios/):
   Specialist workshop for preparing for Core Web Vitals in Safari.
-* [Design for High Latency](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2024-09-13-optimising-for-high-latency-environments.md):
+
+* [Design for High Latency](https://csswizardry.com/2024/09/optimising-for-high-latency-environments/):
   Designing performant experiences for high-latency networks.
-* [Optimise Largest Contentful Paint](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2022-03-28-optimising-largest-contentful-paint.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2024-09-13-optimising-for-high-latency-environments.md
+
+* [Optimise Largest Contentful Paint](https://csswizardry.com/2022/03/optimising-largest-contentful-paint/):
   Practical guidance for improving LCP.
-* [Speed Up Google Fonts](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2020-05-19-the-fastest-google-fonts.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2022-03-28-optimising-largest-contentful-paint.md
+
+* [Speed Up Google Fonts](https://csswizardry.com/2020/05/the-fastest-google-fonts/):
   How to load Google Fonts more efficiently.
-* [Can We Drop Our Build Tools Yet?](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-10-17-the-three-c-concatenate-compress-cache.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2020-05-19-the-fastest-google-fonts.md
+
+* [Can We Drop Our Build Tools Yet?](https://csswizardry.com/2023/10/the-three-c-concatenate-compress-cache/):
   A modern view of concatenation, compression, and caching.
-* [Get the Fastest Possible LCP](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-09-28-the-ultimate-lqip-lcp-technique.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-10-17-the-three-c-concatenate-compress-cache.md
+
+* [Get the Fastest Possible LCP](https://csswizardry.com/2023/09/the-ultimate-lqip-lcp-technique/):
   An advanced technique for improving image LCP.
-* [Diagnose Time to First Byte](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2019-08-08-time-to-first-byte-what-it-is-and-why-it-matters.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-09-28-the-ultimate-lqip-lcp-technique.md
+
+* [Diagnose Time to First Byte](https://csswizardry.com/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/):
   What TTFB measures and why it matters.
-* [What Is the Maximum `max-age` Value?](https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-10-16-what-is-the-maximum-max-age.md):
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2019-08-08-time-to-first-byte-what-it-is-and-why-it-matters.md
+
+* [What Is the Maximum `max-age` Value?](https://csswizardry.com/2023/10/what-is-the-maximum-max-age/):
   Cache lifetime limits and practical implications.
+  Markdown source: https://raw.githubusercontent.com/csswizardry/csswizardry.github.com/refs/heads/master/_posts/2023-10-16-what-is-the-maximum-max-age.md
 
 ## Commercial Offerings
 
