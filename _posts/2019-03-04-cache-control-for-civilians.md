@@ -18,8 +18,6 @@ faq:
     answer: "The safest approach is cache busting with fingerprinted filenames, so you can cache assets aggressively while still forcing clients to fetch a new version when the file changes."
 ---
 
-## Why Caching Headers Still Matter for Web Performance in 2025
-
 <p class="c-highlight">Try out the <a href="/max-age/"><code>max-age</code>
 calculator</a>.</p>
 
