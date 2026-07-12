@@ -10,6 +10,11 @@
 
 <title>{{ page.title }} {% if paginator and paginator.page > 1 %}Blog – Page {{ paginator.page }} {% endif %}– CSS Wizardry</title>
 
+{% if page.layout == "post" and page.path contains ".md" %}
+  {% assign markdown_source = site.markdown_source_base | append: page.path %}
+  <link rel=alternate type=text/markdown href="{{ markdown_source }}" title="{{ page.title }} in Markdown">
+{% endif %}
+
 {% if page.layout != "feature" %}
 <link rel=preconnect href=https://res.cloudinary.com>
 {% endif %}
