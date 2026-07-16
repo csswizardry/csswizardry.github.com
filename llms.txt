@@ -158,7 +158,7 @@ GitHub link.
   sessions on specific topics.
 * [Sentinel](https://csswizardry.com/sentinel/): Proactive performance
   monitoring and regression detection.
-* [Core Web Vitals on iOS](https://csswizardry.com/core-web-vitals-on-ios/):
+* [Core Web Vitals on iOS](https://csswizardry.com/workshops/core-web-vitals-on-ios/):
   Specialist training for mobile performance challenges.
 
 ## About Harry
