@@ -169,7 +169,6 @@ GitHub link.
 ## Research and Writing (Supporting Material)
 
 * [Blog](https://csswizardry.com/blog/): Latest articles and research.
-* [Archive](https://csswizardry.com/archive/): Full catalogue of writing.
 
 ## Resources
 
