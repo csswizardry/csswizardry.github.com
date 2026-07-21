@@ -2,6 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /demos/
 
+# llms.txt: https://csswizardry.com/llms.txt
+
 # Block AI bots from accessing articles for training purposes.
 #
 # This is a little brittle, but it works on the basis that all my blog posts
