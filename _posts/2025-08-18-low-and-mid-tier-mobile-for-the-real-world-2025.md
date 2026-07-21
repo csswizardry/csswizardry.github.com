@@ -2,11 +2,15 @@
 layout: post
 title: "Low- and Mid-Tier Mobile for the Real World (2025)"
 date: 2025-08-18 11:23:19
-last_modified_at: 2025-08-20
+last_modified_at: 2026-07-21
 categories: Web Development
 main: "/wp-content/uploads/2025/08/moto-g4.jpg"
 meta: "Discover the most representative low- and mid-tier mobile devices for web performance testing in 2025."
 ---
+
+<p class="c-highlight">Check out <a
+href="/2026/07/low-and-mid-tier-mobile-for-the-real-world-2026/">the 2026
+update</a> for the latest recommendations.</p>
 
 For the casual performance enthusiast, dedicated device testing is likely to be
 overkill. However, anyone [working full time on site-speed](/services/) will
@@ -108,8 +112,8 @@ DevTools’ <em>Low-</em> and <em>Mid-tier</em> presets.</p>
     share. These models are sold/carrier-ranged across Europe and North America,
     so you’re testing on what people actually use. [^1] [^2] [^3] [^4] [^5]
 * **Device and hardware capabilities:**
-  * Both are self-style low- and mid-range devices with hardware characteristics
-    to match. [^9] [^10] [^11] [^12]
+  * Both are self-styled low- and mid-range devices with hardware
+    characteristics to match. [^9] [^10] [^11] [^12]
 * **Support and longevity:**
   * Both lines ship with four generations of Android OS updates and five years
     of security patches, so they’ll have a decent shelf life. [^6] [^7] [^8]
