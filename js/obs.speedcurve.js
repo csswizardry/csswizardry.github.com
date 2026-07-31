@@ -63,6 +63,7 @@
   }
 
   // Unattributed Navigation Overhead (UNO): TTFB not covered by named phases.
+  // https://calendar.perfplanet.com/2024/uno/
   const span = (end, start) => Math.max(0, end - start);
   const uno = Math.round(
     (navigation.responseStart - navigation.startTime) -
