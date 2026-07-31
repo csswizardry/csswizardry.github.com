@@ -11,11 +11,14 @@
   if (!lux || typeof lux.addData !== 'function') return;
 
   const obs = window.obs || Object.create(null);
+
   const navigation = performance.getEntriesByType('navigation')[0];
 
-  const addData = (key, value) => {
-    lux.addData(key, value);
-  };
+  const { connection } = navigator;
+
+  if (connection && 'rtt' in connection) {
+    lux.addData('rtt', connection.rtt);
+  }
 
   // Keys we intend to send. Keep in sync with obs.js
   const keys = [
@@ -38,7 +41,7 @@
 
   for (const key of keys) {
     if (Object.prototype.hasOwnProperty.call(obs, key)) {
-      addData(key, obs[key]);
+      lux.addData(key, obs[key]);
     }
   }
 
@@ -48,17 +51,17 @@
   const { transferSize } = navigation;
 
   if (transferSize === 0) {
-    addData('fromCache', true);
+    lux.addData('fromCache', true);
   } else if (transferSize > 0) {
-    addData('fromCache', false);
+    lux.addData('fromCache', false);
   }
 
   // Was the response from the back–forward cache?
   window.addEventListener('pageshow', (event) => {
-    addData('frombfCache', event.persisted);
+    lux.addData('frombfCache', event.persisted);
   });
 
-  addData(
+  lux.addData(
     'fromPrerender',
     document.prerendering || navigation.activationStart > 0
   );
@@ -75,14 +78,14 @@
   );
 
   if (Number.isFinite(uno) && uno >= 0) {
-    addData('uno', uno);
+    lux.addData('uno', uno);
   }
 
   // Time to Last Byte (TTLB)
   if (navigation.responseEnd && navigation.startTime >= 0) {
     const ttlb = Math.round(navigation.responseEnd - navigation.startTime);
     if (Number.isFinite(ttlb) && ttlb >= 0) {
-      addData('ttlb', ttlb);
+      lux.addData('ttlb', ttlb);
     }
   }
 
@@ -92,7 +95,7 @@
   if (headEnd && navigation.startTime >= 0) {
     const fpp = Math.round(headEnd.startTime - navigation.startTime);
     if (Number.isFinite(fpp) && fpp >= 0) {
-      addData('fpp', fpp);
+      lux.addData('fpp', fpp);
     }
   }
 })();
