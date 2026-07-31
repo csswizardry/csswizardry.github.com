@@ -58,9 +58,10 @@
     addData('frombfCache', event.persisted);
   });
 
-  if (!document.prerendering) {
-    addData('fromPrerender', navigation.activationStart > 0);
-  }
+  addData(
+    'fromPrerender',
+    document.prerendering || navigation.activationStart > 0
+  );
 
   // Unattributed Navigation Overhead (UNO): TTFB not covered by named phases.
   // https://calendar.perfplanet.com/2024/uno/
