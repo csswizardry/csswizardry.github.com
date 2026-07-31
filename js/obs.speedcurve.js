@@ -62,6 +62,20 @@
     addData('fromPrerender', navigation.activationStart > 0);
   }
 
+  // Unattributed Navigation Overhead (UNO): TTFB not covered by named phases.
+  const span = (end, start) => Math.max(0, end - start);
+  const uno = Math.round(
+    (navigation.responseStart - navigation.startTime) -
+      span(navigation.redirectEnd, navigation.redirectStart) -
+      span(navigation.domainLookupEnd, navigation.domainLookupStart) -
+      span(navigation.connectEnd, navigation.connectStart) -
+      span(navigation.responseStart, navigation.requestStart)
+  );
+
+  if (Number.isFinite(uno) && uno >= 0) {
+    addData('uno', uno);
+  }
+
   // Time to Last Byte (TTLB)
   if (navigation.responseEnd && navigation.startTime >= 0) {
     const ttlb = Math.round(navigation.responseEnd - navigation.startTime);
