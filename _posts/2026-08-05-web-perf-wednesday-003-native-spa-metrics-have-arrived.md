@@ -133,3 +133,10 @@ to explain future movements rather than guess at them.
 The goal is richer SPA evidence without sacrificing the history or trust
 already invested in the current reporting. If your dashboards are about to
 change population underneath you, [get in touch](/contact/).
+
+### Previous Editions
+
+* [Web-Perf Wednesday 002 – The Metrics Don’t Tell the Whole
+  Story](/2026/07/web-perf-wednesday-002-the-metrics-dont-tell-the-whole-story/)
+* [Web-Perf Wednesday 001 – SPAs Are Finally Becoming
+  Measurable](/2026/07/web-perf-wednesday-001-spas-are-finally-becoming-measurable/)

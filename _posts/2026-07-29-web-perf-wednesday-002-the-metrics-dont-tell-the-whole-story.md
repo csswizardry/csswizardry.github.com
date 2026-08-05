@@ -120,3 +120,8 @@ the lifetime of the page.
 More data is useful only when it protects the decision made from it. If your
 numbers are accurate but their meaning is still uncertain, [get in
 touch](/contact/).
+
+### Previous Editions
+
+* [Web-Perf Wednesday 001 – SPAs Are Finally Becoming
+  Measurable](/2026/07/web-perf-wednesday-001-spas-are-finally-becoming-measurable/)
