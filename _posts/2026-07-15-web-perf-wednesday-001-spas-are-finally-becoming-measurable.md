@@ -7,6 +7,20 @@ main: ""
 meta: "Chrome 151 brings native soft-navigation measurement closer, alongside better redirect timing, revealing CrUX data, and more trustworthy browser tooling."
 ---
 
+## Welcome to Web-Perf Wednesdays!
+
+For a while now, I’ve been curating my own weekly web performance and web
+platform reading list through [RSS](/feed.xml), [newsletters](/newsletter/), and
+a ChatGPT scheduled task. I decided to write my favourite bits up into
+<cite>Web-Perf Wednesdays</cite>, a curated pick of the most pertinent and
+interesting developments that week.
+
+<small>The digest is curated on a Monday and written up in time for the
+Wednesday. Some drift may appear in the interim which I will endeavour to
+correct, but please forgive any slightly-off timings.</small>
+
+## This Week
+
 This week’s most consequential performance news is not a faster API or a new
 optimisation trick. It is a change in what the browser can see. Chrome is
 getting ready to treat certain Single-Page Application (SPA) route changes as
