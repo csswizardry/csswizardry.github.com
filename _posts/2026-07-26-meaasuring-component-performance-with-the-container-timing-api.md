@@ -19,9 +19,10 @@ faq:
 ---
 
 The browser is very good at telling us when _a page_ looked ready. [Largest
-Contentful Paint](https://web.dev/articles/lcp), for example, gives us a useful
-high-level signal for the point at which the largest thing in the viewport was
-rendered. It is much less good at telling us when _our things_ looked ready.
+Contentful Paint](/2022/03/optimising-largest-contentful-paint/), for example,
+gives us a useful high-level signal for the point at which the largest thing in
+the viewport was rendered. It is much less good at telling us when _our things_
+looked ready.
 
 An ecommerce site might care when its product gallery and buy box rendered;
 a publisher might care about its lead story; a financial application might care
@@ -44,26 +45,26 @@ currently available in a [Chrome origin
 trial](https://developer.chrome.com/origintrials/) and is one of the more
 interesting additions to the performance timeline in a while.
 
-The syntax is very simple. The implications are more interesting.
+And while the syntax is very simple, the implications are far more interesting.
 
 {% include promo.html %}
 
 ## What Problem Does Container Timing Solve?
 
 Most of the web performance metrics that we use day to day are necessarily
-generic. The browser can tell us when the first content appeared, which
+pretty generic. The browser can tell us when the first content appeared, which
 contentful element was largest, whether the page shifted around, or how long an
-interaction took. It cannot know which parts of our product matter most to our
-users.
+interaction took, but it can’t know which parts of our product matter most to
+our users.
 
-This is the distinction I was getting at when I wrote [<cite>Measure What You
+This is partly the point I was getting at when I wrote [<cite>Measure What You
 Impact, Not What You
 Influence</cite>](/2022/08/measure-what-you-impact-not-what-you-influence/).
-Standard metrics are enormously valuable, but they describe things that our
-work _influences_. Product-specific metrics describe the things that our teams
+Standard metrics are enormously valuable, but they describe things that our work
+_influences_. Product-specific metrics describe the things that our teams
 actually build and _impact_.
 
-Before Container Timing, we broadly had three choices:
+Before Container Timing, we had three broad choices:
 
 * use a generic milestone such as LCP and hope the important component happened
   to be represented by it;
@@ -99,8 +100,8 @@ We begin by adding a `containertiming` attribute to the root of the component or
 region that we want to observe:
 
 ```html
-<section containertiming="product-summary">
-  <img src="/products/boots.jpg" alt="A pair of brown walking boots">
+<section containertiming=product-summary>
+  <img src=/products/boots.jpg alt="A pair of brown walking boots">
   <h1>Ridgeline Walking Boots</h1>
   <p>£129</p>
   <p>In stock</p>
@@ -157,9 +158,9 @@ The precise [processing model](https://wicg.github.io/container-timing/#processi
 is more involved, but the practical shape is straightforward. Imagine our
 product summary renders in three stages:
 
-1. at 480&nbsp;ms, its title and price appear;
-2. at 710&nbsp;ms, the main product image appears; and
-3. at 940&nbsp;ms, stock status and the call to action arrive.
+1. **at 480&nbsp;ms**, its title and price appear;
+2. **at 710&nbsp;ms**, the main product image appears; and
+3. **at 940&nbsp;ms**, stock status and the call to action arrive.
 
 Those figures are illustrative, but we would expect a series of entries whose
 `firstRenderTime` remains at roughly 480&nbsp;ms while `startTime` and `size`
@@ -212,9 +213,7 @@ during load need particularly careful interpretation.
 ## A Container Is Never Necessarily ‘Finished’
 
 Here is the most important thing to understand about Container Timing:
-**the browser does not tell us when the container is complete**.
-
-It cannot.
+**the browser does not tell us when the container is complete**. It can’t do.
 
 A news feed could append another story. A stock widget could receive a delayed
 market status. A product card could add a promotion after a personalisation
@@ -300,9 +299,9 @@ deliberately [reuses much of the same machinery](https://blogs.igalia.com/dape/2
 The APIs look related because they are related:
 
 ```html
-<img elementtiming="product-image" ...>
+<img elementtiming=product-image ...>
 
-<section containertiming="product-summary">
+<section containertiming=product-summary>
   ...
 </section>
 ```
@@ -413,15 +412,15 @@ A product detail page’s LCP is often its main image, but customers need rather
 more than a photograph before they can buy anything.
 
 ```html
-<section containertiming="product-summary">
-  <div class="product-gallery">
+<section containertiming=product-summary>
+  <div class=product-gallery>
     ...
   </div>
 
-  <div class="product-details">
+  <div class=product-details>
     <h1>Ridgeline Walking Boots</h1>
-    <p class="price">£129</p>
-    <p class="availability">In stock</p>
+    <p class=price>£129</p>
+    <p class=availability>In stock</p>
     <button>Add to basket</button>
   </div>
 
@@ -594,7 +593,7 @@ To enable it for real visitors:
    or in the document `<head>`:
 
    ```html
-   <meta http-equiv="origin-trial" content="TOKEN_GOES_HERE">
+   <meta http-equiv=origin-trial content=TOKEN_GOES_HERE>
    ```
 
 3. add `containertiming` to the important regions in the server-rendered HTML;
@@ -698,4 +697,4 @@ boundary, then lets us apply our own domain knowledge.
 Element Timing asks when one thing rendered. Container Timing lets us ask how
 the thing our user actually recognises came together.
 
-That is a materially larger—and philosophically much more interesting—step.
+That is a materially larger — and philosophically much more interesting — step.
