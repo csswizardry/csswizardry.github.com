@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Web-Perf Wednesday 001 – SPAs Are Finally Becoming Measurable"
-date: 2026-07-15 00:00:00 +0100
+date: 2026-07-15 02:00:00 +0000
 categories: Web Development
 main: ""
 meta: "Chrome 151 brings native soft-navigation measurement closer, alongside better redirect timing, revealing CrUX data, and more trustworthy browser tooling."
