@@ -7,7 +7,8 @@ main: ""
 meta: "CrUX’s seasonal decline, Safari 27’s user-experience fixes, richer INP attribution, and long-session third-party costs all demand better interpretation."
 ---
 
-The web’s performance data got both more useful and more awkward this week. CrUX
+Quite a lot has changed since the first <cite>Web-Perf Wednesday</cite>, although
+the web’s performance data has become both more useful and more awkward. CrUX
 moved backwards again, Safari described browser fixes that may improve how pages
 feel without repairing their underlying architecture, and monitoring tools
 continued to expose more detail than many teams know how to use. The common
@@ -121,7 +122,4 @@ More data is useful only when it protects the decision made from it. If your
 numbers are accurate but their meaning is still uncertain, [get in
 touch](/contact/).
 
-### Previous Editions
-
-* [Web-Perf Wednesday 001 – SPAs Are Finally Becoming
-  Measurable](/2026/07/web-perf-wednesday-001-spas-are-finally-becoming-measurable/)
+{% include web-perf-wednesdays.md %}

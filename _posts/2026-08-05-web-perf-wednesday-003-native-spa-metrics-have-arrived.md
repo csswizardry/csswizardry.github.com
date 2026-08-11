@@ -7,14 +7,13 @@ main: ""
 meta: "Chrome 151 and web-vitals v6 bring native SPA measurement into production, while new browser controls reshape device and third-party governance."
 ---
 
-The [SPA measurement
-story](/2026/07/web-perf-wednesday-001-spas-are-finally-becoming-measurable/)
-has moved quickly. What was an origin trial in spring and a beta feature in July
-is now arriving in stable Chrome, with Google’s reference `web-vitals` library
-ready to consume it. That closes a genuine monitoring gap, but it also changes
-the population behind some very familiar field metrics. More data is not
-automatically more truth if the migration now quietly rewrites what the
-dashboard means.
+A lot has changed since last week, particularly in the [SPA measurement
+story](/2026/07/web-perf-wednesday-001-spas-are-finally-becoming-measurable/).
+What was an origin trial in spring and a beta feature in July is now arriving in
+stable Chrome, with Google’s reference `web-vitals` library ready to consume it.
+That closes a genuine monitoring gap, but it also changes the population behind
+some very familiar field metrics. More data is not automatically more truth if
+the migration now quietly rewrites what the dashboard means.
 
 ## Native SPA Metrics Need a Deliberate Migration
 
@@ -134,9 +133,4 @@ The goal is richer SPA evidence without sacrificing the history or trust
 already invested in the current reporting. If your dashboards are about to
 change population underneath you, [get in touch](/contact/).
 
-### Previous Editions
-
-* [Web-Perf Wednesday 002 – The Metrics Don’t Tell the Whole
-  Story](/2026/07/web-perf-wednesday-002-the-metrics-dont-tell-the-whole-story/)
-* [Web-Perf Wednesday 001 – SPAs Are Finally Becoming
-  Measurable](/2026/07/web-perf-wednesday-001-spas-are-finally-becoming-measurable/)
+{% include web-perf-wednesdays.md %}

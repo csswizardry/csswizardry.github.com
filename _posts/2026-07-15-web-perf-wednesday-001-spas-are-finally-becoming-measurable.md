@@ -7,26 +7,14 @@ main: ""
 meta: "Chrome 151 brings native soft-navigation measurement closer, alongside better redirect timing, revealing CrUX data, and more trustworthy browser tooling."
 ---
 
-## Welcome to Web-Perf Wednesdays!
-
-For a while now, I’ve been curating my own weekly web performance and web
-platform reading list through [RSS](/feed.xml), [newsletters](/newsletter/), and
-a ChatGPT scheduled task. I decided to write my favourite bits up into
-<cite>Web-Perf Wednesdays</cite>, a curated pick of the most pertinent and
-interesting developments that week.
-
-<small>The digest is curated on a Monday and written up in time for the
-Wednesday. Some drift may appear in the interim which I will endeavour to
-correct, but please forgive any slightly-off timings.</small>
-
-## This Week
-
-This week’s most consequential performance news is not a faster API or a new
-optimisation trick. It is a change in what the browser can see. Chrome is
-getting ready to treat certain Single-Page Application (SPA) route changes as
-measurable performance events, which begins to close one of field monitoring’s
-longest-standing blind spots. Better visibility is welcome, but the transition
-will make otherwise familiar dashboards surprisingly easy to misread already.
+A lot has changed in web performance this week, which feels like a fitting point
+at which to start <cite>Web-Perf Wednesdays</cite>. The most consequential news
+is not a faster API or a new optimisation trick, but a change in what the
+browser can see. Chrome is getting ready to treat certain Single-Page
+Application (SPA) route changes as measurable performance events, beginning to
+close one of field monitoring’s longest-standing blind spots. Better visibility
+is welcome, but it will make otherwise familiar dashboards surprisingly easy
+to misread.
 
 ## Chrome 151 Makes SPA Journeys Measurable
 
@@ -138,3 +126,5 @@ and leave you with reporting that remains intelligible through the migration.
 The useful outcome is not simply ‘support for Chrome 151’. It is confidence
 that a movement in LCP, CLS, or INP still means what everyone thinks it means.
 If that is a problem you are about to inherit, [get in touch](/contact/).
+
+{% include web-perf-wednesdays.md %}
