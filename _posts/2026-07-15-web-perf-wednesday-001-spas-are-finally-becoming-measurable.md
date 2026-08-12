@@ -10,7 +10,7 @@ meta: "Chrome 151 brings native soft-navigation measurement closer, alongside be
 A lot has changed in web performance this week, which feels like a fitting point
 at which to start <cite>Web-Perf Wednesdays</cite>. The most consequential news
 is not a faster API or a new optimisation trick, but a change in what the
-browser can see. Chrome is getting ready to treat certain Single-Page
+browser can see: Chrome is getting ready to treat certain Single-Page
 Application (SPA) route changes as measurable performance events, beginning to
 close one of field monitoring’s longest-standing blind spots. Better visibility
 is welcome, but it will make otherwise familiar dashboards surprisingly easy
@@ -26,12 +26,12 @@ change, establish a new timing origin, and report contentful paints associated
 with the updated view.
 
 This matters because the browser and the user have traditionally had very
-different ideas of what constitutes a page. A browser sees an SPA as one long
-document; the person using it sees a product listing, a product page, a basket,
-and a checkout. Most RUM tools bridge that gap with framework hooks, custom
-timers, mutation heuristics, or proprietary virtual-page APIs. Those approaches
-can be useful, but they do not provide one shared definition that every site
-and monitoring product can rely on.
+different ideas of what constitutes a page load. A browser sees an SPA as one
+long-lived document; the person using it sees a product listing, a product page,
+a basket, and a checkout. Most RUM tools bridge that gap with framework hooks,
+custom timers, mutation heuristics, or proprietary virtual-page APIs. Those
+approaches can be useful, but they do not provide one shared definition that
+every site and monitoring product can rely on.
 
 Chrome’s proposed definition is deliberately based on observable user
 experience. A qualifying soft navigation needs a user interaction, a visible
