@@ -48,7 +48,7 @@ masterclasses:
     description: "Building a performance culture becomes a lot easier if you have the right tools and processes in place. Thankfully, I have helped dozens of companies set up effective, robust, and pragmatic monitoring to make keeping on top of site-speed a breeze."
   - title: "Caching Strategies for Everyone"
     image: "caching"
-    intro: "Stuggling to tell your <code>max-age</code> from your <code>Expires</code>? Your <code>Last-Modified</code> from your <code>Etag</code>? Not any more!"
+    intro: "Struggling to tell your <code>max-age</code> from your <code>Expires</code>? Your <code>Last-Modified</code> from your <code>Etag</code>? Not any more!"
     description: "Caching is a confusing and often contradictory subject. Which headers do we need? How long can we cache something for? How do we guarantee something will never get cached at all?! In this Masterclass, we’ll look at the different options we have available—and what they do—as well as suitable strategies for our own projects."
   - title: "LCP Deep-Dive"
     image: "lcp"
@@ -69,14 +69,20 @@ masterclasses:
   - title: "Memory Management: The Basics"
     image: "memory"
     intro: "Memory isn’t something we tend to look at much in a world of Core Web Vitals, but it’s still incredibly important for users on low-powered devices."
-    description: "Lots of things use memory, but which ones are slowing us down? Is it a memory leak? DOM size? Something else? Tooling around memory usage is pretty deep and complex, so this Masterclass helps to demistify it in order to detect and debug memory issues in our applications."
+    description: "Lots of things use memory, but which ones are slowing us down? Is it a memory leak? DOM size? Something else? Tooling around memory usage is pretty deep and complex, so this Masterclass helps to demystify it in order to detect and debug memory issues in our applications."
   - title: "Ask Me Anything!"
     image: "ama"
     price: "500"
     intro: "If you just have questions, then you’re looking for a <i>Consultation</i>."
-    description: "For ligh-touch, general advice I already have a consultation service available. You can book one immediately!"
+    description: "For light-touch, general advice I already have a consultation service available. You can book one immediately!"
     conjunction: "an"
 ---
+
+<style>
+.btn {
+
+}
+</style>
 
 ## Level up Your Whole Team With <i>Masterclasses</i>
 
@@ -92,7 +98,7 @@ from zero to expert on the topic of your choice.
 
 - - -
 
-**masterclass** /ˈmɑːstəklɑːs/  
+**masterclass** /ˈmɑː·stə·klɑːs/  
 <small><i>noun</i></small>  
 A class given by an expert to highly talented students.
 
