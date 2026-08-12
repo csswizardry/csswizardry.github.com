@@ -2,10 +2,11 @@
 
   <summary>How much will our web performance project cost?</summary>
 
-  <p>You’d be surprised. From $1,000 to $100,000, there’s always something we’ll
-  be able to do to help solve your problem. My approach is to design the
-  engagement around you, so your best option is to <a href="/contact/">get in
-  touch</a> and let me work something out.</p>
+  <p>Most audit and consultancy engagements are five-figure projects. For
+  contained problems or smaller commitments,
+  <a href="https://csswizardry.com/consultancy/#consultations">consultations</a>
+  and <a href="https://csswizardry.com/masterclasses/">masterclasses</a> offer
+  more focused alternatives.</p>
 
 </details>
 
