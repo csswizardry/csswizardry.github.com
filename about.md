@@ -23,7 +23,9 @@ Alongside client work, I have published **over [240 articles](/archive/)** on
 CSS Wizardry and delivered **over [150 conference talks](/speaking/)** on web
 performance, site-speed, and front-end engineering. Since 2009, my writing and
 teaching have **informed and improved** the work of individuals and teams
-around the world.
+around the world. Heard enough?
+
+<a href="/contact/" class="btn  btn--full  btn--positive">Hire me!</a>
 
 <figure>
   <img src="/img/content/about.jpg"
