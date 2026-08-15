@@ -10,9 +10,9 @@ lux: "Speaking"
 
 **Practical insights, delivered.**
 
-I’ve spoken at a lot of conferences. [Over one-hundred](#section:past-events) of
-them. Sharing knowledge is one of my key motivations, and is a large part of why
-I chose to become a consultant in the first place—I love to help.
+I’ve spoken at [over one-hundred conferences](#section:past-events). Sharing
+practical knowledge is one of my key motivations. It’s also a large part of why
+I became a consultant in the first place — I love to help.
 
 <figure>
   <img src="/img/content/perfnow-2024.jpg"
@@ -28,17 +28,17 @@ I chose to become a consultant in the first place—I love to help.
 href="https://richardtheemling.com/">Richard Theemling</a>.</figcaption>
 </figure>
 
-From local meetups to international events, I am an enthusiastic, engaging, and
-professional speaker. My focus is on web performance and site-speed
-optimisation, from both a technical- and business-perspective.
+From local meetups to international events, I’m an enthusiastic, engaging, and
+professional speaker. I cover web performance and site-speed optimisation from
+both technical and business perspectives.
 
-**Want to see where I’m speaking next?** I have a fairly full international
-[schedule](#section:upcoming-events), so hopefully I’ll be in a city near you
-very soon.
+**Want to see where I’m speaking next?** My international
+[schedule](#section:upcoming-events) is fairly full. Hopefully, I’ll be in a city
+near you soon.
 
 **Want me to speak at your event?** I’ll probably say yes. I usually say yes.
-Take a look at [my preliminary questions ](#section:request)and then [drop me
-a line](/contact/).
+Read [my preliminary questions](#section:request), then [drop me a
+line](/contact/).
 
 **Am I any good?** Check this keynote from 2019’s [performance.now()
 conference](https://perfnow.nl/). It’s a good representation of me and my style.
@@ -47,13 +47,12 @@ conference](https://perfnow.nl/). It’s a good representation of me and my styl
   <iframe class="c-video__media" src="https://www.youtube.com/embed/cXLOIIJ1UaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </figure>
 
-As well as public speaking engagements, I am available to deliver talks
-in-house, directly to you and your colleagues. This means we can tailor the
-content to provide the most focused and valuable talk possible. [Contact
-me](/contact/) to talk about possibilities.
+I also deliver private, in-house talks directly to you and your colleagues. We
+can tailor the content to make the talk as focused and valuable as possible.
+[Contact me](/contact/) to discuss the possibilities.
 
-Looking for something a little more involved? You might want [a
-workshop](/workshops/). My workshops are renowned.
+Looking for something more involved? Consider [a workshop](/workshops/). My
+workshops are renowned.
 
 
 
@@ -90,46 +89,48 @@ workshop](/workshops/). My workshops are renowned.
 
 ## Invite to Speak
 
-I would absolutely love to speak at your conference! However, I do just have
-a few questions to make the whole process a lot simpler and upfront for everyone
-involved. If you could [fire me an
-email](/contact/#so-you-want-to-send-me-an-email) answering as many of the below
-as possible, I’d be really grateful. If you don’t have answers to everything
-just yet, please don’t worry—this is just a rough starting point, not a test.
-Please also remember that **there is no right or wrong answer** to any of these
-questions.
+I would absolutely love to speak at your conference! To make the process simpler
+and more transparent for everyone, please [email
+me](/contact/#so-you-want-to-send-me-an-email) with as many of the answers below
+as possible.
+
+Don’t worry if you can’t answer everything yet. This is a rough starting point,
+not a test, and **there is no right or wrong answer**.
 
 * **When and where is your conference?** I once [travelled 12,000
   miles](https://www.google.co.uk/search?q=distance+leeds+to+wellington)
   to give a talk; I’m not afraid of a commute.
-* **How many attendees do you expect to have?** Rough figures or previous sizes
-  are perfectly fine.
-* **What kind of audience do you have?** It helps to know what the audience will
-  be like (e.g. mainly front-end developers, mainly designers, etc.).
-* **Which other speakers have you approached?** It helps to be aware of any
-  other speakers who run the risk of delivering similar talks.
-* **How long does the talk need to be?** Do you have a set talk duration? 45
-  minutes is usually ideal.
-* **Do you have any specific AV limitations?** I prefer to use headset or lapel
-  microphone, and would definitely rather use my own laptop to present from.
+* **How many attendees do you expect?** Rough figures or numbers from previous
+  events are perfectly fine.
+* **Who is the audience?** For example, are they mainly front-end developers or
+  designers?
+* **Which other speakers have you approached?** This helps me avoid covering the
+  same ground as another speaker.
+* **How long should the talk be?** If you don’t have a set duration, 45 minutes
+  is usually ideal.
+* **Do you have any specific audiovisual (AV) limitations?** I prefer a headset
+  or lapel microphone and would definitely rather present from my own laptop.
 * **Do you cover speaker expenses?** Flights, hotels, train journeys, etc.
-* **What kind of talk would you like?** I usually give technical talks (CSS
-  architecture, performance, etc.), but am open to discussing other topics.
-* **Do you require a brand new talk?** Writing talks takes a lot of time and
-  effort: forewarned is forearmed.
-* **When can I start publicising your event?** Do you want to keep the lineup
-  quiet for a while, or can I add your event to my speaking list immediately?
-* **How much does a ticket cost for attendees?** I like to have a rough idea of
-  the cost of the event if possible.
-* **Do you plan to compensate speakers?** I usually charge a fee to speak,
-  however its value is open to discussion for indie and non-profit events.
+* **What kind of talk would you like?** I usually give technical talks about CSS
+  architecture or performance, but I’m open to other topics.
+* **Do you need a brand-new talk?** Writing a talk takes a lot of time and
+  effort, so forewarned is forearmed.
+* **When can I publicise your event?** Should I keep the lineup quiet, or can I
+  add your event to my speaking list immediately?
+* **How much does an attendee ticket cost?** A rough figure is fine.
+* **Do you plan to pay speakers?** I usually charge a fee to speak, but I’m open
+  to discussing the amount for indie and non-profit events.
 
-### What’s in It for You?
+### What I’ll Bring to Your Event
 
-I will help to promote and publicise your event. I will endeavour to make myself
-available to attendees for the entire duration of the event. I will attend all
-social activities surrounding the event. I will deliver a quality talk of
-practical relevance. I will gladly allow you to record and distribute my talk.
+If I speak at your event, I will:
+
+* help promote and publicise it;
+* make myself available to attendees throughout the event;
+* attend all social activities around the event;
+* deliver a quality talk with practical relevance; and
+* gladly allow you to record and distribute my talk.
+
 [I hold myself to a high
 standard](/2016/06/speakers-checklist-before-and-after-your-talk/).
 
