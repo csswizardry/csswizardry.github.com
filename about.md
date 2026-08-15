@@ -7,67 +7,6 @@ permalink: /about/
 lux: About
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "ProfilePage",
-      "@id": "{{ site.url }}/about/#webpage",
-      "url": "{{ site.url }}/about/",
-      "name": "About Harry Roberts",
-      "description": "Harry Roberts is an independent web performance consultant based in Leeds, UK.",
-      "isPartOf": {
-        "@type": "WebSite",
-        "@id": "{{ site.url }}/#website",
-        "url": "{{ site.url }}/",
-        "name": "CSS Wizardry"
-      },
-      "mainEntity": { "@id": "{{ site.url }}/#person" }
-    },
-    {
-      "@type": "Person",
-      "@id": "{{ site.url }}/#person",
-      "name": "Harry Roberts",
-      "url": "{{ site.url }}/about/",
-      "image": "{{ site.url }}/img/content/about.jpg",
-      "jobTitle": "Web Performance Consultant",
-      "worksFor": { "@id": "{{ site.url }}/#org" },
-      "sameAs": [
-        "https://twitter.com/csswizardry",
-        "https://github.com/csswizardry",
-        "https://www.linkedin.com/in/csswizardry/",
-        "https://developers.google.com/profile/u/csswizardry"
-      ],
-      "knowsAbout": [
-        "Web performance",
-        "Core Web Vitals",
-        "Site-speed optimisation",
-        "Performance engineering",
-        "Browser performance"
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "CSS Wizardry",
-          "item": "{{ site.url }}/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About",
-          "item": "{{ site.url }}/about/"
-        }
-      ]
-    }
-  ]
-}
-</script>
-
 **Hi, I’m Harry.** I’m an independent web performance consultant based in
 Leeds, UK. I help teams understand how site-speed affects their business,
 improve Core Web Vitals, and work out where the **real bottlenecks** are.
@@ -405,3 +344,64 @@ name has stuck, and at this point I suspect it probably always will.
 
 
 </ol>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ site.url }}/about/#webpage",
+      "url": "{{ site.url }}/about/",
+      "name": "About Harry Roberts",
+      "description": "Harry Roberts is an independent web performance consultant based in Leeds, UK.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "CSS Wizardry"
+      },
+      "mainEntity": { "@id": "{{ site.url }}/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "Harry Roberts",
+      "url": "{{ site.url }}/about/",
+      "image": "{{ site.url }}/img/content/about.jpg",
+      "jobTitle": "Web Performance Consultant",
+      "worksFor": { "@id": "{{ site.url }}/#org" },
+      "sameAs": [
+        "https://twitter.com/csswizardry",
+        "https://github.com/csswizardry",
+        "https://www.linkedin.com/in/csswizardry/",
+        "https://developers.google.com/profile/u/csswizardry"
+      ],
+      "knowsAbout": [
+        "Web performance",
+        "Core Web Vitals",
+        "Site-speed optimisation",
+        "Performance engineering",
+        "Browser performance"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "CSS Wizardry",
+          "item": "{{ site.url }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "{{ site.url }}/about/"
+        }
+      ]
+    }
+  ]
+}
+</script>
