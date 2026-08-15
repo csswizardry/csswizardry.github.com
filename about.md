@@ -7,23 +7,23 @@ permalink: /about/
 lux: About
 ---
 
-**Hi, I’m Harry.** I’m an independent web performance consultant based in
-Leeds, UK. I help teams understand how site-speed affects their business,
-improve Core Web Vitals, and work out where the **real bottlenecks** are.
+**Hi, I’m Harry.** I help teams understand how site-speed affects their
+business, improve Core Web Vitals, and find the **real bottlenecks**. I’m an
+independent web performance consultant based in Leeds, UK.
 
 I’m an invited [Google Developer
-Expert](https://developers.google.com/profile/u/csswizardry), a [Cloudinary
+Expert](https://developers.google.com/profile/u/csswizardry) and [Cloudinary
 Media Developer
-Expert](https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program#harry_roberts),
-an [international speaker](/speaking/), and co-chair of
-[<cite>performance.now()</cite>](https://perfnow.nl/), the web performance
+Expert](https://cloudinary.com/blog/announcing_cloudinary_s_media_developer_experts_program#harry_roberts).
+I’m also an [international speaker](/speaking/) and co-chair of
+[<cite>performance.now()</cite>](https://perfnow.nl/), a web performance
 conference for professionals.
 
-Alongside client work, I have published **over [240 articles](/archive/)** on
-CSS Wizardry and delivered **over [150 conference talks](/speaking/)** on web
-performance, site-speed, and front-end engineering. Since 2009, my writing and
-teaching have **informed and improved** the work of individuals and teams
-around the world. Heard enough?
+Alongside my client work, I’ve published **over [240 articles](/archive/)** on
+CSS Wizardry. I’ve also delivered **over [150 conference talks](/speaking/)**
+on web performance, site-speed, and front-end engineering. Since 2009, my
+writing and teaching have **informed and improved** the work of individuals and
+teams around the world. Heard enough?
 
 <a href="/contact/" class="btn  btn--full  btn--positive">Hire me!</a>
 
@@ -51,10 +51,12 @@ around the world. Heard enough?
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
-With <span class="js-date">many</span> years of professional experience, and
-more than a decade working independently, I’ve been trusted by the likes of the
-<b>United Nations</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>,
-and [many more](/#section:clients).
+## How I Help Teams
+
+I have <span class="js-date">many</span> years of professional experience and
+have worked independently for more than a decade. Clients including the
+<b>United Nations</b>, <b>Google</b>, the <b>BBC</b>, <b>General Electric</b>, and
+[many more](/#section:clients) have trusted me with their work.
 
 <script>
   const currentYear = new Date().getFullYear();
@@ -63,16 +65,19 @@ and [many more](/#section:clients).
   document.querySelector('.js-date').textContent = yearsOfExperience;
 </script>
 
-My work tends to sit somewhere between **engineering, troubleshooting, and
-enablement**. In practice, that can mean auditing a site to uncover what is
-really holding it back, working alongside a team to get fixes shipped, or
-helping leadership understand what performance is costing them and where the
-strongest returns are likely to come from. More often than not, it means some
-mixture of all three.
+My work sits somewhere between **engineering, troubleshooting, and
+enablement**. In practice, that means:
 
-Through combinations of consultancy, performance audits, implementation
-support, and training, I help teams build **faster, more resilient
-websites** and stronger web performance practices around them.
+* auditing a site to uncover what is really holding it back;
+* working alongside a team to get fixes shipped; or
+* helping leadership understand what performance is costing them and where the
+  strongest returns are likely to come from.
+
+More often than not, it means some mixture of all three.
+
+Through consultancy, performance audits, implementation support, and training,
+I help teams build **faster, more resilient websites** and stronger web
+performance practices around them.
 
 <blockquote class="pull-quote  pull-quote--context-alt" id="quote:tim-kadlec">
   <p>There is a short list of people I whole-heartedly recommend for detailed
@@ -81,21 +86,21 @@ websites** and stronger web performance practices around them.
 </blockquote>
 
 The two things I care most about are practicality and outcomes. Fast websites
-are good, but they are not the end in themselves. What matters is what that
-speed unlocks: better experiences, **healthier conversion rates**, stronger
-Core Web Vitals, and more confidence in the product itself.
+are good, but they aren’t an end in themselves. What matters is what that speed
+unlocks: better experiences, **healthier conversion rates**, stronger Core Web
+Vitals, and more confidence in the product itself.
 
 I work with companies of all shapes and sizes, across a range of industries,
-countries, and team structures. Sometimes that means a **forensic performance
-audit**; sometimes it means help fixing a specific issue, training for engineers,
-or a longer-term partnership that helps a team build performance thinking into
-the way it works. All of that is squarely in my wheelhouse.
+countries, and team structures. The work might be a **forensic performance
+audit**, help fixing a specific issue, training for engineers, or a longer-term
+partnership. In a longer partnership, I help the team build performance
+thinking into the way it works. All of that is squarely in my wheelhouse.
 
 If you need a faster website, better Core Web Vitals, a detailed performance
-audit, or simply a clearer understanding of where your **biggest
-opportunities** lie, I can help. I’m comfortable in the weeds with engineers,
-and just as comfortable helping stakeholders understand the **commercial side**
-of web performance work.
+audit, or a clearer understanding of your **biggest opportunities**, I can
+help. I’m comfortable in the weeds with engineers. I’m just as comfortable
+helping stakeholders understand the **commercial side** of web performance
+work.
 
 If that sounds useful, [say hello](/contact/). I’m professional, but pretty
 laid back, and I’m always happy to see whether there’s a good fit.
@@ -116,24 +121,24 @@ me.</strong></a>
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
-## Colophon
+## Colophon: How CSS Wizardry Is Built
 
-CSS Wizardry makes use of many great tools and services; tools and services that
-make my life as a developer much, much simpler.
+CSS Wizardry uses tools and services that make my life as a developer much,
+much simpler.
 
-CSS Wizardry is built on [Jekyll](https://jekyllrb.com/), an open source static
-site generator. This is hosted using [GitHub Pages](https://pages.github.com/)
-and served via [Cloudflare](https://www.cloudflare.com/).
+I build CSS Wizardry with [Jekyll](https://jekyllrb.com/), an open-source static
+site generator. [GitHub Pages](https://pages.github.com/) hosts the site, and
+[Cloudflare](https://www.cloudflare.com/) serves it.
 
-The CSS is written in [Sass](https://sass-lang.com/), and built on top of
+I write the CSS in [Sass](https://sass-lang.com/) and build it on
 [inuitcss](https://github.com/inuitcss). inuitcss is a free, open-source,
-Sass-based, OOCSS framework with a strong focus on performance, scalability, and
-a small footprint. This is then built into [ITCSS](https://skl.sh/harry), a CSS
-architecture of mine which is designed to aid the growth and maintainability of
-CSS projects.
+Sass-based, object-oriented CSS (OOCSS) framework. It focuses on performance,
+scalability, and a small footprint. The site also uses
+[ITCSS](https://skl.sh/harry), a CSS architecture I created to help CSS projects
+grow and remain maintainable.
 
-The site is intentionally fairly lean. Your system font is used to give
-a familiar feel and to help improve performance.
+The site is intentionally fairly lean. It uses your system font to feel
+familiar and improve performance.
 [SpeedCurve](https://speedcurve.com/) and [Treo](https://treo.sh/) help keep CSS
 Wizardry _fast_.
 
@@ -141,9 +146,9 @@ The photograph used on the homepage’s masthead is of me speaking at [Digital
 Labin](https://digital-labin.com/), and was taken by [Marin Cuk Vurnek of
 EVENTography](https://www.facebook.com/mcveventography/).
 
-CSS Wizardry’s roadmap and task list are viewable on [a public Trello
-board](https://trello.com/b/5vYEHwrP/csswizardry-com), and all of the code that
-powers it can be found [on
+You can view CSS Wizardry’s roadmap and task list on [a public Trello
+board](https://trello.com/b/5vYEHwrP/csswizardry-com). You can also find all of
+the code that powers it [on
 GitHub](https://github.com/csswizardry/csswizardry.github.com). Feel free to
 take a look round, but please don’t steal anything.
 
@@ -156,7 +161,7 @@ take a look round, but please don’t steal anything.
   <li class="c-nav-secondary__item"><a href="#section:interviews" class="c-nav-secondary__link">Interviews</a></li>
 </ul>
 
-## Why CSS Wizardry?
+## Why the Name CSS Wizardry Stuck
 
 I chose the name <i>CSS Wizardry</i> when I was 17 years old. I had read [Andy
 Budd](https://www.andybudd.com/)’s [<cite>CSS
@@ -166,10 +171,10 @@ become mildly obsessed, and then very unoriginally registered `csswizardry.com`.
 I would not necessarily recommend letting teenagers pick their own domain
 names.
 
-While my early career really was rooted in CSS architecture and design
-systems—and so for a long time the name made perfect sense—my work has been much
-more squarely focused on web performance for the best part of a decade now. The
-name has stuck, and at this point I suspect it probably always will.
+My early career really was rooted in CSS architecture and design systems, so
+the name made perfect sense for a long time. For the best part of a decade, my
+work has focused much more squarely on web performance. The name has stuck, and
+at this point I suspect it probably always will.
 
 ---
 
