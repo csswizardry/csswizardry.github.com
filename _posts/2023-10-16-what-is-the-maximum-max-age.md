@@ -5,6 +5,7 @@ date: 2023-10-16 14:18:39
 last_modified_at: 2025-06-04
 categories: Web Development
 meta: "How long?! RFC9111 lets max-age reach 68 years—far beyond the usual one that developers set. Here are the raw numbers, the spec, and when to use it."
+reading-time: 4
 faq:
   - question: "What is the maximum value for cache-control’s max-age?"
     answer: "Most teams stick to one year, but RFC9111 states caches MUST honour any value up to 2,147,483,648 seconds—68 years—the largest signed 32-bit integer."

@@ -5,6 +5,7 @@ date: 2018-11-09 19:57:12
 categories: Web Development
 meta: "How can CSS impact network and resource-loading performance? Can things
 be that serious?"
+reading-time: 12
 faq:
   - question: "Can CSS affect network performance?"
     answer: "Yes. CSS can delay rendering, block later requests, and influence how quickly the browser discovers and prioritises other resources."

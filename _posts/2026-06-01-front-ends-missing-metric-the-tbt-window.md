@@ -5,6 +5,7 @@ date: 2026-06-01 11:30:00
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2026/06/speedcurve-02.png"
 meta: "The TBT Window is the FCP-to-TTI interval used to calculate Total Blocking Time. If FCP or TTI moves, TBT can change even when long tasks do not."
+reading-time: 12
 faq:
   - question: "What is the TBT Window?"
     answer: "The TBT Window is the interval between First Contentful Paint and Time to Interactive during which Total Blocking Time counts the blocking portions of long tasks."

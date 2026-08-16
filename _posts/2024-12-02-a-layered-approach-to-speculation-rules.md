@@ -6,6 +6,7 @@ last_modified_at: 2025-06-05
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
 meta: "The new Speculation Rules API is incredibly powerful, but we can do so much more! By taking a layered approach, we can add more progressive functionality."
+reading-time: 6
 faq:
   - question: "What are Speculation Rules?"
     answer: "Speculation Rules are browser instructions that let you prefetch or prerender likely future navigations so the next page can load much faster."

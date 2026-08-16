@@ -5,6 +5,7 @@ date: 2023-07-24 00:00:00
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/07/cwv-seo.png"
 meta: "There’s still a lot of misunderstanding about CWV for SEO. Let’s work it out together."
+reading-time: 23
 faq:
   - question: "Do Core Web Vitals affect SEO?"
     answer: "Yes, but only modestly. Core Web Vitals are a ranking signal, not the dominant factor, and they rarely outweigh stronger content or relevance."

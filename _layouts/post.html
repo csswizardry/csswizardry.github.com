@@ -22,6 +22,8 @@ lux: Post
             <ins>(last updated on <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop=dateModified>{{ page.last_modified_at | date: "%-d %B, %Y" }}</time>)</ins>
           {% endif %}
 
+          {% if page.reading-time %} • {{page.reading-time}} minute read{% endif %}
+
         </p>
 
           <h1 itemprop="name  headline" elementtiming=page-title style="view-transition-name: x-{{ page.date | date: '%Y-%m-%d' }}">{{ page.title }}</h1>

@@ -6,6 +6,7 @@ last_modified_at: 2025-09-05
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/09/csswizardry.com-lcp.jpg"
 meta: "Can Low-Quality Image Placeholders and LCP play nicely together?"
+reading-time: 12
 faq:
   - question: "Can low-quality image placeholders hurt LCP?"
     answer: "Yes. If implemented badly, LQIPs can delay or interfere with the real Largest Contentful Paint candidate and make the metric worse."

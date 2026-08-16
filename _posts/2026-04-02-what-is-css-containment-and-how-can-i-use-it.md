@@ -5,6 +5,7 @@ date: 2026-04-02 11:30:00
 categories: Web Development
 main: ""
 meta: "CSS containment lets you isolate layout and paint work to self-contained ‘islands’. Here’s what each contain value does and how to use it safely."
+reading-time: 13
 faq:
   - question: "What is CSS containment?"
     answer: "CSS containment is a way to isolate parts of the page so the browser can limit how far layout, paint, size, or style calculations need to spread."

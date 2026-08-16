@@ -5,6 +5,7 @@ date: 2023-10-17 00:00:00
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/10/chart-all.png"
 meta: "We know we should do it, but do we know how?"
+reading-time: 13
 faq:
   - question: "What are the three Cs of front-end performance?"
     answer: "They are concatenate, compress, and cache: three practical ways to reduce request overhead, transfer size, and repeat work."

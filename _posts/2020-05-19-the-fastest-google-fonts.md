@@ -5,6 +5,7 @@ date: 2020-05-19 17:35:04
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2020/05/filmstrip-foit.png"
 meta: "Google Fonts is fast. Now it’s faster. Much faster."
+reading-time: 15
 faq:
   - question: "What is the fastest way to load Google Fonts?"
     answer: "It depends on the trade-offs you want, but strong options include reducing the number of files requested, using the right loading strategy, and adding supporting hints such as preconnect or preload where appropriate."

@@ -5,6 +5,7 @@ date: 2023-07-01 00:01:19
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2023/06/devtools-dcl.png"
 meta: "Is there any reason to still measure the DOMContentLoaded event? Perhaps…"
+reading-time: 10
 faq:
   - question: "What is DOMContentLoaded?"
     answer: "DOMContentLoaded is an internal browser event that fires once all deferred JavaScript has finished running."

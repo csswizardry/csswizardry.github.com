@@ -5,6 +5,7 @@ date: 2019-03-04 01:21:39
 last_modified_at: 2025-06-05
 categories: Web Development
 meta: "What does Cache-Control really do? In basic terms? Let’s find out!"
+reading-time: 17
 faq:
   - question: "What does Cache-Control do?"
     answer: "Cache-Control tells browsers and intermediary caches how a response should be stored, how long it can be reused for, and when it needs to be revalidated."

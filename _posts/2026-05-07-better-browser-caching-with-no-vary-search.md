@@ -6,6 +6,7 @@ last_modified_at: 2026-08-16
 categories: Web Development
 main: ""
 meta: "No-Vary-Search lets HTTP caches ignore irrelevant query parameters such as UTM tags, while still keeping meaningful ones like product variants in the cache key."
+reading-time: 8
 faq:
   - question: "What is No-Vary-Search?"
     answer: "No-Vary-Search is an HTTP response header that tells caches which URL search parameters can be ignored when matching requests to cached responses."

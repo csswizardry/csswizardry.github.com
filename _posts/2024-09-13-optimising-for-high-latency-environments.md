@@ -5,6 +5,7 @@ date: 2024-09-16 11:01:48
 categories: Web Development
 main: "https://csswizardry.com/wp-content/uploads/2024/09/diagram-all.png"
 meta: "We can’t do much to change latency, so how can we work around it?"
+reading-time: 18
 faq:
   - question: "What is high latency in web performance?"
     answer: "High latency means requests take a long time to begin or complete because of network round-trip time, even before transfer size becomes the main issue."
