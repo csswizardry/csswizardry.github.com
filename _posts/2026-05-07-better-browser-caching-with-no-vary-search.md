@@ -2,7 +2,7 @@
 layout: post
 title: "Better Browser Caching with No-Vary-Search"
 date: 2026-05-07 21:31:40
-last_modified_at: 2026-05-11
+last_modified_at: 2026-08-16
 categories: Web Development
 main: ""
 meta: "No-Vary-Search lets HTTP caches ignore irrelevant query parameters such as UTM tags, while still keeping meaningful ones like product variants in the cache key."
@@ -16,7 +16,7 @@ faq:
   - question: "When should I not use No-Vary-Search?"
     answer: "Do not use it for parameters that change the HTML or otherwise alter the response in a meaningful way, such as product variants or content filters rendered on the server."
   - question: "Can No-Vary-Search ignore all query parameters?"
-    answer: "Yes. Today, the `params` form can tell caches to ignore all search parameters, but the spec is moving toward `params=()` instead. In either case, it should only be used when the response truly does not vary by query string."
+    answer: "Yes. The `except=()` form tells caches that no query parameters need to vary the response, which means they may all be ignored. Only use it when the response truly does not vary by query string."
   - question: "Does No-Vary-Search affect debugging?"
     answer: "Yes. Appending a throwaway query string to try to bypass cache may no longer work if the document uses No-Vary-Search and the cache has been told those parameters do not matter."
 ---
@@ -155,20 +155,27 @@ all, sites.
 If your page genuinely does not vary by query string at all, you can be much
 broader:
 
-<ins date="2026-05-11">A quick update: the `params` boolean syntax shown below
-is likely to change in the spec to an empty list, `params=()`, instead. At the
-time of writing, this newer syntax is not yet implemented in browsers, so the
-original `params` form remains what you’re most likely to encounter in
-practice. Thanks to <a href="https://bsky.app/profile/tunetheweb.com">Barry
-Pollard</a> for the heads-up. Keep an eye on <a href="https://github.com/httpwg/http-extensions/pull/3374">the HTTPWG discussion</a> and <a href="https://issues.chromium.org/issues/492218542">the Chromium issue</a> for progress.</ins>
+<ins date="2026-08-16">A further update: the <a
+href="https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html">current
+spec</a> no longer permits the boolean `params` syntax. To ignore all search
+parameters, use an empty `except` list, `except=()`. An empty `params` list,
+`params=()`, means the opposite: ignore _none_ of them, which is equivalent to
+omitting the header entirely. Browser implementations and a live Internet-Draft
+may not move in perfect lockstep, so test the exact syntax in the browsers you
+support. Thanks again to <a
+href="https://bsky.app/profile/tunetheweb.com">Barry Pollard</a> for first
+flagging the change; the corresponding work is tracked in <a
+href="https://issues.chromium.org/issues/492218542">Chromium</a>.</ins>
 
 ```http
-No-Vary-Search: params
+No-Vary-Search: except=()
 ```
 
-That is the boolean form of `params`, and it tells the cache to ignore _all_
-search parameters for matching purposes. This works perfectly for my site which
-has zero back end, and thus cannot possibly vary by query string.
+`except` is the allowlist form: it says every search parameter may be ignored
+except for the ones listed. An empty list means there are no exceptions, so the
+cache may ignore _all_ search parameters for matching purposes. This works
+perfectly for my site which has zero back end, and thus cannot possibly vary by
+query string.
 
 This is obviously powerful, but also the easiest way to shoot yourself in the
 foot, so only use it if you really mean it.
@@ -179,7 +186,7 @@ Sometimes the inverse is easier to express. Perhaps most parameters are
 irrelevant, but a small number genuinely change the response:
 
 ```http
-No-Vary-Search: params, except=("colour" "size")
+No-Vary-Search: except=("colour" "size")
 ```
 
 This says: ignore all query parameters _except_ `colour` and `size`.
@@ -222,10 +229,11 @@ parameters arrived, only in a different order.
 
 ### Combining `No-Vary-Search` Rules
 
-You can combine directives:
+You can combine `key-order` with either `params` or `except`, but `params` and
+`except` are mutually exclusive and cannot appear in the same header value:
 
 ```http
-No-Vary-Search: key-order, params, except=("colour" "size")
+No-Vary-Search: key-order, except=("colour" "size")
 ```
 
 That tells the cache:
@@ -290,13 +298,19 @@ For that reason, the sensible and defensive default is to **always let new and
 unknown parameters vary the cache key**. In other words, if you do not yet know
 whether a parameter is meaningful, treat it as semantic until proven otherwise.
 
+In practice, that means using `params=(…)` to list only the parameters you know
+are safe to ignore. The `except=(…)` form deliberately does the inverse: any
+parameter not in its allowlist is ignored. That can be useful when you control
+the entire query-string schema, but it is not the defensive option when new
+parameters might appear without warning.
+
 Imagine marketing starts adding new params, e.g.:
 
 * `?utm_campaign_variant=summer-a`
 * `?utm_campaign_variant=summer-b`
 
-If those parameters are absent from `No-Vary-Search`, then yes, you will miss
-out on some caching opportunities, but that is no slower than the situation
+If those parameters are absent from the `params=(…)` list, then yes, you will
+miss out on some caching opportunities, but that is no slower than the situation
 we’ve lived with all along. The worst case scenario is just the status quo:
 separate cache entries for URLs that are materially the same.
 
@@ -305,8 +319,8 @@ On the flip side, imagine the ecommerce team introduces:
 * `?material=leather`
 * `?material=canvas`
 
-If _those_ parameters are absent from `No-Vary-Search`, that is by far the safer
-outcome. We’d much rather let them produce separate cache entries than
+If _those_ parameters are absent from the `params=(…)` list, that is by far the
+safer outcome. We’d much rather let them produce separate cache entries than
 accidentally fold distinct pages into one.
 
 This is the same basic principle I recently wrote about in [<cite>When All You
