@@ -5,6 +5,15 @@ date: 2026-08-17 16:11:40
 categories: Web Development
 main: ""
 meta: "Safari Technology Preview 250 fixed a subtle Web Inspector bug that overwrote page-authored Cache-Control request headers when the resource cache was disabled."
+faq:
+  - question: "What did Safari Technology Preview 250 fix?"
+    answer: "It fixed a Web Inspector bug where disabling the resource cache replaced a page-authored Cache-Control request header with no-cache before the request reached the network."
+  - question: "Did the bug overwrite Cache-Control response headers?"
+    answer: "No. The WebKit change concerns a Cache-Control request header set by page code, not the Cache-Control response header returned by an origin or CDN."
+  - question: "Does Ignore Cache still bypass Safari’s local cache?"
+    answer: "Yes. Web Inspector still applies its internal cache-bypass policy, but it now preserves any Cache-Control request header that the page has already supplied."
+  - question: "How should I test warm-cache behaviour in Safari?"
+    answer: "Keep caching enabled, load the page normally, then reload or revisit it without clearing data. Treat Ignore Cache as a separate diagnostic condition."
 ---
 
 As you know, I’m a little bit obsessed with caching. I’ve written about
