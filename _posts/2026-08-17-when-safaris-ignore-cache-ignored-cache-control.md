@@ -49,7 +49,8 @@ toggle tells WebKit not to use cached resources for future requests while Web
 Inspector is open. That is a useful development convenience, particularly when
 you need to know that you’re looking at the latest copy of a resource.
 
-Before this fix, WebKit did two things when that toggle was active:
+Before this fix — i.e., the bug — WebKit did two things when that toggle was
+active:
 
 * it set an internal policy that bypassed its resource cache; and
 * it set the outgoing request’s `Cache-Control` and `Pragma` headers to
@@ -58,18 +59,18 @@ Before this fix, WebKit did two things when that toggle was active:
 The first behaviour is exactly what we asked for. The second is where things got
 interesting: WebKit _set_ those headers even if the page had already supplied
 its own. The debugging setup didn’t just change whether Safari could reuse
-a local response; it changed the request that the application sent.
+a local response; it changed the outgoing request that the application sent.
 
 ## This Is a `Cache-Control` Request Header
 
-We tend to think of `Cache-Control` as a response header:
+We tend to think of `Cache-Control` as primarily a _response_ header:
 
 ```http
 HTTP/2 200
 Cache-Control: max-age=31536000, immutable
 ```
 
-That is the origin telling browsers and other caches how they may store and
+That’s an origin telling browsers and other caches how they may store and
 reuse its response. But, as [we’ve looked at
 before](/2025/03/why-do-we-have-a-cache-control-request-header/),
 `Cache-Control` can also appear on a _request_, where the client tells caches
@@ -85,7 +86,7 @@ fetch('/data.json', {
 });
 ```
 
-That is almost the exact case in WebKit’s new regression test. With caching
+That’s almost the exact case in WebKit’s new regression test. With caching
 enabled, the server receives `max-age=12345`. With caching disabled and no
 page-authored header, it receives WebKit’s `no-cache`. Crucially, with caching
 disabled _and_ the page setting `max-age=12345`, the server should still receive
@@ -103,10 +104,8 @@ resource cache remains bypassed either way.
 
 In other words:
 
-```text
-Page-authored request header: preserved
-Web Inspector cache bypass:   still applied
-```
+* Page-authored request header: preserved
+* Web Inspector cache bypass: still applied
 
 This is the distinction that the release note hides. Web Inspector can ignore
 its local cache without rewriting the application’s request to achieve it.
@@ -117,7 +116,7 @@ already contained a page-authored `Cache-Control` header. The release note
 doesn’t establish which shipping Safari versions contained the old behaviour,
 only that Safari Technology Preview 250 contains the fix.
 
-## How This Could Trip You Up
+## How This Could Have Tripped You Up
 
 Changing `max-age=12345` to `no-cache` is not cosmetic. A shared cache, CDN, or
 origin that receives the request may respond differently because `no-cache`
@@ -152,5 +151,5 @@ the fix included in Safari Technology Preview 250, asking Web Inspector to
 ignore its own cache could also make it ignore what the page had already said
 about caching.
 
-That is exactly the kind of distinction that keeps caching interesting long
-after any sensible person would have moved on.
+That is exactly the kind of thing that keeps caching interesting interesting to
+me long after any sensible person would have moved on!
