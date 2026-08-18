@@ -46,7 +46,7 @@
       Number.isInteger(cpuPerformance) &&
       cpuPerformance >= 0
     ) {
-      lux.addData('cpuTier', cpuPerformance);
+      lux.addData('cpu', cpuPerformance);
     }
   }
 
@@ -73,7 +73,7 @@
       Number.isInteger(responseStatus) &&
       responseStatus > 0
     ) {
-      lux.addData('responseStatus', responseStatus);
+      lux.addData('rs', responseStatus);
     }
   }
 
@@ -84,7 +84,7 @@
       if (workerStart > 0) {
         lux.addData('viaSW', true);
       } else if (workerStart === 0) {
-        lux.addData('viaSW', false);
+        lux.addData('sw', false);
       }
     }
   }
@@ -102,7 +102,7 @@
     ) {
       const swStartupTime = Math.round(fetchStart - workerStart);
       if (Number.isFinite(swStartupTime) && swStartupTime >= 0) {
-        lux.addData('swStartupTime', swStartupTime);
+        lux.addData('sws', swStartupTime);
       }
     }
   }
@@ -130,7 +130,7 @@
   ) {
     const compressionDelta = Math.round((1 - encodedBodySize / decodedBodySize) * 100) / 100;
     if (Number.isFinite(compressionDelta)) {
-      lux.addData('compressionDelta', compressionDelta);
+      lux.addData('cd', compressionDelta);
     }
   }
 
