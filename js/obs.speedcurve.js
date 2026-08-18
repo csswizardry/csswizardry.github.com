@@ -128,7 +128,7 @@
     Number.isFinite(encodedBodySize) &&
     encodedBodySize > 0
   ) {
-    const compressionDelta = 1 - encodedBodySize / decodedBodySize;
+    const compressionDelta = Math.round((1 - encodedBodySize / decodedBodySize) * 100) / 100;
     if (Number.isFinite(compressionDelta)) {
       lux.addData('compressionDelta', compressionDelta);
     }
