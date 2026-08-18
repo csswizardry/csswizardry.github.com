@@ -12,14 +12,6 @@
 
   const obs = window.obs || Object.create(null);
 
-  const navigation = performance.getEntriesByType('navigation')[0];
-
-  const { connection } = navigator;
-
-  if (connection && 'rtt' in connection) {
-    lux.addData('rtt', connection.rtt);
-  }
-
   // Keys we intend to send. Keep in sync with obs.js
   const keys = [
     'canShowRichMedia',
@@ -45,9 +37,25 @@
     }
   }
 
+  // Surface the browser-reported static CPU performance tier.
+  if ('cpuPerformance' in navigator) {
+    const { cpuPerformance } = navigator;
+    if (
+      typeof cpuPerformance === 'number' &&
+      Number.isFinite(cpuPerformance) &&
+      Number.isInteger(cpuPerformance) &&
+      cpuPerformance >= 0
+    ) {
+      lux.addData('cpuTier', cpuPerformance);
+    }
+  }
+
+  const navigation = performance.getEntriesByType('navigation')[0];
+
   if (!navigation) return;
 
-  // Was the response from HTTP cache or the network?
+  // Separate locally served documents from those that required network
+  // transfer.
   const { transferSize } = navigation;
 
   if (transferSize === 0) {
@@ -56,15 +64,75 @@
     lux.addData('fromCache', false);
   }
 
-  // Was the response from the back–forward cache?
+  // Record the final HTTP response status exposed for the navigation.
+  if ('responseStatus' in navigation) {
+    const { responseStatus } = navigation;
+    if (
+      typeof responseStatus === 'number' &&
+      Number.isFinite(responseStatus) &&
+      Number.isInteger(responseStatus) &&
+      responseStatus > 0
+    ) {
+      lux.addData('responseStatus', responseStatus);
+    }
+  }
+
+  // Identify navigations intercepted by a service worker.
+  if ('workerStart' in navigation) {
+    const { workerStart } = navigation;
+    if (typeof workerStart === 'number' && Number.isFinite(workerStart)) {
+      if (workerStart > 0) {
+        lux.addData('viaSW', true);
+      } else if (workerStart === 0) {
+        lux.addData('viaSW', false);
+      }
+    }
+  }
+
+  // Approximate the time spent starting or activating the service worker.
+  if ('workerStart' in navigation) {
+    const { fetchStart, workerStart } = navigation;
+    if (
+      typeof fetchStart === 'number' &&
+      Number.isFinite(fetchStart) &&
+      typeof workerStart === 'number' &&
+      Number.isFinite(workerStart) &&
+      workerStart > 0 &&
+      fetchStart >= workerStart
+    ) {
+      const swStartupTime = Math.round(fetchStart - workerStart);
+      if (Number.isFinite(swStartupTime) && swStartupTime >= 0) {
+        lux.addData('swStartupTime', swStartupTime);
+      }
+    }
+  }
+
+  // Keep restored views distinct from conventional navigations in RUM analysis.
   window.addEventListener('pageshow', (event) => {
     lux.addData('frombfCache', event.persisted);
   });
 
+  // Preserve prerender history so pre-activation timings remain interpretable.
   lux.addData(
     'fromPrerender',
     document.prerendering || navigation.activationStart > 0
   );
+
+  // Measure the proportion of HTML body bytes saved by content encoding.
+  const { decodedBodySize, encodedBodySize } = navigation;
+  if (
+    typeof decodedBodySize === 'number' &&
+    Number.isFinite(decodedBodySize) &&
+    decodedBodySize > 0 &&
+    typeof encodedBodySize === 'number' &&
+    Number.isFinite(encodedBodySize) &&
+    encodedBodySize > 0
+  ) {
+    const compressionDelta = 1 - encodedBodySize / decodedBodySize;
+    if (Number.isFinite(compressionDelta)) {
+      lux.addData('compressionDelta', compressionDelta);
+    }
+  }
 
   // Unattributed Navigation Overhead (UNO): TTFB not covered by named phases.
   // https://calendar.perfplanet.com/2024/uno/
@@ -81,7 +149,8 @@
     lux.addData('uno', uno);
   }
 
-  // Time to Last Byte (TTLB)
+  // Capture the full document response time, beyond the first byte as captured
+  // by TTFB.
   if (navigation.responseEnd && navigation.startTime >= 0) {
     const ttlb = Math.round(navigation.responseEnd - navigation.startTime);
     if (Number.isFinite(ttlb) && ttlb >= 0) {
@@ -92,7 +161,7 @@
   // First Potential Paint (FPP)
   const headEnd = performance.getEntriesByName('HEAD_End')[0];
 
-  if (headEnd && navigation.startTime >= 0) {
+  if (navigation && headEnd && navigation.startTime >= 0) {
     const fpp = Math.round(headEnd.startTime - navigation.startTime);
     if (Number.isFinite(fpp) && fpp >= 0) {
       lux.addData('fpp', fpp);
