@@ -40,12 +40,5 @@
   ribbon.href = href;
   ribbon.textContent = text;
 
-  // Send the variant and any clicks to SpeedCurve.
-  window.LUX?.addData?.('ribbonVariant', String(i + 1));
-  ribbon.addEventListener('click', () => {
-    window.LUX?.addData?.('ribbonClicked', true);
-  });
-
-
 })();
 </script>
