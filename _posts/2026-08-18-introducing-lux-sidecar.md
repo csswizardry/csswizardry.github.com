@@ -256,7 +256,7 @@ our code; some are slow because of the conditions in which that code ran. Good
 RUM work needs to be able to tell the difference.
 
 If you already use SpeedCurve RUM and find yourself asking for more context
-around the numbers, [give LUX Sidecar a
-try](https://gist.github.com/csswizardry/6dd60f7536835d9c42ff05efd1b75a98).
-Set up its custom metrics and dimensions carefully, leave the implementation
-details to the README, and let the sidecar carry a little more evidence.
+around the numbers, [give LUX Sidecar
+a try](https://gist.github.com/csswizardry/6dd60f7536835d9c42ff05efd1b75a98).
+Set up its custom metrics and dimensions carefully, and let the sidecar carry
+a little more evidence.
