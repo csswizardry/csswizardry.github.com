@@ -38,6 +38,10 @@ in the name after all — but it is still time that our users paid for. If w
 aren’t measuring it, we’re trying to explain an incomplete TTFB with an
 incomplete set of timings.
 
+In keeping with my desire to document [front-end’s missing
+metrics](/2026/06/front-ends-missing-metric-the-tbt-window/), today is UNO’s
+turn.
+
 {% include promo.html %}
 
 ## TTFB’s Missing Time
