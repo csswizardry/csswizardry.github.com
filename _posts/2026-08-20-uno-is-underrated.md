@@ -300,7 +300,7 @@ and only **166 detectable redirects**. I’m not claiming that all seven million
 UNO were hidden redirects — that would be precisely the mistake the word
 _unattributed_ warns us against — but the disparity shows how little the
 redirect count alone tells us about real navigations. But the takeaway here is
-that although named redirects are about 0.3 times slower than UNO, named
+that although named redirects are about 7.5 times slower than UNO, named
 redirects occurred about **99.997672376% less frequently**.
 
 <figure>
