@@ -37,6 +37,21 @@
     }
   }
 
+  // Keep source identifiers descriptive while limiting their beacon cost.
+  const CUSTOM_DATA_KEYS = {
+    cpuTier: 'cpu',
+    fromCache: 'fc',
+    contentEncoding: 'ce',
+    responseStatus: 'rs',
+    viaServiceWorker: 'sw',
+    serviceWorkerStartupTime: 'sws',
+    fromBackForwardCache: 'bfc',
+    fromPrerender: 'pr',
+    compressionDelta: 'cd',
+    unattributedNavigationOverhead: 'uno',
+    timeToLastByte: 'ttlb',
+  };
+
   // Surface the browser-reported static CPU performance tier.
   if ('cpuPerformance' in navigator) {
     const { cpuPerformance } = navigator;
@@ -46,7 +61,7 @@
       Number.isInteger(cpuPerformance) &&
       cpuPerformance >= 0
     ) {
-      lux.addData('cpu', cpuPerformance);
+      lux.addData(CUSTOM_DATA_KEYS.cpuTier, cpuPerformance);
     }
   }
 
@@ -59,9 +74,17 @@
   const { transferSize } = navigation;
 
   if (transferSize === 0) {
-    lux.addData('fromCache', true);
+    lux.addData(CUSTOM_DATA_KEYS.fromCache, true);
   } else if (transferSize > 0) {
-    lux.addData('fromCache', false);
+    lux.addData(CUSTOM_DATA_KEYS.fromCache, false);
+  }
+
+  // Preserve the content coding reported for the navigation response.
+  if ('contentEncoding' in navigation) {
+    const { contentEncoding } = navigation;
+    if (typeof contentEncoding === 'string' && contentEncoding.length > 0) {
+      lux.addData(CUSTOM_DATA_KEYS.contentEncoding, contentEncoding);
+    }
   }
 
   // Record the final HTTP response status exposed for the navigation.
@@ -73,7 +96,7 @@
       Number.isInteger(responseStatus) &&
       responseStatus > 0
     ) {
-      lux.addData('rs', responseStatus);
+      lux.addData(CUSTOM_DATA_KEYS.responseStatus, responseStatus);
     }
   }
 
@@ -82,9 +105,9 @@
     const { workerStart } = navigation;
     if (typeof workerStart === 'number' && Number.isFinite(workerStart)) {
       if (workerStart > 0) {
-        lux.addData('viaSW', true);
+        lux.addData(CUSTOM_DATA_KEYS.viaServiceWorker, true);
       } else if (workerStart === 0) {
-        lux.addData('sw', false);
+        lux.addData(CUSTOM_DATA_KEYS.viaServiceWorker, false);
       }
     }
   }
@@ -102,19 +125,19 @@
     ) {
       const swStartupTime = Math.round(fetchStart - workerStart);
       if (Number.isFinite(swStartupTime) && swStartupTime >= 0) {
-        lux.addData('sws', swStartupTime);
+        lux.addData(CUSTOM_DATA_KEYS.serviceWorkerStartupTime, swStartupTime);
       }
     }
   }
 
   // Keep restored views distinct from conventional navigations in RUM analysis.
   window.addEventListener('pageshow', (event) => {
-    lux.addData('frombfCache', event.persisted);
+    lux.addData(CUSTOM_DATA_KEYS.fromBackForwardCache, event.persisted);
   });
 
   // Preserve prerender history so pre-activation timings remain interpretable.
   lux.addData(
-    'fromPrerender',
+    CUSTOM_DATA_KEYS.fromPrerender,
     document.prerendering || navigation.activationStart > 0
   );
 
@@ -128,9 +151,10 @@
     Number.isFinite(encodedBodySize) &&
     encodedBodySize > 0
   ) {
-    const compressionDelta = Math.round((1 - encodedBodySize / decodedBodySize) * 100) / 100;
+    const compressionDelta =
+      Math.round((1 - encodedBodySize / decodedBodySize) * 100) / 100;
     if (Number.isFinite(compressionDelta)) {
-      lux.addData('cd', compressionDelta);
+      lux.addData(CUSTOM_DATA_KEYS.compressionDelta, compressionDelta);
     }
   }
 
@@ -146,7 +170,7 @@
   );
 
   if (Number.isFinite(uno) && uno >= 0) {
-    lux.addData('uno', uno);
+    lux.addData(CUSTOM_DATA_KEYS.unattributedNavigationOverhead, uno);
   }
 
   // Capture the full document response time, beyond the first byte as captured
@@ -154,17 +178,7 @@
   if (navigation.responseEnd && navigation.startTime >= 0) {
     const ttlb = Math.round(navigation.responseEnd - navigation.startTime);
     if (Number.isFinite(ttlb) && ttlb >= 0) {
-      lux.addData('ttlb', ttlb);
-    }
-  }
-
-  // First Potential Paint (FPP)
-  const headEnd = performance.getEntriesByName('HEAD_End')[0];
-
-  if (navigation && headEnd && navigation.startTime >= 0) {
-    const fpp = Math.round(headEnd.startTime - navigation.startTime);
-    if (Number.isFinite(fpp) && fpp >= 0) {
-      lux.addData('fpp', fpp);
+      lux.addData(CUSTOM_DATA_KEYS.timeToLastByte, ttlb);
     }
   }
 })();
