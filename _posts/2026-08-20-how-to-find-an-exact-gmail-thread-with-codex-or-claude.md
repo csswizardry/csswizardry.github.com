@@ -13,6 +13,8 @@ faq:
     answer: "No. Message-ID identifies one particular email. Gmail’s own threadId identifies the conversation that Gmail has grouped around that email."
   - question: "Does knowing a Message-ID give an AI access to an email?"
     answer: "No. The agent still needs an authorised Gmail connection to an account containing the email. A Message-ID improves lookup; it is not a password or proof of who sent the message."
+  - question: "Do I need a Message-ID for every Gmail request?"
+    answer: "No. A natural-language request is perfectly reasonable when a likely result is good enough. Use a complete Message-ID when later work depends on the agent finding one specific email."
 ---
 
 I was organising flights and accommodation around a [speaking
@@ -27,6 +29,16 @@ Subjects, senders, dates, and snippets are all useful ways to _search_
 a mailbox, but they’re poor ways to name _an_ exact email. It turns out, the
 solution was already inside the email itself: its
 [`Message-ID`](https://www.rfc-editor.org/rfc/rfc5322.html#section-3.6.4).
+
+Fuzzy requests are still safe and entirely natural. <q>Find the email about the
+Austin conference</q> is exactly how I’d expect anyone to use an LLM to search
+their inbox, and a likely match is usually all that the task needs. A fuzzy
+request can produce a fuzzy answer.
+
+The stakes are raised when the next bit of work relies on one specific email
+being the right one. Booking travel, agreeing dates, approving costs, or making
+a decision from a _potential_ match is risky business! When the source needs to
+be exact, give the LLM its exact `Message-ID`.
 
 A complete `Message-ID` gives the agent a precise email to find. Once Gmail
 finds that message, the agent can use Gmail’s own `threadId` to open the
@@ -152,7 +164,10 @@ thing inside data it can already access; it grants no access of its own.
 
 {% include cross-sell.html %}
 
-When the exact source matters, preserve the complete `Message-ID`, ask the agent
-to retrieve Gmail’s returned thread, then ask what you need to know. It takes
-a little more effort than asking ChatGPT to look up a subject line, but it gives
-the it one exact email to work from. Much safer!
+Fuzzy requests still belong in everyday email searches; ask ChatGPT to find
+the email about a subject when a likely match is enough. When later work depends
+on the answer, use the complete `Message-ID`, ask the agent to retrieve
+Gmail’s returned thread, then ask what you need to know.
+
+It takes a little more effort, sure, but it gives the LLM one exact email to
+work from. Much safer!
