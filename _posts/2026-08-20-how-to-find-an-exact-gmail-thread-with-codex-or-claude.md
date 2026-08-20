@@ -114,16 +114,25 @@ identifier, and another provider may group the same messages differently.
 
 ## A Brief History of `Message-ID`
 
-The field has been with us for more than four decades. [RFC
-822](https://www.rfc-editor.org/rfc/rfc822.html#section-4.6.1) defined
-`Message-ID` for Internet text messages in 1982. [RFC
-2822](https://www.rfc-editor.org/rfc/rfc2822.html) replaced it in 2001, then
-[RFC 5322](https://www.rfc-editor.org/rfc/rfc5322.html) replaced that in 2008
-and remains the current Internet Message Format specification.
+The family tree is older than I first realised. [RFC
+561](https://www.rfc-editor.org/info/rfc561/) began standardising network mail
+headers in **September 1973**, although its named fields were `From`, `Date`,
+and `Subject`; `Message-ID` wasn’t among them.
 
-For the other RFC-curious people in the room, RFC 882 really does exist, but
-it’s a 1983 document about [domain-name concepts and
-facilities](https://www.rfc-editor.org/rfc/rfc882.html).
+[RFC 680](https://www.rfc-editor.org/info/rfc680/) added `Message-ID` in April
+1975, describing it as a unique reference to a message. This means the field
+itself is now more than **half a century old**. [RFC
+724](https://www.rfc-editor.org/info/rfc724/) refined the idea in May 1977: the
+identifier referred to one particular version of a message, and later
+revisions should receive new ones.
+
+[RFC 733](https://www.rfc-editor.org/info/rfc733/) replaced RFC 724 in November
+1977, then [RFC 822](https://www.rfc-editor.org/info/rfc822/) replaced RFC 733
+in August 1982. [RFC 2822](https://www.rfc-editor.org/info/rfc2822/) superseded
+RFC 822 in April 2001 before [RFC
+5322](https://www.rfc-editor.org/rfc/rfc5322.html#section-3.6.4) superseded it
+in October 2008. That is where the _current_ `Message-ID` rules live, but make
+no mistake, they were born much, much earlier!
 
 There’s also a lovely bit of standards language hiding here. RFC 5322 says
 every message **SHOULD** have a `Message-ID`; in other words, you may still
