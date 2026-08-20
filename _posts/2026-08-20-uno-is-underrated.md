@@ -3,7 +3,6 @@ layout: post
 title: "Unattributed Navigation Overhead (UNO) Is Underrated"
 date: 2026-08-20 11:30:00
 categories: Web Development
-main: ""
 meta: "Unattributed Navigation Overhead exposes the part of Time to First Byte that Navigation Timing cannot explain, including hidden cross-origin redirects."
 reading-time: 8
 faq:

@@ -4,7 +4,6 @@ title: "Better Browser Caching with No-Vary-Search"
 date: 2026-05-07 21:31:40
 last_modified_at: 2026-08-16
 categories: Web Development
-main: ""
 meta: "No-Vary-Search lets HTTP caches ignore irrelevant query parameters such as UTM tags, while still keeping meaningful ones like product variants in the cache key."
 reading-time: 8
 faq:

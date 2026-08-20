@@ -3,7 +3,6 @@ layout: post
 title: "Measuring Component Performance with the Container Timing API"
 date: 2026-07-26 13:51:29
 categories: Web Development
-main: ""
 meta: "Measure how entire components render with the Container Timing API: how it differs from Element Timing, where it helps, and how to try it today."
 faq:
   - question: "What is the Container Timing API?"
