@@ -46,6 +46,7 @@
     viaServiceWorker: 'sw',
     serviceWorkerStartupTime: 'sws',
     fromBackForwardCache: 'bfc',
+    blockedFromBackForwardCache: 'bfcb',
     fromPrerender: 'pr',
     compressionDelta: 'cd',
     unattributedNavigationOverhead: 'uno',
@@ -132,8 +133,22 @@
 
   // Keep restored views distinct from conventional navigations in RUM analysis.
   window.addEventListener('pageshow', (event) => {
-    lux.addData(CUSTOM_DATA_KEYS.fromBackForwardCache, event.persisted);
+    if (!event.persisted) {
+      lux.addData(CUSTOM_DATA_KEYS.fromBackForwardCache, false);
+      return;
+    }
+
+    // Let LUX initialise its optional restored-view beacon before adding data.
+    Promise.resolve().then(() => {
+      lux.addData(CUSTOM_DATA_KEYS.fromBackForwardCache, true);
+      lux.addData(CUSTOM_DATA_KEYS.blockedFromBackForwardCache, false);
+    });
   });
+
+  // Identify history navigations that had to reload instead of using bfcache.
+  if ('notRestoredReasons' in navigation && navigation.notRestoredReasons) {
+    lux.addData(CUSTOM_DATA_KEYS.blockedFromBackForwardCache, true);
+  }
 
   // Preserve prerender history so pre-activation timings remain interpretable.
   lux.addData(
