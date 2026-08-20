@@ -27,7 +27,7 @@ that feels blindingly obvious once someone has shown it to you: measure the
 whole journey to the first byte, subtract every phase the browser can name, and
 keep whatever is left.
 
-I’m honestly amazing how much the web performance community has been sleeping on
+I’m honestly amazed how much the web performance community has been sleeping on
 UNO. Since I began deliberately tracking it for a client, it has changed the way
 I look at Time to First Byte (TTFB) almost completely. We hadn’t just been
 missing a little detail around the edges; in one instance, we uncovered roughly
