@@ -100,7 +100,7 @@ The important sequence is:
 
 0. Message-ID.
 1. exact email,
-2. Gmail threadId,
+2. Gmail `threadId`,
 3. complete Gmail conversation.
 
 The `Message-ID` identifies the email, **not the thread**. Gmail’s API returns
