@@ -40,6 +40,7 @@
   // Keep source identifiers descriptive while limiting their beacon cost.
   const CUSTOM_DATA_KEYS = {
     cpuTier: 'cpu',
+    lcpContentType: 'lcpt',
     fromCache: 'fc',
     contentEncoding: 'ce',
     responseStatus: 'rs',
@@ -64,6 +65,26 @@
     ) {
       lux.addData(CUSTOM_DATA_KEYS.cpuTier, cpuPerformance);
     }
+  }
+
+  // Record whether the latest Largest Contentful Paint candidate has a URL.
+  if (
+    typeof PerformanceObserver === 'function' &&
+    Array.isArray(PerformanceObserver.supportedEntryTypes) &&
+    PerformanceObserver.supportedEntryTypes.indexOf(
+      'largest-contentful-paint'
+    ) !== -1
+  ) {
+    new PerformanceObserver((list) => {
+      const entries = list.getEntries();
+      const entry = entries[entries.length - 1];
+      if (entry) {
+        lux.addData(
+          CUSTOM_DATA_KEYS.lcpContentType,
+          entry.url ? 'image' : 'text'
+        );
+      }
+    }).observe({ type: 'largest-contentful-paint', buffered: true });
   }
 
   const navigation = performance.getEntriesByType('navigation')[0];
