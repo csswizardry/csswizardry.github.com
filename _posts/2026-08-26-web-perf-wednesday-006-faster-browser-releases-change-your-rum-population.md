@@ -3,7 +3,6 @@ layout: post
 title: "Web-Perf Wednesday 006 – Faster Browser Releases Change Your RUM Population"
 date: 2026-08-26 12:00:00 +0100
 categories: Web Development
-main: ""
 meta: "Chrome and Firefox are moving to two-week releases, making browser cadence part of how teams interpret RUM and plan performance testing."
 ---
 
