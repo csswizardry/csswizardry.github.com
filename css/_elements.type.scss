@@ -11,7 +11,7 @@
  */
 @include headings() {
     @include font-weight(light);
-    color: var(--color-link);
+    color: $color-headings;
     text-wrap: balance;
 }
 
@@ -51,7 +51,7 @@ h2:has(> img) {
 .heading {
     display: block;
     @include font-size(22px);
-    color: var(--color-link);
+    color: $color-headings;
 }
 
 .heading-sub {
@@ -59,7 +59,7 @@ h2:has(> img) {
     @include font-size(16px);
     @include font-weight(bold);
     margin-bottom: 0;
-    color: var(--color-text);
+    color: $color-heading-sub;
 }
 
 
@@ -96,7 +96,7 @@ p {
  * Code-like elements.
  */
 code, kbd, samp, output {
-    color: var(--color-inline-code);
+    color: $color-code;
     font-family: "Operator Mono", ui-monospace, monospace;
     font-style: normal;
     word-break: break-word;
@@ -112,7 +112,7 @@ pre {
     word-wrap: normal;
     overflow: auto;
     padding: $spacing-unit--small;
-    background-color: var(--color-code-surface);
+    background-color: $color-pre-background;
     border-radius: $base-round;
 
     @include media-query(lap-and-up) {
@@ -122,7 +122,7 @@ pre {
 
     &,
     code, kbd, samp {
-        color: var(--color-on-code);
+        color: $color-pre;
         word-break: keep-all;
     }
 
@@ -171,7 +171,7 @@ figure {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: var(--color-muted);
+        color: #ccc;
         z-index: -1;
       }
 
@@ -202,7 +202,7 @@ figure {
  */
 hr {
     border: none;
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid $color-gray-ui;
     margin-bottom: $spacing-unit - 1px;
 
     .s-post & {
@@ -268,27 +268,11 @@ mark {
 /**
  * Inserted and deleted text.
  */
-
 s, del {
   opacity: 0.75;
 }
 
 ins {
   border-bottom: none;
-  background-color: var(--color-highlight);
-}
-
-
-
-
-
-/**
- * Hanging punctuation.
- */
-
-@supports (hanging-punctuation: first last) {
-  :root blockquote p {
-    text-indent: 0;
-    hanging-punctuation: first last;
-  }
+  background-color: $color-hilite;
 }
