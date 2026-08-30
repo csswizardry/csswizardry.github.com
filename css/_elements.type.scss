@@ -11,7 +11,7 @@
  */
 @include headings() {
     @include font-weight(light);
-    color: $color-headings;
+    color: var(--color-link);
     text-wrap: balance;
 }
 
@@ -51,7 +51,7 @@ h2:has(> img) {
 .heading {
     display: block;
     @include font-size(22px);
-    color: $color-headings;
+    color: var(--color-link);
 }
 
 .heading-sub {
@@ -59,7 +59,7 @@ h2:has(> img) {
     @include font-size(16px);
     @include font-weight(bold);
     margin-bottom: 0;
-    color: $color-heading-sub;
+    color: var(--color-text);
 }
 
 
@@ -96,7 +96,7 @@ p {
  * Code-like elements.
  */
 code, kbd, samp, output {
-    color: $color-code;
+    color: var(--color-inline-code);
     font-family: "Operator Mono", ui-monospace, monospace;
     font-style: normal;
     word-break: break-word;
@@ -112,7 +112,7 @@ pre {
     word-wrap: normal;
     overflow: auto;
     padding: $spacing-unit--small;
-    background-color: $color-pre-background;
+    background-color: var(--color-code-surface);
     border-radius: $base-round;
 
     @include media-query(lap-and-up) {
@@ -122,7 +122,7 @@ pre {
 
     &,
     code, kbd, samp {
-        color: $color-pre;
+        color: var(--color-on-code);
         word-break: keep-all;
     }
 
@@ -171,7 +171,7 @@ figure {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: #ccc;
+        color: var(--color-muted);
         z-index: -1;
       }
 
@@ -202,7 +202,7 @@ figure {
  */
 hr {
     border: none;
-    border-bottom: 1px solid $color-gray-ui;
+    border-bottom: 1px solid var(--color-border);
     margin-bottom: $spacing-unit - 1px;
 
     .s-post & {
@@ -268,11 +268,27 @@ mark {
 /**
  * Inserted and deleted text.
  */
+
 s, del {
   opacity: 0.75;
 }
 
 ins {
   border-bottom: none;
-  background-color: $color-hilite;
+  background-color: var(--color-highlight);
+}
+
+
+
+
+
+/**
+ * Hanging punctuation.
+ */
+
+@supports (hanging-punctuation: first last) {
+  :root blockquote p {
+    text-indent: 0;
+    hanging-punctuation: first last;
+  }
 }
