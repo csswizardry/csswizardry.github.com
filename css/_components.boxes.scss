@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .box {
-    border-radius: $base-round
+    border-radius: var(--border-radius)
 }
 
 .box--highlight {

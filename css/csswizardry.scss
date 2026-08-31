@@ -139,7 +139,7 @@
 @import "objects.wrappers";
 
 $inuit-btn-background:      var(--color-btn);
-$inuit-btn-radius:          $base-round;
+$inuit-btn-radius:          var(--border-radius);
 $inuit-btn-border-width:    2px;
 $inuit-enable-btn--small:   true;
 $inuit-enable-btn--full:    true;

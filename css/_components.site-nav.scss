@@ -2,10 +2,8 @@
     #SITE-NAV
 \*------------------------------------*/
 
-// Internal variables.
-$_logo-height:   64px;
-
 .site-nav {
+  --site-nav-logo-height: 64px;
   @extend %clearfix;
 
   /**
@@ -17,13 +15,13 @@ $_logo-height:   64px;
   .page-head--masthead & {
     position: absolute;
     top:   0;
-    right: $spacing-unit--small;
-    left:  $spacing-unit--small;
+    right: var(--spacing-unit--small);
+    left:  var(--spacing-unit--small);
 
     @include media-query(lap-and-up) {
       top:   0;
-      right: $spacing-unit;
-      left:  $spacing-unit;
+      right: var(--spacing-unit);
+      left:  var(--spacing-unit);
     }
 
   }
@@ -81,7 +79,7 @@ $_logo-height:   64px;
   // Set a consistent style for triggers for the responsive nav.
   %triggers {
     @include font-size(12px);
-    line-height: $_logo-height;
+    line-height: var(--site-nav-logo-height);
     text-transform: uppercase;
     font-weight: bold;
     padding: 0;
@@ -154,7 +152,7 @@ $_logo-height:   64px;
     }
 
     @supports (backdrop-filter: blur(5px)) {
-      background-color: rgba($color-gray, 0.8);
+      background-color: rgb(from var(--color-gray) r g b / 80%);
       backdrop-filter: blur(5px);
     }
 
@@ -283,9 +281,9 @@ $_logo-height:   64px;
             text-align: center;
             white-space: nowrap;
             background-color: #fff;
-            border-radius: $brand-round;
+            border-radius: var(--border-radius);
             border: 1px solid var(--color-sub-menu-border);
-            box-shadow: $brand-round $brand-round 0 rgba(0, 0, 0, 0.1);
+            box-shadow: var(--border-radius) var(--border-radius) 0 rgba(0, 0, 0, 0.1);
             visibility: hidden;
             opacity: 0;
             transition: 0.333s;
@@ -338,7 +336,7 @@ $_logo-height:   64px;
           }
 
           @include media-query(lap-and-up) {
-            line-height: $_logo-height;
+            line-height: var(--site-nav-logo-height);
             color: var(--color-gray);
             padding-top: 0;
             padding-bottom: 0;

@@ -6,9 +6,9 @@
     @include font-size(18px);
     font-style: normal;
     color: var(--color-quote);
-    padding-left: $spacing-unit--small;
-    border-left: $spacing-unit--small solid var(--color-brand);
-    border-radius: $base-round;
+    padding-left: var(--spacing-unit--small);
+    border-left: var(--spacing-unit--small) solid var(--color-brand);
+    border-radius: var(--border-radius);
     margin-right: 0;
     margin-left:  0;
 
@@ -53,9 +53,9 @@
         width: 50%;
         float: left;
         margin-right: var(--spacing-unit);
-        padding-right: $spacing-unit--small;
+        padding-right: var(--spacing-unit--small);
         padding-left: 0;
-        border-right: $spacing-unit--small solid var(--color-brand);
+        border-right: var(--spacing-unit--small) solid var(--color-brand);
         border-left: none;
         text-align: right;
     }

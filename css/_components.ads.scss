@@ -16,7 +16,7 @@
     margin-bottom: 6px;
 
     > img {
-      border-radius: $base-round;
+      border-radius: var(--border-radius);
     }
 
     &:hover + .carbon-text {

@@ -29,8 +29,8 @@ q {
    ========================================================================== */
 
 blockquote {
-    margin-right: $spacing-unit--large;
-    margin-left:  $spacing-unit--large;
+    margin-right: var(--spacing-unit--large);
+    margin-left:  var(--spacing-unit--large);
     font-style: italic;
     quotes: "“" "”";
 

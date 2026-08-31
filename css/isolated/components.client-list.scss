@@ -27,8 +27,8 @@
     }
 
         .client-list__logo {
-            background-color: lighten($color-brand, 30%);
-            height: $spacing-unit;
+            background-color: hsl(from var(--color-brand) h s calc(l + 30));
+            height: var(--spacing-unit);
             transition: 0.2s;
 
             &:hover {
@@ -36,7 +36,7 @@
             }
 
             @include media-query(lap-and-up) {
-              height: $spacing-unit--large;
+              height: var(--spacing-unit--large);
               width: auto;
             }
 

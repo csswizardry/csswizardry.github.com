@@ -11,7 +11,7 @@
   text-align: center;
   @include font-size(12px, 1.833333333);
   border: 1px solid var(--color-nav-secondary);
-  border-radius: $base-round;
+  border-radius: var(--border-radius);
 }
 
   .c-nav-secondary__item {
@@ -26,8 +26,8 @@
 
     .c-nav-secondary__link {
       display: block;
-      padding-top:    $spacing-unit--small;
-      padding-bottom: $spacing-unit--small;
+      padding-top:    var(--spacing-unit--small);
+      padding-bottom: var(--spacing-unit--small);
       color: var(--color-nav-secondary-text);
 
       &.is-current {

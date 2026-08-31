@@ -9,15 +9,15 @@
 
 .btn {
     @include font-weight(bold);
-    @include vendor(transition, transform 0.2s);
+    transition: transform 0.2s;
     position: relative;
     @include font-weight(bold);
     will-change: transform; /* [1] */
     z-index: 1; /* [2] */
 
     @include attention() {
-      background-color: darken($color-btn, 10%);
-          border-color: darken($color-btn, 10%);
+      background-color: hsl(from var(--color-btn) h s calc(l - 10));
+          border-color: hsl(from var(--color-btn) h s calc(l - 10));
       transform: translateY(-1px);
     }
 
@@ -64,7 +64,7 @@
 
     @include attention() {
         background: none;
-        color: darken($color-btn, 10%);
+        color: hsl(from var(--color-btn) h s calc(l - 10));
     }
 
 }

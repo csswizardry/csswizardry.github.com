@@ -20,8 +20,8 @@ h1 {
   @include media-query(lap-and-up) {
     @include font-size(72px);
     font-weight: 900;
-    border-left: $spacing-unit solid var(--color-brand);
-    border-radius: $base-round;
+    border-left: var(--spacing-unit) solid var(--color-brand);
+    border-radius: var(--border-radius);
     margin-left: calc(-1 * (var(--spacing-unit) + var(--spacing-unit--small)));
     padding-left: var(--spacing-unit--small);
   }
@@ -113,7 +113,7 @@ pre {
     overflow: auto;
     padding: var(--spacing-unit--small);
     background-color: var(--color-pre-background);
-    border-radius: $base-round;
+    border-radius: var(--border-radius);
 
     @include media-query(lap-and-up) {
       margin-right: calc(-1 * var(--spacing-unit--small));
@@ -156,7 +156,7 @@ figure {
     }
 
     > img {
-      border-radius: $base-round;
+      border-radius: var(--border-radius);
     }
 
     &:has(img) {

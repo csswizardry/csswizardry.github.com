@@ -39,7 +39,7 @@
     background-color: #2e2620;
     background-image: url(/img/css/masthead-small.jpg), url(/img/css/masthead-small-lqip.jpg), var(--base64);
     background-position: center 25%;
-    @include vendor(background-size, cover);
+    background-size: cover;
     color: var(--color-masthead); /* [1] */
     border-top-color: var(--color-masthead);
     border-bottom-width: 0;

@@ -30,7 +30,7 @@
 }
 
 .c-cross-sell__title {
-  font-size: $spacing-unit--small;
+  font-size: var(--spacing-unit--small);
   line-height: 2;
   margin-bottom: 0;
   font-weight: bold;

@@ -13,7 +13,7 @@
   transition: border-color 0.2s;
   padding: 10px 6px;
   vertical-align: middle;
-  border-radius: $base-round;
+  border-radius: var(--border-radius);
 
   &:active,
   &:focus {

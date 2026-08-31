@@ -14,11 +14,11 @@ a {
 }
 
 //.link-quiet {
-//    color: $color-gray-light;
+//    color: var(--color-gray-light);
 //    text-decoration: underline;
 //
 //    @include attention() {
-//        color: $color-links;
+//        color: var(--color-links);
 //    }
 //
 //}

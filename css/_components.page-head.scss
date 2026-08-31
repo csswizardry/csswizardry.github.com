@@ -22,7 +22,7 @@
 .page-head {
     @extend %margin-bottom;
     border-style: solid;
-    border-width: $header-border-width 0 1px;
+    border-width: var(--header-border-width) 0 1px;
     border-top-color: var(--color-page-head-border);
     border-bottom-color: #f2f2f2;
     padding-top:    var(--spacing-unit--small); /* [1] */

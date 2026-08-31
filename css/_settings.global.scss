@@ -2,21 +2,6 @@
 //    #GLOBAL
 //\*------------------------------------*/
 
-$brand-color:   #f43059;
-$brand-round:   3px;
-$base-round:    $brand-round;
-
-// Styles specific to page headers. Implemented in
-// `_components.page-head[--masthead].scss`, but defined globally here.
-$header-border-width:   6px;
-$header-max-height:     480px;
-
-$system-fonts: system-ui, sans-serif;
-
-
-
-
-
 :root {
   --font-family-system: system-ui, sans-serif;
   --font-family-code: "Operator Mono", ui-monospace, monospace;
@@ -27,6 +12,10 @@ $system-fonts: system-ui, sans-serif;
   --spacing-unit--small: 12px;
   --spacing-unit--large: 48px;
 
+  --border-radius: 3px;
+
+  // Styles specific to page headers. Implemented in
+  // `_components.page-head[--masthead].scss`, but defined globally here.
   --header-border-width: 6px;
   --header-max-height: 480px;
 }

@@ -25,7 +25,7 @@
     margin-bottom: var(--spacing-unit);
     background-color: #fff;
     border-bottom: 1px solid var(--color-gray-ui);
-    border-radius: $base-round;
+    border-radius: var(--border-radius);
   }
 
     .c-filter__link {
@@ -35,9 +35,8 @@
       text-align: center;
       padding-right: var(--spacing-unit--tiny);
       padding-left:  var(--spacing-unit--tiny);
-      border-radius: $base-round;
+      border-radius: var(--border-radius);
       background-color: rgba(0, 0, 0, 0);
-      -webkit-transition: 0.333s;
       transition: 0.333s;
 
       @include media-query(lap-and-up) {
