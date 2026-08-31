@@ -380,7 +380,7 @@ $_logo-height:   64px;
 
           @include media-query(lap-and-up) {
 
-            $notch-size: halve($spacing-unit);
+            $notch-size: $spacing-unit--small;
 
             color: var(--color-links);
             position: relative;

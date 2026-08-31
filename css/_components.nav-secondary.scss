@@ -26,8 +26,8 @@
 
     .c-nav-secondary__link {
       display: block;
-      padding-top:    $spacing-unit / 2;
-      padding-bottom: $spacing-unit / 2;
+      padding-top:    $spacing-unit--small;
+      padding-bottom: $spacing-unit--small;
       color: var(--color-nav-secondary-text);
 
       &.is-current {
