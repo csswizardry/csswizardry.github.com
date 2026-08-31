@@ -32,7 +32,7 @@
             transition: 0.2s;
 
             &:hover {
-              background-color: $color-bg;
+              background-color: var(--color-bg);
             }
 
             @include media-query(lap-and-up) {

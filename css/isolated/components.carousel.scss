@@ -55,7 +55,7 @@ $_panes-quantity: 5;
 
       .c-carousel__link {
         color: inherit;
-        border-bottom: 1px solid $color-links-carousel;
+        border-bottom: 1px solid var(--color-links-carousel);
         @include font-weight(light);
         @include vendor(transition, 0.2s border-color);
 

@@ -23,7 +23,7 @@
       left: 0;
       transform: scaleX(0);
       transform-origin: left;
-      background-color: $color-brand;
+      background-color: var(--color-brand);
       animation: progress linear both;
       animation-timeline: scroll();
       z-index: 2;
@@ -43,7 +43,7 @@
   }
 
   thead {
-    border-bottom: 2px solid $color-gray-ui;
+    border-bottom: 2px solid var(--color-gray-ui);
   }
 
   tbody tr:nth-of-type(even) {
@@ -58,7 +58,7 @@
   }
 
   :target {
-    background-color: $color-hilite;
+    background-color: var(--color-hilite);
   }
 
   /**

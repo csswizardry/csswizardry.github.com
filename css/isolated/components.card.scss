@@ -12,7 +12,7 @@
 .c-card {
   background: white;
   padding: 24px;
-  border-top: $header-border-width solid $color-brand;
+  border-top: $header-border-width solid var(--color-brand);
   margin-bottom: $spacing-unit;
 
   blockquote {

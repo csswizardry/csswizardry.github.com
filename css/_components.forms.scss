@@ -7,7 +7,7 @@
 }
 
 .c-input-text {
-  border: 2px solid $color-gray-ui;
+  border: 2px solid var(--color-gray-ui);
   min-width: 25ch;
   outline: none;
   transition: border-color 0.2s;
@@ -17,11 +17,11 @@
 
   &:active,
   &:focus {
-    border-color: $color-brand;
+    border-color: var(--color-brand);
   }
 
   &::placeholder {
-    color: $color-gray-light;
+    color: var(--color-gray-light);
   }
 
 }

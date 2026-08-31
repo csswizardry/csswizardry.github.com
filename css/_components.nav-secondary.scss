@@ -10,7 +10,7 @@
   width: 100%;
   text-align: center;
   @include font-size(12px, 1.833333333);
-  border: 1px solid $color-nav-secondary;
+  border: 1px solid var(--color-nav-secondary);
   border-radius: $base-round;
 }
 
@@ -19,7 +19,7 @@
     vertical-align: middle;
 
     & + & {
-      border-left: 1px solid $color-nav-secondary;
+      border-left: 1px solid var(--color-nav-secondary);
     }
 
   }
@@ -28,11 +28,11 @@
       display: block;
       padding-top:    $spacing-unit / 2;
       padding-bottom: $spacing-unit / 2;
-      color: $color-nav-secondary-text;
+      color: var(--color-nav-secondary-text);
 
       &.is-current {
         color: #fff;
-        background-color: $color-nav-secondary;
+        background-color: var(--color-nav-secondary);
         text-decoration: none;
         cursor: default;
         pointer-events: none;

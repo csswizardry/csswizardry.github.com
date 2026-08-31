@@ -138,7 +138,7 @@
  */
 @import "objects.wrappers";
 
-$inuit-btn-background:      $color-btn;
+$inuit-btn-background:      var(--color-btn);
 $inuit-btn-radius:          $base-round;
 $inuit-btn-border-width:    2px;
 $inuit-enable-btn--small:   true;
@@ -166,7 +166,7 @@ $inuit-flag-collapse-at:        479px !default;
     white-space: nowrap;
 }
 
-$inuit-list-ui-border-color:    $color-gray-ui;
+$inuit-list-ui-border-color:    var(--color-gray-ui);
 $inuit-enable-list-ui--small:   true;
 @import "inuit-list-ui/objects.list-ui";
 
@@ -177,7 +177,7 @@ $inuit-enable-list-ui--small:   true;
     display: block;
     @include font-size(12px);
     @include font-weight(bold);
-    color: $color-gray-light;
+    color: var(--color-gray-light);
     margin-bottom: 0;
 }
 

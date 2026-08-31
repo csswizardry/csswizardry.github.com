@@ -20,24 +20,24 @@
 }
 
 .band--highlight {
-    background-color: $color-band-highlight-background;
+    background-color: var(--color-band-highlight-background);
 }
 
 .band--tint {
-    background-color: $color-band-tint-background;
+    background-color: var(--color-band-tint-background);
 }
 
 .band--dark {
-    background-color: $color-band-dark-background;
+    background-color: var(--color-band-dark-background);
 
     &, a, code {
-      color: $color-band-dark;
+      color: var(--color-band-dark);
     }
 }
 
 .band--attention {
-    background-color: $color-band-attention-background;
-    color: $color-band-attention;
+    background-color: var(--color-band-attention-background);
+    color: var(--color-band-attention);
 }
 
   .band__title {

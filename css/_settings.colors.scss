@@ -21,8 +21,8 @@ $color-hilite:      #ffc;
 
 
 // Page
-$inuit-base-background-color:   $color-bg;
-$inuit-base-text-color:         $color-gray;
+$inuit-base-background-color:   var(--color-bg);
+$inuit-base-text-color:         var(--color-gray);
 
 
 
@@ -133,3 +133,67 @@ $color-band-dark:                   #fff;
 $color-band-dark-background:        $color-gray;
 $color-band-attention:              #fff;
 $color-band-attention-background:   $color-brand;
+
+
+
+
+
+:root {
+  --color-brand:                     #f43059;
+  --color-pink:                      var(--color-brand);
+  --color-bg:                        #f9f9f9;
+  --color-gray:                      #333;
+  --color-gray-light:                #999;
+  --color-gray-mid:                  #666;
+  --color-gray-ui:                   #ddd;
+  --color-green:                     #859900;
+  --color-highlight:                 #fff;
+  --color-tint:                      #f2f2f2;
+  --color-positive:                  #3f990f;
+  --color-negative:                  #9f102e;
+  --color-hilite:                    #ffc;
+
+  --color-links:                     var(--color-pink);
+  --color-links-carousel:            var(--color-gray-ui);
+
+  --color-code:                      var(--color-green);
+  --color-pre-background:            var(--color-gray);
+  --color-pre:                       #fff;
+
+  --color-btn:                       var(--color-links);
+  --color-iconic:                    var(--color-gray-ui);
+
+  --color-masthead:                  #fff;
+  --color-page-head-border:          var(--color-pink);
+  --color-page-head:                 #fff;
+  --color-page-head-background:      #fff;
+
+  --color-site-nav:                  var(--color-gray);
+  --color-sub-menu-border:           var(--color-gray-ui);
+  --color-sub-menu-link:             var(--color-gray);
+  --color-sub-menu-link-hover:       var(--color-links);
+
+  --color-nav-secondary:             var(--color-gray-light);
+  --color-nav-secondary-text:        var(--color-gray);
+
+  --color-page-foot:                 #fff;
+  --color-page-micro:                #fff;
+  --color-page-micro-background:     var(--color-gray);
+
+  --color-headings:                  var(--color-pink);
+  --color-heading-sub:               var(--color-gray);
+
+  --color-quote:                     var(--color-gray-mid);
+  --color-quote--banner:             var(--color-gray);
+
+  --color-box-highlight-background:  var(--color-highlight);
+  --color-box-highlight-border:      var(--color-gray-ui);
+  --color-box-tint-background:       var(--color-tint);
+
+  --color-band-highlight-background: var(--color-highlight);
+  --color-band-tint-background:      var(--color-tint);
+  --color-band-dark:                 #fff;
+  --color-band-dark-background:      var(--color-gray);
+  --color-band-attention:            #fff;
+  --color-band-attention-background: var(--color-brand);
+}

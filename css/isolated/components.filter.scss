@@ -24,7 +24,7 @@
     padding: $spacing-unit--small;
     margin-bottom: $spacing-unit;
     background-color: #fff;
-    border-bottom: 1px solid $color-gray-ui;
+    border-bottom: 1px solid var(--color-gray-ui);
     border-radius: $base-round;
   }
 
@@ -48,7 +48,7 @@
     }
 
     .c-filter__link--reset {
-      border: 0 solid $color-gray-ui;
+      border: 0 solid var(--color-gray-ui);
       border-bottom-width: 1px;
       border-radius: 0;
 
@@ -82,8 +82,8 @@
   }
 
   %_current-state {
-    background-color: $color-gray-ui;
-    color: $color-gray;
+    background-color: var(--color-gray-ui);
+    color: var(--color-gray);
     pointer-events: none;
     text-decoration: none;
   }

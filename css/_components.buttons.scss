@@ -60,7 +60,7 @@
 
 .btn--secondary {
     background: none;
-    color: $color-btn;
+    color: var(--color-btn);
 
     @include attention() {
         background: none;
@@ -72,8 +72,8 @@
 .btn--positive {
 
     @include attention(self) {
-        background-color: $color-positive;
-            border-color: $color-positive;
+        background-color: var(--color-positive);
+            border-color: var(--color-positive);
     }
 
 }
@@ -81,8 +81,8 @@
 .btn--negative {
 
     @include attention(self) {
-        background-color: $color-negative;
-            border-color: $color-negative;
+        background-color: var(--color-negative);
+            border-color: var(--color-negative);
     }
 
 }

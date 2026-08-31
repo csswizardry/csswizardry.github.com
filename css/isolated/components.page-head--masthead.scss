@@ -40,8 +40,8 @@
     background-image: url(/img/css/masthead-small.jpg), url(/img/css/masthead-small-lqip.jpg), var(--base64);
     background-position: center 25%;
     @include vendor(background-size, cover);
-    color: $color-masthead; /* [1] */
-    border-top-color: $color-masthead;
+    color: var(--color-masthead); /* [1] */
+    border-top-color: var(--color-masthead);
     border-bottom-width: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
 
@@ -93,7 +93,7 @@
     position: absolute;
     bottom: 0;
     left: auto;
-    color: $color-masthead;
+    color: var(--color-masthead);
     @include font-size(24px);
     font-weight: 300; /* [1] */
 

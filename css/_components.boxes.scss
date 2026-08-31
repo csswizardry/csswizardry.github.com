@@ -7,10 +7,10 @@
 }
 
 .box--highlight {
-    background-color: $color-box-highlight-background;
-    border-bottom: 1px solid $color-box-highlight-border;
+    background-color: var(--color-box-highlight-background);
+    border-bottom: 1px solid var(--color-box-highlight-border);
 }
 
 .box--tint {
-    background-color: $color-box-tint-background;
+    background-color: var(--color-box-tint-background);
 }

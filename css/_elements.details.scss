@@ -7,13 +7,13 @@ details {
 
   & + & {
     padding-top: $spacing-unit;
-    border-top: 1px solid $color-gray-ui;
+    border-top: 1px solid var(--color-gray-ui);
   }
 
 }
 
 summary {
-  color: $color-brand;
+  color: var(--color-brand);
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;

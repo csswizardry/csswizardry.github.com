@@ -4,7 +4,7 @@
 
 a {
     text-decoration: none;
-    color: $color-links;
+    color: var(--color-links);
     text-decoration-skip: ink;
 
     @include attention() {
@@ -28,7 +28,7 @@ a {
     @include font-weight(regular);
 
     @include attention() {
-        color: $color-links;
+        color: var(--color-links);
         text-decoration: none;
     }
 

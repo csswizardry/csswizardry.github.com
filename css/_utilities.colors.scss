@@ -2,6 +2,6 @@
    #COLORS
    ========================================================================== */
 
-.u-color-brand    { color: $color-brand !important; }
-.u-color-positive { color: $color-positive !important; }
-.u-color-negative { color: $color-negative !important; }
+.u-color-brand    { color: var(--color-brand) !important; }
+.u-color-positive { color: var(--color-positive) !important; }
+.u-color-negative { color: var(--color-negative) !important; }

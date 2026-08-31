@@ -58,7 +58,7 @@ $_logo-height:   64px;
     }
 
       .site-nav__logo-fill {
-        fill: $color-brand;
+        fill: var(--color-brand);
         transition: fill 0.2s;
 
         /**
@@ -69,7 +69,7 @@ $_logo-height:   64px;
         }
 
         .page-head--masthead & {
-          fill: $color-page-head;
+          fill: var(--color-page-head);
         }
 
       }
@@ -100,7 +100,7 @@ $_logo-height:   64px;
    */
   .site-nav__opener {
     @extend %triggers;
-    color: $color-links;
+    color: var(--color-links);
     float: right;
 
     .page-head--masthead & {
@@ -134,7 +134,7 @@ $_logo-height:   64px;
     transform: translateX(100%); /* [1] */
     transition: 0.2s;
     will-change: transform;
-    background-color: $color-gray;
+    background-color: var(--color-gray);
     contain: layout;
     content-visibility: hidden;
 
@@ -222,7 +222,7 @@ $_logo-height:   64px;
         }
 
         .site-nav__sub-menu & + & {
-          border-top: 1px solid $color-sub-menu-border;
+          border-top: 1px solid var(--color-sub-menu-border);
         }
 
       }
@@ -284,7 +284,7 @@ $_logo-height:   64px;
             white-space: nowrap;
             background-color: #fff;
             border-radius: $brand-round;
-            border: 1px solid $color-sub-menu-border;
+            border: 1px solid var(--color-sub-menu-border);
             box-shadow: $brand-round $brand-round 0 rgba(0, 0, 0, 0.1);
             visibility: hidden;
             opacity: 0;
@@ -310,7 +310,7 @@ $_logo-height:   64px;
 
             &:before {
               border: 12px solid transparent;
-              border-bottom-color: $color-sub-menu-border;
+              border-bottom-color: var(--color-sub-menu-border);
               margin-left: -12px;
             }
 
@@ -339,12 +339,12 @@ $_logo-height:   64px;
 
           @include media-query(lap-and-up) {
             line-height: $_logo-height;
-            color: $color-gray;
+            color: var(--color-gray);
             padding-top: 0;
             padding-bottom: 0;
 
             @include attention() {
-              color: $color-links;
+              color: var(--color-links);
               text-decoration: none
             }
 
@@ -353,7 +353,7 @@ $_logo-height:   64px;
           .page-head--masthead & {
 
               @include attention(self) {
-                color: $color-masthead;
+                color: var(--color-masthead);
               }
 
               @include attention() {
@@ -382,7 +382,7 @@ $_logo-height:   64px;
 
             $notch-size: halve($spacing-unit);
 
-            color: $color-links;
+            color: var(--color-links);
             position: relative;
             text-decoration: none;
 
@@ -405,7 +405,7 @@ $_logo-height:   64px;
 
             &:after {
               border-width: $notch-size - 1;
-              border-bottom-color: $inuit-base-background-color;
+              border-bottom-color: var(--color-bg);
               margin-left: -($notch-size - 1);
               bottom: -($spacing-unit + 1);
             }
@@ -427,7 +427,7 @@ $_logo-height:   64px;
 
           @include media-query(lap-and-up) {
             text-decoration: none;
-            color: $color-links;
+            color: var(--color-links);
           }
 
         }
@@ -460,11 +460,11 @@ $_logo-height:   64px;
 
               @include media-query(lap-and-up) {
                 @include font-weight('regular');
-                color: $color-gray;
+                color: var(--color-gray);
 
                 @include attention() {
                   text-decoration: none;
-                  color: $color-sub-menu-link-hover;
+                  color: var(--color-sub-menu-link-hover);
                 }
 
               }

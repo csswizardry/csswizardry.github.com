@@ -11,7 +11,7 @@
  */
 @include headings() {
     @include font-weight(light);
-    color: $color-headings;
+    color: var(--color-headings);
     text-wrap: balance;
 }
 
@@ -20,7 +20,7 @@ h1 {
   @include media-query(lap-and-up) {
     @include font-size(72px);
     font-weight: 900;
-    border-left: $spacing-unit solid $color-brand;
+    border-left: $spacing-unit solid var(--color-brand);
     border-radius: $base-round;
     margin-left: -($spacing-unit + $spacing-unit--small);
     padding-left: $spacing-unit--small;
@@ -51,7 +51,7 @@ h2:has(> img) {
 .heading {
     display: block;
     @include font-size(22px);
-    color: $color-headings;
+    color: var(--color-headings);
 }
 
 .heading-sub {
@@ -59,7 +59,7 @@ h2:has(> img) {
     @include font-size(16px);
     @include font-weight(bold);
     margin-bottom: 0;
-    color: $color-heading-sub;
+    color: var(--color-heading-sub);
 }
 
 
@@ -96,7 +96,7 @@ p {
  * Code-like elements.
  */
 code, kbd, samp, output {
-    color: $color-code;
+    color: var(--color-code);
     font-family: "Operator Mono", ui-monospace, monospace;
     font-style: normal;
     word-break: break-word;
@@ -112,7 +112,7 @@ pre {
     word-wrap: normal;
     overflow: auto;
     padding: $spacing-unit--small;
-    background-color: $color-pre-background;
+    background-color: var(--color-pre-background);
     border-radius: $base-round;
 
     @include media-query(lap-and-up) {
@@ -122,7 +122,7 @@ pre {
 
     &,
     code, kbd, samp {
-        color: $color-pre;
+        color: var(--color-pre);
         word-break: keep-all;
     }
 
@@ -202,7 +202,7 @@ figure {
  */
 hr {
     border: none;
-    border-bottom: 1px solid $color-gray-ui;
+    border-bottom: 1px solid var(--color-gray-ui);
     margin-bottom: $spacing-unit - 1px;
 
     .s-post & {
@@ -274,5 +274,5 @@ s, del {
 
 ins {
   border-bottom: none;
-  background-color: $color-hilite;
+  background-color: var(--color-hilite);
 }

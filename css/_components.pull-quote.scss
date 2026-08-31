@@ -5,9 +5,9 @@
 .pull-quote {
     @include font-size(18px);
     font-style: normal;
-    color: $color-quote;
+    color: var(--color-quote);
     padding-left: 0.5 * $spacing-unit;
-    border-left: 0.5 * $spacing-unit solid $color-brand;
+    border-left: 0.5 * $spacing-unit solid var(--color-brand);
     border-radius: $base-round;
     margin-right: 0;
     margin-left:  0;
@@ -32,7 +32,7 @@
     text-indent: 0;
     border-left: none;
     margin: 0 auto;
-    color: $color-quote--banner;
+    color: var(--color-quote--banner);
     font-style: normal;
 
     @include media-query(lap-and-up) {
@@ -55,7 +55,7 @@
         margin-right: $spacing-unit;
         padding-right: 0.5 * $spacing-unit;
         padding-left: 0;
-        border-right: 0.5 * $spacing-unit solid $color-brand;
+        border-right: 0.5 * $spacing-unit solid var(--color-brand);
         border-left: none;
         text-align: right;
     }

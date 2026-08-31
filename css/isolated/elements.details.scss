@@ -9,7 +9,7 @@ details {
 }
 
 summary {
-  color: $color-brand;
+  color: var(--color-brand);
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;

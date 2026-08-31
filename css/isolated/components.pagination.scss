@@ -44,7 +44,7 @@
       line-height: 1;
       text-transform: uppercase;
       font-weight: normal;
-      color: $color-gray;
+      color: var(--color-gray);
     }
 
     .c-pagination__prev {

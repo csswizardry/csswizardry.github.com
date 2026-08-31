@@ -28,7 +28,7 @@
   .carbon-text {
     overflow: hidden;
     display: block;
-    color: $color-gray-mid;
+    color: var(--color-gray-mid);
     text-wrap: balance;
   }
 
@@ -37,6 +37,6 @@
     text-align: center;
     @include font-size(12px);
     text-transform: uppercase;
-    color: $color-gray-light;
+    color: var(--color-gray-light);
     letter-spacing: 0.01em;
   }
