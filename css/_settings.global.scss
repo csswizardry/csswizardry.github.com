@@ -1,21 +1,3 @@
 ///*------------------------------------*\
 //    #GLOBAL
 //\*------------------------------------*/
-
-:root {
-  --font-family-system: system-ui, sans-serif;
-  --font-family-code: "Operator Mono", ui-monospace, monospace;
-  --font-family-serif: Hoefler Text, Georgia, serif;
-
-  --spacing-unit:        24px;
-  --spacing-unit--tiny:   6px;
-  --spacing-unit--small: 12px;
-  --spacing-unit--large: 48px;
-
-  --border-radius: 3px;
-
-  // Styles specific to page headers. Implemented in
-  // `_components.page-head[--masthead].scss`, but defined globally here.
-  --header-border-width: 6px;
-  --header-max-height: 480px;
-}
