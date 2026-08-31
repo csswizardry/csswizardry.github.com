@@ -9,7 +9,7 @@
 .c-cross-sell {
   width: 50%;
   float: left;
-  margin-right: $spacing-unit--small;
+  margin-right: var(--spacing-unit--small);
 
   @include media-query(lap-and-up) {
     margin-left: -$spacing-unit--small;
@@ -19,7 +19,7 @@
     float: right;
     text-align: right;
     margin-right: 0;
-    margin-left: $spacing-unit--small;
+    margin-left: var(--spacing-unit--small);
 
     @include media-query(lap-and-up) {
       margin-right: -$spacing-unit--small;

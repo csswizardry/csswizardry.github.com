@@ -3,20 +3,20 @@
 \*------------------------------------*/
 
 .band {
-    padding-top:    $spacing-unit;
-    padding-bottom: $spacing-unit;
+    padding-top:    var(--spacing-unit);
+    padding-bottom: var(--spacing-unit);
     content-visibility: auto;
     contain-intrinsic-size: 1px 1000px;
 
     @include media-query(desk) {
-        padding-top:    $spacing-unit--large;
-        padding-bottom: $spacing-unit--large;
+        padding-top:    var(--spacing-unit--large);
+        padding-bottom: var(--spacing-unit--large);
     }
 
 }
 
 .band--large {
-    padding: $spacing-unit--large;
+    padding: var(--spacing-unit--large);
 }
 
 .band--highlight {

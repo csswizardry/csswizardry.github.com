@@ -6,7 +6,7 @@ details {
   @extend %margin-bottom;
 
   & + & {
-    padding-top: $spacing-unit;
+    padding-top: var(--spacing-unit);
     border-top: 1px solid var(--color-gray-ui);
   }
 

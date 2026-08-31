@@ -5,7 +5,7 @@
 .c-highlight {
   $_text-color: #36393a;
 
-  padding: $spacing-unit;
+  padding: var(--spacing-unit);
   background-color: var(--color-hilite);
 
   &, a {
@@ -29,7 +29,7 @@
 }
 
 .c-highlight--small {
-  padding: $spacing-unit--small;
+  padding: var(--spacing-unit--small);
 }
 
 .c-highlight--ribbon {

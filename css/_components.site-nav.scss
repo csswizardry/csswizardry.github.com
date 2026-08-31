@@ -271,7 +271,7 @@ $_logo-height:   64px;
         .site-nav__sub-menu {
           list-style: none;
           margin-left: 0;
-          padding-left: $spacing-unit;
+          padding-left: var(--spacing-unit);
 
           @include media-query(lap-and-up) {
             position: absolute;
@@ -329,7 +329,7 @@ $_logo-height:   64px;
          */
         .site-nav__link {
           display: block;
-          padding: $spacing-unit--small;
+          padding: var(--spacing-unit--small);
           color: #fff;
 
           @include attention() {
@@ -451,7 +451,7 @@ $_logo-height:   64px;
              */
             .site-nav__sub-link {
               display: block;
-              padding: $spacing-unit--small;
+              padding: var(--spacing-unit--small);
               color: #fff;
 
               @include attention() {

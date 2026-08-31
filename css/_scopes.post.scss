@@ -54,7 +54,7 @@
     max-width: 100%;
     width: 100%;
     border: none;
-    margin-bottom: $spacing-unit;
+    margin-bottom: var(--spacing-unit);
   }
 
   :target {

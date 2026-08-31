@@ -10,7 +10,7 @@
     padding-bottom: 0;
 
     @include media-query(desk) {
-        padding-bottom: $spacing-unit;
+        padding-bottom: var(--spacing-unit);
     }
 
 }

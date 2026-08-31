@@ -21,8 +21,8 @@
   }
 
   .c-filter__links {
-    padding: $spacing-unit--small;
-    margin-bottom: $spacing-unit;
+    padding: var(--spacing-unit--small);
+    margin-bottom: var(--spacing-unit);
     background-color: #fff;
     border-bottom: 1px solid var(--color-gray-ui);
     border-radius: $base-round;
@@ -31,10 +31,10 @@
     .c-filter__link {
       @include font-size(12px);
       display: block;
-      margin-bottom: $spacing-unit--tiny;
+      margin-bottom: var(--spacing-unit--tiny);
       text-align: center;
-      padding-right: $spacing-unit--tiny;
-      padding-left:  $spacing-unit--tiny;
+      padding-right: var(--spacing-unit--tiny);
+      padding-left:  var(--spacing-unit--tiny);
       border-radius: $base-round;
       background-color: rgba(0, 0, 0, 0);
       -webkit-transition: 0.333s;
@@ -60,7 +60,7 @@
     }
 
   .c-filter__item {
-    margin-bottom: $spacing-unit;
+    margin-bottom: var(--spacing-unit);
   }
 
   /**

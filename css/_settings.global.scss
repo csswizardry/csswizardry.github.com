@@ -12,3 +12,18 @@ $header-border-width:   6px;
 $header-max-height:     480px;
 
 $system-fonts: system-ui, sans-serif;
+
+
+
+
+
+:root {
+  --font-family-system: system-ui, sans-serif;
+  --font-family-code: "Operator Mono", ui-monospace, monospace;
+  --font-family-serif: Hoefler Text, Georgia, serif;
+
+  --spacing-unit:        24px;
+  --spacing-unit--tiny:   6px;
+  --spacing-unit--small: 12px;
+  --spacing-unit--large: 48px;
+}

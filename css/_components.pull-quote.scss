@@ -28,7 +28,7 @@
  */
 .pull-quote--banner {
     max-width: 27em;
-    padding: 0 $spacing-unit--small;
+    padding: 0 var(--spacing-unit--small);
     text-indent: 0;
     border-left: none;
     margin: 0 auto;
@@ -52,7 +52,7 @@
     @include media-query(lap-and-up) {
         width: 50%;
         float: left;
-        margin-right: $spacing-unit;
+        margin-right: var(--spacing-unit);
         padding-right: 0.5 * $spacing-unit;
         padding-left: 0;
         border-right: 0.5 * $spacing-unit solid var(--color-brand);
@@ -69,7 +69,7 @@
     @include media-query(lap-and-up) {
         width: 50%;
         float: right;
-        margin-left: $spacing-unit;
+        margin-left: var(--spacing-unit);
     }
 
 }

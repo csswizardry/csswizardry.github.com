@@ -5,12 +5,12 @@
 .wrapper {
     max-width: 1100px;
     margin: 0 auto;
-    padding-right: $spacing-unit--small;
-    padding-left:  $spacing-unit--small;
+    padding-right: var(--spacing-unit--small);
+    padding-left:  var(--spacing-unit--small);
 
     @include media-query(lap-and-up) {
-        padding-right: $spacing-unit;
-        padding-left:  $spacing-unit;
+        padding-right: var(--spacing-unit);
+        padding-left:  var(--spacing-unit);
     }
 
 }

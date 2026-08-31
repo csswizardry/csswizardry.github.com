@@ -11,7 +11,7 @@
 }
 
 html {
-  font-family: $system-fonts;
+  font-family: var(--font-family-system);
   @include font-weight(regular);
   scroll-behavior: smooth;
 }

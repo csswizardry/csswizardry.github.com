@@ -25,13 +25,13 @@
     border-width: $header-border-width 0 1px;
     border-top-color: var(--color-page-head-border);
     border-bottom-color: #f2f2f2;
-    padding-top:    $spacing-unit--small; /* [1] */
-    padding-bottom: $spacing-unit--small; /* [1] */
+    padding-top:    var(--spacing-unit--small); /* [1] */
+    padding-bottom: var(--spacing-unit--small); /* [1] */
     background-color: var(--color-page-head-background);
 
     @include media-query(lap-and-up) {
-        padding-top:    $spacing-unit; /* [2] */
-        padding-bottom: $spacing-unit; /* [2] */
+        padding-top:    var(--spacing-unit); /* [2] */
+        padding-bottom: var(--spacing-unit); /* [2] */
     }
 
     /**

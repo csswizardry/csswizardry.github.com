@@ -14,10 +14,10 @@
 
     .client-list__item {
         display: inline-block;
-        padding: $spacing-unit--small;
+        padding: var(--spacing-unit--small);
 
         @include media-query(lap-and-up) {
-            padding: $spacing-unit;
+            padding: var(--spacing-unit);
         }
 
         > a {

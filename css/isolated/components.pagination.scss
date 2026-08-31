@@ -11,7 +11,7 @@
 
 .c-pagination {
   display: flex;
-  margin-bottom: $spacing-unit;
+  margin-bottom: var(--spacing-unit);
 }
 
   .c-pagination__item {

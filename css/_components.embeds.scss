@@ -9,7 +9,7 @@
 .twitter-tweet-rendered {
   margin-top: 0 !important;
   margin-right: auto;
-  margin-bottom: $spacing-unit !important;
+  margin-bottom: var(--spacing-unit) !important;
   margin-left: auto;
 }
 
@@ -24,6 +24,6 @@
 .c-spotify-embed {
   display: block;
   margin-right: auto;
-  margin-bottom: $spacing-unit;
+  margin-bottom: var(--spacing-unit);
   margin-left: auto;
 }

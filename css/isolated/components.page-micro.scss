@@ -7,7 +7,7 @@
 
 .page-micro {
     background-color: var(--color-page-micro-background);
-    padding: $spacing-unit--small;
+    padding: var(--spacing-unit--small);
     text-align: center;
     content-visibility: auto;
     contain-intrinsic-size: 1px 100px;
