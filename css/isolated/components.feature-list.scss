@@ -74,7 +74,7 @@
                 position: absolute;
                 top:  50%;
                 left: -4px;
-                margin-top: -$spacing-unit--small;
+                margin-top: calc(-1 * var(--spacing-unit--small));
                 border: $spacing-unit--small solid transparent;
                 border-left-color: var(--color-bg);
                 @include vendor(transition, transform 0.2s);

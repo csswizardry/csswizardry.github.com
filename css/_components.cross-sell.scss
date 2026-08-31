@@ -12,7 +12,7 @@
   margin-right: var(--spacing-unit--small);
 
   @include media-query(lap-and-up) {
-    margin-left: -$spacing-unit--small;
+    margin-left: calc(-1 * var(--spacing-unit--small));
   }
 
   &:nth-of-type(even) {
@@ -22,7 +22,7 @@
     margin-left: var(--spacing-unit--small);
 
     @include media-query(lap-and-up) {
-      margin-right: -$spacing-unit--small;
+      margin-right: calc(-1 * var(--spacing-unit--small));
     }
 
   }

@@ -380,8 +380,6 @@ $_logo-height:   64px;
 
           @include media-query(lap-and-up) {
 
-            $notch-size: $spacing-unit--small;
-
             color: var(--color-links);
             position: relative;
             text-decoration: none;
@@ -397,17 +395,17 @@ $_logo-height:   64px;
             }
 
             &:before {
-              border-width: $notch-size;
+              border-width: var(--spacing-unit--small);
               border-bottom-color: #f2f2f2;
-              margin-left: -$notch-size;
-              bottom: -$spacing-unit;
+              margin-left: calc(-1 * var(--spacing-unit--small));
+              bottom: calc(-1 * var(--spacing-unit));
             }
 
             &:after {
-              border-width: $notch-size - 1;
+              border-width: calc(var(--spacing-unit--small) - 1px);
               border-bottom-color: var(--color-bg);
-              margin-left: -($notch-size - 1);
-              bottom: -($spacing-unit + 1);
+              margin-left: calc(-1 * (var(--spacing-unit--small) - 1px));
+              bottom: calc(-1 * (var(--spacing-unit) + 1px));
             }
 
           }

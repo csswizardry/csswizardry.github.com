@@ -43,7 +43,7 @@ a {
   @media screen and (min-height: 75em) {
 
     :target {
-      scroll-margin-top: 5 * $spacing-unit;
+      scroll-margin-top: calc(5 * var(--spacing-unit));
     }
 
   }

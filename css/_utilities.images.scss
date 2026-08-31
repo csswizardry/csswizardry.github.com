@@ -4,12 +4,12 @@
 
 .u-outdent {
   @include media-query(desk) {
-    margin-left: -$spacing-unit;
+    margin-left: calc(-1 * var(--spacing-unit));
   }
 }
 
 .u-outdent-alt {
   @include media-query(desk) {
-    margin-right: -$spacing-unit;
+    margin-right: calc(-1 * var(--spacing-unit));
   }
 }

@@ -5,9 +5,8 @@
 @import "../settings.all";
 @import "../tools.all";
 
-$_panes-quantity: 5;
-
 .c-carousel {
+  --carousel-panes-quantity: 5;
   overflow: hidden;
   width: 100%;
   text-align: center;
@@ -20,7 +19,7 @@ $_panes-quantity: 5;
     list-style: none;
     position: relative;
     display: table;
-    width: $_panes-quantity * 100%;
+    width: calc(var(--carousel-panes-quantity) * 100%);
     overflow: hidden;
     @include vendor(filter, blur(0));
 
@@ -41,7 +40,7 @@ $_panes-quantity: 5;
       position: relative;
       display: table-cell;
       vertical-align: middle;
-      width: 100% / $_panes-quantity;
+      width: calc(100% / var(--carousel-panes-quantity));
 
       /**
        * 1. Attempt to lazily paint off-screen panes.

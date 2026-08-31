@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .adpacks {
-  min-height: 9 * $spacing-unit;
+  min-height: calc(9 * var(--spacing-unit));
 }
 
 .carbon-wrap {

@@ -50,7 +50,7 @@
     .c-pagination__prev {
 
       &:hover {
-        transform: translateX(-$spacing-unit--small);
+        transform: translateX(calc(-1 * var(--spacing-unit--small)));
       }
 
       &::before {
@@ -63,7 +63,7 @@
     text-align: right;
 
     &:hover {
-      transform: translateX($spacing-unit--small);
+      transform: translateX(var(--spacing-unit--small));
     }
 
     &::before {

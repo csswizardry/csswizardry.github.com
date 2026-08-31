@@ -22,7 +22,7 @@ h1 {
     font-weight: 900;
     border-left: $spacing-unit solid var(--color-brand);
     border-radius: $base-round;
-    margin-left: -($spacing-unit + $spacing-unit--small);
+    margin-left: calc(-1 * (var(--spacing-unit) + var(--spacing-unit--small)));
     padding-left: var(--spacing-unit--small);
   }
 
@@ -116,8 +116,8 @@ pre {
     border-radius: $base-round;
 
     @include media-query(lap-and-up) {
-      margin-right: -$spacing-unit--small;
-      margin-left:  -$spacing-unit--small;
+      margin-right: calc(-1 * var(--spacing-unit--small));
+      margin-left:  calc(-1 * var(--spacing-unit--small));
     }
 
     &,
@@ -203,14 +203,14 @@ figure {
 hr {
     border: none;
     border-bottom: 1px solid var(--color-gray-ui);
-    margin-bottom: $spacing-unit - 1px;
+    margin-bottom: calc(var(--spacing-unit) - 1px);
 
     .s-post & {
 
       @media screen and (min-width: 1380px) {
         margin-left: -128px;
-        margin-top:    3 * ($spacing-unit);
-        margin-bottom: 3 * ($spacing-unit) - 1px;
+        margin-top:    calc(3 * var(--spacing-unit));
+        margin-bottom: calc(3 * var(--spacing-unit) - 1px);
       }
 
     }

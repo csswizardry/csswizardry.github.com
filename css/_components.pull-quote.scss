@@ -13,7 +13,7 @@
     margin-left:  0;
 
     @include media-query(lap-and-up) {
-        margin-left: -$spacing-unit;
+        margin-left: calc(-1 * var(--spacing-unit));
     }
 
 }

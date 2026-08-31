@@ -74,7 +74,7 @@
 
         @media screen and (min-width: 758px) { /* [5] */
             padding-top: 0; /* [6] */
-            height: $header-max-height - $spacing-unit--large - $header-border-width; /* [7] */
+            height: calc(var(--header-max-height) - var(--spacing-unit--large) - var(--header-border-width)); /* [7] */
         }
 
     }
