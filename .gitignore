@@ -2,6 +2,7 @@
 _site/
 PSDs/
 bower_components/
+/css/node_modules/
 *.draft.md
 *.map
 .jekyll-metadata
@@ -9,7 +10,6 @@ bower_components/
 _drafts/
 Icon
 Icon?
-Gemfile.lock
 .bundle/
 vendor/bundle/
 *.sw?
@@ -19,3 +19,6 @@ _workflows/
 llm-scripts/
 _ingest/
 artefacts/
+/_includes/css/*.css
+/_includes/css/components.filter.scss
+/css/csswizardry.min.css

@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
+output_dir="../_includes/css"
+mkdir -p "${output_dir}"
+
+compile() {
+  bundle exec sass \
+    "$1:$2" \
+    --style=compressed \
+    --no-source-map \
+    --load-path bower_components \
+    --quiet-deps \
+    --silence-deprecation=import
+}
+
+compile csswizardry.scss "${output_dir}/csswizardry.min.css"
+compile isolated/components.card.scss "${output_dir}/components.card.css"
+compile isolated/components.carousel.scss "${output_dir}/components.carousel.css"
+compile isolated/components.client-list.scss "${output_dir}/components.client-list.css"
+compile isolated/components.feature-list.scss "${output_dir}/components.feature-list.css"
+compile isolated/components.filter.scss "${output_dir}/components.filter.css"
+compile isolated/components.happy-harry.scss "${output_dir}/components.happy-harry.css"
+compile isolated/components.headshot.scss "${output_dir}/components.headshot.css"
+compile isolated/components.page-foot.scss "${output_dir}/components.page-foot.css"
+compile isolated/components.page-head--masthead.scss "${output_dir}/components.page-head--masthead.css"
+compile isolated/components.page-micro.scss "${output_dir}/components.page-micro.css"
+compile isolated/components.pagination.scss "${output_dir}/components.pagination.css"
+compile isolated/components.syntax.scss "${output_dir}/components.syntax.css"
+compile isolated/elements.details.scss "${output_dir}/elements.details.css"
