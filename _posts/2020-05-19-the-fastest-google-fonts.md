@@ -4,6 +4,9 @@ title: "Speed Up Google Fonts"
 date: 2020-05-19 17:35:04
 categories:
   - Web Performance
+tags:
+  - Fonts
+  - Resource Loading
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2020/05/filmstrip-foit.png"
 meta: "Google Fonts is fast. Now it’s faster. Much faster."
