@@ -4,6 +4,8 @@ title: "Core Web Vitals Colours"
 date: 2024-11-18 15:04:11:57
 categories:
   - Web Performance
+tags:
+  - Core Web Vitals
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2024/11/cwv-colours.png"
 meta: "If, like me, you frequently require the Core Web Vitals colour palete, here it is!"

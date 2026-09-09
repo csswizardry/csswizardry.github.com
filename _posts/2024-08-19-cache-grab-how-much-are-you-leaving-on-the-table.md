@@ -4,6 +4,10 @@ title: "Cache Grab: How Much Are You Leaving on the Table?"
 date: 2024-08-19 13:17:11
 categories:
   - Web Performance
+tags:
+  - Caching
+  - Measurement
+  - RUM
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2024/08/devtools.png"
 meta: "Quantifying the importance of caching just got a lot easier"

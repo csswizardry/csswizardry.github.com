@@ -4,6 +4,10 @@ title: "Optimising for High Latency Environments"
 date: 2024-09-16 11:01:48
 categories:
   - Web Performance
+tags:
+  - Networking
+  - Resource Loading
+  - Caching
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2024/09/diagram-all.png"
 meta: "We can’t do much to change latency, so how can we work around it?"

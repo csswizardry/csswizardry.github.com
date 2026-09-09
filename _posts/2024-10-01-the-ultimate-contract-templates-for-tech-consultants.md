@@ -4,6 +4,8 @@ title: "The Ultimate Contract Templates for Tech Consultants: Protect Your Busin
 date: 2024-10-01 19:25:46
 categories:
   - Business
+tags:
+  - Consulting
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2024/10/scan.jpg"
 meta: "If you want to start consulting, you’re gonna need some paperwork!"

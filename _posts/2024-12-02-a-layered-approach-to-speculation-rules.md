@@ -5,6 +5,9 @@ date: 2024-12-02 00:01:56
 last_modified_at: 2025-06-05
 categories:
   - Web Performance
+tags:
+  - Browser APIs
+  - Resource Loading
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
 meta: "The new Speculation Rules API is incredibly powerful, but we can do so much more! By taking a layered approach, we can add more progressive functionality."

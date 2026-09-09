@@ -4,6 +4,8 @@ title: "Licensing Code on CSS Wizardry"
 date: 2024-12-04 10:32:12
 categories:
   - Web Development
+tags:
+  - Open Source
 show_taxonomy: true
 main: "https://csswizardry.com/img/content/licensing/poster.jpg"
 meta: "I’ve recently decided to apply the permissive MIT License to all content on CSS Wizardry by default. How does this affect you?"

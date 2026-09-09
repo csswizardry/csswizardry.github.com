@@ -4,6 +4,9 @@ title: "blocking=render: Why would you do that?!"
 date: 2024-08-14 12:45:11
 categories:
   - Web Performance
+tags:
+  - HTML
+  - Resource Loading
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2024/08/blocking-status.png"
 meta: "Why on earth would you make something render-blocking?!"
