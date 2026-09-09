@@ -5,6 +5,9 @@ date: 2022-08-24 12:41:16
 last_modified_at: 2025-08-22
 categories:
   - Web Performance
+tags:
+  - Measurement
+  - Browser APIs
 show_taxonomy: true
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/08/user-timing-chrome.png"
 meta: "When implementing performance fixes, it’s imperative that you measure the right thing—but what is ‘right’?"

@@ -4,6 +4,9 @@ title: "Critical CSS? Not So Fast!"
 date: 2022-09-06 16:00:00
 categories:
   - Web Performance
+tags:
+  - CSS
+  - Resource Loading
 show_taxonomy: true
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/09/critical-filmstrip-03.png"
 meta: "Critical CSS promises faster loading, but is it worth the complexity? Learn when Critical CSS actually boosts performance or when it might slow you down."
