@@ -5,6 +5,9 @@ date: 2025-03-07 15:55:04
 last_modified_at: 2025-06-04
 categories:
   - Web Performance
+tags:
+  - Caching
+  - Cache-Control
 show_taxonomy: true
 meta: "Learn how the Cache-Control request header works, how browsers handle refresh and hard refresh caching, and when developers should use it themselves."
 faq:

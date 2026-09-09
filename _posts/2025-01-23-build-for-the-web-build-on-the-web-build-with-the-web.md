@@ -4,6 +4,9 @@ title: "Build for the Web, Build on the Web, Build with the Web"
 date: 2025-01-23 13:01:19
 categories:
   - Web Development
+tags:
+  - Web Platform
+  - JavaScript
 show_taxonomy: true
 meta: "What is the real, long-term cost of adopting a JavaScript framework?"
 toc: false

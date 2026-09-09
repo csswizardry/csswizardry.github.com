@@ -4,6 +4,9 @@ title: "Obs.js: Context-Aware Web Performance for Everyone"
 date: 2025-08-27 11:23:19
 categories:
   - Web Performance
+tags:
+  - Browser APIs
+  - Mobile
 show_taxonomy: true
 meta: "Obs.js is a tiny inline script that exposes network, battery, CPU, and memory signals to CSS and JavaScript so you can adapt to user context."
 faq:

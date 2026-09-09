@@ -5,6 +5,10 @@ date: 2025-07-25 15:15:11
 last_modified_at: 2025-08-22
 categories:
   - Web Performance
+tags:
+  - DevTools
+  - Measurement
+  - Browser APIs
 show_taxonomy: true
 main: "/wp-content/uploads/2025/07/extensibility-10.png"
 meta: "Making sense—and use!—of the new Performance Extensibility API in Chrome DevTools."

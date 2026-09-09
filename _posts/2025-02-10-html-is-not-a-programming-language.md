@@ -4,6 +4,9 @@ title: "HTML Is Not a Programming Language…"
 date: 2025-02-10 18:09:04
 categories:
   - Web Development
+tags:
+  - HTML
+  - Web Platform
 show_taxonomy: true
 meta: "Is HTML a programming language? In this short post, I explore why HTML is powerful, fundamental, and essential—but not a programming language."
 toc: false

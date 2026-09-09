@@ -5,6 +5,9 @@ date: 2025-08-18 11:23:19
 last_modified_at: 2026-07-21
 categories:
   - Web Performance
+tags:
+  - Mobile
+  - Measurement
 show_taxonomy: true
 main: "/wp-content/uploads/2025/08/moto-g4.jpg"
 meta: "Discover the most representative low- and mid-tier mobile devices for web performance testing in 2025."
