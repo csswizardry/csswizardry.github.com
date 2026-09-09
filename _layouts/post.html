@@ -79,9 +79,9 @@ lux: Post
 
           {% if page.show_taxonomy and page.tags.size > 0 %}
 
-            <h2>Tags</h2>
+            <h3>Tagged With…</h3>
 
-            <ul>
+            <ul class="o-list-inline  c-list-tags">
               {% for tag in page.tags %}
                 {% assign tag_slug = tag | slugify %}
                 <li><a href="{{ '/blog/tags/' | append: tag_slug | append: '/' | relative_url }}">{{ tag }}</a></li>

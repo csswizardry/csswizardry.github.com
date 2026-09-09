@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #LIST-TAGS
+   ========================================================================== */
+
+/**
+ * Post-article tag cloud/list
+ *
+ * Cause a simple unordered list to render as a comma-separated list of tags.
+ */
+
+.c-list-tags {
+
+  > li::after {
+    content: ",";
+  }
+
+  > li:last-child::after {
+    content: "";
+  }
+
+}

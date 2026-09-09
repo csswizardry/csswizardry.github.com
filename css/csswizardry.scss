@@ -66,6 +66,7 @@
  * Embeds...............Embedded Tweets etc. need to look nicer
  * Highlights...........Call-outs and highlights.
  * Cross-sell...........Linked-articles cross-sell component.
+ * List-tags............Post-article tag cloud/list
  *
  * SCOPES
  * Post.................Styles scoped specifically to blog post pages
@@ -211,6 +212,7 @@ $inuit-enable-list-ui--small:   true;
 @import "components.embeds";
 @import "components.highlights";
 @import "components.cross-sell";
+@import "components.list-tags";
 
 
 
