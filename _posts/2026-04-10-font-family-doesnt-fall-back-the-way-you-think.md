@@ -2,7 +2,9 @@
 layout: post
 title: "font-family Doesn’t Fall Back the Way You Think"
 date: 2026-04-10 11:30:00
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "A quick but important reminder that font-family declarations don’t inherit fallback stacks the way many developers assume."
 ---
 

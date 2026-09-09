@@ -2,7 +2,9 @@
 layout: post
 title: "When All You Can Do Is All or Nothing, Do Nothing"
 date: 2026-03-30 11:30:00
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "If your design system can only apply `loading=lazy` or `fetchpriority=high` blindly, it may be safer not to apply them at all."
 ---
 

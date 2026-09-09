@@ -2,7 +2,9 @@
 layout: post
 title: "Low- and Mid-Tier Mobile for the Real World (2026)"
 date: 2026-07-21 15:03:12
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 main: "/wp-content/uploads/2026/07/galaxy-a56.jpg"
 meta: "The 2026 update to my real-world device testing recommendations paints a clearer picture than ever…"
 ---

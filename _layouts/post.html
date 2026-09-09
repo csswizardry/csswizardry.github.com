@@ -22,6 +22,14 @@ lux: Post
             <ins>(last updated on <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop=dateModified>{{ page.last_modified_at | date: "%-d %B, %Y" }}</time>)</ins>
           {% endif %}
 
+          {% if page.show_taxonomy and page.categories %}
+            in
+            {% for category in page.categories %}
+              {% assign category_slug = category | slugify %}
+              <a href="{{ '/blog/category/' | append: category_slug | append: '/' | relative_url }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          {% endif %}
+
           {% if page.reading-time %} • {{page.reading-time}} minute read{% endif %}
 
         </p>
@@ -66,6 +74,19 @@ lux: Post
                 </details>
               {% endfor %}
             </div>
+          {% endif %}
+
+          {% if page.show_taxonomy and page.tags.size > 0 %}
+
+            <h2>Tags</h2>
+
+            <ul>
+              {% for tag in page.tags %}
+                {% assign tag_slug = tag | slugify %}
+                <li><a href="{{ '/blog/tags/' | append: tag_slug | append: '/' | relative_url }}">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+
           {% endif %}
 
       </div><!-- /.s-post -->

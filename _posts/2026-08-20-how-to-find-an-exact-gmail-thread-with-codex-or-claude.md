@@ -2,7 +2,9 @@
 layout: post
 title: "How to Find an Exact Gmail Thread with Codex or Claude"
 date: 2026-08-20 22:05:48
-categories: Web Development
+categories:
+  - Tools
+show_taxonomy: true
 meta: "Use Gmail’s Message-ID to point Codex or Claude at one exact email and retrieve the complete conversation rather than a plausible result."
 faq:
   - question: "How do I point Codex or Claude at one exact Gmail email?"

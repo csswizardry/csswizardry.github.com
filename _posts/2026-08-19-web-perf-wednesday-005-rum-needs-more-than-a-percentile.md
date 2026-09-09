@@ -2,7 +2,9 @@
 layout: post
 title: "Web-Perf Wednesday 005 – RUM Needs More Than a Percentile"
 date: 2026-08-19 12:00:00 +0100
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "LUX Sidecar adds context to RUM, while browser-tool fixes show why measurement conditions and small debugging details matter."
 ---
 

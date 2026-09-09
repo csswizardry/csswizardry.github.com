@@ -2,7 +2,15 @@
 layout: post
 title: "When Safari’s ‘Ignore Cache’ Ignored Cache-Control"
 date: 2026-08-17 16:11:40
-categories: Web Development
+categories:
+  - Web Performance
+tags:
+  - Web Performance
+  - Safari
+  - Caching
+  - DevTools
+  - Cache-Control
+show_taxonomy: true
 meta: "Safari Technology Preview 250 fixed a subtle Web Inspector bug that overwrote page-authored Cache-Control request headers when the resource cache was disabled."
 faq:
   - question: "What did Safari Technology Preview 250 fix?"

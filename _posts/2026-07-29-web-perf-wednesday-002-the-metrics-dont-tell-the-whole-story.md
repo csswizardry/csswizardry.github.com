@@ -2,7 +2,9 @@
 layout: post
 title: "Web-Perf Wednesday 002 – The Metrics Don’t Tell the Whole Story"
 date: 2026-07-29 02:00:00 +0000
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "CrUX’s seasonal decline, Safari 27’s user-experience fixes, richer INP attribution, and long-session third-party costs all demand better interpretation."
 ---
 

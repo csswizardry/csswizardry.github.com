@@ -2,7 +2,9 @@
 layout: post
 title: "Introducing LUX Sidecar: Your SpeedCurve Companion"
 date: 2026-08-18 11:30:00
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 main: "https://csswizardry.com/img/content/logo-lux-sidecar.png"
 meta: "LUX Sidecar is a small SpeedCurve RUM plugin that adds browser and navigation context to your real-user performance data."
 faq:

@@ -1,0 +1,14 @@
+---
+layout: page
+title: Tags
+permalink: /blog/tags/
+meta: "Browse CSS Wizardry articles by tag."
+---
+
+{% assign tag_pages = site.pages | where_exp: "item", "item.tag" | sort: "tag" %}
+
+<ul>
+  {% for tag_page in tag_pages %}
+    <li><a href="{{ tag_page.url | relative_url }}">{{ tag_page.tag }}</a></li>
+  {% endfor %}
+</ul>
