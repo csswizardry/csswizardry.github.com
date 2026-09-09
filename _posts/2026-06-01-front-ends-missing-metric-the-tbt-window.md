@@ -4,6 +4,8 @@ title: "Front-End’s Missing Metric: The TBT Window"
 date: 2026-06-01 11:30:00
 categories:
   - Web Performance
+tags:
+  - Measurement
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2026/06/speedcurve-02.png"
 meta: "The TBT Window is the FCP-to-TTI interval used to calculate Total Blocking Time. If FCP or TTI moves, TBT can change even when long tasks do not."

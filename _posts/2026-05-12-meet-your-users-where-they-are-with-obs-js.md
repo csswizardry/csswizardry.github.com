@@ -4,6 +4,9 @@ title: "Meet Your Users Where They Are with Obs.js"
 date: 2026-05-12 16:53:00
 categories:
   - Web Performance
+tags:
+  - Browser APIs
+  - Mobile
 show_taxonomy: true
 meta: "Obs.js is a tiny inline script that helps you adapt your site to real-world network, battery, CPU, and memory conditions."
 ---

@@ -4,6 +4,8 @@ title: "Web-Perf Wednesday 004 – A Quiet Week Is Time to Investigate"
 date: 2026-08-12 12:00:00 +0100
 categories:
   - Web Performance
+tags:
+  - Measurement
 show_taxonomy: true
 meta: "A quiet week in web performance is a useful chance to investigate the evidence and problems teams already have."
 quiet: true

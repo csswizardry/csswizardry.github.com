@@ -4,6 +4,9 @@ title: "Measuring Component Performance with the Container Timing API"
 date: 2026-07-26 13:51:29
 categories:
   - Web Performance
+tags:
+  - Browser APIs
+  - Measurement
 show_taxonomy: true
 meta: "Measure how entire components render with the Container Timing API: how it differs from Element Timing, where it helps, and how to try it today."
 faq:

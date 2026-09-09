@@ -4,6 +4,9 @@ title: "Web-Perf Wednesday 007 – Chrome Makes Busy Workers Measurable"
 date: 2026-09-02 12:00:00 +0100
 categories:
   - Web Performance
+tags:
+  - Browser APIs
+  - RUM
 show_taxonomy: true
 main: ""
 meta: "Chrome 153 starts exposing dedicated-worker congestion to RUM, while browser releases tighten privacy, module recovery, and image preloading."

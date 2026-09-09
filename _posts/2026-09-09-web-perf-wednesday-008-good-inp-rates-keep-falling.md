@@ -4,6 +4,9 @@ title: "Web-Perf Wednesday 008 – Good INP Rates Keep Falling"
 date: 2026-09-09 12:00:00 +0100
 categories:
   - Web Performance
+tags:
+  - Core Web Vitals
+  - RUM
 show_taxonomy: true
 main: ""
 meta: "CrUX shows another fall in good INP experiences, making careful attribution more useful than a quick explanation."

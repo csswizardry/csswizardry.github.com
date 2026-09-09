@@ -4,6 +4,10 @@ title: "Web-Perf Wednesday 003 – Native SPA Metrics Have Arrived"
 date: 2026-08-05 02:00:00 +0000
 categories:
   - Web Performance
+tags:
+  - Core Web Vitals
+  - SPAs
+  - RUM
 show_taxonomy: true
 meta: "Chrome 151 and web-vitals v6 bring native SPA measurement into production, while new browser controls reshape device and third-party governance."
 ---

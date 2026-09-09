@@ -61,6 +61,21 @@ lux: Post
 
           {{ content }}
 
+          {% if page.show_taxonomy and page.tags.size > 0 %}
+
+            <hr>
+
+            <h2>Tagged With…</h2>
+
+            <ul class="o-list-inline  c-list-tags">
+              {% for tag in page.tags %}
+                {% assign tag_slug = tag | slugify %}
+                <li><a href="{{ '/blog/tags/' | append: tag_slug | append: '/' | relative_url }}">{{ tag }}</a></li>
+              {% endfor %}
+            </ul>
+
+          {% endif %}
+
           {% if page.faq and page.faq.size > 0 %}
 
             <hr>
@@ -75,19 +90,6 @@ lux: Post
                 </details>
               {% endfor %}
             </div>
-          {% endif %}
-
-          {% if page.show_taxonomy and page.tags.size > 0 %}
-
-            <h3>Tagged With…</h3>
-
-            <ul class="o-list-inline  c-list-tags">
-              {% for tag in page.tags %}
-                {% assign tag_slug = tag | slugify %}
-                <li><a href="{{ '/blog/tags/' | append: tag_slug | append: '/' | relative_url }}">{{ tag }}</a></li>
-              {% endfor %}
-            </ul>
-
           {% endif %}
 
       </div><!-- /.s-post -->

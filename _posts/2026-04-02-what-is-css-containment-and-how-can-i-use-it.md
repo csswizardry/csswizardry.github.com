@@ -4,6 +4,8 @@ title: "What Is CSS Containment and How Can I Use It?"
 date: 2026-04-02 11:30:00
 categories:
   - Web Performance
+tags:
+  - CSS
 show_taxonomy: true
 meta: "CSS containment lets you isolate layout and paint work to self-contained ‘islands’. Here’s what each contain value does and how to use it safely."
 reading-time: 13
