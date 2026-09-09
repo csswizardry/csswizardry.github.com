@@ -1,6 +1,7 @@
 ### More Web-Perf Wednesdays
 
 <ol reversed>
+  <li><a href="/2026/09/web-perf-wednesday-008-good-inp-rates-keep-falling/">Web-Perf Wednesday 008 – Good INP Rates Keep Falling</a></li>
   <li><a href="/2026/09/web-perf-wednesday-007-chrome-makes-busy-workers-measurable/">Web-Perf Wednesday 007 – Chrome Makes Busy Workers Measurable</a></li>
   <li><a href="/2026/08/web-perf-wednesday-006-faster-browser-releases-change-your-rum-population/">Web-Perf Wednesday 006 – Faster Browser Releases Change Your RUM Population</a></li>
   <li><a href="/2026/08/web-perf-wednesday-005-rum-needs-more-than-a-percentile/">Web-Perf Wednesday 005 – RUM Needs More Than a Percentile</a></li>
