@@ -4,6 +4,10 @@ title: "Measuring Web Performance in Mobile Safari"
 date: 2021-02-26 01:41:12
 categories:
   - Web Performance
+tags:
+  - Safari
+  - Mobile
+  - Measurement
 show_taxonomy: true
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2021/02/inspecting-safari-02.png"
 meta: "How often do you test your site in iOS Safari? Do you even know how?!"
