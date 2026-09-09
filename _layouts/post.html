@@ -38,8 +38,9 @@ lux: Post
 
           <p class=hide>Written by <b itemprop=author>Harry Roberts</b> on <b itemprop=publisher>CSS Wizardry</b>.</p>
 
-          {% assign markdown_source = site.markdown_source_base | append: page.path %}
-          <p class=hide><a href="{{ markdown_source }}">View this page as Markdown.</a></p>
+          {% if page.path contains ".md" %}
+            <p class=hide><a href="{{ site.markdown_source_base }}{{ page.path }}">View this page as Markdown.</a></p>
+          {% endif %}
 
           {% if page.case-study != true %}
 

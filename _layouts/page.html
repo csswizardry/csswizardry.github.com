@@ -12,8 +12,10 @@ layout: default
 
             <h1 elementtiming="page-title">{{ page.title }}</h1>
 
-            {% assign markdown_source = site.markdown_source_base | append: page.path %}
-            <p class=hide><a href="{{ markdown_source }}">View this page as Markdown.</a></p>
+            {% if page.path contains ".md" %}
+              <p class=hide><a href="{{ site.markdown_source_base }}{{ page.path }}">View this page as Markdown.</a></p>
+            {% endif %}
+
 
             {{ content }}
 
