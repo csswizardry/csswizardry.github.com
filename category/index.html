@@ -6,6 +6,16 @@ meta: "Browse by subject: web performance, front-end development, tooling, the b
 ---
 
 {% assign category_pages = site.pages | where_exp: "item", "item.category" | sort: "category" %}
+{% assign category_count = category_pages | size %}
+
+<p>Categories are the broad strokes: the handful of subjects that everything
+  here sits under, from web performance and front-end development through to the
+  business of running a consultancy.</p>
+
+<p>There are currently <strong>{{ category_count }} categories</strong> on CSS
+  Wizardry. If you want something more specific than that, the
+  <a href="{{ '/blog/tags/' | relative_url }}">tags</a> go a good deal
+  deeper.</p>
 
 <ul>
   {% for category_page in category_pages %}

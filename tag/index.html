@@ -6,6 +6,15 @@ meta: "Every subject covered on CSS Wizardry, from Core Web Vitals and caching t
 ---
 
 {% assign tag_pages = site.pages | where_exp: "item", "item.tag" | sort: "tag" %}
+{% assign tag_count = tag_pages | size %}
+
+<p>Tags are the fine-grained view of the archive: roughly one for every
+  technology, technique, and recurring obsession I write about. If you already
+  know what you’re looking for, this is the quickest way to get to it.</p>
+
+<p>There are currently <strong>{{ tag_count }} tags</strong> and counting on CSS
+  Wizardry. If you’d rather browse by broader subject, try the
+  <a href="{{ '/blog/category/' | relative_url }}">categories</a> instead.</p>
 
 <ul>
   {% for tag_page in tag_pages %}
