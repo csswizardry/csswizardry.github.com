@@ -2,7 +2,9 @@
 layout: post
 title: "Self-Host Your Static Assets"
 date: 2019-05-31 21:10:11
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "Why is it so much better to self-host your static assets?"
 last_modified_at: 2025-01-09
 ---

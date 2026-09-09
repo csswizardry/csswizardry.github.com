@@ -3,7 +3,9 @@ layout: post
 title: "How to Clear Cache and Cookies on a Customer’s Device"
 date: 2023-10-02 15:30:49
 last_modified_at: 2025-06-05
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2023/10/clear-site-data.png?1"
 meta: "There’s a super quick and easy way to clear cache on your customers’ devices. Are you using it yet?"
 faq:

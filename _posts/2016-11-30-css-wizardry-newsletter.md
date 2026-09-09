@@ -2,7 +2,9 @@
 layout: post
 title: "CSS Wizardry Newsletter"
 date: 2016-11-30 17:27:11
-categories: Business
+categories:
+  - Business
+show_taxonomy: true
 meta: "CSS Wizardry has just got itself a newsletter…"
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: "CSS Guidelines 2.0.0"
 date: 2014-08-15 13:20:21
-categories: Web Development
+categories:
+  - Business
+show_taxonomy: true
 meta: "Announcing the next iteration and business model of my popular CSS Guidelines document"
 ---
 

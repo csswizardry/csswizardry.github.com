@@ -5,7 +5,8 @@ layout: post
 slug: naming-ui-components-in-oocss
 title: Naming UI components in OOCSS
 categories:
-- Web Development
+  - Web Development
+show_taxonomy: true
 tag:
 meta: "A way of giving complex, OOCSS-built components more meaningful names"
 ---

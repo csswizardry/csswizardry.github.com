@@ -2,7 +2,9 @@
 layout: post
 title: "Pure CSS Content Filter"
 date: 2016-10-15 21:13:47
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "Experiment: Making a content filter using CSS"
 ---
 

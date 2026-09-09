@@ -2,7 +2,9 @@
 layout: post
 title: "Preparing Vim for Apple’s Touch Bar"
 date: 2017-01-08 22:30:47
-categories: Tools
+categories:
+  - Tools
+show_taxonomy: true
 meta: "Apple are replacing their function row with a Touch Bar; how will this affect Vim?"
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: "Lazy Pre-Browsing with Prefetch"
 date: 2019-08-15 14:47:28
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "Using prefetch for fun and profit"
 toc: false
 ---

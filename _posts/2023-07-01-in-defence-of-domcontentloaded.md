@@ -2,7 +2,9 @@
 layout: post
 title: "In Defence of DOM­Content­Loaded"
 date: 2023-07-01 00:01:19
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2023/06/devtools-dcl.png"
 meta: "Is there any reason to still measure the DOMContentLoaded event? Perhaps…"
 reading-time: 10

@@ -2,7 +2,9 @@
 layout: post
 title: "My Digital Music Setup"
 date: 2018-04-02 16:35:19
-categories: Off Topic
+categories:
+  - Personal
+show_taxonomy: true
 meta: "An overview of my hardware and software setup for listening to digital music"
 ---
 

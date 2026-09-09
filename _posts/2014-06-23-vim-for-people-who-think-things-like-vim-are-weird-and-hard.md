@@ -5,7 +5,8 @@ layout: post
 slug: vim-for-people-who-think-things-like-vim-are-weird-and-hard
 title: Vim for People Who Think Things Like Vim Are Weird and Hard
 categories:
-- Web Development
+  - Tools
+show_taxonomy: true
 tag:
 meta: "An introduction to the whats and the whys of using Vim as your text editor"
 ---

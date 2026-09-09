@@ -2,7 +2,9 @@
 layout: post
 title: "Pragmatic, Practical, and Progressive Theming with Custom Properties"
 date: 2016-10-10 19:25:19
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "A low-cost approach for providing user customisation in UI projects"
 ---
 

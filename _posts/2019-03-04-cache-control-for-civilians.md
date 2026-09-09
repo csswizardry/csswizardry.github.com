@@ -3,7 +3,9 @@ layout: post
 title: "Cache-Control for Civilians"
 date: 2019-03-04 01:21:39
 last_modified_at: 2025-06-05
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "What does Cache-Control really do? In basic terms? Let’s find out!"
 reading-time: 17
 faq:

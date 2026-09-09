@@ -2,7 +2,9 @@
 layout: post
 title: "The Specificity Graph"
 date: 2014-10-29 13:43:33
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "The Specificity Graph as a model for visualising specificity issues in your code"
 ---
 

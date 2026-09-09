@@ -5,7 +5,8 @@ layout: post
 slug: grouping-related-classes-in-your-markup
 title: Grouping related classes in your markup
 categories:
-- Web Development
+  - Web Development
+show_taxonomy: true
 tag:
 meta: "An interesting way of visually and ‘physically’ grouping multiple class attributes"
 ---

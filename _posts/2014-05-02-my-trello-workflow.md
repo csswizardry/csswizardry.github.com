@@ -5,8 +5,8 @@ layout: post
 slug: my-trello-workflow
 title: My Trello workflow
 categories:
-- Web Development
-- Process
+  - Tools
+show_taxonomy: true
 tag:
 meta: "How I manage development projects using Trello"
 ---

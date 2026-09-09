@@ -2,7 +2,9 @@
 layout: post
 title: "The Three Types of Performance Testing"
 date: 2018-10-27 10:02:39
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "How can we make it easier for businesses to understand when and what to measure?"
 faq:
   - question: "What are the three types of performance testing?"

@@ -2,7 +2,9 @@
 layout: post
 title: "Relative Requirements"
 date: 2017-11-10 18:23:12
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "Define the relative importance of project traits in order to make development smoother"
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: "Managing Typography on Large Apps"
 date: 2016-02-21 12:14:48
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "A look at managing typography more practically on larger sites and apps"
 ---
 

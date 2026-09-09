@@ -2,7 +2,9 @@
 layout: post
 title: "Performance Budgets, Pragmatically"
 date: 2020-01-08 18:19:10
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "If you’ve ever struggled to define performance budgets, this off-the-shelf trick is what you’re looking for."
 ---
 

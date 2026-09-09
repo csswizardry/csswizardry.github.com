@@ -2,7 +2,9 @@
 layout: post
 title: "Image Inconsistencies: How and When Browsers Download Images"
 date: 2018-06-11 19:02:54
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "How and when do browsers download certain types of image? What does that
 mean for performance?"
 ---

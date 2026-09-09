@@ -2,7 +2,9 @@
 layout: post
 title: "Advice to budding front-end developers"
 date: 2014-08-05 15:18:12
-categories: Industry
+categories:
+  - Career
+show_taxonomy: true
 meta: "A collation of the advice I regularly give out to new and emerging web developers"
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: "Code Smells in CSS Revisited"
 date: 2017-02-08 12:14:18
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "An update to my 2012 article, Code Smells in CSS"
 ---
 

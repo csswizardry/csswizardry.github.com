@@ -2,7 +2,9 @@
 layout: post
 title: "Optimising Largest Contentful Paint"
 date: 2022-03-28 23:02:11
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/03/chart-full.png"
 meta: "Let’s look at some more technical and non-obvious aspects of optimising Largest Contentful Paint"
 reading-time: 11

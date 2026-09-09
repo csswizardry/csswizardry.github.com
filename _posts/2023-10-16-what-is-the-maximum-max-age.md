@@ -3,7 +3,9 @@ layout: post
 title: "What Is the Maximum max-age?"
 date: 2023-10-16 14:18:39
 last_modified_at: 2025-06-04
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "How long?! RFC9111 lets max-age reach 68 years—far beyond the usual one that developers set. Here are the raw numbers, the spec, and when to use it."
 reading-time: 4
 faq:

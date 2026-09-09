@@ -2,7 +2,9 @@
 layout: post
 title: "Speaker’s Checklist: Before and After Your Talk"
 date: 2016-06-20 19:59:10
-categories: Web Development
+categories:
+  - Speaking
+show_taxonomy: true
 meta: "Giving talks is stressful. Follow these tips to make the logistics of it a little simpler."
 ---
 

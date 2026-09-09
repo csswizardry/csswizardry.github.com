@@ -2,7 +2,9 @@
 layout: post
 title: "The HTTP/1-liness of HTTP/2"
 date: 2023-07-11 20:30:54
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2023/07/cards-round-robin.png"
 meta: "If HTTP/2 is so much better, why does it look so similar to HTTP/1?!"
 toc: false

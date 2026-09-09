@@ -3,7 +3,9 @@ layout: post
 title: "Little Things I Like to Do with Git"
 date: 2017-05-23 14:39:29
 last_modified_at: 2025-06-02
-categories: Web Development
+categories:
+  - Tools
+show_taxonomy: true
 meta: "Handy Git tricks and aliases: leaderboards, praise, word-diff, branch history, daily recaps, changelog generation, and more in one quick guide."
 ---
 

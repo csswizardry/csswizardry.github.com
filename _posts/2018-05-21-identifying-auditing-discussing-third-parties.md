@@ -2,7 +2,9 @@
 layout: post
 title: "Identifying, Auditing, and Discussing Third Parties"
 date: 2018-05-21 10:01:21
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "Gathering data about third-parties using free and open-source tooling"
 faq:
   - question: "How do I identify third-party scripts on my site?"

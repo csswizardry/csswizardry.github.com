@@ -2,7 +2,9 @@
 layout: post
 title: "Travelling Like You Want to, When You Have To"
 date: 2015-06-21 15:50:12
-categories: Personal
+categories:
+  - Personal
+show_taxonomy: true
 meta: "My own personal tips and tricks for surviving lots of air travel."
 ---
 

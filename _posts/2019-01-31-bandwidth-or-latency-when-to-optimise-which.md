@@ -2,7 +2,9 @@
 layout: post
 title: "Bandwidth or Latency: When to Optimise for Which"
 date: 2019-01-31 14:11:15
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "How can you tell when bandwidth or latency are your bottlenecks?"
 faq:
   - question: "What is the difference between latency and bandwidth?"

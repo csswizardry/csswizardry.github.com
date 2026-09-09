@@ -2,7 +2,9 @@
 layout: post
 title: "Correctly Configure (Pre) Connections"
 date: 2023-12-09 19:17:04
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2023/12/bbc-news-waterfall-initial.png"
 meta: "We’re probably familiar with preconnect, but are we getting it right?"
 faq:

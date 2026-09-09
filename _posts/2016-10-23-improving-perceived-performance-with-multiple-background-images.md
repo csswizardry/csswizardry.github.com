@@ -2,7 +2,9 @@
 layout: post
 title: "Improving Perceived Performance with Multiple Background Images"
 date: 2016-10-23 22:53:18
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "Using CSS gradients and multiple backgrounds to improve resilience and perceived performance"
 ---
 

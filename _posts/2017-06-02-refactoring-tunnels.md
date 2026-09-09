@@ -2,7 +2,9 @@
 layout: post
 title: "Refactoring Tunnels"
 date: 2017-06-02 12:19:58
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 toc: false
 meta: "A metaphor for defining the scope of refactoring tasks"
 main: "/wp-content/uploads/2017/06/tunnel.jpg"

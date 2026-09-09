@@ -2,7 +2,9 @@
 layout: post
 title: "Hacks for dealing with specificity"
 date: 2014-07-17 11:50:14
-categories: CSS Selectors
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "A couple of quick hacks and tricks for manipulating specificity"
 ---
 

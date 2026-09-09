@@ -5,7 +5,8 @@ layout: post
 slug: extending-silent-classes-in-sass
 title: Extending silent classes in Sass
 categories:
-- Web Development
+  - Web Development
+show_taxonomy: true
 tag:
 meta: "A simple trick for controlling the reach of Sass’ `@extend`"
 ---

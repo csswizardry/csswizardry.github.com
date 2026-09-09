@@ -2,7 +2,9 @@
 layout: post
 title: "Typography for Developers"
 date: 2017-02-06 22:22:34
-categories: Web Development, Typography
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "A look at the simple differences that developers and engineers can make in order to improve the quality of their typography"
 ---
 

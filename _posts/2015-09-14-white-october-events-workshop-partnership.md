@@ -2,7 +2,9 @@
 layout: post
 title: "White October Events Workshop Partnership"
 date: 2015-09-14 15:34:12
-categories: Web Development
+categories:
+  - Business
+show_taxonomy: true
 meta: "An exciting new partnership to offer public workshops"
 ---
 

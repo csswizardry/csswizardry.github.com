@@ -5,7 +5,8 @@ layout: post
 slug: use-zero-width-spaces-to-stop-annoying-twitter-users
 title: Use zero-width spaces to stop annoying Twitter users
 categories:
-- Tips
+  - Web Development
+show_taxonomy: true
 tag:
 meta: "A little trick to stop mentioning Twitter users when you write @import, etc."
 ---

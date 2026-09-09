@@ -2,7 +2,9 @@
 layout: post
 title: "Can CSS Be Too Modular?"
 date: 2015-03-08 14:15:41
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "Looking at the dangers of abstracting CSS too far"
 ---
 

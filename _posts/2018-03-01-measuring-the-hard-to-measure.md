@@ -2,7 +2,9 @@
 layout: post
 title: "Measuring the Hard-to-Measure"
 date: 2018-03-01 13:45:19
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "How can we gather valuable data about previously hard-to-measure things?"
 ---
 

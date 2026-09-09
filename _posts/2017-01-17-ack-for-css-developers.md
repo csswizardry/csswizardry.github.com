@@ -2,7 +2,9 @@
 layout: post
 title: "Ack for CSS Developers"
 date: 2017-01-17 19:07:24
-categories: Web Development
+categories:
+  - Tools
+show_taxonomy: true
 meta: "Using the Ack tool to audit and profile your CSS"
 ---
 

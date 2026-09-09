@@ -2,7 +2,9 @@
 layout: post
 title: "Cyclomatic Complexity: Logic in CSS"
 date: 2015-04-26 12:43:45
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "A look at how CSS has always contained logic and conditions"
 ---
 

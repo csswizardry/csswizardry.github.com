@@ -2,7 +2,9 @@
 layout: post
 title: "CSS and Network Performance"
 date: 2018-11-09 19:57:12
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "How can CSS impact network and resource-loading performance? Can things
 be that serious?"
 reading-time: 12

@@ -2,7 +2,9 @@
 layout: post
 title: "Designing (and Evolving) a New Web Performance Score"
 date: 2024-11-26 16:36:16
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2024/11/new-metric-indexed.png"
 meta: "Why design another new performance score?! Good question…"
 ---

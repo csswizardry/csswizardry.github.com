@@ -2,7 +2,9 @@
 layout: post
 title: "The Importance of !important: Forcing Immutability in CSS"
 date: 2016-05-08 23:35:38
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "Forcing immutability in our utility classes by using !important"
 ---
 

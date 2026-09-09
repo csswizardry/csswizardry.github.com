@@ -2,7 +2,9 @@
 layout: post
 title: "The Fallacies of Distributed Computing (Applied to Front-End Performance)"
 date: 2017-11-21 09:51:11
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "What can front-end and performance engineers learn from the Fallacies of Distributed Computing?"
 ---
 

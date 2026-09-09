@@ -2,7 +2,9 @@
 layout: post
 title: "Real-World Effectiveness of Brotli"
 date: 2020-04-22 10:28:20
-categories: Web Development
+categories:
+  - Web Performance
+show_taxonomy: true
 meta: "How effective is Brotli, really?"
 ---
 

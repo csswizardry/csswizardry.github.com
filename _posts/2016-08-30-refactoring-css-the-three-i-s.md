@@ -2,7 +2,9 @@
 layout: post
 title: "Refactoring CSS: The Three I’s"
 date: 2016-08-30 20:11:12
-categories: Web Development
+categories:
+  - Web Development
+show_taxonomy: true
 meta: "Three key steps to help you refactoring legacy code"
 ---
 
