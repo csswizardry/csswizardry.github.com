@@ -4,6 +4,10 @@ title: "The Three Cs: 🤝 Concatenate, 🗜️ Compress, 🗳️ Cache"
 date: 2023-10-17 00:00:00
 categories:
   - Web Performance
+tags:
+  - Resource Loading
+  - Caching
+  - Networking
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2023/10/chart-all.png"
 meta: "We know we should do it, but do we know how?"

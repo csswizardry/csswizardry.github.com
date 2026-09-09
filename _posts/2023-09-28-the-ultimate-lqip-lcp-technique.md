@@ -5,6 +5,10 @@ date: 2023-09-28 18:59:20
 last_modified_at: 2025-09-05
 categories:
   - Web Performance
+tags:
+  - Images
+  - Core Web Vitals
+  - Resource Loading
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2023/09/csswizardry.com-lcp.jpg"
 meta: "Can Low-Quality Image Placeholders and LCP play nicely together?"

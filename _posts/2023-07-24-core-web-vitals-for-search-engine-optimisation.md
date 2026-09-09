@@ -4,6 +4,9 @@ title: "Core Web Vitals for Search Engine Optimisation: What Do We Need to Know?
 date: 2023-07-24 00:00:00
 categories:
   - Web Performance
+tags:
+  - Core Web Vitals
+  - SEO
 show_taxonomy: true
 main: "https://csswizardry.com/wp-content/uploads/2023/07/cwv-seo.png"
 meta: "There’s still a lot of misunderstanding about CWV for SEO. Let’s work it out together."
