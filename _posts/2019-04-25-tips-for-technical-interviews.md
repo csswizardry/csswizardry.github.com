@@ -4,6 +4,8 @@ title: "Tips for Technical Interviews"
 date: 2019-04-25 15:19:18
 categories:
   - Career
+tags:
+  - Career
 show_taxonomy: true
 meta: "How can you prepare for and survive a technical interview?"
 ---

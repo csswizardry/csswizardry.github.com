@@ -4,6 +4,9 @@ title: "Making Cloud.typography Fast(er)"
 date: 2019-08-13 09:51:11
 categories:
   - Web Performance
+tags:
+  - Fonts
+  - Resource Loading
 show_taxonomy: true
 meta: "What issues does Hoefler&Co’s Cloud.typography introduce, and how can we mitigate them?"
 ---

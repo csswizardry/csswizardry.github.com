@@ -4,6 +4,9 @@ title: "Bandwidth or Latency: When to Optimise for Which"
 date: 2019-01-31 14:11:15
 categories:
   - Web Performance
+tags:
+  - DevTools
+  - Measurement
 show_taxonomy: true
 meta: "How can you tell when bandwidth or latency are your bottlenecks?"
 faq:

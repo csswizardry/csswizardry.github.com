@@ -4,6 +4,9 @@ title: "Lazy Pre-Browsing with Prefetch"
 date: 2019-08-15 14:47:28
 categories:
   - Web Performance
+tags:
+  - Browser APIs
+  - Resource Loading
 show_taxonomy: true
 meta: "Using prefetch for fun and profit"
 toc: false

@@ -4,6 +4,9 @@ title: "Time to First Byte: What It Is and How to Improve It"
 date: 2019-08-08 02:06:56
 categories:
   - Web Performance
+tags:
+  - Measurement
+  - Networking
 show_taxonomy: true
 meta: "Just how much does TTFB matter when it comes to front-end performance?"
 reading-time: 6
