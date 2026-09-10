@@ -4,6 +4,8 @@ title: "Relative Requirements"
 date: 2017-11-10 18:23:12
 categories:
   - Web Development
+tags:
+  - Consulting
 show_taxonomy: true
 meta: "Define the relative importance of project traits in order to make development smoother"
 ---

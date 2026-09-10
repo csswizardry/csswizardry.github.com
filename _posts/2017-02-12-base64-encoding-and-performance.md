@@ -4,6 +4,11 @@ title: "Base64 Encoding & Performance, Part 1: What’s Up with Base64?"
 date: 2017-02-12 12:11:13
 categories:
   - Web Performance
+tags:
+  - Base64
+  - Caching
+  - Compression
+  - Resource Loading
 show_taxonomy: true
 meta: "A look at the many huge disadvantages of Base64 encoding assets into your CSS"
 faq:

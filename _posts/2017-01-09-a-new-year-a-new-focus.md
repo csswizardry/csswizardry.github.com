@@ -4,6 +4,8 @@ title: "A New Year, a New Focus"
 date: 2017-01-09 21:44:13
 categories:
   - Business
+tags:
+  - Consulting
 show_taxonomy: true
 meta: "In 2017, I want to begin shifting my focus more toward making things fast"
 ---

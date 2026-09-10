@@ -4,6 +4,9 @@ title: "Writing Tidy Code"
 date: 2017-05-10 12:45:56
 categories:
   - Web Development
+tags:
+  - Code Quality
+  - Git
 show_taxonomy: true
 meta: "Even the most inexperienced developers can write great looking code"
 ---

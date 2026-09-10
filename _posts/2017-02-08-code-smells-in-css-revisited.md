@@ -4,6 +4,9 @@ title: "Code Smells in CSS Revisited"
 date: 2017-02-08 12:14:18
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "An update to my 2012 article, Code Smells in CSS"
 ---

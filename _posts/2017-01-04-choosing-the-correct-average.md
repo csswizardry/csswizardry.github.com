@@ -4,6 +4,9 @@ title: "Choosing the Correct Average"
 date: 2017-01-04 12:08:54
 categories:
   - Web Performance
+tags:
+  - Measurement
+  - RUM
 show_taxonomy: true
 meta: "A look at which average works best for representing certain types of data"
 ---

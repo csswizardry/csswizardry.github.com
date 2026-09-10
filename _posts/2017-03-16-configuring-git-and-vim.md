@@ -4,6 +4,9 @@ title: "Configuring Git and Vim"
 date: 2017-03-16 21:41:11
 categories:
   - Tools
+tags:
+  - Git
+  - Vim
 show_taxonomy: true
 meta: "Both amazing tools in their own rights, how can we get both playing nicely together?"
 ---

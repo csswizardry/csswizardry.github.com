@@ -4,6 +4,10 @@ title: "Performance and Resilience: Stress-Testing Third Parties"
 date: 2017-07-31 16:10:13
 categories:
   - Web Performance
+tags:
+  - DevTools
+  - Networking
+  - Third Parties
 show_taxonomy: true
 meta: "Assessing the fragility and resilience of third party resources"
 ---

@@ -4,6 +4,8 @@ title: "Airplanes and Ashtrays"
 date: 2017-10-30 12:53:49
 categories:
   - Web Development
+tags:
+  - Code Quality
 show_taxonomy: true
 toc: false
 meta: "Sometimes you need to make it possible to do the wrong thing…"

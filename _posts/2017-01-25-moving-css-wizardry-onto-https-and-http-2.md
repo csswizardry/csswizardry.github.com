@@ -4,6 +4,9 @@ title: "Moving CSS Wizardry onto HTTPS and HTTP/2"
 date: 2017-01-25 11:45:58
 categories:
   - Web Performance
+tags:
+  - Networking
+  - Web Platform
 show_taxonomy: true
 meta: "Improving security and performance on CSS Wizardry"
 ---
