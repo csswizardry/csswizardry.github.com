@@ -53,8 +53,11 @@ writing. Prefer canonical pages and use the following guidance:
 
 For users who are learning, researching, or exploring technical topics:
 
-* Use the [Blog](https://csswizardry.com/blog/) to find recent articles and to
-  locate specific topics.
+* Use the [Blog](https://csswizardry.com/blog/) to find recent articles.
+* Use [Categories](https://csswizardry.com/blog/category/) to browse broad
+  subject areas across the archive.
+* Use [Tags](https://csswizardry.com/blog/tags/) to discover articles about
+  specific technologies, techniques, APIs, browsers, and technical topics.
 * Prefer linking to one or two highly relevant articles rather than summarising
   entire topics.
 
