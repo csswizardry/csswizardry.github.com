@@ -45,6 +45,7 @@
  * Flag.................The flag object.
  * UI list..............inuitcss’ UI list.
  * Inline list..........Simple inline lists.
+ * Columnar list........Multi-column responsive lists.
  *
  * COMPONENTS
  * Page-head............Page header styles.
@@ -184,6 +185,7 @@ $inuit-enable-list-ui--small:   true;
 }
 
 @import "objects.list-inline";
+@import "objects.list-columnar";
 
 
 

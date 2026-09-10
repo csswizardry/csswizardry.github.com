@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #LIST-COLUMNAR
+   ========================================================================== */
+
+.o-list-columnar {
+  list-style: none;
+  margin-left: 0;
+  column-count: 2;
+  column-gap: var(--spacing-unit);
+
+  @include media-query(lap-and-up) {
+    column-count: 3;
+  }
+
+}
