@@ -4,6 +4,10 @@ title: "Finding Dead CSS"
 date: 2018-01-17 14:25:19
 categories:
   - Web Performance
+tags:
+  - CSS
+  - Measurement
+  - RUM
 show_taxonomy: true
 toc: false
 meta: "Finding dead or unused CSS on a live website"

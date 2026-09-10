@@ -7,6 +7,7 @@ categories:
 tags:
   - JavaScript
   - Resource Loading
+  - Third Parties
 show_taxonomy: true
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/10/waterfall-async-snippets-before.png"
 meta: "Async snippets used to improve performance, but now they’re a legacy anti-pattern. How do we handle them now?"

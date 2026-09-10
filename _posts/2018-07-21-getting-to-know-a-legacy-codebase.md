@@ -4,6 +4,8 @@ title: "Getting to Know a Legacy Codebase"
 date: 2018-07-21 13:02:54
 categories:
   - Web Development
+tags:
+  - CSS
 show_taxonomy: true
 meta: "What should you do when you first get launched into an old, sprawling CSS codebase?"
 ---

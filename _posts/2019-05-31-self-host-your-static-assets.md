@@ -8,6 +8,7 @@ tags:
   - Caching
   - Networking
   - Resource Loading
+  - Third Parties
 show_taxonomy: true
 meta: "Why is it so much better to self-host your static assets?"
 last_modified_at: 2025-01-09

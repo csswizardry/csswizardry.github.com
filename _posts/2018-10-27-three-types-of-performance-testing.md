@@ -4,6 +4,9 @@ title: "The Three Types of Performance Testing"
 date: 2018-10-27 10:02:39
 categories:
   - Web Performance
+tags:
+  - Measurement
+  - RUM
 show_taxonomy: true
 meta: "How can we make it easier for businesses to understand when and what to measure?"
 faq:

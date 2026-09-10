@@ -4,6 +4,10 @@ title: "CSS and Network Performance"
 date: 2018-11-09 19:57:12
 categories:
   - Web Performance
+tags:
+  - CSS
+  - Networking
+  - Resource Loading
 show_taxonomy: true
 meta: "How can CSS impact network and resource-loading performance? Can things
 be that serious?"
