@@ -7,11 +7,10 @@ slug: your-logo-is-still-an-image-and-so-is-mine
 title: Your logo is still an image… and so is mine!
 categories:
 - Web Development
-tag:
-- Logo
-- Semantics
-- Web Standards
-- Performance
+tags:
+  - HTML
+  - Images
+  - Web Platform
 meta: Balancing image semantics with performance ideals
 branch-id: 0Madjrwnj6M
 branch-url: http://branch.com/b/your-logo-is-still-an-image-and-so-is-mine-css-wizard

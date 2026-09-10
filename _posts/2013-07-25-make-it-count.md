@@ -6,7 +6,8 @@ slug: make-it-count
 title: Make it count
 categories:
 - Personal
-tag:
+tags:
+  - Career
 meta: Everything you do, do it for a reason, and make that reason a good one.
 ---
 

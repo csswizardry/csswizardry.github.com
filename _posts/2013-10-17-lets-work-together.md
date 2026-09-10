@@ -5,9 +5,9 @@ layout: post
 slug: lets-work-together
 title: Let’s work together
 categories:
-- Work
-- CSS Wizardry
-tag:
+  - Business
+tags:
+  - Consulting
 meta: I’m looking for amazing people to work with on great products.
 ---
 

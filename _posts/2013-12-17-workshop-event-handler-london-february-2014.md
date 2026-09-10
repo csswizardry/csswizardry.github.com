@@ -5,8 +5,9 @@ layout: post
 slug: workshop-event-handler-london-february-2014
 title: "Workshop: Event Handler, London, February 2014"
 categories:
-- Workshops
-tag:
+  - Speaking
+tags:
+  - Speaking
 meta: My first workshop in association with the fine folk at Event Handler
 hide-hire-me-link: true
 ---

@@ -6,7 +6,9 @@ slug: introducing-csswizardry-grids
 title: Introducing csswizardry-grids
 categories:
 - Web Development
-tag:
+tags:
+  - CSS
+  - Open Source
 meta: A responsive, fluid, nestable, Sass-based grid system.
 branch-id: 4m2oWizUnII
 branch-url: http://branch.com/b/introducing-csswizardry-grids

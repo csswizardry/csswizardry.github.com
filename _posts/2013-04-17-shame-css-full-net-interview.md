@@ -5,8 +5,10 @@ layout: post
 slug: shame-css-full-net-interview
 title: shame.css – full .net interview
 categories:
-- Web development
-tag:
+  - Web Development
+tags:
+  - CSS
+  - Code Quality
 meta: The full version of the .net magazine shame.css interview
 ---
 

@@ -5,8 +5,9 @@ layout: post
 slug: hashed-classes-in-css
 title: Hashed classes in CSS
 categories:
-- Web development
-tag:
+  - Web Development
+tags:
+  - CSS
 meta: Spoofing the uniqueness of IDs by putting hashes in your classes
 ---
 

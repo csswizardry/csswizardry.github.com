@@ -5,8 +5,9 @@ layout: post
 slug: i-wrote-part-of-a-book
 title: I wrote (part of) a book!
 categories:
-- Books
-tag:
+  - Personal
+tags:
+  - Career
 meta: "My section in the latest Smashing Book"
 hide-hire-me-link: true
 ---

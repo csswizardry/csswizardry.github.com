@@ -5,8 +5,9 @@ layout: post
 slug: speak-the-web-discount-code
 title: Speak The Web discount code
 categories:
-- Conference
-tag:
+  - Speaking
+tags:
+  - Speaking
 meta: Amazing events with 25% off!
 ---
 

@@ -5,8 +5,9 @@ layout: post
 slug: workshop-make-do-leeds-november-2013
 title: "Workshop: Make Do, Leeds, November 2013"
 categories:
-- Workshops
-tag:
+  - Speaking
+tags:
+  - Speaking
 meta: Announcing my first workshop in association with Make Do
 hide-hire-me-link: true
 ---

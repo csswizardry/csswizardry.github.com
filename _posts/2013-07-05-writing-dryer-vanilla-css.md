@@ -5,8 +5,10 @@ layout: post
 slug: writing-dryer-vanilla-css
 title: Writing DRYer vanilla CSS
 categories:
-- Web development
-tag:
+  - Web Development
+tags:
+  - CSS
+  - Code Quality
 meta: DRYing out our CSS at its most basic level
 ---
 

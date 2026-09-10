@@ -5,8 +5,10 @@ layout: post
 slug: scope-in-css
 title: ‘Scope’ in CSS
 categories:
-- Web development
-tag:
+  - Web Development
+tags:
+  - CSS
+  - Code Quality
 meta: Applying the concept of scope to our CSS
 ---
 

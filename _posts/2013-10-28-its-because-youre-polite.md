@@ -6,7 +6,8 @@ slug: its-because-youre-polite
 title: ‘It’s because you’re polite.’
 categories:
 - Personal
-tag:
+tags:
+  - Travel
 meta: A personal post about helpfulness and politeness.
 hide-hire-me-link: true
 ---

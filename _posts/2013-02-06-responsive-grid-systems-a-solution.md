@@ -6,7 +6,9 @@ slug: responsive-grid-systems-a-solution
 title: Responsive grid systems; a solution?
 categories:
 - Web Development
-tag:
+tags:
+  - CSS
+  - Mobile
 meta: A look at building a practical, robust,  flexible, usable responsive grid system.
 branch-id: h0JFB-nqvjk
 branch-url: http://branch.com/b/responsive-grid-systems-a-solution

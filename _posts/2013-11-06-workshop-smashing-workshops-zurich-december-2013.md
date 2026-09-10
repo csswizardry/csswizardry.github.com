@@ -5,8 +5,9 @@ layout: post
 slug: workshop-smashing-workshops-zurich-december-2013
 title: "Workshop: Smashing Workshops, Zürich, December 2013"
 categories:
-- Workshops
-tag:
+  - Speaking
+tags:
+  - Speaking
 meta: Announcing my first workshop in association with Smashing Workshops
 hide-hire-me-link: true
 ---

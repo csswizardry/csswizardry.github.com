@@ -5,8 +5,9 @@ layout: post
 slug: the-flag-object
 title: The flag object
 categories:
-- Web development
-tag:
+  - Web Development
+tags:
+  - CSS
 meta: A new OOCSS abstraction
 ---
 

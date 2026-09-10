@@ -6,7 +6,9 @@ slug: taming-data-tables
 title: Taming data tables
 categories:
 - Web Development
-tag:
+tags:
+  - CSS
+  - HTML
 meta: "Laying out data tables in a consistent way, finally!"
 ---
 

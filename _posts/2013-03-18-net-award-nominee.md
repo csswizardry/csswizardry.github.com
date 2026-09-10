@@ -6,7 +6,8 @@ slug: net-award-nominee
 title: .net award nominee
 categories:
 - Personal
-tag:
+tags:
+  - Career
 meta: I’ve been nominated for a .net award!
 ---
 

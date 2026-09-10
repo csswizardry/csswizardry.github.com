@@ -6,7 +6,8 @@ slug: you-know-your-context-on-critical-thinking-and-thinking-for-yourself
 title: You know your context – on critical thinking and thinking for yourself
 categories:
 - Web Development
-tag:
+tags:
+  - Code Quality
 meta: About learning to look at things objectively and apply your own context
 branch-id: keSiEPhAw4Y
 branch-url: http://branch.com/b/you-know-your-context-on-critical-thinking

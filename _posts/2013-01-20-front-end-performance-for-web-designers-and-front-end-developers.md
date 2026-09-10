@@ -5,9 +5,11 @@ layout: post
 slug: front-end-performance-for-web-designers-and-front-end-developers
 title: Front-end performance for web designers and front-end developers
 categories:
-- Web Development
-tag:
-- Performance
+  - Web Performance
+tags:
+  - Images
+  - Networking
+  - Resource Loading
 meta: A comprehensive primer on front-end performance for designers and front-end developers
 branch-id: g3NkCgvBTd0
 branch-url: http://branch.com/b/front-end-performance-for-web-designers-and-front-end-devs

@@ -6,9 +6,8 @@ slug: discussion-via-branch
 title: Discussion via Branch
 categories:
 - CSS Wizardry
-tag:
-- Redesign
-- Branch
+tags:
+  - Social Media
 meta: Adding comments though Branch
 branch-id: fPeQxCwApzM
 branch-url: http://branch.com/b/discussion-via-branch

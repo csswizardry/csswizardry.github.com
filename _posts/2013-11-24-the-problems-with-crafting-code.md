@@ -5,9 +5,9 @@ layout: post
 slug: the-problems-with-crafting-code
 title: The problems with ‘crafting’ code
 categories:
-- Web Development
-- Opinion
-tag:
+  - Web Development
+tags:
+  - Code Quality
 meta: "Some thoughts on our use of the word ‘craft’ to describe our work"
 ---
 

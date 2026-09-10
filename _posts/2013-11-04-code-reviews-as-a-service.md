@@ -6,8 +6,10 @@ layout: post
 slug: code-reviews-as-service
 title: Code reviews as a service
 categories:
-- Workshops
-tag:
+  - Business
+tags:
+  - Code Quality
+  - Consulting
 meta: "A new service I’m offering: remote code reviews"
 hide-hire-me-link: true
 ---

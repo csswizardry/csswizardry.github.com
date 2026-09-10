@@ -6,7 +6,8 @@ slug: leeds-hangout
 title: Leeds hangout
 categories:
 - Personal
-tag:
+tags:
+  - Travel
 meta: I have a couple of days off in Leeds around two conferences; let’s meet…?
 ---
 
