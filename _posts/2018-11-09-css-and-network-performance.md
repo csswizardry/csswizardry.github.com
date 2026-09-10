@@ -17,6 +17,7 @@ faq:
     answer: "Inlining a small amount of critical CSS can help the browser render above-the-fold content sooner by avoiding an extra render-blocking stylesheet request."
   - question: "Where should I place my stylesheet links?"
     answer: "That depends on the constraints, but in general you want to avoid accidentally blocking more important work and you should place stylesheets deliberately rather than by habit."
+main: "/wp-content/uploads/2018/11/css-performance-main.png"
 ---
 
 Despite having been called <cite>CSS Wizardry</cite> for over a decade now,

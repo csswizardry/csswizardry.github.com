@@ -23,6 +23,7 @@ faq:
     answer: "No. Prerendering everything is usually too expensive and too risky, so you should choose targets carefully and apply clear opt-in or opt-out rules."
   - question: "How can I clear Speculation Rules cache?"
     answer: "One option is Clear-Site-Data, which can be used to explicitly wipe prefetched or prerendered state when you need a hard reset."
+main: "/wp-content/uploads/2024/12/speculation-rules-main.png"
 ---
 
 I’ve always loved doing slightly unconventional and crafty things with simple

@@ -5,6 +5,7 @@ page-class: page--max-age
 meta: "Cache-Control’s max-age isn’t the most intuitive way of defining time. This calculator has your back."
 permalink: /max-age/
 lux: max-age Calculator
+main: "/wp-content/uploads/2024/10/max-age-main.png"
 ---
 
 [`Cache-Control`](/2019/03/cache-control-for-civilians/)’s

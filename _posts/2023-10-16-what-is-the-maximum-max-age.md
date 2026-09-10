@@ -16,6 +16,7 @@ faq:
     answer: "Most teams stick to one year, but RFC9111 states caches MUST honour any value up to 2,147,483,648 seconds—68 years—the largest signed 32-bit integer."
   - question: "Should I swap my 31536000s for 2147483648s?"
     answer: "Maybe, but only for truly immutable, fingerprinted assets. HTML and API responses should keep short or revalidated lifetimes to avoid serving stale data."
+main: "/wp-content/uploads/2023/10/max-max-age-main.png"
 ---
 
 <p class="c-highlight">Try out the <a href="/max-age/"><code>max-age</code>

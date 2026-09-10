@@ -20,6 +20,7 @@ faq:
     answer: "contain constrains browser work around a component, while content-visibility can go further by skipping work for off-screen content until it is needed."
   - question: "Can CSS containment cause bugs?"
     answer: "Yes. It can introduce clipping, sizing surprises, new stacking contexts, and other side effects, so it should be applied deliberately and tested carefully."
+main: "/wp-content/uploads/2026/04/containment-main.png"
 ---
 
 Continuing my work on _web performance for design systems_, I want to look at

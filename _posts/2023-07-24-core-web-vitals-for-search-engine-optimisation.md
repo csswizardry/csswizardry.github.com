@@ -22,6 +22,7 @@ faq:
     answer: "No. Google’s rankings are based on real-world field data, not Lighthouse scores."
   - question: "Does iOS traffic count toward Core Web Vitals for SEO?"
     answer: "No. Core Web Vitals data used for Google Search comes from Chrome data sources, so Safari traffic is not included."
+main: "/wp-content/uploads/2023/07/cwv-seo-main.png"
 ---
 
 ## Updates

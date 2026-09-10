@@ -3,8 +3,8 @@ layout: page
 title: Core Web Vitals on iOS
 page-class: page--services page--workshops
 meta: "Arrange a one-day workshop and get hands-on with Core Web Vitals in Safari"
-main: "https://csswizardry.com/img/content/core-web-vitals-ios/main.png"
 permalink: /workshops/core-web-vitals-on-ios/
+main: "/wp-content/uploads/2025/07/cwv-ios.main.png"
 ---
 
 **Safari’s getting Core Web Vitals in 2025. Are you ready?**

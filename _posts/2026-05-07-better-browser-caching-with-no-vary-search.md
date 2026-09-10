@@ -23,6 +23,7 @@ faq:
     answer: "Yes. The `except=()` form tells caches that no query parameters need to vary the response, which means they may all be ignored. Only use it when the response truly does not vary by query string."
   - question: "Does No-Vary-Search affect debugging?"
     answer: "Yes. Appending a throwaway query string to try to bypass cache may no longer work if the document uses No-Vary-Search and the cache has been told those parameters do not matter."
+main: "/wp-content/uploads/2026/05/no-vary-search-main.png"
 ---
 
 I’ve [written](/2019/03/cache-control-for-civilians/),

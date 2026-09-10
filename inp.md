@@ -5,6 +5,7 @@ page-class: page--inp-simulator
 meta: "A small interactive demo for simulating sluggish interactions and delayed feedback when exploring INP."
 permalink: /inp-simulator/
 lux: INP Simulator
+main: "/wp-content/uploads/2026/05/inp-main.png"
 ---
 
 INP, or _Interaction to Next Paint_, is one of Google’s three [Core Web

@@ -19,6 +19,7 @@ faq:
     answer: "immutable tells the browser that a fresh resource will not change during its cache lifetime, which helps avoid unnecessary revalidation on refresh."
   - question: "How should I update long-lived cached files?"
     answer: "The safest approach is cache busting with fingerprinted filenames, so you can cache assets aggressively while still forcing clients to fetch a new version when the file changes."
+main: "/wp-content/uploads/2019/03/cache-control-main.png"
 ---
 
 <p class="c-highlight">Try out the <a href="/max-age/"><code>max-age</code>

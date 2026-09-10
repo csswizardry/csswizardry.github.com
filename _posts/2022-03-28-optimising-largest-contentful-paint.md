@@ -23,6 +23,7 @@ faq:
     answer: "Yes. Fade-ins and similar effects can delay when the browser considers the content fully rendered, which can worsen LCP."
   - question: "Are image-based LCPs always best?"
     answer: "Not necessarily. In many cases a text-based candidate is easier to prioritise and can produce a faster, more reliable LCP than a heavy image."
+main: "/wp-content/uploads/2022/03/lcp-main.png"
 ---
 
 <!--

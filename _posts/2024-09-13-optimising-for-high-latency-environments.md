@@ -21,6 +21,7 @@ faq:
     answer: "Common strategies include cutting transfer size, using a CDN, avoiding redirects and preflights, reusing connections, and caching aggressively."
   - question: "Do preconnect and caching help with latency?"
     answer: "Yes. preconnect can pay connection setup costs earlier, and good caching avoids repeated trips across a slow network altogether."
+main: "/wp-content/uploads/2024/09/latency-main.png"
 ---
 
 Last week, I posted [a short update on

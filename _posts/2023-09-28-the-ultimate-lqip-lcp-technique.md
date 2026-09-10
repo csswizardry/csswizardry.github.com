@@ -24,6 +24,7 @@ faq:
     answer: "The article recommends aiming for a sensible minimum quality threshold rather than making the placeholder as tiny as possible at any cost."
   - question: "How do I verify that an LQIP implementation works?"
     answer: "You should test the real page, confirm which element becomes the LCP candidate, and make sure the placeholder does not slow or replace the final intended image."
+main: "/wp-content/uploads/2023/09/lqip-main.png"
 ---
 
 At the time of writing,

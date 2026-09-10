@@ -23,6 +23,7 @@ faq:
     answer: "Because the fastest request is often the one you do not need to make again. Good caching eliminates repeat transfers and avoids unnecessary latency."
   - question: "Can we drop our build tools yet?"
     answer: "Sometimes, but not universally. The right answer depends on what your tooling is doing for concatenation, compression, caching, and overall delivery strategy."
+main: "/wp-content/uploads/2023/10/3c-main.png"
 ---
 
 I began writing this article in early July 2023 but began to feel a little

@@ -16,6 +16,7 @@ faq:
     answer: "Slow TTFB can come from network latency, redirects, slow application logic, overloaded infrastructure, or cache misses closer to origin."
   - question: "How can I improve TTFB?"
     answer: "Common improvements include reducing server work, caching more effectively, cutting redirects, using a CDN, and bringing content physically closer to users."
+main: "/wp-content/uploads/2019/08/ttfb-main.png"
 ---
 
 I’m working on a client project at the moment and, as they’re an ecommerce site,

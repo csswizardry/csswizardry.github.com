@@ -20,6 +20,7 @@ faq:
     answer: "Sometimes. preload can speed up font discovery, but it needs to be used carefully because it can also add unnecessary work if applied indiscriminately."
   - question: "Is preconnect useful for Google Fonts?"
     answer: "Yes. preconnect can reduce the setup cost of talking to the Google Fonts origins, which often helps the fonts start downloading sooner."
+main: "/wp-content/uploads/2020/05/google-fonts-main.png"
 ---
 
 <div class="c-highlight  mb">

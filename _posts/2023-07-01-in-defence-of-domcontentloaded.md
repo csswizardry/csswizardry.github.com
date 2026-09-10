@@ -17,6 +17,7 @@ faq:
     answer: "DOMContentLoaded is an internal browser event that fires once all deferred JavaScript has finished running."
   - question: "Is DOMContentLoaded useful?"
     answer: "From a user experience perspective, DOMContentLoaded isn’t a great metric to benchmark yourself on. However, from a diagnostic point of view, it can be helpful in determining when your JavaScript has finished executing."
+main: "/wp-content/uploads/2023/07/domcontentloaded-main.png"
 ---
 
 Honestly, I started writing this article for no real reason, and somewhat

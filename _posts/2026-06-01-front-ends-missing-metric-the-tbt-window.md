@@ -21,6 +21,7 @@ faq:
     answer: "TTI is no longer part of the Lighthouse performance score, but it still matters for TBT because it defines the end of the TBT Window."
   - question: "Why should synthetic tools show the TBT Window?"
     answer: "Plotting TBT Window alongside TBT helps developers tell the difference between more blocking work and a larger measurement window."
+main: "/wp-content/uploads/2026/06/tbt-window-main.png"
 ---
 
 <p class="c-highlight">In a similar vein to TBT Window, <a

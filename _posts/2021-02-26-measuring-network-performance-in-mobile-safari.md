@@ -21,6 +21,7 @@ faq:
     answer: "You need a Mac, an iPhone, Safari, and the relevant developer and Web Inspector settings enabled so the phone can be inspected remotely."
   - question: "Why is testing on iOS important?"
     answer: "Because iOS Safari behaves differently enough that issues with rendering, networking, or performance can go unnoticed if you only test in desktop browsers or Chrome."
+main: "/wp-content/uploads/2021/02/mobile-safari-main.png"
 ---
 
 <p class="c-highlight"><strong>N.B.</strong> This article is no longer accurate,
