@@ -5,6 +5,8 @@ permalink: /blog/tags/
 meta: "Every subject covered on CSS Wizardry, from Core Web Vitals and caching to CSS, RUM, and the browser internals sitting underneath them."
 ---
 
+<p><a href="/blog/">« All posts</a></p>
+
 {% assign tag_pages = site.pages | where_exp: "item", "item.tag" | sort: "tag" %}
 {% assign tag_count = tag_pages | size %}
 

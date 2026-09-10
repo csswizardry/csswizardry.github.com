@@ -5,6 +5,8 @@ permalink: /blog/category/
 meta: "Browse by subject: web performance, front-end development, tooling, the business of consulting, and everything else written here."
 ---
 
+<p><a href="/blog/">« All posts</a></p>
+
 {% assign category_pages = site.pages | where_exp: "item", "item.category" | sort: "category" %}
 {% assign category_count = category_pages | size %}
 
