@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Tags
+title: CSS Wizardry Blog Tags
 permalink: /blog/tags/
 meta: "Every subject covered on CSS Wizardry, from Core Web Vitals and caching to CSS, RUM, and the browser internals sitting underneath them."
 ---
 
-<p><a href="/blog/">« All posts</a></p>
+<ul class="c-nav-secondary" id="section:about">
+  <li class="c-nav-secondary__item"><a href="/blog/" class="c-nav-secondary__link">All</a></li>
+  <li class="c-nav-secondary__item"><a href="/blog/category/" class="c-nav-secondary__link">Categories</a></li>
+  <li class="c-nav-secondary__item"><a href="/blog/tags/" class="c-nav-secondary__link  is-current">Tags</a></li>
+</ul>
 
 {% assign tag_pages = site.pages | where_exp: "item", "item.tag" | sort: "tag" %}
 {% assign tag_count = tag_pages | size %}
@@ -18,7 +22,7 @@ meta: "Every subject covered on CSS Wizardry, from Core Web Vitals and caching t
   Wizardry. If you’d rather browse by broader subject, try the
   <a href="{{ '/blog/category/' | relative_url }}">categories</a> instead.</p>
 
-<ul>
+<ul class=o-list-columnar>
   {% for tag_page in tag_pages %}
     <li><a href="{{ tag_page.url | relative_url }}">{{ tag_page.tag }}</a></li>
   {% endfor %}

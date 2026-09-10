@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Categories
+title: CSS Wizardry Blog Categories
 permalink: /blog/category/
 meta: "Browse by subject: web performance, front-end development, tooling, the business of consulting, and everything else written here."
 ---
 
-<p><a href="/blog/">« All posts</a></p>
+<ul class="c-nav-secondary" id="section:about">
+  <li class="c-nav-secondary__item"><a href="/blog/" class="c-nav-secondary__link">All</a></li>
+  <li class="c-nav-secondary__item"><a href="/blog/category/" class="c-nav-secondary__link  is-current">Categories</a></li>
+  <li class="c-nav-secondary__item"><a href="/blog/tags/" class="c-nav-secondary__link">Tags</a></li>
+</ul>
 
 {% assign category_pages = site.pages | where_exp: "item", "item.category" | sort: "category" %}
 {% assign category_count = category_pages | size %}
@@ -19,7 +23,7 @@ meta: "Browse by subject: web performance, front-end development, tooling, the b
   <a href="{{ '/blog/tags/' | relative_url }}">tags</a> go a good deal
   deeper.</p>
 
-<ul>
+<ul class=o-list-columnar>
   {% for category_page in category_pages %}
     <li><a href="{{ category_page.url | relative_url }}">{{ category_page.category }}</a></li>
   {% endfor %}

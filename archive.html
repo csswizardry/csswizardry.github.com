@@ -9,17 +9,18 @@ canonical: 'https://csswizardry.com/blog/'
 
 <section class="posts">
 
+  <ul class="c-nav-secondary" id="section:about">
+    <li class="c-nav-secondary__item"><a href="/blog/" class="c-nav-secondary__link  is-current">All</a></li>
+    <li class="c-nav-secondary__item"><a href="/blog/category/" class="c-nav-secondary__link">Categories</a></li>
+    <li class="c-nav-secondary__item"><a href="/blog/tags/" class="c-nav-secondary__link">Tags</a></li>
+  </ul>
+
   {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
 
   <p>This is the full archive of everything I’ve published here:
   <b>{{ site.posts | size }}</b> articles on web performance, site-speed,
   Core Web Vitals, caching, browser behaviour, and the occasional older CSS
   piece.</p>
-
-  <ul class="c-nav-secondary" id="section:about">
-    <li class="c-nav-secondary__item"><a href="/blog/category/" class="c-nav-secondary__link">Categories</a></li>
-    <li class="c-nav-secondary__item"><a href="/blog/tags/" class="c-nav-secondary__link">Tags</a></li>
-  </ul>
 
   <p>If you’d rather start somewhere less chronological, try
   <a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a>
