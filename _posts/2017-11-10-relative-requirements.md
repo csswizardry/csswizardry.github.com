@@ -3,7 +3,7 @@ layout: post
 title: "Relative Requirements"
 date: 2017-11-10 18:23:12
 categories:
-  - Web Development
+  - Project Management
 tags:
   - Consulting
 show_taxonomy: true

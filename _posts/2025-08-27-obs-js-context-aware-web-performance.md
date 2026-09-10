@@ -7,6 +7,7 @@ categories:
 tags:
   - Browser APIs
   - Mobile
+  - Open Source
 show_taxonomy: true
 meta: "Obs.js is a tiny inline script that exposes network, battery, CPU, and memory signals to CSS and JavaScript so you can adapt to user context."
 faq:

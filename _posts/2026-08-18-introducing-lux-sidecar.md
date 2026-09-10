@@ -6,6 +6,7 @@ categories:
   - Web Performance
 tags:
   - RUM
+  - Open Source
   - Measurement
 show_taxonomy: true
 main: "https://csswizardry.com/img/content/logo-lux-sidecar.png"

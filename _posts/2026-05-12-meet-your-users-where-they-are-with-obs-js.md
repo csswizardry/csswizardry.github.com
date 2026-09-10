@@ -7,6 +7,7 @@ categories:
 tags:
   - Browser APIs
   - Mobile
+  - Open Source
 show_taxonomy: true
 meta: "Obs.js is a tiny inline script that helps you adapt your site to real-world network, battery, CPU, and memory conditions."
 ---
