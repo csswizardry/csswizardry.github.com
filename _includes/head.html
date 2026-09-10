@@ -19,6 +19,8 @@ requestAnimationFrame((timestamp) => {
 
 <title>{{ page.title }} {% if paginator and paginator.page > 1 %}Blog – Page {{ paginator.page }} {% endif %}– CSS Wizardry</title>
 
+<link rel=describedby href=/llms.txt>
+
 {% if page.path contains ".md" %}
   <link rel=alternate type=text/markdown href="{{ site.markdown_source_base }}{{ page.path }}" title="{{ page.title }} in Markdown">
 {% endif %}
