@@ -6,9 +6,8 @@ categories:
   - Web Performance
 tags:
   - Base64
-  - Compression
-  - Measurement
-  - Mobile
+  - Images
+  - Resource Loading
 show_taxonomy: true
 meta: "Statistics, tests, and numbers looking at the performance costs of Base64"
 ---

@@ -6,8 +6,7 @@ categories:
   - Web Performance
 tags:
   - Base64
-  - Caching
-  - Compression
+  - Images
   - Resource Loading
 show_taxonomy: true
 meta: "A look at the many huge disadvantages of Base64 encoding assets into your CSS"
