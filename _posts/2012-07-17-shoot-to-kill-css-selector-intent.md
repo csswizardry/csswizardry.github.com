@@ -7,11 +7,9 @@ title: Shoot to kill; CSS selector intent
 wordpress_id: 3765
 categories:
 - Web Development
-tag:
-- CSS
-- CSS Selectors
-- Front-end architecture
-- OOCSS
+tags:
+  - CSS
+  - Code Quality
 ---
 
 One type of CSS in particular makes me cringe every time I see it; poor selector intent. Poor selector intent means carpet bombed selectors whose key selector has way too broad a reach; a selector like `.header ul{}` as opposed to one like `.main-nav{}`; `.widget h2{}` instead of `.widget-title`; `article > p:first-child{}` as opposed to `.intro{}`. Selectors whose intent isn’t specific enough.

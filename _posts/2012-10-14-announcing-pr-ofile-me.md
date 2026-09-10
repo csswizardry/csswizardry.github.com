@@ -7,9 +7,10 @@ title: Announcing pr.ofile.me
 wordpress_id: 3845
 categories:
 - pr.ofile.me
-tag:
-- CSS
-- GitHub
+tags:
+  - CSS
+  - Mobile
+  - Open Source
 meta: A new project!
 ---
 

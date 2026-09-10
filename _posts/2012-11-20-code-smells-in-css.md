@@ -7,10 +7,9 @@ title: Code smells in CSS
 wordpress_id: 3859
 categories:
 - Web Development
-tag:
-- CSS
-- Front-end architecture
-- OOCSS
+tags:
+  - CSS
+  - Code Quality
 meta: The things I look out for when writing or reviewing CSS.
 ---
 

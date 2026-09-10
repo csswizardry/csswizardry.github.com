@@ -7,8 +7,8 @@ title: Canvas Conf, 2012
 wordpress_id: 3827
 categories:
 - Speaking
-tag:
-- Canvas Conf
+tags:
+  - Speaking
 ---
 
 **N.B.** If you are attending The Digital Barn later this month then please don’t look at the slides!

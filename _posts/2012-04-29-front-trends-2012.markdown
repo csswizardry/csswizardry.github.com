@@ -7,8 +7,8 @@ title: Front-Trends 2012
 wordpress_id: 3626
 categories:
 - Speaking
-tag:
-- Front-Trends
+tags:
+  - Speaking
 ---
 
 Last night I landed back in [a cold, miserable Leeds](http://instagr.am/p/KAOHsOojIg) after spending what was by far the most exciting, amazing and fun few days I’ve ever had—as a speaker at [Front-Trends](http://2012.front-trends.com/).

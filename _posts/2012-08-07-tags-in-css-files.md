@@ -7,11 +7,9 @@ title: Tags in CSS files
 wordpress_id: 3815
 categories:
 - Web Development
-tag:
-- CSS
-- OOCSS
-- Tips
-- Tricks
+tags:
+  - CSS
+  - Code Quality
 ---
 
 When working with large (and particularly OO) CSS your chunks of code in a

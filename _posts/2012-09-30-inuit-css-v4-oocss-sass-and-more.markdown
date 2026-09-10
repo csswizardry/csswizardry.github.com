@@ -7,12 +7,9 @@ title: inuit.css v4.0.0—OOCSS, Sass and more
 wordpress_id: 3836
 categories:
 - inuit.css
-tag:
-- CSS
-- Front-end architecture
-- OOCSS
-- Preprocessors
-- Sass
+tags:
+  - CSS
+  - Open Source
 ---
 
 I decided to completely overhaul [inuit.css](http://inuitcss.com) over the last couple of weeks. It’s now at version 4.0.0 and completely incompatible with previous versions of the framework.

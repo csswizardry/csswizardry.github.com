@@ -7,10 +7,9 @@ title: Single-direction margin declarations
 wordpress_id: 3678
 categories:
 - Web Development
-tag:
-- CSS
-- Front-end architecture
-- OOCSS
+tags:
+  - CSS
+  - Code Quality
 ---
 
 This morning I awoke to find Smashing Magazine had retweeted [a tweet I made two months ago](https://twitter.com/csswizardry/status/190090844181774336) about how you should always try and apply margins in one direction only. This, like most rules in web development, is a very general (and breakable) rule. It’s even a rule you can opt not to follow at all, but after receiving a slew of Tweets asking why, I thought I’d write up why it’s a rule I live by, and one I’d recommend to anyone…

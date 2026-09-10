@@ -7,10 +7,8 @@ title: Breaking Good Habits—The Digital Barn
 wordpress_id: 3491
 categories:
 - Speaking
-tag:
-- Breaking Good Habits
-- Conference
-- The Digital Barn
+tags:
+  - Speaking
 ---
 
 Yesterday—11 February, 2012—I gave my first talk ever to the attendees of [The Digital Barn](http://thedigitalbarn.co.uk/), a small independent conference organised by [Matt Watson](http://about.me/mwatson) and [Kimb Jones](http://mkjones.co.uk/).

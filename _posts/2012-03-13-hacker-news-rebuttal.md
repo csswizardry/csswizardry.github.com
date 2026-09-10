@@ -7,12 +7,10 @@ title: Hacker News rebuttal
 wordpress_id: 3523
 categories:
 - Web Development
-tag:
-- CSS
-- Front-end architecture
-- GitHub
-- Hacker News
-- OOCSS
+tags:
+  - CSS
+  - Code Quality
+  - Social Media
 ---
 
 Yesterday [I decided to post on Hacker News something I’ve recently been working on for both myself and Sky](http://news.ycombinator.com/item?id=3693610). That something was a list of [guidelines as to how best write CSS for manageable and maintainable projects](https://github.com/csswizardry/CSS-Guidelines/blob/master/CSS%20Guidelines.md).

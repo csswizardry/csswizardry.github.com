@@ -7,11 +7,9 @@ title: The open/closed principle applied to CSS
 wordpress_id: 3703
 categories:
 - Web Development
-tag:
-- Abstraction
-- CSS
-- Front-end architecture
-- OOCSS
+tags:
+  - CSS
+  - Code Quality
 ---
 
 A question that often gets asked of OOCSS is <q>What happens when an object

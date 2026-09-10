@@ -7,11 +7,9 @@ title: Quasi-qualified CSS selectors
 wordpress_id: 3745
 categories:
 - Web Development
-tag:
-- CSS
-- CSS Selectors
-- Front-end architecture
-- OOCSS
+tags:
+  - CSS
+  - Code Quality
 ---
 
 This is a bit of an odd post in that the first half deals with qualified selectors, what they are and how they’re bad; the second half is more of a thinking-out-loud tip/trick than anything really substantial or interesting. Let’s see what you make of it...

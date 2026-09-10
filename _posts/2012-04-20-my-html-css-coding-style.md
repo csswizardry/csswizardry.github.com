@@ -7,9 +7,9 @@ title: My HTML/CSS coding style
 wordpress_id: 3561
 categories:
 - Web Development
-tag:
-- CSS
-- HTML
+tags:
+  - CSS
+  - HTML
 ---
 
 **N.B.** This post is almost completely out of date now; please refer to my [CSS

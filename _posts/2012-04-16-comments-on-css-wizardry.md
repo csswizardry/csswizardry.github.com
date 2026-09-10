@@ -7,6 +7,8 @@ title: Comments on CSS Wizardry
 wordpress_id: 3551
 categories:
 - CSS Wizardry
+tags:
+  - Social Media
 ---
 
 Hi guys, long time no speak. I’ve been absolutely rushed off my feet of late with 101 other things. CSS Wizardry – although it hasn’t been updated in far too long – has had a massive surge of comment spam. Massive :(

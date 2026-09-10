@@ -7,10 +7,9 @@ title: A new CSS Wizardry
 categories:
 - CSS Wizardry
 - Web Development
-tag:
-- Redesign
-- GitHub
-- Jekyll
+tags:
+  - Git
+  - Open Source
 meta: Big changes for CSS Wizardry
 branch-url: http://branch.com/b/a-new-css-wizardry
 ---

@@ -7,6 +7,9 @@ title: A classless class—on using more classes in your HTML
 wordpress_id: 3849
 categories:
 - Web Development
+tags:
+  - CSS
+  - HTML
 meta: An analogy to explain why it <em>is</em> a good idea to use more classes.
 ---
 

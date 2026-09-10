@@ -7,12 +7,9 @@ title: Keep your CSS selectors short
 wordpress_id: 3649
 categories:
 - Web Development
-tag:
-- CSS
-- CSS Selectors
-- Front-end architecture
-- OOCSS
-- Performance
+tags:
+  - CSS
+  - Code Quality
 ---
 
 One thing I believe, as a very, _very_ general rule of thumb, is that as sites get bigger, selectors should get shorter.
