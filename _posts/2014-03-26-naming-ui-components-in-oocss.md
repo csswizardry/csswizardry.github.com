@@ -7,7 +7,9 @@ title: Naming UI components in OOCSS
 categories:
   - Web Development
 show_taxonomy: true
-tag:
+tags:
+  - CSS
+  - Code Quality
 meta: "A way of giving complex, OOCSS-built components more meaningful names"
 ---
 

@@ -4,6 +4,9 @@ title: "Hacks for dealing with specificity"
 date: 2014-07-17 11:50:14
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "A couple of quick hacks and tricks for manipulating specificity"
 ---

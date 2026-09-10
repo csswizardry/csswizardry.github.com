@@ -7,7 +7,8 @@ title: My Trello workflow
 categories:
   - Tools
 show_taxonomy: true
-tag:
+tags:
+  - Project Management
 meta: "How I manage development projects using Trello"
 ---
 

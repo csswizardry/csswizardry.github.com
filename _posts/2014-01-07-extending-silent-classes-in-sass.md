@@ -7,7 +7,9 @@ title: Extending silent classes in Sass
 categories:
   - Web Development
 show_taxonomy: true
-tag:
+tags:
+  - CSS
+  - Code Quality
 meta: "A simple trick for controlling the reach of Sass’ `@extend`"
 ---
 

@@ -4,6 +4,9 @@ title: "When to use @extend; when to use a mixin"
 date: 2014-11-20 16:15:48
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "When is it suitable to use Sass @extend or mixin features, and why?"
 ---

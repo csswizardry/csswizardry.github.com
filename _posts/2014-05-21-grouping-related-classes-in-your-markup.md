@@ -7,7 +7,9 @@ title: Grouping related classes in your markup
 categories:
   - Web Development
 show_taxonomy: true
-tag:
+tags:
+  - CSS
+  - HTML
 meta: "An interesting way of visually and ‘physically’ grouping multiple class attributes"
 ---
 

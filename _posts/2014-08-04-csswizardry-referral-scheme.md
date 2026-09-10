@@ -4,6 +4,9 @@ title: "CSS Wizardry referral scheme"
 date: 2014-08-04 16:10:31
 categories:
   - Business
+tags:
+  - Business
+  - Consulting
 show_taxonomy: true
 meta: "A way to say thank you to the individuals responsible for their companies hiring me"
 ---

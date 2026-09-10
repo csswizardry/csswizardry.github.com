@@ -7,7 +7,8 @@ title: Vim for People Who Think Things Like Vim Are Weird and Hard
 categories:
   - Tools
 show_taxonomy: true
-tag:
+tags:
+  - Vim
 meta: "An introduction to the whats and the whys of using Vim as your text editor"
 ---
 

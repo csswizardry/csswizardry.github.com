@@ -3,7 +3,10 @@ layout: post
 title: "CSS Wizardry Ltd.: Year 1 in review"
 date: 2014-10-24 00:00:00
 categories:
+  - CSS Wizardry
+tags:
   - Business
+  - Consulting
 show_taxonomy: true
 meta: "A look back on my first year of self employment"
 ---
