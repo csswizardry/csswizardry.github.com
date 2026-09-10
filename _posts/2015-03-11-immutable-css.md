@@ -4,6 +4,9 @@ title: "Immutable CSS"
 date: 2015-03-11 19:40:23
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "Treating CSS rules as being immutable"
 ---

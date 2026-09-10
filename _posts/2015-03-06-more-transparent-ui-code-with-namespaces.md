@@ -4,6 +4,9 @@ title: "More Transparent UI Code with Namespaces"
 date: 2015-03-06 14:11:00
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "Employing a suite of namespaces to make your UI code more readable and transparent"
 ---

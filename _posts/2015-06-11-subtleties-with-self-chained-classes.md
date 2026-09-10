@@ -4,6 +4,8 @@ title: "Subtleties with Self-Chained Classes"
 date: 2015-06-11 15:54:28
 categories:
   - Web Development
+tags:
+  - CSS
 show_taxonomy: true
 meta: "A brief note on some of the subtleties and oddities when chaining classes
 with themselves."

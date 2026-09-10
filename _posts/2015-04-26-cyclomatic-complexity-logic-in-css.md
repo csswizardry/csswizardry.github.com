@@ -4,6 +4,9 @@ title: "Cyclomatic Complexity: Logic in CSS"
 date: 2015-04-26 12:43:45
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "A look at how CSS has always contained logic and conditions"
 ---

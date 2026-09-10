@@ -4,6 +4,9 @@ title: "Contextual Styling: UI Components, Nesting, and Implementation Detail"
 date: 2015-06-13 16:54:34
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "How to style specific components when they’re in specific locations"
 ---

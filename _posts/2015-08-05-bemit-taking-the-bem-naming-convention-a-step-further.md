@@ -4,6 +4,9 @@ title: "BEMIT: Taking the BEM Naming Convention a Step Further"
 date: 2015-08-05 20:01:58
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "Adding further meaning and information to the BEM naming convention"
 ---
