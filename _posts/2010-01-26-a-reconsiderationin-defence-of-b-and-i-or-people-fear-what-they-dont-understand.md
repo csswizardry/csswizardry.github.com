@@ -8,10 +8,9 @@ title: 'A reconsideration—in defence of &lt;b&gt; and &lt;i&gt; (or: people fe
 wordpress_id: 306
 categories:
 - Web Development
-tag:
-- HTML
-- Semantics
-- Web Standards
+tags:
+  - HTML
+  - Typography
 ---
 
 The other day, I got to thinking about the HTML elements `<b>` and `<i>`, and wondered if they were still _viably_ usable in production code. I’ve personally never used them before but I was aware that they existed and were still very much valid XHTML markup (even in the Strict `DOCTYPE!`). Wondering whether I’d avoided two elements for three years unnecessarily, I did some digging.

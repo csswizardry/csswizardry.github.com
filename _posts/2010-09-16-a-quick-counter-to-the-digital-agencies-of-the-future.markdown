@@ -7,9 +7,9 @@ title: A quick counter to 'The Digital Agencies of the Future!'
 wordpress_id: 1378
 categories:
 - Web Development
-tag:
-- Agency
-- Mobile
+tags:
+  - Business
+  - Mobile
 ---
 
 This is a quick counter argument to a link that seems to have been doing its rounds on [Twitter](http://twitter.com/csswizardry) today. [The link in question](http://www.narrowdesign.com/future/) is a page full of screenshots by [Narrow Design](http://www.narrowdesign.com/) of some fairly large agencies' websites as viewed on a mobile, in this case iPhone, browser. It's clearly making a point/taking the piss that a lot of these big names haven't bothered designing a mobile friendly site. Here is my defence (yes, defence) of those agencies...

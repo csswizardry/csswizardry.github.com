@@ -7,9 +7,8 @@ title: 30 days without an iPhone
 wordpress_id: 1077
 categories:
 - Personal
-tag:
-- Insurance
-- iPhone
+tags:
+  - Mobile
 ---
 
 As of 6 February, 2010, I have been without my iPhone. It's been  

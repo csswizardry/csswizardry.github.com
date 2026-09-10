@@ -7,9 +7,9 @@ title: Media queries, handier than you think
 wordpress_id: 1946
 categories:
 - Web Development
-tag:
-- CSS
-- Media Queries
+tags:
+  - CSS
+  - Mobile
 ---
 
 A lot of people are using media-queries of late to do full site changes to

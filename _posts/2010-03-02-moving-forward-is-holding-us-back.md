@@ -6,10 +6,9 @@ slug: moving-forward-is-holding-us-back
 title: Moving forward is holding us back
 categories:
 - Web Development
-tag:
-- Accessibility
-- iPhone
-- Optimisation
+tags:
+  - Mobile
+  - Web Platform
 ---
 
 For years, web developers have been looking forward to that next feature, that

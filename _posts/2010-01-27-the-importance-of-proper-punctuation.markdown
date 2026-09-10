@@ -7,9 +7,8 @@ title: The importance of proper punctuation
 wordpress_id: 462
 categories:
 - Writing
-tag:
-- Punctuation
-- Writing
+tags:
+  - Typography
 ---
 
 This is a short (and cheeky) post on the necessity of using proper punctuation

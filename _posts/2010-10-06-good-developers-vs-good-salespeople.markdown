@@ -7,9 +7,8 @@ title: Good developers vs. good salespeople
 wordpress_id: 1503
 categories:
 - Web Development
-tag:
-- Quote
-- Twitter
+tags:
+  - Business
 ---
 
 A small quote on the something I've been seeing, noticing and thinking a lot about the industry of late:

@@ -7,6 +7,8 @@ title: The three types of dash
 wordpress_id: 477
 categories:
 - Typography
+tags:
+  - Typography
 ---
 
 Unbeknown to many, there are <del>three main</del> many types of dash, and one

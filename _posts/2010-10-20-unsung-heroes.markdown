@@ -7,9 +7,8 @@ title: Unsung heroes
 wordpress_id: 1653
 categories:
 - Web Development
-tag:
-- Industry
-- Personalities
+tags:
+  - Social Media
 ---
 
 The internet is awash with web-celebrities; designers and developers ('[rockstars](http://harryroberts.co.uk/2010/07/you-are-not-a-html-rockstar/)?') who have, for whatever reason, amassed countless followers and people hanging on their every word. This is great, and can get the message from some of the industry's best to the masses via one blog post and a few tweets. Or is it? Just because someone has over ten thousand followers does not _necessarily_ mean that they know the best techniques, or what the most efficient, accessible and trustworthy solution is.

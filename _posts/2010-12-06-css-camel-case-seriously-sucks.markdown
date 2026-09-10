@@ -7,9 +7,9 @@ title: 'CSS: CamelCase Seriously Sucks!'
 wordpress_id: 1867
 categories:
 - Web Development
-tag:
-- CSS
-- Syntax
+tags:
+  - CSS
+  - Code Quality
 ---
 
 Now, I know this is going to instantly ruffle some feathers, but I'm not _normally_ one to tell you how to write your code. Sure, [I dislike single-line CSS](http://www.venturelab.co.uk/devblog/2010/10/i-wont-tell-you-how-to-write-your-css/), but as long as your code is clean, sensible, understandable and consistent then there's not too much to complain about. The most important of these--in my eyes--is consistency. There is however one method that, straight off the bat, is instantly and inherently inconsistent... camel case.

@@ -7,10 +7,9 @@ title: Multiple column lists using one &lt;ul&gt;
 wordpress_id: 701
 categories:
 - Web Development
-tag:
-- CSS
-- HTML
-- Lists
+tags:
+  - CSS
+  - HTML
 ---
 
 This is a quick, simple tutorial on how to create multiple column lists by only using one `ul`. Often is the case when you'd want multiple lists side-by-side, but you end up using markup like `<ul class="col">` in order to get several lists sat next to each other. However, by simply floating `li`s left and setting their width to the correct percentage (two columns = `li{width:50%;}` and so on), you can attain a multiple column list pretty easily.

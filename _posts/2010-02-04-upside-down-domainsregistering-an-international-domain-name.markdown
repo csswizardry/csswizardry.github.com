@@ -7,8 +7,8 @@ title: Upside down domains—registering an international domain name
 wordpress_id: 672
 categories:
 - Web Development
-tag:
-- Domains
+tags:
+  - Networking
 ---
 
 Earlier today I registered the domain [http://ʎɹɹɐɥ.com](http://ʎɹɹɐɥ.com). Or did I? Upon reading [an article by Sam Brown](http://sam.brown.tc/entry/417/how-to-register-an-international-domain-name), which in turn linked to [an article by John Sutherland](http://sneeu.com/blog/2010/1/how-register-international-domain-name/) explaining how to register such domains, I wanted one. There are a few levels to this trickery. There's the 'Oh I totally understand how this works!', or there's the 'I don't want to know how it works, I just want it!' level.

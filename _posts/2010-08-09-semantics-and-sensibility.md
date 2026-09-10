@@ -7,10 +7,8 @@ title: Semantics and sensibility
 wordpress_id: 1309
 categories:
 - Web Development
-tag:
-- HTML
-- Markup
-- Semantics
+tags:
+  - HTML
 ---
 
 For a while now, sensible naming conventions and semantics have been confused.

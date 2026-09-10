@@ -8,9 +8,9 @@ wordpress_id: 1970
 categories:
 - Typography
 - Web Development
-tag:
-- CSS
-- Typography
+tags:
+  - CSS
+  - Typography
 ---
 
 I read somewhere once that to space _and_ indent paragraphs of text is not a good idea and that you should pick one _or_ the other. Either indent or space, but never both. I can’t remember where I read this, all I know is that it was in some type book in [Magma, Manchester](http://www.magmabooks.com/content/service/shops.asp) and that I _personally_ agree with it. I don’t know what the type big-wigs think, but for me, I find both indenting and spacing of paragraphs somewhat unsightly.

@@ -7,11 +7,10 @@ title: Building sites without using IDs or classes
 wordpress_id: 1216
 categories:
 - Web Development
-tag:
-- CSS
-- CSS3
-- HTML
-- Semantics
+tags:
+  - CSS
+  - Code Quality
+  - HTML
 ---
 
 This morning, for one reason or another, I decided to have a go at coding up a page without using any IDs or classes in my markup, and therefore none in my CSS. I'm not sure why I tried it, I guess I just did... In order to make it a fairly painless job I dove straight into the browser and coded up a simple header, footer, two column layout. [View the demo](/demos/sites-without-ids-classes/) and be sure to view the source.

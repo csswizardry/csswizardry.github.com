@@ -7,10 +7,8 @@ title: Improving CSS tooltips
 wordpress_id: 1805
 categories:
 - Web Development
-tag:
-- CSS
-- CSS3
-- Progressive Enhancement
+tags:
+  - CSS
 ---
 
 But only very slightly... [Jack Osborne](http://twitter.com/jackosborne), whom I have followed on Twitter for a while now, posted some time ago [a tooltip tutorial](http://jackosborne.co.uk/articles/css-tooltips-with-the-pseudo-element/) whereby you utilise the `:after` CSS pseudo-element and the `attr()` function to populate it. His method works by giving an element a `title=""` attribute and a class of `tooltip`, and placing the content of the title attribute after the content, all through CSS.

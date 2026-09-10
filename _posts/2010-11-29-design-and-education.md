@@ -7,9 +7,8 @@ title: Design and education
 wordpress_id: 1789
 categories:
 - Education
-tag:
-- Design
-- Education
+tags:
+  - Career
 ---
 
 Last week [Pascal Raabe](http://twitter.com/jazzpazz) got in touch with me
