@@ -4,6 +4,10 @@ title: "Improving Perceived Performance with Multiple Background Images"
 date: 2016-10-23 22:53:18
 categories:
   - Web Performance
+tags:
+  - CSS
+  - Images
+  - Resource Loading
 show_taxonomy: true
 meta: "Using CSS gradients and multiple backgrounds to improve resilience and perceived performance"
 ---

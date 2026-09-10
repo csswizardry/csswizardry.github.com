@@ -4,6 +4,9 @@ title: "Managing Typography on Large Apps"
 date: 2016-02-21 12:14:48
 categories:
   - Web Development
+tags:
+  - CSS
+  - Typography
 show_taxonomy: true
 meta: "A look at managing typography more practically on larger sites and apps"
 ---

@@ -4,6 +4,9 @@ title: "Nesting Your BEM?"
 date: 2016-11-28 12:50:39
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "A look at the possible benefits of nesting BEM, and mitigating the side effects"
 ---

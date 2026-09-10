@@ -4,6 +4,9 @@ title: "Refactoring CSS: The Three I’s"
 date: 2016-08-30 20:11:12
 categories:
   - Web Development
+tags:
+  - CSS
+  - Code Quality
 show_taxonomy: true
 meta: "Three key steps to help you refactoring legacy code"
 ---

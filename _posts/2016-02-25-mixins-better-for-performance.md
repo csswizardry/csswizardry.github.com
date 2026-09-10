@@ -4,6 +4,9 @@ title: "Mixins Better for Performance"
 date: 2016-02-25 08:55:12
 categories:
   - Web Performance
+tags:
+  - CSS
+  - Compression
 show_taxonomy: true
 meta: "A look at the performance difference between Sass’ mixins and @extend"
 ---

@@ -4,6 +4,10 @@ title: "Improving Your CSS with Parker"
 date: 2016-06-01 10:23:16
 categories:
   - Tools
+tags:
+  - CSS
+  - Measurement
+  - Open Source
 show_taxonomy: true
 meta: "Using static analysis to learn where to improve your CSS"
 lux: Post
