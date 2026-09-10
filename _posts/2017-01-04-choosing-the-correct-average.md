@@ -10,7 +10,7 @@ meta: "A look at which average works best for representing certain types of data
 
 More and more frequently I’m finding myself presenting data to clients. Wether
 it’s through [code reviews or performance
-audits](/code-reviews/), taking a statistical look at code
+audits](/performance-audits/), taking a statistical look at code
 is an important part of my job, and it needs presenting to my clients in a way
 that is representative and honest. This has led me more and more into looking at
 different averages, and knowing when to use the correct one for each scenario.

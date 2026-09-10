@@ -19,7 +19,7 @@ code.
 
 - - -
 
-I spend a _lot_ of time reading [other peoples’ code](/code-reviews/), and
+I spend a _lot_ of time reading [other peoples’ code](/performance-audits/), and
 honestly, most of us could do better. Something I urge everyone to bear in mind
 is that **pride in your work is something that transcends all skills levels**.
 
