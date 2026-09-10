@@ -9,7 +9,6 @@ tags:
   - Images
   - Resource Loading
 show_taxonomy: true
-main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/03/chart-full.png"
 meta: "Let’s look at some more technical and non-obvious aspects of optimising Largest Contentful Paint"
 reading-time: 11
 faq:

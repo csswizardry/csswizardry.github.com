@@ -7,7 +7,6 @@ categories:
 tags:
   - Measurement
 show_taxonomy: true
-main: "https://csswizardry.com/wp-content/uploads/2026/06/speedcurve-02.png"
 meta: "The TBT Window is the FCP-to-TTI interval used to calculate Total Blocking Time. If FCP or TTI moves, TBT can change even when long tasks do not."
 reading-time: 12
 faq:

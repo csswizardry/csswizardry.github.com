@@ -8,7 +8,6 @@ tags:
   - Core Web Vitals
   - SEO
 show_taxonomy: true
-main: "https://csswizardry.com/wp-content/uploads/2023/07/cwv-seo.png"
 meta: "There’s still a lot of misunderstanding about CWV for SEO. Let’s work it out together."
 reading-time: 23
 faq:

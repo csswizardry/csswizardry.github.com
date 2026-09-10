@@ -10,6 +10,7 @@ categories:
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 Zebra-striping tables is certainly not a new thing; it has been done and discussed for years. They (allegedly) aid usability in reading tabular data by offering the user a coloured means of separating and differentiating rows from one another. I say allegedly, there has been research into their effectiveness, conducted by [Jessica Enders](http://twitter.com/Formulate) over at [A List Apart](http://www.alistapart.com/articles/zebrastripingdoesithelp/) which proved pretty inconclusive.

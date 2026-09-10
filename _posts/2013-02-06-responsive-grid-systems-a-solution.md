@@ -12,6 +12,7 @@ tags:
 meta: A look at building a practical, robust,  flexible, usable responsive grid system.
 branch-id: h0JFB-nqvjk
 branch-url: http://branch.com/b/responsive-grid-systems-a-solution
+show_taxonomy: true
 ---
 
 Grid systems in responsive design are something of a hot topic; a lot of people

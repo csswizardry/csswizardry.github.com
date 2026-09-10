@@ -6,10 +6,11 @@ slug: problems-with-the-sans-serif-hack
 title: Problems with the sans-serif hack
 wordpress_id: 2605
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Typography
+show_taxonomy: true
 ---
 
 Chris Coyier’s [sans-serif hack article](http://css-tricks.com/sans-serif/) has been doing its rounds lately, however it isn’t without its drawbacks... and it _is_ a hack.

@@ -6,9 +6,10 @@ slug: link-technical-web-typography-guidelines-and-techniques
 title: 'Link: Technical Web Typography: Guidelines and Techniques'
 wordpress_id: 2620
 categories:
-- Typography
+  - Web Development
 tags:
   - Typography
+show_taxonomy: true
 ---
 
 An article I wrote for Smashing Magazine has [just gone live](http://www.smashingmagazine.com/2011/03/14/technical-web-typography-guidelines-and-techniques/). It's all about technical, micro-typography and how it can be used to great effect on the web. It won't teach you how to be a better designer, but it should show you how to best set type on the web.

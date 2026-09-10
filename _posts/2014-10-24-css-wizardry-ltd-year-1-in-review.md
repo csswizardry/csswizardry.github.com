@@ -3,7 +3,7 @@ layout: post
 title: "CSS Wizardry Ltd.: Year 1 in review"
 date: 2014-10-24 00:00:00
 categories:
-  - CSS Wizardry
+  - Business
 tags:
   - Business
   - Consulting

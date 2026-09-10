@@ -9,6 +9,7 @@ categories:
   - Web Development
 tags:
   - Typography
+show_taxonomy: true
 ---
 
 Yesterday I released [Type Tips](/type-tips/), a collection of short and simple tips to take your web typography to the next level. The project has been some time in the making, with me first mentioning it [back in early January](http://twitter.com/csswizardry/status/7560350672). For one reason or another I only got started on the project last night, but I ploughed through and released a first version within a few hours.

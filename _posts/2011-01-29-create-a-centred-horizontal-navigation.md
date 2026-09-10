@@ -7,10 +7,11 @@ slug: create-a-centred-horizontal-navigation
 title: Create a centred horizontal navigation
 wordpress_id: 2329
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
 meta: "2025 refresh: build a perfectly centred horizontal nav with just two Flexbox rules—`display:flex` and `justify-content:center`. Demo included!"
+show_taxonomy: true
 ---
 
 <p class="c-highlight">Since originally penning this article in 2011, I have

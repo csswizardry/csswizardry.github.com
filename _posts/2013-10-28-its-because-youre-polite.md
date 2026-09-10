@@ -10,6 +10,7 @@ tags:
   - Travel
 meta: A personal post about helpfulness and politeness.
 hide-hire-me-link: true
+show_taxonomy: true
 ---
 
 **Fair warning:** This is a completely off-topic and personal post; no CSS

@@ -6,10 +6,11 @@ slug: annotated-figures-in-html5-and-css
 title: Annotated &lt;figure&gt;s in HTML5 and CSS
 wordpress_id: 2790
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 I’ve never really been one for CSS experiments. They’re cool and all, but I prefer solving real problems with good ol’ CSS and markup. This is what this next thing was born from and I’m really pleased with the outcome! It’s [image maps, meet annotations, meet HTML5’s `<figure>` element](http://dl.dropbox.com/u/2629908/sandbox/annotations/index.html).

@@ -6,9 +6,11 @@ slug: scrolling-overflowed-content-in-ios
 title: Scrolling overflowed content in iOS
 wordpress_id: 2071
 categories:
-- Web Development
+  - Web Development
 tags:
   - Mobile
+  - Safari
+show_taxonomy: true
 ---
 
 This is just a mini-post courtesy of my 'brother-in-law' [Nick Haworth](http://twitter.com/nickhx) who showed me this. It's all about scrolling overflowed content in fixed width/height containers in iOS.

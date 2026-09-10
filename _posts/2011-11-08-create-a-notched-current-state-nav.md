@@ -6,10 +6,11 @@ slug: create-a-notched-current-state-nav
 title: Create a notched current-state nav
 wordpress_id: 3393
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 [Ben Everard](https://twitter.com/ilmv) [tweeted last night](https://twitter.com/ilmv/status/133640383568678912) asking if anyone knew how to build a notched nav, like [this](http://cl.ly/1h1S3E2G3H1X06193r08). I was in bed at the time, I spotted it about midnight and was on my phone. As soon as I saw this I jumped out of my bed and turned my Mac on. I love stuff like this!

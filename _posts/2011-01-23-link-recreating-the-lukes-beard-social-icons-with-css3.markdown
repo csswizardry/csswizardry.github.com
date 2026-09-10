@@ -6,9 +6,10 @@ slug: link-recreating-the-lukes-beard-social-icons-with-css3
 title: 'Link: Recreating the Luke''s Beard social icons with CSS3'
 wordpress_id: 2258
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
+show_taxonomy: true
 ---
 
 I was browsing [Dribbble](http://dribbble.com/csswizardry) this afternoon when I came across [Luke's Beard profile](http://dribbble.com/lukesbeard/) and then, in turn, [his website](http://www.lukesbeard.com/). I noticed some pretty cool hover effects going on with his social icons which [I decided to recreate without JavaScript and using some progressive CSS](/demos/lukes-beard-social-icons/).

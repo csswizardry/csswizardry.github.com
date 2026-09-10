@@ -9,6 +9,7 @@ categories:
 tags:
   - Mobile
   - Web Platform
+show_taxonomy: true
 ---
 
 For years, web developers have been looking forward to that next feature, that

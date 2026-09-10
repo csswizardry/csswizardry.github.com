@@ -10,6 +10,7 @@ tags:
   - CSS
   - Code Quality
 meta: The full version of the .net magazine shame.css interview
+show_taxonomy: true
 ---
 
 Since writing about [shame.css](/2013/04/shame-css/) last

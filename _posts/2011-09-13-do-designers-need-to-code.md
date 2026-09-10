@@ -6,9 +6,10 @@ slug: do-designers-need-to-code
 title: Do designers need to code?
 wordpress_id: 3113
 categories:
-- Industry
+  - Career
 tags:
   - Web Platform
+show_taxonomy: true
 ---
 
 I fear I may be poking the hornet’s nest with this one, but here goes. My _personal_ opinion on _that_ question…

@@ -6,9 +6,10 @@ slug: a-new-year-a-new-css-wizardry
 title: A new year, a new CSS Wizardry
 wordpress_id: 2015
 categories:
-- CSS Wizardry
+  - CSS Wizardry
 tags:
   - Social Media
+show_taxonomy: true
 ---
 
 Well, kind of... With the advent of 2011 a few things have changed at CSS Wizardry.

@@ -9,6 +9,7 @@ categories:
   - CSS Wizardry
 tags:
   - Business
+show_taxonomy: true
 ---
 
 Things are changing... but not much, thankfully. In light of a culmination of recent events, I have decided to start [advertising](/advertising/) on CSS Wizardry. Not spammy, unmoderated Google ads, or intrusive, unrelated and pointless ones, but single, exclusive ads reserved for one advertiser per month and for only £150. Here's why, after three years, I've made that decision...

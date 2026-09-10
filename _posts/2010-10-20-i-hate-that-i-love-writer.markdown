@@ -9,6 +9,7 @@ categories:
   - Tools
 tags:
   - Mobile
+show_taxonomy: true
 ---
 
 I absolutely hate that I love [Information Architects](http://informationarchitects.jp/)' [_Writer_](http://itunes.apple.com/us/app/ia-writer/id392502056?mt=8). Every time I use it I get a little angry inside because I just love it! Weird, I know, but true nonetheless. It's just so plain but so great that I get all these funny feelings about it, which always resolves to an envious kind of adoration.

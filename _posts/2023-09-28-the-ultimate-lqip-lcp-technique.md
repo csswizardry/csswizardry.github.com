@@ -10,7 +10,6 @@ tags:
   - Core Web Vitals
   - Resource Loading
 show_taxonomy: true
-main: "https://csswizardry.com/wp-content/uploads/2023/09/csswizardry.com-lcp.jpg"
 meta: "Can Low-Quality Image Placeholders and LCP play nicely together?"
 reading-time: 12
 faq:

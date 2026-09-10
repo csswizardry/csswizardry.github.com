@@ -9,6 +9,7 @@ categories:
   - Personal
 tags:
   - Mobile
+show_taxonomy: true
 ---
 
 As of 6 February, 2010, I have been without my iPhone. It's been  

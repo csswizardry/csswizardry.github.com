@@ -10,6 +10,7 @@ tags:
   - CSS
   - HTML
 meta: "Laying out data tables in a consistent way, finally!"
+show_taxonomy: true
 ---
 
 `table`s are a pain to work with, there are no two ways about it; they’re

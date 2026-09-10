@@ -6,10 +6,11 @@ slug: measuring-and-sizing-uis-2011-style
 title: Measuring and sizing UIs, 2011-style (and beyond)
 wordpress_id: 3420
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Typography
+show_taxonomy: true
 ---
 
 For years we used pixels to lay out web pages. Then, not so long ago, we were dabbling with ems to make our pages _elastic_. Now, in 2011, most of us are adopting a responsive approach and using fluid grids and percentages.

@@ -6,10 +6,11 @@ slug: pragmatic-practical-font-sizing-in-css
 title: Pragmatic, practical font sizing in CSS
 wordpress_id: 3496
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Typography
+show_taxonomy: true
 ---
 
 One thing I’ve been thinking a lot about lately is how to build sites properly. Not what we have been _told_ is proper, but what actually makes sense for us as developers. I recently spoke at [The Digital Barn](http://thedigitalbarn.co.uk/) on exactly this; my talk—Breaking Good Habits—dealt with how we as developers need to solve problems not only for our users and clients, but for ourselves as well.

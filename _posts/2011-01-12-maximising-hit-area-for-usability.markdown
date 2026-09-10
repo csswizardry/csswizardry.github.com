@@ -6,11 +6,11 @@ slug: maximising-hit-area-for-usability
 title: Maximising hit-area for usability
 wordpress_id: 2126
 categories:
-- Usability
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 This post is brought to you by Captain Obvious of _The Society of Explaining the Self-Explanatory_: increasing the hit area of an object makes it easier to click... Please, don't let that put you off, there's more to this article than that; I _promise_.

@@ -12,6 +12,7 @@ tags:
   - Consulting
 meta: "A new service I’m offering: remote code reviews"
 hide-hire-me-link: true
+show_taxonomy: true
 ---
 
 With [my recent move to self employment](/2013/10/lets-work-together/),

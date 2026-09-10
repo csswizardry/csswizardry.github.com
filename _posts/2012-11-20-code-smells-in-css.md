@@ -6,11 +6,12 @@ slug: code-smells-in-css
 title: Code smells in CSS
 wordpress_id: 3859
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality
 meta: The things I look out for when writing or reviewing CSS.
+show_taxonomy: true
 ---
 
 Chris Coyier [recently answered](http://coding.smashingmagazine.com/2012/07/13/coding-qa-with-chris-coyier-code-smell-type-grid/) someone’s question:

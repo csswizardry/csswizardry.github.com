@@ -6,9 +6,10 @@ slug: reset-restarted
 title: Reset restarted
 wordpress_id: 3231
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
+show_taxonomy: true
 ---
 
 Everyone knows the trusty CSS reset; that oh-so-useful tool that saves us many a headache. We love it so much in fact that we tend to use it on every project--but therein lies the problem…

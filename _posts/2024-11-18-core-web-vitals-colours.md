@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Core Web Vitals Colours"
-date: 2024-11-18 15:04:11:57
+date: 2024-11-18 15:04:11
 categories:
   - Web Performance
 tags:

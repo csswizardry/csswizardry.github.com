@@ -6,9 +6,10 @@ slug: client-respect
 title: Client respect
 wordpress_id: 2166
 categories:
-- Industry
+  - Business
 tags:
   - Consulting
+show_taxonomy: true
 ---
 
 That's us respecting them, not them respecting us...

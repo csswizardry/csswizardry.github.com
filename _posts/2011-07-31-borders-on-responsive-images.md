@@ -6,11 +6,12 @@ slug: borders-on-responsive-images
 title: Borders on responsive images
 wordpress_id: 2981
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Images
   - Mobile
+show_taxonomy: true
 ---
 
 This is a quick-tip type post, nothing major but a simple and effective tip for getting responsive borders on responsive images in your responsive designs.

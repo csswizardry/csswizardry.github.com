@@ -5,13 +5,13 @@ layout: post
 slug: a-new-css-wizardry
 title: A new CSS Wizardry
 categories:
-- CSS Wizardry
-- Web Development
+  - CSS Wizardry
 tags:
   - Git
   - Open Source
 meta: Big changes for CSS Wizardry
 branch-url: http://branch.com/b/a-new-css-wizardry
+show_taxonomy: true
 ---
 
 Hey there! Welcome to a brand new CSS Wizardry!

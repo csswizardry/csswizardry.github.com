@@ -9,6 +9,7 @@ categories:
   - Web Development
 tags:
   - CSS
+show_taxonomy: true
 ---
 
 The CSS `content` property is one that has been around for a while. It's not new, nor is it particularly ground-breaking. It is however, at least in my opinion, extremely useful and extremely underused. For those not in the know, `content` sets, well, the content of an element via CSS. That is to say it gets rendered in the page but doesn't appear in the markup. Coupled with the `:before` or `:after` pseudo-elements you can prepend or append content to an element respectively:

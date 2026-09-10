@@ -6,10 +6,11 @@ slug: my-html-css-coding-style
 title: My HTML/CSS coding style
 wordpress_id: 3561
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 **N.B.** This post is almost completely out of date now; please refer to my [CSS

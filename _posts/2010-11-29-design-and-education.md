@@ -9,6 +9,7 @@ categories:
   - Career
 tags:
   - Career
+show_taxonomy: true
 ---
 
 Last week [Pascal Raabe](http://twitter.com/jazzpazz) got in touch with me

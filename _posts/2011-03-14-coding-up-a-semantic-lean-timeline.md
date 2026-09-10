@@ -6,10 +6,11 @@ slug: coding-up-a-semantic-lean-timeline
 title: Coding up a semantic, lean timeline
 wordpress_id: 2624
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 I absolutely love coding up the more semantic aspects of a build. Usually forms and tables, it’s these massively semantic (read; lots of elements with very specific jobs) that I really love coming up against. They’re not all that challenging, but they’re very fun (to me at least--is that sad?!)

@@ -9,6 +9,7 @@ categories:
   - Business
 tags:
   - Business
+show_taxonomy: true
 ---
 
 A small quote on the something I've been seeing, noticing and thinking a lot about the industry of late:

@@ -10,6 +10,7 @@ categories:
 tags:
   - Code Quality
   - HTML
+show_taxonomy: true
 ---
 
 Last night I got to thinking that the majority of design and build I have done in the past few years I have done straight into the browser. Personal sites, personal clients and some clients worked on during employment--all have benefited from being designed in the browser, and their code has benefited also. I maintain that the build quality of a site designed in the browser can be far greater than if it started its life in Photoshop.

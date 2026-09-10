@@ -6,9 +6,10 @@ slug: when-using-ids-can-be-a-pain-in-the-class
 title: When using IDs can be a pain in the class...
 wordpress_id: 3117
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
+show_taxonomy: true
 ---
 
 **N.B. Since authoring this article I have decided that a blanket ban is sensible. Save yourself many potential headaches and never use IDs in your CSS files.**

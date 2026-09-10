@@ -13,6 +13,7 @@ tags:
 meta: A comprehensive primer on front-end performance for designers and front-end developers
 branch-id: g3NkCgvBTd0
 branch-url: http://branch.com/b/front-end-performance-for-web-designers-and-front-end-devs
+show_taxonomy: true
 ---
 
 It’s hard, if not impossible, to deny that performance is _by far_ one of

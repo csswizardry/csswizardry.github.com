@@ -9,6 +9,7 @@ categories:
 tags:
   - HTML
   - Images
+show_taxonomy: true
 ---
 
 Should you mark your logo up as an image or an `<h1>`? There has been much

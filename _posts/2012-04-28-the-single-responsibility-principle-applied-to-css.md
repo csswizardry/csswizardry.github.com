@@ -6,11 +6,12 @@ slug: the-single-responsibility-principle-applied-to-css
 title: The single responsibility principle applied to CSS
 wordpress_id: 3614
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality
   - HTML
+show_taxonomy: true
 ---
 
 Having just spoken at [the Front-Trends conference in Warsaw](http://2012.front-trends.com/), I’ve decided to expand on something which my talk mentioned a lot: classes.

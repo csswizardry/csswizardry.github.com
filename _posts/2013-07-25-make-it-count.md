@@ -9,6 +9,7 @@ categories:
 tags:
   - Career
 meta: Everything you do, do it for a reason, and make that reason a good one.
+show_taxonomy: true
 ---
 
 Last night I was set to speak at [Speak the Web in Liverpool](http://speaktheweb.org/).

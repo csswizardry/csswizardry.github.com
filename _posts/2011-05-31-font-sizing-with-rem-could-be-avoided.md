@@ -6,10 +6,11 @@ slug: font-sizing-with-rem-could-be-avoided
 title: Font sizing with rem could be avoided
 wordpress_id: 2770
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Typography
+show_taxonomy: true
 ---
 
 Jonathan Snook [wrote recently](http://snook.ca/archives/html_and_css/font-size-with-rem) about the new font-sizing unit `rem`. Whilst I do find it interesting and potentially useful I do think it possibly solves a problem that doesn’t actually exist…

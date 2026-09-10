@@ -6,9 +6,10 @@ slug: dibi-2011
 title: DIBI 2011
 wordpress_id: 2842
 categories:
-- Industry
+  - Speaking
 tags:
   - Speaking
+show_taxonomy: true
 ---
 
 I'm heading up to [DIBI 2011](http://www.dibiconference.com/) with [Dan Bentley](http://twitter.com/dan_bentley) and a few other guys I know. _However_, I'd love to meet some people I only know through that Twitter thingy so if you're going and you fancy grabbing a beer please email/[tweet at me](http://twitter.com/?status=Hey,%20@csswizardry,%20beer%20at%20DIBI!). I've never been to a conference before and I'm itching to meet people!

@@ -6,10 +6,11 @@ slug: tags-in-css-files
 title: Tags in CSS files
 wordpress_id: 3815
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality
+show_taxonomy: true
 ---
 
 When working with large (and particularly OO) CSS your chunks of code in a

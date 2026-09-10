@@ -6,11 +6,12 @@ slug: typographic-work-planner
 title: Typographic work planner
 wordpress_id: 49
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
   - Typography
+show_taxonomy: true
 ---
 
 No one likes being told what to do, especially if it’s work related, but nevertheless jobs need done. Why present boring stuff in a boring way? If you’re going to be told what to do, at least soften the blow by being told nicely. Enter this, a little HTML/CSS typographic work planner. By using some super-semantic HTML and a dash of CSS you can craft a beautiful looking yet incredibly simple work planner for you and your staff.

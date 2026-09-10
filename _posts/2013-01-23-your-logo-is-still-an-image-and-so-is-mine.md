@@ -14,6 +14,7 @@ tags:
 meta: Balancing image semantics with performance ideals
 branch-id: 0Madjrwnj6M
 branch-url: http://branch.com/b/your-logo-is-still-an-image-and-so-is-mine-css-wizard
+show_taxonomy: true
 ---
 
 Almost two years ago I wrote

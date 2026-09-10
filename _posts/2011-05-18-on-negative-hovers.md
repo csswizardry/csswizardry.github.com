@@ -6,10 +6,11 @@ slug: on-negative-hovers
 title: On negative hovers
 wordpress_id: 2702
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 I’ve been <del>mentioning</del> moaning about something called _negative hovers_ on Twitter for ages now, so it’s about time I wrote a quick post on them.

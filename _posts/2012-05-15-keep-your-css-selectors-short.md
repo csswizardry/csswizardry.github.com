@@ -6,10 +6,11 @@ slug: keep-your-css-selectors-short
 title: Keep your CSS selectors short
 wordpress_id: 3649
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality
+show_taxonomy: true
 ---
 
 One thing I believe, as a very, _very_ general rule of thumb, is that as sites get bigger, selectors should get shorter.

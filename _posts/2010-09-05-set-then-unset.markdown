@@ -10,6 +10,7 @@ categories:
 tags:
   - CSS
   - Code Quality
+show_taxonomy: true
 ---
 
 There are countless tutorials on the Internet that preach about exactly how you should write your CSS. From trying to enforce single-line syntax, to specifying the number of spaces you should use and where, I wholeheartedly disagree with any articles of this kind. Your CSS can look however you choose, it just has to be readable, sensible and efficient.

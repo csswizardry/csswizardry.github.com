@@ -9,7 +9,6 @@ tags:
   - Caching
   - Networking
 show_taxonomy: true
-main: "https://csswizardry.com/wp-content/uploads/2023/10/chart-all.png"
 meta: "We know we should do it, but do we know how?"
 reading-time: 13
 faq:

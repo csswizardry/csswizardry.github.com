@@ -9,7 +9,6 @@ tags:
   - Browser APIs
   - Resource Loading
 show_taxonomy: true
-main: "https://csswizardry.com/wp-content/uploads/2024/12/speculation-rules-poster.jpg"
 meta: "The new Speculation Rules API is incredibly powerful, but we can do so much more! By taking a layered approach, we can add more progressive functionality."
 reading-time: 6
 faq:

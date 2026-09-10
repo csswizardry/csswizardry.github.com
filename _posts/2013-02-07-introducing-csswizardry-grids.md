@@ -12,6 +12,7 @@ tags:
 meta: A responsive, fluid, nestable, Sass-based grid system.
 branch-id: 4m2oWizUnII
 branch-url: http://branch.com/b/introducing-csswizardry-grids
+show_taxonomy: true
 ---
 
 Yesterday I wrote <cite>[Responsive grid systems; a solution?](/2013/02/responsive-grid-systems-a-solution/)</cite>,

@@ -10,6 +10,7 @@ categories:
 tags:
   - CSS
   - Mobile
+show_taxonomy: true
 ---
 
 With the rapid rise in mobile browsers, it has probably never been more important to ensure your sites can be handled on these platforms. By far one of the most popular such browsers is Mobile Safari on the iPhone &ndash; this is one of the easiest browsers to develop for: it runs on Webkit (meaning a lot of rich CSS3 support) and it's only ever on one resolution and on one OS.

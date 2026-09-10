@@ -6,9 +6,10 @@ slug: ideas-of-march
 title: Ideas of March
 wordpress_id: 2667
 categories:
-- Writing
+  - CSS Wizardry
 tags:
   - Social Media
+show_taxonomy: true
 ---
 
 Chris Shiflett has started something pretty cool--the [Ideas of March movement](http://shiflett.org/blog/2011/mar/ideas-of-march).

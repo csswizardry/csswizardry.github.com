@@ -11,6 +11,7 @@ tags:
 meta: Adding comments though Branch
 branch-id: fPeQxCwApzM
 branch-url: http://branch.com/b/discussion-via-branch
+show_taxonomy: true
 ---
 
 When I [redesigned CSS Wizardry](/2012/12/a-new-css-wizardry/) at the end of last year I ported it from WordPress to [Jekyll](https://github.com/mojombo/jekyll), and so far, so good.

@@ -12,6 +12,7 @@ tags:
   - CSS
   - HTML
   - Mobile
+show_taxonomy: true
 ---
 
 How about that for an over-the-top title? But it's true, that's what we're going to be doing. It's been a while since my last post, unfortunately, so I thought I'd make up for it with this sizeable offering in which we will learn a lot of really great techniques in order to make something as simple as a progress bar. By which I mean a breadcrumb-esque meter of steps, such as you might find on a checkout process; we are making [this](/demos/progress-bar/):

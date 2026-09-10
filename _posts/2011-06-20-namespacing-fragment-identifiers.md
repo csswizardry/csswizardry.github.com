@@ -6,10 +6,11 @@ slug: namespacing-fragment-identifiers
 title: Namespacing fragment identifiers
 wordpress_id: 2902
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 I just stumbled upon something amazing. [HTML allows colons (:) and periods (.) in ID tokens.](http://www.w3.org/TR/html401/types.html#type-name)

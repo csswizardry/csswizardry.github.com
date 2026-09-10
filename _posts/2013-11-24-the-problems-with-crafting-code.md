@@ -9,6 +9,7 @@ categories:
 tags:
   - Code Quality
 meta: "Some thoughts on our use of the word ‘craft’ to describe our work"
+show_taxonomy: true
 ---
 
 A few months ago, [Mark Boulton](https://twitter.com/markboulton) and I had a

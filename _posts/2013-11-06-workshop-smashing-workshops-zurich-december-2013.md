@@ -10,6 +10,7 @@ tags:
   - Speaking
 meta: Announcing my first workshop in association with Smashing Workshops
 hide-hire-me-link: true
+show_taxonomy: true
 ---
 
 <div class="islet  boxout">

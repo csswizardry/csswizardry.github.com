@@ -9,6 +9,7 @@ categories:
   - Web Development
 tags:
   - HTML
+show_taxonomy: true
 ---
 
 For a while now, sensible naming conventions and semantics have been confused.

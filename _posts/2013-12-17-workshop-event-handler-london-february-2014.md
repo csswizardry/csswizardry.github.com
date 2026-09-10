@@ -10,6 +10,7 @@ tags:
   - Speaking
 meta: My first workshop in association with the fine folk at Event Handler
 hide-hire-me-link: true
+show_taxonomy: true
 ---
 
 <div class="islet  boxout">

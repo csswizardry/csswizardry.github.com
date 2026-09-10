@@ -9,6 +9,7 @@ categories:
 tags:
   - Travel
 meta: I have a couple of days off in Leeds around two conferences; let’s meet…?
+show_taxonomy: true
 ---
 
 It seems that tech events in [Leeds](http://bit.ly/14Id5QD)—where I live—are

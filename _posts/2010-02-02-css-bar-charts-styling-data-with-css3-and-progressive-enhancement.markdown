@@ -9,6 +9,7 @@ categories:
   - Web Development
 tags:
   - CSS
+show_taxonomy: true
 ---
 
 Bar charts in CSS are neither very new, or very difficult. Using some pretty basic styling you can force lists etc into resembling graphs and charts fairly easily. Such charts, in their most basic form, work perfectly well in displaying and presenting the data they represent. However, using some rich CSS3 and progressive enhancement, you can really start pushing the display and presentation of these normally boring documents to the next level. They are also an ideal way in which to demonstrate the power and ability of progressive enhancement.

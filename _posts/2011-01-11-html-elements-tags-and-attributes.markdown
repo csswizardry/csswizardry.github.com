@@ -6,9 +6,10 @@ slug: html-elements-tags-and-attributes
 title: HTML elements, tags and attributes
 wordpress_id: 2107
 categories:
-- Web Development
+  - Web Development
 tags:
   - HTML
+show_taxonomy: true
 ---
 
 This article is only a small one, and to the vast majority it won't be of much use, but I'm still astounded that today, in 2011, professional web designers and developers are still making this fundamental mistake. The difference between HTML elements, tags and attributes.

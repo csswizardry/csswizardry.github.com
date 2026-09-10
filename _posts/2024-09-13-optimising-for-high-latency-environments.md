@@ -9,7 +9,6 @@ tags:
   - Resource Loading
   - Caching
 show_taxonomy: true
-main: "https://csswizardry.com/wp-content/uploads/2024/09/diagram-all.png"
 meta: "We can’t do much to change latency, so how can we work around it?"
 reading-time: 18
 faq:

@@ -5,10 +5,11 @@ layout: post
 slug: net-award-nominee
 title: .net award nominee
 categories:
-  - Personal
+  - Career
 tags:
   - Career
 meta: I’ve been nominated for a .net award!
+show_taxonomy: true
 ---
 
 I’m absolutely thrilled, humbled and delighted to announce that I’ve been

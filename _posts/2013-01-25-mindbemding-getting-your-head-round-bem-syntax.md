@@ -13,6 +13,7 @@ meta: A primer on the oft-confusing BEM notation for CSS
 branch-id: gAPbivPskEs
 branch-url: http://branch.com/b/mindbemding-getting-your-head-round-bem-syntax
 
+show_taxonomy: true
 ---
 
 One of the questions I get asked most frequently is <q>what do `--` and `__`

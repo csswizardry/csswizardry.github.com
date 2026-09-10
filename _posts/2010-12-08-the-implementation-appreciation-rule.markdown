@@ -6,9 +6,10 @@ slug: the-implementation-appreciation-rule
 title: The implementation ∝ appreciation rule
 wordpress_id: 1902
 categories:
-  - Web Development
+  - Business
 tags:
   - Consulting
+show_taxonomy: true
 ---
 
 I've mentioned this idea to a few designers and developers of late who all seem to agree that it has a point and makes sense, so I thought I'd write up my thoughts on what I call _the implementation ∝ appreciation rule_. That is to say, anything you spend time building (on top of, as well as and beyond the scope of the base build) should reap an amount of appreciation from the users that is proportional to the time it took to implement.

@@ -10,6 +10,7 @@ tags:
   - CSS
   - Code Quality
 meta: DRYing out our CSS at its most basic level
+show_taxonomy: true
 ---
 
 When dealing with code, we often strive to make things _DRY_. DRY code usually

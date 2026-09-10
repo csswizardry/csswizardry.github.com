@@ -6,10 +6,11 @@ slug: html5-and-text-level-semantics
 title: HTML(5) and text-level semantics
 wordpress_id: 2187
 categories:
-- Web Development
+  - Web Development
 tags:
   - HTML
   - Typography
+show_taxonomy: true
 ---
 
 As an absolute type nut and militant web standards advocate, one of the most exciting things that HTML5 brings for me is not the new structural elements like `<header>`, `<aside>` et al (although they _are_ pretty awesome) but rather the text-level semantics it brings with the addition and redefinition of certain elements.

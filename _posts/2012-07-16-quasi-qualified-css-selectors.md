@@ -6,10 +6,11 @@ slug: quasi-qualified-css-selectors
 title: Quasi-qualified CSS selectors
 wordpress_id: 3745
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality
+show_taxonomy: true
 ---
 
 This is a bit of an odd post in that the first half deals with qualified selectors, what they are and how they’re bad; the second half is more of a thinking-out-loud tip/trick than anything really substantial or interesting. Let’s see what you make of it...

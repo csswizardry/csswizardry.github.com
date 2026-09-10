@@ -9,6 +9,7 @@ categories:
   - Web Development
 tags:
   - CSS
+show_taxonomy: true
 ---
 
 This is a quick post concerning the `border-radius` CSS3 property, and the syntax behind it. After coming across [this site](http://www.border-radius.com/) earlier today via [Twitter](http://twitter.com/csswizardry) I remembered my initial frustrations with lack of uniformity across user agents and their required syntax in order to create round corners; Firefox requiring a different format to Webkit and the CSS3 spec was pretty annoying.

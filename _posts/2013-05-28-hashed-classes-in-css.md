@@ -9,6 +9,7 @@ categories:
 tags:
   - CSS
 meta: Spoofing the uniqueness of IDs by putting hashes in your classes
+show_taxonomy: true
 ---
 
 I gave a talk at [Beyond Tellerrand](http://2013.beyondtellerrand.com/) yesterday

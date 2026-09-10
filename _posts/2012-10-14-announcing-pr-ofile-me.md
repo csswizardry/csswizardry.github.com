@@ -6,12 +6,13 @@ slug: announcing-pr-ofile-me
 title: Announcing pr.ofile.me
 wordpress_id: 3845
 categories:
-- pr.ofile.me
+  - Web Development
 tags:
   - CSS
   - Mobile
   - Open Source
 meta: A new project!
+show_taxonomy: true
 ---
 
 Over eighteen months ago I wrote [an article about a mobile optimised business

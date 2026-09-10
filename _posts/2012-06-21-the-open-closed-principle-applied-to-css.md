@@ -6,10 +6,11 @@ slug: the-open-closed-principle-applied-to-css
 title: The open/closed principle applied to CSS
 wordpress_id: 3703
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality
+show_taxonomy: true
 ---
 
 A question that often gets asked of OOCSS is <q>What happens when an object

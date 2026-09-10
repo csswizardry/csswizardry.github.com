@@ -9,6 +9,7 @@ categories:
   - Web Development
 tags:
   - HTML
+show_taxonomy: true
 ---
 
 I seem to be doing a lot of these types of posts lately--responses to other articles. Today's is about an article pointed out to me by a friend and ex-colleague. The article deals with an interesting new way to [combat form spam by hiding a form field from human sight](http://www.ngenworks.com/blog/invisible_captcha_to_prevent_form_spam/), and working on the premise that a spam-bot (devoid of 'human sight') will continue to fill this field in, thus identifying it as being spam.

@@ -9,6 +9,7 @@ categories:
 tags:
   - Speaking
 meta: Amazing events with 25% off!
+show_taxonomy: true
 ---
 
 [Speak the Web](http://speaktheweb.org/), for those unaware, is a _fantastic_

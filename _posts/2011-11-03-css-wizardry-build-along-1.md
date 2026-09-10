@@ -6,10 +6,11 @@ slug: css-wizardry-build-along-1
 title: 'CSS Wizardry build-along #1'
 wordpress_id: 3315
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML
+show_taxonomy: true
 ---
 
 Okay, so here we are, about to kick off the build-along. Make sure you are [following me on Twitter](http://twitter.com/csswizardry) at around [**7pm UK time on the 4 November**](https://www.google.com/search?q=Time+in+the+UK&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a#pq=time+in+the+uk&hl=en&sugexp=kjrmc&cp=8&gs_id=b&xhr=t&q=Time+in+UK&tok=y6_ahb4u2yl-RL_lp8cxLw&pf=p&sclient=psy-ab&safe=off&client=firefox-a&hs=Q63&rls=org.mozilla:en-US%3Aofficial&source=hp&pbx=1&oq=Time+in++UK&aq=0&aqi=g2g-c1g1&aql=f&gs_sm=&gs_upl=&bav=on.2,or.r_gc.r_pw.r_cp.,cf.osb&fp=282a81e04a27f8a1&biw=1024&bih=583) as I’m hoping to start the build-along around then. Thanks to [Levi Flair](http://www.leviflair.com/) for his PSD.

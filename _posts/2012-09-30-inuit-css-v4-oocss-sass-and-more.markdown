@@ -6,10 +6,11 @@ slug: inuit-css-v4-oocss-sass-and-more
 title: inuit.css v4.0.0—OOCSS, Sass and more
 wordpress_id: 3836
 categories:
-- inuit.css
+  - Web Development
 tags:
   - CSS
   - Open Source
+show_taxonomy: true
 ---
 
 I decided to completely overhaul [inuit.css](http://inuitcss.com) over the last couple of weeks. It’s now at version 4.0.0 and completely incompatible with previous versions of the framework.

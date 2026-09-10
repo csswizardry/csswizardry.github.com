@@ -10,6 +10,7 @@ tags:
   - CSS
   - Code Quality
 meta: Applying the concept of scope to our CSS
+show_taxonomy: true
 ---
 
 One thing you will no doubt be familiar with, as a web developer, is the idea of

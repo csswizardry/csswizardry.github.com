@@ -6,11 +6,12 @@ slug: on-html-and-css-best-practices
 title: On HTML and CSS best practices
 wordpress_id: 3457
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality
   - HTML
+show_taxonomy: true
 ---
 
 Best practices are exactly that; _best_. Not ‘better’, not ‘good when…’ or ‘best if…’, just best. They’re always the best, no matter what.

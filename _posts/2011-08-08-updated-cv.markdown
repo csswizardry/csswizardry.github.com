@@ -6,9 +6,10 @@ slug: updated-cv
 title: Updated CV
 wordpress_id: 3005
 categories:
-- Personal
+  - Career
 tags:
   - Career
+show_taxonomy: true
 ---
 
 Last week I got round to updating [my CV](/cv/), adding on my new job at Sky. I decided to take the opportunity to do something a little different with it this time round.

@@ -9,6 +9,7 @@ categories:
 tags:
   - Consulting
 meta: I’m looking for amazing people to work with on great products.
+show_taxonomy: true
 ---
 
 Almost three months ago I handed in my notice at

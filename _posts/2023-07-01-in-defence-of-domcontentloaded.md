@@ -9,7 +9,6 @@ tags:
   - Browser APIs
   - RUM
 show_taxonomy: true
-main: "https://csswizardry.com/wp-content/uploads/2023/06/devtools-dcl.png"
 meta: "Is there any reason to still measure the DOMContentLoaded event? Perhaps…"
 reading-time: 10
 faq:

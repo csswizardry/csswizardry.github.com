@@ -6,11 +6,12 @@ slug: my-git-workflow-for-inuit-css
 title: My Git workflow for inuit.css
 wordpress_id: 3897
 categories:
-- Web Development
+  - Tools
 tags:
   - Git
   - Open Source
 meta: A brief overview of how I use Git, specifically on inuit.css.
+show_taxonomy: true
 ---
 
 This is a bit of an unusual article from me, it doesn’t mention OOCSS _once_! It’s about Git…

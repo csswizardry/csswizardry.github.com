@@ -10,6 +10,7 @@ categories:
 tags:
   - CSS
   - Mobile
+show_taxonomy: true
 ---
 
 A lot of people are using media-queries of late to do full site changes to

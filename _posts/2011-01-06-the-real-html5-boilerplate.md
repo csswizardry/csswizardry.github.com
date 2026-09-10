@@ -6,10 +6,11 @@ slug: the-real-html5-boilerplate
 title: The real HTML5 boilerplate
 wordpress_id: 2030
 categories:
-- Web Development
+  - Web Development
 tags:
   - HTML
   - Web Platform
+show_taxonomy: true
 ---
 
 There has been a lot of talk lately about a certain HTML5 boilerplate... _the_

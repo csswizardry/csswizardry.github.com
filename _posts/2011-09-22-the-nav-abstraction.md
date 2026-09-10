@@ -6,10 +6,11 @@ slug: the-nav-abstraction
 title: The ‘nav’ abstraction
 wordpress_id: 3202
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality
+show_taxonomy: true
 ---
 
 This post comes in a similar vein to [Nicole Sullivan](http://twitter.com/stubbornella)’s genius [The media object saves hundreds of lines of code](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/).

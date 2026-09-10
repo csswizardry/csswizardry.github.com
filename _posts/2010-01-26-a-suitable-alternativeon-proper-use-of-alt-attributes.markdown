@@ -10,6 +10,7 @@ categories:
 tags:
   - HTML
   - Images
+show_taxonomy: true
 ---
 
 Images in HTML come with a mandatory attribute used to _textually_ describe the information displayed _visually_ through the image. The `alt` attribute (not _tag_) is used by screenreaders etc to tell users who can't view the actual image what it represents. It is also used in any circumstance where images can't be loaded (slow connections, broken URIs etc).

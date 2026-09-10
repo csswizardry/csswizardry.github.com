@@ -6,9 +6,10 @@ slug: front-trends-2012
 title: Front-Trends 2012
 wordpress_id: 3626
 categories:
-- Speaking
+  - Speaking
 tags:
   - Speaking
+show_taxonomy: true
 ---
 
 Last night I landed back in [a cold, miserable Leeds](http://instagr.am/p/KAOHsOojIg) after spending what was by far the most exciting, amazing and fun few days I’ve ever had—as a speaker at [Front-Trends](http://2012.front-trends.com/).
