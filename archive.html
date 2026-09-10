@@ -20,12 +20,23 @@ canonical: 'https://csswizardry.com/blog/'
   <p>This is the full archive of everything I’ve published here:
   <b>{{ site.posts | size }}</b> articles on web performance, site-speed,
   Core Web Vitals, caching, browser behaviour, and the occasional older CSS
-  piece.</p>
-
-  <p>If you’d rather start somewhere less chronological, try
-  <a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a>
+  piece. Try <a href="{{ site.posts[random].url }}"><cite>{{ site.posts[random].title }}</cite></a>
   <small>(<time>{{ site.posts[random].date | date: "%Y" }}</time>)</small>
   at random.</p>
+
+  <hr>
+
+  <ol reversed class="o-list-inline  c-list-tags">
+    <li style="--delimiter: ':'; font-weight: bold;"><b>Jump to year</b></li>
+    {% assign seenYears = "" %}
+    {% for post in site.posts %}
+      {% assign currentYear = post.date | date: "%Y" %}
+      {% unless seenYears contains currentYear %}
+        <li><a href="#year-{{ currentYear }}">{{ currentYear }}</a></li>
+        {% assign seenYears = seenYears | append: currentYear | append: "," %}
+      {% endunless %}
+    {% endfor %}
+  </ol>
 
   {% for post in site.posts %}
     {% assign currentDate = post.date | date: "%Y" %}

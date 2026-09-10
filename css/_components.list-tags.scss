@@ -9,9 +9,10 @@
  */
 
 .c-list-tags {
+  --delimiter: ",";
 
   > li::after {
-    content: ",";
+    content: var(--delimiter);
   }
 
   > li:last-child::after {
