@@ -77,10 +77,10 @@
   }
 
   /**
-   * Indicate internal links.
+   * Indicate internal links only AFTER the table of contents.
    */
-  a[href^="https://csswizardry.com"]::after,
-  a[href^="/"]::after {
+  .c-toc ~ * a[href^="https://csswizardry.com"]::after,
+  .c-toc ~ * a[href^="/"]::after {
     content: "";
     display: inline-block;
     width:  1ch;
