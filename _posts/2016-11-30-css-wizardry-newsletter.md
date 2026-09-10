@@ -3,7 +3,7 @@ layout: post
 title: "CSS Wizardry Newsletter"
 date: 2016-11-30 17:27:11
 categories:
-  - Business
+  - CSS Wizardry
 tags:
   - Business
 show_taxonomy: true

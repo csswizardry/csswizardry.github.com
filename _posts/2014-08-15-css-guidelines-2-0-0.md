@@ -3,7 +3,7 @@ layout: post
 title: "CSS Guidelines 2.0.0"
 date: 2014-08-15 13:20:21
 categories:
-  - Business
+  - CSS Wizardry
 show_taxonomy: true
 meta: "Announcing the next iteration and business model of my popular CSS Guidelines document"
 ---
