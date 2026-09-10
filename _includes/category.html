@@ -1,20 +1,22 @@
 {% assign category_posts = site.categories[page.category] | sort: "date" | reverse %}
 
-<p><a href="{{ '/blog/category/' | relative_url }}">All categories</a></p>
+<p><a href="{{ '/blog/category/' | relative_url }}">« All categories</a></p>
+
+<p>{{ page.meta }}</p>
 
 {% for post in category_posts %}
-{% assign current_year = post.date | date: "%Y" %}
-{% if current_year != category_year %}
-{% unless forloop.first %}</ol>{% endunless %}
-<hr>
-<h2>{{ current_year }}</h2>
-<ol reversed>
-{% assign category_year = current_year %}
-{% endif %}
-<li>
-  <b><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d" }}</time></b>
-  <br>
-  <a href="{{ post.url | relative_url }}" style="view-transition-name: x-{{ post.date | date: '%Y-%m-%d' }}">{{ post.title }}</a>
-</li>
-{% if forloop.last %}</ol>{% endif %}
+  {% assign current_year = post.date | date: "%Y" %}
+  {% if current_year != category_year %}
+    {% unless forloop.first %}</ol>{% endunless %}
+    <hr>
+    <h2>{{ current_year }}</h2>
+    <ol reversed>
+    {% assign category_year = current_year %}
+  {% endif %}
+      <li>
+        <b><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d" }}</time></b>
+        <br>
+        <a href="{{ post.url | relative_url }}" style="view-transition-name: x-{{ post.date | date: '%Y-%m-%d' }}">{{ post.title }}</a>
+      </li>
+  {% if forloop.last %}</ol>{% endif %}
 {% endfor %}
