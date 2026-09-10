@@ -5,7 +5,7 @@ layout: post
 slug: taming-data-tables
 title: Taming data tables
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML

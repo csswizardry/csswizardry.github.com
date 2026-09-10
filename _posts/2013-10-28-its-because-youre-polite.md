@@ -5,7 +5,7 @@ layout: post
 slug: its-because-youre-polite
 title: ‘It’s because you’re polite.’
 categories:
-- Personal
+  - Personal
 tags:
   - Travel
 meta: A personal post about helpfulness and politeness.

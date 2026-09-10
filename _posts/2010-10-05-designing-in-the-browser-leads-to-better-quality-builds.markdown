@@ -6,7 +6,7 @@ slug: designing-in-the-browser-leads-to-better-quality-builds
 title: Designing in the browser leads to better quality builds
 wordpress_id: 1462
 categories:
-- Web Development
+  - Web Development
 tags:
   - Code Quality
   - HTML

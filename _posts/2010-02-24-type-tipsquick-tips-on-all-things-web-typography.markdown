@@ -6,8 +6,7 @@ slug: type-tipsquick-tips-on-all-things-web-typography
 title: Type tips—quick tips on all things web typography
 wordpress_id: 805
 categories:
-- Projects
-- Typography
+  - Web Development
 tags:
   - Typography
 ---

@@ -5,7 +5,7 @@ layout: post
 slug: mindbemding-getting-your-head-round-bem-syntax
 title: MindBEMding – getting your head ’round BEM syntax
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality

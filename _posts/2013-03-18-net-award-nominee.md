@@ -5,7 +5,7 @@ layout: post
 slug: net-award-nominee
 title: .net award nominee
 categories:
-- Personal
+  - Personal
 tags:
   - Career
 meta: I’ve been nominated for a .net award!

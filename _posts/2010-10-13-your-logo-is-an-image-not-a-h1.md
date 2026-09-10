@@ -5,7 +5,7 @@ layout: post
 slug: your-logo-is-an-image-not-a-h1
 title: Your logo is an image, not an &lt;h1&gt;
 categories:
-- Web Development
+  - Web Development
 tags:
   - HTML
   - Images

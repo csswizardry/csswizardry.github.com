@@ -6,7 +6,7 @@ slug: improving-css-tooltips
 title: Improving CSS tooltips
 wordpress_id: 1805
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
 ---

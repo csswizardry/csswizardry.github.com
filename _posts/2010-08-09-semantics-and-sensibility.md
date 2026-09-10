@@ -6,7 +6,7 @@ slug: semantics-and-sensibility
 title: Semantics and sensibility
 wordpress_id: 1309
 categories:
-- Web Development
+  - Web Development
 tags:
   - HTML
 ---

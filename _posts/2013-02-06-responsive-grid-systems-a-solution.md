@@ -5,7 +5,7 @@ layout: post
 slug: responsive-grid-systems-a-solution
 title: Responsive grid systems; a solution?
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Mobile

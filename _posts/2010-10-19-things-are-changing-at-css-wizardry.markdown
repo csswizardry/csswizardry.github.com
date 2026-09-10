@@ -6,7 +6,7 @@ slug: things-are-changing-at-css-wizardry
 title: Things are changing at CSS Wizardry
 wordpress_id: 1642
 categories:
-- CSS Wizardry
+  - CSS Wizardry
 tags:
   - Business
 ---

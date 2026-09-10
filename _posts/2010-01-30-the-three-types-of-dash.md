@@ -6,9 +6,10 @@ slug: the-three-types-of-dash
 title: The three types of dash
 wordpress_id: 477
 categories:
-- Typography
+  - Typography
 tags:
   - Typography
+  - Punctuation
 ---
 
 Unbeknown to many, there are <del>three main</del> many types of dash, and one

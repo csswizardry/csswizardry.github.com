@@ -6,7 +6,7 @@ slug: set-then-unset
 title: Set then unset (or reset...?)
 wordpress_id: 1364
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality

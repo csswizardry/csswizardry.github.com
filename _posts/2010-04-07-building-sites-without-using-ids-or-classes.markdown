@@ -6,7 +6,7 @@ slug: building-sites-without-using-ids-or-classes
 title: Building sites without using IDs or classes
 wordpress_id: 1216
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality

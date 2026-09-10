@@ -6,7 +6,7 @@ slug: a-suitable-alternativeon-proper-use-of-alt-attributes
 title: A suitable alternative—on proper use of alt attributes
 wordpress_id: 318
 categories:
-- Web Development
+  - Web Development
 tags:
   - HTML
   - Images

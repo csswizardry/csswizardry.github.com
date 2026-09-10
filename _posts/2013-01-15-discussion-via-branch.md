@@ -5,7 +5,7 @@ layout: post
 slug: discussion-via-branch
 title: Discussion via Branch
 categories:
-- CSS Wizardry
+  - CSS Wizardry
 tags:
   - Social Media
 meta: Adding comments though Branch

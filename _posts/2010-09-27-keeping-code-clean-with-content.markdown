@@ -6,7 +6,7 @@ slug: keeping-code-clean-with-content
 title: Keeping code clean with content
 wordpress_id: 1388
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
 ---

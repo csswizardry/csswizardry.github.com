@@ -6,7 +6,7 @@ slug: iphone-css-tips-for-building-iphone-websites
 title: iPhone CSS—tips for building iPhone websites
 wordpress_id: 489
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Mobile

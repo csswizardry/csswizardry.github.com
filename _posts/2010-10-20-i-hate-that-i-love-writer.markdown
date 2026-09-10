@@ -6,7 +6,7 @@ slug: i-hate-that-i-love-writer
 title: I hate that I love Writer
 wordpress_id: 1684
 categories:
-- Writing
+  - Tools
 tags:
   - Mobile
 ---

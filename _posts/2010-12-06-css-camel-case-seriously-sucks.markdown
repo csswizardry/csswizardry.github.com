@@ -6,7 +6,7 @@ slug: css-camel-case-seriously-sucks
 title: 'CSS: CamelCase Seriously Sucks!'
 wordpress_id: 1867
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Code Quality

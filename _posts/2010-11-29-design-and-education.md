@@ -6,7 +6,7 @@ slug: design-and-education
 title: Design and education
 wordpress_id: 1789
 categories:
-- Education
+  - Career
 tags:
   - Career
 ---

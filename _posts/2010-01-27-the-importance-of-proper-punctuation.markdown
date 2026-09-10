@@ -6,9 +6,10 @@ slug: the-importance-of-proper-punctuation
 title: The importance of proper punctuation
 wordpress_id: 462
 categories:
-- Writing
+  - Typography
 tags:
   - Typography
+  - Punctuation
 ---
 
 This is a short (and cheeky) post on the necessity of using proper punctuation

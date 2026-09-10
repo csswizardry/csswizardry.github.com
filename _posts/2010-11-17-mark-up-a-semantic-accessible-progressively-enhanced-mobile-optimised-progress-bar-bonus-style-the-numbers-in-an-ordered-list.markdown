@@ -7,7 +7,7 @@ title: 'Mark up a semantic, accessible, progressively enhanced, mobile optimised
   bar (bonus: style the numbers in an ordered list!)'
 wordpress_id: 1711
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML

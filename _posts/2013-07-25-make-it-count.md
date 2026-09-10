@@ -5,7 +5,7 @@ layout: post
 slug: make-it-count
 title: Make it count
 categories:
-- Personal
+  - Personal
 tags:
   - Career
 meta: Everything you do, do it for a reason, and make that reason a good one.

@@ -6,7 +6,7 @@ layout: post
 slug: your-logo-is-still-an-image-and-so-is-mine
 title: Your logo is still an image… and so is mine!
 categories:
-- Web Development
+  - Web Development
 tags:
   - HTML
   - Images

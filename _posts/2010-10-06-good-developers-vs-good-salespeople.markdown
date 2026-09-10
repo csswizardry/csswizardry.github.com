@@ -6,7 +6,7 @@ slug: good-developers-vs-good-salespeople
 title: Good developers vs. good salespeople
 wordpress_id: 1503
 categories:
-- Web Development
+  - Business
 tags:
   - Business
 ---

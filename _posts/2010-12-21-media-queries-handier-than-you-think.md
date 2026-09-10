@@ -6,7 +6,7 @@ slug: media-queries-handier-than-you-think
 title: Media queries, handier than you think
 wordpress_id: 1946
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Mobile

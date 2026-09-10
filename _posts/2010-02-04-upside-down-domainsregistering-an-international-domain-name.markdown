@@ -6,7 +6,7 @@ slug: upside-down-domainsregistering-an-international-domain-name
 title: Upside down domains—registering an international domain name
 wordpress_id: 672
 categories:
-- Web Development
+  - Web Development
 tags:
   - Networking
 ---

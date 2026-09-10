@@ -6,8 +6,7 @@ slug: mo-robust-paragraph-indenting
 title: 'Mo’ robust paragraph indenting'
 wordpress_id: 1970
 categories:
-- Typography
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Typography

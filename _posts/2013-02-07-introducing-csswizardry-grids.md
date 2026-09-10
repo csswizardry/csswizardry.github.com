@@ -5,7 +5,7 @@ layout: post
 slug: introducing-csswizardry-grids
 title: Introducing csswizardry-grids
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - Open Source

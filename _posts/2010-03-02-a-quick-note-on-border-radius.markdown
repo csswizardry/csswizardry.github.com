@@ -6,7 +6,7 @@ slug: a-quick-note-on-border-radius
 title: A quick note on border radius
 wordpress_id: 853
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
 ---

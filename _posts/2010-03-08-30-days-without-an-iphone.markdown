@@ -6,7 +6,7 @@ slug: 30-days-without-an-iphone
 title: 30 days without an iPhone
 wordpress_id: 1077
 categories:
-- Personal
+  - Personal
 tags:
   - Mobile
 ---

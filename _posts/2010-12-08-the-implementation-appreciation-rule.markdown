@@ -6,7 +6,7 @@ slug: the-implementation-appreciation-rule
 title: The implementation ∝ appreciation rule
 wordpress_id: 1902
 categories:
-- Web Development
+  - Web Development
 tags:
   - Consulting
 ---

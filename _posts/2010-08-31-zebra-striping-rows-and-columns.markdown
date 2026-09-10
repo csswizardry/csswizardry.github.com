@@ -6,7 +6,7 @@ slug: zebra-striping-rows-and-columns
 title: Zebra-striping rows and columns
 wordpress_id: 1343
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML

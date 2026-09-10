@@ -5,7 +5,7 @@ layout: post
 slug: moving-forward-is-holding-us-back
 title: Moving forward is holding us back
 categories:
-- Web Development
+  - Web Development
 tags:
   - Mobile
   - Web Platform

@@ -6,7 +6,7 @@ slug: a-quick-counter-to-the-digital-agencies-of-the-future
 title: A quick counter to 'The Digital Agencies of the Future!'
 wordpress_id: 1378
 categories:
-- Web Development
+  - Web Development
 tags:
   - Business
   - Mobile

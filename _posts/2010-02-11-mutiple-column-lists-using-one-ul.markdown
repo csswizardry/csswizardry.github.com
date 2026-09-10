@@ -6,7 +6,7 @@ slug: mutiple-column-lists-using-one-ul
 title: Multiple column lists using one &lt;ul&gt;
 wordpress_id: 701
 categories:
-- Web Development
+  - Web Development
 tags:
   - CSS
   - HTML

@@ -7,7 +7,7 @@ title: 'A reconsideration—in defence of &lt;b&gt; and &lt;i&gt; (or: people fe
   understand)'
 wordpress_id: 306
 categories:
-- Web Development
+  - Web Development
 tags:
   - HTML
   - Typography
