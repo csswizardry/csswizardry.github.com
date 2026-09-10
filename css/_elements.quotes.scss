@@ -26,6 +26,7 @@ q {
 /* Block Quotes
  *
  * 1. Hang opening punctuation.
+ * 2. Use the specced way to hang punctuation in supporting browsers.
    ========================================================================== */
 
 blockquote {
@@ -36,6 +37,11 @@ blockquote {
 
     p {
         text-indent: -0.45em; /* [1] */
+
+        @supports (hanging-punctuation: first last) { /* [2] */
+          hanging-punctuation: first last;
+          text-indent: 0;
+        }
 
         &:before {
             content: open-quote;
