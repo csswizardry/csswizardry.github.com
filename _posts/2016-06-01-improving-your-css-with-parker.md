@@ -8,6 +8,7 @@ tags:
   - CSS
   - Measurement
   - Open Source
+  - Code Quality
 show_taxonomy: true
 meta: "Using static analysis to learn where to improve your CSS"
 lux: Post
