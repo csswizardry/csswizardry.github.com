@@ -30,7 +30,7 @@ lux: Post
             {% endfor %}
           {% endif %}
 
-          {% if page.reading-time %} • {{page.reading-time}} minute read{% endif %}
+          {% if page.reading-time %} • {{page.reading-time}}&nbsp;minute read{% endif %}
 
         </p>
 
@@ -65,7 +65,7 @@ lux: Post
 
             <hr>
 
-            <h2>Tagged With…</h2>
+            <h3 class=hide>This {{ page.categories }} post is tagged with:</h3>
 
             <ul class="o-list-inline  c-list-tags">
               {% for tag in page.tags %}
