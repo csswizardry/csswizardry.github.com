@@ -7,6 +7,9 @@ title: Introducing igloos—inuit.css gets plugins
 wordpress_id: 2851
 categories:
 - inuit.css
+tags:
+  - CSS
+  - Open Source
 ---
 
 [inuit.css](http://inuitcss.com) has been my answer to the CSS framework. I launched it just under two months ago to great reception, you guys have had some excellent suggestions and some really supportive feedback which has kept inuit.css going, with me updating it as often as I can and adding new features.

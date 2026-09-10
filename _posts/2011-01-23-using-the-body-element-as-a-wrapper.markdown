@@ -7,6 +7,8 @@ title: Using the &lt;body&gt; element as a wrapper
 wordpress_id: 2247
 categories:
 - Web Development
+tags:
+  - HTML
 ---
 
 This is a tiny little blog post that a lot of you will already be aware of, however in _my_ experience I've found that for every one person that does realise this, there are about two who don't.

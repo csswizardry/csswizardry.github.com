@@ -7,12 +7,9 @@ title: The ‘island’ object
 wordpress_id: 3218
 categories:
 - Web Development
-tag:
-- Abstraction
-- CSS
-- DRY
-- Front-end architecture
-- OOCSS
+tags:
+  - CSS
+  - Code Quality
 ---
 
 One thing I’ve been doing a lot of lately, since starting at [Sky](http://sky.com/), is writing abstractions. [OOCSS](http://www.oocss.org) is nothing new, but its basic premise is that you can build really simple objects using a base class and then extend that object with more classes to add more styling to make a simple construct progressively more complex and specific.

@@ -7,10 +7,8 @@ title: Ordered and numbered lists; the differences
 wordpress_id: 3191
 categories:
 - Web Development
-tag:
-- CSS
-- HTML
-- Semantics
+tags:
+  - HTML
 ---
 
 This is a really small blog post about ordered lists and numbered lists and their subtle differences.

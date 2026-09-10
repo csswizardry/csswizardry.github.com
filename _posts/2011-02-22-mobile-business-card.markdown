@@ -7,11 +7,9 @@ title: Mobile business card
 wordpress_id: 2559
 categories:
 - Web Development
-tag:
-- CSS
-- CSS3
-- iPhone
-- Mobile
+tags:
+  - CSS
+  - Mobile
 ---
 
 Business card style sites are nothing new. [Tim Van Damme](http://timvandamme.com/) popularised them a while ago and they're a handy tool for relaying the most basic and important information about yourself in a very short space of time. I made [my own business card type site](/profile/) recently (and [tweeted about its self-indulgence](http://twitter.com/#!/csswizardry/status/36048647212761088)) and put some nifty CSS to work--a digital business card whose content changes when you rotate your mobile.

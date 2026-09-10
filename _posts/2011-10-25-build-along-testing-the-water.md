@@ -7,10 +7,9 @@ title: Build-along (testing the water)
 wordpress_id: 3257
 categories:
 - Web Development
-tag:
-- Build-along
-- CSS
-- HTML
+tags:
+  - CSS
+  - HTML
 ---
 
 **N.B.** The build along [went ahead](/2011/11/build-along-1-reflection-and-reasoning/).

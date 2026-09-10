@@ -7,12 +7,9 @@ title: The ‘nav’ abstraction
 wordpress_id: 3202
 categories:
 - Web Development
-tag:
-- Abstraction
-- CSS
-- DRY
-- Front-end architecture
-- OOCSS
+tags:
+  - CSS
+  - Code Quality
 ---
 
 This post comes in a similar vein to [Nicole Sullivan](http://twitter.com/stubbornella)’s genius [The media object saves hundreds of lines of code](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/).

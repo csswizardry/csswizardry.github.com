@@ -7,10 +7,8 @@ title: Building better grid systems
 wordpress_id: 3050
 categories:
 - Web Development
-tag:
-- CSS
-- Grids
-- HTML
+tags:
+  - CSS
 ---
 
 With every grid system that gets released—and there are a lot now—I notice the same issue with nigh on _every_ one of them; handling the extra margin/gutter on the last `<div>`.

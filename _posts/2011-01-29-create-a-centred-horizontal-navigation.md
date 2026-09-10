@@ -8,8 +8,8 @@ title: Create a centred horizontal navigation
 wordpress_id: 2329
 categories:
 - Web Development
-tag:
-- CSS
+tags:
+  - CSS
 meta: "2025 refresh: build a perfectly centred horizontal nav with just two Flexbox rules—`display:flex` and `justify-content:center`. Demo included!"
 ---
 

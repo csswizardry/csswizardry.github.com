@@ -7,6 +7,9 @@ title: What is inuit.css?
 wordpress_id: 2883
 categories:
 - inuit.css
+tags:
+  - CSS
+  - Open Source
 ---
 
 [inuit.css](http://inuitcss.com) has been live for a couple of months now, but I've decided to do a more extensive writeup of what it is, what it does, who it might help and who could--or should--be using it.

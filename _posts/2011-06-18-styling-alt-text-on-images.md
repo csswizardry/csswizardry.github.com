@@ -7,10 +7,9 @@ title: Styling alt text on images
 wordpress_id: 2870
 categories:
 - Web Development
-tag:
-- Accessibility
-- Images
-- UX
+tags:
+  - HTML
+  - Images
 ---
 
 [I tweeted a tip](http://twitter.com/csswizardry/status/81748007304962048) the other day whereby you add text styles to images so that their `alt` text is differentiated if images, for whatever reason, cannot be loaded.

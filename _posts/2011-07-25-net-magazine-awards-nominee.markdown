@@ -7,8 +7,8 @@ title: .net magazine awards nominee
 wordpress_id: 2968
 categories:
 - Industry
-tag:
-- Awards
+tags:
+  - Career
 ---
 
 Today I was absolutely thrilled and humbled to learn I'd been nominated for a [.net magazine award](http://www.thenetawards.com/) in the category [_Brilliant Newcomer_](http://www.thenetawards.com/#num12).

@@ -7,10 +7,9 @@ title: The CSS Wizardry build-along is go!
 wordpress_id: 3267
 categories:
 - Web Development
-tag:
-- Build-along
-- CSS
-- HTML
+tags:
+  - CSS
+  - HTML
 ---
 
 Okay, so you decided it wouldn't be boring and that I'm not big-headed in thinking that people might actually want to watch me coding, so I'm quite excited to announce that [the build-along](/2011/10/build-along-testing-the-water/) will be going ahead!

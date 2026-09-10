@@ -8,10 +8,9 @@ wordpress_id: 2126
 categories:
 - Usability
 - Web Development
-tag:
-- CSS
-- HTML
-- Usabiliy
+tags:
+  - CSS
+  - HTML
 ---
 
 This post is brought to you by Captain Obvious of _The Society of Explaining the Self-Explanatory_: increasing the hit area of an object makes it easier to click... Please, don't let that put you off, there's more to this article than that; I _promise_.

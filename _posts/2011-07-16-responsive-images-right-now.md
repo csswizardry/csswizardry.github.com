@@ -7,8 +7,9 @@ title: Responsive images right now
 wordpress_id: 2949
 categories:
 - Web Development
-tag:
-- Responsive web design
+tags:
+  - Images
+  - Mobile
 ---
 
 Responsive design is everywhere; everyone’s at it because, well, it’s a great idea. It isn’t without its problems, however...

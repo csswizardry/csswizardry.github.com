@@ -7,12 +7,9 @@ title: jQuery placeholder plugin/polyfill
 wordpress_id: 2759
 categories:
 - Web Development
-tag:
-- CSS
-- Forms
-- JavaScript
-- jQuery
-- UI
+tags:
+  - CSS
+  - JavaScript
 ---
 
 My good friend, ex-colleague and all round awesome dude [Dan Bentley](http://twitter.com/dan_bentley) has made a great little [jQuery placeholder plugin](https://github.com/danbentley/placeholder) which polyfills older browsers that don't support the new HTML5 form attribute `placeholder`.

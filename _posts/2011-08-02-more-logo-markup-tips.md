@@ -7,10 +7,9 @@ title: More logo markup tips
 wordpress_id: 2988
 categories:
 - Web Development
-tag:
-- Logo
-- Semantics
-- Web Standards
+tags:
+  - HTML
+  - Images
 ---
 
 In my previous article we determined that [your logo is not a `<h1>`](/2010/10/your-logo-is-an-image-not-a-h1/) and is in fact an image (`<img />`) in its own right. Now let’s cover some nice little tips and snippets for making the most of your markup and creating a nicer UX around it.

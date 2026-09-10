@@ -7,11 +7,9 @@ title: On negative hovers
 wordpress_id: 2702
 categories:
 - Web Development
-tag:
-- CSS
-- HTML
-- UI
-- UX
+tags:
+  - CSS
+  - HTML
 ---
 
 I’ve been <del>mentioning</del> moaning about something called _negative hovers_ on Twitter for ages now, so it’s about time I wrote a quick post on them.

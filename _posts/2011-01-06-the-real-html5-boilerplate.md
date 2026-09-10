@@ -7,9 +7,9 @@ title: The real HTML5 boilerplate
 wordpress_id: 2030
 categories:
 - Web Development
-tag:
-- HTML5
-- Markup
+tags:
+  - HTML
+  - Web Platform
 ---
 
 There has been a lot of talk lately about a certain HTML5 boilerplate... _the_

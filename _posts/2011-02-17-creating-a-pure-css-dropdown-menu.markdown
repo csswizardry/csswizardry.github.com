@@ -7,10 +7,9 @@ title: Creating a pure CSS dropdown menu
 wordpress_id: 2547_
 categories:
 - Web Development
-tag:
-- CSS
-- CSS3
-- HTML
+tags:
+  - CSS
+  - HTML
 ---
 
 In redeveloping the Venturelab site we became increasingly aware that there was

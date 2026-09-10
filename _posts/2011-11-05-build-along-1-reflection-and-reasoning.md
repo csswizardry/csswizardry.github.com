@@ -7,14 +7,11 @@ title: 'Build-along #1, reflection and reasoning'
 wordpress_id: 3355
 categories:
 - Web Development
-tag:
-- Build-along
-- CSS
-- Front-end architecture
-- HTML
-- OOCSS
-- Progressive Enhancement
-- Responsive web design
+tags:
+  - CSS
+  - Code Quality
+  - HTML
+  - Mobile
 ---
 
 Here are, in no particular order, just a few thoughts about [the build-along](/2011/11/css-wizardry-build-along-1/) I did last night. These thoughts cover the thinking and reasoning behind the decisions I made. The build-along was a single, small PSD, but the following should apply to builds of any size. Get into the habit of doing the following on tiny sites and you’ll be well equipped to build that next Facebook meets YouTube with a dash of LinkedIn that that prospective client just emailed you about...

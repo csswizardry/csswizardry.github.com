@@ -7,13 +7,9 @@ title: Fully fluid, responsive CSS carousel
 wordpress_id: 3288
 categories:
 - Web Development
-tag:
-- Animation
-- CSS
-- CSS3
-- HTML
-- Progressive Enhancement
-- Responsive web design
+tags:
+  - CSS
+  - Mobile
 ---
 
 If you [follow me on Twitter](http://twitter.com/csswizardry) you’ll know I’ve been pretty enthused about this [fluid CSS carousel](http://dl.dropbox.com/u/2629908/sandbox/fluid-css-carousel/index.html) of mine. There are two aspects to it; the fluidity and the CSS functionality.

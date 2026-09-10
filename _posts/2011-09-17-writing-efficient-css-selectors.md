@@ -8,10 +8,9 @@ wordpress_id: 3144_
 meta: "CSS selectors, and their combinations, can be fast or slow! And while hopefully imperceptible, it’s definitely worth knowing about."
 categories:
 - Web Development
-tag:
-- CSS
-- CSS Selectors
-- Performance
+tags:
+  - CSS
+  - Code Quality
 ---
 
 Efficient CSS is not a new topic, nor one that I really need to cover, but it’s something I’m really interested in and have been keeping an eye on more and more since working at [Sky](/case-studies/bskyb/).

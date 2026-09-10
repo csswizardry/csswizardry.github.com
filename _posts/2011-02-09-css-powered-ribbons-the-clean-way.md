@@ -7,11 +7,9 @@ title: CSS powered ribbons the clean way
 wordpress_id: 2469
 categories:
 - Web Development
-tag:
-- CSS
-- CSS3
-- HTML
-- Markup
+tags:
+  - CSS
+  - HTML
 ---
 
 I’ve started buying [.net magazine](http://www.netmag.co.uk/) again recently. I don’t normally but I was hoping it might help in my search for a super-awesome new agency. I was flicking through this month’s edition when I happened upon a Create a wraparound ribbon tutorial. I thought I’d give it a read as I really love little design conundrums and how other people solve them. I was a little surprised to see it had been done in five elements. I challenged myself to do it in one...

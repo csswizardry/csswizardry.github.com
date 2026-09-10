@@ -7,10 +7,9 @@ title: Pure CSS(3) accordion
 wordpress_id: 2538
 categories:
 - Web Development
-tag:
-- CSS
-- CSS3
-- HTML
+tags:
+  - CSS
+  - HTML
 ---
 
 I tend to do a lot of tinkering with code, and came up with something that’s not so new, but still, in my opinion, pretty cool. An accordion using nothing but semantic HTML, CSS and some nice progressive CSS3. There are also two versions, a horizontal one and a vertical one.

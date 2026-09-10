@@ -8,9 +8,9 @@ wordpress_id: 2934
 categories:
 - Projects
 - Web Development
-tag:
-- Grids
-- Responsive web design
+tags:
+  - CSS
+  - Mobile
 ---
 
 What with [Ethan's book](http://www.abookapart.com/products/responsive-web-design) and [A List Apart](http://www.alistapart.com/articles/responsive-web-design/) article the whole community is responsive design mad. Which is a good thing... I've been looking at redesigning CSS Wizardry onto a fluid grid and also adding a custom fluid-grid-igloo builder for [inuit.css](http://inuitcss.com).

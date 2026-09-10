@@ -7,8 +7,8 @@ title: Client respect
 wordpress_id: 2166
 categories:
 - Industry
-tag:
-- Clients
+tags:
+  - Consulting
 ---
 
 That's us respecting them, not them respecting us...

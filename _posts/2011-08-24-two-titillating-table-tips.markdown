@@ -7,9 +7,8 @@ title: Two titillating table tips
 wordpress_id: 3098
 categories:
 - Web Development
-tag:
-- HTML
-- Tables
+tags:
+  - HTML
 ---
 
 Yesterday I was taught two awesome little `<table>` tips from two friends, [Steve Melrose](http://twitter.com/StephenMelrose) and [Jon 'Barry Crayon' Cotton](https://twitter.com/BarryCrayon). I can't believe I never knew about these two, they're so simple but really cool*

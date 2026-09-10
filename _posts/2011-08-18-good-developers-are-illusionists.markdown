@@ -7,9 +7,8 @@ title: Good developers are illusionists
 wordpress_id: 3027
 categories:
 - Web Development
-tag:
-- CSS
-- HTML
+tags:
+  - Code Quality
 ---
 
 A major part of being a good developer is efficiency. Not just with efficient code, but efficiency in making your life easier, being cleverly lazy, and making code do the hard work for you.

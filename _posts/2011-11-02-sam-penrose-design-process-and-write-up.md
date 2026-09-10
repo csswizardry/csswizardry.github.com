@@ -7,12 +7,10 @@ title: Sam Penrose Design—process and write-up
 wordpress_id: 3318
 categories:
 - Web Development
-tag:
-- Content-out
-- Mobile first
-- Progressive Enhancement
-- Responsive web design
-- sampenrose.co.uk
+tags:
+  - CSS
+  - HTML
+  - Mobile
 ---
 
 Last weekend, one of my best friends [Sam](http://twitter.com/sam_penrose) and I had a hack-weekend. One weekend of non-stop design and build. It was a pretty brutal affair considering we were only making a tiny portfolio site; a weekend of 4am nights, junk food, beer and dangerous amounts of Red Bull.

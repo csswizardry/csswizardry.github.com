@@ -8,8 +8,9 @@ wordpress_id: 2690
 categories:
 - Web Development
 - inuit.css
-tag:
-- CSS
+tags:
+  - CSS
+  - Open Source
 ---
 
 I've just put a new project live--[inuit.css](http://inuitcss.com/). inuit.css is a sensible, production-ready and actually useful CSS framework. It doesn't do much styling, but does a lot of nifty, functional things that most people should find useful.
