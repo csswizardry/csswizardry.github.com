@@ -3,7 +3,7 @@ comments: true
 date: 2012-10-16 21:04:21
 layout: post
 slug: a-classless-class-on-using-more-classes-in-your-html
-title: A classless class—on using more classes in your HTML
+title: A classless class — on using more classes in your HTML
 wordpress_id: 3849
 categories:
   - Web Development
@@ -34,14 +34,14 @@ And I replied with:
 
 > Imagine a teacher trying to control a class of kids who have no names. That’s how we used to write our HTML >.<
 
-When things aren’t explicitly named—and we try and rely on coincidental and circumstantial situations to try and refer to and target them—we find ourselves in a real mess where things quickly become invalid or break/fail. Things are hard to manipulate and work with. We have to try and remember the dependencies our references have on our structure. Things are basically unstable and chaotic.
+When things aren’t explicitly named — and we try and rely on coincidental and circumstantial situations to try and refer to and target them — we find ourselves in a real mess where things quickly become invalid or break/fail. Things are hard to manipulate and work with. We have to try and remember the dependencies our references have on our structure. Things are basically unstable and chaotic.
 
 The above analogy sits _perfectly_ with the kind of HTML we often wrote, and the selectors we used to target it:
 
 * **The guy two rows from the back** is like `nth-of-type(){}`
 * **The kid next to the girl next to the kid under the light** can be likened to `el el + el{}`
-* **The girl near the window**—`el + el{}`
-* **The first guy sat in the carpeted area**—`el > el:first-of-type{}`
+* **The girl near the window** — `el + el{}`
+* **The first guy sat in the carpeted area** — `el > el:first-of-type{}`
 
 Things are much, _much_ easier to select when we explicitly name them. How much easier is it to say ‘Ben’ rather than ‘You near the stationery cupboard’? How much more easily can you swap James and Becky round when they have names, instead of saying ‘AC dude, swap with her next to her next to him near the sandpit’?
 

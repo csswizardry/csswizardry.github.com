@@ -233,7 +233,7 @@ them on:
 opacity: 1;
 ```
 
-This is all that is really necessary to make the filtering work—it’s actually a
+This is all that is really necessary to make the filtering work — it’s actually a
 very small amount of code.
 
 ### Highlighting the Current Filter Link
@@ -260,8 +260,8 @@ Stepping through this one bit at a time:
   equal to `#tag:css`.
 
 One thing I found interesting here was actually getting at the links. Because
-they live inside of a `nav` element (`.c-filter__links`)—therefore are not on
-the same level of the DOM tree, as required by the `~` selector—I couldn’t
+they live inside of a `nav` element (`.c-filter__links`) — therefore are not on
+the same level of the DOM tree, as required by the `~` selector — I couldn’t
 target them directly with the `~` selector. I almost abandoned this whole
 highlighting exercise because of that very fact, but then I realised a
 workaround.

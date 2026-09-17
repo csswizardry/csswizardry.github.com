@@ -66,8 +66,8 @@ When something changes in the DOM, a browser typically has to:
 4. re-composite layers on screen.
 
 The expensive part is often how _far_ those changes spread. A small change in
-one part of the tree can invalidate layout or painting in other parts—or even
-the whole document—and the browser cannot always know that the effect is local.
+one part of the tree can invalidate layout or painting in other parts — or even
+the whole document — and the browser cannot always know that the effect is local.
 That is why relatively simple operations on a large application can feel
 sluggish: the browser is having to think about the whole world.
 
@@ -118,7 +118,7 @@ On top of those, there are a couple of shorthand values:
 * `strict`: shorthand for `size layout paint style`.
 
 There is also `inline-size`, which is a more targeted form of `size`
-containment—we don’t really need to give it much more attention than that.
+containment — we don’t really need to give it much more attention than that.
 
 Let’s go through each of these in turn.
 
@@ -373,7 +373,7 @@ menu. Tapping the switcher opens a dropdown. The dropdown opens and pushes
 content _beneath_ it down the viewport, but it doesn’t affect anything outside
 of the drawer menu itself. Without `contain`ment, opening the language switcher
 scopes a layout event to the whole document, touching 4,371 nodes and applying
-new layout to just 41 of them—fewer than 10%:
+new layout to just 41 of them — fewer than 10%:
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2026/04/opentable-before.png" alt="Chrome DevTools performance profile showing OpenTable’s mobile drawer before containment. Opening the language switcher triggers a layout rooted at the whole document, touching 4,371 nodes and laying out 41 of them in 11.21 milliseconds." width="1500" height="966" loading="lazy">
@@ -458,7 +458,7 @@ The value you will see most often is `auto`:
 With this in place:
 
 * elements near or inside the viewport are rendered normally,
-* elements far off-screen can have their contents ‘skipped’—the
+* elements far off-screen can have their contents ‘skipped’ — the
   browser does just enough to know where the element sits, but does not
   lay out or paint the subtree,
 * while skipped, the elements effectively have layout, style, paint, and
@@ -485,7 +485,7 @@ This rather unwieldy selector targets every paragraph after the second `<h2>` on
 the page, renders them lazily with `content-visibility`, and sets their
 placeholder size to one pixel wide and 250 pixels tall. These numbers are
 somewhat magic and the 250 is derived from ‘roughly how big the average
-paragraph on a page is’—nothing more complicated than that.
+paragraph on a page is’ — nothing more complicated than that.
 
 ### Accessibility and Script Considerations
 
@@ -632,8 +632,8 @@ CSS containment is a feature that can yield massive benefit when well deployed.
 It lets the browser do less work and gives you better control over where you
 spend your purple time.
 
-You don’t need to apply it everywhere—and it might even be a micro optimisation
-for your use-case—but a small handful of well-placed rules can make measurable
+You don’t need to apply it everywhere — and it might even be a micro optimisation
+for your use-case — but a small handful of well-placed rules can make measurable
 improvements to the interactivity of your UI.
 
 Start small, [measure

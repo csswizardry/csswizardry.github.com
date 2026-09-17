@@ -19,8 +19,8 @@ architecture advice, no performance tips, no geeky stuff at all.
 At the weekend, [Naomi](https://twitter.com/naomisusi) and I found ourselves in
 Scarborough. We were both speaking at [#TIDE](http://www.hashtagtide.co/) on the
 Friday, and were due to return from Scarborough on the Saturday. We boarded a
-train in the afternoon and headed back to Leeds—where I live—with a view to
-heading to Newcastle—where Naomi lives—from there. We’d have a pretty tight
+train in the afternoon and headed back to Leeds — where I live — with a view to
+heading to Newcastle — where Naomi lives — from there. We’d have a pretty tight
 turnaround hopping from train to train in different cities, but it should
 certainly be doable.
 
@@ -32,7 +32,7 @@ where things started to turn a little pear-shaped.
 
 Anyone who’s ever had to pick up pre-paid train tickets before will know that
 you need to insert the debit/credit card you paid with into the machine, as well
-as providing a booking code—that the train company email to you—in order to
+as providing a booking code — that the train company email to you — in order to
 have the tickets printed. Time was really ticking; it just hit 1700 and the
 train was leaving in eight minutes. Naomi’s phone decided it would be the
 perfect time to play up and not fetch her email with the booking code in it, so
@@ -190,8 +190,8 @@ cost nothing. You could lose everything, your health, your house, your car, your
 money, you could lose almost _anything_, but you can always keep your manners.
 Always.
 
-I was so amazed that just being polite—something I know Naomi and I are as a
-matter of course—was so much to this guy. What I see, and expect, as normal
+I was so amazed that just being polite — something I know Naomi and I are as a
+matter of course — was so much to this guy. What I see, and expect, as normal
 behaviour, was enough for this man to call up a friend and reign in a favour for
 two careless individuals. I was very proud of me and Naomi at that moment, but
 also really pissed off at all the rude people this guy must have to deal with
@@ -224,8 +224,8 @@ Anyway, with a two hour wait, Naomi and I grabbed some food and sat just stunned
 by how helpful people had been to us. The whole encounter reaffirmed two main
 things for me (after ‘don’t be so freaking careless’):
 
-1. **Be polite. Always.** Being polite is just the right thing to do—and I find
-   I have very little time for anyone who isn’t—but this is a prime example of
+1. **Be polite. Always.** Being polite is just the right thing to do — and I find
+   I have very little time for anyone who isn’t — but this is a prime example of
    how manners get you everywhere. We could have ranted and demanded help from
    these guys and we’d have just been shut down; they’d have read us the rules
    and called security, and we’d still be £91 down. Because we remained polite,
@@ -252,8 +252,8 @@ know [redacted], great guy.</q> and let us on our way without question. He _was_
 a great guy, and I love that other people know this about him. Being polite
 makes people have fond memories of you, being a jerk does not.
 
-Then, when we got to York, we couldn’t believe it but [redacted]—who was there
-as he said he would be—actually got on the train, came to find us, and asked us
+Then, when we got to York, we couldn’t believe it but [redacted] — who was there
+as he said he would be — actually got on the train, came to find us, and asked us
 if everything had gone smoothly! He left the platform he was stationed on and
 made a point of coming to check we’d made it on the train safely and were on our
 way. Unbelievable!
@@ -275,7 +275,7 @@ So, the next time you’re tempted to give someone a hard time, think about
 whether they deserve it, whether they owe you any favours at all anyway, and
 whether a slightly different approach might yield a much more favourable result.
 
-I know the above seem like very 21st Century, first-world problems—and they
-were—but it was a potential loss of hundreds of pounds, and a few peoples’
+I know the above seem like very 21st Century, first-world problems — and they
+were — but it was a potential loss of hundreds of pounds, and a few peoples’
 smaller actions completely undid and remedied that, and not one of them owed us
 that favour at all. It was ‘because we were polite’.

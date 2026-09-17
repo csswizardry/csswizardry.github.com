@@ -45,7 +45,7 @@ approaches and attitudes.
 ## What Is Tidy Code?
 
 Naturally this is very subjective, but to my mind tidy code is code
-that—separately to its function—is well documented, formatted, and presented.
+that — separately to its function — is well documented, formatted, and presented.
 It’s more about cosmetics than it is about quality. So I guess herein lies
 a warning: **bad code can still look tidy!**
 
@@ -55,7 +55,7 @@ this article is _Making Bad Code Look Good_. You have been warned.
 
 ## Whitespace
 
-I cannot stress this enough: whitespace is free—use as much as you like!
+I cannot stress this enough: whitespace is free — use as much as you like!
 
 Nothing feels more untidy, cramped, and claustrophobic than opening a file with
 a complete lack of whitespace:
@@ -158,7 +158,7 @@ anything that might not be immediately relevant.
 }
 ```
 
-Immediately—even without syntax highlighting—that is instantly more readable,
+Immediately — even without syntax highlighting — that is instantly more readable,
 more parsable. At a glance I get a rough idea of the chunking of the code;
 I know that some pieces are closely related, and others less related, to the
 rest. The size of the gaps in the code are proprtional to the relation.
@@ -172,7 +172,7 @@ actual meaning. When I talk about semantic whitespace, I’m not necessarily
 talking about whitespace sensitive languages (like Sass or Python or Haskell),
 but about manipulation within a text editor or regular expression.
 
-In my text editor, Vim, whitespace is actually meaningful—I can use empty lines
+In my text editor, Vim, whitespace is actually meaningful — I can use empty lines
 to navigate, delete, move, or otherwise manipulate code. In Vim, hitting `{`
 will jump my cursor to the previous empty line, and `}` will jump me to the
 next. This means that I can jump around blocks of code just by using these keys.
@@ -325,7 +325,7 @@ Ewww! What’s all that? Was that there the whole time?
 Yes, it was.
 
 By turning on invisibles, we’ve immediately seen what a hidden mess our code
-was—mixtures of tabs and spaces, and a bunch of trailing spaces.
+was — mixtures of tabs and spaces, and a bunch of trailing spaces.
 
 So many times I have opened a file that superficially seems tidy only to find
 that it’s a real mess of poor and inconsistent formatting. Turn on invisibles
@@ -498,7 +498,7 @@ $ curl -L git.io/inuitcssnew | vim -
 
 **N.B.** Passing the `-` flag to Vim opens it with the contents of STDIN.
 
-Or—another bonus for the Vim users—we can open a totally blank file that does
+Or — another bonus for the Vim users — we can open a totally blank file that does
 not yet exist:
 
 ```

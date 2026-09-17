@@ -55,7 +55,7 @@ In order to do this, open a new [jsFiddle](http://jsfiddle.net),
 features back into a stale codebase, as doing so runs the risk of making use of
 legacy CSS that may itself be refactored in future. For example, we might be
 using a traditional reset in the current project, which may be replaced by
-Normalize.css in future—we don’t want to build our brand new layout system on
+Normalize.css in future — we don’t want to build our brand new layout system on
 top of a reset that will be removed in six months time.
 
 **Build the new/refactored version of your feature in complete isolation so that

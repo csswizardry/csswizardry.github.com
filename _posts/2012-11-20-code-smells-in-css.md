@@ -102,7 +102,7 @@ What happens when Chrome _does_ render the `li`s at 37px, but IE renders it at 3
 
 Never, _ever_ use numbers just because they work. In this situation we’d be far better off replacing `top: 37px;` with `top: 100%;`, which basically means ‘all the way from the top’.
 
-Magic numbers have several problems associated with them. As above, they cannot be relied upon, but also, with their very ‘just because it works’ nature, it’s difficult to communicate to another dev where that number came from. If you had a more complex example which used a magic number—and that magic number became invalid—you are faced with one or more of the following problems:
+Magic numbers have several problems associated with them. As above, they cannot be relied upon, but also, with their very ‘just because it works’ nature, it’s difficult to communicate to another dev where that number came from. If you had a more complex example which used a magic number — and that magic number became invalid — you are faced with one or more of the following problems:
 
 * The next dev doesn’t know where the magic number came from, so they delete it and are back at square one.
 * The next dev is a cautious dev who, because he doesn’t know where the magic number came from, decides to try and fix the problem without touching that magic number. This means that an old, outdated, hacky magic number stays in the code, and the next dev simply hacks away on top of it. You are now hacking on top of a hack.
@@ -135,7 +135,7 @@ These are all bad traits. Those selectors can, and should be:
     .button {}
     .header {}
 
-Now I know I can apply `.nav` to an `ol`, I can apply `.button` to an `input`, and—when the site gets ported over to HTML5—I can quickly swap out my header `div` for a `header` element without worrying about invalidating any styles.
+Now I know I can apply `.nav` to an `ol`, I can apply `.button` to an `input`, and — when the site gets ported over to HTML5 — I can quickly swap out my header `div` for a `header` element without worrying about invalidating any styles.
 
 With regards performance, this is only a very slight issue, however it is an issue nonetheless. Why make a browser look for a class `.button` on an `a` when you could just ask it to look for `.button` and be done? By qualifying selectors you are increasing a browser’s workload.
 
@@ -241,7 +241,7 @@ This will instantly scream at any developer; why on earth would you want to carp
 
 Let’s look at the `header {}` example more closely…
 
-A lot of people use a `header` element to mark up their site’s main header—which is fine—however, if you style that site-wide header like this:
+A lot of people use a `header` element to mark up their site’s main header — which is fine — however, if you style that site-wide header like this:
 
     header {
         padding: 1em;
@@ -329,6 +329,6 @@ As soon as I see loose class names I start having to work out what it actually r
 
 ## Final word
 
-So there we have it, just a few of the _many_ things I perceive to be code smells in CSS. These are things that I look out for on a daily basis and strive to avoid at all costs. When working on larger projects that last for months and months (and, ultimately, years) it is _vital_ to keep a tight ship, and keeping an eye out for the above—among other things—is paramount. (I can’t stress enough how small a sub-set of things this is; there is a _lot_ more that I look out for.)
+So there we have it, just a few of the _many_ things I perceive to be code smells in CSS. These are things that I look out for on a daily basis and strive to avoid at all costs. When working on larger projects that last for months and months (and, ultimately, years) it is _vital_ to keep a tight ship, and keeping an eye out for the above — among other things — is paramount. (I can’t stress enough how small a sub-set of things this is; there is a _lot_ more that I look out for.)
 
 Now, of course, there _are_ exceptions to every rule, but they will need assessing on a case by case basis. For the most part, however, these are all things I work hard to avoid, and can spot a mile off in CSS.

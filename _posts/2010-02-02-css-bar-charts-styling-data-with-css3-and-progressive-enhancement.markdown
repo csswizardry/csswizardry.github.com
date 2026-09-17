@@ -3,7 +3,7 @@ comments: true
 date: 2010-02-02 23:59:27
 layout: post
 slug: css-bar-charts-styling-data-with-css3-and-progressive-enhancement
-title: CSS bar charts—styling data with CSS3 and progressive enhancement
+title: CSS bar charts — styling data with CSS3 and progressive enhancement
 wordpress_id: 601
 categories:
   - Web Development

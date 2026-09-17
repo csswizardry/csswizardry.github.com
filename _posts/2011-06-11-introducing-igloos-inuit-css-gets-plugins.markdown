@@ -3,7 +3,7 @@ comments: true
 date: 2011-06-11 11:48:26
 layout: post
 slug: introducing-igloos-inuit-css-gets-plugins
-title: Introducing igloos—inuit.css gets plugins
+title: Introducing igloos — inuit.css gets plugins
 wordpress_id: 2851
 categories:
   - Web Development

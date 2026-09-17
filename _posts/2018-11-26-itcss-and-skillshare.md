@@ -32,7 +32,7 @@ liberate the content and make it more widely and cheaply available.
 
 I’d always been pretty closed-source with ITCSS as it was a large part of my
 billable client work. This is exactly why documentation around ITCSS is so hard
-to find—there’s [an empty website](https://itcss.io/) and a handful of
+to find — there’s [an empty website](https://itcss.io/) and a handful of
 (remarkably thorough!) blog posts out there with which developers can piece
 together the concepts themselves, but ITCSS had always been reserved for clients
 and workshop attendees.

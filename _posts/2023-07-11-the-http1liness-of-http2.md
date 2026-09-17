@@ -19,7 +19,7 @@ thread</a>, but I felt it needed a more permanent spot. You should <a
 href="https://twitter.com/csswizardry">follow me on Twitter</a> if you don’t
 already.</p>
 
-I’ve been asked a few times—mostly in [workshops](/workshops/)—why HTTP/2 (H/2)
+I’ve been asked a few times — mostly in [workshops](/workshops/) — why HTTP/2 (H/2)
 waterfalls often still look like HTTP/1.x (H/1). Why are things are done in
 sequence rather than in parallel?
 
@@ -60,7 +60,7 @@ usefulness.
 With H/2, yes, we can make far more requests at a time, but making more requests
 doesn’t magically make everything faster. We’re still limited by device and
 network constraints. We still have finite bandwidth, only now it needs sharing
-among more files—it just gets diluted.
+among more files — it just gets diluted.
 
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/playing-cards.png" alt="" width="160" height="157" style="float: left; margin-right: 1.5rem; margin-left: -1.5rem; shape-outside: url('https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2023/07/playing-cards.png');">
 
@@ -81,7 +81,7 @@ of their cards.
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/07/cards-round-robin.png" alt="" width="930" height="2171" loading="lazy">
-<figcaption>Everything isn’t faster—everything is slower.</figcaption>
+<figcaption>Everything isn’t faster — everything is slower.</figcaption>
 </figure>
 
 Can you see where this is going?

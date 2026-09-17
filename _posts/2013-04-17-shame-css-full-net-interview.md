@@ -28,11 +28,11 @@ Yes, big time. If you work on a site/product that earns millions of pounds a yea
 then any bugs, breakages, quirks et cetera need fixing as soon as possible; your
 product owner doesn’t care if your CSS is perfect (nor should they, really),
 they care that the site is up and functional and ticking over that revenue. Good
-code is important—and hacks are far from ideal—but to think you can always avoid
+code is important — and hacks are far from ideal — but to think you can always avoid
 hacks and short-term/quick fixes is naive.
 
 With websites/products you need to keep certain people happy; when a client is
-breathing down your neck—or a feature is broken on live—then you need to make
+breathing down your neck — or a feature is broken on live — then you need to make
 sure you’re keeping the right stakeholders happy. If you spend an hour writing a
 perfect fix for something you could have superficially fixed in two minutes then
 I’d say you’re keeping the wrong person happy (i.e. yourself).
@@ -55,7 +55,7 @@ It’s hard to think of examples out of context, but I think you’ll often know
 when something is a hack. Written something that you’d be ashamed to explain to
 a colleague? That’s probably a hack.
 
-A hack is something where—as you’re writing it—you’re thinking <q>there _has_ to be
+A hack is something where — as you’re writing it — you’re thinking <q>there _has_ to be
 a cleaner way to do this</q>. Shame.css is about making a file full of things that
 you think you could have done better, a file that you _can_ do better when you
 get the time to revisit it. It’s a self-writing todo list, really; a file of

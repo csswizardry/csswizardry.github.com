@@ -11,9 +11,9 @@ show_taxonomy: true
 meta: "How to style specific components when they’re in specific locations"
 ---
 
-With the recent move toward componentised UIs—that is, instead of building
+With the recent move toward componentised UIs — that is, instead of building
 monolithic, page-based websites, we’re building design systems and UI Toolkits
-that come together to form the resulting pages—we’ve yielded a lot of benefits.
+that come together to form the resulting pages — we’ve yielded a lot of benefits.
 UIs are
 
 * faster to construct;
@@ -21,8 +21,8 @@ UIs are
 * much more flexible, forgiving, and robust;
 * far easier to reuse, recycle, or repurpose.
 
-The notion that all UI components are born equal—and should be able to exist
-anywhere, at any time, and independently—is a huge move forward for UI
+The notion that all UI components are born equal — and should be able to exist
+anywhere, at any time, and independently — is a huge move forward for UI
 developers in terms of the consistency and quality of the products we work with.
 
 It’s not all a solved problem, though.
@@ -237,7 +237,7 @@ really do want to make `.nav-primary` do something different when it’s inside 
 `.page-head`. Good Selector Intent means that our CSS is doing the right things
 for the right reasons.
 
-This also pins down our implementation detail CSS to a limited scope—we only
+This also pins down our implementation detail CSS to a limited scope — we only
 get the specific positioning when we’ve put the component into a specific place.
 
 Further, we can have as many implementations as we like/need. We might have a
@@ -425,8 +425,8 @@ component, but we are still managing to separate our concerns.
 ### The Best Solution
 
 I’m not saying this problem is solved at all, far from it, but from the three
-solutions I’ve outlined I’d have to say that, on balance—and speaking purely
-objectively—the utility classes is probably the best option.
+solutions I’ve outlined I’d have to say that, on balance — and speaking purely
+objectively — the utility classes is probably the best option.
 
 It has fewer large downsides, such as leaking styles and limited usage, and it
 poses no real problems other than subjective ones (like, ‘Eww, utility classes

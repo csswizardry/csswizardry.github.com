@@ -26,13 +26,13 @@ _their_ devs on _their_ products looking at how best to tackle _their_ UI
 problems. This work is very specific to the clients’ needs, not something that
 can necessarily be picked up from examples used in talks or workshops.
 
-However—as is often the case—budgets, locations, timeframes and a lot more can
+However — as is often the case — budgets, locations, timeframes and a lot more can
 mean that getting someone on site for a number of days is sometimes unfeasible.
 This is a shame, but inevitable. These constraints, however, gave me an idea…
 
 ## Remote code reviews
 
-Earlier this year—at [CSSconf.eu](http://2013.cssconf.eu/)—[Jed Schmidt](https://twitter.com/jedschmidt)
+Earlier this year — at [CSSconf.eu](http://2013.cssconf.eu/) — [Jed Schmidt](https://twitter.com/jedschmidt)
 described me as a <i>human CSS linter</i>. I really loved this phrase because it
 nicely sums up a lot of the work I do: I spend a lot of my time assessing,
 rationalising and planning front-end projects, spotting potential pitfalls and
@@ -43,9 +43,9 @@ scare quotes as I feel that without them I would just sound really pretentious)
 with a variety of clients in far-flung locations: remote code
 reviews and [performance audits](/performance-audits/).
 
-As of, well, now, I’m offering the same level of consultancy—on _your_ products
-to solve _your_ problems—but with fixed deliverables in a fixed timeframe and at
-a fixed price. You grant me access to your codebase—however you see fit—and I
+As of, well, now, I’m offering the same level of consultancy — on _your_ products
+to solve _your_ problems — but with fixed deliverables in a fixed timeframe and at
+a fixed price. You grant me access to your codebase — however you see fit — and I
 spend a day scrutinising it, writing up a comprehensive review document,
 providing refactored and improved examples, suggestion for alterations, and a
 general critique of the code as a whole, and then we have a Skype call a few

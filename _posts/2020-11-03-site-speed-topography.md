@@ -29,7 +29,7 @@ When first working on a new site-speed engagement, you need to work out quickly
 where the slowdowns, blindspots, and inefficiencies lie. Unless a client hires
 you to specifically improve the performance of one page, you’ll need a broad
 view of the whole site or application. Historically, I’d maybe look at Google
-Analytics—or a RUM solution if the client had one already—but this is only
+Analytics — or a RUM solution if the client had one already — but this is only
 useful for showing me particular outliers, and not necessarily any patterns
 across the whole project.
 
@@ -43,7 +43,7 @@ Not only that, but Google Analytics, by default, only reports load times, which
 are now almost entirely redundant in the field of performance optimisation.
 
 I needed a more holistic way to visualise performance across an entire site,
-and—ideally—something more useful than load times.
+and — ideally — something more useful than load times.
 
 ## Identify Page Types
 
@@ -93,7 +93,7 @@ results. Higher variance means a less stable metric across pages.</figcaption>
 
 With this suite of numbers, I can now begin to make assessments.
 
-I can see from the screenshot above that TTFB is my most stable metric—no one
+I can see from the screenshot above that TTFB is my most stable metric — no one
 page appears to have particularly expensive database queries or API calls on the
 back-end. Conversely, LCP is far more erratic, meaning that we are likely to
 have highly different content page to page (the metric isn’t _bad_, per se, it’s
@@ -103,8 +103,8 @@ insights. It’s when we begin to graph the data that useful patterns emerge.
 
 ## Visualising the Data
 
-In a separate sheet—available at the [same link as
-before](https://gumroad.com/l/site-speed-topography)—I’ve simply graphed the
+In a separate sheet — available at the [same link as
+before](https://gumroad.com/l/site-speed-topography) — I’ve simply graphed the
 data by page type.
 
 <figure>
@@ -143,14 +143,14 @@ outlying _Cumulative Layout Shift_ on the search results page. With my pen and
 paper, I’ll make a note of investigating these specifically in my testing.
 
 After extremities, I’d like to actually **find consistencies**. Once again
-noting that TTFB is very consistent—as seen in the table view—I can draw the
+noting that TTFB is very consistent — as seen in the table view — I can draw the
 conclusion that back-end time (and [whatever else might be happening in
 there](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/))
 is uniformly consistent across each page type. This means that I likely don’t
 need to do any specific work on any individual pages, but also suggests that any
 general back-end improvements I make in area _A_ will also be felt in locations
 _B_ and _C_, too. But perhaps most importantly, the stability of TTFB means that
-all subsequent milestones are measured from a very reliable baseline—I don’t
+all subsequent milestones are measured from a very reliable baseline — I don’t
 need to make any on the fly adjustments to other metrics in order to cross
 reference them. Put another way, if one page’s TTFB was an entire second later,
 I’d need to account for that second when comparing deltas between any of the
@@ -209,10 +209,10 @@ that suggest I’m under prioritising above the fold content.
 More interestingly, let’s take a look at **_Speed Index_ vs. _Largest Contentful
 Paint_**. This is a little harder to explain, but for the most part, a large gap
 between SI and LCP suggests that your largest contentful paint was one of the
-_last_ above the fold paints—there was a large region missing for a long while,
+_last_ above the fold paints — there was a large region missing for a long while,
 and its late arrival is apparent in the large gap. On the other hand, a small
 gap suggests that your largest contentful paint was relatively early, but
-a smaller ATF paint is pushing your SI out—e.g. a late-loaded chat client, or
+a smaller ATF paint is pushing your SI out — e.g. a late-loaded chat client, or
 a small cookie banner, etc. Ultimately, this gap might be telling me about how
 the nature of the ATF content came together: was it a single large region that
 painted late, or was it a long tail of smaller regions pushing metrics the other
@@ -227,7 +227,7 @@ Next up, let’s look at **_Cumulative Layout Shift_ and other milestones**. Whi
 CLS is a Core Web Vital, it’s not a milestone measured in timings. Instead, it
 focuses on layout stability, which is actually not much at all about speed. That
 said, we can still join some dots. It’s quite obvious to me that huge LCP on the
-PLP is pushing out our CLS—whatever content is late to render doesn’t have any
+PLP is pushing out our CLS — whatever content is late to render doesn’t have any
 placeholder or skeleton. However, and slightly more obscure, the high CLS on the
 SRP is not joined by a high LCP. This suggests two possible scenarios:
 
@@ -246,7 +246,7 @@ against many other metrics as other milestones (except CLS) are network-bound
 and TBT is CPU-bound. The only correlation one might draw would be between
 a large TTFB–First Paint delta and a heightened TBT metric. Remember, a large
 gap between TTFB and FP is indicative of more synchronous assets in the
-`head`—if TBT goes up as well, it’s more likely that those assets are JS and not
+`head` — if TBT goes up as well, it’s more likely that those assets are JS and not
 CSS. More often than not, I would simply view TBT in isolation.
 
 ## Final Word

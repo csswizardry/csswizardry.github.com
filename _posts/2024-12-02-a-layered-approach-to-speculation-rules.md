@@ -43,12 +43,12 @@ API](https://developer.chrome.com/docs/web-platform/prerender-pages).
 I don’t want to go super in-depth about the [Speculation Rules
 API](https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API) in
 this post, but the key thing to know is that it provides two speculative loading
-types—`prefetch` and `prerender`—which ultimately have the following goals:
+types — `prefetch` and `prerender` — which ultimately have the following goals:
 
 * **`prefetch`** pays the next page’s TTFB costs up-front and ahead of time;
 * **`prerender`** pays the next page’s TTFB, FCP, and LCP up-front.
 
-It’s going to be very helpful to keep those two truisms in mind—**`prefetch` for
+It’s going to be very helpful to keep those two truisms in mind — **`prefetch` for
 paying down TTFB; `prerender` for LCP**. This makes `prefetch` the lighter of
 the two and `prerender` the more resource-intensive.
 
@@ -92,7 +92,7 @@ uninspired ways on this site:
   ```
 
 In this scenario, I am explicitly prerendering named and known URLs, with
-a loose idea of a potential and likely user journey—I’m warming up what I think
+a loose idea of a potential and likely user journey — I’m warming up what I think
 might be the visitor’s next page.
 
 {% include cross-sell.html %}
@@ -137,7 +137,7 @@ instead looks out for _any_ internal links on the page:
 This slightly layered approach allows us to `immediate`ly pay the TTFB cost for
 all internal links on the page, and pay the LCP cost for any internal link that
 we hover (`moderate`). These are quite broad rules as they apply to any `href`
-on the page that matches `/*`—so any root-relative link at all.
+on the page that matches `/*` — so any root-relative link at all.
 
 This approach works well for me as my site is entirely [statically
 generated](https://jekyllrb.com/) and served from
@@ -249,14 +249,14 @@ right about… now.
 ### Opt-Out Strategy
 
 We’ll probably run into a scenario at some point where we explicitly want to opt
-out of prefetching or prerendering—for example, a log-out page. In order to be
+out of prefetching or prerendering — for example, a log-out page. In order to be
 able to achieve that, we’ll need to reserve something like
 `data-prefetch=false`.
 
 If we’d used `"selector_matches": "[data-prefetch]"` above, that would also
 match `data-prefetch=false`, which is exactly what we don’t want. That’s why we
 bound our selector onto `"selector_matches": "[data-prefetch='']"`
-specifically—only match a `data-prefetch` attribute that has no value.
+specifically — only match a `data-prefetch` attribute that has no value.
 
 Now, we have the following three explicit opt-in and -out hooks:
 
@@ -357,8 +357,8 @@ top-level navigation or their homepage calls-to-action).
 Things that are less likely but still reasonable candidates for warm-up (e.g.
 items in the sub-navigation) can simply carry `data-prefetch`.
 
-All other internal links (`"href_matches": "/*"`)—except the already-maxed out
-`data-prefetch=prerender` or opted-out `data-prefetch=false`—get upgraded to the
+All other internal links (`"href_matches": "/*"`) — except the already-maxed out
+`data-prefetch=prerender` or opted-out `data-prefetch=false` — get upgraded to the
 next category on demand.
 
 Putting them all together in the format and order required, our Speculation

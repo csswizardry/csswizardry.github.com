@@ -8,7 +8,7 @@ tags:
   - HTML
   - Web Platform
 show_taxonomy: true
-meta: "Is HTML a programming language? In this short post, I explore why HTML is powerful, fundamental, and essential—but not a programming language."
+meta: "Is HTML a programming language? In this short post, I explore why HTML is powerful, fundamental, and essential — but not a programming language."
 toc: false
 ---
 
@@ -29,7 +29,7 @@ you’re keen enough to bend it to fit HTML, you will probably be successful.
 But what does that achieve? Really?
 
 HTML is fundamental, it’s powerful, and it’s _fast_, **but it is easy**. Being
-good at HTML—which I would argue I am!—is more about having [a good
+good at HTML — which I would argue I am! — is more about having [a good
 memory](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) than being
 able to think in complex or abstract patterns.
 
@@ -38,7 +38,7 @@ a programming language.
 
 If I was at a dinner party or social function, and my (nascent) partner got
 talking to someone who writes code that launches rockets or manages banking
-software—a real software engineer—and she said to them <q>Oh! You must meet
+software — a real software engineer — and she said to them <q>Oh! You must meet
 Harry! He’s a software engineer, too!</q>, I would be mortified. I couldn’t
 [hold
 a candle](https://dictionary.cambridge.org/dictionary/english/can-t-hold-a-candle-to)
@@ -52,7 +52,7 @@ is so fast and why it’s almost always preferred. It’s knowledge that’s mad
 [a good living](/services/)!
 
 I adore HTML, but I don’t think it counts as a programming language at all. And
-that’s fine—it doesn’t need to.
+that’s fine — it doesn’t need to.
 
 If you think differently to me, if you can make the definition of _programming
 language_ fit, that’s absolutely fine. But, colloquially, I don’t think it’s

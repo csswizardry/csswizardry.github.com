@@ -9,11 +9,11 @@ tags:
   - Caching
   - Cache-Control
 show_taxonomy: true
-meta: "How long?! RFC9111 lets max-age reach 68 years—far beyond the usual one that developers set. Here are the raw numbers, the spec, and when to use it."
+meta: "How long?! RFC9111 lets max-age reach 68 years — far beyond the usual one that developers set. Here are the raw numbers, the spec, and when to use it."
 reading-time: 4
 faq:
   - question: "What is the maximum value for cache-control’s max-age?"
-    answer: "Most teams stick to one year, but RFC9111 states caches MUST honour any value up to 2,147,483,648 seconds—68 years—the largest signed 32-bit integer."
+    answer: "Most teams stick to one year, but RFC9111 states caches MUST honour any value up to 2,147,483,648 seconds — 68 years — the largest signed 32-bit integer."
   - question: "Should I swap my 31536000s for 2147483648s?"
     answer: "Maybe, but only for truly immutable, fingerprinted assets. HTML and API responses should keep short or revalidated lifetimes to avoid serving stale data."
 main: "/wp-content/uploads/2023/10/max-max-age-main.png"
@@ -100,7 +100,7 @@ Notice how the content of the original file `button.7fda1016.css` hasn’t
 changed; `button.7fda1016.css` has ceased to exist entirely, and is replaced by
 a whole new file called `button.6bb70b2a.css`.
 
-Fingerprinted files never change—**they get replaced**. This means we can safely
+Fingerprinted files never change — **they get replaced**. This means we can safely
 cache any fingerprinted file for, well, forever.
 
 But how long is forever?!
@@ -117,7 +117,7 @@ seconds, which is a year. Why a year, though? A year isn’t forever. Was
 > date approximately one year from the time the response is sent. HTTP/1.1
 > servers SHOULD NOT send `Expires` dates more than one year in the future.
 
-Historically—_very_ historically—caching was bound to <q>approximately one year
+Historically — _very_ historically — caching was bound to <q>approximately one year
 from the time the response is sent</q>. This restriction was introduced by the
 long defunct `Expires` header, and we’re talking about `max-age`, which is
 a `Cache-Control` directive. Does `Cache-Control` say anything different?

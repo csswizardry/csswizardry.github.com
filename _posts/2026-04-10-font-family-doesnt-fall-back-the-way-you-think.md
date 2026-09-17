@@ -42,7 +42,7 @@ h1 {
 
 At a glance, this can feel perfectly sensible. The page should use `system-ui,
 sans-serif`; the heading uses `"Open Sans"`; and while the web font is loading,
-the browser will presumably just fall back to the parent’s stack—`system-ui,
+the browser will presumably just fall back to the parent’s stack — `system-ui,
 sans-serif`.
 
 Unfortunately, that isn’t the case.

@@ -54,7 +54,7 @@ However, just now on the train, I visited my own site and saw this:
 </figure>
 
 The image isn’t actually content-critical, so it doesn’t matter that it hasn’t
-loaded, but—whilst probably better looking than my face—it’s still pretty
+loaded, but — whilst probably better looking than my face — it’s still pretty
 jarring: it’s just a big, flat, soulless lump of colour. How can we improve it?
 
 ## CSS Gradients and Multiple Backgrounds

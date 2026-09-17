@@ -97,8 +97,8 @@ aware of when using Parker:
    subtle but significant distinction.
 0. **Unfortunately Parker currently reports specificity incorrectly.** Katie and
    I are in active discussions about how best to tackle this, but for now it’s
-   technically incorrect. In real terms—unless you have hellishly nested
-   selectors using more than 10 classes—it shouldn’t impact you too much, but
+   technically incorrect. In real terms — unless you have hellishly nested
+   selectors using more than 10 classes — it shouldn’t impact you too much, but
    it’s certainly something to be aware of.
 
 With these points in mind, please remember: Parker is not failsafe; it is not
@@ -145,7 +145,7 @@ Take this example of an overly loaded ruleset:
 
 There are a number of problems present here. Firstly, the name `btn-login`
 describes a very specific use case, making it very difficult to reuse. Secondly,
-this is a pretty monolithic ruleset—it handles everything about this button,
+this is a pretty monolithic ruleset — it handles everything about this button,
 mixing up structural and cosmetic responsibilities. Instead, we could break this
 out into:
 
@@ -270,8 +270,8 @@ We often end up with lots of selectors per rule for two key reasons:
    [<cite>Mixins Better for
    Performance</cite>](/2016/02/mixins-better-for-performance/)).</small>
    `@extend` transplants selectors from one part of your project to all
-   converge on another. This has plenty of its own problems—detailed in the
-   linked articles—but it ultimately gives us a long, unwieldy list of selectors
+   converge on another. This has plenty of its own problems — detailed in the
+   linked articles — but it ultimately gives us a long, unwieldy list of selectors
    chained to the same declarations; it increases our Selectors Per Rule.
 
 In the extreme, it’s not uncommon to see `@extend` being abused by developers
@@ -343,7 +343,7 @@ Having a high number of identifiers per selector brings a few problems:
 * **Increased fragility:** The more parts in a compound selector, the more
   chances there are of something going wrong.
 * **Increased filesize:** A minor issue, but any bytes added to your selectors
-  cannot be reclaimed by a minifier—they’re dead weight.
+  cannot be reclaimed by a minifier — they’re dead weight.
 
 For further reading about the problems with long selectors, please refer to my
 article [<cite>Keep your CSS selectors

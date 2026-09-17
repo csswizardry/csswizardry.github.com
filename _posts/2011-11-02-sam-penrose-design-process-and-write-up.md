@@ -3,7 +3,7 @@ comments: true
 date: 2011-11-02 22:22:08
 layout: post
 slug: sam-penrose-design-process-and-write-up
-title: Sam Penrose Design—process and write-up
+title: Sam Penrose Design — process and write-up
 wordpress_id: 3318
 categories:
   - Web Development

@@ -43,7 +43,7 @@ When assessing, I wanted to factor in a sensible mix of:
   * are they sensible and reasonable prices for consumers?
 
 And remember, as we’ll look at next, trying to triangulate on one single device
-per category is a little futile in itself—sheer device diversity and evolution
+per category is a little futile in itself — sheer device diversity and evolution
 means that _anything_ we pick is going to be something of a compromise. My aim,
 however, is to minimise that compromise as much as possible and distill our
 choices down to a single representative device for each category. Can I do it?
@@ -182,8 +182,8 @@ toward the floor of mass-market devices.
 <figcaption>Image credit: samsung.com</figcaption>
 </figure>
 
-While not even ‘flagship-lite’—its Exynos 1380 chip and GPU are properly
-mid-market—the A54 is one of [the world’s top-selling mid-tier
+While not even ‘flagship-lite’ — its Exynos 1380 chip and GPU are properly
+mid-market — the A54 is one of [the world’s top-selling mid-tier
 Androids](https://www.forbes.com/sites/johnkoetsier/2023/08/29/top-10-selling-smartphones-all-from-2-companies-apple-and-samsung/),
 and it has staying power in both carrier contracts and SIM-free contexts.
 
@@ -204,7 +204,7 @@ I actually went out and bought myself an A54 5G after conducting this research!
   * Samsung’s own chip is decidedly mid-range [^10] [^9]
 * **Memory/Storage:** 6–8 GB, UFS 2.2
   * More RAM than the A15
-  * Still much slower storage—think HTTP cache reads
+  * Still much slower storage — think HTTP cache reads
 * **Screen:** 6.4″ 120Hz AMOLED
   * Slightly smaller screen but faster refresh rate than the A15
 * **Support window:** four generations of OS updates and five years of security
@@ -358,7 +358,7 @@ mid-tier testing.
 [^16]: [Samsung newsroom](https://news.samsung.com/global/samsung-galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone): A55 5G continues five years of security updates and four generations of OS updates policy; Exynos 1480 and EU retail presence
 [^17]: [Xiaomi global launch of Redmi Note 13 series](https://www.androidauthority.com/redmi-note-13-series-global-launch-3403087/)
 [^18]: [Xiaomi official specs for Redmi Note 13 5G](https://www.mi.com/global/product/redmi-note-13-5g/specs/)
-[^19]: [StatCounter vendor share Spain](https://gs.statcounter.com/vendor-market-share/mobile/spain): Samsung & Xiaomi dominate—useful proxy for EU mid-range tastes
+[^19]: [StatCounter vendor share Spain](https://gs.statcounter.com/vendor-market-share/mobile/spain): Samsung & Xiaomi dominate — useful proxy for EU mid-range tastes
 {% comment %}
 [^20]: [Xiaomi: Redmi Note 13 5G specs (global)]( https://www.mi.com/global/product/redmi-note-13-5g/specs/)
 [^21]: [StatCounter: mobile vendor share, Europe]( https://gs.statcounter.com/vendor-market-share/mobile/europe)

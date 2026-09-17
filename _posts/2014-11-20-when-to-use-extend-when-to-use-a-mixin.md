@@ -15,7 +15,7 @@ This is a question I get asked a lot by my clients: <q>When should we use a
 mixin, and when should we use `@extend`?</q>
 
 There’s an old rule of thumb which states that <q>mixins without arguments are
-bad</q>—that mixins which just duplicate code with no difference between each
+bad</q> — that mixins which just duplicate code with no difference between each
 instance are nasty. The truth is that the answer is a lot more nuanced than that.
 
 Let’s take a look.
@@ -59,7 +59,7 @@ covers: doable, but not a useful relationship to create.
 **It is vital that you are forming that relationship around the
 right characteristics.**
 
-Quite often—and I have been guilty of it myself in the past—I have seen things
+Quite often — and I have been guilty of it myself in the past — I have seen things
 like this (and let’s imagine that the `...` denotes an omission of, say, 100
 lines):
 
@@ -131,8 +131,8 @@ Which, of course, gives us this:
         font-size: 0.75em;
     }
 
-The issue here is that I have forced a relationship between unrelated rules—that
-live hundreds of lines away from one another—based on shared traits that are
+The issue here is that I have forced a relationship between unrelated rules — that
+live hundreds of lines away from one another — based on shared traits that are
 purely coincidental. And not only have I forced an unusual relationship, but I
 now have a very unusual source order in which specificity is jumbled up. I am
 distributing selectors across my codebase for purely circumstantial reasons.
@@ -207,7 +207,7 @@ This weighs 299 bytes.
 declarations you’re trying to avoid repeating.**
 
 If we were to actually just repeat the `font-weight: bold;` declaration
-<var>n</var> times—instead of trying to avoid repeating it at all—we’d actually
+<var>n</var> times — instead of trying to avoid repeating it at all — we’d actually
 achieve a smaller file size: **264 bytes**. This is just a very timid model, but
 it should help to illustrate the possibility for diminishing returns.
 `@extend`ing single declarations can often be counterproductive.

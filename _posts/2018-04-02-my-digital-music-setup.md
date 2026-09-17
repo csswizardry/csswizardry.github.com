@@ -47,7 +47,7 @@ href="https://twitter.com/csswizardry/status/975337747169857537">18 March,
 
 <script src="https://platform.twitter.com/widgets.js" defer></script>
 
-If you want to listen to the track—of course you do, it’s stunning—then you’ll
+If you want to listen to the track — of course you do, it’s stunning — then you’ll
 have to make do with the YouTube version. Couple it with some good headphones
 and a decent amount of volume and you’ll still get the picture:
 
@@ -75,7 +75,7 @@ quality: I wanted a wifi enabled speaker that I could stream to directly.
 
 Further, I needed to be mindful of space. I live in a city-centre apartment
 that,unfortunately, doesn’t leave me with much room to play with. Oh and I guess
-whatever I was going to buy needed to look nice—I’m really fond of my apartment
+whatever I was going to buy needed to look nice — I’m really fond of my apartment
 and spent a lot of time furnishing it, so I wanted something that would look
 good.
 
@@ -99,7 +99,7 @@ then I’ll start spending!
 One of the units that kept getting mentioned was the Technics OTTAVA (or the
 Technics OTTAVA™ Forte SC-C70 to give it its rather catchy full name). It
 certainly looked stunning and seemed to tick all of the right boxes. On
-a whim—whilst I was technically just nipping out for coffee—I decided to drop
+a whim — whilst I was technically just nipping out for coffee — I decided to drop
 into [Richer Sounds](https://www.richersounds.com/) to see if they had one in
 stock that I might be able to look at.
 
@@ -206,11 +206,11 @@ which means better quality listening on the move.
   <figcaption>AudioQuest DragonFly Red plugged into my iPhone. <a href="/wp-content/uploads/2018/04/dragonfly-red-phone-full.jpg">See full size/quality (3.1MB)</a></figcaption>
 </figure>
 
-The DragonFly is tiny—the same size as a conventional USB stick—but there’s no
+The DragonFly is tiny — the same size as a conventional USB stick — but there’s no
 denying that it does bulk up your phone somewhat. I have to plug my Shure’s
 3.5mm jack into the DAC, then the DAC into an Apple Lightning to USB Camera
 Adapter, then the adapter into your phone. When I’m on a flight (as I am right
-now) or a train, this extra bulk doesn’t bother me too much—I get settled in
+now) or a train, this extra bulk doesn’t bother me too much — I get settled in
 anyway, so I don’t mind the extra room it takes. When I’m out and about, it’s
 too much to really stuff into a pocket, so I do just tend to forgo it entirely.
 
@@ -251,7 +251,7 @@ be great.
 
 I’ve been a loyal Spotify user for eight (what?!) years now. Although it isn’t
 perfect, I am a huge Spotify fan. My only concern is that I never really own any
-of my music, which is a frightening thought at times—if Spotify disappears then
+of my music, which is a frightening thought at times — if Spotify disappears then
 I’m lost. What I do love about Spotify is its reliability, its vast catalogue,
 and its discovery options.
 

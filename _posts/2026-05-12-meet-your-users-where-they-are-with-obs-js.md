@@ -93,7 +93,7 @@ Virtually identical experiences.
 <figcaption>Across similarly sized <code>lite</code> and <code>rich</code> cohorts, LCP remains within 80ms, while INP and CLS are identical.</figcaption>
 </figure>
 
-I make similar adaptations with my nav—users with low- or critically-low battery
+I make similar adaptations with my nav — users with low- or critically-low battery
 will not be shown any superfluous animations, and instead just have a much
 simpler open/closed experience. Every little helps, and I can adapt to fit.
 
@@ -106,12 +106,12 @@ battery life, or upgrade their handset from within the confines of a browser
 tab. But what it can do is give us a slightly clearer picture of the conditions
 under which our work is being experienced.
 
-It reads a handful of browser signals—latency, bandwidth, Data Saver, battery,
-CPU, memory—and exposes them as classes on the `<html>` element and as a small
+It reads a handful of browser signals — latency, bandwidth, Data Saver, battery,
+CPU, memory — and exposes them as classes on the `<html>` element and as a small
 `window.obs` object in JavaScript. This simple functionality opens up a whole
 world of potential, and it’s up to us as developers to exploit it.
 
-The value is not that it makes decisions for us—it doesn’t—the value is that it
+The value is not that it makes decisions for us — it doesn’t — the value is that it
 gives us better information with which to make our own decisions. Perhaps that
 means avoiding rich media; perhaps it means serving lower resolution imagery.
 Perhaps it means toning down motion; perhaps it means holding back a web font.

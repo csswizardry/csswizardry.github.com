@@ -110,7 +110,7 @@ object, which is great!
 
 However, let’s say you decide you want to change the display of albums on your
 site, you now want to have the album art full-width with the track listing
-_below_ it—no longer side-by-side as the media object is.
+_below_ it — no longer side-by-side as the media object is.
 
 A lot of people here would argue that using an abstraction ties you to a
 permanent visual style; and they would be correct! That’s the point! You can no
@@ -194,8 +194,8 @@ Here we can see how the base object remains intact but we extend it with a more
 specific use-case to modify its appearance. No other uses of the media object
 will be effected, only ones we explicitly flagged as being `.album-art`.
 
-Here we make changes via extension, leaving our base—and every other instance of
-it—completely untouched.
+Here we make changes via extension, leaving our base — and every other instance of
+it — completely untouched.
 
 ## Final word
 
@@ -205,7 +205,7 @@ written an abstraction you’re committed to it (unless you fancy a large
 refactoring job). With this in mind avoid abstracting too early and abstract
 _very_ carefully. Needing to modify an object is a big warning sign.
 
-If you find you’re having to undo or—even worse—change base objects, you need to
+If you find you’re having to undo or — even worse — change base objects, you need to
 stop and consider where things went wrong. If an abstraction no longer becomes
 suitable that’s cool; we’re allowed to touch markup so just stop using it in
 your HTML. If you’re finding you only ever need to peg classes onto things to

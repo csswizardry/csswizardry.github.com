@@ -79,7 +79,7 @@ Keep your key selector as explicit and specific as you possibly can, preferring 
 
 ## Real-life example
 
-A really good example of where I messed up on this myself is on a project I did at Sky; I had a selector which was simply `#content table{}`. (Eww, I even used an ID!!!) This is a troublesome selector for three reasons; firstly [it uses an ID which is a big no](/2011/09/when-using-ids-can-be-a-pain-in-the-class/), secondly it has a lot higher specificity than it needs to and lastly—and most importantly—it has a poor selector intent. I wasn’t wanting to style these tables _because_ they were in `#content`, that was just how the DOM landed so that’s how I chose to target them. _Entirely_ my bad.
+A really good example of where I messed up on this myself is on a project I did at Sky; I had a selector which was simply `#content table{}`. (Eww, I even used an ID!!!) This is a troublesome selector for three reasons; firstly [it uses an ID which is a big no](/2011/09/when-using-ids-can-be-a-pain-in-the-class/), secondly it has a lot higher specificity than it needs to and lastly — and most importantly — it has a poor selector intent. I wasn’t wanting to style these tables _because_ they were in `#content`, that was just how the DOM landed so that’s how I chose to target them. _Entirely_ my bad.
 
 For the first few weeks this was fine but then all of a sudden we needed to add some tables inside `#content` that didn’t want to look anything like the previous ones. Uh oh. My previous selector was far too far reaching, I was now having to undo a blanket style I’d set on _every_ table in the `#content` `div`. If I’d had a better selector intent then instead of:
 

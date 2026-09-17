@@ -28,8 +28,8 @@ Despite having been called <cite>CSS Wizardry</cite> for over a decade now,
 there hasn’t been a great deal of CSS-related content on this site for a while.
 Let me address that by combining my two favourite topics: CSS and performance.
 
-CSS is critical to rendering a page—a browser will not begin rendering until all
-CSS has been found, downloaded, and parsed—so it is imperative that we get it
+CSS is critical to rendering a page — a browser will not begin rendering until all
+CSS has been found, downloaded, and parsed — so it is imperative that we get it
 onto a user’s device as fast as we possibly can. Any delays on the Critical Path
 affect our Start Render and leave users looking at a blank screen.
 
@@ -72,7 +72,7 @@ or legacy codebase, things get even more difficult…
 
 ## Split Your Media Types
 
-So if achieving Critical CSS is proving quite tricky—and it probably is—another
+So if achieving Critical CSS is proving quite tricky — and it probably is — another
 option we have is to split our main CSS file out into its individual Media
 Queries. The practical upshot of this is that the browser will…
 
@@ -313,7 +313,7 @@ After:
   Scanner (N.B. The same waterfall occurs in Opera and Safari.)</figcaption>
 </figure>
 
-This is definitely a bug in WebKit/Blink—missing quotes shouldn’t hide the
+This is definitely a bug in WebKit/Blink — missing quotes shouldn’t hide the
 `@import`ed stylesheet from the Preload Scanner.
 
 Huge thanks to [Yoav](https://twitter.com/yoavweiss) for helping me track this
@@ -397,8 +397,8 @@ when I said <q>More on this later.</q></small>
 It’s very common for third party vendors to provide async snippets like this to
 more safely load their scripts. It’s also very common for developers to be
 suspicious of these third parties and place their async snippets later in the
-page. While this is done with the best of intentions—<q>I don’t want to put
-third party `<script>`s before my own assets!</q>—it can often be a net loss. In
+page. While this is done with the best of intentions — <q>I don’t want to put
+third party `<script>`s before my own assets!</q> — it can often be a net loss. In
 fact, Google Analytics even tell us what to do, and they’re right:
 
 > Copy and paste this code as the first item into the `<HEAD>` of every webpage
@@ -443,7 +443,7 @@ If
 * synchronous JS defined after CSS is blocked on CSSOM construction, and;
 * synchronous JS blocks DOM construction…
 
-then—assuming no interdependencies—which is faster/preferred?
+then — assuming no interdependencies — which is faster/preferred?
 
 * Script then style;
 * style then script?
@@ -451,7 +451,7 @@ then—assuming no interdependencies—which is faster/preferred?
 The answer:
 
 **If the files do not depend on one another, then you should place your blocking
-scripts above your blocking styles**—there’s no point delaying the JavaScript
+scripts above your blocking styles** — there’s no point delaying the JavaScript
 execution with CSS upon which the JavaScript doesn’t actually depend.
 
 <small>(The Preload Scanner ensures that, even though DOM construction is
@@ -605,7 +605,7 @@ everything. This reduces the size of the blocking CSS on the Critical Path.
 We’re also able to adopt a more deliberate caching strategy, only cache busting
 the files that need it and leaving the rest untouched.
 
-What we haven’t solved is the fact that it all still blocks rendering—we’re
+What we haven’t solved is the fact that it all still blocks rendering — we’re
 still only as fast as our slowest stylesheet. What this means is that if, for
 whatever reason, `site-footer.css` takes a long time to download, the browser
 can’t make a start on rendering `.site-header`.

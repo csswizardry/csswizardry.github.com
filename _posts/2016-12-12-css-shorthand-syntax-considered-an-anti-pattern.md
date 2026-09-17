@@ -86,7 +86,7 @@ little like this:
 }
 ```
 
-The developer had—understandably—used a gradient syntax generator to create
+The developer had — understandably — used a gradient syntax generator to create
 their rather complex radial gradient, but they found that things weren’t
 rendering correctly at all. Their gradient syntax was correct, autoprefixer was
 working just fine, but for some reason their page looked really, really broken.
@@ -114,7 +114,7 @@ using shorthand. Another very common use-case is vertical centring using
 ```
 
 The problem here is that in order to use shorthand to define `auto` only
-once—but use it on both the left and right—we had to make a decision about top
+once — but use it on both the left and right — we had to make a decision about top
 and bottom as well. That was a decision we shouldn’t have made, because now
 we’re explicitly removing any top or bottom margins that may have been
 intentionally introduced elsewhere.
@@ -161,8 +161,8 @@ sides to carry `10px` padding. Here, shorthand makes complete sense. Also:
 }
 ```
 
-Here—although I’d question the use of [magic
-numbers](/2012/11/code-smells-in-css/#magic-numbers)—we
+Here — although I’d question the use of [magic
+numbers](/2012/11/code-smells-in-css/#magic-numbers) — we
 are still explicitly setting all four sides, so, again, this use of shorthand
 would still be okay.
 
@@ -171,7 +171,7 @@ properties that you don’t actually need to modify.
 
 - - -
 
-This kind of action—the inadvertent unsetting of other properties—is
+This kind of action — the inadvertent unsetting of other properties — is
 particularly problematic in modular and composable systems, where many different
 classes may be used in conjunction with one another to form more complex
 composites. Units of code that cannot be combined without collision or conflict

@@ -39,7 +39,7 @@ is currently visible on the page and its background is set to be this image: I�
 better download it!</q>.
 
 The waterfall below shows the browser waiting for CSSOM completion before it
-dispatches any requests for any images—you can clearly see that the CSS needs to
+dispatches any requests for any images — you can clearly see that the CSS needs to
 finish before any images start. This is down to the simple fact that the browser
 doesn’t know which (if any) images it will need until the CSSOM has been built:
 
@@ -49,12 +49,12 @@ doesn’t know which (if any) images it will need until the CSSOM has been built
 CSSOM has completed.</figcaption>
 </figure>
 
-This is too late for such important content of theirs—users want to see the
+This is too late for such important content of theirs — users want to see the
 thumbnails as soon as possible.
 
 By moving the images to `<img />` elements (which is also semantically more
-appropriate), the browser can discover them far sooner—as they become exposed to
-the browser’s preload scanner—and dispatch their requests before (or in parallel
+appropriate), the browser can discover them far sooner — as they become exposed to
+the browser’s preload scanner — and dispatch their requests before (or in parallel
 to) CSSOM completion:
 
 <figure>
@@ -67,7 +67,7 @@ This is stuff we already knew:
 
 1. Browsers can’t possibly download `background-image`s until they’ve built the
    CSSOM.
-2. Browsers shouldn’t base—thus delay—the downloading of `<img />`s on CSSOM
+2. Browsers shouldn’t base — thus delay — the downloading of `<img />`s on CSSOM
    completion. More on this later…
 
 Where it gets interesting is when I started to wonder how different browsers
@@ -191,8 +191,8 @@ won’t download `background-image`s that they know they won’t need.
 **Chrome**, **Opera**, and **Edge** will all download `background-image`s that
 are applied to invisible elements. This feels wasteful, but I suspect it is
 a preemptive optimisation to ensure that the image is on the client before the
-potential event that the element becomes visible. I feel that—if this is the
-case—this is an optimisation that should be left to the developer.
+potential event that the element becomes visible. I feel that — if this is the
+case — this is an optimisation that should be left to the developer.
 
 - - -
 
@@ -251,8 +251,8 @@ Next, let’s take a look at how browsers handle `<img />`s.
   <img src="/wp-content/uploads/2018/06/firefox-img-visible.png" alt="" />
   <figcaption><a href="/wp-content/uploads/2018/06/firefox-img-visible-full.png">View full size/quality</a></figcaption>
   </figure>
-* **Unexpectedly**, despite Firefox knowing it won’t need the `<img />`—as
-  a result of it unexpectedly blocking on CSSOM construction—it will still
+* **Unexpectedly**, despite Firefox knowing it won’t need the `<img />` — as
+  a result of it unexpectedly blocking on CSSOM construction — it will still
   download the `<img />` even if it knows it will not be visible. I find this
   extremely bizarre: it seems to get things wrong on both counts:
   <figure>
@@ -304,7 +304,7 @@ respectively.</small>
 ### Verdict
 
 **Firefox** appears to block `<img />` on CSSOM construction. This seems like
-a bad idea—no `<img />`s will begin downloading until Firefox has downloaded,
+a bad idea — no `<img />`s will begin downloading until Firefox has downloaded,
 parsed, and applied the CSS. This means that if you have blocking stylesheets,
 they’re blocking your `<img />`. This would be particularly troublesome if `<img
 />` are key content (think Imgur, Flickr, etc.).

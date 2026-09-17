@@ -20,7 +20,7 @@ meta: "What issues does Hoefler&Co’s Cloud.typography introduce, and how can w
 * <small>I disclosed all of the below to Cloud.typography and gave them ample
   opportunity to work together to solve the issues at the root of the problem.
 There was no appetite from them to do so, so I decided to make it all available
-for free anyway—a faster web benefits everyone.</small>
+for free anyway — a faster web benefits everyone.</small>
 * <small>All of the people I have dealt with seem like really, really nice folk.
   Nothing that follows is a reflection on any individuals. Please bear that in
 mind as you read.</small>
@@ -51,7 +51,7 @@ stages of the page-load lifecycle. Let’s pick it apart…
      https://fonts.[client].com/[number]/[hash].css` header.
 0. Entry (10) lives on a different origin again, so we have more connection
    overhead to contend with, and the file seems to take an incredibly long time
-   to download (as evidenced by the sheer amount of dark green—sending data).
+   to download (as evidenced by the sheer amount of dark green — sending data).
    Why does Cloud.typography redirect us to a file we own ourselves? Is there
    some kind of ‘release mechanism’ used to authenticate `[client].com` to use
    the font service? And why is the file so huge?!
@@ -96,7 +96,7 @@ Next up, we get sent to `fonts.[client].com`, which introduces yet more latency
 for the connection setup. (Please note that this phenomenon is specific to the
 way this company has implemented their own assets and has nothing at all to do
 with Cloud.typography.) Because this response is CSS, our critical request chain
-remains unbroken—this is all work taking place on the Critical Path.
+remains unbroken — this is all work taking place on the Critical Path.
 
 Once we’ve dealt with the connection overhead, we begin downloading a behemoth
 CSS file (271.3KB) that is packed with all of the fonts for the project encoded
@@ -157,7 +157,7 @@ other hand, uses Google Fonts (without any `font-display` configuration), which
 allows the browser to begin rendering the page in the absence of the webfonts.
 
 <small>**N.B.** The two test cases are very, very different sites, so I’m not
-looking to directly compare any timings—that would be unfair—I merely want to
+looking to directly compare any timings — that would be unfair — I merely want to
 highlight the phenomenon.</small>
 
 On a 3G connection, Post-It’s Start Render is 16.8s. Removing Cloud.typography
@@ -174,7 +174,7 @@ It is actively harmful for performance.
 
 ## Solving the Problem for the Client
 
-The solutions I implemented for my client were mitigations at best—the problems
+The solutions I implemented for my client were mitigations at best — the problems
 still exist in Cloud.typography, but I was able to do a handful of things to
 take the edge off of how the problems were manifesting themselves.
 
@@ -262,14 +262,14 @@ host](/2019/05/self-host-your-static-assets/);
 * anyone concerned about performance is encouraged to upgrade to the self-hosted
   plan.
 
-I’m incredibly grateful for the person’s time and patience—I just popped on
+I’m incredibly grateful for the person’s time and patience — I just popped on
 their radar out of nowhere and had quite a barrage of questions and, I’ll admit,
 critique for them. Their replies were insightful and timely.
 
 However, here’s where I end up a little disheartened: despite clearly outlining
 the tangible impact that Cloud.typography has on performance, there was no
 interest in looking at ways to remedy the problems. There was no appetite for
-providing or even documenting the alternative (i.e. not _replacement_—the
+providing or even documenting the alternative (i.e. not _replacement_ — the
 current method would remain fully functional and valid) non-blocking loading
 strategy.
 
@@ -339,7 +339,7 @@ seeing anything? Click right here!</a>
 </figure>
 
 Yes, we do have a FOFT, but we are getting text in front of the reader much,
-much sooner—this is an enormous improvement.
+much sooner — this is an enormous improvement.
 
 ## Closing Thoughts
 

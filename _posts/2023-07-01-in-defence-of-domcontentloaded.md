@@ -20,7 +20,7 @@ main: "/wp-content/uploads/2023/07/domcontentloaded-main.png"
 ---
 
 Honestly, I started writing this article for no real reason, and somewhat
-without context, in December 2022—over half a year ago! But, I left it in
+without context, in December 2022 — over half a year ago! But, I left it in
 `_drafts/` until today, when a genuinely compelling scenario came up that gives
 real opportunity for explanation. It no longer feels like
 trivia-for-the-sake-of-it thanks to a recent client project.
@@ -59,11 +59,11 @@ In the comparison above, which do you think provides the better user experience?
 I’m willing to bet you’d all say B, right? But, based on `DOMContentLoaded`,
 A is actually over 11s faster!
 
-`Load` and `DOMContentLoaded` are internal browser events—your users have no
+`Load` and `DOMContentLoaded` are internal browser events — your users have no
 idea what a `Load` time even is. I bet half of your colleagues don’t either. As
 metrics themselves, they have little to no reflection on the real user
 experience, which is exactly why we’ve moved away from them in the first
-place—they’re a poor proxy for UX as they’re not emitted when anything useful to
+place — they’re a poor proxy for UX as they’re not emitted when anything useful to
 the user happens.
 
 Or are they…?
@@ -93,8 +93,8 @@ This is particularly true in the case of `DOMContentLoaded`.
 event](https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event)
 fires once all of your `defer`red JavaScript has finished running.**
 
-Therefore, anyone leaning heavily on `defer`—or frameworks that utilise
-it—should immediately see the significance of this metric.
+Therefore, anyone leaning heavily on `defer` — or frameworks that utilise
+it — should immediately see the significance of this metric.
 
 If you aren’t (able to) monitoring custom metrics around your application’s
 interactivity, hydration state, etc., then `DOMContentLoaded` immediately
@@ -142,7 +142,7 @@ data for it from two pretty decent sources…
 [CrUX Dashboard](https://developer.chrome.com/docs/crux/dashboard/) is one of
 very few [CrUX resources](https://developer.chrome.com/docs/crux/) that surfaces
 the `DOMContentLoaded` event to us. Above, we can see that, currently, only 11%
-of Chrome visitors experience a _Good_ `DOMContentLoaded`—almost 90% of people
+of Chrome visitors experience a _Good_ `DOMContentLoaded` — almost 90% of people
 are waiting over 1.5s before the app’s key functionality is available, with
 almost half waiting over 3.5s!
 
@@ -188,7 +188,7 @@ Takeaways here are:
 `defer`red files has run, there’s every possibility that key functionality from
 any preceding files has already become available, but that’s not something we
 have any visibility over without looking into custom monitoring, which is
-exactly the situation we’re in here. Remember, this is still a proxy metric—just
+exactly the situation we’re in here. Remember, this is still a proxy metric — just
 a much more useful one than you may have realised.</small>
 
 ## Digging Deeper: The Navigation Timing API
@@ -200,7 +200,7 @@ which gives us access to a suite of milestone timings, many of which you may
 have heard of before.
 
 The `DOMContentLoaded` as measured and emitted by the Navigation Timing API is
-actually referred to as `domContentLoadedEventStart`—there is no bare
+actually referred to as `domContentLoadedEventStart` — there is no bare
 `domContentLoadedEvent` in that spec. Instead, we have:
 
 1. **`domContentLoadedEventStart`:** This is the one we’re interested in, and is
@@ -217,7 +217,7 @@ actually referred to as `domContentLoadedEventStart`—there is no bare
    });
    ```
    * This is separate to `defer`red JavaScript and runs after our
-     `DOMContentLoaded` event—if we are running a nontrivial amount of code at
+     `DOMContentLoaded` event — if we are running a nontrivial amount of code at
      `DOMContentLoaded`, we’re also interested in this milestone. That’s not in
      the scope of this article, though, so we probably won’t come back to that
      again.
@@ -246,7 +246,7 @@ of DevTools’ _Network_ panel:
 ## Even More Insights
 
 While `DOMContentLoaded` tells us when our `defer`red code finished
-running—which is great!—it doesn’t tell us how long it took to run. We might
+running — which is great! — it doesn’t tell us how long it took to run. We might
 have a `DOMContentLoaded` at 5s, but did the code start running at 4.8s? 2s? Who
 knows?!
 
@@ -380,7 +380,7 @@ site](https://github.com/csswizardry/csswizardry.github.com/blob/515d5428c1c816a
 chiefly to monitor how long it takes to parse the `<head>` and its CSS.
 
 The User Timing API is far more suited to this kind of monitoring than something
-like `DOMContentLoaded`—I would only look at `DOMContentLoaded` if we don’t yet
+like `DOMContentLoaded` — I would only look at `DOMContentLoaded` if we don’t yet
 have appropriate metrics in place.
 
 Still, the key and most interesting takeaway for me is that if all we have
@@ -426,7 +426,7 @@ need improvement, I don’t think it would be the most effective place to spend
 time while tackling this particular problem.
 
 Almost all of that 8.7s was lost to queuing and fetching that sheer number of
-bundles. Not necessarily the size of the bundles—just the sheer quantity of
+bundles. Not necessarily the size of the bundles — just the sheer quantity of
 files that need scheduling, and which each carry their own latency cost.
 
 While we haven’t worked out the sweet spot for this project, as a rule,

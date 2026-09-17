@@ -18,9 +18,9 @@ releasing little, early, and often; you name it.
 
 [I recently shared](https://twitter.com/csswizardry/status/455670114328014849)
 [a public demo](https://trello.com/b/KaRKUPfD) of the Trello board that I use
-for development work—just one small aspect of running an agile project. This
-post won’t teach you anything about running an agile project or team—you can
-[hire me for that](/contact/)—but it might help you set up a decent Kanban board
+for development work — just one small aspect of running an agile project. This
+post won’t teach you anything about running an agile project or team — you can
+[hire me for that](/contact/) — but it might help you set up a decent Kanban board
 if you already know how to work agile.
 
 You will probably want to have this Trello board open as you read this article,
@@ -38,10 +38,10 @@ yourselves: [trello.com/b/demo-project](https://trello.com/b/KaRKUPfD/demo-proje
 
 ## Trello
 
-Personally, I really like a physical Kanban board—using magnets and different
-coloured index cards—but given that I work with distributed teams, and I
+Personally, I really like a physical Kanban board — using magnets and different
+coloured index cards — but given that I work with distributed teams, and I
 work from various locations, a physical board just doesn’t work. We had physical
-boards at [Sky](http://en.wikipedia.org/wiki/BSkyB), and they were great—10′
+boards at [Sky](http://en.wikipedia.org/wiki/BSkyB), and they were great — 10′
 long, and perfect for standing around and discussing during stand-ups.
 
 Because I can’t have a physical board, I use
@@ -55,18 +55,18 @@ one](https://trello.com/csswizardry/recommend).
 ## The Columns
 
 The most fundamental part of any Trello board is its columns. At Sky, we had
-around 18 (yes, one-eight) columns on our board, but they worked—they all had a
+around 18 (yes, one-eight) columns on our board, but they worked — they all had a
 place and a purpose. Sky’s board covered everything from design to DevOps,
 engineering to acceptance testing, and everything in between.
 
-My boards are typically a lot less extensive, with eight columns, but—as is the
-agile way—I can scale them up or down depending on what comes my way. Whichever
+My boards are typically a lot less extensive, with eight columns, but — as is the
+agile way — I can scale them up or down depending on what comes my way. Whichever
 way you look at it, it’s fairly safe to say that the standard <i>To Do</i>,
 <i>Doing</i>, and <i>Done</i> columns aren’t up to the job.
 
 ### To Do, Doing, Done
 
-The traditional—and Trello’s default—column structure is a simple <i>To Do</i>,
+The traditional — and Trello’s default — column structure is a simple <i>To Do</i>,
 <i>Doing</i>, and <i>Done</i>. This sums up the general sentiment of a
 development project, but it’s a vast oversimplification of the process. There
 are different definitions and states of <i>done</i>, for a start, and various
@@ -107,7 +107,7 @@ proposed by the Product Owner, but ultimately decided by the whole scrum.
 
 A lot of the time, tasks might need investigating or discussing before you can
 start working on them properly. For example, you might need to read up on
-various different APIs before deciding which—if any—you might use for
+various different APIs before deciding which — if any — you might use for
 development.
 
 {% include promo-case-studies.html %}
@@ -126,7 +126,7 @@ wire? Could we run ImageOptim-CLI as a Git-hook? This was the elaboration phase
 that this card went through before we decided to implement any work, if at all.
 
 Anything in the elaboration column is typically an investigative or discussion
-piece, and a lot of—if not most—cards will never need to pass through this
+piece, and a lot of — if not most — cards will never need to pass through this
 column.
 
 ### Implementation
@@ -156,7 +156,7 @@ put it live. It keeps productivity up by limiting the scope of ‘done’. They 
 queue up tasks for a future release, or a whole round of acceptance testing.
 
 The next thing it does is it allows the rest of the team to see what tasks are
-dev-done and are available to be reviewed or tested—something might have been
+dev-done and are available to be reviewed or tested — something might have been
 built and is functionally complete, but no one has started reviewing that work
 yet. Anything in <i>Implementation done</i> says ‘Hey, my developer thinks I’m
 complete, so someone please feel free to come along and test me.’ This column
@@ -203,7 +203,7 @@ These are the meanings I’ve assigned to the six available colours:
 * **Purple:** Design
 * **Blue:** Dev
 
-I find that these six labels—when used creatively—can cover pretty much all
+I find that these six labels — when used creatively — can cover pretty much all
 eventualities. You might have to class any Ops work as <i>Dev</i>, or UX/IA as
 <i>Design</i>, but it seems to work for me, and I can always change things
 around if I need to.
@@ -250,11 +250,11 @@ isn’t broken <em>per se</em>, but is less-than-ideal. Perhaps, in a rush to ge
 a feature live, you hard-coded some values that should be dynamic. You know that
 you need to go back and tidy these things up, but they’re not necessarily bugs.
 
-I’ve written about [hacks—and how they’re
-inevitable—before](/2013/04/shame-css/), and these are
+I’ve written about [hacks — and how they’re
+inevitable — before](/2013/04/shame-css/), and these are
 exactly the kinds of thing we mean when we talk about tech debt.
 
-<i>Blocked</i> cards are ones which are held up—or <i>blocked</i>—by other cards
+<i>Blocked</i> cards are ones which are held up — or <i>blocked</i> — by other cards
 on the board. Perhaps we have have a feature/improvement card entitled <i>Case
 studies</i> which is a task to design and display some testimonials and case
 studies on your client’s marketing site. You might also have a content/copy card
@@ -279,7 +279,7 @@ this seems to work just fine on the projects I’ve been working on.
 
 ## Members
 
-Assigning members to cards shows you who is—or should be—working on a particular
+Assigning members to cards shows you who is — or should be — working on a particular
 task. It is not uncommon for a card to have a number of labels and members
 attached to it: perhaps Jenna and Steve are a developer and designer working
 together on the landing page.
@@ -291,8 +291,8 @@ lets the rest of the team know what everyone else is up to at a glance.
 
 ## Reading a Kanban Board
 
-The beauty of a Kanban board—aside from their excellent way of organising
-things—is that they are easily read at a glance. A Kanban board gives a great
+The beauty of a Kanban board — aside from their excellent way of organising
+things — is that they are easily read at a glance. A Kanban board gives a great
 visual overview of the state and health of a project without having to read or
 research a single thing. Is there a mass of cards piling up in <i>Implementation
 done</i>? Perhaps your Product Owner needs a hand UATing stuff, or you need more
@@ -326,13 +326,13 @@ of any use in this post.
 
 As with anything, your mileage may vary: you might have a completely different
 setup that works perfectly for you already, or you might find little value in
-a <i>Product</i> label, for example, but the beauty of Trello—and agile as a
-broader concept—is that you can shape it to fit your needs.
+a <i>Product</i> label, for example, but the beauty of Trello — and agile as a
+broader concept — is that you can shape it to fit your needs.
 
 I hope this article has proved useful for some, and that you can take it and
 extend it for your own work.
 
 Agile and process is something I’m really, _really_ enjoying working on with my
 clients at the moment, so if you feel like you could use some help then please
-do [get in touch](/services/) with me—I’d love to work together on this kind of
+do [get in touch](/services/) with me — I’d love to work together on this kind of
 stuff.

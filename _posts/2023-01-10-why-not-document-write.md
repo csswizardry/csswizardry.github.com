@@ -37,7 +37,7 @@ You may have also seen that there’s very little explanation as to _why_
 
 **From a purely performance-facing point of view, `document.write()` itself
 isn’t that special or unique.** In fact, all it does is surfaces potential
-behaviours already present in any synchronous script—the only main difference is
+behaviours already present in any synchronous script — the only main difference is
 that `document.write()` guarantees that these negative behaviours will manifest
 themselves, whereas other synchronous scripts can make use of alternate
 optimisations to sidestep them.
@@ -49,7 +49,7 @@ will you suffer poor INP scores. If you are struggling with INP, let’s organis
 a <a href="/workshops/">workshop</a>!</ins>
 
 <small>**N.B.** This audit and, accordingly, this article, only deals with
-script injection using `document.write()`—not its usage in general. [The MDN
+script injection using `document.write()` — not its usage in general. [The MDN
 entry for
 `document.write()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
 does a good job of discouraging its use.</small>
@@ -91,7 +91,7 @@ The Preload Scanner is decoupled from the primary parser, which is responsible
 for constructing the DOM, the CSSOM, running scripts, etc. This means that
 a large majority of files we fetch are done so asynchronously and in
 a non-blocking manner, including some synchronous scripts. This is why not all
-blocking scripts block during their download phase—they may have been fetched by
+blocking scripts block during their download phase — they may have been fetched by
 the Preload Scanner before they were actually needed, thus in a non-blocking
 manner.
 
@@ -139,14 +139,14 @@ Async snippets such as the one below suffer the same fate:
 </script>
 ```
 
-Again, `file.js` is not a filepath—it’s a string! It’s not until the browser has
+Again, `file.js` is not a filepath — it’s a string! It’s not until the browser has
 run this script that it puts a `src` attribute into the DOM and can then request
 it. The primary difference here, though, is that scripts injected this way are
 asynchronous by default. Despite being hidden from the Preload Scanner, the
 impact is negligible because the file is implicitly asynchronous anyway.
 
 That said, [async snippets are still an
-anti-pattern](/2022/10/speeding-up-async-snippets/)—don’t use them.
+anti-pattern](/2022/10/speeding-up-async-snippets/) — don’t use them.
 
 ## `document.write()` Executes Synchronously
 
@@ -223,7 +223,7 @@ harmful.
 ```
 
 If you put a `document.write()` as the very first thing in your `<head>`, it’s
-going to behave the exact same as a regular `<script src>`—the Preload Scanner
+going to behave the exact same as a regular `<script src>` — the Preload Scanner
 wouldn’t have had much of a head start anyway, so we’ve already missed out on
 the chance of an asynchronous fetch:
 
@@ -293,8 +293,8 @@ and in this example, serves to hide the `document.write()` from the Preload
 Scanner.
 
 Thus, `document.write()` later in the page does become more severe. Hiding
-a file from the Preload Scanner—and only surfacing it to the browser the exact
-moment we need it—is going to make its entire fetch a blocking action. And,
+a file from the Preload Scanner — and only surfacing it to the browser the exact
+moment we need it — is going to make its entire fetch a blocking action. And,
 because the `document.write()` file is now being fetched by the primary parser
 (i.e. the main thread), the browser can’t complete any other work while the file
 is on its way. Blocking on top of blocking.

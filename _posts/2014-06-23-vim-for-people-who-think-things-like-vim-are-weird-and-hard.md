@@ -57,7 +57,7 @@ Most peoples’ introduction to Vim starts the same way: <q>Why on earth would y
 use this?</q> <q>It’s how old?!</q> <q>You have to type _what_ to quit it?!</q>
 
 The mere concept of Vim is alien enough for most people to just end up
-dismissing or ridiculing it, but—if we’re to be objective—the fact that, yes,
+dismissing or ridiculing it, but — if we’re to be objective — the fact that, yes,
 people still use an editor that is over 20 years old (in turn based on a tool
 from the 70s), and those people number in the hundreds of thousands, perhaps
 they might be onto something. Approaching something like Vim needs a fairly open
@@ -66,7 +66,7 @@ asking <q>why _do_ people use Vim?</q>, rather than <q>why on earth do people
 use Vim?!</q>, it began to make a lot more sense to me. And here I am now, a
 couple of years later, extolling its virtues myself.
 
-But, I was that guy—I couldn’t work out what was so bad about using a mouse,
+But, I was that guy — I couldn’t work out what was so bad about using a mouse,
 what was so wrong with TextMate? How on earth do you remember all these
 combinations? How can you find such convoluted commands so useful?
 
@@ -128,13 +128,13 @@ chain of commands. This is all part of Vim’s composability.
 It might feel a little counterproductive to introduce a learning curve to
 something as basic as a text editor, but if you’re going to spend up to eight or
 more hours a _day_ in there, you should know it inside out (Vim or otherwise).
-It astounds me that I still see people—professional web developers—fudging their
+It astounds me that I still see people — professional web developers — fudging their
 way around the tool that pays their wages; a text editor _should_ be learned.
 
 Starting with Vim is hard. It’s not fun, and it makes you feel stupid
 (especially if someone is watching over your shoulder) but, as with most new
 things, there will always be a learning curve. With Vim, however, I have found
-that the curve never begins to plateau—you can learn ‘just enough’ in an
+that the curve never begins to plateau — you can learn ‘just enough’ in an
 afternoon, but there’s always something more you could learn, or an even more
 efficient method you can work out.
 
@@ -145,7 +145,7 @@ out of the box. Buy a new Mac? It already has Vim on it. Using someone else’s
 machine? They have Vim on it. Working on a remote server? It has Vim on it.
 Using Windows? Sorry :(
 
-This is great for people who pair program a lot—you can use Vim on anyone’s
+This is great for people who pair program a lot — you can use Vim on anyone’s
 machine. The amount of times I’ve been working on someone’s computer and been
 able to fire open Vim and be at home with it right away is really great. It’s
 especially handy for Ops Engineers, who spend a lot of time working on and
@@ -153,9 +153,9 @@ configuring boxes all over the place; being confident in knowing your text
 editor is already on that machine means you can work in confidence and comfort.
 
 Another huge benefit of Vim’s ubiquitous nature is, to put it bluntly, money.
-That’s not to suggest that it’s not worth spending money on a text editor—I
+That’s not to suggest that it’s not worth spending money on a text editor — I
 firmly believe that you should invest in things that will make you more
-productive—but I really do not miss the pain involved in getting a new machine,
+productive — but I really do not miss the pain involved in getting a new machine,
 and having to go through any (or all) of the following:
 
 * Getting line managers to approve a payment for a text editor (it’s not about
@@ -189,7 +189,7 @@ get a new machine, I know it will already have Vim installed on it, and that I
 can simply save my `.vimrc` onto this new machine and that’s it; my text editor
 is exactly the way I like it, immediately.
 
-Extending Vim is also one of its core principles—plugins can be written in a
+Extending Vim is also one of its core principles — plugins can be written in a
 number of languages, meaning all manner of developers can have a go at writing
 extensions. Currently, I don’t write or even _use_ any plugins. I find that
 relatively-vanilla Vim is more than enough for me right now, but plugins are
@@ -201,14 +201,14 @@ default offering.
 One of the initially most confusing things about Vim is its modes, which
 include, but are not limited to:
 
-* **Normal**, which is the ‘normal’ mode for Vim—the one that you’re in
+* **Normal**, which is the ‘normal’ mode for Vim — the one that you’re in
   whenever you open a file.
 * **Insert**, which is the mode you would enter to type stuff.
 * **Visual**, which is a mode in which you can perform all types of highlighting
   trickery in order to select text.
 
-The need for modes might feel quite odd, but a lot of developers—myself
-included—don’t _just_ write code: we read it, we scan it, we review it, we check
+The need for modes might feel quite odd, but a lot of developers — myself
+included — don’t _just_ write code: we read it, we scan it, we review it, we check
 it. Normal mode is a mode that I spend a _lot_ of time in. It provides me with
 a way to quickly look through large (and small) amounts of code very
 effectively. For example, I can page forward or backward through a large file
@@ -230,7 +230,7 @@ You enter Insert mode _only_ when you want to type something. If you’re
 deleting, indenting, yanking (Vim speak for <i>copy</i>) or putting (Vim speak
 for <i>paste</i>), you will _not_ be in Insert mode. This is one of the most
 confusing things to initially get your head round: Insert mode is not the
-default mode, because—when you think about it—you typically spend less time
+default mode, because — when you think about it — you typically spend less time
 actually typing characters than you do moving and manipulating them. You have to
 explicitly enter Insert mode before you can begin typing. There are several ways
 to enter Insert mode: the most common way is to hit `i`, but you could also hit
@@ -263,8 +263,8 @@ that you pretty much _tell_ Vim what to do in human terms:
 * `f>` is go `f`orward to a closing chevron (`>`).
 * `vi"` is `v`isualise `i`nside quotes (`"`).
 
-Being able to work like this means that—once you’ve memorised a handful of
-commands—you can piece together sentences which tell you exactly what you’re
+Being able to work like this means that — once you’ve memorised a handful of
+commands — you can piece together sentences which tell you exactly what you’re
 going to type; want to delete inside a sentence? Guess what: that’s `dis`. Want
 to visualise around some parentheses? `va(`. Go uppercase to the end of the
 current word? `gUe`.

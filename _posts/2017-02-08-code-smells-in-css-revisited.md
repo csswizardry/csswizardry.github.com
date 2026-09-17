@@ -28,7 +28,7 @@ From [Wikipedia](https://en.m.wikipedia.org/wiki/Code_smell) (emphasis mine):
 > look at smells is with respect to principles and quality: ‘smells are certain
 > structures in the code that indicate **violation of fundamental design
 > principles** and negatively impact design quality’. Code smells are usually
-> not bugs—**they are not technically incorrect**  and do not currently prevent
+> not bugs — **they are not technically incorrect**  and do not currently prevent
 > the program from functioning. Instead, **they indicate weaknesses in design
 > that may be slowing down development** or increasing the risk of bugs or
 > failures in the future. Bad code smells can be an indicator of factors that
@@ -281,7 +281,7 @@ live in `y.css`.
 
 ### BEM Mixes
 
-Actually, interestingly, I wouldn’t write this CSS at all—I’d use a BEM mix—but
+Actually, interestingly, I wouldn’t write this CSS at all — I’d use a BEM mix — but
 that’s an answer to a different question. Instead of this:
 
 ```

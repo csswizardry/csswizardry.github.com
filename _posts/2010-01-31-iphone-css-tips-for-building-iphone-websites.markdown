@@ -3,7 +3,7 @@ comments: true
 date: 2010-01-31 20:17:10
 layout: post
 slug: iphone-css-tips-for-building-iphone-websites
-title: iPhone CSS—tips for building iPhone websites
+title: iPhone CSS — tips for building iPhone websites
 wordpress_id: 489
 categories:
   - Web Development

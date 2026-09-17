@@ -72,7 +72,7 @@ This is why:
 the page.
 
 But this also means the cache will usually treat these as distinct pages,
-too—even if all three return byte-for-byte identical HTML.
+too — even if all three return byte-for-byte identical HTML.
 
 * `/sale?utm_source=google`
 * `/sale?utm_source=chatgpt`
@@ -335,7 +335,7 @@ when the system lacks the context to be precise, the safer fallback is usually
 the less clever one. In this case, that means allowing unknown parameters to
 bust cache until someone has explicitly decided they are safe to ignore.
 
-Again, this is not wasteful—it’s just the same behaviour we’ve always had.
+Again, this is not wasteful — it’s just the same behaviour we’ve always had.
 
 {% include promo.html %}
 

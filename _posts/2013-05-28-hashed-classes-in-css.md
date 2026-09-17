@@ -25,7 +25,7 @@ that asking that I explain further, so here it is…
 For a long time now I have advised people _not_ to use IDs in CSS. Use them in
 your JS, sure, and as fragment identifiers in HTML, but do not use them to style
 things in CSS. The reasons for this are, firstly, lack of reusability and
-secondly—and more importantly—_they are a specificity heavyweight_. Instead of
+secondly — and more importantly — _they are a specificity heavyweight_. Instead of
 covering the specificity problems again, you can check out [the article I
 previously wrote on the subject](/2011/09/when-using-ids-can-be-a-pain-in-the-class/)
 back in 2011.

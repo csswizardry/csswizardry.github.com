@@ -43,7 +43,7 @@ There we can see pretty clearly that in the first example, the browser has to lo
 
 With the second example the browser only needs to look for one thing; the `.nav` class. The browser has _four times_ less work to do to match that selector. Every time you write a selector try and trim as much losable stuff from it as possible. Instead of `ul.nav {}` (two checks) write `.nav {}` (one check). Instead of `.nav li a {}` (three) write `.nav a {}` (two).
 
-Now, [CSS selector performance is—by-and-large—not something we _really_ need to worry about any more](http://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/), but that doesn’t mean we should be wasteful. I’m sure none of us would miss a lost £5 but that doesn’t mean we go slipping banknotes into paper shredders… Selector efficiency _does_ exist and you might as well improve it where you **very easily** can.
+Now, [CSS selector performance is — by-and-large — not something we _really_ need to worry about any more](http://calendar.perfplanet.com/2011/css-selector-performance-has-changed-for-the-better/), but that doesn’t mean we should be wasteful. I’m sure none of us would miss a lost £5 but that doesn’t mean we go slipping banknotes into paper shredders… Selector efficiency _does_ exist and you might as well improve it where you **very easily** can.
 
 ## Reduces Location Dependency
 
@@ -51,7 +51,7 @@ By keeping selectors short you are likely to be reducing the amount of descendan
 
 By having a selector like `.sidebar .promo {}` we are saying we want to target any promotional item that lives in an element with the class of `.sidebar`. This means that we are tied to always using that styling inside a certain element; we have a dependency on location.
 
-By replacing `.sidebar .promo {}` with something like `.secondary-promo {}` we can now place the element in question _anywhere_ we wish. In the sidebar—as before—but now also in the footer, or in the header, or after an article.
+By replacing `.sidebar .promo {}` with something like `.secondary-promo {}` we can now place the element in question _anywhere_ we wish. In the sidebar — as before — but now also in the footer, or in the header, or after an article.
 
 By reducing descendants we can really reduce dependency and make things a lot more portable…
 
@@ -61,7 +61,7 @@ So now that we’re not tied to locationally dependant selectors, we find that o
 
 Another way to increase portability is to not qualify selectors. A qualified selector is one like `ul.nav {}` or `a.button {}` or `div.content {}`.
 
-Qualified selectors are bad because they reduce efficiency (more checks than we really need) but—more importantly—because they tie us to specific elements. We can’t now use that `.button` class on an `<input>` or a `<button>`, for example. We can’t [apply `.nav` to an `<ol>` to make a breadcrumb](/2011/09/the-nav-abstraction/).
+Qualified selectors are bad because they reduce efficiency (more checks than we really need) but — more importantly — because they tie us to specific elements. We can’t now use that `.button` class on an `<input>` or a `<button>`, for example. We can’t [apply `.nav` to an `<ol>` to make a breadcrumb](/2011/09/the-nav-abstraction/).
 
 **Selectors should be element-agnostic**. Your CSS shouldn’t care what element you’re wanting to apply styling to.
 
@@ -81,13 +81,13 @@ Here we have a troublesome selector; what if that `<h2>` needs to become a `<h3>
 <span class="code-comment">/* Style up widget titles */</span>
 .widget-title {}</code></pre>
 
-Now we can apply `.widget-title` to _any_ element—let’s say a `<h4>`—and can now also have any number of unclassed `<h4>`s in the widget without them adopting any title styling. Ossom!
+Now we can apply `.widget-title` to _any_ element — let’s say a `<h4>` — and can now also have any number of unclassed `<h4>`s in the widget without them adopting any title styling. Ossom!
 
 ## Reduces Chances of Selector Breakage
 
-The longer a selector is, the more things the browser has to satisfy before it can match it. The more checks there are then—naturally—the more chance there is for something to go wrong.
+The longer a selector is, the more things the browser has to satisfy before it can match it. The more checks there are then — naturally — the more chance there is for something to go wrong.
 
-A (very exaggerated) selector like `body > div:nth-of-type(2) > article:first-child > p:first-child {}`—borrowed from my talk [Breaking Good Habits](https://speakerdeck.com/u/csswizardry/p/breaking-good-habits?slide=15)—has _ten_ checks; ten things that must be satisfied in order for the browser to make that match.
+A (very exaggerated) selector like `body > div:nth-of-type(2) > article:first-child > p:first-child {}` — borrowed from my talk [Breaking Good Habits](https://speakerdeck.com/u/csswizardry/p/breaking-good-habits?slide=15) — has _ten_ checks; ten things that must be satisfied in order for the browser to make that match.
 
 All that needs to happen is the location of the `div:nth-of-type(2)` to change or the `p:first-child` to become a `blockquote` or the `article:first-child` to no longer be a child of the `div:nth-of-type(2)` or _any manner_ of things before that selector will break. Simply replacing that with a class of `.intro {}` means that there is only one thing that could possibly break, and the chances of that happening are pretty much zero (you’d have to explicitly delete the class from your HTML to prevent a match).
 

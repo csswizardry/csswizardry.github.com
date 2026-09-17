@@ -25,7 +25,7 @@ main: "/wp-content/uploads/2024/09/latency-main.png"
 
 Last week, I posted [a short update on
 LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7240018342948835328/)
-about CrUX’s new RTT data. Go and give it a quick read—the context will help.
+about CrUX’s new RTT data. Go and give it a quick read — the context will help.
 
 Chrome have [recently begun adding Round-Trip-Time (RTT)
 data](https://groups.google.com/a/chromium.org/g/chrome-ux-report/c/mPbK5zD8Ym4/m/3Lz9oEUgAAAJ)
@@ -37,7 +37,7 @@ by high latency regions.
 
 ## What is RTT?
 
-Round-trip-time (RTT) is basically a measure of latency—how long did it take to
+Round-trip-time (RTT) is basically a measure of latency — how long did it take to
 get from one endpoint to another and back again? If you’ve ever `ping`ed
 `www.google.com` over in-flight wifi, you’ve measured RTT.
 
@@ -74,7 +74,7 @@ applications sympathetically. That’s exactly what this article is about.
 
 As the inclusion of RTT data is still in its infancy, viewing it isn’t yet as
 straightforward as other CrUX insights. However, there are a handful of
-ways available to us—some are, admittedly, more easy and free than others.
+ways available to us — some are, admittedly, more easy and free than others.
 
 #### CrUX API
 
@@ -89,7 +89,7 @@ curl "https://chromeuxreport.googleapis.com/v1/records:queryRecord?key=<KEY>" \
 
 …replacing `<KEY>`, `https://website.com`, and `DESKTOP` with the relevant
 inputs. For my site, I can see that my mobile RTT stands at 144ms and my desktop
-RTT is 89ms—a difference that I can’t imagine we’ll find surprising.
+RTT is 89ms — a difference that I can’t imagine we’ll find surprising.
 
 #### Treo
 
@@ -113,10 +113,10 @@ dashboard.
 
 [Dave Smart](https://tamethebots.com/about-dave) has built [a great CrUX History
 visualiser](https://tamethebots.com/tools/cwv-history?url=https://csswizardry.com/)
-over on his site <cite>Tame the Bots</cite>—you can go play around with it there
+over on his site <cite>Tame the Bots</cite> — you can go play around with it there
 and see both origin- and URL-level CrUX data, including the new RTT.
 
-One particularly nice touch is his plotting RTT against TTFB—[first-byte time
+One particularly nice touch is his plotting RTT against TTFB — [first-byte time
 includes one round trip,
 remember](/2019/08/time-to-first-byte-what-it-is-and-why-it-matters/).
 
@@ -131,7 +131,7 @@ overall TTFB metric.</figcaption>
 ## Improving Experiences for High Latency Environments
 
 Before we dive in, I want to reiterate that this article is about general
-approaches to optimising high-latency experiences—it is not about improving
+approaches to optimising high-latency experiences — it is not about improving
 metrics within the CrUX dataset. What follows is overall best-practice advice
 for designing with latency in mind.
 
@@ -142,10 +142,10 @@ improve latency-bound visitors’ experiences.
 
 Broadly simplified…
 
-Web servers don’t send whole files at once—they chunk them into packets and send
+Web servers don’t send whole files at once — they chunk them into packets and send
 those. These are then reassembled on the client. Each of these packets has its
 own RTT lifecycle (although not necessarily synchronously). This means that
-larger files that require more packets will incur more round trips—each round
+larger files that require more packets will incur more round trips — each round
 trip _is_ latency. The speed at which files download will be a function of
 bandwidth and round trip time.
 
@@ -238,7 +238,7 @@ talking about <b style="color: #eb8a30">TCP</b> right now.
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2024/09/csswizardry.com-h1.png" alt width="1012" height="635" loading="lazy">
   <figcaption>Note entry 1: There’s some blue (HTML) around 0.6–0.8s, then some purple (image)
-from approximately 0.8–1.0s, and then more blue entries from 3.4–5.0s—this is
+from approximately 0.8–1.0s, and then more blue entries from 3.4–5.0s — this is
 evidence of connection reuse.</figcaption>
 </figure>
 
@@ -275,7 +275,7 @@ latency:
 
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2024/09/carangola.com.br-h1.png" alt width="1012" height="1179" loading="lazy">
-  <figcaption>Interestingly, this site isn’t actually running HTTP/1.0—it’s running HTTP/1.1 but forcing 1.0 behaviour by adding <code>Connection: close</code> to its responses.</figcaption>
+  <figcaption>Interestingly, this site isn’t actually running HTTP/1.0 — it’s running HTTP/1.1 but forcing 1.0 behaviour by adding <code>Connection: close</code> to its responses.</figcaption>
 </figure>
 
 Each response has its own connection that gets immediately terminated. It really
@@ -296,7 +296,7 @@ at <b style="color: #c94bd4">TLS</b>.
 <small>**In the terrifying case you are running HTTP and not HTTPS, get that fixed as
 a matter of urgency.**</small>
 
-If we upgrade to HTTP/2, we have to also be running HTTPS—it’s part of the
+If we upgrade to HTTP/2, we have to also be running HTTPS — it’s part of the
 requirements. It’s safe to assume, therefore, that if you’re running HTTP/2,
 you’re also running securely. That does mean more latency, though…
 
@@ -422,7 +422,7 @@ current connections due to a network change, in our best-case scenario, HTTP/3
 can seamlessly resume on an existing connection. That looks like this:
 
 <figure>
-<figcaption>Figure intentionally left blank—literally nothing happens.</figcaption>
+<figcaption>Figure intentionally left blank — literally nothing happens.</figcaption>
 </figure>
 
 In an H/3 world, the worst case scenario is a one-round-trip connection. That’s
@@ -475,7 +475,7 @@ the Critical Path. I’ve said it before, and I’ll say it again and again unti
 everyone listens: [<cite>Self-Host Your Static Assets</cite>](/2019/05/self-host-your-static-assets/).
 
 This client of mine has a huge gulf between TTFB and First Contentful Paint, and
-a huge contributor to that is time lost to latency—negotiating new connections,
+a huge contributor to that is time lost to latency — negotiating new connections,
 many of which are unnecessary _and_ on the Critical Path (denoted by ![a white
 cross intersecting an orange
 circle](https://www.webpagetest.org/assets/images/render-block-icon.png)):
@@ -487,14 +487,14 @@ avoidable latency.</figcaption>
 </figure>
 
 Looking at the CrUX data, their visitors’ RTT times are in line with the slowest
-25% of RTT times globally—this is a client who needs to optimise for latency. By
+25% of RTT times globally — this is a client who needs to optimise for latency. By
 self-hosting the majority of these resources, we can immediately regain a lot of
 ground.
 
 #### Key Takeaway
 
 Although connections aren’t as scary as they used to be, setting new connections
-up is pure latency—avoid doing so, particularly on the Critical Path.
+up is pure latency — avoid doing so, particularly on the Critical Path.
 
 ### Avoid Redirects
 
@@ -519,10 +519,10 @@ round trips to access the resource listed in the `Location` header:
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2024/09/wpt-redirect.png" alt width="930" height="131" loading="lazy">
 <figcaption>Discounting initial connection time, we lost 184ms to pure
-latency—that’s 7.36% of your LCP budget wasted!</figcaption>
+latency — that’s 7.36% of your LCP budget wasted!</figcaption>
 </figure>
 
-I’d recommend looking into how many `3xx`-class responses you serve—I’ve had
+I’d recommend looking into how many `3xx`-class responses you serve — I’ve had
 a number of clients this year alone who were, unbeknown to them, losing an
 inordinate amount of time to redirects!
 
@@ -601,7 +601,7 @@ Access-Control-Allow-Headers: Accept-Charset,
 This tells the browser that `https://website.com` is allowed to make requests of
 the listed method types, and with the listed headers.
 
-Once this has taken place—all pure latency—the browser can finally make the
+Once this has taken place — all pure latency — the browser can finally make the
 actual request which carries an `Accept-Version: 1.0` that the earlier preflight
 had asked about.
 
@@ -721,9 +721,9 @@ redirect: you’ll never incur that latency (or exposure), not even once.
 As before, if you can’t remove your preflight requests, you can at least cache
 them. This works differently to your usual `Cache-Control` header, and is
 implemented with the dedicated `Access-Control-Max-Age` response header. Give
-its value serious consideration—this is an important security-facing feature. To
+its value serious consideration — this is an important security-facing feature. To
 stop developers being too permissive, Firefox limits us to a maximum 24 hours
-and Chrome to just two—even if you passed in 31,536,000 seconds (one year), the
+and Chrome to just two — even if you passed in 31,536,000 seconds (one year), the
 best you’d get is 86,400 (one day):
 
 ```
@@ -750,7 +750,7 @@ embark on most of the items in this article.
 My first recommendation would be to contain as many of your current problems as
 possible by aggressively caching anything expensive.
 
-Next, work to avoid anything that you could subtly rework or refactor—it’s
+Next, work to avoid anything that you could subtly rework or refactor — it’s
 better to not do it at all, if we control it.
 
 Things that can’t be avoided, attempt to solve out of band: `preconnect`ing

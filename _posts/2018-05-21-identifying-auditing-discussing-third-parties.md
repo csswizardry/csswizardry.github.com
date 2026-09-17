@@ -31,8 +31,8 @@ is usually quite sensitive and often uncomfortable: after all, approaching
 a third-party vendors, or your marketing team, and telling them that their
 entire day job is detrimental to performance is never going to be well-received.
 
-In order to help me have these awkward discussions—and it’s often my job as
-a consultant to be the one having them—I lean on a number of tools to help make
+In order to help me have these awkward discussions — and it’s often my job as
+a consultant to be the one having them — I lean on a number of tools to help make
 the topic as objective and straightforward as possible. I want to share them
 with you.
 
@@ -180,16 +180,16 @@ not always, exist only to serve the business (analytics, AB testing,
 retargeting, tracking, etc.).
 
 The reason these discussions are usually so difficult to have is because
-engineers have a tendency to apportion blame—<q>Marketing did this</q>, <q>the
-tag manager does that</q>—and you’ll rarely make progress if you appear to be
+engineers have a tendency to apportion blame — <q>Marketing did this</q>, <q>the
+tag manager does that</q> — and you’ll rarely make progress if you appear to be
 blaming someone. You can’t rock up to your marketing department and tell them
 that everything they do day-in, day-out is bad for the site. We need a much more
 _ask, don’t tell_ approach.
 
 To facilitate this, I devised a small Google Sheet that consumes your _Request
 Map_ data, and presents the information in a much more digestible and objective
-format. By pulling the data into a more universal style—like ’em or loathe ’em,
-everyone understands a spreadsheet—we’re much better equipped to begin
+format. By pulling the data into a more universal style — like ’em or loathe ’em,
+everyone understands a spreadsheet — we’re much better equipped to begin
 discussing these issues with people who aren’t used to waterfall charts, flame
 graphs, and spider diagrams.
 
@@ -282,5 +282,5 @@ clients, I’ve always found that things have gone a lot more smoothly than
 pointing fingers and taking a more ruthless approach. Nobody appreciates being
 told that their main contributions to the website make it slower. Having raw
 data, coupled with an _ask, don’t tell_ attitude, often yields much more
-favourable results. I’ve made great headway by adopting this strategy—I hope it
+favourable results. I’ve made great headway by adopting this strategy — I hope it
 helps you, too.

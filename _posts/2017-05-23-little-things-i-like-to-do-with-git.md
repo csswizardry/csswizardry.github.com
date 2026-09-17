@@ -12,7 +12,7 @@ meta: "Handy Git tricks and aliases: leaderboards, praise, word-diff, branch his
 ---
 
 I was chatting with [Tim](https://twitter.com/tkadlec) just the other day about
-how much I love Git—it’s such a powerful, elegant tool and it’s one I use the
+how much I love Git — it’s such a powerful, elegant tool and it’s one I use the
 most often. I thought I would note down some useful little Git snippets that
 I use the most frequently.
 
@@ -60,9 +60,9 @@ $ git blame -L5,10 _components.buttons.scss
 
 The issue here is the wording. It’s pretty loaded and implies that the developer
 we’re looking for did something wrong, and this might not always be the
-case—they may have done something particularly clever or impressive and we might
+case — they may have done something particularly clever or impressive and we might
 want to find out who we should ask about it (<q>Whoa! I haven’t seen this
-feature before—I wonder who did that?!</q>)
+feature before — I wonder who did that?!</q>)
 
 Taking the lead from SVN, I alias `praise` onto `blame`, so I can use either
 depending on my context:
@@ -182,7 +182,7 @@ recent`.
 
 ## See What Everyone’s Been Getting Up To
 
-Sometimes—especially for team leads—it’s useful to get a general idea of what
+Sometimes — especially for team leads — it’s useful to get a general idea of what
 everyone has been getting up to across all branches. Once again, Git makes that
 really easy for us:
 
@@ -208,7 +208,7 @@ I have this aliased to `$ git overview`
 ## Remind Yourself What You’ve Been Up To
 
 You move back onto an old project, or come back to the office after a prolonged
-break, and you’re not sure what the last things you worked on are—it happens. We
+break, and you’re not sure what the last things you worked on are — it happens. We
 can ask Git to give us a quick recap of our work on a project quite easily:
 
 ```bash
@@ -240,8 +240,8 @@ I have this aliased to `$ git today`.
 
 ### <ins datetime="2025-06-02">Yesterday’s Work</ins>
 
-Similarly, if you want to remind yourself of yesterday’s work—in advance of your
-standup, for example—we have:
+Similarly, if you want to remind yourself of yesterday’s work — in advance of your
+standup, for example — we have:
 
 ```bash
 $ git log --since='yesterday.midnight' --until='midnight' --all --no-merges --oneline --author=<your email address>
@@ -259,7 +259,7 @@ Thankfully we can use Git to give us a head start:
 $ git log --oneline --no-merges <last tag>..HEAD
 ```
 
-**N.B.** `HEAD` is optional here—if you omit it (i.e. `... --no-merges <last
+**N.B.** `HEAD` is optional here — if you omit it (i.e. `... --no-merges <last
 tag>..`) then `HEAD` is implied. That saves you a couple of keystrokes.
 
 This will create a simplified log showing all commits (excluding merge commits)
@@ -306,7 +306,7 @@ I have this aliased to `$ git upstream`.
 
 ## Review What You’re About to Push
 
-Hopefully you commit and push often, but if—for whatever reason—you find
+Hopefully you commit and push often, but if — for whatever reason — you find
 yourself with a large amount of local commits that are yet to be pushed, it’s
 probably wise to quickly review what they all are.
 

@@ -3,7 +3,7 @@ comments: true
 date: 2010-01-26 16:03:03
 layout: post
 slug: a-suitable-alternativeon-proper-use-of-alt-attributes
-title: A suitable alternative—on proper use of alt attributes
+title: A suitable alternative — on proper use of alt attributes
 wordpress_id: 318
 categories:
   - Web Development

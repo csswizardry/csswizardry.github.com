@@ -20,7 +20,7 @@ minimise its impact.
 
 This is a regular `<link rel="stylesheet">` that is, necessarily, defined in the
 `<head>`. This means that from a cold-cache, if a user were to land on this page
-for the first time, they’re absolutely going to take a performance hit—there’s
+for the first time, they’re absolutely going to take a performance hit — there’s
 just no way around it. The file needs to make it across the network successfully
 before the page can even begin to render.
 

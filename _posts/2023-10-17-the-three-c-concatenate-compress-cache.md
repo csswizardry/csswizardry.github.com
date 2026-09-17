@@ -60,7 +60,7 @@ Back in the HTTP/1.1 world, we were only able to fetch six resources at a time
 from a given origin. Given this limitation, it was advantageous to have fewer
 files: if we needed to download 18 files, that’s three separate chunks of work;
 if we could somehow bring that number down to six, it’s only one discrete chunk
-of work. This gave rise to heavy bundling and concatenation—why download three
+of work. This gave rise to heavy bundling and concatenation — why download three
 CSS files (half of our budget) if we could compress them into one?
 
 <small>Given that [66% of all
@@ -111,7 +111,7 @@ was about **1.4× slower** and about **3.3× heavier**.
 
 What might explain this phenomenon?
 
-When we talk about downloading files, we—generally speaking—have two things to
+When we talk about downloading files, we — generally speaking — have two things to
 consider: [latency and
 bandwidth](/2019/01/bandwidth-or-latency-when-to-optimise-which/). In the
 waterfall charts above, we notice we have both light and dark green in the CSS
@@ -122,7 +122,7 @@ time is proportional to filesize. Notice just how much more light green
 (especially compared to dark) we see in the many-files version of Bootstrap
 compared to the one-big-file.
 
-This is not a new phenomenon—a client of mine suffered [the same problem in
+This is not a new phenomenon — a client of mine suffered [the same problem in
 July](/2023/07/in-defence-of-domcontentloaded/#putting-it-to-use), and the Khan
 Academy ran into [the same
 issue](https://blog.khanacademy.org/forgo-js-packaging-not-so-fast/) in 2015!
@@ -280,7 +280,7 @@ Cache-Control: max-age=2147483648, immutable
   revalidating the file once its `max-age` is met. You can _only_ add this
   directive to responses that are fingerprinted (e.g. `main.af8a22.css`)
 
-All static assets—provided they _are_ fingerprinted—can safely carry such an
+All static assets — provided they _are_ fingerprinted — can safely carry such an
 aggressive `Cache-Control` header as they’re very easy to cache bust. Which
 brings me nicely on to…
 
@@ -316,7 +316,7 @@ so as to hit the most optimum caching strategy. It’s a balancing act for sure.
 ## 📡 Connection
 
 One thing we haven’t looked at is the impact of network speeds on these
-outcomes. Let’s introduce a fourth _C_—_Connection_.
+outcomes. Let’s introduce a fourth _C_ — _Connection_.
 
 I ran all of the tests over the following connection types:
 
@@ -345,7 +345,7 @@ This data shows us that:
    * one big file over Brotli is markedly faster than many small files.
 
 Again, no compression is not a viable option and should be considered
-a bug—please don’t design your bundling strategy around the absence of
+a bug — please don’t design your bundling strategy around the absence of
 compression.
 
 This is another nod in the direction of preferring fewer, larger files.
@@ -509,7 +509,7 @@ total 15608
 
 Attempting to compress a single `a` character _increases_ the file size from two
 bytes to 29. One mega-file compresses from 1,000 bytes down to 40 bytes; the
-same data across 1,000 files would cumulatively come in at 29,000 bytes—that’s
+same data across 1,000 files would cumulatively come in at 29,000 bytes — that’s
 725 times larger.
 
 Although an extreme example, in the right (wrong?) circumstances, things can get

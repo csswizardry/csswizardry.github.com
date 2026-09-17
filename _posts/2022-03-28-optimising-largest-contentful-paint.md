@@ -42,7 +42,7 @@ https://docs.google.com/spreadsheets/d/17Ut1Hgj4aHeimg_Pp_xUi5gkWLMh2FKZBKnqo56R
 [Largest Contentful Paint](https://web.dev/lcp/) (LCP) is my favourite Core Web
 Vital. It’s the easiest to optimise, and it’s the only one of the three that
 works the exact same in the lab as it does in the field (don’t even get me
-started on this…). Yet, surprisingly, it’s the least optimised CWV in CrUX—at
+started on this…). Yet, surprisingly, it’s the least optimised CWV in CrUX — at
 the time of writing, [**only half of origins in the dataset had a Good
 LCP**](https://twitter.com/ChromeUXReport/status/1501325517634490376)!
 
@@ -60,7 +60,7 @@ Let’s go.
 _**Struggling to hit 2.5s?** [Work with me one-to-one and deliver a faster
 LCP](/consultancy/)._
 
-Let’s start with the easy stuff. LCP is a milestone timing—it measures…
+Let’s start with the easy stuff. LCP is a milestone timing — it measures…
 
 > …the render time of the largest image or text block visible within the
 > viewport, relative to when the page first started loading.
@@ -94,7 +94,7 @@ possible.
 An analogy I use with non-technical stakeholders goes a little like this:
 
 You need to get the kids to school for 08:30. That’s all the school cares
-about—that the kids are there on time. You can do plenty to help make this
+about — that the kids are there on time. You can do plenty to help make this
 happen: prepare their clothes the night before; prepare their lunches the night
 before (do the same for yourself). Set appropriate alarms. Have a morning
 routine that everyone follows. Leave the house with plenty of time to spare.
@@ -113,7 +113,7 @@ possible so that you’re set up for success.
 ## Optimise Your LCP Candidate
 
 A tip that hopefully doesn’t need me to go into any real detail: if you have an
-image-based LCP, make sure it is well optimised—suitable format, appropriately
+image-based LCP, make sure it is well optimised — suitable format, appropriately
 sized, sensibly compressed, etc. Don’t have a 3MB TIFF as your LCP candidate.
 
 ## Avoid Image-Based LCPs
@@ -225,7 +225,7 @@ more detail.
 Of the image-based LCPs, this is probably our favourite. `<img>` elements, as
 long as we don’t mess things up, are quick to be discovered by [the preload
 scanner](https://andydavies.me/blog/2013/10/22/how-the-browser-pre-loader-makes-pages-load-faster/),
-and as such, can be requested in parallel to preceding—even blocking—resources.
+and as such, can be requested in parallel to preceding — even blocking — resources.
 
 #### `<picture>` and `<source />`
 
@@ -234,7 +234,7 @@ It’s worth noting that the `<picture>` element behaves the same way as the `<i
 `srcset` and `sizes` attributes: the idea is that you give the browser enough
 information about the image that it can [request the relevant file via the
 preload scanner](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/html/parser/html_preload_scanner.cc;l=565?q=HTMLPreloadScanner&ss=chromium)
-and not have to wait until layout. (Although, I guess—technically—there must be
+and not have to wait until layout. (Although, I guess — technically — there must be
 like a few milliseconds compute overhead working out which combination of
 `<source />`, `srcset`, `sizes` to use, but that will be mooted pretty quickly
 by virtually any other moving part along the way.)
@@ -269,7 +269,7 @@ degraded LCP scores for your site.
 Because of the current reporting bug, `<image>` in `<svg>` is likely to go from
 being (inadvertently) one of the fastest LCP types, to one of the slowest. In
 the unlikely event that you are using `<image>` in `<svg>`, it’s probably
-something that you want to check on sooner rather than later—your scores are
+something that you want to check on sooner rather than later — your scores are
 likely to change.
 
 The bug pertains only to reported LCP candidate, and does not impact how the

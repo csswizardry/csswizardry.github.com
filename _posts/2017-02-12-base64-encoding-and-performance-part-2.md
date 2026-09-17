@@ -133,7 +133,7 @@ extracted the most pertinent and meaningful information below:
   almost 8s. Staggering. Base64 is drastically slower.
 
 It’s quite clear to see that across all of these metrics, we have an outright
-winner: nearly everything—and on both platforms—is faster if we stay away from
+winner: nearly everything — and on both platforms — is faster if we stay away from
 Base64. We need to put particular focus on lower powered devices with higher
 latency and restricted processing power and bandwidth, because the penalties
 here are substantially worse: **32× slower stylesheet parsing and 10.27× slower

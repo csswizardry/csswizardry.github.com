@@ -36,8 +36,8 @@ any horror stories!
 
 It’s also important that I emphasise that I’m not trying to be preachy or
 righteous; people do reach out to me very frequently for this kind of advice,
-and I answer as best I can. I haven’t put myself on this podium—I don’t think
-I’m the best person to be giving life advice to strangers—but enough people get
+and I answer as best I can. I haven’t put myself on this podium — I don’t think
+I’m the best person to be giving life advice to strangers — but enough people get
 in touch with me that clearly other people think I might know a thing or two.
 
 Finally, if you disagree with anything, this is one of the few times I really
@@ -106,8 +106,8 @@ safe to slow things down a little.
 ### Don’t have a plan
 
 I don’t think you can _really_ plan something as long term as your career. With
-something that can change so much and so frequently—and often for reasons well
-outside of your control—it is probably best not to try and have a rigid roadmap,
+something that can change so much and so frequently — and often for reasons well
+outside of your control — it is probably best not to try and have a rigid roadmap,
 timescale, or plan at all.
 
 Sure, have some loose ideas of things you might want to do: <q>I want to work in
@@ -184,7 +184,7 @@ house when you’re tempted by the idea of working abroad. Opportunities will
 present themselves at any time, and it’s nice to be able to take them.
 
 This is also just a generally great habit to get into as a developer as
-well—I’ve basically just described the differences between Waterfall and Agile
+well — I’ve basically just described the differences between Waterfall and Agile
 methodologies. The ability to accommodate change is a great quality for a web
 developer.
 
@@ -298,8 +298,8 @@ choose: Want to learn a new programming language? Learn one. Want to go work
 abroad for a while? Do it. Want to build up your profile? Go speak at a
 conference. Want to work in an unfamiliar environment? Put yourself there.
 
-I always said I’d never do any public speaking—I was terrified of the thought of
-it—but when someone approached me and asked if I’d like to give it a shot, I
+I always said I’d never do any public speaking — I was terrified of the thought of
+it — but when someone approached me and asked if I’d like to give it a shot, I
 took that opportunity. I said yes, put myself out of my comfort zone, and have
 never looked back.
 
@@ -313,7 +313,7 @@ down: your reputation will be worth a lot more to you in the long run.
 ### Attend meetups and conferences
 
 Attending conferences and meetups with talks and/or workshops is just a
-GoodIdea™—it’s learning, and learning is what you need to be doing.
+GoodIdea™ — it’s learning, and learning is what you need to be doing.
 
 Meetups can be used for networking, if you’re into that, but they’re also a
 great way to get inspired, see what other people are up to, learn how
@@ -340,7 +340,7 @@ has written a full game in it six months earlier.
 
 The amount of times I’ve been well into conversation with someone and all of a
 sudden they’ve exclaimed <q>Wait, _you’re_ Harry Roberts?!</q> is staggering. I
-would never assume that people would or should know who I am—far from it—but it
+would never assume that people would or should know who I am — far from it — but it
 does highlight the fact you could be talking to _anyone_: find out who it is
 before you indulge yourself in twenty minutes of self promotion.
 
@@ -362,8 +362,8 @@ know](https://speakerdeck.com/csswizardry/dont-you-wish-youd-done-it-sooner?slid
 so be fully prepared, at several times in your career, to be brought down a peg
 or two. It’s happened to me before, it will happen to me again.
 
-Once you find the people that do know more than you—be that in your field, or a
-field of their own—listen to them. You can learn from these people, and add
+Once you find the people that do know more than you — be that in your field, or a
+field of their own — listen to them. You can learn from these people, and add
 their knowledge to your own arsenal.
 
 ### Be good at your job
@@ -391,7 +391,7 @@ being a drag. Leaving a job because you don’t like it isn’t ‘giving up’,
 realising that there are better ways to spend such a huge amount of your life.
 
 Sure, you’ll have terrible clients, or boring amends to do, or you’ll inherit
-some absolutely appalling code—this is work, after all—but don’t let that
+some absolutely appalling code — this is work, after all — but don’t let that
 desensitise you. Being a web developer is a job that many do find interesting,
 fun, and fulfilling, so make sure you try and keep yourself happy.
 
@@ -435,7 +435,7 @@ more qualified than anyone else, but this is generally what I would tell anyone
 wanting to makes moves in the front-end development community.
 
 As ever, your mileage may vary, and you should consult as many other sources as
-you can—there will be conflicting advice.
+you can — there will be conflicting advice.
 
 In no particular order:
 

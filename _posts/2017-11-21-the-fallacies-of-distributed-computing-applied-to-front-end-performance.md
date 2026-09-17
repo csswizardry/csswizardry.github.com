@@ -31,8 +31,8 @@ fallacies are as follows:
 <small>Interestingly, although Deutsch is given credit for The Fallacies of
 Distributed Computing, the complete list of fallacies was penned by a number of
 people over a period of years. A minor hero of mine, [Bill
-Joy](https://en.wikipedia.org/wiki/Bill_Joy)—inventor of the ex, and later vi,
-editors—is responsible for devising the first four fallacies, along with Tom
+Joy](https://en.wikipedia.org/wiki/Bill_Joy) — inventor of the ex, and later vi,
+editors — is responsible for devising the first four fallacies, along with Tom
 Lyon, in what they dubbed <cite>The Fallacies of Networked
 Computing</cite>.</small>
 
@@ -46,12 +46,12 @@ saying that the network is always unreliable, or that latency is always high, or
 that bandwidth is always low: they’re saying that, sometimes, one or all of them
 will be sub-optimal. We should prepare for that.
 
-Yet time and time again I see developers falling into the same old traps—making
+Yet time and time again I see developers falling into the same old traps — making
 assumptions or overly-optimistic predictions about the conditions in which their
 apps will run. Developers frequently tell me things like <q>most of our users
 are on wifi</q>, or <q>4G is pretty much everywhere now</q>, or <q>people only
 ever visit the site from inside the office anyway</q>. Even if this is
-statistically true—even if your analytics corroborate the claim—planning only
+statistically true — even if your analytics corroborate the claim — planning only
 for the best leaves you utterly unprepared for the worst. To paraphrase
 [Jeremy](https://twitter.com/adactio), it’s not about how well it works, but
 [how well it fails](https://www.youtube.com/watch?v=sMhzgKUKdBU).
@@ -72,7 +72,7 @@ conference wifi? Many times, I’m willing to bet. It happens to me numerous tim
 a week. We know from first-hand experience that the network can be unreliable,
 yet we always build with the assumption that it will be present and correct.
 With this frame of mind, we’ll struggle to deliver anything at all if our
-assumptions are challenged—we’re likely to fail entirely.
+assumptions are challenged — we’re likely to fail entirely.
 
 The adage goes, the best request is the one that’s never made. Although it’s not
 always going to be possible, if we can avoid the network altogether, then that’s

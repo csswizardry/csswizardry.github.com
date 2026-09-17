@@ -33,7 +33,7 @@ information quickly (hint: that’s all of them), and client-specific metrics li
 insights.
 
 However, one metric I feel that front-end developers overlook all too quickly is
-_Time to First Byte_ (TTFB). This is understandable—forgivable, almost—when you
+_Time to First Byte_ (TTFB). This is understandable — forgivable, almost — when you
 consider that TTFB begins to move into back-end territory, but if I was to sum
 up the problem as succinctly as possible, I’d say:
 
@@ -66,7 +66,7 @@ that I often think we tend to just gloss over it. A lot of people surmise that
 TTFB is merely time spent on the server, but that is only a small fraction of
 the true extent of things.
 
-The first—and often most surprising for people to learn—thing that I want to
+The first — and often most surprising for people to learn — thing that I want to
 draw your attention to is that **TTFB counts one whole round trip of latency**.
 TTFB isn’t just time spent on the server, it is also the time spent getting from
 our device to the sever and back again (carrying, that’s right, the first byte
@@ -74,7 +74,7 @@ of data!).
 
 Armed with this knowledge, we can soon understand why TTFB can often increase so
 dramatically on mobile. Surely, you’ve wondered before, <q>the server has no
-idea that I’m on a mobile device—how can it be increasing its TTFB?!</q> The
+idea that I’m on a mobile device — how can it be increasing its TTFB?!</q> The
 reason is because mobile networks are, as a rule, high latency connections. If
 your Round Trip Time (RTT) from your phone to a server and back again is, say,
 250ms, you’ll immediately see a corresponding increase in TTFB.
@@ -92,7 +92,7 @@ presented in no particular order:
   75ms](https://wondernetwork.com/pings/London/New+York).
   * This is why serving your content from a CDN is so important: even in the
     internet age, being geographically closer to your customers is advantageous.
-* **Routing:** If you are using a CDN—and you should be!—a customer in Leeds
+* **Routing:** If you are using a CDN — and you should be! — a customer in Leeds
   might get routed to the [MAN
   datacentre](https://blog.cloudflare.com/manchester-uk-cloudflares-63rd-data-center/)
   only to find that the resource they’re requesting isn’t in that

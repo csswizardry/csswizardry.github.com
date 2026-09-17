@@ -78,7 +78,7 @@ I really have no idea why you wouldn’t do this one. It’s often been proposed
        -moz-border-radius:4px;
             border-radius:4px;
 
-This means all our values—the bits that matter the most—are lined up to a) scan quickly and b) edit at once with columnal typing (in text editors which support it). This, to me, is a [no-brainer](http://www.google.co.uk/search?sourceid=chrome&ie=UTF-8&q=define%3Ano-brainer) and a very quick-win.
+This means all our values — the bits that matter the most — are lined up to a) scan quickly and b) edit at once with columnal typing (in text editors which support it). This, to me, is a [no-brainer](http://www.google.co.uk/search?sourceid=chrome&ie=UTF-8&q=define%3Ano-brainer) and a very quick-win.
 
 * * *
 
@@ -114,7 +114,7 @@ If you are not using a grid system then wrapper and parent elements should handl
 
 And:
 
-> When sites break it‘s usually because of layout—the less layout stuff we declare the less chance it has to break. Abstract layout to grids! ([#](https://twitter.com/csswizardry/status/178063631265710080))
+> When sites break it‘s usually because of layout — the less layout stuff we declare the less chance it has to break. Abstract layout to grids! ([#](https://twitter.com/csswizardry/status/178063631265710080))
 
 Whether using a grid system or not, your components should not carry dimensions. Think of a page like a set of shelves; you set up your shelving units (grid system (or similar)) and then populate them with things (components). If you didn’t have the shelves erected then the components would be supporting themselves, holding themselves up; this makes moving or changing them very volatile.
 

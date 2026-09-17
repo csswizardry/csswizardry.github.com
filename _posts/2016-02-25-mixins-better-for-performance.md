@@ -124,11 +124,11 @@ The filesizes of these should not surprise you in the slightest:
 * This gives a difference in filesize of **36K**.
 * **Using mixins was 150% larger than using `@extend`.**
 
-This is exactly what I expected—mixins _do_ produce more CSS than `@extend`
+This is exactly what I expected — mixins _do_ produce more CSS than `@extend`
 does.
 
 But! We have to remember that we should not be worried about filesize on the
-filesystem—we only care about the sizes of our gzipped files.
+filesystem — we only care about the sizes of our gzipped files.
 
 I minified and gzipped the two files and got the results I expected:
 
@@ -142,7 +142,7 @@ mixins being **0.3× smaller** than using `@extend`. My theory seems correct!
 
 ## Making Things More Realistic
 
-I do feel that the test files were pretty fair—creating unique strings for class
+I do feel that the test files were pretty fair — creating unique strings for class
 names was designed to hinder compression, so that we could more accurately test
 the effects of gzip on our actual subject: the shared declarations.
 

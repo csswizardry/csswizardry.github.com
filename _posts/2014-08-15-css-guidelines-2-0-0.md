@@ -15,7 +15,7 @@ meta: "Announcing the next iteration and business model of my popular CSS Guidel
 Some time ago, I published [my CSS Guidelines on
 GitHub](https://github.com/csswizardry/CSS-Guidelines). These proved incredibly
 popular, with thousands of stars, hundreds of forks, and a number of
-translations. However—as often happens with these kinds of thing—they’re in need
+translations. However — as often happens with these kinds of thing — they’re in need
 of a little bit of spring clean.
 
 I’m going to completely revisit, revise, overhaul, and rewrite the guidelines
@@ -47,10 +47,10 @@ It will be very interesting to see how many people do pay (and how many do not).
 
 I work for myself, my time _is_ money, so taking time out to write these
 guidelines is an opportunity cost. Further, sharing so much information may
-actually impact whether someone would need to hire me or not—why get me on site
+actually impact whether someone would need to hire me or not — why get me on site
 when I’ve written up such comprehensive guidelines?
 
-But, that said, I genuinely do believe in the importance of sharing knowledge—I
+But, that said, I genuinely do believe in the importance of sharing knowledge — I
 would rather not have this information behind a solid pay wall. I also donate to
 free and useful tools myself, as a thank you to the developer(s), and to try and
 give some small incentive to maintain and stick with the project: I’m hoping

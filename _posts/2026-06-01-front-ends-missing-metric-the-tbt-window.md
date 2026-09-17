@@ -24,7 +24,7 @@ main: "/wp-content/uploads/2026/06/tbt-window-main.png"
 ---
 
 <p class="c-highlight">In a similar vein to TBT Window, <a
-href="/2026/08/uno-is-underrated/">UNO&hairsp;—&hairsp;<em>Unattributed
+href="/2026/08/uno-is-underrated/">UNO&hairsp; — &hairsp;<em>Unattributed
 Navigation Overhead</em></a>&hairsp;—&hairsp;is another missing metric you may
 be interested in.</p>
 
@@ -52,8 +52,8 @@ the _TBT Window_.
 
 [Total Blocking Time](https://web.dev/articles/tbt/) is a lab metric intended to
 quantify how unavailable the main thread is during page load. It looks at [long
-tasks](https://w3c.github.io/longtasks/)—work that occupies the UI thread for
-more than 50&nbsp;ms—and counts only the blocking portion of each one.
+tasks](https://w3c.github.io/longtasks/) — work that occupies the UI thread for
+more than 50&nbsp;ms — and counts only the blocking portion of each one.
 A 70&nbsp;ms task contributes 20&nbsp;ms to TBT; a 250&nbsp;ms task contributes
 200&nbsp;ms. The first 50&nbsp;ms of any task is effectively tolerated, and
 anything beyond that is considered blocking time.
@@ -69,7 +69,7 @@ This is key to understanding the context of the TBT metric itself.
 
 [First Contentful Paint](https://web.dev/articles/fcp/) (FCP) opens the window
 and is the first point in the page-load timeline at which the user can see
-something contentful on screen—the page is responding. [Time to
+something contentful on screen — the page is responding. [Time to
 Interactive](https://web.dev/articles/tti/) (TTI) closes the window and is the
 point at which the page is considered reliably interactive.
 
@@ -228,15 +228,15 @@ jointly dependent on long tasks and network activity.
 
 The latter is the part of TTI that I have never liked. The intent is probably
 sensible: a page that is still fetching resources may not be as settled as one
-that has gone quiet, but the threshold itself—no more than two in-flight `GET`
-requests for five seconds—is inevitably arbitrary, and allows network behaviour
+that has gone quiet, but the threshold itself — no more than two in-flight `GET`
+requests for five seconds — is inevitably arbitrary, and allows network behaviour
 to influence a metric that many people read as interactivity. Frustratingly, in
 a world of tag managers, tracking, ads, lazy loading, and more, forensic control
 over network activity is seldom within developers’ reach.
 
 That means TTI can move because of long tasks, but it can also move because the
 page fails to reach that required network quietness. This is precisely what
-happened here—a network optimisation changed the network profile, TTI moved,
+happened here — a network optimisation changed the network profile, TTI moved,
 and the TBT Window grew.
 
 Consider also the case of
@@ -310,7 +310,7 @@ single extra line on a chart would make a lot of investigations much easier to
 reason about. Tools could even correlate window growth with TBT growth and alert
 teams to potential false flags and red herrings:
 
-> **N.B.** TBT Window increased by 37% between these two tests—TBT scores may be
+> **N.B.** TBT Window increased by 37% between these two tests — TBT scores may be
 > misleading.
 
 In the interim, if you’re already rolling your own dashboards like you can in
@@ -368,7 +368,7 @@ real-user interactivity, but it remains a very practical way to spot main thread
 contention during page load.
 
 Unfortunately, however, I feel it being bounded by the arbitrary definitions of
-TTI leaves a lot to be desired—entirely unrelated and unexpected network
+TTI leaves a lot to be desired — entirely unrelated and unexpected network
 activity can completely tank otherwise healthy pages.
 
 TTI may have left the Lighthouse score, but it has not entirely left your

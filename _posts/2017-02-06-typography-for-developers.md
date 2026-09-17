@@ -173,13 +173,13 @@ The em dash is usually one em wide (hence the name), meaning that it would be 24
 points wide in a 24pt font, 12pt wide in a 12pt font, and so on. It represents a
 change in thought, and is a slightly more elegant substitute for parenthesis.
 
-<p class="_tfd-demo">It has been said—though I would say otherwise—that I’m
+<p class="_tfd-demo">It has been said — though I would say otherwise — that I’m
 something of a pedant.</p>
 
 It could also be used in place of a colon.
 
 <p class="_tfd-demo">The three technical ingredients for responsive web
-design—fluid grids, flexible images, and media queries.</p>
+design — fluid grids, flexible images, and media queries.</p>
 
 | Mac         | Win      | HTML      | Output |
 | ----------- | -------- | --------- | ------ |

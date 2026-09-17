@@ -28,7 +28,7 @@ necessary parts. Enter <i>The Specificity Graph</i>.
 The Specificity Graph is something I have only been speaking about recently, and
 is a cornerstone of my currently unpublished [<cite>ITCSS</cite>
 architecture](http://itcss.io/).  It is a very simple model for diagrammatically
-assessing the overall health of your codebase in terms of specificity—a way of
+assessing the overall health of your codebase in terms of specificity — a way of
 looking at an entire project’s CSS and highlighting any potentially troublesome
 areas of higher-than-ideal specificity. We can then use this snapshot to
 refactor and rearchitect old projects into a better shape, or to ensure we’re
@@ -37,7 +37,7 @@ writing new projects in a sustainable manner.
 It is worth highlighting explicitly and up front that the Specificity Graph is
 currently just a high-level and relatively crude _model_. Its aim is to give a
 very broad and general overview of the specificity of selectors across an entire
-project. It is not—yet, at least—an automated tool of any sort that will plot an
+project. It is not — yet, at least — an automated tool of any sort that will plot an
 accurate graph for you: it is a way of you assessing your own codebase and
 loosely plotting it yourself. One thing I would be keen to do is speak to
 [Katie](https://twitter.com/katie_fenn) about putting the Specificity Graph into
@@ -61,8 +61,8 @@ graph that looks something like this:
   across a codebase.</figcaption>
 </figure>
 
-As you can see, this is a very crude representation—we don’t even have any units
-on our axes!—but it instantly shows us the general distribution of specificity
+As you can see, this is a very crude representation — we don’t even have any units
+on our axes! — but it instantly shows us the general distribution of specificity
 across this project. It’s erratic and poorly managed: these peaks and troughs
 are _bad news_. A peak represents a selector of a relatively high specificity,
 and occurs before a selector of a lower specificity. This is the <i>specificity
@@ -75,7 +75,7 @@ we might expect problems, see why we have problems _right now_, and then we can
 use that information to refactor or rework our CSS into a better shape.
 
 A graph with a lot of peaks and troughs is a _bad_ Specificity Graph: it is
-telling us that our CSS is full of—or prone to—specificity issues because of
+telling us that our CSS is full of — or prone to — specificity issues because of
 weighty selectors being defined before lighter ones. We have a codebase that is
 likely to prove problematic because we have erratic and poorly managed
 specificity-and-source-order: we are more likely to spend time undoing or

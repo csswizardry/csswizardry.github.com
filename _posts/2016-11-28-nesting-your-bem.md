@@ -36,7 +36,7 @@ BEM tells us that a class of, say, `.widget__title`, can only be used inside of
 this because
 
 * they haven’t seen BEM before, and don’t know about the usage it enforces, or;
-* they’re being lazy and have spotted that—even though they shouldn’t—they can
+* they’re being lazy and have spotted that — even though they shouldn’t — they can
   reuse the `.widget__title` styling inside of `.modal` and leave work five
   minutes early.
 

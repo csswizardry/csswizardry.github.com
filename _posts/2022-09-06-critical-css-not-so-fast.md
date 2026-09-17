@@ -50,7 +50,7 @@ do we treat off-screen or un-interacted elements (think dropdown or flayout
 navs, etc.)? How do we automate it?
 
 Honestly, in this scenario, my advice is almost always: don’t bother trying to
-retrofit Critical CSS—just hash-n-cache[^1] [^2] the living daylights out of your
+retrofit Critical CSS — just hash-n-cache[^1] [^2] the living daylights out of your
 existing CSS bundles until you replatform and do it differently next time.
 
 Implementing Critical CSS on a brand new project becomes markedly easier,
@@ -90,7 +90,7 @@ We actually have a synchronous JS file that takes longer than the CSS does[^4]:
 When we view a waterfall of this simple page, we see that both the CSS and JS
 are synchronous, render-blocking files. The CSS arrives before the JS, but we
 don’t get our Start Render (the first of the two vertical green lines) until the
-JS has finished. The CSS still has a lot of headroom—it’s the JS that’s pushing
+JS has finished. The CSS still has a lot of headroom — it’s the JS that’s pushing
 out Start Render.
 
 <small>**N.B.** The following waterfalls have two vertical purple bars. Each of
@@ -138,19 +138,19 @@ remains unchanged because we tackled the wrong problem.
 priority request, and hits the network after the JavaScript.</figcaption>
 </figure>
 
-In both cases—‘Blocking’ and ‘Critical CSS’ respectively—Start Render came in at
+In both cases — ‘Blocking’ and ‘Critical CSS’ respectively — Start Render came in at
 exactly the same time. Critical CSS made no difference:
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/critical-filmstrip.png" width="750" height="351" alt="" loading="lazy" />
 <figcaption>Both of the above exhibit the same visual behaviour because the CSS
-was never the problem anyway—it is the JavaScript that is blocking rendering.</figcaption>
+was never the problem anyway — it is the JavaScript that is blocking rendering.</figcaption>
 </figure>
 
 In a reduced test case like this, it’s blindingly obvious that Critical CSS is
 a wasted effort. We only have two files to focus on, and they’re both being
 artificially slowed down to force the output that helps prove my point. But the
-exact same principles carry through to real websites—your websites. With many
+exact same principles carry through to real websites — your websites. With many
 different potentially-blocking resources in-flight at the same time, you need to
 be sure that it’s your CSS that’s actually the problem.
 
@@ -161,13 +161,13 @@ Let’s take a look at what would happen if the CSS _was_ our biggest blocker:
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-blocking-02.png" width="750" height="119" alt="" loading="lazy" />
 <figcaption>Again, both files are render blocking. However, note that both
-purple lines sit on top of each other—<code>css loaded</code> and <code>head
+purple lines sit on top of each other — <code>css loaded</code> and <code>head
 finished</code> are synonymous.</figcaption>
 </figure>
 
 Above, we can clearly see that CSS is the asset type pushing out our Start
-Render. Does moving to Critical CSS—inlining the important stuff and loading the
-rest asynchronously—make a difference?
+Render. Does moving to Critical CSS — inlining the important stuff and loading the
+rest asynchronously — make a difference?
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2022/09/waterfall-critical-02.png" width="750" height="119" alt="" loading="lazy" />
@@ -176,7 +176,7 @@ rest asynchronously—make a difference?
 </figure>
 
 We can see now that Critical CSS has helped! But all it’s really served to do is
-highlight the next issue—the JS. That’s what we need to tackle next in order to
+highlight the next issue — the JS. That’s what we need to tackle next in order to
 keep making steps in the right direction.
 
 <figure>
@@ -207,7 +207,7 @@ Honestly, I cannot stress this enough. One wrong decision can undo everything.
 The next problem is with splitting the application of CSS into two parts.
 
 When you use the `media`-switching pattern[^5] to fetch a CSS file
-asynchronously, all you’re doing is making the network time asynchronous—the
+asynchronously, all you’re doing is making the network time asynchronous — the
 runtime is still always a synchronous operation, and we need to be careful not
 to inadvertently reintroduce that overhead back onto the Critical Path.
 
@@ -228,7 +228,7 @@ We’ve fetched the file asynchronously but had zero impact on performance,
 because **anything synchronous in the `<head>` is render-blocking by
 definition**. We’ve achieved nothing. The fetch being asynchronous is completely
 irrelevant because it happened during synchronous time anyway. We want to ensure
-that the non-Critical styles are not applied during—or as part of—a blocking
+that the non-Critical styles are not applied during — or as part of — a blocking
 phase.
 
 How do we do that?
@@ -237,7 +237,7 @@ How do we do that?
 
 One option is to ditch the `media`-switcher altogether. Let’s think about it: if
 our non-Critical styles are not needed for Start Render, they don’t need to be
-render blocking—**they didn’t ought to be in the `<head>` at all**.
+render blocking — **they didn’t ought to be in the `<head>` at all**.
 
 The answer is surprisingly simple: Rather than trying to race against our
 `<head>` time, let’s move the non-Critical CSS out of the `<head>` entirely. If
@@ -340,10 +340,10 @@ It’s important to make sure that these trade-offs are worth it. Test everythin
 
 ## Debugging Critical CSS
 
-If we’re battling through all of this—and it is a battle—how do we know if
+If we’re battling through all of this — and it is a battle — how do we know if
 Critical CSS is actually working?
 
-Honestly, the simplest way I’ve found to work out—locally, at least—if Critical
+Honestly, the simplest way I’ve found to work out — locally, at least — if Critical
 CSS is working effectively is to do something that will visually **break the
 page if Critical CSS works** correctly (it sounds counter-intuitive, but it’s
 the simplest to achieve).
@@ -395,7 +395,7 @@ There’s a lot to consider in this post, so to recap:
 
 [^1]: [Cache-Control for Civilians – Fingerprint](/2019/03/cache-control-for-civilians/#fingerprint--styleae3f66css)
 [^2]: [Cache-Control for Civilians – `immutable`](/2019/03/cache-control-for-civilians/#immutable)
-[^3]: Zero-runtime, automatically deduped, and, ideally, placed in-`<body>` in `<style>` blocks—not in `style` attributes.
+[^3]: Zero-runtime, automatically deduped, and, ideally, placed in-`<body>` in `<style>` blocks — not in `style` attributes.
 <!-- [^4]: Yes, inline `<style>` and `<script>` are still blocking; they’re just very fast. -->
 <!-- [^5]: The `type` attribute is pretty interesting, actually. An omitted `type` attribute is implied `type=text/javascript`, which itself is obsolete, so just don’t bother with it. `type=module` is non-blocking (equivalent to `defer`), and any malformed or invalud `type` attribute causes the parser to skip the `<script>` block entirely. -->
 [^4]: I’m using [Slowfil.es](https://slowfil.es/) to force the slowness.

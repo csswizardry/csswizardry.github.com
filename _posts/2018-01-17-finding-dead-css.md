@@ -15,7 +15,7 @@ meta: "Finding dead or unused CSS on a live website"
 
 During a performance workshop I was running this week, I was reminded of
 a technique for finding dead CSS on a live site. Note that I’m purposely not
-using the phrase ‘unused CSS’, but ‘dead CSS’—the specific scenario I’m
+using the phrase ‘unused CSS’, but ‘dead CSS’ — the specific scenario I’m
 describing looks a little like this:
 
 Imagine you have a large, long-running project that contains hundreds of
@@ -29,7 +29,7 @@ to reach, but whose legacy lives on.
 How do we go about identifying this dead code? Tools like
 [uncss](https://github.com/giakki/uncss), although very powerful, don’t quite
 fit the bill. What we need is an almost
-[RUM](https://en.wikipedia.org/wiki/Real_user_monitoring)-like solution—how can
+[RUM](https://en.wikipedia.org/wiki/Real_user_monitoring)-like solution — how can
 we see what code users actually see on-screen on a live site?
 
 It turns out that there’s a very simple, cost-effective solution.
@@ -37,7 +37,7 @@ It turns out that there’s a very simple, cost-effective solution.
 Let’s say you have an old checkout flow; a legacy booking system that has slowly
 been phased out over a number of months to years (perhaps legacy clients took
 longer to be transitioned over to the new codebase). You’re now at a point where
-you _think_—at least in theory—all customers and end users have been moved onto
+you _think_ — at least in theory — all customers and end users have been moved onto
 the new platform, and therefore you should be able to start deleting the code.
 
 The first thing you need to do is start with a hypothesis: which code do you
@@ -64,7 +64,7 @@ that image and URL parameter. If there are no entries, nobody had that legacy
 component rendered on their screen: you can probably go ahead and delete it all.
 
 If you do find entries for that particular image, you know that, somehow, the
-legacy feature is potentially still accessible—the number of entries should give
+legacy feature is potentially still accessible — the number of entries should give
 you a clue as to how severe the problem might be.
 
 Of course, this technique isn’t totally fail-safe, but it does begin to provide

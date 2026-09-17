@@ -60,7 +60,7 @@ us. We can then take that knowledge, and use it with the following…
 As of [Chrome
 59](https://developers.google.com/web/updates/2017/04/devtools-release-notes#block-requests)
 (and long before that if you have Experiments enabled), we have the option to
-prevent requests for specific asset URLs—or even assets on entire domains—from
+prevent requests for specific asset URLs — or even assets on entire domains — from
 going out. Whilst this doesn’t necessarily simulate any realistic network
 conditions (the key thing to note with this feature is that it blocks outgoing
 requests; it does not hit the network at all), it is a great way of seeing what
@@ -152,7 +152,7 @@ our `hosts` file, e.g.:
 72.66.115.13 fast.fonts.net
 ```
 
-Now—if you’ve cleared your browser’s and machine’s DNS cache—you should find
+Now — if you’ve cleared your browser’s and machine’s DNS cache — you should find
 that all requests to assets on those domains will eventually time out. This is
 where we begin to see interesting, and often much more severe, results.
 

@@ -41,7 +41,7 @@ My site is completely static; it doesn’t take any user input, there is no logi
 or scripting, no database, so I didn’t feel like the need for HTTPS _from a
 security point of view_ was all that pressing[^2]. However, HTTPS is a
 prerequisite for a number of other technologies, and having a secure
-site—regardless of its content—is never a bad thing. More on the first bit in a
+site — regardless of its content — is never a bad thing. More on the first bit in a
 moment, but for now I want to talk a little about security.
 
 I imagine that although most users won’t have much of an understanding as to the

@@ -23,8 +23,8 @@ argument extends to anything of its ilk, like a more traditional reset) goes
 against the philosophy that [websites do not need to look the same in every
 browser](http://dowebsitesneedtolookexactlythesameineverybrowser.com/): a stance
 we fought very very hard to achieve. Whilst I absolutely agree that websites do
-not need to look the same in every browser—doing so is very time consuming,
-usually very frustrating, and seldom worth the time or effort—this argument is
+not need to look the same in every browser — doing so is very time consuming,
+usually very frustrating, and seldom worth the time or effort — this argument is
 made on a false assumption: that Normalize.css exists to make websites look the
 same in every browser.
 

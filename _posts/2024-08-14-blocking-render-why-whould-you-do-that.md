@@ -41,7 +41,7 @@ The spec says:
 > — [2.5.8 Blocking attributes](https://html.spec.whatwg.org/multipage/urls-and-fetching.html#blocking-attributes)
 
 Currently, there is only one token specified: `render`. The spec is extensible
-so that other values could be added as the need arises—[potential scenarios that
+so that other values could be added as the need arises — [potential scenarios that
 have been
 discussed](https://gist.github.com/xiaochengh/fae2b549b3d37454beeb9028a829f4bd#other-operations-to-blockunblock-on)
 include `parse`, `load`, and even a negation to encourage the opposite, such as
@@ -62,7 +62,7 @@ possible blocking states:
 3. **Parser blocking:** The worst case scenario is a file that prevents the
    browser from even building the page. All parsing and rendering is blocked
    while the resource is fetched. Files that are parser blocking are inherently
-   also render blocking—the browser can’t present a page that it can’t even
+   also render blocking — the browser can’t present a page that it can’t even
    construct.
 
 Visually, this is how that process looks for each scenario:
@@ -71,7 +71,7 @@ Visually, this is how that process looks for each scenario:
 <img src="{{ site.cloudinary }}/wp-content/uploads/2024/08/blocking-status.png" alt="Comparison of non-blocking, render-blocking, and parser-blocking resources in web performance. A visual breakdown of how different loading strategies affect rendering, parsing, and blocking behaviour in the browser." width="750" height="424">
 <figcaption>
   A non-, render-, and parser-blocking file in an HTML document. Imagine the
-downloading file (pink) is in the <code>&lt;head&gt;</code>—even though you can
+downloading file (pink) is in the <code>&lt;head&gt;</code> — even though you can
 never see <code>&lt;head&gt;</code> tags or their children, they still get
 rendered just like any other HTML, they’re just set to <code>display:
 none;</code>. That said, these diagrams also apply to a downloading file (pink)
@@ -154,7 +154,7 @@ is almost always the correct thing to do: reading something in the ‘wrong’ f
 is better than reading nothing at all.
 
 However, in scenarios where a flash of fallback font (FOFT) might be
-particularly jarring—or create severe layout shifts—then perhaps waiting on the
+particularly jarring — or create severe layout shifts — then perhaps waiting on the
 web font might (_might_) be the right thing to do. Maybe. I’m not actively
 recommending it.
 
@@ -165,7 +165,7 @@ Note that almost the exact same behaviour could be achieved by adding
 1. `font-display: block;` will time out after three seconds, whereas
    `blocking=render` has no such timeout. In that sense, it’s much more
    aggressive.
-2. `font-display: block;` will still render the current UI, only without text—a
+2. `font-display: block;` will still render the current UI, only without text — a
    flash of invisible text (FOIT). `blocking=render` won’t render anything at
    all.
 
@@ -193,7 +193,7 @@ may even influence the outcome of the experiment itself.
 
 To circumvent this, many A/B testing tools implement what is known as an
 anti-flicker snippet. They deliberately hide the page (visually) until the
-variants have been constructed, or a timeout is met—whichever happens sooner.
+variants have been constructed, or a timeout is met — whichever happens sooner.
 
 This is the anti-flicker snippet from the [now
 defunct](https://support.google.com/analytics/answer/12979939?hl=en) Google
@@ -223,7 +223,7 @@ Optimize.
 This snippet works by applying the class `async-hide` to the `<html>` element
 (`document.documentElement`). This aggressively sets `opacity: 0;` so that the
 page is rendered, only invisibly. The class is then removed either when the A/B
-tool’s work is done, or a `4000`ms timeout is reached—whichever is first.
+tool’s work is done, or a `4000`ms timeout is reached — whichever is first.
 
 One immediate failing with this is that an invisible page is still interactive,
 and users could still click on or interact with elements inadvertently. The page
@@ -237,8 +237,8 @@ information about what to paint. `blocking=render` gives us this ability.
 
 A further issue is the big-reveal phenomenon: with an anti-flicker snippet, the
 page is totally invisible until it’s totally visible. Behind the `opacity: 0;`,
-there may well have been a progressive render of the page—which is a familiar
-and good user experience—but a user didn’t benefit from it. Anti-flicker
+there may well have been a progressive render of the page — which is a familiar
+and good user experience — but a user didn’t benefit from it. Anti-flicker
 snippets eschew this behaviour and take an all-or-nothing approach: nothing,
 nothing, nothing, _everything_.
 
@@ -257,7 +257,7 @@ engineer, we still risk leaking the experiment to the user when using an
 anti-flicker snippet. Knowingly hiding a page for up to four seconds feels like
 insanity to me, but at least we do have a timeout. The problem with anti-flicker
 snippets is that if that four-second timeout is reached, we’ll still display the
-page even if experiments haven’t completed—the `4000`ms is a magic number that
+page even if experiments haven’t completed — the `4000`ms is a magic number that
 we use to hopefully win a race condition.
 
 By using `blocking=render`, that timeout now becomes [governed by the browser’s

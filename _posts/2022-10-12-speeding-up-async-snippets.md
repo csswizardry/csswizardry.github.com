@@ -41,7 +41,7 @@ start there.
 ## What Is an Async Snippet?
 
 Snippets like these are usually employed by third parties for you to copy/paste
-into your HTML—usually, though not always, into the `<head>`. The reason they
+into your HTML — usually, though not always, into the `<head>`. The reason they
 give us this cumbersome snippet, and not a much more succinct `<script src="">`,
 is purely historical: **async snippets are a legacy performance hack.**
 
@@ -74,16 +74,16 @@ browser behaviour. That’s really the extent of the whole technique.
 But that begs the question… can’t we just use the `async` attribute?
 
 <small>As a bit of additional trivia, this means that adding
-`script.async='async'` is redundant—don’t bother with that. Interestingly,
+`script.async='async'` is redundant — don’t bother with that. Interestingly,
 adding `script.defer=defer` does work, but again, you don’t need an async
-snippet to achieve that result—just use a regular `<script src=""
+snippet to achieve that result — just use a regular `<script src=""
 defer>`.</small>
 
 ## Legacy `async` Support
 
 It wasn’t until 2015 (admittedly, that is seven years ago now…) that [all
 browsers supported the `async` attribute](https://caniuse.com/script-async). For
-all _major_ browsers, that date was 2011—over ten years ago. So, in order to
+all _major_ browsers, that date was 2011 — over ten years ago. So, in order to
 work around it, third party vendors employed async snippets. Async snippets are,
 at their most basic, a polyfill.
 
@@ -231,7 +231,7 @@ itself:
 
 In this instance, the async snippet is less about working around a performance
 issue, and more about a dynamism issue. The only optimisation I would recommend
-here—if the third party is important enough—is to complement the snippet with
+here — if the third party is important enough — is to complement the snippet with
 a `preconnect` for the origin in question:
 
 ```html

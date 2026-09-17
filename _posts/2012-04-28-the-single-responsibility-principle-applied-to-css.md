@@ -43,7 +43,7 @@ The SRP is normally applied in programming circles but I have definitely found i
         border-radius: 4px;
     }
 
-Here we have a class for a promotional box of content. Here we are doing **two** things—we are defining box model and structure _and_ we are defining cosmetics (colouring etc).
+Here we have a class for a promotional box of content. Here we are doing **two** things — we are defining box model and structure _and_ we are defining cosmetics (colouring etc).
 
 We can refactor this code to adhere to the SRP by splitting those two chunks of functionality into two classes:
 

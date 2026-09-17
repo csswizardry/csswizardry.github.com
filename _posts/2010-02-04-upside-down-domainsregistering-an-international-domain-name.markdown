@@ -3,7 +3,7 @@ comments: true
 date: 2010-02-04 15:44:17
 layout: post
 slug: upside-down-domainsregistering-an-international-domain-name
-title: Upside down domains—registering an international domain name
+title: Upside down domains — registering an international domain name
 wordpress_id: 672
 categories:
   - Web Development

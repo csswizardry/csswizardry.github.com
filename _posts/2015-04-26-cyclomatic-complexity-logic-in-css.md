@@ -23,7 +23,7 @@ _does_ include logic, and the fact that it’s rarely viewed as such is probably
 also why we end up with such poor CSS at all.
 
 I found myself explaining compound selectors to a client as being made up of the
-<i>subject</i>—the thing we’re actually interested in—and its <i>conditions</i>.
+<i>subject</i> — the thing we’re actually interested in — and its <i>conditions</i>.
 For example:
 
     div.sidebar .login-box a.btn span {
@@ -34,7 +34,7 @@ In this compound selector, the subject is `span`, and the conditions are `IF
 AND IF (on div)`.
 
 That is to say, every component part of a selector is an `if`
-statement—something that needs to be satisfied (or not) before the selector will
+statement — something that needs to be satisfied (or not) before the selector will
 match.
 
 This subtle shift in the way we look at how we write our selectors can have a
@@ -115,11 +115,11 @@ conditionals: to narrow the selector’s reach. You need to start at the other
 end; write something unambiguous and explicit and forgo the conditions entirely.
 
 **Instead of your selectors casting a really wide net that catch way too much of
-the DOM—and then having to trim that catch down via conditions—it is far more
+the DOM — and then having to trim that catch down via conditions — it is far more
 succinct and robust to just catch much less of the DOM in the first place.**
 
 Cyclomatic Complexity is quite an advanced principle to try and apply to CSS,
-but if we look at it as just that—a principle—we can start to visualise and even
+but if we look at it as just that — a principle — we can start to visualise and even
 measure the complexity in the ‘logic’ powering our selectors, and we can then
 begin making much better decisions based on it.
 

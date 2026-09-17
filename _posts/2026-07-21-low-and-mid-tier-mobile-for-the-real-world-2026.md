@@ -87,7 +87,7 @@ Nor can a slowdown multiplier reproduce a phone’s available memory, storage
 performance, thermal behaviour, scheduler, background processes, or
 power-management decisions, so, again, you’re working through a very crude
 proxy. In fact, in three notable projects since last year’s piece, I found
-myself using—and getting markedly different results on—a physical device than
+myself using — and getting markedly different results on — a physical device than
 I do in DevTools.
 
 ## Real Low- and Mid-Tier Mobile Devices for 2026
@@ -169,8 +169,8 @@ might look like lazy continuation, but I assure you, it isn’t!
 
 I also considered current Redmi/Xiaomi, Motorola, Honor, OPPO/realme,
 Nothing/CMF, OnePlus, and Pixel devices. Several are excellent regional or
-price-specific alternatives—the Redmi A5 was the sole non-Samsung Android
-handset in Counterpoint’s Q1 2026 global top ten—but none combines model-level
+price-specific alternatives — the Redmi A5 was the sole non-Samsung Android
+handset in Counterpoint’s Q1 2026 global top ten — but none combines model-level
 sales evidence, broad cross-regional availability, consistent hardware, long
 support, and the right performance constraints as neatly as these two.
 
@@ -299,7 +299,7 @@ flagship-lite territory:
 Notebookcheck’s 128 GB test unit used UFS 3.1 storage and scored 12.0 runs per
 minute in Speedometer 3 under Chrome 134[^4]. The faster processor, double the
 recommended RAM, and materially quicker storage give you a useful contrast with
-the A17—not just in raw benchmark throughput, but in cache access, memory
+the A17 — not just in raw benchmark throughput, but in cache access, memory
 pressure, and the amount of main-thread work the device can absorb before the
 experience deteriorates.
 

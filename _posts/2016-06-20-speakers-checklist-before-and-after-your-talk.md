@@ -16,7 +16,7 @@ to have a pretty regimented checklist of things to do before and after your talk
 in order to help things run as smoothly as possible.
 
 This post isn’t intended to help you research, write, prepare, or deliver a talk
-well—that’s an entire series of blog posts in itself—but it should help you to
+well — that’s an entire series of blog posts in itself — but it should help you to
 run things a little more consistently and predictably. There’s nothing worse
 than being stressed out before a talk.
 
@@ -26,7 +26,7 @@ than being stressed out before a talk.
   announcements or changes in real time. It also allows the conference to DM you
   if they need to.
 * **Turn up well ahead of time.** Turn up _at least_ the break before your slot.
-  Ideally—really—you’ll arrive first thing in the morning and be present for the
+  Ideally — really — you’ll arrive first thing in the morning and be present for the
   entire event, but at the very least you need to arrive with enough time to
   test your slides, familiarise yourself with the venue, etc.
 * **Let the organiser know you’ve arrived.** Being a speaker is stressful; being
@@ -81,7 +81,7 @@ than being stressed out before a talk.
 * **Take questions.** If there’s a Q&A session, begin taking questions. If you
   get a question, take time to listen to it fully; if you don’t hear or
   understand it first time around, do not be embarrassed to ask for a repeat or
-  reword. Repeat the question back to the audience—you can use this as an
+  reword. Repeat the question back to the audience — you can use this as an
   opportunity to paraphrase the question to better suit your stance/answer. If
   you don’t have an answer, do not try to blag it; let the person know you’re
   not sure _right now_, but you’re keen to look it up and you’ll get back to

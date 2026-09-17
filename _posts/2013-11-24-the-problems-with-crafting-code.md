@@ -37,7 +37,7 @@ industry seems like nothing more than an attempt to be a bit cute. Personally, I
 find the notion that pixels and what are essentially ones-and-zeroes can somehow
 be ‘crafted’ quite obviously absurd. We continually use some of the most
 powerful and cutting edge technology currently available to us, and then try and
-back-port it to manufacturing methods that—for the most part—died out entire
+back-port it to manufacturing methods that — for the most part — died out entire
 centuries ago. It just seems so _odd_ and indulgent.
 
 ## Quality
@@ -68,8 +68,8 @@ When people say they hand-craft their code, I don’t disagree with their
 sentiment, I disagree with their _wording_. I have no doubt that people put a
 lot of effort into their work, and take a lot of pride in it. I take an
 _incredible_ amount of pride in my work, but I would never say I ‘craft’
-anything about it. I consider it, I test it, I try it, I measure it, and—if it
-doesn’t work—I rip it up and I start again; I don’t get attached to it, I don’t
+anything about it. I consider it, I test it, I try it, I measure it, and — if it
+doesn’t work — I rip it up and I start again; I don’t get attached to it, I don’t
 fall in love with it.
 
 I _love_ my job, and take my work very seriously, but to start treating what are
@@ -77,8 +77,8 @@ essentially ones and zeroes as a craft, or a labour of love, is entirely
 misguided. Our job is more serious than craft, which implies hobby, or pastime.
 I don’t want my plumber to ‘lovingly hand-craft his U-bends’, I want a plumber
 who knows how to solve my problem properly, efficiently, and lastingly. If he
-loves his work, that’s a bonus—and usually an indicator that he’ll do a great
-job—but it’s not how to actually measure the quality of his work; fixing my leak
+loves his work, that’s a bonus — and usually an indicator that he’ll do a great
+job — but it’s not how to actually measure the quality of his work; fixing my leak
 for good is how I’ll measure that. We as web developers are no different.
 
 {% include promo-case-studies.html %}
@@ -86,7 +86,7 @@ for good is how I’ll measure that. We as web developers are no different.
 ## A disservice
 
 I also feel that the word craft actually plays down our role. A word which
-conjures images—as Mark painted—of someone sat in a shed, isolated, poring over
+conjures images — as Mark painted — of someone sat in a shed, isolated, poring over
 the fine details of something in an almost obsessive manner, does not
 appropriately describe what we do day in, day out; we solve peoples’ business
 problems using design and code. Surely that sounds far more impressive _and_
@@ -117,7 +117,7 @@ describe that quality, particularly when talking about something like code.
 
 There’s a move now toward people calling themselves software engineers; they
 _engineer_ their code. For all this brings with it similar levels of
-pretentiousness, it is—to my mind—at least a step in the right direction:
+pretentiousness, it is — to my mind — at least a step in the right direction:
 
 Crafted:
 

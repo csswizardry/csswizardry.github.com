@@ -24,8 +24,8 @@ spaces to avoid mentioning people when you don’t mean to. Instead of writing
 <i>@import</i>, you’d write <i>@[zero-width-space-here]import</i>.
 
 The only problem with this is that, on a Mac, at least, there is no shortcut for
-a zero-width spaces. Copying and pasting it—which, as you can imagine, is quite
-difficult—from Wikipedia is too much effort to even bother…
+a zero-width spaces. Copying and pasting it — which, as you can imagine, is quite
+difficult — from Wikipedia is too much effort to even bother…
 
 I’ve [long been a fan](https://twitter.com/csswizardry/status/413660033688567808)
 of iOS’ (and now Mavericks’) keyboard shortcut mappings, so I decided to make

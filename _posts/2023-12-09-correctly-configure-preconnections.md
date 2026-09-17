@@ -53,7 +53,7 @@ the UK, at least) has these four `preconnect`s defined early in the `<head>`:
 ```
 
 <small>Readers on narrow screens should know that each of these `preconnect`s
-also carries a `crossorigin` attribute—scroll along to see for yourself!</small>
+also carries a `crossorigin` attribute — scroll along to see for yourself!</small>
 
 <small>Note that the BBC use schemeless URLs (i.e. `href=//…`). I would _not_
 recommend doing this. Always force HTTPS when it’s available.</small>
@@ -73,11 +73,11 @@ However, a look at a waterfall tells me that none of these `preconnect`s worked!
 
 Above, you can see that the browser discovered references to each of these
 origins in the first chunk of HTML, before the 1-second mark. This is evidenced
-by the light white bars that denote ‘waiting’ time—the browser knows it needs
+by the light white bars that denote ‘waiting’ time — the browser knows it needs
 the files, but is waiting to dispatch the requests. However, we can also see
 that the browser didn’t begin network negotiation until closer to the 1.5-second
-mark, when we begin seeing a tiny slither of green—<b style="color:
-#318a90">DNS</b>—followed by the much more costly <b style="color:
+mark, when we begin seeing a tiny slither of green — <b style="color:
+#318a90">DNS</b> — followed by the much more costly <b style="color:
 #eb8a30">TCP</b> and <b style="color: #c94bd4">TLS</b>. What went wrong?!
 
 ## Working Out Which Origins to `preconnect`
@@ -90,7 +90,7 @@ In the example above, we have five connections to the following four domains
   render-blocking CSS and JS.
 * **`m.files.bbci.co.uk`:** On the critical path with render-blocking CSS.
   * The screenshot above marks the CSS as non-blocking because of the way it’s
-    fetched—it’s `preload`ed, which _is_ non-blocking, but it’s then
+    fetched — it’s `preload`ed, which _is_ non-blocking, but it’s then
     conditionally applied to the page using `document.write()` (which is its own
     [performance faux pas in itself](/2023/01/why-not-document-write/)).
 * **`ichef.bbci.co.uk`:** Not on the critical path, but does host the
@@ -115,8 +115,8 @@ Note that <q>important</q> is very subjective. Your analytics isn’t important;
 your chat client isn’t important. Your consent management platform is important;
 your [image CDN is important](https://cloudinary.com/).
 
-One easy way to get an overview of early and important origins—and the method
-I use when advising clients—is to use WebPageTest. Once you’ve run a test, you
+One easy way to get an overview of early and important origins — and the method
+I use when advising clients — is to use WebPageTest. Once you’ve run a test, you
 can head to a [_Connection
 View_](https://www.webpagetest.org/result/231209_AiDc18_7GP/2/details/#connectionView_fv_1)
 of the waterfall which shows a diagram comprising entries per origin, not per
@@ -131,7 +131,7 @@ connection coalescence</a>, available when origins share the same IP address and
 certificates.</figcaption>
 </figure>
 
-As easy as that—that’s your list of potential origins!
+As easy as that — that’s your list of potential origins!
 
 ## Don’t `preconnect` Too Many Origins
 
@@ -141,7 +141,7 @@ is definitely wasteful.
 
 Flooding the network with unnecessary `preconnect`s early in the page load
 lifecycle can steal valuable bandwidth that could have been given to more
-important resources—the overhead of certificates alone can exceed 3KB. Further,
+important resources — the overhead of certificates alone can exceed 3KB. Further,
 opening and persisting connections has a CPU overhead on both the client and the
 server. Lastly, Chrome will close a connection if it isn’t used within the first
 10 seconds of being opened, so if you act too soon, you might end up doing it
@@ -161,7 +161,7 @@ This is the third time I’ve seen this problem this month (and we’re only nin
 days in…). It stems from a misunderstanding around when to use `crossorigin`.
 I get the impression that developers think ‘this request is going to another
 origin, so it must need the `crossorigin` attribute’. But that’s not what the
-attribute is for—`crossorigin` is used to define the CORS policy for the
+attribute is for — `crossorigin` is used to define the CORS policy for the
 request. `crossorigin=anonymous` (or a bare `crossorigin` attribute) will never
 exchange any user credentials (e.g. cookies); `crossorigin=use-credentials` will
 always exchange credentials. Unless you know that you need it, you almost never
@@ -173,7 +173,7 @@ most straightforward thing in the world. Fortunately, I have a shortcut…
 
 Firstly, identify a file on the origin that you’re considering `preconnect`ing.
 For example, let’s take a look at the BBC’s `box.css`. In DevTools (or
-WebPageTest if you already have one available—you don’t need to run one just for
+WebPageTest if you already have one available — you don’t need to run one just for
 this task), look at the resource’s **request** headers:
 
 <figure>
@@ -245,7 +245,7 @@ unaccounted for.
 ### `Sec-*` Request Headers
 
 I’d recommend familiarising yourself with the entire suite of `Sec-*`
-headers—they’re incredibly useful debugging tools.
+headers — they’re incredibly useful debugging tools.
 
 ## `preconnect` and DNS
 
@@ -254,10 +254,10 @@ unaffected by anything CORS-related. This means that:
 
 1. **If you have mistakenly configured your `preconnect`s** to use or omit
    `crossorigin` when you should have actually omitted or used `crossorigin`,
-   the <b style="color: #318a90">DNS</b> step can still be reused—only the
+   the <b style="color: #318a90">DNS</b> step can still be reused — only the
    <b style="color: #eb8a30">TCP</b> and <b style="color: #c94bd4">TLS</b> need
    discarding and doing again. That said, <b style="color: #318a90">DNS</b> is
-   usually—by far—the fastest part of the process anyway, so speeding it up
+   usually — by far — the fastest part of the process anyway, so speeding it up
    while missing out on <b style="color: #eb8a30">TCP</b> and
    <b style="color: #c94bd4">TLS</b> isn’t much of an optimisation to celebrate.
 2. **If you have everything configured correctly**, or you aren’t using

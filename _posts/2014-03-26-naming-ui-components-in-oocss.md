@@ -13,10 +13,10 @@ tags:
 meta: "A way of giving complex, OOCSS-built components more meaningful names"
 ---
 
-One of the biggest—if not most common—complaints about OOCSS is its use of
+One of the biggest — if not most common — complaints about OOCSS is its use of
 ‘insemantic classes’. Unfortunately, the idea that classes are semantic (in the
 HTML sense of the term) is something of a fallacy; classes aren’t understood by
-machines, they’re simply read and/or matched—machines cannot glean any meaning
+machines, they’re simply read and/or matched — machines cannot glean any meaning
 from something whose content is entirely subjective.
 
 If you are still on the fence about <i>semantic classes</i>, I would recommend
@@ -38,7 +38,7 @@ any desired meaning to your HTML via a `data-ui-component` attribute, e.g.:
 ---
 
 One of the best things about OOCSS, and ‘insemantic’ classes, is that we have
-many design patterns tied to highly reusable names—we have very recyclable CSS
+many design patterns tied to highly reusable names — we have very recyclable CSS
 that we can apply over and over again, keeping our codebase small, neat, and
 consistent.
 
@@ -173,7 +173,7 @@ abstracted, recyclable, and reusable, but you can also give specific chunks of
 markup meaningful names which can be used in discussions (e.g. referring to the
 articles-list rather than any given UI-list).
 
-Another really handy thing that this allows us to do—when in a debugging mode—is
+Another really handy thing that this allows us to do — when in a debugging mode — is
 to quickly view any parts of a site that we deem components (the kinds of thing
 that you’d have in your pattern library or UI toolkit):
 
@@ -195,9 +195,9 @@ Standard](https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#embedding-c
 
 I’ve been using this on a client project recently, and it’s proved very useful
 in encapsulating and discussing UI components, whilst also allowing me to keep
-my CSS as abstracted and OO as usual. My client doesn’t need to know—or even
-care—that the <i>share with friends</i> component is actually a combination of a
+my CSS as abstracted and OO as usual. My client doesn’t need to know — or even
+care — that the <i>share with friends</i> component is actually a combination of a
 `.box`, `.media`, and `.btn` object, they just need to refer to is at the same
-thing everyone else does—the <i>share with friends</i> component!
+thing everyone else does — the <i>share with friends</i> component!
 
 **I would strongly recommend trying it out.**

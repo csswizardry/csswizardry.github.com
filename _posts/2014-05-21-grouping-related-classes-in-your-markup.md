@@ -13,7 +13,7 @@ tags:
 meta: "An interesting way of visually and ‘physically’ grouping multiple class attributes"
 ---
 
-**N.B. 2016-02-23** I no longer advise this technique—it proved far too
+**N.B. 2016-02-23** I no longer advise this technique — it proved far too
 problematic on teams where people we unfamiliar with the syntax. If you do wish
 to clearly delimit classes in your markup, perhaps opt for something a little
 less alien:
@@ -27,7 +27,7 @@ A few weeks back, [I put out a
 Tweet](https://twitter.com/csswizardry/status/439383832920604672) to [a
 jsFiddle](http://jsfiddle.net/csswizardry/m2qa9/) describing an idea I’d had in
 which I grouped two or more related class attributes to make them easier to
-notice when scanning an HTML file, and—coincidentally—trivial to manipulate very
+notice when scanning an HTML file, and — coincidentally — trivial to manipulate very
 effectively with Vim, my text editor of choice.
 
 I was grouping them by enclosing them in square brackets, and that looks
@@ -51,7 +51,7 @@ later.
 
 Secondly, and more importantly, **this article is not a direct endorsement of,
 or recommendation for, this method**, this is just a writeup of an idea. It has
-benefits and drawbacks—as do most things—so your mileage _may_ vary. I will
+benefits and drawbacks — as do most things — so your mileage _may_ vary. I will
 discuss relative merits and pitfalls later in the article so that you can decide
 whether this is a good thing _for you_, rather than it being a good or bad thing
 _in and of itself_.
@@ -79,7 +79,7 @@ This basically just ringfences any groups that _need_ it, for example:
 &lt;div class="[ foo  foo--bar ]  [ baz  baz--foo ]"&gt;
 </code></pre>
 
-If these rules seem a little convoluted—and they might—feel free to experiment
+If these rules seem a little convoluted — and they might — feel free to experiment
 with your own. You could simplify it right down to ‘any groups always need
 enclosing’, like so:
 
@@ -132,12 +132,12 @@ levels of reading code: the first is actually reading it, taking it in, learning
 what it is doing; the second is _scanning_ it, which is a really high-level look
 over some code, perhaps to find something, perhaps to just give it a once-over
 to check its general sanity, or just poking around. I often feel we put a lot of
-weight on the former—_reading_ code—and nowhere near enough on the
-latter—_scanning_ it.
+weight on the former — _reading_ code — and nowhere near enough on the
+latter — _scanning_ it.
 
 What I find the square brackets offer me is a very visual way of absorbing (i.e.
-scanning) an HTML page. The square brackets become _very_ apparent—very
-noticeable—when giving some code a very high-level read, so I can very easily
+scanning) an HTML page. The square brackets become _very_ apparent — very
+noticeable — when giving some code a very high-level read, so I can very easily
 spot composed patterns without having to get too involved in the code itself.
 
 ## Vim
@@ -156,11 +156,11 @@ brackets as well. Once we’ve done this, we can then go and `p`ut (paste) the
 copied groups elsewhere.
 
 This means that I can modify, duplicate, move, delete, and generally manipulate
-entire groups of classes very rapidly. Powerful stuff, particularly if—like
-me—you like to work by composing UIs and patterns in your HTML (think grid
+entire groups of classes very rapidly. Powerful stuff, particularly if — like
+me — you like to work by composing UIs and patterns in your HTML (think grid
 systems, OOCSS, etc.).
 
-I made a very crude screencast of this in action—all commands are done without
+I made a very crude screencast of this in action — all commands are done without
 needing to reach for a mouse, or nudging around text-selections whilst holding
 the `Shift` key.
 
@@ -172,7 +172,7 @@ the `Shift` key.
 However, this feature is a combination of Vim’s power _and_ us leaving handy
 markers for Vim to work with. If you aren’t using Vim, or a similarly powerful
 text editor, then these benefits will not be quite so apparent. If you fancy
-learning Vim—and I really would recommend it—simply open your terminal and run:
+learning Vim — and I really would recommend it — simply open your terminal and run:
 
     $ vimtutor
 
@@ -209,8 +209,8 @@ of errors occurring.
 ## Errors
 
 As I mentioned previously, however, this method is not without its drawbacks, so
-please take these—and [your own
-context](/2013/01/you-know-your-context-on-critical-thinking-and-thinking-for-yourself/)—into
+please take these — and [your own
+context](/2013/01/you-know-your-context-on-critical-thinking-and-thinking-for-yourself/) — into
 account when considering adopting it.
 
 The first possible pitfall with this method of using square brackets to group
@@ -255,12 +255,12 @@ One of the main drawbacks of this method is its use in team environments, which
 is quite ironic considering my work centres a _lot_ around managing codebases in
 teams.
 
-The first and foremost—and most obvious—issue is the fact that it needs
+The first and foremost — and most obvious — issue is the fact that it needs
 explaining at all. The fact I’ve managed to get a few-hundred-word article out
 of this _may_ be testament to its unusual and potentially confusing nature.
 
-This will always the case when adopting new methodologies—like BEM, for
-instance—but it _is_ an overhead that cannot be ignored. The existing team will
+This will always the case when adopting new methodologies — like BEM, for
+instance — but it _is_ an overhead that cannot be ignored. The existing team will
 need to learn and be on board with this grouping methodology, and any new hires
 will also need teaching. It’s another hurdle; a small one, but definitely
 _another_.

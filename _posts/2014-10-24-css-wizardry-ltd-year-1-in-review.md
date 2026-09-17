@@ -86,13 +86,13 @@ a lot of different products, teams, and environments.
 ## The lifestyle
 
 The lifestyle of self employment has been one of much privilege for me. I’ve
-travelled to—and worked from—places all over the globe. I’ve met dozens, if not
+travelled to — and worked from — places all over the globe. I’ve met dozens, if not
 hundreds of people, I’ve eaten great meals, stayed in some beautiful hotels,
 made new friends, experienced new cultures and places, all whilst calling it
 ‘work’. **I honestly cannot believe that this is my job now.** Sometimes I do
 just sit and grin to myself about how fortunate I am to get paid to do this.
 
-That’s not to say I haven’t earned such a great job—it’s been something I’ve
+That’s not to say I haven’t earned such a great job — it’s been something I’ve
 actively worked toward since I was 17 years old (or earlier, depending on where
 you draw your measurements from). I’m very aware that lifestyle isn’t
 immediately available to everyone, because it was never immediately available to
@@ -166,8 +166,8 @@ It’s been a very good year for the business, and despite working far, far less
 than I did in full-time employment, it’s been a very financially stable year.
 
 I’ve decided that, although the figures are really, really great, they can
-easily be made better. My downtime is very important to me—I don’t want to work
-each continuous day for weeks on end—but **I probably ought to be more
+easily be made better. My downtime is very important to me — I don’t want to work
+each continuous day for weeks on end — but **I probably ought to be more
 productive** with it. I did a lot less cycling and mountaineering this year
 despite having an order of magnitude more available time. I didn’t _waste_ any
 of that time, but I didn’t do anything particularly focussed with it. It was
@@ -176,7 +176,7 @@ perhaps _too_ leisurely (the extra weight I’ve gained is testament to that).
 Also, **the nature of consultancy is that it’s very inefficient**. I’m the
 company’s single point of failure, so if I don’t work, the company doesn’t earn.
 Also, as I’m selling my time, and there’s only one of me, the business model
-currently can’t scale—I can only be in one place at one time. It might be
+currently can’t scale — I can only be in one place at one time. It might be
 interesting to explore ways of making CSS Wizardry Ltd. more efficient.
 
 ## Year 2

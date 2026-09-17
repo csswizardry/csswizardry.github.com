@@ -28,7 +28,7 @@ into one of three groups:
 * **Modifier:** A variant or extension of the Block.
 
 Blocks, Elements, and Modifiers: BEM. Absolutely every class in a project fits
-into one of these categories, which is why BEM is so great—it’s incredibly
+into one of these categories, which is why BEM is so great — it’s incredibly
 simple and straightforward.
 
 The point of BEM is to give a lot more transparency and clarity in your markup.
@@ -69,7 +69,7 @@ really give us any idea of how things behave, act, or should be implemented in a
 global and non-relative sense.
 
 To that end, I decided to extend BEM to become BEMIT. BEMIT doesn’t add any
-other types of class—we still only ever have Blocks, Elements, or Modifiers—but
+other types of class — we still only ever have Blocks, Elements, or Modifiers — but
 it does add usage and state information.
 
 ## Namespaces
@@ -210,8 +210,8 @@ the general makeup of a page based on the types of class it contains:
 }
 ```
 
-Of course this isn’t bulletproof—something might be both a Component and an
-Element and a Responsive class—but if we write the classes in pretty selective
+Of course this isn’t bulletproof — something might be both a Component and an
+Element and a Responsive class — but if we write the classes in pretty selective
 order (i.e. in the order of least to most important to know about, hence Hacks
 coming last), we can begin to get a nice visual snapshot of the makeup of any
 given page. You can read more about the benefits of this highlighting in [my

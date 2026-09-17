@@ -14,7 +14,7 @@ meta: "Why design another new performance score?! Good question…"
 
 In my day-to-day work, there’s a lot of competitor analysis. Either to present
 to the client themselves, to see where they sit among their contemporaries, or
-me to use in my pitching process—competition is a great motivator!
+me to use in my pitching process — competition is a great motivator!
 
 The problem is, there aren’t many clear and simple ways to do it, especially not
 in a way that can be distilled into a single, simple value that clients can
@@ -42,7 +42,7 @@ problems. How do we compare three separate metrics, with equal weighting but
 different units, across multiple sites in a fair and meaningful way? That’s
 going to be an issue.
 
-The next problem is that web performance is not a single number—single numbers
+The next problem is that web performance is not a single number — single numbers
 are incredibly reductive. Whatever I came up with had to take lots of objective
 data into account if it was to attempt to provide fair and honest
 representation.
@@ -128,7 +128,7 @@ My requirements for a new comparison score were as follows:
 
 * **A single number:** As much as it goes against conventional wisdom, clients
   and non-technical stakeholders value simplicity.
-* **Highly comparative:** The only use-case I have is for competitor analysis—I
+* **Highly comparative:** The only use-case I have is for competitor analysis — I
   have no interest in standalone scoring.
 * **Rewards passingness:** The Core Web Vitals thresholds should be taken into
   account.
@@ -203,18 +203,18 @@ for `foo.com`, `bar.com`, and `baz.com`:
 So, for a site with an LCP of 4s, an INP of 500ms, and a CLS of 0.2, the total
 would be **504.2**. But I’m sure I don’t need to explain to you that this is
 absurd! INP is measured in **hundreds of milliseconds**, LCP is measured in
-**ones of seconds**, and CLS is measured in **unitless decimals**—this gives
+**ones of seconds**, and CLS is measured in **unitless decimals** — this gives
 inordinate weighting to INP.
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-01.png" alt="A spreadsheet comparing three fictional  websites—www.foo.com, www.bar.com, and www.baz.com—using various performance metrics: LCP (Largest Contentful Paint), INP (Interaction to Next Paint), and CLS (Cumulative Layout Shift). The table includes two scoring columns: ‘Ordinal Score’ (higher is better) and ‘New Metric’ (higher is worse), with colour-coded highlights (green and red) to indicate performance levels. The metrics have been summed, leading to completely inappropriate scoring outcomes." width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-01.png" alt="A spreadsheet comparing three fictional  websites — www.foo.com, www.bar.com, and www.baz.com — using various performance metrics: LCP (Largest Contentful Paint), INP (Interaction to Next Paint), and CLS (Cumulative Layout Shift). The table includes two scoring columns: ‘Ordinal Score’ (higher is better) and ‘New Metric’ (higher is worse), with colour-coded highlights (green and red) to indicate performance levels. The metrics have been summed, leading to completely inappropriate scoring outcomes." width="1500" height="194" loading="lazy">
 <figcaption>A naive summing approach awards the lowest score to our highest
 performer and the highest score to our middlemost. This is completely
 useless.</figcaption>
 </figure>
 
 In fact, we can end up with aggregate scores that are completely contrary to our
-ordinal score—INP completely swallows up a 12 LCP!
+ordinal score — INP completely swallows up a 12 LCP!
 
 ### Naive Approach 3: Crude Normalisation
 
@@ -225,7 +225,7 @@ Let’s convert our INP into seconds:
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-02.png" alt="Google Sheets screenshot showing similar summing as before, only this time with quasi-normalised inputs leading to marginally better outcomes." width="1500" height="194" loading="lazy">
-<figcaption>This is marginally better—we’re now attributing the best to the
+<figcaption>This is marginally better — we’re now attributing the best to the
 best, but we’re now awarding the worst to the middle.</figcaption>
 </figure>
 
@@ -248,7 +248,7 @@ normalisation**](https://en.wikipedia.org/wiki/Feature_scaling#Rescaling_(min-ma
 {% include cross-sell.html %}
 
 Min-max normalisation takes a range of data points and plots them in the correct
-relative positions on a simple 0–1 scale. It doesn’t distribute them evenly—it
+relative positions on a simple 0–1 scale. It doesn’t distribute them evenly — it
 distributes them accurately.
 
 The formula for min-max normalisation is:
@@ -289,14 +289,14 @@ the Core Web Vitals! Remember, we want to have one score at the end of our
 algorithm, so we need to aggregate them. Instead of summing, we average them.
 I’ve spoken about [choosing the correct
 average](/2017/01/choosing-the-correct-average/) before, and in this case, the
-mean is the correct average to choose—the data is all comparable with no
+mean is the correct average to choose — the data is all comparable with no
 outliers.
 
 Once we averaged out the normalised Core Web Vitals scores, we were onto
 something much more trustworthy!
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-03.png" alt="Google Sheets screenshot showing the properly normalised metrics averaged out into a single score—higher is worse." width="1500" height="194" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-03.png" alt="Google Sheets screenshot showing the properly normalised metrics averaged out into a single score — higher is worse." width="1500" height="194" loading="lazy">
 <figcaption>Now the new metric aligns with our ordinal score. That’s great
 news!</figcaption>
 </figure>
@@ -317,7 +317,7 @@ anything.
 ## Making It More Intuitive
 
 As I mentioned at the top of the article, scores tend to follow
-a higher-is-better format. That’s easy enough to do—we just need to invert the
+a higher-is-better format. That’s easy enough to do — we just need to invert the
 numbers. As the scale is 0–1, we just need to subtract the derived score from 1:
 `= 1 - (AVERAGE(E2:G2))`:
 
@@ -445,7 +445,7 @@ shows the effectiveness of weighting around ordinality as well as continuity.
 ## Automating CrRRUX
 
 For now, I have dubbed the new metric CrRRUX (Chrome Relatively-Ranked User
-Experience). The only thing left to do is automate the process—inputting the
+Experience). The only thing left to do is automate the process — inputting the
 data manually is untenable.
 
 I hooked Google Sheets up to the CrUX API and I can get the relevant data for
@@ -454,7 +454,7 @@ origins from the HTTP Archive:
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2024/11/new-metric-top-100.png" alt="A Google Sheet screenshot showing abridged data for the top 100 origins. We see scores randing from 0.0000 to 0.9998." width="1500" height="588" loading="lazy">
-<figcaption>I had to blur the origins—there’s a lot of NSFW stuff in here.</figcaption>
+<figcaption>I had to blur the origins — there’s a lot of NSFW stuff in here.</figcaption>
 </figure>
 
 Again, relative to the data in the cohort, we can see a clear grading. CrRRUX

@@ -23,8 +23,8 @@ their cache and clearing their cookies. Well, there’s an easier way!
 ## Getting Someone to Clear Their Own Cache
 
 Trying to talk a non-technical customer through the steps of clearing their own
-cache is not an easy task—not at all! From identifying their operating system,
-platform, and browser, to trying to guide them—invisibly!—through different
+cache is not an easy task — not at all! From identifying their operating system,
+platform, and browser, to trying to guide them — invisibly! — through different
 screens, menus, and dropdowns is a big ask.
 
 Thankfully, any company that has folk in customer support can make use of a new
@@ -75,7 +75,7 @@ if (referer === 'https://www.example.com/clear') {
 ## `Clear-Site-Data` for Developers
 
 <p class="c-highlight">This isn’t the first time I’ve written about
-<code>Clear-Site-Data</code>—I mentioned it briefly in my 2019 article all about
+<code>Clear-Site-Data</code> — I mentioned it briefly in my 2019 article all about
 <a href="/2019/03/cache-control-for-civilians/#clear-site-data">setting
 the correct caching headers</a>. However, this is the first time I’ve focused on
 <code>Clear-Site-Data</code> in its own right.</p>

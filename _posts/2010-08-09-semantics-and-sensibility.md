@@ -53,7 +53,7 @@ code, but with insensible namings.
 
 ### Be sensible, for our sake
 
-Semantics should be adhered no matter what—web standards are good. Naming
+Semantics should be adhered no matter what — web standards are good. Naming
 however is totally down to you, you can call your elements whatever you wish.
 `<div id="a">`, `<div id="b">` and `<div id="c">` are all possible, but not
 sensible.

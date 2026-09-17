@@ -88,7 +88,7 @@ From the Wikipedia page:
 <blockquote class="pull-quote">
   <p>Other benefits are that they are simpler to understand and reason about and
 offer higher security than mutable objects.</p>
-<b class="pull-quote__source"><a href="http://en.wikipedia.org/wiki/Immutable_object"><cite>Immutable object</cite></a>—Wikipedia</b>
+<b class="pull-quote__source"><a href="http://en.wikipedia.org/wiki/Immutable_object"><cite>Immutable object</cite></a> — Wikipedia</b>
 </blockquote>
 
 Perfect! **<q>simpler to understand</q>** and **<q>offer higher security</q>**.
@@ -158,7 +158,7 @@ For example:
 
     error _components.footer.scss (Line 86: Cannot reassign immutable object: “^o-media”.)
 
-<small>Totally just thinking out loud there—there will be a number of reasons
+<small>Totally just thinking out loud there — there will be a number of reasons
 why this is impractical, I’m sure.</small>
 
 ## Working Immutably

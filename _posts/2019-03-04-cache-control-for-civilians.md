@@ -216,7 +216,7 @@ with a grace period. What happens here is that, for the first ten minutes, the
 browser will _not_ (I know, I know…) revalidate with the server, but the moment
 that ten minutes passes, it’s back to the server we go. If the server has
 nothing new for us, it responds with a `304` and the new `Cache-Control` headers
-are applied to the cached file—our ten minutes starts again. If, after ten
+are applied to the cached file — our ten minutes starts again. If, after ten
 minutes, there is a newer file on the server, we get a `200` response and its
 body, and the local cache gets updated.
 
@@ -236,7 +236,7 @@ version of `must-revalidate`. It is simply ignored by private caches.
 ## `immutable`
 
 `immutable` is a pretty new and very neat directive that tells the browser
-a little more about the type of file we’ve sent it—is its content mutable or
+a little more about the type of file we’ve sent it — is its content mutable or
 immutable? But, before we look at what `immutable` does, let’s look at the
 problem it’s solving:
 
@@ -249,29 +249,29 @@ freshness because a user refresh usually means one of two things:
 …so let’s check if there’s anything more up to date on the server.
 
 If there is a newer file available on the server, we definitely want to download
-it. As such, we’ll get a `200` response, a fresh file, and—hopefully—the issue
+it. As such, we’ll get a `200` response, a fresh file, and — hopefully — the issue
 is fixed. If, however, there wasn’t a new file on the server, we’ll bring back
 a `304` header, no new file, but an entire roundtrip of latency. If we’re
 revalidating many files that result in many `304`s, that can add up to hundreds
 of milliseconds of unnecessary overhead.
 
-`immutable` is a way of telling the browser that a file will never change—it’s
-_immutable_—and therefore never to bother revalidating it. We can completely cut
+`immutable` is a way of telling the browser that a file will never change — it’s
+_immutable_ — and therefore never to bother revalidating it. We can completely cut
 out the overhead of a roundtrip of latency. What do we mean by a mutable or
 immutable file?
 
 * `style.css`: When we change the contents of this file, we don’t change its
   name at all. The file always exists, and its content always changes. This file
   is mutable.
-* `style.ae3f66.css`: This file is unique—it is named with a fingerprint based
+* `style.ae3f66.css`: This file is unique — it is named with a fingerprint based
   on its content, so the moment that content changes, we get a whole new file.
   This file is immutable.
 
 <small>We’ll discuss this in more detail in the [Cache Busting](#cache-busting)
 section.</small>
 
-If we can somehow communicate to the browser that our file is immutable—that its
-content never changes—then we can also let the browser know that it needn’t
+If we can somehow communicate to the browser that our file is immutable — that its
+content never changes — then we can also let the browser know that it needn’t
 bother checking for a fresher version: there would never be a fresher version as
 the file simply ceases to exist the moment its content changes.
 
@@ -302,7 +302,7 @@ I really, really wish there was better support for `stale-while-revalidate`.
 We’ve talked a lot so far about revalidation: the process of the browser making
 the trip back to the server to check whether a fresher file might be available.
 On high latency connections, the duration of revalidation alone can be
-noticeable, and that time is simply dead time—until we’ve heard from the server,
+noticeable, and that time is simply dead time — until we’ve heard from the server,
 we can neither release a cached copy (`304`) or download the new file (`200`).
 
 What `stale-while-revalidate` provides is a grace period (defined by us) in
@@ -371,7 +371,7 @@ other directives for it to function itself.
 Brotli encoding for users that need the former or could use the latter; image
 transformation services automatically converting to WebP; etc.
 
-**N.B.** If you’re running over HTTPS—which you should be—then intermediaries
+**N.B.** If you’re running over HTTPS — which you should be — then intermediaries
 and proxies can’t modify payloads anyway, so `no-transform` would be
 ineffective.
 
@@ -399,8 +399,8 @@ You should be very wary of caching any files like these, because we lose almost
 all control over them once they’re on the user’s device.
 
 Despite this example being a stylesheet, HTML pages fall squarely into this
-camp. We can’t change the file name of a webpage—imagine the havoc that would
-cause!—which is exactly why we tend not to cache them at all.
+camp. We can’t change the file name of a webpage — imagine the havoc that would
+cause! — which is exactly why we tend not to cache them at all.
 
 ### Query String – `style.css?v=1.2.14`
 
@@ -445,8 +445,8 @@ that release. This is potentially wasteful, so prefer options (1) or (2).
 
 {% include cross-sell.html %}
 
-Cache invalidation is hard—[famously
-so](https://martinfowler.com/bliki/TwoHardThings.html)—so there’s [a spec
+Cache invalidation is hard — [famously
+so](https://martinfowler.com/bliki/TwoHardThings.html) — so there’s [a spec
 currently underway](https://www.w3.org/TR/clear-site-data/) that helps
 developers quite definitively clear the entire cache for their site’s origin in
 one fell swoop: `Clear-Site-Data`.
@@ -566,8 +566,8 @@ but it’s a scenario you should be aware of.
 
 ### Static JS (or CSS) App Bundle
 
-Let’s say our `app.[fingerprint].js` updates pretty frequently—potentially with
-every release we do—but we’ve also put in the work to fingerprint the file every
+Let’s say our `app.[fingerprint].js` updates pretty frequently — potentially with
+every release we do — but we’ve also put in the work to fingerprint the file every
 time it changes (good work!) then we can do something like this:
 
 ```
@@ -617,7 +617,7 @@ let’s use that one while we fetch the latest version in the background.
 
 * Cache busting is vitally important. Work out your cache busting strategy
   before you begin work on your caching strategy.
-* Generally speaking, caching HTML—content—is a bad idea. HTML URLs can’t be
+* Generally speaking, caching HTML — content — is a bad idea. HTML URLs can’t be
   busted, and as your HTML page is generally the entry point into the rest of
   your page’s subresources, you’ll end up caching the references to your static
   assets, too. This is going to cause you (and your users) a world of

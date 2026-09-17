@@ -19,14 +19,14 @@ bake web performance in from the start?</q> This post comes from a specific bit
 of advice I gave a client recently.
 
 Their design system sits on top of a highly permissive CMS. Editors have a lot
-of freedom—which is great—but it means the system often does not know, or cannot
+of freedom — which is great — but it means the system often does not know, or cannot
 tell, if a component will render above or below the fold, on or off screen, or
 whether it will appear once or many times on the page.
 
 This makes things like `loading=lazy` and `fetchpriority=high` awkward: if an
 image might be an LCP candidate, then `loading=lazy` is bad news; if several
 images might be LCP candidates, then `fetchpriority=high` on all of them is bad
-news, too—when everything is high priority, nothing is.
+news, too — when everything is high priority, nothing is.
 
 And so my take is this: **when all you can do is all or nothing, _do nothing_.**
 

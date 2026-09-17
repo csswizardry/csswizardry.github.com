@@ -16,8 +16,8 @@ often met with shock and horror:
 
 **I advise the use of `!important`.**
 
-For the most part, I’m glad that the initial reaction is disgust—`!important`
-usually _is_ bad news—however, there’s a little more to it than that…
+For the most part, I’m glad that the initial reaction is disgust — `!important`
+usually _is_ bad news — however, there’s a little more to it than that…
 
 As with most things, there are exceptional circumstances in which following the
 rules would actually be a pretty bad idea, and it’s usually context and

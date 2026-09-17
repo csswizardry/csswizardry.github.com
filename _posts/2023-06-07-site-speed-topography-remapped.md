@@ -35,8 +35,8 @@ time, I have adapted and updated the tools and technique itself…
 Firstly, let’s recap the methodology itself.
 
 The idea is that by taking a handful of representative page- or template-types
-from an entire website, we can quickly build the overall landscape—or
-<i>topography</i>—of the site by comparing and contrasting numerical and
+from an entire website, we can quickly build the overall landscape — or
+<i>topography</i> — of the site by comparing and contrasting numerical and
 milestone timings.
 
 Realistically, you _need_ to read [the original
@@ -64,7 +64,7 @@ and SpeedIndex suggest late-loaded content. These insights gained across several
 representative page types allow us to build a picture of how the entire site
 might be built, but from observing only a small slice of it.
 
-The backbone of the methodology is—or at least _was_—viewing the data
+The backbone of the methodology is — or at least _was_ — viewing the data
 graphically and spotting patterns in the bar chart:
 
 <figure>
@@ -76,7 +76,7 @@ issues.</figcaption>
 Above, we can see that the Product Listing Page (PLP) is by far the worst
 performing of the sample, and would need particular attention. We can also see
 that First Paint and First Contentful Paint are near identical on all pages
-except the PLP—is this a webfont issue? In fact, [we can see a lot of
+except the PLP — is this a webfont issue? In fact, [we can see a lot of
 issues](/2020/11/site-speed-topography/#building-the-map)
 if we look hard enough. But… who wants to look hard? Shouldn’t these things be
 easier to spot?
@@ -92,7 +92,7 @@ in numbers.
 
 Surely, if we have all of the facts and figures in front of us anyway, manually
 eyeballing a bar chart to try and spot patterns is much more effort than
-necessary? We’re already in a spreadsheet—can’t we bring the patterns to us?
+necessary? We’re already in a spreadsheet — can’t we bring the patterns to us?
 
 **Yes**. We can.
 
@@ -115,7 +115,7 @@ Now, without having to do any mental gymnastics at all, we can quickly see:
 * We can begin to infer other issues from metrics already present.
 
 Of course, we can still graph the data, but we soon find that that’s almost
-entirely redundant now—we solved all of our problems in the numbers.
+entirely redundant now — we solved all of our problems in the numbers.
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2023/06/site-speed-topography-02.png" alt="" loading="lazy" width="1500" height="726" />
@@ -129,8 +129,8 @@ have by far the worst LCP scores; the SRP’s CLS is through the roof. But this 
 only visual and not exactly persistent. Still, I have included the chart in the
 new spreadsheet because different people prefer different approaches.
 
-Without looking at a single line of code—without even visiting a single one of
-these pages in a browser!—we can already work out where our main liabilities
+Without looking at a single line of code — without even visiting a single one of
+these pages in a browser! — we can already work out where our main liabilities
 lie. We know where to focus our efforts, and our day-one to-do list is already
 written. No more false starts and dead ends. **Optimise the work not done.**
 

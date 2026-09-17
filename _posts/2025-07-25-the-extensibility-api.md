@@ -11,7 +11,7 @@ tags:
   - Browser APIs
 show_taxonomy: true
 main: "/wp-content/uploads/2025/07/extensibility-10.png"
-meta: "Making sense—and use!—of the new Performance Extensibility API in Chrome DevTools."
+meta: "Making sense — and use! — of the new Performance Extensibility API in Chrome DevTools."
 ---
 
 Google Chrome recently introduced the Performance [Extensibility
@@ -75,7 +75,7 @@ should help:
 </script>
 ```
 
-Here, we drop a high-resolution timestamp—`cssStart`—using `performance.mark()`.
+Here, we drop a high-resolution timestamp — `cssStart` — using `performance.mark()`.
 We then fetch a synchronous stylesheet, `app.css`, before dropping a second
 high-resolution timestamp, `cssEnd`, using `performance.mark()` once more.
 Lastly, we use `performance.measure()` to create a measure of the duration of
@@ -134,7 +134,7 @@ a moment in time. <code>.mark()</code>s are found above
 <code>.measure()</code>s.</figcaption>
 </figure>
 
-The benefit of the `console.log()` approach is that it’s much faster—you don’t
+The benefit of the `console.log()` approach is that it’s much faster — you don’t
 need to run a full performance profile, but the benefit of the Performance panel
 method is that you can visualise the times in context of your application’s
 runtime. The former is great if you just need the number as quickly as possible;
@@ -208,7 +208,7 @@ Key improvements:
 
 However, there are two major downsides thus far:
 
-1. **The marker is as wide as the text it contains**—this can make things
+1. **The marker is as wide as the text it contains** — this can make things
    a little misleading as markers now no longer appear to be a point in time,
    but potentially a duration. Once you get used to this, you get used to it,
    but at first, it’s easy to mistake a `.mark()` for a `.meaasure()`.
@@ -232,7 +232,7 @@ this pretty bizarre.</figcaption>
 </figure>
 
 To this end, I’d be inclined to use `.mark()` less as a timestamp and more as a,
-well, marker—it can quickly bring your attention to the relevant part of your
+well, marker — it can quickly bring your attention to the relevant part of your
 trace.
 
 That’s your minimum viable `.mark()`.
@@ -253,8 +253,8 @@ performance.measure('cssTime', {
 ```
 
 We still need to pass in the reference start `.mark()` via the `start:`
-property. Our end marker, if omitted, defaults to right now—when the
-`.measure()` is being called—or can be provided explicitly via `end:`. The
+property. Our end marker, if omitted, defaults to right now — when the
+`.measure()` is being called — or can be provided explicitly via `end:`. The
 `track` property is mandatory, and this forms our minimum viable `.measure()`.
 Note that we don’t need to supply the `dataType` property as its omission
 defaults to `dataType: 'track-entry'`, which is exactly what we need. Let’s see
@@ -300,7 +300,7 @@ performance.mark('jsEnd', {
 Notice that our `jsEnd` marker is now a dark pinky-purple:
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-07.png" alt="Marker text in the Performance panel replaced with tooltipText using the Extensibility API—note the absence of an actual tooltip." width="1500" height="891" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/extensibility-07.png" alt="Marker text in the Performance panel replaced with tooltipText using the Extensibility API — note the absence of an actual tooltip." width="1500" height="891" loading="lazy">
 <figcaption>The top-right marker is now dark pink, which I guess maps to <code>secondary-dark</code>.</figcaption>
 </figure>
 
@@ -319,7 +319,7 @@ performance.mark('jsEnd', {
 ```
 
 To be honest, this is no better, and certainly no more convenient, than just
-using a different string in place of `jsEnd`—this text hasn’t produced
+using a different string in place of `jsEnd` — this text hasn’t produced
 a tooltip, but rather just replaced the marker’s text.
 
 The takeaway so far is that the Extensibility API is less useful for

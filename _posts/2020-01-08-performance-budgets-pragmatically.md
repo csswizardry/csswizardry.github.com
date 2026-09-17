@@ -12,7 +12,7 @@ meta: "If you’ve ever struggled to define performance budgets, this off-the-sh
 ---
 
 One of the key tools that performance engineers have at their disposal is the
-Performance Budget: it helps us—or, more importantly, our clients—ensure that
+Performance Budget: it helps us — or, more importantly, our clients — ensure that
 any performance-focused work is monitored and maintained after we’ve gone.
 
 By establishing an acceptable threshold, be that based on RUM data, bundle
@@ -27,7 +27,7 @@ budgets actually be?!</q>**
 ## Targets vs. Safeguards
 
 When faced with the task of setting a brand new budget, it can feel
-daunting—almost paralysing—trying to find a value that is both attainable but
+daunting — almost paralysing — trying to find a value that is both attainable but
 effective. Is it too ambitious? Is it not ambitious enough? Is it going to be
 really difficult to hit? Or do we risk making it so easy to achieve that it’s
 almost pointless? How do we know? How long will it take to find out?
@@ -59,10 +59,10 @@ happen:
 
 1. **Your new worst-point is better than the last one:** This is the best
    outcome! Let’s say you went from a 7.2s load time and now your worst value is
-   6.8s—well done! Now your budget gets updated to 6.8s and your job is to not
+   6.8s — well done! Now your budget gets updated to 6.8s and your job is to not
    regress beyond that.
 2. **Your new worst-point is the same as the last one:** This is still good
-   news—we haven’t regressed! But we haven’t improved, either. In this scenario,
+   news — we haven’t regressed! But we haven’t improved, either. In this scenario,
    we don’t need to do anything. Instead, we just leave the budget as it was and
    hope we can continue on the same path.
 3. **Your new worst-point is worse than the last one:** Uh oh. This is bad news.

@@ -62,7 +62,7 @@ being decompressed and expanded. The actual amount of bytes coming over the wire
 was substantially less, but still very high at 232K.
 
 As soon as we start seeing stylesheets of that size, we should start panicking.
-I was relatively certain—without even having to look—that there would be some
+I was relatively certain — without even having to look — that there would be some
 Base64 in here. That’s not to say that I expected it to be the only factor
 (plugins, lack of architecture, legacy, etc. are all likely to play a part), but
 stylesheets that large are _usually_ indicative of Base64. Still:
@@ -197,7 +197,7 @@ arrives later. Could it really get much worse?!
 Oh yes, it can.
 
 Browsers are smart. Really smart. They make a lot of performance optimisations
-for us because—more often than not—they know better. Let’s think about
+for us because — more often than not — they know better. Let’s think about
 responsive:
 
 ```
@@ -303,7 +303,7 @@ loading solutions out there, but Base64 ain’t one of them.
 Base64 also affects our ability to have more sophisticated caching strategies:
 by coupling our fonts, images, and styles together, they’re all governed by the
 same rule. This means that if we change just one hex value in our CSS
-somewhere—a change that might represent up to six bytes of new data—we have to
+somewhere — a change that might represent up to six bytes of new data — we have to
 redownload hundreds of kilobytes of styles, images, and fonts.
 
 In fact, fonts are a really bad offender here: fonts are very, very unlikely to
@@ -328,7 +328,7 @@ Okay, so let’s quickly recap:
   (e.g. Gzip). This increase in filesize delays rendering, because it’s
   happening to a render-blocking resource.
 * Base64 encoding also forces non-critical assets onto the critical path. (e.g
-  images, fonts) This means that—in this particular case—instead of needing to
+  images, fonts) This means that — in this particular case — instead of needing to
   download 68K of CSS before we can begin rendering the page, we need to
   download over 3.4× that amount. We’re just keeping the user waiting for assets
   that they originally would have never needed to wait for!

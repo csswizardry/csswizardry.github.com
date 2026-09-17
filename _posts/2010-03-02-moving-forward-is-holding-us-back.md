@@ -15,7 +15,7 @@ show_taxonomy: true
 For years, web developers have been looking forward to that next feature, that
 new and monumental shift which has allowed them to break away from the shackles
 of obsolescence and adopt new and forward thinking technologies. But it is
-beginning to come full circle—that thirst for new technology has slowly brought
+beginning to come full circle — that thirst for new technology has slowly brought
 us back to square one, reimposing the constraints that we have, for years, tried
 to rid ourselves of. _Moving forward is holding us back_.
 
@@ -73,7 +73,7 @@ inviable option for content which needs to be universally accessible.
 
 ### A real life example?
 
-Anyone with an iPhone will know what I mean—spending any amount of time on an
+Anyone with an iPhone will know what I mean — spending any amount of time on an
 iPhone loading poorly optimised sites is a real grind, and via some sensible
 optimisation these problems can be easily alleviated.
 

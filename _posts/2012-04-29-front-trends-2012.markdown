@@ -12,11 +12,11 @@ tags:
 show_taxonomy: true
 ---
 
-Last night I landed back in [a cold, miserable Leeds](http://instagr.am/p/KAOHsOojIg) after spending what was by far the most exciting, amazing and fun few days I’ve ever had—as a speaker at [Front-Trends](http://2012.front-trends.com/).
+Last night I landed back in [a cold, miserable Leeds](http://instagr.am/p/KAOHsOojIg) after spending what was by far the most exciting, amazing and fun few days I’ve ever had — as a speaker at [Front-Trends](http://2012.front-trends.com/).
 
 Some time last year I was invited to speak at the conference, the first of its type I have _ever_ spoken at; ‘nervous’ doesn’t even come close.
 
-I delivered my talk—[Breaking Good Habits](http://speakerdeck.com/u/csswizardry/p/breaking-good-habits-1)—to 470 people! My only previous speaking experience was in the tiny English town of Barnsley to a small room of no more than 50. [This](http://www.flickr.com/photos/csswizardry/7123682471/in/set-72157629558792354) was the most terrifying thing _ever_ (and there are over a hundred people out of shot).
+I delivered my talk — [Breaking Good Habits](http://speakerdeck.com/u/csswizardry/p/breaking-good-habits-1) — to 470 people! My only previous speaking experience was in the tiny English town of Barnsley to a small room of no more than 50. [This](http://www.flickr.com/photos/csswizardry/7123682471/in/set-72157629558792354) was the most terrifying thing _ever_ (and there are over a hundred people out of shot).
 
 I also snapped some pretty poor iPhone pictures of my time in Warsaw which, if you’re interested in, you can grab [on Flickr](http://www.flickr.com/photos/csswizardry/sets/72157629558792354/). If you’re a speaker and somehow find that you like my poorly focussed phone-camera snap of yourself then please, by all means, grab yourself a copy.
 
@@ -60,7 +60,7 @@ This was a hot topic on Twitter... Free beer being served _throughout_ the confe
 
 A lot of people on Twitter said to drink beer during a conference is unprofessional and that you shouldn’t serve any intoxicating beverages at such an event. To me that’s not right; drinking at a conference isn’t unprofessional, being drunk _is_.
 
-The weather was amazing during the conference, hovering around 30°C. There was a lot of grass outside the venue, it was _ideal_ beer weather. The beer acted as a social lubricant; we’re a young dynamic industry, we deal day-in-day-out with cool and interesting stuff, we’re not a bunch of boring squares who dress in suits, we’re a community of interesting and excitable individuals, the exact kind of people I’d love to have a beer with—and got to!
+The weather was amazing during the conference, hovering around 30°C. There was a lot of grass outside the venue, it was _ideal_ beer weather. The beer acted as a social lubricant; we’re a young dynamic industry, we deal day-in-day-out with cool and interesting stuff, we’re not a bunch of boring squares who dress in suits, we’re a community of interesting and excitable individuals, the exact kind of people I’d love to have a beer with — and got to!
 
 The fact that beer was being served throughout the two days of baking sun where 470 like-minded people were gathered to watch some of the web’s best front-end developers (and me) give talks gave the whole thing a real festival feel. Front-Trends 2012 felt like a festival, a festival of designers, developers, sun, music and some absolutely stellar talks. Seriously, it was unreal. People commenting from afar on the beer situation unfortunately didn’t have the full context, they couldn’t see that no one was drunk, no one started any drinking games or competitions, no one embarrassed themselves; nothing went wrong.
 

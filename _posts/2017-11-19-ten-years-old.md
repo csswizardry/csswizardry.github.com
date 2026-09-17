@@ -27,7 +27,7 @@ Mastery</cite>](https://www.amazon.co.uk/gp/product/1430223979?ie=UTF8&tag=blogo
 which is a book that inspired me greatly. I actually loathe the name CSS
 Wizardry now, but it’s stuck too well for me to change it: I guess it’s here to
 stay. Incidentally, a lot of people think the name choice was making a play on
-the whole Harry/wizard thing—it wasn’t.
+the whole Harry/wizard thing — it wasn’t.
 
 Fast forward a decade, and that whimsical purchase has probably been the most
 influential decision I ever made. What started off as an overly-confident

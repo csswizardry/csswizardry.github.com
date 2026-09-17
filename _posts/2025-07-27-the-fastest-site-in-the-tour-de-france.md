@@ -96,7 +96,7 @@ predictably, won the overall title, making it his fourth time taking the
 [<i>maillot jaune</i>](https://fr.wikipedia.org/wiki/Maillot_jaune).
 
 I’m a huge cycling nerd, and the Tour de France is the pinnacle of the sport.
-Three weeks of racing—21 stages—covering 3,338.8 kilometers of terrain, it
+Three weeks of racing — 21 stages — covering 3,338.8 kilometers of terrain, it
 really is a marathon and not a sprint.
 
 But that isn’t to say that speed isn’t important! Cycling is a sport obsessed
@@ -373,15 +373,15 @@ seems very healthy!
 
 A clear cliff appears between rows 12 (Lapierre) and 13 (Pinarello) when sites
 suddenly move from failing one or all of the Core Web Vitals to overwhelmingly
-passing all three. This is measured by the [_Ordinal_ score—around which CrRRUX
+passing all three. This is measured by the [_Ordinal_ score — around which CrRRUX
 is heavily
-weighted](/2024/11/designing-and-evolving-a-new-performance-score/#naive-approach-1-ordinal-score)—and
+weighted](/2024/11/designing-and-evolving-a-new-performance-score/#naive-approach-1-ordinal-score) — and
 means any site that only passes, say, two Core Web Vitals cannot rank above any
 site that passes all three.
 
 The fact we go from high-70s to high-90s in one leap isn’t something one
 typically observes in these kinds of comparison. There’s no deep or hidden
-meaning there—it’s just a very interesting thing to see.
+meaning there — it’s just a very interesting thing to see.
 
 
 
@@ -440,7 +440,7 @@ btn--full">Subscribe Now</a>
 ### 🥇 Merida
 
 <figure>
-<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/merida-pdp.jpg" alt="Merida REACTO TEAM aero road bike with deep-section wheels and team Bahrain Victorious livery, displayed on a white product background with detailed geometry, specs, and download links—ideal for elite racers and enthusiasts." width="1500" height="887" loading="lazy">
+<img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/merida-pdp.jpg" alt="Merida REACTO TEAM aero road bike with deep-section wheels and team Bahrain Victorious livery, displayed on a white product background with detailed geometry, specs, and download links — ideal for elite racers and enthusiasts." width="1500" height="887" loading="lazy">
 <figcaption><a href="https://www.merida-bikes.com/en/bike/4850/reacto-team">Merida REACTO TEAM</a></figcaption>
 </figure>
 
@@ -458,7 +458,7 @@ very quick-fire analysis…
 |    1,188 |       77 | 0.00 |
 
 Despite utilising Vue.js 2.1.10 in places, Merida’s site is a pretty
-traditional—dare I say _old school_—MPA. I can’t work out the exact stack too
+traditional — dare I say _old school_ — MPA. I can’t work out the exact stack too
 quickly, but it sticks to ‘classic’ CSS and JS, and age-old advice like
 <q>styles at the top; scripts at the bottom</q>. This reminds of the
 McMaster–Carr site that did the rounds a few years ago: websites _are_ fast
@@ -495,7 +495,7 @@ until developers start messing around with them.
 
 <figure>
 <img src="{{ site.cloudinary }}/wp-content/uploads/2025/07/wpt-merida-home.png" alt="" width="1012" height="839" loading="lazy">
-<figcaption>Their LCP image is entry 34. Note the 250ms connection overhead added to the critical path at entry 2—we’d like to avoid this wherever possible.</figcaption>
+<figcaption>Their LCP image is entry 34. Note the 250ms connection overhead added to the critical path at entry 2 — we’d like to avoid this wherever possible.</figcaption>
 </figure>
 
 Issues specific to the homepage:
@@ -531,9 +531,9 @@ And issues specific to their product details page:
 
 Merida is a great example of simply not getting in the way of the browser. Sure,
 they have room for improvement, but even then they are still coming in at number
-one. By not throwing every npm package in the world at the site—by simply
+one. By not throwing every npm package in the world at the site — by simply
 [betting on
-boring](/2025/01/build-for-the-web-build-on-the-web-build-with-the-web/)—they’ve
+boring](/2025/01/build-for-the-web-build-on-the-web-build-with-the-web/) — they’ve
 sustained class-leading performance. That’s more than can be said for most
 ‘modern’ stacks.
 
@@ -591,7 +591,7 @@ storefront and deployed onto their _Oxygen_.
 * LCP images on both pages are both `background-image`s that are
   late-discovered.
   * They also live on yet another third-party origin that is not
-    `preconnect`ed—Contentful’s `images.ctfassets.net`.
+    `preconnect`ed — Contentful’s `images.ctfassets.net`.
 
 #### Factor’s Homepage Highlights
 
@@ -670,7 +670,7 @@ manufacturer.
 |    1,298 |      105 | 0.01 |
 
 Giant took third place on our podium. It looks as though they make use of
-Vue.js—or at least Vue Cart—but no obvious signs of a framework such as Nuxt.
+Vue.js — or at least Vue Cart — but no obvious signs of a framework such as Nuxt.
 
 * Giant is built as a _Multiple Page App_. Or as we used to call them,
   _websites_.
@@ -679,8 +679,8 @@ Vue.js—or at least Vue Cart—but no obvious signs of a framework such as Nuxt
   and one to `https://images2.giant-bicycles.com`.
   * The `static.` origins are on the critical path.
 * They make use of old school, JS-based lazy loading.
-* They use unquoted `attribute=value` pairs like I do—_nice_.
-* Great restraint shown here—only a small number of resources loaded from the
+* They use unquoted `attribute=value` pairs like I do — _nice_.
+* Great restraint shown here — only a small number of resources loaded from the
   `<head>`.
   * Non-critical CSS files are fetched asynchronously.
 * They’re making good use of `font-display`.
@@ -730,7 +730,7 @@ long to paint it.</figcaption>
 #### Takeaways
 
 With the Giant site, we’re in a place where looking at two pages in isolation
-actually look quite bad—there are a couple of egregious decisions that put them
+actually look quite bad — there are a couple of egregious decisions that put them
 on the back foot. But looking at the site overall, they’re glowing. It would be
 interesting to drill down into specific page- and template-types.
 
@@ -772,7 +772,7 @@ fronted by Cloudflare.
 
 * Fully client-rendered Vue.js (without Nuxt, etc.).
 * They still force hard navigations, so every page view runs into a high boot-up
-  cost—it runs as an MPA.
+  cost — it runs as an MPA.
 * They have a silly redirect whereby their logo links to `/us/en_US`, but the
   resulting URL is actually `/us/en_US/`. This adds pure latency onto every
   homepage click.
@@ -794,7 +794,7 @@ image.</figcaption>
   worth noting that Trek’s homepage yielded 262 requests!
 * The homepage’s LCP (29) is actually fetched relatively quickly, despite being
   fully client-rendered.
-  * And JS-lazy loaded once it arrives—wow!
+  * And JS-lazy loaded once it arrives — wow!
   * This slow-path request for the LCP image got it onto the device by about
     five seconds, but we don’t display it until approximately 15 seconds!
 * The homepage seems to have its app-shell pretty well place-held as there is no
@@ -825,7 +825,7 @@ API calls.</figcaption>
 </figure>
 
 * Interestingly enough, the video on the PDP isn’t classed as the LCP
-  candidate—it’s a piece of text that appears quite a lot earlier.
+  candidate — it’s a piece of text that appears quite a lot earlier.
   * The PDP’s ‘obvious’ LCP candidate is a YouTube video loaded via an `iframe`.
     Both RUM and synthetic testing cannot detect `iframe`-originated LCP’s for
     privacy reasons, but CrUX, being part of Chrome, can. The upshot of this is
@@ -848,7 +848,7 @@ The Trek site going all in on client-side Vue has left it struggling to hit
 decent paint timings. This coupled with particular page types not being
 adequately place-held gives us the CSR double whammy of LCP and CLS penalties.
 I can only imagine (or hope) Trek might have a rebuild or replatform on the
-horizon—seeing fully-client rendered Vue is already something of a relic.
+horizon — seeing fully-client rendered Vue is already something of a relic.
 
 <a href="https://csswizardry.gumroad.com/l/subscribe" class="btn">Subscribe
 now</a> to see detailed analysis of Trek’s website.
@@ -894,7 +894,7 @@ than that, it’s quite difficult to see what stack they’re on.
   [render-blocking](/2024/08/blocking-render-why-whould-you-do-that/) resources,
   including third-party ones.
 * They use Typekit which [contains an
-  `@import`](/2018/11/css-and-network-performance/#avoid-import-in-css-files)—a
+  `@import`](/2018/11/css-and-network-performance/#avoid-import-in-css-files) — a
   real killer.
   * It’s particularly harmful for Orbea as the bulk of their JavaScript is
     blocked behind it.
@@ -916,7 +916,7 @@ than that, it’s quite difficult to see what stack they’re on.
 
 * They lazy load their LCP on the homepage.
   * The sheer amount of JS that runs beforehand means it’s discovered incredibly
-    late—entry 89.
+    late — entry 89.
 * However they don’t lazy load images much further down the page.
   * They also omit `alt` and `width` and `height` attributes.
 * They fetched about 11.8MB of images.
@@ -941,7 +941,7 @@ than that, it’s quite difficult to see what stack they’re on.
   image anyway.
   * This means desktop will fetch the mobile image and, conditionally, the
     desktop image.
-* The PDP has two near (if not completely) identical carousels on it—more
+* The PDP has two near (if not completely) identical carousels on it — more
   additional fetches.
   * JS hides one of the carousels, but not before incurring a severe layout
     shift.
@@ -953,7 +953,7 @@ than that, it’s quite difficult to see what stack they’re on.
 
 It’s first byte times that are crippling Orbea. Setting even a modest `max-age`
 (and allowing Cloudflare to serve cached HTML responses) would take the edge
-off. Typekit—and the way they’ve placed it—cause them severe paint-timing
+off. Typekit — and the way they’ve placed it — cause them severe paint-timing
 issues. Blocking on top of blocking on top of blocking. The double-carousel
 issue on the PDP accounts almost exactly for their CLS scores. That would be
 a quick win for them.
@@ -1033,7 +1033,7 @@ bad news.</figcaption>
 
 * The LCP image is 1.4MB!
   * On slower connections, this is a killer.
-  * It is in the HTML at least—they should stick `fetchpriority=high` on there.
+  * It is in the HTML at least — they should stick `fetchpriority=high` on there.
 * The homepage ‘carousel’ is actually stacked one pane on top of the other
   rather than in a row like a traditional carousel.
   * This means that while the heavy images are downloading, we see loads of
@@ -1057,7 +1057,7 @@ bad news.</figcaption>
 * We have more poorly optimised images.
   * 16MB of the 24MB transferred is image data.
 * The PDP’s HTML payload is gargantuan.
-  * Almost 4MB decompressed—almost all of it is Nuxt state (`window.__NUXT__`).
+  * Almost 4MB decompressed — almost all of it is Nuxt state (`window.__NUXT__`).
 * We have an eyewatering 5MB of JS.
   * 12MB of the total 37MB uncompressed page bytes are JavaScript.
   * That’s not a typo.
@@ -1072,14 +1072,14 @@ Core Web Vitals, so congratulations are in order. Let’s take a moment.
 But onto the job at hand. Ridley is struggling a lot with all three metrics. LCP
 is hampered by already-high first-byte times, leaving only a 500ms budget to get
 from TTFB to LCP. The majority of their lost time happens between FCP and
-LCP—this is almost all lost to _Element Render Delay_. This may well be the
+LCP — this is almost all lost to _Element Render Delay_. This may well be the
 phenomenon observed above: the LCP event doesn’t fire until the main thread dies
 down.
 
 On the subject of the main thread, the constantly-firing
-`requestAnimationFrame()` is dragging them into the very pits of INP—well over
-one second! This isn’t because the main thread is necessarily blocked—`rAF()` is
-relatively noninvasive and each one only lasts a small amount of time—but the
+`requestAnimationFrame()` is dragging them into the very pits of INP — well over
+one second! This isn’t because the main thread is necessarily blocked — `rAF()` is
+relatively noninvasive and each one only lasts a small amount of time — but the
 main thread is just kept _so_ busy, it’s hard to sneak any user input in.
 
 <figure>
@@ -1117,8 +1117,8 @@ knows.
 **Big brands aren’t always the best performers.**
 
 Several of the industry’s most recognisable names fall startlingly low on this
-list. Trek, Orbea, and Specialized—brands with global reach and significant
-marketing clout—rank 19<sup>th</sup>, 20<sup>th</sup>, and 13<sup>th</sup>
+list. Trek, Orbea, and Specialized — brands with global reach and significant
+marketing clout — rank 19<sup>th</sup>, 20<sup>th</sup>, and 13<sup>th</sup>
 respectively. Their reputations far outpace their web performance.
 
 **High-end doesn’t always mean high CrUX scores.**
@@ -1127,7 +1127,7 @@ Colnago (17<sup>th</sup>), Wilier (18<sup>th</sup>), and Bianchi
 (15<sup>th</sup>) are all brands dripping with prestige and heritage (and the
 price tags to match), but in terms of web performance, they’re clustered towards
 the bottom of the group. This might suggest that legacy and luxury don’t always
-translate into digital excellence—or perhaps that their customer base tolerates
+translate into digital excellence — or perhaps that their customer base tolerates
 slower experiences in exchange for reputation and perception.
 
 **The underdog story is online-first.**
@@ -1188,7 +1188,7 @@ _team_ site that raced the 2025 Tour de France:
 **The fastest bike brand also supports a mid-ranked team.**
 
 Merida tops the CrRRUX rankings for manufacturers (1.0000) but sponsors Bahrain
-Victorious—only 17<sup>th</sup> in the final Tour standings. The Bahrain
+Victorious — only 17<sup>th</sup> in the final Tour standings. The Bahrain
 Victorious team site, however, is the second-fastest overall. It’s a rare
 alignment: fast bike site, fast team site, middling result.
 
@@ -1203,7 +1203,7 @@ placement? 18<sup>th</sup>. Fast site, slow legs.
 
 Giant ranks third in the bike CrRRUX table (0.9985), but Jayco–AlUla come dead
 last for team website performance (0.5562). Their Tour
-finish—17<sup>th</sup>—sits toward the bottom. Perhaps the team should take some
+finish — 17<sup>th</sup> — sits toward the bottom. Perhaps the team should take some
 performance tips from Giant’s developers?
 
 Could we conclude that Merida and Factor and Bahrain Victorious and
@@ -1319,7 +1319,7 @@ desktop data) for the most recent time period available on the final stage of
 the Tour (27 July 2025). CrUX data is based on real users’ experiences.
 
 I pulled that data into Google Sheets where I ran it through my own [CrRRUX
-algorithm](/2024/11/designing-and-evolving-a-new-performance-score/)—a metric
+algorithm](/2024/11/designing-and-evolving-a-new-performance-score/) — a metric
 designed to objectively and fairly rank a cohort of origins’ Core Web Vitals
 data.
 

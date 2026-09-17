@@ -18,7 +18,7 @@ This is a bit of an unusual article from me, it doesn’t mention OOCSS _once_! 
 
 I’ve been putting _massive_ effort into learning a lot more about Git lately; I’ve been using it at work for over a year now, but only ever the more basic bits; `add`, `commit`, `push`. I’m now finally starting to feel like I ‘get’ Git; I don’t just go through the motions of ‘first I type this then I type this’, I actually get what and why I’m doing things, and it feels awesome.
 
-As such, the way I work on [inuit.css](http://inuitcss.com) is (just) starting to change massively. I’m writing up my workflow, not to sound all preachy about how awesome I am at Git because—believe me—I know _nothing_. I’m writing it up in the hope that people can share improvements, modifications, alterations, disagreements or anything like that to keep me on this roll.
+As such, the way I work on [inuit.css](http://inuitcss.com) is (just) starting to change massively. I’m writing up my workflow, not to sound all preachy about how awesome I am at Git because — believe me — I know _nothing_. I’m writing it up in the hope that people can share improvements, modifications, alterations, disagreements or anything like that to keep me on this roll.
 
 The stuff I’ve learned thus far is thanks in no small part to the people I work with, to mention a notable few; [James Barwell](https://github.com/JamesBarwell), [Nick Payne](https://twitter.com/makeusabrew) and [Craig Andrews](https://twitter.com/craiga). There are likely more that I’ve forgotten, but these are the guys I pester the most!
 
@@ -53,7 +53,7 @@ If I get too carried away, and do more-than-one-logical-commit’s-worth-of-work
 
 ## Completing the feature
 
-It is worth noting that most features, like this one, can be quantified and deemed ‘complete’, but a branch like `misc-typo-fixes` will have a potentially infinite lifespan and _cannot_ usually be considered ‘done’. Depending on this, the next parts of my workflow may differ. If the feature _does_ have finite scope—and can be deemed ‘done’—then once I’m happy with it, I `diff` it against `master`:
+It is worth noting that most features, like this one, can be quantified and deemed ‘complete’, but a branch like `misc-typo-fixes` will have a potentially infinite lifespan and _cannot_ usually be considered ‘done’. Depending on this, the next parts of my workflow may differ. If the feature _does_ have finite scope — and can be deemed ‘done’ — then once I’m happy with it, I `diff` it against `master`:
     
     $ git diff master feature/responsive
 
@@ -61,7 +61,7 @@ This allows me to review any changes visually, check my work, and hopefully spot
 
 ## Rebasing
 
-This next thing, so I’m told, massively divides the Git community; <i>rebasing</i>. I find rebasing, when used properly, _incredibly_ useful. There are some people who loathe it—and will never use it—and that’s cool. I don’t know enough to have too strong an opinion, but I like using it. As with most things, with great power comes great responsibility…
+This next thing, so I’m told, massively divides the Git community; <i>rebasing</i>. I find rebasing, when used properly, _incredibly_ useful. There are some people who loathe it — and will never use it — and that’s cool. I don’t know enough to have too strong an opinion, but I like using it. As with most things, with great power comes great responsibility…
 
 Because `feature/responsive` is a private, development only, non-production branch, I can rebase it. Rebasing basically allows you to, among other things, reword, reorder and squash commits. This is the important bit; **it fiddles with your Git history**, and this is why people dislike it. Once you have pushed and/or shared a branch, you should see it as having missed the boat, and you cannot rebase. Rewriting Git history on a shared branch is dangerous territory. Anyway…
 
@@ -76,7 +76,7 @@ As I mentioned earlier, I like to commit a lot. Frequent commits, committing as 
 
 Looking at these commits, it’s pretty slapdash. That’s cool though, I committed as I worked, this is an accurate representation of what I did, however there are a few things to note:
 
-* In a team environment—where people have to merge your work for you—they’re seeing a lot of pointless commits. It’s more for them to read and review (note, the actual commit messages, not so much the code in them).
+* In a team environment — where people have to merge your work for you — they’re seeing a lot of pointless commits. It’s more for them to read and review (note, the actual commit messages, not so much the code in them).
 * The typo and trailing semi-colon commits kinda make me look a bit stupid.
 * There will be no desire to ever roll back to a stage in the commit history where the code _didn’t_ have that semi-colon, so being _able_ to roll back to that point seems silly. 
 * If we’re being totally honest, these could all be summed up in one as ‘Add responsive grid system’.

@@ -158,7 +158,7 @@ To which my response was:
 >     }
 >
 > …but this brings the same readability problems as before, as well as being
-> complete overkill—exclusively `@extend`ing single declarations will lead to a
+> complete overkill — exclusively `@extend`ing single declarations will lead to a
 > very unusual project, as well as very tightly coupled dependencies.)
 > 
 > <q>…more often than not code was being duplicated.</q>
@@ -201,12 +201,12 @@ To which my response was:
 > optional, and it tells us what are candidates for change (i.e. anything with a
 > `--` prefix).
 > 
-> There is absolutely no reason you can’t have utility classes—I even do this
-> myself—but they should be the exception rather than the rule. Avoid building
+> There is absolutely no reason you can’t have utility classes — I even do this
+> myself — but they should be the exception rather than the rule. Avoid building
 > entire sections of UI out of them.
 > 
 > Abstracting classes out as far as Atomic CSS (or any other similar
-> approach—this isn’t a criticism of Atomic CSS specifically) suggests will
+> approach — this isn’t a criticism of Atomic CSS specifically) suggests will
 > sacrifice (at the very least) context, readability, and maintainability, in
 > favour or smaller filesizes. I feel this is overkill, especially considering
 > that gzip would negate any difference in filesize anyway. We need to find that

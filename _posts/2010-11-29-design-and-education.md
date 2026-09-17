@@ -60,7 +60,7 @@ The final deciding factor in the move was a simple test of sorts. I sent two
 applications to two universities and to two web development agencies. Both
 agencies responded, and the first one I contacted offered me the job at the
 interview. That agency was Sense Internet; an award-winning big-hitter and quite
-a known name. To me the choice was clear—go to learn what I already knew over
+a known name. To me the choice was clear — go to learn what I already knew over
 four years at an expense to myself, or start out full-time industry life at
 Sense…
 
@@ -96,7 +96,7 @@ connection either, so I’d save articles and tutorials onto a USB stick to read
 in my room later.
 
 Two years of this and I’d decided I didn’t need university. The key was that I
-was learning about the industry as it happened—things were always up-to-date.
+was learning about the industry as it happened — things were always up-to-date.
 This is where degrees and formal education are lacking in my opinion; you can’t
 plan the content of a course three years before it results in graduation. Three
 years in Internet years is such a long time it’s untrue. That’s why people are

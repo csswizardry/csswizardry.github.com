@@ -32,8 +32,8 @@ Bandwidth is defined as…
 Generally speaking, increased bandwidth is only particularly useful when you’re
 transferring or downloading large files. If you’re streaming video, the
 difference between a 2Mb[^1] connection and a 20Mb connection will surely be
-appreciated. If you’re browsing the web—with most pages constructed of much
-smaller files—then the same change in bandwidth may not be felt quite as much.
+appreciated. If you’re browsing the web — with most pages constructed of much
+smaller files — then the same change in bandwidth may not be felt quite as much.
 
 Latency is defined as…
 
@@ -41,8 +41,8 @@ Latency is defined as…
 > node or endpoint to another.
 
 Where bandwidth deals with capacity, latency is more about speed of
-transfer[^2]. As a web user—often transferring lots of smaller
-files—reductions in latency will almost always be a welcome improvement.
+transfer[^2]. As a web user — often transferring lots of smaller
+files — reductions in latency will almost always be a welcome improvement.
 
 So, although it is widely accepted that, at least for regular web browsing,
 latency is the bigger bottleneck[^3], it still pays to be aware of whether it is
@@ -55,7 +55,7 @@ latency, which actually brings me onto my first point:
 
 It’s something of a misnomer to use phrases like <q>increase in bandwidth</q>
 and <q>reduction in latency</q>. We don’t really have the ability to simply
-‘increase bandwidth’—although that would be nice!—so what we’re really looking
+‘increase bandwidth’ — although that would be nice! — so what we’re really looking
 to do is reduce the amount of transfer. Similarly, there isn’t much we can do to
 really ‘reduce latency’, but we can [avoid
 latency](/2024/09/optimising-for-high-latency-environments/)
@@ -73,7 +73,7 @@ of each entry in out waterfall chart, thus displaying a little more detail (2).
   <figcaption><a href="/wp-content/uploads/2019/01/waterfall-01-full.png">View full size/quality (404KB)</a></figcaption>
 </figure>
 
-Why this isn’t the default view, I will never know—there is so much useful extra
+Why this isn’t the default view, I will never know — there is so much useful extra
 information here!
 
 * **In the _Name_ column:** As well as seeing the name of the resource, we now
@@ -112,7 +112,7 @@ the content download itself.
 <figure>
   <img src="/wp-content/uploads/2019/01/waterfall-01.png" alt="">
   <figcaption><strong>N.B.</strong> This waterfall is merely an example for
-  example’s sake—please don’t read too much into any of the actual numbers here.
+  example’s sake — please don’t read too much into any of the actual numbers here.
   It’s for illustrative purposes only.</figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ where a reduction in filesize would lead to quicker delivery.
 
 Looking at the next entry, `lux.js` from [SpeedCurve](https://speedcurve.com/),
 we’ll see a total time of 78ms and a latency count of 77ms. Just one millisecond
-to download this file—amazing! Reducing its size is really going to make so
+to download this file — amazing! Reducing its size is really going to make so
 little difference.
 
 Finally, looking at the last five image requests, we see that all of their
@@ -147,7 +147,7 @@ gains through optimising them further.
 
 ## Important Considerations
 
-The waterfall I used as a demo was exactly that—a demo. It’s vital that you run
+The waterfall I used as a demo was exactly that — a demo. It’s vital that you run
 your own tests [several
 times](/2017/01/choosing-the-correct-average/) and across
 a range of different network conditions to assess how key resources respond.

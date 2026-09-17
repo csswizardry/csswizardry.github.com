@@ -11,7 +11,7 @@ meta: "My own personal tips and tricks for surviving lots of air travel."
 ---
 
 I’m not the world’s most well travelled person by any stretch of the
-imagination, but—especially since working for myself—I’ve done [more than my
+imagination, but — especially since working for myself — I’ve done [more than my
 fair share of
 flying](https://twitter.com/csswizardry/status/590067747524050944). I enjoy
 going to new places, but I really don’t enjoy the getting there. Flights are an
@@ -27,8 +27,8 @@ I thought I’d share some of my own flying advice.
 
 Echoing both Cennydd and Craig’s sentiments, the single biggest favour you can do
 yourself is **be early**. Really early. If your flight leaves at 1040, act as
-though your flight leaves at 1000; tell everyone concerned—like your cab
-driver—that your flight leaves at 1000, and then get to the airport 2 hours
+though your flight leaves at 1000; tell everyone concerned — like your cab
+driver — that your flight leaves at 1000, and then get to the airport 2 hours
 before _that_. Being late for a flight is way too stressful, and allows zero
 room for error once you’re in the airport (huge queue at check in; bottlenecks
 at security).
@@ -65,8 +65,8 @@ want a backup.
 
 Airlines will mess up. They’re worryingly good at it. On my recent trip to
 Uruguay, American Airlines managed to [delay
-me](https://twitter.com/csswizardry/status/588682994250047488)—without access to
-my suitcase!—by 24 hours on the way out, and then lose my luggage for two days
+me](https://twitter.com/csswizardry/status/588682994250047488) — without access to
+my suitcase! — by 24 hours on the way out, and then lose my luggage for two days
 on [the way back](https://twitter.com/csswizardry/status/589872233968893952). By
 having a spare pair of socks, boxer shorts, and a t-shirt in my hand luggage
 meant I could at least feel a little fresher by getting changed in an airport
@@ -99,7 +99,7 @@ little nicer than the average.
 
 So many people I know will plan out every leg of their journey days beforehand.
 Normally I like to work everything out just before I need
-it—[Just-in-Time](https://en.wikipedia.org/wiki/Just-in-Time_Manufacturing). I
+it — [Just-in-Time](https://en.wikipedia.org/wiki/Just-in-Time_Manufacturing). I
 check in at the airport rather than worrying about it two days in advance. I use
 my time at the airport to work out what I do once I’ve landed: Where is my
 hotel? What time is check in? Are there any good places near it to grab lunch?

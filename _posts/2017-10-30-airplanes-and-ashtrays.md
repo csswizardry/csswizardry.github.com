@@ -29,7 +29,7 @@ board, but if they do, then we need to handle the fallout from it in the
 safest way possible.
 
 For me, the ashtray is a symbol of pragmatism. Of course we don’t want people to
-smoke—we tell them not to!—but we have to accept that, at some point, they will.
+smoke — we tell them not to! — but we have to accept that, at some point, they will.
 This acceptance then paves the way for a more pragmatic compromise in which we
 don’t have the perfect world that we want, but we also don’t have a disaster on
 our hands. Nobody wins, but nobody loses.
@@ -57,10 +57,10 @@ framework, they’ll often opt to simply not use it at all. This is a net loss,
 whereas allowing them to do the wrong thing would have at least led to greater
 adoption, more consistency, and less repetition.
 
-Whenever you plan or design a system, you need to build in your own ashtrays—a
+Whenever you plan or design a system, you need to build in your own ashtrays — a
 codified way of dealing with the inevitability of somebody doing the wrong
-thing. Think of what your ideal scenario is—how do you want people to use
-whatever you’re building—and then try to identify any aspects of it which may be
+thing. Think of what your ideal scenario is — how do you want people to use
+whatever you’re building — and then try to identify any aspects of it which may be
 overly opinionated, prescriptive, or restrictive. Then try to preempt how people
 might try to avoid or circumvent these rules, and work back from there until you
 can design a safe middle-ground into your framework that can accept these
@@ -68,8 +68,8 @@ deviations in the safest, least destructive way possible.
 
 The quickest example I can bring to mind is my own
 [Shame.css](/2013/04/shame-css/). The idea behind
-Shame.css is that we do not want any hacks or nasty CSS in our codebase—of
-course we don’t!—but we also have to accept that they are inevitable. Instead of
+Shame.css is that we do not want any hacks or nasty CSS in our codebase — of
+course we don’t! — but we also have to accept that they are inevitable. Instead of
 leaving developers to introduce these hacks throughout the entire codebase, we
 set aside a dedicated spot for them. We said, <q>Look, we really don’t want any
 hacky code if we can help it, but if we can’t avoid it then please leave it here

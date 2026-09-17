@@ -12,7 +12,7 @@ meta: I have a couple of days off in Leeds around two conferences; let’s meet�
 show_taxonomy: true
 ---
 
-It seems that tech events in [Leeds](http://bit.ly/14Id5QD)—where I live—are
+It seems that tech events in [Leeds](http://bit.ly/14Id5QD) — where I live — are
 like buses; you wait ages for one and then two show up at once! These are:
 
 * [Hey!Stac](http://hey.wearestac.com/)
@@ -27,8 +27,8 @@ with people.
 
 As such, I’ve booked the whole of the 23rd and 24th off work in order to have a
 couple of free days hanging out in Leeds. I have
-[Chad Tomkiss](https://twitter.com/chadtomkiss)—who is speaking at
-Hey!Stac—staying with me a couple of nights, and in the days we are free just to
+[Chad Tomkiss](https://twitter.com/chadtomkiss) — who is speaking at
+Hey!Stac — staying with me a couple of nights, and in the days we are free just to
 hang out in Leeds doing whatever. So…
 
 1. If you’re attending either event and are about _and_ fancy meeting up at any

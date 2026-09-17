@@ -230,7 +230,7 @@ information…
 ## Unsupported Browsers
 
 Most of the underlying APIs are only available in Chromium browsers. This means
-you need to decide how to handle notable absentees like iOS yourself—Obs.js
+you need to decide how to handle notable absentees like iOS yourself — Obs.js
 does not make that decision for you.
 
 Broadly, your choices are:
@@ -260,8 +260,8 @@ Those are all pretty small interventions, but together they can make the front
 end feel a lot more sympathetic to the user’s circumstances.
 
 Obs.js is running on its [demo page](https://csswizardry.com/Obs.js/demo/)
-right now, and the repo—including
-[`obs.js`](https://github.com/csswizardry/Obs.js/blob/main/obs.js) itself—is
+right now, and the repo — including
+[`obs.js`](https://github.com/csswizardry/Obs.js/blob/main/obs.js) itself — is
 there if you want to inspect the code. It is one of the most quietly useful
 little things I’ve built in a long while.
 

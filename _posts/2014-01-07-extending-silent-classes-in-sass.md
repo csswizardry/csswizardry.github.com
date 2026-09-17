@@ -85,8 +85,8 @@ convention or a namespace, something like:
     .x-foo {
     }
 
-Remembering to only ever `@extend` the `x-` prepended version—and avoid writing
-the prepended version elsewhere—means that there’s no chance of an overzealous
+Remembering to only ever `@extend` the `x-` prepended version — and avoid writing
+the prepended version elsewhere — means that there’s no chance of an overzealous
 `@extend` directive yielding far more CSS than we were expecting.
 
 {% include promo-case-studies.html %}
@@ -109,7 +109,7 @@ We’d write:
     %foo {
     }
 
-Now the `%foo` silent class—which should only ever exist once in any project—is
+Now the `%foo` silent class — which should only ever exist once in any project — is
 the subject of our `@extend`. This means that we can limit the reach of our
 `@extend`s, and not have that placeholder class appear in our compiled
 stylesheet(s).
@@ -157,7 +157,7 @@ order to make use of `@extend` (which, incidentally, I don’t really use much
 anyway) whilst attempting to mitigate the effects of its ‘greedy’ nature.
 
 
-There may well be better ways—and I’d love to hear them—but this, for now, is
+There may well be better ways — and I’d love to hear them — but this, for now, is
 how I’m handling it. I actually created a mixin (which hasn’t been stress tested
 _at all_) to generate this in one, DRYer go:
 [jsfiddle.net/csswizardry/ECntr](http://jsfiddle.net/csswizardry/ECntr/)

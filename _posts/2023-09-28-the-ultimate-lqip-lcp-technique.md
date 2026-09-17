@@ -52,7 +52,7 @@ before that, we even had the `lowsrc` attribute for `<img>` elements:
 ```
 
 <small>I wish we’d never [deprecated
-`lowsrc`](https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features)—it
+`lowsrc`](https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features) — it
 would have saved us so much hassle in the long run.</small>
 
 The technique is simple: as images are typically heavier and slower resources,
@@ -61,7 +61,7 @@ look at while they wait for the image to arrive. The solution? Show them
 a low-quality image placeholder, or _LQIP_.
 
 The upshot is that the user knows that _something_ is happening, and, ideally,
-they should have roughly some idea _what_ is happening—after all, we want our
+they should have roughly some idea _what_ is happening — after all, we want our
 LQIP to somewhat resemble the final image.
 
 ## Core Web Vitals and Largest Contentful Paint
@@ -143,7 +143,7 @@ size)</a></figcaption>
 Note that at **1.4s** we get our LCP event in full. When the other eight images
 arrive at **2.0s**, they make no difference to our score.
 
-This all seems straightforward enough—Chrome keeps on looking for the largest
+This all seems straightforward enough — Chrome keeps on looking for the largest
 element and then uses that, right? And it doesn’t necessarily spell bad news for
 our LQIP either. As long as our final image is the same dimensions as the LQIP
 was…?
@@ -464,7 +464,7 @@ CSS’ multiple backgrounds:
    scanner](/2022/03/optimising-largest-contentful-paint/#background-image-url),
    I’m `preload`ing the LQIP (`lo-res.jpg`) so that it’s already on its way
    before the parser encounters the `<header>`.
-   * Note that I’m not `preload`ing `hi-res.jpg`—we don’t want the two images to
+   * Note that I’m not `preload`ing `hi-res.jpg` — we don’t want the two images to
      race each other, we want them to arrive one after the other.
 0. Once the parser reaches the `<header>`, the request for `hi-res.jpg` is
    dispatched.
@@ -531,7 +531,7 @@ sidebar](#section:sub-content).
 
 ### Use an Image Transformation Service
 
-Being so tightly bound to these figures isn’t very redesign-friendly—you’d have
+Being so tightly bound to these figures isn’t very redesign-friendly — you’d have
 to reprocess your entire image library if you made your LCP candidate any
 bigger. With this in mind, I wouldn’t recommend attempting this manually, or
 batch-processing your entire back catalogue.
@@ -565,7 +565,7 @@ way):
 </figure>
 
 This is visually unacceptable as an LCP candidate, even though it ticks every
-box in the spec. My advice here—and it’s very subjective—is that you shouldn’t
+box in the spec. My advice here — and it’s very subjective — is that you shouldn’t
 accept an LQIP–LCP that you wouldn’t be happy for a user to look at for any
 period of time.
 

@@ -12,7 +12,7 @@ meta: "If you want to start consulting, you’re gonna need some paperwork!"
 ---
 
 As a [tech consultant](/consultancy/), having airtight contracts isn’t just
-about the paperwork—it’s about protecting your business and ensuring you get
+about the paperwork — it’s about protecting your business and ensuring you get
 paid on time. I’ve developed a [Contracts Starter
 Pack](https://csswizardry.gumroad.com/l/contracts-starter-pack) specifically for
 tech consultants to address common challenges, such as securing intellectual
@@ -20,8 +20,8 @@ property, managing payment terms, and avoiding scope creep.
 
 ## Why You Need Contract Templates as a Tech Consultant
 
-In the fast-paced world of tech consulting—especially where shorter, more
-tactical engagements are concerned—it’s easy to dive into projects without fully
+In the fast-paced world of tech consulting — especially where shorter, more
+tactical engagements are concerned — it’s easy to dive into projects without fully
 considering the legal protection you need. Contracts provide clarity between you
 and your clients, ensuring there are no misunderstandings around deliverables,
 payment, and project scope.
@@ -61,7 +61,7 @@ who wants to be perceived as a consummate professional.
 ## Why Use These Contract Templates?
 
 1. **Custom-Built for Tech Consultants:** Unlike generic templates, these
-   contracts consider the unique needs of tech consultants—like intellectual
+   contracts consider the unique needs of tech consultants — like intellectual
    property, evolving project scopes, and handling multiple clients.
 2. **Protect Your IP:** Ensure you retain ownership of your pre-existing
    intellectual property, and only transfer IP once all payments are cleared.
@@ -87,7 +87,7 @@ If you’re a tech consultant looking for reliable, easy-to-use contract
 templates, this [Contracts Starter
 Pack](https://csswizardry.gumroad.com/l/contracts-starter-pack) is designed for
 you. With years of experience behind these documents, you can trust that they’ll
-cover all the essential bases, letting you focus on what you do best—solving
+cover all the essential bases, letting you focus on what you do best — solving
 complex challenges for your clients.
 
 <a href="https://csswizardry.gumroad.com/l/contracts-starter-pack" class="btn  btn--full btn--positive">Get the <b>Contracts Starter Pack</b></a>

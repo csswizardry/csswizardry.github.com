@@ -170,7 +170,7 @@ $ ctags -R
 
 This will `-R`ecursively look through my project and make the database of its
 references. Then, once in my text editor, hitting `Ctrl-]` with my cursor
-over—for example—a Sass variable will jump me to the exact place that variable
+over — for example — a Sass variable will jump me to the exact place that variable
 was defined.
 
 ## Git on Top of Things

@@ -18,7 +18,7 @@ that might have quite an impact: how best to prepare for it?
 ## Background
 
 Vim is a [modal editor](https://en.wikipedia.org/wiki/Vi#Interface). Unlike most
-text editors⁠—⁠where you’re ready to type as soon as it opens⁠—⁠Vim loads itself in
+text editors⁠ — ⁠where you’re ready to type as soon as it opens⁠—⁠Vim loads itself in
 _Normal_ mode, and you have to make a conscious choice to enter _Insert_ mode in
 order to begin typing. Once you’ve finished typing, you need to get yourself
 back into Normal mode again. To do this, one of the most common options is to

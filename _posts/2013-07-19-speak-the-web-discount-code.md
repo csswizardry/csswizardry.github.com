@@ -32,7 +32,7 @@ _incredibly_ affordable at only £17.50 a ticket. And, if that’s not already
 cheap enough, there is also a 25%-off promo code you can use to get entry _even
 cheaper_. That code is simply **csswizardry**.
 
-So, if you’re free on the 23rd or 24th of July—and can make it to Leeds or
-Liverpool respectively—then grab yourself a ticket before they’re all gone!
+So, if you’re free on the 23rd or 24th of July — and can make it to Leeds or
+Liverpool respectively — then grab yourself a ticket before they’re all gone!
 
 See you there!

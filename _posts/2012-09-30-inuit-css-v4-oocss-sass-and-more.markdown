@@ -3,7 +3,7 @@ comments: true
 date: 2012-09-30 14:38:15
 layout: post
 slug: inuit-css-v4-oocss-sass-and-more
-title: inuit.css v4.0.0—OOCSS, Sass and more
+title: inuit.css v4.0.0 — OOCSS, Sass and more
 wordpress_id: 3836
 categories:
   - Web Development

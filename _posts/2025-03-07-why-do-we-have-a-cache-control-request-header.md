@@ -20,8 +20,8 @@ faq:
 I’ve [written](/2019/03/cache-control-for-civilians/) and
 [spoken](https://slideslive.com/39021005/cache-rules-everything) many, many
 times about the `Cache-Control` response header and its many directives, but one
-thing I haven’t covered before—and something I don’t think many developers are
-even aware of—is the `Cache-Control` _request_ header. Unless you know your
+thing I haven’t covered before — and something I don’t think many developers are
+even aware of — is the `Cache-Control` _request_ header. Unless you know your
 caching well, those two links in the first sentence will make this article a lot
 easier to understand. Maybe pop them open in another tab as a reference.
 
@@ -151,8 +151,8 @@ Key things to note:
 * Safari’s behaviour remains unchanged, which means that as far as the main
   document is concerned, a refresh and a hard refresh are equivalent.
 
-Note that this all applies to the main document and all of its subresources—even
-[`immutable`](/2019/03/cache-control-for-civilians/#immutable) assets—so
+Note that this all applies to the main document and all of its subresources — even
+[`immutable`](/2019/03/cache-control-for-civilians/#immutable) assets — so
 everything on the page is now guaranteed fresh. `304` responses are not
 possible.
 
@@ -165,7 +165,7 @@ revalidating it first.
 
 Where they differ is that `max-age=0` permits caches to reuse a response if
 revalidation isn't possible (e.g. no network access); `no-cache` is much
-stricter—it means the cache must always revalidate before releasing a response,
+stricter — it means the cache must always revalidate before releasing a response,
 or return an error if revalidation fails.
 
 ## Revalidation

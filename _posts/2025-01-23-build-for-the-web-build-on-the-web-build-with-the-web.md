@@ -34,7 +34,7 @@ In the last year alone, I have seen two completely different clients in two
 completely different industries sink months and months into framework upgrades.
 Collectively, they’ve spent tens, if not hundreds, of thousands of dollars
 rewriting entire projects just to maintain feature parity with the previous
-iteration. This is not meaningful or productive work—it is time sunk into merely
+iteration. This is not meaningful or productive work — it is time sunk into merely
 keeping themselves at square one.
 
 {% include cross-sell.html %}
@@ -55,11 +55,11 @@ work with the same client more than once. After all, you should never need to
 call pest control twice.
 
 The web as a platform is a safe bet. It’s un-versioned _by design_. That’s the
-commitment the web makes to you—take advantage of it.
+commitment the web makes to you — take advantage of it.
 
 1. **Opt into web platform features incrementally:** To paraphrase my good
    friend [Ryan Townsend](https://twnsnd.com/), customers don’t want smooth page
-   transitions—[they want a website that
+   transitions — [they want a website that
    works](https://www.youtube.com/watch?v=f5felHJiACE&t=1202s). Don’t make your
    entire site a single page app just so you don’t have to retransmit a header
    and footer.
@@ -71,8 +71,8 @@ commitment the web makes to you—take advantage of it.
    your users where they are.
 3. **Write code that leans into the browser, not away from it:** By using
    progressive enhancement, you can opt into browser-native features that are
-   usually faster, more accessible, more secure, and—perhaps most importantly to
-   the business—maintained by someone else.
+   usually faster, more accessible, more secure, and — perhaps most importantly to
+   the business — maintained by someone else.
 
 All of this seems painfully reminiscent. As far back as 2007, [Dan
 Cederholm](https://simplebits.com/about/) gave us

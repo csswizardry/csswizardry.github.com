@@ -26,17 +26,17 @@ main: "/wp-content/uploads/2021/02/mobile-safari-main.png"
 <p class="c-highlight"><strong>N.B.</strong> This article is no longer accurate,
 and changes in both iOS/MacOS and WebPageTest are no longer properly reflected.
 Let me update this article when I get chance. In the meantime, the particularly
-determined among you can probably fill the gaps yourselves—good luck!</p>
+determined among you can probably fill the gaps yourselves — good luck!</p>
 
 So far this year, all but one of my clients have been concerned about [Google’s
 upcoming Web Vitals
 update](https://developers.google.com/search/blog/2020/11/timing-for-page-experience).
 The client who’s bucking the trend is great, not least because it’s given me
-something a little different to focus on—they’re more interested in how their
+something a little different to focus on — they’re more interested in how their
 site fares on iOS. What makes this particularly fun for me is that iOS Safari is
 a completely different ballgame to Chrome, and not something many people tend to
 focus on. So, I’m going to share with you a handful of tips to make it a little
-easier should you need to do the same—and you should do the same.
+easier should you need to do the same — and you should do the same.
 
 {% include promo.html %}
 
@@ -70,7 +70,7 @@ soon. So, we’re stuck only with Safari. That we probably aren’t testing.
 ### Why This Isn’t a Huge Problem
 
 It’s worth noting that, by and large, the same page will perform better in iOS
-Safari than it would on Android Chrome—[iPhones are generally far more
+Safari than it would on Android Chrome — [iPhones are generally far more
 powerful](https://browser.geekbench.com/mobile-benchmarks) than their Android
 counterparts. Further, and by chance, [iOS
 usage](https://gs.statcounter.com/vendor-market-share/mobile/worldwide) is
@@ -109,19 +109,19 @@ support!
 
 <figure>
   <img src="{{ site.cloudinary }}/wp-content/uploads/2021/02/wpt-ios-devices.png" width="1600" height="900" alt="" loading="lazy" />
-  <figcaption>Real iOS devices—unreal!</figcaption>
+  <figcaption>Real iOS devices — unreal!</figcaption>
 </figure>
 
 This will give you [a fantastically detailed
-waterfall](https://www.webpagetest.org/result/210225_DiPE_eaab5afc3f7f8bcd6ab043a72a315984/3/details/#waterfall_view_step1)—among
-plenty more—that you can go back and refer to time and again.
+waterfall](https://www.webpagetest.org/result/210225_DiPE_eaab5afc3f7f8bcd6ab043a72a315984/3/details/#waterfall_view_step1) — among
+plenty more — that you can go back and refer to time and again.
 
 However, there are two key caveats:
 
 1. **The devices are in the US** which doesn’t help if your typical customer is
    based in, say, the Balkans.
 2. **The data is static** which isn’t necessarily a drawback until it
-   is—DevTools allows us to work far more quickly and interactively, responding
+   is — DevTools allows us to work far more quickly and interactively, responding
    to changes and tweaks as we make them.
 
 Still, this is an amazing starting point for anyone wanting to begin profiling

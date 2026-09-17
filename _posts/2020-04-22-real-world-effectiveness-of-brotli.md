@@ -21,7 +21,7 @@ responses favouring that algorithm, and the remaining 20% use the much newer
 _Brotli_.
 
 <small>Of course, this total of 100% only measures compressible responses that
-actually were compressed—there are still many millions of resources that could
+actually were compressed — there are still many millions of resources that could
 or should have been compressed but were not. For a more detailed breakdown of
 the numbers, see the
 [_Compression_](https://almanac.httparchive.org/en/2019/compression) section of
@@ -31,7 +31,7 @@ Gzip is tremendously effective. The entire works of Shakespeare weigh in at
 5.3MB in plain-text format; after Gzip (compression level 6), that number comes
 down to 1.9MB. That’s a 2.8× decrease in file-size with zero loss of data. Nice!
 
-Even better for us, Gzip favours repetition—the more repeated strings found in
+Even better for us, Gzip favours repetition — the more repeated strings found in
 a text file, the more effective Gzip can be. This spells great news for the web,
 where HTML, CSS, and JS have a very consistent and repetitive syntax.
 
@@ -90,7 +90,7 @@ Usually, sure! Making a file smaller will make it arrive sooner, generally
 speaking. But making a file, say, 20% smaller will not make it arrive 20%
 earlier. This is because file-size is only one aspect of web performance, and
 whatever the file-size is, the resource is still sat on top of a lot of other
-factors and constants—latency, packet loss, etc. Put another way, file-size
+factors and constants — latency, packet loss, etc. Put another way, file-size
 savings help you to cram data into lower bandwidth, but if you’re latency-bound,
 the speed at which those admittedly fewer chunks of data arrive will not change.
 
@@ -148,7 +148,7 @@ times (RTT) are fairly uniform, this means there’s no difference in transfer
 time between Gzip and Brotli here.
 
 The uncompressed version, on the other hand, takes a full two round trips more
-to be fully transferred, which—particularly on a high latency connection—could
+to be fully transferred, which — particularly on a high latency connection — could
 be quite noticeable.
 
 The point I’m driving at here is that it’s not just about file-size, it’s about
@@ -254,15 +254,15 @@ I wanted to keep the test simple, so I grabbed only:
 * with Brotli.
 
 FCP feels like a real-world and universal enough metric to apply to any site,
-because that’s what people are there for—content. Also because [Paul
+because that’s what people are there for — content. Also because [Paul
 Calvano](https://twitter.com/paulcalvano) said so, and he’s smart: <q>Brotli
 tends to make FCP faster in my experience, especially when the critical CSS/JS
 is large.</q>
 
 ### Running the Tests
 
-Here’s a bit of a dirty secret. A lot of web performance case studies—not all,
-but a lot—aren’t based on improvements, but are often extrapolated and inferred
+Here’s a bit of a dirty secret. A lot of web performance case studies — not all,
+but a lot — aren’t based on improvements, but are often extrapolated and inferred
 from the opposite: slowdowns. For example, it’s much simpler for the BBC to say
 that <q>they lose an [additional 10% of
 users](https://wpostats.com/2017/03/03/bbc-load-abandonment.html) for every
@@ -340,7 +340,7 @@ when we enabled Brotli. To me this suggests that their Gzip compression level
 was set to a higher value than their Brotli level, making Gzip more effective.
 
 Compression levels are a trade-off. Ideally you’d like to set everything to the
-highest setting and be done, but that’s not really practical—the time taken on
+highest setting and be done, but that’s not really practical — the time taken on
 the server to do that dynamically would likely nullify the benefits of
 compression in the first place. To combat this, we have two options:
 
@@ -363,7 +363,7 @@ anything dynamic. If you’re running on Nginx, please ensure you aren’t still
 their pitiful default compression level of 1.
 
 However, if you’re faced with the prospect of weeks of engineering, test, and
-deployment efforts to get Brotli live, don’t panic too much—just make sure you
+deployment efforts to get Brotli live, don’t panic too much — just make sure you
 have Gzip on everything that you can compress (that includes your `.ico` and
 `.ttf` files, if you have any).
 

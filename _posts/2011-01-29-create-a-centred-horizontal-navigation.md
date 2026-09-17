@@ -10,7 +10,7 @@ categories:
   - Web Development
 tags:
   - CSS
-meta: "2025 refresh: build a perfectly centred horizontal nav with just two Flexbox rules—`display:flex` and `justify-content:center`. Demo included!"
+meta: "2025 refresh: build a perfectly centred horizontal nav with just two Flexbox rules — `display:flex` and `justify-content:center`. Demo included!"
 show_taxonomy: true
 ---
 

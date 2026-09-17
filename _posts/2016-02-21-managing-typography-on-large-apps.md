@@ -19,15 +19,15 @@ their headings across larger and more complex apps.
 The problem stems from the styling of the default `h1` through `h6` elements,
 and how this hierarchy seldom carries through the actual design and build of
 app-like UIs. The `h1`–`h6` pattern pretty nicely mirrors traditional print
-documents—where we are much more likely to have more newspaper-style heading
-structures both semantically and visually—however, where more app-like UIs
+documents — where we are much more likely to have more newspaper-style heading
+structures both semantically and visually — however, where more app-like UIs
 definitely _do_ have the semantic need for `h1`–`h6`, they rarely need quite the
 same visual hierarchy.
 
-Think of sites like GMail, Facebook, YouTube—you can’t really see a tiered
+Think of sites like GMail, Facebook, YouTube — you can’t really see a tiered
 heading structure like you could envisage on, say, this site right here. I think
 that for blog-style sites the `h1`–`h6` pattern does still have semantic and
-visual merit, but for app-like sites—the kind I’m referring to in this post—I
+visual merit, but for app-like sites — the kind I’m referring to in this post — I
 think we need a new approach.
 
 The problem presents itself when we begin designing UIs. Because we know we have
@@ -41,7 +41,7 @@ We design a suite of hierarchical headings, usually before we’ve designed
 anything else, and then when it comes to building a page, we might semantically
 choose an `h3`, only to find it has an appearance which is completely unsuitable
 in its location. We chose our look and feel for a level of heading out of the
-context in which it might actually be used—we’ve very tightly coupled our
+context in which it might actually be used — we’ve very tightly coupled our
 semantic and stylistic decisions here, and we shouldn’t have done.
 
 Think back to almost any project you’ve worked on. How many times has, say, an
@@ -60,7 +60,7 @@ them at least once in your career.
 
 It’s now my opinion that headings should be a purely semantic decision, and have
 no stylistic information applied to them at all. Complete decoupling of the
-semantic and the stylistic—your level of heading should have no influence on how
+semantic and the stylistic — your level of heading should have no influence on how
 that heading looks.
 
 ## Proposal
@@ -85,7 +85,7 @@ body copy, and our six headings (which are all identical):
 
 Notice how there are no colours, no font styles, no font families, no nothing.
 In fact, you could even get rid of the `font-size` declaration completely if you
-want—my thinking is just to have all headings default to being at least slightly
+want — my thinking is just to have all headings default to being at least slightly
 offset from their surroundings.
 
 This approach now gives us great semantic freedom: none of our headings’ look

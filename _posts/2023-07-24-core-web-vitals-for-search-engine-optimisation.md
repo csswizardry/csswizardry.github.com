@@ -55,7 +55,7 @@ If you’re happy just to trust me, then this is all you need to know right now:
 <p>Google takes <strong>URL-level Core Web Vitals data from CrUX</strong> into
 account when deciding where to rank you in a search results page. They do not
 use Lighthouse or PageSpeed Insights scores. That said, it is just one of many
-different factors (or <em>signals</em>) they use to determine your placement—the
+different factors (or <em>signals</em>) they use to determine your placement — the
 best content still always wins.</p>
 
 <p>To get a ranking boost, you need to <strong>pass all relevant Core Web Vitals
@@ -98,7 +98,7 @@ endeavour for almost any reason you care to name.</p>
 </div>
 
 Now would be a good time to mention: **I am an independent web performance
-consultant**—one of the best. I am available to help you find and fix your
+consultant** — one of the best. I am available to help you find and fix your
 site-speed issues through [performance
 audits](/performance-audits/), [training and
 workshops](/workshops/),
@@ -279,9 +279,9 @@ baked in from the beginning of a project.
 
 ## You Don’t Need to Pass FID
 
-You don’t _need_ to pass First Input Delay. This is because—while all pages will
+You don’t _need_ to pass First Input Delay. This is because — while all pages will
 have a Largest Contentful Paint event at some point, and the ideal Cumulative
-Layout Shift score _is_ none at all—not all pages will incur a user interaction.
+Layout Shift score _is_ none at all — not all pages will incur a user interaction.
 While rare, it is possible that a URL’s FID data will read _Not enough data_.
 To this end, passing Core Web Vitals means _Good_ LCP and CLS, and _Good_ or
 _Not enough data_ FID.
@@ -371,7 +371,7 @@ same location.
 > other reports.  
 > — [Core Web Vitals report](https://support.google.com/webmasters/answer/9205520?hl=en)
 
-Note that this only discusses the report and not rankings—it is my understanding
+Note that this only discusses the report and not rankings — it is my understanding
 that this is to help developers find variations of pages that are slower, and
 not to rank multiple variants of the same URL. The latter would contravene their
 own rules on canonicalisation:
@@ -469,8 +469,8 @@ field. So any data that doesn’t come from the field is not counted.
 > true, real-world user experience – but has a more limited set of metrics.  
 > — [About PageSpeed Insights](https://developers.google.com/speed/docs/insights/v5/about)
 
-In the past—and I can’t determine the exact date of the following
-screenshot—Google used to clearly mark <i>lab</i> and <i>field</i> data in
+In the past — and I can’t determine the exact date of the following
+screenshot — Google used to clearly mark <i>lab</i> and <i>field</i> data in
 PageSpeed Insights:
 
 <figure>
@@ -571,7 +571,7 @@ refine its ordering.
 ## There Are No Shades of Good or Failed URLs
 
 Going back to the _Good_ versus _Failed_ columns above, notice that it’s
-binary—there are no grades of _Good_ or _Failed_—it’s just one or the other.
+binary — there are no grades of _Good_ or _Failed_ — it’s just one or the other.
 A URL is considered _Failed_ the moment it doesn’t pass even one of the relevant
 Core Web Vitals, which means a Largest Contentful Paint of 2.6s is just as bad
 as a Largest Contentful Paint of 26s.
@@ -584,7 +584,7 @@ are irrelevant.
 Interestingly, the thresholds for _Good_, _Needs Improvement_, and _Poor_ are
 the same on both mobile and desktop. Because Google announced Core Web Vitals
 for mobile first, the same thresholds on desktop should be achieved
-automatically—it’s very rare that desktop experiences would fare worse than
+automatically — it’s very rare that desktop experiences would fare worse than
 mobile ones. The only exception might be Cumulative Layout Shift in which
 desktop devices have more screen real estate for things to move around.
 
@@ -598,8 +598,8 @@ remember.
 
 ## Slow Countries Can Harm Global Rankings
 
-While Google does segment on desktop and mobile—ranking you on each device type
-proportionate to your performance on each device type—that’s as far at they go.
+While Google does segment on desktop and mobile — ranking you on each device type
+proportionate to your performance on each device type — that’s as far at they go.
 This means that if an experience is _Poor_ on mobile but _Good_ on desktop,
 any searches for you on desktop will have your fast site taken into
 consideration.
@@ -631,7 +631,7 @@ be negatively impacting your success elsewhere.
 
 ## iOS (and Other) Traffic Doesn’t Count
 
-Core Web Vitals is a Chrome initiative—evidenced by _Chrome_ User Experience
+Core Web Vitals is a Chrome initiative — evidenced by _Chrome_ User Experience
 Report, among other things. The APIs used to capture the three Core Web Vitals
 are available in [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine)),
 the browser engine that powers Chromium-based browsers such as Chrome, Edge, and
@@ -645,7 +645,7 @@ or Edge would not contribute data to the _Chrome_ User Experience Report, but
 what about Chrome on iOS? That is called Chrome, after all?
 
 Unfortunately, while Chrome on iOS is a project owned by the Chromium team, the
-browser itself does not use Blink—the only engine that can currently capture
+browser itself does not use Blink — the only engine that can currently capture
 Core Web Vitals data:
 
 > **Due to constraints of the iOS platform, all browsers must be built on top of
@@ -659,7 +659,7 @@ From Apple themselves:
 > and WebKit JavaScript.  
 > — [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
 
-Any browser on the iOS platform—Chrome, Firefox, Edge, Safari, you name it—uses
+Any browser on the iOS platform — Chrome, Firefox, Edge, Safari, you name it — uses
 WebKit, and the APIs that power Core Web Vitals aren’t currently available
 there:
 
@@ -740,7 +740,7 @@ Firstly, Largest Contentful Paint stops being tracked after user interaction:
 > — [Largest Contentful Paint (LCP)](https://web.dev/lcp/)
 
 This means that the browser won’t keep looking for new LCP candidates as the
-user traverses soft navigations—it would be very detrimental if a new route
+user traverses soft navigations — it would be very detrimental if a new route
 loading at 120 seconds fired a new LCP event against the initial URL.
 
 Similarly, Cumulative Layout Shift was modified to be more sympathetic to
@@ -801,7 +801,7 @@ traffic to those pages. We’d also need to be very careful not to make any othe
 SEO-facing changes to those URLs for the duration of the experiment.
 
 Anecdotally, I do have one client that sees more than double average
-click-through rate—and almost the same improvement in average position—for
+click-through rate — and almost the same improvement in average position — for
 _Good_ Page Experience over the site’s average. For them, the data suggests that
 _Good_ Page Experience is highly impactful.
 
@@ -812,7 +812,7 @@ is, as we’ve seen, very intricate. But, my official advice, at a very high
 level is:
 
 **Keep focusing on producing high-quality, relevant content and work on
-site-speed because it’s the right thing to do—everything else will follow.**
+site-speed because it’s the right thing to do — everything else will follow.**
 
 Faster websites benefit everyone: they convert better, they retain better,
 they’re cheaper to run, they’re better for the environment, and they rank

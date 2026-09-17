@@ -10,7 +10,7 @@ tags:
   - Browser APIs
 show_taxonomy: true
 main: "https://res.cloudinary.com/csswizardry/image/fetch/f_auto,q_auto/https://csswizardry.com/wp-content/uploads/2022/08/user-timing-chrome.png"
-meta: "When implementing performance fixes, it’s imperative that you measure the right thing—but what is ‘right’?"
+meta: "When implementing performance fixes, it’s imperative that you measure the right thing — but what is ‘right’?"
 ---
 
 A thing I see developers do time and time again is make performance-facing
@@ -35,7 +35,7 @@ changes (note, not _improvements_, but changes) in the lab:
    I will not get the exact same, say, DOMContentLoaded each time. There are
    myriad reasons for this that I won’t cover here.
 2. **Most metrics are not atomic:** FCP, for example, isn’t a metric we can
-   optimise in isolation—it’s a culmination of other more atomic metrics such as
+   optimise in isolation — it’s a culmination of other more atomic metrics such as
    connection overhead, TTFB, and more. Poor FCP is the symptom of many causes,
    and it is only these causes that we can actually optimise[^2]. This is
    a subtle but significant distinction.
@@ -71,7 +71,7 @@ directly.
 
 We might hypothesise that reducing the amount of
 [render-blocking](/2024/08/blocking-render-why-whould-you-do-that/) CSS should
-help improve LCP—and that’s a sensible hypothesis!—but this is where my first
+help improve LCP — and that’s a sensible hypothesis! — but this is where my first
 point about atomicity comes in. Trying to proxy the impact of reducing our CSS
 from our LCP time leaves us open to a lot of variance and nondeterminism. When
 we refreshed, perhaps we hit an outlying, huge first-byte time? What if another
@@ -172,11 +172,11 @@ default](/2022/03/optimising-largest-contentful-paint/)).
 
 I created a control[^4], reloaded the page five times, and took the median LCP.
 Despite these two defensive measures, I was surprised by the variance in results
-for LCP—up to 1s! Next, I modified the HTML to add `fetchpriority=high` to the
+for LCP — up to 1s! Next, I modified the HTML to add `fetchpriority=high` to the
 `<img />`. Again, I reloaded the page five times. Again, I took the median.
 Again, I was surprised by the level of variance in LCP times.
 
-The reason for this variance was pretty clear—LCP, as discussed, includes a lot
+The reason for this variance was pretty clear — LCP, as discussed, includes a lot
 of other metrics, whereas the only thing I was actually affecting was the
 priority of the image request. My measurement was a loose proxy for what I was
 actually changing.
@@ -196,12 +196,12 @@ best).
 Priority Hints, however, offer us that control. Our options are `fetchpriority=`
 
 * `high`: sets initial priority to High;
-* `auto`: effectively redundant—it’s the same as omitting the attribute
+* `auto`: effectively redundant — it’s the same as omitting the attribute
   altogether;
 * `low`: sets initial priority to Low.
 
 Now comes the key insight: modifying a file’s priority doesn’t change how soon
-the browser discovers it—that’s not how browsers work—but it does affect how
+the browser discovers it — that’s not how browsers work — but it does affect how
 soon the browser will put that request out to the network. In browserland, this
 is known _Queuing_. Modifying a file’s priority will impact how long it is spent
 queuing. This is what I need to be measuring.
@@ -225,8 +225,8 @@ Let’s take a look at the before and after:
 Remember, the only thing that Priority Hints affects is Queuing time, but if we
 look at the two screenshots, we see huge variance across almost all resource
 timing phases. Judging the efficacy of Priority Hints on overall time would be
-pretty inaccurate (we’d still arrive at the same conclusions—Priority Hints _do_
-help improve LCP—but via the wrong workings out).
+pretty inaccurate (we’d still arrive at the same conclusions — Priority Hints _do_
+help improve LCP — but via the wrong workings out).
 
 ## Final Thoughts
 
@@ -236,7 +236,7 @@ while working (i.e. writing code) it’s important to isolate our benchmarking
 only to the granular task at hand. Only later should we zoom out and measure the
 influence those changes had on the end goal, whatever that may be.
 
-Inadvertently capturing too much data—noise—can obscure our view of the progress
+Inadvertently capturing too much data — noise — can obscure our view of the progress
 we’re actually making, and even though we might end up at the desired outcome,
 it’s always better to be more forensic in assessing the impact of our work.
 
@@ -249,4 +249,4 @@ It’s vital to **measure what you impact, not what you influence**.
 [^1]: <q>In computer programming, a nondeterministic algorithm is an algorithm that, even for the same input, can exhibit different behaviors on different runs…</q> — [Nondeterministic algorithm](https://en.wikipedia.org/wiki/Nondeterministic_algorithm)
 [^2]: Thanks to [Ryan](https://twitter.com/ryantownsend) for the cause/symptom analogy, and for additional input and insights.
 [^3]: A browser can’t even see your `body` until it’s finished your `head`, which makes it render-blocking by definition.
-[^4]: Create a Local Override with zero changes—this ensures that your _before_ isn’t fetched from the network, just like your _after_ won’t be.
+[^4]: Create a Local Override with zero changes — this ensures that your _before_ isn’t fetched from the network, just like your _after_ won’t be.

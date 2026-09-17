@@ -15,13 +15,13 @@ I’m really excited to announce a new partnering with London-based events compa
 [White October Events](http://www.whiteoctoberevents.co.uk/). The aim is to be
 able to offer semi-frequent _public_ workshops.
 
-Whereas the majority of my workshops are for private clients—who need tailored
-advice and training around their particular product—there is undoubtedly a huge
+Whereas the majority of my workshops are for private clients — who need tailored
+advice and training around their particular product — there is undoubtedly a huge
 market for individuals from companies to be able to learn similar techniques in
 a more generalised and high-level manner.
 
 I’m really looking forward to being able to offer these kinds of workshop
-through White October Events—a company with a great reputation and demonstrable
+through White October Events — a company with a great reputation and demonstrable
 experience running tech events.
 
 The first two events are scheduled for [25 September,

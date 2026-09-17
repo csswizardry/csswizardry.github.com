@@ -127,7 +127,7 @@ you!) if you go beyond your 80 character limit. This is really nice whilst
 writing code, because 80 characters is a pretty [widely agreed
 standard](http://softwareengineering.stackexchange.com/questions/148677/why-is-80-characters-the-standard-limit-for-code-width).
 
-We can also set another option—`colorcolumn`—to let us know visually when we’re
+We can also set another option — `colorcolumn` — to let us know visually when we’re
 approaching our boundary:
 
 ```
@@ -211,7 +211,7 @@ autocmd FileType gitcommit set colorcolumn+=51
 
 The key difference in this snippet is the last line, in which we don’t set a new
 `colorcolumn` value, but we actually append the existing one (by using `+=`) and
-add column number `51`. This means that—in Git commit messages—we’re still
+add column number `51`. This means that — in Git commit messages — we’re still
 highlighting the column immediately after our character limit by using the
 relative `+1` value, and the 51st column by using the absolute `51` value.
 

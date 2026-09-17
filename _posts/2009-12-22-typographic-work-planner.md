@@ -129,7 +129,7 @@ There are a few things in the table you may not have seen before, briefly, they 
 
 * **`summary=""`:** This is an attribute which provides a brief overview of the table and its contents/purpose.
 * **`caption`:** This is a table specific caption, essentially a heading/title explicitly for the table.
-* **`colgroup` and `col`:** This is an essentially invisible element that just adds semantic meaning to the table. It defines the columns and can—in some browsers—be used to style them.
+* **`colgroup` and `col`:** This is an essentially invisible element that just adds semantic meaning to the table. It defines the columns and can — in some browsers — be used to style them.
 * **`scope="col"`:** This is an attribute which tells the browser whether the `th` is a title for a column or a row. This then obviously makes the other possible attribute value `row`.
 * **`tfoot`:** This is a table footer and contain pretty much anything you like. It must however appear _before_ the `tbody`.
 

@@ -43,11 +43,11 @@ Naming conventions like
 [BEM](/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 do a fantastic job to help communicate the roles and responsibilities of the
 classes we find in our HTML, and if you’re not yet using BEM then I urge you to
-stop reading this article right now and to start with that instead—this post
+stop reading this article right now and to start with that instead — this post
 will be levelling BEM up a notch.
 
-To quickly recap, BEM gives us two very useful suffixes—`__element` and
-`--modifier`—that we append onto our classes in order to tell us the role of
+To quickly recap, BEM gives us two very useful suffixes — `__element` and
+`--modifier` — that we append onto our classes in order to tell us the role of
 certain bits of UI, for example:
 
     /**
@@ -90,8 +90,8 @@ how we should (or should not) reuse these classes elsewhere in the DOM:
 `.modal`, and therefore cannot be used without that `.modal` class also being
 present.
 
-This gives us some great transparency and—because it exists right there in our
-classes—it is also fairly self-documenting.
+This gives us some great transparency and — because it exists right there in our
+classes — it is also fairly self-documenting.
 
 This is a naming *convention*. One thing I’ve been researching and implementing
 a lot with my clients lately is the idea of taking naming conventions a step
@@ -168,13 +168,13 @@ list should acquaint you with the kinds of thing we’re hoping to achieve.
   presence of a theme.
 * `s-`: Signify that a class creates a new styling context or <i>Scope</i>.
   Similar to a Theme, but not necessarily cosmetic, these should be used
-  sparingly—they can be open to abuse and lead to poor CSS if not used wisely.
+  sparingly — they can be open to abuse and lead to poor CSS if not used wisely.
 * `is-`, `has-`: Signify that the piece of UI in question is currently styled a
   certain way because of a state or condition. This stateful namespace is
   gorgeous, and comes from [SMACSS](https://smacss.com/). It tells us that the
   DOM currently has a temporary, optional, or short-lived style applied to it
   due to a certain state being invoked.
-* `_`: Signify that this class is the worst of the worst—a hack! Sometimes,
+* `_`: Signify that this class is the worst of the worst — a hack! Sometimes,
   although incredibly rarely, we need to add a class in our markup in order to
   force something to work. If we do this, we need to let others know that this
   class is less than ideal, and hopefully temporary (i.e. <q>do not bind onto
@@ -266,7 +266,7 @@ binding onto them and breaking things. If you ever see a class that begins with
     </blockquote>
 
 * Objects are abstract.
-* They can be used in any number of places across the project—places you might
+* They can be used in any number of places across the project — places you might
   not have even seen.
 * Avoid modifying their styles.
 * Be careful around anything with a leading `o-`.
@@ -538,7 +538,7 @@ There’s a really good example we can grab from the Sass above. When compiled,
 that code will give us this selector: `.s-cms-content a {}`. This selector is
 in charge of adding underlines to links, and is also of a higher specificity
 than a selector like `.c-btn {}`. This means that if we were to put a button
-inside of this Scope, it would get an underline—this is something we probably
+inside of this Scope, it would get an underline — this is something we probably
 don’t want. This simple example outlines the potential for problems when working
 with Scopes, so tread carefully.
 
@@ -647,7 +647,7 @@ thing](/2013/04/shame-css/).
 
     }
 
-* Hacks are ugly—give them ugly classes.
+* Hacks are ugly — give them ugly classes.
 * Hacks should be temporary, do not reuse or bind onto their classes.
 * Keep an eye on the number of Hacks classes in your codebase.
 
@@ -662,7 +662,7 @@ Example:
     .js-modal {}
 
 JavaScript namespaces are pretty common now, and most people tend to use them.
-The idea is that—in order to properly separate our concerns—we should never have
+The idea is that — in order to properly separate our concerns — we should never have
 styling and behaviour bound to the same hooks. To bind both technologies onto
 the same hook means we can’t have one without the other: our UI becomes
 all-or-nothing, which makes it very opinionated and inflexible.
@@ -688,7 +688,7 @@ to do with CSS, its format should be determined by your JS engineers. If your
 JS team’s naming convention for variables etc. is camel case, then they should
 be allowed to choose JS hooks like `.jsModal` if they so desire.
 
-* JavaScript and CSS are separate concerns—use separate hooks for them.
+* JavaScript and CSS are separate concerns — use separate hooks for them.
 * Giving different teams/roles different hooks makes for safer collaboration.
 
 ## QA Namespaces: `qa-`
@@ -732,7 +732,7 @@ with something like this:
 We can make all of the CSS changes we like, as long we we ensure that the QA
 team’s hook stays in place.
 
-* Binding automated UI tests onto style hooks is too inexplicit—don’t do it.
+* Binding automated UI tests onto style hooks is too inexplicit — don’t do it.
 * Bind tests onto dedicated test classes.
 * Ensure that any UI refactoring doesn’t affect the QA team’s hooks.
 
@@ -889,8 +889,8 @@ namespaces.
 ## Too Much to Type?
 
 If you’re not too keen on the idea of typing out `o-` and `c-` for every
-class—and particularly if you aren’t really interested in the autocomplete
-benefits we can gain—another format we could employ is `.object`, `.Component`.
+class — and particularly if you aren’t really interested in the autocomplete
+benefits we can gain — another format we could employ is `.object`, `.Component`.
 That is to say, naming any widespread Object classes with no namespace and a
 lowercase first letter, and naming our Component classes with no namespace and
 a capitalised first letter.
@@ -1007,7 +1007,7 @@ Well, we can learn a lot:
 * We have a layout Object (`.o-layout`) which is currently laying out:
 * Some layout items that are one- and two-thirds wide (`.u-1/3`, `.u-2/3`).
 * These width classes are Utilities, and therefore do not just have to be used
-  alongside the layout Objects—they can be used anywhere.
+  alongside the layout Objects — they can be used anywhere.
 * Some button components (`.c-btn`) which have:
 * QA hooks to be bound onto for automated UI testing (`.qa-modal-dismiss`,
   `.qa-modal-accept`).

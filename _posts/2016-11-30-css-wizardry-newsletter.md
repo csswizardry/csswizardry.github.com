@@ -11,7 +11,7 @@ meta: "CSS Wizardry has just got itself a newsletter…"
 ---
 
 I’m gonna level with you: I never really understood the point of people having
-newsletters. For _things_—like CSS, JS, or performance—sure, but people having
+newsletters. For _things_ — like CSS, JS, or performance — sure, but people having
 them… it just never made sense to me.
 
 That was until I spoke to [David](https://twitter.com/dmtintner) and

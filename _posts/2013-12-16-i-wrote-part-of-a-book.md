@@ -13,8 +13,8 @@ hide-hire-me-link: true
 show_taxonomy: true
 ---
 
-You’ve probably already seen the tweets and the blog posts about—and hopefully
-already bought and read—the new [Smashing
+You’ve probably already seen the tweets and the blog posts about — and hopefully
+already bought and read — the new [Smashing
 Book](http://www.smashingmagazine.com/smashing-book-4-new-perspectives/), but
 I’m really pleased about it, so I want to add my own to the list.
 
@@ -36,8 +36,8 @@ new, pragmatic, and modern approaches to writing and scaling CSS for today’s
 Web. It’s the first chapter in a book crammed with stellar insights from people
 far cleverer than I. I feel honoured to be a part of it.
 
-It’s a big ol’ book—just shy of 500 pages—full of practical insights from some
-really, really great authors, and—at less than $50—is a total bargain!
+It’s a big ol’ book — just shy of 500 pages — full of practical insights from some
+really, really great authors, and — at less than $50 — is a total bargain!
 
 <a href="https://shop.smashingmagazine.com/smashing-book-4-new-perspectives-on-web-design.html" class="btn  btn--full">
     Buy the book!

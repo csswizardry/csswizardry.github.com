@@ -26,7 +26,7 @@ main: "/wp-content/uploads/2020/05/google-fonts-main.png"
 
 <p><strong>Ten-Second Version:</strong> If you really can’t
 be bothered going to all of the effort outlined in this post, there is a super
-rough-and-ready, ten-second, alternative approach—<strong>place your Google
+rough-and-ready, ten-second, alternative approach — <strong>place your Google
 Fonts stylesheet at the closing <code>&lt;/body&gt;</code> tag</strong>. This
 means we don’t block rendering of the entire page just for the sake of web
 fonts. Instead, we apply them <em>after</em> we’ve styled everything else.</p>
@@ -42,7 +42,7 @@ me](/consultancy/)._
 
 For the most part, web fonts nowadays are faster than ever. With more
 standardised FOUT/FOIT behaviour from browser vendors, to the newer
-`font-display` specification, performance—and therefore the user—seems to have
+`font-display` specification, performance — and therefore the user — seems to have
 been finally been put front-and-centre.
 
 It’s widely accepted that self-hosted fonts are the fastest option: same origin
@@ -100,9 +100,9 @@ this post, I will list the results for both sites. My variants are:
 * **[`preconnect`](/2023/12/correctly-configure-preconnections/):** Warming up
   the `fonts.gstatic.com` origin myself.
 
-Further, each variant is additive—it includes the previous variant as well as
+Further, each variant is additive — it includes the previous variant as well as
 its own additions. I didn’t try _just_ `preload` or _just_ async, because it
-would be pointless—we know that a combination will fare better than any on their
+would be pointless — we know that a combination will fare better than any on their
 own.
 
 For each test, I captured the following metrics:
@@ -117,7 +117,7 @@ For each test, I captured the following metrics:
 
 **N.B.** All tests were conducted using a private WebPageTest instance
 (WebPageTest is down right now so I was unable to use the public instance, which
-means I can’t share any URLs—apologies). The specific profile was a Samsung
+means I can’t share any URLs — apologies). The specific profile was a Samsung
 Galaxy S4 over 3G.
 
 To make the snippets easier to read, I’m going to replace all instances of
@@ -149,7 +149,7 @@ There are two key issues here:
 1. A synchronous, ergo render-blocking, CSS file on a third-party origin.
 2. A file containing `@font-face` at-rules with no `font-display` descriptors.
 
-It’s synchronous on top of synchronous—not good.
+It’s synchronous on top of synchronous — not good.
 
 **Results (s) – harry.is:**
 
@@ -182,13 +182,13 @@ Now, let’s start adding some progressive changes and, hopefully, improvements.
 ## `font-display: swap;`
 
 For this test, I added the `&display=swap` back in. In effect, this makes the
-font files themselves asynchronous—the browser immediately displays our fallback
+font files themselves asynchronous — the browser immediately displays our fallback
 text before `swap`ping to the web font whenever it arrives. This means we’re not
 going to leave users looking at any invisible text (FOIT), which makes for both
 a faster and more pleasant experience.
 
 **N.B.** It’s only more pleasant if you make the effort to define a suitable
-fallback to display in the interim—flashing a page full of Times New Roman
+fallback to display in the interim — flashing a page full of Times New Roman
 before settling on Open Sans would likely be a net worse experience. Thankfully,
 [Monica](https://twitter.com/notwaldorf) has made this process not only easy,
 but surprisingly fun. I wouldn’t be able to do this bit without her [_Font Style
@@ -220,14 +220,14 @@ We haven’t removed any
 from the critical path, so I wasn’t expecting to see any improvements in first
 paint. In fact, while harry.is remained identical, CSS Wizardry got 200ms
 slower. What we do see, however, is **a dramatic improvement in first contentful
-paint**—over a second on harry.is! **First web font improved on harry.is**, but
+paint** — over a second on harry.is! **First web font improved on harry.is**, but
 not on csswizardry.com. Visually complete was 200ms slower.
 
 I’m happy to say, for the metrics that matter the most, **we are 700–1,200ms
 faster**.
 
 While this does massively improve the time it takes the web font to render, it’s
-still defined inside a synchronous CSS file—we can only expect so much
+still defined inside a synchronous CSS file — we can only expect so much
 improvement from this move.
 
 Predictably, Lighthouse now only gives one warning:
@@ -238,7 +238,7 @@ Therefore, the next step is to solve the synchronous CSS file.
 
 To quote, err, myself: <q>If you’re going to use `font-display` for your Google
 Fonts then it makes sense to asynchronously load the whole request chain.</q> It
-was this initial thought that led to my tweet in the first place—if I’ve
+was this initial thought that led to my tweet in the first place — if I’ve
 effectively made the contents of the CSS file asynchronous, then it kinda sucks
 to leave the CSS file itself fully synchronous.
 
@@ -264,7 +264,7 @@ the rest of the page.
       media="print" onload="this.media='all'" />
 {% endhighlight %}
 
-While the trick is devilishly simple—which is what makes it so cool—**I’ve long
+While the trick is devilishly simple — which is what makes it so cool — **I’ve long
 had my reservations**. Y’see, a regular, synchronous stylesheet blocks
 rendering, so a browser will assign it _Highest_ priority. A print stylesheet
 (or any stylesheet that doesn’t match the current context) is assigned the
@@ -296,7 +296,7 @@ Thankfully, while dealing with web fonts, this isn’t the end of the world:
 * if we expect delays of such severity, we should use `font-display: optional;`.
 
 For below the fold CSS, however, delays of almost 10 seconds are
-unacceptable—it’s almost 100% certain that a user will have scrolled within that
+unacceptable — it’s almost 100% certain that a user will have scrolled within that
 timeframe.
 
 Still! What happens to Google Fonts if we load it asynchronously?
@@ -327,7 +327,7 @@ first time.
 
 As far as the critical path is concerned, this was a huge win.
 
-However—and this is a big _however_—as a result of lowering the priority of the
+However — and this is a big _however_ — as a result of lowering the priority of the
 CSS file, our **first web font is up to 500ms slower** in the case of CSS
 Wizardry against our baseline. This is the danger of the print media hack.
 
@@ -393,12 +393,12 @@ In the case of harry.is, almost nothing changed since our previous variant.
 **Visually complete was 200ms faster**, but any first- metrics were untouched.
 It was seeing these results that actually spurred me to also test against CSS
 Wizardry. Because harry.is is such a small and simple page, there wasn’t much
-network contention for a print stylesheet to yield to—changing its priority
+network contention for a print stylesheet to yield to — changing its priority
 didn’t really help it out much at all.
 
 In the case of CSS Wizardry, we see first paint 300ms slower, which is
 unexpected but unrelated (there is no render blocking CSS, so changing the
-priority of an asynchronous CSS file can have no bearing here—I’m going to chalk
+priority of an asynchronous CSS file can have no bearing here — I’m going to chalk
 it up to an anomaly in testing). Happily, **first contentful paint improved by
 200ms**, **first web font was 600ms faster**, and **visually complete was 700ms
 faster**.
@@ -412,7 +412,7 @@ While we link out to `fonts.googleapis.com` for our CSS, the font files
 themselves are hosted on `fonts.gstatic.com`. On a high-latency connection, this
 spells bad news.
 
-Google Fonts are good to us—they `preconnect` the `fonts.gstatic.com` origin
+Google Fonts are good to us — they `preconnect` the `fonts.gstatic.com` origin
 preemptively via an HTTP header attached to the `fonts.googleapis.com` response:
 
 <figure>
@@ -425,7 +425,7 @@ However, the execution of this header is bound by the response’s TTFB, which o
 high-latency networks can be very, very high. The median TTFB (including request
 queueing, DNS, TCP, TLS, and server time) for the Google Fonts CSS file across
 all tests was 1406ms. Conversely, the median download time for the CSS file was
-just 9.5ms—it took 148× longer to get to the headers of the file than it did to
+just 9.5ms — it took 148× longer to get to the headers of the file than it did to
 download the file itself.
 
 Put another way: even though Google are `preconnect`ing the `fonts.gstatic.com`
@@ -497,8 +497,8 @@ we can’t get hold of the font files during our <q>extremely small block
 period</q> then we offer <q>no swap period</q>. The practical upshot of which is
 that in the event that the web fonts takes too long to load, that pageview won’t
 utilise it at all. This helps to prevent the FOUT which will in turn lead to
-a more stable experience for your user—they won’t see text restyle part-way
-through their pageview—and a better Cumulative Layout Shift score.
+a more stable experience for your user — they won’t see text restyle part-way
+through their pageview — and a better Cumulative Layout Shift score.
 
 However, this proved consistently troublesome when using asynchronous CSS. When
 the `print` stylesheet gets turned into an `all` stylesheet, the browser updates
@@ -552,10 +552,10 @@ the video? Click here.</a></figcaption>
 </figure>
 
 * Async, `preload`, and `preconnect` all start rendering at 1.8s.
-  * This also represents their first contentful paints—useful information in the
+  * This also represents their first contentful paints — useful information in the
     first render.
 * Legacy and `swap` both start rendering at 3.4s.
-  * Though legacy is missing any text—FOIT.
+  * Though legacy is missing any text — FOIT.
 * `preconnect` loads its web font at 3.8s.
   * It’s deemed visually complete at 4.4s.
 * Legacy makes its first contentful and first web font paint at 4.5s.
@@ -580,7 +580,7 @@ see the video? Click here.</a>
 
 * Async starts rendering at 1.7s.
 * `preconnect` starts rendering at 1.9s.
-  * Its first contentful paint is also 1.9s—useful information in the first
+  * Its first contentful paint is also 1.9s — useful information in the first
     render.
 * `preload` starts rendering at 2s.
   * Its first contentful paint is also at 2s.

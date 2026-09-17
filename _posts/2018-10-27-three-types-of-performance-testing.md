@@ -22,8 +22,8 @@ faq:
     answer: "You usually need all three eventually, but the right starting point depends on your situation: proactive work prevents issues, reactive work solves current ones, and passive monitoring keeps you informed over time."
 ---
 
-A lot of companies—even if they are aware that performance is key to their
-business—are often unsure of how, when, or where performance testing sits within
+A lot of companies — even if they are aware that performance is key to their
+business — are often unsure of how, when, or where performance testing sits within
 their development lifecycle. To make things worse, they’re also usually unsure
 whose responsibility performance measuring and monitoring is.
 
@@ -46,8 +46,8 @@ strategy and keep on top of things.
 
 In this short post, I want to introduce you to these three types of testing, how
 and when they should be carried out, and what their aims and outcomes should be.
-Each kind of testing is listed chronologically—that is, you should do them in
-order—but all complement each other, and will ultimately feed into one another.
+Each kind of testing is listed chronologically — that is, you should do them in
+order — but all complement each other, and will ultimately feed into one another.
 
 ## Proactive
 
@@ -79,7 +79,7 @@ the bulk of the latency and bandwidth issues that a real user would suffer.
 
 Unfortunately, most issues do not get captured at this point. This is good news
 for me, because I get paid to come in and fix them, but businesses would
-save—and indeed make—a lot more money if they caught all of their performance
+save — and indeed make — a lot more money if they caught all of their performance
 issues here. It is vital, therefore, that engineers have a firm understanding of
 performance fundamentals, as well as a solid command of their tools.
 
@@ -125,7 +125,7 @@ This synthetic testing can allow us to measure regressions before they make it
 into production, and the business can decide whether the regression is severe
 enough to delay a release, or whether we prioritise its solution in the next
 sprint. Accordingly, Reactive testing carries partial organisational
-visibility—both developers and product people would be aware of and responsive
+visibility — both developers and product people would be aware of and responsive
 to reactive performance tests.
 
 Any issues spotted here will pass back into Proactive testing to be
@@ -147,7 +147,7 @@ everything before it goes live. Once in production, our site will likely look
 very different to how it did in our development environment: tag managers have
 kicked in, your ads are on the site, your analytics package is capturing data,
 and all third parties are implemented and running. You’re out on the world wide
-web—you have no idea who is turning up to the site, what their context is, what
+web — you have no idea who is turning up to the site, what their context is, what
 hardware, software, or infrastructure they’re using, or anything.
 
 Now, we sit back and conduct _Passive_ tests to gather data over time and assess

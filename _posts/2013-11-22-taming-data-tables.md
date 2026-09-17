@@ -31,13 +31,13 @@ it will be something that will have annoyed us all at some point or another.
 What this particular (and very specific) problem boils down to is trying to
 consistently format, size and align complex data layouts across multiple
 `table`s. Imagine a financial report; loads of `table`s of data with differing
-numbers of cells and columns that—from a purely aesthetic perspective—need to
+numbers of cells and columns that — from a purely aesthetic perspective — need to
 line up in some neat, coherent fashion. Achieving this is made very difficult by
 a number of different factors…
 
 ### Cell widths
 
-Tables lay out their cells—by default—in a rather unusual, almost haphazard way.
+Tables lay out their cells — by default — in a rather unusual, almost haphazard way.
 There seems to be no rhyme or reason behind how and why they are rendered at the
 widths they are, which leads to columns and cells of differing sizes.
 

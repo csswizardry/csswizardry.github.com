@@ -26,13 +26,13 @@ for the most part, it is a lot more hassle than it’s worth. Theming
 * brings higher maintenance overhead;
 * and increases testing time.
 
-All whilst providing negligible value—are users/customers really less likely to
+All whilst providing negligible value — are users/customers really less likely to
 use your product if they can’t theme it?
 
 Exceptions are usually white-label solutions in which a customer purchases a
 license for your software, and then wish to run it as though it was their own
-platform. Most other cases are not business critical, so do yourself—and your
-team—a favour and avoid it if at all possible.
+platform. Most other cases are not business critical, so do yourself — and your
+team — a favour and avoid it if at all possible.
 
 However, with that said, by using some newer CSS features we can provide certain
 styles of theming with greatly reduced overhead. Let’s take a look…
@@ -47,11 +47,11 @@ Continue reading to see what it all means and how it all works.
 
 ## What Do We Talk About When We Talk About Theming?
 
-Theming—certainly for the purposes of this article—refers to the act of laying a
+Theming — certainly for the purposes of this article — refers to the act of laying a
 veneer over the top of an already styled website: an optional extra which alters
 or customises the UI. A great example would be Trello’s style switcher: a user
 always sees the same structural web page, but they have the optional ability to
-colour it in differently—a style that simply lays on top of the existing design
+colour it in differently — a style that simply lays on top of the existing design
 and extends it.
 
 <figure>
@@ -73,8 +73,8 @@ By using CSS’ custom properties and `@supports`, we can create a themeable UI
 without having to compile multiple stylesheets, without having to generate new
 CSS on the fly, and whilst also allowing users of non-supportive browsers to
 have a completely usable website. We’ll be adopting a healthy dose of
-pragmatism—we’re gonna be writing some CSS in our HTML—and progressive
-enhancement—older browsers will not have access to any theme at all—to solve the
+pragmatism — we’re gonna be writing some CSS in our HTML — and progressive
+enhancement — older browsers will not have access to any theme at all — to solve the
 theming problem in a nicer and simpler way than perhaps we’re used to.
 
 ## Custom Properties
@@ -162,7 +162,7 @@ Is akin to writing:
 Play with [that demo on jsFiddle](https://jsfiddle.net/csswizardry/tnjctms0/).
 
 Now, because custom properties are made available to us at runtime, we can alter
-them on the fly, in the browser, and see updates immediately—we don’t need to
+them on the fly, in the browser, and see updates immediately — we don’t need to
 recompile or redownload any CSS!
 
 If you visit [this slightly updated
@@ -226,7 +226,7 @@ in our codebase by using `@supports`. A vastly under-utilised CSS feature,
 of writing) available in [over 80% of browsers
 worldwide](http://caniuse.com/#feat=css-featurequeries).
 
-`@supports`—also known as <i>feature queries</i>—is an at-rule that encloses a
+`@supports` — also known as <i>feature queries</i> — is an at-rule that encloses a
 series of rulesets that the browser will only attempt to apply if it knows it
 supports the declaration passed into it, for example:
 
@@ -295,7 +295,7 @@ I purposefully avoided introducing Sass into this particular demo because to do
 so would have only served to obscure the point I was trying to make.
 
 If you wish to implement something like this, please feel free to introduce the
-preprocessor layer yourself—it is outside of the scope of this article, which
+preprocessor layer yourself — it is outside of the scope of this article, which
 exists to prove a concept, and not to be a production-ready solution. Optimise
 for your use case and make changes and improvements as necessary.
 

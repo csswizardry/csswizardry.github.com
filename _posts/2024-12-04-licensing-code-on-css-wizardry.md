@@ -12,7 +12,7 @@ meta: "I’ve recently decided to apply the permissive MIT License to all conten
 ---
 
 Since founding `csswizardry.com` in 2007, I’ve shared [hundreds of
-articles](/archive/), tips, tricks, techniques, snippets, and more—**all for
+articles](/archive/), tips, tricks, techniques, snippets, and more — **all for
 free**. These have ranged from simple one-liners to concepts that have shaped
 the way thousands of developers approach their work.
 
@@ -36,7 +36,7 @@ always been an informal _yes!_
 {% include cross-sell.html %}
 
 However, I feel it’s time to provide more structure and clarity. From now on,
-everything shared on `csswizardry.com`—unless stated otherwise—is covered by the
+everything shared on `csswizardry.com` — unless stated otherwise — is covered by the
 MIT License.
 
 This move isn’t about restricting or limiting usage. Instead, it formalises my

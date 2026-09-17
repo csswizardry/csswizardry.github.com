@@ -18,8 +18,8 @@ to full-scale refactors of years-old legacy projects. In fact, I do so much work
 with clients who need to refactor that I spent [much of 2016 speaking about
 it](https://speakerdeck.com/csswizardry/refactoring-css-without-losing-your-mind).
 
-There are many interesting things about refactoring—from technical to
-logistical to cultural—but two points that are most relevant to this article
+There are many interesting things about refactoring — from technical to
+logistical to cultural — but two points that are most relevant to this article
 are:
 
 1. **The business is almost always hesitant to fund refactoring work**. Nearly
@@ -57,7 +57,7 @@ The Refactoring Tunnel metaphor works like this:
 
 On day one, you pick your refactoring task: you step into the tunnel. At this
 point, you can see the light at the tunnel’s entrance behind you, but you can’t
-see the light at the exit—perhaps it’s close but around a sharp bend, or maybe
+see the light at the exit — perhaps it’s close but around a sharp bend, or maybe
 it is just that far away. At this point, we don’t know, but it doesn’t concern
 us because we have only just started.
 
@@ -79,7 +79,7 @@ JavaScript has stopped working. Many of our tests are failing, but we’re not
 sure why. We’ve tried to keep merging `master` into our topic branch, but we see
 more and more merge conflicts. And we still have no idea where the exit is. Is
 it quite close? Would it be worth continuing another day or so? Or is it still
-many days—or even weeks—away from us? We have no way of knowing. The uncertainty
+many days — or even weeks — away from us? We have no way of knowing. The uncertainty
 is stressful; it is a gamble. We begin to wish we’d never started, and in total
 desperation, we do this:
 
@@ -88,7 +88,7 @@ $ git reset --hard origin/master
 ```
 
 We just throw everything away. We hard reset ourselves to a point in time we
-knew to be safe—and we do begin to feel safer again—but we have to face up to
+knew to be safe — and we do begin to feel safer again — but we have to face up to
 the fact that we just spent nine days of time and money getting to precisely
 nowhere. That’s going to be a difficult one to explain at your stand up, and
 will likely reduce the chances of the business trusting developers with
@@ -100,7 +100,7 @@ entering long Refactoring Tunnels.
 
 - - -
 
-Tasks with a large surface area—and thus, a long tunnel—might be things like
+Tasks with a large surface area — and thus, a long tunnel — might be things like
 
 * rewriting all of your Sass as PostCSS;
 * renaming all of your classes from BEM to BEM(IT), or;
@@ -148,7 +148,7 @@ Attacking the problem this way has many benefits:
    approaches in a smaller sandbox. The upshot of this is that the overall
    refactoring project can be defined based on a more trivial task up front.
 3. **You can move back onto product work much sooner.** This keeps managers
-   happy—the fact that you’re only out of action for a few days, rather than
+   happy — the fact that you’re only out of action for a few days, rather than
    many weeks, at a time is a hugely attractive proposition and is more likely
    to get approval than the alternative.
 4. **It’s a chance to encapsulate.** By working in these smaller units, it

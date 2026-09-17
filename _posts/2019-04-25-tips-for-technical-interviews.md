@@ -19,7 +19,7 @@ expand on) my answer in the hope that it might help someone else, too.
 
 * I don’t claim to be an authority on interviewing.
 * I don’t think this article is definitive or gospel.
-* I’ve been self-employed for over five years—I haven’t interviewed for
+* I’ve been self-employed for over five years — I haven’t interviewed for
   a full-time role for a long time.
 * Your mileage _will_ vary; apply your own context before disagreeing.
 
@@ -67,10 +67,10 @@ Next, ask if it’s possible to get an email intro to the relevant people ahead 
 time as you have some questions for them.
 
 Conversely, if you are already emailing with the person who will ultimately
-interview you, you’re pretty well set up—you won’t be going in cold. Use your
+interview you, you’re pretty well set up — you won’t be going in cold. Use your
 emails to get a sense of the person: are they formal or informal? Do they seem
 hurried? Did they mention an aspect of their personal life (<q>Apologies for the
-delayed reply—I’ve been on holiday over the long weekend.</q>)?
+delayed reply — I’ve been on holiday over the long weekend.</q>)?
 
 You can use these hints to make conversation in the interview, and use them as
 anchors to link back to when making smalltalk (<q>How was your holiday? The
@@ -108,7 +108,7 @@ stressed, and make the interview run more seamlessly.
 ### Prepare Your Questions Ahead of Time
 
 There’s a real tendency to panic when the interviewer asks <q>And do you have
-any questions for us?</q> It’s all too easy—and common—to hurriedly answer
+any questions for us?</q> It’s all too easy — and common — to hurriedly answer
 <q>Err no yeah everything is great thanks so much!</q>
 
 Prepare your questions ahead of time, and ask them confidently. My advice here
@@ -130,7 +130,7 @@ You’re all prepared, you’ve done your homework, and now it’s the big day!
 Arrive ten minutes early. Chat with the receptionist as you wait, make note of
 your surroundings, use it to make small-talk (<q>I love your offices! How long
 have you been in this building?</q>). Make a good impression on everyone you
-encounter—you want everyone to be fighting your corner. If they offer you
+encounter — you want everyone to be fighting your corner. If they offer you
 a drink, take them up on it confidently even if you don’t want one. (<q>A black
 coffee would be great, yeah! Thanks!</q>)
 
@@ -157,7 +157,7 @@ topics they list, but don’t devote too much time to memorising the syntax (mor
 on that in a second).
 
 When the whiteboarding task starts, make a quip or light joke along the lines of
-<q>Oh, wow. I hope you provide full-time staff with computers—I don’t like the
+<q>Oh, wow. I hope you provide full-time staff with computers — I don’t like the
 idea of typing up my handwritten code at home on an evening!</q>. Something like
 this should help to make the situation a little easier, while also gently
 pressing home the sheer ridiculousness of the situation.
@@ -194,7 +194,7 @@ written down as headings ahead of time. In no particular order:
 #### What Might My Average Day Look Like?
 
 Honestly, as basic as this question might seem, it’s amazing just how little of
-a role becomes apparent until you’ve started working there—that’s a little too
+a role becomes apparent until you’ve started working there — that’s a little too
 late for any surprises. Asking for a rough idea of what your typical day might
 look like forces the interviewer to envisage you successfully in the role, and
 to give deliberate thought to what exactly they will expect of you.
@@ -247,7 +247,7 @@ progress is neither monitored or communicated back to them.
 
 #### What Is the Worst Thing About Working Here?
 
-If you’re feeling particularly brave—this can be a difficult one to ask—then
+If you’re feeling particularly brave — this can be a difficult one to ask — then
 this question is a good way to get a more rounded view of an organisation.
 
 As cliche as it may be, it’s not uncommon for interviewers to ask <q>What would
@@ -277,7 +277,7 @@ a follow-up email simply thanking them for their time:
 > You don’t need to reply to this email if you don’t have time, but I just
 > wanted to say thanks.
 >
-> I really appreciate your time yesterday—it was really nice to meet you and
+> I really appreciate your time yesterday — it was really nice to meet you and
 > hear more about the challenges at \<organisation>. I felt the interview went
 > well, and I got a really great feel for the company and the team.
 

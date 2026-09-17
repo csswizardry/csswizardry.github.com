@@ -14,8 +14,8 @@ meta: "Why is it so much better to self-host your static assets?"
 last_modified_at: 2025-01-09
 ---
 
-One of the quickest wins—and one of the first things I recommend my clients
-do—to make websites faster can at first seem counter-intuitive: you should
+One of the quickest wins — and one of the first things I recommend my clients
+do — to make websites faster can at first seem counter-intuitive: you should
 self-host all of your static assets, forgoing others’ CDNs/infrastructure. In
 this short and hopefully very straightforward post, I want to outline the
 disadvantages of hosting your static assets ‘off-site’, and the overwhelming
@@ -226,7 +226,7 @@ going to fully pay off the overhead upfront.
 
 The second penalty comes in the form of a protocol-level optimisation that we
 miss out on the moment we split content across domains. If you’re running over
-HTTP/2—which, by now, you should be—you get access to prioritisation. All
+HTTP/2 — which, by now, you should be — you get access to prioritisation. All
 streams (ergo, resources) within the same TCP connection carry a priority, and
 the browser and server work in tandem to build a dependency tree of all of these
 prioritised streams so that we can return critical assets sooner, and perhaps

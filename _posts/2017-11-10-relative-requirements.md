@@ -22,7 +22,7 @@ This awkward matrix of skills against requirements can often lead to problems:
 developers can end up over-engineering simple marketing sites, and designers
 begin striving for pixel-perfection on quick-and-dirty internal dashboards that
 just don’t need it. This can lead to internal friction and arguments between
-team members, but also to excessive cost—spending three days writing the most
+team members, but also to excessive cost — spending three days writing the most
 extensible and elegant code for a campaign site that will be live for a few days
 is almost impossible to justify.
 
@@ -102,8 +102,8 @@ everybody involved the process. To quickly define the traits I have used:
   pixel-perfection? For [Gov.uk](https://www.gov.uk/), striking visuals are
   clearly less important than usability, but if we’re building a site to promote
   a luxury hotel, we need to be focusing on lavish design.
-* **Accessibility:** Of course, accessibility is always important—we should
-  always be building accessible sites and applications—but accessibility still
+* **Accessibility:** Of course, accessibility is always important — we should
+  always be building accessible sites and applications — but accessibility still
   needs to be subjected to the same grading as everything else.
 
 Feel free to use these traits as-is, or use them as a basis for your own.
@@ -173,7 +173,7 @@ you want key architectural developers involved on the project.</figcaption>
 and usability are essential; performance is important, as we have to serve
 a large and diverse audience who might not have access to powerful devices and
 fast connections; visual design is somewhat important, but not at the cost of
-over-designing—we want to focus on a usable design rather than a striking
+over-designing — we want to focus on a usable design rather than a striking
 one.</figcaption>
 </figure>
 

@@ -69,12 +69,12 @@ While they aren’t the only places you can find this information, they’re
 probably the easiest and fastest.
 
 <small><strong>N.B.</strong> As with all CrUX data, this only applies to hard
-navigations—SPAs are not very well represented in the report.</small>
+navigations — SPAs are not very well represented in the report.</small>
 
 ## Insights
 
 We can infer a lot from the data. Some of it is pretty matter-of-fact whereas
-other aspects depend a little on how you view them—you’d probably want to
+other aspects depend a little on how you view them — you’d probably want to
 cross-reference a few statistics with other analytics tools to check whether an
 inefficiency has been highlighted. Let’s take a look at the BBC as an example.
 
@@ -120,7 +120,7 @@ be served from the bfcache specifically. Remember, these buckets are mutually
 exclusive. These navigations were triggered by a user hitting their browser
 controls, but we don’t know if the response itself came from the network or
 cache. What we do know is that they didn’t come from bfcache, and this is one of
-the first opportunities for improvement we’ll find—we want to move as many of
+the first opportunities for improvement we’ll find — we want to move as many of
 the _Back–Forward_ navigations into the _bfcache_ bucket as possible. So, a high
 number of _Back–Forward_ navigations tell us a lot about how users traverse our
 site, and also that we aren’t serving these navigation types as quickly as we
@@ -149,12 +149,12 @@ back/forward cache. The figure is determined by:
 
 The reason the bfcache is so much faster is that, where traditional back/forward
 navigations should hopefully retrieve most of their (sub)resources from HTTP
-cache, the bfcache restores pages from memory—near-instant page loads! I’d
+cache, the bfcache restores pages from memory — near-instant page loads! I’d
 recommend [reading up on bfcache](https://web.dev/articles/bfcache) and how to
 gain access to it.
 
 As it stands, the BBC serves more of its back/forward initiated navigations via
-the much faster bfcache—this is a good thing, but there is still the remaining
+the much faster bfcache — this is a good thing, but there is still the remaining
 28% that could be fixed.
 
 ### Reload
@@ -162,7 +162,7 @@ the much faster bfcache—this is a good thing, but there is still the remaining
 **7.5% of navigations are _Reloads_.** Again, this would need viewing in
 context. A lot of reloads could be the symptom of broken-looking sites or sites
 where content has failed to load. Or, it could be quite typical of your site in
-general—let’s say you provide breaking news, or live flight status, or you’re
+general — let’s say you provide breaking news, or live flight status, or you’re
 Hacker News. It may well be a site that expects to have users refreshing pages,
 which might therefore mean there no cause for concern. If this isn’t what you’d
 expect, I would try to cross reference this behaviour with in-browser error

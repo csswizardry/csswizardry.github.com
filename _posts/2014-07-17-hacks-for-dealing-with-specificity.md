@@ -43,8 +43,8 @@ we can do to mitigate its effects:
 
 **tl;dr** never use a selector more specific than the one you need.
 
-These are all very simple rules—and are very easy to follow if you’re starting
-a new project—but what happens when you need to hack specificity? We all know
+These are all very simple rules — and are very easy to follow if you’re starting
+a new project — but what happens when you need to hack specificity? We all know
 about `!important`, which I won’t go into here, but how can we trick specificity
 into being lowered or increased with no drastic side effects?
 
@@ -56,7 +56,7 @@ into being lowered or increased with no drastic side effects?
        Mason</a></b>
 </blockquote>
 
-If you’ve ever been on any of my workshops, you will know that—right up front—I
+If you’ve ever been on any of my workshops, you will know that — right up front — I
 like to stress that **no rules are unbreakable**. There will always be
 exceptions, there will always be a situation which requires a rule to be bent,
 there will always be anomalies. Whenever someone says <q>always do
@@ -74,7 +74,7 @@ still avoid using that ID in your CSS.
 {% include promo-case-studies.html %}
 
 <small>**N.B.** Using IDs in your HTML, as fragment identifiers, or in your JS,
-as hooks, is totally fine—it’s in CSS that IDs are troublesome.</small>
+as hooks, is totally fine — it’s in CSS that IDs are troublesome.</small>
 
 Let’s imagine you have this third-party widget embedded on your page, and you
 want to style it:
