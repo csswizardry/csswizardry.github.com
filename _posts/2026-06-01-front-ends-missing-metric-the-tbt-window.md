@@ -24,8 +24,8 @@ main: "/wp-content/uploads/2026/06/tbt-window-main.png"
 ---
 
 <p class="c-highlight">In a similar vein to TBT Window, <a
-href="/2026/08/uno-is-underrated/">UNO&hairsp; — &hairsp;<em>Unattributed
-Navigation Overhead</em></a>&hairsp;—&hairsp;is another missing metric you may
+href="/2026/08/uno-is-underrated/">UNO — <em>Unattributed
+Navigation Overhead</em></a> — is another missing metric you may
 be interested in.</p>
 
 An incident (and it _was_ an incident!) on a client project got me thinking
