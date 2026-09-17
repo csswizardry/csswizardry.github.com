@@ -278,11 +278,11 @@ s, del {
   color: var(--color-negative);
 
   &::before {
-    content: "[-\FEFF";
+    content: "[−\FEFF";
   }
 
   &::after {
-    content: "\FEFF-]";
+    content: "\FEFF−]";
   }
 
 }
