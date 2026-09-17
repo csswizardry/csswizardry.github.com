@@ -7,6 +7,17 @@
   <title>Downloading File…</title>
 
   <script>
+    /* SpeedCurve RUM Snippet v2.0.0 */LUX=function(){var n=Math.floor;function t(){return Date.now?Date.now():+new Date}var r,a=t(),e=window.performance||{},i=e.timing||{navigationStart:(null===(r=window.LUX)||void 0===r?void 0:r.ns)||a};function o(){return e.now?n(e.now()):t()-i.navigationStart}(LUX=window.LUX||{}).ac=[],LUX.addData=function(n,t){return LUX.cmd(["addData",n,t])},LUX.cmd=function(n){return LUX.ac.push(n)},LUX.getDebug=function(){return[[a,0,[]]]},LUX.init=function(n){return LUX.cmd(["init",n||o()])},LUX.mark=function(){for(var n=[],t=0;t<arguments.length;t++)n[t]=arguments[t];if(e.mark)return e.mark.apply(e,n);var r=n[0],a=n[1]||{};void 0===a.startTime&&(a.startTime=o());LUX.cmd(["mark",r,a])},LUX.markLoadTime=function(){return LUX.cmd(["markLoadTime",o()])},LUX.startSoftNavigation=function(){return LUX.cmd(["startSoftNavigation",o()])},LUX.measure=function(){for(var n=[],t=0;t<arguments.length;t++)n[t]=arguments[t];if(e.measure)return e.measure.apply(e,n);var r,a=n[0],i=n[1],u=n[2];r="object"==typeof i?n[1]:{start:i,end:u};r.duration||r.end||(r.end=o());LUX.cmd(["measure",a,r])},LUX.on=function(n,t){return LUX.cmd(["on",n,t])},LUX.send=function(n){return LUX.cmd(["send",n])},LUX.snippetVersion="2.0.0",LUX.ns=a;var u=LUX;return window.LUX_ae=[],window.addEventListener("error",function(n){window.LUX_ae.push(n)}),u}();
+    LUX = window.LUX || {};
+    LUX.samplerate = 100;
+    LUX.label = 'Site-Speed PDF';
+    //# sourceURL=speedcurve.inline.js
+  </script>
+
+  <script src=https://cdn.speedcurve.com/js/lux.js?id=47684395 defer crossorigin></script>
+
+
+  <script>
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
     ga('create', 'UA-1856861-4', {'siteSpeedSampleRate': 100});
     ga('send', 'pageview');
