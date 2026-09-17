@@ -52,7 +52,7 @@ Where:
   * <var>c</var> = columns
   * <var>g</var> = gutters
 
-Basically, a full row comprises of _n_ columns and _n_-1 gutters; we want one less gutter than we have columns. We need to lose a gutter somehow.
+Basically, a full row comprises of <var>n</var> columns and <var>n</var>-1 gutters; we want one less gutter than we have columns. We need to lose a gutter somehow.
 
 ## The current solution(s)
 
@@ -86,7 +86,7 @@ This would give us:
 
 This solves the problem, but it means the developer has to remember to add that class every time they construct a row of grids.
 
-Another problem is that if a programmer needs to dynamically display, say, a series of images in a grid system, they need to do some scripting to say 'if this is the _x_ column then add a class of `.end`'. Not a massive overhead, but an overhead nonetheless.
+Another problem is that if a programmer needs to dynamically display, say, a series of images in a grid system, they need to do some scripting to say 'if this is the <var>x</var> column then add a class of `.end`'. Not a massive overhead, but an overhead nonetheless.
 
 ### The other current solution
 
