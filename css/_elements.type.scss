@@ -268,11 +268,34 @@ mark {
 /**
  * Inserted and deleted text.
  */
+s, del, ins {
+  text-decoration: none;
+  border-bottom: none;
+  background-color: transparent;
+}
+
 s, del {
-  opacity: 0.75;
+  color: var(--color-negative);
+
+  &::before {
+    content: "[-\FEFF";
+  }
+
+  &::after {
+    content: "\FEFF-]";
+  }
+
 }
 
 ins {
-  border-bottom: none;
-  background-color: var(--color-hilite);
+  color: var(--color-positive);
+
+  &::before {
+    content: "{+\FEFF";
+  }
+
+  &::after {
+    content: "\FEFF+}";
+  }
+
 }
