@@ -22,6 +22,9 @@ faq:
 main: "/wp-content/uploads/2019/08/ttfb-main.png"
 ---
 
+<p class="c-highlight">Got gaps in your TTFB reports? That might be <a
+href="/2026/08/uno-is-underrated/">Unattributed Navigation Overhead</a>.</p>
+
 I’m working on a client project at the moment and, as they’re an ecommerce site,
 there are a lot of facets of performance I’m keen to look into for them: load
 times are a good start, start render is key for customers who want to see
