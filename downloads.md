@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Downloads and Resources
-page-class: page--services  page--downloads
+page-class: page--blog  page--downloads
 meta: "Downloadable resources and assets"
 permalink: /downloads/
 lux: "Services / Downloads"

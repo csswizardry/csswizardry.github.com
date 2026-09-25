@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CSS Wizardry Newsletter
-page-class: page--contact  page--newsletter
+page-class: page--blog  page--newsletter
 meta: "Join the club!"
 permalink: /newsletter/
 ---

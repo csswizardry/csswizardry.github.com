@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Thank You!
-page-class: page--contact  page--newsletter
+page-class: page--blog  page--newsletter
 meta: "You’re on board!"
 permalink: /newsletter/thank-you/
 ---
