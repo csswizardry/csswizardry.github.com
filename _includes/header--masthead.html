@@ -11,12 +11,14 @@
 
 {% include ribbon.html %}
 
+<script>performance.mark('beforeIMG')</script>
 <header class="page-head  page-head--masthead" elementtiming=masthead>
 
     <div class=wrapper>
 
         {% include nav.html %}
 
+        <script>performance.mark('beforeH1')</script>
         <h1 class=page-head__text elementtiming=mastheadTitle>{{ page.masthead-title }}</h1>
 
         <h2 class=hide>Proven results improving Core Web Vitals for world-leading organisations.</h2>

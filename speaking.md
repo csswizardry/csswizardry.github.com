@@ -14,6 +14,7 @@ I’ve spoken at [over one-hundred conferences](#section:past-events). Sharing
 practical knowledge is one of my key motivations. It’s also a large part of why
 I became a consultant in the first place — I love to help.
 
+<script>performance.mark('beforeIMG')</script>
 <figure>
   <img src="/img/content/perfnow-2024.jpg"
        alt="Harry Roberts delivering a keynote on stage at performance.now() 2024 in Amsterdam, photographed mid-talk in front of a large projected slide."

@@ -27,6 +27,7 @@ teams around the world. Heard enough?
 
 <a href="/contact/" class="btn  btn--full  btn--positive">Hire me!</a>
 
+<script>performance.mark('beforeIMG')</script>
 <figure>
   <img src="/img/content/about.jpg"
        alt="Harry Roberts leading a web performance workshop at Digital Labin 2022, standing in front of a group of attendees and speaking with animated hand gestures against a concrete and tiled backdrop."

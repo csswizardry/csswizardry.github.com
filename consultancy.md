@@ -55,6 +55,7 @@ issues. Together, we answer questions such as:
 
 It’s my job to help you find the answers.
 
+<script>performance.mark('beforeIMG')</script>
 <figure>
   <img src="/img/content/consultancy.jpg"
        alt=""

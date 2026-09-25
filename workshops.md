@@ -26,6 +26,7 @@ With a 99% approval rating, my workshops are not your typical corporate training
 session. They’re intense, intensive, and packed with real-world, practical
 insights. I’m a teacher who _does_.
 
+<script>performance.mark('beforeIMG')</script>
 <figure>
   <img src="/img/content/workshops.jpg"
        alt=""
