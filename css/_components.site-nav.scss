@@ -207,6 +207,13 @@
 
           > a {
             transition: 0.2s;
+
+            &::after {
+              content: " ↘";
+              vertical-align: sub;
+              font-size: smaller;
+            }
+
           }
 
           &:hover > a {
