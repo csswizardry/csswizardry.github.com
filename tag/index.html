@@ -5,10 +5,10 @@ permalink: /blog/tags/
 meta: "Every subject covered on CSS Wizardry, from Core Web Vitals and caching to CSS, RUM, and the browser internals sitting underneath them."
 ---
 
-<ul class="c-nav-secondary" id="section:about">
+<ul class="c-nav-secondary">
   <li class="c-nav-secondary__item"><a href="/blog/" class="c-nav-secondary__link">All</a></li>
   <li class="c-nav-secondary__item"><a href="/blog/category/" class="c-nav-secondary__link">Categories</a></li>
-  <li class="c-nav-secondary__item"><a href="/blog/tags/" class="c-nav-secondary__link  is-current">Tags</a></li>
+  <li class="c-nav-secondary__item"><a href="/blog/tags/" class="c-nav-secondary__link  is-current" style="view-transition-name: nav-secondary">Tags</a></li>
 </ul>
 
 {% assign tag_pages = site.pages | where_exp: "item", "item.tag" | sort: "tag" %}
