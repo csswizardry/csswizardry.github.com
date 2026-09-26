@@ -72,9 +72,12 @@ Or book a free call:
   - It looks like Chrome puts `navigate` requests into a different connection
   - pool, meaning the TCP/TLS phase from a `preconnect` cannot be reused. This
   - means that `dns-prefetch` is actually going to be overall faster than
-  - a wasteful `preconnect`.
+  - a wasteful `preconnect`. The other origins benefit from a full `preconnect`.
   -->
 <link rel="dns-prefetch" href="https://calendly.com">
+<link rel="preconnect" href="https://dfp.calendly.com/" crossorigin>
+<link rel="preconnect" href="https://api.s.calendly.com" crossorigin>
+<link rel="preconnect" href="https://assets.calendly.com">
 
 - - -
 
