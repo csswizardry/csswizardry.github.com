@@ -52,6 +52,7 @@
     compressionDelta: 'cd',
     unattributedNavigationOverhead: 'uno',
     timeToLastByte: 'ttlb',
+    luxVersion: 'lv'
   };
 
   // Surface the browser-reported static CPU performance tier.
@@ -217,4 +218,9 @@
       lux.addData(CUSTOM_DATA_KEYS.timeToLastByte, ttlb);
     }
   }
+
+  if (LUX.version) {
+    lux.addData(CUSTOM_DATA_KEYS.luxVersion, LUX.version);
+  }
+
 })();
