@@ -52,7 +52,17 @@
   --color-highlight:                 #fff;
   --color-tint:                      #f2f2f2;
   --color-positive:                  #3f990f;
+  --color-positive-tint: color-mix(
+    in oklab,
+    var(--color-positive) 10%,
+    white
+  );
   --color-negative:                  #9f102e;
+  --color-negative-tint: color-mix(
+    in oklab,
+    var(--color-negative) 10%,
+    white
+  );
   --color-hilite:                    #ffc;
 
   --color-links:                     var(--color-pink);

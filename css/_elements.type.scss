@@ -276,6 +276,7 @@ s, del, ins {
 
 s, del {
   color: var(--color-negative);
+  background-color: var(--color-negative-tint);
 
   &::before {
     content: "[−\FEFF";
@@ -289,6 +290,7 @@ s, del {
 
 ins {
   color: var(--color-positive);
+  background-color: var(--color-positive-tint);
 
   &::before {
     content: "{+\FEFF";
