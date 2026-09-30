@@ -60,12 +60,14 @@ ms, which is the right place to catch a Web API wiring problem like this.
 
 For SpeedCurve users, the immediate task is to preserve context. Record the
 lux.js version alongside the relevant RUM period, annotate the eventual rollout,
-and compare the shape and attribution of INP before and after it. A change in
-the distribution may come from the observer seeing interactions that were
-previously absent rather than from an application deployment. A careful [RUM
-measurement review](/consultancy/) should establish what the collector could
-see before anyone uses the graph to judge a release, set a target, or explain a
-commercial result.
+and compare the shape and attribution of INP before and after it. You can see
+how I’m recording the lux.js version in [this recent
+commit](https://github.com/csswizardry/csswizardry.github.com/commit/8181b4d7da105702c8924e13379c93b84edc3341).
+A change in the distribution may come from the observer seeing interactions that
+were previously absent rather than from an application deployment. A careful
+[RUM measurement review](/consultancy/) should establish what the collector
+could see before anyone uses the graph to judge a release, set a target, or
+explain a commercial result.
 
 ## lux.js 4.5.3 Contains the Fix
 
