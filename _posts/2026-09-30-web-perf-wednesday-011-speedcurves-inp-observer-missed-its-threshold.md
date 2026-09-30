@@ -75,13 +75,12 @@ public release note describes an INP correction that mostly affected soft
 navigations. That establishes the fix in a published open-source version rather
 than only on the repository’s main branch.
 
-That still doesn’t prove which version SpeedCurve is serving to customer sites.
-Its [public product
-changelog](https://support.speedcurve.com/changelog) hadn’t announced a 4.5.3
-rollout by the 09:00 cutoff, and a repository release isn’t evidence of a hosted
-deployment. The merged fix may therefore not yet be in the customer SDK. If
-you’re planning a before-and-after comparison, confirm the deployed version
-first and keep the rollout time with the data.
+SpeedCurve’s [public product
+changelog](https://support.speedcurve.com/changelog) hadn’t officially announced
+a `4.5.3` rollout at the time of writing, but I have successfully observed
+`4.5.3` being served to my and my client’s audiences, so it looks like it’s on
+its way out. If you’re planning a before-and-after comparison, confirm the
+deployed version first and keep the rollout time with the data.
 
 ## Safari Adds Network Throttling and Performance Fixes
 
