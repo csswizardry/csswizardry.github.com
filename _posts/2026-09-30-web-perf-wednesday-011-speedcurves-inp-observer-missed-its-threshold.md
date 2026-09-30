@@ -78,11 +78,13 @@ navigations. That establishes the fix in a published open-source version rather
 than only on the repository’s main branch.
 
 SpeedCurve’s [public product
-changelog](https://support.speedcurve.com/changelog) hadn’t officially announced
-a `4.5.3` rollout at the time of writing, but I have successfully observed
-`4.5.3` being served to my and my client’s audiences, so it looks like it’s on
-its way out. If you’re planning a before-and-after comparison, confirm the
-deployed version first and keep the rollout time with the data.
+changelog](https://support.speedcurve.com/changelog) <del>hadn’t officially
+announced a `4.5.3` rollout at the time of writing, but</del> <ins>lists the
+<code>4.5.3</code> release as having addressed the INP bug, and</ins> I have
+successfully observed `4.5.3` being served to my and my client’s audiences, so
+it looks like it’s on its way out. If you’re planning a before-and-after
+comparison, confirm the deployed version first and keep the rollout time with
+the data.
 
 ## Safari Adds Network Throttling and Performance Fixes
 
