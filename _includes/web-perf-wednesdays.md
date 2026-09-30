@@ -1,6 +1,7 @@
 ### More Web-Perf Wednesdays
 
 <ol reversed>
+  <li><a href="/2026/09/web-perf-wednesday-011-speedcurves-inp-observer-missed-its-threshold/">Web-Perf Wednesday 011 – SpeedCurve’s INP Observer Missed Its Threshold</a></li>
   <li><a href="/2026/09/web-perf-wednesday-010-safari-keeps-scrolled-content-in-place/">Web-Perf Wednesday 010 – Safari Keeps Scrolled Content in Place</a></li>
   <li><a href="/2026/09/web-perf-wednesday-009-crux-makes-ad-weight-public/">Web-Perf Wednesday 009 – CrUX Makes Ad Weight Public</a></li>
   <li><a href="/2026/09/web-perf-wednesday-008-good-inp-rates-keep-falling/">Web-Perf Wednesday 008 – Good INP Rates Keep Falling</a></li>
