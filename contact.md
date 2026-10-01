@@ -77,7 +77,6 @@ Or book a free call:
 <link rel="dns-prefetch" href="https://calendly.com">
 <link rel="preconnect" href="https://dfp.calendly.com/" crossorigin>
 <link rel="preconnect" href="https://api.s.calendly.com" crossorigin>
-<link rel="preconnect" href="https://assets.calendly.com">
 
 - - -
 
