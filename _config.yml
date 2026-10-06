@@ -17,6 +17,8 @@ incremental: true
 exclude:
 - watch
 - css/watch
+- css/node_modules
+- css/bower_components
 
 # Gems
 plugins:
