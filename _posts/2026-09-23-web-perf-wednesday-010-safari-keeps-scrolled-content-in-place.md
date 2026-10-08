@@ -98,13 +98,24 @@ installation, `event.addRoutes()` can declare conditions based on URL, request
 method, mode, destination, or Worker state, then choose the network, a cache,
 the fetch handler, or a race between network and handler.
 
-For requests that can go straight to the network or a named cache, the browser
-can avoid starting the Worker and dispatching a `fetch` event. That removes
-bootstrap and JavaScript work from routes whose behaviour is already known.
-Start with a small, measurable route set, retain the ordinary fetch path for
-unsupported browsers, and compare cold navigations as well as warm ones; a
+[MDN’s compatibility data](https://github.com/mdn/browser-compat-data/blob/v8.1.4/api/InstallEvent.json)
+records support from Chrome and Edge 123 and Safari 27, including Safari on
+iOS; Firefox remains unsupported. Feature-detect `addRoutes` on the install
+event and retain the ordinary fetch handler for Firefox and older browsers.
+
+Network and cache routes can avoid Worker startup and `fetch` dispatch. Start
+with a small, measurable route set and compare cold and warm navigations; a
 [PWA performance review](/performance-audits/) should prove that the declared
 route matches the application’s real caching and offline requirements.
+
+There’s also a registration gotcha: `fetch-event` and
+`race-network-and-fetch-handler` both require a registered `fetch` listener,
+otherwise `addRoutes()` rejects with a `TypeError`. Handle rejection and test
+the fallback. The API extends installation automatically, but its internal
+lifetime promise stays fulfilled; rejection alone doesn’t fail installation.
+Passing the rejected promise to `event.waitUntil()` does, so decide whether
+static routes are required or optional. [OpenPWA’s static-routing reference](https://openpwa.net/reference/service-worker/static-routing/)
+has practical examples and Chromium’s diagnostic messages.
 
 ## Chrome DevTools Makes Comparisons More Reproducible
 
