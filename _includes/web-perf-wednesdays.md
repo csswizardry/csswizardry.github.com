@@ -1,6 +1,7 @@
 ### More Web-Perf Wednesdays
 
 <ol reversed>
+  <li><a href="/2026/10/web-perf-wednesday-013-crux-adds-soft-navigation-core-web-vitals/">Web-Perf Wednesday 013 – CrUX Adds Soft-Navigation Core Web Vitals</a></li>
   <li><a href="/2026/10/web-perf-wednesday-012-return-to-the-unresolved-trace/">Web-Perf Wednesday 012 – Return to the Unresolved Trace</a></li>
   <li><a href="/2026/09/web-perf-wednesday-011-speedcurves-inp-observer-missed-its-threshold/">Web-Perf Wednesday 011 – SpeedCurve’s INP Observer Missed Its Threshold</a></li>
   <li><a href="/2026/09/web-perf-wednesday-010-safari-keeps-scrolled-content-in-place/">Web-Perf Wednesday 010 – Safari Keeps Scrolled Content in Place</a></li>
