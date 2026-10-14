@@ -14,23 +14,31 @@ meta: "CrUX adds experimental Core Web Vitals for SPA soft navigations, while Fi
 ---
 
 A lot has changed since last Wednesday, and this week’s strongest development
-takes SPA measurement from a browser capability into public field data. CrUX
-now exposes experimental LCP, INP, and CLS variants that include soft
-navigations, giving teams a first view of how real SPA journeys differ from the
-hard-navigation numbers they’ve reported for years. Firefox 158 also improves
-cache evidence and adds JPEG XL support, while Safari Technology Preview 254
-fixes several costly browser behaviours. The immediate job is to establish a
-clean comparison before the experimental data graduates.
+takes Single Page Application (SPA) measurement from a browser capability into
+public field data. CrUX now exposes experimental LCP, INP, and CLS variants that
+include soft navigations, giving teams a first view of how real SPA journeys
+differ from the hard-navigation numbers they’ve reported for years. Firefox 158
+also improves cache evidence and adds JPEG XL support, while Safari Technology
+Preview 254 fixes several costly browser behaviours. The immediate job is to
+establish a clean comparison before the experimental data graduates.
 
 ## CrUX Adds Soft-Navigation Core Web Vitals
 
 The September 2026 Chrome UX Report (CrUX) release adds three experimental
-metrics that combine hard and soft navigations: Largest Contentful Paint (LCP),
-Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS). They’re
-available in [BigQuery, the CrUX API, and the CrUX History
-API](https://web.dev/blog/crux-experimental-soft-navs/), with destination URLs
+metrics that combine hard and soft navigations:
+`experimental_largest_contentful_paint_with_softnavs`,
+`experimental_interaction_to_next_paint_with_softnavs`, and, you guessed it,
+`experimental_cumulative_layout_shift_with_softnavs`. They’re available in
+BigQuery, the CrUX API, and the CrUX History API , with destination URLs
 receiving their own soft-navigation data when they meet the ordinary CrUX
-eligibility rules.
+eligibility rules. The [announcement
+post](https://web.dev/blog/crux-experimental-soft-navs/) makes for fascinating
+reading, so I would recommend giving it some time.
+
+The key thing to note here is that the new experimental metrics are 75th
+percentiles for each rejective Core Web Vital including _both_ hard and soft
+navigations, and not a soft-nav only view of the metrics. At the time of
+writing, I’m not actually sure if we can view soft-nav only versions.
 
 This continues the [native SPA measurement
 work](/2026/08/web-perf-wednesday-003-native-spa-metrics-have-arrived/) that
@@ -44,18 +52,21 @@ own metrics without loading another HTML document.
 The headline figures move enough that teams need to keep the two series
 separate. In the [September release
 notes](https://developer.chrome.com/docs/crux/release-notes/), the share of
-origins with good LCP rises from 68.3% in the stable data to 72.1% when soft
-navigations are included. Good CLS rises from 81.7% to 85.1%, good INP from
-85.4% to 87.4%, and the share passing all three Core Web Vitals from 55.9% to
-59.5%.
+origins:
+
+* with good LCP rises from 68.3% in the stable data to 72.1% when soft
+  navigations are included;
+* good CLS rises from 81.7% to 85.1%,
+* good INP from 85.4% to 87.4%, and;
+* the share passing all three Core Web Vitals from 55.9% to 59.5%.
 
 Those increases describe a different measurement population. Follow-up views
 often reuse code and assets from the initial load; INP is assessed per view
-instead of retaining the slowest interaction from an entire SPA session; and
-CLS is reset for each recognised navigation. Google says around 70% of origins
-have little or no soft-navigation traffic, while 35–42% of the top 1,000 sites
-use soft navigations for more than half of their page views. The overall shift
-is concentrated among large, heavily used SPAs.
+instead of retaining the slowest interaction from an entire SPA session; and CLS
+is reset for each recognised navigation. Google says around **70% of origins
+have little or no soft-navigation traffic**, while **35–42% of the top 1,000
+sites use soft navigations**  for more than half of their page views. The
+overall shift is concentrated among large, heavily used SPAs.
 
 Google’s stable Core Web Vitals remain unchanged while the experimental series
 is evaluated. It currently aims to graduate the metrics in May 2027, subject to
