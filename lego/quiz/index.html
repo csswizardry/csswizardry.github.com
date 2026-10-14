@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang=en-gb>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <title>predictor, enabler, or KPI? — csswizardry</title>
+
+  <style>
+    /* ======================================================================
+       #BASE
+       ====================================================================== */
+
+    :root {
+      color-scheme: light;
+      font-family: system-ui, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-transform: lowercase;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    :focus-visible {
+      outline: 3px solid #f43059;
+      outline-offset: 3px;
+    }
+
+    body {
+      margin: 0;
+      min-width: 18rem;
+    }
+
+    button,
+    select {
+      font: inherit;
+    }
+
+    h1 {
+      color: #f43059
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ======================================================================
+       #LAYOUT
+       ====================================================================== */
+
+    .o-page {
+      width: min(100% - 2rem, 47.5rem);
+      margin-inline: auto;
+      padding-block: clamp(2.5rem, 8vw, 5.5rem);
+    }
+
+
+    /* ======================================================================
+       #COMPONENTS
+       ====================================================================== */
+
+    .c-brand {
+      margin: 0;
+      color: #f43059;
+      font-size: 1.5rem;
+      font-weight: 750;
+      letter-spacing: -0.04em;
+    }
+
+    .c-credit {
+      margin: 0.25rem 0 2.5rem;
+      color: #666;
+      font-size: 0.875rem;
+    }
+
+    .c-quiz__title {
+      margin: 0 0 0.75rem;
+      font-size: clamp(2rem, 7vw, 3.25rem);
+      letter-spacing: -0.055em;
+      line-height: 1.05;
+    }
+
+    .c-quiz__intro {
+      max-width: 38rem;
+      margin: 0 0 1.5rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .c-quiz__progress {
+      margin: 0 0 0.5rem;
+      font-size: 0.9375rem;
+      font-weight: 650;
+    }
+
+    .c-quiz__storage {
+      min-height: 1.4em;
+      margin: 0 0 1.25rem;
+      color: #666;
+      font-size: 0.8125rem;
+    }
+
+    .c-quiz__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid #d9d9d9;
+    }
+
+    .c-quiz__item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(12rem, 15rem);
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid #d9d9d9;
+    }
+
+    .c-quiz__label {
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .c-quiz__select {
+      width: 100%;
+      min-height: 2.75rem;
+      padding: 0.5rem 2rem 0.5rem 0.75rem;
+      border: 1px solid #888;
+      border-radius: 0.25rem;
+      background-color: #fff;
+      color: #333;
+      text-transform: lowercase;
+    }
+
+    .c-quiz__feedback {
+      grid-column: 1 / -1;
+      margin: -0.5rem 0 0;
+      font-size: 0.9rem;
+      font-weight: 650;
+    }
+
+    .c-quiz__feedback--correct {
+      color: #246400;
+    }
+
+    .c-quiz__feedback--incorrect {
+      color: #9f102e;
+    }
+
+    .c-quiz__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+
+    .c-quiz__button {
+      min-height: 2.75rem;
+      padding: 0.65rem 1rem;
+      border: 2px solid #f43059;
+      border-radius: 0.25rem;
+      background-color: #f43059;
+      color: #f9f9f9;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .c-quiz__button--secondary {
+      background-color: transparent;
+      color: #333;
+    }
+
+    .c-quiz__button:disabled {
+      cursor: default;
+      opacity: 0.65;
+    }
+
+    .c-quiz__result {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      border-left: 4px solid #3f990f;
+      background-color: #fff;
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+
+    .c-quiz__result:empty {
+      display: none;
+    }
+
+
+    /* ======================================================================
+       #RESPONSIVE
+       ====================================================================== */
+
+    @media (max-width: 38rem) {
+      .c-quiz__item {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.625rem;
+      }
+
+      .c-quiz__feedback {
+        grid-column: 1;
+        margin-top: 0;
+      }
+    }
+  </style>
+
+  <body>
+    <main class="o-page">
+
+      <!--
+      <header>
+        <p class="c-brand">@csswizardry</p>
+        <p class="c-credit">A workshop exercise by Harry Roberts</p>
+      </header>
+      -->
+
+      <section class="c-quiz" aria-labelledby=quiz-title>
+        <h1 class="c-quiz__title" id=quiz-title>Predictor, Enabler, or KPI?</h1>
+        <p class="c-quiz__intro">Categorise each metric within this workshop’s taxonomy.</p>
+
+        <ul>
+          <li><strong>KPI:</strong> This is a metric we actively want to improve</li>
+          <li><strong>Enabler</strong> All else being equal, improving this will improve its relevant KPI</li>
+          <li><strong>Predictor:</strong> This metric may or may not predict KPI improvement if we improve it</li>
+        </ul>
+
+        <form class="c-quiz__form" id=metric-quiz>
+          <p class="c-quiz__progress" id=quiz-progress aria-live=polite></p>
+          <p class="c-quiz__storage" id=storage-status></p>
+          <ol class="c-quiz__list" id=quiz-questions></ol>
+          <div class="c-quiz__actions">
+            <button class="c-quiz__button" id=check-answers type=submit>check answers</button>
+            <button class="c-quiz__button c-quiz__button--secondary" id=start-again type=button>start again</button>
+          </div>
+          <p class="c-quiz__result" id=quiz-result aria-live=polite tabindex=-1></p>
+        </form>
+        <noscript><p>JavaScript is required to take this quiz.</p></noscript>
+      </section>
+    </main>
+
+    <script>
+      'use strict';
+
+      // Edit one entry per metric; the quiz derives its questions and scoring from this list.
+      const metrics = {
+        'Largest Contentful Paint (LCP)': 'kpi',
+        'Time to First Byte (TTFB)': 'enabler',
+        'Bundle Size': 'predictor',
+        'CSS Requests (count)': 'predictor',
+        'Interaction to Next Paint (INP)': 'kpi',
+        'Time to First Search Result (custom metric)': 'kpi',
+        'LCP Resource Load Delay': 'enabler',
+        'LCP Image Size (KB)': 'predictor',
+        'Server Response Time': 'enabler',
+        'Cumulative Layout Shift (CLS)': 'kpi',
+        'Long Animation Frames (count)': 'predictor',
+        'INP Processing Duration': 'enabler',
+        'LCP Resource Load Duration': 'enabler',
+        'LCP Element Render Delay': 'enabler',
+        'DOM Size (element count)': 'predictor'
+      };
+      const metricTypes = Object.entries(metrics).map(([name, category]) => ({ name, category }));
+
+      const categories = ['predictor', 'enabler', 'kpi'];
+      const storageKey = 'csswizardry-metric-types-quiz';
+      const form = document.getElementById('metric-quiz');
+      const questionList = document.getElementById('quiz-questions');
+      const progress = document.getElementById('quiz-progress');
+      const result = document.getElementById('quiz-result');
+      const storageStatus = document.getElementById('storage-status');
+      const checkButton = document.getElementById('check-answers');
+      let answers = Object.create(null);
+      let graded = false;
+      let storageAvailable = true;
+
+      function shuffle(items) {
+        const shuffled = items.slice();
+
+        for (let index = shuffled.length - 1; index > 0; index -= 1) {
+          const swapIndex = Math.floor(Math.random() * (index + 1));
+          [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+        }
+
+        return shuffled;
+      }
+
+      function setStorageStatus(message) {
+        storageStatus.textContent = message;
+      }
+
+      function saveAttempt() {
+        try {
+          localStorage.setItem(storageKey, JSON.stringify({
+            signature: JSON.stringify(metrics),
+            answers,
+            graded
+          }));
+          setStorageStatus('Your answers are saved on this device.');
+        } catch (error) {
+          storageAvailable = false;
+          setStorageStatus('Progress cannot be saved in this browser. Refreshing or closing the page may lose your answers.');
+        }
+      }
+
+      function loadAttempt() {
+        try {
+          const stored = localStorage.getItem(storageKey);
+
+          if (!stored) {
+            return null;
+          }
+
+          const attempt = JSON.parse(stored);
+
+          if (!attempt || attempt.signature !== JSON.stringify(metrics) ||
+            !attempt.answers || typeof attempt.answers !== 'object') {
+            return null;
+          }
+
+          return attempt;
+        } catch (error) {
+          storageAvailable = false;
+          setStorageStatus('Progress cannot be saved in this browser. Refreshing or closing the page may lose your answers.');
+          return null;
+        }
+      }
+
+      function updateProgress() {
+        const answeredCount = metricTypes.filter((metric) =>
+          Object.prototype.hasOwnProperty.call(answers, metric.name) &&
+          categories.includes(answers[metric.name])
+        ).length;
+        progress.textContent = `${answeredCount} of ${metricTypes.length} answered`;
+      }
+
+      function renderQuestions(order) {
+        questionList.replaceChildren();
+
+        order.forEach((metric, index) => {
+          const item = document.createElement('li');
+          const label = document.createElement('label');
+          const select = document.createElement('select');
+          const feedback = document.createElement('p');
+          const id = `metric-category-${index}`;
+          const placeholder = document.createElement('option');
+
+          item.className = 'c-quiz__item';
+          label.className = 'c-quiz__label';
+          label.htmlFor = id;
+          label.textContent = metric.name;
+          select.className = 'c-quiz__select';
+          select.id = id;
+          select.required = true;
+          select.dataset.metric = metric.name;
+          placeholder.value = '';
+          placeholder.textContent = 'choose a category';
+          select.append(placeholder);
+
+          categories.forEach((category) => {
+            const option = document.createElement('option');
+            option.value = category;
+            option.textContent = category === 'kpi' ? 'KPI' : category;
+            select.append(option);
+          });
+
+          if (Object.prototype.hasOwnProperty.call(answers, metric.name) &&
+            categories.includes(answers[metric.name])) {
+            select.value = answers[metric.name];
+          }
+
+          select.disabled = graded;
+          select.addEventListener('change', () => {
+            answers[metric.name] = select.value;
+            updateProgress();
+            saveAttempt();
+          });
+
+          feedback.className = 'c-quiz__feedback';
+          feedback.id = `${id}-feedback`;
+          feedback.dataset.metricFeedback = metric.name;
+          select.setAttribute('aria-describedby', feedback.id);
+          item.append(label, select, feedback);
+          questionList.append(item);
+        });
+
+        checkButton.disabled = graded;
+        updateProgress();
+        if (graded) {
+          showResults(false);
+        }
+      }
+
+      function showResults(moveFocus) {
+        let correctCount = 0;
+
+        metricTypes.forEach((metric) => {
+          if (answers[metric.name] === metric.category) {
+            correctCount += 1;
+          }
+        });
+
+        result.textContent = `${correctCount} of ${metricTypes.length} correct`;
+
+        Array.from(questionList.querySelectorAll('[data-metric-feedback]')).forEach((feedback) => {
+          const metricName = feedback.dataset.metricFeedback;
+          const metric = metricTypes.find((entry) => entry.name === metricName);
+          const answer = answers[metricName];
+          const isCorrect = answer === metric.category;
+          feedback.classList.toggle('c-quiz__feedback--correct', isCorrect);
+          feedback.classList.toggle('c-quiz__feedback--incorrect', !isCorrect);
+          feedback.textContent = isCorrect
+            ? 'correct'
+            : `your answer: ${answer === 'kpi' ? 'KPI' : answer}; expected: ${metric.category === 'kpi' ? 'KPI' : metric.category}`;
+        });
+
+        if (moveFocus) {
+          result.focus();
+        }
+      }
+
+      const configIsValid = metricTypes.every((metric) =>
+        metric && typeof metric.name === 'string' && metric.name.length > 0 &&
+        categories.includes(metric.category)
+      ) && new Set(metricTypes.map((metric) => metric.name)).size === metricTypes.length;
+
+      if (configIsValid) {
+        const attempt = loadAttempt();
+
+        if (attempt) {
+          metricTypes.forEach((metric) => {
+            if (Object.prototype.hasOwnProperty.call(attempt.answers, metric.name) &&
+              categories.includes(attempt.answers[metric.name])) {
+              answers[metric.name] = attempt.answers[metric.name];
+            }
+          });
+          graded = attempt.graded === true && metricTypes.every((metric) =>
+            Object.prototype.hasOwnProperty.call(answers, metric.name)
+          );
+        }
+
+        renderQuestions(shuffle(metricTypes));
+        if (storageAvailable && attempt) {
+          setStorageStatus('Your answers are saved on this device.');
+        }
+
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          if (!form.reportValidity() || graded) {
+            return;
+          }
+
+          graded = true;
+          renderQuestions(Array.from(questionList.children, (item) => {
+            const select = item.querySelector('select');
+            return metricTypes.find((metric) => metric.name === select.dataset.metric);
+          }));
+          showResults(true);
+          saveAttempt();
+        });
+
+        document.getElementById('start-again').addEventListener('click', () => {
+          answers = Object.create(null);
+          graded = false;
+          result.textContent = '';
+          try {
+            localStorage.removeItem(storageKey);
+          } catch (error) {
+            storageAvailable = false;
+            setStorageStatus('Progress cannot be saved in this browser. Refreshing or closing the page may lose your answers.');
+          }
+          if (storageAvailable) {
+            setStorageStatus('');
+          }
+          renderQuestions(shuffle(metricTypes));
+        });
+      } else {
+        questionList.textContent = 'The quiz configuration contains an invalid metric or category.';
+        checkButton.disabled = true;
+        document.getElementById('start-again').disabled = true;
+      }
+    </script>
+  </body>
+</html>
