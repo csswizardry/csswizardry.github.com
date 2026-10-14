@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Performance Budgets, Pragmatically"
+title: "Web Performance Budgets, Pragmatically"
 date: 2020-01-08 18:19:10
 categories:
   - Web Performance
