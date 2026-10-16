@@ -8,12 +8,19 @@ tags:
   - Performance Budgets
   - Measurement
 show_taxonomy: true
-meta: "If you’ve ever struggled to define performance budgets, this off-the-shelf trick is what you’re looking for."
+meta: "If you’ve ever struggled to define web performance budgets, this off-the-shelf trick is what you’re looking for."
+last_modified_at: 2026-10-16 11:09:14
 ---
 
+<p class="c-highlight">
+After chatting with <a href="http://olgaloboda.com/">Olga Loboda</a> about
+web performance budgets recently, she made an excellent point. This article has been
+updated to echo her insights.
+</p>
+
 One of the key tools that performance engineers have at their disposal is the
-Performance Budget: it helps us — or, more importantly, our clients — ensure that
-any performance-focused work is monitored and maintained after we’ve gone.
+New Performance Budget: it helps us — or, more importantly, our clients — ensure
+that any performance-focused work is monitored and maintained after we’ve gone.
 
 By establishing an acceptable threshold, be that based on RUM data, bundle
 analysis, image weight, milestone timings, or any other suitable metric, we can
@@ -27,32 +34,75 @@ budgets actually be?!</q>**
 ## Targets vs. Safeguards
 
 When faced with the task of setting a brand new budget, it can feel
-daunting — almost paralysing — trying to find a value that is both attainable but
-effective. Is it too ambitious? Is it not ambitious enough? Is it going to be
-really difficult to hit? Or do we risk making it so easy to achieve that it’s
+daunting — almost paralysing — trying to find a value that is both attainable
+but effective. Is it too ambitious? Is it not ambitious enough? Is it going to
+be really difficult to hit? Or do we risk making it so easy to achieve that it’s
 almost pointless? How do we know? How long will it take to find out?
 
 Here’s the thing: **most organisations aren’t ready for challenges, they’re in
-need of safety nets.** Performance budgets should not be things to work toward,
-they should be things that stop us slipping past a certain point. They shouldn’t
-be aspirational, they should be preventative.
+need of safety nets.** Web performance budgets should not be things to work
+toward, they should be things that stop us slipping past a certain point. They
+shouldn’t be aspirational, they should be preventative.
 
-Time and again I hear clients discussing their performance budgets in terms of
-goals: <q>We’re aiming toward a budget of 250KB uncompressed JavaScript</q>;
+Time and again I hear clients discussing their web performance budgets in terms
+of goals: <q>We’re aiming toward a budget of 250KB uncompressed JavaScript</q>;
 <q>we hope to be interactive in 2.75s</q>. While it’s absolutely vital that
 these goals exist and are actively worked toward, this is not part of your
 budgeting. Your budgeting is actually far, far simpler:
 
 <q>Our budget for <var>[metric]</var> is never-worse-than-it-is-right-now.</q>
 
+## <ins>Setting Your First Web Performance Budget</ins>
+
+<ins>Previously I had written that teams should use <q>the worst</q> data point
+in the preceding period to define their first ever web performance budget. <a
+href="http://olgaloboda.com/">Olga</a> rightly pointed out that this leaves us
+susceptible to outliers as we’re effectively picking the 100th percentile
+metric — something which in hindsight feels like a blindingly obvious oversight.
+Imagine LCP hovers around 2.2 seconds, but we have one day in which it sky
+rocketed to 7.1; setting our budget at 7.1 seconds going forward is not only not
+very representative, it also _permits_ regressions of up to, say, 6.8 seconds
+with no repercussions. We could completely ruin the user experience but still
+clear the bar.</ins>
+
+<ins>Instead, rather than picking the _very_ worst, we **pick perhaps the 90th
+or 95th percentile** worst visit to try and account for anomalies and
+outliers.</ins>
+
+<ins>If, like most of the web development world, you are benchmarking on your
+75th percentile (P75), this would likely mean looking at the 90th percentile of
+your daily P75 data, though your mileage may vary.</ins>
+
+<ins>To make like easier, I have created <a
+href="https://docs.google.com/spreadsheets/d/1cxLuF1TKxPd_32xbF4IUfmMUDytOFcLYInxr-kCE7b8/edit?usp=sharing">a
+simple Google Sheet template</a> into which you paste time series data for your
+chosen metric and its timestamps, e.g.:</ins>
+
+```csv
+DateTime,            LCP (seconds)
+2026-10-02 01:00:00, 0.63
+2026-10-02 07:00:00, 0.88
+2026-10-02 13:00:00, 0.63
+2026-10-02 19:00:00, 0.92
+...
+```
+
+<ins><small>The more data points you can pass into it, the more sound the
+recommendation. You can see here that SpeedCurve samples four times per day in
+a two-week time series.</small></ins>
+
+<ins>…and it will automatically tell you the mean, median, P75, P90, P95, and
+P99 of the data. It automatically suggests P90 as your new budget.</ins>
+
 ## The Last Two Weeks
 
 Whatever monitoring you use (I adore [SpeedCurve](https://speedcurve.com) and
 [Treo](https://treo.sh/)), my suggestion for setting a budget for any trackable
-metric is to take the worst data point in the past two weeks and use that as
-your limit. Load times were 7.2s? You’re not allowed to get any slower than
-that. JS size was 478KB? You can’t introduce any more without refactoring what’s
-already there. 68 third party requests? You can’t add any more.
+metric is to take <del>worst</del> <ins>a representative worst</ins> data point
+in the past two weeks and use that as your limit. Load times were 7.2s? You’re
+not allowed to get any slower than that. JS size was 478KB? You can’t introduce
+any more without refactoring what’s already there. 68 third party requests? You
+can’t add any more.
 
 Then, every two weeks, you revisit your monitoring and one of three things can
 happen:
@@ -62,9 +112,9 @@ happen:
    6.8s — well done! Now your budget gets updated to 6.8s and your job is to not
    regress beyond that.
 2. **Your new worst-point is the same as the last one:** This is still good
-   news — we haven’t regressed! But we haven’t improved, either. In this scenario,
-   we don’t need to do anything. Instead, we just leave the budget as it was and
-   hope we can continue on the same path.
+   news — we haven’t regressed! But we haven’t improved, either. In this
+   scenario, we don’t need to do anything. Instead, we just leave the budget as it
+   was and hope we can continue on the same path.
 3. **Your new worst-point is worse than the last one:** Uh oh. This is bad news.
    Things have slipped. In this scenario, we do not alter the budget. We can’t
    increase budgets unless there is a very valid and agreed reason to do so.
@@ -72,11 +122,11 @@ happen:
 
 By constantly revisiting and redefining budgets in two-weekly snapshots, we’re
 able to make slow, steady, and incremental improvements. But the key thing to
-remember is that we can’t ever increase a performance budget; we can’t change
-the test just to make it passable. We can maintain or decrease one, but we can’t
-increase it, because that would completely undermine them.
+remember is that we can’t ever increase a web performance budget; we can’t
+change the test just to make it passable. We can maintain or decrease one, but
+we can’t increase it, because that would completely undermine them.
 
-## Example Performance Budgets
+## Example web Performance Budgets
 
 The following SpeedCurve charts respectively show the Visually Complete, Start
 Render, and Fully Loaded budgets for CSS Wizardry over a 3G Galaxy S4 from the
@@ -124,7 +174,7 @@ things.
 
 ## Your Turn
 
-Setting performance budgets doesn’t need to be complex or confusing, you simply
-need some existing data, some monitoring, and to remember that budgets and
-targets are two different things. Don’t make life difficult by treating
+Setting web performance budgets doesn’t need to be complex or confusing, you
+simply need some existing data, some monitoring, and to remember that budgets
+and targets are two different things. Don’t make life difficult by treating web
 performance budgets as aspirations.
