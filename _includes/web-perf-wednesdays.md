@@ -1,6 +1,7 @@
 ### More Web-Perf Wednesdays
 
 <ol reversed>
+  <li><a href="/2026/11/web-perf-wednesday-016-lighthouse-13-6-can-lift-scores-without-a-faster-site/">Web-Perf Wednesday 016 – Lighthouse 13.6 Can Lift Scores Without a Faster Site</a></li>
   <li><a href="/2026/10/web-perf-wednesday-015-failed-modulepreloads-need-to-recover/">Web-Perf Wednesday 015 – Failed Modulepreloads Need to Recover</a></li>
   <li><a href="/2026/10/web-perf-wednesday-014-performance-budgets-need-a-representative-worst/">Web-Perf Wednesday 014 – Performance Budgets Need a Representative Worst</a></li>
   <li><a href="/2026/10/web-perf-wednesday-013-crux-adds-soft-navigation-core-web-vitals/">Web-Perf Wednesday 013 – CrUX Adds Soft-Navigation Core Web Vitals</a></li>
