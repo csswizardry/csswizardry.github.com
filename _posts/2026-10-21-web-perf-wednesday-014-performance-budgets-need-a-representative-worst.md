@@ -5,6 +5,7 @@ date: 2026-10-21 12:00:00 +0100
 categories:
   - Web Performance
 tags:
+  - Web-Perf Wednesdays
   - Performance Budgets
   - Measurement
   - Safari

@@ -5,6 +5,7 @@ date: 2026-11-04 12:00:00 +0000
 categories:
   - Web Performance
 tags:
+  - Web-Perf Wednesdays
   - Lighthouse
   - Measurement
   - Tooling

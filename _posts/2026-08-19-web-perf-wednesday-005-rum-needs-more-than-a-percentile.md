@@ -5,6 +5,7 @@ date: 2026-08-19 12:00:00 +0100
 categories:
   - Web Performance
 tags:
+  - Web-Perf Wednesdays
   - RUM
   - DevTools
 show_taxonomy: true

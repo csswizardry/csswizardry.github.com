@@ -5,6 +5,7 @@ date: 2026-10-07 12:00:00 +0100
 categories:
   - Web Performance
 tags:
+  - Web-Perf Wednesdays
   - Measurement
 show_taxonomy: true
 main: ""

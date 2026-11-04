@@ -5,6 +5,7 @@ date: 2026-09-09 12:00:00 +0100
 categories:
   - Web Performance
 tags:
+  - Web-Perf Wednesdays
   - Core Web Vitals
   - RUM
 show_taxonomy: true

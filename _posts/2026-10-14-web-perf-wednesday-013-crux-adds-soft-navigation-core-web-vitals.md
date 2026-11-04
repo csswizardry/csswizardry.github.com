@@ -5,6 +5,7 @@ date: 2026-10-14 12:00:00 +0100
 categories:
   - Web Performance
 tags:
+  - Web-Perf Wednesdays
   - Core Web Vitals
   - SPAs
   - RUM
