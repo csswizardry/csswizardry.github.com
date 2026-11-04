@@ -10,7 +10,6 @@ tags:
   - Caching
   - Tooling
 show_taxonomy: true
-main: ""
 meta: "Safari 27 adds scroll anchoring, tighter HTTP caching, and static Service Worker routes, while Chrome improves performance tooling."
 ---
 

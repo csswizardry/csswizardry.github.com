@@ -11,7 +11,6 @@ tags:
   - Tooling
   - Safari
 show_taxonomy: true
-main: ""
 meta: "Lighthouse 13.6 changes simulated FCP and LCP, so PageSpeed Insights scores can improve even when the page itself has not changed."
 ---
 

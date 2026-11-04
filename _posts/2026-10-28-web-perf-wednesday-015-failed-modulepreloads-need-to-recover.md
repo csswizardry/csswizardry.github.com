@@ -11,7 +11,6 @@ tags:
   - Safari
   - Firefox
 show_taxonomy: true
-main: ""
 meta: "WebKit fixes failed modulepreloads that could block recovery, while Safari and Firefox improve performance tooling and browser responsiveness."
 ---
 

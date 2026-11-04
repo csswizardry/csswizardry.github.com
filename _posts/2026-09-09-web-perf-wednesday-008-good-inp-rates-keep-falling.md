@@ -9,7 +9,6 @@ tags:
   - Core Web Vitals
   - RUM
 show_taxonomy: true
-main: ""
 meta: "CrUX shows another fall in good INP experiences, making careful attribution more useful than a quick explanation."
 ---
 

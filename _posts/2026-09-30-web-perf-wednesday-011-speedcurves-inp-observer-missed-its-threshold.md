@@ -10,7 +10,6 @@ tags:
   - INP
   - Tooling
 show_taxonomy: true
-main: ""
 meta: "A long-standing lux.js bug left Event Timing on its 104 ms default, while browser releases improve testing and rendering performance."
 ---
 

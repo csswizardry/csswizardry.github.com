@@ -9,7 +9,6 @@ tags:
   - RUM
   - Third Parties
 show_taxonomy: true
-main: ""
 meta: "CrUX adds public ad count, density, CPU, and network metrics, giving publishers and advertisers a shared view of real ad weight."
 ---
 

@@ -8,7 +8,6 @@ tags:
   - Web-Perf Wednesdays
   - Measurement
 show_taxonomy: true
-main: ""
 meta: "A quiet week leaves room to revisit unfinished performance investigations and turn partial evidence into a clear next step."
 quiet: true
 ---

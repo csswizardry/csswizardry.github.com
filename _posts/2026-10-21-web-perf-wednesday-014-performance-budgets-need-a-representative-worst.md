@@ -10,7 +10,6 @@ tags:
   - Measurement
   - Safari
 show_taxonomy: true
-main: ""
 meta: "Performance budgets need a representative worst, while Safari changes identity resolution and Chrome improves module recovery and memory debugging."
 ---
 

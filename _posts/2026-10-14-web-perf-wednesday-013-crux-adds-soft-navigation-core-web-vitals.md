@@ -10,7 +10,6 @@ tags:
   - SPAs
   - RUM
 show_taxonomy: true
-main: ""
 meta: "CrUX adds experimental Core Web Vitals for SPA soft navigations, while Firefox and Safari improve cache evidence, image delivery, and rendering."
 ---
 
